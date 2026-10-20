@@ -10,6 +10,7 @@ public class Users {
     private String phone;
     private String address;
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     public Users() {}
     public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address) {
@@ -23,6 +24,20 @@ public class Users {
         this.createdAt = LocalDateTime.now();
     }
 
+    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.userId = userId;
+        this.username = username;
+        this.email = email;
+        this.passwordHash = passwordHash;
+        this.fullName = fullName;
+        this.phone = phone;
+        this.address = address;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+    
+    
+
     public Users(String username, String email, String passwordHash, String fullName, String phone, String address, LocalDateTime createdAt) {
         this.username = username;
         this.email = email;
@@ -32,6 +47,12 @@ public class Users {
         this.address = address;
         this.createdAt = createdAt;
     }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+    
+    
 
     public int getUserId() {
         return userId;
@@ -95,5 +116,9 @@ public class Users {
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

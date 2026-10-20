@@ -10,9 +10,22 @@ public class SellerProfiles {
     private String bio;
     private String status;
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     // Constructors
     public SellerProfiles() {}
+
+    public SellerProfiles(int sellerProfileID, int userID, String shopName, String businessLicenseUrl, String bio, String status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.sellerProfileID = sellerProfileID;
+        this.userID = userID;
+        this.shopName = shopName;
+        this.businessLicenseUrl = businessLicenseUrl;
+        this.bio = bio;
+        this.status = status;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+    
 
     public SellerProfiles(int userID, String shopName, String businessLicenseUrl, String bio, String status) {
         this.userID = userID;
@@ -23,7 +36,10 @@ public class SellerProfiles {
         this.createdAt = LocalDateTime.now();
     }
 
-    // Getters and Setters
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
     public int getSellerProfileID() {
         return sellerProfileID;
     }
@@ -78,5 +94,9 @@ public class SellerProfiles {
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

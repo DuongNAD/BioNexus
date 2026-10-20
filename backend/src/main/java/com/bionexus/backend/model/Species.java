@@ -10,10 +10,22 @@ public class Species {
     private String commonName;
     private String conservationStatus;
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     // Constructors
     public Species() {}
 
+    public Species(int speciesID, int nodeID, int managedByAdminID, String scientificName, String commonName, String conservationStatus, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.speciesID = speciesID;
+        this.nodeID = nodeID;
+        this.managedByAdminID = managedByAdminID;
+        this.scientificName = scientificName;
+        this.commonName = commonName;
+        this.conservationStatus = conservationStatus;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+    
     public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, String conservationStatus) {
         this.nodeID = nodeID;
         this.managedByAdminID = managedByAdminID;
@@ -24,6 +36,16 @@ public class Species {
     }
 
     // Getters and Setters
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+    
+    
     public int getSpeciesID() {
         return speciesID;
     }

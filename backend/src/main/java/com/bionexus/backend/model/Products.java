@@ -14,10 +14,11 @@ public class Products {
     private String status;
     private int moderatedByAdminID;
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     public Products() {}
 
-    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, String status, int moderatedByAdminID, LocalDateTime createdAt) {
+    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, String status, int moderatedByAdminID, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.productID = productID;
         this.sellerProfileID = sellerProfileID;
         this.speciesID = speciesID;
@@ -29,6 +30,7 @@ public class Products {
         this.status = status;
         this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
     }
 
     public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, String status, int moderatedByAdminID) {
@@ -44,6 +46,15 @@ public class Products {
         this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = LocalDateTime.now();
     }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+    
 
     public int getProductID() {
         return productID;

@@ -9,15 +9,34 @@ public class Admins {
     private String password_hash;
     private String adminRole;
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 
     public Admins() {}
 
-    public Admins(String fullName, String account, String password_hash, String adminRole) {
+    public Admins(String fullName, String account, String password_hash, String adminRole, LocalDateTime createdAt) {
+        this.fullName = fullName;
+        this.account = account;
+        this.password_hash = password_hash;
+        this.adminRole = adminRole;    
+        this.createdAt = LocalDateTime.now();
+    }
+
+    public Admins(int adminID, String fullName, String account, String password_hash, String adminRole, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.adminID = adminID;
         this.fullName = fullName;
         this.account = account;
         this.password_hash = password_hash;
         this.adminRole = adminRole;
-        this.createdAt = LocalDateTime.now();
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
     }
 
     public int getAdminID() {
@@ -67,5 +86,6 @@ public class Admins {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
+    
 }
 

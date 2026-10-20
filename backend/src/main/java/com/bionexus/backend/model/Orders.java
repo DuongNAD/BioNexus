@@ -10,16 +10,18 @@ public class Orders {
     private String orderCode;
     private int userId;
     private LocalDateTime orderDate;
+    private LocalDateTime updatedAt;
     private BigDecimal orderAmount;
     private OrderStatus status;
     private String shippingAddress;
 
     public Orders() {}
-    public Orders(long orderId, String orderCode, int userId, LocalDateTime orderDate, BigDecimal orderAmount, OrderStatus status, String shippingAddress) {
+    public Orders(long orderId, String orderCode, int userId, LocalDateTime orderDate, LocalDateTime updatedAt, BigDecimal orderAmount, OrderStatus status, String shippingAddress) {
         this.orderId = orderId;
         this.orderCode = orderCode;
         this.userId = userId;
         this.orderDate = orderDate;
+        this.updatedAt = updatedAt;
         this.orderAmount = orderAmount;
         this.status = status;
         this.shippingAddress = shippingAddress;
@@ -34,6 +36,14 @@ public class Orders {
         this.shippingAddress = shippingAddress;
     }
 
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+    
     public long getOrderId() {
         return orderId;
     }

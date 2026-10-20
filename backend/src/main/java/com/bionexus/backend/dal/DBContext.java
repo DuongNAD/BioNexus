@@ -9,7 +9,7 @@ import jakarta.servlet.annotation.*;
 
 public class DBContext{
     private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=BioNexusDB;encrypt=true;trustServerCertificate=true";
-    private static final String USERNAME = "admin";
+    private static final String USERNAME = "sa";
     private static final String PASSWORD = "123";
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
