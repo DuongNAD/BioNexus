@@ -7,6 +7,7 @@ BEGIN
 END
 
 CREATE DATABASE BioNexusDB;
+GO
 
 USE BioNexusDB;
 
