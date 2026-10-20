@@ -19,7 +19,8 @@ create table Users(
 	fullName nvarchar(100) not null,
 	phone varchar(15),
 	address nvarchar(255),
-	createdAt datetime2 default sysdatetime()
+	createdAt datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_Users_updatedAt default sysdatetime()
 )
 
 create table Orders(
@@ -27,6 +28,7 @@ create table Orders(
 	orderCode varchar(20) not null unique,
 	userID int not null,
 	orderDate datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_Orders_updatedAt default sysdatetime(),
 	totalAmount decimal(18,2) not null,
 	status varchar(20) not null default 'PENDING',
 	shippingAddress nvarchar(255) not null,
@@ -55,6 +57,7 @@ create table SellerProfiles(
 	status varchar(20) not null default 'PENDING',
 	approvedByAdminID int,
 	createdAt datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_SellerProfiles_updatedAt default sysdatetime(),
 
 	constraint CK_SellerProfiles_Status check (status in ('PENDING','ACTIVE','REJECTED','BANNED')),
 	constraint FK_SellerProfiles_Admins foreign key(approvedByAdminID) references Admins(adminID),
@@ -84,7 +87,8 @@ create table Species(
 	description nvarchar(max),
 	imageUrl varchar(500),
 	referenceUrl varchar(500),
-	createdAt datetime2 default sysdatetime(), 
+	createdAt datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_Species_updatedAt default sysdatetime(),
 
 	constraint CK_Species_Conservation check (conservationStatus in ('LC','NT','VU','EN','CR','EW','EX')),
 	constraint FK_Species_Taxonomy foreign key(nodeID) references TaxonomyNodes(nodeID),
@@ -103,6 +107,7 @@ create table Products(
 	status varchar(20) not null default 'PENDING',
 	moderatedByAdminID int,
 	createdAt datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_Products_updatedAt default sysdatetime(),
 
 	constraint CK_Products_status check ( status in ('PENDING','APPROVED','REJECTED','SOLD_OUT')),
 	constraint CK_Products_Price check (price >=0),
