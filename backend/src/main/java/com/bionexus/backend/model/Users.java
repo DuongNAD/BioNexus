@@ -1,0 +1,99 @@
+package com.bionexus.backend.model;
+import java.time.LocalDateTime;
+
+public class Users {
+    private int userId;
+    private String username;
+    private String email;
+    private String passwordHash;
+    private String fullName;
+    private String phone;
+    private String address;
+    private LocalDateTime createdAt;
+
+    public Users() {}
+    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address) {
+        this.userId = userId;
+        this.username = username;
+        this.email = email;
+        this.passwordHash = passwordHash;
+        this.fullName = fullName;
+        this.phone = phone;
+        this.address = address;
+        this.createdAt = LocalDateTime.now();
+    }
+
+    public Users(String username, String email, String passwordHash, String fullName, String phone, String address, LocalDateTime createdAt) {
+        this.username = username;
+        this.email = email;
+        this.passwordHash = passwordHash;
+        this.fullName = fullName;
+        this.phone = phone;
+        this.address = address;
+        this.createdAt = createdAt;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getPasswordHash() {
+        return passwordHash;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+}
