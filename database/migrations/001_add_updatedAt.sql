@@ -19,6 +19,7 @@ INSERT INTO @targets (tableName, sourceColumn) VALUES
     ('Users',          'createdAt'),
     ('Orders',         'orderDate'),
     ('SellerProfiles', 'createdAt'),
+	('Admins',         'createdAt'),
     ('Species',        'createdAt'),
     ('Products',       'createdAt');
 
