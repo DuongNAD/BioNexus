@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 public class SellerProfiles {
     private int sellerProfileID;
     private int userID;
+    private int approvedByAdminID;
     private String shopName;
     private String businessLicenseUrl;
     private String bio;
@@ -15,7 +16,7 @@ public class SellerProfiles {
     // Constructors
     public SellerProfiles() {}
 
-    public SellerProfiles(int sellerProfileID, int userID, String shopName, String businessLicenseUrl, String bio, String status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public SellerProfiles(int sellerProfileID, int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, String status, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.sellerProfileID = sellerProfileID;
         this.userID = userID;
         this.shopName = shopName;
@@ -27,8 +28,9 @@ public class SellerProfiles {
     }
     
 
-    public SellerProfiles(int userID, String shopName, String businessLicenseUrl, String bio, String status) {
+    public SellerProfiles(int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, String status) {
         this.userID = userID;
+        this.approvedByAdminID = approvedByAdminID;
         this.shopName = shopName;
         this.businessLicenseUrl = businessLicenseUrl;
         this.bio = bio;
@@ -50,6 +52,14 @@ public class SellerProfiles {
 
     public int getUserID() {
         return userID;
+    }
+
+    public int getApprovedByAdminID() {
+        return approvedByAdminID;
+    }
+
+    public void setApprovedByAdminID(int approvedByAdminID) {
+        this.approvedByAdminID = approvedByAdminID;
     }
 
     public void setUserID(int userID) {
