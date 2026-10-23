@@ -42,10 +42,11 @@ create table Admins(
 	fullName nvarchar(100) not null,
 	account varchar(50) not null unique,
 	password_hash varchar(255) not null,
-	adminRole varchar(20) not null default 'MODERATOR' ,
+	adminRole varchar(20) not null,
+    status varchar(10) default 'ACTIVE',
 	createdAt datetime2 default sysdatetime(),
 	updatedAt datetime2 default sysdatetime(),
-
+    constraint CK_Admins_status check ( status in('ACTIVE','INACTIVE','BANNED') ),
 	constraint CK_Admins_adminRole check ( adminRole in ('MODERATOR','BIOLOGIST','SUPER_ADMIN'))
 )
 

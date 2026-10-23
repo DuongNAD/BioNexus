@@ -2,7 +2,7 @@ package com.bionexus.backend.enums;
 
 public enum SellerProfileStatus {
     PENDING,
-    APPROVED,
+    ACTIVE,
     REJECTED,
     BANNED,
 }

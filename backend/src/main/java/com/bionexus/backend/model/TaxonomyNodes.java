@@ -1,16 +1,18 @@
 package com.bionexus.backend.model;
 
+import com.bionexus.backend.enums.TaxonomyRank;
+
 public class TaxonomyNodes {
     private int nodeID;
     private String scientificName;
     private String commonName;
-    private String rankLevel;
+    private TaxonomyRank rankLevel;
     private Integer parentNodeID;
 
     // Constructors
     public TaxonomyNodes() {}
 
-    public TaxonomyNodes(String scientificName, String commonName, String rankLevel, Integer parentNodeID) {
+    public TaxonomyNodes(String scientificName, String commonName, TaxonomyRank rankLevel, Integer parentNodeID) {
         this.scientificName = scientificName;
         this.commonName = commonName;
         this.rankLevel = rankLevel;
@@ -42,11 +44,10 @@ public class TaxonomyNodes {
         this.commonName = commonName;
     }
 
-    public String getRankLevel() {
+    public TaxonomyRank getRankLevel() {
         return rankLevel;
     }
-
-    public void setRankLevel(String rankLevel) {
+    public void setRankLevel(TaxonomyRank rankLevel) {
         this.rankLevel = rankLevel;
     }
 

@@ -1,4 +1,6 @@
 package com.bionexus.backend.model;
+import com.bionexus.backend.enums.UserStatus;
+
 import java.time.LocalDateTime;
 
 public class Users {
@@ -9,22 +11,23 @@ public class Users {
     private String fullName;
     private String phone;
     private String address;
+    private UserStatus userStatus;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     public Users() {}
-    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address) {
-        this.userId = userId;
+    public Users(String username, String email, String passwordHash, String fullName, String phone, String address, UserStatus userStatus) {
         this.username = username;
         this.email = email;
         this.passwordHash = passwordHash;
         this.fullName = fullName;
         this.phone = phone;
         this.address = address;
+        this.userStatus = userStatus.ACTIVE;
         this.createdAt = LocalDateTime.now();
     }
 
-    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address,UserStatus userStatus, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.userId = userId;
         this.username = username;
         this.email = email;
@@ -32,20 +35,9 @@ public class Users {
         this.fullName = fullName;
         this.phone = phone;
         this.address = address;
+        this.userStatus = userStatus;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
-    }
-    
-    
-
-    public Users(String username, String email, String passwordHash, String fullName, String phone, String address, LocalDateTime createdAt) {
-        this.username = username;
-        this.email = email;
-        this.passwordHash = passwordHash;
-        this.fullName = fullName;
-        this.phone = phone;
-        this.address = address;
-        this.createdAt = createdAt;
     }
 
     public LocalDateTime getUpdatedAt() {
@@ -112,6 +104,13 @@ public class Users {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public void setUserStatus(UserStatus userStatus) {
+        this.userStatus = userStatus;
+    }
+    public UserStatus getUserStatus() {
+        return userStatus;
     }
 
     public void setCreatedAt(LocalDateTime createdAt) {

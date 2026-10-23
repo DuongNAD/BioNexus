@@ -1,5 +1,7 @@
 package com.bionexus.backend.model;
 
+import com.bionexus.backend.enums.ProductStatus;
+
 import java.time.LocalDateTime;
 
 public class Products {
@@ -11,14 +13,14 @@ public class Products {
     private int stockQuantity;
     private String description;
     private String imageUrl;
-    private String status;
+    private ProductStatus productStatus;
     private int moderatedByAdminID;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     public Products() {}
 
-    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, String status, int moderatedByAdminID, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, ProductStatus productStatus, int moderatedByAdminID, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.productID = productID;
         this.sellerProfileID = sellerProfileID;
         this.speciesID = speciesID;
@@ -27,14 +29,13 @@ public class Products {
         this.stockQuantity = stockQuantity;
         this.description = description;
         this.imageUrl = imageUrl;
-        this.status = status;
+        this.productStatus = productStatus;
         this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
 
-    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, String status, int moderatedByAdminID) {
-        this.productID = productID;
+    public Products(int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, int moderatedByAdminID) {
         this.sellerProfileID = sellerProfileID;
         this.speciesID = speciesID;
         this.productName = productName;
@@ -42,7 +43,7 @@ public class Products {
         this.stockQuantity = stockQuantity;
         this.description = description;
         this.imageUrl = imageUrl;
-        this.status = status;
+        this.productStatus = ProductStatus.ACTIVE;
         this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = LocalDateTime.now();
     }
@@ -88,8 +89,8 @@ public class Products {
         return imageUrl;
     }
 
-    public String getStatus() {
-        return status;
+    public ProductStatus getProductStatus() {
+        return productStatus;
     }
 
     public int getModeratedByAdminID() {
@@ -132,8 +133,8 @@ public class Products {
         this.imageUrl = imageUrl;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setProductStatus(ProductStatus productStatus) {
+        this.productStatus = productStatus;
     }
 
     public void setModeratedByAdminID(int moderatedByAdminID) {

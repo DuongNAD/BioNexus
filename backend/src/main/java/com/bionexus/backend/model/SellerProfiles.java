@@ -1,24 +1,27 @@
 package com.bionexus.backend.model;
 
+import com.bionexus.backend.enums.SellerProfileStatus;
+
 import java.time.LocalDateTime;
 
 public class SellerProfiles {
     private int sellerProfileID;
     private int userID;
-    private int approvedByAdminID;
+    private Integer approvedByAdminID;
     private String shopName;
     private String businessLicenseUrl;
     private String bio;
-    private String status;
+    private SellerProfileStatus status;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     // Constructors
     public SellerProfiles() {}
 
-    public SellerProfiles(int sellerProfileID, int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, String status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public SellerProfiles(int sellerProfileID, int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, SellerProfileStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.sellerProfileID = sellerProfileID;
         this.userID = userID;
+        this.approvedByAdminID = approvedByAdminID;
         this.shopName = shopName;
         this.businessLicenseUrl = businessLicenseUrl;
         this.bio = bio;
@@ -28,13 +31,12 @@ public class SellerProfiles {
     }
     
 
-    public SellerProfiles(int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, String status) {
+    public SellerProfiles(int userID, String shopName, String businessLicenseUrl, String bio) {
         this.userID = userID;
-        this.approvedByAdminID = approvedByAdminID;
         this.shopName = shopName;
         this.businessLicenseUrl = businessLicenseUrl;
         this.bio = bio;
-        this.status = status;
+        this.status = SellerProfileStatus.PENDING;
         this.createdAt = LocalDateTime.now();
     }
 
@@ -54,11 +56,11 @@ public class SellerProfiles {
         return userID;
     }
 
-    public int getApprovedByAdminID() {
+    public Integer getApprovedByAdminID() {
         return approvedByAdminID;
     }
 
-    public void setApprovedByAdminID(int approvedByAdminID) {
+    public void setApprovedByAdminID(Integer approvedByAdminID) {
         this.approvedByAdminID = approvedByAdminID;
     }
 
@@ -90,11 +92,10 @@ public class SellerProfiles {
         this.bio = bio;
     }
 
-    public String getStatus() {
+    public SellerProfileStatus getStatus() {
         return status;
     }
-
-    public void setStatus(String status) {
+    public void setStatus(SellerProfileStatus status) {
         this.status = status;
     }
 
