@@ -43,7 +43,7 @@ public class Products {
         this.stockQuantity = stockQuantity;
         this.description = description;
         this.imageUrl = imageUrl;
-        this.productStatus = ProductStatus.ACTIVE;
+        this.productStatus = ProductStatus.PENDING;
         this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = LocalDateTime.now();
     }

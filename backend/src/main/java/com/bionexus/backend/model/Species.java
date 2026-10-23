@@ -1,5 +1,7 @@
 package com.bionexus.backend.model;
 
+import com.bionexus.backend.enums.ConservationStatus;
+
 import java.time.LocalDateTime;
 
 public class Species {
@@ -8,7 +10,8 @@ public class Species {
     private int managedByAdminID;
     private String scientificName;
     private String commonName;
-    private String conservationStatus;
+    private ConservationStatus conservationStatus;
+    private String enviromentSpecs;
     private String description;
     private String imageUrl;
     private String referenceURL;
@@ -17,13 +20,14 @@ public class Species {
 
     public Species() {}
 
-    public Species(int speciesID, int nodeID, int managedByAdminID, String scientificName, String commonName, String conservationStatus, String description, String imageUrl, String referenceURL, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Species(int speciesID, int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String enviromentSpecs, String description, String imageUrl, String referenceURL, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.speciesID = speciesID;
         this.nodeID = nodeID;
         this.managedByAdminID = managedByAdminID;
         this.scientificName = scientificName;
         this.commonName = commonName;
         this.conservationStatus = conservationStatus;
+        this.enviromentSpecs = enviromentSpecs;
         this.description = description;
         this.imageUrl = imageUrl;
         this.referenceURL = referenceURL;
@@ -31,17 +35,17 @@ public class Species {
         this.updatedAt = updatedAt;
     }
 
-    public Species(LocalDateTime createdAt, String referenceURL, String imageUrl, String description, String conservationStatus, String commonName, String scientificName, int managedByAdminID, int nodeID, int speciesID) {
-        this.createdAt = createdAt;
-        this.referenceURL = referenceURL;
-        this.imageUrl = imageUrl;
-        this.description = description;
-        this.conservationStatus = conservationStatus;
-        this.commonName = commonName;
-        this.scientificName = scientificName;
-        this.managedByAdminID = managedByAdminID;
+    public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String enviromentSpecs, String description, String imageUrl, String referenceURL) {
         this.nodeID = nodeID;
-        this.speciesID = speciesID;
+        this.managedByAdminID = managedByAdminID;
+        this.scientificName = scientificName;
+        this.commonName = commonName;
+        this.conservationStatus = conservationStatus;
+        this.enviromentSpecs = enviromentSpecs;
+        this.description = description;
+        this.imageUrl = imageUrl;
+        this.referenceURL = referenceURL;
+        this.createdAt = LocalDateTime.now();
     }
 
     public int getSpeciesID() {
@@ -64,7 +68,7 @@ public class Species {
         return commonName;
     }
 
-    public String getConservationStatus() {
+    public ConservationStatus getConservationStatus() {
         return conservationStatus;
     }
 
@@ -88,6 +92,10 @@ public class Species {
         return updatedAt;
     }
 
+    public String getEnviromentSpecs() {
+        return enviromentSpecs;
+    }
+
     public void setSpeciesID(int speciesID) {
         this.speciesID = speciesID;
     }
@@ -108,8 +116,11 @@ public class Species {
         this.commonName = commonName;
     }
 
-    public void setConservationStatus(String conservationStatus) {
+    public void setConservationStatus(ConservationStatus conservationStatus) {
         this.conservationStatus = conservationStatus;
+    }
+    public void setEnvironmentSpecs(String enviromentSpecs) {
+        this.enviromentSpecs = enviromentSpecs;
     }
 
     public void setDescription(String description) {

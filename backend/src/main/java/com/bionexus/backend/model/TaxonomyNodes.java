@@ -17,7 +17,15 @@ public class TaxonomyNodes {
         this.commonName = commonName;
         this.rankLevel = rankLevel;
         this.parentNodeID = parentNodeID;
-    } 
+    }
+
+    public TaxonomyNodes(int nodeID, String scientificName, String commonName, TaxonomyRank rankLevel, Integer parentNodeID) {
+        this.nodeID = nodeID;
+        this.scientificName = scientificName;
+        this.commonName = commonName;
+        this.rankLevel = rankLevel;
+        this.parentNodeID = parentNodeID;
+    }
 
     // Getters and Setters
     public int getNodeID() {

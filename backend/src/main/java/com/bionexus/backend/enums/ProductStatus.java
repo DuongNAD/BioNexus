@@ -1,7 +1,7 @@
 package com.bionexus.backend.enums;
 
 public enum ProductStatus {
-    ACTIVE,
+    PENDING,
     APPROVED,
     REJECTED,
     SOLD_OUT,
