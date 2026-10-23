@@ -19,8 +19,11 @@ create table Users(
 	fullName nvarchar(100) not null,
 	phone varchar(15),
 	address nvarchar(255),
+    status varchar(10) default 'ACTIVE',
 	createdAt datetime2 default sysdatetime(),
-	updatedAt datetime2 constraint DF_Users_updatedAt default sysdatetime()
+	updatedAt datetime2 constraint DF_Users_updatedAt default sysdatetime(),
+
+	constraint CK_Users_Status check ( status in ('ACTIVE','INACTIVE','BANNED'))
 )
 
 create table Orders(

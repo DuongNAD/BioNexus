@@ -23,7 +23,7 @@ public class Users {
         this.fullName = fullName;
         this.phone = phone;
         this.address = address;
-        this.userStatus = userStatus.ACTIVE;
+        this.userStatus = UserStatus.ACTIVE;
         this.createdAt = LocalDateTime.now();
     }
 
