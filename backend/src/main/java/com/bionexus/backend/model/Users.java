@@ -6,8 +6,9 @@ import java.time.LocalDateTime;
 public class Users {
     private int userId;
     private String username;
-    private String email;
     private String passwordHash;
+    private String email;
+
     private String fullName;
     private String phone;
     private String address;
@@ -16,10 +17,10 @@ public class Users {
     private LocalDateTime updatedAt;
 
     public Users() {}
-    public Users(String username, String email, String passwordHash, String fullName, String phone, String address, UserStatus userStatus) {
+    public Users(String username,String passwordHash, String email,  String fullName, String phone, String address) {
         this.username = username;
-        this.email = email;
         this.passwordHash = passwordHash;
+        this.email = email;
         this.fullName = fullName;
         this.phone = phone;
         this.address = address;
@@ -27,11 +28,11 @@ public class Users {
         this.createdAt = LocalDateTime.now();
     }
 
-    public Users(int userId, String username, String email, String passwordHash, String fullName, String phone, String address,UserStatus userStatus, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Users(int userId, String username, String passwordHash,String email,  String fullName, String phone, String address,UserStatus userStatus, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.userId = userId;
         this.username = username;
-        this.email = email;
         this.passwordHash = passwordHash;
+        this.email = email;
         this.fullName = fullName;
         this.phone = phone;
         this.address = address;

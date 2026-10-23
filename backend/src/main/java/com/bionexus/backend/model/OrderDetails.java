@@ -1,14 +1,16 @@
 package com.bionexus.backend.model;
 
+import java.math.BigDecimal;
+
 public class OrderDetails {
     private long orderID;
     private int productID;
     private int quantity;
-    private double unitPrice;
+    private BigDecimal unitPrice;
 
     public OrderDetails() {}
 
-    public OrderDetails(long orderID, int productID, int quantity, double unitPrice) {
+    public OrderDetails(long orderID, int productID, int quantity, BigDecimal unitPrice) {
         this.orderID = orderID;
         this.productID = productID;
         this.quantity = quantity;
@@ -39,11 +41,11 @@ public class OrderDetails {
         this.quantity = quantity;
     }
 
-    public double getUnitPrice() {
+    public BigDecimal getUnitPrice() {
         return unitPrice;
     }
 
-    public void setUnitPrice(double unitPrice) {
+    public void setUnitPrice(BigDecimal unitPrice) {
         this.unitPrice = unitPrice;
     }
 }

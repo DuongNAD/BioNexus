@@ -18,7 +18,7 @@ public class SellerProfiles {
     // Constructors
     public SellerProfiles() {}
 
-    public SellerProfiles(int sellerProfileID, int userID, int approvedByAdminID, String shopName, String businessLicenseUrl, String bio, SellerProfileStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public SellerProfiles(int sellerProfileID, int userID, Integer approvedByAdminID, String shopName, String businessLicenseUrl, String bio, SellerProfileStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.sellerProfileID = sellerProfileID;
         this.userID = userID;
         this.approvedByAdminID = approvedByAdminID;

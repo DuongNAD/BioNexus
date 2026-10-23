@@ -9,7 +9,7 @@ public class Admins {
     private int adminID;
     private String fullName;
     private String account;
-    private String password_hash;
+    private String passwordHash;
     private AdminRole adminRole;
     private AdminStatus status;
     private LocalDateTime createdAt;
@@ -18,20 +18,20 @@ public class Admins {
     public Admins() {
     }
 
-    public Admins(String fullName, String account, String password_hash, AdminRole adminRole) {
+    public Admins(String fullName, String account, String passwordHash, AdminRole adminRole) {
         this.fullName = fullName;
         this.account = account;
-        this.password_hash = password_hash;
+        this.passwordHash = passwordHash;
         this.adminRole = adminRole;
         this.status = AdminStatus.ACTIVE;
         this.createdAt = LocalDateTime.now();
     }
 
-    public Admins(int adminID, String fullName, String account, String password_hash, AdminRole adminRole, AdminStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Admins(int adminID, String fullName, String account, String passwordHash, AdminRole adminRole, AdminStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.adminID = adminID;
         this.fullName = fullName;
         this.account = account;
-        this.password_hash = password_hash;
+        this.passwordHash = passwordHash;
         this.adminRole = adminRole;
         this.status = status;
         this.createdAt = createdAt;
@@ -50,8 +50,8 @@ public class Admins {
         return account;
     }
 
-    public String getPassword_hash() {
-        return password_hash;
+    public String getPasswordHash() {
+        return passwordHash;
     }
 
     public AdminRole getAdminRole() {
@@ -82,8 +82,8 @@ public class Admins {
         this.account = account;
     }
 
-    public void setPassword_hash(String password_hash) {
-        this.password_hash = password_hash;
+    public void setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
     }
 
     public void setAdminRole(AdminRole adminRole) {

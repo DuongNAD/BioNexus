@@ -55,6 +55,7 @@ public class TaxonomyNodes {
     public TaxonomyRank getRankLevel() {
         return rankLevel;
     }
+
     public void setRankLevel(TaxonomyRank rankLevel) {
         this.rankLevel = rankLevel;
     }

@@ -2,6 +2,7 @@ package com.bionexus.backend.model;
 
 import com.bionexus.backend.enums.ProductStatus;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class Products {
@@ -9,18 +10,18 @@ public class Products {
     private int sellerProfileID;
     private int speciesID;
     private String productName;
-    private double price;
+    private BigDecimal price;
     private int stockQuantity;
     private String description;
     private String imageUrl;
     private ProductStatus productStatus;
-    private int moderatedByAdminID;
+    private Integer moderatedByAdminID;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
     public Products() {}
 
-    public Products(int productID, int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, ProductStatus productStatus, int moderatedByAdminID, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Products(int productID, int sellerProfileID, int speciesID, String productName, BigDecimal price, int stockQuantity, String description, String imageUrl, ProductStatus productStatus, Integer moderatedByAdminID, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.productID = productID;
         this.sellerProfileID = sellerProfileID;
         this.speciesID = speciesID;
@@ -35,7 +36,7 @@ public class Products {
         this.updatedAt = updatedAt;
     }
 
-    public Products(int sellerProfileID, int speciesID, String productName, double price, int stockQuantity, String description, String imageUrl, int moderatedByAdminID) {
+    public Products(int sellerProfileID, int speciesID, String productName, BigDecimal price, int stockQuantity, String description, String imageUrl) {
         this.sellerProfileID = sellerProfileID;
         this.speciesID = speciesID;
         this.productName = productName;
@@ -44,7 +45,6 @@ public class Products {
         this.description = description;
         this.imageUrl = imageUrl;
         this.productStatus = ProductStatus.PENDING;
-        this.moderatedByAdminID = moderatedByAdminID;
         this.createdAt = LocalDateTime.now();
     }
 
@@ -73,7 +73,7 @@ public class Products {
         return productName;
     }
 
-    public double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
@@ -93,7 +93,7 @@ public class Products {
         return productStatus;
     }
 
-    public int getModeratedByAdminID() {
+    public Integer getModeratedByAdminID() {
         return moderatedByAdminID;
     }
 
@@ -117,7 +117,7 @@ public class Products {
         this.productName = productName;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
@@ -137,7 +137,7 @@ public class Products {
         this.productStatus = productStatus;
     }
 
-    public void setModeratedByAdminID(int moderatedByAdminID) {
+    public void setModeratedByAdminID(Integer moderatedByAdminID) {
         this.moderatedByAdminID = moderatedByAdminID;
     }
 

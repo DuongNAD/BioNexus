@@ -11,7 +11,7 @@ public class Species {
     private String scientificName;
     private String commonName;
     private ConservationStatus conservationStatus;
-    private String enviromentSpecs;
+    private String environmentSpecs;
     private String description;
     private String imageUrl;
     private String referenceURL;
@@ -20,14 +20,14 @@ public class Species {
 
     public Species() {}
 
-    public Species(int speciesID, int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String enviromentSpecs, String description, String imageUrl, String referenceURL, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Species(int speciesID, int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String environmentSpecs, String description, String imageUrl, String referenceURL, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.speciesID = speciesID;
         this.nodeID = nodeID;
         this.managedByAdminID = managedByAdminID;
         this.scientificName = scientificName;
         this.commonName = commonName;
         this.conservationStatus = conservationStatus;
-        this.enviromentSpecs = enviromentSpecs;
+        this.environmentSpecs = environmentSpecs;
         this.description = description;
         this.imageUrl = imageUrl;
         this.referenceURL = referenceURL;
@@ -35,13 +35,13 @@ public class Species {
         this.updatedAt = updatedAt;
     }
 
-    public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String enviromentSpecs, String description, String imageUrl, String referenceURL) {
+    public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String environmentSpecs, String description, String imageUrl, String referenceURL) {
         this.nodeID = nodeID;
         this.managedByAdminID = managedByAdminID;
         this.scientificName = scientificName;
         this.commonName = commonName;
         this.conservationStatus = conservationStatus;
-        this.enviromentSpecs = enviromentSpecs;
+        this.environmentSpecs = environmentSpecs;
         this.description = description;
         this.imageUrl = imageUrl;
         this.referenceURL = referenceURL;
@@ -92,8 +92,8 @@ public class Species {
         return updatedAt;
     }
 
-    public String getEnviromentSpecs() {
-        return enviromentSpecs;
+    public String getEnvironmentSpecs() {
+        return environmentSpecs;
     }
 
     public void setSpeciesID(int speciesID) {
@@ -119,8 +119,8 @@ public class Species {
     public void setConservationStatus(ConservationStatus conservationStatus) {
         this.conservationStatus = conservationStatus;
     }
-    public void setEnvironmentSpecs(String enviromentSpecs) {
-        this.enviromentSpecs = enviromentSpecs;
+    public void setEnvironmentSpecs(String environmentSpecs) {
+        this.environmentSpecs = environmentSpecs;
     }
 
     public void setDescription(String description) {
