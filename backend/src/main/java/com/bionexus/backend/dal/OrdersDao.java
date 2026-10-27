@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/** Truy vấn bảng Orders (đơn hàng). Các dòng chi tiết của đơn nằm ở OrderDetailsDao. */
 public class OrdersDao {
     private Orders mapRow(ResultSet rs) throws SQLException {
         return new Orders(
@@ -36,7 +37,7 @@ public class OrdersDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -56,7 +57,7 @@ public class OrdersDao {
                 }
                 return ordersList;
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return new java.util.ArrayList<>();
@@ -75,7 +76,7 @@ public class OrdersDao {
                 }
                 return ordersList;
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return new java.util.ArrayList<>();
@@ -93,7 +94,7 @@ public class OrdersDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -115,7 +116,7 @@ public class OrdersDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -139,7 +140,7 @@ public class OrdersDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Truy vấn bảng Users (người dùng thường). */
 public class UsersDao {
     private Users mapRow(ResultSet rs) throws SQLException {
         return new Users(
@@ -38,7 +39,7 @@ public class UsersDao {
                 while (rs.next()) {
                     list.add(mapRow(rs));
                 }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return list;
@@ -56,7 +57,7 @@ public class UsersDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -74,7 +75,7 @@ public class UsersDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -95,7 +96,7 @@ public class UsersDao {
             pts.setString(7, user.getUserStatus().name());
             pts.setObject(8, user.getCreatedAt());
             return pts.executeUpdate() > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -116,7 +117,7 @@ public class UsersDao {
             pts.setObject(8, LocalDateTime.now());
             pts.setInt(9, user.getUserId());
             return pts.executeUpdate() > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -131,7 +132,7 @@ public class UsersDao {
             pts.setObject(2, LocalDateTime.now());
             pts.setInt(3, userID);
             return pts.executeUpdate() > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

@@ -2,6 +2,7 @@ package com.bionexus.backend.model;
 
 import java.time.LocalDateTime;
 
+/** Giỏ hàng của một user (bảng Carts). Mỗi user có tối đa 1 giỏ. */
 public class Carts {
     private int cartID;
     private int userID;

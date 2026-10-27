@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+/** Truy vấn bảng Products (sản phẩm các shop đăng bán). */
 public class ProductDao {
     private Products mapRow(ResultSet rs) throws SQLException {
         return new Products(
@@ -36,7 +37,7 @@ public class ProductDao {
             while (rs.next()) {
                 productsList.add(mapRow(rs));
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return productsList;
@@ -54,7 +55,7 @@ public class ProductDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -76,7 +77,7 @@ public class ProductDao {
             pts.setObject(8, product.getModeratedByAdminID(), java.sql.Types.INTEGER);
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -104,7 +105,7 @@ public class ProductDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -122,7 +123,7 @@ public class ProductDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

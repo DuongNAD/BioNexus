@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Truy vấn bảng Admins (tài khoản quản trị: MODERATOR, BIOLOGIST, SUPER_ADMIN). */
 public class AdminsDao {
     private Admins mapRow(ResultSet rs) throws SQLException {
         return new Admins(
@@ -39,7 +40,7 @@ public class AdminsDao {
             while (rs.next()) {
                 adminsList.add(mapRow(rs));
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return adminsList;
@@ -58,7 +59,7 @@ public class AdminsDao {
                 }
             }
 
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -76,7 +77,7 @@ public class AdminsDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -96,7 +97,7 @@ public class AdminsDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -117,7 +118,7 @@ public class AdminsDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -135,7 +136,7 @@ public class AdminsDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

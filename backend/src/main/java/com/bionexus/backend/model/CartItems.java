@@ -2,6 +2,7 @@ package com.bionexus.backend.model;
 
 import java.time.LocalDateTime;
 
+/** Một món trong giỏ (bảng CartItems). Không có cột giá: giá lấy từ bảng Products. */
 public class CartItems {
     private int cartID;
     private int productID;

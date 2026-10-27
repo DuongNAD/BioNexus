@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+/** Truy vấn bảng SellerProfiles (hồ sơ shop của người bán). */
 public class SellerProfilesDao {
     private SellerProfiles mapRow(ResultSet rs) throws SQLException {
         return new SellerProfiles(
@@ -34,7 +35,7 @@ public class SellerProfilesDao {
             while (rs.next()) {
                 sellerProfilesList.add(mapRow(rs));
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return sellerProfilesList;
@@ -52,7 +53,7 @@ public class SellerProfilesDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -70,7 +71,7 @@ public class SellerProfilesDao {
                     return mapRow(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -91,7 +92,7 @@ public class SellerProfilesDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -113,8 +114,8 @@ public class SellerProfilesDao {
             pts.setInt(8, sellerProfile.getSellerProfileID());
 
             int rowsAffected = pts.executeUpdate();
-            return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+                return rowsAffected > 0;
+            } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

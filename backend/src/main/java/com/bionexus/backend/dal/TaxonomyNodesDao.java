@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Truy vấn bảng TaxonomyNodes (cây phân loại: giới, ngành, lớp, bộ, họ, chi). */
 public class TaxonomyNodesDao {
     private TaxonomyNodes mapRowToTaxonomyNode(ResultSet rs) throws java.sql.SQLException {
         TaxonomyNodes taxonomyNode = new TaxonomyNodes();
@@ -32,7 +33,7 @@ public class TaxonomyNodesDao {
             while (rs.next()) {
                 taxonomyNodesList.add(mapRowToTaxonomyNode(rs));
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return taxonomyNodesList;
@@ -50,7 +51,7 @@ public class TaxonomyNodesDao {
                     return mapRowToTaxonomyNode(rs);
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
@@ -69,7 +70,7 @@ public class TaxonomyNodesDao {
                     childrenNodesList.add(mapRowToTaxonomyNode(rs));
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return childrenNodesList;
@@ -87,7 +88,7 @@ public class TaxonomyNodesDao {
             pts.setObject(4,taxonomyNode.getParentNodeID(), java.sql.Types.INTEGER);
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -106,7 +107,7 @@ public class TaxonomyNodesDao {
             pts.setInt(5, taxonomyNode.getNodeID());
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+/** Truy vấn bảng OrderDetails (các dòng chi tiết của đơn hàng). */
 public class OrderDetailsDao {
     private OrderDetails mapRow(ResultSet rs) throws SQLException {
         return new OrderDetails(
@@ -29,7 +30,7 @@ public class OrderDetailsDao {
                     orderDetailsList.add(mapRow(rs));
                 }
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return orderDetailsList;
@@ -46,7 +47,7 @@ public class OrderDetailsDao {
             while (rs.next()) {
                 orderDetailsList.add(mapRow(rs));
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return orderDetailsList;
@@ -65,7 +66,7 @@ public class OrderDetailsDao {
 
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
@@ -84,7 +85,7 @@ public class OrderDetailsDao {
             pts.setInt(5, orderDetail.getProductID());
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;

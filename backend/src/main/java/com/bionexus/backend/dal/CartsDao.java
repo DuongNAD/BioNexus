@@ -9,13 +9,12 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 
 /**
- * Giỏ hàng (bảng Carts): mỗi user tối đa 1 giỏ.
- * Khác các DAO cũ, DAO này KHÔNG nuốt lỗi: lỗi DB được ném lên (throws) để tầng service phân biệt
- * "không có giỏ" (trả về null) với "DB gặp sự cố". Khi gom DBContext về chỉ ném SQLException,
- * bạn chỉ cần bỏ ", ClassNotFoundException" ở các dòng throws.
+ * Truy vấn bảng Carts (giỏ hàng). Mỗi user có tối đa 1 giỏ.
+ * Khác các DAO cũ: các hàm không tự bắt lỗi DB mà ném SQLException lên cho service,
+ * để phân biệt "chưa có giỏ" (trả về null) với "DB bị lỗi" (ném lỗi).
  */
 public class CartsDao {
-    // Mã lỗi SQL Server khi vi phạm PRIMARY KEY / UNIQUE constraint
+    // Mã lỗi của SQL Server khi ghi trùng giá trị ở cột PRIMARY KEY hoặc UNIQUE.
     private static final int DUPLICATE_KEY = 2627;
 
     private Carts mapRow(ResultSet rs) throws SQLException {
@@ -27,8 +26,8 @@ public class CartsDao {
         );
     }
 
-    /** Giỏ của user, hoặc null nếu user chưa có giỏ (giỏ chỉ được tạo khi thêm món đầu tiên). */
-    public Carts getCartByUserId(int userID) throws SQLException, ClassNotFoundException {
+    /** Giỏ của user, hoặc null nếu chưa có (giỏ chỉ được tạo khi thêm món đầu tiên). */
+    public Carts getCartByUserId(int userID) throws SQLException {
         String sql = "SELECT * FROM Carts WHERE userID = ?";
         try (
                 Connection conn = DBContext.getConnection();
@@ -41,7 +40,8 @@ public class CartsDao {
         }
     }
 
-    public Carts getCartById(int cartID) throws SQLException, ClassNotFoundException {
+    /** Giỏ theo cartID, hoặc null nếu không tìm thấy. */
+    public Carts getCartById(int cartID) throws SQLException {
         String sql = "SELECT * FROM Carts WHERE cartID = ?";
         try (
                 Connection conn = DBContext.getConnection();
@@ -54,8 +54,8 @@ public class CartsDao {
         }
     }
 
-    /** Tạo giỏ mới cho user. Ném lỗi nếu user đã có giỏ (userID là UNIQUE). */
-    public boolean insertCart(Carts cart) throws SQLException, ClassNotFoundException {
+    /** Tạo giỏ mới cho user. User đã có giỏ rồi thì DB ném lỗi (userID là UNIQUE). */
+    public boolean insertCart(Carts cart) throws SQLException {
         String sql = "INSERT INTO Carts (userID) VALUES (?)";
         try (
                 Connection conn = DBContext.getConnection();
@@ -67,10 +67,10 @@ public class CartsDao {
     }
 
     /**
-     * Giỏ của user, chưa có thì tạo. Dùng khi thêm món đầu tiên: hai request đến cùng lúc (bấm đúp)
-     * không làm lỗi, bên đến sau chỉ đọc lại giỏ mà bên kia vừa tạo.
+     * Lấy giỏ của user, chưa có thì tạo (dùng khi thêm món đầu tiên).
+     * Bấm đúp (2 request cùng lúc) cũng không lỗi: bên chậm hơn chỉ đọc lại giỏ mà bên kia vừa tạo.
      */
-    public Carts getOrCreateCartByUserId(int userID) throws SQLException, ClassNotFoundException {
+    public Carts getOrCreateCartByUserId(int userID) throws SQLException {
         Carts cart = getCartByUserId(userID);
         if (cart != null) {
             return cart;
@@ -78,6 +78,8 @@ public class CartsDao {
         try {
             insertCart(new Carts(userID));
         } catch (SQLException e) {
+            // Trùng khóa nghĩa là request khác vừa tạo giỏ này rồi: không phải lỗi, cứ đọc lại ở dưới.
+            // Các lỗi khác thì ném lên.
             if (e.getErrorCode() != DUPLICATE_KEY) {
                 throw e;
             }
@@ -85,8 +87,8 @@ public class CartsDao {
         return getCartByUserId(userID);
     }
 
-    /** Ghi lại thời điểm giỏ vừa thay đổi (gọi sau khi thêm, sửa hoặc xóa món). */
-    public boolean touchCart(int cartID) throws SQLException, ClassNotFoundException {
+    /** Cập nhật thời điểm sửa giỏ (updatedAt). Gọi sau khi thêm, sửa hoặc xóa món. */
+    public boolean touchCart(int cartID) throws SQLException {
         String sql = "UPDATE Carts SET updatedAt = SYSDATETIME() WHERE cartID = ?";
         try (
                 Connection conn = DBContext.getConnection();

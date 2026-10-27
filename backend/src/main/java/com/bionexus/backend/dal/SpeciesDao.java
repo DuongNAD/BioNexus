@@ -6,6 +6,7 @@ import com.bionexus.backend.model.Species;
 import java.sql.ResultSet;
 import java.util.List;
 
+/** Truy vấn bảng Species (loài sinh vật). */
 public class SpeciesDao {
     private Species mapRow(ResultSet rs) throws Exception {
         Species species = new Species();
