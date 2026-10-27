@@ -136,6 +136,35 @@ create table OrderDetails(
 	constraint FK_OrderDetails_Products foreign key(productID) references Products(productID)
 )
 
+-- Gio hang: moi user toi da 1 gio (userID unique), gio chi duoc tao khi user them mon dau tien.
+-- Gio KHONG luu gia: gia luon lay tu Products luc hien thi va luc dat hang (gia chot nam o OrderDetails.unitPrice).
+-- May da co DB cu: chay migrations/002_add_cart.sql thay vi tao lai DB.
+create table Carts(
+	cartID int identity(1,1),
+	userID int not null,
+	createdAt datetime2 default sysdatetime(),
+	updatedAt datetime2 constraint DF_Carts_updatedAt default sysdatetime(),
+
+	constraint PK_Carts primary key(cartID),
+	constraint UQ_Carts_userID unique(userID),
+	constraint FK_Carts_Users foreign key(userID) references Users(userID)
+)
+
+create table CartItems(
+	cartID int not null,
+	productID int not null,
+	quantity int not null default 1,
+	addedAt datetime2 default sysdatetime(),
+
+	constraint PK_CartItems primary key(cartID, productID),
+	constraint CK_CartItems_Quantity check (quantity > 0),
+	constraint FK_CartItems_Carts foreign key(cartID) references Carts(cartID),
+	constraint FK_CartItems_Products foreign key(productID) references Products(productID)
+)
+
+-- SQL Server khong tu tao index cho khoa ngoai: PK (cartID, productID) da phuc vu tim theo gio, con tim theo san pham can index nay.
+create index IX_CartItems_productID on CartItems(productID);
+
 
 
 

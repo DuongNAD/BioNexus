@@ -83,7 +83,17 @@ public enum MessageKey {
     ORDER_INVALID_SHIPPING_ADDRESS("Vui lòng nhập địa chỉ giao hàng", "Please enter a shipping address"),
     ORDER_DUPLICATE_ITEMS("Mỗi sản phẩm chỉ được xuất hiện một lần trong đơn hàng", "Each product can appear only once in an order"),
     ORDER_OWN_PRODUCT("Bạn không thể mua sản phẩm của chính cửa hàng mình", "You cannot buy products from your own shop"),
-    ORDER_CANCEL_SUCCESS("Hủy đơn hàng thành công", "Order cancelled successfully"); // làm nếu còn thời gian (hủy đơn)
+    ORDER_CANCEL_SUCCESS("Hủy đơn hàng thành công", "Order cancelled successfully"), // làm nếu còn thời gian (hủy đơn)
+
+    // ==================== 8. CART (Giỏ hàng) ====================
+    CART_ITEM_ADDED("Đã thêm vào giỏ hàng", "Added to cart"),
+    CART_ITEM_UPDATED("Đã cập nhật giỏ hàng", "Cart updated"),
+    CART_ITEM_REMOVED("Đã xóa sản phẩm khỏi giỏ hàng", "Removed from cart"),
+    CART_CLEARED("Đã xóa toàn bộ giỏ hàng", "Cart cleared"),
+    CART_ITEM_NOT_FOUND("Sản phẩm không có trong giỏ hàng", "Item is not in the cart"),
+    CART_EMPTY("Giỏ hàng đang trống", "Your cart is empty"),
+    CART_INVALID_QUANTITY("Số lượng trong giỏ phải lớn hơn 0", "Cart quantity must be greater than 0"),
+    CART_QUANTITY_EXCEEDS_STOCK("Số lượng vượt quá tồn kho hiện có", "Quantity exceeds available stock");
 
     private final String vi;
     private final String en;

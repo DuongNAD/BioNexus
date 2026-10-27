@@ -25,6 +25,8 @@ GO
     - Tên tiếng Việt chỉ để tham khảo. Taxon chưa có tên Việt đã kiểm chứng thì ghi theo tên Latin
       (ví dụ "Họ Eublepharidae"), thay khi có nguồn.
     - environmentSpecs và description là dữ liệu mẫu, không phải hướng dẫn nuôi.
+    - Giỏ hàng mẫu: levanc có 2 món bình thường; phamthid có 1 món vượt tồn kho và 1 món đã SOLD_OUT
+      để thử các trường hợp lỗi. Giỏ không lưu giá.
     - password_hash đang chứa mật khẩu thô vì backend chưa băm. Khi làm đăng nhập có băm thì phải sinh lại.
 */
 
@@ -223,7 +225,28 @@ BEGIN TRY
     LEFT JOIN Orders   o ON o.orderCode   = v.orderCode
     LEFT JOIN Products p ON p.productName = v.productName;
 
-    -- 9. Kiểm tra seed: sai là THROW, CATCH bên dưới sẽ rollback tất cả
+    -- 9. Carts: mỗi user tối đa 1 giỏ (userID UNIQUE). Giỏ chỉ được tạo khi user thêm món đầu tiên.
+    INSERT INTO Carts (userID)
+    SELECT u.userID
+    FROM (VALUES ('levanc'), ('phamthid')) AS v(username)
+    LEFT JOIN Users u ON u.username = v.username;
+
+    -- 10. CartItems: giỏ KHÔNG lưu giá, giá luôn lấy từ Products lúc hiển thị và lúc đặt hàng.
+    --     levanc: 2 món bình thường.
+    --     phamthid: 1 món vượt tồn kho (Tangerine còn 3, giỏ 5) và 1 món đã SOLD_OUT, để thử các trường hợp lỗi.
+    INSERT INTO CartItems (cartID, productID, quantity)
+    SELECT c.cartID, p.productID, v.quantity
+    FROM (VALUES
+        ('levanc',   N'Axolotl Leucistic (5 cm)',        1),
+        ('levanc',   N'Trăn bóng Pastel (4 tháng tuổi)', 1),
+        ('phamthid', N'Leopard Gecko Tangerine Baby',    5),
+        ('phamthid', N'Rùa Hermann baby',                1)
+    ) AS v(username, productName, quantity)
+    LEFT JOIN Users    u ON u.username = v.username
+    LEFT JOIN Carts    c ON c.userID = u.userID
+    LEFT JOIN Products p ON p.productName = v.productName;
+
+    -- 11. Kiểm tra seed: sai là THROW, CATCH bên dưới sẽ rollback tất cả
     IF EXISTS (SELECT 1 FROM TaxonomyNodes WHERE parentNodeID IS NULL AND rankLevel <> 'KINGDOM')
         THROW 50001, N'TaxonomyNodes: node không phải KINGDOM mà không có cha (gõ sai tên cha?)', 1;
 
@@ -258,6 +281,17 @@ BEGIN TRY
     )
         THROW 50006, N'Orders: totalAmount phải bằng tổng quantity * unitPrice của OrderDetails', 1;
 
+    -- Luật nghiệp vụ: không được bỏ vào giỏ sản phẩm của chính shop của mình
+    IF EXISTS (
+        SELECT 1
+        FROM CartItems ci
+        JOIN Carts c ON c.cartID = ci.cartID
+        JOIN Products p ON p.productID = ci.productID
+        JOIN SellerProfiles sp ON sp.sellerProfileID = p.sellerProfileID
+        WHERE sp.userID = c.userID
+    )
+        THROW 50007, N'CartItems: giỏ chứa sản phẩm của chính shop của chủ giỏ', 1;
+
     COMMIT TRANSACTION;
 END TRY
 BEGIN CATCH
@@ -274,7 +308,9 @@ UNION ALL SELECT 'TaxonomyNodes',  COUNT(*) FROM TaxonomyNodes
 UNION ALL SELECT 'Species',        COUNT(*) FROM Species
 UNION ALL SELECT 'Products',       COUNT(*) FROM Products
 UNION ALL SELECT 'Orders',         COUNT(*) FROM Orders
-UNION ALL SELECT 'OrderDetails',   COUNT(*) FROM OrderDetails;
+UNION ALL SELECT 'OrderDetails',   COUNT(*) FROM OrderDetails
+UNION ALL SELECT 'Carts',          COUNT(*) FROM Carts
+UNION ALL SELECT 'CartItems',      COUNT(*) FROM CartItems;
 GO
 
 -- Cây phân loại: nhìn bằng mắt xem cha - con có đúng không

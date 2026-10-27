@@ -112,7 +112,7 @@ BioNexus/
 │  └─ src/test/java/             JUnit
 ├─ frontend/                     Vite + React (cấu trúc ở mục 8.1)
 ├─ database/                     BioNexusDatabes.sql, seed_data.sql, migrations/
-└─ docs/                         PLAN.md (file này), api.md, requests.http
+└─ docs/                         PLAN.md (file này), ERD.md + erd.svg + erd.png, api.md, requests.http
 ```
 
 **Vì sao DTO riêng?** Model khớp bảng DB (có `passwordHash`, `LocalDateTime`). DTO là thứ mình muốn người ngoài thấy. Tách ra thì đổi DB không làm vỡ giao diện và không vô tình lộ dữ liệu nhạy cảm.
@@ -148,18 +148,18 @@ DB sập ở bước 5 → SQLException bay lên servlet → 500 ApiResponse.err
 | 409 | Xung đột trạng thái | hết hàng, username đã tồn tại |
 | 500 | Lỗi server hoặc DB | DB sập |
 
-**Ghép `MessageKey` với mã HTTP** (để mọi servlet trả nhất quán; `MessageKey` hiện có 69 key):
+**Ghép `MessageKey` với mã HTTP** (để mọi servlet trả nhất quán; `MessageKey` hiện có 77 key):
 
 | Mã | Các `MessageKey` |
 |---|---|
-| 200 | `SUCCESS`, `UPDATED_SUCCESS`, `DELETED_SUCCESS`, `AUTH_LOGIN_SUCCESS`, `SELLER_APPROVED_SUCCESS`, `SELLER_REJECTED_SUCCESS`, `SELLER_BANNED_SUCCESS`, `PRODUCT_APPROVED_SUCCESS`, `PRODUCT_REJECTED_SUCCESS`, `ORDER_CANCEL_SUCCESS` |
+| 200 | `SUCCESS`, `UPDATED_SUCCESS`, `DELETED_SUCCESS`, `AUTH_LOGIN_SUCCESS`, `SELLER_APPROVED_SUCCESS`, `SELLER_REJECTED_SUCCESS`, `SELLER_BANNED_SUCCESS`, `PRODUCT_APPROVED_SUCCESS`, `PRODUCT_REJECTED_SUCCESS`, `ORDER_CANCEL_SUCCESS`, `CART_ITEM_ADDED`, `CART_ITEM_UPDATED`, `CART_ITEM_REMOVED`, `CART_CLEARED` |
 | 201 | `CREATED_SUCCESS`, `AUTH_REGISTER_SUCCESS`, `SELLER_APPLY_SUCCESS`, `PRODUCT_SUBMITTED`, `ORDER_CREATE_SUCCESS` |
-| 400 | `BAD_REQUEST`, `INVALID_ID`, `INVALID_JSON`, `INVALID_PAGINATION`, `INVALID_STATUS`, `USER_MISSING_FIELDS`, `USER_INVALID_USERNAME`, `USER_INVALID_EMAIL`, `USER_INVALID_PASSWORD`, `USER_INVALID_PHONE`, `SELLER_INVALID_SHOP_NAME`, `PRODUCT_INVALID_PRICE`, `PRODUCT_INVALID_NAME`, `PRODUCT_INVALID_STOCK`, `ORDER_EMPTY_ITEMS`, `ORDER_INVALID_QUANTITY`, `ORDER_INVALID_SHIPPING_ADDRESS`, `ORDER_DUPLICATE_ITEMS`, `TAXONOMY_INVALID_PARENT`, `TAXONOMY_INVALID_RANK`, `SPECIES_INVALID_NODE`, `SPECIES_INVALID_CONSERVATION_STATUS` |
+| 400 | `BAD_REQUEST`, `INVALID_ID`, `INVALID_JSON`, `INVALID_PAGINATION`, `INVALID_STATUS`, `USER_MISSING_FIELDS`, `USER_INVALID_USERNAME`, `USER_INVALID_EMAIL`, `USER_INVALID_PASSWORD`, `USER_INVALID_PHONE`, `SELLER_INVALID_SHOP_NAME`, `PRODUCT_INVALID_PRICE`, `PRODUCT_INVALID_NAME`, `PRODUCT_INVALID_STOCK`, `ORDER_EMPTY_ITEMS`, `ORDER_INVALID_QUANTITY`, `ORDER_INVALID_SHIPPING_ADDRESS`, `ORDER_DUPLICATE_ITEMS`, `CART_EMPTY`, `CART_INVALID_QUANTITY`, `TAXONOMY_INVALID_PARENT`, `TAXONOMY_INVALID_RANK`, `SPECIES_INVALID_NODE`, `SPECIES_INVALID_CONSERVATION_STATUS` |
 | 401 | `AUTH_INVALID_CREDENTIALS`, `AUTH_UNAUTHORIZED`, `AUTH_TOKEN_EXPIRED`, `AUTH_TOKEN_INVALID` |
 | 403 | `AUTH_FORBIDDEN`, `AUTH_ACCOUNT_INACTIVE`, `AUTH_ACCOUNT_BANNED`, `SELLER_NOT_ACTIVE`, `PRODUCT_NOT_OWNED`, `ORDER_OWN_PRODUCT` |
-| 404 | `NOT_FOUND`, `USER_NOT_FOUND`, `SELLER_NOT_FOUND`, `TAXONOMY_NOT_FOUND`, `SPECIES_NOT_FOUND`, `PRODUCT_NOT_FOUND`, `ORDER_NOT_FOUND` |
+| 404 | `NOT_FOUND`, `USER_NOT_FOUND`, `SELLER_NOT_FOUND`, `TAXONOMY_NOT_FOUND`, `SPECIES_NOT_FOUND`, `PRODUCT_NOT_FOUND`, `ORDER_NOT_FOUND`, `CART_ITEM_NOT_FOUND` |
 | 405 | `METHOD_NOT_ALLOWED` |
-| 409 | `CONFLICT`, `USER_USERNAME_EXISTS`, `USER_EMAIL_EXISTS`, `SELLER_ALREADY_REGISTERED`, `SELLER_SHOP_NAME_EXISTS`, `SELLER_INVALID_STATUS_TRANSITION`, `TAXONOMY_NAME_EXISTS`, `SPECIES_NAME_EXISTS`, `PRODUCT_OUT_OF_STOCK`, `PRODUCT_NOT_AVAILABLE`, `PRODUCT_INVALID_STATUS_TRANSITION`, `ORDER_CANNOT_CANCEL` |
+| 409 | `CONFLICT`, `USER_USERNAME_EXISTS`, `USER_EMAIL_EXISTS`, `SELLER_ALREADY_REGISTERED`, `SELLER_SHOP_NAME_EXISTS`, `SELLER_INVALID_STATUS_TRANSITION`, `TAXONOMY_NAME_EXISTS`, `SPECIES_NAME_EXISTS`, `PRODUCT_OUT_OF_STOCK`, `PRODUCT_NOT_AVAILABLE`, `PRODUCT_INVALID_STATUS_TRANSITION`, `ORDER_CANNOT_CANCEL`, `CART_QUANTITY_EXCEEDS_STOCK` |
 | 429 | `AUTH_TOO_MANY_ATTEMPTS` (làm nếu còn thời gian) |
 | 500 | `INTERNAL_ERROR` |
 
@@ -177,7 +177,7 @@ DB sập ở bước 5 → SQLException bay lên servlet → 500 ApiResponse.err
 
 - **Luật vàng: token chỉ chứng minh "tôi là ai". Quyền và trạng thái luôn lấy từ DB** (1 query mỗi request). Vì vậy tài khoản bị BANNED bị chặn ngay, không phải chờ token hết hạn.
 - Sai tài khoản hoặc mật khẩu: luôn trả 401 với câu chung ("Sai tài khoản hoặc mật khẩu"). Chỉ nói "tài khoản bị khóa" (403) **sau khi mật khẩu đã đúng**.
-- Filter chỉ gắn cho các đường cần bảo vệ: `/api/me`, `/api/seller/*`, `/api/orders/*`, `/api/admin/*`. Các đường đăng nhập nằm dưới `/api/auth/*` nên không bị chặn.
+- Filter chỉ gắn cho các đường cần bảo vệ: `/api/me`, `/api/seller/*`, `/api/orders/*`, `/api/cart/*`, `/api/admin/*`. Các đường đăng nhập nằm dưới `/api/auth/*` nên không bị chặn.
 
 ### 4.3 Trạng thái và quyền
 
@@ -202,6 +202,7 @@ SẢN PHẨM (Products)
 | Xin mở shop | | ✓ | | | | |
 | Đăng sản phẩm (vào PENDING) | | | ✓ | | | |
 | Mua hàng, xem đơn của mình | | ✓ | ✓ (không mua hàng của chính mình) | | | |
+| Dùng giỏ hàng | | ✓ | ✓ (không bỏ hàng của chính mình vào giỏ) | | | |
 | Duyệt shop, duyệt sản phẩm | | | | ✓ | | ✓ |
 | Quản lý loài và phân loại | | | | | ✓ | ✓ |
 | Khóa tài khoản | | | | | | ✓ |
@@ -218,6 +219,30 @@ SẢN PHẨM (Products)
 6. `commit`. Có lỗi bất kỳ → `rollback`. Luôn trả `autoCommit` về `true` và đóng kết nối.
 
 **Vì sao cần transaction?** Nếu trừ kho xong mà tạo đơn lỗi thì hàng "biến mất". Transaction bảo đảm cả nhóm thao tác cùng thành công hoặc không gì thay đổi. Câu `UPDATE ... WHERE stockQuantity >= ?` còn chặn bán lố khi 2 người mua cùng lúc.
+
+### 4.5 Giỏ hàng
+
+**DB và DAO đã có sẵn** (`Carts`, `CartItems`, `CartsDao`, `CartItemsDao`, `migrations/002_add_cart.sql`). Còn lại là service, API (mục 5.2) và giao diện.
+
+```text
+Carts       mỗi user tối đa 1 giỏ, chỉ tạo khi thêm món đầu tiên
+ └─ CartItems (cartID, productID) → quantity        ← không có cột giá
+```
+
+| Việc | Quy tắc | Lỗi (`MessageKey`) |
+|---|---|---|
+| Thêm món | Sản phẩm phải `APPROVED` và còn hàng; không phải của shop mình; `quantity` ≥ 1; **tổng số lượng của món trong giỏ ≤ tồn kho**; món đã có thì cộng dồn | `PRODUCT_NOT_AVAILABLE`, `PRODUCT_OUT_OF_STOCK`, `ORDER_OWN_PRODUCT`, `CART_INVALID_QUANTITY`, `CART_QUANTITY_EXCEEDS_STOCK` |
+| Sửa số lượng | Đặt số lượng mới (không cộng dồn), từ 1 đến tồn kho; muốn bỏ món thì gọi DELETE | `CART_ITEM_NOT_FOUND`, `CART_INVALID_QUANTITY`, `CART_QUANTITY_EXCEEDS_STOCK` |
+| Xem giỏ | Giá lấy từ `Products` lúc đọc, tạm tính ở service. Mỗi món kèm `available` (đang bán và còn hàng) và `maxQuantity` (tồn kho) để giao diện cảnh báo giỏ "cũ" | — |
+| Đặt hàng từ giỏ | Cùng 1 transaction của mục 4.4: đọc các món → trừ kho → tạo đơn → **xóa giỏ** → commit. Có món không mua được thì 409 và rollback, giỏ còn nguyên | `CART_EMPTY` (giỏ rỗng) |
+
+**Vì sao giỏ không lưu giá?** Giá có thể đổi sau khi khách bỏ hàng vào giỏ. Giá chỉ được "chốt" khi đặt hàng (`OrderDetails.unitPrice`), nên giỏ luôn hiện giá hiện tại còn đơn đã tạo giữ giá lúc mua.
+
+**Vì sao giỏ không giữ hàng?** Nếu trừ kho ngay khi bỏ vào giỏ thì ai bỏ rồi bỏ đi sẽ khóa hàng của người khác. Nên chỉ trừ kho lúc đặt hàng và phải kiểm lại ở đó (câu `UPDATE ... WHERE stockQuantity >= ?` ở mục 4.4).
+
+**Bấm đúp:** hai request "Thêm vào giỏ" cùng lúc ở lần đầu tiên không được gây lỗi. `CartsDao.getOrCreateCartByUserId` và `CartItemsDao.addItem` đã xử lý (bắt lỗi khóa trùng rồi thử lại). Đừng viết lại theo kiểu "kiểm tra rồi mới INSERT": đã thử trên DB tạm, viết kiểu đó thì 2 request cùng lúc lỗi gần như mọi lần.
+
+**Khi dùng DAO giỏ:** khác DAO cũ, chúng **ném** `SQLException` (đúng hướng Ngày 1). `quantity` ≤ 0 làm `addItem` và `setItemQuantity` ném `IllegalArgumentException`, nên service phải kiểm trước và trả `CART_INVALID_QUANTITY`. Sau mỗi thay đổi gọi `CartsDao.touchCart`. Hiện mỗi hàm tự mở `Connection`; Ngày 5 thêm bản nhận `Connection` cho `getItemsByCartId` và `clearCart` để dùng chung transaction.
 
 ---
 
@@ -250,7 +275,7 @@ SẢN PHẨM (Products)
 | POST | `/api/auth/login` | Đăng nhập USER → token |
 | POST | `/api/auth/admin/login` | Đăng nhập ADMIN → token |
 
-**Cần token USER** (`/api/me`, `/api/seller/*`, `/api/orders/*`)
+**Cần token USER** (`/api/me`, `/api/seller/*`, `/api/orders/*`, `/api/cart/*`)
 
 | Method | URL | Làm gì |
 |---|---|---|
@@ -258,9 +283,14 @@ SẢN PHẨM (Products)
 | POST | `/api/seller/apply` | Xin mở shop → PENDING |
 | GET | `/api/seller/products` | Sản phẩm của shop tôi (mọi trạng thái) |
 | POST | `/api/seller/products` | Đăng sản phẩm → PENDING (chỉ shop ACTIVE) |
-| POST | `/api/orders` | Mua: `{ items: [{productId, quantity}], shippingAddress }` → 201 |
+| POST | `/api/orders` | Mua: `{ items: [{productId, quantity}], shippingAddress }` → 201. Bỏ `items` thì mua cả giỏ (mục 4.5) |
 | GET | `/api/orders/mine` | Đơn của tôi |
 | GET | `/api/orders/{id}` | Chi tiết 1 đơn của tôi |
+| GET | `/api/cart` | Giỏ của tôi: các món kèm giá hiện tại, `available`, `maxQuantity` và tạm tính (mục 4.5) |
+| POST | `/api/cart/items` | `{ productId, quantity }`: thêm món, đã có thì cộng dồn |
+| PUT | `/api/cart/items/{productId}` | `{ quantity }`: đặt số lượng (≥ 1) |
+| DELETE | `/api/cart/items/{productId}` | Bỏ 1 món khỏi giỏ |
+| DELETE | `/api/cart` | Xóa hết món trong giỏ |
 
 **Cần token ADMIN** (`/api/admin/*`)
 
@@ -292,7 +322,7 @@ Content-Type: application/json
 
 | Bảng | Là gì | Quan hệ chính |
 |---|---|---|
-| `Users` | Người dùng thường | 1–1 `SellerProfiles`; 1–N `Orders` |
+| `Users` | Người dùng thường | 1–1 `SellerProfiles`; 1–N `Orders`; 1–1 `Carts` |
 | `Admins` | Quản trị (SUPER_ADMIN, BIOLOGIST, MODERATOR) | duyệt shop, duyệt sản phẩm, quản lý loài |
 | `SellerProfiles` | Hồ sơ shop (PENDING → ACTIVE...) | thuộc 1 User; 1–N `Products`; `approvedByAdminID` |
 | `TaxonomyNodes` | Cây phân loại 6 cấp | tự tham chiếu qua `parentNodeID` |
@@ -300,14 +330,18 @@ Content-Type: application/json
 | `Products` | Sản phẩm đang bán | thuộc `SellerProfiles` + `Species`; `moderatedByAdminID` |
 | `Orders` | Đơn hàng | thuộc User; 1–N `OrderDetails` |
 | `OrderDetails` | Dòng đơn, giá chụp lúc mua | khóa chính (`orderID`, `productID`) |
+| `Carts` | Giỏ hàng, mỗi user tối đa 1 giỏ (tạo khi thêm món đầu tiên) | thuộc User (`userID` UNIQUE); 1–N `CartItems` |
+| `CartItems` | Món trong giỏ, **không lưu giá** | khóa chính (`cartID`, `productID`) |
+
+Sơ đồ đầy đủ (cột, khóa, quan hệ, ràng buộc): [`ERD.md`](ERD.md). Máy đã có DB cũ chưa có giỏ hàng thì chạy `database/migrations/002_add_cart.sql` (chỉ tạo 2 bảng, không có giỏ mẫu); muốn có giỏ mẫu thì chạy lại 2 file SQL chính.
 
 **Tài khoản có sẵn trong seed** (mật khẩu user: `123456`, admin: `admin123`; sau khi đổi sang BCrypt vẫn là các mật khẩu này):
 
 | Tài khoản | Trạng thái | Dùng để test | Kết quả mong đợi |
 |---|---|---|---|
-| `levanc` | USER, có 2 đơn | mua hàng, xem đơn | mua được; `/orders/mine` có 2 đơn (PENDING, COMPLETED) |
+| `levanc` | USER, có 2 đơn, giỏ có 2 món | mua hàng, xem đơn, giỏ hàng | mua được; `/orders/mine` có 2 đơn (PENDING, COMPLETED); `/api/cart` có 2 món |
 | `nguyenvana` | shop BioGreen Exotic ACTIVE | đăng sản phẩm | thành công, vào PENDING |
-| `phamthid` | shop Carnivora Garden ACTIVE | shop thứ 2 | thành công |
+| `phamthid` | shop Carnivora Garden ACTIVE, giỏ có 2 món | shop thứ 2; giỏ có món vượt kho và món SOLD_OUT | đăng được; `/api/cart` cảnh báo cả 2 món; đặt hàng từ giỏ này → 409, giỏ và kho không đổi |
 | `tranthib` | shop PENDING | đăng sản phẩm | 403 (shop chưa duyệt) |
 | `hoangvane` | shop REJECTED | đăng sản phẩm | 403 |
 | `vuthif` | user BANNED | đăng nhập | 403 (sau khi nhập đúng mật khẩu) |
@@ -323,6 +357,7 @@ Content-Type: application/json
 - `GET /api/taxonomy` → 2 nút (Animalia, Plantae). Con của Squamata → 3 họ. Loài của chi Python → 2 loài (NT và VU).
 - `GET /api/products` → đúng **7** sản phẩm (chỉ APPROVED; seed có 10: 7 APPROVED, 1 PENDING, 1 REJECTED, 1 SOLD_OUT).
 - Đơn trong seed: `ORD-2026-0001` PENDING 2.050.000; `ORD-2026-0002` COMPLETED 590.000; `ORD-2026-0003` CANCELLED 3.500.000.
+- Giỏ trong seed: `levanc` có Axolotl Leucistic ×1 (450.000) và Trăn bóng Pastel ×1 (2.500.000), tạm tính **2.950.000**. `phamthid` có Leopard Gecko Tangerine ×5 (kho còn 3, tức số lượng vượt `maxQuantity`) và Rùa Hermann baby ×1 (SOLD_OUT, tức `available` là false).
 - **Đặt lại dữ liệu sau khi test:** chạy lại `BioNexusDatabes.sql` rồi `seed_data.sql` (seed tự dừng nếu DB còn dữ liệu, nên luôn chạy file schema trước).
 
 **Đổi sang BCrypt (Ngày 3):** viết 1 hàm `main` hoặc test in ra hash của `123456` và `admin123` → dán vào cột `password_hash` trong `seed_data.sql` → chạy lại 2 file SQL.
@@ -337,7 +372,7 @@ Content-Type: application/json
 | Lộ mật khẩu | BCrypt; DTO không có `passwordHash`; không log mật khẩu | PasswordUtil, DTO |
 | Giả mạo token | Ký HS256; khi verify chỉ định thuật toán; bí mật từ biến môi trường (không hard-code, không đưa lên git); hạn ngắn: 30 phút đến 24 giờ (chưa có refresh token thì chọn vài giờ) | JwtUtil |
 | Leo quyền | Kiểm quyền ở server (filter + service), không tin giao diện; quyền và trạng thái lấy từ DB | Filter, Service |
-| Gian lận đơn hàng | Giá lấy từ DB trong transaction; số lượng phải > 0; không tự mua hàng của mình | OrderService |
+| Gian lận đơn hàng | Giá lấy từ DB trong transaction (giỏ cũng không lưu giá); số lượng phải > 0; không tự mua hàng của mình | OrderService, CartService |
 | XSS | React tự escape; không dùng `dangerouslySetInnerHTML` | Giao diện |
 | Lộ bí mật qua git | Chuyển tài khoản DB và bí mật JWT sang `AppConfig` (biến môi trường); `.env` đã nằm trong `.gitignore` | DBContext, AppConfig |
 | Lộ lỗi nội bộ | Không trả stack trace; trả `ApiResponse.error` + ghi log ở server | Servlet |
@@ -357,7 +392,7 @@ frontend/src/
 ├─ api/client.js          hàm api(): gắn token, đọc JSON, xử lý lỗi và 401
 ├─ auth/AuthContext.jsx   lưu token + vai trò; RequireAuth, RequireRole
 ├─ hooks/useFetch.js      trả { data, loading, error }
-├─ pages/                 Home, Taxonomy, Species, Product, Login, Register, Orders, Seller, Admin
+├─ pages/                 Home, Taxonomy, Species, Product, Cart, Login, Register, Orders, Seller, Admin
 ├─ components/            Navbar, Breadcrumb, Card, SpeciesCard, ProductCard, IucnBadge,
 │                         Button, Input, Skeleton, EmptyState, StatusPill, Toast
 ├─ styles/tokens.css      biến màu, bo góc, bóng (mục 8.3)
@@ -373,7 +408,8 @@ frontend/src/
 | `/` | Trang chủ: tiêu đề lớn, ô tìm, thẻ các giới | Mọi người | `GET /api/taxonomy` |
 | `/taxonomy/:id` | Duyệt cây: breadcrumb, nút con, loài | Mọi người | `/taxonomy/{id}`, `/children`, `/species` |
 | `/species/:id` | Chi tiết loài (lưới "bento") + sản phẩm | Mọi người | `/species/{id}`, `/products?speciesId=` |
-| `/products/:id` | Chi tiết sản phẩm + Mua ngay | Mọi người (mua cần đăng nhập) | `/products/{id}`, `POST /orders` |
+| `/products/:id` | Chi tiết sản phẩm + Mua ngay + Thêm vào giỏ | Mọi người (mua cần đăng nhập) | `/products/{id}`, `POST /orders`, `POST /cart/items` |
+| `/cart` | Giỏ hàng: đổi số lượng, xóa món, tạm tính, cảnh báo món hết hàng hoặc vượt kho, nút Đặt hàng | USER | `/cart`, `/cart/items/{productId}`, `POST /orders` |
 | `/login`, `/register` | Đăng nhập, đăng ký | Khách | `/auth/*` |
 | `/orders` | Đơn của tôi | USER | `/orders/mine` |
 | `/seller` | Shop của tôi + đăng sản phẩm | SELLER | `/seller/*` |
@@ -449,15 +485,16 @@ Giả định 6–8 giờ mỗi ngày. Hạn là Thứ Hai 02/11 nên Ngày 7 l�
 
 **Báo cáo cuối ngày (gửi Claude để review):** ① đã xong mục nào trong danh sách ② kẹt ở đâu (kèm lỗi nguyên văn) ③ kết quả `git status`.
 
-### Tiến độ (cập nhật 27/10, theo code chưa commit sau `dba0c4d`)
+### Tiến độ (cập nhật 27/10, theo code đến `0d76bd8`; phần giỏ hàng chưa commit)
 
 | Hạng mục | Trạng thái | Ghi chú |
 |---|---|---|
 | Schema, seed, model, enum, 8 DAO | ✓ xong | Seed đã commit (`cd420c4`), DB đã nạp, DAO đã kiểm chứng |
-| Tomcat nối IntelliJ, `/api/ping` | ✗ chưa | Chưa có servlet nào; `index.jsp` và `web.xml` vẫn là mẫu |
+| Giỏ hàng: bảng, seed, model, DAO, `MessageKey` | ✓ xong | `Carts`, `CartItems`, `CartsDao`, `CartItemsDao`, `migrations/002_add_cart.sql`, 2 giỏ mẫu trong seed. Đã thử trên DB tạm (58 kiểm tra, gồm 2 request cùng lúc) và đã nạp lại DB thật. Còn thiếu: service, API `/api/cart/*`, giao diện |
+| Tomcat nối IntelliJ, `/api/ping` | ✓ chạy | Tomcat 10.1.60 cổng 8081, `/api/ping` trả 200 (`0d76bd8`). Còn: xóa `index.jsp` mẫu |
 | `DBContext` đọc cấu hình, DAO ném lỗi, `getRootNodes()` | ✗ chưa | File DAO chưa đổi |
 | API taxonomy, `docs/api.md`, `docs/requests.http` | ✗ chưa | |
-| `ApiResponse`, `JsonUtil`, `MessageKey` | ◐ có | `MessageKey` đã đủ 69 key cho toàn bộ API (kể cả phần làm nếu còn thời gian); `JsonUtil` chưa `serializeNulls` và `disableHtmlEscaping`; `ApiResponse` thiếu `code` |
+| `ApiResponse`, `JsonUtil`, `MessageKey` | ◐ có | `MessageKey` đã đủ 77 key cho toàn bộ API (kể cả giỏ hàng và phần làm nếu còn thời gian); `JsonUtil` chưa `serializeNulls` và `disableHtmlEscaping`; `ApiResponse` thiếu `code` |
 | `PasswordUtil` (BCrypt) | ✓ chạy đúng | Seed vẫn là mật khẩu thô nên chưa đăng nhập được bằng tài khoản seed |
 | `JwtUtil` | ◐ chạy đúng | Bí mật hard-code và **đã lên GitHub công khai**; hạn 24 giờ; chưa có test |
 | `AuthService.loginUser`, `AuthResponse`, `AccountType`, `ApiException` | ✓ chạy đúng | Đã thử trên DB tạm: đăng nhập đúng/sai, BANNED, INACTIVE đều đúng; JSON không còn `password`. Còn thiếu: `register`, `loginAdmin`, servlet |
@@ -492,7 +529,7 @@ Giả định 6–8 giờ mỗi ngày. Hạn là Thứ Hai 02/11 nên Ngày 7 l�
 - [ ] `PasswordUtil` (BCrypt) **đã có**; còn lại: in hash của `123456` và `admin123` → sửa seed → chạy lại 2 file SQL
 - [ ] `JwtUtil` **đã có**; còn lại: 4 test JUnit (token hợp lệ / hết hạn / sai chữ ký / sửa payload thành ADMIN thì bị từ chối) và **chuyển bí mật sang biến môi trường, đổi bí mật mới vì cái cũ đã lộ trên GitHub**
 - [ ] `POST /api/auth/register`, `/api/auth/login`, `/api/auth/admin/login`, `GET /api/me`
-- [ ] `JwtAuthFilter` cho `/api/me`, `/api/seller/*`, `/api/orders/*`, `/api/admin/*`; khai báo thứ tự filter trong `web.xml`
+- [ ] `JwtAuthFilter` cho `/api/me`, `/api/seller/*`, `/api/orders/*`, `/api/cart/*`, `/api/admin/*`; khai báo thứ tự filter trong `web.xml`
 - [ ] Giao diện: Login, Register, `AuthContext`, `api()` gắn token, `RequireAuth`, Navbar hiện tên người dùng
 - [ ] **Thử đóng gói một lần:** `npm run build` → `./mvnw package` → WAR có cả giao diện (mục 11)
 
@@ -509,13 +546,16 @@ Giả định 6–8 giờ mỗi ngày. Hạn là Thứ Hai 02/11 nên Ngày 7 l�
 **Xong khi:** `nguyenvana` đăng sản phẩm → PENDING; `tranthib` đăng → 403; `moderator1` duyệt → sản phẩm hiện ở trang công khai (lên 8 sản phẩm); `biologist1` duyệt → 403.
 **Vì sao hôm nay:** đây là luồng nghiệp vụ "ăn tiền" nhất của sàn và dùng đủ các trạng thái trong DB.
 
-### Ngày 5: Thứ Bảy 31/10: Đặt hàng (transaction)
+### Ngày 5: Thứ Bảy 31/10: Đặt hàng (transaction) + giỏ hàng
 
 - [ ] DAO nhận `Connection` từ ngoài (để chung 1 transaction); `insertOrder` trả `orderID` (generated keys)
 - [ ] `OrderService.placeOrder` theo mục 4.4; `POST /api/orders`, `GET /api/orders/mine`, `GET /api/orders/{id}`
 - [ ] Giao diện: nút Mua ngay (số lượng + địa chỉ), trang Đơn của tôi
+- [ ] **Giỏ hàng (làm sau khi đặt hàng chạy ổn, trễ thì cắt, xem mục 12):** `CartService` + 5 endpoint `/api/cart/*` (mục 5.2); `POST /api/orders` bỏ `items` thì mua cả giỏ (mục 4.5). DB và DAO đã có sẵn; chỉ cần thêm bản nhận `Connection` cho `getItemsByCartId` và `clearCart`
+- [ ] Giao diện giỏ: nút Thêm vào giỏ, biểu tượng giỏ trên Navbar có số món, trang `/cart`
 
 **Xong khi:** mua hàng → kho giảm, đơn hiện trong "Đơn của tôi", tổng tiền đúng; mua quá số lượng → 409 và kho không đổi; mua món cuối → sản phẩm thành SOLD_OUT; `levanc` thấy 2 đơn cũ + đơn mới; tự mua hàng của shop mình → bị từ chối.
+**Xong khi (giỏ hàng):** thêm cùng 1 món 2 lần → cộng dồn; thêm vượt kho → 409; `levanc` đặt hàng từ giỏ → đơn đúng tiền, kho giảm, giỏ rỗng; `phamthid` thấy cảnh báo ở 2 món và đặt từ giỏ → 409.
 **Vì sao hôm nay:** transaction là phần khó nhất, cần đầu óc tỉnh táo và còn thời gian sửa.
 
 ### Ngày 6: Chủ nhật 01/11: Đóng băng + chất lượng
@@ -586,7 +626,7 @@ Kết quả: `backend/target/BioNexus.war`.
 
 1. Trang chủ → duyệt Animalia → Chordata → Reptilia → Squamata → Python → 2 loài với huy hiệu IUCN.
 2. Mở loài → thấy sản phẩm → thử đặt hàng khi chưa đăng nhập (bị yêu cầu đăng nhập).
-3. Đăng nhập `levanc` → mua 1 sản phẩm → xem "Đơn của tôi".
+3. Đăng nhập `levanc` → mua 1 sản phẩm (hoặc bỏ 2 sản phẩm vào giỏ rồi đặt hàng, nếu đã làm giỏ) → xem "Đơn của tôi".
 4. Đăng nhập `nguyenvana` → đăng sản phẩm mới (PENDING).
 5. Đăng nhập `moderator1` → duyệt → sản phẩm hiện ở trang công khai.
 6. Chứng minh bảo mật: gọi API admin bằng token USER → 403; sửa 1 ký tự của token → 401.
@@ -598,7 +638,7 @@ Kết quả: `backend/target/BioNexus.war`.
 | Rủi ro | Cách giảm |
 |---|---|
 | Tomcat hoặc IntelliJ không chạy | Làm ngay sáng Ngày 1; kẹt quá 45 phút thì hỏi |
-| Trễ lịch | Cắt theo thứ tự: ① điểm nhấn ② CI, pool, Swagger ③ tìm kiếm không dấu ④ giỏ hàng (chỉ giữ "mua ngay") ⑤ trang admin đẹp (chỉ giữ bảng) |
+| Trễ lịch | Cắt theo thứ tự: ① điểm nhấn ② CI, pool, Swagger ③ tìm kiếm không dấu ④ API và giao diện giỏ hàng (DB và DAO đã có; chỉ giữ "mua ngay") ⑤ trang admin đẹp (chỉ giữ bảng) |
 | JSON không khớp giữa backend và frontend | Viết `docs/api.md` từ Ngày 1; dùng DTO |
 | Lỗi 401 khó đoán | Viết test `JwtUtil` trước khi gắn filter; log lý do từ chối (không log token) |
 | Nhúng WAR lỗi đường dẫn | Thử đóng gói từ Ngày 3, không đợi Ngày 6 |
@@ -631,8 +671,11 @@ Kết quả: `backend/target/BioNexus.war`.
 | WAR | File đóng gói web Java | Cô chỉ cần thả vào Tomcat |
 | Context path | Phần đầu URL của app (`/BioNexus`) | Sai là 404, nên dùng đường dẫn tương đối |
 | Phân trang | Chỉ lấy 12 dòng mỗi lần | Danh sách dài không làm chậm |
+| ERD | Sơ đồ các bảng, cột và quan hệ giữa chúng (`docs/ERD.md`) | Giải thích thiết kế DB lúc vấn đáp |
+| Khóa ngoại (FK) | Cột trỏ tới khóa chính của bảng khác; DB từ chối giá trị không có thật | `Orders.userID` không thể trỏ tới user không tồn tại |
+| Race condition | Hai request cùng lúc làm kết quả sai (vd bấm đúp "Thêm vào giỏ") | `addItem` và `getOrCreateCartByUserId` bắt lỗi khóa trùng rồi thử lại |
 
-**Bạn phải trả lời được (tra bảng trên):** Vì sao dùng `PreparedStatement`? JWT khác session thế nào? Vì sao BCrypt chứ không phải mã hóa thường? Transaction để làm gì, nếu lỗi giữa chừng thì sao? DAO khác Service ở đâu? Vì sao không nhận giá từ client? Filter khác Servlet thế nào? Vì sao không cần CORS?
+**Bạn phải trả lời được (tra bảng trên):** Vì sao dùng `PreparedStatement`? JWT khác session thế nào? Vì sao BCrypt chứ không phải mã hóa thường? Transaction để làm gì, nếu lỗi giữa chừng thì sao? DAO khác Service ở đâu? Vì sao không nhận giá từ client? Filter khác Servlet thế nào? Vì sao không cần CORS? Vì sao giỏ hàng không lưu giá còn dòng đơn thì có?
 
 ---
 
