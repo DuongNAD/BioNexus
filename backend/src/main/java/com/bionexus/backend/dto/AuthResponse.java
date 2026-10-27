@@ -5,16 +5,14 @@ public class AuthResponse {
     private int id;
     private String username;
     private String fullName;
-    private String password;
     private String accountType;
     private String role;
 
-    public AuthResponse(String token, int id, String username, String fullName, String password, String accountType, String role) {
+    public AuthResponse(String token, int id, String username, String fullName, String accountType, String role) {
         this.token = token;
         this.id = id;
         this.username = username;
         this.fullName = fullName;
-        this.password = password;
         this.accountType = accountType;
         this.role = role;
     }
@@ -38,9 +36,6 @@ public class AuthResponse {
         return fullName;
     }
 
-    public String getPassword() {
-        return password;
-    }
 
     public String getAccountType() {
         return accountType;
@@ -66,9 +61,6 @@ public class AuthResponse {
         this.fullName = fullName;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     public void setAccountType(String accountType) {
         this.accountType = accountType;
