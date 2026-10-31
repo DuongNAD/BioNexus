@@ -1,13 +1,17 @@
 package com.bionexus.backend.util;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
 public class JsonUtil {
-    private static final Gson gson = new Gson();
+    private static final Gson gson = new GsonBuilder()
+            .serializeNulls()
+            .disableHtmlEscaping()
+            .create();
 
     public static <T> T readBody(HttpServletRequest request, Class<T> clazz) throws IOException {
         request.setCharacterEncoding("UTF-8");

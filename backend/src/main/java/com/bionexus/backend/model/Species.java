@@ -13,7 +13,7 @@ public class Species {
     private ConservationStatus conservationStatus;
     private String environmentSpecs;
     private String description;
-    private String imageUrl;
+    private String imageURL;
     private String referenceURL;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -29,13 +29,13 @@ public class Species {
         this.conservationStatus = conservationStatus;
         this.environmentSpecs = environmentSpecs;
         this.description = description;
-        this.imageUrl = imageUrl;
+        this.imageURL = imageURL;
         this.referenceURL = referenceURL;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
 
-    public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String environmentSpecs, String description, String imageUrl, String referenceURL) {
+    public Species(int nodeID, int managedByAdminID, String scientificName, String commonName, ConservationStatus conservationStatus, String environmentSpecs, String description, String imageURL, String referenceURL) {
         this.nodeID = nodeID;
         this.managedByAdminID = managedByAdminID;
         this.scientificName = scientificName;
@@ -43,7 +43,7 @@ public class Species {
         this.conservationStatus = conservationStatus;
         this.environmentSpecs = environmentSpecs;
         this.description = description;
-        this.imageUrl = imageUrl;
+        this.imageURL = imageURL;
         this.referenceURL = referenceURL;
         this.createdAt = LocalDateTime.now();
     }
@@ -76,8 +76,8 @@ public class Species {
         return description;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getImageURL() {
+        return imageURL;
     }
 
     public String getReferenceURL() {
@@ -127,8 +127,8 @@ public class Species {
         this.description = description;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 
     public void setReferenceURL(String referenceURL) {

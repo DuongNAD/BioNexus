@@ -15,6 +15,6 @@ import java.io.IOException;
 public class PingServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        JsonUtil.writeBody(response,200, ApiResponse.ok(MessageKey.SUCCESS.getMessage("vi"), "pong"));
+        JsonUtil.writeBody(response,200, ApiResponse.ok("pong"));
     }
 }

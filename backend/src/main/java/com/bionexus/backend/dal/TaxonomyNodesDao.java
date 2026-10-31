@@ -12,7 +12,7 @@ import java.util.List;
 
 /** Truy vấn bảng TaxonomyNodes (cây phân loại: giới, ngành, lớp, bộ, họ, chi). */
 public class TaxonomyNodesDao {
-    private TaxonomyNodes mapRowToTaxonomyNode(ResultSet rs) throws java.sql.SQLException {
+    private TaxonomyNodes mapRowToTaxonomyNode(ResultSet rs) throws SQLException {
         TaxonomyNodes taxonomyNode = new TaxonomyNodes();
         taxonomyNode.setNodeID(rs.getInt("nodeID"));
         taxonomyNode.setScientificName(rs.getString("scientificName"));
@@ -22,7 +22,7 @@ public class TaxonomyNodesDao {
         return taxonomyNode;
     }
 
-    public List<TaxonomyNodes> getAllTaxonomyNodes() {
+    public List<TaxonomyNodes> getAllTaxonomyNodes() throws SQLException {
         List<TaxonomyNodes> taxonomyNodesList = new ArrayList<>();
         String sql = "SELECT * FROM TaxonomyNodes";
         try (
@@ -33,13 +33,27 @@ public class TaxonomyNodesDao {
             while (rs.next()) {
                 taxonomyNodesList.add(mapRowToTaxonomyNode(rs));
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return taxonomyNodesList;
     }
 
-    public TaxonomyNodes getTaxonomyNodeById(int nodeID){
+    /** Lấy các nút gốc của cây phân loại (cấp giới - KINGDOM, không có nút cha). */
+    public List<TaxonomyNodes> getRootNodes() throws SQLException {
+        List<TaxonomyNodes> rootNodes = new ArrayList<>();
+        String sql = "SELECT * FROM TaxonomyNodes WHERE parentNodeID IS NULL";
+        try (
+                Connection conn = DBContext.getConnection();
+                PreparedStatement pts = conn.prepareStatement(sql);
+                ResultSet rs = pts.executeQuery()
+        ) {
+            while (rs.next()) {
+                rootNodes.add(mapRowToTaxonomyNode(rs));
+            }
+        }
+        return rootNodes;
+    }
+
+    public TaxonomyNodes getTaxonomyNodeById(int nodeID) throws SQLException {
         String sql = "SELECT * FROM TaxonomyNodes WHERE nodeID = ?";
         try (
                 Connection conn = DBContext.getConnection();
@@ -51,13 +65,11 @@ public class TaxonomyNodesDao {
                     return mapRowToTaxonomyNode(rs);
                 }
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return null;
     }
 
-    public List<TaxonomyNodes> getChildrenNodeById(int parentNodeID) {
+    public List<TaxonomyNodes> getChildrenNodeById(int parentNodeID) throws SQLException {
         List<TaxonomyNodes> childrenNodesList = new ArrayList<>();
         String sql = "SELECT * FROM TaxonomyNodes WHERE parentNodeID = ?";
         try (
@@ -70,13 +82,11 @@ public class TaxonomyNodesDao {
                     childrenNodesList.add(mapRowToTaxonomyNode(rs));
                 }
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return childrenNodesList;
     }
 
-    public boolean insertTaxonomyNode(TaxonomyNodes taxonomyNode) {
+    public boolean insertTaxonomyNode(TaxonomyNodes taxonomyNode) throws SQLException {
         String sql = "INSERT INTO TaxonomyNodes (scientificName, commonName, rankLevel, parentNodeID) VALUES (?, ?, ?, ?)";
         try (
                 Connection conn = DBContext.getConnection();
@@ -85,20 +95,17 @@ public class TaxonomyNodesDao {
             pts.setString(1, taxonomyNode.getScientificName());
             pts.setString(2, taxonomyNode.getCommonName());
             pts.setString(3, taxonomyNode.getRankLevel().name());
-            pts.setObject(4,taxonomyNode.getParentNodeID(), java.sql.Types.INTEGER);
+            pts.setObject(4, taxonomyNode.getParentNodeID(), java.sql.Types.INTEGER);
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
-        return false;
     }
 
-    public boolean updateTaxonomyNode(TaxonomyNodes taxonomyNode) {
+    public boolean updateTaxonomyNode(TaxonomyNodes taxonomyNode) throws SQLException {
         String sql = "UPDATE TaxonomyNodes SET scientificName = ?, commonName = ?, rankLevel = ?, parentNodeID = ? WHERE nodeID = ?";
         try (
                 Connection conn = DBContext.getConnection();
-                PreparedStatement pts = conn.prepareStatement(sql);
+                PreparedStatement pts = conn.prepareStatement(sql)
         ) {
             pts.setString(1, taxonomyNode.getScientificName());
             pts.setString(2, taxonomyNode.getCommonName());
@@ -107,9 +114,6 @@ public class TaxonomyNodesDao {
             pts.setInt(5, taxonomyNode.getNodeID());
             int rowsAffected = pts.executeUpdate();
             return rowsAffected > 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
-        return false;
     }
 }
