@@ -1,6 +1,7 @@
 package com.bionexus.backend.dto;
 
 import com.bionexus.backend.enums.ConservationStatus;
+import com.bionexus.backend.model.Species;
 
 public record SpeciesDto(
         int id,
@@ -8,12 +9,12 @@ public record SpeciesDto(
         String scientificName,
         String commonName,
         ConservationStatus conservationStatus,
-        String environmentSpecies,
+        String environmentSpecs,
         String description,
         String imageURL,
         String referenceURL
 ) {
-    public static SpeciesDto fromEntity(com.bionexus.backend.model.Species species) {
+    public static SpeciesDto fromEntity(Species species) {
         return new SpeciesDto(
                 species.getSpeciesID(),
                 species.getNodeID(),
