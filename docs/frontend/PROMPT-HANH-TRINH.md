@@ -54,7 +54,8 @@ Commit: "fix(ui): thay ảnh giả bằng ảnh Wikimedia Commons đã kiểm ch
 PHẦN B · TRANG HÀNH TRÌNH 9 LOÀI (/tham-hiem)
 Làm đúng docs/frontend/07-hanh-trinh.md. Bám bố cục, nhịp, chữ và hiệu ứng của mẫu S (reference/expedition-code.md + screens/s-*.jpg); port sang TypeScript strict, dữ liệu qua hook src/api/ (tra loài theo scientificName, không hard-code id), route thật thay cho các link giữ chỗ.
 Phải có đủ:
-- 19 section theo bảng ở mục 1 của tài liệu 07, đúng thứ tự và đúng cách lộ loài của từng trạm (ống nhòm, lấy nét, độ cao + sương tan, hàm bẫy có nút chạm 2 lần, lặn xuống kênh, bẫy ảnh hồng ngoại → màu, đèn pin theo chuột, nắng gắt + hơi nóng, bưu thiếp lật 3D).
+- 20 section theo bảng ở mục 1 của tài liệu 07, đúng thứ tự và đúng cách lộ loài của từng trạm (ống nhòm, lấy nét, độ cao + sương tan, hàm bẫy có nút chạm 2 lần, lặn xuống kênh, bẫy ảnh hồng ngoại → màu, đèn pin theo chuột, nắng gắt + hơi nóng, bưu thiếp lật 3D).
+- Cảnh "Chín loài, một cây họ hàng" (mục 1a tài liệu 07): cây dựng hoàn toàn từ phân loại trong dữ liệu, 4 nhánh nổi kèm câu tự sinh, ghi rõ "họ hàng theo phân loại, không phải lịch sử tiến hóa"; không thêm mốc thời gian hay quan hệ tiến hóa nào ngoài dữ liệu.
 - Sổ tay thực địa, con dấu, thẻ "Trên BioNexus" (9 tính năng, link route thật), tiêu đề trạm có "bay từ … · N km" (tính vòng lớn).
 - Bản đồ chấm d3-geo + land-110m (một path SVG), 3 cảnh bay có thẻ lên máy bay, bản đồ tổng quan và bản đồ kết.
 - HUD (giờ địa phương thật, tọa độ chạy dần, khí hậu từ environmentSpecs), thanh chặng bên trái, viên hộ chiếu n/9 trên header.

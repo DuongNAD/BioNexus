@@ -20,7 +20,7 @@ Bộ tài liệu này để giao cho **Google Antigravity** (hoặc agent bất 
 | [`PROMPTS.md`](PROMPTS.md) | **17 prompt (00 → 16)** chạy lần lượt từ đầu đến cuối, kèm 4 prompt dùng lúc cần (sửa theo ảnh, review, gỡ lỗi, thêm tính năng) | **Chủ dự án** dán vào Antigravity |
 | [`PROMPT-DAI.md`](PROMPT-DAI.md) | **Một prompt dài** gộp cả 17 prompt thành 6 mốc có cổng kiểm tra, file theo dõi tiến độ `frontend/PROGRESS.md`, và prompt tiếp tục khi phiên bị ngắt. Dùng cho model mạnh, chạy liền nhiều giờ | **Chủ dự án** dán vào Antigravity |
 | [`reference/prototype-code.md`](reference/prototype-code.md) | Code đã chạy ổn trong prototype: shader hạt, chuỗi xoắn, quả địa cầu, cuộn dính | Agent |
-| [`reference/screens/`](reference/screens/) | 12 ảnh chụp mẫu R (`r-*.jpg`) và 27 ảnh mẫu S (`s-*.jpg` desktop, `s-m*.jpg` mobile), là chuẩn để so sánh khi tự kiểm tra | Agent |
+| [`reference/screens/`](reference/screens/) | 12 ảnh chụp mẫu R (`r-*.jpg`) và 29 ảnh mẫu S (`s-*.jpg` desktop, `s-m*.jpg` mobile), là chuẩn để so sánh khi tự kiểm tra | Agent |
 | [`reference/expedition-code.md`](reference/expedition-code.md) | Code prototype mẫu S (Hành trình 9 loài) | Agent |
 | [`reference/trip-photos/`](reference/trip-photos/) | 28 ảnh thật đã kiểm tra qua API Commons, kèm `credits.json` | Agent |
 | [`../../.agents/workflows/kiem-tra-ui.md`](../../.agents/workflows/kiem-tra-ui.md) | Workflow `/kiem-tra-ui`: chụp mọi route, soát lỗi, báo cáo | Antigravity |

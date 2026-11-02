@@ -29,6 +29,7 @@ import { BallPython, Dragon, Gecko } from './expedition/Drylands'
 import { Hermann } from './expedition/Mediterranean'
 import { Flight } from './expedition/Flight'
 import { Certificate, PassportBook, Recap } from './expedition/Finale'
+import { Kinship } from './expedition/Kinship'
 
 // Mẫu S: Hành trình 9 loài, trang riêng (#/tham-hiem trong bản thật). Hai chế độ:
 // khách xem từ trang chủ, và chuyến đi làm quen ngay sau khi đăng ký (#/s?moi, có lời chào + nút bỏ qua).
@@ -274,6 +275,7 @@ export default function Expedition() {
           <Hermann />
           <Recap />
           <PassportBook />
+          <Kinship />
           <Certificate />
         </main>
       </div>
@@ -2016,6 +2018,182 @@ export function Hermann() {
         <Journal s={s} page="09" where="ĐỊA TRUNG HẢI" photo="NorbertNagel" tip={TIPS['hermann-tortoise']} className="inset-x-3 bottom-3 md:inset-x-auto md:right-[5vw] md:bottom-[5vh] md:w-[410px]" />
         <Tip tip={TIPS['hermann-tortoise']} className="md:bottom-[5vh] md:left-[7vw] md:w-[400px]" />
         <Exit />
+      </div>
+    </section>
+  )
+}
+```
+
+## `expedition/Kinship.jsx`
+
+Cây họ hàng 9 loài dựng từ phân loại (Giới → Chi), 4 nhánh nổi kèm câu tự sinh
+
+```jsx
+import { useMemo, useRef } from 'react'
+import { ArrowRight, GitFork } from 'lucide-react'
+import { species } from '@/data'
+import { cn } from '@/lib/utils'
+import { F, usePassport, useScrub } from './core'
+
+// Cây họ hàng của 9 loài, dựng hoàn toàn từ phân loại trong dữ liệu (Giới → Chi → Loài).
+// Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa: không có mốc thời gian nào ngoài dữ liệu.
+
+const RANKS = ['Giới', 'Ngành', 'Lớp', 'Bộ', 'Họ', 'Chi', 'Loài']
+const LEAF_IMG = { 'burmese-python': 'python', 'nepenthes-ampullaria': 'ampullaria', 'nepenthes-rajah': 'rajah', 'venus-flytrap': 'venus', axolotl: 'axolotl', 'ball-python': 'ballpython', 'leopard-gecko': 'gecko2', 'bearded-dragon': 'dragon', 'hermann-tortoise': 'hermann' }
+// Các nhánh được làm nổi lần lượt: tên khoa học của tổ tiên chung
+const HIGHLIGHTS = ['Caryophyllales', 'Python', 'Squamata', 'Amphibia']
+
+const W = 1000
+const H = 600
+const X0 = 24
+
+// xl: hoành độ cột lá; màn hẹp dồn cây sang trái để tên loài đủ chỗ
+function buildTree(xl) {
+  const root = { id: 'root', label: 'Sự sống', depth: 0, children: [] }
+  const byId = { root }
+  for (const s of species) {
+    let parent = root
+    s.path.forEach((n, i) => {
+      let node = byId[n.sci]
+      if (!node) {
+        node = byId[n.sci] = { id: n.sci, label: n.vi, depth: i + 1, children: [], parent }
+        parent.children.push(node)
+      }
+      parent = node
+    })
+    const leaf = (byId[s.slug] = { id: s.slug, label: s.name, sci: s.sci, depth: 7, children: [], parent, leaf: true, s })
+    parent.children.push(leaf)
+  }
+  // Thứ tự theo tên khoa học để cây không có nhánh cắt nhau
+  const key = (n) => n.sci ?? n.id
+  const sort = (n) => {
+    n.children.sort((a, b) => key(a).localeCompare(key(b)))
+    n.children.forEach(sort)
+  }
+  sort(root)
+  const leaves = []
+  const walk = (n) => (n.children.length ? n.children.forEach(walk) : leaves.push(n))
+  walk(root)
+  const rowH = (H - 60) / (leaves.length - 1)
+  leaves.forEach((l, i) => (l.y = 30 + i * rowH))
+  const place = (n) => {
+    n.x = X0 + (n.depth / 7) * (xl - X0)
+    if (n.children.length) {
+      n.children.forEach(place)
+      n.y = (n.children[0].y + n.children[n.children.length - 1].y) / 2
+    }
+  }
+  place(root)
+  const nodes = Object.values(byId)
+  // Mỗi phần tử thuộc nhánh nổi nào (để CSS làm mờ phần còn lại)
+  const inHl = (n) => HIGHLIGHTS.map((h, k) => (n.id === h || hasAncestor(n, h) ? `hl-${k + 1}` : '')).join(' ')
+  const hasAncestor = (n, id) => {
+    for (let p = n.parent; p; p = p.parent) if (p.id === id) return true
+    return false
+  }
+  for (const n of nodes) {
+    n.hl = inHl(n)
+    n.anc = HIGHLIGHTS.map((h, k) => (n.id === h ? `anc-${k + 1}` : '')).join(' ')
+  }
+  // Nét cây theo đơn vị viewBox, màn hẹp phải dày hơn để sau khi co vẫn thấy
+  return { nodes, leaves, byId, xl, sw: xl < 700 ? 3.6 : 1.5 }
+}
+
+const joinVi = (a) => (a.length < 2 ? a.join('') : `${a.slice(0, -1).join(', ')} và ${a[a.length - 1]}`)
+
+const KIN = { grow: [0.04, 0.38], leaves: [0.3, 0.42], exit: [0.94, 1] }
+const SEG = [0.45, 0.9]
+
+export function Kinship() {
+  const ref = useRef(null)
+  const { met } = usePassport()
+  const { nodes, leaves, byId, xl, sw } = useMemo(() => buildTree(innerWidth < 768 ? 540 : 760), [])
+  useScrub(ref, KIN, (p, el) => {
+    const t = (p - SEG[0]) / (SEG[1] - SEG[0])
+    const k = t < 0 || t >= 1 ? '0' : String(Math.floor(t * HIGHLIGHTS.length) + 1)
+    if (el.dataset.hl !== k) el.dataset.hl = k
+  })
+  const captions = HIGHLIGHTS.map((id) => {
+    const anc = byId[id]
+    const under = leaves.filter((l) => l.hl.includes(`hl-${HIGHLIGHTS.indexOf(id) + 1}`)).map((l) => l.label)
+    return under.length === 1 ? `${under[0]} là loài duy nhất thuộc ${anc.label} trong chín loài.` : `${joinVi(under)} cùng thuộc ${anc.label}.`
+  })
+  const edgeD = (a, b) => {
+    const mx = (a.x + b.x) / 2
+    return `M${a.x} ${a.y}C${mx} ${a.y} ${mx} ${b.y} ${b.x} ${b.y}`
+  }
+  const reveal = (d) => `clamp(0, calc(var(--grow) * 7 - ${d - 1}), 1)`
+  return (
+    <section id="ho-hang" ref={ref} data-hl="0" className="kin relative h-[300vh]">
+      <style>{HIGHLIGHTS.map((_, i) => `.exp .kin[data-hl="${i + 1}"] .k-el:not(.hl-${i + 1}){opacity:.14}.exp .kin[data-hl="${i + 1}"] .k-edge.hl-${i + 1}{stroke:#6ee7b7;filter:drop-shadow(0 0 3px #6ee7b7)}.exp .kin[data-hl="${i + 1}"] .k-lab.anc-${i + 1}{color:#c4f5de;display:block;font-weight:600}.exp .kin[data-hl="${i + 1}"] .cap-${i + 1}{opacity:1;transform:none}`).join('')}</style>
+      <div className="sticky top-0 flex h-svh flex-col overflow-hidden bg-[radial-gradient(ellipse_at_40%_50%,#0b1f18_0%,#040a07_70%)] px-4 pt-20 pb-4 md:px-[7vw] md:pt-24 md:pb-8">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="kicker">Sau hành trình</p>
+            <h2 className="mt-2 font-serif text-[clamp(36px,4.6vw,72px)] leading-[0.92] font-medium">Chín loài, một cây họ hàng</h2>
+          </div>
+          <p className="max-w-md text-[14px] leading-relaxed text-white/70 md:text-[15px]">Cây vẽ từ phân loại trong bách khoa, từ Giới tới Chi. Nó cho biết các loài bạn gặp xếp gần nhau thế nào. Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa.</p>
+        </div>
+
+        <div className="relative mt-4 min-h-0 w-full flex-1 md:mx-auto md:mt-6 md:max-w-[1080px]">
+          {/* Hàng tên cấp phân loại */}
+          <div className="absolute inset-x-0 top-0 hidden h-5 md:block">
+            {RANKS.map((r, i) => (
+              <span key={r} className="absolute -translate-x-1/2 font-mono text-[11px] tracking-wider text-white/45 uppercase" style={{ left: `${((X0 + ((i + 1) / 7) * (xl - X0)) / W) * 100}%`, opacity: reveal(i + 1) }}>
+                {r}
+              </span>
+            ))}
+          </div>
+          <div className="absolute inset-x-0 top-0 bottom-0 md:top-7">
+            <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="absolute inset-0 size-full" aria-hidden="true">
+              {nodes
+                .filter((n) => n.parent)
+                .map((n) => (
+                  <path key={n.id} d={edgeD(n.parent, n)} pathLength="1" fill="none" stroke="rgba(214,235,226,.55)" strokeWidth={sw} className={cn('k-el k-edge transition-[opacity,stroke] duration-500', n.hl)} style={{ strokeDasharray: 1, strokeDashoffset: `calc(1 - ${reveal(n.depth)})` }} />
+                ))}
+            </svg>
+            {nodes
+              .filter((n) => !n.leaf)
+              .map((n) => (
+                <div key={n.id} className={cn('k-el absolute transition-opacity duration-500', n.hl)} style={{ left: `${(n.x / W) * 100}%`, top: `${(n.y / H) * 100}%`, opacity: `clamp(0, calc(var(--grow) * 7 - ${n.depth - 1} - 0.4), 1)` }}>
+                  <span className={cn('absolute size-2 -translate-x-1/2 -translate-y-1/2 rounded-full', n.depth === 0 ? 'size-3 bg-[#6ee7b7] shadow-[0_0_12px_#6ee7b7]' : 'bg-[#d6ebe2]')} />
+                  <span className={cn('k-lab absolute bottom-2 left-1 w-max max-w-[108px] text-[11.5px] leading-tight text-white/80 transition-colors', n.depth === 0 ? 'block font-semibold text-[#9ff0cf]' : 'hidden md:block', n.anc)}>{n.label}</span>
+                </div>
+              ))}
+            {leaves.map((l) => {
+              const got = met.includes(l.id)
+              return (
+                <div key={l.id} className={cn('k-el absolute flex items-center gap-2.5 transition-opacity duration-500 md:gap-3', l.hl)} style={{ left: `${(l.x / W) * 100}%`, top: `${(l.y / H) * 100}%`, opacity: 'var(--leaves)', transform: 'translate(calc((1 - var(--leaves)) * 20px), -50%)' }}>
+                  <img src={F(LEAF_IMG[l.id])} alt="" loading="lazy" className={cn('size-8 shrink-0 rounded-full object-cover ring-2 md:size-11', got ? 'ring-[#6ee7b7]' : 'opacity-50 ring-white/20 grayscale')} />
+                  <span className="min-w-0">
+                    <span className="block truncate text-[13px] leading-tight font-medium md:text-[15px]">{l.label}</span>
+                    <span className="hidden truncate font-serif text-[13px] text-[#c4f5de] italic md:block">{l.sci}</span>
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* Lời giải thích từng nhánh nổi */}
+        <div className="relative mt-3 h-[84px] md:mt-4 md:h-[72px]">
+          <div className="glass absolute inset-0 grid items-center rounded-2xl px-4 md:px-6">
+            <p className="cap flex items-center gap-2 text-[14px] text-white/75 transition-all duration-500 [grid-area:1/1] md:text-[15px]" style={{ opacity: 'calc(1 - min(1, var(--p) * 3))' }}>
+              <GitFork className="size-4 shrink-0 text-[#6ee7b7]" aria-hidden="true" />
+              Cuộn tiếp để xem những loài nằm chung nhánh.
+            </p>
+            {captions.map((c, i) => (
+              <p key={c} className={`cap cap-${i + 1} flex translate-y-2 items-center gap-2 text-[14px] opacity-0 transition-all duration-500 [grid-area:1/1] md:text-[16px]`}>
+                <span className="grid size-6 shrink-0 place-items-center rounded-full bg-[#6ee7b7]/15 font-mono text-[12px] text-[#6ee7b7]">{i + 1}</span>
+                {c}
+              </p>
+            ))}
+            <a href="#/s" className="absolute right-4 hidden items-center gap-1.5 text-sm font-medium text-[#6ee7b7] hover:underline md:right-6 md:inline-flex">
+              Mở cây phân loại <ArrowRight className="size-4" aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+        <div className="absolute inset-0 z-20 bg-[#040a07]" style={{ opacity: 'var(--exit)' }} />
       </div>
     </section>
   )

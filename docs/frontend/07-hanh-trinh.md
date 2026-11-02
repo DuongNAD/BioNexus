@@ -10,8 +10,8 @@ Mẫu đã duyệt là **mẫu S**:
 | Tài liệu | Nội dung |
 |---|---|
 | [`reference/expedition-code.md`](reference/expedition-code.md) | Toàn bộ code prototype (JSX), là thuật toán và bố cục tham chiếu |
-| `reference/screens/s-01…s-19.jpg` | Ảnh chụp 1440×900 theo thứ tự cuộn (chế độ người mới) |
-| `reference/screens/s-m1…s-m8.jpg` | Ảnh chụp 390×844 |
+| `reference/screens/s-01…s-20.jpg` | Ảnh chụp 1440×900 theo thứ tự cuộn (chế độ người mới) |
+| `reference/screens/s-m1…s-m9.jpg` | Ảnh chụp 390×844 |
 | `reference/trip-photos/` | 28 ảnh thật đã kiểm tra + `credits.json` (tác giả, giấy phép, link gốc) |
 
 Không dùng WebGL. Trang dựng bằng ảnh thật, CSS (biến CSS theo cuộn), SVG và canvas 2D, nên máy chấm yếu vẫn mượt. Prototype đo được 91–98 FPS ở mọi đoạn khi cuộn đều.
@@ -40,6 +40,7 @@ Mỗi section dính (sticky) cao `h` (đơn vị vh). Tiến độ cuộn `p` ch
 | `tram-9` | 340 | Trạm 09 · Địa Trung Hải · **Rùa Hermann** | **Bưu thiếp** lật 3D: mặt trước ảnh + tem răng cưa, mặt sau lời nhắn ký tên người dùng + dấu bưu điện | flip .38–.56 |
 | `ket` | 220 | "Mười ngày, chín loài" | Bản đồ cả hành trình, sao, tổng quãng đường | |
 | `ho-chieu` | 240 | Hộ chiếu mở 2 trang | 9 con dấu đóng lần lượt theo cuộn (hình và màu mực khác nhau), chỗ chưa gặp là ô gạch đứt | stamps .14–.72 |
+| `ho-hang` | 300 | **Chín loài, một cây họ hàng** (mục 1a) | Cây nhánh vẽ dần từ "Sự sống" qua Giới → Chi tới 9 loài; rồi làm nổi lần lượt 4 nhánh kèm câu giải thích | grow .04–.38, 4 nhánh .45–.9 |
 | (thường) | — | Chứng nhận "Nhà thám hiểm BioNexus" + gợi ý mua + ghi nguồn ảnh | | |
 
 Mỗi trạm loài có thêm:
@@ -48,6 +49,20 @@ Mỗi trạm loài có thêm:
 - **Con dấu** đóng lên sổ tay khi qua ngưỡng (khoảng `journal` + 0,1).
 - **Thẻ "Trên BioNexus"** (mục 3).
 - Lớp tối dần ở cuối (`--exit`) để chuyển section mượt.
+
+### 1a. Cây họ hàng (`ho-hang`)
+
+Cho người xem thấy 9 loài vừa gặp liên quan với nhau thế nào. Cảnh này đồng thời giới thiệu tính năng lõi là cây phân loại. Ảnh mẫu: `s-20-ho-hang.jpg`, `s-m9-ho-hang.jpg`.
+
+- **Chỉ dựng từ dữ liệu phân loại** (breadcrumbs Giới → Chi của từng loài). Không thêm mốc thời gian, tuổi địa chất hay quan hệ tiến hóa nào ngoài dữ liệu. Câu dẫn phải nói rõ: "Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa."
+- **Bố cục:** gốc "Sự sống" bên trái, mỗi cấp một cột, 9 lá xếp dọc bên phải (ảnh tròn, tên, tên khoa học). Con theo thứ tự tên khoa học để không có nhánh cắt nhau. Nút cha nằm giữa con đầu và con cuối. Cạnh là đường cong S. Hàng tên cấp (Giới … Loài) ở trên.
+- **Vẽ dần theo cuộn:** cạnh vẽ bằng `pathLength=1` + `stroke-dashoffset`, mỗi cấp một đoạn của `--grow`; nhãn nút hiện sau cạnh; lá trượt vào ở cuối.
+- **4 nhánh nổi lần lượt.** Section có `data-hl="1…4"`; phần ngoài nhánh mờ còn 14%, cạnh trong nhánh đổi màu ngọc. Tổ tiên chung lấy theo tên khoa học: Caryophyllales, Python, Squamata, Amphibia.
+  - Câu giải thích **tự sinh từ dữ liệu**: "{các loài} cùng thuộc {tên tổ tiên}", hoặc "{loài} là loài duy nhất thuộc {tên} trong chín loài" khi nhánh chỉ có một loài.
+  - Thẻ chú thích ở đáy có nút "Mở cây phân loại" (`/taxonomy/:id` của tổ tiên đang nổi).
+- **Loài chưa gặp** (người dùng đã bỏ qua trạm) hiện ảnh xám, viền mờ.
+- **Mobile:** cây dồn sang trái (cột lá ở 54% bề rộng), nét cây dày hơn theo tỉ lệ co, chỉ hiện nhãn của tổ tiên đang nổi.
+- **Giảm chuyển động:** vẽ sẵn cả cây; 4 câu giải thích hiện thành danh sách bên dưới.
 
 **Phần cố định trên màn hình:**
 - **Header:** logo, "Hành trình 9 loài", nút "Bỏ qua chuyến đi" (chỉ ở chế độ người mới), viên hộ chiếu hiện 9 chấm và `n/9`.
@@ -190,6 +205,7 @@ Mỗi trạm loài có thêm:
 **Unit:**
 - `distanceKm`, `fmtLL`, dòng MRZ (bỏ dấu, `Đ` → `D`).
 - `journey.ts` đủ 9 loài của seed, mỗi ảnh có mục credit.
+- Cây họ hàng: dựng đúng 9 lá; tổ tiên chung của nắp ấm và bắt ruồi Venus là Caryophyllales; câu giải thích sinh đúng cho nhánh 1 loài và nhánh nhiều loài.
 - `usePassport`: thêm dấu không trùng; storage lỗi thì không vỡ.
 
 **E2E (MSW):**
