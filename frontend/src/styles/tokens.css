@@ -1,0 +1,76 @@
+/* src/styles/tokens.css — Biến CSS hệ thống thiết kế "Bio-Luxury tối" mẫu R */
+:root {
+  /* ==========================================================================
+     1. NỀN & BỀ MẶT (Backgrounds & Surfaces)
+     ========================================================================== */
+  --bg: #030807;                     /* Nền trang chủ đạo */
+  --bg-deep: #020605;                /* Nền khối 3D, footer, vùng sâu */
+  --bg-raised: #06110d;              /* Panel nổi lớn, finale, card admin */
+
+  --surface: rgb(255 255 255 / 0.03);        /* Thẻ kính mờ thông thường */
+  --surface-2: rgb(255 255 255 / 0.06);      /* Thẻ khi hover, ô nhập liệu (khớp tài liệu 02) */
+  --surface-hover: rgb(255 255 255 / 0.06);  /* Thẻ khi hover, ô nhập liệu */
+  --surface-active: rgb(255 255 255 / 0.09); /* Bề mặt khi click / active */
+  --glass: rgb(0 0 0 / 0.45);                /* Lớp kính mờ nổi trên 3D/ảnh */
+
+  /* ==========================================================================
+     2. ĐƯỜNG KẺ & VIỀN (Lines & Borders)
+     ========================================================================== */
+  --line: rgb(255 255 255 / 0.10);           /* Viền thẻ, đường phân cách */
+  --line-strong: rgb(255 255 255 / 0.18);    /* Viền khi hover hoặc focus */
+  --border: rgb(255 255 255 / 0.08);         /* Alias viền mỏng tiêu chuẩn */
+  --border-focus: var(--accent);             /* Viền khi focus phần tử form */
+
+  /* ==========================================================================
+     3. CHỮ & TIÊU ĐỀ (Text & Foreground - WCAG AA tương phản cao)
+     ========================================================================== */
+  --fg: rgb(255 255 255 / 0.95);             /* Chữ chính, tiêu đề H1/H2/H3 */
+  --text-primary: #f0fdf4;                   /* Sắc thái xanh rất nhạt cho chữ nổi */
+  --fg-2: rgb(255 255 255 / 0.68);           /* Chữ phụ, đoạn văn (Body L, Body) */
+  --text-secondary: #94a3b8;                 /* Chữ phụ phụ trợ */
+  --fg-3: rgb(255 255 255 / 0.52);           /* Nhãn phụ, badge phụ (≥ 14px) */
+  --text-muted: #64748b;                     /* Nhãn phụ phụ trợ */
+  --fg-mute: rgb(255 255 255 / 0.35);        /* Chỉ dùng trang trí, không mang thông tin */
+
+  /* ==========================================================================
+     4. MÀU ĐIỂM NHẤN CHỦ ĐẠO (Brand & Accents)
+     ========================================================================== */
+  --accent: #6ee7b7;                 /* Xanh ngọc phát quang chính: nút bấm, tiến độ */
+  --accent-2: #5eead4;               /* Xanh ngọc phụ: địa cầu, dữ liệu khoa học */
+  --accent-ink: #03140d;             /* Chữ tối đặt trên nền accent xanh ngọc */
+
+  --aurora: #c4b5fd;                 /* Tím cực quang (gradient hero chữ, hạt thiên hà) */
+  --ocean: #38bdf8;                  /* Xanh biển (địa cầu, nhóm lưỡng cư) */
+  --warm: #fbbf24;                   /* Vàng ấm (nhóm bò sát, trạng thái PENDING) */
+  --danger: #f87171;                 /* Đỏ san hô (lỗi, REJECTED, BANNED, CANCELLED) */
+  --success: #4ade80;                /* Xanh lá tươi (APPROVED, ACTIVE, COMPLETED) */
+
+  /* ==========================================================================
+     5. THANG 7 MÀU BẢO TỒN IUCN (IUCN Red List Categories)
+     ========================================================================== */
+  --iucn-lc: #60c659;                /* LC - Least Concern (Ít quan tâm) */
+  --iucn-nt: #cce226;                /* NT - Near Threatened (Sắp bị đe dọa) */
+  --iucn-vu: #f9e814;                /* VU - Vulnerable (Sắp nguy cấp) */
+  --iucn-en: #fc7f3f;                /* EN - Endangered (Nguy cấp) */
+  --iucn-cr: #d81e05;                /* CR - Critically Endangered (Cực kỳ nguy cấp) */
+  --iucn-ew: #542344;                /* EW - Extinct in the Wild (Tuyệt chủng tự nhiên) */
+  --iucn-ex: #000000;                /* EX - Extinct (Tuyệt chủng - viền trắng mảnh) */
+
+  /* ==========================================================================
+     6. BO GÓC (Border Radius Scale)
+     ========================================================================== */
+  --r-sm: 10px;                      /* Ô nhập input, chip nhỏ, kbd */
+  --r-md: 16px;                      /* Thẻ nhỏ, modal header/footer */
+  --r-lg: 24px;                      /* Thẻ sản phẩm, thẻ loài, ảnh */
+  --r-xl: 36px;                      /* Panel lớn, paper island minh họa */
+  --r-2xl: 44px;                     /* Khối finale trang chủ */
+  --r-full: 9999px;                  /* Nút pill viên thuốc, badge, status pill */
+
+  /* ==========================================================================
+     7. QUẦNG SÁNG & PHÁT QUANG (Glows & Shadows - Không dùng bóng đen)
+     ========================================================================== */
+  --glow-accent: 0 0 120px 0 rgb(110 231 183 / 0.25);
+  --glow-accent-btn: 0 0 24px -4px rgb(110 231 183 / 0.45);
+  --glow-card: 0 40px 120px -30px rgb(110 231 183 / 0.35);
+  --glow-danger: 0 0 24px -4px rgb(248 113 113 / 0.45);
+}

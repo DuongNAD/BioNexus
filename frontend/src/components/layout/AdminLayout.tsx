@@ -1,0 +1,296 @@
+import React, { useState, useSyncExternalStore } from 'react';
+import { Outlet, Link, useLocation, useNavigate } from 'react-router';
+import { toast } from 'sonner';
+import {
+  BarChart3,
+  Store,
+  Search,
+  Leaf,
+  LogOut,
+  Menu,
+  X,
+  ChevronRight,
+  Shield,
+  type LucideIcon,
+} from 'lucide-react';
+import { Logo } from '@/components/ui/Logo';
+import { getAuthState, subscribeAuth, clearAuthSession } from '@/api/authStore';
+import type { AdminRole } from '@/types/api';
+
+interface AdminNavItem {
+  label: string;
+  path: string;
+  icon: LucideIcon;
+  allowedRoles: AdminRole[];
+}
+
+export function AdminLayout(): React.JSX.Element {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const auth = useSyncExternalStore(subscribeAuth, getAuthState);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const adminNav: AdminNavItem[] = [
+    {
+      label: 'Tổng quan KPI',
+      path: '/admin',
+      icon: BarChart3,
+      allowedRoles: ['SUPER_ADMIN', 'MODERATOR', 'BIOLOGIST'],
+    },
+    {
+      label: 'Kiểm duyệt Shop',
+      path: '/admin/sellers',
+      icon: Store,
+      allowedRoles: ['SUPER_ADMIN', 'MODERATOR'], // Ẩn với BIOLOGIST
+    },
+    {
+      label: 'Kiểm duyệt Sản phẩm',
+      path: '/admin/products',
+      icon: Search,
+      allowedRoles: ['SUPER_ADMIN', 'MODERATOR'], // Ẩn với BIOLOGIST
+    },
+    {
+      label: 'Quản lý Bách khoa Loài',
+      path: '/admin/species',
+      icon: Leaf,
+      allowedRoles: ['SUPER_ADMIN', 'BIOLOGIST'], // Ẩn với MODERATOR
+    },
+  ];
+
+  const currentRole = (auth.role as AdminRole) || 'MODERATOR';
+
+  // Lọc menu theo vai trò người dùng đăng nhập hiện tại
+  const visibleNav = adminNav.filter(
+    (item) => currentRole === 'SUPER_ADMIN' || item.allowedRoles.includes(currentRole)
+  );
+
+  const handleLogout = () => {
+    clearAuthSession();
+    toast.success('Đã đăng xuất khỏi phiên làm việc quản trị');
+    navigate('/admin/login');
+  };
+
+  const roleMeta: Record<string, { label: string; badgeClass: string }> = {
+    SUPER_ADMIN: {
+      label: 'Admin Tổng',
+      badgeClass: 'border-purple-500/40 bg-purple-500/15 text-purple-300',
+    },
+    MODERATOR: {
+      label: 'Kiểm duyệt viên',
+      badgeClass: 'border-warm/40 bg-warm/15 text-warm',
+    },
+    BIOLOGIST: {
+      label: 'Nhà sinh học',
+      badgeClass: 'border-accent/40 bg-accent/15 text-accent',
+    },
+  };
+
+  const currentRoleInfo = roleMeta[currentRole] || {
+    label: currentRole,
+    badgeClass: 'border-danger/40 bg-danger/15 text-danger',
+  };
+
+  const getPageTitle = (path: string): string => {
+    switch (path) {
+      case '/admin':
+        return 'Tổng quan KPI';
+      case '/admin/sellers':
+        return 'Kiểm duyệt Shop';
+      case '/admin/products':
+        return 'Kiểm duyệt Sản phẩm';
+      case '/admin/species':
+        return 'Quản lý Bách khoa Loài';
+      default:
+        return 'Quản trị hệ thống';
+    }
+  };
+
+  return (
+    <div className="flex min-h-screen bg-bg-deep text-fg">
+      {/* 1. Sidebar desktop cố định bên trái */}
+      <aside className="w-64 border-r border-line bg-black/60 backdrop-blur-2xl p-6 flex flex-col justify-between hidden md:flex shrink-0">
+        <div className="space-y-6">
+          {/* Logo & Badge */}
+          <div className="flex items-center justify-between">
+            <Link to="/" className="flex items-center gap-2 text-lg font-bold text-accent">
+              <Logo size={22} />
+              <span>BioNexus</span>
+            </Link>
+            <span className="rounded-full bg-danger/20 border border-danger/40 px-2.5 py-0.5 text-[10px] font-bold tracking-wider text-danger uppercase">
+              Admin
+            </span>
+          </div>
+
+          {/* Hồ sơ Admin */}
+          <div className="rounded-xl border border-line/60 bg-surface/60 p-3 flex items-center gap-3">
+            <div className="size-9 rounded-lg bg-surface-2 border border-line flex items-center justify-center font-bold text-accent text-sm uppercase">
+              {(auth.user?.fullName || auth.user?.username || 'A')[0]}
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-semibold text-fg truncate">
+                {auth.user?.fullName || auth.user?.username || 'Quản trị viên'}
+              </p>
+              <span
+                className={`inline-block mt-0.5 rounded px-1.5 py-0.2 text-[9px] font-bold border uppercase ${currentRoleInfo.badgeClass}`}
+              >
+                {currentRoleInfo.label}
+              </span>
+            </div>
+          </div>
+
+          {/* Navigation Menu */}
+          <div>
+            <p className="px-3 text-[11px] font-semibold uppercase tracking-wider text-fg-mute">
+              Bảng quản trị sàn
+            </p>
+            <nav className="mt-3 flex flex-col gap-1 text-sm font-medium" aria-label="Menu quản trị">
+              {visibleNav.map((item) => {
+                const isActive = location.pathname === item.path;
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
+                      isActive
+                        ? 'bg-danger/15 text-danger font-semibold border border-danger/30'
+                        : 'text-fg-2 hover:bg-surface-hover hover:text-fg'
+                    }`}
+                  >
+                    <Icon className="size-4 shrink-0" aria-hidden="true" />
+                    <span>{item.label}</span>
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>
+        </div>
+
+        {/* Sidebar Footer */}
+        <div className="border-t border-line/40 pt-4 space-y-3 text-xs text-fg-3">
+          <Link to="/" className="block hover:text-accent transition-colors">
+            ← Quay lại trang chủ sàn
+          </Link>
+
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="w-full flex items-center gap-2 rounded-xl border border-line/60 bg-surface px-3 py-2 text-xs font-semibold text-danger hover:border-danger/40 hover:bg-danger/10 transition-colors"
+          >
+            <LogOut className="size-3.5" aria-hidden="true" />
+            <span>Đăng xuất phiên</span>
+          </button>
+        </div>
+      </aside>
+
+      {/* 2. Khung nội dung chính */}
+      <main className="flex-1 flex flex-col min-w-0">
+        {/* Mobile Header */}
+        <header className="h-16 border-b border-line bg-bg-deep/80 backdrop-blur-xl px-6 flex items-center justify-between md:hidden shrink-0">
+          <div className="flex items-center gap-2">
+            <Link to="/" className="flex items-center gap-2 text-base font-bold text-accent">
+              <Logo size={18} />
+              <span>BioNexus</span>
+            </Link>
+            <span className="rounded bg-danger/20 border border-danger/40 px-1.5 py-0.5 text-[10px] font-semibold text-danger">
+              ADMIN
+            </span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="rounded-xl border border-line bg-surface p-2 text-fg hover:text-accent transition-colors"
+              aria-label="Mở menu quản trị"
+            >
+              {isMobileMenuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            </button>
+          </div>
+        </header>
+
+        {/* Mobile Navigation Drawer */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden border-b border-line bg-bg-raised/95 backdrop-blur-2xl p-4 space-y-4 animate-fadeIn">
+            <div className="flex items-center gap-3 p-2 bg-surface/60 rounded-xl border border-line">
+              <div className="size-8 rounded-lg bg-surface-2 flex items-center justify-center font-bold text-accent text-xs uppercase">
+                {(auth.user?.fullName || auth.user?.username || 'A')[0]}
+              </div>
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-semibold text-fg truncate">
+                  {auth.user?.fullName || auth.user?.username}
+                </p>
+                <span className={`text-[9px] font-bold uppercase ${currentRoleInfo.badgeClass}`}>
+                  {currentRoleInfo.label}
+                </span>
+              </div>
+            </div>
+
+            <nav className="flex flex-col gap-1 text-sm font-medium">
+              {visibleNav.map((item) => {
+                const isActive = location.pathname === item.path;
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
+                      isActive
+                        ? 'bg-danger/15 text-danger font-semibold border border-danger/30'
+                        : 'text-fg-2 hover:bg-surface-hover hover:text-fg'
+                    }`}
+                  >
+                    <Icon className="size-4 shrink-0" aria-hidden="true" />
+                    <span>{item.label}</span>
+                  </Link>
+                );
+              })}
+            </nav>
+
+            <div className="pt-2 border-t border-line flex items-center justify-between">
+              <Link
+                to="/"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-xs text-fg-3 hover:text-accent"
+              >
+                ← Trang chủ
+              </Link>
+              <button
+                type="button"
+                onClick={handleLogout}
+                className="text-xs text-danger font-semibold flex items-center gap-1"
+              >
+                <LogOut className="size-3" aria-hidden="true" />
+                <span>Đăng xuất</span>
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Desktop Breadcrumbs Bar */}
+        <div className="hidden md:flex h-12 border-b border-line/60 bg-surface/20 px-6 md:px-10 items-center justify-between text-xs text-fg-3">
+          <div className="flex items-center gap-2 font-mono">
+            <Shield className="size-3.5 text-danger" aria-hidden="true" />
+            <span>Khu vực Quản trị</span>
+            <ChevronRight className="size-3 text-fg-mute" aria-hidden="true" />
+            <span className="text-fg font-semibold">{getPageTitle(location.pathname)}</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <span className="text-[11px] text-fg-mute">Phiên làm việc bảo mật CITES:</span>
+            <span className="text-success font-semibold flex items-center gap-1">
+              <span className="size-1.5 rounded-full bg-success animate-pulse" />
+              <span>Đang kết nối MSW</span>
+            </span>
+          </div>
+        </div>
+
+        {/* Content Outlet */}
+        <div className="flex-1 p-6 md:p-10">
+          <Outlet />
+        </div>
+      </main>
+    </div>
+  );
+}
