@@ -102,18 +102,20 @@ export function useScrub(
   }, [ref, reduced]);
 }
 
-// Đóng dấu vào hộ chiếu một lần duy nhất khi cuộn qua mốc `at`, đồng thời bật thuộc tính cho hiệu ứng con dấu
+// Đóng dấu vào hộ chiếu một lần duy nhất khi cuộn qua mốc `at` trong khi trạm đang hiện trên màn hình
 export function useStamp(slug: string, at: number): ScrubExtraFn {
   const { collect } = usePassport();
   const done = useRef(false);
   return (p: number, el: HTMLElement) => {
-    if (p >= at) {
+    const r = el.getBoundingClientRect();
+    const inView = r.bottom > 0 && r.top < window.innerHeight;
+    if (p >= at && inView) {
       el.setAttribute('data-stamped', '');
       if (!done.current) {
         done.current = true;
         collect(slug);
       }
-    } else {
+    } else if (p < at) {
       el.removeAttribute('data-stamped');
     }
   };

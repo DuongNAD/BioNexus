@@ -55,26 +55,75 @@ export function extractNames(commonName: string): { displayName: string; english
   };
 }
 
+const SPECIES_ID_TO_SLUG: Record<number, string> = {
+  1: 'axolotl',
+  2: 'nepenthes-rajah',
+  3: 'ball-python',
+  4: 'leopard-gecko',
+  5: 'venus-flytrap',
+  6: 'burmese-python',
+  7: 'bearded-dragon',
+  8: 'hermann-tortoise',
+  9: 'nepenthes-ampullaria',
+};
+
+const SEED_PRODUCT_IMAGE_MAP: Record<string, string> = {
+  'https://bionexus.vn/images/prod-gecko-1.jpg': 'photos/products/prod-gecko-1-960.webp',
+  'https://bionexus.vn/images/prod-gecko-2.jpg': 'photos/products/prod-gecko-2-960.webp',
+  'https://bionexus.vn/images/prod-bearded-dragon-1.jpg': 'photos/products/prod-bearded-dragon-1-960.webp',
+  'https://bionexus.vn/images/prod-ball-python-1.jpg': 'photos/products/prod-ball-python-1-960.webp',
+  'https://bionexus.vn/images/prod-burmese-python-1.jpg': 'photos/products/prod-burmese-python-1-960.webp',
+  'https://bionexus.vn/images/prod-hermann-tortoise-1.jpg': 'photos/products/prod-hermann-tortoise-1-960.webp',
+  'https://bionexus.vn/images/prod-axolotl-1.jpg': 'photos/products/prod-axolotl-1-960.webp',
+  'https://bionexus.vn/images/prod-venus-flytrap-1.jpg': 'photos/products/prod-venus-flytrap-1-960.webp',
+  'https://bionexus.vn/images/prod-nepenthes-rajah-1.jpg': 'photos/products/prod-nepenthes-rajah-1-960.webp',
+  'https://bionexus.vn/images/prod-nepenthes-ampullaria-1.jpg': 'photos/products/prod-nepenthes-ampullaria-1-960.webp',
+};
+
+const SPECIES_ID_TO_PROD_IMAGE: Record<number, string> = {
+  1: 'photos/products/prod-axolotl-1-960.webp',
+  2: 'photos/products/prod-nepenthes-rajah-1-960.webp',
+  3: 'photos/products/prod-ball-python-1-960.webp',
+  4: 'photos/products/prod-gecko-1-960.webp',
+  5: 'photos/products/prod-venus-flytrap-1-960.webp',
+  6: 'photos/products/prod-burmese-python-1-960.webp',
+  7: 'photos/products/prod-bearded-dragon-1-960.webp',
+  8: 'photos/products/prod-hermann-tortoise-1-960.webp',
+  9: 'photos/products/prod-nepenthes-ampullaria-1-960.webp',
+};
+
+function photoIdToLocalWebp(photoId: string, slug: string): string {
+  if (photoId.includes('-product-')) {
+    return SPECIES_ID_TO_PROD_IMAGE[
+      Number(
+        Object.entries(SPECIES_ID_TO_SLUG).find(([, s]) => s === slug)?.[0] || 4
+      )
+    ]!;
+  }
+  const prefix = `${slug}-`;
+  const role = photoId.startsWith(prefix) ? photoId.slice(prefix.length) : 'hero';
+  return `photos/${slug}/${role}-960.webp`;
+}
+
 /**
  * Chuyển đổi SpeciesDto sang SpeciesViewModel đầy đủ, bảo toàn các trường DTO gốc
  */
 export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
   const { displayName, englishName } = extractNames(dto.commonName);
   const extras = SPECIES_EXTRAS[dto.scientificName];
+  const slug = extras?.slug || SPECIES_ID_TO_SLUG[dto.id] || dto.scientificName.toLowerCase().replace(/\s+/g, '-');
 
   return {
     ...dto,
     displayName: displayName || dto.scientificName,
     englishName,
-    slug: extras?.slug || dto.scientificName.toLowerCase().replace(/\s+/g, '-'),
+    slug,
     group: extras?.group || 'Khác',
     origin: extras?.origin || { lat: 10.78, lng: 106.7, place: 'Việt Nam' },
-    heroPhoto: extras ? `photos/${extras.slug}/hero-960.webp` : dto.imageURL || 'photos/placeholder.webp',
+    heroPhoto: extras ? `photos/${extras.slug}/hero-960.webp` : `photos/${slug}/hero-960.webp`,
     galleryPhotos: extras?.galleryPhotoIds
-      ? extras.galleryPhotoIds.map((id) => `photos/${id}.webp`)
-      : dto.imageURL
-        ? [dto.imageURL]
-        : [],
+      ? extras.galleryPhotoIds.map((id) => photoIdToLocalWebp(id, extras.slug))
+      : [`photos/${slug}/hero-960.webp`, `photos/${slug}/portrait-960.webp`, `photos/${slug}/habitat-960.webp`],
     parsedSpecs: parseEnvironmentSpecs(dto.environmentSpecs),
     heroPhotoId: extras?.heroPhotoId,
     portraitPhotoId: extras?.portraitPhotoId,
@@ -99,12 +148,24 @@ export function toProductView(dto: ProductDto, sellerMap?: Record<number, Seller
     dto.shopName ||
     (sellerMap && dto.sellerProfileId ? sellerMap[dto.sellerProfileId]?.shopName : null);
 
+  const extras = dto.speciesScientificName ? SPECIES_EXTRAS[dto.speciesScientificName] : undefined;
+  const slug = extras?.slug || SPECIES_ID_TO_SLUG[dto.speciesId] || 'leopard-gecko';
+
+  let displayImage = SPECIES_ID_TO_PROD_IMAGE[dto.speciesId] || `photos/${slug}/hero-960.webp`;
+  if (dto.imageUrl) {
+    if (SEED_PRODUCT_IMAGE_MAP[dto.imageUrl]) {
+      displayImage = SEED_PRODUCT_IMAGE_MAP[dto.imageUrl]!;
+    } else if (!dto.imageUrl.startsWith('https://bionexus.vn/')) {
+      displayImage = dto.imageUrl;
+    }
+  }
+
   return {
     ...dto,
     formattedPrice: formatVnd(dto.price),
     isAvailable: dto.status === 'APPROVED' && dto.stockQuantity > 0,
     isOutOfStock: dto.stockQuantity <= 0 || dto.status === 'SOLD_OUT',
     displayShopName: shopName || `Cửa hàng #${dto.sellerProfileId}`,
-    displayImage: dto.imageUrl || 'photos/product-placeholder.webp',
+    displayImage,
   };
 }

@@ -24,6 +24,7 @@ export function RootLayout(): React.JSX.Element {
     { label: 'Cây phân loại', path: '/taxonomy' },
     { label: 'Bách khoa loài', path: '/species' },
     { label: 'Sàn sinh vật cảnh', path: '/products' },
+    { label: 'Hành trình 9 loài', path: '/tham-hiem' },
   ];
 
   return (
@@ -131,6 +132,9 @@ export function RootLayout(): React.JSX.Element {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p>BioNexus © 2026 — Bách khoa sinh học & Sàn sinh vật cảnh nhân giống có kiểm duyệt pháp lý.</p>
           <div className="flex items-center gap-4">
+            <Link to="/tham-hiem" className="hover:text-accent transition-colors">
+              Hành trình 9 loài
+            </Link>
             <Link to="/credits" className="hover:text-accent transition-colors">
               Bản quyền ảnh
             </Link>

@@ -13,15 +13,32 @@ import {
   ArrowRight,
   Sparkles,
   Package,
+  Stamp,
+  Award,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { StatusPill } from '@/components/ui/StatusPill';
 import { useMe } from '@/api/queries/useAuthQueries';
 import { getStoredToken } from '@/api/authStore';
+import { usePassport } from '@/hooks/usePassport';
+import { JOURNEY_SPECIES_BASE, LEG } from '@/content/journey';
+
+const STATION_LIST = [
+  'tram-1',
+  'tram-2',
+  'tram-3',
+  'tram-4',
+  'tram-5',
+  'tram-6',
+  'tram-7',
+  'tram-8',
+  'tram-9',
+] as const;
 
 export default function AccountPage(): React.JSX.Element {
   const token = getStoredToken();
   const { data: me, isLoading } = useMe({ enabled: !!token });
+  const { met, firstUnmetStationId } = usePassport(me?.username);
 
   if (!token) {
     return (
@@ -131,6 +148,121 @@ export default function AccountPage(): React.JSX.Element {
         <p className="text-[11px] text-fg-3 leading-relaxed border-t border-line/40 pt-4">
           Thông tin tài khoản được mã hóa và bảo vệ theo tiêu chuẩn BioNexus. Để thay đổi số điện thoại hoặc email liên kết, vui lòng gửi yêu cầu xác minh danh tính.
         </p>
+      </div>
+
+      {/* 1b. Thẻ Hộ Chiếu Loài (Species Passport Progress Card) */}
+      <div
+        data-testid="account-passport-card"
+        className="rounded-2xl border border-accent/35 bg-surface-1/80 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-5"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-5">
+          <div className="space-y-1.5">
+            <div className="flex flex-wrap items-center gap-2.5">
+              <span className="inline-flex size-8 items-center justify-center rounded-xl border border-accent/40 bg-accent/15 text-accent">
+                <Stamp className="size-4" aria-hidden="true" />
+              </span>
+              <h3 className="text-lg font-bold text-fg font-sans">Hộ chiếu loài</h3>
+              <span className="rounded-full border border-accent/40 bg-accent/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-accent tabular-nums">
+                {met.length}/9
+              </span>
+              {met.length >= 9 && (
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/40 bg-emerald-500/15 px-3 py-0.5 text-xs font-semibold text-emerald-300">
+                  <Award className="size-3.5" aria-hidden="true" />
+                  Nhà thám hiểm BioNexus
+                </span>
+              )}
+            </div>
+            <p className="text-xs text-fg-2">
+              {met.length === 0
+                ? 'Bạn chưa đóng dấu trạm nào trong Hành trình 9 loài. Hãy mở hộ chiếu và bắt đầu chuyến đi thực địa qua 4 vùng sinh cảnh.'
+                : met.length < 9
+                  ? `Bạn đã gặp ${met.length} trên 9 loài trong bách khoa BioNexus. Đi tiếp để hoàn thành sổ hộ chiếu và nhận chứng nhận.`
+                  : 'Chúc mừng! Bạn đã đóng đủ 9 con dấu thực địa qua 4 vùng sinh cảnh trên toàn cầu.'}
+            </p>
+          </div>
+
+          <div className="shrink-0">
+            {met.length === 0 ? (
+              <Link to="/tham-hiem?chao-mung=1">
+                <Button size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
+                  <span>Bắt đầu hành trình</span>
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                </Button>
+              </Link>
+            ) : met.length < 9 ? (
+              <Link to={`/tham-hiem?tram=${firstUnmetStationId}`}>
+                <Button size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
+                  <span>Đi tiếp hành trình</span>
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                </Button>
+              </Link>
+            ) : (
+              <Link to="/tham-hiem?tram=ho-chieu">
+                <Button size="sm" variant="secondary" pill className="gap-1.5 text-xs font-semibold">
+                  <span>Xem lại hộ chiếu & chứng nhận</span>
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                </Button>
+              </Link>
+            )}
+          </div>
+        </div>
+
+        {/* 9 chấm tiến độ và lưới 9 trạm loài */}
+        <div className="space-y-3">
+          <div className="flex items-center justify-between text-xs text-fg-3">
+            <span>Tiến độ đóng dấu thực địa</span>
+            <span className="flex items-center gap-1.5" aria-label={`Đã đóng dấu ${met.length} trên 9 trạm`}>
+              {STATION_LIST.map((stId) => {
+                const slug = LEG[stId]?.slug || '';
+                const stamped = met.includes(slug);
+                return (
+                  <span
+                    key={stId}
+                    className={`size-2 rounded-full transition-colors ${
+                      stamped ? 'bg-accent shadow-[0_0_8px_rgba(110,231,183,0.7)]' : 'bg-white/20'
+                    }`}
+                  />
+                );
+              })}
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+            {STATION_LIST.map((stId, idx) => {
+              const leg = LEG[stId];
+              const slug = leg?.slug || '';
+              const sp = JOURNEY_SPECIES_BASE[slug];
+              const stamped = met.includes(slug);
+              return (
+                <Link
+                  key={stId}
+                  to={`/tham-hiem?tram=${stId}`}
+                  className={`flex items-center justify-between rounded-xl border px-3 py-2 transition-colors ${
+                    stamped
+                      ? 'border-accent/40 bg-accent/10 text-fg hover:border-accent'
+                      : 'border-line/60 bg-surface-2/30 text-fg-3 hover:border-line hover:text-fg-2'
+                  }`}
+                >
+                  <div className="min-w-0 pr-2">
+                    <span className="font-mono text-[10px] uppercase tracking-wider block opacity-70">
+                      Trạm 0{idx + 1}
+                    </span>
+                    <span className="font-semibold truncate block">{sp?.name || slug}</span>
+                  </div>
+                  <span
+                    className={`shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] ${
+                      stamped
+                        ? 'bg-accent/20 text-accent font-semibold'
+                        : 'bg-white/5 text-fg-3'
+                    }`}
+                  >
+                    {stamped ? 'Đã đóng dấu' : 'Chưa gặp'}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
       </div>
 
       {/* 2. Khối Trạng thái "Shop Của Bạn" (Dynamic Shop Status Matrix - 5 States) */}

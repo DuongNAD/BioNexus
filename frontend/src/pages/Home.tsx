@@ -425,6 +425,45 @@ export default function Home(): React.JSX.Element {
             </div>
           )}
 
+          {/* Dải mời tham gia Hành trình 9 loài ngay trước phần kết */}
+          <div
+            id="home-journey-invite"
+            className="mt-16 relative overflow-hidden rounded-3xl border border-accent/35 bg-[#040f0b] shadow-2xl"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}trip/trail-1600.webp`}
+              alt="Lối mòn xuyên rừng nhiệt đới mở đầu Hành trình 9 loài"
+              loading="lazy"
+              className="absolute inset-0 size-full object-cover opacity-35"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#030b08]/95 via-[#030b08]/80 to-transparent" />
+            <div className="relative z-10 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+              <div className="max-w-xl">
+                <Badge variant="accent" className="font-mono text-xs uppercase tracking-wider">
+                  Ấn phẩm tương tác · 4 chặng · 9 trạm
+                </Badge>
+                <h3 className="mt-3 text-3xl sm:text-4xl font-serif font-bold text-fg leading-tight">
+                  Hành trình <span className="text-accent italic">9 loài</span> ngoài tự nhiên
+                </h3>
+                <p className="mt-3 text-fg-2 text-sm sm:text-base leading-relaxed">
+                  Mười ngày đi qua 4 vùng sinh cảnh từ rừng mưa Cát Tiên, đỉnh mây Kinabalu, đầm lầy Bắc Carolina, kênh cổ Xochimilco tới sa mạc Trung Úc và Địa Trung Hải. Đóng đủ 9 con dấu vào sổ hộ chiếu loài để nhận chứng nhận Nhà thám hiểm BioNexus.
+                </p>
+              </div>
+              <Button
+                size="lg"
+                pill
+                className="shrink-0 gap-2 shadow-xl shadow-accent/25"
+                onClick={() => {
+                  window.location.hash = '#/tham-hiem';
+                }}
+              >
+                <Compass className="size-4" aria-hidden="true" />
+                <span>Bắt đầu hành trình</span>
+                <ArrowRight className="size-4" aria-hidden="true" />
+              </Button>
+            </div>
+          </div>
+
           {/* Cam kết bảo tồn và CTA mở shop */}
           <div className="mt-16 rounded-3xl border border-line bg-surface-1 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
             <div className="max-w-xl">

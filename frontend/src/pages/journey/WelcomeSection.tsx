@@ -150,7 +150,7 @@ export function WelcomeSection({
     0
   );
 
-  const showWelcomeCopy = isWelcomeMode || Boolean(user);
+  const showWelcomeCopy = isWelcomeMode;
   const displayName = user ? user.name : 'Lê Văn C';
 
   return (

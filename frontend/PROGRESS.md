@@ -575,6 +575,37 @@ Tìm thấy 45 sourceUrl duy nhất trong src/content/.
 | `ho-chieu` | Sổ hộ chiếu 2 trang | **60 FPS** | Lưới 9 con dấu SVG xoay nghiêng |
 | `ho-hang` | Chín loài, một cây họ hàng | **60 FPS** | Cây phân loại SVG `pathLength="1"` + 4 nhánh nổi |
 
+---
+
+## 11. Phần C — Chuyến Đi Làm Quen Sau Đăng Ký & Hộ Chiếu Loài Cá Nhân Hóa
+
+### 11.1 Các Hạng Mục Đã Triển Khai
+1. **Chuyển hướng tự động sau đăng ký (`src/pages/auth/RegisterPage.tsx`)**:
+   - Khi `POST api/auth/register` thành công, tự động điều hướng bằng `navigate('/tham-hiem?chao-mung=1', { replace: true })` (trừ khi có tham số `?next=` hợp lệ).
+   - Đăng nhập bình thường tại `/login` giữ nguyên luồng cũ, không ép vào hành trình.
+2. **Hai chế độ trên cùng một trang (`/tham-hiem` vs `/tham-hiem?chao-mung=1`)**:
+   - **Chế độ khách (`/tham-hiem`)**: Tiêu đề `"Hành trình 9 loài"`, nút chính `"Mở hộ chiếu, lên đường"` (`#cua-rung`), bìa hộ chiếu ghi `"Khách thám hiểm"` nếu chưa đăng nhập.
+   - **Chế độ người mới đăng ký (`/tham-hiem?chao-mung=1`)**: Nhãn `"Tài khoản đã sẵn sàng"`, tiêu đề `"Chào mừng, {user.fullName}"`, nút chính `"Bắt đầu hành trình"` (`#tong-quan`), nút phụ `"Bỏ qua, vào trang chủ"` và nút `"Bỏ qua chuyến đi"` trên Header; họ tên thật xuất hiện trên hộ chiếu, 3 thẻ lên máy bay (`bay-2`, `bay-3`, `bay-4`), mặt sau bưu thiếp (`tram-9`) và giấy chứng nhận.
+   - Khi bấm `"Bỏ qua, vào trang chủ"` hoặc `"Bỏ qua chuyến đi"`, ghi nhận `skippedAt` vào `localStorage['bionexus.passport.v1']` và về `#/`.
+3. **Thẻ `"Hộ chiếu loài"` trên trang `/account` (`src/pages/account/AccountPage.tsx`)**:
+   - Hiển thị số dấu đã thu thập `n/9`, 9 chấm tiến độ và lưới 9 trạm loài kèm trạng thái `"Đã đóng dấu"` / `"Chưa gặp"`.
+   - Khi `n === 0`: hiện nút `"Bắt đầu hành trình"` → `/tham-hiem?chao-mung=1`.
+   - Khi `0 < n < 9`: hiện nút `"Đi tiếp hành trình"` → `/tham-hiem?tram=${firstUnmetStationId}` (tự cuộn tới trạm đầu tiên chưa có dấu).
+   - Khi `n === 9`: hiện huy hiệu `"Nhà thám hiểm BioNexus"` và nút `"Xem lại hộ chiếu & chứng nhận"` → `/tham-hiem?tram=ho-chieu`.
+4. **Điểm vào từ Thanh điều hướng, Trang chủ & DevPanel**:
+   - `src/components/layout/RootLayout.tsx`: thêm mục `"Hành trình 9 loài"` (`/tham-hiem`) trên Navbar và Footer.
+   - `src/pages/Home.tsx`: thêm dải mời tham gia `"Hành trình 9 loài ngoài tự nhiên"` (ảnh thật `trail` + nút `"Bắt đầu hành trình"` → `#/tham-hiem`) ngay trước phần kết.
+   - `src/components/dev/DevPanel.tsx`: thêm nút một chạm `"Xem như người mới đăng ký"` tự động đăng nhập tài khoản `levanc`, làm mới hộ chiếu và mở `#/tham-hiem?chao-mung=1`.
+5. **Bàn giao Backend (`frontend/HANDOFF.md`)**:
+   - Bổ sung mục 3.5 đề xuất endpoint tùy chọn `GET api/me/passport` và `PUT api/me/passport` để đồng bộ hộ chiếu loài giữa nhiều thiết bị khi cần.
+
+### 11.2 Kết Quả Kiểm Thử E2E & Cổng Chất Lượng Phần C
+- **E2E 1 (Khách vãng lai `#/tham-hiem`)**: PASS (`h1` hiện `"Hành trình 9 loài"`, nút `"Mở hộ chiếu, lên đường"`, huy hiệu `0/9`).
+- **E2E 2 (Đăng ký `"Nguyễn Văn Mới"` → `#/tham-hiem?chao-mung=1` → Bỏ qua)**: PASS (`h1` hiện `"Chào mừng, Nguyễn Văn Mới"`, hộ chiếu & thẻ lên máy bay hiện `"Nguyễn Văn Mới"`, bấm bỏ qua về `#/` và lưu `skippedAt`).
+- **E2E 3 (Đóng dấu `#tram-1` → Tải lại trang vẫn còn `1/9` → `/account` hiện thẻ `"Hộ chiếu loài"` `1/9` & `"Đi tiếp hành trình"`)**: PASS.
+- **E2E 4 (DevPanel `"Xem như người mới đăng ký"`)**: PASS.
+
+
 
 
 

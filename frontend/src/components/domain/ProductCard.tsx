@@ -23,11 +23,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
   // Tìm ảnh phụ từ SPECIES_EXTRAS nếu có tên khoa học
   const extras = product.speciesScientificName ? SPECIES_EXTRAS[product.speciesScientificName] : undefined;
-  const secondaryImage = extras?.portraitPhotoId
-    ? `photos/${extras.portraitPhotoId}.webp`
-    : extras?.slug
-      ? `photos/${extras.slug}/hero-960.webp`
-      : null;
+  const secondaryImage = extras?.slug
+    ? `photos/${extras.slug}/portrait-960.webp`
+    : null;
 
   const showFlip = enableHoverFlip && isHovered && secondaryImage && secondaryImage !== product.displayImage;
 

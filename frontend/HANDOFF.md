@@ -99,7 +99,24 @@ Toàn bộ 24 tuyến đường (routes) giao diện người dùng và 1 trang 
   - Mọi đường dẫn tương đối trong frontend (`photos/axolotl/...`) được bảo toàn 100% nhờ việc frontend sử dụng `base: './'`.
   - Khi người dùng hoặc shop tải ảnh mới lên (Upload), backend Java nên tiếp nhận qua `MultipartConfig`, lưu vào thư mục `webapp/photos/uploads/` hoặc một thư mục bên ngoài máy chủ và định tuyến thông qua một Servlet phục vụ file tĩnh.
 
-### 3.5. Kịch Bản Vấn Đáp Bảo Vệ Đồ Án Aptech 2026 (Q&A Script Chuẩn)
+### 3.5. Đề Xuất Tùy Chọn Cho Backend: Đồng Bộ Hộ Chiếu Loài (`GET / PUT api/me/passport`)
+- **Hiện trạng trên Frontend**: Hộ chiếu loài của trang Hành trình 9 loài (`#/tham-hiem`) và thẻ `"Hộ chiếu loài"` trên trang `/account` đang được lưu bền vững phía trình duyệt tại `localStorage['bionexus.passport.v1']` theo khóa `username` (hoặc `'guest'` khi chưa đăng nhập):
+  ```json
+  {
+    "levanc": {
+      "met": ["burmese-python", "nepenthes-ampullaria", "nepenthes-rajah"],
+      "startedAt": "2026-11-02T10:15:00.000Z",
+      "completedAt": "2026-11-02T10:25:00.000Z",
+      "skippedAt": "2026-11-02T10:16:00.000Z"
+    }
+  }
+  ```
+- **Đề xuất Endpoint Tùy Chọn (nếu chủ dự án muốn đồng bộ hộ chiếu giữa nhiều thiết bị)**:
+  - `GET api/me/passport`: Trả về `ApiResponse<PassportDto>` gồm `{ met: string[], startedAt: string, completedAt?: string, skippedAt?: string }` của tài khoản đang đăng nhập.
+  - `PUT api/me/passport`: Nhận body `{ met: string[], completedAt?: string, skippedAt?: string }`, gộp (union) danh sách `met` của khách trên máy với danh sách trên server rồi lưu vào bảng `user_passports(user_id, met_json, started_at, completed_at, skipped_at)`.
+  - Giao diện hiện tại **hoàn toàn không phụ thuộc** vào endpoint này: nếu backend chưa cài đặt (trả `404`), `usePassport()` vẫn hoạt động trơn tru 100% trên `localStorage`.
+
+### 3.6. Kịch Bản Vấn Đáp Bảo Vệ Đồ Án Aptech 2026 (Q&A Script Chuẩn)
 Dưới đây là 5 câu hỏi tình huống chuyên sâu mà Hội đồng chấm thi Aptech thường đặt ra cho các dự án thương mại điện tử sinh học, kèm theo câu trả lời đề xuất:
 
 * **Câu hỏi 1**: *Tại sao nhóm lại kết hợp bách khoa sinh học 6 cấp phân loại với sàn thương mại điện tử sinh vật cảnh, và giải quyết bài toán pháp lý CITES như thế nào?*

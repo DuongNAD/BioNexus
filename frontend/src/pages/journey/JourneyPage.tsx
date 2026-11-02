@@ -49,7 +49,7 @@ const SECTIONS = [
 const ORDERED_SLUGS = Object.keys(JOURNEY_SPECIES_BASE);
 
 function JourneyHeader({ onSkip }: { onSkip: () => void }): React.JSX.Element {
-  const { met, user, isWelcomeMode, setWelcomeMode } = usePassport();
+  const { met, isWelcomeMode, setWelcomeMode } = usePassport();
 
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-40 flex items-center justify-between px-4 py-3 md:px-6 md:py-4">
@@ -95,7 +95,7 @@ function JourneyHeader({ onSkip }: { onSkip: () => void }): React.JSX.Element {
           </button>
         </div>
 
-        {(isWelcomeMode || user) && (
+        {isWelcomeMode && (
           <button
             type="button"
             onClick={onSkip}

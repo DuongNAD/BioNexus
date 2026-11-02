@@ -1,5 +1,5 @@
 import React, { useState, useSyncExternalStore } from 'react';
-import { Wrench, X, RotateCcw, UserCheck, Sliders, Shield, LogOut } from 'lucide-react';
+import { Wrench, X, RotateCcw, UserCheck, Sliders, Shield, LogOut, Compass } from 'lucide-react';
 import { useQueryClient } from '@tanstack/react-query';
 import { toast } from 'sonner';
 import { USE_MOCKS } from '@/lib/env';
@@ -124,6 +124,22 @@ export function DevPanel(): React.JSX.Element {
     clearAuthSession();
     queryClient.clear();
     toast.success('Đã đăng xuất tài khoản.');
+  };
+
+  const handleViewAsNewRegistrant = () => {
+    const res = db.loginUser('levanc', '123456');
+    if (res.status === 200 && res.body.data) {
+      setAuthSession(res.body.data);
+      queryClient.invalidateQueries();
+      try {
+        window.localStorage.removeItem('bionexus.passport.v1');
+      } catch {
+        // Bỏ qua lỗi localStorage
+      }
+      setIsOpen(false);
+      window.location.hash = '#/tham-hiem?chao-mung=1';
+      toast.success('Đã đăng nhập Lê Văn C và mở chuyến đi làm quen cho người mới đăng ký.');
+    }
   };
 
   return (
@@ -270,8 +286,16 @@ export function DevPanel(): React.JSX.Element {
             {/* Điều khiển Đồ họa 3D */}
             <DevPanel3DSection />
 
-            {/* Nút Khôi phục dữ liệu gốc */}
-            <div>
+            {/* Nút Xem như người mới đăng ký & Khôi phục dữ liệu gốc */}
+            <div className="space-y-2">
+              <button
+                type="button"
+                onClick={handleViewAsNewRegistrant}
+                className="flex w-full items-center justify-center gap-2 rounded-xl border border-accent/50 bg-accent/15 py-2 text-xs font-semibold text-accent transition-colors hover:border-accent hover:bg-accent/25 focus-visible:ring-2 focus-visible:ring-accent"
+              >
+                <Compass className="h-3.5 w-3.5 text-accent" aria-hidden="true" />
+                <span>Xem như người mới đăng ký</span>
+              </button>
               <button
                 type="button"
                 onClick={handleResetDb}

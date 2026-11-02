@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { useSearchParams, Link } from 'react-router';
+import { useSearchParams, useNavigate, Link } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -43,6 +43,7 @@ export type RegisterFormData = z.infer<typeof registerSchema>;
 
 export default function RegisterPage(): React.JSX.Element {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const nextUrl = searchParams.get('next');
 
   const [showPassword, setShowPassword] = useState(false);
@@ -96,11 +97,11 @@ export default function RegisterPage(): React.JSX.Element {
 
       toast.success('Đăng ký tài khoản thành công! Chào mừng bạn gia nhập BioNexus.');
 
-      // Chuyển hướng an toàn
+      // Chuyển hướng sang chuyến đi làm quen sau khi đăng ký (trừ khi có ?next= hợp lệ)
       if (nextUrl && nextUrl.startsWith('/') && !nextUrl.startsWith('//')) {
-        window.location.hash = `#${nextUrl}`;
+        navigate(nextUrl, { replace: true });
       } else {
-        window.location.hash = '#/account';
+        navigate('/tham-hiem?chao-mung=1', { replace: true });
       }
     } catch (err: any) {
       if (err.code === 'USER_USERNAME_EXISTS') {

@@ -71,20 +71,39 @@ export function writePassportMap(map: PassportStorageMap): void {
 export function getPassportEntryForKey(userKey: string): PassportEntry {
   const map = readPassportMap();
   const existing = map[userKey];
+  const guestMet =
+    userKey !== 'guest' && Array.isArray(map.guest?.met)
+      ? map.guest.met.filter((s): s is string => typeof s === 'string' && VALID_SLUGS.has(s))
+      : [];
   if (existing && Array.isArray(existing.met)) {
     const filteredMet = existing.met.filter(
       (s): s is string => typeof s === 'string' && VALID_SLUGS.has(s)
     );
     return {
       ...existing,
-      met: Array.from(new Set(filteredMet)),
+      met: Array.from(new Set([...filteredMet, ...guestMet])),
       startedAt: existing.startedAt || new Date().toISOString(),
     };
   }
   return {
+    met: Array.from(new Set(guestMet)),
+    startedAt: new Date().toISOString(),
+  };
+}
+
+export function resetPassportForKey(userKey: string): void {
+  const map = readPassportMap();
+  map[userKey] = {
     met: [],
     startedAt: new Date().toISOString(),
   };
+  if (userKey !== 'guest' && map.guest) {
+    map.guest = {
+      met: [],
+      startedAt: new Date().toISOString(),
+    };
+  }
+  writePassportMap(map);
 }
 
 export function recordPassportStamp(userKey: string, slug: string): { added: boolean; entry: PassportEntry } {
