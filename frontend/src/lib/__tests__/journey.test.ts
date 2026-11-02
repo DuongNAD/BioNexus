@@ -17,6 +17,7 @@ import {
   usePassport,
 } from '@/hooks/usePassport';
 import {
+  KINSHIP_DISCLAIMER,
   buildKinshipCaptions,
   buildKinshipTree,
   findCommonAncestor,
@@ -148,6 +149,9 @@ describe('Hành trình 9 loài · Cây họ hàng (KinshipSection)', () => {
 
     expect(formatKinshipCaption('Lớp Lưỡng cư', ['Axolotl'])).toBe(
       'Axolotl là loài duy nhất thuộc Lớp Lưỡng cư trong chín loài.'
+    );
+    expect(KINSHIP_DISCLAIMER).toBe(
+      'Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa.'
     );
   });
 });

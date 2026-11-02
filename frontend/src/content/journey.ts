@@ -62,6 +62,12 @@ export interface JourneyTipConfig {
   iucnCode?: ConservationStatus;
 }
 
+export interface JourneyTaxonBreadcrumb {
+  rank: string;
+  sci: string;
+  vi: string;
+}
+
 export interface JourneySpeciesView {
   id: number;
   nodeId: number;
@@ -74,6 +80,7 @@ export interface JourneySpeciesView {
   habitat: string;
   origin: string;
   desc: string;
+  path: readonly JourneyTaxonBreadcrumb[];
   parsedSpecs: ParsedEnvironmentSpecs;
 }
 
@@ -131,6 +138,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Rừng nhiệt đới, đầm lầy',
     origin: 'Nam và Đông Nam Á',
     desc: 'Một trong những loài trăn lớn nhất thế giới, bản địa Nam và Đông Nam Á, có ở Việt Nam.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Reptilia', vi: 'Lớp Bò sát' },
+      { rank: 'ORDER', sci: 'Squamata', vi: 'Bộ Có vảy' },
+      { rank: 'FAMILY', sci: 'Pythonidae', vi: 'Họ Trăn' },
+      { rank: 'GENUS', sci: 'Python', vi: 'Chi Trăn' },
+    ],
   },
   'nepenthes-ampullaria': {
     id: 9,
@@ -144,6 +159,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Rừng mưa vùng thấp',
     origin: 'Rừng thấp Borneo, Sumatra',
     desc: 'Nắp ấm vùng thấp, túi bẫy tròn mọc thành cụm sát gốc; dễ trồng hơn nhiều loài khác.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Plantae', vi: 'Giới Thực vật' },
+      { rank: 'PHYLUM', sci: 'Tracheophyta', vi: 'Ngành Thực vật có mạch' },
+      { rank: 'CLASS', sci: 'Magnoliopsida', vi: 'Lớp Hai lá mầm' },
+      { rank: 'ORDER', sci: 'Caryophyllales', vi: 'Bộ Cẩm chướng' },
+      { rank: 'FAMILY', sci: 'Nepenthaceae', vi: 'Họ Nắp ấm' },
+      { rank: 'GENUS', sci: 'Nepenthes', vi: 'Chi Nắp ấm' },
+    ],
   },
   'nepenthes-rajah': {
     id: 2,
@@ -157,6 +180,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Rừng mây núi cao Borneo',
     origin: 'Núi Kinabalu, Borneo',
     desc: 'Nắp ấm đặc hữu vùng núi Kinabalu và Tambuyukon (Borneo), túi bẫy thuộc hàng lớn nhất trong chi.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Plantae', vi: 'Giới Thực vật' },
+      { rank: 'PHYLUM', sci: 'Tracheophyta', vi: 'Ngành Thực vật có mạch' },
+      { rank: 'CLASS', sci: 'Magnoliopsida', vi: 'Lớp Hai lá mầm' },
+      { rank: 'ORDER', sci: 'Caryophyllales', vi: 'Bộ Cẩm chướng' },
+      { rank: 'FAMILY', sci: 'Nepenthaceae', vi: 'Họ Nắp ấm' },
+      { rank: 'GENUS', sci: 'Nepenthes', vi: 'Chi Nắp ấm' },
+    ],
   },
   'venus-flytrap': {
     id: 5,
@@ -170,6 +201,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Đầm lầy đất nghèo dinh dưỡng',
     origin: 'Bắc và Nam Carolina (Mỹ)',
     desc: 'Cây ăn thịt với lá bẫy gập lại khi lông cảm ứng bị chạm liên tiếp.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Plantae', vi: 'Giới Thực vật' },
+      { rank: 'PHYLUM', sci: 'Tracheophyta', vi: 'Ngành Thực vật có mạch' },
+      { rank: 'CLASS', sci: 'Magnoliopsida', vi: 'Lớp Hai lá mầm' },
+      { rank: 'ORDER', sci: 'Caryophyllales', vi: 'Bộ Cẩm chướng' },
+      { rank: 'FAMILY', sci: 'Droseraceae', vi: 'Họ Gọng vó' },
+      { rank: 'GENUS', sci: 'Dionaea', vi: 'Chi Dionaea' },
+    ],
   },
   axolotl: {
     id: 1,
@@ -183,6 +222,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Nước ngọt sạch, ít dòng chảy',
     origin: 'Hồ Xochimilco, Mexico',
     desc: 'Kỳ giông thủy sinh đặc hữu hồ Xochimilco (Mexico), giữ mang ngoài suốt đời và có khả năng tái sinh chi.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Amphibia', vi: 'Lớp Lưỡng cư' },
+      { rank: 'ORDER', sci: 'Urodela', vi: 'Bộ Có đuôi' },
+      { rank: 'FAMILY', sci: 'Ambystomatidae', vi: 'Họ Ambystomatidae' },
+      { rank: 'GENUS', sci: 'Ambystoma', vi: 'Chi Ambystoma' },
+    ],
   },
   'ball-python': {
     id: 3,
@@ -196,6 +243,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Savan và rừng thưa nhiệt đới',
     origin: 'Tây và Trung Phi',
     desc: 'Loài trăn cỡ nhỏ bản địa Tây và Trung Phi; khi gặp nguy hiểm thường cuộn tròn như quả bóng.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Reptilia', vi: 'Lớp Bò sát' },
+      { rank: 'ORDER', sci: 'Squamata', vi: 'Bộ Có vảy' },
+      { rank: 'FAMILY', sci: 'Pythonidae', vi: 'Họ Trăn' },
+      { rank: 'GENUS', sci: 'Python', vi: 'Chi Trăn' },
+    ],
   },
   'leopard-gecko': {
     id: 4,
@@ -209,6 +264,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Bán hoang mạc đá, hoạt động về đêm',
     origin: 'Pakistan, Ấn Độ, Iran',
     desc: 'Thằn lằn ăn côn trùng hoạt động về đêm, có mí mắt động và đuôi tích trữ mỡ.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Reptilia', vi: 'Lớp Bò sát' },
+      { rank: 'ORDER', sci: 'Squamata', vi: 'Bộ Có vảy' },
+      { rank: 'FAMILY', sci: 'Eublepharidae', vi: 'Họ Eublepharidae' },
+      { rank: 'GENUS', sci: 'Eublepharis', vi: 'Chi Thằn lằn da báo' },
+    ],
   },
   'bearded-dragon': {
     id: 7,
@@ -222,6 +285,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Bán hoang mạc, rừng thưa khô',
     origin: 'Miền trung nước Úc',
     desc: 'Thằn lằn bản địa vùng khô hạn nước Úc, hoạt động ban ngày, ăn tạp (côn trùng và rau).',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Reptilia', vi: 'Lớp Bò sát' },
+      { rank: 'ORDER', sci: 'Squamata', vi: 'Bộ Có vảy' },
+      { rank: 'FAMILY', sci: 'Agamidae', vi: 'Họ Nhông' },
+      { rank: 'GENUS', sci: 'Pogona', vi: 'Chi Pogona' },
+    ],
   },
   'hermann-tortoise': {
     id: 8,
@@ -235,6 +306,14 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     habitat: 'Bụi rậm Địa Trung Hải',
     origin: 'Nam Âu, Địa Trung Hải',
     desc: 'Rùa cạn cỡ nhỏ ở Nam Âu, ăn chủ yếu thực vật, có thể sống nhiều thập kỷ.',
+    path: [
+      { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
+      { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
+      { rank: 'CLASS', sci: 'Reptilia', vi: 'Lớp Bò sát' },
+      { rank: 'ORDER', sci: 'Testudines', vi: 'Bộ Rùa' },
+      { rank: 'FAMILY', sci: 'Testudinidae', vi: 'Họ Rùa núi' },
+      { rank: 'GENUS', sci: 'Testudo', vi: 'Chi Testudo' },
+    ],
   },
 };
 

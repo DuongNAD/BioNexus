@@ -150,7 +150,10 @@ export const SPECIES_TAXONOMY_PATHS: Record<string, readonly TaxonBreadcrumb[]> 
   ],
 };
 
-export type KinshipSpeciesItem = Omit<JourneySpeciesView, 'parsedSpecs'> & {
+export const KINSHIP_DISCLAIMER =
+  'Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa.';
+
+export type KinshipSpeciesItem = Omit<JourneySpeciesView, 'parsedSpecs' | 'path'> & {
   path?: readonly TaxonBreadcrumb[];
 };
 
@@ -451,7 +454,7 @@ export function Kinship({ liveSpecies, taxonomyTree }: KinshipProps): React.JSX.
             </h2>
           </div>
           <p className="max-w-md text-[14px] leading-relaxed text-white/70 md:text-[15px]">
-            Cây vẽ từ phân loại trong bách khoa, từ Giới tới Chi. Nó cho biết các loài bạn gặp xếp gần nhau thế nào. Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa.
+            Cây vẽ từ phân loại trong bách khoa, từ Giới tới Chi. Nó cho biết các loài bạn gặp xếp gần nhau thế nào. {KINSHIP_DISCLAIMER}
           </p>
         </div>
 

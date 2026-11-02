@@ -605,6 +605,23 @@ Tìm thấy 45 sourceUrl duy nhất trong src/content/.
 - **E2E 3 (Đóng dấu `#tram-1` → Tải lại trang vẫn còn `1/9` → `/account` hiện thẻ `"Hộ chiếu loài"` `1/9` & `"Đi tiếp hành trình"`)**: PASS.
 - **E2E 4 (DevPanel `"Xem như người mới đăng ký"`)**: PASS.
 
+---
+
+## 12. Cảnh "Chín Loài, Một Cây Họ Hàng" (`section#ho-hang` — Mục 1a)
+
+### 12.1 Chi Tiết Triển Khai
+- Đặt giữa `PassportBook` (`#ho-chieu`) và `Certificate` trên trang `/tham-hiem` (`src/pages/journey/KinshipSection.tsx`, `src/content/journey.ts`).
+- **Dựng hoàn toàn từ phân loại trong dữ liệu (Giới → Ngành → Lớp → Bộ → Họ → Chi → Loài)**:
+  - Không thêm mốc thời gian, tuổi địa chất hay quan hệ tiến hóa ngoài dữ liệu.
+  - Ghi rõ tuyên bố miễn trừ: `"Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa."`
+  - 9 lá xếp dọc bên phải theo thứ tự tên khoa học để các nhánh cong Bézier bậc ba không cắt nhau.
+  - Vẽ dần theo tiến độ cuộn `--grow` (`0.04–0.38`) bằng `pathLength="1"` và `stroke-dashoffset`.
+  - Làm nổi lần lượt 4 nhánh (`data-hl="1..4"`, khoảng `0.45–0.90`): `Caryophyllales`, `Python`, `Squamata`, `Amphibia` kèm câu giải thích tự sinh từ dữ liệu (`buildKinshipCaptions`) và nút `"Mở cây phân loại"` (`#/taxonomy/:id`).
+  - Hỗ trợ đầy đủ màn hình di động `390×844` (`xl = 540`, `sw = 3.6`) và chế độ giảm chuyển động (`prefers-reduced-motion` / `quality=static`).
+- **Unit test (`src/lib/__tests__/journey.test.ts`)**: Kiểm chứng đủ 9 lá, tổ tiên chung của nắp ấm và bắt ruồi Venus là `Caryophyllales` (`Bộ Cẩm chướng`), và câu giải thích tự sinh cho cả nhánh nhiều loài lẫn nhánh 1 loài.
+- **Kiểm tra trực quan**: Đã chụp và đối chiếu `part-b-s20-ho-hang-1440.png` (`1440×900`) và `part-b-sm9-ho-hang-390.png` (`390×844`) với `docs/frontend/reference/screens/s-20-ho-hang.jpg` và `s-m9-ho-hang.jpg` (FPS đạt 60 FPS, 0 lỗi console).
+
+
 
 
 
