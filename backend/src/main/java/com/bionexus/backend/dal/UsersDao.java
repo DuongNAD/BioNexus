@@ -137,5 +137,23 @@ public class UsersDao {
         }
         return false;
     }
+
+    public Users getUserByEmail(String email) {
+        String sql = "SELECT * FROM Users WHERE email = ?";
+        try (
+                Connection conn = DBContext.getConnection();
+                PreparedStatement pts = conn.prepareStatement(sql)
+        ) {
+            pts.setString(1, email);
+            try (ResultSet rs = pts.executeQuery()) {
+                if (rs.next()) {
+                    return mapRow(rs);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }
 

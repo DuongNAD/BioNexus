@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1600, initial-scale=1.0" />
+  <title>BioNexus — Apple Bento & Bio-Emerald UI Mockup Suite</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .screen-view { display: none; }
+    .screen-view.active { display: block; }
+
+    /* Shared helpers for ultra-dense Apple Bento cards */
+    .grid-cols-12 { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
+    .col-3 { grid-column: span 3; }
+    .col-4 { grid-column: span 4; }
+    .col-5 { grid-column: span 5; }
+    .col-6 { grid-column: span 6; }
+    .col-7 { grid-column: span 7; }
+    .col-8 { grid-column: span 8; }
+    .col-9 { grid-column: span 9; }
+    .col-12 { grid-column: span 12; }
+
+    .card-pad { padding: 22px; }
+    .card-pad-sm { padding: 16px 18px; }
+    .flex-between { display: flex; align-items: center; justify-content: space-between; }
+    .flex-center { display: flex; align-items: center; gap: 10px; }
+    .italic-sci { font-style: italic; font-weight: 500; color: #6ee7b7; }
+    .theme-hybrid-light .italic-sci { color: #047857; }
+    .price-vnd { font-weight: 800; font-size: 18px; color: #34d399; letter-spacing: -0.02em; }
+    .theme-hybrid-light .price-vnd { color: #059669; }
+
+    .img-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+      display: block;
+    }
+
+    /* Animated tree line connectors */
+    .tree-node-box {
+      padding: 11px 15px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 9px;
+      position: relative;
+    }
+    .tree-node-box.active-node {
+      background: linear-gradient(135deg, rgba(16,185,129,0.24), rgba(6,182,212,0.14));
+      border-color: #34d399;
+      box-shadow: 0 0 22px rgba(16,185,129,0.3);
+    }
+    .rank-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: rgba(16,185,129,0.18);
+      color: #6ee7b7;
+      border: 1px solid rgba(52,211,153,0.3);
+    }
+
+    /* Circular SVG Gauge */
+    .gauge-ring {
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      background: conic-gradient(#10b981 0% 72%, rgba(255,255,255,0.08) 72% 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 20px rgba(16,185,129,0.28);
+    }
+    .gauge-inner {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: #091411;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* Table styling for Seller & Admin */
+    .bio-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 8px;
+      font-size: 13px;
+    }
+    .bio-table th {
+      text-align: left;
+      padding: 6px 12px;
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .bio-table td {
+      padding: 11px 12px;
+      background: rgba(255,255,255,0.04);
+      border-top: 1px solid rgba(255,255,255,0.07);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .bio-table tr td:first-child {
+      border-left: 1px solid rgba(255,255,255,0.07);
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+    .bio-table tr td:last-child {
+      border-right: 1px solid rgba(255,255,255,0.07);
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================================
+     SCREEN 01: TRANG CHỦ (#/) — APPLE BENTO + BIO-EMERALD + LIGHT/DARK SPLIT
+     ============================================================================ -->
+<section id="01-home" class="screen-view active">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <div class="bio-particles">
+      <div class="spore" style="width:14px;height:14px;top:14%;left:8%;"></div>
+      <div class="spore cyan" style="width:10px;height:10px;top:26%;left:48%;"></div>
+      <div class="spore blue" style="width:16px;height:16px;top:18%;left:88%;"></div>
+      <div class="spore" style="width:12px;height:12px;top:68%;left:36%;"></div>
+      <div class="spore cyan" style="width:18px;height:18px;top:76%;left:92%;"></div>
+    </div>
+
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">
+          BioNexus
+          <span class="brand-badge">Apple Bento · Bio-Emerald</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill active">✦ Khám phá</div>
+        <div class="nav-pill">🌿 Cây phân loại (6 cấp)</div>
+        <div class="nav-pill">🦎 Bách khoa Loài (9)</div>
+        <div class="nav-pill">🛍️ Sàn giao dịch (7 APPROVED)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/taxonomy · #/</span>
+        <div class="cart-btn-nav">🛒 Giỏ hàng <span class="cart-count-bubble">2</span></div>
+        <div class="user-chip">
+          <div class="avatar-circle">LC</div>
+          <span>Lê Văn C (levanc)</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <!-- Top Hero + Kingdom Bento Row -->
+      <div class="grid-cols-12" style="height: 455px;">
+        <!-- Hero Search & Bio-Luminescent Headline (7 cols) -->
+        <div class="bento-card col-7 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;background:radial-gradient(circle at 80% 20%, rgba(16,185,129,0.22), rgba(12,24,20,0.78) 65%);">
+          <div class="flex-between">
+            <span class="anim-badge"><span class="anim-dot"></span> Parallax Hero + Bioluminescent Spores + Spring Reveal (260ms ease-out)</span>
+            <span class="status-pill status-approved">● Server Tomcat 10.1 :8081 Online</span>
+          </div>
+
+          <div style="margin: 8px 0;">
+            <div style="font-size:13px;font-weight:600;color:#34d399;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:8px;">
+              Sàn sinh vật cảnh hợp pháp & Bách khoa phân loại học chuẩn GBIF / IUCN
+            </div>
+            <h1 style="font-size:40px;font-weight:800;line-height:1.1;letter-spacing:-0.035em;margin-bottom:12px;">
+              Khám phá Sự sống từ <span style="background:linear-gradient(90deg,#34d399,#38bdf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Giới đến Loài</span>. Giao dịch Minh bạch.
+            </h1>
+            <p style="font-size:14px;color:var(--text-secondary);line-height:1.55;max-width:660px;">
+              Duyệt cây phân loại 6 cấp (<code style="color:#6ee7b7;">KINGDOM → GENUS</code>), tra cứu thông số sinh cảnh & mức bảo tồn IUCN Red List trước khi đặt mua từ các trại nhân giống đã kiểm duyệt.
+            </p>
+          </div>
+
+          <!-- Glass Search Bar with Live Autocomplete Preview -->
+          <div style="background:rgba(6,12,10,0.76);border:1px solid rgba(52,211,153,0.4);border-radius:18px;padding:12px 16px;box-shadow:0 12px 32px rgba(0,0,0,0.45);">
+            <div class="flex-between" style="margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,0.08);">
+              <div class="flex-center" style="font-size:14px;color:#e2e8f0;">
+                <span style="color:#34d399;font-size:16px;">⌕</span>
+                <span>Tìm theo tên khoa học, tên thường gọi, chi, họ... <strong style="color:#34d399;">"Python"</strong><span style="color:#38bdf8;">|</span></span>
+              </div>
+              <div class="flex-center">
+                <span class="anim-badge">Live Debounce 180ms</span>
+                <span class="btn-emerald" style="padding:6px 14px;font-size:12.5px;">Tìm kiếm</span>
+              </div>
+            </div>
+            <div class="flex-between" style="font-size:12px;">
+              <div class="flex-center">
+                <span class="rank-tag">GENUS</span>
+                <span><strong class="italic-sci">Python</strong> (Chi Trăn · Họ Pythonidae) → 2 loài</span>
+              </div>
+              <div class="flex-center" style="gap:8px;">
+                <span class="iucn-pill iucn-nt"><span class="iucn-dot"></span>Python regius · NT</span>
+                <span class="iucn-pill iucn-vu"><span class="iucn-dot"></span>Python bivittatus · VU</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Metrics Strip -->
+          <div class="flex-between" style="padding-top:6px;">
+            <div><div style="font-size:20px;font-weight:800;color:#fff;">2 Giới · 22 Nút</div><div style="font-size:11.5px;color:var(--text-secondary);">6 bậc phân loại chuẩn</div></div>
+            <div style="width:1px;height:28px;background:rgba(255,255,255,0.1);"></div>
+            <div><div style="font-size:20px;font-weight:800;color:#34d399;">9 Loài đặc trưng</div><div style="font-size:11.5px;color:var(--text-secondary);">Đối chiếu GBIF & IUCN</div></div>
+            <div style="width:1px;height:28px;background:rgba(255,255,255,0.1);"></div>
+            <div><div style="font-size:20px;font-weight:800;color:#38bdf8;">7 Sản phẩm đang bán</div><div style="font-size:11.5px;color:var(--text-secondary);">100% đã duyệt bởi Moderator</div></div>
+            <div style="width:1px;height:28px;background:rgba(255,255,255,0.1);"></div>
+            <div><div style="font-size:20px;font-weight:800;color:#fbbf24;">ACID Transaction</div><div style="font-size:11.5px;color:var(--text-secondary);">Chống bán lố tồn kho</div></div>
+          </div>
+        </div>
+
+        <!-- Two Kingdom 3D Bento Cards (5 cols) -->
+        <div class="col-5" style="display:flex;flex-direction:column;gap:18px;">
+          <!-- Kingdom 1: Animalia (3D Hover Tilt Active) -->
+          <div class="bento-card tilt-3d-active" style="flex:1;padding:20px;display:flex;gap:18px;align-items:center;">
+            <div class="tilt-glare"></div>
+            <div style="width:165px;height:175px;position:relative;flex-shrink:0;">
+              <img src="assets/ball-python.jpg" alt="Animalia" class="img-cover" />
+              <span class="iucn-pill iucn-nt" style="position:absolute;bottom:8px;left:8px;"><span class="iucn-dot"></span>NT · VU · CR · LC</span>
+            </div>
+            <div style="display:flex;flex-direction:column;justify-content:space-between;height:100%;">
+              <div>
+                <div class="flex-between" style="margin-bottom:6px;">
+                  <span class="rank-tag">KINGDOM #1</span>
+                  <span class="anim-badge">3D Card Tilt + Glare</span>
+                </div>
+                <h2 style="font-size:23px;font-weight:800;letter-spacing:-0.02em;">Animalia <span style="font-weight:500;font-size:15px;color:var(--text-secondary);">— Giới Động vật</span></h2>
+                <p style="font-size:12.5px;color:var(--text-secondary);margin-top:4px;line-height:1.45;">
+                  Ngành Dây sống (<em>Chordata</em>) → Lớp Bò sát (<em>Reptilia</em>) & Lớp Lưỡng cư (<em>Amphibia</em>) → 5 Họ · 5 Chi · <strong>6 Loài</strong>.
+                </p>
+              </div>
+              <div class="flex-between" style="margin-top:8px;">
+                <span style="font-size:12px;color:#6ee7b7;font-weight:600;">Leopard Gecko · Ball Python · Axolotl...</span>
+                <span class="btn-emerald" style="padding:6px 14px;font-size:12px;">Duyệt nhánh →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kingdom 2: Plantae (Light Mode Apple Glass Preview Card!) -->
+          <div class="bento-card" style="flex:1;padding:20px;display:flex;gap:18px;align-items:center;background:linear-gradient(135deg, rgba(255,255,255,0.92), rgba(236,253,245,0.88));color:#1d1d1f;">
+            <div style="width:165px;height:175px;position:relative;flex-shrink:0;">
+              <img src="assets/nepenthes-rajah.jpg" alt="Plantae" class="img-cover" />
+              <span class="iucn-pill iucn-en" style="position:absolute;bottom:8px;left:8px;"><span class="iucn-dot"></span>EN · VU · LC</span>
+            </div>
+            <div style="display:flex;flex-direction:column;justify-content:space-between;height:100%;">
+              <div>
+                <div class="flex-between" style="margin-bottom:6px;">
+                  <span class="rank-tag" style="background:rgba(5,150,105,0.14);color:#047857;">KINGDOM #2</span>
+                  <span class="anim-badge" style="background:rgba(0,113,227,0.12);color:#0066cc;">☀️ Light Theme Token Preview</span>
+                </div>
+                <h2 style="font-size:23px;font-weight:800;letter-spacing:-0.02em;color:#1d1d1f;">Plantae <span style="font-weight:500;font-size:15px;color:#515154;">— Giới Thực vật</span></h2>
+                <p style="font-size:12.5px;color:#4b5563;margin-top:4px;line-height:1.45;">
+                  Ngành Thực vật có mạch (<em>Tracheophyta</em>) → Bộ Cẩm chướng (<em>Caryophyllales</em>) → Họ Nắp ấm & Gọng vó → <strong>3 Loài</strong>.
+                </p>
+              </div>
+              <div class="flex-between" style="margin-top:8px;">
+                <span style="font-size:12px;color:#047857;font-weight:700;">Nepenthes rajah · Venus Flytrap...</span>
+                <span class="btn-apple-blue" style="padding:6px 14px;font-size:12px;">Duyệt nhánh →</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Featured Species & Approved Products Carousel (4 columns) -->
+      <div>
+        <div class="flex-between" style="margin-bottom:12px;">
+          <div class="flex-center">
+            <h3 style="font-size:18px;font-weight:700;">Loài & Sản phẩm Nổi bật từ Seed Database</h3>
+            <span class="anim-badge"><span class="anim-dot"></span> Stagger Fade-Up (60ms/card) + Hover Scale 1.03x</span>
+          </div>
+          <span style="font-size:12.5px;color:#6ee7b7;font-weight:600;">Xem toàn bộ 9 loài & 7 sản phẩm APPROVED →</span>
+        </div>
+
+        <div class="grid-cols-12" style="height:375px;">
+          <!-- Card 1: Axolotl (CR) -->
+          <div class="bento-card col-3 card-pad-sm" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="height:175px;position:relative;">
+              <img src="assets/axolotl.jpg" alt="Axolotl" class="img-cover" />
+              <span class="iucn-pill iucn-cr" style="position:absolute;top:10px;right:10px;"><span class="iucn-dot"></span>CR · Cực kỳ nguy cấp</span>
+              <span class="status-pill status-approved" style="position:absolute;bottom:10px;left:10px;background:rgba(6,12,10,0.82);">Kho: 8 cá thể</span>
+            </div>
+            <div>
+              <div class="italic-sci" style="font-size:12px;">Ambystoma mexicanum</div>
+              <div style="font-size:16px;font-weight:700;margin:2px 0 4px;">Axolotl Leucistic (5 cm)</div>
+              <div style="font-size:11.5px;color:var(--text-secondary);">🌡️ Nước 14–18°C · 🏠 Shop: BioGreen Exotic</div>
+            </div>
+            <div class="flex-between" style="padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);">
+              <span class="price-vnd">450.000 ₫</span>
+              <span class="btn-glass" style="padding:6px 12px;font-size:12px;">+ Thêm giỏ</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Leopard Gecko Tangerine (LC) -->
+          <div class="bento-card col-3 card-pad-sm" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="height:175px;position:relative;">
+              <img src="assets/leopard-gecko.jpg" alt="Leopard Gecko" class="img-cover" />
+              <span class="iucn-pill iucn-lc" style="position:absolute;top:10px;right:10px;"><span class="iucn-dot"></span>LC · Ít lo ngại</span>
+              <span class="status-pill status-approved" style="position:absolute;bottom:10px;left:10px;background:rgba(6,12,10,0.82);">Kho: 3 cá thể</span>
+            </div>
+            <div>
+              <div class="italic-sci" style="font-size:12px;">Eublepharis macularius</div>
+              <div style="font-size:16px;font-weight:700;margin:2px 0 4px;">Leopard Gecko Tangerine Baby</div>
+              <div style="font-size:11.5px;color:var(--text-secondary);">🌡️ 26–32°C · 💧 30–40% · 🏠 BioGreen Exotic</div>
+            </div>
+            <div class="flex-between" style="padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);">
+              <span class="price-vnd">1.200.000 ₫</span>
+              <span class="btn-glass" style="padding:6px 12px;font-size:12px;">+ Thêm giỏ</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Nepenthes rajah (EN) -->
+          <div class="bento-card col-3 card-pad-sm" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="height:175px;position:relative;">
+              <img src="assets/nepenthes-rajah.jpg" alt="Nepenthes rajah" class="img-cover" />
+              <span class="iucn-pill iucn-en" style="position:absolute;top:10px;right:10px;"><span class="iucn-dot"></span>EN · Nguy cấp</span>
+              <span class="status-pill status-approved" style="position:absolute;bottom:10px;left:10px;background:rgba(6,12,10,0.82);">Kho: 2 cây</span>
+            </div>
+            <div>
+              <div class="italic-sci" style="font-size:12px;">Nepenthes rajah</div>
+              <div style="font-size:16px;font-weight:700;margin:2px 0 4px;">Nắp ấm Rajah cây con (Cấy mô)</div>
+              <div style="font-size:11.5px;color:var(--text-secondary);">🌡️ 18–26°C · 💧 80–95% · 🏠 Carnivora Garden</div>
+            </div>
+            <div class="flex-between" style="padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);">
+              <span class="price-vnd">2.500.000 ₫</span>
+              <span class="btn-glass" style="padding:6px 12px;font-size:12px;">+ Thêm giỏ</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Venus Flytrap (VU) -->
+          <div class="bento-card col-3 card-pad-sm" style="display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="height:175px;position:relative;">
+              <img src="assets/venus-flytrap.jpg" alt="Venus Flytrap" class="img-cover" />
+              <span class="iucn-pill iucn-vu" style="position:absolute;top:10px;right:10px;"><span class="iucn-dot"></span>VU · Sắp nguy cấp</span>
+              <span class="status-pill status-approved" style="position:absolute;bottom:10px;left:10px;background:rgba(6,12,10,0.82);">Kho: 40 chậu</span>
+            </div>
+            <div>
+              <div class="italic-sci" style="font-size:12px;">Dionaea muscipula</div>
+              <div style="font-size:16px;font-weight:700;margin:2px 0 4px;">Cây bắt ruồi Venus (Chậu 8cm)</div>
+              <div style="font-size:11.5px;color:var(--text-secondary);">🌡️ 20–30°C · 💧 50–70% · 🏠 Carnivora Garden</div>
+            </div>
+            <div class="flex-between" style="padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);">
+              <span class="price-vnd">120.000 ₫</span>
+              <span class="btn-glass" style="padding:6px 12px;font-size:12px;">+ Thêm giỏ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Spec Bar -->
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 01/09: Trang chủ (Home.jsx)</span>
+          <span class="spec-tag">API: GET /api/taxonomy · GET /api/products?page=1&size=12</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Backdrop Blur 24px · 3D Perspective Hover · Bioluminescent Spores</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 02: DUYỆT CÂY PHÂN LOẠI 6 CẤP (#/taxonomy/4)
+     ============================================================================ -->
+<section id="02-taxonomy" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <div class="bio-particles">
+      <div class="spore" style="width:15px;height:15px;top:22%;left:32%;"></div>
+      <div class="spore cyan" style="width:12px;height:12px;top:60%;left:70%;"></div>
+    </div>
+
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Taxonomy Explorer</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá</div>
+        <div class="nav-pill active">🌿 Cây phân loại (6 cấp)</div>
+        <div class="nav-pill">🦎 Bách khoa Loài</div>
+        <div class="nav-pill">🛍️ Sàn giao dịch</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/taxonomy/4 + /children + /species</span>
+        <div class="user-chip"><div class="avatar-circle">LC</div><span>Lê Văn C</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <!-- Animated Breadcrumb Bar -->
+      <div class="bento-card" style="padding:12px 20px;display:flex;align-items:center;justify-content:space-between;">
+        <div class="flex-center" style="font-size:13px;gap:8px;flex-wrap:wrap;">
+          <span class="rank-tag">KINGDOM</span> <strong>Animalia</strong> <span style="color:#6ee7b7;">›</span>
+          <span class="rank-tag">PHYLUM</span> <strong>Chordata</strong> <span style="color:#6ee7b7;">›</span>
+          <span class="rank-tag">CLASS</span> <strong>Reptilia</strong> <span style="color:#6ee7b7;">›</span>
+          <span class="rank-tag" style="background:#10b981;color:#042f2e;">ORDER</span> <strong style="color:#34d399;">Squamata (Bộ Có vảy)</strong> <span style="color:#6ee7b7;">›</span>
+          <span class="rank-tag">FAMILY</span> <span>Pythonidae</span> <span style="color:#6ee7b7;">›</span>
+          <span class="rank-tag">GENUS</span> <span class="italic-sci">Python (Chi Trăn)</span>
+        </div>
+        <span class="anim-badge"><span class="anim-dot"></span> SVG Path Draw Animation + Smooth Accordion Expand</span>
+      </div>
+
+      <div class="grid-cols-12" style="height:775px;">
+        <!-- Left Column: Interactive 6-Level Tree Hierarchy (4 cols) -->
+        <div class="bento-card col-4 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div class="flex-between" style="margin-bottom:14px;">
+              <h3 style="font-size:17px;font-weight:700;">Cây Phân Loại Học (6 Cấp)</h3>
+              <span style="font-size:11.5px;color:#6ee7b7;">22 nút trong DB</span>
+            </div>
+
+            <!-- Tree Hierarchy representation matching seed_data.sql -->
+            <div class="tree-node-box">
+              <div><span class="rank-tag">1. KINGDOM</span> <strong style="margin-left:6px;">Animalia</strong> <span style="font-size:12px;color:var(--text-secondary);">Giới Động vật</span></div>
+              <span style="color:#34d399;">▾</span>
+            </div>
+            <div class="tree-node-box" style="margin-left:16px;">
+              <div><span class="rank-tag">2. PHYLUM</span> <strong style="margin-left:6px;">Chordata</strong> <span style="font-size:12px;color:var(--text-secondary);">Ngành Dây sống</span></div>
+              <span style="color:#34d399;">▾</span>
+            </div>
+            <div class="tree-node-box" style="margin-left:32px;">
+              <div><span class="rank-tag">3. CLASS</span> <strong style="margin-left:6px;">Reptilia</strong> <span style="font-size:12px;color:var(--text-secondary);">Lớp Bò sát</span></div>
+              <span style="color:#34d399;">▾</span>
+            </div>
+            <div class="tree-node-box active-node" style="margin-left:48px;">
+              <div><span class="rank-tag" style="background:#10b981;color:#042f2e;">4. ORDER</span> <strong style="margin-left:6px;">Squamata</strong> <span style="font-size:12px;color:#d1fae5;">Bộ Có vảy (3 họ)</span></div>
+              <span style="color:#fff;">●</span>
+            </div>
+            <div class="tree-node-box" style="margin-left:64px;border-color:rgba(52,211,153,0.35);">
+              <div><span class="rank-tag">5. FAMILY</span> <strong style="margin-left:6px;">Eublepharidae</strong> <span style="font-size:11.5px;color:var(--text-secondary);">→ Eublepharis</span></div>
+              <span style="color:#6ee7b7;">›</span>
+            </div>
+            <div class="tree-node-box" style="margin-left:64px;border-color:rgba(52,211,153,0.35);">
+              <div><span class="rank-tag">5. FAMILY</span> <strong style="margin-left:6px;">Agamidae</strong> <span style="font-size:11.5px;color:var(--text-secondary);">Họ Nhông → Pogona</span></div>
+              <span style="color:#6ee7b7;">›</span>
+            </div>
+            <div class="tree-node-box active-node" style="margin-left:64px;">
+              <div><span class="rank-tag" style="background:#38bdf8;color:#082f49;">5. FAMILY</span> <strong style="margin-left:6px;">Pythonidae</strong> <span style="font-size:11.5px;color:#e0f2fe;">Họ Trăn</span></div>
+              <span style="color:#fff;">▾</span>
+            </div>
+            <div class="tree-node-box active-node" style="margin-left:80px;background:rgba(16,185,129,0.3);">
+              <div><span class="rank-tag">6. GENUS</span> <strong class="italic-sci" style="margin-left:6px;color:#fff;">Python</strong> <span style="font-size:11.5px;color:#d1fae5;">Chi Trăn (2 loài)</span></div>
+              <span class="status-pill status-approved" style="font-size:10px;padding:2px 7px;">Đang chọn</span>
+            </div>
+
+            <div class="tree-node-box" style="margin-top:14px;opacity:0.8;">
+              <div><span class="rank-tag">1. KINGDOM</span> <strong style="margin-left:6px;">Plantae</strong> <span style="font-size:12px;color:var(--text-secondary);">Giới Thực vật (Nepenthes, Dionaea)</span></div>
+              <span>▸</span>
+            </div>
+          </div>
+
+          <div style="padding:12px;border-radius:14px;background:rgba(255,255,255,0.04);font-size:12px;color:var(--text-secondary);">
+            💡 <strong>Quy tắc DB:</strong> Loài (<code>Species</code>) luôn gắn vào nút cấp <code>GENUS</code>; tên khoa học của loài bắt đầu bằng tên chi (<code>Python regius</code>, <code>Python bivittatus</code>).
+          </div>
+        </div>
+
+        <!-- Right Column: Children Nodes of Squamata + Species of Genus Python (8 cols) -->
+        <div class="col-8" style="display:flex;flex-direction:column;gap:18px;">
+          <!-- Children Nodes of Squamata (3 Families) -->
+          <div class="bento-card card-pad">
+            <div class="flex-between" style="margin-bottom:14px;">
+              <div>
+                <div style="font-size:12px;color:#34d399;font-weight:700;">CÁC NÚT CON CỦA BỘ CÓ VẢY (SQUAMATA · nodeID = 4)</div>
+                <h2 style="font-size:22px;font-weight:800;">3 Họ trực thuộc Bộ Squamata</h2>
+              </div>
+              <span class="route-indicator">GET /api/taxonomy/4/children → 3 items</span>
+            </div>
+
+            <div class="grid-cols-12">
+              <div class="col-4" style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
+                <div class="flex-between"><span class="rank-tag">FAMILY</span><span style="font-size:11px;color:var(--text-secondary);">1 Chi · 1 Loài</span></div>
+                <div style="font-size:17px;font-weight:700;margin-top:8px;">Eublepharidae</div>
+                <div style="font-size:12.5px;color:var(--text-secondary);">Họ Thằn lằn mí mắt → Chi <em>Eublepharis</em></div>
+              </div>
+              <div class="col-4" style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
+                <div class="flex-between"><span class="rank-tag">FAMILY</span><span style="font-size:11px;color:var(--text-secondary);">1 Chi · 1 Loài</span></div>
+                <div style="font-size:17px;font-weight:700;margin-top:8px;">Agamidae</div>
+                <div style="font-size:12.5px;color:var(--text-secondary);">Họ Nhông → Chi <em>Pogona</em> (Rồng Úc)</div>
+              </div>
+              <div class="col-4 tilt-3d-active" style="padding:14px;border-radius:16px;background:linear-gradient(135deg,rgba(16,185,129,0.22),rgba(6,182,212,0.15));border:1px solid #34d399;">
+                <div class="flex-between"><span class="rank-tag">FAMILY · ĐANG MỞ</span><span style="font-size:11px;color:#6ee7b7;font-weight:700;">Chi Python (2 Loài)</span></div>
+                <div style="font-size:17px;font-weight:800;margin-top:8px;">Pythonidae (Họ Trăn)</div>
+                <div style="font-size:12.5px;color:#d1fae5;">Đang hiển thị 2 loài thuộc chi <em>Python</em> bên dưới ▾</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Species attached to Genus Python (2 Species from seed_data.sql) -->
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div class="flex-between">
+              <div>
+                <div style="font-size:12px;color:#38bdf8;font-weight:700;">LOÀI THUỘC CHI PYTHON (GENUS · parent: Pythonidae)</div>
+                <h2 style="font-size:22px;font-weight:800;">2 Loài đã xác thực trong Chi <em>Python</em></h2>
+              </div>
+              <span class="route-indicator">GET /api/taxonomy/{pythonId}/species → 2 loài (NT & VU)</span>
+            </div>
+
+            <div class="grid-cols-12" style="height:410px;margin-top:12px;">
+              <!-- Species 1: Python regius -->
+              <div class="col-6 tilt-3d-active" style="border-radius:20px;background:rgba(255,255,255,0.05);border:1px solid rgba(52,211,153,0.4);padding:16px;display:flex;flex-direction:column;justify-content:space-between;">
+                <div style="height:205px;position:relative;">
+                  <img src="assets/ball-python.jpg" alt="Ball Python" class="img-cover" />
+                  <span class="iucn-pill iucn-nt" style="position:absolute;top:12px;right:12px;"><span class="iucn-dot"></span>NT · Sắp bị đe dọa</span>
+                  <span class="anim-badge" style="position:absolute;bottom:12px;left:12px;">Hover Zoom 1.05x + Spec Reveal</span>
+                </div>
+                <div>
+                  <div class="flex-between">
+                    <span class="italic-sci" style="font-size:15px;">Python regius</span>
+                    <span style="font-size:11.5px;color:var(--text-secondary);">GBIF #2465380</span>
+                  </div>
+                  <h3 style="font-size:20px;font-weight:800;margin:3px 0 6px;">Trăn bóng (Ball Python)</h3>
+                  <p style="font-size:12.5px;color:var(--text-secondary);line-height:1.45;">
+                    Trăn cỡ nhỏ, hiền, khi sợ hãi cuộn tròn như quả bóng; phổ biến làm thú cưng với rất nhiều màu (morph).
+                  </p>
+                  <div style="margin-top:8px;padding:8px 12px;border-radius:10px;background:rgba(0,0,0,0.35);font-size:11.5px;color:#a7f3d0;">
+                    🌡️ 26–32°C · 💧 Độ ẩm 50–60% · 🌍 Savan và đồng cỏ Tây Phi
+                  </div>
+                </div>
+                <div class="flex-between" style="padding-top:8px;">
+                  <span class="status-pill status-approved">1 sản phẩm APPROVED (2.500.000 ₫)</span>
+                  <span class="btn-emerald" style="padding:7px 15px;font-size:12.5px;">Xem Bento Loài →</span>
+                </div>
+              </div>
+
+              <!-- Species 2: Python bivittatus -->
+              <div class="col-6" style="border-radius:20px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);padding:16px;display:flex;flex-direction:column;justify-content:space-between;">
+                <div style="height:205px;position:relative;">
+                  <img src="assets/burmese-python.jpg" alt="Burmese Python" class="img-cover" />
+                  <span class="iucn-pill iucn-vu" style="position:absolute;top:12px;right:12px;"><span class="iucn-dot"></span>VU · Sắp nguy cấp</span>
+                </div>
+                <div>
+                  <div class="flex-between">
+                    <span class="italic-sci" style="font-size:15px;">Python bivittatus</span>
+                    <span style="font-size:11.5px;color:var(--text-secondary);">GBIF #4820533</span>
+                  </div>
+                  <h3 style="font-size:20px;font-weight:800;margin:3px 0 6px;">Trăn đất (Burmese Python)</h3>
+                  <p style="font-size:12.5px;color:var(--text-secondary);line-height:1.45;">
+                    Một trong những loài trăn lớn nhất thế giới, bản địa Nam và Đông Nam Á (có ở Việt Nam); cần chuồng rộng.
+                  </p>
+                  <div style="margin-top:8px;padding:8px 12px;border-radius:10px;background:rgba(0,0,0,0.35);font-size:11.5px;color:#fde68a;">
+                    🌡️ 26–32°C · 💧 Độ ẩm 60–80% · 🌍 Rừng nhiệt đới, đầm lầy, ven sông
+                  </div>
+                </div>
+                <div class="flex-between" style="padding-top:8px;">
+                  <span class="status-pill status-rejected">0 sản phẩm công khai (1 REJECTED do thiếu CITES)</span>
+                  <span class="btn-glass" style="padding:7px 15px;font-size:12.5px;">Xem Bento Loài →</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 02/09: Duyệt cây phân loại (Taxonomy.jsx)</span>
+          <span class="spec-tag">Tiêu chí PLAN.md: Con của Squamata → 3 họ · Loài của chi Python → 2 loài (NT & VU)</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Animated Tree Connectors · Breadcrumb Slide · 3D Card Focus</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 03: CHI TIẾT LOÀI — LƯỚI APPLE BENTO (#/species/6)
+     ============================================================================ -->
+<section id="03-species" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <div class="bio-particles">
+      <div class="spore cyan" style="width:16px;height:16px;top:18%;left:62%;"></div>
+      <div class="spore" style="width:12px;height:12px;top:74%;left:24%;"></div>
+    </div>
+
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Species Apple Bento</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá</div>
+        <div class="nav-pill">🌿 Cây phân loại</div>
+        <div class="nav-pill active">🦎 Chi tiết Loài (Bento Grid)</div>
+        <div class="nav-pill">🛍️ Sàn giao dịch</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/species/6 · GET /api/products?speciesId=6</span>
+        <div class="user-chip"><div class="avatar-circle">LC</div><span>Lê Văn C</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <!-- Apple Bento Grid for Ambystoma mexicanum (Axolotl) -->
+      <div class="grid-cols-12" style="height:835px;">
+        <!-- Bento Cell 1: Hero Visual & Identity (5 cols) -->
+        <div class="bento-card col-5 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div style="height:290px;position:relative;">
+            <img src="assets/axolotl.jpg" alt="Ambystoma mexicanum" class="img-cover" />
+            <div style="position:absolute;top:12px;left:12px;display:flex;gap:8px;">
+              <span class="rank-tag" style="background:rgba(6,12,10,0.85);">SPECIES #6</span>
+              <span class="anim-badge">Parallax Image + Pulse CR Glow</span>
+            </div>
+            <span class="iucn-pill iucn-cr" style="position:absolute;bottom:12px;right:12px;font-size:13px;padding:6px 14px;">
+              <span class="iucn-dot"></span>IUCN: CR (Critically Endangered)
+            </span>
+          </div>
+
+          <div>
+            <div class="italic-sci" style="font-size:17px;">Ambystoma mexicanum</div>
+            <h1 style="font-size:30px;font-weight:800;letter-spacing:-0.03em;margin:4px 0 10px;">
+              Axolotl (Kỳ giông Mexico)
+            </h1>
+            <p style="font-size:13.5px;color:var(--text-secondary);line-height:1.6;">
+              Kỳ giông thủy sinh đặc hữu hồ Xochimilco (Mexico), giữ mang ngoài suốt đời (hiện tượng ấu nhi hóa — <em>neoteny</em>) và có khả năng tái sinh chi, tim, tủy sống. Ngoài tự nhiên đang ở mức <strong>Cực kỳ nguy cấp (CR)</strong>, chỉ giao dịch cá thể nhân giống nhân tạo hợp pháp.
+            </p>
+          </div>
+
+          <!-- Taxonomic Lineage Pill Strip -->
+          <div style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:11px;font-weight:700;color:#6ee7b7;margin-bottom:8px;text-transform:uppercase;">Chuỗi phân loại 6 cấp (Lineage)</div>
+            <div class="flex-between" style="font-size:12px;">
+              <span>Animalia</span><span>→</span>
+              <span>Chordata</span><span>→</span>
+              <span>Amphibia</span><span>→</span>
+              <span>Caudata</span><span>→</span>
+              <span>Ambystomatidae</span><span>→</span>
+              <strong class="italic-sci">Ambystoma</strong>
+            </div>
+          </div>
+
+          <div class="flex-between" style="font-size:12px;color:var(--text-secondary);">
+            <span>Phụ trách khoa học: <strong style="color:#fff;">TS. Sinh Học Nam (biologist1)</strong></span>
+            <span style="color:#38bdf8;">🔗 gbif.org/species/2431950 ↗</span>
+          </div>
+        </div>
+
+        <!-- Right 7 Cols: Bento Sub-grid (IUCN Meter + Environment Specs + Marketplace Products) -->
+        <div class="col-7" style="display:flex;flex-direction:column;gap:18px;">
+          <!-- Top Row: IUCN Red List Scale Bento + Environment Specs Gauges -->
+          <div class="grid-cols-12" style="height:265px;">
+            <!-- IUCN Scale Bento (6 cols) -->
+            <div class="bento-card col-6 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+              <div class="flex-between">
+                <span style="font-size:12px;font-weight:700;color:#fca5a5;text-transform:uppercase;">Thang Bảo Tồn IUCN Red List</span>
+                <span class="anim-badge">Glowing Bar Meter</span>
+              </div>
+              <div>
+                <div style="display:flex;gap:6px;margin:12px 0;">
+                  <div style="flex:1;padding:8px 0;text-align:center;border-radius:10px;background:rgba(96,198,89,0.18);color:#60c659;font-weight:700;font-size:12px;">LC</div>
+                  <div style="flex:1;padding:8px 0;text-align:center;border-radius:10px;background:rgba(204,226,38,0.18);color:#cce226;font-weight:700;font-size:12px;">NT</div>
+                  <div style="flex:1;padding:8px 0;text-align:center;border-radius:10px;background:rgba(249,232,20,0.18);color:#f9e814;font-weight:700;font-size:12px;">VU</div>
+                  <div style="flex:1;padding:8px 0;text-align:center;border-radius:10px;background:rgba(252,127,63,0.18);color:#fc7f3f;font-weight:700;font-size:12px;">EN</div>
+                  <div style="flex:1.3;padding:8px 0;text-align:center;border-radius:10px;background:#d81e05;color:#fff;font-weight:800;font-size:13px;box-shadow:0 0 20px #d81e05;">● CR</div>
+                </div>
+                <p style="font-size:12px;color:var(--text-secondary);line-height:1.45;">
+                  Màu chuẩn mục 8.3 <code>PLAN.md</code>: LC <code>#60c659</code> · NT <code>#cce226</code> · VU <code>#f9e814</code> · EN <code>#fc7f3f</code> · CR <code>#d81e05</code>.
+                </p>
+              </div>
+              <div style="font-size:11.5px;color:#fecaca;background:rgba(216,30,5,0.16);padding:8px 12px;border-radius:10px;border:1px solid rgba(216,30,5,0.4);">
+                🛡️ Yêu cầu: Chỉ duyệt sản phẩm có nguồn gốc sinh sản nhân tạo (Captive Bred).
+              </div>
+            </div>
+
+            <!-- Environment Specs Bento (6 cols) -->
+            <div class="bento-card col-6 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+              <div class="flex-between">
+                <span style="font-size:12px;font-weight:700;color:#6ee7b7;text-transform:uppercase;">Thông Số Sinh Cảnh (environmentSpecs)</span>
+                <span class="anim-badge">SVG Conic Dial</span>
+              </div>
+              <div class="flex-between" style="gap:14px;margin:8px 0;">
+                <div class="gauge-ring">
+                  <div class="gauge-inner">
+                    <span style="color:#38bdf8;">14–18°C</span>
+                    <span style="font-size:9px;color:var(--text-secondary);">NHIỆT ĐỘ</span>
+                  </div>
+                </div>
+                <div style="flex:1;display:flex;flex-direction:column;gap:8px;font-size:12.5px;">
+                  <div style="padding:7px 10px;border-radius:10px;background:rgba(255,255,255,0.04);">
+                    💧 <strong>Độ ẩm:</strong> Thủy sinh 100% (pH 6.5–8.0)
+                  </div>
+                  <div style="padding:7px 10px;border-radius:10px;background:rgba(255,255,255,0.04);">
+                    🌊 <strong>Môi trường:</strong> Nước ngọt sạch, ít dòng chảy
+                  </div>
+                </div>
+              </div>
+              <div style="font-size:11.5px;color:var(--text-secondary);">
+                Dữ liệu từ cột <code>Species.environmentSpecs</code> trong SQL Server.
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Row: Approved Products of this Species + Related Species Comparison -->
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div class="flex-between">
+              <div>
+                <div style="font-size:12px;color:#34d399;font-weight:700;">SẢN PHẨM ĐANG BÁN THUỘC LOÀI NÀY (APPROVED)</div>
+                <h3 style="font-size:20px;font-weight:800;">Cá thể Axolotl đã được Kiểm duyệt viên xác nhận</h3>
+              </div>
+              <span class="route-indicator">GET /api/products?speciesId=6</span>
+            </div>
+
+            <!-- Main Product Listing Card inside Species Bento -->
+            <div class="tilt-3d-active" style="padding:18px;border-radius:20px;background:linear-gradient(135deg,rgba(16,185,129,0.18),rgba(6,182,212,0.1));border:1px solid #34d399;display:flex;gap:20px;align-items:center;">
+              <img src="assets/axolotl.jpg" alt="Axolotl Leucistic" style="width:180px;height:140px;object-fit:cover;border-radius:14px;" />
+              <div style="flex:1;">
+                <div class="flex-between">
+                  <span class="status-pill status-approved">✓ APPROVED · Duyệt bởi moderator1</span>
+                  <span style="font-size:12px;color:#6ee7b7;font-weight:600;">Tồn kho: 8 cá thể</span>
+                </div>
+                <h4 style="font-size:21px;font-weight:800;margin:6px 0;">Axolotl Leucistic (5 cm)</h4>
+                <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px;">
+                  "Axolotl hồng nhạt (leucistic) nhân giống nhân tạo." — Đăng bán bởi Shop <strong>BioGreen Exotic</strong> (<code>nguyenvana</code>).
+                </p>
+                <div class="flex-between">
+                  <div class="price-vnd" style="font-size:24px;">450.000 ₫</div>
+                  <div class="flex-center">
+                    <span class="btn-glass" style="padding:8px 16px;">🛒 Thêm vào giỏ</span>
+                    <span class="btn-emerald" style="padding:8px 18px;">⚡ Mua ngay →</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Other Species Quick Switcher Strip -->
+            <div>
+              <div style="font-size:11.5px;color:var(--text-secondary);margin-bottom:8px;">Khám phá nhanh các loài khác trong Bách khoa BioNexus:</div>
+              <div class="grid-cols-12">
+                <div class="col-3 flex-center" style="padding:8px;border-radius:12px;background:rgba(255,255,255,0.04);">
+                  <img src="assets/bearded-dragon.jpg" style="width:38px;height:38px;border-radius:8px;object-fit:cover;" />
+                  <div style="font-size:11.5px;"><strong>Rồng Úc</strong><div style="color:#60c659;">Pogona · LC</div></div>
+                </div>
+                <div class="col-3 flex-center" style="padding:8px;border-radius:12px;background:rgba(255,255,255,0.04);">
+                  <img src="assets/hermann-tortoise.jpg" style="width:38px;height:38px;border-radius:8px;object-fit:cover;" />
+                  <div style="font-size:11.5px;"><strong>Rùa Hermann</strong><div style="color:#f9e814;">Testudo · VU</div></div>
+                </div>
+                <div class="col-3 flex-center" style="padding:8px;border-radius:12px;background:rgba(255,255,255,0.04);">
+                  <img src="assets/nepenthes-ampullaria.jpg" style="width:38px;height:38px;border-radius:8px;object-fit:cover;" />
+                  <div style="font-size:11.5px;"><strong>Nắp ấm Ampul.</strong><div style="color:#60c659;">Nepenthes · LC</div></div>
+                </div>
+                <div class="col-3 flex-center" style="padding:8px;border-radius:12px;background:rgba(255,255,255,0.04);">
+                  <img src="assets/leopard-gecko.jpg" style="width:38px;height:38px;border-radius:8px;object-fit:cover;" />
+                  <div style="font-size:11.5px;"><strong>Thằn lằn báo</strong><div style="color:#60c659;">Eublepharis · LC</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 03/09: Chi tiết loài Lưới Bento (Species.jsx)</span>
+          <span class="spec-tag">4 trạng thái chuẩn: Skeleton · EmptyState · Error Retry · Data Bento</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: IUCN Red List Glow · SVG Conic Gauge · 3D Product Card</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 04: CHI TIẾT SẢN PHẨM + ĐẶT HÀNG TỨC THÌ (#/products/3)
+     ============================================================================ -->
+<section id="04-product" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Product & Instant Checkout</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá</div>
+        <div class="nav-pill">🌿 Cây phân loại</div>
+        <div class="nav-pill">🦎 Bách khoa Loài</div>
+        <div class="nav-pill active">🛍️ Chi tiết Sản phẩm (#3)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/products/3 · POST /api/cart/items · POST /api/orders</span>
+        <div class="cart-btn-nav">🛒 Giỏ hàng <span class="cart-count-bubble">2</span></div>
+        <div class="user-chip"><div class="avatar-circle">LC</div><span>Lê Văn C</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <div class="grid-cols-12" style="height:835px;">
+        <!-- Left 5 Cols: Product Photo Showcase + Species Link Card -->
+        <div class="col-5" style="display:flex;flex-direction:column;gap:18px;">
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="height:370px;position:relative;">
+              <img src="assets/ball-python.jpg" alt="Trăn bóng Pastel" class="img-cover" />
+              <span class="status-pill status-approved" style="position:absolute;top:14px;left:14px;background:rgba(6,12,10,0.85);">✓ APPROVED · Đã kiểm duyệt nguồn gốc</span>
+              <span class="iucn-pill iucn-nt" style="position:absolute;top:14px;right:14px;"><span class="iucn-dot"></span>Python regius · NT</span>
+              <span class="anim-badge" style="position:absolute;bottom:14px;left:14px;">3D Lens Zoom + Fly-to-Cart Parabolic Arc</span>
+            </div>
+            <div style="padding-top:12px;">
+              <div class="flex-between" style="font-size:12.5px;color:var(--text-secondary);">
+                <span>Mã SP: <strong>#PRD-0003</strong></span>
+                <span>Kiểm duyệt viên: <strong style="color:#34d399;">moderator1</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Linked Seller Profile Card -->
+          <div class="bento-card card-pad">
+            <div class="flex-between" style="margin-bottom:8px;">
+              <div class="flex-center">
+                <div class="avatar-circle" style="width:38px;height:38px;font-size:15px;">BG</div>
+                <div>
+                  <div style="font-size:16px;font-weight:800;">BioGreen Exotic</div>
+                  <div style="font-size:12px;color:var(--text-secondary);">Chủ shop: Nguyễn Văn A (<code>nguyenvana</code>) · Quận 1, TP.HCM</div>
+                </div>
+              </div>
+              <span class="status-pill status-active">SHOP ACTIVE</span>
+            </div>
+            <p style="font-size:12.5px;color:var(--text-secondary);margin-bottom:8px;">
+              "Chuyên cung cấp sinh vật cảnh và cây thực vật quý hiếm có giấy phép." — Giấy phép: <code>bionexus.vn/licenses/lic-01.pdf</code>
+            </p>
+          </div>
+        </div>
+
+        <!-- Right 7 Cols: Purchase Configuration + Instant Transaction Drawer Preview -->
+        <div class="col-7" style="display:flex;flex-direction:column;gap:18px;">
+          <div class="bento-card card-pad" style="display:flex;flex-direction:column;justify-content:space-between;flex:1;">
+            <div>
+              <div class="flex-between">
+                <span class="italic-sci" style="font-size:14px;">Loài: Python regius — Trăn bóng (Ball Python)</span>
+                <span class="anim-badge"><span class="anim-dot"></span> Button Ripple + Stock Counter Pulse</span>
+              </div>
+              <h1 style="font-size:32px;font-weight:800;letter-spacing:-0.03em;margin:6px 0 10px;">
+                Trăn bóng Pastel (4 tháng tuổi)
+              </h1>
+              <p style="font-size:14px;color:var(--text-secondary);line-height:1.55;">
+                Cá thể nhân giống khỏe mạnh, đột biến màu Pastel sáng đẹp, ăn chuột đông lạnh rã đông tốt, kèm đầy đủ giấy tờ nguồn gốc trại BioGreen Exotic.
+              </p>
+
+              <!-- Price & Stock Box -->
+              <div style="margin:18px 0;padding:18px;border-radius:18px;background:rgba(16,185,129,0.1);border:1px solid rgba(52,211,153,0.3);display:flex;align-items:center;justify-content:space-between;">
+                <div>
+                  <div style="font-size:12px;color:var(--text-secondary);">Giá niêm yết (đọc trực tiếp từ DB khi thanh toán)</div>
+                  <div class="price-vnd" style="font-size:34px;">2.500.000 ₫</div>
+                </div>
+                <div style="text-align:right;">
+                  <span class="status-pill status-approved" style="font-size:12.5px;padding:6px 14px;">● CÒN HÀNG (Tồn kho: 2)</span>
+                  <div style="font-size:11.5px;color:var(--text-secondary);margin-top:6px;">Hàng về 0 tự động chuyển sang <code>SOLD_OUT</code></div>
+                </div>
+              </div>
+
+              <!-- Quantity & Action Buttons -->
+              <div class="flex-between" style="gap:14px;margin-bottom:16px;">
+                <div style="display:flex;align-items:center;gap:12px;padding:8px 16px;border-radius:99px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);">
+                  <span style="font-size:13px;color:var(--text-secondary);">Số lượng:</span>
+                  <span style="width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,0.1);display:inline-flex;align-items:center;justify-content:center;">−</span>
+                  <strong style="font-size:16px;padding:0 6px;">1</strong>
+                  <span style="width:28px;height:28px;border-radius:50%;background:rgba(16,185,129,0.3);display:inline-flex;align-items:center;justify-content:center;">+</span>
+                  <span style="font-size:11.5px;color:#fbbf24;">(Tối đa: 2)</span>
+                </div>
+                <div class="flex-center" style="flex:1;justify-content:flex-end;gap:12px;">
+                  <div class="btn-glass" style="padding:13px 22px;font-size:14.5px;">🛒 Thêm vào giỏ (Cộng dồn)</div>
+                  <div class="btn-emerald" style="padding:13px 26px;font-size:14.5px;">⚡ Mua ngay (1-Click Order)</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Modal/Drawer Preview: Mua Ngay (POST /api/orders Transaction) -->
+            <div class="tilt-3d-active" style="padding:18px;border-radius:20px;background:rgba(8,16,14,0.92);border:1px solid #38bdf8;box-shadow:0 20px 45px rgba(0,0,0,0.6);">
+              <div class="flex-between" style="margin-bottom:10px;">
+                <div class="flex-center">
+                  <span class="status-pill" style="background:rgba(56,189,248,0.2);color:#38bdf8;border:1px solid rgba(56,189,248,0.4);">LUỒNG MUA NGAY · POST /api/orders</span>
+                  <span style="font-size:13px;font-weight:700;">Xác nhận Đặt hàng có Transaction (Mục 4.4 PLAN.md)</span>
+                </div>
+                <span class="anim-badge">Slide-Up Drawer + Lock Submit Button</span>
+              </div>
+              <div class="grid-cols-12" style="align-items:center;">
+                <div class="col-7">
+                  <div style="font-size:12px;color:var(--text-secondary);margin-bottom:4px;">Địa chỉ nhận hàng (<code>shippingAddress</code> bắt buộc):</div>
+                  <div style="padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);font-size:13px;">
+                    📍 123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng (Lê Văn C · 0987654321)
+                  </div>
+                  <div style="font-size:11.5px;color:#9cb3a9;margin-top:8px;">
+                    🔒 Server mở 1 <code>Connection</code> (<code>autoCommit=false</code>) → Trừ kho nguyên tử → Chốt <code>unitPrice = 2.500.000 ₫</code> từ DB → Tạo <code>Orders</code> & <code>OrderDetails</code> → <code>commit()</code>.
+                  </div>
+                </div>
+                <div class="col-5" style="text-align:right;padding-left:14px;border-left:1px solid rgba(255,255,255,0.1);">
+                  <div style="font-size:12px;color:var(--text-secondary);">Tổng thanh toán (1 × 2.500.000 ₫)</div>
+                  <div class="price-vnd" style="font-size:24px;margin:4px 0 10px;">2.500.000 ₫</div>
+                  <div class="btn-apple-blue" style="width:100%;padding:10px;">✓ Xác nhận Đặt hàng (201 Created)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 04/09: Chi tiết sản phẩm (Product.jsx)</span>
+          <span class="spec-tag">Bảo mật mục 7: Không nhận giá từ client · Chặn tự mua hàng của shop mình (403 ORDER_OWN_PRODUCT)</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Parabolic Add-to-Cart · Modal Spring Slide · Double-Click Guard</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 05: GIỎ HÀNG THÔNG MINH & CẢNH BÁO TỒN KHO (#/cart)
+     ============================================================================ -->
+<section id="05-cart" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Smart Cart & Stock Guard</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá</div>
+        <div class="nav-pill">🌿 Cây phân loại</div>
+        <div class="nav-pill">🛍️ Sàn giao dịch</div>
+        <div class="nav-pill active">🛒 Giỏ hàng của tôi (#/cart)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/cart · PUT /api/cart/items/{id} · POST /api/orders</span>
+        <div class="cart-btn-nav">🛒 Giỏ hàng <span class="cart-count-bubble">2</span></div>
+        <div class="user-chip"><div class="avatar-circle">LC</div><span>Lê Văn C (levanc)</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <div class="grid-cols-12" style="height:835px;">
+        <!-- Left 7 Cols: Active Cart of levanc + Stale Cart Warning Simulation of phamthid -->
+        <div class="col-7" style="display:flex;flex-direction:column;gap:18px;">
+          <!-- Normal Cart: levanc (2 items = 2.950.000 VND from seed_data.sql) -->
+          <div class="bento-card card-pad">
+            <div class="flex-between" style="margin-bottom:14px;">
+              <div>
+                <span class="status-pill status-approved">GIỎ HÀNG HỢP LỆ · TÀI KHOẢN: levanc</span>
+                <h2 style="font-size:22px;font-weight:800;margin-top:4px;">2 Sản phẩm trong giỏ (Giá đọc trực tiếp từ Products)</h2>
+              </div>
+              <span class="anim-badge"><span class="anim-dot"></span> Number Roll Animation + Swipe Delete</span>
+            </div>
+
+            <!-- Item 1: Axolotl Leucistic x1 -->
+            <div style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(52,211,153,0.3);display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+              <div class="flex-center" style="gap:14px;">
+                <img src="assets/axolotl.jpg" style="width:76px;height:76px;border-radius:12px;object-fit:cover;" />
+                <div>
+                  <div class="flex-center" style="gap:8px;">
+                    <span class="italic-sci" style="font-size:12px;">Ambystoma mexicanum</span>
+                    <span class="iucn-pill iucn-cr" style="padding:2px 8px;font-size:10px;"><span class="iucn-dot"></span>CR</span>
+                  </div>
+                  <div style="font-size:16px;font-weight:700;margin:2px 0;">Axolotl Leucistic (5 cm)</div>
+                  <div style="font-size:12px;color:#6ee7b7;">✓ available: true · maxQuantity (Tồn kho): 8</div>
+                </div>
+              </div>
+              <div class="flex-center" style="gap:18px;">
+                <div style="padding:6px 12px;border-radius:99px;background:rgba(255,255,255,0.08);font-weight:700;">− &nbsp; 1 &nbsp; +</div>
+                <div style="text-align:right;min-width:115px;">
+                  <div class="price-vnd">450.000 ₫</div>
+                  <div style="font-size:11px;color:var(--text-secondary);">Xóa món ×</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Ball Python Pastel x1 -->
+            <div style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(52,211,153,0.3);display:flex;align-items:center;justify-content:space-between;">
+              <div class="flex-center" style="gap:14px;">
+                <img src="assets/ball-python.jpg" style="width:76px;height:76px;border-radius:12px;object-fit:cover;" />
+                <div>
+                  <div class="flex-center" style="gap:8px;">
+                    <span class="italic-sci" style="font-size:12px;">Python regius</span>
+                    <span class="iucn-pill iucn-nt" style="padding:2px 8px;font-size:10px;"><span class="iucn-dot"></span>NT</span>
+                  </div>
+                  <div style="font-size:16px;font-weight:700;margin:2px 0;">Trăn bóng Pastel (4 tháng tuổi)</div>
+                  <div style="font-size:12px;color:#6ee7b7;">✓ available: true · maxQuantity (Tồn kho): 2</div>
+                </div>
+              </div>
+              <div class="flex-center" style="gap:18px;">
+                <div style="padding:6px 12px;border-radius:99px;background:rgba(255,255,255,0.08);font-weight:700;">− &nbsp; 1 &nbsp; +</div>
+                <div style="text-align:right;min-width:115px;">
+                  <div class="price-vnd">2.500.000 ₫</div>
+                  <div style="font-size:11px;color:var(--text-secondary);">Xóa món ×</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stale / Conflict Cart Preview: phamthid (from seed_data.sql section 6 & 10) -->
+          <div class="bento-card card-pad" style="flex:1;border-color:rgba(245,158,11,0.5);background:linear-gradient(145deg,rgba(40,22,12,0.75),rgba(16,24,20,0.8));display:flex;flex-direction:column;justify-content:space-between;">
+            <div class="flex-between">
+              <div>
+                <span class="status-pill status-pending">⚠️ DEMO TRẠNG THÁI CẢNH BÁO GIỎ CŨ · TÀI KHOẢN: phamthid</span>
+                <h3 style="font-size:18px;font-weight:800;margin-top:4px;">Minh họa Kiểm tra Tồn kho & Trạng thái thực tế (Mục 4.5 & 6 PLAN.md)</h3>
+              </div>
+              <span class="anim-badge" style="border-color:#fbbf24;color:#fde68a;">Shake Keyframe + HTTP 409 Guard</span>
+            </div>
+
+            <div class="grid-cols-12">
+              <!-- Warning 1: Exceeds Stock -->
+              <div class="col-6" style="padding:12px;border-radius:14px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.4);">
+                <div class="flex-center" style="gap:10px;">
+                  <img src="assets/leopard-gecko.jpg" style="width:52px;height:52px;border-radius:10px;object-fit:cover;" />
+                  <div>
+                    <div style="font-weight:700;font-size:13.5px;">Leopard Gecko Tangerine Baby</div>
+                    <div style="font-size:12px;color:#fbbf24;font-weight:600;">Số lượng trong giỏ: 5 &gt; Tồn kho (maxQuantity: 3)</div>
+                    <div style="font-size:11px;color:var(--text-secondary);">Mã lỗi: <code>CART_QUANTITY_EXCEEDS_STOCK</code></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Warning 2: SOLD_OUT -->
+              <div class="col-6" style="padding:12px;border-radius:14px;background:rgba(239,68,68,0.14);border:1px solid rgba(239,68,68,0.45);">
+                <div class="flex-center" style="gap:10px;">
+                  <img src="assets/hermann-tortoise.jpg" style="width:52px;height:52px;border-radius:10px;object-fit:cover;filter:grayscale(60%);" />
+                  <div>
+                    <div style="font-weight:700;font-size:13.5px;">Rùa Hermann baby ×1</div>
+                    <div style="font-size:12px;color:#f87171;font-weight:600;">Trạng thái: SOLD_OUT (available: false, kho: 0)</div>
+                    <div style="font-size:11px;color:var(--text-secondary);">Mã lỗi: <code>PRODUCT_OUT_OF_STOCK (409)</code></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="font-size:12px;color:#fde68a;">
+              💡 Khi <code>phamthid</code> bấm Đặt hàng từ giỏ này → Backend trả <strong>409 Conflict</strong> và <code>rollback</code> toàn bộ transaction; giỏ và kho không bị lệch.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 5 Cols: Order Summary & Checkout from Cart -->
+        <div class="bento-card col-5 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div class="flex-between" style="margin-bottom:14px;">
+              <h3 style="font-size:20px;font-weight:800;">Tóm tắt Đơn hàng (Giỏ levanc)</h3>
+              <span class="status-pill status-approved">Sẵn sàng thanh toán</span>
+            </div>
+
+            <div style="padding:16px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);margin-bottom:16px;">
+              <div class="flex-between" style="margin-bottom:10px;font-size:13.5px;">
+                <span style="color:var(--text-secondary);">Axolotl Leucistic (5 cm) × 1</span>
+                <strong>450.000 ₫</strong>
+              </div>
+              <div class="flex-between" style="margin-bottom:10px;font-size:13.5px;">
+                <span style="color:var(--text-secondary);">Trăn bóng Pastel (4 tháng tuổi) × 1</span>
+                <strong>2.500.000 ₫</strong>
+              </div>
+              <div class="flex-between" style="margin-bottom:10px;font-size:13.5px;">
+                <span style="color:var(--text-secondary);">Vận chuyển chuyên dụng sinh vật cảnh</span>
+                <span style="color:#34d399;font-weight:600;">Miễn phí</span>
+              </div>
+              <div style="height:1px;background:rgba(255,255,255,0.1);margin:12px 0;"></div>
+              <div class="flex-between">
+                <span style="font-size:15px;font-weight:700;">Tạm tính (Đáp án seed mục 6):</span>
+                <span class="price-vnd" style="font-size:28px;">2.950.000 ₫</span>
+              </div>
+            </div>
+
+            <div style="margin-bottom:16px;">
+              <label style="font-size:12px;color:var(--text-secondary);display:block;margin-bottom:6px;">Địa chỉ giao hàng (<code>shippingAddress</code>):</label>
+              <div style="padding:12px 14px;border-radius:14px;background:rgba(255,255,255,0.06);border:1px solid rgba(52,211,153,0.35);font-size:13.5px;">
+                📍 123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng
+              </div>
+            </div>
+
+            <div style="padding:14px;border-radius:14px;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);font-size:12px;color:#a7f3d0;line-height:1.5;">
+              <strong>Cơ chế Transaction Giỏ hàng (Mục 4.5):</strong><br/>
+              • Giỏ <code>CartItems</code> <strong>không lưu cột giá</strong> (giá luôn đọc từ bảng <code>Products</code>).<br/>
+              • Khi gọi <code>POST /api/orders</code> (bỏ trống <code>items</code>): Đọc giỏ → Trừ kho từng món → Tạo <code>Orders</code> + <code>OrderDetails</code> → <code>clearCart()</code> → <code>commit</code> trong cùng 1 <code>Connection</code>.
+            </div>
+          </div>
+
+          <div>
+            <div class="btn-emerald" style="width:100%;padding:15px;font-size:16px;margin-bottom:10px;">
+              ✓ Đặt hàng từ Giỏ (2.950.000 ₫) →
+            </div>
+            <div class="flex-between" style="font-size:11.5px;color:var(--text-secondary);">
+              <span>🗑️ Xóa toàn bộ giỏ (DELETE /api/cart)</span>
+              <span>Bảo vệ bấm đúp (Idempotent Upsert)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 05/09: Giỏ hàng (Cart.jsx)</span>
+          <span class="spec-tag">Đáp án Seed: levanc tạm tính 2.950.000 ₫ · phamthid cảnh báo cả 2 món</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Animated Price Counter · Shake Alert 409 · Progress Checkout Button</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 06: ĐƠN HÀNG CỦA TÔI & LỊCH SỬ TRANSACTION (#/orders)
+     ============================================================================ -->
+<section id="06-orders" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">My Orders & Snapshot Price</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá</div>
+        <div class="nav-pill">🛍️ Sàn giao dịch</div>
+        <div class="nav-pill">🛒 Giỏ hàng</div>
+        <div class="nav-pill active">📦 Đơn của tôi (#/orders)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET /api/orders/mine · GET /api/orders/{id}</span>
+        <div class="user-chip"><div class="avatar-circle">LC</div><span>Lê Văn C (levanc)</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <div class="grid-cols-12" style="height:835px;">
+        <!-- Left 6 Cols: Order List matching seed_data.sql -->
+        <div class="col-6" style="display:flex;flex-direction:column;gap:16px;">
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div>
+              <div class="flex-between" style="margin-bottom:14px;">
+                <div>
+                  <span style="font-size:12px;color:#34d399;font-weight:700;">LỊCH SỬ ĐƠN HÀNG TRONG SEED DATABASE</span>
+                  <h2 style="font-size:22px;font-weight:800;">Đơn của tôi (<code>levanc</code>: 2 đơn · <code>dangvang</code>: 1 đơn hủy)</h2>
+                </div>
+                <span class="anim-badge"><span class="anim-dot"></span> Stagger List + Status Pulse</span>
+              </div>
+
+              <!-- Order 1: ORD-2026-0001 (Selected) -->
+              <div class="tilt-3d-active" style="padding:16px;border-radius:18px;background:linear-gradient(135deg,rgba(16,185,129,0.22),rgba(6,182,212,0.12));border:1px solid #34d399;margin-bottom:14px;">
+                <div class="flex-between" style="margin-bottom:8px;">
+                  <div class="flex-center">
+                    <span style="font-family:var(--font-mono);font-weight:800;font-size:15px;color:#fff;">ORD-2026-0001</span>
+                    <span class="status-pill status-pending">● PENDING (Đang xử lý)</span>
+                  </div>
+                  <span class="price-vnd" style="font-size:20px;">2.050.000 ₫</span>
+                </div>
+                <div style="font-size:12.5px;color:#d1fae5;margin-bottom:6px;">
+                  2 dòng sản phẩm: Leopard Gecko High Yellow ×1 (850.000 ₫) + Leopard Gecko Tangerine Baby ×1 (1.200.000 ₫)
+                </div>
+                <div class="flex-between" style="font-size:11.5px;color:var(--text-secondary);">
+                  <span>📍 123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng</span>
+                  <span style="color:#6ee7b7;font-weight:700;">Đang mở chi tiết →</span>
+                </div>
+              </div>
+
+              <!-- Order 2: ORD-2026-0002 -->
+              <div style="padding:16px;border-radius:18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);margin-bottom:14px;">
+                <div class="flex-between" style="margin-bottom:8px;">
+                  <div class="flex-center">
+                    <span style="font-family:var(--font-mono);font-weight:800;font-size:15px;">ORD-2026-0002</span>
+                    <span class="status-pill status-completed">✓ COMPLETED (Đã giao)</span>
+                  </div>
+                  <span class="price-vnd" style="font-size:20px;">590.000 ₫</span>
+                </div>
+                <div style="font-size:12.5px;color:var(--text-secondary);margin-bottom:6px;">
+                  2 dòng sản phẩm: Cây bắt ruồi Venus ×2 (120.000 ₫/cây) + Nắp ấm Ampullaria xanh ×1 (350.000 ₫)
+                </div>
+                <div class="flex-between" style="font-size:11.5px;color:var(--text-secondary);">
+                  <span>📍 123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng</span>
+                  <span>Xem chi tiết ›</span>
+                </div>
+              </div>
+
+              <!-- Order 3: ORD-2026-0003 (Reference from seed_data.sql) -->
+              <div style="padding:16px;border-radius:18px;background:rgba(255,255,255,0.03);border:1px solid rgba(239,68,68,0.28);">
+                <div class="flex-between" style="margin-bottom:8px;">
+                  <div class="flex-center">
+                    <span style="font-family:var(--font-mono);font-weight:800;font-size:15px;">ORD-2026-0003</span>
+                    <span class="status-pill status-cancelled">✕ CANCELLED (Đã hủy · user dangvang)</span>
+                  </div>
+                  <span class="price-vnd" style="font-size:20px;color:#f87171;">3.500.000 ₫</span>
+                </div>
+                <div style="font-size:12.5px;color:var(--text-secondary);margin-bottom:6px;">
+                  1 dòng sản phẩm: Rùa Hermann baby ×1 (3.500.000 ₫) — 45 Lê Lợi, Nha Trang, Khánh Hòa
+                </div>
+              </div>
+            </div>
+
+            <div style="padding:12px;border-radius:14px;background:rgba(255,255,255,0.04);font-size:12px;color:var(--text-secondary);">
+              🔒 <strong>Kiểm tra toàn vẹn DB (Constraint #50006):</strong> <code>Orders.totalAmount</code> luôn bằng đúng <code>SUM(quantity * unitPrice)</code> trong bảng <code>OrderDetails</code>.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 6 Cols: Expanded Order Details Drawer for ORD-2026-0001 -->
+        <div class="bento-card col-6 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div class="flex-between" style="margin-bottom:14px;">
+              <div>
+                <span class="route-indicator">GET /api/orders/1</span>
+                <h3 style="font-size:22px;font-weight:800;margin-top:6px;">Chi tiết Đơn hàng #ORD-2026-0001</h3>
+              </div>
+              <span class="status-pill status-pending">PENDING</span>
+            </div>
+
+            <!-- Animated Stepper Timeline -->
+            <div style="padding:16px;border-radius:16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);margin-bottom:16px;">
+              <div class="flex-between" style="font-size:12px;font-weight:700;">
+                <span style="color:#34d399;">① Đặt hàng & Trừ kho (ACID)</span>
+                <span style="color:#34d399;">───────▶</span>
+                <span style="color:#fbbf24;">② Đang đóng gói bảo ôn (PENDING)</span>
+                <span style="color:var(--text-muted);">───────▶</span>
+                <span style="color:var(--text-muted);">③ Hoàn tất (COMPLETED)</span>
+              </div>
+            </div>
+
+            <!-- OrderDetails Items with Snapshot unitPrice -->
+            <div style="font-size:12px;font-weight:700;color:#6ee7b7;margin-bottom:10px;text-transform:uppercase;">
+              Các dòng chi tiết (Bảng OrderDetails — Giá chụp lúc mua unitPrice)
+            </div>
+
+            <div style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+              <div class="flex-center" style="gap:14px;">
+                <img src="assets/leopard-gecko.jpg" style="width:68px;height:68px;border-radius:12px;object-fit:cover;" />
+                <div>
+                  <div style="font-weight:700;font-size:15px;">Leopard Gecko High Yellow (3 tháng tuổi)</div>
+                  <div class="italic-sci" style="font-size:12px;">Eublepharis macularius · Shop: BioGreen Exotic</div>
+                  <div style="font-size:11.5px;color:var(--text-secondary);">unitPrice chốt lúc mua: 850.000 ₫ × Số lượng: 1</div>
+                </div>
+              </div>
+              <div class="price-vnd">850.000 ₫</div>
+            </div>
+
+            <div style="padding:14px;border-radius:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+              <div class="flex-center" style="gap:14px;">
+                <img src="assets/leopard-gecko.jpg" style="width:68px;height:68px;border-radius:12px;object-fit:cover;" />
+                <div>
+                  <div style="font-weight:700;font-size:15px;">Leopard Gecko Tangerine Baby</div>
+                  <div class="italic-sci" style="font-size:12px;">Eublepharis macularius · Shop: BioGreen Exotic</div>
+                  <div style="font-size:11.5px;color:var(--text-secondary);">unitPrice chốt lúc mua: 1.200.000 ₫ × Số lượng: 1</div>
+                </div>
+              </div>
+              <div class="price-vnd">1.200.000 ₫</div>
+            </div>
+          </div>
+
+          <div style="padding:18px;border-radius:18px;background:rgba(16,185,129,0.12);border:1px solid rgba(52,211,153,0.35);">
+            <div class="flex-between" style="margin-bottom:8px;">
+              <span style="font-size:14px;color:var(--text-secondary);">Tổng cộng (<code>totalAmount</code>):</span>
+              <span class="price-vnd" style="font-size:28px;">2.050.000 ₫</span>
+            </div>
+            <div class="flex-between" style="font-size:12px;color:#a7f3d0;">
+              <span>✓ Đổi giá sản phẩm về sau không làm thay đổi đơn hàng cũ</span>
+              <span class="btn-glass" style="padding:6px 14px;font-size:12px;border-color:rgba(248,113,113,0.4);color:#fca5a5;">Hủy đơn (Nếu còn PENDING)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 06/09: Đơn hàng của tôi (Orders.jsx)</span>
+          <span class="spec-tag">Đáp án Seed: ORD-2026-0001 (2.050.000 ₫) · ORD-2026-0002 (590.000 ₫) · ORD-2026-0003 (3.500.000 ₫)</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Animated Stepper · Snapshot Price Badge · Slide Detail Panel</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 07: KÊNH NGƯỜI BÁN — SELLER STUDIO (#/seller)
+     ============================================================================ -->
+<section id="07-seller" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Seller Studio · BioGreen Exotic</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Sàn giao dịch</div>
+        <div class="nav-pill active">🏪 Shop của tôi (#/seller)</div>
+        <div class="nav-pill">📦 Đăng sản phẩm mới</div>
+        <div class="nav-pill">📜 Giấy phép CITES</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET & POST /api/seller/products · POST /api/seller/apply</span>
+        <div class="user-chip"><div class="avatar-circle">NA</div><span>Nguyễn Văn A (nguyenvana)</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <!-- Top Shop Status & KPI Bento Row -->
+      <div class="grid-cols-12" style="height:135px;">
+        <div class="bento-card col-5 card-pad-sm" style="display:flex;align-items:center;justify-content:space-between;">
+          <div>
+            <div class="flex-center" style="gap:8px;margin-bottom:4px;">
+              <span class="status-pill status-active">● SHOP ACTIVE</span>
+              <span style="font-size:11.5px;color:var(--text-secondary);">Duyệt bởi: <code>moderator1</code></span>
+            </div>
+            <h2 style="font-size:22px;font-weight:800;">BioGreen Exotic</h2>
+            <div style="font-size:12px;color:var(--text-secondary);">Giấy phép: <code>bionexus.vn/licenses/lic-01.pdf</code></div>
+          </div>
+          <span class="anim-badge">Verified Glow Badge</span>
+        </div>
+        <div class="bento-card col-7 card-pad-sm" style="display:flex;align-items:center;justify-content:space-around;">
+          <div style="text-align:center;"><div style="font-size:24px;font-weight:800;color:#34d399;">4</div><div style="font-size:11.5px;color:var(--text-secondary);">Đang bán (APPROVED)</div></div>
+          <div style="width:1px;height:40px;background:rgba(255,255,255,0.1);"></div>
+          <div style="text-align:center;"><div style="font-size:24px;font-weight:800;color:#fbbf24;">1</div><div style="font-size:11.5px;color:var(--text-secondary);">Chờ duyệt (PENDING)</div></div>
+          <div style="width:1px;height:40px;background:rgba(255,255,255,0.1);"></div>
+          <div style="text-align:center;"><div style="font-size:24px;font-weight:800;color:#f87171;">1</div><div style="font-size:11.5px;color:var(--text-secondary);">Bị từ chối (REJECTED)</div></div>
+          <div style="width:1px;height:40px;background:rgba(255,255,255,0.1);"></div>
+          <div style="text-align:center;"><div style="font-size:24px;font-weight:800;color:#cbd5e1;">1</div><div style="font-size:11.5px;color:var(--text-secondary);">Hết hàng (SOLD_OUT)</div></div>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Seller Product Inventory Table (7 cols) + New Product Submission Form (5 cols) -->
+      <div class="grid-cols-12" style="height:680px;">
+        <!-- Seller's 7 Products across all 4 states from seed_data.sql -->
+        <div class="bento-card col-7 card-pad" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div class="flex-between" style="margin-bottom:10px;">
+              <h3 style="font-size:18px;font-weight:800;">Danh sách sản phẩm của BioGreen Exotic (Đủ 4 trạng thái)</h3>
+              <span class="route-indicator">GET /api/seller/products</span>
+            </div>
+
+            <table class="bio-table">
+              <thead>
+                <tr>
+                  <th>Sản phẩm & Loài</th>
+                  <th>Giá bán</th>
+                  <th>Kho</th>
+                  <th>Trạng thái</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Leopard Gecko High Yellow</strong><div class="italic-sci" style="font-size:11px;">Eublepharis macularius</div></td>
+                  <td class="price-vnd" style="font-size:14px;">850.000 ₫</td>
+                  <td>5</td>
+                  <td><span class="status-pill status-approved">APPROVED</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Leopard Gecko Tangerine Baby</strong><div class="italic-sci" style="font-size:11px;">Eublepharis macularius</div></td>
+                  <td class="price-vnd" style="font-size:14px;">1.200.000 ₫</td>
+                  <td>3</td>
+                  <td><span class="status-pill status-approved">APPROVED</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Rồng Úc Hypo Baby (2 tháng tuổi)</strong><div class="italic-sci" style="font-size:11px;">Pogona vitticeps</div></td>
+                  <td class="price-vnd" style="font-size:14px;">1.500.000 ₫</td>
+                  <td>4</td>
+                  <td><span class="status-pill status-pending">PENDING (Chờ duyệt)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Trăn bóng Pastel (4 tháng tuổi)</strong><div class="italic-sci" style="font-size:11px;">Python regius</div></td>
+                  <td class="price-vnd" style="font-size:14px;">2.500.000 ₫</td>
+                  <td>2</td>
+                  <td><span class="status-pill status-approved">APPROVED</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Trăn đất Albino (6 tháng tuổi)</strong><div style="font-size:11px;color:#f87171;">Lý do: Chưa đính kèm giấy tờ nguồn gốc</div></td>
+                  <td class="price-vnd" style="font-size:14px;">2.800.000 ₫</td>
+                  <td>1</td>
+                  <td><span class="status-pill status-rejected">REJECTED</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Rùa Hermann baby</strong><div class="italic-sci" style="font-size:11px;">Testudo hermanni</div></td>
+                  <td class="price-vnd" style="font-size:14px;">3.500.000 ₫</td>
+                  <td>0</td>
+                  <td><span class="status-pill status-soldout">SOLD_OUT</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Axolotl Leucistic (5 cm)</strong><div class="italic-sci" style="font-size:11px;">Ambystoma mexicanum</div></td>
+                  <td class="price-vnd" style="font-size:14px;">450.000 ₫</td>
+                  <td>8</td>
+                  <td><span class="status-pill status-approved">APPROVED</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style="font-size:11.5px;color:var(--text-secondary);">
+            💡 <strong>Luật phân quyền (Mục 4.3):</strong> Chỉ user có shop <code>ACTIVE</code> mới gọi được <code>POST /api/seller/products</code> (<code>tranthib</code> PENDING hoặc <code>hoangvane</code> REJECTED gọi sẽ nhận <strong>403 SELLER_NOT_ACTIVE</strong>).
+          </div>
+        </div>
+
+        <!-- Form Đăng Sản Phẩm Mới (5 cols) -->
+        <div class="bento-card col-5 card-pad tilt-3d-active" style="display:flex;flex-direction:column;justify-content:space-between;">
+          <div>
+            <div class="flex-between" style="margin-bottom:12px;">
+              <div>
+                <span class="route-indicator">POST /api/seller/products → 201 PENDING</span>
+                <h3 style="font-size:20px;font-weight:800;margin-top:4px;">Đăng sản phẩm mới</h3>
+              </div>
+              <span class="anim-badge">Live Card Preview</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;gap:12px;font-size:13px;">
+              <div>
+                <label style="color:var(--text-secondary);font-size:11.5px;">Chọn Loài trong Bách khoa (<code>speciesId</code> bắt buộc):</label>
+                <div style="margin-top:4px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid #34d399;display:flex;justify-content:space-between;">
+                  <span>🦎 <strong>Pogona vitticeps</strong> — Rồng Úc (Bearded Dragon)</span>
+                  <span class="iucn-pill iucn-lc" style="padding:1px 8px;font-size:10px;"><span class="iucn-dot"></span>LC</span>
+                </div>
+              </div>
+              <div>
+                <label style="color:var(--text-secondary);font-size:11.5px;">Tên sản phẩm (<code>productName</code>):</label>
+                <div style="margin-top:4px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);">
+                  Rồng Úc Citrus Leatherback (3 tháng tuổi)
+                </div>
+              </div>
+              <div class="grid-cols-12">
+                <div class="col-7">
+                  <label style="color:var(--text-secondary);font-size:11.5px;">Giá bán VND (<code>price &gt;= 0</code>):</label>
+                  <div style="margin-top:4px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);font-weight:700;color:#34d399;">
+                    1.850.000 ₫
+                  </div>
+                </div>
+                <div class="col-5">
+                  <label style="color:var(--text-secondary);font-size:11.5px;">Tồn kho (<code>stockQuantity</code>):</label>
+                  <div style="margin-top:4px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);font-weight:700;">
+                    3 cá thể
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label style="color:var(--text-secondary);font-size:11.5px;">Mô tả & Giấy tờ nguồn gốc (<code>description</code>):</label>
+                <div style="margin-top:4px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);font-size:12px;color:#d1fae5;">
+                  Cá thể sinh sản nhân tạo tại trại BioGreen Exotic, ăn dế và rau cải tốt, đính kèm mã giấy phép nhân giống.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div style="padding:10px 14px;border-radius:12px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.35);font-size:11.5px;color:#fde68a;margin-bottom:12px;">
+              ⏳ Sau khi gửi, sản phẩm vào trạng thái <strong>PENDING</strong> và chờ Kiểm duyệt viên (<code>MODERATOR</code>) duyệt trước khi hiện lên sàn công khai.
+            </div>
+            <div class="btn-emerald" style="width:100%;padding:13px;font-size:15px;">
+              🚀 Gửi kiểm duyệt sản phẩm (PRODUCT_SUBMITTED)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 07/09: Kênh Người bán (Seller.jsx)</span>
+          <span class="spec-tag">Tiêu chí Ngày 4: nguyenvana đăng → PENDING · tranthib đăng → 403</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Status Filter Pill · Form Validation Shake · Submit Loading Lock</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 08: TRUNG TÂM KIỂM DUYỆT ADMIN & BIOLOGIST (#/admin)
+     ============================================================================ -->
+<section id="08-admin" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb" style="background:linear-gradient(135deg,#0ea5e9,#10b981);">A</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">Admin Moderation & Biologist Portal</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill active">🛡️ Duyệt Shop & Sản phẩm (MODERATOR)</div>
+        <div class="nav-pill">🧬 Quản lý Loài & Cây (BIOLOGIST)</div>
+        <div class="nav-pill">👑 Quản trị Tài khoản (SUPER_ADMIN)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">GET & PUT /api/admin/sellers|products</span>
+        <div class="user-chip"><div class="avatar-circle" style="background:#38bdf8;">MD</div><span>Kiểm Duyệt Viên (moderator1)</span></div>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <div class="grid-cols-12" style="height:835px;">
+        <!-- Left 6 Cols: Pending Seller Applications (AquaTerra Shop) + All Seller Profiles -->
+        <div class="col-6" style="display:flex;flex-direction:column;gap:18px;">
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div>
+              <div class="flex-between" style="margin-bottom:14px;">
+                <div>
+                  <span class="route-indicator">GET /api/admin/sellers?status=PENDING</span>
+                  <h2 style="font-size:21px;font-weight:800;margin-top:6px;">1 Hồ sơ Mở Shop đang chờ duyệt</h2>
+                </div>
+                <span class="anim-badge"><span class="anim-dot"></span> Approve Confetti + Row Slide-Out</span>
+              </div>
+
+              <!-- Pending Seller Card: AquaTerra Shop (tranthib) -->
+              <div class="tilt-3d-active" style="padding:18px;border-radius:20px;background:linear-gradient(135deg,rgba(245,158,11,0.16),rgba(16,185,129,0.1));border:1px solid #fbbf24;margin-bottom:18px;">
+                <div class="flex-between" style="margin-bottom:8px;">
+                  <div>
+                    <span class="status-pill status-pending">● PENDING · Xin mở shop</span>
+                    <h3 style="font-size:20px;font-weight:800;margin-top:4px;">AquaTerra Shop</h3>
+                  </div>
+                  <span style="font-size:12px;color:var(--text-secondary);">User: <strong>Trần Thị B (<code>tranthib</code>)</strong></span>
+                </div>
+                <p style="font-size:13px;color:#e2e8f0;margin-bottom:10px;">
+                  "Trại nhân giống bò sát và lưỡng cư sinh sản nhân tạo." — Địa chỉ: Cầu Giấy, Hà Nội.
+                </p>
+                <div style="padding:8px 12px;border-radius:10px;background:rgba(0,0,0,0.35);font-family:var(--font-mono);font-size:11.5px;color:#38bdf8;margin-bottom:14px;">
+                  📄 Giấy phép kinh doanh: https://bionexus.vn/licenses/lic-02.pdf
+                </div>
+                <div class="flex-between">
+                  <span style="font-size:11.5px;color:var(--text-secondary);">PUT /api/admin/sellers/2/status</span>
+                  <div class="flex-center" style="gap:10px;">
+                    <span class="btn-glass" style="padding:8px 16px;border-color:#f87171;color:#fca5a5;">✕ Từ chối (REJECTED)</span>
+                    <span class="btn-emerald" style="padding:8px 18px;">✓ Duyệt Shop (ACTIVE)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Historical Seller Profiles in Seed -->
+              <div style="font-size:12px;font-weight:700;color:var(--text-secondary);margin-bottom:8px;text-transform:uppercase;">
+                Các hồ sơ Shop khác trong hệ thống (5 SellerProfiles trong Seed)
+              </div>
+              <table class="bio-table">
+                <thead>
+                  <tr><th>Tên Shop</th><th>Chủ Shop</th><th>Trạng thái</th><th>Người duyệt</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td><strong>BioGreen Exotic</strong></td><td>nguyenvana</td><td><span class="status-pill status-active">ACTIVE</span></td><td>moderator1</td></tr>
+                  <tr><td><strong>Carnivora Garden</strong></td><td>phamthid</td><td><span class="status-pill status-active">ACTIVE</span></td><td>moderator1</td></tr>
+                  <tr><td><strong>Exotic Reptile Hub</strong></td><td>hoangvane</td><td><span class="status-pill status-rejected">REJECTED</span></td><td>—</td></tr>
+                  <tr><td><strong>Gecko Lab</strong></td><td>vuthif</td><td><span class="status-pill status-banned">BANNED</span></td><td>moderator1</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div style="font-size:11.5px;color:var(--text-secondary);">
+              🔒 Khi duyệt, backend tự động ghi nhận <code>approvedByAdminID = adminID</code> của Moderator đang gọi.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right 6 Cols: Pending Product Moderation (Rồng Úc Hypo Baby) + Biologist Species Quick Card -->
+        <div class="col-6" style="display:flex;flex-direction:column;gap:18px;">
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div>
+              <div class="flex-between" style="margin-bottom:14px;">
+                <div>
+                  <span class="route-indicator">GET /api/admin/products?status=PENDING</span>
+                  <h2 style="font-size:21px;font-weight:800;margin-top:6px;">1 Sản phẩm đang chờ kiểm duyệt</h2>
+                </div>
+                <span class="status-pill status-approved">Duyệt xong → Sàn lên 8 SP</span>
+              </div>
+
+              <!-- Pending Product Card: Rồng Úc Hypo Baby -->
+              <div class="tilt-3d-active" style="padding:18px;border-radius:20px;background:rgba(255,255,255,0.05);border:1px solid #38bdf8;">
+                <div style="display:flex;gap:16px;align-items:center;margin-bottom:14px;">
+                  <img src="assets/bearded-dragon.jpg" style="width:140px;height:125px;border-radius:14px;object-fit:cover;" />
+                  <div style="flex:1;">
+                    <div class="flex-between">
+                      <span class="status-pill status-pending">PENDING</span>
+                      <span class="iucn-pill iucn-lc" style="font-size:10.5px;"><span class="iucn-dot"></span>Pogona vitticeps · LC</span>
+                    </div>
+                    <h3 style="font-size:19px;font-weight:800;margin:6px 0 4px;">Rồng Úc Hypo Baby (2 tháng tuổi)</h3>
+                    <div style="font-size:12.5px;color:var(--text-secondary);margin-bottom:6px;">
+                      Shop: <strong>BioGreen Exotic</strong> · Tồn kho: 4 · Giá: <strong style="color:#34d399;">1.500.000 ₫</strong>
+                    </div>
+                    <p style="font-size:12px;color:#cbd5e1;">
+                      "Cá thể ăn dế và rau tốt, đang chờ kiểm duyệt."
+                    </p>
+                  </div>
+                </div>
+                <div class="flex-between" style="padding-top:12px;border-top:1px solid rgba(255,255,255,0.08);">
+                  <span style="font-size:11.5px;color:var(--text-secondary);">PUT /api/admin/products/3/status</span>
+                  <div class="flex-center" style="gap:10px;">
+                    <span class="btn-glass" style="padding:8px 16px;border-color:#f87171;color:#fca5a5;">✕ Từ chối (REJECTED)</span>
+                    <span class="btn-emerald" style="padding:8px 18px;">✓ Duyệt lên sàn (APPROVED)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Role Matrix & Biologist Module Preview -->
+            <div style="padding:16px;border-radius:18px;background:rgba(16,185,129,0.08);border:1px solid rgba(52,211,153,0.3);">
+              <div class="flex-between" style="margin-bottom:8px;">
+                <span style="font-size:12px;font-weight:700;color:#34d399;text-transform:uppercase;">Phân quyền Admin nghiêm ngặt (RBAC Mục 4.3 & 6)</span>
+                <span class="route-indicator">POST /api/admin/species</span>
+              </div>
+              <div style="font-size:12.5px;color:#d1fae5;line-height:1.55;">
+                • <strong>moderator1 (MODERATOR):</strong> Duyệt shop & sản phẩm thành công.<br/>
+                • <strong>biologist1 (BIOLOGIST):</strong> Quản lý loài & cây phân loại; nếu gọi API duyệt sản phẩm → nhận <strong>403 AUTH_FORBIDDEN</strong>.<br/>
+                • <strong>superadmin (SUPER_ADMIN):</strong> Toàn quyền quản trị & khóa tài khoản vi phạm.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 08/09: Trang Kiểm duyệt Admin (Admin.jsx)</span>
+          <span class="spec-tag">Tiêu chí Ngày 4: moderator1 duyệt → sản phẩm công khai tăng từ 7 lên 8 · biologist1 duyệt → 403</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: Instant Row Transition · Role Guard Badge · Ripple Action</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================================
+     SCREEN 09: ĐĂNG NHẬP & ĐĂNG KÝ ĐA VAI TRÒ + MA TRẬN TEST (#/login)
+     ============================================================================ -->
+<section id="09-auth" class="screen-view">
+  <div class="bio-canvas">
+    <div class="bio-grid-overlay"></div>
+    <div class="bio-particles">
+      <div class="spore" style="width:18px;height:18px;top:16%;left:20%;"></div>
+      <div class="spore cyan" style="width:14px;height:14px;top:72%;left:45%;"></div>
+      <div class="spore blue" style="width:16px;height:16px;top:24%;left:82%;"></div>
+    </div>
+
+    <header class="navbar-glass">
+      <div class="brand-cluster">
+        <div class="brand-orb">B</div>
+        <div class="brand-title">BioNexus <span class="brand-badge">JWT + BCrypt Identity Portal</span></div>
+      </div>
+      <nav class="nav-links">
+        <div class="nav-pill">✦ Khám phá công khai</div>
+        <div class="nav-pill active">🔐 Đăng nhập (#/login)</div>
+        <div class="nav-pill">✨ Đăng ký tài khoản (#/register)</div>
+      </nav>
+      <div class="nav-actions">
+        <span class="route-indicator">POST /api/auth/login · /api/auth/admin/login · /api/auth/register</span>
+      </div>
+    </header>
+
+    <main class="screen-body">
+      <div class="grid-cols-12" style="height:835px;align-items:center;">
+        <!-- Left 5 Cols: Floating 3D Glassmorphic Login / Register Card -->
+        <div class="bento-card col-5 card-pad tilt-3d-active" style="height:790px;display:flex;flex-direction:column;justify-content:space-between;">
+          <div class="tilt-glare"></div>
+          <div>
+            <div class="flex-between" style="margin-bottom:14px;">
+              <span class="anim-badge"><span class="anim-dot"></span> 3D Glass Card + Segmented Pill Switch</span>
+              <span class="status-pill status-approved">BCrypt + HS256 JWT</span>
+            </div>
+
+            <h1 style="font-size:28px;font-weight:800;letter-spacing:-0.03em;margin-bottom:6px;">
+              Chào mừng trở lại BioNexus
+            </h1>
+            <p style="font-size:13px;color:var(--text-secondary);margin-bottom:18px;">
+              Chọn cổng xác thực phù hợp: Người dùng / Chủ shop hoặc Quản trị viên hệ thống.
+            </p>
+
+            <!-- Segmented Switcher: USER vs ADMIN -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;padding:4px;border-radius:14px;background:rgba(0,0,0,0.4);border:1px solid rgba(255,255,255,0.1);margin-bottom:18px;">
+              <div style="padding:9px;text-align:center;border-radius:10px;background:linear-gradient(135deg,#10b981,#059669);font-weight:700;font-size:13px;">
+                👤 Khách hàng / Seller (/auth/login)
+              </div>
+              <div style="padding:9px;text-align:center;border-radius:10px;color:var(--text-secondary);font-weight:600;font-size:13px;">
+                🛡️ Quản trị viên (/auth/admin/login)
+              </div>
+            </div>
+
+            <!-- Inputs -->
+            <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:18px;">
+              <div>
+                <label style="font-size:12px;color:var(--text-secondary);">Tên đăng nhập (<code>username</code>):</label>
+                <div style="margin-top:5px;padding:12px 15px;border-radius:14px;background:rgba(255,255,255,0.07);border:1px solid #34d399;font-size:14px;font-weight:600;display:flex;justify-content:space-between;">
+                  <span>levanc</span>
+                  <span style="color:#34d399;font-size:12px;">✓ Hợp lệ</span>
+                </div>
+              </div>
+              <div>
+                <label style="font-size:12px;color:var(--text-secondary);">Mật khẩu (<code>password</code> — băm bằng BCrypt 10 vòng):</label>
+                <div style="margin-top:5px;padding:12px 15px;border-radius:14px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);font-size:14px;display:flex;justify-content:space-between;">
+                  <span>••••••</span>
+                  <span style="color:var(--text-secondary);font-size:12px;">👁️ Hiện</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-emerald" style="width:100%;padding:14px;font-size:15px;margin-bottom:14px;">
+              Đăng nhập & Nhận JWT Token →
+            </div>
+
+            <!-- Security Rule Highlight -->
+            <div style="padding:12px;border-radius:14px;background:rgba(41,151,255,0.12);border:1px solid rgba(56,189,248,0.3);font-size:12px;color:#bae6fd;line-height:1.5;">
+              🛡️ <strong>Luật bảo mật Mục 4.2:</strong><br/>
+              • Sai tài khoản hoặc mật khẩu → Trả <strong>401</strong> với thông báo chung <em>"Sai tài khoản hoặc mật khẩu"</em>.<br/>
+              • Chỉ báo <strong>403 (Tài khoản bị khóa / chưa kích hoạt)</strong> <u>sau khi</u> mật khẩu đã đúng!
+            </div>
+          </div>
+
+          <div class="flex-between" style="font-size:12.5px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.08);">
+            <span style="color:var(--text-secondary);">Chưa có tài khoản?</span>
+            <span style="color:#34d399;font-weight:700;">Chuyển sang Đăng ký (#/register) →</span>
+          </div>
+        </div>
+
+        <!-- Right 7 Cols: Interactive Demo Account Matrix (from PLAN.md Section 6) + Register Preview -->
+        <div class="col-7" style="display:flex;flex-direction:column;gap:18px;height:790px;">
+          <div class="bento-card card-pad" style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+            <div>
+              <div class="flex-between" style="margin-bottom:10px;">
+                <div>
+                  <span style="font-size:12px;color:#34d399;font-weight:700;">MA TRẬN TÀI KHOẢN TEST TRONG SEED (MỤC 6 PLAN.MD)</span>
+                  <h3 style="font-size:20px;font-weight:800;">1-Click Quick Fill để Demo khi Vấn đáp</h3>
+                </div>
+                <span class="route-indicator">User pass: 123456 · Admin pass: admin123</span>
+              </div>
+
+              <table class="bio-table">
+                <thead>
+                  <tr><th>Tài khoản</th><th>Vai trò & Trạng thái</th><th>Kịch bản kiểm thử</th><th>Mã HTTP</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong style="color:#34d399;">levanc</strong></td>
+                    <td>USER · ACTIVE</td>
+                    <td>Mua hàng, có 2 đơn cũ, giỏ có 2 món (2.950.000 ₫)</td>
+                    <td><span class="status-pill status-approved">200 OK</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color:#34d399;">nguyenvana</strong></td>
+                    <td>SELLER · Shop ACTIVE</td>
+                    <td>Chủ shop BioGreen Exotic · Đăng sản phẩm vào PENDING</td>
+                    <td><span class="status-pill status-approved">200 / 201</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color:#fbbf24;">phamthid</strong></td>
+                    <td>SELLER · Shop ACTIVE</td>
+                    <td>Giỏ hàng có món vượt kho (5&gt;3) và món SOLD_OUT</td>
+                    <td><span class="status-pill status-pending">409 khi đặt</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>tranthib</strong></td>
+                    <td>USER · Shop PENDING</td>
+                    <td>Thử đăng sản phẩm khi shop chưa được duyệt</td>
+                    <td><span class="status-pill status-rejected">403 Forbidden</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color:#f87171;">vuthif / dangvang</strong></td>
+                    <td>USER · BANNED / INACTIVE</td>
+                    <td>Đăng nhập đúng mật khẩu nhưng tài khoản bị khóa</td>
+                    <td><span class="status-pill status-rejected">403 Forbidden</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color:#38bdf8;">moderator1</strong></td>
+                    <td>MODERATOR · ACTIVE</td>
+                    <td>Duyệt shop AquaTerra & duyệt sản phẩm Rồng Úc</td>
+                    <td><span class="status-pill status-approved">200 OK</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color:#38bdf8;">biologist1 / superadmin</strong></td>
+                    <td>BIOLOGIST / SUPER_ADMIN</td>
+                    <td>Quản lý loài (biologist1 duyệt SP → 403) / Toàn quyền</td>
+                    <td><span class="status-pill status-approved">200 / 403</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div style="padding:12px 16px;border-radius:14px;background:rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between;font-size:12px;">
+              <span>🔑 <strong>Luật vàng JWT:</strong> Token chỉ chứng minh <em>"tôi là ai"</em>; quyền & trạng thái luôn đọc từ DB mỗi request.</span>
+              <span style="color:#6ee7b7;font-family:var(--font-mono);">GET /api/me</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mockup-footer-bar">
+        <div class="spec-tags">
+          <span class="spec-tag">● Màn hình 09/09: Đăng nhập, Đăng ký & Ma trận Phân quyền (Login.jsx / Register.jsx)</span>
+          <span class="spec-tag">Tự động xóa token & chuyển về #/login khi nhận 401</span>
+        </div>
+        <div class="spec-tags">
+          <span class="spec-tag">Hiệu ứng: 3D Floating Card · Segmented Tab Slide · Error Shake</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+</section>
+
+<!-- Interactive Prototype Switcher Dock (Hidden automatically during PNG capture) -->
+<div class="proto-dock">
+  <button class="active" onclick="showScreen('01-home', this)">01. Trang chủ</button>
+  <button onclick="showScreen('02-taxonomy', this)">02. Cây phân loại</button>
+  <button onclick="showScreen('03-species', this)">03. Loài (Bento)</button>
+  <button onclick="showScreen('04-product', this)">04. Sản phẩm</button>
+  <button onclick="showScreen('05-cart', this)">05. Giỏ hàng</button>
+  <button onclick="showScreen('06-orders', this)">06. Đơn hàng</button>
+  <button onclick="showScreen('07-seller', this)">07. Kênh Seller</button>
+  <button onclick="showScreen('08-admin', this)">08. Admin Duyệt</button>
+  <button onclick="showScreen('09-auth', this)">09. Đăng nhập</button>
+</div>
+
+<script>
+  function showScreen(id, btn) {
+    document.querySelectorAll('.screen-view').forEach(el => el.classList.remove('active'));
+    const target = document.getElementById(id);
+    if (target) target.classList.add('active');
+    if (btn) {
+      document.querySelectorAll('.proto-dock button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+  }
+
+  // Support URL query ?screen=02-taxonomy&capture=1 for automated high-res PNG rendering
+  const params = new URLSearchParams(window.location.search);
+  const screenParam = params.get('screen');
+  if (params.get('capture') === '1') {
+    document.body.classList.add('capture-mode');
+  }
+  if (screenParam) {
+    showScreen(screenParam);
+  }
+</script>
+</body>
+</html>

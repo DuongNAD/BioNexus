@@ -3,8 +3,11 @@ package com.bionexus.backend.dal;
 import com.bionexus.backend.enums.ProductStatus;
 import com.bionexus.backend.model.Products;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 /** Truy vấn bảng Products (sản phẩm các shop đăng bán). */
@@ -127,5 +130,26 @@ public class ProductDao {
             e.printStackTrace();
         }
         return false;
+    }
+
+    public List<Products> getApprovedProducts(Integer speciesID) throws SQLException{
+        String sql = (speciesID == null)
+                ? "SELECT * FROM Products WHERE status = 'APPROVED' ORDER BY productID DESC"
+                : "SELECT * FROM Products WHERE status = 'APPROVED' AND speciesID = ? ORDER BY productID DESC";
+        List<Products> productsList = new ArrayList<>();
+        try (
+                Connection conn = DBContext.getConnection();
+                PreparedStatement pts = conn.prepareStatement(sql);
+        ) {
+            if (speciesID != null) {
+                pts.setInt(1, speciesID);
+            }
+            try (ResultSet rs = pts.executeQuery()) {
+                while (rs.next()) {
+                    productsList.add(mapRow(rs));
+                }
+            }
+        }
+        return productsList;
     }
 }
