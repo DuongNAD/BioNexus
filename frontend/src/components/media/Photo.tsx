@@ -50,12 +50,13 @@ export const Photo: React.FC<PhotoProps> = ({
     photo.sources.jpg || photo.sources.webp[photo.sources.webp.length - 1]?.src;
 
   const resolvedAlt = alt || photo.alt || photo.title;
-  const resolvedAspectRatio = aspectRatio || `${photo.width}/${photo.height}`;
+  const hasFullHeight = className.includes('h-full') || className.includes('size-full');
+  const resolvedAspectRatio = aspectRatio || (hasFullHeight ? undefined : `${photo.width}/${photo.height}`);
 
   return (
     <div
       className={cn('relative overflow-hidden rounded-xl bg-bg-raised', className)}
-      style={{ aspectRatio: resolvedAspectRatio, ...style }}
+      style={{ ...(resolvedAspectRatio ? { aspectRatio: resolvedAspectRatio } : {}), ...style }}
       {...rest}
     >
       {/* 1. Base64 placeholder blur */}
@@ -70,10 +71,13 @@ export const Photo: React.FC<PhotoProps> = ({
       )}
 
       {/* 2. Responsive picture element */}
-      <picture>
+      <picture className="block h-full w-full">
         {avifSrcSet && <source type="image/avif" srcSet={avifSrcSet} sizes={sizes} />}
         {webpSrcSet && <source type="image/webp" srcSet={webpSrcSet} sizes={sizes} />}
         <img
+          ref={(el) => {
+            if (el?.complete && !isLoaded) setIsLoaded(true);
+          }}
           src={fallbackSrc}
           alt={resolvedAlt}
           sizes={sizes}
@@ -81,8 +85,7 @@ export const Photo: React.FC<PhotoProps> = ({
           decoding="async"
           onLoad={() => setIsLoaded(true)}
           className={cn(
-            'h-full w-full transition-opacity duration-300 ease-out',
-            isLoaded ? 'opacity-100' : 'opacity-0',
+            'relative z-10 h-full w-full transition-opacity duration-300 ease-out opacity-100',
             imgClassName
           )}
           style={{

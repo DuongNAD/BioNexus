@@ -18,7 +18,8 @@
     "e2e": "playwright test",
     "shots": "node scripts/shots.mjs",
     "photos:fetch": "node scripts/fetch-photos.mjs",
-    "photos:build": "node scripts/optimize-photos.mjs",
+    "photos:build": "node scripts/build-real-photos.mjs",
+    "check:photos": "node scripts/verify-photos.mjs",
     "check:preload": "node scripts/verify-no-three-preload.mjs",
     "check:budget": "node scripts/check-bundle-budget.mjs",
     "check": "npm run typecheck && npm run lint && npm run lint:emojis && npm run test && npm run build && npm run check:preload && npm run check:budget"
