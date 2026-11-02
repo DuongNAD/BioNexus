@@ -15,10 +15,14 @@ Bộ tài liệu này để giao cho **Google Antigravity** (hoặc agent bất 
 | [`04-hop-dong-api-va-mock.md`](04-hop-dong-api-va-mock.md) | Kiểu TypeScript khớp DTO Java, danh sách endpoint, MSW, dữ liệu giả lấy từ `seed_data.sql`, ma trận tài khoản test | Agent, **chủ dự án lúc nối API** |
 | [`05-3d-va-chuyen-dong.md`](05-3d-va-chuyen-dong.md) | Hạt biến hình (Q nâng cấp), Hành tinh BioNexus (ghép quả địa cầu bằng hạt và bằng nét vẽ), chuỗi xoắn, cuộn dính, mức chất lượng 3D | Agent |
 | [`06-anh-that.md`](06-anh-that.md) | Lấy ảnh từ Wikimedia Commons, giấy phép, danh sách ảnh cần có, tối ưu ảnh, ghi nguồn | Agent |
+| [`07-hanh-trinh.md`](07-hanh-trinh.md) | Trang riêng **Hành trình 9 loài** `/tham-hiem` (mẫu S): 4 chặng, 9 trạm, hộ chiếu loài, chuyến đi làm quen sau đăng ký | Agent |
+| [`PROMPT-HANH-TRINH.md`](PROMPT-HANH-TRINH.md) | Prompt bổ sung: sửa ảnh giả, dựng trang Hành trình 9 loài, luồng làm quen sau đăng ký | **Chủ dự án** dán vào Antigravity |
 | [`PROMPTS.md`](PROMPTS.md) | **17 prompt (00 → 16)** chạy lần lượt từ đầu đến cuối, kèm 4 prompt dùng lúc cần (sửa theo ảnh, review, gỡ lỗi, thêm tính năng) | **Chủ dự án** dán vào Antigravity |
 | [`PROMPT-DAI.md`](PROMPT-DAI.md) | **Một prompt dài** gộp cả 17 prompt thành 6 mốc có cổng kiểm tra, file theo dõi tiến độ `frontend/PROGRESS.md`, và prompt tiếp tục khi phiên bị ngắt. Dùng cho model mạnh, chạy liền nhiều giờ | **Chủ dự án** dán vào Antigravity |
 | [`reference/prototype-code.md`](reference/prototype-code.md) | Code đã chạy ổn trong prototype: shader hạt, chuỗi xoắn, quả địa cầu, cuộn dính | Agent |
-| [`reference/screens/`](reference/screens/) | 12 ảnh chụp mẫu R ở 1440×900, là chuẩn để so sánh khi tự kiểm tra | Agent |
+| [`reference/screens/`](reference/screens/) | 12 ảnh chụp mẫu R (`r-*.jpg`) và 27 ảnh mẫu S (`s-*.jpg` desktop, `s-m*.jpg` mobile), là chuẩn để so sánh khi tự kiểm tra | Agent |
+| [`reference/expedition-code.md`](reference/expedition-code.md) | Code prototype mẫu S (Hành trình 9 loài) | Agent |
+| [`reference/trip-photos/`](reference/trip-photos/) | 28 ảnh thật đã kiểm tra qua API Commons, kèm `credits.json` | Agent |
 | [`../../.agents/workflows/kiem-tra-ui.md`](../../.agents/workflows/kiem-tra-ui.md) | Workflow `/kiem-tra-ui`: chụp mọi route, soát lỗi, báo cáo | Antigravity |
 
 ## Cách dùng với Antigravity

@@ -27,6 +27,7 @@ Mỗi trang ghi theo mẫu: **mục đích · quyền · dữ liệu (endpoint �
 | `/admin/products` | Duyệt sản phẩm | MODERATOR, SUPER_ADMIN | Admin |
 | `/admin/species` | Quản lý loài | BIOLOGIST, SUPER_ADMIN | Admin |
 | `/credits` | Nguồn ảnh | Mọi người | Root |
+| `/tham-hiem` | Hành trình 9 loài (`?chao-mung=1`: chuyến đi làm quen sau đăng ký). Đặc tả ở [tài liệu 07](07-hanh-trinh.md) | Mọi người | Riêng (header tối giản) |
 | `*` | 404 | Mọi người | Root |
 | `/dev/ui` | Bộ sưu tập component (chỉ ở chế độ dev) | — | Root |
 
@@ -370,7 +371,7 @@ Mỗi trang ghi theo mẫu: **mục đích · quyền · dữ liệu (endpoint �
   - email hợp lệ
   - số điện thoại Việt Nam `^(0|\+84)\d{9}$`
 - Lỗi 409 gắn đúng ô: `USER_USERNAME_EXISTS` vào ô username, `USER_EMAIL_EXISTS` vào ô email.
-- Thành công (201, có token): tự đăng nhập luôn.
+- Thành công (201, có token): tự đăng nhập luôn, rồi chuyển tới `#/tham-hiem?chao-mung=1` (chuyến đi làm quen, có nút bỏ qua; xem tài liệu 07 mục 4).
 
 **Quản trị `/admin/login`:**
 - Cùng bố cục nhưng ảnh trái là thảm thực vật tối và có huy hiệu "Khu vực quản trị".
