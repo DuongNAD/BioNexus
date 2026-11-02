@@ -38,7 +38,9 @@ Tài liệu mâu thuẫn với nhau thì ưu tiên theo thứ tự: tài liệu 
 1. Đọc các tài liệu liên quan. Lập kế hoạch ngắn: file sẽ tạo hoặc sửa, rủi ro, cách kiểm tra.
 2. Code theo từng bước nhỏ. Chạy `npm run check` (typecheck + lint + test + build) sau mỗi bước lớn.
 3. Mở trình duyệt, chụp các route vừa làm ở **1440×900** và **390×844**. So với tài liệu 02 và 03 và với ảnh trong `docs/frontend/reference/screens/`. Xem console (không được có lỗi) và FPS ở trang 3D. Có thể chạy workflow `/kiem-tra-ui`.
-4. Báo cáo bằng walkthrough: đã làm gì, ảnh chụp, điều gì chưa xong hoặc chưa kiểm được. **Không tự `git commit` hay `git push`**, chỉ ghi lệnh commit gợi ý.
+4. Báo cáo bằng walkthrough: đã làm gì, ảnh chụp, điều gì chưa xong hoặc chưa kiểm được.
+   - **Mặc định không tự `git commit`**, chỉ ghi lệnh commit gợi ý. Chỉ được commit cục bộ khi prompt của chủ dự án cho phép rõ ràng (ví dụ `docs/frontend/PROMPT-DAI.md`).
+   - **Không bao giờ `git push`.**
 
 ## Môi trường
 

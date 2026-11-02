@@ -2,6 +2,8 @@
 
 **17 prompt (00 → 16)** chạy theo thứ tự, cộng 4 prompt dùng lúc cần (S1–S4).
 
+> Muốn giao **một nhiệm vụ dài** thay vì 17 lần thì dùng [`PROMPT-DAI.md`](PROMPT-DAI.md). Prompt đó vẫn dẫn chiếu tới phần LÀM và XONG KHI của các prompt dưới đây, nên giữ nguyên file này.
+
 **Cách chạy mỗi prompt:**
 1. Mở một **cuộc hội thoại mới** trong Antigravity, workspace là thư mục gốc repo `BioNexus/`.
 2. Chọn model (ví dụ Gemini 4 Argon) và bật **chế độ lập kế hoạch (Planning)**.

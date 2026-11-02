@@ -16,6 +16,7 @@ Bộ tài liệu này để giao cho **Google Antigravity** (hoặc agent bất 
 | [`05-3d-va-chuyen-dong.md`](05-3d-va-chuyen-dong.md) | Hạt biến hình (Q nâng cấp), Hành tinh BioNexus (ghép quả địa cầu bằng hạt và bằng nét vẽ), chuỗi xoắn, cuộn dính, mức chất lượng 3D | Agent |
 | [`06-anh-that.md`](06-anh-that.md) | Lấy ảnh từ Wikimedia Commons, giấy phép, danh sách ảnh cần có, tối ưu ảnh, ghi nguồn | Agent |
 | [`PROMPTS.md`](PROMPTS.md) | **17 prompt (00 → 16)** chạy lần lượt từ đầu đến cuối, kèm 4 prompt dùng lúc cần (sửa theo ảnh, review, gỡ lỗi, thêm tính năng) | **Chủ dự án** dán vào Antigravity |
+| [`PROMPT-DAI.md`](PROMPT-DAI.md) | **Một prompt dài** gộp cả 17 prompt thành 6 mốc có cổng kiểm tra, file theo dõi tiến độ `frontend/PROGRESS.md`, và prompt tiếp tục khi phiên bị ngắt. Dùng cho model mạnh, chạy liền nhiều giờ | **Chủ dự án** dán vào Antigravity |
 | [`reference/prototype-code.md`](reference/prototype-code.md) | Code đã chạy ổn trong prototype: shader hạt, chuỗi xoắn, quả địa cầu, cuộn dính | Agent |
 | [`reference/screens/`](reference/screens/) | 12 ảnh chụp mẫu R ở 1440×900, là chuẩn để so sánh khi tự kiểm tra | Agent |
 | [`../../.agents/workflows/kiem-tra-ui.md`](../../.agents/workflows/kiem-tra-ui.md) | Workflow `/kiem-tra-ui`: chụp mọi route, soát lỗi, báo cáo | Antigravity |
