@@ -2,13 +2,14 @@ export interface RouteMeta {
   path: string;
   name: string;
   title: string;
-  layout: 'root' | 'auth' | 'account' | 'seller' | 'admin';
+  layout: 'root' | 'auth' | 'account' | 'seller' | 'admin' | 'journey';
   has3D: boolean;
   description: string;
 }
 
 export const APP_ROUTES: RouteMeta[] = [
   { path: '/', name: 'Trang chủ', title: 'BioNexus · Khởi nguồn Sinh quyển', layout: 'root', has3D: true, description: 'Đại cảnh 3D kết nối câu chuyện sự sống và phân loại sinh học.' },
+  { path: '/tham-hiem', name: 'Hành trình 9 loài', title: 'Hành trình 9 loài · BioNexus', layout: 'journey', has3D: false, description: 'Chuyến đi thực địa số qua 4 chặng, 9 trạm loài từ Cúc Phương đến Địa Trung Hải.' },
   { path: '/taxonomy', name: 'Cây phân loại', title: 'Cây phân loại Sinh học', layout: 'root', has3D: false, description: 'Khám phá phả hệ sinh học 6 cấp từ 2 giới gốc.' },
   { path: '/taxonomy/:id', name: 'Chi tiết phân loại', title: 'Chi tiết Nút Phân loại', layout: 'root', has3D: false, description: 'Duyệt nhánh phân loại và danh sách loài trực thuộc.' },
   { path: '/species', name: 'Bách khoa loài', title: 'Bách khoa Toàn thư Loài', layout: 'root', has3D: false, description: 'Tra cứu hồ sơ loài, lọc theo mức bảo tồn IUCN.' },

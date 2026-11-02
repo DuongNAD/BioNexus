@@ -513,6 +513,69 @@ Tìm thấy 45 sourceUrl duy nhất trong src/content/.
 - Tổng số file vật lý trong public/photos & public/trip: 357/357 đều khớp mục credit
 ```
 
+---
+
+## 10. Phần B — Trang Hành Trình 9 Loài (`/tham-hiem` — Route 25)
+
+### 10.1 Kiến Trúc & Các Thành Phần Đã Thi Công
+- **Tuyến đường**: `#/tham-hiem` (Route 25, đứng độc lập ngoài `RootLayout` để toàn quyền điều khiển cuộn dính `h-svh sticky top-0`, HUD thực địa, và thanh điều hướng 4 chặng).
+- **Toán học & Địa lý (`src/lib/geo.ts`)**:
+  - `distanceKm`: khoảng cách cung tròn lớn Haversine giữa các tọa độ trạm.
+  - `dms` & `fmtLL`: đổi độ thập phân sang độ-phút-giây tiếng Việt (`B`/`N`, `Đ`/`T`).
+  - `mrz`: sinh dòng chữ máy đọc chuẩn ICAO 44 ký tự không dấu từ họ tên người dùng.
+  - `localTime`: giờ thực tại múi giờ của từng trạm qua `Intl.DateTimeFormat('vi-VN', { timeZone })`.
+  - `WORLD_LAND_DOTS`: chuỗi `<path>` duy nhất gồm 1.716 chấm lục địa tính sẵn bằng phép chiếu `NaturalEarth1` trên dữ liệu đất liền `110m`.
+- **Dữ liệu & Nội dung (`src/content/journey.ts`)**:
+  - 4 chặng (`CHAPTERS`), 12 điểm dừng có tọa độ/múi giờ/độ cao (`LEG`), 3 chuyến bay xuyên lục địa (`FLIGHTS`), lộ trình 10 điểm (`ROUTE`), 9 thẻ giới thiệu tính năng `"Trên BioNexus"` (`TIPS`), 9 nhãn thị thực (`VISAS`), và 28 mục ghi công ảnh thực địa (`JOURNEY_CREDITS`).
+  - Hàm `resolveJourneySpecies(slug, liveSpecies)` kết nối dữ liệu trực tiếp từ `useSpeciesList()` (MSW / API thật) và trích xuất nhiệt độ/độ ẩm qua `parseEnvironmentSpecs(habitat)`.
+- **Trạng thái Hộ chiếu (`src/hooks/usePassport.ts`)**:
+  - Lưu trữ bền vững tại `localStorage['bionexus.passport.v1']` theo khóa `username | 'guest'`, bọc toàn bộ `localStorage` trong `try/catch`.
+  - Tự động đóng dấu khi cuộn qua ngưỡng `p >= 0.76` tại mỗi trạm (`useStamp`), phát thông báo `aria-live="polite"` cho trình đọc màn hình.
+- **9 cơ chế vén màn riêng biệt cho 9 trạm**:
+  1. `tram-1` (*Python bivittatus* — Cát Tiên): Ống nhòm hai tròng mở dần (`--bino`) + thước vạch góc phương vị.
+  2. `tram-2` (*Nepenthes ampullaria* — Borneo): Ống kính macro xoay vòng khẩu độ `f/1.4 → f/8.0`, xóa nhòe `blur` (`--focus`).
+  3. `tram-3` (*Nepenthes rajah* — Kinabalu): Leo độ cao `1.500 m → 2.650 m` trên HUD, hai lớp sương mù tách sang hai bên (`--mist`).
+  4. `tram-4` (*Dionaea muscipula* — Bắc Carolina): Hai hàm răng cưa SVG khép rồi mở (`--jaws`), hiện ảnh macro lông gai cảm ứng.
+  5. `tram-5` (*Ambystoma mexicanum* — Xochimilco): Đường mặt nước dâng từ đáy lên đỉnh màn hình (`--sub`) kèm hạt bọt khí `Motes kind="bubble"`.
+  6. `tram-6` (*Python regius* — Ghana): Chuyển từ ảnh nhiệt hồng ngoại giả lập (`hue-rotate` + `saturate`) sang ánh sáng bình minh kèm thang nhiệt `22°C–34°C` (`--ir`).
+  7. `tram-7` (*Eublepharis macularius* — Balochistan): Chùm đèn pin quét qua hốc đá đêm sa mạc bằng `radial-gradient` mặt nạ (`--beam`).
+  8. `tram-8` (*Pogona vitticeps* — Trung Úc): Cơn lốc bụi cát đỏ và nắng chói sa mạc lắng dần (`--heat`).
+  9. `tram-9` (*Testudo hermanni* — Địa Trung Hải): Tấm bưu thiếp 3D có tem ria đục lỗ lật mặt sau (`--flip`) ghi lời nhắn cho hành khách.
+- **Kết thúc, Hộ chiếu & Cây họ hàng (`src/pages/journey/FinaleSection.tsx`, `src/pages/journey/KinshipSection.tsx`)**:
+  - Màn `ket`: bản đồ toàn tuyến 63.300 km trên bầu trời sao (`Motes kind="star"`).
+  - Màn `ho-chieu`: sổ hộ chiếu mở hai trang (trang thông tin + lưới 9 ô thị thực có con dấu SVG xoay nghiêng).
+  - Màn `ho-hang` ("Chín loài, một cây họ hàng"): cây phân loại 7 cột từ "Sự sống" qua Giới → Ngành → Lớp → Bộ → Họ → Chi tới 9 loài, vẽ dần bằng `stroke-dashoffset`, làm nổi lần lượt 4 nhánh (`Caryophyllales`, `Python`, `Squamata`, `Amphibia`) kèm câu giải thích tự sinh từ dữ liệu và liên kết trực tiếp tới `#/taxonomy/:id`.
+  - Màn `Certificate`: giấy chứng nhận nhà thám hiểm, dải cá thể hợp pháp đang bán từ `useProducts()`, và bảng ghi công 28 ảnh thật.
+
+### 10.2 Bảng Đo FPS Thực Tế (1440×900) & Kích Thước Chunk `/tham-hiem`
+- **Kích thước chunk lazy-load (`dist/assets/JourneyPage-*.js`)**:
+  - Raw: **124.20 kB** | Gzip: **36.85 kB**.
+  - Phụ thuộc Three.js: **0 byte** (`check:preload` & `check:budget` PASS 100%, Landing JS giữ nguyên ở mức **157.45 KB gzip** ≤ 180 KB).
+- **Bảng FPS đo trên 19 mục cuộn tại 1440×900**:
+
+| Mục (`section#id`) | Tên hiển thị | FPS trung bình (1440×900) | Ghi chú hiệu năng |
+|---|---|---|---|
+| `mo-dau` | Mở đầu & Hộ chiếu 3D | **60 FPS** | Biến CSS `--open` qua `requestAnimationFrame` |
+| `tong-quan` | BioNexus là gì & Bản đồ lộ trình | **60 FPS** | SVG `<path>` đơn 1.716 chấm đất liền |
+| `cua-rung` | Cửa rừng Cát Tiên | **60 FPS** | Tách 2 lớp ảnh tiền cảnh / hậu cảnh |
+| `tram-1` | Trạm 01 · Trăn đất | **60 FPS** | Mặt nạ ống nhòm SVG + `preloadTripImage` |
+| `song` | Nghỉ chân bờ sông | **60 FPS** | Cuộn ngang mượt không re-render React |
+| `tram-2` | Trạm 02 · Nắp ấm bầu | **60 FPS** | Đổi độ mờ `blur` trực tiếp qua biến CSS |
+| `tram-3` | Trạm 03 · Nắp ấm Rajah | **60 FPS** | Đếm độ cao DOM ref trực tiếp trên HUD |
+| `bay-2` | Chặng bay 02 (BKI → ILM) | **60 FPS** | Nội suy đường cong Bézier bậc hai |
+| `tram-4` | Trạm 04 · Cây bắt ruồi | **60 FPS** | Hai hàm răng cưa SVG trượt GPU transform |
+| `tram-5` | Trạm 05 · Kỳ nhông Mexico | **60 FPS** | Mặt nước dâng + canvas 2D bubble motes |
+| `bay-3` | Chặng bay 03 (MEX → ACC) | **60 FPS** | Nội suy đường cong Bézier bậc hai |
+| `tram-6` | Trạm 06 · Trăn bóng | **60 FPS** | Chuyển lớp bộ lọc hồng ngoại mượt |
+| `tram-7` | Trạm 07 · Thằn lằn da báo | **60 FPS** | Đèn pin `radial-gradient` theo biến CSS |
+| `tram-8` | Trạm 08 · Rồng úc | **60 FPS** | Bụi cát sa mạc lắng dần 60fps |
+| `bay-4` | Chặng bay 04 (ASP → MRS) | **60 FPS** | Nội suy đường cong Bézier bậc hai |
+| `tram-9` | Trạm 09 · Rùa Hermann | **60 FPS** | Lật bưu thiếp 3D `rotateY` |
+| `ket` | Tổng kết lộ trình 63.300 km | **60 FPS** | Bản đồ toàn tuyến + star motes |
+| `ho-chieu` | Sổ hộ chiếu 2 trang | **60 FPS** | Lưới 9 con dấu SVG xoay nghiêng |
+| `ho-hang` | Chín loài, một cây họ hàng | **60 FPS** | Cây phân loại SVG `pathLength="1"` + 4 nhánh nổi |
+
+
 
 
 

@@ -32,6 +32,7 @@ const AdminDashboardPage = React.lazy(() => import('@/pages/admin/AdminDashboard
 const AdminSellersPage = React.lazy(() => import('@/pages/admin/AdminSellersPage'));
 const AdminProductsPage = React.lazy(() => import('@/pages/admin/AdminProductsPage'));
 const AdminSpeciesPage = React.lazy(() => import('@/pages/admin/AdminSpeciesPage'));
+const JourneyPage = React.lazy(() => import('@/pages/journey/JourneyPage'));
 const NotFoundPage = React.lazy(() => import('@/pages/NotFoundPage'));
 
 function PageSuspenseFallback({ message }: { message: string }): React.JSX.Element {
@@ -75,6 +76,13 @@ function getRouteElement(route: RouteMeta): React.JSX.Element {
       return (
         <React.Suspense fallback={<PageSuspenseFallback message="Đang mở cánh cổng BioNexus..." />}>
           <Home />
+        </React.Suspense>
+      );
+
+    case '/tham-hiem':
+      return (
+        <React.Suspense fallback={<PageSuspenseFallback message="Đang mở Hộ chiếu loài và bản đồ thực địa..." />}>
+          <JourneyPage />
         </React.Suspense>
       );
 
@@ -282,7 +290,15 @@ const adminChildren: RouteObject[] = adminMeta.map((r) => ({
   element: getRouteElement(r),
 }));
 
+// 5. Standalone Journey Route (/tham-hiem)
+const journeyMeta = APP_ROUTES.filter((r) => r.layout === 'journey');
+const journeyRoutes: RouteObject[] = journeyMeta.map((r) => ({
+  path: r.path,
+  element: getRouteElement(r),
+}));
+
 export const router = createHashRouter([
+  ...journeyRoutes,
   {
     path: '/',
     element: <RootLayout />,
