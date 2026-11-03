@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 import {
-  User,
   Mail,
   Phone,
   MapPin,
@@ -16,10 +15,10 @@ import {
   Stamp,
   Award,
 } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
+import { ButtonLink } from '@/components/domain/ButtonLink';
 import { StatusPill } from '@/components/ui/StatusPill';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useMe } from '@/api/queries/useAuthQueries';
-import { getStoredToken } from '@/api/authStore';
 import { usePassport } from '@/hooks/usePassport';
 import { JOURNEY_SPECIES_BASE, LEG } from '@/content/journey';
 
@@ -36,28 +35,28 @@ const STATION_LIST = [
 ] as const;
 
 export default function AccountPage(): React.JSX.Element {
-  const token = getStoredToken();
-  const { data: me, isLoading } = useMe({ enabled: !!token });
+  // Route đã bọc RequireAuth nên ở đây luôn là tài khoản USER
+  const { data: me, isLoading, isError, error, refetch, isRefetching } = useMe();
   const { met, firstUnmetStationId } = usePassport(me?.username);
 
-  if (!token) {
+  if (isLoading) {
     return (
-      <div className="min-h-[50vh] flex flex-col items-center justify-center p-6 text-center">
-        <User className="size-12 text-fg-3 mb-3" />
-        <h2 className="text-xl font-bold text-fg">Đăng nhập để xem hồ sơ cá nhân</h2>
-        <Link to="/login?next=/account" className="mt-4">
-          <Button variant="primary" pill>Đăng nhập ngay</Button>
-        </Link>
+      <div className="space-y-6 max-w-4xl" role="status" aria-label="Đang tải hồ sơ">
+        <div className="h-48 rounded-2xl bg-surface animate-pulse" />
+        <div className="h-64 rounded-2xl bg-surface animate-pulse" />
       </div>
     );
   }
 
-  if (isLoading || !me) {
+  // api/me chưa có ở backend (tài liệu 04): lỗi phải hiện rõ thay vì skeleton quay mãi
+  if (isError || !me) {
     return (
-      <div className="space-y-6 max-w-4xl">
-        <div className="h-48 rounded-2xl bg-surface animate-pulse" />
-        <div className="h-64 rounded-2xl bg-surface animate-pulse" />
-      </div>
+      <QueryErrorState
+        title="Không tải được hồ sơ tài khoản"
+        error={error}
+        onRetry={() => refetch()}
+        isRetrying={isRefetching}
+      />
     );
   }
 
@@ -109,12 +108,10 @@ export default function AccountPage(): React.JSX.Element {
           </div>
 
           <div className="flex items-center gap-2">
-            <Link to="/orders">
-              <Button size="sm" variant="secondary" pill className="gap-1.5 text-xs">
+            <ButtonLink to="/orders" size="sm" variant="secondary" pill className="gap-1.5 text-xs">
                 <Package className="size-3.5" />
                 <span>Xem đơn hàng</span>
-              </Button>
-            </Link>
+              </ButtonLink>
           </div>
         </div>
 
@@ -183,26 +180,20 @@ export default function AccountPage(): React.JSX.Element {
 
           <div className="shrink-0">
             {met.length === 0 ? (
-              <Link to="/tham-hiem?chao-mung=1">
-                <Button size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
+              <ButtonLink to="/tham-hiem?chao-mung=1" size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
                   <span>Bắt đầu hành trình</span>
                   <ArrowRight className="size-3.5" aria-hidden="true" />
-                </Button>
-              </Link>
+                </ButtonLink>
             ) : met.length < 9 ? (
-              <Link to={`/tham-hiem?tram=${firstUnmetStationId}`}>
-                <Button size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
+              <ButtonLink to={`/tham-hiem?tram=${firstUnmetStationId}`} size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
                   <span>Đi tiếp hành trình</span>
                   <ArrowRight className="size-3.5" aria-hidden="true" />
-                </Button>
-              </Link>
+                </ButtonLink>
             ) : (
-              <Link to="/tham-hiem?tram=ho-chieu">
-                <Button size="sm" variant="secondary" pill className="gap-1.5 text-xs font-semibold">
+              <ButtonLink to="/tham-hiem?tram=ho-chieu" size="sm" variant="secondary" pill className="gap-1.5 text-xs font-semibold">
                   <span>Xem lại hộ chiếu & chứng nhận</span>
                   <ArrowRight className="size-3.5" aria-hidden="true" />
-                </Button>
-              </Link>
+                </ButtonLink>
             )}
           </div>
         </div>
@@ -287,12 +278,10 @@ export default function AccountPage(): React.JSX.Element {
                 </p>
               </div>
 
-              <Link to="/seller/apply" className="shrink-0">
-                <Button size="lg" pill variant="primary" className="gap-2 font-bold shadow-[var(--glow-accent-btn)]">
+              <ButtonLink to="/seller/apply" size="lg" pill variant="primary" className="gap-2 font-bold shadow-[var(--glow-accent-btn)] shrink-0">
                   <span>Nộp hồ sơ mở shop ngay</span>
                   <ArrowRight className="size-4" />
-                </Button>
-              </Link>
+                </ButtonLink>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-line/60 text-xs">
@@ -393,19 +382,15 @@ export default function AccountPage(): React.JSX.Element {
               </div>
 
               <div className="flex flex-wrap items-center gap-3">
-                <Link to="/seller/products/new">
-                  <Button size="sm" variant="secondary" pill className="gap-1.5 text-xs">
+                <ButtonLink to="/seller/products/new" size="sm" variant="secondary" pill className="gap-1.5 text-xs">
                     <Sparkles className="size-3.5 text-accent" />
                     <span>Đăng cá thể mới</span>
-                  </Button>
-                </Link>
+                  </ButtonLink>
 
-                <Link to="/seller">
-                  <Button size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold shadow-[var(--glow-accent-btn)]">
+                <ButtonLink to="/seller" size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold shadow-[var(--glow-accent-btn)]">
                     <span>Vào Kênh người bán</span>
                     <ArrowRight className="size-3.5" />
-                  </Button>
-                </Link>
+                  </ButtonLink>
               </div>
             </div>
           </div>
@@ -420,18 +405,15 @@ export default function AccountPage(): React.JSX.Element {
               <StatusPill status="REJECTED" size="sm" />
             </div>
 
-            <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3.5 text-xs text-red-300">
+            <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3.5 text-sm text-red-300">
               <span className="font-bold block mb-1">Lý do chưa phê duyệt:</span>
-              <p>
-                Đường dẫn giấy phép kiểm dịch không hợp lệ hoặc chưa xác thực được nguồn gốc cá thể bố mẹ F1 theo tiêu chuẩn bảo tồn BioNexus.
-              </p>
+              {/* rejectionReason là trường đề xuất, backend có thể chưa trả */}
+              <p>{shop.rejectionReason || 'Ban Quản trị chưa ghi lý do cụ thể.'}</p>
             </div>
 
-            <Link to="/seller/apply">
-              <Button size="sm" variant="secondary" pill className="text-xs">
-                Nộp lại hồ sơ cấp phép →
-              </Button>
-            </Link>
+            <p className="text-sm text-fg-2">
+              Mỗi tài khoản chỉ có một hồ sơ shop. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn xử lý.
+            </p>
           </div>
         )}
 
@@ -444,12 +426,10 @@ export default function AccountPage(): React.JSX.Element {
               <StatusPill status="BANNED" size="sm" />
             </div>
 
-            <p className="text-xs text-red-300 leading-relaxed">
-              Cơ sở của bạn tạm thời bị khóa do nhận được khiếu nại về nguồn gốc cá thể hoang dã chưa qua kiểm định F2+. Mọi sản phẩm đã bị gỡ khỏi sàn.
+            <p className="text-sm text-red-300 leading-relaxed">
+              Shop của bạn đang bị khóa nên không thể đăng bán sản phẩm mới.
             </p>
-            <p className="text-[11px] text-fg-3">
-              Liên hệ Ban Kiểm duyệt: <span className="font-mono text-accent">kiemduyet@bionexus.vn</span> để gửi bằng chứng đối soát.
-            </p>
+            <p className="text-sm text-fg-2">Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn.</p>
           </div>
         )}
       </div>

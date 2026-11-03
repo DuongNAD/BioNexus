@@ -1,40 +1,86 @@
-import React, { useSyncExternalStore } from 'react';
-import { Navigate, Outlet, useLocation } from 'react-router';
-import { getAuthState, subscribeAuth } from '@/api/authStore';
-import { useMe } from '@/api/queries/useAuthQueries';
+import React from 'react';
+import { Link, Navigate, Outlet, useLocation } from 'react-router';
+import { ShieldAlert } from 'lucide-react';
+import { useAuthState, useMe } from '@/api/queries/useAuthQueries';
 import type { AdminRole } from '@/types/api';
 
-/**
- * 1. RequireAuth: Chặn người dùng chưa đăng nhập
- */
-export function RequireAuth(): React.JSX.Element {
-  const auth = useSyncExternalStore(subscribeAuth, getAuthState);
+interface GuardProps {
+  children?: React.ReactNode;
+}
+
+function useNextParam(): string {
   const location = useLocation();
+  return encodeURIComponent(location.pathname + location.search);
+}
 
-  if (!auth.token || !auth.user) {
-    const currentPath = location.pathname + location.search;
-    return <Navigate to={`/login?next=${encodeURIComponent(currentPath)}`} replace />;
-  }
-
-  return <Outlet />;
+/** Trang 403 hiện ngay trong layout (tài liệu 03 mục 0: sai quyền thì không redirect im lặng) */
+export function ForbiddenState({
+  message,
+  homeTo = '/',
+  homeLabel = 'Về trang chủ',
+}: {
+  message: string;
+  homeTo?: string;
+  homeLabel?: string;
+}): React.JSX.Element {
+  return (
+    <div className="mx-auto flex min-h-[60vh] max-w-md flex-col items-center justify-center p-8 text-center">
+      <div className="mb-4 flex size-16 items-center justify-center rounded-2xl border border-danger/40 bg-danger/10 text-danger">
+        <ShieldAlert className="size-8" aria-hidden="true" />
+      </div>
+      <span className="rounded-full border border-danger/40 bg-danger/15 px-3 py-1 text-xs font-semibold text-danger">
+        Mã lỗi 403
+      </span>
+      <h1 className="mt-4 text-2xl font-bold tracking-tight text-fg">Bạn không có quyền xem trang này</h1>
+      <p className="mt-2 text-sm leading-relaxed text-fg-2">{message}</p>
+      <Link
+        to={homeTo}
+        className="mt-6 rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-accent-ink hover:opacity-90"
+      >
+        {homeLabel}
+      </Link>
+    </div>
+  );
 }
 
 /**
- * 2. RequireSeller: Chặn người dùng chưa có cửa hàng hoặc cửa hàng chưa ACTIVE
+ * 1. RequireAuth: trang dành cho tài khoản USER. Khách thì về #/login?next=…, admin thì thấy 403.
  */
-export function RequireSeller(): React.JSX.Element {
-  const auth = useSyncExternalStore(subscribeAuth, getAuthState);
-  const location = useLocation();
-  const { data: me, isLoading } = useMe({ enabled: !!auth.token });
+export function RequireAuth({ children }: GuardProps): React.JSX.Element {
+  const auth = useAuthState();
+  const next = useNextParam();
 
   if (!auth.token || !auth.user) {
-    const currentPath = location.pathname + location.search;
-    return <Navigate to={`/login?next=${encodeURIComponent(currentPath)}`} replace />;
+    return <Navigate to={`/login?next=${next}`} replace />;
+  }
+  if (auth.accountType !== 'USER') {
+    return (
+      <ForbiddenState
+        message="Tài khoản quản trị không dùng giỏ hàng, đơn hàng hay shop. Hãy đăng nhập bằng tài khoản thành viên."
+        homeTo="/admin"
+        homeLabel="Về khu vực quản trị"
+      />
+    );
+  }
+
+  return <>{children ?? <Outlet />}</>;
+}
+
+/**
+ * 2. RequireSeller: chỉ shop ACTIVE mới qua. Shop chưa ACTIVE thì về trang đăng ký shop.
+ */
+export function RequireSeller({ children }: GuardProps): React.JSX.Element {
+  const auth = useAuthState();
+  const next = useNextParam();
+  const { data: me, isLoading } = useMe();
+
+  if (!auth.token || !auth.user) {
+    return <Navigate to={`/login?next=${next}`} replace />;
   }
 
   if (isLoading) {
     return (
-      <div className="flex h-64 items-center justify-center text-accent">
+      <div className="flex h-64 items-center justify-center text-accent" role="status" aria-label="Đang kiểm tra shop">
         <div className="h-6 w-6 animate-spin rounded-full border-2 border-accent border-t-transparent" />
       </div>
     );
@@ -45,39 +91,41 @@ export function RequireSeller(): React.JSX.Element {
     return <Navigate to="/seller/apply" replace />;
   }
 
-  return <Outlet />;
+  return <>{children ?? <Outlet />}</>;
 }
 
 /**
- * 3. RequireRole: Kiểm tra vai trò quản trị cụ thể (ADMIN, MODERATOR, BIOLOGIST)
+ * 3. RequireRole: khu quản trị. Chưa đăng nhập admin thì về #/admin/login, sai vai trò thì 403.
  */
-export interface RequireRoleProps {
+export interface RequireRoleProps extends GuardProps {
   allowedRoles?: AdminRole[];
 }
 
-export function RequireRole({ allowedRoles }: RequireRoleProps): React.JSX.Element {
-  const auth = useSyncExternalStore(subscribeAuth, getAuthState);
-  const location = useLocation();
+export function RequireRole({ allowedRoles, children }: RequireRoleProps): React.JSX.Element {
+  const auth = useAuthState();
+  const next = useNextParam();
 
-  if (!auth.token || !auth.user || auth.accountType !== 'ADMIN') {
-    const currentPath = location.pathname + location.search;
-    return <Navigate to={`/admin/login?next=${encodeURIComponent(currentPath)}`} replace />;
+  if (!auth.token || !auth.user) {
+    return <Navigate to={`/admin/login?next=${next}`} replace />;
+  }
+  if (auth.accountType !== 'ADMIN') {
+    return (
+      <ForbiddenState message="Khu vực này chỉ dành cho Ban Quản trị BioNexus. Hãy đăng nhập bằng tài khoản quản trị." />
+    );
   }
 
   if (allowedRoles && allowedRoles.length > 0) {
     const userRole = auth.role as AdminRole;
-    const isAuthorized = userRole === 'SUPER_ADMIN' || allowedRoles.includes(userRole);
-
-    if (!isAuthorized) {
+    if (userRole !== 'SUPER_ADMIN' && !allowedRoles.includes(userRole)) {
       return (
-        <div className="flex min-h-[60vh] flex-col items-center justify-center p-8 text-center">
-          <span className="rounded-full bg-danger/10 px-3 py-1 text-xs font-semibold text-danger">403 FORBIDDEN</span>
-          <h2 className="mt-4 text-2xl font-bold text-fg">Không đủ quyền truy cập</h2>
-          <p className="mt-2 text-sm text-fg-3">Tài khoản quản trị của bạn không có thẩm quyền kiểm duyệt khu vực này.</p>
-        </div>
+        <ForbiddenState
+          message="Vai trò quản trị của bạn không được giao nhiệm vụ ở khu vực này."
+          homeTo="/admin"
+          homeLabel="Về bảng tổng quan"
+        />
       );
     }
   }
 
-  return <Outlet />;
+  return <>{children ?? <Outlet />}</>;
 }

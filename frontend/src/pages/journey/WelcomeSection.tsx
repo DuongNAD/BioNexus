@@ -151,7 +151,7 @@ export function WelcomeSection({
   );
 
   const showWelcomeCopy = isWelcomeMode;
-  const displayName = user ? user.name : 'Lê Văn C';
+  const displayName = user ? user.name : 'Nhà thám hiểm mới';
 
   return (
     <>

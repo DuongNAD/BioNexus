@@ -1,6 +1,6 @@
 import { http, HttpResponse } from 'msw';
 import { db } from '../db';
-import { authenticateRequest } from '../auth';
+import { requireUser } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { AddCartItemRequest, UpdateCartItemRequest } from '@/types/api';
 
@@ -8,13 +8,9 @@ export const cartHandlers = [
   // 1. Xem giỏ hàng của tôi
   http.get('*/api/cart', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const cart = db.getCart(session.sub);
     return HttpResponse.json({
@@ -28,13 +24,9 @@ export const cartHandlers = [
   // 2. Thêm sản phẩm vào giỏ hàng
   http.post('*/api/cart/items', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     try {
       const body = (await request.json()) as AddCartItemRequest;
@@ -51,13 +43,9 @@ export const cartHandlers = [
   // 3. Cập nhật số lượng món trong giỏ
   http.put('*/api/cart/items/:productId', async ({ request, params }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const productId = Number(params.productId);
     if (isNaN(productId) || productId <= 0) {
@@ -82,13 +70,9 @@ export const cartHandlers = [
   // 4. Xóa một món ra khỏi giỏ
   http.delete('*/api/cart/items/:productId', async ({ request, params }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const productId = Number(params.productId);
     if (isNaN(productId) || productId <= 0) {
@@ -105,13 +89,9 @@ export const cartHandlers = [
   // 5. Xóa toàn bộ giỏ hàng
   http.delete('*/api/cart', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const res = db.clearCart(session.sub);
     return HttpResponse.json(res.body, { status: res.status });

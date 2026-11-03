@@ -1,19 +1,20 @@
 import React, { useState, useMemo } from 'react';
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 import {
   Store,
   CheckCircle2,
   Clock,
-  DollarSign,
+  XCircle,
   Package,
   Plus,
   ShieldCheck,
   Eye,
 } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
 import { StatusPill } from '@/components/ui/StatusPill';
 import { Ticker } from '@/components/ui/Ticker';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useMe } from '@/api/queries/useAuthQueries';
 import { useSellerProducts } from '@/api/queries/useSellerQueries';
 import type { ProductStatus } from '@/types/api';
@@ -29,10 +30,27 @@ const INVENTORY_TABS: { id: TabInventory; label: string }[] = [
 ];
 
 export default function SellerDashboardPage(): React.JSX.Element {
-  const { data: me, isLoading: isMeLoading } = useMe();
+  const [searchParams] = useSearchParams();
+  // Sản phẩm vừa đăng (từ trang đăng bán chuyển về) được tô sáng trong bảng
+  const highlightedId = Number(searchParams.get('moi')) || null;
+  const {
+    data: me,
+    isLoading: isMeLoading,
+    isError: isMeError,
+    error: meError,
+    refetch: refetchMe,
+    isRefetching: isMeRefetching,
+  } = useMe();
   const shop = me?.shop;
 
-  const { data: products = [], isLoading: isProductsLoading } = useSellerProducts({
+  const {
+    data: products = [],
+    isLoading: isProductsLoading,
+    isError: isProductsError,
+    error: productsError,
+    refetch: refetchProducts,
+    isRefetching: isProductsRefetching,
+  } = useSellerProducts({
     enabled: shop?.status === 'ACTIVE',
   });
 
@@ -45,40 +63,51 @@ export default function SellerDashboardPage(): React.JSX.Element {
     return products.filter((p) => p.status === activeTab);
   }, [products, activeTab]);
 
-  // Tính các chỉ số KPI StatTiles
+  // 4 ô thống kê theo tài liệu 03 mục 13, tính từ dữ liệu thật (chưa có API doanh thu nên không hiển thị)
   const approvedCount = products.filter((p) => p.status === 'APPROVED' && !p.isOutOfStock).length;
   const pendingCount = products.filter((p) => p.status === 'PENDING').length;
-  const totalRevenue = useMemo(() => {
-    // Ước tính doanh thu từ các cá thể đã giao dịch
-    return 2640000; // Giá trị thống kê mẫu theo seed
-  }, []);
+  const rejectedCount = products.filter((p) => p.status === 'REJECTED').length;
+  const soldOutCount = products.filter((p) => p.status === 'SOLD_OUT' || (p.status === 'APPROVED' && p.isOutOfStock)).length;
 
   if (isMeLoading) {
-    return <div className="h-64 rounded-2xl bg-surface animate-pulse max-w-5xl" />;
+    return <div className="h-64 rounded-2xl bg-surface animate-pulse max-w-5xl" role="status" aria-label="Đang tải shop" />;
+  }
+
+  if (isMeError) {
+    return (
+      <QueryErrorState
+        title="Không tải được thông tin shop"
+        error={meError}
+        onRetry={() => refetchMe()}
+        isRetrying={isMeRefetching}
+      />
+    );
   }
 
   // Nếu chưa có shop hoặc shop chưa ACTIVE
   if (!shop || shop.status !== 'ACTIVE') {
     return (
       <div className="rounded-2xl border border-line bg-surface-1 p-8 text-center max-w-lg mx-auto space-y-4">
-        <Store className="size-12 text-fg-3 mx-auto" />
-        <h2 className="text-xl font-bold text-fg">
+        <Store className="size-12 text-fg-3 mx-auto" aria-hidden="true" />
+        <h1 className="text-xl font-bold text-fg">
           {shop?.status === 'PENDING'
             ? 'Hồ sơ mở shop đang trong quá trình thẩm định'
             : shop?.status === 'REJECTED'
               ? 'Hồ sơ mở shop chưa được phê duyệt'
-              : 'Bạn chưa đăng ký mở shop'}
-        </h2>
-        <p className="text-xs text-fg-2">
+              : shop?.status === 'BANNED'
+                ? 'Shop của bạn đang bị khóa'
+                : 'Bạn chưa đăng ký mở shop'}
+        </h1>
+        <p className="text-sm text-fg-2">
           {shop?.status === 'PENDING'
-            ? 'Ban Quản trị đang kiểm tra giấy phép CITES. Bạn chưa thể quản lý kênh bán hàng.'
-            : 'Đăng ký trở thành đối tác nhân giống F2+ để mở gian hàng trên sàn BioNexus.'}
+            ? 'Ban Quản trị đang kiểm tra giấy phép. Bạn chưa thể quản lý kênh bán hàng.'
+            : shop?.status === 'REJECTED' || shop?.status === 'BANNED'
+              ? 'Mỗi tài khoản chỉ có một hồ sơ shop. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn.'
+              : 'Đăng ký trở thành đối tác nhân giống F2+ để mở gian hàng trên sàn BioNexus.'}
         </p>
-        <Link to={shop?.status === 'REJECTED' ? '/seller/apply' : '/account'}>
-          <Button variant="primary" pill>
-            {shop?.status === 'REJECTED' ? 'Nộp lại hồ sơ' : 'Xem hồ sơ tài khoản'}
-          </Button>
-        </Link>
+        <ButtonLink to={shop ? '/account' : '/seller/apply'} variant="primary" pill>
+          {shop ? 'Xem hồ sơ tài khoản' : 'Đăng ký mở shop'}
+        </ButtonLink>
       </div>
     );
   }
@@ -92,8 +121,8 @@ export default function SellerDashboardPage(): React.JSX.Element {
             <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-fg font-sans">
               {shop.shopName}
             </h1>
-            <span className="flex items-center gap-1 rounded-full border border-accent/40 bg-accent/10 px-2.5 py-0.5 text-[11px] font-mono text-accent">
-              <ShieldCheck className="size-3" /> F2+ Certified
+            <span className="flex items-center gap-1 rounded-full border border-accent/40 bg-accent/10 px-2.5 py-0.5 text-[11px] text-accent">
+              <ShieldCheck className="size-3" aria-hidden="true" /> Shop đã được duyệt
             </span>
           </div>
           <p className="text-xs text-fg-3 max-w-xl">
@@ -101,71 +130,45 @@ export default function SellerDashboardPage(): React.JSX.Element {
           </p>
         </div>
 
-        <Link to="/seller/products/new">
-          <Button size="md" pill variant="primary" className="gap-2 font-semibold shadow-[var(--glow-accent-btn)]">
-            <Plus className="size-4" />
-            <span>Đăng bán cá thể mới</span>
-          </Button>
-        </Link>
+        <ButtonLink
+          to="/seller/products/new"
+          size="md"
+          pill
+          variant="primary"
+          className="gap-2 font-semibold shadow-[var(--glow-accent-btn)]"
+        >
+          <Plus className="size-4" aria-hidden="true" />
+          <span>Đăng bán cá thể mới</span>
+        </ButtonLink>
       </div>
 
-      {/* 2. Lưới 4 Thẻ Thống Kê KPI (StatTiles) */}
+      {/* 2. Bốn ô thống kê (StatTile) */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Thẻ 1: Đang bán */}
-        <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 space-y-2 shadow-md">
-          <div className="flex items-center justify-between text-xs text-fg-3">
-            <span>Cá thể đang bán</span>
-            <CheckCircle2 className="size-4 text-emerald-400" />
+        {[
+          { label: 'Đang bán', value: approvedCount, icon: CheckCircle2, iconClass: 'text-emerald-400', valueClass: 'text-fg', note: 'Đã duyệt, còn hàng' },
+          { label: 'Chờ duyệt', value: pendingCount, icon: Clock, iconClass: 'text-amber-400', valueClass: 'text-amber-300', note: 'Đang đợi Ban Quản trị' },
+          { label: 'Bị từ chối', value: rejectedCount, icon: XCircle, iconClass: 'text-red-400', valueClass: 'text-red-300', note: 'Cần đăng lại hồ sơ khác' },
+          { label: 'Hết hàng', value: soldOutCount, icon: Package, iconClass: 'text-fg-3', valueClass: 'text-fg-2', note: 'Tồn kho về 0' },
+        ].map(({ label, value, icon: Icon, iconClass, valueClass, note }) => (
+          <div key={label} className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 space-y-2 shadow-md">
+            <div className="flex items-center justify-between text-xs text-fg-3">
+              <span>{label}</span>
+              <Icon className={`size-4 ${iconClass}`} aria-hidden="true" />
+            </div>
+            <div className={`text-2xl font-bold font-mono ${valueClass}`}>
+              <Ticker value={value} />
+            </div>
+            <span className="text-[11px] text-fg-3 block">{note}</span>
           </div>
-          <div className="text-2xl font-bold text-fg font-mono">
-            <Ticker value={approvedCount} />
-          </div>
-          <span className="text-[10px] text-emerald-400 block font-mono">Đã qua kiểm định sinh học</span>
-        </div>
-
-        {/* Thẻ 2: Chờ kiểm duyệt */}
-        <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 space-y-2 shadow-md">
-          <div className="flex items-center justify-between text-xs text-fg-3">
-            <span>Chờ kiểm duyệt</span>
-            <Clock className="size-4 text-amber-400" />
-          </div>
-          <div className="text-2xl font-bold text-amber-300 font-mono">
-            <Ticker value={pendingCount} />
-          </div>
-          <span className="text-[10px] text-fg-3 block">Hồ sơ đang đợi Admin duyệt</span>
-        </div>
-
-        {/* Thẻ 3: Doanh số tạm tính */}
-        <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 space-y-2 shadow-md">
-          <div className="flex items-center justify-between text-xs text-fg-3">
-            <span>Doanh số tạm tính</span>
-            <DollarSign className="size-4 text-accent" />
-          </div>
-          <div className="text-xl sm:text-2xl font-bold text-accent font-mono truncate">
-            <Ticker value={totalRevenue} formatAsCurrency />
-          </div>
-          <span className="text-[10px] text-fg-3 block font-mono">Tổng giá trị đơn hoàn tất</span>
-        </div>
-
-        {/* Thẻ 4: Đơn hàng mới */}
-        <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 space-y-2 shadow-md">
-          <div className="flex items-center justify-between text-xs text-fg-3">
-            <span>Đơn hàng mới</span>
-            <Package className="size-4 text-accent-2" />
-          </div>
-          <div className="text-2xl font-bold text-fg font-mono">
-            <Ticker value={2} />
-          </div>
-          <span className="text-[10px] text-accent block font-mono">Cần chuẩn bị cá thể</span>
-        </div>
+        ))}
       </div>
 
       {/* 3. Bảng Quản Lý Danh Sách Sản Phẩm (Product Inventory Table) */}
       <div className="rounded-2xl border border-line bg-surface-1/80 backdrop-blur-xl p-6 shadow-xl space-y-5">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-4">
-          <h3 className="font-bold text-fg text-base uppercase tracking-wider font-mono">
+          <h2 className="font-bold text-fg text-base uppercase tracking-wider">
             Danh mục cá thể của shop ({products.length})
-          </h3>
+          </h2>
 
           {/* Tabs trạng thái sản phẩm */}
           <div className="flex items-center gap-1.5 overflow-x-auto">
@@ -175,6 +178,7 @@ export default function SellerDashboardPage(): React.JSX.Element {
                 <button
                   key={tab.id}
                   type="button"
+                  aria-pressed={isSelected}
                   onClick={() => setActiveTab(tab.id)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
                     isSelected
@@ -196,6 +200,13 @@ export default function SellerDashboardPage(): React.JSX.Element {
               <div key={i} className="h-16 rounded-xl bg-surface animate-pulse" />
             ))}
           </div>
+        ) : isProductsError ? (
+          <QueryErrorState
+            title="Không tải được danh sách sản phẩm"
+            error={productsError}
+            onRetry={() => refetchProducts()}
+            isRetrying={isProductsRefetching}
+          />
         ) : filteredProducts.length === 0 ? (
           <EmptyState
             icon={<Store className="size-8 text-accent" />}
@@ -209,29 +220,36 @@ export default function SellerDashboardPage(): React.JSX.Element {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="border-b border-line text-fg-3 font-mono uppercase tracking-wider text-[11px]">
+              <thead className="border-b border-line text-fg-3 uppercase tracking-wider text-[11px]">
                 <tr>
                   <th className="py-3 px-3">Cá thể</th>
                   <th className="py-3 px-3">Loài sinh học</th>
                   <th className="py-3 px-3">Giá niêm yết</th>
                   <th className="py-3 px-3">Tồn kho</th>
                   <th className="py-3 px-3">Trạng thái</th>
-                  <th className="py-3 px-3 text-right">Thao tác</th>
+                  <th className="py-3 px-3 text-right"><span className="sr-only">Thao tác</span></th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-line/40">
                 {filteredProducts.map((p) => (
-                  <tr key={p.id} className="hover:bg-surface-2/40 transition-colors">
+                  <tr
+                    key={p.id}
+                    className={`transition-colors ${
+                      p.id === highlightedId ? 'bg-accent/10 outline outline-1 outline-accent/40' : 'hover:bg-surface-2/40'
+                    }`}
+                  >
                     <td className="py-3 px-3">
                       <div className="flex items-center gap-3">
                         <img
                           src={p.displayImage}
-                          alt={p.productName}
+                          alt=""
                           className="size-10 rounded-lg object-cover border border-line shrink-0"
                         />
                         <div className="min-w-0">
                           <span className="font-semibold text-fg block truncate">{p.productName}</span>
-                          <span className="text-[10px] text-fg-3 font-mono">PRD-{p.id}</span>
+                          <span className="text-[11px] text-fg-3">
+                            {p.status === 'PENDING' ? 'Đang chờ kiểm duyệt' : `Mã ${p.id}`}
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -240,7 +258,7 @@ export default function SellerDashboardPage(): React.JSX.Element {
                       <div>
                         <span className="font-medium text-fg block">{p.speciesCommonName || '--'}</span>
                         {p.speciesScientificName && (
-                          <span className="text-[11px] italic text-fg-mute font-serif block">
+                          <span className="text-[11px] italic text-fg-3 font-serif block">
                             {p.speciesScientificName}
                           </span>
                         )}
@@ -260,13 +278,16 @@ export default function SellerDashboardPage(): React.JSX.Element {
                     </td>
 
                     <td className="py-3 px-3 text-right">
-                      <Link to={`/products/${p.id}`}>
-                        <Button size="sm" variant="ghost" className="size-8 p-0 text-fg-3 hover:text-accent">
-                          <span title="Xem trên sàn">
-                            <Eye className="size-4" />
-                          </span>
-                        </Button>
-                      </Link>
+                      {p.status === 'APPROVED' && (
+                        <Link
+                          to={`/products/${p.id}`}
+                          className="inline-flex size-8 items-center justify-center rounded-lg text-fg-3 hover:bg-surface hover:text-accent"
+                          aria-label={`Xem ${p.productName} trên sàn`}
+                          title="Xem trên sàn"
+                        >
+                          <Eye className="size-4" aria-hidden="true" />
+                        </Link>
+                      )}
                     </td>
                   </tr>
                 ))}

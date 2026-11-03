@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Minus, Plus } from 'lucide-react';
 
 export interface NumberStepperProps {
@@ -22,6 +22,13 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
   className = '',
   'aria-label': ariaLabel = 'Số lượng',
 }) => {
+  // Chuỗi nháp khi gõ tay: cho phép xoá trắng để gõ số mới, chỉ gửi giá trị khi rời ô hoặc bấm Enter
+  const [draft, setDraft] = useState(String(value));
+
+  useEffect(() => {
+    setDraft(String(value));
+  }, [value]);
+
   const isMin = value <= min;
   const isMax = value >= max;
 
@@ -37,11 +44,14 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
     lg: 'w-11 h-11 text-base',
   }[size];
 
+  const clamp = (n: number) => Math.max(min, Math.min(max, n));
+
   const handleDecrement = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     if (!disabled && !isMin) {
-      onChange(Math.max(min, value - 1));
+      // Dòng đang vượt tồn kho (5 > 3) thì giảm thẳng về mức tối đa, không gửi 4 rồi bị 409
+      onChange(clamp(value - 1));
     }
   };
 
@@ -49,17 +59,32 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
     e.preventDefault();
     e.stopPropagation();
     if (!disabled && !isMax) {
-      onChange(Math.min(max, value + 1));
+      onChange(clamp(value + 1));
     }
   };
 
+  const commitDraft = () => {
+    const parsed = parseInt(draft, 10);
+    if (isNaN(parsed)) {
+      setDraft(String(value));
+      return;
+    }
+    const clamped = clamp(parsed);
+    setDraft(String(clamped));
+    if (clamped !== value) onChange(clamped);
+  };
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const rawVal = e.target.value;
-    if (rawVal === '') return;
-    const parsed = parseInt(rawVal, 10);
-    if (!isNaN(parsed)) {
-      const clamped = Math.max(min, Math.min(max, parsed));
-      onChange(clamped);
+    // Giữ nguyên chuỗi gõ vào; commitDraft dùng parseInt nên "3.75" thành 3, chữ thì trả về giá trị cũ
+    setDraft(e.target.value);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      commitDraft();
+    } else if (e.key === 'Escape') {
+      setDraft(String(value));
     }
   };
 
@@ -76,15 +101,17 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
         aria-label="Giảm số lượng"
         className={`flex items-center justify-center transition-colors text-fg-2 hover:bg-surface-hover hover:text-fg disabled:opacity-30 disabled:cursor-not-allowed ${btnSizeClasses}`}
       >
-        <Minus className="size-3.5" />
+        <Minus className="size-3.5" aria-hidden="true" />
       </button>
 
       <input
         type="text"
         inputMode="numeric"
         pattern="[0-9]*"
-        value={value}
+        value={draft}
         onChange={handleInputChange}
+        onBlur={commitDraft}
+        onKeyDown={handleKeyDown}
         disabled={disabled}
         aria-label={ariaLabel}
         className={`w-12 text-center font-mono font-semibold bg-transparent text-fg focus:outline-none ${sizeClasses}`}
@@ -97,7 +124,7 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
         aria-label="Tăng số lượng"
         className={`flex items-center justify-center transition-colors text-fg-2 hover:bg-surface-hover hover:text-fg disabled:opacity-30 disabled:cursor-not-allowed ${btnSizeClasses}`}
       >
-        <Plus className="size-3.5" />
+        <Plus className="size-3.5" aria-hidden="true" />
       </button>
     </div>
   );

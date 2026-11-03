@@ -1,6 +1,7 @@
 import { http, HttpResponse } from 'msw';
 import { db } from '../db';
 import { authenticateRequest, createMockToken } from '../auth';
+import { requireUser } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { LoginRequest, RegisterRequest } from '@/types/api';
 
@@ -30,7 +31,7 @@ export const authHandlers = [
 
     try {
       const body = (await request.json()) as LoginRequest;
-      const username = body.username || body.account || '';
+      const username = body.username || '';
       const res = db.loginUser(username, body.password);
       return HttpResponse.json(res.body, { status: res.status });
     } catch {
@@ -47,7 +48,8 @@ export const authHandlers = [
 
     try {
       const body = (await request.json()) as LoginRequest;
-      const account = body.account || body.username || '';
+      // Backend đọc cột account qua trường username (AuthService.loginAdmin)
+      const account = body.username || '';
       const res = db.loginAdmin(account, body.password);
       return HttpResponse.json(res.body, { status: res.status });
     } catch {
@@ -95,13 +97,9 @@ export const authHandlers = [
   // 6. Hồ sơ cá nhân (Me)
   http.get('*/api/me', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session) {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const me = db.getMe(session.sub);
     if (!me) {

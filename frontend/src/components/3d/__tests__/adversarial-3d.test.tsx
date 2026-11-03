@@ -504,8 +504,8 @@ describe('Milestone 3 Empirical Adversarial Challenge Suite', () => {
       }
     });
 
-    it('toàn bộ 14 bậc phân loại có đầy đủ cấp bậc song ngữ Anh - Việt và mô tả bách khoa', () => {
-      expect(TAXONOMIC_RANKS.length).toBe(14);
+    it('toàn bộ 6 cấp phân loại có đầy đủ cấp bậc song ngữ Anh - Việt và mô tả bách khoa', () => {
+      expect(TAXONOMIC_RANKS.length).toBe(6);
       TAXONOMIC_RANKS.forEach((rank, idx) => {
         expect(rank.level).toBe(idx);
         expect(rank.rankEn).toBeTruthy();

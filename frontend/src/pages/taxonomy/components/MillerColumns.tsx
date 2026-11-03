@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useLayoutEffect, useReducer } from 'react';
 import type { TaxonomyNodeDto, SpeciesDto, TaxonomyRank } from '@/types/api';
 import { TaxonColumn } from './TaxonColumn';
 import { SpeciesColumn } from './SpeciesColumn';
@@ -35,13 +35,21 @@ export const MillerColumns: React.FC<MillerColumnsProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const selectedRowRefs = useRef<Record<number, HTMLButtonElement | null>>({});
   const columnRefs = useRef<Record<number, HTMLDivElement | null>>({});
+  // Ref chỉ có giá trị sau khi commit: render lại một lần để tia sáng đọc được phần tử thật
+  const [, rerenderAfterCommit] = useReducer((n: number) => n + 1, 0);
+
+  useLayoutEffect(() => {
+    rerenderAfterCommit();
+  }, [columns, terminalGenus]);
 
   // Tự động cuộn sang phải khi có cột mới mở ra
   useEffect(() => {
     if (containerRef.current) {
+      const reduceMotion =
+        typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       containerRef.current.scrollTo({
         left: containerRef.current.scrollWidth,
-        behavior: 'smooth',
+        behavior: reduceMotion ? 'auto' : 'smooth',
       });
     }
   }, [columns.length, terminalGenus]);

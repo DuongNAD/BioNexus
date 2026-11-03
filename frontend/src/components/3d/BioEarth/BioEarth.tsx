@@ -214,19 +214,20 @@ function OuterHaloLayer() {
 
 // 5. Lớp Cung Đường Bay 3D (3D Flight Arcs)
 function FlightArc({
-  source,
-  target,
+  from,
+  to,
   color,
   isDashed = false,
 }: {
-  source: [number, number, number];
-  target: [number, number, number];
+  from: { lat: number; lng: number };
+  to: { lat: number; lng: number };
   color: string;
   isDashed?: boolean;
 }) {
+  // Phụ thuộc vào số lat/lng (không phải mảng mới mỗi lần render) để không dựng lại TubeGeometry
   const curvePoints = useMemo(() => {
-    const vSrc = new THREE.Vector3(...source);
-    const vDst = new THREE.Vector3(...target);
+    const vSrc = new THREE.Vector3(...latLngToVector3(from.lat, from.lng, GLOBE_RADIUS));
+    const vDst = new THREE.Vector3(...latLngToVector3(to.lat, to.lng, GLOBE_RADIUS));
     const angle = vSrc.angleTo(vDst);
     const peakAltitude = GLOBE_RADIUS * (0.14 + 0.36 * (angle / Math.PI));
 
@@ -239,7 +240,7 @@ function FlightArc({
       pts.push(current.multiplyScalar(altitude));
     }
     return new THREE.CatmullRomCurve3(pts).getPoints(64);
-  }, [source, target]);
+  }, [from.lat, from.lng, to.lat, to.lng]);
 
   const geometry = useMemo(() => {
     return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(curvePoints), 48, 0.009, 6, false);
@@ -305,7 +306,7 @@ function SpeciesMarker({
 
       {/* Thẻ Tooltip Drei Html neo trên đỉnh marker khi được chọn */}
       {isSelected && showTooltip && (
-        <Html position={[0, 0.22, 0]} center occlude distanceFactor={7}>
+        <Html position={[0, 0.22, 0]} center occlude distanceFactor={4}>
           <div className="w-64 rounded-2xl border border-white/20 bg-[#03130E]/95 p-3.5 text-white shadow-2xl backdrop-blur-xl pointer-events-auto">
             <div className="flex items-center justify-between pb-1.5 border-b border-white/10">
               <IucnBadge code={species.conservationStatus} size="sm" />
@@ -321,7 +322,7 @@ function SpeciesMarker({
               />
               <div className="min-w-0 flex-1">
                 <p className="text-sm font-semibold truncate text-white">{species.displayName}</p>
-                <p className="text-xs italic text-white/50 truncate">{species.scientificName}</p>
+                <p className="text-xs italic text-white/70 truncate">{species.scientificName}</p>
                 <p className="text-[11px] text-white/70 flex items-center gap-1 mt-0.5">
                   <MapPin className="size-3 text-[#00D29E] shrink-0" />
                   <span className="truncate">{species.origin.place}</span>
@@ -329,7 +330,7 @@ function SpeciesMarker({
               </div>
             </div>
             <div className="mt-2.5 rounded-lg bg-black/40 px-2.5 py-1.5 text-[11px] text-white/70 border border-white/5">
-              <span className="text-white/40">Nhân giống: </span>
+              <span className="text-white/70">Nhân giống: </span>
               <span className="font-medium text-[#00D29E]">{hubName}</span>
             </div>
           </div>
@@ -343,7 +344,7 @@ function SpeciesMarker({
 export function BioEarth({
   speciesList = DEFAULT_SPECIES_BIOMARKERS,
   breedingHubs = VIETNAM_BREEDING_HUBS,
-  selectedSpeciesId,
+  selectedScientificName,
   onSelectSpecies,
   variant = 'full',
 }: BioEarthProps) {
@@ -363,40 +364,53 @@ export function BioEarth({
   const tempCamDir = useRef(new THREE.Vector3());
   const tempViewVec = useRef(new THREE.Vector3());
 
+  // Loài đang chọn tra một lần khi đổi lựa chọn, không tìm lại trong mỗi khung hình
+  const selectedMarker = useMemo(
+    () => (selectedScientificName ? speciesList.find((s) => s.scientificName === selectedScientificName) : undefined),
+    [speciesList, selectedScientificName]
+  );
+  const selectedOrigin = useMemo(() => {
+    if (!selectedMarker) return null;
+    const [x, y, z] = latLngToVector3(selectedMarker.origin.lat, selectedMarker.origin.lng, 1.0);
+    return new THREE.Vector3(x, y, z).normalize();
+  }, [selectedMarker]);
+
+  // Bản mini chỉ vẽ loài đang chọn (tài liệu 05: 1 marker, 1 cung bay)
+  const visibleSpecies = useMemo(
+    () => (variant === 'mini' && selectedMarker ? [selectedMarker] : speciesList),
+    [variant, selectedMarker, speciesList]
+  );
+
   // Vòng lặp xoay tự do và Slerp hướng tới camera thực tế
   useFrame((state, delta) => {
     if (!globeGroup.current) return;
 
-    if (selectedSpeciesId) {
-      const sp = speciesList.find((s) => s.speciesId === selectedSpeciesId);
-      if (sp) {
-        // 1. Tọa độ marker loài trên mặt cầu đơn vị
-        const [x, y, z] = latLngToVector3(sp.origin.lat, sp.origin.lng, 1.0);
-        tempTargetVec.current.set(x, y, z).normalize();
+    if (selectedOrigin) {
+      // 1. Tọa độ marker loài trên mặt cầu đơn vị
+      tempTargetVec.current.copy(selectedOrigin);
 
-        // 2. Tính hướng nhìn đích động vView dựa trên camera.position so với tâm địa cầu
-        tempCamDir.current
-          .copy(state.camera.position)
-          .sub(globeGroup.current.position)
-          .normalize();
+      // 2. Tính hướng nhìn đích động vView dựa trên camera.position so với tâm địa cầu
+      tempCamDir.current
+        .copy(state.camera.position)
+        .sub(globeGroup.current.position)
+        .normalize();
 
-        // 3. Nghiêng nhẹ 0.18 theo camera.up để marker nằm ở góc nhìn trung tâm tối ưu
+      // 3. Nghiêng nhẹ 0.18 theo camera.up để marker nằm ở góc nhìn trung tâm tối ưu
+      tempViewVec.current
+        .copy(tempCamDir.current)
+        .addScaledVector(state.camera.up, 0.18)
+        .normalize();
+
+      // 4. Xoay từ vTarget sang vView động
+      targetQuaternion.current.setFromUnitVectors(
+        tempTargetVec.current,
         tempViewVec.current
-          .copy(tempCamDir.current)
-          .addScaledVector(state.camera.up, 0.18)
-          .normalize();
+      );
 
-        // 4. Xoay từ vTarget sang vView động
-        targetQuaternion.current.setFromUnitVectors(
-          tempTargetVec.current,
-          tempViewVec.current
-        );
-
-        globeGroup.current.quaternion.slerp(
-          targetQuaternion.current,
-          1.0 - Math.exp(-4.0 * delta)
-        );
-      }
+      globeGroup.current.quaternion.slerp(
+        targetQuaternion.current,
+        1.0 - Math.exp(-4.0 * delta)
+      );
     } else {
       // Tự xoay nhịp nhàng quanh trục Y khi không chọn loài cụ thể
       globeGroup.current.rotation.y += delta * 0.06;
@@ -418,33 +432,31 @@ export function BioEarth({
       {tier === 'high' && <OuterHaloLayer />}
 
       {/* Lớp 5 & Lớp 7: Marker & Thẻ Thông Tin 9 Loài */}
-      {speciesList.map((sp) => {
+      {visibleSpecies.map((sp) => {
         const hub = hubMap.get(sp.hubId);
         return (
           <SpeciesMarker
-            key={sp.speciesId}
+            key={sp.scientificName}
             species={sp}
-            isSelected={selectedSpeciesId === sp.speciesId}
+            isSelected={selectedScientificName === sp.scientificName}
             showTooltip={variant !== 'mini'}
-            onSelect={() => onSelectSpecies?.(sp.speciesId)}
-            hubName={hub ? `${hub.shopName} (${hub.city})` : 'Việt Nam Hub'}
+            onSelect={() => onSelectSpecies?.(sp.scientificName)}
+            hubName={hub ? `${hub.shopName} (${hub.city})` : 'Trung tâm Việt Nam'}
           />
         );
       })}
 
       {/* Lớp 6: Cung Đường Bay 3D Về Việt Nam */}
-      {speciesList.map((sp) => {
+      {visibleSpecies.map((sp) => {
         const fallbackHub = VIETNAM_BREEDING_HUBS[0]!;
         const hub = hubMap.get(sp.hubId) ?? (breedingHubs[0] ?? fallbackHub);
-        const srcPos = latLngToVector3(sp.origin.lat, sp.origin.lng, GLOBE_RADIUS);
-        const dstPos = latLngToVector3(hub.lat, hub.lng, GLOBE_RADIUS);
         const color = IUCN_MARKER_COLORS[sp.conservationStatus] || '#00D29E';
 
         return (
           <FlightArc
-            key={`arc-${sp.speciesId}`}
-            source={srcPos}
-            target={dstPos}
+            key={`arc-${sp.scientificName}`}
+            from={sp.origin}
+            to={hub}
             color={color}
             isDashed={!sp.hasActiveProduct}
           />

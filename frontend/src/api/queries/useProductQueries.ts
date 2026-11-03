@@ -32,15 +32,22 @@ export function useProducts(params?: {
   });
 }
 
-export function useProductDetail(id: number | string, options?: { enabled?: boolean }) {
-  return useQuery<ProductViewModel | null>({
+/** Dùng chung cho useProductDetail và useQueries (giỏ hàng tra tên shop theo từng món) để cùng một bộ đệm */
+export function productDetailQueryOptions(id: number | string) {
+  return {
     queryKey: queryKeys.products.detail(id),
-    queryFn: async () => {
+    queryFn: async (): Promise<ProductViewModel | null> => {
       const res = await api<ProductDto>(`products/${id}`);
       if (!res.data) return null;
       return toProductView(res.data);
     },
     staleTime: 60 * 1000,
+  };
+}
+
+export function useProductDetail(id: number | string, options?: { enabled?: boolean }) {
+  return useQuery<ProductViewModel | null>({
+    ...productDetailQueryOptions(id),
     enabled: options?.enabled !== undefined ? options.enabled : !!id,
   });
 }

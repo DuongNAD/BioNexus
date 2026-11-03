@@ -116,6 +116,7 @@ export interface MockReview {
 }
 
 export interface MockDatabaseState {
+  seedVersion?: number;
   users: MockUser[];
   admins: MockAdmin[];
   shops: MockSellerProfile[];

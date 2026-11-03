@@ -65,7 +65,32 @@ describe('NumberStepper Component', () => {
 
     const input = screen.getByRole('textbox', { name: 'Số lượng' });
     fireEvent.change(input, { target: { value: '8' } });
+    // Chưa gửi khi đang gõ, chỉ gửi khi rời ô
+    expect(onChange).not.toHaveBeenCalled();
 
+    fireEvent.blur(input);
     expect(onChange).toHaveBeenCalledWith(5);
+  });
+
+  it('lets the user clear the field while typing and commits on Enter', () => {
+    const onChange = vi.fn();
+    render(<NumberStepper value={3} min={1} max={20} onChange={onChange} />);
+
+    const input = screen.getByRole('textbox', { name: 'Số lượng' });
+    fireEvent.change(input, { target: { value: '' } });
+    expect(input).toHaveValue('');
+
+    fireEvent.change(input, { target: { value: '12' } });
+    fireEvent.keyDown(input, { key: 'Enter' });
+    expect(onChange).toHaveBeenCalledTimes(1);
+    expect(onChange).toHaveBeenCalledWith(12);
+  });
+
+  it('decrements an over-stock value straight down to max', () => {
+    const onChange = vi.fn();
+    render(<NumberStepper value={5} min={1} max={3} onChange={onChange} />);
+
+    fireEvent.click(screen.getByRole('button', { name: 'Giảm số lượng' }));
+    expect(onChange).toHaveBeenCalledWith(3);
   });
 });

@@ -255,8 +255,8 @@ export interface ReviewDto {
 
 // ==================== 4. Request Payloads ====================
 export interface LoginRequest {
-  username?: string;
-  account?: string;
+  // Đăng nhập admin cũng gửi cột account qua trường username (khớp LoginRequest.java)
+  username: string;
   password: string;
 }
 
@@ -336,5 +336,11 @@ export interface ParsedEnvironmentSpecs {
   baskMax?: number | null;
   humidMin?: number | null;
   humidMax?: number | null;
+  nightTempMin?: number | null;
+  nightTempMax?: number | null;
+  /** true khi chuỗi ghi "Độ ẩm: không áp dụng" (loài thủy sinh) */
+  humidityNotApplicable?: boolean;
+  /** Phần sau "Môi trường:" */
+  habitat?: string;
   raw: string;
 }

@@ -18,7 +18,8 @@ export interface BreedingHub {
 }
 
 export interface SpeciesBioMarker {
-  speciesId: number;
+  /** Id loài trong DB nếu đã biết (chỉ để tạo link). Marker được nhận diện bằng scientificName */
+  speciesId?: number;
   scientificName: string;
   commonName: string;
   displayName: string;
@@ -33,8 +34,9 @@ export interface SpeciesBioMarker {
 export interface BioEarthProps {
   speciesList?: SpeciesBioMarker[];
   breedingHubs?: BreedingHub[];
-  selectedSpeciesId?: number;
-  onSelectSpecies?: (speciesId: number) => void;
+  selectedScientificName?: string;
+  onSelectSpecies?: (scientificName: string) => void;
+  /** mini: chỉ vẽ loài đang chọn, không tooltip */
   variant?: 'full' | 'mini';
   interactive?: boolean;
   className?: string;

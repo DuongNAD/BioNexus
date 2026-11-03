@@ -20,7 +20,7 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
     return (
       <div
         className={cn(
-          'absolute bottom-2.5 right-2.5 pointer-events-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10',
+          'absolute bottom-2.5 right-2.5 pointer-events-auto opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 focus-within:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-200 z-10',
           className
         )}
       >

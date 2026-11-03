@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-label="Chưa có ảnh">
+  <rect width="960" height="720" fill="#06110d"/>
+  <g fill="none" stroke="#6ee7b7" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M480 470c-70-40-110-110-90-200 90 10 150 70 150 150 0 20-20 40-60 50z"/>
+    <path d="M480 470c-10-80 10-140 60-190"/>
+  </g>
+</svg>

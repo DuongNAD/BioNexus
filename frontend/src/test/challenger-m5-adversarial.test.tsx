@@ -11,6 +11,7 @@ import { setAuthSession, clearAuthSession } from '@/api/authStore';
 import * as authQueries from '@/api/queries/useAuthQueries';
 import * as authMutations from '@/api/mutations/useAuthMutations';
 import { toast } from 'sonner';
+import { ApiError } from '@/api/errors';
 import type { MeDto, SellerDto } from '@/types/api';
 
 describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5', () => {
@@ -55,10 +56,12 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
         // Nhập 0 -> kẹp về 1
         fireEvent.change(input, { target: { value: '0' } });
+        fireEvent.blur(input);
         expect(handleChange).toHaveBeenLastCalledWith(1);
 
         // Nhập số âm -> kẹp về 1
         fireEvent.change(input, { target: { value: '-25' } });
+        fireEvent.blur(input);
         expect(handleChange).toHaveBeenLastCalledWith(1);
       });
 
@@ -69,6 +72,7 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
         const input = screen.getByRole('textbox', { name: 'Số lượng' });
 
         fireEvent.change(input, { target: { value: '9999' } });
+        fireEvent.blur(input);
         expect(handleChange).toHaveBeenLastCalledWith(5);
       });
 
@@ -79,6 +83,7 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
         const input = screen.getByRole('textbox', { name: 'Số lượng' });
 
         fireEvent.change(input, { target: { value: '3.75' } });
+        fireEvent.blur(input);
         expect(handleChange).toHaveBeenLastCalledWith(3);
       });
 
@@ -89,12 +94,15 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
         const input = screen.getByRole('textbox', { name: 'Số lượng' });
 
         fireEvent.change(input, { target: { value: 'abc' } });
+        fireEvent.blur(input);
         expect(handleChange).not.toHaveBeenCalled();
 
         fireEvent.change(input, { target: { value: '@#$%' } });
+        fireEvent.blur(input);
         expect(handleChange).not.toHaveBeenCalled();
 
         fireEvent.change(input, { target: { value: '' } });
+        fireEvent.blur(input);
         expect(handleChange).not.toHaveBeenCalled();
       });
 
@@ -241,7 +249,8 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
       expect(orderRes.body.code).toBe('ORDER_CREATE_SUCCESS');
 
       const orderData = orderRes.body.data!;
-      expect(orderData.orderCode).toMatch(/^ORD-2026-\d{4}$/);
+      // Tài liệu 04 mục 4: ORD-<năm>-<6 ký tự>
+      expect(orderData.orderCode).toMatch(/^ORD-\d{4}-[A-Z0-9]{6}$/);
       expect(orderData.items).toHaveLength(2);
 
       // Verify stock decrement
@@ -566,7 +575,7 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
         expect(screen.getByText('Đăng cá thể mới')).toBeInTheDocument();
       });
 
-      it('State 4 (REJECTED): renders rejection reason and CTA "Nộp lại hồ sơ cấp phép →"', () => {
+      it('State 4 (REJECTED): renders rejection reason and contact guidance, no resubmit form (backend 409)', () => {
         const mockMe: MeDto = {
           id: 5,
           username: 'hoangvane',
@@ -586,10 +595,13 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
         expect(screen.getByText('Exotic Reptile Hub')).toBeInTheDocument();
         expect(screen.getByText('Lý do chưa phê duyệt:')).toBeInTheDocument();
-        expect(screen.getByText('Nộp lại hồ sơ cấp phép →')).toBeInTheDocument();
+        // Không có rejectionReason thì không bịa lý do
+        expect(screen.getByText('Ban Quản trị chưa ghi lý do cụ thể.')).toBeInTheDocument();
+        expect(screen.queryByText(/Nộp lại hồ sơ/i)).not.toBeInTheDocument();
+        expect(screen.getByText(/liên hệ Ban Quản trị BioNexus/i)).toBeInTheDocument();
       });
 
-      it('State 5 (BANNED): renders suspension notice and support email contact', () => {
+      it('State 5 (BANNED): renders suspension notice without invented complaint details', () => {
         const mockMe: MeDto = {
           id: 6,
           username: 'vuthif',
@@ -608,10 +620,9 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
         renderAccountWithMockMe(mockMe);
 
         expect(screen.getByText('Gecko Lab')).toBeInTheDocument();
-        expect(
-          screen.getByText(/Cơ sở của bạn tạm thời bị khóa do nhận được khiếu nại/i)
-        ).toBeInTheDocument();
-        expect(screen.getByText('kiemduyet@bionexus.vn')).toBeInTheDocument();
+        expect(screen.getByText(/Shop của bạn đang bị khóa/i)).toBeInTheDocument();
+        expect(screen.queryByText(/khiếu nại/i)).not.toBeInTheDocument();
+        expect(screen.getByText(/liên hệ Ban Quản trị BioNexus/i)).toBeInTheDocument();
       });
     });
   });
@@ -712,10 +723,9 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
       it('displays BANNED message when attempting login with vuthif', async () => {
         vi.spyOn(authMutations, 'useLogin').mockReturnValue({
-          mutateAsync: vi.fn().mockRejectedValue({
-            code: 'AUTH_ACCOUNT_BANNED',
-            message: 'Tài khoản của bạn đã bị khóa vĩnh viễn',
-          }),
+          mutateAsync: vi.fn().mockRejectedValue(
+            new ApiError(403, 'AUTH_ACCOUNT_BANNED', 'Tài khoản của bạn đã bị khóa vĩnh viễn')
+          ),
           isPending: false,
         } as any);
 
@@ -733,10 +743,9 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
       it('displays INACTIVE message when attempting login with dangvang', async () => {
         vi.spyOn(authMutations, 'useLogin').mockReturnValue({
-          mutateAsync: vi.fn().mockRejectedValue({
-            code: 'AUTH_ACCOUNT_INACTIVE',
-            message: 'Tài khoản chưa được kích hoạt',
-          }),
+          mutateAsync: vi.fn().mockRejectedValue(
+            new ApiError(403, 'AUTH_ACCOUNT_INACTIVE', 'Tài khoản chưa được kích hoạt')
+          ),
           isPending: false,
         } as any);
 
@@ -756,16 +765,13 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
       it('displays credential error message on invalid password', async () => {
         vi.spyOn(authMutations, 'useLogin').mockReturnValue({
-          mutateAsync: vi.fn().mockRejectedValue({
-            code: 'AUTH_INVALID_CREDENTIALS',
-            status: 401,
-          }),
+          mutateAsync: vi.fn().mockRejectedValue(new ApiError(401, 'AUTH_INVALID_CREDENTIALS')),
           isPending: false,
         } as any);
 
         renderLogin();
 
-        const userInput = screen.getByPlaceholderText('Nhập username hoặc email...');
+        const userInput = screen.getByPlaceholderText('Nhập tên đăng nhập...');
         const passInput = screen.getByPlaceholderText('Nhập mật khẩu...');
         fireEvent.change(userInput, { target: { value: 'someuser' } });
         fireEvent.change(passInput, { target: { value: 'wrongpass' } });

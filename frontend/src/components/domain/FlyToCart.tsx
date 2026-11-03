@@ -1,4 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useReducedMotion } from 'motion/react';
+
+// Hiệu ứng bay vào giỏ chạy bằng requestAnimationFrame nên CSS prefers-reduced-motion không chặn được
+function prefersReducedMotion(): boolean {
+  return typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+}
 
 interface FlyItem {
   id: number;
@@ -13,6 +19,7 @@ let flyCounter = 0;
 const listeners = new Set<(item: FlyItem) => void>();
 
 export function triggerFlyToCart(e: React.MouseEvent | { clientX: number; clientY: number }, imgSrc?: string) {
+  if (prefersReducedMotion()) return;
   // Tìm biểu tượng giỏ hàng trên Header qua data-cart-icon hoặc selector
   const cartIcon = document.querySelector('[data-cart-icon]') || document.querySelector('header a[href*="cart"]');
   const cartRect = cartIcon?.getBoundingClientRect();
@@ -36,6 +43,7 @@ export function triggerFlyToCart(e: React.MouseEvent | { clientX: number; client
 
 export const FlyToCartContainer: React.FC = () => {
   const [items, setItems] = useState<FlyItem[]>([]);
+  const reduceMotion = useReducedMotion();
 
   useEffect(() => {
     const handler = (item: FlyItem) => {
@@ -57,7 +65,7 @@ export const FlyToCartContainer: React.FC = () => {
     };
   }, []);
 
-  if (items.length === 0) return null;
+  if (items.length === 0 || reduceMotion) return null;
 
   return (
     <div className="pointer-events-none fixed inset-0 z-50 overflow-hidden" aria-hidden="true">

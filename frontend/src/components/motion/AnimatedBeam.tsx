@@ -29,19 +29,23 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
   const updatePath = React.useCallback(() => {
     if (!containerRef.current || !fromRef.current || !toRef.current) return;
 
-    const containerRect = containerRef.current.getBoundingClientRect();
+    const container = containerRef.current;
+    const containerRect = container.getBoundingClientRect();
     const fromRect = fromRef.current.getBoundingClientRect();
     const toRect = toRef.current.getBoundingClientRect();
 
+    // SVG nằm trong vùng cuộn ngang: đo theo toạ độ nội dung (cộng scrollLeft/Top) và phủ cả scrollWidth
     setSvgDimensions({
-      width: containerRect.width,
-      height: containerRect.height,
+      width: container.scrollWidth,
+      height: container.scrollHeight,
     });
 
-    const startX = fromRect.right - containerRect.left;
-    const startY = fromRect.top + fromRect.height / 2 - containerRect.top;
-    const endX = toRect.left - containerRect.left;
-    const endY = toRect.top + toRect.height / 2 - containerRect.top;
+    const offsetX = container.scrollLeft - containerRect.left;
+    const offsetY = container.scrollTop - containerRect.top;
+    const startX = fromRect.right + offsetX;
+    const startY = fromRect.top + fromRect.height / 2 + offsetY;
+    const endX = toRect.left + offsetX;
+    const endY = toRect.top + toRect.height / 2 + offsetY;
 
     // Nếu các phần tử xếp dọc (vertical beam)
     const isVertical = Math.abs(endX - startX) < 40;
@@ -66,8 +70,16 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
   useEffect(() => {
     updatePath();
     window.addEventListener('resize', updatePath);
-    return () => window.removeEventListener('resize', updatePath);
-  }, [updatePath]);
+    // Cột đổi kích thước (ảnh tải xong, thêm cột) cũng phải vẽ lại tia
+    const observer = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(() => updatePath()) : null;
+    [containerRef.current, fromRef.current, toRef.current].forEach((el) => {
+      if (el && observer) observer.observe(el);
+    });
+    return () => {
+      window.removeEventListener('resize', updatePath);
+      observer?.disconnect();
+    };
+  }, [updatePath, containerRef, fromRef, toRef]);
 
   // Kiểm tra prefers-reduced-motion
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
@@ -90,7 +102,7 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
       width={svgDimensions.width}
       height={svgDimensions.height}
       xmlns="http://www.w3.org/2000/svg"
-      className={cn('pointer-events-none absolute inset-0 z-10', className)}
+      className={cn('pointer-events-none absolute left-0 top-0 z-10', className)}
       aria-hidden="true"
     >
       <defs>

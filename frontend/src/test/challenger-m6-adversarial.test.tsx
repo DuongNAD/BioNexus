@@ -1,7 +1,9 @@
+import type { ReactNode } from 'react';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { MemoryRouter } from 'react-router';
+import { MemoryRouter, Routes, Route } from 'react-router';
+import { RequireRole } from '@/components/auth/RouteGuards';
 import { db } from '@/mocks/db';
 import { setAuthSession, clearAuthSession } from '@/api/authStore';
 import { createMockToken } from '@/mocks/auth';
@@ -14,7 +16,7 @@ import * as adminQueries from '@/api/queries/useAdminQueries';
 import * as speciesQueries from '@/api/queries/useSpeciesQueries';
 import { toProductView } from '@/api/adapters';
 import { toast } from 'sonner';
-import type { AuthResponse, CreateSpeciesRequest } from '@/types/api';
+import type { AdminRole, AuthResponse, CreateSpeciesRequest } from '@/types/api';
 
 // Mock sonner toast
 vi.mock('sonner', () => ({
@@ -177,143 +179,102 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
       });
     });
 
+    // Quyền truy cập nay do router kiểm tra (RequireRole bọc từng route admin, xem src/app/router.tsx),
+    // nên các test dưới đây dựng lại đúng cấu trúc đó thay vì dựa vào màn 403 riêng trong từng trang.
+    const renderGuarded = (path: string, page: ReactNode, allowedRoles?: AdminRole[]) => {
+      const queryClient = createTestQueryClient();
+      return render(
+        <QueryClientProvider client={queryClient}>
+          <MemoryRouter initialEntries={[path]}>
+            <Routes>
+              <Route path="/admin/login" element={<p>Trang đăng nhập quản trị</p>} />
+              <Route path="*" element={<RequireRole allowedRoles={allowedRoles}>{page}</RequireRole>} />
+            </Routes>
+          </MemoryRouter>
+        </QueryClientProvider>
+      );
+    };
+
     describe('1.2 Route Access Protection: Unauthenticated & Regular User (levanc)', () => {
-      it('Unauthenticated user accessing AdminDashboard is blocked with 403 Forbidden', () => {
+      it('Unauthenticated user opening /admin is redirected to the admin login page', () => {
         clearAuthSession();
-        const queryClient = createTestQueryClient();
+        renderGuarded('/admin', <AdminDashboardPage />);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin']}>
-              <AdminDashboardPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Khu vực hạn chế quản trị/i)).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Đăng nhập Ban Quản trị/i })).toBeInTheDocument();
+        expect(screen.getByText('Trang đăng nhập quản trị')).toBeInTheDocument();
+        expect(screen.queryByText(/Tổng quan Quản trị/i)).not.toBeInTheDocument();
       });
 
-      it('Regular USER (levanc) accessing AdminDashboard is blocked with 403 Forbidden', () => {
+      it('Regular USER (levanc) opening /admin sees the 403 state inside the layout', () => {
         setAuthSession(MOCK_NORMAL_USER);
-        const queryClient = createTestQueryClient();
+        renderGuarded('/admin', <AdminDashboardPage />);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin']}>
-              <AdminDashboardPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Khu vực hạn chế quản trị/i)).toBeInTheDocument();
+        expect(screen.getByText('Mã lỗi 403')).toBeInTheDocument();
+        expect(screen.getByText(/Bạn không có quyền xem trang này/i)).toBeInTheDocument();
+        expect(screen.getByText(/chỉ dành cho Ban Quản trị/i)).toBeInTheDocument();
       });
 
-      it('Regular USER (levanc) accessing AdminSellers is blocked with 403 Forbidden', () => {
+      it.each([
+        ['/admin/sellers', <AdminSellersPage key="s" />, ['MODERATOR'] as AdminRole[]],
+        ['/admin/products', <AdminProductsPage key="p" />, ['MODERATOR'] as AdminRole[]],
+        ['/admin/species', <AdminSpeciesPage key="sp" />, ['BIOLOGIST'] as AdminRole[]],
+      ])('Regular USER (levanc) opening %s is blocked with 403', (path, page, roles) => {
         setAuthSession(MOCK_NORMAL_USER);
-        const queryClient = createTestQueryClient();
+        renderGuarded(path, page, roles);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/sellers']}>
-              <AdminSellersPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
-      });
-
-      it('Regular USER (levanc) accessing AdminProducts is blocked with 403 Forbidden', () => {
-        setAuthSession(MOCK_NORMAL_USER);
-        const queryClient = createTestQueryClient();
-
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/products']}>
-              <AdminProductsPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
-      });
-
-      it('Regular USER (levanc) accessing AdminSpecies is blocked with 403 Forbidden', () => {
-        setAuthSession(MOCK_NORMAL_USER);
-        const queryClient = createTestQueryClient();
-
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/species']}>
-              <AdminSpeciesPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
+        expect(screen.getByText('Mã lỗi 403')).toBeInTheDocument();
+        expect(screen.queryByRole('button', { name: /Phím tắt/i })).not.toBeInTheDocument();
       });
     });
 
     describe('1.3 Role Isolation: BIOLOGIST attempting to access Commercial Moderation', () => {
-      it('BIOLOGIST accessing /admin/sellers is blocked with 403 Forbidden', () => {
+      it.each([
+        ['/admin/sellers', <AdminSellersPage key="s" />],
+        ['/admin/products', <AdminProductsPage key="p" />],
+      ])('BIOLOGIST opening %s sees 403 and no moderation actions', (path, page) => {
         setAuthSession(MOCK_BIOLOGIST1);
-        const queryClient = createTestQueryClient();
+        renderGuarded(path, page, ['MODERATOR']);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/sellers']}>
-              <AdminSellersPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
-        expect(screen.getByText(/Nhà sinh học/i)).toBeInTheDocument();
-        expect(screen.getByText(/Khu vực này chỉ dành cho Kiểm duyệt viên \(Moderator\) và Admin Tổng/i)).toBeInTheDocument();
+        expect(screen.getByText('Mã lỗi 403')).toBeInTheDocument();
+        expect(screen.getByText(/không được giao nhiệm vụ ở khu vực này/i)).toBeInTheDocument();
+        expect(screen.queryByRole('button', { name: /Từ chối/i })).not.toBeInTheDocument();
       });
 
-      it('BIOLOGIST accessing /admin/products is blocked with 403 Forbidden', () => {
+      it('BIOLOGIST dashboard does not query moderator-only endpoints and hides moderation tiles', () => {
         setAuthSession(MOCK_BIOLOGIST1);
-        const queryClient = createTestQueryClient();
+        const sellersSpy = vi.mocked(adminQueries.useAdminSellers);
+        const productsSpy = vi.mocked(adminQueries.useAdminProducts);
+        renderGuarded('/admin', <AdminDashboardPage />);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/products']}>
-              <AdminProductsPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
-
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
-        expect(screen.getByText(/Nhà sinh học/i)).toBeInTheDocument();
-        expect(screen.getByText(/Khu vực này chỉ dành cho Kiểm duyệt viên \(Moderator\) và Admin Tổng/i)).toBeInTheDocument();
+        expect(screen.getByText(/Tổng quan Quản trị/i)).toBeInTheDocument();
+        expect(screen.queryByText('Cửa hàng chờ duyệt')).not.toBeInTheDocument();
+        expect(screen.queryByText('Sản phẩm chờ duyệt')).not.toBeInTheDocument();
+        // Hook vẫn được gọi (luật hook) nhưng phải ở trạng thái tắt để không bắn request 403
+        expect(sellersSpy.mock.calls.every(([, opts]) => opts?.enabled === false)).toBe(true);
+        expect(productsSpy.mock.calls.every(([, opts]) => opts?.enabled === false)).toBe(true);
       });
     });
 
     describe('1.4 Role Isolation: MODERATOR attempting to access Taxonomy/Species Management', () => {
-      it('MODERATOR accessing /admin/species is blocked with 403 Forbidden', () => {
+      it('MODERATOR opening /admin/species is blocked with 403', () => {
         setAuthSession(MOCK_MODERATOR1);
-        const queryClient = createTestQueryClient();
+        renderGuarded('/admin/species', <AdminSpeciesPage />, ['BIOLOGIST']);
 
-        render(
-          <QueryClientProvider client={queryClient}>
-            <MemoryRouter initialEntries={['/admin/species']}>
-              <AdminSpeciesPage />
-            </MemoryRouter>
-          </QueryClientProvider>
-        );
+        expect(screen.getByText('Mã lỗi 403')).toBeInTheDocument();
+        expect(screen.queryByRole('button', { name: /Thêm loài mới/i })).not.toBeInTheDocument();
+      });
+    });
 
-        expect(screen.getByText('403 Forbidden')).toBeInTheDocument();
-        expect(screen.getByText(/Không đủ quyền truy cập/i)).toBeInTheDocument();
-        expect(screen.getByText(/Khu vực Quản trị Bách khoa Loài chỉ dành riêng cho Nhà sinh học \(Biologist\) và Admin Tổng/i)).toBeInTheDocument();
+    describe('1.5 Session ends while a moderation page is open', () => {
+      it('Clearing the session unmounts the page through the guard instead of crashing on hook order', () => {
+        setAuthSession(MOCK_MODERATOR1);
+        renderGuarded('/admin/sellers', <AdminSellersPage />, ['MODERATOR']);
+        expect(screen.getAllByText('AquaTerra Shop')[0]).toBeInTheDocument();
+
+        act(() => {
+          clearAuthSession();
+        });
+
+        expect(screen.getByText('Trang đăng nhập quản trị')).toBeInTheDocument();
       });
     });
   });
@@ -460,7 +421,7 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         fireEvent.click(otherReasonCard);
 
         // Nhập note < 5 ký tự: "abc"
-        const customNoteInput = screen.getByLabelText(/Ghi chú thêm cho người bán/i);
+        const customNoteInput = screen.getByLabelText(/Ghi chú thêm/i);
         fireEvent.change(customNoteInput, { target: { value: 'abc' } });
 
         // Bấm Xác nhận Từ chối

@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { toast } from 'sonner';
 import { ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import type { ProductDto, SpeciesDto } from '@/types/api';
@@ -240,72 +239,6 @@ const KEEP_IMG_BY_SLUG: Record<string, string> = {
   'hermann-tortoise': 'hermann',
 };
 
-const FALLBACK_APPROVED_PRODUCTS: Array<{
-  id: number;
-  name: string;
-  shop: string;
-  price: number;
-  slug: string;
-  sci: string;
-}> = [
-  {
-    id: 1,
-    name: 'Axolotl Leucistic (5 cm)',
-    shop: 'BioGreen Exotic',
-    price: 450000,
-    slug: 'axolotl',
-    sci: 'Ambystoma mexicanum',
-  },
-  {
-    id: 2,
-    name: 'Axolotl Golden Albino (8 cm)',
-    shop: 'BioGreen Exotic',
-    price: 650000,
-    slug: 'axolotl',
-    sci: 'Ambystoma mexicanum',
-  },
-  {
-    id: 3,
-    name: 'Ball Python Normal CB25',
-    shop: 'BioGreen Exotic',
-    price: 2500000,
-    slug: 'ball-python',
-    sci: 'Python regius',
-  },
-  {
-    id: 4,
-    name: 'Ball Python Piebald CB25',
-    shop: 'BioGreen Exotic',
-    price: 8500000,
-    slug: 'ball-python',
-    sci: 'Python regius',
-  },
-  {
-    id: 5,
-    name: 'Nepenthes rajah mô cấy (cỡ S)',
-    shop: 'Carnivora Garden',
-    price: 1200000,
-    slug: 'nepenthes-rajah',
-    sci: 'Nepenthes rajah',
-  },
-  {
-    id: 6,
-    name: 'Leopard Gecko High Yellow',
-    shop: 'BioGreen Exotic',
-    price: 900000,
-    slug: 'leopard-gecko',
-    sci: 'Eublepharis macularius',
-  },
-  {
-    id: 7,
-    name: 'Venus Flytrap B52 (chậu 9 cm)',
-    shop: 'Carnivora Garden',
-    price: 350000,
-    slug: 'venus-flytrap',
-    sci: 'Dionaea muscipula',
-  },
-];
-
 export interface CertificateProps {
   liveProducts?: ProductDto[];
   liveSpecies?: SpeciesDto[];
@@ -320,29 +253,25 @@ export function Certificate({
   const { met, user } = usePassport();
   const done = met.length === 9;
 
-  // Ghép danh sách sản phẩm đã duyệt từ API thật với loài tương ứng
-  const keepItems = (() => {
-    const approved = liveProducts?.filter((p) => p.status === 'APPROVED');
-    if (approved && approved.length > 0) {
-      return approved.map((p) => {
-        const spDto = liveSpecies?.find((s) => s.id === p.speciesId);
-        const sci = spDto?.scientificName || 'Ambystoma mexicanum';
-        const baseMatch = Object.values(JOURNEY_SPECIES_BASE).find(
-          (b) => b.sci.toLowerCase() === sci.toLowerCase() || b.id === p.speciesId
-        );
-        const slug = baseMatch?.slug || 'axolotl';
-        return {
-          id: p.id,
-          name: p.productName,
-          shop: p.shopName || 'BioGreen Exotic',
-          price: p.price,
-          slug,
-          sci: baseMatch?.sci || sci,
-        };
-      });
-    }
-    return FALLBACK_APPROVED_PRODUCTS;
-  })();
+  // Chỉ hiện sản phẩm thật đang bán, ghép với loài trong hành trình theo tên khoa học.
+  // Không có dữ liệu thì không bịa sản phẩm (id và giá đoán sẽ trỏ sai trong DB thật)
+  const keepItems = (liveProducts ?? [])
+    .filter((p) => p.status === 'APPROVED')
+    .map((p) => {
+      const sci =
+        p.speciesScientificName || liveSpecies?.find((sp) => sp.id === p.speciesId)?.scientificName || '';
+      const baseMatch = Object.values(JOURNEY_SPECIES_BASE).find((b) => b.sci.toLowerCase() === sci.toLowerCase());
+      return {
+        id: p.id,
+        name: p.productName,
+        shop: p.shopName || `Cửa hàng #${p.sellerProfileId}`,
+        price: p.price,
+        slug: baseMatch?.slug,
+        sci: baseMatch?.sci || sci,
+      };
+    })
+    // Hành trình chỉ giới thiệu 9 loài đã gặp
+    .filter((item) => item.slug);
 
   return (
     <>
@@ -403,9 +332,17 @@ export function Certificate({
               vừa gặp đang được bán.
             </p>
           </div>
+          {keepItems.length === 0 && (
+            <p className="mt-10 text-white/75">
+              Sàn chưa có sản phẩm nào của 9 loài này.{' '}
+              <a href="#/products" className="text-[#6ee7b7] hover:underline">
+                Xem toàn bộ sàn sinh vật cảnh
+              </a>
+            </p>
+          )}
           <div className="mt-10 flex snap-x gap-4 overflow-x-auto pb-4 [scrollbar-width:thin]">
             {keepItems.map((p) => {
-              const tripKey = KEEP_IMG_BY_SLUG[p.slug] || 'axolotl2';
+              const tripKey = (p.slug && KEEP_IMG_BY_SLUG[p.slug]) || 'axolotl2';
               return (
                 <article
                   key={p.id}
@@ -429,13 +366,7 @@ export function Certificate({
                       <span className="font-semibold tabular-nums">{formatVnd(p.price)}</span>
                       <button
                         type="button"
-                        onClick={() => {
-                          if (onAddCartProduct) {
-                            onAddCartProduct(p.id, p.name);
-                          } else {
-                            toast.success(`Đã thêm “${p.name}” vào giỏ`);
-                          }
-                        }}
+                        onClick={() => onAddCartProduct?.(p.id, p.name)}
                         className="rounded-full border border-white/20 px-3.5 py-1.5 text-sm font-medium transition hover:bg-white/10"
                       >
                         Thêm vào giỏ
@@ -456,11 +387,7 @@ export function Certificate({
           </p>
           <ul className="mt-4 grid gap-x-8 gap-y-2 md:grid-cols-2">
             {JOURNEY_CREDITS.map((c) => (
-              <li
-                key={c.key}
-                className="truncate"
-                title={`${c.title} · ${c.author} · ${c.license}`}
-              >
+              <li key={c.key} className="break-words">
                 <a
                   href={c.source}
                   target="_blank"

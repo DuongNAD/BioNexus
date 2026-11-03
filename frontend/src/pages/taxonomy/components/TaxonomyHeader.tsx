@@ -39,10 +39,15 @@ export const TaxonomyHeader: React.FC<TaxonomyHeaderProps> = ({
         </div>
 
         {/* Công tắc SegmentedControl Cột vs Chuỗi xoắn 3D */}
-        <div className="inline-flex rounded-full border border-line bg-surface p-1 shadow-inner shrink-0 self-start sm:self-auto">
+        <div
+          role="group"
+          aria-label="Chế độ xem cây phân loại"
+          className="inline-flex rounded-full border border-line bg-surface p-1 shadow-inner shrink-0 self-start sm:self-auto"
+        >
           <button
             type="button"
             onClick={() => onViewModeChange('columns')}
+            aria-pressed={viewMode === 'columns'}
             className={cn(
               'flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-semibold transition-all duration-200',
               viewMode === 'columns'
@@ -50,13 +55,14 @@ export const TaxonomyHeader: React.FC<TaxonomyHeaderProps> = ({
                 : 'text-fg-2 hover:text-fg'
             )}
           >
-            <Columns3 className="size-3.5" />
+            <Columns3 className="size-3.5" aria-hidden="true" />
             <span>Cột phân cấp</span>
           </button>
 
           <button
             type="button"
             onClick={() => onViewModeChange('helix')}
+            aria-pressed={viewMode === 'helix'}
             className={cn(
               'flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-semibold transition-all duration-200',
               viewMode === 'helix'
@@ -64,7 +70,7 @@ export const TaxonomyHeader: React.FC<TaxonomyHeaderProps> = ({
                 : 'text-fg-2 hover:text-fg'
             )}
           >
-            <Dna className="size-3.5" />
+            <Dna className="size-3.5" aria-hidden="true" />
             <span>Chuỗi xoắn 3D</span>
           </button>
         </div>

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { ShieldAlert, ShieldCheck, Scale, Microscope, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useAdminLogin } from '@/api/mutations/useAuthMutations';
+import { ApiError } from '@/api/errors';
+import { USE_MOCKS } from '@/lib/env';
 import { toast } from 'sonner';
 
 interface AdminLoginFormValues {
@@ -12,44 +14,65 @@ interface AdminLoginFormValues {
   password: string;
 }
 
+// Nút đăng nhập nhanh chứa mật khẩu seed: chỉ hiện khi chạy dev với MSW, không bao giờ vào bản build
+const SHOW_DEMO_LOGINS = import.meta.env.DEV && USE_MOCKS;
+
 export default function AdminLoginPage(): React.JSX.Element {
+  const [searchParams] = useSearchParams();
   const [showPassword, setShowPassword] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const adminLoginMutation = useAdminLogin();
 
-  const { register, handleSubmit, setValue } = useForm<AdminLoginFormValues>({
+  const {
+    register,
+    handleSubmit,
+    setValue,
+    formState: { errors },
+  } = useForm<AdminLoginFormValues>({
     defaultValues: {
       account: '',
       password: '',
     },
   });
 
+  // Chỉ quay lại đường dẫn nội bộ trong khu quản trị (chống open redirect)
+  const getSafeRedirectHash = (): string => {
+    const next = searchParams.get('next');
+    if (next && next.startsWith('/admin') && !next.startsWith('//')) return `#${next}`;
+    return '#/admin';
+  };
+
   const onSubmit = async (values: AdminLoginFormValues) => {
     setErrorMessage(null);
     try {
-      await adminLoginMutation.mutateAsync({
-        account: values.account.trim(),
+      // Backend đọc cột account qua trường username (LoginRequest.java)
+      const auth = await adminLoginMutation.mutateAsync({
+        username: values.account.trim(),
         password: values.password,
       });
 
-      toast.success('Xác thực Ban Quản trị thành công!');
-      window.location.hash = '#/admin';
-    } catch (err: any) {
-      if (err.code === 'AUTH_ACCOUNT_BANNED') {
+      toast.success(`Xin chào, ${auth.fullName || auth.username}!`);
+      window.location.hash = getSafeRedirectHash();
+    } catch (err) {
+      const code = err instanceof ApiError ? err.code : '';
+      if (code === 'AUTH_ACCOUNT_BANNED') {
         setErrorMessage('Tài khoản quản trị viên của bạn đã bị vô hiệu hóa.');
-      } else if (err.code === 'AUTH_INVALID_CREDENTIALS' || err.status === 401) {
+      } else if (code === 'AUTH_ACCOUNT_INACTIVE') {
+        setErrorMessage('Tài khoản quản trị viên đang tạm khóa.');
+      } else if (code === 'AUTH_INVALID_CREDENTIALS' || (err instanceof ApiError && err.status === 401)) {
         setErrorMessage('Sai tài khoản hoặc mật khẩu quản trị.');
       } else {
-        setErrorMessage(err.message || 'Không có thẩm quyền truy cập Ban Quản trị BioNexus.');
+        setErrorMessage(err instanceof Error && err.message ? err.message : 'Đăng nhập quản trị không thành công.');
       }
     }
   };
 
   const handleQuickFill = (acc: string, pass: string) => {
+    if (adminLoginMutation.isPending) return;
     setValue('account', acc);
     setValue('password', pass);
-    onSubmit({ account: acc, password: pass });
+    void handleSubmit(onSubmit)();
   };
 
   return (
@@ -68,41 +91,50 @@ export default function AdminLoginPage(): React.JSX.Element {
       </div>
 
       {errorMessage && (
-        <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-300">
+        <div role="alert" className="rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-300">
           {errorMessage}
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4" noValidate>
         <div>
           <label htmlFor="admin-account" className="block text-xs font-medium text-fg-2 mb-1.5">
-            Tài khoản Quản trị (Account)
+            Tài khoản quản trị
           </label>
           <div className="relative">
-            <ShieldCheck className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-amber-400" />
+            <ShieldCheck className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-amber-400" aria-hidden="true" />
             <Input
               id="admin-account"
-              {...register('account', { required: true })}
-              placeholder="Nhập mã định danh quản trị..."
+              {...register('account', { validate: (v) => v.trim().length > 0 || 'Vui lòng nhập tài khoản quản trị' })}
+              placeholder="Nhập tài khoản quản trị..."
               className="pl-9 text-xs"
               autoComplete="username"
+              aria-invalid={Boolean(errors.account)}
+              aria-describedby={errors.account ? 'admin-account-error' : undefined}
             />
           </div>
+          {errors.account && (
+            <p id="admin-account-error" role="alert" className="mt-1.5 text-xs font-medium text-danger">
+              {errors.account.message}
+            </p>
+          )}
         </div>
 
         <div>
           <label htmlFor="admin-password" className="block text-xs font-medium text-fg-2 mb-1.5">
-            Mật khẩu bảo mật
+            Mật khẩu
           </label>
           <div className="relative">
-            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" />
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" aria-hidden="true" />
             <Input
               id="admin-password"
               type={showPassword ? 'text' : 'password'}
-              {...register('password', { required: true })}
+              {...register('password', { required: 'Vui lòng nhập mật khẩu' })}
               placeholder="Nhập mật khẩu..."
               className="pl-9 pr-9 text-xs"
               autoComplete="current-password"
+              aria-invalid={Boolean(errors.password)}
+              aria-describedby={errors.password ? 'admin-password-error' : undefined}
             />
             <button
               type="button"
@@ -113,6 +145,11 @@ export default function AdminLoginPage(): React.JSX.Element {
               {showPassword ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
             </button>
           </div>
+          {errors.password && (
+            <p id="admin-password-error" role="alert" className="mt-1.5 text-xs font-medium text-danger">
+              {errors.password.message}
+            </p>
+          )}
         </div>
 
         <Button
@@ -132,28 +169,31 @@ export default function AdminLoginPage(): React.JSX.Element {
         </Button>
       </form>
 
-      {/* Quick Seed Admin Accounts (NO EMOJIS, pure Lucide icons) */}
+      {/* Đăng nhập nhanh bằng tài khoản seed: chỉ có ở chế độ dev + MSW */}
+      {SHOW_DEMO_LOGINS && (
       <div className="rounded-xl border border-dashed border-amber-500/30 bg-surface-2/40 p-3.5 space-y-2.5">
-        <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-300 block">
-          Tài khoản quản trị mẫu (Admin Seed)
+        <span className="text-[10px] font-bold uppercase tracking-wider text-amber-300 block">
+          Tài khoản quản trị mẫu (chỉ ở chế độ dev)
         </span>
         <div className="grid grid-cols-1 gap-2">
           <button
             type="button"
             onClick={() => handleQuickFill('superadmin', 'admin123')}
-            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors"
+            disabled={adminLoginMutation.isPending}
+            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors disabled:opacity-60"
           >
-            <ShieldCheck className="size-3.5 text-accent shrink-0" />
+            <ShieldCheck className="size-3.5 text-accent shrink-0" aria-hidden="true" />
             <div className="flex-1 truncate">
               <span className="font-semibold block truncate">superadmin</span>
-              <span className="text-[10px] text-fg-3 block truncate">Super Admin (Toàn quyền hệ thống)</span>
+              <span className="text-[10px] text-fg-3 block truncate">Quản trị tổng (toàn quyền hệ thống)</span>
             </div>
           </button>
 
           <button
             type="button"
             onClick={() => handleQuickFill('moderator1', 'admin123')}
-            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors"
+            disabled={adminLoginMutation.isPending}
+            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors disabled:opacity-60"
           >
             <Scale className="size-3.5 text-accent shrink-0" />
             <div className="flex-1 truncate">
@@ -165,9 +205,10 @@ export default function AdminLoginPage(): React.JSX.Element {
           <button
             type="button"
             onClick={() => handleQuickFill('biologist1', 'admin123')}
-            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors"
+            disabled={adminLoginMutation.isPending}
+            className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors disabled:opacity-60"
           >
-            <Microscope className="size-3.5 text-accent shrink-0" />
+            <Microscope className="size-3.5 text-accent shrink-0" aria-hidden="true" />
             <div className="flex-1 truncate">
               <span className="font-semibold block truncate">biologist1</span>
               <span className="text-[10px] text-fg-3 block truncate">Nhà sinh học (Quản trị loài & Cây phân loại)</span>
@@ -175,6 +216,7 @@ export default function AdminLoginPage(): React.JSX.Element {
           </button>
         </div>
       </div>
+      )}
 
       <div className="pt-2 border-t border-line/60 text-center">
         <Link to="/login" className="text-xs text-fg-3 hover:text-accent transition-colors">

@@ -59,7 +59,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             aria-invalid={Boolean(error)}
             aria-describedby={describedBy}
             className={cn(
-              'h-10 w-full rounded-lg border border-line bg-surface-hover px-3.5 text-sm text-fg placeholder:text-fg-mute transition-all duration-150',
+              'h-10 w-full rounded-lg border border-line bg-surface-hover px-3.5 text-sm text-fg placeholder:text-fg-3 transition-all duration-150',
               'focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg',
               'disabled:cursor-not-allowed disabled:opacity-50',
               leftIcon && 'pl-10',

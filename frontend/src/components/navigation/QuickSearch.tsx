@@ -1,13 +1,12 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { Search, X, Compass, Layers, ShoppingBag, Dna, ArrowRight } from 'lucide-react';
-import { SEED_SPECIES } from '@/mocks/data/species';
-import { SEED_TAXONOMY } from '@/mocks/data/taxonomy';
-import { SEED_PRODUCTS } from '@/mocks/data/products';
 import { APP_ROUTES } from '@/app/routes';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
-import { extractNames, SPECIES_EXTRAS } from '@/api/adapters';
+import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
+import { useProducts } from '@/api/queries/useProductQueries';
+import { useAuthState } from '@/api/queries/useAuthQueries';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { Kbd } from '@/components/ui/Kbd';
 import { cn } from '@/lib/cn';
@@ -41,117 +40,104 @@ export interface QuickSearchItem {
 export interface QuickSearchProps {
   isOpen?: boolean;
   onClose?: () => void;
+  /** Cần khi điều khiển từ ngoài để phím tắt ⌘K / Ctrl+K mở được bảng */
+  onOpen?: () => void;
 }
+
+// Loài gợi ý khi chưa gõ gì: tra theo tên khoa học, không theo id
+const FEATURED_SPECIES = ['Ambystoma mexicanum', 'Python regius', 'Nepenthes rajah'];
 
 export const QuickSearch: React.FC<QuickSearchProps> = ({
   isOpen: controlledIsOpen,
   onClose: controlledOnClose,
+  onOpen: controlledOnOpen,
 }) => {
   const [internalIsOpen, setInternalIsOpen] = useState(false);
   const isControlled = controlledIsOpen !== undefined;
   const isOpen = isControlled ? controlledIsOpen : internalIsOpen;
 
-  const setIsOpen = (open: boolean) => {
-    if (!isControlled) {
-      setInternalIsOpen(open);
-    }
-    if (!open && controlledOnClose) {
-      controlledOnClose();
-    }
-  };
-
-  const [query, setQuery] = useState('');
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const listRef = useRef<HTMLDivElement>(null);
-  const navigate = useNavigate();
+  const setIsOpen = useCallback(
+    (open: boolean) => {
+      if (!isControlled) setInternalIsOpen(open);
+      if (open) controlledOnOpen?.();
+      else controlledOnClose?.();
+    },
+    [isControlled, controlledOnOpen, controlledOnClose]
+  );
 
   // Bắt phím tắt toàn cục ⌘K / Ctrl+K
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)) {
+      if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey) && !e.altKey) {
+        // Điều khiển từ ngoài mà không có onOpen thì để trình duyệt tự xử lý phím
+        if (isControlled && !isOpen && !controlledOnOpen) return;
         e.preventDefault();
         setIsOpen(!isOpen);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen]);
+  }, [isOpen, isControlled, controlledOnOpen, setIsOpen]);
 
-  // Tự động focus vào input khi mở modal
-  useEffect(() => {
-    if (isOpen) {
-      setQuery('');
-      setSelectedIndex(0);
-      setTimeout(() => inputRef.current?.focus(), 50);
-    }
-  }, [isOpen]);
+  // Chỉ mount phần có dữ liệu khi mở: danh sách loài và sản phẩm tải ở lần mở đầu rồi dùng bộ đệm
+  if (!isOpen) return null;
+  return <QuickSearchDialog onRequestClose={() => setIsOpen(false)} />;
+};
 
-  // Chuẩn bị kho dữ liệu tổng hợp
+function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): React.JSX.Element {
+  const [query, setQuery] = useState('');
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
+  const auth = useAuthState();
+  const { data: speciesList = [] } = useSpeciesList();
+  const { data: productPage } = useProducts({ size: 48 });
+
+  // Kho dữ liệu tìm kiếm dựng từ API
   const allItems = useMemo<QuickSearchItem[]>(() => {
     const items: QuickSearchItem[] = [];
 
-    // 1. Nhóm Loài sinh vật (9 loài)
-    SEED_SPECIES.forEach((sp) => {
-      const { displayName, englishName } = extractNames(sp.commonName);
-      const extra = SPECIES_EXTRAS[sp.scientificName];
-      const photoUrl = extra ? `photos/${extra.slug}/hero-960.webp` : (sp.imageURL || undefined);
-
+    // 1. Nhóm loài sinh vật
+    speciesList.forEach((sp) => {
       items.push({
         id: `sp-${sp.id}`,
         category: 'species',
         categoryLabel: 'Bách khoa loài',
-        title: displayName,
-        subtitle: `${sp.scientificName} · ${englishName || sp.commonName}`,
+        title: sp.displayName,
+        subtitle: `${sp.scientificName} · ${sp.englishName || sp.commonName}`,
         iucnCode: sp.conservationStatus,
-        imageUrl: photoUrl || undefined,
+        imageUrl: sp.heroPhoto,
         iconName: 'species',
         url: `/species/${sp.id}`,
-        keywords: [
-          sp.scientificName,
-          sp.commonName,
-          displayName,
-          englishName,
-          extra?.slug || '',
-          extra?.group || '',
-          sp.conservationStatus,
-        ].filter(Boolean),
+        keywords: [sp.scientificName, sp.commonName, sp.displayName, sp.englishName, sp.slug, sp.group, sp.conservationStatus].filter(Boolean),
       });
     });
 
-    // 2. Nhóm Cây phân loại (26 nút)
-    SEED_TAXONOMY.forEach((node) => {
-      items.push({
-        id: `tax-${node.id}`,
-        category: 'taxonomy',
-        categoryLabel: 'Phân loại học',
-        title: node.scientificName,
-        subtitle: `${node.rank}: ${node.commonName}`,
-        badge: `${node.rank}`,
-        iconName: 'taxonomy',
-        url: `/taxonomy/${node.id}`,
-        keywords: [node.scientificName, node.commonName, node.rank],
-      });
-    });
-
-    // 3. Nhóm Sản phẩm đang bán APPROVED (7 sản phẩm)
-    SEED_PRODUCTS.filter((p) => p.status === 'APPROVED').forEach((prod) => {
+    // 2. Nhóm sản phẩm đang bán (API chỉ trả APPROVED)
+    (productPage?.items ?? []).forEach((prod) => {
       items.push({
         id: `prod-${prod.id}`,
         category: 'product',
         categoryLabel: 'Cửa hàng',
         title: prod.productName,
-        subtitle: `${prod.shopName || 'BioGreen Exotic'} · ${formatVnd(prod.price)}`,
+        subtitle: `${prod.displayShopName} · ${formatVnd(prod.price)}`,
         badge: 'F2+',
-        imageUrl: prod.imageUrl || 'photos/product-placeholder.webp',
+        imageUrl: prod.displayImage,
         iconName: 'product',
         url: `/products/${prod.id}`,
-        keywords: [prod.productName, prod.shopName || '', String(prod.price)],
+        keywords: [prod.productName, prod.displayShopName, prod.speciesCommonName || '', prod.speciesScientificName || ''],
       });
     });
 
-    // 4. Nhóm Điều hướng hệ thống
-    APP_ROUTES.filter((r) => r.path !== '*' && !r.path.includes(':')).forEach((route) => {
+    // 3. Nhóm điều hướng: bỏ route dev, route có tham số và khu quản trị với người không phải admin
+    APP_ROUTES.filter(
+      (r) =>
+        r.path !== '*' &&
+        !r.path.includes(':') &&
+        (!r.devOnly || import.meta.env.DEV) &&
+        (r.access !== 'admin' || auth.accountType === 'ADMIN')
+    ).forEach((route) => {
       items.push({
         id: `nav-${route.path}`,
         category: 'navigation',
@@ -166,6 +152,16 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
     });
 
     return items;
+  }, [speciesList, productPage, auth.accountType]);
+
+  const featuredSpeciesIds = useMemo(
+    () => new Set(speciesList.filter((sp) => FEATURED_SPECIES.includes(sp.scientificName)).map((sp) => `sp-${sp.id}`)),
+    [speciesList]
+  );
+
+  useEffect(() => {
+    const timer = setTimeout(() => inputRef.current?.focus(), 50);
+    return () => clearTimeout(timer);
   }, []);
 
   // Lọc kết quả theo query NFD không dấu
@@ -179,9 +175,7 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
           item.id === 'nav-/taxonomy' ||
           item.id === 'nav-/species' ||
           item.id === 'nav-/products' ||
-          item.id === 'sp-1' ||
-          item.id === 'sp-3' ||
-          item.id === 'sp-4'
+          featuredSpeciesIds.has(item.id)
       );
     }
 
@@ -191,7 +185,7 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
       const matchKeywords = item.keywords.some((kw) => normalizeSearchString(kw).includes(q));
       return matchTitle || matchSub || matchKeywords;
     });
-  }, [allItems, query]);
+  }, [allItems, query, featuredSpeciesIds]);
 
   // Phân nhóm kết quả
   const groupedResults = useMemo(() => {
@@ -228,8 +222,15 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
     setSelectedIndex(0);
   }, [flatResults.length]);
 
+  // Giữ mục đang chọn trong khung nhìn khi di chuyển bằng phím
+  useEffect(() => {
+    const id = flatResults[selectedIndex]?.id;
+    if (!id) return;
+    document.getElementById('quicksearch-item-' + id)?.scrollIntoView?.({ block: 'nearest' });
+  }, [selectedIndex, flatResults]);
+
   const handleSelect = (item: QuickSearchItem) => {
-    setIsOpen(false);
+    onRequestClose();
     navigate(item.url);
   };
 
@@ -248,24 +249,20 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
       if (selected) {
         handleSelect(selected);
       }
-    } else if (e.key === 'Escape') {
-      e.preventDefault();
-      setIsOpen(false);
     }
   };
 
-  if (!isOpen) return null;
+  const activeId = flatResults[selectedIndex]?.id;
 
   return (
-    <DialogPrimitive.Root open={isOpen} onOpenChange={setIsOpen}>
+    <DialogPrimitive.Root open onOpenChange={(open) => !open && onRequestClose()}>
       <DialogPrimitive.Portal>
         <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md animate-in fade-in-0 duration-200" />
         <DialogPrimitive.Content
           className="fixed left-1/2 top-[12%] -translate-x-1/2 z-50 w-[calc(100%-1.5rem)] max-w-2xl rounded-2xl border border-line-strong bg-bg-raised/95 shadow-2xl backdrop-blur-2xl overflow-hidden focus:outline-none animate-in fade-in-0 zoom-in-95 duration-200"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Tìm kiếm nhanh BioNexus"
+          aria-describedby={undefined}
         >
+          <DialogPrimitive.Title className="sr-only">Tìm kiếm nhanh BioNexus</DialogPrimitive.Title>
           {/* Ô nhập liệu tìm kiếm */}
           <div className="relative flex items-center border-b border-line px-4 py-3.5">
             <Search className="size-5 text-accent mr-3 shrink-0" aria-hidden="true" />
@@ -274,10 +271,12 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Nhập tên loài, chi, họ, sản phẩm hoặc trang..."
+              placeholder="Nhập tên loài, sản phẩm hoặc trang..."
               role="combobox"
-              aria-expanded={isOpen}
+              aria-label="Tìm loài, sản phẩm hoặc trang"
+              aria-expanded={true}
               aria-controls="quicksearch-results-list"
+              aria-activedescendant={activeId ? 'quicksearch-item-' + activeId : undefined}
               aria-autocomplete="list"
               className="w-full bg-transparent text-sm text-fg placeholder:text-fg-3 focus:outline-none"
             />
@@ -288,7 +287,7 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
                 className="p-1 rounded-full text-fg-3 hover:text-fg hover:bg-surface-hover"
                 aria-label="Xóa nội dung tìm kiếm"
               >
-                <X className="size-4" />
+                <X className="size-4" aria-hidden="true" />
               </button>
             ) : (
               <Kbd className="hidden sm:inline-block">ESC</Kbd>
@@ -369,8 +368,9 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
                             </span>
                           )}
                           <ArrowRight
+                            aria-hidden="true"
                             className={cn(
-                              'size-3.5 text-fg-mute transition-transform',
+                              'size-3.5 text-fg-3 transition-transform',
                               isSelected && 'translate-x-0.5 text-accent'
                             )}
                           />
@@ -407,7 +407,7 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({
       </DialogPrimitive.Portal>
     </DialogPrimitive.Root>
   );
-};
+}
 
 export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: string }> = ({
   onClick,
@@ -424,7 +424,7 @@ export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: st
       )}
     >
       <div className="flex items-center gap-2">
-        <Search className="size-3.5 text-accent" />
+        <Search className="size-3.5 text-accent" aria-hidden="true" />
         <span className="hidden sm:inline">Tìm kiếm nhanh...</span>
         <span className="sm:hidden">Tìm...</span>
       </div>

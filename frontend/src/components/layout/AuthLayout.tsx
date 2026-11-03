@@ -96,7 +96,7 @@ export function AuthLayout(): React.JSX.Element {
             <div className="flex items-center gap-2 mb-1">
               <span className="font-semibold text-fg font-sans">{photo.title}</span>
               {photo.scientificName && (
-                <span className="italic text-fg-mute font-serif">({photo.scientificName})</span>
+                <span className="italic text-fg-3 font-serif">({photo.scientificName})</span>
               )}
               <IucnBadge code={slideConfig.iucn} size="sm" showLabel={false} />
             </div>

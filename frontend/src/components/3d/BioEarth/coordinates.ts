@@ -1,4 +1,5 @@
 import type { BreedingHub, SpeciesBioMarker } from './types';
+import { SPECIES_EXTRAS, type SpeciesViewModel } from '@/api/adapters';
 
 export const VIETNAM_BREEDING_HUBS: BreedingHub[] = [
   {
@@ -57,11 +58,11 @@ export function latLngToVector3(lat: number, lng: number, radius = 2.2): [number
 }
 
 /**
- * 9 Loài sinh vật cảnh bản địa toàn cầu đối chiếu từ database/seed_data.sql
+ * 9 loài dựng sẵn (khóa theo scientificName) để vẽ ngay khi API chưa trả dữ liệu.
+ * Khi có dữ liệu thật, dùng toBioMarker() để dựng marker từ danh sách loài của API.
  */
 export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
   {
-    speciesId: 1,
     scientificName: 'Ambystoma mexicanum',
     commonName: 'Kỳ giông Mexico (Axolotl)',
     displayName: 'Kỳ giông Mexico',
@@ -73,7 +74,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 2,
     scientificName: 'Nepenthes rajah',
     commonName: 'Nắp ấm khổng lồ Rajah',
     displayName: 'Nắp ấm Rajah',
@@ -85,7 +85,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 3,
     scientificName: 'Python regius',
     commonName: 'Trăn bóng (Ball Python)',
     displayName: 'Trăn bóng',
@@ -97,7 +96,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 4,
     scientificName: 'Eublepharis macularius',
     commonName: 'Thằn lằn da báo (Leopard Gecko)',
     displayName: 'Thằn lằn da báo',
@@ -109,7 +107,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 5,
     scientificName: 'Dionaea muscipula',
     commonName: 'Cây bắt ruồi Venus',
     displayName: 'Cây bắt ruồi Venus',
@@ -121,7 +118,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 6,
     scientificName: 'Python bivittatus',
     commonName: 'Trăn đất (Burmese Python)',
     displayName: 'Trăn đất',
@@ -133,7 +129,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: false, // Cá thể chưa có shop APPROVED
   },
   {
-    speciesId: 7,
     scientificName: 'Pogona vitticeps',
     commonName: 'Rồng Úc (Bearded Dragon)',
     displayName: 'Rồng Úc',
@@ -145,7 +140,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 8,
     scientificName: 'Testudo hermanni',
     commonName: 'Rùa Hermann',
     displayName: 'Rùa Hermann',
@@ -157,7 +151,6 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
   {
-    speciesId: 9,
     scientificName: 'Nepenthes ampullaria',
     commonName: 'Nắp ấm bình ba màu',
     displayName: 'Nắp ấm bình ba màu',
@@ -169,3 +162,23 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
     hasActiveProduct: true,
   },
 ];
+
+const DEFAULT_HUB_ID = VIETNAM_BREEDING_HUBS[0]!.id;
+
+/** Dựng marker từ loài do API trả về; toạ độ và trung tâm nhân giống lấy từ species-extras theo scientificName */
+export function toBioMarker(species: SpeciesViewModel, hasActiveProduct: boolean): SpeciesBioMarker {
+  const extra = SPECIES_EXTRAS[species.scientificName];
+  const fallback = DEFAULT_SPECIES_BIOMARKERS.find((m) => m.scientificName === species.scientificName);
+  return {
+    speciesId: species.id,
+    scientificName: species.scientificName,
+    commonName: species.commonName,
+    displayName: species.displayName,
+    conservationStatus: species.conservationStatus,
+    group: species.group,
+    origin: extra?.origin ?? fallback?.origin ?? species.origin,
+    hubId: extra?.hubId ?? fallback?.hubId ?? DEFAULT_HUB_ID,
+    heroPhoto: species.heroPhoto,
+    hasActiveProduct,
+  };
+}

@@ -1,7 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router';
+import { AlertTriangle } from 'lucide-react';
 import { useTaxonomyTree, useTaxonomyDetail, useTaxonomyChildren, useTaxonomySpecies } from '@/api/queries/useTaxonomyQueries';
+import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { useProducts } from '@/api/queries/useProductQueries';
+import { useTaxonomyChildrenMany, useBranchSpeciesMany } from '@/api/queries/useTaxonomyBranchQueries';
+import { ApiError } from '@/api/errors';
 import { TaxonomyHeader } from './components/TaxonomyHeader';
 import { MillerColumns, type ColumnData } from './components/MillerColumns';
 import { TaxonomySidebar } from './components/TaxonomySidebar';
@@ -9,43 +13,46 @@ import { TaxonomyHelixView } from './components/TaxonomyHelixView';
 import { MobileTaxonomyView } from './components/MobileTaxonomyView';
 import { TaxonomyNotFound } from './components/TaxonomyNotFound';
 import { normalizeBreadcrumbs } from '@/components/domain/TaxonPath';
-import { SEED_SPECIES } from '@/mocks/data/species';
-import { SEED_TAXONOMY } from '@/mocks/data/taxonomy';
-import { SPECIES_EXTRAS, extractNames } from '@/api/adapters';
-import type { TaxonomyNodeDto, SpeciesDto } from '@/types/api';
+import { RANK_INFO } from '@/components/domain/TaxonRankChip';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { Skeleton } from '@/components/ui/Skeleton';
+import type { TaxonomyNodeDto, TaxonomyRank } from '@/types/api';
 import type { ThumbnailItem } from './components/ThumbnailStack';
+
+const rankOf = (node: TaxonomyNodeDto): TaxonomyRank => node.rankLevel || node.rank;
+const columnTitle = (rank: TaxonomyRank): string => RANK_INFO[rank]?.labelVi ?? rank;
 
 export const TaxonomyPage: React.FC = () => {
   const { id } = useParams<{ id?: string }>();
   const navigate = useNavigate();
 
-  // Mặc định chọn nút Giới Động vật (id: 1) nếu truy cập /taxonomy
-  const activeNodeId = id ? parseInt(id, 10) : 1;
-  const isInvalidId = isNaN(activeNodeId) || activeNodeId <= 0;
-
   const [viewMode, setViewMode] = useState<'columns' | 'helix'>('columns');
 
-  // 1. Nạp cây phân loại gốc (2 Giới: Animalia, Plantae)
+  // 1. Nạp cây phân loại gốc (các nút Giới)
   const treeQuery = useTaxonomyTree();
+  const rootNodes = treeQuery.data || [];
+
+  // Không có :id thì mở nút gốc đầu tiên do API trả về (id thật trong DB có thể khác seed)
+  const parsedId = id !== undefined ? Number(id) : rootNodes[0]?.id;
+  const isInvalidId = id !== undefined && (!Number.isInteger(parsedId) || (parsedId ?? 0) <= 0);
+  const activeNodeId = !isInvalidId && parsedId ? parsedId : 0;
 
   // 2. Nạp chi tiết nút hiện tại & breadcrumbs
-  const detailQuery = useTaxonomyDetail(activeNodeId, {
-    enabled: !isInvalidId,
-  });
+  const detailQuery = useTaxonomyDetail(activeNodeId, { enabled: activeNodeId > 0 });
 
   // 3. Nạp nút con của nút hiện tại
-  const childrenQuery = useTaxonomyChildren(activeNodeId, {
-    enabled: !isInvalidId,
-  });
+  const childrenQuery = useTaxonomyChildren(activeNodeId, { enabled: activeNodeId > 0 });
 
   // 4. Nếu nút hiện tại là GENUS, nạp danh sách loài của chi
   const activeNode = detailQuery.data?.node || null;
-  const isGenus = activeNode?.rankLevel === 'GENUS' || activeNode?.rank === 'GENUS';
-  const genusSpeciesQuery = useTaxonomySpecies(activeNodeId, {
-    enabled: isGenus,
-  });
+  const isGenus = activeNode ? rankOf(activeNode) === 'GENUS' : false;
+  const genusSpeciesQuery = useTaxonomySpecies(activeNodeId, { enabled: isGenus });
 
-  // 5. Nạp danh sách sản phẩm để tính thống kê và thumbnail stack
+  // 5. Toàn bộ loài dưới nhánh đang chọn (API tự gom cây con)
+  const branchQuery = useSpeciesList(activeNode ? { nodeId: activeNode.id } : undefined);
+  const branchSpecies = activeNode ? branchQuery.data || [] : [];
+
+  // 6. Sản phẩm đang bán để tính thống kê
   const productsQuery = useProducts();
 
   // Bản đồ số sản phẩm APPROVED cho từng loài
@@ -58,124 +65,106 @@ export const TaxonomyPage: React.FC = () => {
     return counts;
   }, [productsQuery.data?.items]);
 
-  // Bản đồ thumbnail 3 loài tiêu biểu cho từng nút phân loại
-  const thumbnailsMap = useMemo(() => {
-    const map: Record<number, ThumbnailItem[]> = {};
-
-    // Tìm tất cả các loài con cháu nằm dưới từng nút
-    SEED_TAXONOMY.forEach((node) => {
-      const descendants: ThumbnailItem[] = [];
-
-      // Nếu là GENUS, lấy loài có nodeId === node.id
-      SEED_SPECIES.forEach((sp) => {
-        // Kiểm tra xem loài có thuộc nhánh của node không
-        let currNodeId: number | null = sp.nodeId;
-        let isDescendant = false;
-
-        while (currNodeId !== null && currNodeId !== undefined) {
-          if (currNodeId === node.id) {
-            isDescendant = true;
-            break;
-          }
-          const parent = SEED_TAXONOMY.find((n) => n.id === currNodeId);
-          currNodeId = parent ? parent.parentId : null;
-        }
-
-        if (isDescendant) {
-          const extra = SPECIES_EXTRAS[sp.scientificName];
-          const url = extra ? `photos/${extra.slug}/hero-960.webp` : (sp.imageURL || '');
-          descendants.push({
-            speciesId: sp.id,
-            name: extractNames(sp.commonName).displayName,
-            url: url || '',
-          });
-        }
-      });
-
-      map[node.id] = descendants;
-    });
-
-    return map;
-  }, []);
-
   // Chuỗi phả hệ chuẩn hoá từ Gốc tới nút hiện tại
   const breadcrumbs = useMemo(() => {
     return normalizeBreadcrumbs(detailQuery.data?.breadcrumbs, activeNode || undefined);
   }, [detailQuery.data?.breadcrumbs, activeNode]);
 
-  // Các loài nằm dưới toàn bộ nhánh đang chọn (phục vụ sidebar & 3D helix)
-  const branchSpecies = useMemo<SpeciesDto[]>(() => {
-    if (!activeNode) return [];
-    return SEED_SPECIES.filter((sp) => {
-      let currNodeId: number | null = sp.nodeId;
-      while (currNodeId !== null && currNodeId !== undefined) {
-        if (currNodeId === activeNode.id) return true;
-        const parent = SEED_TAXONOMY.find((n) => n.id === currNodeId);
-        currNodeId = parent ? parent.parentId : null;
-      }
-      return false;
+  // Mỗi cột Miller là danh sách con của một mắt xích (trừ Chi: cột cuối là danh sách loài)
+  const crumbIdsWithChildren = useMemo(
+    () => breadcrumbs.filter((b) => rankOf(b) !== 'GENUS').map((b) => b.id),
+    [breadcrumbs]
+  );
+  const { childrenById } = useTaxonomyChildrenMany(crumbIdsWithChildren);
+
+  // Dựng cấu trúc các cột Miller dựa trên breadcrumbs
+  const columns = useMemo<ColumnData[]>(() => {
+    const cols: ColumnData[] = [];
+    if (rootNodes.length === 0) return cols;
+
+    const selectedKingdom = breadcrumbs.find((b) => rankOf(b) === 'KINGDOM');
+    cols.push({
+      rank: 'KINGDOM',
+      title: columnTitle('KINGDOM'),
+      items: rootNodes,
+      selectedId: selectedKingdom ? selectedKingdom.id : null,
     });
-  }, [activeNode]);
+
+    breadcrumbs.forEach((crumb, i) => {
+      const children = childrenById[crumb.id];
+      if (!children || children.length === 0) return;
+      const rank = rankOf(children[0]!);
+      cols.push({
+        rank,
+        title: columnTitle(rank),
+        items: children,
+        selectedId: breadcrumbs[i + 1]?.id ?? null,
+      });
+    });
+
+    return cols;
+  }, [rootNodes, breadcrumbs, childrenById]);
+
+  // Chồng ảnh thu nhỏ: loài dưới mỗi nút đang hiện trên các cột (và các nhánh con ở mobile)
+  const visibleNodeIds = useMemo(() => {
+    const ids = new Set<number>();
+    columns.forEach((col) => col.items.forEach((n) => ids.add(n.id)));
+    (childrenQuery.data || []).forEach((n) => ids.add(n.id));
+    return Array.from(ids);
+  }, [columns, childrenQuery.data]);
+  const branchSpeciesByNode = useBranchSpeciesMany(visibleNodeIds);
+
+  const thumbnailsMap = useMemo(() => {
+    const map: Record<number, ThumbnailItem[]> = {};
+    Object.entries(branchSpeciesByNode).forEach(([nodeId, list]) => {
+      map[Number(nodeId)] = list.map((sp) => ({
+        speciesId: sp.id,
+        name: sp.displayName,
+        url: sp.heroPhoto,
+      }));
+    });
+    return map;
+  }, [branchSpeciesByNode]);
 
   // Tổng số sản phẩm APPROVED trong nhánh
   const totalApprovedProducts = useMemo(() => {
     return branchSpecies.reduce((sum, sp) => sum + (productCounts[sp.id] || 0), 0);
   }, [branchSpecies, productCounts]);
 
-  // Dựng cấu trúc các cột Miller dựa trên breadcrumbs
-  const columns = useMemo<ColumnData[]>(() => {
-    const cols: ColumnData[] = [];
-    const rootNodes = treeQuery.data || [];
-
-    if (rootNodes.length === 0) return cols;
-
-    // Cột 0: Giới (KINGDOM)
-    const selectedKingdom = breadcrumbs.find((b) => b.rankLevel === 'KINGDOM' || b.rank === 'KINGDOM');
-    cols.push({
-      rank: 'KINGDOM',
-      title: 'Giới · KINGDOM',
-      items: rootNodes,
-      selectedId: selectedKingdom ? selectedKingdom.id : null,
-    });
-
-    // Các cột tiếp theo dựa vào breadcrumbs
-    for (let i = 0; i < breadcrumbs.length; i++) {
-      const crumb = breadcrumbs[i];
-      if (!crumb) continue;
-
-      // Tìm các con trực tiếp của crumb từ SEED_TAXONOMY
-      const children = SEED_TAXONOMY.filter((n) => n.parentId === crumb.id);
-
-      if (children.length > 0) {
-        const nextCrumb = breadcrumbs[i + 1];
-        const rawRank = children[0]?.rank || 'PHYLUM';
-        const formattedChildren: TaxonomyNodeDto[] = children.map((c) => ({
-          ...c,
-          rank: c.rank,
-          rankLevel: c.rank,
-        }));
-
-        cols.push({
-          rank: rawRank,
-          title: `${rawRank}`,
-          items: formattedChildren,
-          selectedId: nextCrumb ? nextCrumb.id : null,
-        });
-      }
-    }
-
-    return cols;
-  }, [treeQuery.data, breadcrumbs]);
-
   // Xử lý chọn nút mới -> cập nhật URL
   const handleSelectNode = (node: TaxonomyNodeDto) => {
     navigate(`/taxonomy/${node.id}`);
   };
 
-  // Trạng thái 404 khi ID không hợp lệ hoặc API trả lỗi không tìm thấy
-  if (isInvalidId || (detailQuery.isError && !detailQuery.isLoading)) {
+  // Chỉ báo 404 khi id sai định dạng hoặc API xác nhận không tồn tại; lỗi khác cho phép thử lại
+  const detailError = detailQuery.error;
+  const isNotFound =
+    isInvalidId ||
+    (detailError instanceof ApiError && (detailError.status === 404 || detailError.status === 400));
+  if (isNotFound) {
     return <TaxonomyNotFound />;
   }
+
+  if (treeQuery.isError || detailQuery.isError) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
+        <EmptyState
+          icon={<AlertTriangle className="size-7" aria-hidden="true" />}
+          title="Không tải được cây phân loại"
+          description="Máy chủ BioNexus đang không phản hồi. Vui lòng kiểm tra kết nối rồi thử lại."
+          action={{
+            label: 'Thử lại',
+            onClick: () => {
+              void treeQuery.refetch();
+              if (activeNodeId > 0) void detailQuery.refetch();
+            },
+          }}
+        />
+      </div>
+    );
+  }
+
+  const isLoadingNode = treeQuery.isLoading || (activeNodeId > 0 && detailQuery.isLoading);
 
   // Terminal Genus nếu nút chọn là Genus
   const terminalGenus = isGenus ? activeNode : null;
@@ -191,51 +180,62 @@ export const TaxonomyPage: React.FC = () => {
         onViewModeChange={setViewMode}
       />
 
-      {/* Chế độ xem di động (< 768px) */}
-      {activeNode && (
-        <MobileTaxonomyView
-          currentNode={activeNode}
-          breadcrumbs={breadcrumbs}
-          childrenNodes={childrenQuery.data || []}
-          speciesList={terminalSpecies}
-          onSelectNode={handleSelectNode}
-          thumbnailsMap={thumbnailsMap}
-          productCounts={productCounts}
-        />
-      )}
-
-      {/* Chế độ xem máy tính để bàn (≥ 768px) */}
-      <div className="hidden md:flex items-start gap-6">
-        <div className="flex-1 min-w-0">
-          {viewMode === 'columns' ? (
-            <MillerColumns
-              columns={columns}
+      {isLoadingNode ? (
+        <div className="flex gap-4 overflow-hidden" role="status" aria-label="Đang tải cây phân loại">
+          {Array.from({ length: 3 }, (_, i) => (
+            <Skeleton key={i} className="h-[420px] w-full md:w-72 shrink-0 rounded-2xl" />
+          ))}
+        </div>
+      ) : (
+        <>
+          {/* Chế độ xem di động (< 768px) */}
+          {activeNode && (
+            <MobileTaxonomyView
+              currentNode={activeNode}
+              breadcrumbs={breadcrumbs}
+              childrenNodes={childrenQuery.data || []}
+              speciesList={terminalSpecies}
+              branchSpeciesCount={branchSpecies.length}
               onSelectNode={handleSelectNode}
-              terminalGenus={terminalGenus}
-              terminalSpecies={terminalSpecies}
               thumbnailsMap={thumbnailsMap}
               productCounts={productCounts}
             />
-          ) : (
-            activeNode && (
-              <TaxonomyHelixView
+          )}
+
+          {/* Chế độ xem máy tính để bàn (≥ 768px) */}
+          <div className="hidden md:flex items-start gap-6">
+            <div className="flex-1 min-w-0">
+              {viewMode === 'columns' ? (
+                <MillerColumns
+                  columns={columns}
+                  onSelectNode={handleSelectNode}
+                  terminalGenus={terminalGenus}
+                  terminalSpecies={terminalSpecies}
+                  thumbnailsMap={thumbnailsMap}
+                  productCounts={productCounts}
+                />
+              ) : (
+                activeNode && (
+                  <TaxonomyHelixView
+                    activeNode={activeNode}
+                    branchSpecies={branchSpecies}
+                    productCounts={productCounts}
+                  />
+                )
+              )}
+            </div>
+
+            {/* Panel tóm tắt dính bên phải */}
+            <div className="sticky top-20">
+              <TaxonomySidebar
                 activeNode={activeNode}
                 branchSpecies={branchSpecies}
-                productCounts={productCounts}
+                totalApprovedProducts={totalApprovedProducts}
               />
-            )
-          )}
-        </div>
-
-        {/* Panel tóm tắt dính bên phải */}
-        <div className="sticky top-20">
-          <TaxonomySidebar
-            activeNode={activeNode}
-            branchSpecies={branchSpecies}
-            totalApprovedProducts={totalApprovedProducts}
-          />
-        </div>
-      </div>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };

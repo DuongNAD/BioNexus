@@ -9,6 +9,9 @@ import { SEED_TAXONOMY } from '@/mocks/data/taxonomy';
 import { SEED_SPECIES } from '@/mocks/data/species';
 import type { TaxonomyNodeDto } from '@/types/api';
 
+// Id trong DB thật có thể khác seed: luôn tra nút theo tên khoa học
+const nodeByName = (name: string) => SEED_TAXONOMY.find((n) => n.scientificName === name)!;
+
 describe('Miller Columns Hierarchy & Nomenclature', () => {
   it('UT-TAX-01: Cột gốc hiển thị chính xác 2 Giới gốc: Animalia và Plantae', () => {
     const rootKingdoms = SEED_TAXONOMY.filter((n) => n.parentId === null);
@@ -19,9 +22,9 @@ describe('Miller Columns Hierarchy & Nomenclature', () => {
       <MemoryRouter>
         <TaxonColumn
           rank="KINGDOM"
-          title="Giới · KINGDOM"
+          title="Giới"
           items={rootKingdoms}
-          selectedId={1}
+          selectedId={rootKingdoms[0]!.id}
           onSelect={() => {}}
         />
       </MemoryRouter>
@@ -31,14 +34,14 @@ describe('Miller Columns Hierarchy & Nomenclature', () => {
     expect(screen.getByText('Plantae')).toBeInTheDocument();
   });
 
-  it('UT-TAX-02: Chọn Giới Animalia (ID 1) có con là Chordata (Ngành Dây sống)', () => {
-    const phyla = SEED_TAXONOMY.filter((n) => n.parentId === 1);
+  it('UT-TAX-02: Chọn Giới Animalia có con là Chordata (Ngành Dây sống)', () => {
+    const phyla = SEED_TAXONOMY.filter((n) => n.parentId === nodeByName('Animalia').id);
     expect(phyla).toHaveLength(1);
     expect(phyla[0]?.scientificName).toBe('Chordata');
   });
 
-  it('UT-TAX-03: Duyệt tới Bộ Squamata (ID 8) chứa đúng 3 Họ: Pythonidae, Eublepharidae, Agamidae', () => {
-    const squamataFamilies = SEED_TAXONOMY.filter((n) => n.parentId === 8);
+  it('UT-TAX-03: Duyệt tới Bộ Squamata chứa đúng 3 Họ: Pythonidae, Eublepharidae, Agamidae', () => {
+    const squamataFamilies = SEED_TAXONOMY.filter((n) => n.parentId === nodeByName('Squamata').id);
     expect(squamataFamilies).toHaveLength(3);
     const familyNames = squamataFamilies.map((f) => f.scientificName);
     expect(familyNames).toContain('Pythonidae');
@@ -46,10 +49,10 @@ describe('Miller Columns Hierarchy & Nomenclature', () => {
     expect(familyNames).toContain('Agamidae');
   });
 
-  it('UT-TAX-04: Duyệt tiếp tới Chi Python (ID 20) hiển thị đúng 2 loài sinh vật: Python regius và Python bivittatus', () => {
-    const pythonSpecies = SEED_SPECIES.filter((s) => s.nodeId === 20);
+  it('UT-TAX-04: Duyệt tiếp tới Chi Python hiển thị đúng 2 loài sinh vật: Python regius và Python bivittatus', () => {
+    const pythonSpecies = SEED_SPECIES.filter((s) => s.nodeId === nodeByName('Python').id);
     expect(pythonSpecies).toHaveLength(2);
-    expect(pythonSpecies.map((s) => s.scientificName)).toEqual(['Python regius', 'Python bivittatus']);
+    expect(pythonSpecies.map((s) => s.scientificName).sort()).toEqual(['Python bivittatus', 'Python regius']);
 
     render(
       <MemoryRouter>

@@ -22,9 +22,22 @@ describe('MockDatabase In-Memory Engine', () => {
     expect(roots.map((r) => r.scientificName).sort()).toEqual(['Animalia', 'Plantae']);
   });
 
+  it('khớp seed_data.sql: 25 nút phân loại và tổng đơn bằng tổng các dòng', () => {
+    const raw = db.getRawState();
+    expect(raw.taxonomy).toHaveLength(25);
+    expect(raw.taxonomy.some((n) => n.scientificName === 'Caudata')).toBe(true);
+    for (const order of raw.orders) {
+      const sum = order.items.reduce((acc, item) => acc + item.quantity * item.unitPrice, 0);
+      expect(sum).toBe(order.totalAmount);
+    }
+    // Có đủ 3 trạng thái đơn như seed
+    expect(new Set(raw.orders.map((o) => o.status))).toEqual(new Set(['PENDING', 'COMPLETED', 'CANCELLED']));
+  });
+
   it('lấy chi tiết nút phân loại và tạo đúng mảng breadcrumbs từ KINGDOM', () => {
-    // Chi Eublepharis (id: 21)
-    const detail = db.getTaxonomyDetail(21);
+    // Tra nút theo tên khoa học thay vì id cố định
+    const genusId = db.getRawState().taxonomy.find((n) => n.scientificName === 'Eublepharis')!.id;
+    const detail = db.getTaxonomyDetail(genusId);
     expect(detail).not.toBeNull();
     expect(detail!.node.scientificName).toBe('Eublepharis');
     expect(detail!.breadcrumbs.length).toBeGreaterThanOrEqual(5);
@@ -68,7 +81,7 @@ describe('MockDatabase In-Memory Engine', () => {
     const orderRes = db.placeOrder(3, { shippingAddress: 'Hải Châu, Đà Nẵng' });
     expect(orderRes.status).toBe(201);
     expect(orderRes.body.success).toBe(true);
-    expect(orderRes.body.data!.orderCode).toMatch(/^ORD-2026-\d{4}$/);
+    expect(orderRes.body.data!.orderCode).toMatch(/^ORD-\d{4}-[A-Z0-9]{6}$/);
 
     // Tồn kho sản phẩm 4 giảm 1
     const updatedProd4 = db.getProductById(4)!;

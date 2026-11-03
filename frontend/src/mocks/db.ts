@@ -35,6 +35,10 @@ import type {
 import { createMockToken } from './auth';
 
 const STORAGE_KEY = 'bionexus.mock.v1';
+// Tăng khi đổi dữ liệu trong mocks/data để trình duyệt đã lưu bản cũ tự nạp lại seed
+export const SEED_VERSION = 3;
+
+const ORDER_CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
 /**
  * Loại bỏ dấu tiếng Việt phục vụ tìm kiếm mờ không phân biệt hoa thường và dấu
@@ -60,27 +64,39 @@ class MockDatabase {
     if (typeof window === 'undefined') {
       return createInitialSeedState();
     }
+    let parsed: Partial<MockDatabaseState> | null = null;
     try {
       const raw = window.localStorage.getItem(STORAGE_KEY);
-      if (!raw) {
-        const initial = createInitialSeedState();
-        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(initial));
-        return initial;
-      }
-      return JSON.parse(raw) as MockDatabaseState;
+      parsed = raw ? (JSON.parse(raw) as Partial<MockDatabaseState>) : null;
     } catch {
-      const initial = createInitialSeedState();
-      if (typeof window !== 'undefined') {
-        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(initial));
-      }
-      return initial;
+      parsed = null;
+    }
+    // Dữ liệu cũ trong trình duyệt từ bản seed trước (hoặc thiếu bảng) thì nạp lại seed mới
+    const isCurrent =
+      parsed?.seedVersion === SEED_VERSION &&
+      Array.isArray(parsed.users) &&
+      Array.isArray(parsed.products) &&
+      Array.isArray(parsed.orders) &&
+      Array.isArray(parsed.reviews);
+    if (isCurrent) return parsed as MockDatabaseState;
+
+    const initial = createInitialSeedState();
+    this.persist(initial);
+    return initial;
+  }
+
+  // localStorage có thể ném lỗi (đầy, chế độ riêng tư): kho vẫn chạy trong bộ nhớ, chỉ mất khi F5
+  private persist(state: MockDatabaseState): void {
+    if (typeof window === 'undefined') return;
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+      // Bỏ qua
     }
   }
 
   private saveState(): void {
-    if (typeof window !== 'undefined') {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state));
-    }
+    this.persist(this.state);
   }
 
   public resetDb(): void {
@@ -246,19 +262,12 @@ class MockDatabase {
 
     if (params?.q && params.q.trim().length > 0) {
       const normQ = normalizeSearchString(params.q);
+      // Tài liệu 04 mục 4.7: chỉ tìm trong productName và tên loài (mô tả, tên shop thì backend không tìm)
       filtered = filtered.filter((p) => {
         const normName = normalizeSearchString(p.productName);
-        const normDesc = normalizeSearchString(p.description);
-        const normShop = normalizeSearchString(p.shopName || '');
         const normSci = normalizeSearchString(p.speciesScientificName || '');
         const normCom = normalizeSearchString(p.speciesCommonName || '');
-        return (
-          normName.includes(normQ) ||
-          normDesc.includes(normQ) ||
-          normShop.includes(normQ) ||
-          normSci.includes(normQ) ||
-          normCom.includes(normQ)
-        );
+        return normName.includes(normQ) || normSci.includes(normQ) || normCom.includes(normQ);
       });
     }
 
@@ -386,10 +395,11 @@ class MockDatabase {
     productId: number,
     quantity: number
   ): { status: number; body: { success: boolean; code: string; message: string; data: CartDto | null } } {
-    if (quantity <= 0) {
+    // Số lượng phải là số nguyên dương (1.5 hoặc thiếu trường đều là dữ liệu sai)
+    if (!Number.isInteger(quantity) || quantity <= 0) {
       return {
         status: 400,
-        body: { success: false, code: 'CART_INVALID_QUANTITY', message: 'Số lượng phải lớn hơn 0', data: null },
+        body: { success: false, code: 'CART_INVALID_QUANTITY', message: 'Số lượng phải là số nguyên lớn hơn 0', data: null },
       };
     }
 
@@ -456,10 +466,11 @@ class MockDatabase {
     productId: number,
     quantity: number
   ): { status: number; body: { success: boolean; code: string; message: string; data: CartDto | null } } {
-    if (quantity <= 0) {
+    // Số lượng phải là số nguyên dương (1.5 hoặc thiếu trường đều là dữ liệu sai)
+    if (!Number.isInteger(quantity) || quantity <= 0) {
       return {
         status: 400,
-        body: { success: false, code: 'CART_INVALID_QUANTITY', message: 'Số lượng phải lớn hơn 0', data: null },
+        body: { success: false, code: 'CART_INVALID_QUANTITY', message: 'Số lượng phải là số nguyên lớn hơn 0', data: null },
       };
     }
 
@@ -559,6 +570,19 @@ class MockDatabase {
 
     // Xác định danh sách món cần đặt
     let buyList: { productId: number; quantity: number }[] = [];
+    // Gửi items: [] là yêu cầu sai, không được hiểu thành mua cả giỏ
+    if (Array.isArray(body.items) && body.items.length === 0) {
+      return {
+        status: 400,
+        body: { success: false, code: 'ORDER_EMPTY_ITEMS', message: 'Đơn hàng phải có ít nhất một sản phẩm', data: null },
+      };
+    }
+    if (body.items?.some((i) => !Number.isInteger(i.quantity) || i.quantity <= 0)) {
+      return {
+        status: 400,
+        body: { success: false, code: 'ORDER_INVALID_QUANTITY', message: 'Số lượng phải là số nguyên lớn hơn 0', data: null },
+      };
+    }
     const isDirectBuy = body.items && body.items.length > 0;
 
     if (isDirectBuy) {
@@ -655,7 +679,7 @@ class MockDatabase {
     }
 
     const newId = this.state.nextOrderId++;
-    const orderCode = `ORD-2026-${String(newId).padStart(4, '0')}`;
+    const orderCode = this.generateOrderCode();
 
     const newOrder: MockOrder = {
       id: newId,
@@ -675,6 +699,19 @@ class MockDatabase {
       status: 201,
       body: { success: true, code: 'ORDER_CREATE_SUCCESS', message: 'Đặt hàng thành công', data: newOrder },
     };
+  }
+
+  // Tài liệu 04 mục 4: mã đơn dạng ORD-<năm>-<6 ký tự>, không trùng
+  private generateOrderCode(): string {
+    const year = new Date().getFullYear();
+    for (;;) {
+      let suffix = '';
+      for (let i = 0; i < 6; i++) {
+        suffix += ORDER_CODE_CHARS[Math.floor(Math.random() * ORDER_CODE_CHARS.length)];
+      }
+      const code = `ORD-${year}-${suffix}`;
+      if (!this.state.orders.some((o) => o.orderCode === code)) return code;
+    }
   }
 
   public getUserOrders(userId: number): OrderDto[] {
@@ -784,10 +821,11 @@ class MockDatabase {
 
   public getSellerProducts(userId: number): { status: number; body: { success: boolean; code: string; message: string; data: ProductDto[] | null } } {
     const shop = this.state.shops.find((s) => s.userId === userId);
-    if (!shop) {
+    // Tài liệu 04: chỉ shop ACTIVE dùng được seller/products, còn lại là 403 SELLER_NOT_ACTIVE
+    if (!shop || shop.status !== 'ACTIVE') {
       return {
-        status: 404,
-        body: { success: false, code: 'SELLER_NOT_FOUND', message: 'Không tìm thấy thông tin cửa hàng', data: null },
+        status: 403,
+        body: { success: false, code: 'SELLER_NOT_ACTIVE', message: 'Cửa hàng chưa được duyệt hoặc đang bị khóa', data: null },
       };
     }
 
@@ -806,14 +844,7 @@ class MockDatabase {
     body: CreateProductRequest
   ): { status: number; body: { success: boolean; code: string; message: string; data: ProductDto | null } } {
     const shop = this.state.shops.find((s) => s.userId === userId);
-    if (!shop) {
-      return {
-        status: 404,
-        body: { success: false, code: 'SELLER_NOT_FOUND', message: 'Không tìm thấy thông tin cửa hàng', data: null },
-      };
-    }
-
-    if (shop.status !== 'ACTIVE') {
+    if (!shop || shop.status !== 'ACTIVE') {
       return {
         status: 403,
         body: { success: false, code: 'SELLER_NOT_ACTIVE', message: 'Cửa hàng chưa được duyệt hoặc đang bị khóa', data: null },

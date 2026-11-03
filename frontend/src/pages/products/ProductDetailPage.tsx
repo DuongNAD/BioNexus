@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { useParams, Link } from 'react-router';
+import { useParams, useNavigate, Link } from 'react-router';
 import {
   Store,
   ShieldCheck,
@@ -22,12 +22,15 @@ import { LensMagnifier } from '@/components/domain/LensMagnifier';
 import { Lightbox } from '@/components/domain/Lightbox';
 import { ProductCard } from '@/components/domain/ProductCard';
 import { triggerFlyToCart } from '@/components/domain/FlyToCart';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useProductDetail, useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesDetail } from '@/api/queries/useSpeciesQueries';
 import { useCart } from '@/api/queries/useCartQueries';
-import { useMe } from '@/api/queries/useAuthQueries';
+import { useMe, useAuthState } from '@/api/queries/useAuthQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
-import { getStoredToken } from '@/api/authStore';
+import { PRODUCT_PLACEHOLDER_IMAGE } from '@/api/adapters';
+import { ApiError } from '@/api/errors';
 import { SHIPPING_AND_CARE_COPY } from '@/content/copy';
 import { SPECIES_EXTRAS } from '@/content/species-extras';
 import { PHOTOS, type PhotoMetadata } from '@/content/photos';
@@ -36,6 +39,8 @@ import { toast } from 'sonner';
 export default function ProductDetailPage(): React.JSX.Element {
   const { id } = useParams<{ id: string }>();
   const productId = Number(id);
+  const isValidId = Number.isInteger(productId) && productId > 0;
+  const navigate = useNavigate();
 
   const [quantity, setQuantity] = useState(1);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
@@ -43,14 +48,22 @@ export default function ProductDetailPage(): React.JSX.Element {
   const [isLoginDialogOpen, setIsLoginDialogOpen] = useState(false);
 
   // Queries
-  const { data: product, isLoading: isProductLoading, error: productError } = useProductDetail(productId);
+  const {
+    data: product,
+    isLoading: isProductLoading,
+    error: productError,
+    refetch: refetchProduct,
+    isRefetching: isProductRefetching,
+  } = useProductDetail(productId, { enabled: isValidId });
   const { data: species } = useSpeciesDetail(product?.speciesId || 0, {
     enabled: !!product?.speciesId,
   });
 
-  const token = getStoredToken();
-  const { data: me } = useMe({ enabled: !!token });
-  const { data: cart } = useCart({ enabled: !!token });
+  const auth = useAuthState();
+  const token = auth.token;
+  // useMe/useCart tự tắt với khách và tài khoản admin
+  const { data: me } = useMe();
+  const { data: cart } = useCart();
   const addToCartMutation = useAddToCart();
 
   // Related products query (other products of same species)
@@ -87,7 +100,7 @@ export default function ProductDetailPage(): React.JSX.Element {
   }, [product, species]);
 
   const activePhoto = galleryPhotos[selectedPhotoIndex] || galleryPhotos[0] || {
-    src: 'photos/product-placeholder.webp',
+    src: PRODUCT_PLACEHOLDER_IMAGE,
     alt: 'Ảnh sản phẩm',
   };
 
@@ -99,8 +112,8 @@ export default function ProductDetailPage(): React.JSX.Element {
       const p = PHOTOS[extra.heroPhotoId];
       return p ? [p] : [];
     }
-    const all = Object.values(PHOTOS).filter((p): p is PhotoMetadata => !!p);
-    return all.slice(0, 3);
+    // Loài không có ảnh đã ghi nguồn thì không mở Lightbox, tránh hiện ảnh của loài khác
+    return [];
   }, [species]);
 
   // Kiểm tra quyền mua & sở hữu
@@ -114,6 +127,11 @@ export default function ProductDetailPage(): React.JSX.Element {
       setIsLoginDialogOpen(true);
       return;
     }
+    if (auth.accountType !== 'USER') {
+      toast.error('Tài khoản quản trị không dùng được giỏ hàng.');
+      return;
+    }
+    if (addToCartMutation.isPending) return;
     if (isOwner) {
       toast.error('Bạn không thể mua sản phẩm của chính shop mình');
       return;
@@ -132,7 +150,7 @@ export default function ProductDetailPage(): React.JSX.Element {
           toast.success(`Đã thêm ${quantity} cá thể "${product?.productName}" vào giỏ`);
           setQuantity(1);
         },
-        onError: (err: any) => {
+        onError: (err) => {
           toast.error(err.message || 'Không thể thêm vào giỏ hàng');
         },
       }
@@ -145,6 +163,10 @@ export default function ProductDetailPage(): React.JSX.Element {
       setIsLoginDialogOpen(true);
       return;
     }
+    if (auth.accountType !== 'USER') {
+      toast.error('Tài khoản quản trị không đặt hàng được.');
+      return;
+    }
     if (isOwner) {
       toast.error('Bạn không thể mua sản phẩm của chính shop mình');
       return;
@@ -153,18 +175,21 @@ export default function ProductDetailPage(): React.JSX.Element {
       toast.error('Sản phẩm đã hết hàng');
       return;
     }
-    window.location.hash = `#/checkout?productId=${productId}&quantity=${quantity}`;
+    navigate(`/checkout?productId=${productId}&quantity=${quantity}`);
   };
 
-  const handleShare = () => {
-    if (navigator.share) {
-      navigator.share({
-        title: product?.productName,
-        url: window.location.href,
-      });
-    } else {
-      navigator.clipboard.writeText(window.location.href);
-      toast.success('Đã sao chép liên kết cá thể');
+  const handleShare = async () => {
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: product?.productName, url: window.location.href });
+      } else {
+        await navigator.clipboard.writeText(window.location.href);
+        toast.success('Đã sao chép liên kết cá thể');
+      }
+    } catch (err) {
+      // Người dùng đóng bảng chia sẻ (AbortError) thì không phải lỗi
+      if (err instanceof DOMException && err.name === 'AbortError') return;
+      toast.error('Không chia sẻ được liên kết. Hãy sao chép địa chỉ trên thanh trình duyệt.');
     }
   };
 
@@ -191,21 +216,37 @@ export default function ProductDetailPage(): React.JSX.Element {
     );
   }
 
-  if (productError || !product) {
+  // Chỉ 400/404 mới là "không tìm thấy"; lỗi mạng hay 500 thì cho thử lại
+  const isNotFound =
+    !isValidId ||
+    (productError instanceof ApiError && (productError.status === 404 || productError.status === 400)) ||
+    (!productError && !product);
+  if (productError && !isNotFound) {
+    return (
+      <div className="px-4 py-16">
+        <QueryErrorState
+          title="Không tải được thông tin sinh vật cảnh"
+          error={productError}
+          onRetry={() => refetchProduct()}
+          isRetrying={isProductRefetching}
+        />
+      </div>
+    );
+  }
+
+  if (isNotFound || !product) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center max-w-md mx-auto">
         <div className="size-16 rounded-full bg-surface-2 border border-line flex items-center justify-center text-accent mb-4">
-          <AlertTriangle className="size-8" />
+          <AlertTriangle className="size-8" aria-hidden="true" />
         </div>
-        <h2 className="text-2xl font-bold text-fg">Không tìm thấy sinh vật cảnh</h2>
+        <h1 className="text-2xl font-bold text-fg">Không tìm thấy sinh vật cảnh</h1>
         <p className="mt-2 text-sm text-fg-2">
           Cá thể này không tồn tại, đã ngừng bán hoặc đang trong trạng thái chờ kiểm duyệt sinh học.
         </p>
-        <Link to="/products" className="mt-6">
-          <Button variant="primary" pill>
-            ← Khám phá cá thể khác
-          </Button>
-        </Link>
+        <ButtonLink to="/products" variant="primary" pill className="mt-6">
+          ← Khám phá cá thể khác
+        </ButtonLink>
       </div>
     );
   }
@@ -251,7 +292,7 @@ export default function ProductDetailPage(): React.JSX.Element {
                 alt={activePhoto.alt}
                 zoomLevel={2.5}
                 lensSize={160}
-                onOpenLightbox={() => setIsLightboxOpen(true)}
+                onOpenLightbox={lightboxPhotos.length > 0 ? () => setIsLightboxOpen(true) : undefined}
                 className="size-full"
               />
 
@@ -275,6 +316,8 @@ export default function ProductDetailPage(): React.JSX.Element {
                     <button
                       key={index}
                       type="button"
+                      aria-label={`Xem ảnh ${index + 1}: ${photo.label || photo.alt}`}
+                      aria-pressed={isSelected}
                       onClick={() => setSelectedPhotoIndex(index)}
                       className={`relative size-20 md:size-24 rounded-xl overflow-hidden border-2 transition-all shrink-0 bg-surface-2 ${
                         isSelected
@@ -282,7 +325,7 @@ export default function ProductDetailPage(): React.JSX.Element {
                           : 'border-line hover:border-accent/40 opacity-70 hover:opacity-100'
                       }`}
                     >
-                      <img src={photo.src} alt={photo.alt} className="size-full object-cover" />
+                      <img src={photo.src} alt="" className="size-full object-cover" />
                       {photo.label && (
                         <span className="absolute bottom-0 inset-x-0 bg-black/80 text-[9px] text-center text-fg-2 py-0.5 font-mono truncate px-1">
                           {photo.label}
@@ -303,7 +346,7 @@ export default function ProductDetailPage(): React.JSX.Element {
                 <span className="font-mono text-accent">Mã cá thể: PRD-{product.id.toString().padStart(4, '0')}</span>
                 <button
                   type="button"
-                  onClick={handleShare}
+                  onClick={() => void handleShare()}
                   className="flex items-center gap-1 text-fg-3 hover:text-accent transition-colors"
                   aria-label="Chia sẻ thông tin cá thể"
                 >
@@ -317,7 +360,7 @@ export default function ProductDetailPage(): React.JSX.Element {
               </h1>
 
               {product.speciesScientificName && (
-                <p className="mt-1 text-sm italic text-fg-mute font-serif">
+                <p className="mt-1 text-sm italic text-fg-3 font-serif">
                   {product.speciesScientificName} {species?.displayName && `· ${species.displayName}`}
                 </p>
               )}
@@ -340,12 +383,6 @@ export default function ProductDetailPage(): React.JSX.Element {
                 </div>
               </div>
 
-              <Link
-                to={`/products?q=${encodeURIComponent(product.displayShopName)}`}
-                className="text-xs text-accent hover:underline font-mono"
-              >
-                Ghé shop →
-              </Link>
             </div>
 
             {/* Bảng giá & Tồn kho */}
@@ -489,7 +526,7 @@ export default function ProductDetailPage(): React.JSX.Element {
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-4">
                     <div>
                       <h3 className="text-xl font-bold text-fg font-sans">{species.displayName}</h3>
-                      <p className="text-sm italic text-fg-mute font-serif">{species.scientificName}</p>
+                      <p className="text-sm italic text-fg-3 font-serif">{species.scientificName}</p>
                     </div>
                     <IucnBadge code={species.conservationStatus} size="md" />
                   </div>
@@ -519,11 +556,9 @@ export default function ProductDetailPage(): React.JSX.Element {
                   </div>
 
                   <div className="pt-2">
-                    <Link to={`/species/${species.id}`}>
-                      <Button variant="secondary" size="sm" pill className="gap-2">
-                        <span>Xem chuyên khảo Bách khoa toàn thư →</span>
-                      </Button>
-                    </Link>
+                    <ButtonLink to={`/species/${species.id}`} variant="secondary" size="sm" pill className="gap-2">
+                      <span>Xem chuyên khảo Bách khoa toàn thư →</span>
+                    </ButtonLink>
                   </div>
                 </div>
               ) : (
@@ -584,8 +619,15 @@ export default function ProductDetailPage(): React.JSX.Element {
 
         <div className="flex items-center gap-2">
           {!isOutOfStock && !isOwner && !isReachedCartLimit && (
-            <Button size="sm" pill variant="primary" onClick={handleAddToCart} className="text-xs gap-1.5">
-              <ShoppingBag className="size-3.5" />
+            <Button
+              size="sm"
+              pill
+              variant="primary"
+              onClick={handleAddToCart}
+              disabled={addToCartMutation.isPending}
+              className="text-xs gap-1.5"
+            >
+              <ShoppingBag className="size-3.5" aria-hidden="true" />
               <span>Thêm giỏ</span>
             </Button>
           )}
@@ -624,14 +666,9 @@ export default function ProductDetailPage(): React.JSX.Element {
             <Button variant="secondary" onClick={() => setIsLoginDialogOpen(false)}>
               Để sau
             </Button>
-            <Button
-              variant="primary"
-              onClick={() => {
-                window.location.hash = `#/login?next=/products/${productId}`;
-              }}
-            >
+            <ButtonLink to={`/login?next=${encodeURIComponent(`/products/${productId}`)}`} variant="primary">
               Đăng nhập ngay
-            </Button>
+            </ButtonLink>
           </DialogFooter>
         </DialogContent>
       </Dialog>

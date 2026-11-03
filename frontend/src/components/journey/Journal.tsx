@@ -13,9 +13,9 @@ export function resolveTipHref(tip: JourneyTipConfig, s: JourneySpeciesView): st
   switch (tip.kind) {
     case 'species-detail':
     case 'morphs':
-      return `#/species/${s.id}`;
+      return s.id > 0 ? `#/species/${s.id}` : '#/species';
     case 'taxonomy':
-      return `#/taxonomy/${s.nodeId}`;
+      return s.nodeId > 0 ? `#/taxonomy/${s.nodeId}` : '#/taxonomy';
     case 'iucn-filter':
       return `#/species?iucn=${tip.iucnCode || s.iucn}`;
     case 'marketplace':
@@ -119,7 +119,7 @@ export function Journal({ s, page, where, photo, tip, className }: JournalProps)
       <div className="mt-3 flex items-center justify-between gap-3 border-t border-white/10 pt-3 text-xs text-white/55">
         <span className="truncate">Ảnh: {photo}</span>
         <a
-          href={`#/species/${s.id}`}
+          href={s.id > 0 ? `#/species/${s.id}` : '#/species'}
           className="inline-flex shrink-0 items-center gap-1 font-medium text-[#6ee7b7] hover:underline"
         >
           Hồ sơ loài <ArrowRight className="size-3.5" aria-hidden="true" />

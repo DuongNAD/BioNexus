@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { api, sanitizeEndpoint } from '../client';
-import { clearAuthSession, setAuthSession } from '../authStore';
+import { clearAuthSession, getAuthState, setAuthSession } from '../authStore';
 import { ApiError } from '../errors';
 
 describe('sanitizeEndpoint', () => {
@@ -66,5 +66,51 @@ describe('api client', () => {
     vi.stubGlobal('fetch', mockFetch);
 
     await expect(api('test-endpoint')).rejects.toThrowError(ApiError);
+  });
+
+  it('401 của request có token thì xóa phiên', async () => {
+    setAuthSession({
+      token: 'mock.expired.sig',
+      id: 3,
+      username: 'levanc',
+      fullName: 'Lê Văn C',
+      accountType: 'USER',
+      role: null,
+    });
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 401,
+        json: async () => ({ success: false, code: 'AUTH_TOKEN_EXPIRED', message: 'Hết phiên', data: null }),
+      })
+    );
+
+    await expect(api('cart')).rejects.toMatchObject({ status: 401, code: 'AUTH_TOKEN_EXPIRED' });
+    expect(getAuthState().token).toBeNull();
+  });
+
+  it('401 của request đăng nhập (không gửi token) không đăng xuất người đang đăng nhập', async () => {
+    setAuthSession({
+      token: 'mock.valid.sig',
+      id: 3,
+      username: 'levanc',
+      fullName: 'Lê Văn C',
+      accountType: 'USER',
+      role: null,
+    });
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 401,
+        json: async () => ({ success: false, code: 'AUTH_INVALID_CREDENTIALS', message: 'Sai', data: null }),
+      })
+    );
+
+    await expect(
+      api('auth/admin/login', { method: 'POST', body: '{}', skipAuth: true })
+    ).rejects.toMatchObject({ status: 401 });
+    expect(getAuthState().token).toBe('mock.valid.sig');
   });
 });

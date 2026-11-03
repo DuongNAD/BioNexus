@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { getHelixPoint, TAXONOMIC_RANKS } from '../HelixScene';
+import { getHelixPoint, TAXONOMIC_RANKS, HELIX_LEVELS } from '../HelixScene';
+import { rankIndexForRung } from '../taxonomyRanks';
 import {
   latLngToVector3,
   DEFAULT_SPECIES_BIOMARKERS,
@@ -9,15 +10,26 @@ import {
 
 describe('3D Hình học & Dữ liệu Sinh học Milestone 3', () => {
   describe('HelixScene Taxonomic Ranks & Geometry', () => {
-    it('chứa chính xác 14 bậc thang phân loại học từ Domain đến Species', () => {
-      expect(TAXONOMIC_RANKS).toHaveLength(14);
-      expect(TAXONOMIC_RANKS[0]?.rankEn).toBe('Domain');
-      expect(TAXONOMIC_RANKS[13]?.rankEn).toBe('Species');
+    it('chứa đúng 6 cấp phân loại của BioNexus từ Giới đến Chi', () => {
+      expect(TAXONOMIC_RANKS).toHaveLength(6);
+      expect(TAXONOMIC_RANKS[0]?.rankVi).toBe('Giới');
+      expect(TAXONOMIC_RANKS[5]?.rankVi).toBe('Chi');
       TAXONOMIC_RANKS.forEach((rank, idx) => {
         expect(rank.level).toBe(idx);
         expect(rank.name).toBeDefined();
         expect(rank.desc).toBeDefined();
       });
+    });
+
+    it('chia đều các bậc thang của chuỗi xoắn cho 6 cấp, từ Giới ở đỉnh tới Chi ở đáy', () => {
+      expect(rankIndexForRung(0, HELIX_LEVELS)).toBe(0);
+      expect(rankIndexForRung(HELIX_LEVELS - 1, HELIX_LEVELS)).toBe(5);
+      let prev = 0;
+      for (let k = 0; k < HELIX_LEVELS; k++) {
+        const idx = rankIndexForRung(k, HELIX_LEVELS);
+        expect(idx).toBeGreaterThanOrEqual(prev);
+        prev = idx;
+      }
     });
 
     it('hàm getHelixPoint() tính toán toạ độ không gian hợp lệ, không chứa NaN hay Infinity', () => {
@@ -75,9 +87,11 @@ describe('3D Hình học & Dữ liệu Sinh học Milestone 3', () => {
 
     it('danh sách 9 loài sinh vật cảnh bản địa có đầy đủ thuộc tính và ảnh hợp lệ', () => {
       expect(DEFAULT_SPECIES_BIOMARKERS).toHaveLength(9);
+      expect(new Set(DEFAULT_SPECIES_BIOMARKERS.map((m) => m.scientificName)).size).toBe(9);
 
       DEFAULT_SPECIES_BIOMARKERS.forEach((sp) => {
-        expect(sp.speciesId).toBeGreaterThan(0);
+        // Marker nhận diện bằng scientificName, không gắn id DB
+        expect(sp.speciesId).toBeUndefined();
         expect(sp.displayName).toBeDefined();
         expect(sp.scientificName).toBeDefined();
         expect(sp.origin.lat).toBeGreaterThanOrEqual(-90);

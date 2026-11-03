@@ -5,7 +5,6 @@
 // và docs/frontend/07-hanh-trinh.md (trạm hành trình 9 loài).
 
 export interface SpeciesExtra {
-  id: number;
   scientificName: string;
   slug: string;
   group: 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt';
@@ -31,7 +30,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Cực kỳ nguy cấp ngoài tự nhiên, chỉ còn tại hồ Xochimilco"; environmentSpecs: "Nhiệt độ nước: 14-18°C, pH: 7.4-7.6,
   // Môi trường: Nước ngọt hoàn toàn, lọc yếu, không nền sỏi nhỏ") & docs/frontend/07-hanh-trinh.md (Trạm 05: Hồ Xochimilco, Mexico).
   'Ambystoma mexicanum': {
-    id: 1,
     scientificName: 'Ambystoma mexicanum',
     slug: 'axolotl',
     group: 'Lưỡng cư',
@@ -59,7 +57,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Bình ấm lớn tới 41cm, có thể bẫy được động vật có xương sống nhỏ"; environmentSpecs: "Nhiệt độ: ngày 20-25°C, đêm 10-15°C,
   // Độ ẩm: 75-90%, Ánh sáng: tán xạ mạnh, Giá thể: dớn + perlite thoát nước") & docs/frontend/07-hanh-trinh.md (Trạm 03: Núi Kinabalu).
   'Nepenthes rajah': {
-    id: 2,
     scientificName: 'Nepenthes rajah',
     slug: 'nepenthes-rajah',
     group: 'Cây ăn thịt',
@@ -89,7 +86,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Bản tính hiền lành, nhiều biến dị màu (morph) nhân giống nhân tạo"; environmentSpecs: "Nhiệt độ: 26-32°C (điểm sưởi 32-34°C),
   // Độ ẩm: 55-65%, Chuồng: hộp chuyên dụng có hang trú hai đầu"; Products: "ăn chuột tốt") & docs/frontend/07-hanh-trinh.md (Trạm 06: Tây Phi).
   'Python regius': {
-    id: 3,
     scientificName: 'Python regius',
     slug: 'ball-python',
     group: 'Bò sát',
@@ -119,7 +115,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Dễ nuôi, đuôi tích trữ mỡ, không có đĩa bám ở chân"; environmentSpecs: "Nhiệt độ: 24-30°C (điểm sưởi 31-33°C), Độ ẩm: 30-40% (hang ẩm 70-80%)";
   // Products: "ăn dế tốt") & docs/frontend/07-hanh-trinh.md (Trạm 07: Pakistan — Afghanistan).
   'Eublepharis macularius': {
-    id: 4,
     scientificName: 'Eublepharis macularius',
     slug: 'leopard-gecko',
     group: 'Bò sát',
@@ -150,7 +145,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Đặc hữu duyên hải Bắc và Nam Carolina"; environmentSpecs: "Nhiệt độ: 21-35°C (ngủ đông 5-10°C), Độ ẩm: 50-70%, Ánh sáng: nắng trực tiếp ≥4h,
   // Nước: thẩm thấu ngược hoặc nước mưa") & docs/frontend/07-hanh-trinh.md (Trạm 04: Bắc và Nam Carolina).
   'Dionaea muscipula': {
-    id: 5,
     scientificName: 'Dionaea muscipula',
     slug: 'venus-flytrap',
     group: 'Cây ăn thịt',
@@ -180,7 +174,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Cần diện tích nuôi lớn và kinh nghiệm chuyên sâu"; environmentSpecs: "Nhiệt độ: 26-32°C (điểm sưởi 35°C), Độ ẩm: 60-75%,
   // Chuồng: chuồng cỡ lớn kiên cố, khay nước đủ ngâm toàn thân") & docs/frontend/07-hanh-trinh.md (Trạm 01: Đông Nam Á).
   'Python bivittatus': {
-    id: 6,
     scientificName: 'Python bivittatus',
     slug: 'burmese-python',
     group: 'Bò sát',
@@ -208,7 +201,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // environmentSpecs: "Nhiệt độ: 24-29°C (điểm sưởi 38-42°C, đêm >18°C), Độ ẩm: 30-40%, Đèn: bắt buộc UVB 10.0 hoặc 12-14%";
   // Products: "Cá thể ăn dế và rau tốt") & docs/frontend/07-hanh-trinh.md (Trạm 08: Miền Trung nước Úc).
   'Pogona vitticeps': {
-    id: 7,
     scientificName: 'Pogona vitticeps',
     slug: 'bearded-dragon',
     group: 'Bò sát',
@@ -239,7 +231,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Mai vòm vàng đen đẹp mắt, hiền lành, tuổi thọ có thể vượt 50 năm"; environmentSpecs: "Nhiệt độ: 22-28°C (điểm sưởi 32-35°C),
   // Độ ẩm: 50-65%, Đèn: UVB 10.0, Chế độ ăn: 100% thảo mộc giàu canxi, xơ cao") & docs/frontend/07-hanh-trinh.md (Trạm 09: Địa Trung Hải).
   'Testudo hermanni': {
-    id: 8,
     scientificName: 'Testudo hermanni',
     slug: 'hermann-tortoise',
     group: 'Bò sát',
@@ -270,7 +261,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   // Thích nghi ăn mùn lá rụng bên cạnh bẫy côn trùng"; environmentSpecs: "Nhiệt độ: ngày 28-34°C, đêm 20-24°C, Độ ẩm: 80-95%,
   // Ánh sáng: tán xạ trung bình, Môi trường: đầm lầy thấp râm mát") & docs/frontend/07-hanh-trinh.md (Trạm 02: Borneo — Sumatra — Malaysia).
   'Nepenthes ampullaria': {
-    id: 9,
     scientificName: 'Nepenthes ampullaria',
     slug: 'nepenthes-ampullaria',
     group: 'Cây ăn thịt',
@@ -297,9 +287,6 @@ export const SPECIES_EXTRAS: Record<string, SpeciesExtra> = {
   },
 };
 
-export function getSpeciesExtra(scientificNameOrId: string | number): SpeciesExtra | undefined {
-  if (typeof scientificNameOrId === 'number') {
-    return Object.values(SPECIES_EXTRAS).find((sp) => sp.id === scientificNameOrId);
-  }
-  return SPECIES_EXTRAS[scientificNameOrId];
+export function getSpeciesExtra(scientificName: string): SpeciesExtra | undefined {
+  return SPECIES_EXTRAS[scientificName];
 }

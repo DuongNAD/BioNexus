@@ -100,11 +100,12 @@ export const MESSAGE_MAP: Record<MessageKey, string> = {
 };
 
 /**
- * Tra cứu thông điệp tiếng Việt từ mã MessageKey hoặc trả về chính chuỗi đó nếu không tìm thấy.
+ * Tra cứu thông điệp tiếng Việt từ mã MessageKey.
+ * Mã lạ (tiếng Anh, ví dụ CONFLICT) không được hiện thẳng cho người dùng nên trả câu chung.
  */
 export function getMessage(code: string): string {
   if (code in MESSAGE_MAP) {
     return MESSAGE_MAP[code as MessageKey];
   }
-  return code || MESSAGE_MAP.INTERNAL_ERROR;
+  return MESSAGE_MAP.INTERNAL_ERROR;
 }

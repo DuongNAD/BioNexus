@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
+import { useQueries } from '@tanstack/react-query';
 import {
   ShoppingBag,
   Store,
@@ -29,8 +30,9 @@ import {
   useClearCart,
   useAddToCart,
 } from '@/api/mutations/useCartMutations';
-import { useProducts } from '@/api/queries/useProductQueries';
-import { getStoredToken } from '@/api/authStore';
+import { productDetailQueryOptions } from '@/api/queries/useProductQueries';
+import { resolveProductImage } from '@/api/adapters';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { toast } from 'sonner';
 import type { CartItemDto } from '@/types/api';
 
@@ -41,29 +43,36 @@ interface CartGroup {
 }
 
 export default function CartPage(): React.JSX.Element {
-  const token = getStoredToken();
+  const navigate = useNavigate();
   const [isClearDialogOpen, setIsClearDialogOpen] = useState(false);
 
-  const { data: cart, isLoading } = useCart({ enabled: !!token });
-  const { data: productsData } = useProducts();
-  const allProducts = productsData?.items || [];
+  // Route đã bọc RequireAuth nên ở đây luôn là tài khoản USER
+  const { data: cart, isLoading, isError, error, refetch, isRefetching } = useCart();
 
   const updateItemMutation = useUpdateCartItem();
   const removeItemMutation = useRemoveCartItem();
   const clearCartMutation = useClearCart();
   const addToCartMutation = useAddToCart();
 
-  const cartItems = cart?.items || [];
+  const cartItems = useMemo(() => cart?.items || [], [cart]);
+
+  // CartItemDto không có shop: tra chi tiết từng sản phẩm (kể cả món đã ngừng bán) để nhóm theo shop
+  const productQueries = useQueries({
+    queries: cartItems.map((item) => productDetailQueryOptions(item.productId)),
+  });
+  const detailByProductId = new Map(
+    cartItems.map((item, index) => [item.productId, productQueries[index]?.data ?? null] as const)
+  );
+  const detailsKey = productQueries.map((q) => q.dataUpdatedAt).join(',');
 
   // Phân nhóm các món theo Shop
   const cartGroups: CartGroup[] = useMemo(() => {
     const groupsMap = new Map<string, { shopName: string; items: CartItemDto[] }>();
 
     cartItems.forEach((item) => {
-      // Tìm shop name từ danh mục sản phẩm nếu có
-      const matchedProd = allProducts.find((p) => p.id === item.productId);
-      const shopName = matchedProd?.displayShopName || 'Cơ sở nhân giống BioNexus';
-      const key = shopName;
+      const detail = detailByProductId.get(item.productId);
+      const key = detail ? String(detail.sellerProfileId) : 'unknown';
+      const shopName = detail?.displayShopName || 'Cửa hàng';
 
       if (!groupsMap.has(key)) {
         groupsMap.set(key, { shopName, items: [] });
@@ -76,7 +85,9 @@ export default function CartPage(): React.JSX.Element {
       shopName: val.shopName,
       items: val.items,
     }));
-  }, [cartItems, allProducts]);
+    // detailByProductId tạo mới mỗi render; detailsKey đổi khi dữ liệu chi tiết thực sự đổi
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cartItems, detailsKey]);
 
   // Kiểm tra tính hợp lệ của giỏ hàng
   const hasUnavailableItems = cartItems.some((i) => !i.available);
@@ -99,10 +110,18 @@ export default function CartPage(): React.JSX.Element {
           action: {
             label: 'Hoàn tác',
             onClick: () => {
-              addToCartMutation.mutate({
-                productId: item.productId,
-                quantity: item.quantity,
-              });
+              addToCartMutation.mutate(
+                {
+                  productId: item.productId,
+                  // Món đã vượt kho thì chỉ hoàn tác tới mức tồn kho hiện có
+                  quantity: Math.max(1, Math.min(item.quantity, item.maxQuantity)),
+                },
+                {
+                  onError: (err) => {
+                    toast.error(err.message || 'Không thể hoàn tác: sản phẩm có thể đã hết hàng.');
+                  },
+                }
+              );
             },
           },
         });
@@ -133,26 +152,6 @@ export default function CartPage(): React.JSX.Element {
     });
   };
 
-  // Chưa đăng nhập
-  if (!token) {
-    return (
-      <div className="min-h-[70vh] flex flex-col items-center justify-center p-6 text-center max-w-md mx-auto">
-        <div className="size-16 rounded-2xl bg-surface-2 border border-line flex items-center justify-center text-accent mb-4">
-          <ShoppingBag className="size-8" />
-        </div>
-        <h2 className="text-2xl font-bold text-fg">Đăng nhập để xem giỏ hàng</h2>
-        <p className="mt-2 text-sm text-fg-2">
-          Giỏ hàng được lưu trữ an toàn trên máy chủ BioNexus giúp bạn không bị mất các cá thể đã chọn.
-        </p>
-        <Link to="/login?next=/cart" className="mt-6">
-          <Button variant="primary" pill>
-            Đăng nhập ngay
-          </Button>
-        </Link>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-bg text-fg py-8 md:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -174,13 +173,13 @@ export default function CartPage(): React.JSX.Element {
               onClick={() => setIsClearDialogOpen(true)}
               className="text-xs text-red-400 hover:text-red-300 hover:bg-red-500/10 gap-1.5 self-start sm:self-auto"
             >
-              <Trash2 className="size-3.5" />
+              <Trash2 className="size-3.5" aria-hidden="true" />
               <span>Xóa toàn bộ giỏ hàng</span>
             </Button>
           )}
         </div>
 
-        {/* Trạng thái rỗng */}
+        {/* Trạng thái đang tải, lỗi, rỗng, có dữ liệu */}
         {isLoading ? (
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             <div className="lg:col-span-8 space-y-4">
@@ -190,6 +189,13 @@ export default function CartPage(): React.JSX.Element {
             </div>
             <div className="lg:col-span-4 h-64 rounded-2xl bg-surface animate-pulse" />
           </div>
+        ) : isError ? (
+          <QueryErrorState
+            title="Không tải được giỏ hàng"
+            error={error}
+            onRetry={() => refetch()}
+            isRetrying={isRefetching}
+          />
         ) : cartItems.length === 0 ? (
           <EmptyState
             icon={<ShoppingBag className="size-8 text-accent" />}
@@ -213,7 +219,7 @@ export default function CartPage(): React.JSX.Element {
                   {/* Shop Header */}
                   <div className="flex items-center justify-between border-b border-line/60 bg-surface-2/40 px-5 py-3">
                     <div className="flex items-center gap-2">
-                      <Store className="size-4 text-accent" />
+                      <Store className="size-4 text-accent" aria-hidden="true" />
                       <span className="font-semibold text-fg text-sm">{group.shopName}</span>
                       <span title="Trại nhân giống F2+ đã kiểm duyệt">
                         <ShieldCheck className="size-3.5 text-accent" />
@@ -227,6 +233,8 @@ export default function CartPage(): React.JSX.Element {
                     {group.items.map((item) => {
                       const isOverStock = item.quantity > item.maxQuantity;
                       const isUnavailable = !item.available;
+                      const isUpdatingThisLine =
+                        updateItemMutation.isPending && updateItemMutation.variables?.productId === item.productId;
 
                       return (
                         <div
@@ -242,17 +250,15 @@ export default function CartPage(): React.JSX.Element {
                           {/* Ảnh & thông tin */}
                           <div className="flex items-center gap-3.5 min-w-0">
                             <div className="relative size-16 sm:size-20 rounded-xl overflow-hidden bg-surface-2 shrink-0 border border-line">
-                              {item.imageUrl ? (
-                                <img
-                                  src={item.imageUrl}
-                                  alt={item.productName}
-                                  className={`size-full object-cover ${isUnavailable ? 'grayscale' : ''}`}
-                                />
-                              ) : (
-                                <div className="size-full flex items-center justify-center text-fg-3 text-xs">
-                                  Ảnh
-                                </div>
-                              )}
+                              <img
+                                src={resolveProductImage(
+                                  item.imageUrl,
+                                  detailByProductId.get(item.productId)?.speciesScientificName
+                                )}
+                                alt={item.productName}
+                                loading="lazy"
+                                className={`size-full object-cover ${isUnavailable ? 'grayscale' : ''}`}
+                              />
                             </div>
 
                             <div className="min-w-0">
@@ -272,7 +278,7 @@ export default function CartPage(): React.JSX.Element {
                               {/* Cảnh báo lỗi trên dòng món */}
                               {isUnavailable && (
                                 <span className="mt-1 inline-flex items-center gap-1 rounded bg-red-500/20 px-1.5 py-0.5 text-[10px] font-medium text-red-300">
-                                  <AlertTriangle className="size-3" /> Ngừng bán hoặc hết hàng
+                                  <AlertTriangle className="size-3" aria-hidden="true" /> Ngừng bán hoặc hết hàng
                                 </span>
                               )}
 
@@ -284,9 +290,10 @@ export default function CartPage(): React.JSX.Element {
                                   <button
                                     type="button"
                                     onClick={() => handleClampToMax(item)}
-                                    className="text-[10px] text-accent underline hover:text-white font-mono"
+                                    disabled={isUpdatingThisLine}
+                                    className="text-[10px] text-accent underline hover:text-white disabled:opacity-50"
                                   >
-                                    [Giảm về {item.maxQuantity}]
+                                    Giảm về {item.maxQuantity}
                                   </button>
                                 </div>
                               )}
@@ -301,7 +308,9 @@ export default function CartPage(): React.JSX.Element {
                                 min={1}
                                 max={Math.max(1, item.maxQuantity)}
                                 onChange={(val) => handleQuantityChange(item.productId, val)}
+                                disabled={isUpdatingThisLine}
                                 size="sm"
+                                aria-label={`Số lượng ${item.productName}`}
                               />
                             ) : (
                               <span className="text-xs text-fg-3 font-mono">Số lượng: {item.quantity}</span>
@@ -317,11 +326,12 @@ export default function CartPage(): React.JSX.Element {
                             <button
                               type="button"
                               onClick={() => handleRemoveItem(item)}
-                              className="text-fg-3 hover:text-red-400 p-1.5 rounded-lg hover:bg-surface-2 transition-colors"
+                              disabled={removeItemMutation.isPending && removeItemMutation.variables === item.productId}
+                              className="text-fg-3 hover:text-red-400 p-1.5 rounded-lg hover:bg-surface-2 transition-colors disabled:opacity-50"
                               title="Xóa khỏi giỏ hàng"
                               aria-label={`Xóa ${item.productName}`}
                             >
-                              <Trash2 className="size-4" />
+                              <Trash2 className="size-4" aria-hidden="true" />
                             </button>
                           </div>
                         </div>
@@ -334,9 +344,9 @@ export default function CartPage(): React.JSX.Element {
 
             {/* Cột phải (4/12): Tóm tắt chi phí & Đặt hàng (DÍNH) */}
             <aside className="lg:col-span-4 sticky top-24 rounded-2xl border border-line bg-surface-1/80 backdrop-blur-xl p-6 shadow-xl space-y-5">
-              <h3 className="font-bold text-fg text-base uppercase tracking-wider font-mono border-b border-line/60 pb-3">
+              <h2 className="font-bold text-fg text-base uppercase tracking-wider border-b border-line/60 pb-3">
                 Tóm tắt đơn hàng
-              </h3>
+              </h2>
 
               <div className="space-y-3 text-xs">
                 <div className="flex items-center justify-between text-fg-2">
@@ -348,7 +358,7 @@ export default function CartPage(): React.JSX.Element {
                   <div className="flex items-center gap-1">
                     <span>Vận chuyển bảo tồn:</span>
                     <span title="Thùng giữ nhiệt điều hòa sinh học">
-                      <Info className="size-3 text-fg-3" />
+                      <Info className="size-3 text-fg-3" aria-hidden="true" />
                     </span>
                   </div>
                   <span className="text-emerald-400 font-mono font-semibold">Miễn phí (0 ₫)</span>
@@ -358,15 +368,15 @@ export default function CartPage(): React.JSX.Element {
                   <span className="text-sm font-bold text-fg">Tổng thanh toán:</span>
                   <div className="text-right">
                     <Ticker value={validSubtotal} formatAsCurrency className="text-2xl font-bold text-accent" />
-                    <span className="block text-[10px] text-fg-3 font-mono">Đã bao gồm phí kiểm định F2+</span>
+                    <span className="block text-[11px] text-fg-3">Chỉ tính các món còn bán</span>
                   </div>
                 </div>
               </div>
 
               {/* Banner cảnh báo nếu giỏ có lỗi */}
               {!isCartValidForCheckout && (
-                <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-300 flex items-start gap-2">
-                  <AlertTriangle className="size-4 shrink-0 text-amber-400 mt-0.5" />
+                <div role="status" className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-300 flex items-start gap-2">
+                  <AlertTriangle className="size-4 shrink-0 text-amber-400 mt-0.5" aria-hidden="true" />
                   <span>
                     Vui lòng xóa các món ngừng bán hoặc điều chỉnh số lượng các món vượt tồn kho để tiến hành đặt hàng.
                   </span>
@@ -380,16 +390,14 @@ export default function CartPage(): React.JSX.Element {
                   pill
                   variant="primary"
                   disabled={!isCartValidForCheckout}
-                  onClick={() => {
-                    window.location.hash = '#/checkout';
-                  }}
+                  onClick={() => navigate('/checkout')}
                   className="w-full gap-2 font-semibold shadow-[var(--glow-accent-btn)]"
                 >
                   <span>Tiến hành đặt hàng</span>
-                  <ArrowRight className="size-4" />
+                  <ArrowRight className="size-4" aria-hidden="true" />
                 </Button>
                 <p className="mt-2 text-[11px] text-fg-3 text-center">
-                  Kho hàng sẽ được khóa tạm thời khi chuyển sang bước thanh toán.
+                  Tồn kho và giá được kiểm tra lại khi bạn xác nhận đặt hàng.
                 </p>
               </div>
             </aside>

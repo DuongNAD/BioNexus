@@ -54,9 +54,10 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
         <div className="flex flex-1 flex-col sm:flex-row sm:items-center gap-3">
           {/* Ô tìm kiếm */}
           <div className="relative min-w-[240px] max-w-sm">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-accent pointer-events-none" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-accent pointer-events-none" aria-hidden="true" />
             <input
-              type="text"
+              type="search"
+              aria-label="Tìm loài theo tên thường, tên khoa học, chi hoặc họ"
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
               placeholder="Tìm theo tên loài, chi, họ..."
@@ -69,18 +70,23 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
                 className="absolute right-2.5 top-1/2 -translate-y-1/2 text-fg-3 hover:text-fg p-0.5"
                 aria-label="Xóa từ khóa tìm kiếm"
               >
-                <X className="size-3.5" />
+                <X className="size-3.5" aria-hidden="true" />
               </button>
             )}
           </div>
 
           {/* Chip nhóm sinh học */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
+          <div
+            role="group"
+            aria-label="Lọc theo nhóm sinh học"
+            className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none"
+          >
             {GROUPS.map((g) => (
               <button
                 key={g.id}
                 type="button"
                 onClick={() => onGroupChange(g.id)}
+                aria-pressed={selectedGroup === g.id}
                 className={cn(
                   'rounded-full px-3 py-1 text-xs font-medium whitespace-nowrap transition-all duration-200',
                   selectedGroup === g.id
@@ -98,8 +104,9 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
         <div className="flex items-center justify-between sm:justify-end gap-3 shrink-0">
           {/* Sắp xếp */}
           <div className="flex items-center gap-1.5 text-xs">
-            <ArrowUpDown className="size-3.5 text-fg-3" />
+            <ArrowUpDown className="size-3.5 text-fg-3" aria-hidden="true" />
             <select
+              aria-label="Sắp xếp danh sách loài"
               value={selectedSort}
               onChange={(e) => onSortChange(e.target.value as SortOption)}
               className="rounded-full border border-line bg-surface-2/80 px-2.5 py-1 text-xs text-fg focus:border-accent focus:outline-none cursor-pointer"
@@ -111,10 +118,12 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
           </div>
 
           {/* Công tắc Chế độ xem Lưới vs Bản đồ */}
-          <div className="inline-flex rounded-full border border-line bg-surface-1 p-0.5 shadow-inner">
+          <div role="group" aria-label="Chế độ xem" className="inline-flex rounded-full border border-line bg-surface-1 p-0.5 shadow-inner">
             <button
               type="button"
               onClick={() => onViewModeChange('grid')}
+              aria-pressed={viewMode === 'grid'}
+              aria-label="Xem dạng lưới thẻ loài"
               className={cn(
                 'flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all duration-200',
                 viewMode === 'grid'
@@ -123,13 +132,15 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
               )}
               title="Chế độ Lưới thẻ loài"
             >
-              <LayoutGrid className="size-3.5" />
+              <LayoutGrid className="size-3.5" aria-hidden="true" />
               <span className="hidden sm:inline">Lưới</span>
             </button>
 
             <button
               type="button"
               onClick={() => onViewModeChange('map')}
+              aria-pressed={viewMode === 'map'}
+              aria-label="Xem trên bản đồ địa cầu 3D"
               className={cn(
                 'flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all duration-200',
                 viewMode === 'map'
@@ -138,7 +149,7 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
               )}
               title="Chế độ Bản đồ BioEarth 3D"
             >
-              <Globe className="size-3.5" />
+              <Globe className="size-3.5" aria-hidden="true" />
               <span className="hidden sm:inline">Bản đồ</span>
             </button>
           </div>
@@ -147,7 +158,7 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
 
       {/* Dòng tóm tắt kết quả & chip lọc đang áp dụng */}
       <div className="flex items-center justify-between text-[11px] font-mono text-fg-3 pt-1">
-        <span>Tìm thấy {totalFiltered} loài sinh vật</span>
+        <span aria-live="polite">Tìm thấy {totalFiltered} loài sinh vật</span>
         {selectedIucn && (
           <span className="flex items-center gap-1 text-accent">
             Đang lọc mức IUCN: <strong>{selectedIucn}</strong>
@@ -157,7 +168,7 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
               className="ml-1 text-fg-3 hover:text-fg"
               aria-label="Xóa lọc IUCN"
             >
-              <X className="size-3" />
+              <X className="size-3" aria-hidden="true" />
             </button>
           </span>
         )}

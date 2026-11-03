@@ -1,6 +1,5 @@
-import React, { useState, useSyncExternalStore } from 'react';
-import { Outlet, Link, useLocation, useNavigate } from 'react-router';
-import { toast } from 'sonner';
+import React, { useState } from 'react';
+import { Outlet, Link, useLocation } from 'react-router';
 import {
   BarChart3,
   Store,
@@ -14,7 +13,9 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { Logo } from '@/components/ui/Logo';
-import { getAuthState, subscribeAuth, clearAuthSession } from '@/api/authStore';
+import { useAuthState } from '@/api/queries/useAuthQueries';
+import { useLogout } from '@/api/mutations/useAuthMutations';
+import { USE_MOCKS } from '@/lib/env';
 import type { AdminRole } from '@/types/api';
 
 interface AdminNavItem {
@@ -26,8 +27,8 @@ interface AdminNavItem {
 
 export function AdminLayout(): React.JSX.Element {
   const location = useLocation();
-  const navigate = useNavigate();
-  const auth = useSyncExternalStore(subscribeAuth, getAuthState);
+  const auth = useAuthState();
+  const logoutMutation = useLogout('#/admin/login');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const adminNav: AdminNavItem[] = [
@@ -57,17 +58,18 @@ export function AdminLayout(): React.JSX.Element {
     },
   ];
 
-  const currentRole = (auth.role as AdminRole) || 'MODERATOR';
+  // Không tự gán vai trò mặc định: thiếu vai trò thì chỉ thấy mục chung (Tổng quan)
+  const currentRole = (auth.role as AdminRole | null) ?? null;
 
   // Lọc menu theo vai trò người dùng đăng nhập hiện tại
   const visibleNav = adminNav.filter(
-    (item) => currentRole === 'SUPER_ADMIN' || item.allowedRoles.includes(currentRole)
+    (item) =>
+      currentRole === 'SUPER_ADMIN' ||
+      (currentRole ? item.allowedRoles.includes(currentRole) : item.path === '/admin')
   );
 
   const handleLogout = () => {
-    clearAuthSession();
-    toast.success('Đã đăng xuất khỏi phiên làm việc quản trị');
-    navigate('/admin/login');
+    logoutMutation.mutate();
   };
 
   const roleMeta: Record<string, { label: string; badgeClass: string }> = {
@@ -85,9 +87,9 @@ export function AdminLayout(): React.JSX.Element {
     },
   };
 
-  const currentRoleInfo = roleMeta[currentRole] || {
-    label: currentRole,
-    badgeClass: 'border-danger/40 bg-danger/15 text-danger',
+  const currentRoleInfo = (currentRole && roleMeta[currentRole]) || {
+    label: 'Chưa rõ vai trò',
+    badgeClass: 'border-line bg-surface text-fg-3',
   };
 
   const getPageTitle = (path: string): string => {
@@ -117,7 +119,7 @@ export function AdminLayout(): React.JSX.Element {
               <span>BioNexus</span>
             </Link>
             <span className="rounded-full bg-danger/20 border border-danger/40 px-2.5 py-0.5 text-[10px] font-bold tracking-wider text-danger uppercase">
-              Admin
+              Quản trị
             </span>
           </div>
 
@@ -131,7 +133,7 @@ export function AdminLayout(): React.JSX.Element {
                 {auth.user?.fullName || auth.user?.username || 'Quản trị viên'}
               </p>
               <span
-                className={`inline-block mt-0.5 rounded px-1.5 py-0.2 text-[9px] font-bold border uppercase ${currentRoleInfo.badgeClass}`}
+                className={`inline-block mt-0.5 rounded px-1.5 text-[10px] font-bold border uppercase ${currentRoleInfo.badgeClass}`}
               >
                 {currentRoleInfo.label}
               </span>
@@ -140,7 +142,7 @@ export function AdminLayout(): React.JSX.Element {
 
           {/* Navigation Menu */}
           <div>
-            <p className="px-3 text-[11px] font-semibold uppercase tracking-wider text-fg-mute">
+            <p className="px-3 text-[11px] font-semibold uppercase tracking-wider text-fg-3">
               Bảng quản trị sàn
             </p>
             <nav className="mt-3 flex flex-col gap-1 text-sm font-medium" aria-label="Menu quản trị">
@@ -151,6 +153,7 @@ export function AdminLayout(): React.JSX.Element {
                   <Link
                     key={item.path}
                     to={item.path}
+                    aria-current={isActive ? 'page' : undefined}
                     className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
                       isActive
                         ? 'bg-danger/15 text-danger font-semibold border border-danger/30'
@@ -175,6 +178,7 @@ export function AdminLayout(): React.JSX.Element {
           <button
             type="button"
             onClick={handleLogout}
+            disabled={logoutMutation.isPending}
             className="w-full flex items-center gap-2 rounded-xl border border-line/60 bg-surface px-3 py-2 text-xs font-semibold text-danger hover:border-danger/40 hover:bg-danger/10 transition-colors"
           >
             <LogOut className="size-3.5" aria-hidden="true" />
@@ -193,7 +197,7 @@ export function AdminLayout(): React.JSX.Element {
               <span>BioNexus</span>
             </Link>
             <span className="rounded bg-danger/20 border border-danger/40 px-1.5 py-0.5 text-[10px] font-semibold text-danger">
-              ADMIN
+              Quản trị
             </span>
           </div>
 
@@ -202,16 +206,18 @@ export function AdminLayout(): React.JSX.Element {
               type="button"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="rounded-xl border border-line bg-surface p-2 text-fg hover:text-accent transition-colors"
-              aria-label="Mở menu quản trị"
+              aria-label={isMobileMenuOpen ? 'Đóng menu quản trị' : 'Mở menu quản trị'}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="admin-mobile-menu"
             >
-              {isMobileMenuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+              {isMobileMenuOpen ? <X className="size-5" aria-hidden="true" /> : <Menu className="size-5" aria-hidden="true" />}
             </button>
           </div>
         </header>
 
         {/* Mobile Navigation Drawer */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-b border-line bg-bg-raised/95 backdrop-blur-2xl p-4 space-y-4 animate-fadeIn">
+          <div id="admin-mobile-menu" className="md:hidden border-b border-line bg-bg-raised/95 backdrop-blur-2xl p-4 space-y-4 animate-fadeIn">
             <div className="flex items-center gap-3 p-2 bg-surface/60 rounded-xl border border-line">
               <div className="size-8 rounded-lg bg-surface-2 flex items-center justify-center font-bold text-accent text-xs uppercase">
                 {(auth.user?.fullName || auth.user?.username || 'A')[0]}
@@ -220,13 +226,13 @@ export function AdminLayout(): React.JSX.Element {
                 <p className="text-xs font-semibold text-fg truncate">
                   {auth.user?.fullName || auth.user?.username}
                 </p>
-                <span className={`text-[9px] font-bold uppercase ${currentRoleInfo.badgeClass}`}>
+                <span className={`text-[10px] font-bold uppercase ${currentRoleInfo.badgeClass}`}>
                   {currentRoleInfo.label}
                 </span>
               </div>
             </div>
 
-            <nav className="flex flex-col gap-1 text-sm font-medium">
+            <nav className="flex flex-col gap-1 text-sm font-medium" aria-label="Menu quản trị">
               {visibleNav.map((item) => {
                 const isActive = location.pathname === item.path;
                 const Icon = item.icon;
@@ -234,6 +240,7 @@ export function AdminLayout(): React.JSX.Element {
                   <Link
                     key={item.path}
                     to={item.path}
+                    aria-current={isActive ? 'page' : undefined}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
                       isActive
@@ -259,6 +266,7 @@ export function AdminLayout(): React.JSX.Element {
               <button
                 type="button"
                 onClick={handleLogout}
+                disabled={logoutMutation.isPending}
                 className="text-xs text-danger font-semibold flex items-center gap-1"
               >
                 <LogOut className="size-3" aria-hidden="true" />
@@ -270,20 +278,20 @@ export function AdminLayout(): React.JSX.Element {
 
         {/* Desktop Breadcrumbs Bar */}
         <div className="hidden md:flex h-12 border-b border-line/60 bg-surface/20 px-6 md:px-10 items-center justify-between text-xs text-fg-3">
-          <div className="flex items-center gap-2 font-mono">
+          <div className="flex items-center gap-2">
             <Shield className="size-3.5 text-danger" aria-hidden="true" />
             <span>Khu vực Quản trị</span>
-            <ChevronRight className="size-3 text-fg-mute" aria-hidden="true" />
+            <ChevronRight className="size-3 text-fg-3" aria-hidden="true" />
             <span className="text-fg font-semibold">{getPageTitle(location.pathname)}</span>
           </div>
 
-          <div className="flex items-center gap-2">
-            <span className="text-[11px] text-fg-mute">Phiên làm việc bảo mật CITES:</span>
-            <span className="text-success font-semibold flex items-center gap-1">
-              <span className="size-1.5 rounded-full bg-success animate-pulse" />
-              <span>Đang kết nối MSW</span>
+          {/* Chỉ báo dữ liệu giả: chỉ hiện khi chạy với MSW, không hiện khi nối backend thật */}
+          {USE_MOCKS && (
+            <span className="text-warm font-semibold flex items-center gap-1">
+              <span className="size-1.5 rounded-full bg-warm" aria-hidden="true" />
+              <span>Dữ liệu giả lập (MSW)</span>
             </span>
-          </div>
+          )}
         </div>
 
         {/* Content Outlet */}

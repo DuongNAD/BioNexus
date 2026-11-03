@@ -105,6 +105,8 @@ function detectCapabilities(): DeviceCapabilities {
         lower.includes('softpipe') ||
         lower.includes('software rasterizer') ||
         lower.includes('microsoft basic render');
+      // Context chỉ dùng để dò cấu hình: trả lại ngay để không chiếm một slot WebGL của trình duyệt
+      (gl as WebGLRenderingContext).getExtension('WEBGL_lose_context')?.loseContext();
     }
   } catch {
     hasWebGL = false;

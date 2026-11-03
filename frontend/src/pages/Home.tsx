@@ -1,27 +1,53 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { Link } from 'react-router';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Compass, ShoppingBag, ArrowRight, ShieldCheck, MapPin, Sparkles as SparklesIcon } from 'lucide-react';
 import { SceneShell } from '@/components/3d/SceneShell';
 import { ParticleMorph } from '@/components/3d/ParticleMorph';
-import { HelixScene, TAXONOMIC_RANKS } from '@/components/3d/HelixScene';
+import { HelixScene, HELIX_LEVELS } from '@/components/3d/HelixScene';
+import { TAXONOMIC_RANKS, rankIndexForRung } from '@/components/3d/taxonomyRanks';
 import { BioEarth } from '@/components/3d/BioEarth/BioEarth';
 import {
   DEFAULT_SPECIES_BIOMARKERS,
   VIETNAM_BREEDING_HUBS,
   IUCN_MARKER_COLORS,
+  toBioMarker,
 } from '@/components/3d/BioEarth/coordinates';
+import { useQuality } from '@/components/3d/QualityProvider';
+import { IucnBadge } from '@/components/ui/IucnBadge';
 import { ProductCard } from '@/components/domain/ProductCard';
-import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { useProducts } from '@/api/queries/useProductQueries';
+import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { cn } from '@/lib/cn';
 
+// Loài mở màn trên địa cầu: chọn theo tên khoa học vì id trong DB thật có thể khác seed
+const DEFAULT_SELECTED_SPECIES = 'Ambystoma mexicanum';
+
+/** Cuộn tới chương; người dùng bật giảm chuyển động thì nhảy thẳng, không cuộn mượt */
+function scrollToChapter(idx: number): void {
+  const reduceMotion =
+    typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById(`chapter-${idx}`)?.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+}
+
+/** Phím tắt trang không được cướp phím khi người dùng đang gõ hoặc dùng tổ hợp phím của trình duyệt */
+function shouldIgnoreShortcut(e: KeyboardEvent): boolean {
+  if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return true;
+  const target = e.target as HTMLElement | null;
+  if (!target) return false;
+  const tag = target.tagName;
+  return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || target.isContentEditable;
+}
+
 export default function Home(): React.JSX.Element {
+  const { config } = useQuality();
   const [activeChapter, setActiveChapter] = useState<number>(0);
-  const [selectedSpeciesId, setSelectedSpeciesId] = useState<number>(1); // Mặc định Axolotl
+  const [selectedScientificName, setSelectedScientificName] = useState<string>(DEFAULT_SELECTED_SPECIES);
   const [activeTaxonIdx, setActiveTaxonIdx] = useState<number>(0);
+  const activeRank = TAXONOMIC_RANKS[rankIndexForRung(activeTaxonIdx, HELIX_LEVELS)];
 
   // Tham chiếu tiến độ cuộn cho 3D scenes
   const genesisProgressRef = useRef<number>(0);
@@ -29,6 +55,21 @@ export default function Home(): React.JSX.Element {
 
   // Tải danh mục sản phẩm kiểm duyệt từ TanStack Query
   const { data: productsData, isLoading: isProductsLoading } = useProducts({ size: 8 });
+  const { data: speciesData } = useSpeciesList();
+
+  // Marker địa cầu dựng từ danh sách loài của API; trong lúc chờ thì dùng bộ dựng sẵn
+  const earthMarkers = useMemo(() => {
+    if (!speciesData || speciesData.length === 0) return DEFAULT_SPECIES_BIOMARKERS;
+    const speciesOnSale = new Set(
+      (productsData?.items || []).filter((p) => p.status === 'APPROVED').map((p) => p.speciesId)
+    );
+    return speciesData.map((sp) => toBioMarker(sp, speciesOnSale.has(sp.id)));
+  }, [speciesData, productsData?.items]);
+  const selectedMarker =
+    earthMarkers.find((m) => m.scientificName === selectedScientificName) ?? earthMarkers[0];
+  const selectedHub = selectedMarker
+    ? VIETNAM_BREEDING_HUBS.find((h) => h.id === selectedMarker.hubId)
+    : undefined;
 
   // Theo dõi tiến độ cuộn cho Genesis và Helix
   useEffect(() => {
@@ -69,26 +110,19 @@ export default function Home(): React.JSX.Element {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Điều khiển phím tắt chuyển chương (0, 1, 2, 3 và Mũi tên)
+  // PageUp/PageDown chuyển chương. Bỏ phím số một ký tự (WCAG 2.1.4) và để mũi tên cuộn như mặc định
+  const activeChapterRef = useRef(0);
+  activeChapterRef.current = activeChapter;
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (['0', '1', '2', '3'].includes(e.key)) {
-        const chapterIdx = Number(e.key);
-        setActiveChapter(chapterIdx);
-        document.getElementById(`chapter-${chapterIdx}`)?.scrollIntoView({ behavior: 'smooth' });
-      } else if (e.key === 'ArrowDown' || e.key === 'PageDown') {
-        setActiveChapter((prev) => {
-          const next = Math.min(3, prev + 1);
-          document.getElementById(`chapter-${next}`)?.scrollIntoView({ behavior: 'smooth' });
-          return next;
-        });
-      } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
-        setActiveChapter((prev) => {
-          const next = Math.max(0, prev - 1);
-          document.getElementById(`chapter-${next}`)?.scrollIntoView({ behavior: 'smooth' });
-          return next;
-        });
-      }
+      if (shouldIgnoreShortcut(e)) return;
+      let next: number | null = null;
+      if (e.key === 'PageDown') next = Math.min(3, activeChapterRef.current + 1);
+      else if (e.key === 'PageUp') next = Math.max(0, activeChapterRef.current - 1);
+      if (next === null) return;
+      e.preventDefault();
+      setActiveChapter(next);
+      scrollToChapter(next);
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -96,7 +130,7 @@ export default function Home(): React.JSX.Element {
   }, []);
 
   return (
-    <div className="relative bg-[#020605] text-fg selection:bg-accent selection:text-accent-fg">
+    <div className="relative overflow-x-clip bg-[#020605] text-fg selection:bg-accent selection:text-accent-fg">
       {/* 1. Thanh Chấm Chỉ Báo Chương (Chapter Indicator Dots) */}
       <nav
         aria-label="Chỉ báo chương"
@@ -110,14 +144,16 @@ export default function Home(): React.JSX.Element {
         ].map(({ idx, label }) => (
           <button
             key={idx}
+            type="button"
             onClick={() => {
               setActiveChapter(idx);
-              document.getElementById(`chapter-${idx}`)?.scrollIntoView({ behavior: 'smooth' });
+              scrollToChapter(idx);
             }}
             className={cn(
               'group relative flex items-center justify-end transition-all duration-300'
             )}
             aria-label={`Chuyển đến Chương ${idx}: ${label}`}
+            aria-current={activeChapter === idx ? 'step' : undefined}
           >
             <span className="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity bg-black/80 text-white font-mono text-[10px] uppercase px-2 py-0.5 rounded border border-white/10 pointer-events-none whitespace-nowrap">
               0{idx} · {label}
@@ -147,6 +183,8 @@ export default function Home(): React.JSX.Element {
           >
             {(_tier, handleFirstFrame) => (
               <Canvas
+                dpr={config.dpr}
+                gl={{ antialias: config.antialias }}
                 camera={{ position: [0, 0, 7], fov: 45 }}
                 onCreated={() => handleFirstFrame?.()}
               >
@@ -162,7 +200,7 @@ export default function Home(): React.JSX.Element {
         {/* Nội dung tiêu đề chính */}
         <div className="relative z-20 max-w-4xl text-center px-6 pt-24 pb-16">
           <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-black/60 px-4 py-1 text-xs font-mono uppercase tracking-widest text-accent backdrop-blur-md mb-6 shadow-lg shadow-accent/10">
-            <SparklesIcon className="size-3.5 text-accent animate-pulse" />
+            <SparklesIcon className="size-3.5 text-accent animate-pulse" aria-hidden="true" />
             Bách khoa sinh học · Sàn sinh vật cảnh
           </div>
 
@@ -178,27 +216,12 @@ export default function Home(): React.JSX.Element {
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button
-              size="lg"
-              pill
-              className="gap-2 px-8 shadow-xl shadow-accent/25 hover:shadow-accent/40 text-base"
-              onClick={() => {
-                window.location.hash = '#/taxonomy';
-              }}
-            >
-              <Compass className="size-4" /> Khám phá cây phân loại
-            </Button>
-            <Button
-              size="lg"
-              pill
-              variant="outline"
-              className="gap-2 px-8 border-white/20 hover:bg-white/10 text-base backdrop-blur-md"
-              onClick={() => {
-                window.location.hash = '#/products';
-              }}
-            >
-              <ShoppingBag className="size-4" /> Vào cửa hàng
-            </Button>
+            <Link to="/taxonomy" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
+              <Compass className="size-4" aria-hidden="true" /> Khám phá cây phân loại
+            </Link>
+            <Link to="/products" className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-white/20 bg-transparent px-8 text-base font-medium text-fg-2 backdrop-blur-md transition-colors hover:bg-white/10 hover:text-fg focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
+              <ShoppingBag className="size-4" aria-hidden="true" /> Vào cửa hàng
+            </Link>
           </div>
 
           <p className="mt-12 text-xs font-mono text-fg-3 uppercase tracking-wider">
@@ -225,16 +248,18 @@ export default function Home(): React.JSX.Element {
             </p>
 
             {/* Thẻ nấc phân loại đang kích hoạt */}
-            <div className="mt-8 rounded-2xl border border-line bg-surface-1/80 p-5 backdrop-blur-md">
-              <div className="flex items-center justify-between text-xs font-mono text-accent pb-2 border-b border-line">
-                <span>CẤP BẬC {((TAXONOMIC_RANKS[activeTaxonIdx]?.level ?? 0) + 1)} / 14</span>
-                <span className="uppercase">{TAXONOMIC_RANKS[activeTaxonIdx]?.rankVi}</span>
+            <div className="mt-8 rounded-2xl border border-line bg-surface-1/80 p-5 backdrop-blur-md" aria-live="polite">
+              <div className="flex items-center justify-between text-xs text-accent pb-2 border-b border-line">
+                <span className="font-mono">
+                  Cấp {(activeRank?.level ?? 0) + 1} / {TAXONOMIC_RANKS.length}
+                </span>
+                <span className="font-semibold uppercase tracking-wider">{activeRank?.rankVi}</span>
               </div>
               <h3 className="mt-3 text-xl font-bold text-fg">
-                {TAXONOMIC_RANKS[activeTaxonIdx]?.name}
+                {activeRank?.name}
               </h3>
               <p className="mt-1 text-sm text-fg-2">
-                {TAXONOMIC_RANKS[activeTaxonIdx]?.desc}
+                {activeRank?.desc}
               </p>
             </div>
 
@@ -251,15 +276,9 @@ export default function Home(): React.JSX.Element {
             </div>
 
             <div className="mt-8">
-              <Button
-                pill
-                className="gap-2"
-                onClick={() => {
-                  window.location.hash = '#/taxonomy';
-                }}
-              >
-                Xem toàn bộ phả hệ <ArrowRight className="size-4" />
-              </Button>
+              <Link to="/taxonomy" className="inline-flex h-10 items-center justify-center gap-2 rounded-full bg-accent px-4 text-sm font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
+                Xem toàn bộ phả hệ <ArrowRight className="size-4" aria-hidden="true" />
+              </Link>
             </div>
           </div>
 
@@ -270,10 +289,12 @@ export default function Home(): React.JSX.Element {
               posterSrc="posters/home-helix.webp"
               posterAlt="Chuỗi xoắn ADN và các nấc thang phân loại học sinh giới"
               className="h-full w-full"
-              srDescription="Chuỗi xoắn kép ADN phát quang ngọc bích mô phỏng 14 nấc phân loại học sinh giới."
+              srDescription="Chuỗi xoắn kép ADN phát quang ngọc bích mô phỏng 6 cấp phân loại: Giới, Ngành, Lớp, Bộ, Họ, Chi."
             >
               {(_tier, handleFirstFrame) => (
                 <Canvas
+                  dpr={config.dpr}
+                  gl={{ antialias: config.antialias }}
                   camera={{ position: [0, 0, 7.5], fov: 42 }}
                   onCreated={() => handleFirstFrame?.()}
                 >
@@ -300,20 +321,26 @@ export default function Home(): React.JSX.Element {
             Nhân giống tại Việt Nam, <span className="text-accent italic">gốc gác khắp thế giới</span>
           </h2>
           <p className="mt-3 text-fg-2 max-w-xl mx-auto text-sm sm:text-base">
-            Khám phá 9 loài sinh vật biểu tượng và các cung đường di cư sinh học nhân đạo kết nối về 3 trung tâm bảo tồn tại Việt Nam.
+            Khám phá {earthMarkers.length} loài sinh vật biểu tượng và các cung đường nối nơi bản địa với 3 trung tâm nhân giống tại Việt Nam.
           </p>
         </div>
 
         {/* Thanh chọn nhanh 9 loài biểu tượng */}
-        <div className="max-w-5xl mx-auto mb-6 flex items-center gap-2 overflow-x-auto pb-3 pt-1 scrollbar-none">
-          {DEFAULT_SPECIES_BIOMARKERS.map((sp) => {
-            const isSelected = selectedSpeciesId === sp.speciesId;
+        <div
+          role="group"
+          aria-label="Chọn loài trên địa cầu"
+          className="max-w-5xl mx-auto mb-6 flex items-center gap-2 overflow-x-auto pb-3 pt-1 scrollbar-none"
+        >
+          {earthMarkers.map((sp) => {
+            const isSelected = selectedMarker?.scientificName === sp.scientificName;
             const dotColor = IUCN_MARKER_COLORS[sp.conservationStatus] || '#00D29E';
 
             return (
               <button
-                key={sp.speciesId}
-                onClick={() => setSelectedSpeciesId(sp.speciesId)}
+                key={sp.scientificName}
+                type="button"
+                aria-pressed={isSelected}
+                onClick={() => setSelectedScientificName(sp.scientificName)}
                 className={cn(
                   'flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium whitespace-nowrap transition-all border',
                   isSelected
@@ -337,22 +364,24 @@ export default function Home(): React.JSX.Element {
           <SceneShell
             id="home-earth"
             posterSrc="posters/home-earth.webp"
-            posterAlt="Quả địa cầu BioEarth tương tác 7 lớp kết nối 9 loài bảo tồn toàn cầu"
+            posterAlt="Quả địa cầu BioEarth nối nơi bản địa của các loài với trại nhân giống tại Việt Nam"
             className="h-full w-full"
-            srDescription="Quả địa cầu BioEarth 3D hiển thị 9 loài sinh vật cảnh bản địa trên thế giới và cung bay về Việt Nam."
+            srDescription="Quả địa cầu 3D hiển thị nơi bản địa của các loài sinh vật cảnh và cung bay về Việt Nam. Thông tin loài đang chọn có ở thẻ bên dưới địa cầu."
           >
             {(_tier, handleFirstFrame) => (
               <Canvas
+                dpr={config.dpr}
+                gl={{ antialias: config.antialias }}
                 camera={{ position: [0, 0.5, 6.2], fov: 42 }}
                 onCreated={() => handleFirstFrame?.()}
               >
                 <ambientLight intensity={0.4} />
                 <directionalLight position={[5, 3, 5]} intensity={1.2} />
                 <BioEarth
-                  speciesList={DEFAULT_SPECIES_BIOMARKERS}
+                  speciesList={earthMarkers}
                   breedingHubs={VIETNAM_BREEDING_HUBS}
-                  selectedSpeciesId={selectedSpeciesId}
-                  onSelectSpecies={(id) => setSelectedSpeciesId(id)}
+                  selectedScientificName={selectedMarker?.scientificName}
+                  onSelectSpecies={setSelectedScientificName}
                 />
                 <OrbitControls
                   enableZoom={false}
@@ -364,12 +393,46 @@ export default function Home(): React.JSX.Element {
           </SceneShell>
         </div>
 
+        {/* Thẻ loài đang chọn bằng DOM thật: tooltip trong canvas bị ẩn với trình đọc màn hình và ở chế độ ảnh tĩnh */}
+        {selectedMarker && (
+          <div
+            aria-live="polite"
+            className="max-w-6xl mx-auto mt-4 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-line bg-surface-1/70 p-4"
+          >
+            <img
+              src={selectedMarker.heroPhoto}
+              alt={selectedMarker.displayName}
+              className="size-14 rounded-xl object-cover border border-line shrink-0"
+              loading="lazy"
+            />
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <p className="text-base font-semibold text-fg">{selectedMarker.displayName}</p>
+                <IucnBadge code={selectedMarker.conservationStatus} size="sm" />
+              </div>
+              <p className="font-serif italic text-sm text-accent-2">{selectedMarker.scientificName}</p>
+              <p className="mt-1 flex items-center gap-1.5 text-xs text-fg-2">
+                <MapPin className="size-3.5 text-accent shrink-0" aria-hidden="true" />
+                <span>
+                  Bản địa: {selectedMarker.origin.place}
+                  {selectedHub ? ` · Nhân giống: ${selectedHub.shopName} (${selectedHub.city})` : ''}
+                </span>
+              </p>
+            </div>
+            {selectedMarker.speciesId != null && (
+              <Link to={`/species/${selectedMarker.speciesId}`} className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-4 text-sm font-medium text-fg-2 transition-colors hover:bg-surface hover:text-fg hover:border-line-strong focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
+                Xem hồ sơ loài <ArrowRight className="size-4" aria-hidden="true" />
+              </Link>
+            )}
+          </div>
+        )}
+
         {/* Chân trang Chương 2: Danh sách 3 Hub tiếp nhận */}
         <div className="max-w-5xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
           {VIETNAM_BREEDING_HUBS.map((hub) => (
             <div key={hub.id} className="rounded-2xl border border-line bg-surface-1/50 p-4 text-xs">
               <div className="flex items-center gap-1.5 text-accent font-semibold mb-1">
-                <MapPin className="size-3.5" />
+                <MapPin className="size-3.5" aria-hidden="true" />
                 <span>{hub.city}</span>
               </div>
               <p className="font-medium text-fg">{hub.shopName}</p>
@@ -394,16 +457,9 @@ export default function Home(): React.JSX.Element {
                 100% sinh vật cảnh được nhân giống nhân tạo thế hệ F2+, hồ sơ minh bạch đối soát với danh mục bách khoa.
               </p>
             </div>
-            <Button
-              variant="outline"
-              pill
-              className="mt-4 md:mt-0"
-              onClick={() => {
-                window.location.hash = '#/products';
-              }}
-            >
-              Xem tất cả sản phẩm <ArrowRight className="size-4" />
-            </Button>
+            <Link to="/products" className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-4 text-sm font-medium text-fg-2 transition-colors hover:bg-surface hover:text-fg hover:border-line-strong focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 mt-4 md:mt-0 self-start md:self-auto">
+              Xem tất cả sản phẩm <ArrowRight className="size-4" aria-hidden="true" />
+            </Link>
           </div>
 
           {/* Lưới sản phẩm đã kiểm duyệt */}
@@ -449,18 +505,11 @@ export default function Home(): React.JSX.Element {
                   Mười ngày đi qua 4 vùng sinh cảnh từ rừng mưa Cát Tiên, đỉnh mây Kinabalu, đầm lầy Bắc Carolina, kênh cổ Xochimilco tới sa mạc Trung Úc và Địa Trung Hải. Đóng đủ 9 con dấu vào sổ hộ chiếu loài để nhận chứng nhận Nhà thám hiểm BioNexus.
                 </p>
               </div>
-              <Button
-                size="lg"
-                pill
-                className="shrink-0 gap-2 shadow-xl shadow-accent/25"
-                onClick={() => {
-                  window.location.hash = '#/tham-hiem';
-                }}
-              >
+              <Link to="/tham-hiem" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
                 <Compass className="size-4" aria-hidden="true" />
                 <span>Bắt đầu hành trình</span>
                 <ArrowRight className="size-4" aria-hidden="true" />
-              </Button>
+              </Link>
             </div>
           </div>
 
@@ -468,7 +517,7 @@ export default function Home(): React.JSX.Element {
           <div className="mt-16 rounded-3xl border border-line bg-surface-1 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
             <div className="max-w-xl">
               <div className="flex items-center gap-2 text-accent font-semibold mb-2 text-sm">
-                <ShieldCheck className="size-5" /> Tôn chỉ bảo tồn sinh quyển BioNexus
+                <ShieldCheck className="size-5" aria-hidden="true" /> Tôn chỉ bảo tồn sinh quyển BioNexus
               </div>
               <h3 className="text-2xl sm:text-3xl font-serif font-bold text-fg">
                 Bạn là nhà nhân giống có giấy phép hợp pháp?
@@ -477,16 +526,9 @@ export default function Home(): React.JSX.Element {
                 Chúng tôi đồng hành cùng các trang trại sinh sản nhân tạo F2+, kiên quyết nói không với động vật khai thác tự nhiên, kiến tạo sàn sinh vật cảnh văn minh chuẩn mực.
               </p>
             </div>
-            <Button
-              size="lg"
-              pill
-              className="shrink-0 shadow-lg shadow-accent/20"
-              onClick={() => {
-                window.location.hash = '#/seller/apply';
-              }}
-            >
+            <Link to="/seller/apply" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
               Nộp hồ sơ mở shop
-            </Button>
+            </Link>
           </div>
         </div>
       </section>

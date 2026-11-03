@@ -62,7 +62,7 @@ export default function NotFoundPage(): React.JSX.Element {
       </div>
 
       {/* Chú thích an toàn */}
-      <p className="mt-12 text-[11px] text-fg-mute flex items-center justify-center gap-1.5">
+      <p className="mt-12 text-xs text-fg-3 flex items-center justify-center gap-1.5">
         <ArrowLeft className="size-3" aria-hidden="true" />
         <span>Nếu bạn nghi ngờ đây là sự cố hệ thống, vui lòng thử lại sau ít phút.</span>
       </p>

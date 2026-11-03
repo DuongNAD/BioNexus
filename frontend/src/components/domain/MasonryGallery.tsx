@@ -73,7 +73,7 @@ export const MasonryGallery: React.FC<MasonryGalleryProps> = ({
               />
 
               <div
-                className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white"
+                className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white"
                 aria-hidden="true"
               >
                 <div className="flex items-center justify-between">
@@ -85,7 +85,7 @@ export const MasonryGallery: React.FC<MasonryGalleryProps> = ({
                   </span>
                 </div>
                 {photo.credit?.author && (
-                  <p className="text-[10px] text-white/70 truncate mt-0.5">
+                  <p className="text-[11px] text-white/80 truncate mt-0.5">
                     Ảnh: {photo.credit.author} ({photo.credit.license})
                   </p>
                 )}

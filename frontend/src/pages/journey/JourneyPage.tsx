@@ -5,11 +5,15 @@ import { toast } from 'sonner';
 import { cn } from '@/lib/cn';
 import { Logo } from '@/components/ui/Logo';
 import { QuickSearch } from '@/components/navigation/QuickSearch';
+import { useQueries } from '@tanstack/react-query';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
-import { useTaxonomyTree } from '@/api/queries/useTaxonomyQueries';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
-import { getStoredToken } from '@/api/authStore';
+import { useAuthState } from '@/api/queries/useAuthQueries';
+import { api } from '@/api/client';
+import { queryKeys } from '@/api/keys';
+import { ApiError } from '@/api/errors';
+import type { TaxonomyDetailDto } from '@/types/api';
 import { JOURNEY_SPECIES_BASE } from '@/content/journey';
 import { PassportProvider, usePassport } from '@/hooks/usePassport';
 import { ChapterRail } from '@/components/journey/ChapterRail';
@@ -133,21 +137,6 @@ function JourneyHeader({ onSkip }: { onSkip: () => void }): React.JSX.Element {
   );
 }
 
-function countTaxonomyNodes(nodes?: Array<{ children?: unknown[] }>): number {
-  if (!nodes || nodes.length === 0) return 25;
-  let total = 0;
-  const walk = (arr: Array<{ children?: unknown[] }>) => {
-    for (const item of arr) {
-      total += 1;
-      if (Array.isArray(item.children) && item.children.length > 0) {
-        walk(item.children as Array<{ children?: unknown[] }>);
-      }
-    }
-  };
-  walk(nodes);
-  return total > 2 ? total : 25;
-}
-
 function JourneyContent(): React.JSX.Element {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -155,20 +144,39 @@ function JourneyContent(): React.JSX.Element {
   const reduced = useJourneyReducedMotion();
   const [active, setActive] = useState<string>('mo-dau');
 
+  const auth = useAuthState();
   const { data: liveSpecies } = useSpeciesList();
-  const { data: taxonomyTree } = useTaxonomyTree();
-  const { data: productsPage } = useProducts({ size: 20 });
+  const { data: productsPage } = useProducts({ size: 48 });
   const addToCart = useAddToCart();
 
-  const taxonomyCount = useMemo(
-    () => countTaxonomyNodes(taxonomyTree as Array<{ children?: unknown[] }> | undefined),
-    [taxonomyTree]
+  // Breadcrumbs của từng chi cho biết id thật của mọi nút từ Giới tới Chi (không đoán id)
+  const genusIds = useMemo(
+    () => Array.from(new Set((liveSpecies ?? []).map((sp) => sp.nodeId))),
+    [liveSpecies]
   );
+  const genusDetails = useQueries({
+    queries: genusIds.map((nodeId) => ({
+      queryKey: queryKeys.taxonomy.detail(nodeId),
+      queryFn: async () => (await api<TaxonomyDetailDto>(`taxonomy/${nodeId}`)).data,
+      staleTime: 10 * 60 * 1000,
+    })),
+  });
+  const genusDetailsKey = genusDetails.map((q) => q.dataUpdatedAt).join(',');
+  const taxonIdMap = useMemo(() => {
+    const map: Record<string, number> = {};
+    for (const q of genusDetails) {
+      if (!q.data) continue;
+      for (const node of [...q.data.breadcrumbs, q.data.node]) {
+        map[node.scientificName] = node.id;
+      }
+    }
+    return map;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [genusDetailsKey]);
 
-  const approvedProductCount = useMemo(() => {
-    const items = productsPage?.items?.filter((p) => p.status === 'APPROVED');
-    return items && items.length > 0 ? items.length : 7;
-  }, [productsPage]);
+  // Số nút phân loại có loài (seed: 25); chưa tải xong thì để WelcomeSection dùng giá trị mặc định
+  const taxonomyCount = Object.keys(taxonIdMap).length || undefined;
+  const approvedProductCount = productsPage?.total;
 
   const handleSkip = useCallback(() => {
     markSkipped();
@@ -177,24 +185,29 @@ function JourneyContent(): React.JSX.Element {
 
   const handleAddCartProduct = useCallback(
     (productId: number, productName: string) => {
-      const token = getStoredToken();
-      if (token) {
-        addToCart.mutate(
-          { productId, quantity: 1 },
-          {
-            onSuccess: () => {
-              toast.success(`Đã thêm “${productName}” vào giỏ`);
-            },
-            onError: () => {
-              toast.success(`Đã thêm “${productName}” vào giỏ`);
-            },
-          }
-        );
-      } else {
-        toast.success(`Đã thêm “${productName}” vào giỏ`);
+      // Chỉ tài khoản người mua mới có giỏ: khách được mời đăng nhập, không báo thành công giả
+      if (!auth.token || auth.accountType !== 'USER') {
+        toast.info('Đăng nhập tài khoản người mua để thêm vào giỏ', {
+          action: {
+            label: 'Đăng nhập',
+            onClick: () => navigate(`/login?next=${encodeURIComponent('/tham-hiem')}`),
+          },
+        });
+        return;
       }
+      addToCart.mutate(
+        { productId, quantity: 1 },
+        {
+          onSuccess: () => {
+            toast.success(`Đã thêm “${productName}” vào giỏ`);
+          },
+          onError: (err) => {
+            toast.error(err instanceof ApiError ? err.message : `Chưa thêm được “${productName}” vào giỏ`);
+          },
+        }
+      );
     },
-    [addToCart]
+    [addToCart, auth.token, auth.accountType, navigate]
   );
 
   // Nhảy tới trạm được yêu cầu qua query ?tram=tram-X (từ trang /account "Đi tiếp hành trình")
@@ -273,14 +286,7 @@ function JourneyContent(): React.JSX.Element {
         <Hermann liveSpecies={liveSpecies} />
         <Recap />
         <PassportBook liveSpecies={liveSpecies} />
-        <Kinship
-          liveSpecies={liveSpecies}
-          taxonomyTree={
-            taxonomyTree as
-              | Array<{ id: number; scientificName: string; children?: unknown[] }>
-              | undefined
-          }
-        />
+        <Kinship liveSpecies={liveSpecies} taxonIdMap={taxonIdMap} />
         <Certificate
           liveProducts={productsPage?.items}
           liveSpecies={liveSpecies}
@@ -316,7 +322,7 @@ export default function JourneyPage(): React.JSX.Element {
       onOpenQuickSearch={() => setIsSearchOpen(true)}
     >
       <JourneyContent />
-      <QuickSearch isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+      <QuickSearch isOpen={isSearchOpen} onOpen={() => setIsSearchOpen(true)} onClose={() => setIsSearchOpen(false)} />
     </PassportProvider>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ShoppingBag, Store, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router';
+import { ShoppingBag, Store, ShieldCheck, ArrowRight } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
@@ -29,26 +30,17 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
   const showFlip = enableHoverFlip && isHovered && secondaryImage && secondaryImage !== product.displayImage;
 
-  const handleCardClick = () => {
-    window.location.hash = `#/products/${product.id}`;
-  };
-
   const handleAction = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation();
-    if (onAddToCart) {
-      onAddToCart(product.id, e);
-    } else {
-      window.location.hash = `#/products/${product.id}`;
-    }
+    onAddToCart?.(product.id, e);
   };
 
   return (
     <Card
       padding="none"
-      onClick={handleCardClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group relative cursor-pointer overflow-hidden rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md transition-all duration-300 hover:border-accent/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5 flex flex-col justify-between"
+      className="group relative overflow-hidden rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md transition-all duration-300 hover:border-accent/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5 focus-within:border-accent/60 flex flex-col justify-between"
     >
       <div>
         {/* Vùng ảnh sản phẩm: Tỷ lệ 4:5 chuẩn tạp chí */}
@@ -67,7 +59,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           {secondaryImage && (
             <img
               src={secondaryImage}
-              alt={`${product.productName} - góc chụp đối chiếu`}
+              alt=""
+              aria-hidden="true"
               className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out ${
                 showFlip ? 'opacity-100 scale-105' : 'opacity-0 scale-100 pointer-events-none'
               }`}
@@ -80,7 +73,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           {/* Huy hiệu pháp lý F2+ góc trên trái */}
           <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
             <Badge variant="accent" size="sm" className="bg-black/70 backdrop-blur-md text-[10px] uppercase font-mono border border-accent/30">
-              <ShieldCheck className="size-3 mr-1 text-accent" /> F2+ Nhân tạo
+              <ShieldCheck className="size-3 mr-1 text-accent" aria-hidden="true" /> F2+ Nhân tạo
             </Badge>
           </div>
 
@@ -118,16 +111,22 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* Nội dung thông tin */}
         <div className="p-4">
           <div className="flex items-center gap-1.5 text-xs text-fg-3 mb-1.5">
-            <Store className="size-3.5 text-accent shrink-0" />
+            <Store className="size-3.5 text-accent shrink-0" aria-hidden="true" />
             <span className="truncate">{product.displayShopName}</span>
           </div>
 
           <h3 className="font-semibold text-fg text-base line-clamp-1 group-hover:text-accent transition-colors font-sans">
-            {product.productName}
+            {/* Lớp ::after phủ cả thẻ nên bấm vào đâu cũng mở chi tiết, còn bàn phím chỉ có một điểm dừng */}
+            <Link
+              to={`/products/${product.id}`}
+              className="after:absolute after:inset-0 after:z-0 after:content-[''] focus-visible:outline-none focus-visible:underline"
+            >
+              {product.productName}
+            </Link>
           </h3>
 
           {product.speciesScientificName && (
-            <p className="text-xs italic text-fg-mute font-serif line-clamp-1 mt-0.5">
+            <p className="text-xs italic text-fg-3 font-serif line-clamp-1 mt-0.5">
               {product.speciesScientificName}
             </p>
           )}
@@ -142,18 +141,26 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       <div className="p-4 pt-0 flex items-center justify-between border-t border-line/40 mt-2">
         <Price amount={product.price} size="md" />
 
-        <Button
-          size="sm"
-          pill
-          variant={product.isAvailable ? 'primary' : 'secondary'}
-          className="gap-1.5 font-semibold"
-          disabled={!product.isAvailable}
-          onClick={handleAction}
-          aria-label={onAddToCart ? `Thêm ${product.productName} vào giỏ hàng` : `Xem chi tiết ${product.productName}`}
-        >
-          <ShoppingBag className="size-3.5" />
-          {onAddToCart ? 'Thêm giỏ' : 'Chi tiết'}
-        </Button>
+        {onAddToCart ? (
+          <Button
+            size="sm"
+            pill
+            variant={product.isAvailable ? 'primary' : 'secondary'}
+            className="relative z-10 gap-1.5 font-semibold"
+            disabled={!product.isAvailable}
+            onClick={handleAction}
+            aria-label={`Thêm ${product.productName} vào giỏ hàng`}
+          >
+            <ShoppingBag className="size-3.5" aria-hidden="true" />
+            Thêm giỏ
+          </Button>
+        ) : (
+          // Cả thẻ đã là liên kết, nhãn này chỉ để gợi ý thị giác
+          <span className="inline-flex items-center gap-1 text-xs font-semibold text-accent" aria-hidden="true">
+            Chi tiết
+            <ArrowRight className="size-3.5" />
+          </span>
+        )}
       </div>
     </Card>
   );

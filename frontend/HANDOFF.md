@@ -75,21 +75,17 @@ Toàn bộ 24 tuyến đường (routes) giao diện người dùng và 1 trang 
   - Khi trả về `SpeciesDto`, giữ trường `environmentSpecs` (chuỗi tổng hợp) để đảm bảo tính tương thích ngược, đồng thời cung cấp thêm đối tượng `microclimate` (nếu có).
 
 ### 3.3. Chuẩn Hóa Phân Trang Backend (Pagination Contract)
-- **Cấu trúc DTO Chuẩn**:
+- **Cấu trúc đúng hợp đồng** (tài liệu 04 mục 1 và 4.7): `page` bắt đầu từ **1**, `size` từ 1 đến 48 (mặc định 12), ngoài khoảng thì 400 `INVALID_PAGINATION`.
   ```json
   {
-    "content": [ ... ],
-    "page": 0,
+    "items": [ ... ],
+    "page": 1,
     "size": 12,
-    "totalElements": 48,
-    "totalPages": 4,
-    "last": false
+    "total": 7
   }
   ```
-- **Xử lý linh hoạt**: Lớp `normalizePage` trên frontend đã được xây dựng để nhận diện cả định dạng danh sách mảng phẳng `T[]` lẫn định dạng gói `Page<T>` của Spring/Java. Tuy nhiên, khuyến nghị các Servlet của backend luôn trả về cấu trúc phân trang trên cho các endpoint danh mục:
-  - `GET api/products?page=0&size=12&speciesId=...&status=APPROVED`
-  - `GET api/admin/sellers?status=PENDING`
-  - `GET api/admin/products?status=PENDING`
+- `normalizePage()` chỉ đọc `items` và `total` (và chấp nhận mảng phẳng `T[]` như backend đang trả hiện nay). **Không** dùng dạng Spring `{content, page: 0, totalElements}`: frontend sẽ thấy danh sách rỗng và `page=0` bị 400.
+- Endpoint áp dụng: `GET api/products?page=1&size=48&speciesId=…&q=…` (chỉ trả APPROVED). Trang Cửa hàng và ô tìm kiếm nhanh đang xin `size=48`.
 
 ### 3.4. Cơ Chế Lưu Trữ Hình Ảnh Thật (Chuyển Giao Media Vào WAR)
 - **Hiện trạng**: Toàn bộ 161 tệp ảnh AVIF và WebP đang được đặt tại thư mục `frontend/public/photos/`. Khi build, Vite sẽ đóng gói trực tiếp vào thư mục `dist/photos/`.
@@ -116,7 +112,24 @@ Toàn bộ 24 tuyến đường (routes) giao diện người dùng và 1 trang 
   - `PUT api/me/passport`: Nhận body `{ met: string[], completedAt?: string, skippedAt?: string }`, gộp (union) danh sách `met` của khách trên máy với danh sách trên server rồi lưu vào bảng `user_passports(user_id, met_json, started_at, completed_at, skipped_at)`.
   - Giao diện hiện tại **hoàn toàn không phụ thuộc** vào endpoint này: nếu backend chưa cài đặt (trả `404`), `usePassport()` vẫn hoạt động trơn tru 100% trên `localStorage`.
 
-### 3.6. Kịch Bản Vấn Đáp Bảo Vệ Đồ Án Aptech 2026 (Q&A Script Chuẩn)
+### 3.6. Đề xuất cho backend (từ đợt rà soát 03/11/2026)
+Frontend đã được sửa để chạy đúng hợp đồng tài liệu 04. Những điểm dưới đây cần chủ dự án chốt khi code servlet; giao diện vẫn chạy nếu backend chưa có:
+
+| # | Điểm | Frontend đang làm | Đề xuất |
+|---|---|---|---|
+| 1 | Đăng nhập admin | Gửi `{username, password}` tới `api/auth/admin/login` (giá trị là cột `account`), khớp `LoginRequest.java` và `AuthService.loginAdmin` | Giữ nguyên |
+| 2 | Đăng xuất | Không gọi API (token không trạng thái), chỉ xóa phiên phía trình duyệt | Không cần endpoint `auth/logout` |
+| 3 | Lọc hàng đợi admin | `GET api/admin/sellers` và `api/admin/products` **không gửi `status`** khi muốn lấy tất cả; gửi `?status=PENDING` khi lọc | Thiếu `status` thì trả mọi trạng thái (không dùng giá trị `ALL`) |
+| 4 | Lý do từ chối | Body `PUT …/status` là `{status}`, thêm `reason` (tùy chọn) khi người duyệt nhập | Cột tùy chọn `rejectionReason` trong SellerProfiles/Products; bỏ qua cũng được |
+| 5 | Sai loại tài khoản | Token admin gọi API của USER (giỏ, đơn, `me`) thì mock trả **403 `AUTH_FORBIDDEN`**, không phải 401 | Backend làm giống vậy; 401 chỉ dành cho thiếu token hoặc token sai/hết hạn (frontend sẽ đăng xuất khi gặp 401) |
+| 6 | Danh sách chi (GENUS) | Form "Thêm loài" duyệt `taxonomy` rồi `taxonomy/{id}/children` từng cấp (khoảng 19 request) | Tùy chọn: `GET api/taxonomy?rank=GENUS` trả mảng phẳng |
+| 7 | Endpoint ngoài hợp đồng còn trong code | `species/{id}/products`, `products/{id}/reviews`, `seller/profile` (hook không trang nào gọi hoặc chỉ là phần phụ) | Không bắt buộc. Trang sản phẩm theo loài dùng `products?speciesId=` đúng hợp đồng |
+| 8 | Dữ liệu `me` và giỏ | Chỉ gọi khi tài khoản là USER | — |
+| 9 | Lọc sản phẩm | Trang Cửa hàng lọc theo giá, nhóm và mức IUCN ở client trên tối đa 48 sản phẩm của một trang | Khi sàn có hơn 48 sản phẩm: thêm tham số lọc (`minPrice`, `maxPrice`, `iucn`) vào `GET api/products` hoặc cho phép duyệt nhiều trang |
+
+Dữ liệu mock (`src/mocks/data/*`) đã chép lại đúng `database/seed_data.sql`: id loài theo thứ tự INSERT (1 = *Eublepharis macularius*, 6 = *Ambystoma mexicanum*…), 25 nút phân loại (`Caudata`, không có `Ericales`), 3 đơn với dòng đơn đúng seed (ORD-2026-0003 của `dangvang`, CANCELLED). Giao diện không còn tra theo id cứng ở đâu: ảnh, điểm trên địa cầu, liên kết hành trình đều tra theo `scientificName`. Khi seed đổi thì tăng `SEED_VERSION` trong `src/mocks/db.ts` để trình duyệt tự nạp lại.
+
+### 3.7. Kịch Bản Vấn Đáp Bảo Vệ Đồ Án Aptech 2026 (Q&A Script Chuẩn)
 Dưới đây là 5 câu hỏi tình huống chuyên sâu mà Hội đồng chấm thi Aptech thường đặt ra cho các dự án thương mại điện tử sinh học, kèm theo câu trả lời đề xuất:
 
 * **Câu hỏi 1**: *Tại sao nhóm lại kết hợp bách khoa sinh học 6 cấp phân loại với sàn thương mại điện tử sinh vật cảnh, và giải quyết bài toán pháp lý CITES như thế nào?*

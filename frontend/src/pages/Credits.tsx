@@ -3,6 +3,16 @@ import { PHOTOS, type PhotoMetadata } from '@/content/photos';
 import { Photo } from '@/components/media/Photo';
 import { ExternalLink, Heart, ShieldCheck, Image as ImageIcon, Sparkles, CheckCircle2, Search } from 'lucide-react';
 
+// Vai trò ảnh hiển thị bằng tiếng Việt thay cho mã nội bộ (hero, portrait...)
+const PHOTO_ROLE_LABELS: Record<string, string> = {
+  hero: 'Ảnh chính',
+  portrait: 'Chân dung',
+  gallery: 'Bộ sưu tập',
+  habitat: 'Môi trường sống',
+  product: 'Sản phẩm',
+  biome: 'Sinh cảnh',
+};
+
 export default function Credits(): React.JSX.Element {
   const [filter, setFilter] = useState<'all' | 'species' | 'product' | 'biome'>('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -49,7 +59,7 @@ export default function Credits(): React.JSX.Element {
           Ghi công & Bản quyền Hình ảnh
         </h1>
         <p className="mt-4 text-base md:text-lg text-fg-2 leading-relaxed">
-          BioNexus xin gửi lời triên sâu sắc tới cộng đồng <strong>Wikimedia Commons</strong>,{' '}
+          BioNexus xin gửi lời tri ân sâu sắc tới cộng đồng <strong>Wikimedia Commons</strong>,{' '}
           <strong>iNaturalist</strong>, cùng các nhiếp ảnh gia và nhà nghiên cứu sinh học trên toàn thế giới đã cống hiến tư liệu hình ảnh vì tri thức chung của nhân loại.
         </p>
         <p className="mt-2 text-sm text-fg-3 flex items-center gap-1.5">
@@ -66,7 +76,7 @@ export default function Credits(): React.JSX.Element {
             <ImageIcon className="size-4" aria-hidden="true" />
           </div>
           <p className="text-2xl font-bold font-mono text-fg">482</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">286 photos + 196 trip (AVIF & WebP)</p>
+          <p className="text-[11px] text-fg-3 mt-0.5">286 ảnh loài + 196 ảnh hành trình (AVIF và WebP)</p>
         </div>
 
         <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">
@@ -129,7 +139,7 @@ export default function Credits(): React.JSX.Element {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Tìm theo loài, tác giả, giấy phép..."
-            className="w-full pl-9 pr-3 py-1.5 rounded-lg border border-line bg-surface text-xs text-fg placeholder:text-fg-mute focus:outline-none focus:border-accent"
+            className="w-full pl-9 pr-3 py-1.5 rounded-lg border border-line bg-surface text-xs text-fg placeholder:text-fg-3 focus:outline-none focus:border-accent"
           />
         </div>
       </div>
@@ -148,8 +158,8 @@ export default function Credits(): React.JSX.Element {
             >
               <div className="relative aspect-video overflow-hidden bg-bg-raised">
                 <Photo photo={photo} className="h-full w-full object-cover" />
-                <span className="absolute top-3 left-3 rounded-md bg-black/70 backdrop-blur-md px-2 py-0.5 text-[10px] font-mono uppercase text-accent border border-line">
-                  {photo.role}
+                <span className="absolute top-3 left-3 rounded-md bg-black/70 backdrop-blur-md px-2 py-0.5 text-[11px] font-semibold text-accent border border-line">
+                  {PHOTO_ROLE_LABELS[photo.role] ?? photo.role}
                 </span>
               </div>
 

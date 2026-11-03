@@ -1,6 +1,6 @@
 import { http, HttpResponse } from 'msw';
 import { db } from '../db';
-import { authenticateRequest } from '../auth';
+import { requireUser } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { PlaceOrderRequest } from '@/types/api';
 
@@ -8,13 +8,9 @@ export const orderHandlers = [
   // 1. Lịch sử đơn hàng của tôi (Đặt trước :id)
   http.get('*/api/orders/mine', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const orders = db.getUserOrders(session.sub);
     return HttpResponse.json({
@@ -28,13 +24,9 @@ export const orderHandlers = [
   // 2. Chi tiết một đơn hàng
   http.get('*/api/orders/:id', async ({ request, params }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const id = Number(params.id);
     if (isNaN(id) || id <= 0) {
@@ -63,13 +55,9 @@ export const orderHandlers = [
   // 3. Đặt hàng & Thanh toán mô phỏng Transaction nguyên tử
   http.post('*/api/orders', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     try {
       const body = (await request.json()) as PlaceOrderRequest;

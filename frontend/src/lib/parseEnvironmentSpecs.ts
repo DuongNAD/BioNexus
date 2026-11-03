@@ -4,13 +4,14 @@ export type { ParsedEnvironmentSpecs };
 
 export const IUCN_RATINGS: readonly ConservationStatus[] = ['LC', 'NT', 'VU', 'EN', 'CR', 'EW', 'EX'] as const;
 
+// Khớp token --iucn-* (tài liệu 02 mục 2): huy hiệu và thang IUCN phải cùng một màu
 export const IUCN_COLORS: Record<ConservationStatus, string> = {
-  LC: '#48c774',
-  NT: '#29b6f6',
-  VU: '#ffdd57',
-  EN: '#ff9800',
-  CR: '#f14668',
-  EW: '#363636',
+  LC: '#60c659',
+  NT: '#cce226',
+  VU: '#f9e814',
+  EN: '#fc7f3f',
+  CR: '#d81e05',
+  EW: '#542344',
   EX: '#000000',
 };
 
@@ -26,6 +27,26 @@ export function parseEnvironmentSpecs(s: string): ParsedEnvironmentSpecs {
   };
 
   if (!s || s.trim().length === 0) return result;
+  // Chuỗi gõ tay có thể ở dạng NFD (dấu tách rời): chuẩn hóa để regex có dấu khớp được
+  s = s.normalize('NFC');
+
+  // Môi trường sống: phần sau "Môi trường:" (tài liệu 04 mục 7)
+  const habitatMatch = s.match(/Môi trường:\s*(.+)$/i);
+  if (habitatMatch) {
+    result.habitat = habitatMatch[1]!.trim();
+  }
+
+  // Nhiệt độ ban đêm, ví dụ "ngày 18-26°C, đêm 10-15°C"
+  const nightMatch = s.match(/đêm\s*(\d+)-(\d+)°C/i);
+  if (nightMatch) {
+    result.nightTempMin = parseInt(nightMatch[1]!, 10);
+    result.nightTempMax = parseInt(nightMatch[2]!, 10);
+  }
+
+  // "Độ ẩm: không áp dụng" (loài thủy sinh) khác với chuỗi không đọc được
+  if (/Độ ẩm:\s*không áp dụng/i.test(s)) {
+    result.humidityNotApplicable = true;
+  }
 
   // Nhiệt độ nước (Water temperature)
   const waterMatch = s.match(/Nhiệt độ nước:\s*(\d+)-(\d+)°C/i);

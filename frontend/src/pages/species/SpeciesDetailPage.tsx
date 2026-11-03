@@ -11,13 +11,14 @@ import { MasonryGallery } from '@/components/domain/MasonryGallery';
 import { SpeciesCard } from '@/components/domain/SpeciesCard';
 import { ProductCard } from '@/components/domain/ProductCard';
 import { normalizeBreadcrumbs } from '@/components/domain/TaxonPath';
-import { SEED_TAXONOMY } from '@/mocks/data/taxonomy';
-import { Quote, ShoppingBag, Sparkles, ShieldCheck } from 'lucide-react';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { ApiError } from '@/api/errors';
+import { AlertTriangle, Quote, ShoppingBag, Sparkles, ShieldCheck } from 'lucide-react';
 
 export const SpeciesDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const speciesId = id ? parseInt(id, 10) : NaN;
-  const isInvalid = isNaN(speciesId) || speciesId <= 0;
+  const speciesId = id ? Number(id) : NaN;
+  const isInvalid = !Number.isInteger(speciesId) || speciesId <= 0;
 
   // 1. Nạp chi tiết loài
   const speciesQuery = useSpeciesDetail(speciesId, {
@@ -36,9 +37,11 @@ export const SpeciesDetailPage: React.FC = () => {
     speciesId: !isInvalid ? speciesId : undefined,
   });
 
-  // 4. Nạp toàn bộ danh mục loài để tìm loài cùng chi hoặc cùng họ
-  const allSpeciesQuery = useSpeciesList();
-  const allSpecies = allSpeciesQuery.data || [];
+  // 4. Loài họ hàng: cùng chi trước, không có thì cùng họ (nút cha của chi lấy từ breadcrumbs)
+  const genusNode = taxonomyQuery.data?.node;
+  const familyNodeId = genusNode?.parentId ?? undefined;
+  const sameGenusQuery = useSpeciesList(species?.nodeId ? { nodeId: species.nodeId } : undefined);
+  const sameFamilyQuery = useSpeciesList(familyNodeId ? { nodeId: familyNodeId } : undefined);
 
   // Danh sách cá thể APPROVED đang mở bán
   const approvedProducts = useMemo(() => {
@@ -48,21 +51,11 @@ export const SpeciesDetailPage: React.FC = () => {
   // Tìm các loài cùng chi (hoặc cùng họ)
   const siblingSpecies = useMemo(() => {
     if (!species) return [];
-
-    // Tìm cùng chi trước
-    const sameGenus = allSpecies.filter((s) => s.id !== species.id && s.nodeId === species.nodeId);
+    const sameGenus = (species.nodeId ? sameGenusQuery.data || [] : []).filter((s) => s.id !== species.id);
     if (sameGenus.length > 0) return sameGenus;
-
-    // Nếu chi chỉ có 1 loài, tìm cùng họ (parent family)
-    const currentGenusNode = SEED_TAXONOMY.find((n) => n.id === species.nodeId);
-    if (currentGenusNode && currentGenusNode.parentId) {
-      const familyNodeId = currentGenusNode.parentId;
-      const siblingGenera = SEED_TAXONOMY.filter((n) => n.parentId === familyNodeId).map((n) => n.id);
-      return allSpecies.filter((s) => s.id !== species.id && siblingGenera.includes(s.nodeId));
-    }
-
-    return allSpecies.filter((s) => s.id !== species.id && s.group === species.group).slice(0, 3);
-  }, [species, allSpecies]);
+    if (!familyNodeId) return [];
+    return (sameFamilyQuery.data || []).filter((s) => s.id !== species.id).slice(0, 4);
+  }, [species, sameGenusQuery.data, sameFamilyQuery.data, familyNodeId]);
 
   // Chuỗi phả hệ breadcrumbs
   const breadcrumbs = useMemo(() => {
@@ -71,14 +64,32 @@ export const SpeciesDetailPage: React.FC = () => {
     return normalizeBreadcrumbs(rawCrumb, parentNode);
   }, [taxonomyQuery.data]);
 
-  // Trạng thái 404 khi mã loài không tồn tại
-  if (isInvalid || (speciesQuery.isError && !speciesQuery.isLoading) || (!speciesQuery.isLoading && !species)) {
+  // Chỉ báo 404 khi id sai hoặc API xác nhận không tồn tại; lỗi mạng hay 500 thì cho thử lại
+  const loadError = speciesQuery.error;
+  const isNotFound =
+    isInvalid ||
+    (loadError instanceof ApiError && (loadError.status === 404 || loadError.status === 400)) ||
+    (speciesQuery.isSuccess && !species);
+  if (isNotFound) {
     return <SpeciesNotFound />;
+  }
+
+  if (speciesQuery.isError) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
+        <EmptyState
+          icon={<AlertTriangle className="size-7" aria-hidden="true" />}
+          title="Không tải được hồ sơ loài"
+          description="Máy chủ BioNexus đang không phản hồi. Vui lòng kiểm tra kết nối rồi thử lại."
+          action={{ label: 'Thử lại', onClick: () => void speciesQuery.refetch() }}
+        />
+      </div>
+    );
   }
 
   if (speciesQuery.isLoading || !species) {
     return (
-      <div className="flex min-h-[75vh] items-center justify-center">
+      <div className="flex min-h-[75vh] items-center justify-center" role="status">
         <div className="flex flex-col items-center gap-3">
           <div className="size-10 animate-spin rounded-full border-2 border-accent border-t-transparent shadow-[0_0_15px_rgba(110,231,183,0.3)]" />
           <p className="font-mono text-xs text-fg-3 uppercase tracking-widest">
@@ -100,7 +111,7 @@ export const SpeciesDetailPage: React.FC = () => {
       {/* 3. MÔ TẢ SINH HỌC & TRÍCH DẪN LỚN (PULL QUOTE) */}
       <section className="rounded-3xl border border-line bg-surface-1/70 p-6 sm:p-10 backdrop-blur-xl shadow-xl space-y-6">
         <div className="flex items-center gap-2">
-          <Sparkles className="size-4 text-accent" />
+          <Sparkles className="size-4 text-accent" aria-hidden="true" />
           <span className="text-[11px] font-mono uppercase tracking-widest text-accent font-semibold">
             Chuyên khảo đặc tính sinh học
           </span>
@@ -109,7 +120,7 @@ export const SpeciesDetailPage: React.FC = () => {
         {/* Trích dẫn lớn Cormorant Garamond */}
         {species.pullQuote && (
           <div className="relative border-l-4 border-accent pl-6 sm:pl-8 py-2">
-            <Quote className="absolute -top-3 -left-3 size-6 text-accent/30 pointer-events-none" />
+            <Quote className="absolute -top-3 -left-3 size-6 text-accent/30 pointer-events-none" aria-hidden="true" />
             <blockquote className="font-serif italic text-xl sm:text-2xl text-fg leading-relaxed">
               &quot;{species.pullQuote}&quot;
             </blockquote>
@@ -158,7 +169,7 @@ export const SpeciesDetailPage: React.FC = () => {
             </h2>
           </div>
           <p className="text-xs text-fg-3 hidden sm:block">
-            Nhấp chuột vào ảnh để mở trình xem lớn (Lightbox)
+            Nhấp vào ảnh để mở trình xem ảnh lớn
           </p>
         </div>
 
@@ -175,7 +186,7 @@ export const SpeciesDetailPage: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <span className="text-[11px] font-mono uppercase tracking-widest text-accent font-semibold flex items-center gap-1.5">
-              <ShieldCheck className="size-3.5 text-accent" />
+              <ShieldCheck className="size-3.5 text-accent" aria-hidden="true" />
               Sàn giao dịch sinh vật cảnh
             </span>
             <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-fg font-sans">
@@ -190,7 +201,7 @@ export const SpeciesDetailPage: React.FC = () => {
 
         {approvedProducts.length === 0 ? (
           <div className="flex flex-col items-center justify-center rounded-2xl border border-line bg-surface p-8 text-center text-xs text-fg-3 max-w-lg mx-auto">
-            <ShoppingBag className="size-8 text-fg-mute mb-2 opacity-50" />
+            <ShoppingBag className="size-8 text-fg-3 mb-2 opacity-50" aria-hidden="true" />
             <p className="font-semibold text-fg-2">Chưa có cửa hàng nào bán cá thể loài này</p>
             <p className="mt-1 leading-relaxed">
               Các giao dịch cá thể cảnh tại BioNexus bắt buộc phải có giấy phép nhân tạo F2+ và được kiểm duyệt pháp lý.

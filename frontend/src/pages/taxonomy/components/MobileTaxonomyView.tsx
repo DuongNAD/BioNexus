@@ -4,8 +4,7 @@ import { ArrowLeft, ChevronDown, ChevronUp, Layers } from 'lucide-react';
 import type { TaxonomyNodeDto, SpeciesDto } from '@/types/api';
 import { TaxonRow } from './TaxonRow';
 import { SpeciesCardCompact } from './SpeciesCardCompact';
-import { TaxonRankChip } from '@/components/domain/TaxonRankChip';
-import { Button } from '@/components/ui/Button';
+import { TaxonRankChip, RANK_INFO } from '@/components/domain/TaxonRankChip';
 import type { ThumbnailItem } from './ThumbnailStack';
 import { cn } from '@/lib/cn';
 
@@ -14,6 +13,8 @@ export interface MobileTaxonomyViewProps {
   breadcrumbs: TaxonomyNodeDto[];
   childrenNodes: TaxonomyNodeDto[];
   speciesList: SpeciesDto[];
+  /** Tổng số loài dưới toàn bộ nhánh (không chỉ loài trực thuộc chi) */
+  branchSpeciesCount: number;
   onSelectNode: (node: TaxonomyNodeDto) => void;
   thumbnailsMap?: Record<number, ThumbnailItem[]>;
   productCounts?: Record<number, number>;
@@ -24,6 +25,7 @@ export const MobileTaxonomyView: React.FC<MobileTaxonomyViewProps> = ({
   breadcrumbs,
   childrenNodes,
   speciesList,
+  branchSpeciesCount,
   onSelectNode,
   thumbnailsMap = {},
   productCounts = {},
@@ -44,8 +46,11 @@ export const MobileTaxonomyView: React.FC<MobileTaxonomyViewProps> = ({
           onClick={() => onSelectNode(parentNode)}
           className="flex items-center gap-2 text-xs font-semibold text-accent hover:underline py-1"
         >
-          <ArrowLeft className="size-3.5" />
-          <span>Quay lại {parentNode.scientificName} ({parentNode.commonName || parentNode.rankLevel || parentNode.rank})</span>
+          <ArrowLeft className="size-3.5" aria-hidden="true" />
+          <span>
+            Quay lại {parentNode.scientificName} (
+            {parentNode.commonName || RANK_INFO[parentNode.rankLevel || parentNode.rank]?.labelVi})
+          </span>
         </button>
       )}
 
@@ -111,26 +116,30 @@ export const MobileTaxonomyView: React.FC<MobileTaxonomyViewProps> = ({
         <button
           type="button"
           onClick={() => setIsSummaryOpen(!isSummaryOpen)}
+          aria-expanded={isSummaryOpen}
+          aria-controls="taxonomy-mobile-summary"
           className="flex w-full items-center justify-between p-4 text-xs font-semibold text-fg hover:bg-surface-2 transition-colors"
         >
           <span className="flex items-center gap-2">
-            <Layers className="size-4 text-accent" />
+            <Layers className="size-4 text-accent" aria-hidden="true" />
             Tóm tắt toàn bộ phân nhánh
           </span>
-          {isSummaryOpen ? <ChevronUp className="size-4" /> : <ChevronDown className="size-4" />}
+          {isSummaryOpen ? (
+            <ChevronUp className="size-4" aria-hidden="true" />
+          ) : (
+            <ChevronDown className="size-4" aria-hidden="true" />
+          )}
         </button>
 
         {isSummaryOpen && (
-          <div className="border-t border-line p-4 space-y-3 bg-surface-2/40 text-xs">
+          <div id="taxonomy-mobile-summary" className="border-t border-line p-4 space-y-3 bg-surface-2/40 text-xs">
             <div className="flex justify-between text-fg-2">
               <span>Tổng số loài trong nhánh:</span>
-              <strong className="text-accent font-mono">{speciesList.length}</strong>
+              <strong className="text-accent font-mono">{branchSpeciesCount}</strong>
             </div>
 
-            <Link to={`/species?node=${currentNode.id}`} className="w-full block pt-1">
-              <Button variant="primary" size="sm" className="w-full text-xs">
-                Xem tất cả loài trong nhánh trên Bách khoa
-              </Button>
+            <Link to={`/species?node=${currentNode.id}`} className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-lg bg-accent px-3 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
+              Xem tất cả loài trong nhánh trên Bách khoa
             </Link>
           </div>
         )}

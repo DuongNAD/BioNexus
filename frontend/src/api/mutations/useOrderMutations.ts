@@ -14,10 +14,12 @@ export function usePlaceOrder() {
       });
       return res.data!;
     },
-    onSuccess: () => {
+    // Chạy cả khi lỗi: 409 hết hàng nghĩa là available/maxQuantity của giỏ và tồn kho đã đổi
+    onSettled: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.cart.current() });
       queryClient.invalidateQueries({ queryKey: queryKeys.orders.all() });
       queryClient.invalidateQueries({ queryKey: queryKeys.products.all() });
+      queryClient.invalidateQueries({ queryKey: queryKeys.species.all() });
     },
   });
 }

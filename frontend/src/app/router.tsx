@@ -1,7 +1,9 @@
 import React from 'react';
-import { createHashRouter, type RouteObject } from 'react-router';
+import { createHashRouter, Outlet, ScrollRestoration, type RouteObject } from 'react-router';
 import { APP_ROUTES, type RouteMeta } from './routes';
 import { RootLayout } from '@/components/layout/RootLayout';
+import { RequireAuth, RequireRole } from '@/components/auth/RouteGuards';
+import RouteErrorPage from '@/pages/RouteErrorPage';
 const AuthLayout = React.lazy(() => import('@/components/layout/AuthLayout').then((m) => ({ default: m.AuthLayout })));
 const AccountLayout = React.lazy(() => import('@/components/layout/AccountLayout').then((m) => ({ default: m.AccountLayout })));
 const AdminLayout = React.lazy(() => import('@/components/layout/AdminLayout').then((m) => ({ default: m.AdminLayout })));
@@ -253,67 +255,78 @@ function getRouteElement(route: RouteMeta): React.JSX.Element {
   }
 }
 
-// 1. Root Layout Routes
-const rootMeta = APP_ROUTES.filter((r) => r.layout === 'root');
-const rootChildren: RouteObject[] = rootMeta.map((r) => {
-  if (r.path === '/') {
-    return {
-      index: true,
-      element: getRouteElement(r),
-    };
+/** Đặt tiêu đề tab theo route (WCAG 2.4.2). Trang con có thể đặt tiêu đề cụ thể hơn trong useEffect của nó */
+function RouteFrame({ route, children }: { route: RouteMeta; children: React.ReactNode }): React.JSX.Element {
+  React.useLayoutEffect(() => {
+    document.title = route.title.includes('BioNexus') ? route.title : `${route.title} · BioNexus`;
+  }, [route.title]);
+  return <>{children}</>;
+}
+
+function buildElement(route: RouteMeta): React.JSX.Element {
+  let element = getRouteElement(route);
+  if (route.access === 'user') {
+    element = <RequireAuth>{element}</RequireAuth>;
+  } else if (route.access === 'admin') {
+    element = <RequireRole allowedRoles={route.roles}>{element}</RequireRole>;
   }
-  const relativePath = r.path.startsWith('/') ? r.path.slice(1) : r.path;
+  return <RouteFrame route={route}>{element}</RouteFrame>;
+}
+
+function toChild(route: RouteMeta): RouteObject {
+  // errorElement ở từng route con để lỗi một trang vẫn giữ navbar của layout
+  if (route.path === '/') {
+    return { index: true, element: buildElement(route), errorElement: <RouteErrorPage /> };
+  }
   return {
-    path: relativePath,
-    element: getRouteElement(r),
+    path: route.path.startsWith('/') ? route.path.slice(1) : route.path,
+    element: buildElement(route),
+    errorElement: <RouteErrorPage />,
   };
-});
+}
 
-// 2. Auth Layout Routes
-const authMeta = APP_ROUTES.filter((r) => r.layout === 'auth');
-const authChildren: RouteObject[] = authMeta.map((r) => ({
-  path: r.path.startsWith('/') ? r.path.slice(1) : r.path,
-  element: getRouteElement(r),
-}));
+const ACTIVE_ROUTES = APP_ROUTES.filter((r) => !r.devOnly || import.meta.env.DEV);
+const childrenOf = (layouts: RouteMeta['layout'][]): RouteObject[] =>
+  ACTIVE_ROUTES.filter((r) => layouts.includes(r.layout)).map(toChild);
 
-// 3. Account / Seller Layout Routes
-const accountMeta = APP_ROUTES.filter((r) => r.layout === 'account' || r.layout === 'seller');
-const accountChildren: RouteObject[] = accountMeta.map((r) => ({
-  path: r.path.startsWith('/') ? r.path.slice(1) : r.path,
-  element: getRouteElement(r),
-}));
-
-// 4. Admin Layout Routes
-const adminMeta = APP_ROUTES.filter((r) => r.layout === 'admin');
-const adminChildren: RouteObject[] = adminMeta.map((r) => ({
-  path: r.path.startsWith('/') ? r.path.slice(1) : r.path,
-  element: getRouteElement(r),
-}));
-
-// 5. Standalone Journey Route (/tham-hiem)
-const journeyMeta = APP_ROUTES.filter((r) => r.layout === 'journey');
-const journeyRoutes: RouteObject[] = journeyMeta.map((r) => ({
-  path: r.path,
-  element: getRouteElement(r),
-}));
+/** Khung gốc: đưa cuộn về đầu khi chuyển trang và khôi phục vị trí khi bấm Quay lại */
+function AppShell(): React.JSX.Element {
+  return (
+    <>
+      <ScrollRestoration />
+      <Outlet />
+    </>
+  );
+}
 
 export const router = createHashRouter([
-  ...journeyRoutes,
   {
-    path: '/',
-    element: <RootLayout />,
-    children: rootChildren,
-  },
-  {
-    element: <AuthLayout />,
-    children: authChildren,
-  },
-  {
-    element: <AccountLayout />,
-    children: accountChildren,
-  },
-  {
-    element: <AdminLayout />,
-    children: adminChildren,
+    element: <AppShell />,
+    errorElement: <RouteErrorPage />,
+    children: [
+      ...childrenOf(['journey']),
+      {
+        path: '/',
+        element: <RootLayout />,
+        children: childrenOf(['root']),
+      },
+      {
+        element: <AuthLayout />,
+        children: childrenOf(['auth']),
+      },
+      {
+        element: <AccountLayout />,
+        children: childrenOf(['account', 'seller']),
+      },
+      {
+        // Khách và tài khoản USER không được thấy khung quản trị
+        element: (
+          <RequireRole>
+            <AdminLayout />
+          </RequireRole>
+        ),
+        children: childrenOf(['admin']),
+      },
+    ],
   },
 ]);

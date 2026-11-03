@@ -10,24 +10,12 @@ export interface HelixSceneProps {
   onActiveTaxon?: (index: number) => void;
 }
 
-export const TAXONOMIC_RANKS = [
-  { level: 0, rankEn: 'Domain', rankVi: 'Vực', name: 'Eukaryota', desc: 'Sinh vật nhân thực với màng nhân hoàn chỉnh' },
-  { level: 1, rankEn: 'Kingdom', rankVi: 'Giới', name: 'Animalia / Plantae', desc: 'Động vật đa bào và thực vật có lục lạp' },
-  { level: 2, rankEn: 'Subkingdom', rankVi: 'Phân giới', name: 'Bilateria / Viridiplantae', desc: 'Đối xứng hai bên & thực vật xanh quang hợp' },
-  { level: 3, rankEn: 'Phylum', rankVi: 'Ngành', name: 'Chordata / Tracheophyta', desc: 'Ngành Dây sống & Thực vật có mạch' },
-  { level: 4, rankEn: 'Subphylum', rankVi: 'Phân ngành', name: 'Vertebrata / Euphyllophytina', desc: 'Động vật có xương sống & Thực vật lá thật' },
-  { level: 5, rankEn: 'Class', rankVi: 'Lớp', name: 'Reptilia / Amphibia', desc: 'Lớp Bò sát, Lưỡng cư và Thực vật hai lá mầm' },
-  { level: 6, rankEn: 'Subclass', rankVi: 'Phân lớp', name: 'Lepidosauria / Lissamphibia', desc: 'Thằn lằn vảy và ếch nhái hiện đại' },
-  { level: 7, rankEn: 'Order', rankVi: 'Bộ', name: 'Squamata / Testudines', desc: 'Bộ Có vảy (Trăn, Nhông) & Rùa cạn' },
-  { level: 8, rankEn: 'Suborder', rankVi: 'Phân bộ', name: 'Serpentes / Sauria', desc: 'Phân bộ Rắn, Thằn lằn & Rùa cổ ẩn' },
-  { level: 9, rankEn: 'Family', rankVi: 'Họ', name: 'Pythonidae / Agamidae', desc: 'Họ Trăn, Nhông cát, Kỳ giông & Nắp ấm' },
-  { level: 10, rankEn: 'Subfamily', rankVi: 'Phân họ', name: 'Pythoninae / Agaminae', desc: 'Nhánh tiến hóa thích nghi bán sa mạc' },
-  { level: 11, rankEn: 'Genus', rankVi: 'Chi', name: 'Python / Pogona / Ambystoma', desc: 'Chi Trăn, Rồng Úc, Kỳ giông & Nắp ấm' },
-  { level: 12, rankEn: 'Species Group', rankVi: 'Nhóm loài', name: 'Exotic Native Complexes', desc: 'Quần thể sinh vật cảnh thuần dưỡng F2' },
-  { level: 13, rankEn: 'Species', rankVi: 'Loài', name: 'Axolotl, Ball Python, Rajah...', desc: '9 loài sinh vật cảnh biểu tượng BioNexus' },
-];
+// Dữ liệu cấp phân loại nằm ở taxonomyRanks.ts (không phụ thuộc three.js)
+export { TAXONOMIC_RANKS } from './taxonomyRanks';
 
-const LEVELS = 14;
+/** Số bậc thang trên chuỗi xoắn */
+export const HELIX_LEVELS = 14;
+const LEVELS = HELIX_LEVELS;
 const R = 3.3;
 const DY = 1.05;
 const STEP = 0.62;
@@ -43,7 +31,6 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
   const groupRef = useRef<THREE.Group>(null!);
   const activeIdxRef = useRef<number>(-1);
   const tmpWorldPos = useMemo(() => new THREE.Vector3(), []);
-  const rungPositions = useRef<THREE.Vector3[]>([]);
 
   // 1. Tạo hình học đường ống phát quang sợi đôi (Backbone Tubes)
   const [strandGeo0, strandGeo1] = useMemo(() => {
@@ -69,13 +56,23 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
     };
   }, [strandGeo0, strandGeo1]);
 
-  // Khởi tạo các điểm mút bậc thang
+  // Thanh bậc thang dựng một lần: tạo Float32Array trong JSX sẽ dựng lại attribute ở mỗi lần render
+  const rungGeometries = useMemo(
+    () =>
+      Array.from({ length: LEVELS }, (_, k) => {
+        const geo = new THREE.BufferGeometry();
+        geo.setAttribute(
+          'position',
+          new THREE.BufferAttribute(new Float32Array([...getHelixPoint(k, 0), ...getHelixPoint(k, 1)]), 3)
+        );
+        return geo;
+      }),
+    []
+  );
+
   useEffect(() => {
-    rungPositions.current = Array.from({ length: LEVELS }, (_, k) => {
-      const p = getHelixPoint(k, 0, R + 0.75); // Bán kính ngoài chống cắt xuyên
-      return new THREE.Vector3(...p);
-    });
-  }, []);
+    return () => rungGeometries.forEach((g) => g.dispose());
+  }, [rungGeometries]);
 
   // 2. Vũ đạo cuộn và nhận diện thẻ tích cực
   useFrame((state, dt) => {
@@ -137,19 +134,13 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
         return (
           <group key={k}>
             {/* Thanh cầu bazơ ngang (A-T cyan, G-C emerald) */}
-            <line>
-              <bufferGeometry>
-                <bufferAttribute
-                  attach="attributes-position"
-                  args={[new Float32Array([...p0, ...p1]), 3]}
-                />
-              </bufferGeometry>
+            <lineSegments geometry={rungGeometries[k]}>
               <lineBasicMaterial
                 color={isAT ? '#5eead4' : '#6ee7b7'}
                 transparent
                 opacity={0.35}
               />
-            </line>
+            </lineSegments>
             {/* Mấu mút phát quang */}
             <mesh position={p0}>
               <sphereGeometry args={[0.08, 16, 16]} />

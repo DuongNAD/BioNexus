@@ -1,6 +1,6 @@
 import { http, HttpResponse } from 'msw';
 import { db } from '../db';
-import { authenticateRequest } from '../auth';
+import { requireUser } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { CreateReviewRequest } from '@/types/api';
 
@@ -31,13 +31,9 @@ export const reviewHandlers = [
   // 2. Gửi đánh giá sản phẩm mới
   http.post('*/api/reviews', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'USER') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_UNAUTHORIZED', message: 'Vui lòng đăng nhập để tiếp tục', data: null },
-        { status: 401 }
-      );
-    }
+    const guard = requireUser(request);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     try {
       const body = (await request.json()) as CreateReviewRequest;

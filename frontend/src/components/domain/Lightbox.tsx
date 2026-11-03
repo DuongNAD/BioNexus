@@ -44,15 +44,13 @@ export const Lightbox: React.FC<LightboxProps> = ({
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         handleNext();
-      } else if (e.key === 'Escape') {
-        e.preventDefault();
-        onClose();
       }
+      // Escape do Radix Dialog xử lý (gọi onOpenChange), không bắt lại để tránh gọi onClose hai lần
     };
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [isOpen, handlePrev, handleNext, onClose]);
+  }, [isOpen, handlePrev, handleNext]);
 
   if (!isOpen || photos.length === 0) return null;
 
@@ -70,10 +68,9 @@ export const Lightbox: React.FC<LightboxProps> = ({
         <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/90 backdrop-blur-xl transition-opacity animate-in fade-in-0 duration-200" />
         <DialogPrimitive.Content
           className="fixed inset-0 z-50 flex flex-col items-center justify-between p-4 sm:p-6 text-white focus:outline-none"
-          aria-modal="true"
-          role="dialog"
-          aria-label={currentPhoto.title || 'Trình xem ảnh lớn'}
+          aria-describedby={undefined}
         >
+          <DialogPrimitive.Title className="sr-only">{currentPhoto.title || 'Trình xem ảnh lớn'}</DialogPrimitive.Title>
           {/* Thanh trên: Chỉ số ảnh & Nút đóng */}
           <div className="flex w-full items-center justify-between z-10 max-w-7xl">
             <div className="flex items-center gap-2">
@@ -87,7 +84,6 @@ export const Lightbox: React.FC<LightboxProps> = ({
             </div>
 
             <DialogPrimitive.Close
-              onClick={onClose}
               className="flex size-11 items-center justify-center rounded-full bg-white/10 text-white/80 backdrop-blur-md transition-colors hover:bg-white/20 hover:text-white focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:outline-none"
               aria-label="Đóng trình xem ảnh"
             >

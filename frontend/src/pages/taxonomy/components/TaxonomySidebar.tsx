@@ -4,7 +4,6 @@ import { ArrowRight, Dna } from 'lucide-react';
 import type { TaxonomyNodeDto, SpeciesDto } from '@/types/api';
 import { TaxonRankChip, RANK_INFO } from '@/components/domain/TaxonRankChip';
 import { IucnBadge } from '@/components/ui/IucnBadge';
-import { Button } from '@/components/ui/Button';
 import { extractNames, SPECIES_EXTRAS } from '@/api/adapters';
 import { cn } from '@/lib/cn';
 
@@ -29,7 +28,7 @@ export const TaxonomySidebar: React.FC<TaxonomySidebarProps> = ({
           className
         )}
       >
-        <Dna className="size-8 mx-auto text-accent mb-2 opacity-50" />
+        <Dna className="size-8 mx-auto text-accent mb-2 opacity-50" aria-hidden="true" />
         Chọn một nhánh phân loại để xem chi tiết phả hệ và số liệu sinh thái.
       </aside>
     );
@@ -40,9 +39,8 @@ export const TaxonomySidebar: React.FC<TaxonomySidebarProps> = ({
   const rankInfo = rank ? RANK_INFO[rank] : undefined;
   const prominentSpecies = branchSpecies[0];
   const prominentExtra = prominentSpecies ? SPECIES_EXTRAS[prominentSpecies.scientificName] : undefined;
-  const prominentPhoto = prominentExtra
-    ? `photos/${prominentExtra.slug}/hero-960.webp`
-    : prominentSpecies?.imageURL;
+  // Ảnh seed là URL giả bionexus.vn: chỉ dùng ảnh thật trong public/photos
+  const prominentPhoto = prominentExtra ? `photos/${prominentExtra.slug}/hero-960.webp` : undefined;
 
   return (
     <aside
@@ -147,11 +145,12 @@ export const TaxonomySidebar: React.FC<TaxonomySidebarProps> = ({
 
       {/* CTA Button dẫn tới /species?node=:id */}
       <div className="pt-2">
-        <Link to={`/species?node=${activeNode.id}`} className="w-full block">
-          <Button variant="primary" className="w-full gap-2 text-xs">
-            Xem tất cả loài trong nhánh ({branchSpecies.length})
-            <ArrowRight className="size-3.5" />
-          </Button>
+        <Link
+          to={`/species?node=${activeNode.id}`}
+          className="inline-flex h-10 w-full items-center justify-center gap-2 rounded-lg bg-accent px-4 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+        >
+          Xem tất cả loài trong nhánh ({branchSpecies.length})
+          <ArrowRight className="size-3.5" aria-hidden="true" />
         </Link>
       </div>
     </aside>

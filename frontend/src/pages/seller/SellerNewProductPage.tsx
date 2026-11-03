@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -17,7 +17,10 @@ import { Select } from '@/components/ui/Select';
 import { Price } from '@/components/ui/Price';
 import { Badge } from '@/components/ui/Badge';
 import { IucnBadge } from '@/components/ui/IucnBadge';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useMe } from '@/api/queries/useAuthQueries';
+import { ApiError } from '@/api/errors';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { useCreateProduct } from '@/api/mutations/useSellerMutations';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
@@ -32,7 +35,10 @@ const newProductSchema = z.object({
     .min(5, 'Tên cá thể thương mại phải có ít nhất 5 ký tự')
     .max(100, 'Tên cá thể không được vượt quá 100 ký tự'),
   price: z.coerce.number().min(10000, 'Giá bán niêm yết tối thiểu là 10.000 ₫'),
-  stockQuantity: z.coerce.number().min(1, 'Số lượng cá thể đăng bán ban đầu tối thiểu là 1'),
+  stockQuantity: z.coerce
+    .number()
+    .int('Số lượng phải là số nguyên')
+    .min(1, 'Số lượng cá thể đăng bán ban đầu tối thiểu là 1'),
   description: z
     .string()
     .min(20, 'Mô tả chi tiết thể trạng cá thể cần tối thiểu 20 ký tự')
@@ -45,7 +51,8 @@ const newProductSchema = z.object({
 type NewProductFormData = z.infer<typeof newProductSchema>;
 
 export default function SellerNewProductPage(): React.JSX.Element {
-  const { data: me } = useMe();
+  const navigate = useNavigate();
+  const { data: me, isLoading: isMeLoading, isError: isMeError, error: meError, refetch: refetchMe } = useMe();
   const shop = me?.shop;
 
   const { data: speciesList = [] } = useSpeciesList();
@@ -77,7 +84,7 @@ export default function SellerNewProductPage(): React.JSX.Element {
   // Tự động gợi ý ảnh khi đổi loài
   const handleSpeciesChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const sId = Number(e.target.value);
-    setValue('speciesId', sId);
+    setValue('speciesId', sId, { shouldValidate: true });
     const sp = speciesList.find((s: SpeciesViewModel) => s.id === sId);
     if (sp) {
       const extra = SPECIES_EXTRAS[sp.scientificName];
@@ -89,7 +96,7 @@ export default function SellerNewProductPage(): React.JSX.Element {
 
   const onSubmit = async (values: NewProductFormData) => {
     try {
-      await createProductMutation.mutateAsync({
+      const created = await createProductMutation.mutateAsync({
         speciesId: values.speciesId,
         productName: values.productName.trim(),
         price: values.price,
@@ -98,25 +105,54 @@ export default function SellerNewProductPage(): React.JSX.Element {
         imageUrl: values.imageUrl.trim(),
       });
 
-      toast.success('Đã gửi thông tin cá thể lên hàng đợi kiểm duyệt Admin (PENDING)!');
-      window.location.hash = '#/seller';
-    } catch (err: any) {
-      toast.error(err.message || 'Không thể tạo hồ sơ sản phẩm');
+      toast.success('Đã gửi, đang chờ kiểm duyệt');
+      // Tài liệu 03 mục 13: về /seller và tô sáng dòng mới
+      navigate(`/seller?moi=${created.id}`);
+    } catch (err) {
+      if (err instanceof ApiError && err.code === 'SELLER_NOT_ACTIVE') {
+        // Shop vừa bị đổi trạng thái: tải lại hồ sơ để hiện thẻ trạng thái thay cho form
+        void refetchMe();
+      }
+      toast.error(err instanceof Error && err.message ? err.message : 'Không thể tạo hồ sơ sản phẩm');
     }
   };
 
-  // Kiểm tra quyền
+  if (isMeLoading) {
+    return <div className="h-96 max-w-6xl rounded-2xl bg-surface animate-pulse" role="status" aria-label="Đang kiểm tra shop" />;
+  }
+
+  if (isMeError) {
+    return <QueryErrorState title="Không tải được thông tin shop" error={meError} onRetry={() => refetchMe()} />;
+  }
+
+  // Tài liệu 03 mục 13: shop chưa ACTIVE thì hiện trạng thái shop kèm hướng dẫn, không hiện form
   if (!shop || shop.status !== 'ACTIVE') {
+    const statusCopy: Record<string, { title: string; body: string }> = {
+      PENDING: {
+        title: 'Hồ sơ shop đang chờ duyệt',
+        body: `Shop "${shop?.shopName ?? ''}" đang được Ban Quản trị kiểm tra giấy phép. Bạn sẽ đăng bán được ngay khi shop được duyệt.`,
+      },
+      REJECTED: {
+        title: 'Hồ sơ shop chưa được duyệt',
+        body: 'Shop của bạn chưa được phê duyệt nên chưa thể đăng bán. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn.',
+      },
+      BANNED: {
+        title: 'Shop đang bị khóa',
+        body: 'Shop của bạn đang bị khóa nên không thể đăng bán. Vui lòng liên hệ Ban Quản trị BioNexus.',
+      },
+    };
+    const copy = (shop && statusCopy[shop.status]) || {
+      title: 'Bạn chưa có shop',
+      body: 'Hãy đăng ký mở shop và chờ Ban Quản trị duyệt trước khi đăng bán cá thể.',
+    };
     return (
       <div className="rounded-2xl border border-line bg-surface p-8 text-center max-w-lg mx-auto space-y-4">
-        <Store className="size-12 text-fg-3 mx-auto" />
-        <h2 className="text-xl font-bold text-fg">Chưa được cấp phép đăng bán</h2>
-        <p className="text-xs text-fg-2">
-          Chỉ các cơ sở nhân giống có trạng thái hoạt động (ACTIVE) mới được niêm yết cá thể lên sàn BioNexus.
-        </p>
-        <Link to="/seller">
-          <Button variant="primary" pill>Về Kênh người bán</Button>
-        </Link>
+        <Store className="size-12 text-fg-3 mx-auto" aria-hidden="true" />
+        <h1 className="text-xl font-bold text-fg">{copy.title}</h1>
+        <p className="text-sm text-fg-2">{copy.body}</p>
+        <ButtonLink to={shop ? '/account' : '/seller/apply'} variant="primary" pill>
+          {shop ? 'Xem trạng thái shop' : 'Đăng ký mở shop'}
+        </ButtonLink>
       </div>
     );
   }
@@ -125,7 +161,7 @@ export default function SellerNewProductPage(): React.JSX.Element {
     <div className="space-y-8 max-w-6xl">
       <div>
         <Link to="/seller" className="inline-flex items-center gap-1.5 text-xs text-fg-3 hover:text-accent transition-colors mb-2">
-          <ArrowLeft className="size-3.5" />
+          <ArrowLeft className="size-3.5" aria-hidden="true" />
           <span>Quay lại Bảng điều khiển Shop</span>
         </Link>
         <h1 className="text-2xl font-bold tracking-tight text-fg font-sans">
@@ -274,10 +310,10 @@ export default function SellerNewProductPage(): React.JSX.Element {
           </form>
         </div>
 
-        {/* Cột phải (40% Live Sticky Preview): Xem trước thẻ ProductCard */}
+        {/* Cột phải (40%, dính): xem trước thẻ ProductCard */}
         <aside className="lg:col-span-5 sticky top-24 space-y-4">
           <span className="text-xs uppercase font-mono font-bold tracking-wider text-accent block">
-            Xem trước hiển thị trên sàn (Live Sticky Preview)
+            Xem trước hiển thị trên sàn
           </span>
 
           <div className="relative rounded-2xl overflow-hidden border-2 border-dashed border-accent/40 bg-surface-1 p-3 shadow-2xl">
@@ -326,7 +362,7 @@ export default function SellerNewProductPage(): React.JSX.Element {
                 </h4>
 
                 {selectedSpecies && (
-                  <p className="text-xs italic text-fg-mute font-serif line-clamp-1">
+                  <p className="text-xs italic text-fg-3 font-serif line-clamp-1">
                     {selectedSpecies.scientificName} · {selectedSpecies.commonName}
                   </p>
                 )}

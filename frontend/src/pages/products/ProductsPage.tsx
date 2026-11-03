@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
-import { useSearchParams, Link } from 'react-router';
+import { useSearchParams, useNavigate, Link } from 'react-router';
 import { Search, RotateCcw, SlidersHorizontal, ArrowRight, ShieldCheck, Sparkles, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
@@ -10,8 +10,10 @@ import { EmptyState } from '@/components/ui/EmptyState';
 import { Ticker } from '@/components/ui/Ticker';
 import { ProductCard } from '@/components/domain/ProductCard';
 import { triggerFlyToCart } from '@/components/domain/FlyToCart';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
+import { useAuthState } from '@/api/queries/useAuthQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
 import { SPECIES_EXTRAS } from '@/content/species-extras';
@@ -32,6 +34,8 @@ const IUCN_OPTIONS: { code: ConservationStatus; color: string; label: string }[]
 
 export default function ProductsPage(): React.JSX.Element {
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const auth = useAuthState();
   const addToCartMutation = useAddToCart();
 
   // Đọc params từ URL
@@ -52,12 +56,22 @@ export default function ProductsPage(): React.JSX.Element {
   // Queries
   const { data: speciesList = [] } = useSpeciesList();
 
-  const { data: productsData, isLoading } = useProducts({
+  // Lấy trang lớn nhất hợp đồng cho phép (size ≤ 48) rồi lọc giá/nhóm/IUCN ở client (ghi trong HANDOFF)
+  const {
+    data: productsData,
+    isLoading,
+    isError,
+    error,
+    refetch,
+    isRefetching,
+  } = useProducts({
     speciesId: querySpeciesId,
     q: querySearch || undefined,
+    size: 48,
   });
 
   const allProducts = productsData?.items || [];
+  const totalOnSale = productsData?.total ?? allProducts.length;
 
   // Đồng bộ search input khi URL thay đổi
   useEffect(() => {
@@ -166,15 +180,30 @@ export default function ProductsPage(): React.JSX.Element {
 
   const handleQuickAdd = (productId: number, event: React.MouseEvent<HTMLButtonElement>) => {
     const product = allProducts.find((p) => p.id === productId);
-    triggerFlyToCart(event, product?.displayImage);
 
+    // Khách thì mời đăng nhập thay vì gửi request (401) và chạy hiệu ứng bay vào giỏ giả
+    if (!auth.token) {
+      toast.info('Đăng nhập để thêm cá thể vào giỏ hàng', {
+        action: {
+          label: 'Đăng nhập',
+          onClick: () => navigate(`/login?next=${encodeURIComponent('/products')}`),
+        },
+      });
+      return;
+    }
+    if (auth.accountType !== 'USER') {
+      toast.error('Tài khoản quản trị không dùng được giỏ hàng.');
+      return;
+    }
+
+    triggerFlyToCart(event, product?.displayImage);
     addToCartMutation.mutate(
       { productId, quantity: 1 },
       {
         onSuccess: () => {
           toast.success(`Đã thêm "${product?.productName || 'Cá thể'}" vào giỏ hàng`);
         },
-        onError: (err: any) => {
+        onError: (err) => {
           toast.error(err.message || 'Không thể thêm vào giỏ hàng');
         },
       }
@@ -191,7 +220,7 @@ export default function ProductsPage(): React.JSX.Element {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-line bg-surface/60 px-3 py-1 text-xs font-mono text-accent mb-4 backdrop-blur-md">
-                <ShieldCheck className="size-3.5" />
+                <ShieldCheck className="size-3.5" aria-hidden="true" />
                 <span>100% Nhân giống nhân tạo F2+ · CITES</span>
               </div>
               <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-fg font-sans">
@@ -204,11 +233,11 @@ export default function ProductsPage(): React.JSX.Element {
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-4 text-center min-w-[140px]">
-                <span className="block text-xs text-fg-3 uppercase tracking-wider font-mono">Đang mở bán</span>
+                <span className="block text-xs text-fg-3 uppercase tracking-wider">Đang mở bán</span>
                 <div className="text-3xl font-bold text-accent font-mono mt-0.5">
-                  <Ticker value={allProducts.length} duration={800} />
+                  <Ticker value={totalOnSale} duration={800} />
                 </div>
-                <span className="text-[11px] text-fg-mute font-sans">cá thể đạt chuẩn</span>
+                <span className="text-xs text-fg-3 font-sans">sản phẩm đã kiểm duyệt</span>
               </div>
 
               <div className="flex flex-col gap-2">
@@ -217,14 +246,14 @@ export default function ProductsPage(): React.JSX.Element {
                   className="inline-flex items-center gap-1.5 text-xs text-fg-2 hover:text-accent transition-colors font-medium"
                 >
                   <span>Cây phân loại 6 cấp</span>
-                  <ArrowRight className="size-3.5" />
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
                 </Link>
                 <Link
                   to="/species"
                   className="inline-flex items-center gap-1.5 text-xs text-fg-2 hover:text-accent transition-colors font-medium"
                 >
                   <span>Bách khoa toàn thư loài</span>
-                  <ArrowRight className="size-3.5" />
+                  <ArrowRight className="size-3.5" aria-hidden="true" />
                 </Link>
               </div>
             </div>
@@ -234,11 +263,9 @@ export default function ProductsPage(): React.JSX.Element {
           {featuredItems.length >= 3 && featuredItems[0] && (
             <div className="mt-10 grid grid-cols-1 lg:grid-cols-12 gap-6">
               {/* Ô lớn bên trái (chiếm 6/12 hoặc 7/12 cột) */}
-              <div
-                onClick={() => {
-                  window.location.hash = `#/products/${featuredItems[0]!.id}`;
-                }}
-                className="lg:col-span-6 relative aspect-[16/10] md:aspect-[16/9] lg:aspect-auto lg:h-[360px] rounded-2xl overflow-hidden border border-line bg-surface-2 group cursor-pointer shadow-xl"
+              <Link
+                to={`/products/${featuredItems[0]!.id}`}
+                className="lg:col-span-6 relative block aspect-[16/10] md:aspect-[16/9] lg:aspect-auto lg:h-[360px] rounded-2xl overflow-hidden border border-line bg-surface-2 group shadow-xl focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
               >
                 <img
                   src={featuredItems[0]!.displayImage}
@@ -248,7 +275,7 @@ export default function ProductsPage(): React.JSX.Element {
                 <div className="absolute inset-0 bg-gradient-to-t from-bg-deep/95 via-bg-deep/40 to-transparent" />
                 <div className="absolute top-4 left-4 z-10">
                   <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/40 bg-black/60 px-3 py-1 text-xs font-mono text-accent backdrop-blur-md">
-                    <Sparkles className="size-3.5" /> Tuyển chọn sinh quyển
+                    <Sparkles className="size-3.5" aria-hidden="true" /> Tuyển chọn sinh quyển
                   </span>
                 </div>
                 <div className="absolute bottom-5 left-5 right-5 z-10">
@@ -259,7 +286,7 @@ export default function ProductsPage(): React.JSX.Element {
                     {featuredItems[0]!.productName}
                   </h3>
                   {featuredItems[0]!.speciesScientificName && (
-                    <p className="text-xs italic text-fg-mute font-serif mb-2">
+                    <p className="text-xs italic text-fg-2 font-serif mb-2">
                       {featuredItems[0]!.speciesScientificName}
                     </p>
                   )}
@@ -267,22 +294,23 @@ export default function ProductsPage(): React.JSX.Element {
                     <span className="text-lg font-bold text-accent font-mono">
                       {formatVnd(featuredItems[0]!.price)}
                     </span>
-                    <Button size="sm" pill variant="primary" className="text-xs">
+                    <span
+                      className="inline-flex h-8 items-center rounded-full bg-accent px-3 text-xs font-semibold text-accent-ink"
+                      aria-hidden="true"
+                    >
                       Khám phá cá thể →
-                    </Button>
+                    </span>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 2 Ô nhỏ bên phải (mỗi ô 3/12 cột hoặc xếp chồng) */}
               <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {featuredItems.slice(1, 3).map((item) => (
-                  <div
+                  <Link
                     key={item.id}
-                    onClick={() => {
-                      window.location.hash = `#/products/${item.id}`;
-                    }}
-                    className="relative aspect-[4/3] lg:aspect-auto lg:h-[360px] rounded-2xl overflow-hidden border border-line bg-surface-2 group cursor-pointer shadow-xl flex flex-col justify-end p-5"
+                    to={`/products/${item.id}`}
+                    className="relative aspect-[4/3] lg:aspect-auto lg:h-[360px] rounded-2xl overflow-hidden border border-line bg-surface-2 group shadow-xl flex flex-col justify-end p-5 focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
                   >
                     <img
                       src={item.displayImage}
@@ -301,7 +329,7 @@ export default function ProductsPage(): React.JSX.Element {
                         {formatVnd(item.price)}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -315,16 +343,16 @@ export default function ProductsPage(): React.JSX.Element {
           {/* CỘT LỌC DESKTOP (3/12 cột, Dính) */}
           <aside className="hidden lg:block lg:col-span-3 sticky top-24 rounded-2xl border border-line bg-surface-1/60 backdrop-blur-xl p-5 space-y-6 shadow-xl">
             <div className="flex items-center justify-between border-b border-line/60 pb-3">
-              <span className="font-semibold text-fg text-sm uppercase tracking-wider font-mono">
+              <h2 className="font-semibold text-fg text-sm uppercase tracking-wider">
                 Bộ lọc tìm kiếm
-              </span>
+              </h2>
               <button
                 type="button"
                 onClick={handleResetFilters}
                 className="flex items-center gap-1 text-xs text-fg-3 hover:text-accent transition-colors"
                 title="Đặt lại toàn bộ bộ lọc"
               >
-                <RotateCcw className="size-3" />
+                <RotateCcw className="size-3" aria-hidden="true" />
                 <span>Đặt lại</span>
               </button>
             </div>
@@ -335,12 +363,12 @@ export default function ProductsPage(): React.JSX.Element {
                 Tìm kiếm từ khóa
               </label>
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" aria-hidden="true" />
                 <Input
                   id="search-input"
                   value={searchInput}
                   onChange={(e) => setSearchInput(e.target.value)}
-                  placeholder="Tên cá thể, loài, shop..."
+                  placeholder="Tên cá thể hoặc tên loài..."
                   className="pl-9 pr-8 text-xs"
                 />
                 {searchInput && (
@@ -351,8 +379,9 @@ export default function ProductsPage(): React.JSX.Element {
                       updateFilters({ q: null });
                     }}
                     className="absolute right-2.5 top-1/2 -translate-y-1/2 text-fg-3 hover:text-fg"
+                    aria-label="Xóa từ khóa tìm kiếm"
                   >
-                    <X className="size-3.5" />
+                    <X className="size-3.5" aria-hidden="true" />
                   </button>
                 )}
               </div>
@@ -368,6 +397,7 @@ export default function ProductsPage(): React.JSX.Element {
                     <button
                       key={grp}
                       type="button"
+                      aria-pressed={isSelected}
                       onClick={() => updateFilters({ group: grp === 'Tất cả' ? null : grp })}
                       className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
                         isSelected
@@ -465,6 +495,8 @@ export default function ProductsPage(): React.JSX.Element {
                     <button
                       key={item.code}
                       type="button"
+                      aria-pressed={isChecked}
+                      aria-label={`${item.code} · ${item.label}`}
                       onClick={() => {
                         const nextIucn = isChecked
                           ? queryIucn.filter((c) => c !== item.code)
@@ -477,7 +509,7 @@ export default function ProductsPage(): React.JSX.Element {
                           : 'border-line/60 bg-surface-2 text-fg-3 hover:text-fg'
                       }`}
                     >
-                      <span className="size-2 rounded-full" style={{ backgroundColor: item.color }} />
+                      <span className="size-2 rounded-full" style={{ backgroundColor: item.color }} aria-hidden="true" />
                       <span>{item.code}</span>
                     </button>
                   );
@@ -487,12 +519,13 @@ export default function ProductsPage(): React.JSX.Element {
           </aside>
 
           {/* KHU VỰC LƯỚI SẢN PHẨM & TOOLBAR (9/12 cột) */}
-          <main className="col-span-12 lg:col-span-9 space-y-6">
+          {/* Đã nằm trong <main> của RootLayout nên dùng section, không lồng <main> */}
+          <section aria-label="Danh sách sinh vật cảnh" className="col-span-12 lg:col-span-9 space-y-6">
             {/* Toolbar sắp xếp và đếm kết quả */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-line bg-surface-1/40 backdrop-blur-md p-4">
               <div className="flex items-center gap-2">
-                <span className="text-sm font-semibold text-fg">
-                  Hiển thị <span className="text-accent font-mono">{filteredProducts.length}</span> cá thể hợp lệ
+                <span className="text-sm font-semibold text-fg" aria-live="polite">
+                  Hiển thị <span className="text-accent font-mono">{filteredProducts.length}</span> sản phẩm
                 </span>
 
                 {/* Mobile Filter Button */}
@@ -501,16 +534,18 @@ export default function ProductsPage(): React.JSX.Element {
                   variant="secondary"
                   className="lg:hidden ml-auto gap-1.5 text-xs"
                   onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)}
+                  aria-expanded={isMobileFilterOpen}
                 >
-                  <SlidersHorizontal className="size-3.5" />
+                  <SlidersHorizontal className="size-3.5" aria-hidden="true" />
                   <span>Bộ lọc</span>
                 </Button>
               </div>
 
               {/* Hộp chọn sắp xếp */}
               <div className="flex items-center gap-2">
-                <span className="text-xs text-fg-3 shrink-0">Sắp xếp:</span>
+                <span className="text-xs text-fg-3 shrink-0" aria-hidden="true">Sắp xếp:</span>
                 <Select
+                  aria-label="Sắp xếp sản phẩm"
                   value={querySort}
                   onChange={(e) => updateFilters({ sort: e.target.value })}
                   options={[
@@ -533,8 +568,9 @@ export default function ProductsPage(): React.JSX.Element {
                     type="button"
                     onClick={() => setIsMobileFilterOpen(false)}
                     className="text-fg-3 hover:text-fg"
+                    aria-label="Đóng bộ lọc"
                   >
-                    <X className="size-4" />
+                    <X className="size-4" aria-hidden="true" />
                   </button>
                 </div>
 
@@ -544,6 +580,7 @@ export default function ProductsPage(): React.JSX.Element {
                     <button
                       key={grp}
                       type="button"
+                      aria-pressed={queryGroup === grp}
                       onClick={() => updateFilters({ group: grp === 'Tất cả' ? null : grp })}
                       className={`px-3 py-1 rounded-full text-xs ${
                         queryGroup === grp
@@ -590,6 +627,13 @@ export default function ProductsPage(): React.JSX.Element {
                   </div>
                 ))}
               </div>
+            ) : isError ? (
+              <QueryErrorState
+                title="Không tải được sàn sinh vật cảnh"
+                error={error}
+                onRetry={() => refetch()}
+                isRetrying={isRefetching}
+              />
             ) : filteredProducts.length === 0 ? (
               <EmptyState
                 icon={<Search className="size-8 text-accent" />}
@@ -648,6 +692,8 @@ export default function ProductsPage(): React.JSX.Element {
                     <button
                       key={pNum}
                       type="button"
+                      aria-label={`Trang ${pNum}`}
+                      aria-current={isActive ? 'page' : undefined}
                       onClick={() => updateFilters({ page: pNum })}
                       className={`size-8 rounded-lg text-xs font-mono font-semibold transition-colors ${
                         isActive
@@ -670,7 +716,7 @@ export default function ProductsPage(): React.JSX.Element {
                 </Button>
               </div>
             )}
-          </main>
+          </section>
         </div>
       </div>
     </div>

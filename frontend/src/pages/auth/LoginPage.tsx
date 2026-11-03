@@ -5,13 +5,17 @@ import { User, Lock, Eye, EyeOff, ArrowRight, UserCheck, Store, Ban, Clock } fro
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useLogin } from '@/api/mutations/useAuthMutations';
+import { ApiError } from '@/api/errors';
+import { USE_MOCKS } from '@/lib/env';
 import { toast } from 'sonner';
 
 interface LoginFormValues {
   username: string;
   password: string;
-  remember: boolean;
 }
+
+// Nút đăng nhập nhanh chứa mật khẩu seed: chỉ hiện khi chạy dev với MSW, không bao giờ vào bản build
+const SHOW_DEMO_LOGINS = import.meta.env.DEV && USE_MOCKS;
 
 export default function LoginPage(): React.JSX.Element {
   const [searchParams] = useSearchParams();
@@ -21,34 +25,40 @@ export default function LoginPage(): React.JSX.Element {
 
   const loginMutation = useLogin();
 
-  const { register, handleSubmit, setValue } = useForm<LoginFormValues>({
+  const {
+    register,
+    handleSubmit,
+    setValue,
+    formState: { errors },
+  } = useForm<LoginFormValues>({
     defaultValues: {
       username: '',
       password: '',
-      remember: true,
     },
   });
 
+  // Tài liệu 03 mục 12: thành công thì về next hoặc trang chủ
   const getSafeRedirectUrl = (next: string | null) => {
-    if (!next) return '#/account';
+    if (!next) return '#/';
     // Chống Open Redirect: chỉ cho phép đường dẫn nội bộ bắt đầu bằng /
     if (next.startsWith('/') && !next.startsWith('//')) {
       return `#${next}`;
     }
-    return '#/account';
+    return '#/';
   };
 
   const onSubmit = async (values: LoginFormValues) => {
     setErrorMessage(null);
     try {
-      await loginMutation.mutateAsync({
+      const auth = await loginMutation.mutateAsync({
         username: values.username.trim(),
         password: values.password,
       });
 
-      toast.success('Đăng nhập thành công!');
+      toast.success(`Chào mừng trở lại, ${auth.fullName || auth.username}`);
       window.location.hash = getSafeRedirectUrl(nextUrl);
-    } catch (err: any) {
+    } catch (caught) {
+      const err = caught instanceof ApiError ? caught : new ApiError(0, 'INTERNAL_ERROR');
       if (err.code === 'AUTH_ACCOUNT_BANNED') {
         setErrorMessage('Tài khoản của bạn đã bị khóa vĩnh viễn do vi phạm quy chế bảo tồn.');
       } else if (err.code === 'AUTH_ACCOUNT_INACTIVE') {
@@ -62,9 +72,10 @@ export default function LoginPage(): React.JSX.Element {
   };
 
   const handleQuickFill = (u: string, p: string) => {
+    if (loginMutation.isPending) return;
     setValue('username', u);
     setValue('password', p);
-    onSubmit({ username: u, password: p, remember: true });
+    void handleSubmit(onSubmit)();
   };
 
   return (
@@ -79,46 +90,50 @@ export default function LoginPage(): React.JSX.Element {
       </div>
 
       {errorMessage && (
-        <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-300">
+        <div role="alert" className="rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-300">
           {errorMessage}
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4" noValidate>
         <div>
           <label htmlFor="login-username" className="block text-xs font-medium text-fg-2 mb-1.5">
-            Tên đăng nhập hoặc Email
+            Tên đăng nhập
           </label>
           <div className="relative">
-            <User className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" />
+            <User className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" aria-hidden="true" />
             <Input
               id="login-username"
-              {...register('username', { required: true })}
-              placeholder="Nhập username hoặc email..."
+              {...register('username', { validate: (v) => v.trim().length > 0 || 'Vui lòng nhập tên đăng nhập' })}
+              placeholder="Nhập tên đăng nhập..."
               className="pl-9 text-xs"
               autoComplete="username"
+              aria-invalid={Boolean(errors.username)}
+              aria-describedby={errors.username ? 'login-username-error' : undefined}
             />
           </div>
+          {errors.username && (
+            <p id="login-username-error" role="alert" className="mt-1.5 text-xs font-medium text-danger">
+              {errors.username.message}
+            </p>
+          )}
         </div>
 
         <div>
-          <div className="flex items-center justify-between mb-1.5">
-            <label htmlFor="login-password" className="text-xs font-medium text-fg-2">
-              Mật khẩu
-            </label>
-            <span className="text-[11px] text-accent cursor-pointer hover:underline">
-              Quên mật khẩu?
-            </span>
-          </div>
+          <label htmlFor="login-password" className="block text-xs font-medium text-fg-2 mb-1.5">
+            Mật khẩu
+          </label>
           <div className="relative">
-            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" />
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-fg-3" aria-hidden="true" />
             <Input
               id="login-password"
               type={showPassword ? 'text' : 'password'}
-              {...register('password', { required: true })}
+              {...register('password', { required: 'Vui lòng nhập mật khẩu' })}
               placeholder="Nhập mật khẩu..."
               className="pl-9 pr-9 text-xs"
               autoComplete="current-password"
+              aria-invalid={Boolean(errors.password)}
+              aria-describedby={errors.password ? 'login-password-error' : undefined}
             />
             <button
               type="button"
@@ -129,17 +144,11 @@ export default function LoginPage(): React.JSX.Element {
               {showPassword ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
             </button>
           </div>
-        </div>
-
-        <div className="flex items-center justify-between text-xs text-fg-2 pt-1">
-          <label className="flex items-center gap-2 cursor-pointer select-none">
-            <input
-              type="checkbox"
-              {...register('remember')}
-              className="size-3.5 rounded border-line bg-surface text-accent focus:ring-accent"
-            />
-            <span>Ghi nhớ phiên đăng nhập</span>
-          </label>
+          {errors.password && (
+            <p id="login-password-error" role="alert" className="mt-1.5 text-xs font-medium text-danger">
+              {errors.password.message}
+            </p>
+          )}
         </div>
 
         <Button
@@ -159,14 +168,16 @@ export default function LoginPage(): React.JSX.Element {
         </Button>
       </form>
 
-      {/* Quick Seed Accounts (NO EMOJIS, pure Lucide icons) */}
+      {/* Đăng nhập nhanh bằng tài khoản seed: chỉ có ở chế độ dev + MSW */}
+      {SHOW_DEMO_LOGINS && (
       <div className="rounded-xl border border-dashed border-line/70 bg-surface-2/40 p-3.5 space-y-2.5">
-        <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-accent block">
-          Đăng nhập nhanh (Tài khoản mẫu demo)
+        <span className="text-[10px] font-bold uppercase tracking-wider text-accent block">
+          Đăng nhập nhanh (tài khoản mẫu, chỉ ở chế độ dev)
         </span>
         <div className="grid grid-cols-2 gap-2">
           <button
             type="button"
+            disabled={loginMutation.isPending}
             onClick={() => handleQuickFill('levanc', '123456')}
             className="flex items-center gap-1.5 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors"
           >
@@ -179,6 +190,7 @@ export default function LoginPage(): React.JSX.Element {
 
           <button
             type="button"
+            disabled={loginMutation.isPending}
             onClick={() => handleQuickFill('nguyenvana', '123456')}
             className="flex items-center gap-1.5 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-accent hover:text-accent transition-colors"
           >
@@ -191,6 +203,7 @@ export default function LoginPage(): React.JSX.Element {
 
           <button
             type="button"
+            disabled={loginMutation.isPending}
             onClick={() => handleQuickFill('vuthif', '123456')}
             className="flex items-center gap-1.5 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-red-400 hover:text-red-300 transition-colors"
           >
@@ -203,6 +216,7 @@ export default function LoginPage(): React.JSX.Element {
 
           <button
             type="button"
+            disabled={loginMutation.isPending}
             onClick={() => handleQuickFill('dangvang', '123456')}
             className="flex items-center gap-1.5 rounded-lg border border-line bg-surface p-2 text-left text-xs hover:border-amber-400 hover:text-amber-300 transition-colors"
           >
@@ -214,6 +228,7 @@ export default function LoginPage(): React.JSX.Element {
           </button>
         </div>
       </div>
+      )}
 
       <div className="pt-2 border-t border-line/60 flex items-center justify-between text-xs text-fg-3">
         <span>Chưa có tài khoản?</span>
@@ -223,7 +238,7 @@ export default function LoginPage(): React.JSX.Element {
       </div>
 
       <div className="text-center">
-        <Link to="/admin/login" className="text-[11px] text-fg-mute hover:text-accent transition-colors font-mono">
+        <Link to="/admin/login" className="text-xs text-fg-3 hover:text-accent transition-colors">
           Cổng xác thực Ban Quản trị →
         </Link>
       </div>

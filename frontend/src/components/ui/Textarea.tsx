@@ -49,7 +49,7 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
           aria-invalid={Boolean(error)}
           aria-describedby={describedBy}
           className={cn(
-            'w-full rounded-lg border border-line bg-surface-hover p-3.5 text-sm text-fg placeholder:text-fg-mute transition-all duration-150',
+            'w-full rounded-lg border border-line bg-surface-hover p-3.5 text-sm text-fg placeholder:text-fg-3 transition-all duration-150',
             'focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg',
             'disabled:cursor-not-allowed disabled:opacity-50',
             error && 'border-danger focus:border-danger focus:ring-danger focus:ring-offset-2 focus:ring-offset-bg',

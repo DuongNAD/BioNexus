@@ -19,6 +19,7 @@ export * from './reviews';
 
 export function createInitialSeedState(): MockDatabaseState {
   return {
+    seedVersion: 3, // khớp SEED_VERSION trong mocks/db.ts
     users: JSON.parse(JSON.stringify(SEED_USERS)),
     admins: JSON.parse(JSON.stringify(SEED_ADMINS)),
     shops: JSON.parse(JSON.stringify(SEED_SHOPS)),

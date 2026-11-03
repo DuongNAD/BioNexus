@@ -1,6 +1,6 @@
 import { http, HttpResponse } from 'msw';
 import { db } from '../db';
-import { authenticateRequest } from '../auth';
+import { requireAdmin } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { UpdateStatusRequest, CreateSpeciesRequest, SellerStatus, ProductStatus } from '@/types/api';
 
@@ -8,20 +8,8 @@ export const adminHandlers = [
   // 1. Hàng đợi duyệt người bán (MODERATOR / SUPER_ADMIN)
   http.get('*/api/admin/sellers', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản trị', data: null },
-        { status: 403 }
-      );
-    }
-
-    if (session.role !== 'MODERATOR' && session.role !== 'SUPER_ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền kiểm duyệt cửa hàng', data: null },
-        { status: 403 }
-      );
-    }
+    const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    if ('response' in guard) return guard.response;
 
     const url = new URL(request.url);
     const statusParam = url.searchParams.get('status') || undefined;
@@ -37,20 +25,9 @@ export const adminHandlers = [
   // 2. Duyệt hồ sơ người bán (MODERATOR / SUPER_ADMIN)
   http.put('*/api/admin/sellers/:id/status', async ({ request, params }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản trị', data: null },
-        { status: 403 }
-      );
-    }
-
-    if (session.role !== 'MODERATOR' && session.role !== 'SUPER_ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền kiểm duyệt cửa hàng', data: null },
-        { status: 403 }
-      );
-    }
+    const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const id = Number(params.id);
     if (isNaN(id) || id <= 0) {
@@ -75,20 +52,8 @@ export const adminHandlers = [
   // 3. Hàng đợi duyệt sản phẩm sàn (MODERATOR / SUPER_ADMIN)
   http.get('*/api/admin/products', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản trị', data: null },
-        { status: 403 }
-      );
-    }
-
-    if (session.role !== 'MODERATOR' && session.role !== 'SUPER_ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền kiểm duyệt sản phẩm', data: null },
-        { status: 403 }
-      );
-    }
+    const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    if ('response' in guard) return guard.response;
 
     const url = new URL(request.url);
     const statusParam = url.searchParams.get('status') || undefined;
@@ -104,20 +69,9 @@ export const adminHandlers = [
   // 4. Kiểm duyệt sản phẩm sàn (MODERATOR / SUPER_ADMIN)
   http.put('*/api/admin/products/:id/status', async ({ request, params }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản trị', data: null },
-        { status: 403 }
-      );
-    }
-
-    if (session.role !== 'MODERATOR' && session.role !== 'SUPER_ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền kiểm duyệt sản phẩm', data: null },
-        { status: 403 }
-      );
-    }
+    const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     const id = Number(params.id);
     if (isNaN(id) || id <= 0) {
@@ -142,20 +96,9 @@ export const adminHandlers = [
   // 5. Thêm mới loài sinh vật (BIOLOGIST / SUPER_ADMIN)
   http.post('*/api/admin/species', async ({ request }) => {
     await applySimulatedLatency();
-    const session = authenticateRequest(request);
-    if (!session || session.accountType !== 'ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản trị', data: null },
-        { status: 403 }
-      );
-    }
-
-    if (session.role !== 'BIOLOGIST' && session.role !== 'SUPER_ADMIN') {
-      return HttpResponse.json(
-        { success: false, code: 'AUTH_FORBIDDEN', message: 'Bạn không có quyền quản lý loài sinh học', data: null },
-        { status: 403 }
-      );
-    }
+    const guard = requireAdmin(request, ['BIOLOGIST', 'SUPER_ADMIN']);
+    if ('response' in guard) return guard.response;
+    const { session } = guard;
 
     try {
       const body = (await request.json()) as CreateSpeciesRequest;

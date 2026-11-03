@@ -134,6 +134,8 @@ export function SceneShell({
   useEffect(() => {
     if (!shouldMountCanvas) {
       setFirstFrameRendered(false);
+      // Canvas đã gỡ thì lần mount sau là context mới: không để poster che mãi vì lần mất context cũ
+      setContextLost(false);
       return;
     }
 

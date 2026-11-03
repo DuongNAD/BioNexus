@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { SEED_SPECIES } from '@/mocks/data/species';
 import { SEED_PRODUCTS } from '@/mocks/data/products';
+import { SEED_TAXONOMY } from '@/mocks/data/taxonomy';
 import { normalizeSearchString } from '@/components/navigation/QuickSearch';
 
 describe('Species Filter Logic', () => {
@@ -24,7 +25,7 @@ describe('Species Filter Logic', () => {
     expect(crSpecies[0]?.scientificName).toBe('Ambystoma mexicanum');
   });
 
-  it('UT-SPE-04: Tìm kiếm từ khóa "gecko" khớp chính xác loài ID 4 và 2 sản phẩm', () => {
+  it('UT-SPE-04: Tìm kiếm từ khóa "gecko" khớp chính xác 1 loài và 2 sản phẩm', () => {
     const q = normalizeSearchString('gecko');
 
     const matchedSpecies = SEED_SPECIES.filter((s) => {
@@ -35,7 +36,7 @@ describe('Species Filter Logic', () => {
     });
 
     expect(matchedSpecies).toHaveLength(1);
-    expect(matchedSpecies[0]?.id).toBe(4); // Eublepharis macularius
+    expect(matchedSpecies[0]?.scientificName).toBe('Eublepharis macularius');
 
     const matchedProducts = SEED_PRODUCTS.filter((p) => {
       return (
@@ -46,7 +47,10 @@ describe('Species Filter Logic', () => {
     });
 
     expect(matchedProducts).toHaveLength(2);
-    expect(matchedProducts.map((p) => p.id)).toEqual([1, 2]);
+    expect(matchedProducts.map((p) => p.productName).sort()).toEqual([
+      'Leopard Gecko High Yellow (3 tháng tuổi)',
+      'Leopard Gecko Tangerine Baby',
+    ]);
   });
 
   it('UT-SPE-05: Tìm kiếm tiếng Việt không dấu khớp chuẩn xác', () => {
@@ -66,12 +70,13 @@ describe('Species Filter Logic', () => {
     const q3 = normalizeSearchString('nap am');
     const matched3 = SEED_SPECIES.filter((s) => normalizeSearchString(s.commonName).includes(q3));
     expect(matched3).toHaveLength(2);
-    expect(matched3.map((s) => s.scientificName)).toEqual(['Nepenthes rajah', 'Nepenthes ampullaria']);
+    expect(matched3.map((s) => s.scientificName).sort()).toEqual(['Nepenthes ampullaria', 'Nepenthes rajah']);
   });
 
-  it('UT-SPE-06: Bộ lọc kết hợp nodeId: 20 (Chi Python) + IUCN: VU', () => {
+  it('UT-SPE-06: Bộ lọc kết hợp nút Chi Python + IUCN: VU', () => {
+    const pythonGenusId = SEED_TAXONOMY.find((n) => n.scientificName === 'Python')!.id;
     const combined = SEED_SPECIES.filter(
-      (s) => s.nodeId === 20 && s.conservationStatus === 'VU'
+      (s) => s.nodeId === pythonGenusId && s.conservationStatus === 'VU'
     );
     expect(combined).toHaveLength(1);
     expect(combined[0]?.scientificName).toBe('Python bivittatus');

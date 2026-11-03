@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router';
+import { useSearchParams, useNavigate } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -12,11 +12,12 @@ import {
   ArrowRight,
   ArrowLeft,
   Lock,
+  ShoppingBag,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
 import { Textarea } from '@/components/ui/Textarea';
 import { Price } from '@/components/ui/Price';
+import { EmptyState } from '@/components/ui/EmptyState';
 import {
   Dialog,
   DialogContent,
@@ -26,91 +27,100 @@ import {
   DialogFooter,
 } from '@/components/ui/Dialog';
 import { VietQRCard } from '@/components/domain/VietQRCard';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useCart } from '@/api/queries/useCartQueries';
 import { useProductDetail } from '@/api/queries/useProductQueries';
 import { useMe } from '@/api/queries/useAuthQueries';
 import { usePlaceOrder } from '@/api/mutations/useOrderMutations';
-import { getStoredToken } from '@/api/authStore';
+import { resolveProductImage } from '@/api/adapters';
+import { ApiError } from '@/api/errors';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
+import type { PlaceOrderRequest } from '@/types/api';
 import { toast } from 'sonner';
 
-// Zod Schema xác thực địa chỉ giao hàng & cam kết
+// Tài liệu 03 mục 9: chỉ gửi shippingAddress (≥ 10 ký tự, khớp ORDER_INVALID_SHIPPING_ADDRESS)
 const checkoutShippingSchema = z.object({
-  fullName: z
-    .string()
-    .min(2, 'Họ và tên người nhận phải có ít nhất 2 ký tự')
-    .max(50, 'Họ và tên không được vượt quá 50 ký tự'),
-  phone: z
-    .string()
-    .regex(/^(0|\+84)\d{9}$/, 'Số điện thoại không hợp lệ (10 số, bắt đầu bằng 0 hoặc +84)'),
   shippingAddress: z
     .string()
-    .min(10, 'Địa chỉ chi tiết cần tối thiểu 10 ký tự để bảo đảm vận chuyển an toàn')
+    .trim()
+    .min(10, 'Địa chỉ giao hàng cần tối thiểu 10 ký tự')
     .max(255, 'Địa chỉ không được vượt quá 255 ký tự'),
-  shippingNote: z.string().max(200, 'Ghi chú không được vượt quá 200 ký tự').optional(),
   adoptionPledge: z.boolean().refine((val) => val === true, {
-    message: 'Bạn bắt buộc phải cam kết chăm sóc và tuân thủ điều kiện sinh cảnh cho cá thể',
+    message: 'Bạn cần xác nhận đã tìm hiểu điều kiện nuôi trước khi đặt hàng',
   }),
 });
 
 type CheckoutShippingFormData = z.infer<typeof checkoutShippingSchema>;
 
-type PaymentMethod = 'COD' | 'VIETQR' | 'BIOPAY';
+type PaymentMethod = 'COD' | 'VIETQR';
+
+const PAYMENT_OPTIONS: { id: PaymentMethod; label: string; description: string }[] = [
+  { id: 'COD', label: 'Thanh toán khi nhận hàng', description: 'Kiểm tra cá thể sống khi nhận rồi mới thanh toán.' },
+  { id: 'VIETQR', label: 'Chuyển khoản VietQR', description: 'Bản minh hoạ, chưa kết nối cổng thanh toán.' },
+];
+
+interface CheckoutLine {
+  productId: number;
+  productName: string;
+  imageUrl: string;
+  price: number;
+  quantity: number;
+  lineTotal: number;
+}
 
 export default function CheckoutPage(): React.JSX.Element {
   const [searchParams] = useSearchParams();
-  const token = getStoredToken();
+  const navigate = useNavigate();
 
-  // Kiểm tra chế độ mua ngay (Direct Buy)
-  const directProductId = searchParams.get('productId') ? Number(searchParams.get('productId')) : null;
-  const directQuantity = searchParams.get('quantity') ? Number(searchParams.get('quantity')) : 1;
-  const isDirectBuy = Boolean(directProductId);
+  // Chế độ mua ngay (Direct Buy): ?productId=&quantity=
+  const directProductId = Number(searchParams.get('productId')) || null;
+  const directQuantity = Math.max(1, Math.floor(Number(searchParams.get('quantity')) || 1));
+  const isDirectBuy = directProductId !== null;
 
-  // Queries
-  const { data: me } = useMe({ enabled: !!token });
-  const { data: cart } = useCart({ enabled: !!token && !isDirectBuy });
-  const { data: directProduct } = useProductDetail(directProductId || 0, {
-    enabled: isDirectBuy,
-  });
+  // Route đã bọc RequireAuth nên ở đây luôn là tài khoản USER
+  const { data: me } = useMe();
+  const cartQuery = useCart({ enabled: !isDirectBuy });
+  const directQuery = useProductDetail(directProductId || 0, { enabled: isDirectBuy });
 
   const placeOrderMutation = usePlaceOrder();
 
-  // State các bước
   const [currentStep, setCurrentStep] = useState<1 | 2>(1);
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('COD');
   const [conflictError, setConflictError] = useState<string | null>(null);
+  // Nội dung chuyển khoản phải cố định trong suốt phiên thanh toán, không đổi theo mỗi lần render
+  const [transferMemo] = useState(() => `BIONEXUS ${Date.now().toString().slice(-6)}`);
 
-  // React Hook Form
   const {
     register,
     handleSubmit,
     setValue,
+    getValues,
     watch,
     formState: { errors },
   } = useForm<CheckoutShippingFormData>({
     resolver: zodResolver(checkoutShippingSchema),
     defaultValues: {
-      fullName: '',
-      phone: '',
       shippingAddress: '',
-      shippingNote: '',
       adoptionPledge: false,
     },
   });
 
-  const formData = watch();
+  const shippingAddress = watch('shippingAddress');
 
-  // Tự động điền (Prefill) từ hồ sơ người dùng
+  // Điền sẵn địa chỉ mặc định một lần, không ghi đè khi người dùng đã gõ
   useEffect(() => {
-    if (me) {
-      if (me.fullName) setValue('fullName', me.fullName);
-      if (me.phone) setValue('phone', me.phone);
-      if (me.address) setValue('shippingAddress', me.address);
+    if (me?.address && !getValues('shippingAddress')) {
+      setValue('shippingAddress', me.address);
     }
-  }, [me, setValue]);
+  }, [me, getValues, setValue]);
 
-  // Danh sách các món trong đơn hàng
-  const checkoutItems = isDirectBuy
+  const directProduct = directQuery.data;
+  const isLoading = isDirectBuy ? directQuery.isLoading : cartQuery.isLoading;
+  const loadError = isDirectBuy ? directQuery.error : cartQuery.error;
+  const refetch = isDirectBuy ? directQuery.refetch : cartQuery.refetch;
+
+  const checkoutItems: CheckoutLine[] = isDirectBuy
     ? directProduct
       ? [
           {
@@ -123,59 +133,94 @@ export default function CheckoutPage(): React.JSX.Element {
           },
         ]
       : []
-    : cart?.items.filter((i) => i.available) || [];
+    : (cartQuery.data?.items ?? []).map((i) => ({
+        productId: i.productId,
+        productName: i.productName,
+        imageUrl: resolveProductImage(i.imageUrl),
+        price: i.price,
+        quantity: i.quantity,
+        lineTotal: i.price * i.quantity,
+      }));
+
+  // Lý do không thể đặt (giỏ có món ngừng bán, vượt kho, hoặc mua ngay quá tồn kho)
+  const blockingReason = (() => {
+    if (isDirectBuy) {
+      if (!directProduct) return null;
+      if (!directProduct.isAvailable) return 'Sản phẩm này hiện không còn mở bán.';
+      if (directQuantity > directProduct.stockQuantity) {
+        return `Kho chỉ còn ${directProduct.stockQuantity} cá thể, ít hơn số lượng bạn chọn.`;
+      }
+      return null;
+    }
+    const items = cartQuery.data?.items ?? [];
+    if (items.some((i) => !i.available)) return 'Giỏ hàng có món đã ngừng bán hoặc hết hàng.';
+    if (items.some((i) => i.quantity > i.maxQuantity)) return 'Giỏ hàng có món vượt quá số lượng còn trong kho.';
+    return null;
+  })();
 
   const subtotal = checkoutItems.reduce((acc, i) => acc + i.lineTotal, 0);
 
-  // Xử lý sang Bước 2
   const onStep1Submit = () => {
     setCurrentStep(2);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0 });
   };
 
-  // Xác nhận đặt hàng cuối cùng
   const handleFinalPlaceOrder = async () => {
-    try {
-      const payload = isDirectBuy
-        ? {
-            items: [{ productId: directProductId!, quantity: directQuantity }],
-            shippingAddress: `${formData.shippingAddress} (Người nhận: ${formData.fullName} - ${formData.phone})${
-              formData.shippingNote ? ` [Ghi chú: ${formData.shippingNote}]` : ''
-            }`,
-          }
-        : {
-            shippingAddress: `${formData.shippingAddress} (Người nhận: ${formData.fullName} - ${formData.phone})${
-              formData.shippingNote ? ` [Ghi chú: ${formData.shippingNote}]` : ''
-            }`,
-          };
+    const address = getValues('shippingAddress').trim();
+    const payload: PlaceOrderRequest = isDirectBuy
+      ? { items: [{ productId: directProductId!, quantity: directQuantity }], shippingAddress: address }
+      : { shippingAddress: address };
 
+    try {
       const order = await placeOrderMutation.mutateAsync(payload);
-      toast.success('Đặt hàng thành công!');
-      window.location.hash = `#/orders/${order.id}?new=1`;
-    } catch (err: any) {
-      if (err.status === 409 || err.code?.includes('CONFLICT') || err.code?.includes('OUT_OF_STOCK')) {
-        setConflictError(err.message || 'Một số sản phẩm trong đơn đã hết hàng hoặc thay đổi trạng thái tồn kho.');
+      toast.success(`Đặt hàng thành công · ${order.orderCode}`);
+      navigate(`/orders/${order.id}?new=1`);
+    } catch (err) {
+      const apiErr = err instanceof ApiError ? err : null;
+      if (apiErr?.status === 409) {
+        setConflictError(apiErr.message || 'Một số sản phẩm trong đơn đã hết hàng hoặc ngừng bán.');
       } else {
-        toast.error(err.message || 'Không thể tạo đơn hàng');
+        toast.error(apiErr?.message || 'Không thể tạo đơn hàng. Vui lòng thử lại.');
       }
     }
   };
 
-  if (!token) {
-    return (
-      <div className="min-h-[70vh] flex flex-col items-center justify-center p-6 text-center max-w-md mx-auto">
-        <div className="size-16 rounded-2xl bg-surface-2 border border-line flex items-center justify-center text-accent mb-4">
-          <Lock className="size-8" />
-        </div>
-        <h2 className="text-2xl font-bold text-fg">Đăng nhập để thanh toán</h2>
-        <p className="mt-2 text-sm text-fg-2">
-          Vui lòng đăng nhập tài khoản của bạn để tiến hành xác nhận đặt hàng và lưu giữ hồ sơ cá thể.
-        </p>
-        <Link to={`/login?next=${encodeURIComponent(window.location.hash.replace('#', ''))}`} className="mt-6">
-          <Button variant="primary" pill>
-            Đăng nhập ngay
-          </Button>
-        </Link>
+  const backTo = isDirectBuy ? `/products/${directProductId}` : '/cart';
+
+  // ===== Trạng thái đang tải / lỗi / rỗng / không đặt được =====
+  let statusView: React.ReactNode = null;
+  if (isLoading) {
+    statusView = (
+      <div className="space-y-4" role="status" aria-label="Đang tải thông tin đơn hàng">
+        <div className="h-14 rounded-2xl bg-surface animate-pulse" />
+        <div className="h-72 rounded-2xl bg-surface animate-pulse" />
+      </div>
+    );
+  } else if (loadError) {
+    statusView = (
+      <QueryErrorState title="Không tải được thông tin đơn hàng" error={loadError} onRetry={() => refetch()} />
+    );
+  } else if (checkoutItems.length === 0) {
+    statusView = (
+      <EmptyState
+        icon={<ShoppingBag className="size-8 text-accent" />}
+        title={isDirectBuy ? 'Không tìm thấy sản phẩm' : 'Giỏ hàng đang trống'}
+        description="Chưa có cá thể nào để đặt hàng. Hãy chọn sản phẩm trên sàn sinh vật cảnh."
+        action={{ label: 'Vào cửa hàng', onClick: () => navigate('/products') }}
+      />
+    );
+  } else if (blockingReason) {
+    statusView = (
+      <div
+        role="alert"
+        className="mx-auto max-w-lg rounded-2xl border border-amber-500/30 bg-amber-500/10 p-8 text-center"
+      >
+        <AlertTriangle className="mx-auto mb-3 size-10 text-amber-400" aria-hidden="true" />
+        <h2 className="text-lg font-bold text-fg">Chưa thể đặt hàng</h2>
+        <p className="mt-2 text-sm text-fg-2">{blockingReason}</p>
+        <ButtonLink to={backTo} variant="primary" pill className="mt-6">
+          {isDirectBuy ? 'Về trang sản phẩm' : 'Về giỏ hàng để điều chỉnh'}
+        </ButtonLink>
       </div>
     );
   }
@@ -183,247 +228,134 @@ export default function CheckoutPage(): React.JSX.Element {
   return (
     <div className="min-h-screen bg-bg text-fg py-8 md:py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
-        {/* Header thanh điều hướng 2 bước */}
         <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-fg font-sans">
-              Xác Nhận Đặt Hàng
-            </h1>
-            <span className="text-xs font-mono text-accent">
-              {isDirectBuy ? 'Chế độ Mua ngay cá thể' : 'Chế độ Giỏ hàng đầy đủ'}
-            </span>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-fg font-sans">Xác Nhận Đặt Hàng</h1>
+            <span className="text-xs text-accent">{isDirectBuy ? 'Mua ngay một sản phẩm' : 'Đặt toàn bộ giỏ hàng'}</span>
           </div>
 
-          {/* Stepper chỉ báo bước */}
-          <div className="grid grid-cols-2 rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-1.5 shadow-md">
-            <button
-              type="button"
-              onClick={() => setCurrentStep(1)}
-              className={`flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold transition-all ${
-                currentStep === 1
-                  ? 'bg-accent text-accent-ink shadow-md font-bold'
-                  : 'text-fg-2 hover:text-fg'
-              }`}
-            >
-              <span className="flex size-5 items-center justify-center rounded-full bg-black/20 text-[11px] font-mono">
-                1
-              </span>
-              <span>1. Thông tin giao hàng & Cam kết</span>
-            </button>
-
-            <button
-              type="button"
-              disabled={currentStep === 1}
-              onClick={() => setCurrentStep(2)}
-              className={`flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold transition-all ${
-                currentStep === 2
-                  ? 'bg-accent text-accent-ink shadow-md font-bold'
-                  : 'text-fg-3 cursor-not-allowed'
-              }`}
-            >
-              <span className="flex size-5 items-center justify-center rounded-full bg-black/20 text-[11px] font-mono">
-                2
-              </span>
-              <span>2. Thanh toán & Xác nhận đơn</span>
-            </button>
-          </div>
+          {!statusView && (
+            <ol className="grid grid-cols-2 rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-1.5 shadow-md">
+              {[
+                { step: 1 as const, label: 'Địa chỉ giao hàng' },
+                { step: 2 as const, label: 'Xác nhận đơn' },
+              ].map(({ step, label }) => (
+                <li key={step}>
+                  <button
+                    type="button"
+                    disabled={step === 2 && currentStep === 1}
+                    onClick={() => setCurrentStep(step)}
+                    aria-current={currentStep === step ? 'step' : undefined}
+                    className={`flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold transition-all ${
+                      currentStep === step
+                        ? 'bg-accent text-accent-ink shadow-md font-bold'
+                        : step === 2
+                          ? 'text-fg-3 cursor-not-allowed'
+                          : 'text-fg-2 hover:text-fg'
+                    }`}
+                  >
+                    <span className="flex size-5 items-center justify-center rounded-full bg-black/20 text-[11px] font-mono">
+                      {step}
+                    </span>
+                    <span>{label}</span>
+                  </button>
+                </li>
+              ))}
+            </ol>
+          )}
         </div>
 
-        {/* BƯỚC 1: Form thông tin người nhận & Cam kết nhận nuôi */}
-        {currentStep === 1 && (
-          <form onSubmit={handleSubmit(onStep1Submit)} className="space-y-6">
+        {statusView}
+
+        {/* BƯỚC 1: Địa chỉ giao hàng */}
+        {!statusView && currentStep === 1 && (
+          <form onSubmit={handleSubmit(onStep1Submit)} className="space-y-6" noValidate>
             <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-6 shadow-xl">
               <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center gap-2">
-                <Truck className="size-5 text-accent" />
-                <span>Thông tin người nhận & Địa chỉ giao hàng</span>
+                <Truck className="size-5 text-accent" aria-hidden="true" />
+                <span>Địa chỉ giao hàng</span>
               </h2>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="fullName-input" className="block text-xs font-medium text-fg-2 mb-1.5">
-                    Họ và tên người nhận *
-                  </label>
-                  <Input
-                    id="fullName-input"
-                    {...register('fullName')}
-                    placeholder="Ví dụ: Lê Văn C"
-                    error={errors.fullName?.message}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone-input" className="block text-xs font-medium text-fg-2 mb-1.5">
-                    Số điện thoại liên hệ *
-                  </label>
-                  <Input
-                    id="phone-input"
-                    {...register('phone')}
-                    placeholder="0912345678"
-                    error={errors.phone?.message}
-                  />
-                </div>
-              </div>
-
               <div>
-                <label htmlFor="address-input" className="block text-xs font-medium text-fg-2 mb-1.5">
-                  Địa chỉ giao hàng chi tiết *
-                </label>
-                <Input
+                <div className="mb-1.5 flex flex-wrap items-center justify-between gap-2">
+                  <label htmlFor="address-input" className="block text-xs font-medium text-fg-2">
+                    Địa chỉ nhận hàng (kèm tên và số điện thoại người nhận nếu khác tài khoản) *
+                  </label>
+                  {me?.address && (
+                    <button
+                      type="button"
+                      onClick={() => setValue('shippingAddress', me.address, { shouldValidate: true })}
+                      className="text-xs text-accent underline hover:text-white"
+                    >
+                      Dùng địa chỉ mặc định
+                    </button>
+                  )}
+                </div>
+                <Textarea
                   id="address-input"
                   {...register('shippingAddress')}
                   placeholder="Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành..."
+                  rows={3}
                   error={errors.shippingAddress?.message}
                 />
-                <p className="mt-1 text-[11px] text-fg-3">
-                  Địa chỉ chi tiết cần tối thiểu 10 ký tự để đơn vị vận chuyển chuyên dụng điều phối thùng giữ nhiệt.
-                </p>
               </div>
 
-              <div>
-                <label htmlFor="note-input" className="block text-xs font-medium text-fg-2 mb-1.5">
-                  Ghi chú giao nhận sinh vật (Tùy chọn)
-                </label>
-                <Textarea
-                  id="note-input"
-                  {...register('shippingNote')}
-                  placeholder="Ví dụ: Giao giờ hành chính, gọi trước 30 phút để chuẩn bị bể nuôi..."
-                  rows={2}
-                />
-              </div>
-
-              {/* Hộp cam kết nhận nuôi cá thể */}
               <div className="rounded-xl border border-accent/40 bg-accent/5 p-4 space-y-3">
                 <div className="flex items-start gap-3">
                   <input
                     type="checkbox"
                     id="adoptionPledge"
                     {...register('adoptionPledge')}
+                    aria-invalid={Boolean(errors.adoptionPledge)}
+                    aria-describedby={errors.adoptionPledge ? 'adoptionPledge-error' : undefined}
                     className="size-4.5 rounded border-line bg-surface text-accent focus:ring-accent mt-0.5"
                   />
                   <label htmlFor="adoptionPledge" className="text-xs text-fg-2 leading-relaxed cursor-pointer select-none">
-                    <span className="font-semibold text-fg block text-sm mb-0.5">
-                      Cam kết nhận nuôi & chăm sóc sinh vật cảnh (Bắt buộc)
-                    </span>
-                    Tôi xác nhận đã tìm hiểu kỹ thông số môi trường sống (nhiệt độ, độ ẩm, chế độ dinh dưỡng) và có cơ sở vật chất đạt chuẩn để tiếp nhận nuôi dưỡng cá thể cảnh nhân tạo F2+ này.
+                    <span className="font-semibold text-fg block text-sm mb-0.5">Cam kết chăm sóc sinh vật cảnh (bắt buộc)</span>
+                    Tôi đã tìm hiểu điều kiện sống (nhiệt độ, độ ẩm, thức ăn) và có chỗ nuôi phù hợp cho cá thể này.
                   </label>
                 </div>
                 {errors.adoptionPledge && (
-                  <p className="text-xs text-red-400 pl-7">{errors.adoptionPledge.message}</p>
+                  <p id="adoptionPledge-error" role="alert" className="text-xs text-red-400 pl-7">
+                    {errors.adoptionPledge.message}
+                  </p>
                 )}
               </div>
             </div>
 
             <div className="flex items-center justify-between pt-2">
-              <Link to={isDirectBuy ? `/products/${directProductId}` : '/cart'}>
-                <Button variant="ghost" size="sm" className="gap-1.5 text-xs text-fg-3 hover:text-fg">
-                  <ArrowLeft className="size-3.5" />
-                  <span>Quay lại</span>
-                </Button>
-              </Link>
+              <ButtonLink to={backTo} variant="ghost" size="sm" className="gap-1.5 text-xs text-fg-3 hover:text-fg">
+                <ArrowLeft className="size-3.5" aria-hidden="true" />
+                <span>Quay lại</span>
+              </ButtonLink>
 
               <Button type="submit" size="lg" pill variant="primary" className="gap-2 font-semibold">
-                <span>Tiếp tục sang bước 2</span>
-                <ArrowRight className="size-4" />
+                <span>Tiếp tục</span>
+                <ArrowRight className="size-4" aria-hidden="true" />
               </Button>
             </div>
           </form>
         )}
 
-        {/* BƯỚC 2: Phương thức thanh toán & Xem lại đơn hàng */}
-        {currentStep === 2 && (
+        {/* BƯỚC 2: Xác nhận */}
+        {!statusView && currentStep === 2 && (
           <div className="space-y-6">
-            {/* Phương thức thanh toán */}
-            <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-6 shadow-xl">
-              <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center gap-2">
-                <CreditCard className="size-5 text-accent" />
-                <span>Phương thức thanh toán</span>
-              </h2>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                {/* 1. COD */}
-                <div
-                  onClick={() => setPaymentMethod('COD')}
-                  className={`p-4 rounded-xl border cursor-pointer transition-all ${
-                    paymentMethod === 'COD'
-                      ? 'border-accent bg-accent/10 shadow-[0_0_15px_rgba(110,231,183,0.15)]'
-                      : 'border-line bg-surface-2/40 hover:bg-surface-2'
-                  }`}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-semibold text-fg text-sm">COD</span>
-                    {paymentMethod === 'COD' && <CheckCircle2 className="size-4 text-accent" />}
-                  </div>
-                  <p className="text-xs text-fg-3">
-                    Đồng kiểm cá thể sống khi nhận hàng & thanh toán tiền mặt.
-                  </p>
-                </div>
-
-                {/* 2. VietQR */}
-                <div
-                  onClick={() => setPaymentMethod('VIETQR')}
-                  className={`p-4 rounded-xl border cursor-pointer transition-all ${
-                    paymentMethod === 'VIETQR'
-                      ? 'border-accent bg-accent/10 shadow-[0_0_15px_rgba(110,231,183,0.15)]'
-                      : 'border-line bg-surface-2/40 hover:bg-surface-2'
-                  }`}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-semibold text-fg text-sm">Chuyển khoản VietQR</span>
-                    {paymentMethod === 'VIETQR' && <CheckCircle2 className="size-4 text-accent" />}
-                  </div>
-                  <p className="text-xs text-fg-3">
-                    Quét mã QR tự động Napas247, xác nhận tức thì.
-                  </p>
-                </div>
-
-                {/* 3. BioPay */}
-                <div
-                  onClick={() => setPaymentMethod('BIOPAY')}
-                  className={`p-4 rounded-xl border cursor-pointer transition-all ${
-                    paymentMethod === 'BIOPAY'
-                      ? 'border-accent bg-accent/10 shadow-[0_0_15px_rgba(110,231,183,0.15)]'
-                      : 'border-line bg-surface-2/40 hover:bg-surface-2'
-                  }`}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-semibold text-fg text-sm">Ví BioPay</span>
-                    {paymentMethod === 'BIOPAY' && <CheckCircle2 className="size-4 text-accent" />}
-                  </div>
-                  <p className="text-xs text-fg-3">
-                    Thanh toán số dư tích lũy sinh thái trực tuyến.
-                  </p>
-                </div>
-              </div>
-
-              {/* VietQR View nếu chọn */}
-              {paymentMethod === 'VIETQR' && (
-                <div className="pt-2">
-                  <VietQRCard
-                    amount={subtotal}
-                    memo={`BIO-ORDER-${Date.now().toString().slice(-6)}`}
-                  />
-                </div>
-              )}
-            </div>
-
-            {/* Bảng kê xem lại đơn hàng */}
             <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-6 shadow-xl">
               <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center justify-between">
-                <span>Xem lại danh sách cá thể</span>
+                <span>Danh sách cá thể</span>
                 <span className="text-xs font-mono text-accent">{checkoutItems.length} sản phẩm</span>
               </h2>
 
-              <div className="divide-y divide-line/40">
+              <ul className="divide-y divide-line/40">
                 {checkoutItems.map((item) => (
-                  <div key={item.productId} className="py-3 flex items-center justify-between gap-4">
+                  <li key={item.productId} className="py-3 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-3">
-                      {item.imageUrl && (
-                        <img
-                          src={item.imageUrl}
-                          alt={item.productName}
-                          className="size-12 rounded-lg object-cover border border-line shrink-0"
-                        />
-                      )}
+                      <img
+                        src={item.imageUrl}
+                        alt={item.productName}
+                        loading="lazy"
+                        className="size-12 rounded-lg object-cover border border-line shrink-0"
+                      />
                       <div>
                         <span className="font-semibold text-fg text-sm block">{item.productName}</span>
                         <span className="text-xs text-fg-3 font-mono">
@@ -431,54 +363,75 @@ export default function CheckoutPage(): React.JSX.Element {
                         </span>
                       </div>
                     </div>
-                    <span className="font-mono font-bold text-fg text-sm">
-                      {formatVnd(item.lineTotal)}
-                    </span>
-                  </div>
+                    <span className="font-mono font-bold text-fg text-sm">{formatVnd(item.lineTotal)}</span>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
-              {/* Tóm tắt người nhận */}
               <div className="rounded-xl border border-line bg-surface-2/40 p-4 text-xs space-y-1">
                 <div className="flex items-center justify-between">
                   <span className="text-fg-3">Giao đến:</span>
-                  <button
-                    type="button"
-                    onClick={() => setCurrentStep(1)}
-                    className="text-accent underline hover:text-white"
-                  >
+                  <button type="button" onClick={() => setCurrentStep(1)} className="text-accent underline hover:text-white">
                     Thay đổi
                   </button>
                 </div>
-                <p className="font-semibold text-fg">
-                  {formData.fullName} · {formData.phone}
-                </p>
-                <p className="text-fg-2">{formData.shippingAddress}</p>
-                {formData.shippingNote && (
-                  <p className="text-fg-3 italic">Ghi chú: {formData.shippingNote}</p>
-                )}
+                <p className="text-fg-2 whitespace-pre-line">{shippingAddress}</p>
               </div>
 
-              {/* Tổng thanh toán & Cảnh báo ACID */}
               <div className="pt-4 border-t border-line/60 flex items-baseline justify-between">
-                <div>
-                  <span className="text-sm font-bold text-fg block">Tổng tiền thanh toán:</span>
-                  <span className="text-[11px] text-fg-3 font-mono">
-                    Đã bao gồm đóng thùng bảo ôn chuyên dụng
-                  </span>
-                </div>
+                <span className="text-sm font-bold text-fg">Tổng tiền:</span>
                 <Price amount={subtotal} size="lg" className="text-2xl text-accent" />
               </div>
 
-              <div className="rounded-xl border border-line/60 bg-surface-2/30 p-3 text-[11px] text-fg-3 flex items-start gap-2">
-                <ShieldCheck className="size-4 shrink-0 text-accent mt-0.5" />
+              <div className="rounded-xl border border-line/60 bg-surface-2/30 p-3 text-xs text-fg-3 flex items-start gap-2">
+                <ShieldCheck className="size-4 shrink-0 text-accent mt-0.5" aria-hidden="true" />
                 <span>
-                  Hệ thống khóa tồn kho nguyên tử (ACID transaction). Đơn hàng sẽ được tạo và xác nhận ngay khi bấm thanh toán.
+                  Kho được kiểm tra lại khi đặt. Nếu một món đã hết, đơn sẽ không được tạo và giỏ hàng giữ nguyên.
                 </span>
               </div>
             </div>
 
-            {/* Cụm nút xác nhận */}
+            {/* Phương thức thanh toán: chỉ hiển thị, hợp đồng API chưa có trường này */}
+            <fieldset className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-4 shadow-xl">
+              <legend className="sr-only">Phương thức thanh toán</legend>
+              <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center gap-2" aria-hidden="true">
+                <CreditCard className="size-5 text-accent" />
+                <span>Phương thức thanh toán</span>
+              </h2>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {PAYMENT_OPTIONS.map((opt) => {
+                  const checked = paymentMethod === opt.id;
+                  return (
+                    <label
+                      key={opt.id}
+                      className={`relative p-4 rounded-xl border cursor-pointer transition-all has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-accent ${
+                        checked
+                          ? 'border-accent bg-accent/10 shadow-[0_0_15px_rgba(110,231,183,0.15)]'
+                          : 'border-line bg-surface-2/40 hover:bg-surface-2'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="paymentMethod"
+                        value={opt.id}
+                        checked={checked}
+                        onChange={() => setPaymentMethod(opt.id)}
+                        className="sr-only"
+                      />
+                      <span className="flex items-center justify-between mb-2">
+                        <span className="font-semibold text-fg text-sm">{opt.label}</span>
+                        {checked && <CheckCircle2 className="size-4 text-accent" aria-hidden="true" />}
+                      </span>
+                      <span className="block text-xs text-fg-3">{opt.description}</span>
+                    </label>
+                  );
+                })}
+              </div>
+
+              {paymentMethod === 'VIETQR' && <VietQRCard amount={subtotal} memo={transferMemo} />}
+            </fieldset>
+
             <div className="flex items-center justify-between pt-2">
               <Button
                 type="button"
@@ -487,8 +440,8 @@ export default function CheckoutPage(): React.JSX.Element {
                 onClick={() => setCurrentStep(1)}
                 className="gap-1.5 text-xs text-fg-3 hover:text-fg"
               >
-                <ArrowLeft className="size-3.5" />
-                <span>Quay lại Bước 1</span>
+                <ArrowLeft className="size-3.5" aria-hidden="true" />
+                <span>Quay lại bước 1</span>
               </Button>
 
               <Button
@@ -497,45 +450,42 @@ export default function CheckoutPage(): React.JSX.Element {
                 pill
                 variant="primary"
                 onClick={handleFinalPlaceOrder}
-                disabled={placeOrderMutation.isPending || checkoutItems.length === 0}
+                disabled={placeOrderMutation.isPending}
+                aria-busy={placeOrderMutation.isPending}
                 className="gap-2 font-bold shadow-[var(--glow-accent-btn)] min-w-[200px]"
               >
                 {placeOrderMutation.isPending ? (
-                  <div className="size-4 animate-spin rounded-full border-2 border-accent-ink border-t-transparent" />
+                  <div className="size-4 animate-spin rounded-full border-2 border-accent-ink border-t-transparent" aria-hidden="true" />
                 ) : (
-                  <Lock className="size-4" />
+                  <Lock className="size-4" aria-hidden="true" />
                 )}
-                <span>
-                  {placeOrderMutation.isPending ? 'Đang tạo đơn hàng...' : 'Xác nhận Đặt hàng'}
-                </span>
+                <span>{placeOrderMutation.isPending ? 'Đang tạo đơn hàng...' : 'Đặt hàng'}</span>
               </Button>
             </div>
           </div>
         )}
       </div>
 
-      {/* Dialog xung đột tồn kho 409 (ConflictDialog) */}
+      {/* Dialog 409: món hết hàng hoặc ngừng bán lúc đặt */}
       <Dialog open={!!conflictError} onOpenChange={() => setConflictError(null)}>
         <DialogContent className="max-w-md">
           <DialogHeader>
             <DialogTitle className="flex items-center gap-2 text-amber-400">
-              <AlertTriangle className="size-5 text-amber-400" />
+              <AlertTriangle className="size-5 text-amber-400" aria-hidden="true" />
               <span>Không thể hoàn tất đơn hàng</span>
             </DialogTitle>
             <DialogDescription className="space-y-3 pt-2 text-fg-2 text-xs leading-relaxed">
-              <p>{conflictError}</p>
-              <p>
-                Giao dịch đã được hệ thống BioNexus tự động hoàn tác (rollback) để bảo đảm an toàn. Thông tin người nhận của bạn vẫn được giữ nguyên.
-              </p>
+              <span className="block">{conflictError}</span>
+              <span className="block">Đơn hàng chưa được tạo, giỏ hàng và tồn kho giữ nguyên.</span>
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="mt-4 gap-2">
             <Button variant="secondary" onClick={() => setConflictError(null)}>
               Đóng
             </Button>
-            <Link to="/cart">
-              <Button variant="primary">Về giỏ hàng để cập nhật</Button>
-            </Link>
+            <ButtonLink to={backTo} variant="primary">
+              {isDirectBuy ? 'Về trang sản phẩm' : 'Về giỏ hàng'}
+            </ButtonLink>
           </DialogFooter>
         </DialogContent>
       </Dialog>

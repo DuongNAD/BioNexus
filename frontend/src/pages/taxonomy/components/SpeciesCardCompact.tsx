@@ -4,7 +4,7 @@ import { ShoppingBag } from 'lucide-react';
 import type { SpeciesDto } from '@/types/api';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { Badge } from '@/components/ui/Badge';
-import { SPECIES_EXTRAS, extractNames } from '@/api/adapters';
+import { SPECIES_EXTRAS, extractNames, toSpeciesView } from '@/api/adapters';
 import { cn } from '@/lib/cn';
 
 export interface SpeciesCardCompactProps {
@@ -20,7 +20,8 @@ export const SpeciesCardCompact: React.FC<SpeciesCardCompactProps> = ({
 }) => {
   const { displayName } = extractNames(species.commonName);
   const extra = SPECIES_EXTRAS[species.scientificName];
-  const photoUrl = extra ? `photos/${extra.slug}/hero-960.webp` : (species.imageURL || undefined);
+  // heroPhoto đã xử lý ảnh seed giả và loài chưa có ảnh (ảnh giữ chỗ)
+  const photoUrl = toSpeciesView(species).heroPhoto;
   const count = productCount !== undefined ? productCount : 0;
 
   return (
@@ -32,7 +33,7 @@ export const SpeciesCardCompact: React.FC<SpeciesCardCompactProps> = ({
       )}
     >
       <img
-        src={photoUrl || undefined}
+        src={photoUrl}
         alt={displayName}
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
@@ -60,7 +61,7 @@ export const SpeciesCardCompact: React.FC<SpeciesCardCompactProps> = ({
         <div className="mt-1.5 flex items-center gap-1">
           {count > 0 ? (
             <Badge variant="success" size="sm" className="text-[9px] px-1.5 py-0 bg-black/60 backdrop-blur-md">
-              <ShoppingBag className="size-2.5 mr-1" /> {count} cá thể bán
+              <ShoppingBag className="size-2.5 mr-1" aria-hidden="true" /> {count} cá thể bán
             </Badge>
           ) : (
             <Badge variant="default" size="sm" className="text-[9px] px-1.5 py-0 bg-black/60 backdrop-blur-md text-fg-3">

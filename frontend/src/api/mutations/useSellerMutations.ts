@@ -58,7 +58,8 @@ export function useCreateProduct() {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.seller.products() });
-      queryClient.invalidateQueries({ queryKey: queryKeys.admin.pendingProducts() });
+      // Hàng đợi kiểm duyệt dùng key admin.products(status): làm mới cả nhánh admin
+      queryClient.invalidateQueries({ queryKey: queryKeys.admin.all() });
     },
   });
 }

@@ -89,7 +89,15 @@ export const productHandlers = [
     const page = pageStr !== null ? Number(pageStr) : 1;
     const size = sizeStr !== null ? Number(sizeStr) : 12;
 
-    if (isNaN(page) || page <= 0 || isNaN(size) || size <= 0 || size > 48) {
+    // page, size và speciesId phải là số nguyên; giá trị lạ trả 400 thay vì lặng lẽ bỏ qua bộ lọc
+    if (
+      !Number.isInteger(page) ||
+      page <= 0 ||
+      !Number.isInteger(size) ||
+      size <= 0 ||
+      size > 48 ||
+      (speciesId !== undefined && (!Number.isInteger(speciesId) || speciesId <= 0))
+    ) {
       return HttpResponse.json(
         { success: false, code: 'INVALID_PAGINATION', message: 'Tham số phân trang không hợp lệ', data: null },
         { status: 400 }

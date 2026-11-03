@@ -125,10 +125,9 @@ export const IUCN_JOURNEY_STYLE: Record<
   },
 };
 
-export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'parsedSpecs'>> = {
+// id và nodeId không ghi cứng ở đây: lấy từ API theo tên khoa học (id trong DB thật có thể khác)
+export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'parsedSpecs' | 'id' | 'nodeId'>> = {
   'burmese-python': {
-    id: 6,
-    nodeId: 20,
     slug: 'burmese-python',
     name: 'Trăn đất',
     sci: 'Python bivittatus',
@@ -148,8 +147,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'nepenthes-ampullaria': {
-    id: 9,
-    nodeId: 25,
     slug: 'nepenthes-ampullaria',
     name: 'Nắp ấm Ampullaria',
     sci: 'Nepenthes ampullaria',
@@ -169,8 +166,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'nepenthes-rajah': {
-    id: 2,
-    nodeId: 25,
     slug: 'nepenthes-rajah',
     name: 'Nắp ấm Rajah',
     sci: 'Nepenthes rajah',
@@ -190,8 +185,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'venus-flytrap': {
-    id: 5,
-    nodeId: 26,
     slug: 'venus-flytrap',
     name: 'Cây bắt ruồi Venus',
     sci: 'Dionaea muscipula',
@@ -211,8 +204,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   axolotl: {
-    id: 1,
-    nodeId: 24,
     slug: 'axolotl',
     name: 'Axolotl',
     sci: 'Ambystoma mexicanum',
@@ -226,14 +217,12 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
       { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
       { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
       { rank: 'CLASS', sci: 'Amphibia', vi: 'Lớp Lưỡng cư' },
-      { rank: 'ORDER', sci: 'Urodela', vi: 'Bộ Có đuôi' },
+      { rank: 'ORDER', sci: 'Caudata', vi: 'Bộ Có đuôi' },
       { rank: 'FAMILY', sci: 'Ambystomatidae', vi: 'Họ Ambystomatidae' },
       { rank: 'GENUS', sci: 'Ambystoma', vi: 'Chi Ambystoma' },
     ],
   },
   'ball-python': {
-    id: 3,
-    nodeId: 20,
     slug: 'ball-python',
     name: 'Trăn bóng',
     sci: 'Python regius',
@@ -253,8 +242,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'leopard-gecko': {
-    id: 4,
-    nodeId: 21,
     slug: 'leopard-gecko',
     name: 'Thằn lằn da báo',
     sci: 'Eublepharis macularius',
@@ -274,8 +261,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'bearded-dragon': {
-    id: 7,
-    nodeId: 22,
     slug: 'bearded-dragon',
     name: 'Rồng Úc',
     sci: 'Pogona vitticeps',
@@ -295,8 +280,6 @@ export const JOURNEY_SPECIES_BASE: Record<string, Omit<JourneySpeciesView, 'pars
     ],
   },
   'hermann-tortoise': {
-    id: 8,
-    nodeId: 23,
     slug: 'hermann-tortoise',
     name: 'Rùa Hermann',
     sci: 'Testudo hermanni',
@@ -329,8 +312,9 @@ export function resolveJourneySpecies(
 
   return {
     ...base,
-    id: matched?.id ?? base.id,
-    nodeId: matched?.nodeId ?? base.nodeId,
+    // 0 nghĩa là chưa có dữ liệu API: nơi tạo link sẽ trỏ về trang danh mục thay vì đoán id
+    id: matched?.id ?? 0,
+    nodeId: matched?.nodeId ?? 0,
     sci: matched?.scientificName ?? base.sci,
     iucn: matched?.conservationStatus ?? base.iucn,
     parsedSpecs,

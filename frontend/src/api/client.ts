@@ -69,10 +69,12 @@ export async function api<T>(
     requestHeaders.set('Accept', 'application/json');
   }
 
-  if (!skipAuth && !requestHeaders.has('Authorization')) {
+  let sentToken = requestHeaders.has('Authorization');
+  if (!skipAuth && !sentToken) {
     const token = getStoredToken();
     if (token) {
       requestHeaders.set('Authorization', `Bearer ${token}`);
+      sentToken = true;
     }
   }
 
@@ -98,7 +100,8 @@ export async function api<T>(
   }
 
   if (response.status === 401) {
-    if (!skipAuthRedirect) {
+    // Chỉ coi là hết phiên khi request có gửi token: sai mật khẩu ở trang đăng nhập cũng trả 401
+    if (sentToken && !skipAuthRedirect) {
       handleUnauthorizedRedirect();
     }
     const errorCode = json?.code || 'AUTH_UNAUTHORIZED';

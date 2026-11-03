@@ -11,6 +11,12 @@ import type {
   ProductStatus,
 } from '@/types/api';
 
+// Hợp đồng chỉ có { status }; reason là trường đề xuất, chỉ gửi khi có nội dung
+function buildStatusPayload(status: SellerStatus | ProductStatus, reason?: string): UpdateStatusRequest {
+  const trimmed = reason?.trim();
+  return trimmed ? { status, reason: trimmed } : { status };
+}
+
 export function useModerateSeller() {
   const queryClient = useQueryClient();
 
@@ -24,14 +30,14 @@ export function useModerateSeller() {
       status: SellerStatus;
       reason?: string;
     }) => {
-      const payload: UpdateStatusRequest = { status, reason };
       const res = await api<SellerDto>(`admin/sellers/${sellerId}/status`, {
         method: 'PUT',
-        body: JSON.stringify(payload),
+        body: JSON.stringify(buildStatusPayload(status, reason)),
       });
       return res.data!;
     },
-    onSuccess: () => {
+    // onSettled: kể cả khi 409 (người khác đã duyệt) cũng tải lại hàng đợi để bỏ dòng cũ
+    onSettled: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.admin.all() });
       queryClient.invalidateQueries({ queryKey: queryKeys.seller.all() });
     },
@@ -51,16 +57,16 @@ export function useModerateProduct() {
       status: ProductStatus;
       reason?: string;
     }) => {
-      const payload: UpdateStatusRequest = { status, reason };
       const res = await api<ProductDto>(`admin/products/${productId}/status`, {
         method: 'PUT',
-        body: JSON.stringify(payload),
+        body: JSON.stringify(buildStatusPayload(status, reason)),
       });
       return res.data!;
     },
-    onSuccess: () => {
+    onSettled: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.admin.all() });
       queryClient.invalidateQueries({ queryKey: queryKeys.products.all() });
+      queryClient.invalidateQueries({ queryKey: queryKeys.species.all() });
       queryClient.invalidateQueries({ queryKey: queryKeys.seller.products() });
     },
   });

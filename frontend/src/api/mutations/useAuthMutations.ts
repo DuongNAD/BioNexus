@@ -1,12 +1,12 @@
-import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 import { api } from '../client';
 import { setAuthSession, clearAuthSession } from '../authStore';
-import { queryKeys } from '../keys';
 import type { LoginRequest, RegisterRequest, AuthResponse } from '@/types/api';
 
-export function useLogin() {
-  const queryClient = useQueryClient();
+// Bộ đệm riêng tư (giỏ, đơn, shop, hàng đợi admin) được xóa ở App khi người đăng nhập đổi,
+// nên các mutation ở đây chỉ cần cập nhật authStore.
 
+export function useLogin() {
   return useMutation({
     mutationFn: async (credentials: LoginRequest) => {
       const res = await api<AuthResponse>('auth/login', {
@@ -18,16 +18,13 @@ export function useLogin() {
     },
     onSuccess: (data) => {
       setAuthSession(data);
-      queryClient.invalidateQueries({ queryKey: queryKeys.auth.all() });
     },
   });
 }
 
 export function useAdminLogin() {
-  const queryClient = useQueryClient();
-
   return useMutation({
-    mutationFn: async (credentials: { account: string; password: string }) => {
+    mutationFn: async (credentials: LoginRequest) => {
       const res = await api<AuthResponse>('auth/admin/login', {
         method: 'POST',
         body: JSON.stringify(credentials),
@@ -37,14 +34,11 @@ export function useAdminLogin() {
     },
     onSuccess: (data) => {
       setAuthSession(data);
-      queryClient.invalidateQueries({ queryKey: queryKeys.auth.all() });
     },
   });
 }
 
 export function useRegister() {
-  const queryClient = useQueryClient();
-
   return useMutation({
     mutationFn: async (payload: RegisterRequest) => {
       const res = await api<AuthResponse>('auth/register', {
@@ -56,27 +50,19 @@ export function useRegister() {
     },
     onSuccess: (data) => {
       setAuthSession(data);
-      queryClient.invalidateQueries({ queryKey: queryKeys.auth.all() });
     },
   });
 }
 
-export function useLogout() {
-  const queryClient = useQueryClient();
-
+/** Hợp đồng API không có endpoint đăng xuất (token không trạng thái), nên chỉ xóa phiên ở client */
+export function useLogout(redirectTo: string = '#/login') {
   return useMutation({
     mutationFn: async () => {
-      try {
-        await api('auth/logout', { method: 'POST' });
-      } finally {
-        clearAuthSession();
-      }
+      clearAuthSession();
     },
     onSettled: () => {
-      clearAuthSession();
-      queryClient.clear();
       if (typeof window !== 'undefined') {
-        window.location.hash = '#/login';
+        window.location.hash = redirectTo;
       }
     },
   });

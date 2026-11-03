@@ -1,12 +1,12 @@
 import React, { useState, useMemo } from 'react';
-import { Link } from 'react-router';
 import { Package, ArrowRight, MapPin } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
 import { Price } from '@/components/ui/Price';
 import { StatusPill } from '@/components/ui/StatusPill';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useOrders } from '@/api/queries/useOrderQueries';
-import { getStoredToken } from '@/api/authStore';
+import { resolveProductImage } from '@/api/adapters';
 import type { OrderStatus, OrderDto } from '@/types/api';
 
 type TabStatus = 'ALL' | OrderStatus;
@@ -19,10 +19,10 @@ const TABS: { id: TabStatus; label: string }[] = [
 ];
 
 export default function OrdersPage(): React.JSX.Element {
-  const token = getStoredToken();
   const [activeTab, setActiveTab] = useState<TabStatus>('ALL');
 
-  const { data: orders = [], isLoading } = useOrders({ enabled: !!token });
+  // Route đã bọc RequireAuth nên ở đây luôn có token USER
+  const { data: orders = [], isLoading, isError, error, refetch, isRefetching } = useOrders();
 
   // Lọc theo tab trạng thái
   const filteredOrders = useMemo(() => {
@@ -41,18 +41,6 @@ export default function OrdersPage(): React.JSX.Element {
       return dateStr;
     }
   };
-
-  if (!token) {
-    return (
-      <div className="min-h-[50vh] flex flex-col items-center justify-center p-6 text-center">
-        <Package className="size-12 text-fg-3 mb-3" />
-        <h2 className="text-xl font-bold text-fg">Đăng nhập để xem lịch sử đơn hàng</h2>
-        <Link to="/login?next=/orders" className="mt-4">
-          <Button variant="primary" pill>Đăng nhập ngay</Button>
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <div className="space-y-6 max-w-5xl">
@@ -79,6 +67,7 @@ export default function OrdersPage(): React.JSX.Element {
             <button
               key={tab.id}
               type="button"
+              aria-pressed={isSelected}
               onClick={() => setActiveTab(tab.id)}
               className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-medium transition-all whitespace-nowrap ${
                 isSelected
@@ -102,6 +91,13 @@ export default function OrdersPage(): React.JSX.Element {
             <div key={i} className="h-40 rounded-2xl bg-surface animate-pulse" />
           ))}
         </div>
+      ) : isError ? (
+        <QueryErrorState
+          title="Không tải được lịch sử đơn hàng"
+          error={error}
+          onRetry={() => refetch()}
+          isRetrying={isRefetching}
+        />
       ) : filteredOrders.length === 0 ? (
         <EmptyState
           icon={<Package className="size-8 text-accent" />}
@@ -155,13 +151,12 @@ const OrderCard: React.FC<{ order: OrderDto; formatDate: (d: string) => string }
                 key={idx}
                 className="size-14 rounded-xl border-2 border-bg bg-surface-2 overflow-hidden shadow-sm"
               >
-                {item.imageUrl ? (
-                  <img src={item.imageUrl} alt={item.productName} className="size-full object-cover" />
-                ) : (
-                  <div className="size-full flex items-center justify-center text-[10px] text-fg-3 font-mono">
-                    BIO
-                  </div>
-                )}
+                <img
+                  src={resolveProductImage(item.imageUrl)}
+                  alt={item.productName}
+                  loading="lazy"
+                  className="size-full object-cover"
+                />
               </div>
             ))}
             {items.length > 3 && (
@@ -172,14 +167,14 @@ const OrderCard: React.FC<{ order: OrderDto; formatDate: (d: string) => string }
           </div>
 
           <div className="min-w-0">
-            <h4 className="font-semibold text-fg text-sm truncate">
+            <h2 className="font-semibold text-fg text-sm truncate">
               {firstItem ? firstItem.productName : 'Đơn hàng sinh vật cảnh'}
-            </h4>
+            </h2>
             {moreCount > 0 && (
               <p className="text-xs text-fg-3 font-mono mt-0.5">+ {moreCount} cá thể khác</p>
             )}
-            <div className="flex items-center gap-1.5 text-xs text-fg-mute mt-1.5 truncate max-w-md">
-              <MapPin className="size-3 shrink-0" />
+            <div className="flex items-center gap-1.5 text-xs text-fg-3 mt-1.5 truncate max-w-md">
+              <MapPin className="size-3 shrink-0" aria-hidden="true" />
               <span className="truncate">{order.shippingAddress}</span>
             </div>
           </div>
@@ -188,16 +183,21 @@ const OrderCard: React.FC<{ order: OrderDto; formatDate: (d: string) => string }
         {/* Footer: Tổng tiền + Nút Chi tiết */}
         <div className="flex items-center justify-between md:justify-end gap-6 pt-3 md:pt-0 border-t md:border-t-0 border-line/40">
           <div className="text-left md:text-right">
-            <span className="block text-[11px] text-fg-3 uppercase font-mono">Tổng thanh toán:</span>
+            <span className="block text-[11px] text-fg-3 uppercase">Tổng thanh toán:</span>
             <Price amount={order.totalAmount} size="md" className="text-accent" />
           </div>
 
-          <Link to={`/orders/${order.id}`}>
-            <Button size="sm" variant="secondary" pill className="gap-1 text-xs">
-              <span>Xem chi tiết</span>
-              <ArrowRight className="size-3.5" />
-            </Button>
-          </Link>
+          <ButtonLink
+            to={`/orders/${order.id}`}
+            size="sm"
+            variant="secondary"
+            pill
+            className="gap-1 text-xs"
+            aria-label={`Xem chi tiết đơn ${order.orderCode}`}
+          >
+            <span>Xem chi tiết</span>
+            <ArrowRight className="size-3.5" aria-hidden="true" />
+          </ButtonLink>
         </div>
       </div>
     </div>

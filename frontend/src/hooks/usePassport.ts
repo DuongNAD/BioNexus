@@ -45,7 +45,11 @@ function emitPassportChange(): void {
   listeners.forEach((fn) => fn());
 }
 
+// Bản sao trong bộ nhớ: khi localStorage bị chặn (ẩn danh, chặn cookie) hộ chiếu vẫn đóng dấu được trong phiên
+let memoryMap: PassportStorageMap | null = null;
+
 export function readPassportMap(): PassportStorageMap {
+  if (memoryMap) return { ...memoryMap };
   if (typeof window === 'undefined') return {};
   try {
     const raw = window.localStorage.getItem(PASSPORT_STORAGE_KEY);
@@ -59,13 +63,18 @@ export function readPassportMap(): PassportStorageMap {
 }
 
 export function writePassportMap(map: PassportStorageMap): void {
-  if (typeof window === 'undefined') return;
-  try {
-    window.localStorage.setItem(PASSPORT_STORAGE_KEY, JSON.stringify(map));
-    emitPassportChange();
-  } catch {
-    // Bỏ qua lỗi ghi localStorage ở chế độ ẩn danh
+  if (typeof window !== 'undefined') {
+    try {
+      window.localStorage.setItem(PASSPORT_STORAGE_KEY, JSON.stringify(map));
+      memoryMap = null;
+    } catch {
+      // Không ghi được thì giữ trong bộ nhớ để giao diện vẫn khớp với thông báo "Đã đóng dấu"
+      memoryMap = { ...map };
+    }
+  } else {
+    memoryMap = { ...map };
   }
+  emitPassportChange();
 }
 
 export function getPassportEntryForKey(userKey: string): PassportEntry {
@@ -221,7 +230,8 @@ export function PassportProvider({
     [onWelcomeModeChange]
   );
 
-  // Xác định danh tính người thám hiểm: ưu tiên tài khoản thật đã đăng nhập; nếu bật chế độ chào mừng mẫu thì dùng Lê Văn C
+  // Danh tính người thám hiểm: tài khoản đang đăng nhập; chế độ chào mừng khi chưa đăng nhập dùng tên chung
+  // (không mượn tài khoản seed, tài liệu 07 chỉ cho phép việc đó trong DevPanel)
   const user = useMemo<PassportUser | null>(() => {
     if (auth.user) {
       return {
@@ -231,14 +241,14 @@ export function PassportProvider({
     }
     if (isWelcomeMode) {
       return {
-        name: 'Lê Văn C',
-        username: 'levanc',
+        name: 'Nhà thám hiểm mới',
+        username: 'guest',
       };
     }
     return null;
   }, [auth.user, isWelcomeMode]);
 
-  const userKey = auth.user?.username || (isWelcomeMode ? 'levanc' : 'guest');
+  const userKey = auth.user?.username || 'guest';
 
   const entry = useMemo<PassportEntry>(() => {
     void rawStore;

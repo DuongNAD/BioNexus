@@ -56,18 +56,20 @@ export function extractNames(commonName: string): { displayName: string; english
   };
 }
 
-const SPECIES_ID_TO_SLUG: Record<number, string> = {
-  1: 'axolotl',
-  2: 'nepenthes-rajah',
-  3: 'ball-python',
-  4: 'leopard-gecko',
-  5: 'venus-flytrap',
-  6: 'burmese-python',
-  7: 'bearded-dragon',
-  8: 'hermann-tortoise',
-  9: 'nepenthes-ampullaria',
+// Ảnh sản phẩm mẫu theo slug loài (slug tra từ scientificName, không dựa vào id trong DB)
+const SLUG_TO_PROD_IMAGE: Record<string, string> = {
+  axolotl: 'photos/products/prod-axolotl-1-960.webp',
+  'nepenthes-rajah': 'photos/products/prod-nepenthes-rajah-1-960.webp',
+  'ball-python': 'photos/products/prod-ball-python-1-960.webp',
+  'leopard-gecko': 'photos/products/prod-gecko-1-960.webp',
+  'venus-flytrap': 'photos/products/prod-venus-flytrap-1-960.webp',
+  'burmese-python': 'photos/products/prod-burmese-python-1-960.webp',
+  'bearded-dragon': 'photos/products/prod-bearded-dragon-1-960.webp',
+  'hermann-tortoise': 'photos/products/prod-hermann-tortoise-1-960.webp',
+  'nepenthes-ampullaria': 'photos/products/prod-nepenthes-ampullaria-1-960.webp',
 };
 
+// Seed lưu URL giả bionexus.vn: đổi sang ảnh thật đã tải về public/photos
 const SEED_PRODUCT_IMAGE_MAP: Record<string, string> = {
   'https://bionexus.vn/images/prod-gecko-1.jpg': 'photos/products/prod-gecko-1-960.webp',
   'https://bionexus.vn/images/prod-gecko-2.jpg': 'photos/products/prod-gecko-2-960.webp',
@@ -81,17 +83,29 @@ const SEED_PRODUCT_IMAGE_MAP: Record<string, string> = {
   'https://bionexus.vn/images/prod-nepenthes-ampullaria-1.jpg': 'photos/products/prod-nepenthes-ampullaria-1-960.webp',
 };
 
-const SPECIES_ID_TO_PROD_IMAGE: Record<number, string> = {
-  1: 'photos/products/prod-axolotl-1-960.webp',
-  2: 'photos/products/prod-nepenthes-rajah-1-960.webp',
-  3: 'photos/products/prod-ball-python-1-960.webp',
-  4: 'photos/products/prod-gecko-1-960.webp',
-  5: 'photos/products/prod-venus-flytrap-1-960.webp',
-  6: 'photos/products/prod-burmese-python-1-960.webp',
-  7: 'photos/products/prod-bearded-dragon-1-960.webp',
-  8: 'photos/products/prod-hermann-tortoise-1-960.webp',
-  9: 'photos/products/prod-nepenthes-ampullaria-1-960.webp',
-};
+export const PRODUCT_PLACEHOLDER_IMAGE = 'photos/product-placeholder.svg';
+
+/** Slug ổn định từ tên khoa học khi loài chưa có trong species-extras */
+function slugFromScientificName(scientificName: string): string {
+  return scientificName.toLowerCase().trim().replace(/\s+/g, '-');
+}
+
+/**
+ * Ảnh hiển thị cho sản phẩm (dùng chung cho thẻ sản phẩm, giỏ, đơn, thanh toán, kiểm duyệt).
+ * Ưu tiên ảnh người bán khai báo; URL giả của seed thì đổi sang ảnh thật; không có thì lấy ảnh theo loài.
+ */
+export function resolveProductImage(imageUrl: string | null | undefined, speciesScientificName?: string | null): string {
+  if (imageUrl) {
+    const mapped = SEED_PRODUCT_IMAGE_MAP[imageUrl];
+    if (mapped) return mapped;
+    if (!imageUrl.startsWith('https://bionexus.vn/')) {
+      // Đường dẫn tuyệt đối '/photos/...' sẽ hỏng dưới context /BioNexus của WAR
+      return imageUrl.startsWith('/') && !imageUrl.startsWith('//') ? imageUrl.slice(1) : imageUrl;
+    }
+  }
+  const slug = speciesScientificName ? SPECIES_EXTRAS[speciesScientificName]?.slug : undefined;
+  return (slug && SLUG_TO_PROD_IMAGE[slug]) || PRODUCT_PLACEHOLDER_IMAGE;
+}
 
 function photoIdToLocalWebp(photoId: string, slug: string): string {
   const meta = PHOTOS[photoId];
@@ -102,11 +116,7 @@ function photoIdToLocalWebp(photoId: string, slug: string): string {
     );
   }
   if (photoId.includes('-product-')) {
-    return SPECIES_ID_TO_PROD_IMAGE[
-      Number(
-        Object.entries(SPECIES_ID_TO_SLUG).find(([, s]) => s === slug)?.[0] || 4
-      )
-    ]!;
+    return SLUG_TO_PROD_IMAGE[slug] || PRODUCT_PLACEHOLDER_IMAGE;
   }
   const prefix = `${slug}-`;
   const role = photoId.startsWith(prefix) ? photoId.slice(prefix.length) : 'hero';
@@ -119,7 +129,9 @@ function photoIdToLocalWebp(photoId: string, slug: string): string {
 export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
   const { displayName, englishName } = extractNames(dto.commonName);
   const extras = SPECIES_EXTRAS[dto.scientificName];
-  const slug = extras?.slug || SPECIES_ID_TO_SLUG[dto.id] || dto.scientificName.toLowerCase().replace(/\s+/g, '-');
+  const slug = extras?.slug || slugFromScientificName(dto.scientificName);
+  const fallbackImage =
+    dto.imageURL && !dto.imageURL.startsWith('https://bionexus.vn/') ? dto.imageURL : PRODUCT_PLACEHOLDER_IMAGE;
 
   return {
     ...dto,
@@ -128,10 +140,11 @@ export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
     slug,
     group: extras?.group || 'Khác',
     origin: extras?.origin || { lat: 10.78, lng: 106.7, place: 'Việt Nam' },
-    heroPhoto: extras ? `photos/${extras.slug}/hero-960.webp` : `photos/${slug}/hero-960.webp`,
+    // Loài mới (chưa có ảnh trong public/photos) thì dùng ảnh DB nếu là URL thật, không thì ảnh giữ chỗ
+    heroPhoto: extras ? `photos/${extras.slug}/hero-960.webp` : fallbackImage,
     galleryPhotos: extras?.galleryPhotoIds
       ? extras.galleryPhotoIds.map((id) => photoIdToLocalWebp(id, extras.slug))
-      : [`photos/${slug}/hero-960.webp`, `photos/${slug}/portrait-960.webp`, `photos/${slug}/habitat-960.webp`],
+      : [fallbackImage],
     parsedSpecs: parseEnvironmentSpecs(dto.environmentSpecs),
     heroPhotoId: extras?.heroPhotoId,
     portraitPhotoId: extras?.portraitPhotoId,
@@ -156,17 +169,7 @@ export function toProductView(dto: ProductDto, sellerMap?: Record<number, Seller
     dto.shopName ||
     (sellerMap && dto.sellerProfileId ? sellerMap[dto.sellerProfileId]?.shopName : null);
 
-  const extras = dto.speciesScientificName ? SPECIES_EXTRAS[dto.speciesScientificName] : undefined;
-  const slug = extras?.slug || SPECIES_ID_TO_SLUG[dto.speciesId] || 'leopard-gecko';
-
-  let displayImage = SPECIES_ID_TO_PROD_IMAGE[dto.speciesId] || `photos/${slug}/hero-960.webp`;
-  if (dto.imageUrl) {
-    if (SEED_PRODUCT_IMAGE_MAP[dto.imageUrl]) {
-      displayImage = SEED_PRODUCT_IMAGE_MAP[dto.imageUrl]!;
-    } else if (!dto.imageUrl.startsWith('https://bionexus.vn/')) {
-      displayImage = dto.imageUrl;
-    }
-  }
+  const displayImage = resolveProductImage(dto.imageUrl, dto.speciesScientificName);
 
   return {
     ...dto,

@@ -1,15 +1,17 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router';
+import React from 'react';
+import { useNavigate } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Store, ShieldCheck, ArrowRight, Clock } from 'lucide-react';
+import { Store, ShieldCheck, ArrowRight, Clock, XCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { Textarea } from '@/components/ui/Textarea';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useMe } from '@/api/queries/useAuthQueries';
 import { useApplySeller } from '@/api/mutations/useSellerMutations';
-import { getStoredToken } from '@/api/authStore';
+import { ApiError } from '@/api/errors';
 import { toast } from 'sonner';
 
 const sellerApplySchema = z.object({
@@ -30,8 +32,9 @@ const sellerApplySchema = z.object({
 type SellerApplyFormData = z.infer<typeof sellerApplySchema>;
 
 export default function SellerApplyPage(): React.JSX.Element {
-  const token = getStoredToken();
-  const { data: me, isLoading } = useMe({ enabled: !!token });
+  const navigate = useNavigate();
+  // Route đã bọc RequireAuth nên ở đây luôn là tài khoản USER
+  const { data: me, isLoading, isError, error, refetch, isRefetching } = useMe();
   const applySellerMutation = useApplySeller();
 
   const {
@@ -39,7 +42,6 @@ export default function SellerApplyPage(): React.JSX.Element {
     handleSubmit,
     watch,
     setError,
-    setValue,
     formState: { errors },
   } = useForm<SellerApplyFormData>({
     resolver: zodResolver(sellerApplySchema),
@@ -52,15 +54,6 @@ export default function SellerApplyPage(): React.JSX.Element {
 
   const formData = watch();
 
-  // Điền sẵn dữ liệu cũ nếu shop bị từ chối REJECTED
-  useEffect(() => {
-    if (me?.shop) {
-      if (me.shop.shopName) setValue('shopName', me.shop.shopName);
-      if (me.shop.businessLicenseUrl) setValue('businessLicenseUrl', me.shop.businessLicenseUrl);
-      if (me.shop.bio) setValue('bio', me.shop.bio);
-    }
-  }, [me, setValue]);
-
   const onSubmit = async (values: SellerApplyFormData) => {
     try {
       await applySellerMutation.mutateAsync({
@@ -69,50 +62,49 @@ export default function SellerApplyPage(): React.JSX.Element {
         bio: values.bio.trim(),
       });
 
-      toast.success('Gửi hồ sơ mở shop thành công! Ban Quản trị sẽ thẩm định trong 24-48 giờ.');
-      window.location.hash = '#/account';
-    } catch (err: any) {
-      if (err.code === 'SELLER_SHOP_NAME_EXISTS') {
+      toast.success('Đã gửi hồ sơ mở shop. Ban Quản trị sẽ thẩm định giấy phép của bạn.');
+      navigate('/account');
+    } catch (err) {
+      const code = err instanceof ApiError ? err.code : '';
+      if (code === 'SELLER_SHOP_NAME_EXISTS') {
         setError('shopName', { type: 'server', message: 'Tên cửa hàng đã tồn tại trên hệ thống. Vui lòng chọn tên khác.' });
-      } else if (err.code === 'SELLER_ALREADY_REGISTERED') {
+      } else if (code === 'SELLER_ALREADY_REGISTERED') {
         toast.error('Bạn đã đăng ký mở shop trước đó.');
+        void refetch();
       } else {
-        toast.error(err.message || 'Không thể nộp hồ sơ.');
+        toast.error(err instanceof Error && err.message ? err.message : 'Không thể nộp hồ sơ.');
       }
     }
   };
 
-  if (!token) {
-    return (
-      <div className="min-h-[50vh] flex flex-col items-center justify-center p-6 text-center">
-        <Store className="size-12 text-fg-3 mb-3" />
-        <h2 className="text-xl font-bold text-fg">Đăng nhập để đăng ký mở shop</h2>
-        <Link to="/login?next=/seller/apply" className="mt-4">
-          <Button variant="primary" pill>Đăng nhập ngay</Button>
-        </Link>
-      </div>
-    );
+  if (isLoading) {
+    return <div className="h-64 rounded-2xl bg-surface animate-pulse max-w-4xl" role="status" aria-label="Đang tải hồ sơ" />;
   }
 
-  if (isLoading || !me) {
-    return <div className="h-64 rounded-2xl bg-surface animate-pulse max-w-4xl" />;
+  if (isError || !me) {
+    return (
+      <QueryErrorState
+        title="Không tải được hồ sơ tài khoản"
+        error={error}
+        onRetry={() => refetch()}
+        isRetrying={isRefetching}
+      />
+    );
   }
 
   // Nếu shop đã ACTIVE -> điều hướng về /seller
   if (me.shop?.status === 'ACTIVE') {
     return (
       <div className="rounded-2xl border border-line bg-surface p-8 text-center max-w-lg mx-auto space-y-4">
-        <Store className="size-12 text-accent mx-auto" />
-        <h2 className="text-xl font-bold text-fg">Bạn đã sở hữu shop đang hoạt động</h2>
-        <p className="text-xs text-fg-2">
-          Cơ sở <span className="font-semibold text-accent">{me.shop.shopName}</span> đã được cấp chứng nhận kiểm định F2+.
+        <Store className="size-12 text-accent mx-auto" aria-hidden="true" />
+        <h1 className="text-xl font-bold text-fg">Bạn đã sở hữu shop đang hoạt động</h1>
+        <p className="text-sm text-fg-2">
+          Cơ sở <span className="font-semibold text-accent">{me.shop.shopName}</span> đã được Ban Quản trị duyệt.
         </p>
-        <Link to="/seller">
-          <Button variant="primary" pill className="gap-2">
-            <span>Vào Bảng điều khiển Shop</span>
-            <ArrowRight className="size-4" />
-          </Button>
-        </Link>
+        <ButtonLink to="/seller" variant="primary" pill className="gap-2">
+          <span>Vào Bảng điều khiển Shop</span>
+          <ArrowRight className="size-4" aria-hidden="true" />
+        </ButtonLink>
       </div>
     );
   }
@@ -123,22 +115,50 @@ export default function SellerApplyPage(): React.JSX.Element {
       <div className="rounded-2xl border border-amber-500/30 bg-surface-1/90 backdrop-blur-xl p-8 max-w-2xl mx-auto space-y-6">
         <div className="flex items-center gap-3">
           <div className="size-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center">
-            <Clock className="size-5" />
+            <Clock className="size-5" aria-hidden="true" />
           </div>
           <div>
-            <h2 className="text-xl font-bold text-fg">Hồ sơ mở shop đang được thẩm định</h2>
+            <h1 className="text-xl font-bold text-fg">Hồ sơ mở shop đang được thẩm định</h1>
             <p className="text-xs text-amber-300">Cơ sở: {me.shop.shopName}</p>
           </div>
         </div>
 
-        <p className="text-xs text-fg-2 leading-relaxed">
-          Ban Quản trị và Chuyên gia Sinh học BioNexus đang đối soát hồ sơ giấy phép CITES và kiểm định vệ sinh chuồng trại của bạn.
+        <p className="text-sm text-fg-2 leading-relaxed">
+          Ban Quản trị BioNexus đang kiểm tra giấy phép kinh doanh của bạn. Bạn sẽ đăng bán được ngay khi shop được duyệt.
         </p>
 
         <div className="pt-4 border-t border-line/60">
-          <Link to="/account">
-            <Button variant="secondary" size="sm" pill>← Về trang tài khoản</Button>
-          </Link>
+          <ButtonLink to="/account" variant="secondary" size="sm" pill>
+            ← Về trang tài khoản
+          </ButtonLink>
+        </div>
+      </div>
+    );
+  }
+
+  // Shop bị từ chối hoặc bị khóa: backend chỉ cho một hồ sơ mỗi tài khoản (409 SELLER_ALREADY_REGISTERED), nên không hiện form
+  if (me.shop) {
+    const isBanned = me.shop.status === 'BANNED';
+    return (
+      <div className="rounded-2xl border border-danger/30 bg-surface-1/90 backdrop-blur-xl p-8 max-w-2xl mx-auto space-y-6">
+        <div className="flex items-center gap-3">
+          <div className="size-10 rounded-xl bg-danger/15 text-danger flex items-center justify-center">
+            <XCircle className="size-5" aria-hidden="true" />
+          </div>
+          <div>
+            <h1 className="text-xl font-bold text-fg">
+              {isBanned ? 'Shop của bạn đang bị khóa' : 'Hồ sơ mở shop chưa được duyệt'}
+            </h1>
+            <p className="text-sm text-fg-2">Cơ sở: {me.shop.shopName}</p>
+          </div>
+        </div>
+        <p className="text-sm text-fg-2 leading-relaxed">
+          Mỗi tài khoản chỉ có một hồ sơ shop. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn xử lý.
+        </p>
+        <div className="pt-4 border-t border-line/60">
+          <ButtonLink to="/account" variant="secondary" size="sm" pill>
+            ← Về trang tài khoản
+          </ButtonLink>
         </div>
       </div>
     );
@@ -246,10 +266,10 @@ export default function SellerApplyPage(): React.JSX.Element {
           </form>
         </div>
 
-        {/* Cột phải (40% Live Sticky Preview - "Paper Island"): Xem trước thẻ shop */}
+        {/* Cột phải (40%, dính, kiểu "paper island"): xem trước thẻ shop */}
         <aside className="lg:col-span-5 sticky top-24 space-y-4">
           <span className="text-xs uppercase font-mono font-bold tracking-wider text-accent block">
-            Xem trước giao diện thẻ Shop (Live Preview)
+            Xem trước thẻ shop
           </span>
 
           <div className="rounded-2xl border border-accent/40 bg-surface-1/90 backdrop-blur-xl p-6 shadow-2xl space-y-4">

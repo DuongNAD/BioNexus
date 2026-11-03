@@ -1,17 +1,21 @@
 @import "tailwindcss";
 @import "./tokens.css";
 
-/* Nạp font tự host từ @fontsource */
+/* Nạp font tự host từ @fontsource (không gọi Google Fonts: bản WAR phải chạy được khi không có Internet) */
 @import "@fontsource/be-vietnam-pro/300.css";
 @import "@fontsource/be-vietnam-pro/400.css";
 @import "@fontsource/be-vietnam-pro/500.css";
 @import "@fontsource/be-vietnam-pro/600.css";
 @import "@fontsource/be-vietnam-pro/700.css";
+@import "@fontsource/be-vietnam-pro/400-italic.css";
+@import "@fontsource/be-vietnam-pro/600-italic.css";
 @import "@fontsource/cormorant-garamond/500.css";
 @import "@fontsource/cormorant-garamond/500-italic.css";
 @import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/600-italic.css";
 @import "@fontsource/jetbrains-mono/400.css";
 @import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/600.css";
 
 @theme inline {
   --color-bg: var(--bg);
@@ -19,6 +23,8 @@
   --color-bg-raised: var(--bg-raised);
 
   --color-surface: var(--surface);
+  /* bg-surface-1 được dùng cho panel kính đặc (form, thẻ trên ảnh): thiếu token này thì Tailwind không sinh class và panel trong suốt */
+  --color-surface-1: var(--bg-raised);
   --color-surface-2: var(--surface-2);
   --color-surface-hover: var(--surface-hover);
   --color-surface-active: var(--surface-active);

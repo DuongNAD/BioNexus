@@ -1,37 +1,64 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
-import { ShoppingBag, User as UserIcon } from 'lucide-react';
+import { Menu, ShoppingBag, User as UserIcon, X, Shield } from 'lucide-react';
 import { Logo } from '@/components/ui/Logo';
 import { QuickSearch, QuickSearchTrigger } from '@/components/navigation/QuickSearch';
 import { FlyToCartContainer } from '@/components/domain/FlyToCart';
 import { useCart } from '@/api/queries/useCartQueries';
-import { getAuthState, subscribeAuth } from '@/api/authStore';
+import { useAuthState } from '@/api/queries/useAuthQueries';
+import { cn } from '@/lib/cn';
+
+const NAV_ITEMS = [
+  { label: 'Trang chủ', path: '/' },
+  { label: 'Cây phân loại', path: '/taxonomy' },
+  { label: 'Bách khoa loài', path: '/species' },
+  { label: 'Sàn sinh vật cảnh', path: '/products' },
+  { label: 'Hành trình 9 loài', path: '/tham-hiem' },
+];
+
+// Trang con (/species/5, /taxonomy/3) vẫn sáng mục cha
+function isNavActive(pathname: string, path: string): boolean {
+  return path === '/' ? pathname === '/' : pathname === path || pathname.startsWith(`${path}/`);
+}
 
 export function RootLayout(): React.JSX.Element {
   const location = useLocation();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [authState, setAuthState] = useState(getAuthState());
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const authState = useAuthState();
+  const isAdmin = authState.accountType === 'ADMIN';
 
-  useEffect(() => {
-    return subscribeAuth((next) => setAuthState(next));
-  }, []);
-
-  const { data: cart } = useCart({ enabled: !!authState.token });
+  // Admin không có giỏ hàng (tài liệu 03 mục 1): useCart tự tắt với tài khoản không phải USER
+  const { data: cart } = useCart();
   const cartCount = cart?.itemCount || 0;
 
-  const navItems = [
-    { label: 'Trang chủ', path: '/' },
-    { label: 'Cây phân loại', path: '/taxonomy' },
-    { label: 'Bách khoa loài', path: '/species' },
-    { label: 'Sàn sinh vật cảnh', path: '/products' },
-    { label: 'Hành trình 9 loài', path: '/tham-hiem' },
-  ];
+  // Đóng menu mobile khi chuyển trang
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsMenuOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [isMenuOpen]);
+
+  const accountLink = isAdmin ? '/admin' : '/account';
+  const accountLabel = authState.user?.fullName || authState.user?.username || 'Tài khoản';
 
   return (
     <div className="flex min-h-screen flex-col bg-bg text-fg">
       {/* Skip Link for WCAG 2.2 AA */}
       <a
         href="#main-content"
+        onClick={(e) => {
+          // HashRouter dùng hash cho route: nhảy tới nội dung bằng focus thay vì đổi hash
+          e.preventDefault();
+          document.getElementById('main-content')?.focus();
+        }}
         className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:font-semibold focus:text-accent-ink"
       >
         Bỏ qua tới nội dung chính
@@ -41,97 +68,167 @@ export function RootLayout(): React.JSX.Element {
       <FlyToCartContainer />
 
       {/* Navbar */}
-      <header className="sticky top-0 z-50 flex h-16 items-center justify-between border-b border-line bg-bg/85 px-6 backdrop-blur-xl">
-        <Link
-          to="/"
-          className="group flex items-center gap-2.5 text-lg font-bold tracking-tight text-accent"
-          aria-label="BioNexus - Về trang chủ"
-        >
-          {/* Logo Helix chuẩn vector */}
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-accent/30 bg-accent/10 text-accent transition-colors group-hover:border-accent group-hover:bg-accent/20">
-            <Logo size={20} />
-          </span>
-          <span className="bg-gradient-to-r from-accent to-accent-2 bg-clip-text text-transparent">
-            BioNexus
-          </span>
-        </Link>
+      <header className="sticky top-0 z-50 border-b border-line bg-bg/85 backdrop-blur-xl">
+        <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6">
+          <Link
+            to="/"
+            className="group flex shrink-0 items-center gap-2.5 text-lg font-bold tracking-tight text-accent"
+            aria-label="BioNexus - Về trang chủ"
+          >
+            {/* Logo Helix chuẩn vector */}
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-accent/30 bg-accent/10 text-accent transition-colors group-hover:border-accent group-hover:bg-accent/20">
+              <Logo size={20} />
+            </span>
+            <span className="hidden bg-gradient-to-r from-accent to-accent-2 bg-clip-text text-transparent min-[400px]:inline">
+              BioNexus
+            </span>
+          </Link>
 
-        <nav aria-label="Điều hướng chính" className="hidden md:flex items-center gap-6 text-sm font-medium">
-          {navItems.map((item) => {
-            const isActive = location.pathname === item.path;
-            return (
+          <nav aria-label="Điều hướng chính" className="hidden items-center gap-6 text-sm font-medium lg:flex">
+            {NAV_ITEMS.map((item) => {
+              const isActive = isNavActive(location.pathname, item.path);
+              return (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  aria-current={isActive ? 'page' : undefined}
+                  className={`whitespace-nowrap transition-colors duration-150 ${
+                    isActive ? 'text-accent font-semibold' : 'text-fg-2 hover:text-fg'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+          </nav>
+
+          <div className="flex items-center gap-2 sm:gap-3">
+            <QuickSearchTrigger onClick={() => setIsSearchOpen(true)} className="w-24 sm:w-32 md:w-48" />
+
+            {!isAdmin && (
               <Link
-                key={item.path}
-                to={item.path}
-                className={`transition-colors duration-150 ${
-                  isActive ? 'text-accent font-semibold' : 'text-fg-2 hover:text-fg'
-                }`}
+                to="/cart"
+                data-cart-icon
+                className="relative flex size-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface/80 text-fg-2 hover:border-accent hover:text-accent transition-colors"
+                aria-label={`Giỏ hàng, ${cartCount} sản phẩm`}
               >
-                {item.label}
+                <ShoppingBag className="size-4" aria-hidden="true" />
+                {cartCount > 0 && (
+                  <span className="absolute -top-1 -right-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-accent px-1 text-[10px] font-bold text-accent-ink shadow-sm">
+                    {cartCount > 99 ? '99+' : cartCount}
+                  </span>
+                )}
               </Link>
-            );
-          })}
-        </nav>
-
-        <div className="flex items-center gap-3">
-          <QuickSearchTrigger onClick={() => setIsSearchOpen(true)} className="w-28 md:w-48" />
-
-          {/* Cart Icon */}
-          <Link
-            to="/cart"
-            data-cart-icon
-            className="relative flex size-9 items-center justify-center rounded-full border border-line bg-surface/80 text-fg-2 hover:border-accent hover:text-accent transition-colors"
-            aria-label={`Giỏ hàng, ${cartCount} sản phẩm`}
-          >
-            <ShoppingBag className="size-4" />
-            {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-accent px-1 text-[10px] font-bold text-accent-ink shadow-sm">
-                {cartCount > 99 ? '99+' : cartCount}
-              </span>
             )}
-          </Link>
 
-          {authState.token ? (
-            <Link
-              to="/account"
-              className="flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-semibold text-fg hover:border-accent transition-colors"
-            >
-              <UserIcon className="size-3.5 text-accent" />
-              <span className="hidden sm:inline truncate max-w-[100px]">
-                {authState.user?.fullName || authState.user?.username || 'Tài khoản'}
-              </span>
-            </Link>
-          ) : (
-            <Link
-              to="/login"
-              className="rounded-full border border-line bg-surface px-4 py-1.5 text-xs font-semibold text-fg-2 hover:border-accent hover:text-accent transition-colors hidden sm:inline-block"
-            >
-              Đăng nhập
-            </Link>
-          )}
+            {authState.token ? (
+              <Link
+                to={accountLink}
+                aria-label={isAdmin ? `Khu vực quản trị của ${accountLabel}` : `Tài khoản của ${accountLabel}`}
+                className="hidden items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-semibold text-fg hover:border-accent transition-colors sm:flex"
+              >
+                {isAdmin ? (
+                  <Shield className="size-3.5 text-accent" aria-hidden="true" />
+                ) : (
+                  <UserIcon className="size-3.5 text-accent" aria-hidden="true" />
+                )}
+                <span className="truncate max-w-[100px]">{accountLabel}</span>
+              </Link>
+            ) : (
+              <Link
+                to="/login"
+                className="hidden whitespace-nowrap rounded-full border border-line bg-surface px-4 py-1.5 text-xs font-semibold text-fg-2 hover:border-accent hover:text-accent transition-colors sm:inline-block"
+              >
+                Đăng nhập
+              </Link>
+            )}
 
-          <Link
-            to="/products"
-            className="rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] hover:bg-white transition-colors"
-          >
-            Khám phá
-          </Link>
+            <Link
+              to="/products"
+              className="hidden whitespace-nowrap rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] hover:bg-white transition-colors md:inline-block"
+            >
+              Khám phá
+            </Link>
+
+            {/* Màn hình hẹp: thanh điều hướng chính gom vào menu */}
+            <button
+              type="button"
+              onClick={() => setIsMenuOpen((open) => !open)}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-main-menu"
+              aria-label={isMenuOpen ? 'Đóng menu điều hướng' : 'Mở menu điều hướng'}
+              className="flex size-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface/80 text-fg hover:border-accent hover:text-accent transition-colors lg:hidden"
+            >
+              {isMenuOpen ? <X className="size-4" aria-hidden="true" /> : <Menu className="size-4" aria-hidden="true" />}
+            </button>
+          </div>
         </div>
+
+        {isMenuOpen && (
+          <nav
+            id="mobile-main-menu"
+            aria-label="Điều hướng chính"
+            className="border-t border-line bg-bg-raised/95 px-4 pb-4 pt-2 backdrop-blur-2xl lg:hidden"
+          >
+            <ul className="flex flex-col gap-1 text-sm font-medium">
+              {NAV_ITEMS.map((item) => {
+                const isActive = isNavActive(location.pathname, item.path);
+                return (
+                  <li key={item.path}>
+                    <Link
+                      to={item.path}
+                      aria-current={isActive ? 'page' : undefined}
+                      className={cn(
+                        'block rounded-xl px-3 py-2.5 transition-colors',
+                        isActive ? 'bg-accent/15 text-accent font-semibold' : 'text-fg-2 hover:bg-surface hover:text-fg'
+                      )}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+            <div className="mt-3 flex items-center gap-2 border-t border-line pt-3">
+              {authState.token ? (
+                <Link
+                  to={accountLink}
+                  className="flex-1 truncate rounded-full border border-line bg-surface px-4 py-2 text-center text-xs font-semibold text-fg hover:border-accent"
+                >
+                  {isAdmin ? 'Khu vực quản trị' : `Tài khoản: ${accountLabel}`}
+                </Link>
+              ) : (
+                <Link
+                  to="/login"
+                  className="flex-1 rounded-full border border-line bg-surface px-4 py-2 text-center text-xs font-semibold text-fg hover:border-accent"
+                >
+                  Đăng nhập
+                </Link>
+              )}
+              <Link
+                to="/products"
+                className="flex-1 rounded-full bg-accent px-4 py-2 text-center text-xs font-semibold text-accent-ink"
+              >
+                Khám phá cửa hàng
+              </Link>
+            </div>
+          </nav>
+        )}
       </header>
 
       {/* Command Palette QuickSearch toàn cục */}
-      <QuickSearch isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+      <QuickSearch isOpen={isSearchOpen} onOpen={() => setIsSearchOpen(true)} onClose={() => setIsSearchOpen(false)} />
 
       {/* Nội dung trang */}
-      <main id="main-content" className="flex-1 focus:outline-none">
+      <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
         <Outlet />
       </main>
 
       {/* Footer sơ khởi */}
-      <footer className="border-t border-line bg-bg-deep p-8 text-center text-xs text-fg-3">
+      <footer className="border-t border-line bg-bg-deep p-8 text-center text-sm text-fg-3">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p>BioNexus © 2026 — Bách khoa sinh học & Sàn sinh vật cảnh nhân giống có kiểm duyệt pháp lý.</p>
-          <div className="flex items-center gap-4">
+          <nav aria-label="Liên kết chân trang" className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
             <Link to="/tham-hiem" className="hover:text-accent transition-colors">
               Hành trình 9 loài
             </Link>
@@ -146,10 +243,10 @@ export function RootLayout(): React.JSX.Element {
             </Link>
             {import.meta.env.DEV && (
               <Link to="/dev/ui" className="text-accent hover:underline">
-                Dev UI Preview
+                Thư viện giao diện
               </Link>
             )}
-          </div>
+          </nav>
         </div>
       </footer>
     </div>

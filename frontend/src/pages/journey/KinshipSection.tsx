@@ -36,33 +36,6 @@ export const KINSHIP_HIGHLIGHTS = [
 ] as const;
 
 // Tra cứu ID phân loại dự phòng theo scientificName khi API chỉ trả nút gốc
-const TAXON_ID_BY_SCI: Record<string, number> = {
-  Animalia: 1,
-  Plantae: 2,
-  Chordata: 3,
-  Tracheophyta: 4,
-  Reptilia: 5,
-  Amphibia: 6,
-  Magnoliopsida: 7,
-  Squamata: 8,
-  Testudines: 9,
-  Urodela: 10,
-  Caryophyllales: 11,
-  Pythonidae: 13,
-  Eublepharidae: 14,
-  Agamidae: 15,
-  Testudinidae: 16,
-  Ambystomatidae: 17,
-  Nepenthaceae: 18,
-  Droseraceae: 19,
-  Python: 20,
-  Eublepharis: 21,
-  Pogona: 22,
-  Testudo: 23,
-  Ambystoma: 24,
-  Nepenthes: 25,
-  Dionaea: 26,
-};
 
 const W = 1000;
 const H = 600;
@@ -112,7 +85,7 @@ export const SPECIES_TAXONOMY_PATHS: Record<string, readonly TaxonBreadcrumb[]> 
     { rank: 'KINGDOM', sci: 'Animalia', vi: 'Giới Động vật' },
     { rank: 'PHYLUM', sci: 'Chordata', vi: 'Ngành Dây sống' },
     { rank: 'CLASS', sci: 'Amphibia', vi: 'Lớp Lưỡng cư' },
-    { rank: 'ORDER', sci: 'Urodela', vi: 'Bộ Có đuôi' },
+    { rank: 'ORDER', sci: 'Caudata', vi: 'Bộ Có đuôi' },
     { rank: 'FAMILY', sci: 'Ambystomatidae', vi: 'Họ Ambystomatidae' },
     { rank: 'GENUS', sci: 'Ambystoma', vi: 'Chi Ambystoma' },
   ],
@@ -153,7 +126,9 @@ export const SPECIES_TAXONOMY_PATHS: Record<string, readonly TaxonBreadcrumb[]> 
 export const KINSHIP_DISCLAIMER =
   'Đây là họ hàng theo phân loại, không phải lịch sử tiến hóa.';
 
-export type KinshipSpeciesItem = Omit<JourneySpeciesView, 'parsedSpecs' | 'path'> & {
+export type KinshipSpeciesItem = Omit<JourneySpeciesView, 'parsedSpecs' | 'path' | 'id' | 'nodeId'> & {
+  id?: number;
+  nodeId?: number;
   path?: readonly TaxonBreadcrumb[];
 };
 
@@ -213,7 +188,8 @@ export function findCommonAncestor(
 export function buildKinshipTree(
   xl = 760,
   speciesList: KinshipSpeciesItem[] = Object.values(JOURNEY_SPECIES_BASE),
-  taxonIdMap: Record<string, number> = TAXON_ID_BY_SCI
+  // Tên khoa học -> id nút phân loại lấy từ API; thiếu thì link về trang cây phân loại gốc
+  taxonIdMap: Record<string, number> = {}
 ): KinshipTreeData {
   const root: KinshipNode = {
     id: 'root',
@@ -243,7 +219,7 @@ export function buildKinshipTree(
           y: 0,
           hl: '',
           anc: '',
-          taxonId: taxonIdMap[n.sci] ?? TAXON_ID_BY_SCI[n.sci],
+          taxonId: taxonIdMap[n.sci],
         };
         byId[n.sci] = node;
         parent.children.push(node);
@@ -345,14 +321,11 @@ const SEG: readonly [number, number] = [0.45, 0.9];
 
 export interface KinshipProps {
   liveSpecies?: SpeciesDto[];
-  taxonomyTree?: Array<{
-    id: number;
-    scientificName: string;
-    children?: unknown[];
-  }>;
+  /** Tên khoa học -> id nút phân loại, dựng từ breadcrumbs của API */
+  taxonIdMap?: Record<string, number>;
 }
 
-export function Kinship({ liveSpecies, taxonomyTree }: KinshipProps): React.JSX.Element {
+export function Kinship({ liveSpecies, taxonIdMap }: KinshipProps): React.JSX.Element {
   const ref = useRef<HTMLElement | null>(null);
   const { met } = usePassport();
   const reduced = useJourneyReducedMotion();
@@ -375,31 +348,7 @@ export function Kinship({ liveSpecies, taxonomyTree }: KinshipProps): React.JSX.
     [liveSpecies]
   );
 
-  const dynamicTaxonIds = useMemo(() => {
-    const map: Record<string, number> = { ...TAXON_ID_BY_SCI };
-    if (taxonomyTree) {
-      const walk = (
-        arr: Array<{ id: number; scientificName: string; children?: unknown[] }>
-      ) => {
-        for (const item of arr) {
-          if (item.scientificName && typeof item.id === 'number') {
-            map[item.scientificName] = item.id;
-          }
-          if (Array.isArray(item.children) && item.children.length > 0) {
-            walk(
-              item.children as Array<{
-                id: number;
-                scientificName: string;
-                children?: unknown[];
-              }>
-            );
-          }
-        }
-      };
-      walk(taxonomyTree);
-    }
-    return map;
-  }, [taxonomyTree]);
+  const dynamicTaxonIds = useMemo(() => taxonIdMap ?? {}, [taxonIdMap]);
 
   const tree = useMemo(
     () => buildKinshipTree(isMobile ? 540 : 760, resolvedSpecies, dynamicTaxonIds),

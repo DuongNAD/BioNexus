@@ -66,7 +66,7 @@ export const IucnScale: React.FC<IucnScaleProps> = ({
                     'flex size-7 sm:size-8 items-center justify-center rounded-full text-[10px] font-mono font-bold transition-all duration-300',
                     isCurrent
                       ? 'scale-125 text-black shadow-[0_0_15px_var(--glow)] z-20 font-extrabold'
-                      : 'bg-surface-2 text-fg-3 border border-line opacity-75'
+                      : 'bg-surface-2 text-fg-2 border border-line'
                   )}
                   style={
                     isCurrent
@@ -83,7 +83,7 @@ export const IucnScale: React.FC<IucnScaleProps> = ({
                 <span
                   className={cn(
                     'mt-1.5 text-[9px] font-mono hidden sm:inline-block',
-                    isCurrent ? 'text-fg font-bold' : 'text-fg-mute'
+                    isCurrent ? 'text-fg font-bold' : 'text-fg-3'
                   )}
                 >
                   {lvl.code}

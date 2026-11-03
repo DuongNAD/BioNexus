@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
-import { useParams, useSearchParams, Link } from 'react-router';
+import { useParams, useSearchParams, useNavigate, Link } from 'react-router';
+import { useQueryClient } from '@tanstack/react-query';
 import {
   Package,
-  Truck,
   CheckCircle2,
   XCircle,
   ArrowLeft,
-  Store,
-  Phone,
-  Mail,
-  ShieldCheck,
   RotateCcw,
   AlertTriangle,
   X,
@@ -17,17 +13,14 @@ import {
 import { Button } from '@/components/ui/Button';
 import { Price } from '@/components/ui/Price';
 import { StatusPill } from '@/components/ui/StatusPill';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
-  DialogFooter,
-} from '@/components/ui/Dialog';
 import { CelebrationConfetti, AnimatedCheckmark } from '@/components/domain/CelebrationConfetti';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useOrderDetail } from '@/api/queries/useOrderQueries';
+import { productDetailQueryOptions } from '@/api/queries/useProductQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
+import { resolveProductImage } from '@/api/adapters';
+import { ApiError } from '@/api/errors';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
 import { toast } from 'sonner';
 
@@ -36,10 +29,12 @@ export default function OrderDetailPage(): React.JSX.Element {
   const [searchParams, setSearchParams] = useSearchParams();
   const isNewOrder = searchParams.get('new') === '1';
 
-  const { data: order, isLoading, error } = useOrderDetail(id || '');
+  const navigate = useNavigate();
+  const queryClient = useQueryClient();
+  const { data: order, isLoading, isError, error, refetch, isRefetching } = useOrderDetail(id || '');
   const addToCartMutation = useAddToCart();
 
-  const [isContactDialogOpen, setIsContactDialogOpen] = useState(false);
+  const [isReordering, setIsReordering] = useState(false);
   const [showCelebration, setShowCelebration] = useState(isNewOrder);
 
   const formatDate = (dateStr?: string) => {
@@ -61,25 +56,43 @@ export default function OrderDetailPage(): React.JSX.Element {
     setSearchParams(searchParams, { replace: true });
   };
 
-  // Mua lại các món trong đơn
-  const handleReorder = () => {
-    if (!order?.items) return;
-    let addedCount = 0;
+  // Mua lại (tài liệu 03 mục 10): chỉ thêm các món còn bán, số lượng không vượt tồn kho, rồi báo rõ kết quả
+  const handleReorder = async () => {
+    const items = order?.items ?? [];
+    if (items.length === 0 || isReordering) return;
+    setIsReordering(true);
 
-    order.items.forEach((item) => {
-      addToCartMutation.mutate(
-        { productId: item.productId, quantity: item.quantity },
-        {
-          onSuccess: () => {
-            addedCount++;
-            if (addedCount === order.items.length) {
-              toast.success('Đã thêm các cá thể vào giỏ hàng');
-              window.location.hash = '#/cart';
-            }
-          },
+    const added: string[] = [];
+    const skipped: string[] = [];
+    // Chạy lần lượt vì useAddToCart cập nhật lạc quan cùng một bộ đệm giỏ: chạy song song thì rollback đè nhau
+    for (const item of items) {
+      try {
+        const product = await queryClient.fetchQuery(productDetailQueryOptions(item.productId));
+        if (!product || !product.isAvailable) {
+          skipped.push(item.productName);
+          continue;
         }
-      );
-    });
+        await addToCartMutation.mutateAsync({
+          productId: item.productId,
+          quantity: Math.min(item.quantity, product.stockQuantity),
+        });
+        added.push(item.productName);
+      } catch {
+        skipped.push(item.productName);
+      }
+    }
+    setIsReordering(false);
+
+    if (added.length === 0) {
+      toast.error('Không món nào trong đơn còn được bán. Giỏ hàng không thay đổi.');
+      return;
+    }
+    if (skipped.length > 0) {
+      toast.warning(`Đã thêm ${added.length} món. Không thể thêm: ${skipped.join(', ')}.`);
+    } else {
+      toast.success('Đã thêm các cá thể vào giỏ hàng');
+    }
+    navigate('/cart');
   };
 
   if (isLoading) {
@@ -92,17 +105,31 @@ export default function OrderDetailPage(): React.JSX.Element {
     );
   }
 
-  if (error || !order) {
+  // Chỉ 404 mới là "không tìm thấy" (đơn của người khác backend cũng trả 404); lỗi mạng hay 500 thì cho thử lại
+  const isNotFound = (isError && error instanceof ApiError && (error.status === 404 || error.status === 400)) || (!isError && !order);
+  if (isError && !isNotFound) {
+    return (
+      <QueryErrorState
+        title="Không tải được chi tiết đơn hàng"
+        error={error}
+        onRetry={() => refetch()}
+        isRetrying={isRefetching}
+        className="mt-10"
+      />
+    );
+  }
+
+  if (isNotFound || !order) {
     return (
       <div className="min-h-[50vh] flex flex-col items-center justify-center p-6 text-center max-w-md mx-auto">
-        <AlertTriangle className="size-12 text-amber-400 mb-3" />
-        <h2 className="text-xl font-bold text-fg">Không tìm thấy đơn hàng yêu cầu</h2>
-        <p className="mt-2 text-xs text-fg-3">
+        <AlertTriangle className="size-12 text-amber-400 mb-3" aria-hidden="true" />
+        <h1 className="text-xl font-bold text-fg">Không tìm thấy đơn hàng yêu cầu</h1>
+        <p className="mt-2 text-sm text-fg-3">
           Mã đơn hàng không tồn tại trên hệ thống hoặc bạn không có quyền xem thông tin đơn hàng này.
         </p>
-        <Link to="/orders" className="mt-6">
-          <Button variant="primary" pill>← Quay lại danh sách đơn hàng</Button>
-        </Link>
+        <ButtonLink to="/orders" variant="primary" pill className="mt-6">
+          ← Quay lại danh sách đơn hàng
+        </ButtonLink>
       </div>
     );
   }
@@ -137,7 +164,7 @@ export default function OrderDetailPage(): React.JSX.Element {
             className="absolute top-4 right-4 text-fg-3 hover:text-fg p-1"
             aria-label="Đóng thông báo"
           >
-            <X className="size-4" />
+            <X className="size-4" aria-hidden="true" />
           </button>
         </div>
       )}
@@ -146,7 +173,7 @@ export default function OrderDetailPage(): React.JSX.Element {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line pb-4">
         <div>
           <Link to="/orders" className="inline-flex items-center gap-1.5 text-xs text-fg-3 hover:text-accent transition-colors mb-2">
-            <ArrowLeft className="size-3.5" />
+            <ArrowLeft className="size-3.5" aria-hidden="true" />
             <span>Quay lại danh sách đơn hàng</span>
           </Link>
           <div className="flex items-center gap-3">
@@ -163,81 +190,50 @@ export default function OrderDetailPage(): React.JSX.Element {
         <div className="flex items-center gap-2">
           <Button
             size="sm"
-            variant="secondary"
-            onClick={() => setIsContactDialogOpen(true)}
-            className="text-xs gap-1.5"
-          >
-            <Store className="size-3.5 text-accent" />
-            <span>Liên hệ shop</span>
-          </Button>
-
-          <Button
-            size="sm"
             variant="primary"
             onClick={handleReorder}
-            disabled={addToCartMutation.isPending}
+            disabled={isReordering}
+            aria-busy={isReordering}
             className="text-xs gap-1.5"
           >
-            <RotateCcw className="size-3.5" />
-            <span>Mua lại</span>
+            <RotateCcw className={`size-3.5 ${isReordering ? 'animate-spin' : ''}`} aria-hidden="true" />
+            <span>{isReordering ? 'Đang thêm vào giỏ...' : 'Mua lại'}</span>
           </Button>
         </div>
       </div>
 
       {/* Dòng thời gian tiến độ trạng thái (4-Step Timeline) */}
       <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-6 shadow-xl space-y-4">
-        <h3 className="font-bold text-fg text-sm uppercase tracking-wider font-mono">
-          Tiến độ giao nhận sinh vật cảnh
-        </h3>
+        <h2 className="font-bold text-fg text-sm uppercase tracking-wider">
+          Tiến độ đơn hàng
+        </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 relative pt-2">
-          {/* Bước 1 */}
-          <div className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2">
+        <ol className="grid grid-cols-1 sm:grid-cols-3 gap-4 relative pt-2">
+          <li className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2">
             <div className="size-8 rounded-full bg-accent/20 border border-accent flex items-center justify-center text-accent shrink-0">
-              <CheckCircle2 className="size-4" />
+              <CheckCircle2 className="size-4" aria-hidden="true" />
             </div>
             <div>
               <span className="font-semibold text-fg text-xs block">1. Đã đặt hàng</span>
-              <span className="text-[10px] text-fg-3 font-mono">{formatDate(order.createdAt)}</span>
+              <span className="text-[11px] text-fg-3">{formatDate(order.createdAt)}</span>
             </div>
-          </div>
+          </li>
 
-          {/* Bước 2 */}
-          <div className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2">
+          <li className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2" aria-current={order.status === 'PENDING' ? 'step' : undefined}>
             <div
               className={`size-8 rounded-full border flex items-center justify-center shrink-0 ${
-                isCompleted || order.status === 'PENDING'
-                  ? 'bg-accent/20 border-accent text-accent'
-                  : 'bg-surface-2 border-line text-fg-3'
+                isCancelled ? 'bg-surface-2 border-line text-fg-3' : 'bg-accent/20 border-accent text-accent'
               }`}
             >
-              <Package className="size-4" />
+              <Package className="size-4" aria-hidden="true" />
             </div>
             <div>
-              <span className="font-semibold text-fg text-xs block">2. Đóng thùng bảo ôn</span>
-              <span className="text-[10px] text-fg-3">Kiểm tra thể trạng cá thể</span>
+              <span className="font-semibold text-fg text-xs block">2. Đang xử lý</span>
+              <span className="text-[11px] text-fg-3">Cửa hàng chuẩn bị cá thể</span>
             </div>
-          </div>
+          </li>
 
-          {/* Bước 3 */}
-          <div className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2">
-            <div
-              className={`size-8 rounded-full border flex items-center justify-center shrink-0 ${
-                isCompleted
-                  ? 'bg-accent/20 border-accent text-accent'
-                  : 'bg-surface-2 border-line text-fg-3'
-              }`}
-            >
-              <Truck className="size-4" />
-            </div>
-            <div>
-              <span className="font-semibold text-fg text-xs block">3. Vận chuyển chuyên dụng</span>
-              <span className="text-[10px] text-fg-3">Xe điều hòa sinh học</span>
-            </div>
-          </div>
-
-          {/* Bước 4 (hoặc Nhánh CANCELLED) */}
-          <div className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2">
+          <li className="flex sm:flex-col items-center sm:items-start gap-3 sm:gap-2" aria-current={isCompleted || isCancelled ? 'step' : undefined}>
             <div
               className={`size-8 rounded-full border flex items-center justify-center shrink-0 ${
                 isCancelled
@@ -247,38 +243,37 @@ export default function OrderDetailPage(): React.JSX.Element {
                     : 'bg-surface-2 border-line text-fg-3'
               }`}
             >
-              {isCancelled ? <XCircle className="size-4" /> : <CheckCircle2 className="size-4" />}
+              {isCancelled ? <XCircle className="size-4" aria-hidden="true" /> : <CheckCircle2 className="size-4" aria-hidden="true" />}
             </div>
             <div>
               <span className="font-semibold text-fg text-xs block">
-                {isCancelled ? 'Đã hủy đơn hàng' : '4. Giao thành công'}
+                {isCancelled ? '3. Đã hủy đơn hàng' : '3. Hoàn tất'}
               </span>
-              <span className="text-[10px] text-fg-3">
-                {isCancelled ? 'Giao dịch đã kết thúc' : 'Đồng kiểm cá thể sống'}
+              <span className="text-[11px] text-fg-3">
+                {isCancelled ? 'Giao dịch đã kết thúc' : 'Người mua đã nhận cá thể'}
               </span>
             </div>
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
 
       {/* Bảng kê chi tiết cá thể (Snapshot Price Items) */}
       <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-6 shadow-xl space-y-4">
-        <h3 className="font-bold text-fg text-sm uppercase tracking-wider font-mono border-b border-line/60 pb-3">
+        <h2 className="font-bold text-fg text-sm uppercase tracking-wider border-b border-line/60 pb-3">
           Danh mục cá thể đã đặt
-        </h3>
+        </h2>
 
         <div className="divide-y divide-line/40">
           {(order.items || []).map((item) => (
             <div key={item.productId} className="py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex items-center gap-3.5">
                 <div className="size-14 rounded-xl bg-surface-2 border border-line overflow-hidden shrink-0">
-                  {item.imageUrl ? (
-                    <img src={item.imageUrl} alt={item.productName} className="size-full object-cover" />
-                  ) : (
-                    <div className="size-full flex items-center justify-center text-[10px] text-fg-3 font-mono">
-                      BIO
-                    </div>
-                  )}
+                  <img
+                    src={resolveProductImage(item.imageUrl)}
+                    alt={item.productName}
+                    loading="lazy"
+                    className="size-full object-cover"
+                  />
                 </div>
 
                 <div>
@@ -288,8 +283,8 @@ export default function OrderDetailPage(): React.JSX.Element {
                   >
                     {item.productName}
                   </Link>
-                  <span className="text-xs text-fg-3 block font-mono">
-                    Đơn giá chốt: {formatVnd(item.unitPrice)} × {item.quantity} cá thể
+                  <span className="text-xs text-fg-3 block">
+                    Đơn giá lúc mua: <span className="font-mono">{formatVnd(item.unitPrice)}</span> × {item.quantity} cá thể
                   </span>
                 </div>
               </div>
@@ -306,22 +301,14 @@ export default function OrderDetailPage(): React.JSX.Element {
         {/* Thông tin giao hàng & Tổng tiền */}
         <div className="pt-4 border-t border-line/60 grid grid-cols-1 sm:grid-cols-2 gap-6 items-start">
           <div className="rounded-xl border border-line/60 bg-surface-2/40 p-4 text-xs space-y-1.5">
-            <span className="font-bold text-fg block font-mono">Địa chỉ giao nhận & Ghi chú:</span>
+            <span className="font-bold text-fg block">Địa chỉ giao hàng:</span>
             <p className="text-fg-2">{order.shippingAddress}</p>
-            <div className="pt-2 border-t border-line/40 text-[11px] text-fg-3 flex items-center gap-1.5">
-              <ShieldCheck className="size-3.5 text-accent shrink-0" />
-              <span>Thùng cách nhiệt đã dán tem "Sinh vật sống - Ưu tiên giao ngay"</span>
-            </div>
           </div>
 
           <div className="space-y-2 text-xs">
             <div className="flex items-center justify-between text-fg-2">
               <span>Tạm tính cá thể:</span>
               <span className="font-mono font-semibold text-fg">{formatVnd(order.totalAmount)}</span>
-            </div>
-            <div className="flex items-center justify-between text-fg-2">
-              <span>Vận chuyển điều hòa sinh học:</span>
-              <span className="font-mono text-emerald-400">0 ₫</span>
             </div>
             <div className="pt-2 border-t border-line/60 flex items-baseline justify-between">
               <span className="text-sm font-bold text-fg">Tổng thanh toán:</span>
@@ -331,41 +318,6 @@ export default function OrderDetailPage(): React.JSX.Element {
         </div>
       </div>
 
-      {/* Dialog liên hệ shop */}
-      <Dialog open={isContactDialogOpen} onOpenChange={setIsContactDialogOpen}>
-        <DialogContent className="max-w-md">
-          <DialogHeader>
-            <DialogTitle>Kênh liên lạc Trại nhân giống</DialogTitle>
-            <DialogDescription>
-              Đội ngũ kỹ thuật của cơ sở nhân giống sẵn sàng tư vấn cách thiết lập sinh cảnh và giải đáp thắc mắc sức khỏe cá thể.
-            </DialogDescription>
-          </DialogHeader>
-
-          <div className="space-y-3 pt-3 text-xs">
-            <div className="flex items-center gap-3 p-3 rounded-xl border border-line bg-surface-2">
-              <Phone className="size-4 text-accent" />
-              <div>
-                <span className="text-fg-3 block text-[11px]">Hotline kỹ thuật nuôi:</span>
-                <span className="font-mono font-bold text-fg">1900-BIONEXUS (028 3822 1234)</span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3 p-3 rounded-xl border border-line bg-surface-2">
-              <Mail className="size-4 text-accent" />
-              <div>
-                <span className="text-fg-3 block text-[11px]">Email hỗ trợ bảo tồn:</span>
-                <span className="font-mono font-bold text-fg">hotro@bionexus.vn</span>
-              </div>
-            </div>
-          </div>
-
-          <DialogFooter className="mt-4">
-            <Button variant="primary" onClick={() => setIsContactDialogOpen(false)}>
-              Đã hiểu
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
     </div>
   );
 }

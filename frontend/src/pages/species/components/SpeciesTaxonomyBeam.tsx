@@ -68,7 +68,7 @@ export const SpeciesTaxonomyBeam: React.FC<SpeciesTaxonomyBeamProps> = ({
               </Link>
 
               {idx < breadcrumbs.length - 1 && (
-                <div className="hidden sm:flex items-center justify-center text-fg-mute">
+                <div className="hidden sm:flex items-center justify-center text-fg-mute" aria-hidden="true">
                   <ChevronRight className="size-4" />
                 </div>
               )}
