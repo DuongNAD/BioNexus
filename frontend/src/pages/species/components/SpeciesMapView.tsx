@@ -37,81 +37,50 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
   const selectedSpecies = speciesList.find((sp) => sp.scientificName === selectedScientificName);
 
   return (
-    <div
-      className={cn(
-        'relative flex flex-col lg:flex-row h-[680px] w-full overflow-hidden rounded-2xl border border-line bg-bg-deep shadow-2xl',
-        className
-      )}
-    >
-      {/* Cột danh sách loài đồng bộ bên trái */}
-      <div className="w-full lg:w-80 shrink-0 border-b lg:border-b-0 lg:border-r border-line bg-surface-1/80 backdrop-blur-xl flex flex-col z-10 max-h-[45%] lg:max-h-none">
-        <div className="p-4 border-b border-line bg-surface-2/40">
-          <h3 className="text-xs font-bold uppercase tracking-wider text-fg">
-            Sinh cảnh & Cung đường bay ({speciesList.length})
-          </h3>
-          <p className="text-[11px] text-fg-3">Chọn một loài để xoay địa cầu tới tọa độ bản địa</p>
+    <div className={cn('grid gap-4 lg:grid-cols-[340px_minmax(0,1fr)]', className)}>
+      {/* Danh sách loài: một khung duy nhất, các dòng ngăn bằng đường kẻ mảnh */}
+      <div className="flex max-h-[420px] flex-col overflow-hidden rounded-[20px] border border-line bg-surface lg:max-h-[640px]">
+        <div className="border-b border-line px-5 py-4">
+          <p className="text-sm font-medium text-fg">Nơi bản địa của {speciesList.length} loài</p>
+          <p className="mt-0.5 text-sm text-fg-3">Chọn một loài để xoay địa cầu tới đó</p>
         </div>
-
-        <ul className="flex-1 overflow-y-auto p-2 space-y-1.5 scrollbar-thin scrollbar-thumb-line">
+        <ul className="flex-1 divide-y divide-line overflow-y-auto">
           {speciesList.map((sp) => {
             const isSelected = sp.scientificName === selectedScientificName;
-
+            const onSale = productCounts[sp.id] || 0;
             return (
-              <li
-                key={sp.id}
-                className={cn(
-                  'flex items-center gap-1 rounded-xl border transition-all',
-                  isSelected
-                    ? 'border-accent bg-accent/15 shadow-sm'
-                    : 'border-transparent bg-surface/40 hover:border-line hover:bg-surface'
-                )}
-              >
+              <li key={sp.id} className={cn('flex items-center gap-2 pr-3 transition-colors', isSelected && 'bg-accent/10')}>
                 <button
                   type="button"
                   onClick={() => onSelectSpecies(sp.scientificName)}
                   aria-pressed={isSelected}
-                  className="flex min-w-0 flex-1 items-center gap-3 rounded-xl p-2.5 text-left focus-visible:outline-2 focus-visible:outline-accent"
+                  className="flex min-w-0 flex-1 items-center gap-3 py-3 pl-5 text-left focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
                 >
                   <img
                     src={sp.heroPhoto}
                     alt=""
-                    className="size-11 rounded-lg object-cover border border-line shrink-0"
+                    className="size-12 shrink-0 rounded-xl object-cover"
                     style={{ objectPosition: sp.focus || 'center' }}
                     loading="lazy"
                   />
-
                   <span className="min-w-0 flex-1">
-                    <span className="flex items-center justify-between gap-2">
-                      <span className={cn('text-xs font-semibold truncate', isSelected ? 'text-accent' : 'text-fg')}>
-                        {sp.displayName}
-                      </span>
-                      <IucnBadge code={sp.conservationStatus} size="sm" />
+                    <span className={cn('block truncate text-sm font-medium', isSelected ? 'text-accent' : 'text-fg')}>
+                      {sp.displayName}
                     </span>
-
-                    <span className="block font-serif italic text-[11px] text-accent-2 truncate">
-                      {sp.scientificName}
+                    <span className="flex items-center gap-1.5 truncate text-sm text-fg-3">
+                      <MapPin className="size-3.5 shrink-0" aria-hidden="true" />
+                      <span className="truncate">{sp.origin.place}</span>
                     </span>
-
-                    <span className="flex items-center justify-between text-[10px] text-fg-3 mt-0.5">
-                      <span className="flex items-center gap-1 truncate">
-                        <MapPin className="size-2.5 text-accent shrink-0" aria-hidden="true" />
-                        <span className="truncate">{sp.origin.place}</span>
-                      </span>
-                      {productCounts[sp.id] ? (
-                        <span className="text-emerald-400 font-mono text-[9px] shrink-0">
-                          {productCounts[sp.id]} cá thể
-                        </span>
-                      ) : null}
-                    </span>
+                    {onSale > 0 && <span className="block text-xs text-accent">{onSale} cá thể đang bán</span>}
                   </span>
+                  <IucnBadge code={sp.conservationStatus} size="sm" showLabel={false} />
                 </button>
-
                 <Link
                   to={`/species/${sp.id}`}
-                  className="mr-1.5 rounded-md p-1.5 text-fg-3 hover:text-accent hover:bg-surface-hover shrink-0 focus-visible:outline-2 focus-visible:outline-accent"
+                  className="shrink-0 rounded-full p-2 text-fg-3 transition-colors hover:bg-surface-2 hover:text-fg focus-visible:outline-2 focus-visible:outline-accent"
                   aria-label={`Xem hồ sơ ${sp.displayName}`}
                 >
-                  <ArrowRight className="size-3.5" aria-hidden="true" />
+                  <ArrowRight className="size-4" aria-hidden="true" />
                 </Link>
               </li>
             );
@@ -119,12 +88,11 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
         </ul>
       </div>
 
-      {/* Canvas 3D BioEarth */}
-      <div className="flex-1 relative h-full min-h-0">
+      <div className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep lg:h-[640px]">
         <SceneShell
           id="species-catalog-earth"
           posterSrc="posters/home-earth.webp"
-          posterAlt="Bản đồ sinh quyển BioEarth"
+          posterAlt="Bản đồ nơi bản địa của các loài"
           className="h-full w-full"
           srDescription={`Quả địa cầu 3D hiển thị nơi bản địa của ${speciesList.length} loài đang lọc và cung bay về các trại nhân giống tại Việt Nam.`}
         >
@@ -142,11 +110,7 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
                 selectedScientificName={selectedScientificName ?? undefined}
                 onSelectSpecies={onSelectSpecies}
               />
-              <OrbitControls
-                enableZoom={false}
-                minPolarAngle={Math.PI / 4}
-                maxPolarAngle={(3 * Math.PI) / 4}
-              />
+              <OrbitControls enableZoom={false} minPolarAngle={Math.PI / 4} maxPolarAngle={(3 * Math.PI) / 4} />
             </Canvas>
           )}
         </SceneShell>
@@ -155,10 +119,10 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
         {selectedSpecies && (
           <p
             aria-live="polite"
-            className="absolute bottom-3 left-3 right-3 z-20 rounded-xl border border-white/10 bg-black/70 px-3 py-2 text-[11px] text-white/90 backdrop-blur-md"
+            className="absolute right-4 bottom-4 left-4 z-20 rounded-xl bg-black/70 px-4 py-3 text-sm text-white/85 backdrop-blur-md"
           >
-            <strong className="text-white">{selectedSpecies.displayName}</strong>
-            <span className="text-white/70"> · {selectedSpecies.origin.place}</span>
+            <span className="font-semibold text-white">{selectedSpecies.displayName}</span>
+            <span> · {selectedSpecies.origin.place}</span>
           </p>
         )}
       </div>

@@ -68,17 +68,16 @@ export const TaxonRankChip: React.FC<TaxonRankChipProps> = ({
     isItalic: false,
   };
 
+  // Chỉ nhãn tiếng Việt ("Chi"), không ghép thêm mã tiếng Anh như "· GENUS"
   return (
     <span
       className={cn(
-        'inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-2/80 px-2.5 py-0.5 text-[11px] font-mono tracking-wider text-accent backdrop-blur-md',
+        'inline-flex items-center rounded-full border border-line px-2.5 py-0.5 text-xs font-medium text-fg-2',
         className
       )}
       title={showHelp ? info.definition : undefined}
     >
-      <span className="font-semibold text-fg-1">{info.labelVi}</span>
-      <span className="text-fg-mute">·</span>
-      <span className="text-accent-2 font-medium">{info.labelEn}</span>
+      {info.labelVi}
     </span>
   );
 };

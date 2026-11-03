@@ -44,7 +44,8 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
     };
 
     const sizeStyles = {
-      sm: 'px-2 py-0.5 text-[10px] gap-1.5',
+      // Chữ mang thông tin không nhỏ hơn 12px kể cả ở cỡ nhỏ
+      sm: 'px-2 py-0.5 text-xs gap-1.5',
       md: 'px-2.5 py-1 text-xs gap-2',
       lg: 'px-3 py-1.5 text-sm gap-2.5',
     };

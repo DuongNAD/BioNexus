@@ -34,7 +34,7 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
         {label && (
           <label
             htmlFor={textareaId}
-            className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-fg-2"
+            className="mb-2 block text-sm font-medium text-fg-2"
           >
             {label}
             {required && <span className="ml-1 text-danger">*</span>}
@@ -49,10 +49,11 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
           aria-invalid={Boolean(error)}
           aria-describedby={describedBy}
           className={cn(
-            'w-full rounded-lg border border-line bg-surface-hover p-3.5 text-sm text-fg placeholder:text-fg-3 transition-all duration-150',
-            'focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg',
+            'w-full rounded-[10px] border border-line bg-white/[0.04] px-4 py-3 text-[15px] leading-relaxed text-fg placeholder:text-fg-3 transition-colors duration-150',
+            // Viền accent + quầng mờ: thấy rõ khi focus mà không chói như vòng offset
+              'hover:border-line-strong focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40',
             'disabled:cursor-not-allowed disabled:opacity-50',
-            error && 'border-danger focus:border-danger focus:ring-danger focus:ring-offset-2 focus:ring-offset-bg',
+            error && 'border-danger hover:border-danger focus:border-danger focus:ring-danger/40',
             className
           )}
           {...props}

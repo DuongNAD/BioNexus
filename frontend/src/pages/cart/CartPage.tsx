@@ -1,18 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { useQueries } from '@tanstack/react-query';
-import {
-  ShoppingBag,
-  Store,
-  Trash2,
-  AlertTriangle,
-  ShieldCheck,
-  ArrowRight,
-  Info,
-} from 'lucide-react';
+import { ShoppingBag, Store, Trash2, AlertTriangle, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Price } from '@/components/ui/Price';
 import { Ticker } from '@/components/ui/Ticker';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { NumberStepper } from '@/components/ui/NumberStepper';
 import {
@@ -23,6 +16,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from '@/components/ui/Dialog';
+import { PageContainer, PageHeader, Panel } from '@/components/layout/Page';
 import { useCart } from '@/api/queries/useCartQueries';
 import {
   useUpdateCartItem,
@@ -33,6 +27,9 @@ import {
 import { productDetailQueryOptions } from '@/api/queries/useProductQueries';
 import { resolveProductImage } from '@/api/adapters';
 import { QueryErrorState } from '@/components/domain/QueryErrorState';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { formatVnd } from '@/lib/parseEnvironmentSpecs';
+import { cn } from '@/lib/cn';
 import { toast } from 'sonner';
 import type { CartItemDto } from '@/types/api';
 
@@ -153,155 +150,129 @@ export default function CartPage(): React.JSX.Element {
   };
 
   return (
-    <div className="min-h-screen bg-bg text-fg py-8 md:py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Header trang giỏ hàng */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line pb-6 mb-8">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-fg font-sans">
-              Giỏ Hàng Của Bạn
-            </h1>
-            <p className="mt-1 text-xs md:text-sm text-fg-3">
-              Quản lý cá thể sinh vật cảnh đã chọn trước khi tiến hành xác nhận đặt hàng
-            </p>
-          </div>
-
-          {cartItems.length > 0 && (
+    <PageContainer className="pb-20">
+      <PageHeader
+        eyebrow="Giỏ hàng"
+        title="Giỏ hàng của bạn"
+        description="Kiểm tra số lượng từng cá thể trước khi đặt hàng. Giá và tồn kho được kiểm tra lại khi bạn xác nhận."
+        meta={
+          cartItems.length > 0 && (
+            <span>
+              <span className="font-mono text-fg">{cartItems.length}</span> sản phẩm từ{' '}
+              <span className="font-mono text-fg">{cartGroups.length}</span> cửa hàng
+            </span>
+          )
+        }
+        actions={
+          cartItems.length > 0 && (
             <Button
               variant="ghost"
               size="sm"
+              pill
               onClick={() => setIsClearDialogOpen(true)}
-              className="text-xs text-red-400 hover:text-red-300 hover:bg-red-500/10 gap-1.5 self-start sm:self-auto"
+              className="gap-1.5 text-danger hover:bg-danger/10 hover:text-danger"
             >
-              <Trash2 className="size-3.5" aria-hidden="true" />
-              <span>Xóa toàn bộ giỏ hàng</span>
+              <Trash2 className="size-4" aria-hidden="true" />
+              <span>Xóa toàn bộ</span>
             </Button>
-          )}
-        </div>
+          )
+        }
+      />
 
-        {/* Trạng thái đang tải, lỗi, rỗng, có dữ liệu */}
-        {isLoading ? (
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-            <div className="lg:col-span-8 space-y-4">
-              {Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="h-28 rounded-2xl bg-surface animate-pulse" />
-              ))}
-            </div>
-            <div className="lg:col-span-4 h-64 rounded-2xl bg-surface animate-pulse" />
+      {isLoading ? (
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_360px]" role="status" aria-label="Đang tải giỏ hàng">
+          <div className="space-y-3">
+            {Array.from({ length: 3 }).map((_, i) => (
+              <Skeleton key={i} className="h-28 w-full rounded-[20px]" />
+            ))}
           </div>
-        ) : isError ? (
-          <QueryErrorState
-            title="Không tải được giỏ hàng"
-            error={error}
-            onRetry={() => refetch()}
-            isRetrying={isRefetching}
-          />
-        ) : cartItems.length === 0 ? (
-          <EmptyState
-            icon={<ShoppingBag className="size-8 text-accent" />}
-            title="Giỏ hàng của bạn đang trống"
-            description="Bạn chưa thêm cá thể sinh vật cảnh nào vào giỏ hàng. Hãy khám phá sàn giao dịch có kiểm định của BioNexus."
-            action={{
-              label: 'Khám phá sàn sinh vật cảnh',
-              href: '#/products',
-            }}
-          />
-        ) : (
-          /* Bố cục 2 Cột Desktop: 8/12 Danh sách món / 4/12 Tóm tắt dính */
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Cột trái (8/12): Phân nhóm theo Shop */}
-            <div className="lg:col-span-8 space-y-6">
-              {cartGroups.map((group) => (
-                <div
-                  key={group.shopKey}
-                  className="rounded-2xl border border-line bg-surface-1/60 backdrop-blur-md overflow-hidden shadow-lg"
-                >
-                  {/* Shop Header */}
-                  <div className="flex items-center justify-between border-b border-line/60 bg-surface-2/40 px-5 py-3">
-                    <div className="flex items-center gap-2">
-                      <Store className="size-4 text-accent" aria-hidden="true" />
-                      <span className="font-semibold text-fg text-sm">{group.shopName}</span>
-                      <span title="Trại nhân giống F2+ đã kiểm duyệt">
-                        <ShieldCheck className="size-3.5 text-accent" />
-                      </span>
-                    </div>
-                    <span className="text-xs text-fg-3 font-mono">{group.items.length} món</span>
-                  </div>
+          <Skeleton className="h-72 w-full rounded-[20px]" />
+        </div>
+      ) : isError ? (
+        <QueryErrorState title="Không tải được giỏ hàng" error={error} onRetry={() => refetch()} isRetrying={isRefetching} />
+      ) : cartItems.length === 0 ? (
+        <EmptyState
+          icon={<ShoppingBag aria-hidden="true" />}
+          title="Giỏ hàng đang trống"
+          description="Bạn chưa thêm cá thể nào. Hãy xem các cá thể nhân giống đang bán trên sàn."
+          action={{ label: 'Vào sàn sinh vật cảnh', href: '#/products' }}
+        />
+      ) : (
+        <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-10">
+          <div className="space-y-6">
+            {cartGroups.map((group) => (
+              <Panel key={group.shopKey} padded={false} className="overflow-hidden">
+                <div className="flex items-center justify-between gap-3 border-b border-line px-5 py-4">
+                  <h2 className="flex min-w-0 items-center gap-2 font-semibold text-fg">
+                    <Store className="size-4 shrink-0 text-accent" aria-hidden="true" />
+                    <span className="truncate">{group.shopName}</span>
+                  </h2>
+                  <span className="shrink-0 text-sm text-fg-3">{group.items.length} sản phẩm</span>
+                </div>
 
-                  {/* Danh sách các dòng món */}
-                  <div className="divide-y divide-line/40 p-2 sm:p-4">
-                    {group.items.map((item) => {
-                      const isOverStock = item.quantity > item.maxQuantity;
-                      const isUnavailable = !item.available;
-                      const isUpdatingThisLine =
-                        updateItemMutation.isPending && updateItemMutation.variables?.productId === item.productId;
+                <ul className="divide-y divide-line">
+                  {group.items.map((item) => {
+                    // Món đã ngừng bán chỉ cần báo ngừng bán, không gợi ý "giảm về 0"
+                    const isOverStock = item.available && item.quantity > item.maxQuantity;
+                    const isUnavailable = !item.available;
+                    const isUpdatingThisLine =
+                      updateItemMutation.isPending && updateItemMutation.variables?.productId === item.productId;
 
-                      return (
-                        <div
-                          key={item.productId}
-                          className={`p-3 sm:p-4 rounded-xl transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${
-                            isUnavailable
-                              ? 'opacity-50 bg-black/40'
-                              : isOverStock
-                                ? 'border border-amber-500/40 bg-amber-500/5'
-                                : 'hover:bg-surface-2/40'
-                          }`}
-                        >
-                          {/* Ảnh & thông tin */}
-                          <div className="flex items-center gap-3.5 min-w-0">
-                            <div className="relative size-16 sm:size-20 rounded-xl overflow-hidden bg-surface-2 shrink-0 border border-line">
-                              <img
-                                src={resolveProductImage(
-                                  item.imageUrl,
-                                  detailByProductId.get(item.productId)?.speciesScientificName
-                                )}
-                                alt={item.productName}
-                                loading="lazy"
-                                className={`size-full object-cover ${isUnavailable ? 'grayscale' : ''}`}
-                              />
-                            </div>
+                    return (
+                      <li
+                        key={item.productId}
+                        className={cn('relative flex gap-4 px-5 py-4', isOverStock && 'bg-warm/[0.06]')}
+                      >
+                        <img
+                          src={resolveProductImage(
+                            item.imageUrl,
+                            detailByProductId.get(item.productId)?.speciesScientificName
+                          )}
+                          alt={item.productName}
+                          loading="lazy"
+                          className={cn(
+                            'size-20 shrink-0 rounded-xl object-cover sm:size-24',
+                            isUnavailable && 'opacity-50 grayscale'
+                          )}
+                        />
 
-                            <div className="min-w-0">
-                              <Link
-                                to={`/products/${item.productId}`}
-                                className="font-semibold text-fg text-sm hover:text-accent transition-colors truncate block"
-                              >
-                                {item.productName}
-                              </Link>
-                              <div className="mt-1 flex items-baseline gap-2">
-                                <span className="text-xs font-mono font-semibold text-accent">
-                                  <Price amount={item.price} size="sm" />
-                                </span>
-                                <span className="text-[11px] text-fg-3 font-mono">/ cá thể</span>
-                              </div>
-
-                              {/* Cảnh báo lỗi trên dòng món */}
-                              {isUnavailable && (
-                                <span className="mt-1 inline-flex items-center gap-1 rounded bg-red-500/20 px-1.5 py-0.5 text-[10px] font-medium text-red-300">
-                                  <AlertTriangle className="size-3" aria-hidden="true" /> Ngừng bán hoặc hết hàng
-                                </span>
+                        <div className="flex min-w-0 flex-1 flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                          <div className="min-w-0">
+                            <Link
+                              to={`/products/${item.productId}`}
+                              className={cn(
+                                'line-clamp-2 pr-8 font-semibold transition-colors hover:text-accent sm:pr-0',
+                                isUnavailable ? 'text-fg-3' : 'text-fg'
                               )}
+                            >
+                              {item.productName}
+                            </Link>
+                            <p className="mt-1 text-sm text-fg-3">
+                              <span className="font-mono">{formatVnd(item.price)}</span> / cá thể
+                            </p>
 
-                              {isOverStock && (
-                                <div className="mt-1 flex items-center gap-2">
-                                  <span className="text-[10px] text-amber-300 font-medium">
-                                    Kho chỉ còn {item.maxQuantity} cá thể
-                                  </span>
-                                  <button
-                                    type="button"
-                                    onClick={() => handleClampToMax(item)}
-                                    disabled={isUpdatingThisLine}
-                                    className="text-[10px] text-accent underline hover:text-white disabled:opacity-50"
-                                  >
-                                    Giảm về {item.maxQuantity}
-                                  </button>
-                                </div>
-                              )}
-                            </div>
+                            {isUnavailable && (
+                              <p className="mt-1 flex items-center gap-1.5 text-sm text-danger">
+                                <AlertTriangle className="size-4 shrink-0" aria-hidden="true" />
+                                Ngừng bán hoặc đã hết hàng
+                              </p>
+                            )}
+                            {isOverStock && (
+                              <p className="mt-1 flex flex-wrap items-center gap-x-2 text-sm text-warm">
+                                <span>Kho chỉ còn {item.maxQuantity} cá thể.</span>
+                                <button
+                                  type="button"
+                                  onClick={() => handleClampToMax(item)}
+                                  disabled={isUpdatingThisLine}
+                                  className="font-medium text-accent underline underline-offset-2 hover:text-fg disabled:opacity-50"
+                                >
+                                  Giảm về {item.maxQuantity}
+                                </button>
+                              </p>
+                            )}
                           </div>
 
-                          {/* Bộ tăng giảm số lượng & Thành tiền */}
-                          <div className="flex items-center justify-between sm:justify-end gap-6 w-full sm:w-auto border-t sm:border-t-0 border-line/40 pt-2 sm:pt-0">
+                          <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 sm:shrink-0 sm:justify-end">
                             {!isUnavailable ? (
                               <NumberStepper
                                 value={item.quantity}
@@ -313,121 +284,100 @@ export default function CartPage(): React.JSX.Element {
                                 aria-label={`Số lượng ${item.productName}`}
                               />
                             ) : (
-                              <span className="text-xs text-fg-3 font-mono">Số lượng: {item.quantity}</span>
-                            )}
-
-                            <div className="text-right min-w-[90px]">
-                              <span className="block text-xs font-mono font-bold text-fg">
-                                <Price amount={isUnavailable ? 0 : item.quantity * item.price} size="sm" />
+                              <span className="text-sm text-fg-3">
+                                Số lượng <span className="font-mono">{item.quantity}</span>
                               </span>
-                            </div>
-
-                            {/* Nút xóa */}
+                            )}
+                            <Price
+                              amount={isUnavailable ? 0 : item.quantity * item.price}
+                              size="md"
+                              className="justify-end text-fg sm:min-w-[96px]"
+                            />
                             <button
                               type="button"
                               onClick={() => handleRemoveItem(item)}
                               disabled={removeItemMutation.isPending && removeItemMutation.variables === item.productId}
-                              className="text-fg-3 hover:text-red-400 p-1.5 rounded-lg hover:bg-surface-2 transition-colors disabled:opacity-50"
-                              title="Xóa khỏi giỏ hàng"
+                              // Màn hẹp: ghim góc trên phải dòng để hàng số lượng và thành tiền không bị xuống dòng
+                              className="absolute top-3 right-3 rounded-full p-2 text-fg-3 transition-colors hover:bg-danger/10 hover:text-danger disabled:opacity-50 sm:static"
                               aria-label={`Xóa ${item.productName}`}
                             >
                               <Trash2 className="size-4" aria-hidden="true" />
                             </button>
                           </div>
                         </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
-            </div>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </Panel>
+            ))}
+          </div>
 
-            {/* Cột phải (4/12): Tóm tắt chi phí & Đặt hàng (DÍNH) */}
-            <aside className="lg:col-span-4 sticky top-24 rounded-2xl border border-line bg-surface-1/80 backdrop-blur-xl p-6 shadow-xl space-y-5">
-              <h2 className="font-bold text-fg text-base uppercase tracking-wider border-b border-line/60 pb-3">
-                Tóm tắt đơn hàng
-              </h2>
-
-              <div className="space-y-3 text-xs">
+          <aside className="lg:sticky lg:top-24">
+            <Panel>
+              <h2 className="text-lg font-semibold tracking-[-0.02em] text-fg">Tóm tắt đơn hàng</h2>
+              <dl className="mt-5 space-y-3 text-sm">
                 <div className="flex items-center justify-between text-fg-2">
-                  <span>Tạm tính cá thể:</span>
-                  <Ticker value={validSubtotal} formatAsCurrency className="text-sm font-bold text-fg" />
+                  <dt>Tạm tính</dt>
+                  <dd className="font-mono text-fg">{formatVnd(validSubtotal)}</dd>
                 </div>
-
                 <div className="flex items-center justify-between text-fg-2">
-                  <div className="flex items-center gap-1">
-                    <span>Vận chuyển bảo tồn:</span>
-                    <span title="Thùng giữ nhiệt điều hòa sinh học">
-                      <Info className="size-3 text-fg-3" aria-hidden="true" />
-                    </span>
-                  </div>
-                  <span className="text-emerald-400 font-mono font-semibold">Miễn phí (0 ₫)</span>
+                  <dt>Vận chuyển</dt>
+                  <dd className="text-success">Miễn phí</dd>
                 </div>
-
-                <div className="pt-3 border-t border-line/60 flex items-baseline justify-between">
-                  <span className="text-sm font-bold text-fg">Tổng thanh toán:</span>
-                  <div className="text-right">
-                    <Ticker value={validSubtotal} formatAsCurrency className="text-2xl font-bold text-accent" />
-                    <span className="block text-[11px] text-fg-3">Chỉ tính các món còn bán</span>
-                  </div>
+                <div className="flex items-baseline justify-between border-t border-line pt-4">
+                  <dt className="font-semibold text-fg">Tổng thanh toán</dt>
+                  <dd>
+                    <Ticker value={validSubtotal} formatAsCurrency className="text-2xl font-semibold text-fg" />
+                  </dd>
                 </div>
-              </div>
-
-              {/* Banner cảnh báo nếu giỏ có lỗi */}
-              {!isCartValidForCheckout && (
-                <div role="status" className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-300 flex items-start gap-2">
-                  <AlertTriangle className="size-4 shrink-0 text-amber-400 mt-0.5" aria-hidden="true" />
-                  <span>
-                    Vui lòng xóa các món ngừng bán hoặc điều chỉnh số lượng các món vượt tồn kho để tiến hành đặt hàng.
-                  </span>
-                </div>
+              </dl>
+              {hasUnavailableItems && (
+                <p className="mt-1 text-right text-xs text-fg-3">Không tính các món đã ngừng bán</p>
               )}
 
-              {/* Nút Đặt hàng */}
-              <div>
-                <Button
-                  size="lg"
-                  pill
-                  variant="primary"
-                  disabled={!isCartValidForCheckout}
-                  onClick={() => navigate('/checkout')}
-                  className="w-full gap-2 font-semibold shadow-[var(--glow-accent-btn)]"
-                >
-                  <span>Tiến hành đặt hàng</span>
-                  <ArrowRight className="size-4" aria-hidden="true" />
-                </Button>
-                <p className="mt-2 text-[11px] text-fg-3 text-center">
-                  Tồn kho và giá được kiểm tra lại khi bạn xác nhận đặt hàng.
+              {!isCartValidForCheckout && (
+                <p role="status" className="mt-5 flex items-start gap-2 text-sm text-warm">
+                  <AlertTriangle className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+                  <span>Xóa các món ngừng bán và giảm các món vượt tồn kho để có thể đặt hàng.</span>
                 </p>
-              </div>
-            </aside>
-          </div>
-        )}
-      </div>
+              )}
 
-      {/* Dialog xác nhận xóa sạch giỏ hàng */}
+              <Button
+                size="lg"
+                pill
+                variant="primary"
+                disabled={!isCartValidForCheckout}
+                onClick={() => navigate('/checkout')}
+                className="mt-6 w-full gap-2"
+              >
+                <span>Tiến hành đặt hàng</span>
+                <ArrowRight className="size-4" aria-hidden="true" />
+              </Button>
+              <ButtonLink to="/products" variant="ghost" pill className="mt-2 w-full">
+                Tiếp tục mua sắm
+              </ButtonLink>
+            </Panel>
+          </aside>
+        </div>
+      )}
+
       <Dialog open={isClearDialogOpen} onOpenChange={setIsClearDialogOpen}>
         <DialogContent className="max-w-md">
           <DialogHeader>
             <DialogTitle>Xóa toàn bộ giỏ hàng?</DialogTitle>
-            <DialogDescription>
-              Bạn có chắc chắn muốn xóa tất cả sinh vật cảnh ra khỏi giỏ hàng? Thao tác này sẽ làm sạch các cá thể đang lưu.
-            </DialogDescription>
+            <DialogDescription>Mọi cá thể đang có trong giỏ sẽ bị xóa. Bạn có thể thêm lại từ sàn sinh vật cảnh.</DialogDescription>
           </DialogHeader>
           <DialogFooter className="mt-4 gap-2">
-            <Button variant="secondary" onClick={() => setIsClearDialogOpen(false)}>
+            <Button variant="secondary" pill onClick={() => setIsClearDialogOpen(false)}>
               Hủy
             </Button>
-            <Button
-              variant="danger"
-              onClick={handleConfirmClear}
-              disabled={clearCartMutation.isPending}
-            >
-              Xác nhận xóa tất cả
+            <Button variant="danger" pill onClick={handleConfirmClear} disabled={clearCartMutation.isPending}>
+              Xóa tất cả
             </Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+    </PageContainer>
   );
 }

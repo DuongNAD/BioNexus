@@ -44,7 +44,7 @@ export const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
         {label && (
           <label
             htmlFor={selectId}
-            className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-fg-2"
+            className="mb-2 block text-sm font-medium text-fg-2"
           >
             {label}
             {required && <span className="ml-1 text-danger">*</span>}
@@ -59,16 +59,17 @@ export const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
             aria-invalid={Boolean(error)}
             aria-describedby={describedBy}
             className={cn(
-              'h-10 w-full appearance-none rounded-lg border border-line bg-surface-hover px-3.5 pr-10 text-sm text-fg transition-all duration-150',
-              'focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg',
+              'h-11 w-full appearance-none rounded-[10px] border border-line bg-white/[0.04] px-4 pr-10 text-[15px] text-fg transition-colors duration-150',
+              // Viền accent + quầng mờ: thấy rõ khi focus mà không chói như vòng offset
+              'hover:border-line-strong focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40',
               'disabled:cursor-not-allowed disabled:opacity-50',
-              error && 'border-danger focus:border-danger focus:ring-danger focus:ring-offset-2 focus:ring-offset-bg',
+              error && 'border-danger hover:border-danger focus:border-danger focus:ring-danger/40',
               className
             )}
             {...props}
           >
             {placeholder && (
-              <option value="" disabled className="bg-bg-raised text-fg-mute">
+              <option value="" disabled className="bg-bg-raised text-fg-3">
                 {placeholder}
               </option>
             )}

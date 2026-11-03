@@ -3,20 +3,11 @@ import { useSearchParams, useNavigate } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import {
-  ShieldCheck,
-  CreditCard,
-  Truck,
-  CheckCircle2,
-  AlertTriangle,
-  ArrowRight,
-  ArrowLeft,
-  Lock,
-  ShoppingBag,
-} from 'lucide-react';
+import { ShieldCheck, AlertTriangle, ArrowRight, ArrowLeft, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Textarea } from '@/components/ui/Textarea';
 import { Price } from '@/components/ui/Price';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import {
   Dialog,
@@ -26,6 +17,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from '@/components/ui/Dialog';
+import { PageContainer, PageHeader, Panel } from '@/components/layout/Page';
 import { VietQRCard } from '@/components/domain/VietQRCard';
 import { ButtonLink } from '@/components/domain/ButtonLink';
 import { QueryErrorState } from '@/components/domain/QueryErrorState';
@@ -36,6 +28,7 @@ import { usePlaceOrder } from '@/api/mutations/useOrderMutations';
 import { resolveProductImage } from '@/api/adapters';
 import { ApiError } from '@/api/errors';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
+import { cn } from '@/lib/cn';
 import type { PlaceOrderRequest } from '@/types/api';
 import { toast } from 'sonner';
 
@@ -191,9 +184,9 @@ export default function CheckoutPage(): React.JSX.Element {
   let statusView: React.ReactNode = null;
   if (isLoading) {
     statusView = (
-      <div className="space-y-4" role="status" aria-label="Đang tải thông tin đơn hàng">
-        <div className="h-14 rounded-2xl bg-surface animate-pulse" />
-        <div className="h-72 rounded-2xl bg-surface animate-pulse" />
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_380px]" role="status" aria-label="Đang tải thông tin đơn hàng">
+        <Skeleton className="h-80 w-full rounded-[20px]" />
+        <Skeleton className="h-64 w-full rounded-[20px]" />
       </div>
     );
   } else if (loadError) {
@@ -203,292 +196,290 @@ export default function CheckoutPage(): React.JSX.Element {
   } else if (checkoutItems.length === 0) {
     statusView = (
       <EmptyState
-        icon={<ShoppingBag className="size-8 text-accent" />}
+        icon={<ShoppingBag aria-hidden="true" />}
         title={isDirectBuy ? 'Không tìm thấy sản phẩm' : 'Giỏ hàng đang trống'}
         description="Chưa có cá thể nào để đặt hàng. Hãy chọn sản phẩm trên sàn sinh vật cảnh."
-        action={{ label: 'Vào cửa hàng', onClick: () => navigate('/products') }}
+        action={{ label: 'Vào sàn sinh vật cảnh', onClick: () => navigate('/products') }}
       />
     );
   } else if (blockingReason) {
     statusView = (
       <div
         role="alert"
-        className="mx-auto max-w-lg rounded-2xl border border-amber-500/30 bg-amber-500/10 p-8 text-center"
+        className="mx-auto flex max-w-xl flex-col items-center rounded-[20px] border border-dashed border-warm/40 px-6 py-12 text-center"
       >
-        <AlertTriangle className="mx-auto mb-3 size-10 text-amber-400" aria-hidden="true" />
-        <h2 className="text-lg font-bold text-fg">Chưa thể đặt hàng</h2>
-        <p className="mt-2 text-sm text-fg-2">{blockingReason}</p>
-        <ButtonLink to={backTo} variant="primary" pill className="mt-6">
+        <AlertTriangle className="mb-4 size-8 text-warm" aria-hidden="true" />
+        <h2 className="text-xl font-semibold tracking-[-0.02em] text-fg">Chưa thể đặt hàng</h2>
+        <p className="mt-2 max-w-sm text-sm leading-relaxed text-fg-2">{blockingReason}</p>
+        <ButtonLink to={backTo} pill className="mt-6">
           {isDirectBuy ? 'Về trang sản phẩm' : 'Về giỏ hàng để điều chỉnh'}
         </ButtonLink>
       </div>
     );
   }
 
+  const steps = [
+    { step: 1 as const, label: 'Địa chỉ giao hàng' },
+    { step: 2 as const, label: 'Xác nhận đơn' },
+  ];
+
   return (
-    <div className="min-h-screen bg-bg text-fg py-8 md:py-12">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
-        <div className="space-y-4">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-fg font-sans">Xác Nhận Đặt Hàng</h1>
-            <span className="text-xs text-accent">{isDirectBuy ? 'Mua ngay một sản phẩm' : 'Đặt toàn bộ giỏ hàng'}</span>
-          </div>
+    <PageContainer className="pb-20">
+      <PageHeader
+        breadcrumbs={[
+          isDirectBuy
+            ? { label: 'Sản phẩm', to: backTo }
+            : { label: 'Giỏ hàng', to: '/cart' },
+          { label: 'Đặt hàng' },
+        ]}
+        eyebrow={isDirectBuy ? 'Mua ngay' : 'Đặt cả giỏ hàng'}
+        title="Xác nhận đặt hàng"
+        description="Nhập địa chỉ nhận hàng, kiểm tra lại đơn rồi xác nhận. Tồn kho được kiểm tra lại đúng lúc đặt."
+      />
 
-          {!statusView && (
-            <ol className="grid grid-cols-2 rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md p-1.5 shadow-md">
-              {[
-                { step: 1 as const, label: 'Địa chỉ giao hàng' },
-                { step: 2 as const, label: 'Xác nhận đơn' },
-              ].map(({ step, label }) => (
-                <li key={step}>
-                  <button
-                    type="button"
-                    disabled={step === 2 && currentStep === 1}
-                    onClick={() => setCurrentStep(step)}
-                    aria-current={currentStep === step ? 'step' : undefined}
-                    className={`flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold transition-all ${
-                      currentStep === step
-                        ? 'bg-accent text-accent-ink shadow-md font-bold'
-                        : step === 2
-                          ? 'text-fg-3 cursor-not-allowed'
-                          : 'text-fg-2 hover:text-fg'
-                    }`}
-                  >
-                    <span className="flex size-5 items-center justify-center rounded-full bg-black/20 text-[11px] font-mono">
-                      {step}
-                    </span>
-                    <span>{label}</span>
-                  </button>
-                </li>
-              ))}
-            </ol>
-          )}
-        </div>
-
-        {statusView}
-
-        {/* BƯỚC 1: Địa chỉ giao hàng */}
-        {!statusView && currentStep === 1 && (
-          <form onSubmit={handleSubmit(onStep1Submit)} className="space-y-6" noValidate>
-            <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-6 shadow-xl">
-              <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center gap-2">
-                <Truck className="size-5 text-accent" aria-hidden="true" />
-                <span>Địa chỉ giao hàng</span>
-              </h2>
-
-              <div>
-                <div className="mb-1.5 flex flex-wrap items-center justify-between gap-2">
-                  <label htmlFor="address-input" className="block text-xs font-medium text-fg-2">
-                    Địa chỉ nhận hàng (kèm tên và số điện thoại người nhận nếu khác tài khoản) *
-                  </label>
-                  {me?.address && (
+      {statusView ?? (
+        <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
+          <div className="min-w-0">
+            {/* Thanh hai bước: vạch sáng dưới bước đang làm */}
+            <ol className="mb-6 grid grid-cols-2 border-b border-line">
+              {steps.map(({ step, label }) => {
+                const active = currentStep === step;
+                return (
+                  <li key={step}>
                     <button
                       type="button"
-                      onClick={() => setValue('shippingAddress', me.address, { shouldValidate: true })}
-                      className="text-xs text-accent underline hover:text-white"
+                      disabled={step === 2 && currentStep === 1}
+                      onClick={() => setCurrentStep(step)}
+                      aria-current={active ? 'step' : undefined}
+                      className={cn(
+                        'relative flex w-full items-center gap-3 py-3 text-left text-sm transition-colors disabled:cursor-not-allowed',
+                        active ? 'font-semibold text-fg' : 'text-fg-3 hover:text-fg',
+                        active && 'after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:bg-accent'
+                      )}
                     >
-                      Dùng địa chỉ mặc định
+                      <span
+                        className={cn(
+                          'flex size-7 shrink-0 items-center justify-center rounded-full font-mono text-sm',
+                          active ? 'bg-accent text-accent-ink' : 'border border-line'
+                        )}
+                      >
+                        {step}
+                      </span>
+                      <span>{label}</span>
                     </button>
-                  )}
-                </div>
-                <Textarea
-                  id="address-input"
-                  {...register('shippingAddress')}
-                  placeholder="Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành..."
-                  rows={3}
-                  error={errors.shippingAddress?.message}
-                />
-              </div>
+                  </li>
+                );
+              })}
+            </ol>
 
-              <div className="rounded-xl border border-accent/40 bg-accent/5 p-4 space-y-3">
-                <div className="flex items-start gap-3">
-                  <input
-                    type="checkbox"
-                    id="adoptionPledge"
-                    {...register('adoptionPledge')}
-                    aria-invalid={Boolean(errors.adoptionPledge)}
-                    aria-describedby={errors.adoptionPledge ? 'adoptionPledge-error' : undefined}
-                    className="size-4.5 rounded border-line bg-surface text-accent focus:ring-accent mt-0.5"
-                  />
-                  <label htmlFor="adoptionPledge" className="text-xs text-fg-2 leading-relaxed cursor-pointer select-none">
-                    <span className="font-semibold text-fg block text-sm mb-0.5">Cam kết chăm sóc sinh vật cảnh (bắt buộc)</span>
-                    Tôi đã tìm hiểu điều kiện sống (nhiệt độ, độ ẩm, thức ăn) và có chỗ nuôi phù hợp cho cá thể này.
-                  </label>
-                </div>
-                {errors.adoptionPledge && (
-                  <p id="adoptionPledge-error" role="alert" className="text-xs text-red-400 pl-7">
-                    {errors.adoptionPledge.message}
-                  </p>
-                )}
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between pt-2">
-              <ButtonLink to={backTo} variant="ghost" size="sm" className="gap-1.5 text-xs text-fg-3 hover:text-fg">
-                <ArrowLeft className="size-3.5" aria-hidden="true" />
-                <span>Quay lại</span>
-              </ButtonLink>
-
-              <Button type="submit" size="lg" pill variant="primary" className="gap-2 font-semibold">
-                <span>Tiếp tục</span>
-                <ArrowRight className="size-4" aria-hidden="true" />
-              </Button>
-            </div>
-          </form>
-        )}
-
-        {/* BƯỚC 2: Xác nhận */}
-        {!statusView && currentStep === 2 && (
-          <div className="space-y-6">
-            <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-6 shadow-xl">
-              <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center justify-between">
-                <span>Danh sách cá thể</span>
-                <span className="text-xs font-mono text-accent">{checkoutItems.length} sản phẩm</span>
-              </h2>
-
-              <ul className="divide-y divide-line/40">
-                {checkoutItems.map((item) => (
-                  <li key={item.productId} className="py-3 flex items-center justify-between gap-4">
-                    <div className="flex items-center gap-3">
-                      <img
-                        src={item.imageUrl}
-                        alt={item.productName}
-                        loading="lazy"
-                        className="size-12 rounded-lg object-cover border border-line shrink-0"
-                      />
-                      <div>
-                        <span className="font-semibold text-fg text-sm block">{item.productName}</span>
-                        <span className="text-xs text-fg-3 font-mono">
-                          {formatVnd(item.price)} × {item.quantity}
-                        </span>
-                      </div>
+            {currentStep === 1 && (
+              <form onSubmit={handleSubmit(onStep1Submit)} noValidate>
+                <Panel className="space-y-6">
+                  <div>
+                    <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                      <label htmlFor="address-input" className="text-sm font-medium text-fg-2">
+                        Địa chỉ nhận hàng
+                      </label>
+                      {me?.address && (
+                        <button
+                          type="button"
+                          onClick={() => setValue('shippingAddress', me.address, { shouldValidate: true })}
+                          className="text-sm text-accent underline underline-offset-2 hover:text-fg"
+                        >
+                          Dùng địa chỉ mặc định
+                        </button>
+                      )}
                     </div>
-                    <span className="font-mono font-bold text-fg text-sm">{formatVnd(item.lineTotal)}</span>
+                    <Textarea
+                      id="address-input"
+                      {...register('shippingAddress')}
+                      placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành. Ghi thêm tên và số điện thoại nếu người nhận khác bạn."
+                      rows={3}
+                      error={errors.shippingAddress?.message}
+                    />
+                  </div>
+
+                  <div className="border-t border-line pt-5">
+                    <label htmlFor="adoptionPledge" className="flex cursor-pointer items-start gap-3 select-none">
+                      <input
+                        type="checkbox"
+                        id="adoptionPledge"
+                        {...register('adoptionPledge')}
+                        aria-invalid={Boolean(errors.adoptionPledge)}
+                        aria-describedby={errors.adoptionPledge ? 'adoptionPledge-error' : undefined}
+                        className="mt-0.5 size-4 shrink-0 accent-[var(--accent)]"
+                      />
+                      <span className="text-sm leading-relaxed text-fg-2">
+                        <span className="block font-medium text-fg">Tôi cam kết chăm sóc cá thể này</span>
+                        Tôi đã tìm hiểu điều kiện sống (nhiệt độ, độ ẩm, thức ăn) và có chỗ nuôi phù hợp.
+                      </span>
+                    </label>
+                    {errors.adoptionPledge && (
+                      <p id="adoptionPledge-error" role="alert" className="mt-2 pl-7 text-sm text-danger">
+                        {errors.adoptionPledge.message}
+                      </p>
+                    )}
+                  </div>
+                </Panel>
+
+                <div className="mt-6 flex items-center justify-between gap-3">
+                  <ButtonLink to={backTo} variant="ghost" pill className="gap-1.5">
+                    <ArrowLeft className="size-4" aria-hidden="true" />
+                    <span>Quay lại</span>
+                  </ButtonLink>
+                  <Button type="submit" size="lg" pill className="gap-2">
+                    <span>Tiếp tục</span>
+                    <ArrowRight className="size-4" aria-hidden="true" />
+                  </Button>
+                </div>
+              </form>
+            )}
+
+            {currentStep === 2 && (
+              <>
+                <Panel className="divide-y divide-line [&>*]:py-5 [&>*:first-child]:pt-0 [&>*:last-child]:pb-0">
+                  <div>
+                    <div className="flex items-center justify-between gap-3">
+                      <h2 className="font-semibold text-fg">Giao đến</h2>
+                      <button
+                        type="button"
+                        onClick={() => setCurrentStep(1)}
+                        className="text-sm text-accent underline underline-offset-2 hover:text-fg"
+                      >
+                        Thay đổi
+                      </button>
+                    </div>
+                    <p className="mt-2 whitespace-pre-line text-fg-2">{shippingAddress}</p>
+                  </div>
+
+                  {/* Phương thức thanh toán chỉ để hiển thị: hợp đồng API chưa có trường này */}
+                  <fieldset>
+                    <legend className="font-semibold text-fg">Phương thức thanh toán</legend>
+                    <div className="mt-3 divide-y divide-line">
+                      {PAYMENT_OPTIONS.map((opt) => {
+                        const checked = paymentMethod === opt.id;
+                        return (
+                          <label
+                            key={opt.id}
+                            className="flex cursor-pointer items-start gap-3 py-3 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-accent"
+                          >
+                            <input
+                              type="radio"
+                              name="paymentMethod"
+                              value={opt.id}
+                              checked={checked}
+                              onChange={() => setPaymentMethod(opt.id)}
+                              className="mt-1 size-4 shrink-0 accent-[var(--accent)]"
+                            />
+                            <span>
+                              <span className={cn('block', checked ? 'font-semibold text-fg' : 'text-fg-2')}>
+                                {opt.label}
+                              </span>
+                              <span className="block text-sm text-fg-3">{opt.description}</span>
+                            </span>
+                          </label>
+                        );
+                      })}
+                    </div>
+                    {paymentMethod === 'VIETQR' && (
+                      <div className="mt-4">
+                        <VietQRCard amount={subtotal} memo={transferMemo} />
+                      </div>
+                    )}
+                  </fieldset>
+                </Panel>
+
+                <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
+                  <Button type="button" variant="ghost" pill onClick={() => setCurrentStep(1)} className="gap-1.5">
+                    <ArrowLeft className="size-4" aria-hidden="true" />
+                    <span>Quay lại bước 1</span>
+                  </Button>
+                  <Button
+                    type="button"
+                    size="lg"
+                    pill
+                    onClick={handleFinalPlaceOrder}
+                    isLoading={placeOrderMutation.isPending}
+                    className="min-w-[200px] gap-2"
+                  >
+                    {placeOrderMutation.isPending ? 'Đang tạo đơn hàng...' : 'Đặt hàng'}
+                  </Button>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* Tóm tắt đơn luôn nhìn thấy ở cả hai bước */}
+          <aside className="lg:sticky lg:top-24">
+            <Panel>
+              <div className="flex items-center justify-between gap-3">
+                <h2 className="text-lg font-semibold tracking-[-0.02em] text-fg">Đơn hàng</h2>
+                <span className="text-sm text-fg-3">{checkoutItems.length} sản phẩm</span>
+              </div>
+              <ul className="mt-4 divide-y divide-line">
+                {checkoutItems.map((item) => (
+                  <li key={item.productId} className="flex items-center gap-3 py-3">
+                    <img
+                      src={item.imageUrl}
+                      alt={item.productName}
+                      loading="lazy"
+                      className="size-14 shrink-0 rounded-xl object-cover"
+                    />
+                    <div className="min-w-0 flex-1">
+                      <p className="line-clamp-2 text-sm font-medium text-fg">{item.productName}</p>
+                      <p className="text-sm text-fg-3">
+                        <span className="font-mono">{formatVnd(item.price)}</span> ×{' '}
+                        <span className="font-mono">{item.quantity}</span>
+                      </p>
+                    </div>
+                    <span className="shrink-0 font-mono text-sm text-fg">{formatVnd(item.lineTotal)}</span>
                   </li>
                 ))}
               </ul>
-
-              <div className="rounded-xl border border-line bg-surface-2/40 p-4 text-xs space-y-1">
-                <div className="flex items-center justify-between">
-                  <span className="text-fg-3">Giao đến:</span>
-                  <button type="button" onClick={() => setCurrentStep(1)} className="text-accent underline hover:text-white">
-                    Thay đổi
-                  </button>
+              <dl className="mt-2 space-y-3 border-t border-line pt-4 text-sm">
+                <div className="flex justify-between text-fg-2">
+                  <dt>Vận chuyển</dt>
+                  <dd className="text-success">Miễn phí</dd>
                 </div>
-                <p className="text-fg-2 whitespace-pre-line">{shippingAddress}</p>
-              </div>
-
-              <div className="pt-4 border-t border-line/60 flex items-baseline justify-between">
-                <span className="text-sm font-bold text-fg">Tổng tiền:</span>
-                <Price amount={subtotal} size="lg" className="text-2xl text-accent" />
-              </div>
-
-              <div className="rounded-xl border border-line/60 bg-surface-2/30 p-3 text-xs text-fg-3 flex items-start gap-2">
-                <ShieldCheck className="size-4 shrink-0 text-accent mt-0.5" aria-hidden="true" />
-                <span>
-                  Kho được kiểm tra lại khi đặt. Nếu một món đã hết, đơn sẽ không được tạo và giỏ hàng giữ nguyên.
-                </span>
-              </div>
-            </div>
-
-            {/* Phương thức thanh toán: chỉ hiển thị, hợp đồng API chưa có trường này */}
-            <fieldset className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 space-y-4 shadow-xl">
-              <legend className="sr-only">Phương thức thanh toán</legend>
-              <h2 className="text-lg font-bold text-fg border-b border-line/60 pb-3 flex items-center gap-2" aria-hidden="true">
-                <CreditCard className="size-5 text-accent" />
-                <span>Phương thức thanh toán</span>
-              </h2>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {PAYMENT_OPTIONS.map((opt) => {
-                  const checked = paymentMethod === opt.id;
-                  return (
-                    <label
-                      key={opt.id}
-                      className={`relative p-4 rounded-xl border cursor-pointer transition-all has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-accent ${
-                        checked
-                          ? 'border-accent bg-accent/10 shadow-[0_0_15px_rgba(110,231,183,0.15)]'
-                          : 'border-line bg-surface-2/40 hover:bg-surface-2'
-                      }`}
-                    >
-                      <input
-                        type="radio"
-                        name="paymentMethod"
-                        value={opt.id}
-                        checked={checked}
-                        onChange={() => setPaymentMethod(opt.id)}
-                        className="sr-only"
-                      />
-                      <span className="flex items-center justify-between mb-2">
-                        <span className="font-semibold text-fg text-sm">{opt.label}</span>
-                        {checked && <CheckCircle2 className="size-4 text-accent" aria-hidden="true" />}
-                      </span>
-                      <span className="block text-xs text-fg-3">{opt.description}</span>
-                    </label>
-                  );
-                })}
-              </div>
-
-              {paymentMethod === 'VIETQR' && <VietQRCard amount={subtotal} memo={transferMemo} />}
-            </fieldset>
-
-            <div className="flex items-center justify-between pt-2">
-              <Button
-                type="button"
-                variant="ghost"
-                size="sm"
-                onClick={() => setCurrentStep(1)}
-                className="gap-1.5 text-xs text-fg-3 hover:text-fg"
-              >
-                <ArrowLeft className="size-3.5" aria-hidden="true" />
-                <span>Quay lại bước 1</span>
-              </Button>
-
-              <Button
-                type="button"
-                size="lg"
-                pill
-                variant="primary"
-                onClick={handleFinalPlaceOrder}
-                disabled={placeOrderMutation.isPending}
-                aria-busy={placeOrderMutation.isPending}
-                className="gap-2 font-bold shadow-[var(--glow-accent-btn)] min-w-[200px]"
-              >
-                {placeOrderMutation.isPending ? (
-                  <div className="size-4 animate-spin rounded-full border-2 border-accent-ink border-t-transparent" aria-hidden="true" />
-                ) : (
-                  <Lock className="size-4" aria-hidden="true" />
-                )}
-                <span>{placeOrderMutation.isPending ? 'Đang tạo đơn hàng...' : 'Đặt hàng'}</span>
-              </Button>
-            </div>
-          </div>
-        )}
-      </div>
+                <div className="flex items-baseline justify-between">
+                  <dt className="font-semibold text-fg">Tổng thanh toán</dt>
+                  <dd>
+                    <Price amount={subtotal} size="lg" className="text-2xl text-fg" />
+                  </dd>
+                </div>
+              </dl>
+              <p className="mt-4 flex items-start gap-2 text-sm text-fg-3">
+                <ShieldCheck className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
+                <span>Nếu có món vừa hết hàng, đơn sẽ không được tạo và giỏ hàng giữ nguyên.</span>
+              </p>
+            </Panel>
+          </aside>
+        </div>
+      )}
 
       {/* Dialog 409: món hết hàng hoặc ngừng bán lúc đặt */}
       <Dialog open={!!conflictError} onOpenChange={() => setConflictError(null)}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle className="flex items-center gap-2 text-amber-400">
-              <AlertTriangle className="size-5 text-amber-400" aria-hidden="true" />
+            <DialogTitle className="flex items-center gap-2">
+              <AlertTriangle className="size-5 text-warm" aria-hidden="true" />
               <span>Không thể hoàn tất đơn hàng</span>
             </DialogTitle>
-            <DialogDescription className="space-y-3 pt-2 text-fg-2 text-xs leading-relaxed">
+            <DialogDescription className="space-y-2 pt-2 leading-relaxed text-fg-2">
               <span className="block">{conflictError}</span>
               <span className="block">Đơn hàng chưa được tạo, giỏ hàng và tồn kho giữ nguyên.</span>
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="mt-4 gap-2">
-            <Button variant="secondary" onClick={() => setConflictError(null)}>
+            <Button variant="secondary" pill onClick={() => setConflictError(null)}>
               Đóng
             </Button>
-            <ButtonLink to={backTo} variant="primary">
+            <ButtonLink to={backTo} pill>
               {isDirectBuy ? 'Về trang sản phẩm' : 'Về giỏ hàng'}
             </ButtonLink>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+    </PageContainer>
   );
 }

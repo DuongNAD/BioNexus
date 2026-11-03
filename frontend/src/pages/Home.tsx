@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Link } from 'react-router';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import { Compass, ShoppingBag, ArrowRight, ShieldCheck, MapPin, Sparkles as SparklesIcon } from 'lucide-react';
+import { Compass, ShoppingBag, ArrowRight, MapPin } from 'lucide-react';
 import { SceneShell } from '@/components/3d/SceneShell';
 import { ParticleMorph } from '@/components/3d/ParticleMorph';
 import { HelixScene, HELIX_LEVELS } from '@/components/3d/HelixScene';
@@ -17,8 +16,10 @@ import {
 import { useQuality } from '@/components/3d/QualityProvider';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { ProductCard } from '@/components/domain/ProductCard';
-import { Badge } from '@/components/ui/Badge';
 import { Skeleton } from '@/components/ui/Skeleton';
+import { StatRow } from '@/components/ui/StatRow';
+import { ButtonLink } from '@/components/domain/ButtonLink';
+import { Eyebrow, Panel } from '@/components/layout/Page';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { cn } from '@/lib/cn';
@@ -134,7 +135,7 @@ export default function Home(): React.JSX.Element {
       {/* 1. Thanh Chấm Chỉ Báo Chương (Chapter Indicator Dots) */}
       <nav
         aria-label="Chỉ báo chương"
-        className="fixed top-1/2 right-6 z-40 -translate-y-1/2 flex flex-col gap-2.5"
+        className="fixed top-1/2 right-6 z-40 hidden -translate-y-1/2 flex-col gap-2.5 md:flex"
       >
         {[
           { idx: 0, label: 'Khởi nguyên' },
@@ -155,8 +156,8 @@ export default function Home(): React.JSX.Element {
             aria-label={`Chuyển đến Chương ${idx}: ${label}`}
             aria-current={activeChapter === idx ? 'step' : undefined}
           >
-            <span className="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity bg-black/80 text-white font-mono text-[10px] uppercase px-2 py-0.5 rounded border border-white/10 pointer-events-none whitespace-nowrap">
-              0{idx} · {label}
+            <span className="pointer-events-none absolute right-6 rounded-md bg-black/80 px-2 py-1 text-xs whitespace-nowrap text-white opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
+              {label}
             </span>
             <span
               className={cn(
@@ -199,91 +200,80 @@ export default function Home(): React.JSX.Element {
 
         {/* Nội dung tiêu đề chính */}
         <div className="relative z-20 max-w-4xl text-center px-6 pt-24 pb-16">
-          <div className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-black/60 px-4 py-1 text-xs font-mono uppercase tracking-widest text-accent backdrop-blur-md mb-6 shadow-lg shadow-accent/10">
-            <SparklesIcon className="size-3.5 text-accent animate-pulse" aria-hidden="true" />
-            Bách khoa sinh học · Sàn sinh vật cảnh
-          </div>
+          <Eyebrow className="mb-6">Bách khoa sinh học · Sàn sinh vật cảnh</Eyebrow>
 
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tight text-fg font-sans leading-[1.08]">
+          <h1 className="text-[44px] leading-[0.95] font-semibold tracking-[-0.05em] text-fg sm:text-[64px] lg:text-[84px]">
             Mọi loài đều có{' '}
-            <span className="italic font-serif font-semibold bg-gradient-to-r from-[#c4b5fd] via-[#5eead4] to-[#6ee7b7] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-aurora via-accent-2 to-accent bg-clip-text font-serif font-medium text-transparent italic">
               quỹ đạo riêng.
             </span>
           </h1>
 
-          <p className="mt-6 text-lg sm:text-xl text-fg-2 max-w-2xl mx-auto leading-relaxed font-sans">
+          {/* Trên màn hẹp dải hạt chạy ngang qua đoạn này: thêm nền mờ để chữ vẫn đọc được */}
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-fg-2 max-md:rounded-[20px] max-md:bg-bg/75 max-md:px-4 max-md:py-3 max-md:backdrop-blur-sm sm:text-lg">
             Cuộn xuống để đi từ một thiên hà hạt sáng đến từng loài: chúng sống ở đâu, thuộc nhánh nào, và cửa hàng nào đang nhân giống có giấy phép.
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Link to="/taxonomy" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
-              <Compass className="size-4" aria-hidden="true" /> Khám phá cây phân loại
-            </Link>
-            <Link to="/products" className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-white/20 bg-transparent px-8 text-base font-medium text-fg-2 backdrop-blur-md transition-colors hover:bg-white/10 hover:text-fg focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
-              <ShoppingBag className="size-4" aria-hidden="true" /> Vào cửa hàng
-            </Link>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <ButtonLink to="/taxonomy" size="lg" pill>
+              <Compass className="size-4" aria-hidden="true" />
+              <span>Khám phá cây phân loại</span>
+            </ButtonLink>
+            <ButtonLink to="/products" size="lg" variant="secondary" pill className="backdrop-blur-md">
+              <ShoppingBag className="size-4" aria-hidden="true" />
+              <span>Vào cửa hàng</span>
+            </ButtonLink>
           </div>
 
-          <p className="mt-12 text-xs font-mono text-fg-3 uppercase tracking-wider">
-            Cuộn để đổi chương · Rê chuột để đẩy hạt · Bấm chuột để tạo sóng
-          </p>
+          <p className="mt-12 text-sm text-fg-3">Cuộn để đổi chương · Rê chuột để đẩy hạt · Bấm để tạo sóng</p>
         </div>
       </section>
 
       {/* 3. CHƯƠNG 1: BÁCH KHOA SỰ SỐNG (Taxonomy Helix Sticky Story) */}
-      <section id="chapter-1" className="relative min-h-[160vh] py-24 px-6 border-t border-line/40">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <section id="chapter-1" className="relative min-h-[160vh] border-t border-line py-24 px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-12">
           {/* Cột thông tin bên trái */}
           <div className="lg:col-span-5 z-20">
-            <Badge variant="accent" className="font-mono text-xs uppercase tracking-wider">
-              01 · Phả hệ Sự sống
-            </Badge>
+            <Eyebrow>Chương 01 · Phả hệ sự sống</Eyebrow>
 
-            <h2 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold font-serif text-fg leading-tight">
-              25 bậc phân loại, <span className="text-accent italic">6 cấp chuẩn mực</span>
+            <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
+              Sáu cấp, từ Giới tới <em className="font-serif font-medium text-accent">từng Chi</em>
             </h2>
 
-            <p className="mt-6 text-fg-2 text-base sm:text-lg leading-relaxed">
-              Từ Giới Động vật và Thực vật gốc, hệ thống dẫn lối qua Ngành, Lớp, Bộ, Họ tới từng Chi sinh vật. Mọi sản phẩm đăng bán đều phải đối soát chính xác với danh mục bách khoa.
+            <p className="mt-5 text-base leading-relaxed text-fg-2 md:text-lg">
+              Giới, Ngành, Lớp, Bộ, Họ, Chi: mỗi loài trong bách khoa nằm ở cuối một nhánh như vậy. Sản phẩm đăng bán phải gắn đúng một loài trong cây.
             </p>
 
-            {/* Thẻ nấc phân loại đang kích hoạt */}
-            <div className="mt-8 rounded-2xl border border-line bg-surface-1/80 p-5 backdrop-blur-md" aria-live="polite">
-              <div className="flex items-center justify-between text-xs text-accent pb-2 border-b border-line">
-                <span className="font-mono">
-                  Cấp {(activeRank?.level ?? 0) + 1} / {TAXONOMIC_RANKS.length}
+            {/* Cấp đang sáng trên chuỗi xoắn, đọc được bằng trình đọc màn hình */}
+            <Panel className="mt-8" aria-live="polite">
+              <div className="flex items-baseline justify-between gap-3">
+                <Eyebrow tone="muted">{activeRank?.rankVi}</Eyebrow>
+                <span className="font-mono text-sm text-fg-3">
+                  {(activeRank?.level ?? 0) + 1} / {TAXONOMIC_RANKS.length}
                 </span>
-                <span className="font-semibold uppercase tracking-wider">{activeRank?.rankVi}</span>
               </div>
-              <h3 className="mt-3 text-xl font-bold text-fg">
-                {activeRank?.name}
-              </h3>
-              <p className="mt-1 text-sm text-fg-2">
-                {activeRank?.desc}
-              </p>
-            </div>
+              <h3 className="mt-3 text-xl font-semibold tracking-[-0.02em] text-fg">{activeRank?.name}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-fg-2">{activeRank?.desc}</p>
+            </Panel>
 
-            {/* Số liệu thống kê */}
-            <div className="mt-6 grid grid-cols-2 gap-4">
-              <div className="rounded-2xl border border-line bg-surface-1/60 p-4">
-                <p className="text-3xl font-bold font-mono text-accent">25</p>
-                <p className="text-xs text-fg-3 mt-1">Nút phân loại hạt nhân</p>
-              </div>
-              <div className="rounded-2xl border border-line bg-surface-1/60 p-4">
-                <p className="text-3xl font-bold font-mono text-emerald-400">100%</p>
-                <p className="text-xs text-fg-3 mt-1">Đối chiếu chuẩn GBIF</p>
-              </div>
-            </div>
+            <StatRow
+              className="mt-6"
+              items={[
+                { label: 'Cấp phân loại', value: TAXONOMIC_RANKS.length },
+                { label: 'Loài trong bách khoa', value: speciesData?.length ?? '—' },
+              ]}
+            />
 
             <div className="mt-8">
-              <Link to="/taxonomy" className="inline-flex h-10 items-center justify-center gap-2 rounded-full bg-accent px-4 text-sm font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2">
-                Xem toàn bộ phả hệ <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
+              <ButtonLink to="/taxonomy" variant="secondary" pill>
+                <span>Xem cây phân loại</span>
+                <ArrowRight className="size-4" aria-hidden="true" />
+              </ButtonLink>
             </div>
           </div>
 
           {/* Cột hiển thị Chuỗi Xoắn 3D bên phải */}
-          <div className="lg:col-span-7 h-[580px] rounded-3xl border border-line bg-[#030d09]/70 overflow-hidden relative shadow-2xl">
+          <div className="relative h-[480px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[580px] lg:col-span-7">
             <SceneShell
               id="home-helix"
               posterSrc="posters/home-helix.webp"
@@ -312,15 +302,13 @@ export default function Home(): React.JSX.Element {
       </section>
 
       {/* 4. CHƯƠNG 2: HÀNH TINH BIONEXUS (BioEarth Full Interactive) */}
-      <section id="chapter-2" className="relative min-h-screen py-20 px-6 border-t border-line/40">
-        <div className="max-w-7xl mx-auto text-center mb-8">
-          <Badge variant="accent" className="font-mono text-xs uppercase tracking-wider">
-            02 · Hành tinh BioNexus
-          </Badge>
-          <h2 className="mt-3 text-4xl sm:text-5xl font-bold font-serif text-fg">
-            Nhân giống tại Việt Nam, <span className="text-accent italic">gốc gác khắp thế giới</span>
+      <section id="chapter-2" className="relative min-h-screen border-t border-line py-24 px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+          <Eyebrow>Chương 02 · Hành tinh BioNexus</Eyebrow>
+          <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
+            Nhân giống tại Việt Nam, <em className="font-serif font-medium text-accent">gốc gác khắp thế giới</em>
           </h2>
-          <p className="mt-3 text-fg-2 max-w-xl mx-auto text-sm sm:text-base">
+          <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-fg-2">
             Khám phá {earthMarkers.length} loài sinh vật biểu tượng và các cung đường nối nơi bản địa với 3 trung tâm nhân giống tại Việt Nam.
           </p>
         </div>
@@ -329,7 +317,7 @@ export default function Home(): React.JSX.Element {
         <div
           role="group"
           aria-label="Chọn loài trên địa cầu"
-          className="max-w-5xl mx-auto mb-6 flex items-center gap-2 overflow-x-auto pb-3 pt-1 scrollbar-none"
+          className="mx-auto mb-6 flex max-w-6xl items-center gap-2 overflow-x-auto pt-1 pb-3 scrollbar-none md:flex-wrap md:justify-center md:overflow-visible"
         >
           {earthMarkers.map((sp) => {
             const isSelected = selectedMarker?.scientificName === sp.scientificName;
@@ -342,10 +330,10 @@ export default function Home(): React.JSX.Element {
                 aria-pressed={isSelected}
                 onClick={() => setSelectedScientificName(sp.scientificName)}
                 className={cn(
-                  'flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium whitespace-nowrap transition-all border',
+                  'flex h-9 shrink-0 items-center gap-2 rounded-full border px-4 text-sm whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
                   isSelected
-                    ? 'border-accent bg-accent/15 text-accent shadow-md shadow-accent/20'
-                    : 'border-line/70 bg-surface-1/70 text-fg-2 hover:border-line hover:bg-surface-2'
+                    ? 'border-accent bg-accent/15 text-fg'
+                    : 'border-line text-fg-2 hover:border-line-strong hover:text-fg'
                 )}
               >
                 <span
@@ -360,7 +348,7 @@ export default function Home(): React.JSX.Element {
         </div>
 
         {/* Vùng hiển thị Quả Địa Cầu BioEarth 7 Lớp */}
-        <div className="max-w-6xl mx-auto h-[620px] rounded-3xl border border-line bg-[#03130E]/80 overflow-hidden shadow-2xl relative">
+        <div className="relative mx-auto h-[440px] max-w-6xl overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[620px]">
           <SceneShell
             id="home-earth"
             posterSrc="posters/home-earth.webp"
@@ -397,12 +385,12 @@ export default function Home(): React.JSX.Element {
         {selectedMarker && (
           <div
             aria-live="polite"
-            className="max-w-6xl mx-auto mt-4 flex flex-col sm:flex-row sm:items-center gap-3 rounded-2xl border border-line bg-surface-1/70 p-4"
+            className="mx-auto mt-4 flex max-w-6xl flex-col gap-4 rounded-[20px] border border-line bg-surface p-4 sm:flex-row sm:items-center md:p-5"
           >
             <img
               src={selectedMarker.heroPhoto}
               alt={selectedMarker.displayName}
-              className="size-14 rounded-xl object-cover border border-line shrink-0"
+              className="size-16 shrink-0 rounded-xl object-cover"
               loading="lazy"
             />
             <div className="min-w-0 flex-1">
@@ -410,8 +398,8 @@ export default function Home(): React.JSX.Element {
                 <p className="text-base font-semibold text-fg">{selectedMarker.displayName}</p>
                 <IucnBadge code={selectedMarker.conservationStatus} size="sm" />
               </div>
-              <p className="font-serif italic text-sm text-accent-2">{selectedMarker.scientificName}</p>
-              <p className="mt-1 flex items-center gap-1.5 text-xs text-fg-2">
+              <p className="font-serif text-base text-accent-2 italic">{selectedMarker.scientificName}</p>
+              <p className="mt-1 flex items-center gap-1.5 text-sm text-fg-2">
                 <MapPin className="size-3.5 text-accent shrink-0" aria-hidden="true" />
                 <span>
                   Bản địa: {selectedMarker.origin.place}
@@ -420,61 +408,58 @@ export default function Home(): React.JSX.Element {
               </p>
             </div>
             {selectedMarker.speciesId != null && (
-              <Link to={`/species/${selectedMarker.speciesId}`} className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-4 text-sm font-medium text-fg-2 transition-colors hover:bg-surface hover:text-fg hover:border-line-strong focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
-                Xem hồ sơ loài <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
+              <ButtonLink to={`/species/${selectedMarker.speciesId}`} variant="secondary" pill className="shrink-0">
+                <span>Xem hồ sơ loài</span>
+                <ArrowRight className="size-4" aria-hidden="true" />
+              </ButtonLink>
             )}
           </div>
         )}
 
         {/* Chân trang Chương 2: Danh sách 3 Hub tiếp nhận */}
-        <div className="max-w-5xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+        {/* Ba trung tâm nhân giống: một dải chia cột bằng đường kẻ, không thêm ba khung riêng */}
+        <ul className="mx-auto mt-8 grid max-w-6xl divide-y divide-line border-y border-line md:grid-cols-3 md:divide-x md:divide-y-0">
           {VIETNAM_BREEDING_HUBS.map((hub) => (
-            <div key={hub.id} className="rounded-2xl border border-line bg-surface-1/50 p-4 text-xs">
-              <div className="flex items-center gap-1.5 text-accent font-semibold mb-1">
-                <MapPin className="size-3.5" aria-hidden="true" />
+            <li key={hub.id} className="py-5 md:px-6 md:first:pl-0">
+              <p className="flex items-center gap-1.5 text-sm font-medium text-accent">
+                <MapPin className="size-4" aria-hidden="true" />
                 <span>{hub.city}</span>
-              </div>
-              <p className="font-medium text-fg">{hub.shopName}</p>
-              <p className="text-fg-3 mt-1">{hub.specialty}</p>
-            </div>
+              </p>
+              <p className="mt-1.5 font-medium text-fg">{hub.shopName}</p>
+              <p className="mt-1 text-sm text-fg-3">{hub.specialty}</p>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       {/* 5. CHƯƠNG 3: SÀN SINH VẬT CẢNH & ĐẠO ĐỨC BẢO TỒN (Marketplace) */}
-      <section id="chapter-3" className="relative min-h-screen py-24 px-6 border-t border-line/40">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
-            <div>
-              <Badge variant="accent" className="font-mono text-xs uppercase tracking-wider">
-                03 · Cửa hàng Đã Kiểm Duyệt
-              </Badge>
-              <h2 className="mt-3 text-4xl sm:text-5xl font-bold font-serif text-fg">
-                Cá thể khỏe mạnh, <span className="text-accent italic">pháp lý rõ ràng</span>
+      <section id="chapter-3" className="relative min-h-screen border-t border-line py-24 px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div className="max-w-2xl">
+              <Eyebrow>Chương 03 · Sàn đã kiểm duyệt</Eyebrow>
+              <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
+                Cá thể khỏe mạnh, <em className="font-serif font-medium text-accent">pháp lý rõ ràng</em>
               </h2>
-              <p className="mt-2 text-fg-2 text-sm sm:text-base">
-                100% sinh vật cảnh được nhân giống nhân tạo thế hệ F2+, hồ sơ minh bạch đối soát với danh mục bách khoa.
+              <p className="mt-4 text-base leading-relaxed text-fg-2">
+                Chỉ cá thể nhân giống có giấy tờ nguồn gốc. Mỗi sản phẩm gắn đúng một loài trong bách khoa và qua kiểm duyệt trước khi lên sàn.
               </p>
             </div>
-            <Link to="/products" className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-4 text-sm font-medium text-fg-2 transition-colors hover:bg-surface hover:text-fg hover:border-line-strong focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 mt-4 md:mt-0 self-start md:self-auto">
-              Xem tất cả sản phẩm <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
+            <ButtonLink to="/products" variant="ghost" pill className="self-start md:self-auto">
+              <span>Xem tất cả sản phẩm</span>
+              <ArrowRight className="size-4" aria-hidden="true" />
+            </ButtonLink>
           </div>
 
           {/* Lưới sản phẩm đã kiểm duyệt */}
           {isProductsLoading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {Array.from({ length: 8 }, (_, i) => (
-                <div key={i} className="rounded-2xl border border-line p-4 space-y-3">
-                  <Skeleton className="aspect-[4/3] w-full rounded-xl" />
-                  <Skeleton className="h-4 w-3/4" />
-                  <Skeleton className="h-4 w-1/2" />
-                </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4" role="status" aria-label="Đang tải sản phẩm">
+              {Array.from({ length: 4 }, (_, i) => (
+                <Skeleton key={i} className="h-80 w-full rounded-[20px]" />
               ))}
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {productsData?.items?.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
@@ -484,7 +469,7 @@ export default function Home(): React.JSX.Element {
           {/* Dải mời tham gia Hành trình 9 loài ngay trước phần kết */}
           <div
             id="home-journey-invite"
-            className="mt-16 relative overflow-hidden rounded-3xl border border-accent/35 bg-[#040f0b] shadow-2xl"
+            className="relative mt-16 overflow-hidden rounded-[20px] border border-line bg-bg-raised"
           >
             <img
               src={`${import.meta.env.BASE_URL}trip/trail-1600.webp`}
@@ -495,40 +480,36 @@ export default function Home(): React.JSX.Element {
             <div className="absolute inset-0 bg-gradient-to-r from-[#030b08]/95 via-[#030b08]/80 to-transparent" />
             <div className="relative z-10 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
               <div className="max-w-xl">
-                <Badge variant="accent" className="font-mono text-xs uppercase tracking-wider">
-                  Ấn phẩm tương tác · 4 chặng · 9 trạm
-                </Badge>
-                <h3 className="mt-3 text-3xl sm:text-4xl font-serif font-bold text-fg leading-tight">
-                  Hành trình <span className="text-accent italic">9 loài</span> ngoài tự nhiên
+                <Eyebrow>4 chặng · 9 trạm</Eyebrow>
+                <h3 className="mt-4 text-[28px] leading-[1.05] font-semibold tracking-[-0.03em] text-fg md:text-4xl">
+                  Hành trình <em className="font-serif font-medium text-accent">9 loài</em> ngoài tự nhiên
                 </h3>
-                <p className="mt-3 text-fg-2 text-sm sm:text-base leading-relaxed">
+                <p className="mt-4 text-base leading-relaxed text-fg-2">
                   Mười ngày đi qua 4 vùng sinh cảnh từ rừng mưa Cát Tiên, đỉnh mây Kinabalu, đầm lầy Bắc Carolina, kênh cổ Xochimilco tới sa mạc Trung Úc và Địa Trung Hải. Đóng đủ 9 con dấu vào sổ hộ chiếu loài để nhận chứng nhận Nhà thám hiểm BioNexus.
                 </p>
               </div>
-              <Link to="/tham-hiem" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
+              <ButtonLink to="/tham-hiem" size="lg" pill className="shrink-0">
                 <Compass className="size-4" aria-hidden="true" />
                 <span>Bắt đầu hành trình</span>
-                <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
+              </ButtonLink>
             </div>
           </div>
 
           {/* Cam kết bảo tồn và CTA mở shop */}
-          <div className="mt-16 rounded-3xl border border-line bg-surface-1 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
+          {/* Lời mời người bán: nút phụ, vì nút chính của khung nhìn này là Hành trình */}
+          <div className="mt-6 flex flex-col items-start justify-between gap-6 border-t border-line pt-8 md:flex-row md:items-center">
             <div className="max-w-xl">
-              <div className="flex items-center gap-2 text-accent font-semibold mb-2 text-sm">
-                <ShieldCheck className="size-5" aria-hidden="true" /> Tôn chỉ bảo tồn sinh quyển BioNexus
-              </div>
-              <h3 className="text-2xl sm:text-3xl font-serif font-bold text-fg">
-                Bạn là nhà nhân giống có giấy phép hợp pháp?
+              <Eyebrow tone="muted">Dành cho người bán</Eyebrow>
+              <h3 className="mt-3 text-2xl font-semibold tracking-[-0.03em] text-fg md:text-[28px]">
+                Bạn có trại nhân giống được cấp phép?
               </h3>
-              <p className="mt-2 text-fg-2 text-sm leading-relaxed">
-                Chúng tôi đồng hành cùng các trang trại sinh sản nhân tạo F2+, kiên quyết nói không với động vật khai thác tự nhiên, kiến tạo sàn sinh vật cảnh văn minh chuẩn mực.
+              <p className="mt-2 text-base leading-relaxed text-fg-2">
+                Mở shop trên BioNexus: hồ sơ được Ban Quản trị kiểm tra, sản phẩm được duyệt trước khi lên sàn. Không nhận động vật khai thác từ tự nhiên.
               </p>
             </div>
-            <Link to="/seller/apply" className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-accent-ink shadow-xl shadow-accent/25 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 shrink-0">
+            <ButtonLink to="/seller/apply" variant="secondary" size="lg" pill className="shrink-0">
               Nộp hồ sơ mở shop
-            </Link>
+            </ButtonLink>
           </div>
         </div>
       </section>

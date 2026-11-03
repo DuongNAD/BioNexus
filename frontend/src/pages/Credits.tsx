@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Search, ExternalLink } from 'lucide-react';
 import { PHOTOS, type PhotoMetadata } from '@/content/photos';
 import { Photo } from '@/components/media/Photo';
-import { ExternalLink, Heart, ShieldCheck, Image as ImageIcon, Sparkles, CheckCircle2, Search } from 'lucide-react';
+import { PageContainer, PageHeader, Section } from '@/components/layout/Page';
+import { StatRow } from '@/components/ui/StatRow';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { cn } from '@/lib/cn';
 
 // Vai trò ảnh hiển thị bằng tiếng Việt thay cho mã nội bộ (hero, portrait...)
 const PHOTO_ROLE_LABELS: Record<string, string> = {
@@ -13,8 +17,12 @@ const PHOTO_ROLE_LABELS: Record<string, string> = {
   biome: 'Sinh cảnh',
 };
 
+type CreditFilter = 'all' | 'species' | 'product' | 'biome';
+
+const SPECIES_ROLES = new Set(['hero', 'portrait', 'habitat', 'gallery']);
+
 export default function Credits(): React.JSX.Element {
-  const [filter, setFilter] = useState<'all' | 'species' | 'product' | 'biome'>('all');
+  const [filter, setFilter] = useState<CreditFilter>('all');
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
@@ -22,19 +30,11 @@ export default function Credits(): React.JSX.Element {
   }, []);
 
   const photoList: PhotoMetadata[] = Object.values(PHOTOS);
+  const authorCount = new Set(photoList.map((p) => p.credit.author)).size;
 
   const filteredPhotos = photoList.filter((p) => {
     const matchesFilter =
-      filter === 'all'
-        ? true
-        : filter === 'species'
-        ? p.role === 'hero' || p.role === 'portrait' || p.role === 'habitat' || p.role === 'gallery'
-        : filter === 'product'
-        ? p.role === 'product'
-        : filter === 'biome'
-        ? p.role === 'biome'
-        : true;
-
+      filter === 'all' ? true : filter === 'species' ? SPECIES_ROLES.has(p.role) : p.role === filter;
     if (!matchesFilter) return false;
 
     if (!searchQuery.trim()) return true;
@@ -47,167 +47,111 @@ export default function Credits(): React.JSX.Element {
     );
   });
 
+  const filters: { value: CreditFilter; label: string }[] = [
+    { value: 'all', label: `Tất cả (${photoList.length})` },
+    { value: 'species', label: 'Bách khoa loài' },
+    { value: 'product', label: 'Sản phẩm' },
+    { value: 'biome', label: 'Sinh cảnh' },
+  ];
+
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
-      {/* Header */}
-      <div className="max-w-3xl mb-10">
-        <div className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent mb-4">
-          <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
-          <span>Bản quyền Hình ảnh Tự do · Wikimedia Commons & iNaturalist</span>
-        </div>
-        <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-fg font-sans">
-          Ghi công & Bản quyền Hình ảnh
-        </h1>
-        <p className="mt-4 text-base md:text-lg text-fg-2 leading-relaxed">
-          BioNexus xin gửi lời tri ân sâu sắc tới cộng đồng <strong>Wikimedia Commons</strong>,{' '}
-          <strong>iNaturalist</strong>, cùng các nhiếp ảnh gia và nhà nghiên cứu sinh học trên toàn thế giới đã cống hiến tư liệu hình ảnh vì tri thức chung của nhân loại.
-        </p>
-        <p className="mt-2 text-sm text-fg-3 flex items-center gap-1.5">
-          <Heart className="h-4 w-4 text-danger fill-danger" aria-hidden="true" />
-          <span>Toàn bộ 100% hình ảnh trong dự án là ảnh sinh học thật, minh bạch tác quyền. Tuyệt đối không sử dụng hình ảnh do AI tạo ra.</span>
-        </p>
-      </div>
+    <PageContainer className="pb-20">
+      <PageHeader
+        eyebrow="Wikimedia Commons"
+        title="Ghi công & Bản quyền ảnh"
+        description="Mọi ảnh trong BioNexus là ảnh sinh vật thật, giấy phép tự do, ghi rõ tác giả và nguồn. Cảm ơn các nhiếp ảnh gia và cộng đồng Wikimedia Commons."
+      />
 
-      {/* 4 Stat Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">
-          <div className="flex items-center justify-between text-accent mb-1">
-            <span className="text-xs font-medium text-fg-3">File ảnh nội bộ</span>
-            <ImageIcon className="size-4" aria-hidden="true" />
-          </div>
-          <p className="text-2xl font-bold font-mono text-fg">482</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">286 ảnh loài + 196 ảnh hành trình (AVIF và WebP)</p>
-        </div>
+      <StatRow
+        className="border-y border-line py-2"
+        items={[
+          { label: 'Tác phẩm nguồn', value: photoList.length },
+          { label: 'Tác giả', value: authorCount },
+          { label: 'Ảnh tạo bằng AI', value: 0 },
+          { label: 'Giấy phép', value: 'CC', hint: 'CC0, CC BY, CC BY-SA' },
+        ]}
+      />
 
-        <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">
-          <div className="flex items-center justify-between text-accent mb-1">
-            <span className="text-xs font-medium text-fg-3">Tác phẩm nguồn</span>
-            <ShieldCheck className="size-4" aria-hidden="true" />
-          </div>
-          <p className="text-2xl font-bold font-mono text-accent">{photoList.length}</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">Wikimedia Commons (đã kiểm chứng API)</p>
-        </div>
-
-        <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">
-          <div className="flex items-center justify-between text-success mb-1">
-            <span className="text-xs font-medium text-fg-3">Ảnh sinh vật thật</span>
-            <CheckCircle2 className="size-4" aria-hidden="true" />
-          </div>
-          <p className="text-2xl font-bold font-mono text-success">100%</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">0 ảnh AI · Chân thực khoa học</p>
-        </div>
-
-        <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">
-          <div className="flex items-center justify-between text-accent mb-1">
-            <span className="text-xs font-medium text-fg-3">Giấy phép tự do</span>
-            <Sparkles className="size-4" aria-hidden="true" />
-          </div>
-          <p className="text-2xl font-bold font-mono text-fg">CC BY / SA</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">CC0, CC BY 4.0, CC BY-SA</p>
-        </div>
-      </div>
-
-      {/* Filter Tabs & Search */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8 border-b border-line pb-4">
-        <div className="flex flex-wrap items-center gap-2">
-          {[
-            { id: 'all', label: `Tất cả (${photoList.length})` },
-            { id: 'species', label: 'Bách khoa loài' },
-            { id: 'product', label: 'Sản phẩm sinh vật cảnh' },
-            { id: 'biome', label: 'Sinh cảnh & Không khí' },
-          ].map((tab) => (
+      <Section
+        title="Danh sách ảnh"
+        actions={
+          <label className="relative block w-full sm:w-72">
+            <span className="sr-only">Tìm theo loài, tác giả hoặc giấy phép</span>
+            <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-fg-3" aria-hidden="true" />
+            <input
+              type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Tìm theo loài, tác giả, giấy phép..."
+              className="h-11 w-full rounded-full border border-line bg-white/[0.04] pr-4 pl-10 text-[15px] text-fg placeholder:text-fg-3 hover:border-line-strong focus:border-accent focus:ring-2 focus:ring-accent/40 focus:outline-none"
+            />
+          </label>
+        }
+      >
+        <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="Lọc theo nhóm ảnh">
+          {filters.map((f) => (
             <button
-              key={tab.id}
+              key={f.value}
               type="button"
-              onClick={() => setFilter(tab.id as typeof filter)}
-              className={`rounded-full px-4 py-1.5 text-xs font-semibold transition-all ${
-                filter === tab.id
-                  ? 'bg-accent text-accent-ink shadow-[var(--glow-accent-btn)]'
-                  : 'border border-line bg-surface text-fg-2 hover:border-line-strong hover:text-fg'
-              }`}
+              aria-pressed={filter === f.value}
+              onClick={() => setFilter(f.value)}
+              className={cn(
+                'h-9 rounded-full px-4 text-sm font-medium transition-colors',
+                filter === f.value ? 'bg-accent text-accent-ink' : 'border border-line text-fg-2 hover:border-line-strong hover:text-fg'
+              )}
             >
-              {tab.label}
+              {f.label}
             </button>
           ))}
         </div>
 
-        {/* Search */}
-        <div className="relative w-full md:w-72">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-3.5 text-fg-3" aria-hidden="true" />
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Tìm theo loài, tác giả, giấy phép..."
-            className="w-full pl-9 pr-3 py-1.5 rounded-lg border border-line bg-surface text-xs text-fg placeholder:text-fg-3 focus:outline-none focus:border-accent"
-          />
-        </div>
-      </div>
-
-      {/* Grid */}
-      {filteredPhotos.length === 0 ? (
-        <div className="text-center py-16 border border-dashed border-line rounded-2xl bg-surface/40">
-          <p className="text-sm text-fg-3">Không tìm thấy tư liệu ảnh phù hợp với từ khóa.</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredPhotos.map((photo) => (
-            <div
-              key={photo.id}
-              className="group rounded-2xl border border-line bg-surface overflow-hidden hover:border-line-strong hover:bg-surface-hover transition-all duration-200 flex flex-col"
-            >
-              <div className="relative aspect-video overflow-hidden bg-bg-raised">
-                <Photo photo={photo} className="h-full w-full object-cover" />
-                <span className="absolute top-3 left-3 rounded-md bg-black/70 backdrop-blur-md px-2 py-0.5 text-[11px] font-semibold text-accent border border-line">
-                  {PHOTO_ROLE_LABELS[photo.role] ?? photo.role}
-                </span>
-              </div>
-
-              <div className="p-5 flex-1 flex flex-col justify-between">
-                <div>
-                  <h2 className="text-base font-semibold text-fg tracking-tight">
-                    {photo.title}
-                  </h2>
-                  {photo.scientificName && (
-                    <p className="text-xs font-serif italic text-accent mt-0.5">
-                      {photo.scientificName}
+        {filteredPhotos.length === 0 ? (
+          <EmptyState title="Không có ảnh phù hợp" description="Thử từ khóa khác hoặc chọn lại nhóm ảnh." />
+        ) : (
+          <ul className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredPhotos.map((photo) => (
+              <li key={photo.id}>
+                <figure>
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-[20px] border border-line bg-bg-raised">
+                    <Photo photo={photo} className="size-full object-cover" />
+                    <span className="absolute top-3 left-3 rounded-full bg-black/65 px-2.5 py-1 text-xs font-medium text-white backdrop-blur-md">
+                      {PHOTO_ROLE_LABELS[photo.role] ?? photo.role}
+                    </span>
+                  </div>
+                  <figcaption className="mt-4">
+                    <p className="font-medium text-fg">{photo.title}</p>
+                    {photo.scientificName && (
+                      <p className="font-serif text-[15px] text-fg-3 italic">{photo.scientificName}</p>
+                    )}
+                    <p className="mt-2 text-sm text-fg-2">
+                      Tác giả: <span className="text-fg">{photo.credit.author}</span>
                     </p>
-                  )}
-                  <p className="text-xs text-fg-3 mt-2 line-clamp-2">
-                    {photo.alt}
-                  </p>
-                </div>
-
-                <div className="mt-4 pt-3 border-t border-line/60 flex items-center justify-between text-xs">
-                  <div>
-                    <p className="text-fg-3 text-[11px]">Tác giả:</p>
-                    <p className="font-medium text-fg-2 truncate max-w-[160px]">{photo.credit.author}</p>
-                  </div>
-                  <div className="text-right">
-                    <a
-                      href={photo.credit.licenseUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent hover:underline text-[11px] block"
-                    >
-                      {photo.credit.license}
-                    </a>
-                    <a
-                      href={photo.credit.sourceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-fg-3 hover:text-fg text-[11px] inline-flex items-center gap-1 mt-0.5"
-                    >
-                      <span>Wikimedia Commons</span>
-                      <ExternalLink className="h-2.5 w-2.5" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
+                    <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+                      <a
+                        href={photo.credit.licenseUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:underline"
+                      >
+                        {photo.credit.license}
+                      </a>
+                      <a
+                        href={photo.credit.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-fg-3 hover:text-fg"
+                      >
+                        <span>Xem file gốc</span>
+                        <ExternalLink className="size-3.5" aria-hidden="true" />
+                      </a>
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Section>
+    </PageContainer>
   );
 }

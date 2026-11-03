@@ -1,6 +1,8 @@
 import React from 'react';
-import { Search, LayoutGrid, Globe, ArrowUpDown, X } from 'lucide-react';
+import { Search, LayoutGrid, Globe, X } from 'lucide-react';
 import type { ConservationStatus } from '@/types/api';
+import { IUCN_SPECS } from '@/components/ui/IucnBadge';
+import { SegmentedControl } from '@/components/ui/SegmentedControl';
 import { cn } from '@/lib/cn';
 
 export type BiologicalGroup = 'all' | 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt';
@@ -13,6 +15,8 @@ export interface SpeciesFilterBarProps {
   onGroupChange: (group: BiologicalGroup) => void;
   selectedIucn: ConservationStatus | null;
   onIucnChange: (iucn: ConservationStatus | null) => void;
+  /** Số loài theo từng mức IUCN, hiện cạnh chip để biết lọc ra bao nhiêu */
+  iucnCounts: Record<ConservationStatus, number>;
   selectedSort: SortOption;
   onSortChange: (sort: SortOption) => void;
   viewMode: 'grid' | 'map';
@@ -28,6 +32,15 @@ const GROUPS: Array<{ id: BiologicalGroup; label: string }> = [
   { id: 'Cây ăn thịt', label: 'Cây ăn thịt' },
 ];
 
+// Nguy cấp nhất đứng đầu, giống thứ tự đọc của Sách Đỏ
+const IUCN_CHIPS: ConservationStatus[] = ['CR', 'EN', 'VU', 'NT', 'LC'];
+
+const chipClass = (active: boolean): string =>
+  cn(
+    'inline-flex h-9 shrink-0 items-center gap-2 rounded-full border px-3.5 text-sm whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
+    active ? 'border-accent bg-accent/15 text-fg' : 'border-line text-fg-2 hover:border-line-strong hover:text-fg'
+  );
+
 export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
   query,
   onQueryChange,
@@ -35,6 +48,7 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
   onGroupChange,
   selectedIucn,
   onIucnChange,
+  iucnCounts,
   selectedSort,
   onSortChange,
   viewMode,
@@ -43,136 +57,96 @@ export const SpeciesFilterBar: React.FC<SpeciesFilterBarProps> = ({
   className = '',
 }) => {
   return (
-    <div
-      className={cn(
-        'sticky top-16 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-3.5 backdrop-blur-xl bg-bg/90 border-y border-line shadow-md space-y-3',
-        className
-      )}
-    >
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
-        {/* Hàng 1: Ô tìm kiếm & Nhóm sinh học */}
-        <div className="flex flex-1 flex-col sm:flex-row sm:items-center gap-3">
-          {/* Ô tìm kiếm */}
-          <div className="relative min-w-[240px] max-w-sm">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-accent pointer-events-none" aria-hidden="true" />
-            <input
-              type="search"
-              aria-label="Tìm loài theo tên thường, tên khoa học, chi hoặc họ"
-              value={query}
-              onChange={(e) => onQueryChange(e.target.value)}
-              placeholder="Tìm theo tên loài, chi, họ..."
-              className="w-full rounded-full border border-line bg-surface-2/80 pl-9 pr-8 py-1.5 text-xs text-fg placeholder:text-fg-3 focus:border-accent focus:outline-none transition-colors"
-            />
-            {query && (
-              <button
-                type="button"
-                onClick={() => onQueryChange('')}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-fg-3 hover:text-fg p-0.5"
-                aria-label="Xóa từ khóa tìm kiếm"
-              >
-                <X className="size-3.5" aria-hidden="true" />
-              </button>
-            )}
-          </div>
-
-          {/* Chip nhóm sinh học */}
-          <div
-            role="group"
-            aria-label="Lọc theo nhóm sinh học"
-            className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none"
-          >
-            {GROUPS.map((g) => (
-              <button
-                key={g.id}
-                type="button"
-                onClick={() => onGroupChange(g.id)}
-                aria-pressed={selectedGroup === g.id}
-                className={cn(
-                  'rounded-full px-3 py-1 text-xs font-medium whitespace-nowrap transition-all duration-200',
-                  selectedGroup === g.id
-                    ? 'bg-accent text-accent-ink font-semibold shadow-sm'
-                    : 'border border-line bg-surface-1 text-fg-2 hover:border-line-strong hover:text-fg'
-                )}
-              >
-                {g.label}
-              </button>
-            ))}
-          </div>
+    <div className={cn('space-y-4 border-y border-line py-5', className)}>
+      <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+        <div className="relative w-full lg:max-w-sm">
+          <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-fg-3" aria-hidden="true" />
+          <input
+            type="search"
+            aria-label="Tìm loài theo tên thường, tên khoa học hoặc nơi bản địa"
+            value={query}
+            onChange={(e) => onQueryChange(e.target.value)}
+            placeholder="Tìm theo tên loài, tên khoa học, nơi sống..."
+            className="h-11 w-full rounded-full border border-line bg-surface pr-10 pl-10 text-sm text-fg placeholder:text-fg-3 transition-colors focus:border-accent focus:outline-none"
+          />
+          {query && (
+            <button
+              type="button"
+              onClick={() => onQueryChange('')}
+              className="absolute top-1/2 right-3 -translate-y-1/2 rounded-full p-1 text-fg-3 hover:text-fg"
+              aria-label="Xóa từ khóa tìm kiếm"
+            >
+              <X className="size-4" aria-hidden="true" />
+            </button>
+          )}
         </div>
 
-        {/* Hàng 2: Sắp xếp, Bộ lọc IUCN & Công tắc Xem Lưới / Bản đồ */}
-        <div className="flex items-center justify-between sm:justify-end gap-3 shrink-0">
-          {/* Sắp xếp */}
-          <div className="flex items-center gap-1.5 text-xs">
-            <ArrowUpDown className="size-3.5 text-fg-3" aria-hidden="true" />
+        <div className="flex flex-wrap items-center gap-3">
+          <label className="flex items-center gap-2 text-sm text-fg-3">
+            <span>Sắp xếp</span>
             <select
-              aria-label="Sắp xếp danh sách loài"
               value={selectedSort}
               onChange={(e) => onSortChange(e.target.value as SortOption)}
-              className="rounded-full border border-line bg-surface-2/80 px-2.5 py-1 text-xs text-fg focus:border-accent focus:outline-none cursor-pointer"
+              className="h-10 cursor-pointer rounded-full border border-line bg-surface px-3.5 text-sm text-fg focus:border-accent focus:outline-none"
             >
               <option value="name_asc">Tên (A → Z)</option>
               <option value="iucn_desc">Nguy cấp nhất trước</option>
-              <option value="products_desc">Nhiều sản phẩm nhất</option>
+              <option value="products_desc">Nhiều cá thể đang bán</option>
             </select>
-          </div>
-
-          {/* Công tắc Chế độ xem Lưới vs Bản đồ */}
-          <div role="group" aria-label="Chế độ xem" className="inline-flex rounded-full border border-line bg-surface-1 p-0.5 shadow-inner">
-            <button
-              type="button"
-              onClick={() => onViewModeChange('grid')}
-              aria-pressed={viewMode === 'grid'}
-              aria-label="Xem dạng lưới thẻ loài"
-              className={cn(
-                'flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all duration-200',
-                viewMode === 'grid'
-                  ? 'bg-accent text-accent-ink shadow-sm'
-                  : 'text-fg-2 hover:text-fg'
-              )}
-              title="Chế độ Lưới thẻ loài"
-            >
-              <LayoutGrid className="size-3.5" aria-hidden="true" />
-              <span className="hidden sm:inline">Lưới</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => onViewModeChange('map')}
-              aria-pressed={viewMode === 'map'}
-              aria-label="Xem trên bản đồ địa cầu 3D"
-              className={cn(
-                'flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all duration-200',
-                viewMode === 'map'
-                  ? 'bg-accent text-accent-ink shadow-sm'
-                  : 'text-fg-2 hover:text-fg'
-              )}
-              title="Chế độ Bản đồ BioEarth 3D"
-            >
-              <Globe className="size-3.5" aria-hidden="true" />
-              <span className="hidden sm:inline">Bản đồ</span>
-            </button>
-          </div>
+          </label>
+          <SegmentedControl
+            label="Chế độ xem"
+            value={viewMode}
+            onChange={onViewModeChange}
+            options={[
+              { value: 'grid', label: 'Lưới', icon: <LayoutGrid className="size-4" aria-hidden="true" /> },
+              { value: 'map', label: 'Bản đồ', icon: <Globe className="size-4" aria-hidden="true" /> },
+            ]}
+          />
         </div>
       </div>
 
-      {/* Dòng tóm tắt kết quả & chip lọc đang áp dụng */}
-      <div className="flex items-center justify-between text-[11px] font-mono text-fg-3 pt-1">
-        <span aria-live="polite">Tìm thấy {totalFiltered} loài sinh vật</span>
-        {selectedIucn && (
-          <span className="flex items-center gap-1 text-accent">
-            Đang lọc mức IUCN: <strong>{selectedIucn}</strong>
+      {/* Hai hàng chip riêng: gộp chung một hàng thì chip IUCN bị cắt mất trên màn hình vừa */}
+      <div className="flex flex-col gap-3">
+        <div role="group" aria-label="Lọc theo nhóm sinh học" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+          {GROUPS.map((g) => (
             <button
+              key={g.id}
               type="button"
-              onClick={() => onIucnChange(null)}
-              className="ml-1 text-fg-3 hover:text-fg"
-              aria-label="Xóa lọc IUCN"
+              onClick={() => onGroupChange(g.id)}
+              aria-pressed={selectedGroup === g.id}
+              className={chipClass(selectedGroup === g.id)}
             >
-              <X className="size-3" aria-hidden="true" />
+              {g.label}
             </button>
-          </span>
-        )}
+          ))}
+        </div>
+
+        <div role="group" aria-label="Lọc theo mức bảo tồn IUCN" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+          {IUCN_CHIPS.map((code) => {
+            const active = selectedIucn === code;
+            return (
+              <button
+                key={code}
+                type="button"
+                onClick={() => onIucnChange(active ? null : code)}
+                aria-pressed={active}
+                aria-label={`${IUCN_SPECS[code].label}: ${iucnCounts[code]} loài`}
+                className={chipClass(active)}
+              >
+                <span className="size-2 rounded-full" style={{ backgroundColor: IUCN_SPECS[code].color }} aria-hidden="true" />
+                <span className="font-mono text-xs font-medium">{code}</span>
+                <span className="hidden sm:inline">{IUCN_SPECS[code].label}</span>
+                <span className="font-mono text-xs text-fg-3">{iucnCounts[code]}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      <p className="text-sm text-fg-3" aria-live="polite">
+        Tìm thấy <span className="font-mono text-fg">{totalFiltered}</span> loài
+      </p>
     </div>
   );
 };

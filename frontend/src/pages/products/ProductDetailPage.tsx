@@ -1,23 +1,13 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router';
-import {
-  Store,
-  ShieldCheck,
-  ShoppingBag,
-  Zap,
-  AlertTriangle,
-  ChevronRight,
-  Info,
-  CheckCircle2,
-  Share2,
-} from 'lucide-react';
+import { Store, ShoppingBag, AlertTriangle, Info, CheckCircle2, Share2, ArrowRight, SearchX } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Price } from '@/components/ui/Price';
-import { Badge } from '@/components/ui/Badge';
 import { IucnBadge } from '@/components/ui/IucnBadge';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/Tabs';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/Dialog';
 import { NumberStepper } from '@/components/ui/NumberStepper';
+import { PageContainer, Breadcrumbs, Section, type BreadcrumbItem } from '@/components/layout/Page';
 import { LensMagnifier } from '@/components/domain/LensMagnifier';
 import { Lightbox } from '@/components/domain/Lightbox';
 import { ProductCard } from '@/components/domain/ProductCard';
@@ -34,6 +24,7 @@ import { ApiError } from '@/api/errors';
 import { SHIPPING_AND_CARE_COPY } from '@/content/copy';
 import { SPECIES_EXTRAS } from '@/content/species-extras';
 import { PHOTOS, type PhotoMetadata } from '@/content/photos';
+import { cn } from '@/lib/cn';
 import { toast } from 'sonner';
 
 export default function ProductDetailPage(): React.JSX.Element {
@@ -86,14 +77,14 @@ export default function ProductDetailPage(): React.JSX.Element {
   const galleryPhotos = useMemo(() => {
     const list: { src: string; alt: string; label?: string }[] = [];
     if (product?.displayImage) {
-      list.push({ src: product.displayImage, alt: product.productName, label: 'Ảnh cá thể thực tế' });
+      list.push({ src: product.displayImage, alt: product.productName, label: 'Ảnh cá thể' });
     }
     if (species?.heroPhoto) {
-      list.push({ src: species.heroPhoto, alt: `${species.displayName} - Mẫu chuẩn loài`, label: 'Mẫu chuẩn loài' });
+      list.push({ src: species.heroPhoto, alt: `${species.displayName} - Mẫu chuẩn loài`, label: 'Mẫu chuẩn của loài' });
     }
     if (species?.galleryPhotos && species.galleryPhotos.length > 0) {
       species.galleryPhotos.slice(0, 2).forEach((g, idx) => {
-        list.push({ src: g, alt: `${species.displayName} ảnh ${idx + 1}`, label: 'Sinh cảnh chuẩn' });
+        list.push({ src: g, alt: `${species.displayName} ảnh ${idx + 1}`, label: 'Ảnh loài' });
       });
     }
     return list;
@@ -195,24 +186,24 @@ export default function ProductDetailPage(): React.JSX.Element {
 
   if (isProductLoading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div className="lg:col-span-7 space-y-4">
-            <div className="aspect-[4/3] rounded-2xl bg-surface animate-pulse" />
+      <PageContainer className="pt-10 pb-20 md:pt-16" role="status" aria-label="Đang tải thông tin cá thể">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-14">
+          <div className="space-y-3">
+            <Skeleton className="aspect-[4/3] w-full rounded-[20px]" />
             <div className="flex gap-3">
               {Array.from({ length: 4 }).map((_, i) => (
-                <div key={i} className="size-20 rounded-xl bg-surface animate-pulse" />
+                <Skeleton key={i} className="size-20 rounded-xl" />
               ))}
             </div>
           </div>
-          <div className="lg:col-span-5 space-y-4">
-            <div className="h-6 w-1/3 bg-surface animate-pulse rounded" />
-            <div className="h-10 w-3/4 bg-surface animate-pulse rounded" />
-            <div className="h-8 w-1/2 bg-surface animate-pulse rounded" />
-            <div className="h-32 w-full bg-surface animate-pulse rounded-xl" />
+          <div className="space-y-4">
+            <Skeleton className="h-4 w-1/3" />
+            <Skeleton className="h-12 w-3/4" />
+            <Skeleton className="h-10 w-1/2" />
+            <Skeleton className="h-40 w-full rounded-[20px]" />
           </div>
         </div>
-      </div>
+      </PageContainer>
     );
   }
 
@@ -223,455 +214,363 @@ export default function ProductDetailPage(): React.JSX.Element {
     (!productError && !product);
   if (productError && !isNotFound) {
     return (
-      <div className="px-4 py-16">
+      <PageContainer className="py-16">
         <QueryErrorState
           title="Không tải được thông tin sinh vật cảnh"
           error={productError}
           onRetry={() => refetchProduct()}
           isRetrying={isProductRefetching}
         />
-      </div>
+      </PageContainer>
     );
   }
 
   if (isNotFound || !product) {
     return (
-      <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center max-w-md mx-auto">
-        <div className="size-16 rounded-full bg-surface-2 border border-line flex items-center justify-center text-accent mb-4">
-          <AlertTriangle className="size-8" aria-hidden="true" />
-        </div>
-        <h1 className="text-2xl font-bold text-fg">Không tìm thấy sinh vật cảnh</h1>
-        <p className="mt-2 text-sm text-fg-2">
-          Cá thể này không tồn tại, đã ngừng bán hoặc đang trong trạng thái chờ kiểm duyệt sinh học.
+      <PageContainer width="narrow" className="flex min-h-[60vh] flex-col items-center justify-center py-16 text-center">
+        <SearchX className="mb-5 size-10 text-accent" aria-hidden="true" />
+        <p className="text-xs font-semibold tracking-[0.2em] text-fg-3 uppercase">Lỗi 404</p>
+        <h1 className="mt-3 text-[34px] leading-tight font-semibold tracking-[-0.035em] text-fg md:text-5xl">
+          Không tìm thấy sinh vật cảnh
+        </h1>
+        <p className="mt-4 max-w-md text-base leading-relaxed text-fg-2">
+          Cá thể này không tồn tại, đã ngừng bán hoặc đang chờ kiểm duyệt.
         </p>
-        <ButtonLink to="/products" variant="primary" pill className="mt-6">
-          ← Khám phá cá thể khác
+        <ButtonLink to="/products" pill className="mt-8">
+          Xem các cá thể khác
         </ButtonLink>
-      </div>
+      </PageContainer>
     );
   }
 
+  const specs = species?.parsedSpecs;
+  const tempText = specs?.tempMin != null && specs?.tempMax != null ? `${specs.tempMin}–${specs.tempMax}°C` : null;
+  const humidText = specs?.humidityNotApplicable
+    ? 'Sống dưới nước'
+    : specs?.humidMin != null && specs?.humidMax != null
+      ? `${specs.humidMin}–${specs.humidMax}%`
+      : null;
+  const canBuy = !isOutOfStock && !isOwner;
+
+  const breadcrumbs: BreadcrumbItem[] = [
+    { label: 'Sàn sinh vật cảnh', to: '/products' },
+    ...(species ? [{ label: species.displayName, to: `/products?speciesId=${species.id}` }] : []),
+    { label: product.productName },
+  ];
+
   return (
-    <div className="min-h-screen bg-bg text-fg pb-24 md:pb-16">
-      {/* 1. Breadcrumb điều hướng sinh học */}
-      <nav aria-label="Breadcrumb" className="border-b border-line bg-bg-raised/50 py-3">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center gap-1.5 text-xs text-fg-3 overflow-x-auto whitespace-nowrap">
-          <Link to="/products" className="hover:text-accent transition-colors">
-            Cửa hàng
-          </Link>
-          <ChevronRight className="size-3 shrink-0" />
-          {species?.group && (
-            <>
-              <Link to={`/products?group=${encodeURIComponent(species.group)}`} className="hover:text-accent transition-colors">
-                {species.group}
-              </Link>
-              <ChevronRight className="size-3 shrink-0" />
-            </>
-          )}
-          {species && (
-            <>
-              <Link to={`/species/${species.id}`} className="hover:text-accent transition-colors font-serif italic">
-                {species.displayName} ({species.scientificName})
-              </Link>
-              <ChevronRight className="size-3 shrink-0" />
-            </>
-          )}
-          <span className="text-fg font-medium truncate max-w-[200px]">{product.productName}</span>
-        </div>
-      </nav>
+    <PageContainer className="pb-28 md:pb-20">
+      <Breadcrumbs items={breadcrumbs} className="pt-8 md:pt-12" />
 
-      {/* 2. Bố cục chính 12 cột: 7 Trái (Hình ảnh) / 5 Phải (Mua sắm dính) */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-          {/* CỘT TRÁI 7/12: Khảo sát hình ảnh + Kính lúp + Thumbnail Strip */}
-          <div className="lg:col-span-7 space-y-4">
-            {/* Kính lúp phóng đại 2.5x */}
-            <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden border border-line bg-surface-2 shadow-2xl">
-              <LensMagnifier
-                src={activePhoto.src}
-                alt={activePhoto.alt}
-                zoomLevel={2.5}
-                lensSize={160}
-                onOpenLightbox={lightboxPhotos.length > 0 ? () => setIsLightboxOpen(true) : undefined}
-                className="size-full"
-              />
-
-              {/* Tag F2+ CITES góc trên */}
-              <div className="absolute top-4 left-4 z-10 flex gap-2">
-                <Badge variant="accent" className="bg-black/70 backdrop-blur-md border border-accent/40 font-mono text-xs">
-                  <ShieldCheck className="size-3.5 mr-1 text-accent" /> F2+ Nhân tạo
-                </Badge>
-                {product.conservationStatus && (
-                  <IucnBadge code={product.conservationStatus} size="sm" showLabel={true} className="bg-black/80" />
-                )}
-              </div>
-            </div>
-
-            {/* Dải ảnh nhỏ đối soát hình thái loài */}
-            {galleryPhotos.length > 1 && (
-              <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-thin">
-                {galleryPhotos.map((photo, index) => {
-                  const isSelected = index === selectedPhotoIndex;
-                  return (
-                    <button
-                      key={index}
-                      type="button"
-                      aria-label={`Xem ảnh ${index + 1}: ${photo.label || photo.alt}`}
-                      aria-pressed={isSelected}
-                      onClick={() => setSelectedPhotoIndex(index)}
-                      className={`relative size-20 md:size-24 rounded-xl overflow-hidden border-2 transition-all shrink-0 bg-surface-2 ${
-                        isSelected
-                          ? 'border-accent shadow-[0_0_12px_rgba(110,231,183,0.4)] scale-102'
-                          : 'border-line hover:border-accent/40 opacity-70 hover:opacity-100'
-                      }`}
-                    >
-                      <img src={photo.src} alt="" className="size-full object-cover" />
-                      {photo.label && (
-                        <span className="absolute bottom-0 inset-x-0 bg-black/80 text-[9px] text-center text-fg-2 py-0.5 font-mono truncate px-1">
-                          {photo.label}
-                        </span>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
+      <div className="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-14">
+        {/* Ảnh: ảnh cá thể thật trước, sau đó là ảnh mẫu chuẩn của loài để đối chiếu */}
+        <div className="min-w-0 space-y-3">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[20px] border border-line bg-bg-raised">
+            <LensMagnifier
+              src={activePhoto.src}
+              alt={activePhoto.alt}
+              zoomLevel={2.5}
+              lensSize={160}
+              onOpenLightbox={lightboxPhotos.length > 0 ? () => setIsLightboxOpen(true) : undefined}
+              className="size-full"
+            />
+            {activePhoto.label && (
+              <span className="pointer-events-none absolute bottom-3 left-3 rounded-full bg-black/65 px-3 py-1 text-xs text-white/90 backdrop-blur-md">
+                {activePhoto.label}
+              </span>
             )}
           </div>
 
-          {/* CỘT PHẢI 5/12: Khung thông tin mua sắm & Thẩm định pháp lý (DÍNH) */}
-          <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-24">
-            {/* Header thông tin cá thể */}
-            <div>
-              <div className="flex items-center justify-between text-xs text-fg-3 mb-2">
-                <span className="font-mono text-accent">Mã cá thể: PRD-{product.id.toString().padStart(4, '0')}</span>
-                <button
-                  type="button"
-                  onClick={() => void handleShare()}
-                  className="flex items-center gap-1 text-fg-3 hover:text-accent transition-colors"
-                  aria-label="Chia sẻ thông tin cá thể"
-                >
-                  <Share2 className="size-3.5" />
-                  <span>Chia sẻ</span>
-                </button>
-              </div>
-
-              <h1 className="text-2xl md:text-3xl font-bold text-fg tracking-tight font-sans">
-                {product.productName}
-              </h1>
-
-              {product.speciesScientificName && (
-                <p className="mt-1 text-sm italic text-fg-3 font-serif">
-                  {product.speciesScientificName} {species?.displayName && `· ${species.displayName}`}
-                </p>
-              )}
+          {galleryPhotos.length > 1 && (
+            <div className="flex gap-3 overflow-x-auto pb-1">
+              {galleryPhotos.map((photo, index) => {
+                const isSelected = index === selectedPhotoIndex;
+                return (
+                  <button
+                    key={index}
+                    type="button"
+                    aria-label={`Xem ảnh ${index + 1}: ${photo.label || photo.alt}`}
+                    aria-pressed={isSelected}
+                    onClick={() => setSelectedPhotoIndex(index)}
+                    className={cn(
+                      'size-20 shrink-0 overflow-hidden rounded-xl border-2 bg-bg-raised transition-opacity md:size-24',
+                      isSelected ? 'border-accent' : 'border-transparent opacity-60 hover:opacity-100'
+                    )}
+                  >
+                    <img src={photo.src} alt="" className="size-full object-cover" />
+                  </button>
+                );
+              })}
             </div>
+          )}
+        </div>
 
-            {/* Khối Cửa hàng (ShopChip) */}
-            <div className="flex items-center justify-between rounded-xl border border-line bg-surface-1/60 backdrop-blur-md p-3.5">
-              <div className="flex items-center gap-3">
-                <div className="flex size-10 items-center justify-center rounded-xl border border-accent/30 bg-accent/10 text-accent">
-                  <Store className="size-5" />
-                </div>
-                <div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="text-sm font-semibold text-fg">{product.displayShopName}</span>
-                    <span title="Trại nhân giống F2+ đã kiểm duyệt">
-                      <ShieldCheck className="size-3.5 text-accent" />
-                    </span>
-                  </div>
-                  <span className="text-[11px] text-fg-3">Cơ sở nhân giống sinh thái chứng nhận</span>
-                </div>
-              </div>
+        {/* Thông tin và mua hàng */}
+        <div className="min-w-0 lg:sticky lg:top-24 lg:self-start">
+          <div className="flex items-center justify-between gap-3 text-sm text-fg-3">
+            <span>
+              Mã cá thể <span className="font-mono text-fg-2">PRD-{product.id.toString().padStart(4, '0')}</span>
+            </span>
+            <button
+              type="button"
+              onClick={() => void handleShare()}
+              className="inline-flex items-center gap-1.5 rounded-full px-2 py-1 transition-colors hover:text-accent"
+              aria-label="Chia sẻ liên kết cá thể"
+            >
+              <Share2 className="size-4" aria-hidden="true" />
+              <span>Chia sẻ</span>
+            </button>
+          </div>
 
-            </div>
+          <h1 className="mt-3 text-[30px] leading-[1.1] font-semibold tracking-[-0.03em] text-fg text-balance md:text-[40px]">
+            {product.productName}
+          </h1>
 
-            {/* Bảng giá & Tồn kho */}
-            <div className="rounded-2xl border border-line bg-surface-1/80 backdrop-blur-md p-5 space-y-3">
-              <div className="flex items-baseline justify-between">
-                <span className="text-xs text-fg-3 uppercase tracking-wider font-mono">Giá niêm yết:</span>
-                <Price amount={product.price} size="lg" className="text-3xl text-accent" />
-              </div>
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
+            {species ? (
+              <Link to={`/species/${species.id}`} className="text-fg-2 transition-colors hover:text-accent">
+                <i className="font-serif text-lg">{species.scientificName}</i>
+                <span className="text-fg-3"> · {species.displayName}</span>
+              </Link>
+            ) : (
+              product.speciesScientificName && (
+                <i className="font-serif text-lg text-fg-2">{product.speciesScientificName}</i>
+              )
+            )}
+            {product.conservationStatus && <IucnBadge code={product.conservationStatus} size="md" />}
+          </div>
 
-              {/* Chỉ báo trạng thái kho */}
-              <div className="pt-2 border-t border-line/40">
-                {isOutOfStock ? (
-                  <div className="rounded-xl border border-line bg-surface-2 p-3 text-xs text-fg-3 flex items-center gap-2">
-                    <Info className="size-4 shrink-0" />
-                    <span>Cá thể này hiện đã hết hàng hoặc ngừng mở bán.</span>
-                  </div>
-                ) : availableStock <= 2 ? (
-                  <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-300 flex items-center gap-2 font-medium">
-                    <AlertTriangle className="size-4 shrink-0 text-amber-400" />
-                    <span>Chỉ còn {availableStock} cá thể cuối cùng sẵn sàng xuất chuồng!</span>
-                  </div>
-                ) : (
-                  <div className="text-xs text-emerald-400 flex items-center gap-1.5 font-medium">
-                    <CheckCircle2 className="size-3.5" />
-                    <span>Còn {availableStock} cá thể sẵn sàng xuất chuồng</span>
-                  </div>
-                )}
-
-                {inCartQty > 0 && !isOutOfStock && (
-                  <p className="mt-1 text-[11px] text-fg-3 font-mono">
-                    (Bạn đã có {inCartQty} cá thể trong giỏ hàng)
-                  </p>
-                )}
-              </div>
-
-              {/* Cảnh báo nếu sở hữu shop */}
-              {isOwner && (
-                <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-300 flex items-center gap-2">
-                  <AlertTriangle className="size-4 shrink-0" />
-                  <span>Đây là sản phẩm của chính shop bạn. Bạn không thể tự mua sản phẩm của mình.</span>
-                </div>
+          <div className="mt-8">
+            <Price amount={product.price} size="lg" className="text-3xl text-fg md:text-4xl" />
+            <p
+              className={cn(
+                'mt-2 flex items-center gap-2 text-sm',
+                isOutOfStock ? 'text-fg-3' : availableStock <= 2 ? 'text-warm' : 'text-success'
               )}
+            >
+              {isOutOfStock ? (
+                <Info className="size-4 shrink-0" aria-hidden="true" />
+              ) : availableStock <= 2 ? (
+                <AlertTriangle className="size-4 shrink-0" aria-hidden="true" />
+              ) : (
+                <CheckCircle2 className="size-4 shrink-0" aria-hidden="true" />
+              )}
+              <span>
+                {isOutOfStock
+                  ? 'Cá thể này đã hết hàng hoặc ngừng mở bán.'
+                  : availableStock <= 2
+                    ? `Chỉ còn ${availableStock} cá thể`
+                    : `Còn ${availableStock} cá thể sẵn sàng giao`}
+              </span>
+            </p>
+            {inCartQty > 0 && !isOutOfStock && (
+              <p className="mt-1 text-sm text-fg-3">Bạn đã có {inCartQty} cá thể trong giỏ hàng.</p>
+            )}
+          </div>
 
-              {/* Bộ tăng giảm số lượng & Nút hành động */}
-              {!isOutOfStock && !isOwner && (
-                <div className="pt-3 space-y-4">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs text-fg-2 font-medium">Số lượng cá thể:</span>
-                    <NumberStepper
-                      value={quantity}
-                      min={1}
-                      max={Math.max(1, remainingPurchasable)}
-                      onChange={setQuantity}
-                      disabled={isReachedCartLimit}
-                    />
-                  </div>
+          {isOwner && (
+            <p className="mt-6 flex items-start gap-2 text-sm text-warm">
+              <AlertTriangle className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+              <span>Đây là sản phẩm của chính shop bạn, nên bạn không thể tự mua.</span>
+            </p>
+          )}
 
-                  {isReachedCartLimit ? (
-                    <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-2.5 text-center text-xs text-amber-300">
-                      Bạn đã thêm toàn bộ số lượng có sẵn trong kho vào giỏ hàng.
-                    </div>
-                  ) : (
-                    <div className="grid grid-cols-2 gap-3 pt-2">
-                      <Button
-                        size="lg"
-                        pill
-                        variant="primary"
-                        onClick={handleAddToCart}
-                        disabled={addToCartMutation.isPending || isReachedCartLimit}
-                        className="gap-2 shadow-[var(--glow-accent-btn)]"
-                      >
-                        <ShoppingBag className="size-4" />
-                        <span>Thêm vào giỏ</span>
-                      </Button>
+          {canBuy && (
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center justify-between gap-4">
+                <span className="text-sm text-fg-2">Số lượng</span>
+                <NumberStepper
+                  value={quantity}
+                  min={1}
+                  max={Math.max(1, remainingPurchasable)}
+                  onChange={setQuantity}
+                  disabled={isReachedCartLimit}
+                  aria-label="Số lượng cá thể"
+                />
+              </div>
 
-                      <Button
-                        size="lg"
-                        pill
-                        variant="secondary"
-                        onClick={handleBuyNow}
-                        disabled={isReachedCartLimit}
-                        className="gap-2"
-                      >
-                        <Zap className="size-4 text-accent" />
-                        <span>Mua ngay</span>
-                      </Button>
-                    </div>
-                  )}
+              {isReachedCartLimit ? (
+                <p className="text-sm text-warm">Bạn đã thêm toàn bộ số lượng còn trong kho vào giỏ hàng.</p>
+              ) : (
+                <div className="grid grid-cols-2 gap-3">
+                  <Button
+                    size="lg"
+                    pill
+                    variant="primary"
+                    onClick={handleAddToCart}
+                    disabled={addToCartMutation.isPending || isReachedCartLimit}
+                    className="gap-2"
+                  >
+                    <ShoppingBag className="size-4" aria-hidden="true" />
+                    <span>Thêm vào giỏ</span>
+                  </Button>
+                  <Button size="lg" pill variant="secondary" onClick={handleBuyNow} disabled={isReachedCartLimit}>
+                    Mua ngay
+                  </Button>
                 </div>
               )}
             </div>
+          )}
 
-            {/* Khối 3 cam kết chuẩn mẫu R */}
-            <div className="rounded-2xl border border-line/60 bg-surface-1/40 backdrop-blur-md p-4 space-y-3">
-              <h4 className="text-xs uppercase font-mono font-bold tracking-wider text-accent border-b border-line/40 pb-2">
-                Cam kết chuẩn bảo tồn BioNexus
-              </h4>
+          {/* Cửa hàng và cam kết: một khối liền, ngăn bằng đường kẻ mảnh */}
+          <div className="mt-10 divide-y divide-line border-t border-line">
+            <div className="flex items-center gap-3 py-4">
+              <Store className="size-5 shrink-0 text-accent" aria-hidden="true" />
+              <div className="min-w-0">
+                <p className="truncate font-semibold text-fg">{product.displayShopName}</p>
+                <p className="text-sm text-fg-3">Cơ sở nhân giống đã được Ban Quản trị duyệt</p>
+              </div>
+            </div>
+            <ul className="space-y-3 py-4">
               {SHIPPING_AND_CARE_COPY.commitments.map((c) => (
-                <div key={c.id} className="flex items-start gap-2.5 text-xs">
-                  <CheckCircle2 className="size-4 text-accent shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-semibold text-fg block">{c.title}</span>
-                    <span className="text-fg-3 text-[11px] leading-relaxed">{c.description}</span>
-                  </div>
-                </div>
+                <li key={c.id} className="flex items-start gap-3 text-sm">
+                  <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
+                  <span className="text-fg-2">
+                    <span className="font-medium text-fg">{c.title}.</span> {c.description}
+                  </span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
-
-        {/* 3. Hệ thống Tabs thông tin chuyên sâu */}
-        <section className="mt-16 pt-8 border-t border-line">
-          <Tabs defaultValue="description" className="w-full">
-            <TabsList className="mb-6 flex-wrap">
-              <TabsTrigger value="description">Mô tả cá thể</TabsTrigger>
-              <TabsTrigger value="species">Về loài này (Hồ sơ sinh học)</TabsTrigger>
-              <TabsTrigger value="shipping">Vận chuyển & Chăm sóc</TabsTrigger>
-            </TabsList>
-
-            {/* Tab 1: Mô tả cá thể */}
-            <TabsContent value="description" className="space-y-4 max-w-3xl">
-              <div className="rounded-2xl border border-line bg-surface-1/60 p-6 space-y-4">
-                <h3 className="text-lg font-bold text-fg">Thông tin chi tiết cá thể</h3>
-                <p className="text-sm text-fg-2 leading-relaxed whitespace-pre-line">
-                  {product.description}
-                </p>
-
-                <div className="rounded-xl border border-line bg-surface-2/60 p-4 mt-6 text-xs text-fg-3 space-y-2">
-                  <span className="font-bold text-fg block font-mono">Quy định nhận hàng & bảo hành:</span>
-                  <p>
-                    Quý khách vui lòng quay video unboxing liền mạch từ lúc nhận gói hàng còn nguyên niêm phong đến khi kiểm tra thể trạng cá thể để được hưởng chính sách bảo hành sinh học trong vòng 48 giờ.
-                  </p>
-                </div>
-              </div>
-            </TabsContent>
-
-            {/* Tab 2: Về loài này */}
-            <TabsContent value="species" className="space-y-6 max-w-3xl">
-              {species ? (
-                <div className="rounded-2xl border border-line bg-surface-1/60 p-6 space-y-6">
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-4">
-                    <div>
-                      <h3 className="text-xl font-bold text-fg font-sans">{species.displayName}</h3>
-                      <p className="text-sm italic text-fg-3 font-serif">{species.scientificName}</p>
-                    </div>
-                    <IucnBadge code={species.conservationStatus} size="md" />
-                  </div>
-
-                  <p className="text-sm text-fg-2 leading-relaxed">{species.description}</p>
-
-                  {/* Thông số môi trường sống */}
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                    <div className="rounded-xl border border-line bg-surface-2 p-3 text-center">
-                      <span className="text-[11px] text-fg-3 block">Nhiệt độ sinh cảnh</span>
-                      <span className="text-sm font-mono font-bold text-accent">
-                        {species.parsedSpecs?.tempMin || '--'}°C – {species.parsedSpecs?.tempMax || '--'}°C
-                      </span>
-                    </div>
-                    <div className="rounded-xl border border-line bg-surface-2 p-3 text-center">
-                      <span className="text-[11px] text-fg-3 block">Độ ẩm tối ưu</span>
-                      <span className="text-sm font-mono font-bold text-accent">
-                        {species.parsedSpecs?.humidMin || '--'}% – {species.parsedSpecs?.humidMax || '--'}%
-                      </span>
-                    </div>
-                    <div className="rounded-xl border border-line bg-surface-2 p-3 text-center col-span-2 sm:col-span-1">
-                      <span className="text-[11px] text-fg-3 block">Bản địa</span>
-                      <span className="text-xs font-semibold text-fg truncate block">
-                        {species.origin?.place || 'Châu Á'}
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="pt-2">
-                    <ButtonLink to={`/species/${species.id}`} variant="secondary" size="sm" pill className="gap-2">
-                      <span>Xem chuyên khảo Bách khoa toàn thư →</span>
-                    </ButtonLink>
-                  </div>
-                </div>
-              ) : (
-                <p className="text-sm text-fg-3">Đang đồng bộ hồ sơ bách khoa...</p>
-              )}
-            </TabsContent>
-
-            {/* Tab 3: Vận chuyển & Chăm sóc */}
-            <TabsContent value="shipping" className="space-y-6 max-w-3xl">
-              <div className="rounded-2xl border border-line bg-surface-1/60 p-6 space-y-6">
-                <h3 className="text-lg font-bold text-fg">Quy trình đóng gói & Vận chuyển sinh học</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {SHIPPING_AND_CARE_COPY.shippingProcess.map((step) => (
-                    <div key={step.step} className="rounded-xl border border-line bg-surface-2 p-4 space-y-1.5">
-                      <div className="flex items-center gap-2">
-                        <span className="flex size-6 items-center justify-center rounded-full bg-accent/20 text-accent font-mono text-xs font-bold">
-                          {step.step}
-                        </span>
-                        <h4 className="font-semibold text-fg text-sm">{step.title}</h4>
-                      </div>
-                      <p className="text-xs text-fg-3 leading-relaxed pl-8">{step.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </TabsContent>
-          </Tabs>
-        </section>
-
-        {/* 4. Cá thể khác cùng loài & Gợi ý */}
-        {relatedProducts.length > 0 && (
-          <section className="mt-16 pt-10 border-t border-line">
-            <div className="flex items-center justify-between mb-6">
-              <div>
-                <h3 className="text-xl font-bold text-fg font-sans">Cá thể khác cùng loài</h3>
-                <p className="text-xs text-fg-3 mt-1">Các cá thể thuần chủng khác đang được mở bán trên sàn</p>
-              </div>
-              <Link to={`/products?speciesId=${product.speciesId}`} className="text-xs text-accent hover:underline font-mono">
-                Xem tất cả →
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-              {relatedProducts.map((p) => (
-                <ProductCard key={p.id} product={p} />
-              ))}
-            </div>
-          </section>
-        )}
       </div>
 
-      {/* 5. Mobile Sticky Bottom Bar */}
-      <div className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t border-line bg-bg-raised/95 backdrop-blur-xl p-3 flex items-center justify-between gap-3 shadow-2xl">
-        <div>
-          <span className="text-[10px] text-fg-3 uppercase font-mono block">Giá:</span>
-          <Price amount={product.price} size="sm" className="text-accent" />
-        </div>
+      <div className="mt-16 grid grid-cols-1 gap-x-14 border-t border-line lg:grid-cols-2">
+        <Section title="Mô tả cá thể" className="border-b border-line lg:border-b-0">
+          <p className="leading-relaxed whitespace-pre-line text-fg-2">{product.description}</p>
+          <p className="mt-4 text-sm leading-relaxed text-fg-3">
+            Khi nhận hàng, hãy quay video mở hộp liền mạch từ lúc gói còn niêm phong tới khi kiểm tra cá thể để được
+            bảo hành sức khỏe trong 48 giờ.
+          </p>
+        </Section>
 
+        <Section
+          title={species ? `Về loài ${species.displayName}` : 'Về loài này'}
+          actions={
+            species && (
+              <Link to={`/species/${species.id}`} className="inline-flex items-center gap-1 text-sm text-accent hover:underline">
+                Hồ sơ loài
+                <ArrowRight className="size-3.5" aria-hidden="true" />
+              </Link>
+            )
+          }
+        >
+          {species ? (
+            <>
+              <p className="leading-relaxed text-fg-2">{species.description}</p>
+              <dl className="mt-6 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
+                {tempText && (
+                  <div>
+                    <dt className="text-sm text-fg-3">Nhiệt độ</dt>
+                    <dd className="mt-1 font-mono text-lg text-fg">{tempText}</dd>
+                  </div>
+                )}
+                {humidText && (
+                  <div>
+                    <dt className="text-sm text-fg-3">Độ ẩm</dt>
+                    <dd className={cn('mt-1 text-lg text-fg', !specs?.humidityNotApplicable && 'font-mono')}>{humidText}</dd>
+                  </div>
+                )}
+                {species.origin?.place && (
+                  <div className="col-span-2 sm:col-span-1">
+                    <dt className="text-sm text-fg-3">Bản địa</dt>
+                    <dd className="mt-1 text-fg">{species.origin.place}</dd>
+                  </div>
+                )}
+              </dl>
+            </>
+          ) : (
+            <p className="text-sm text-fg-3">Đang tải hồ sơ loài...</p>
+          )}
+        </Section>
+      </div>
+
+      <Section title="Đóng gói và vận chuyển" className="border-t border-line">
+        <ol className="grid gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+          {SHIPPING_AND_CARE_COPY.shippingProcess.map((step) => (
+            <li key={step.step}>
+              <span className="font-mono text-sm text-accent">0{step.step}</span>
+              <h3 className="mt-2 font-semibold text-fg">{step.title}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-fg-3">{step.description}</p>
+            </li>
+          ))}
+        </ol>
+      </Section>
+
+      {relatedProducts.length > 0 && (
+        <Section
+          title="Cá thể khác cùng loài"
+          className="border-t border-line"
+          actions={
+            <Link
+              to={`/products?speciesId=${product.speciesId}`}
+              className="inline-flex items-center gap-1 text-sm text-accent hover:underline"
+            >
+              Xem tất cả
+              <ArrowRight className="size-3.5" aria-hidden="true" />
+            </Link>
+          }
+        >
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 md:gap-6">
+            {relatedProducts.map((p) => (
+              <li key={p.id}>
+                <ProductCard product={p} />
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
+      {/* Thanh mua dính đáy màn hình trên mobile */}
+      <div className="fixed inset-x-0 bottom-0 z-40 flex items-center justify-between gap-3 border-t border-line bg-bg-raised/95 px-4 py-3 backdrop-blur-xl md:hidden">
+        <Price amount={product.price} size="lg" className="text-fg" />
         <div className="flex items-center gap-2">
-          {!isOutOfStock && !isOwner && !isReachedCartLimit && (
+          {canBuy && !isReachedCartLimit && (
             <Button
               size="sm"
               pill
               variant="primary"
               onClick={handleAddToCart}
               disabled={addToCartMutation.isPending}
-              className="text-xs gap-1.5"
+              className="gap-1.5"
             >
               <ShoppingBag className="size-3.5" aria-hidden="true" />
               <span>Thêm giỏ</span>
             </Button>
           )}
-
-          {!isOutOfStock && !isOwner && (
-            <Button size="sm" pill variant="secondary" onClick={handleBuyNow} className="text-xs">
+          {canBuy && (
+            <Button size="sm" pill variant="secondary" onClick={handleBuyNow}>
               Mua ngay
             </Button>
           )}
-
           {(isOutOfStock || isReachedCartLimit) && (
-            <span className="text-xs font-mono text-fg-3 bg-surface-2 px-3 py-1.5 rounded-full border border-line">
-              {isOutOfStock ? 'Hết hàng' : 'Đã đạt giới hạn'}
+            <span className="rounded-full border border-line px-3 py-1.5 text-sm text-fg-3">
+              {isOutOfStock ? 'Hết hàng' : 'Đã đủ số lượng'}
             </span>
           )}
         </div>
       </div>
 
-      {/* Lightbox Modal phóng to ảnh */}
-      <Lightbox
-        photos={lightboxPhotos}
-        isOpen={isLightboxOpen}
-        onClose={() => setIsLightboxOpen(false)}
-      />
+      <Lightbox photos={lightboxPhotos} isOpen={isLightboxOpen} onClose={() => setIsLightboxOpen(false)} />
 
-      {/* Dialog yêu cầu đăng nhập */}
       <Dialog open={isLoginDialogOpen} onOpenChange={setIsLoginDialogOpen}>
         <DialogContent className="max-w-md">
           <DialogHeader>
-            <DialogTitle>Đăng nhập để tiếp tục mua sắm</DialogTitle>
+            <DialogTitle>Đăng nhập để mua sinh vật cảnh</DialogTitle>
             <DialogDescription>
-              Bạn cần có tài khoản BioNexus để lưu giỏ hàng và thực hiện giao dịch sinh vật cảnh có kiểm định.
+              Bạn cần tài khoản BioNexus để lưu giỏ hàng và đặt mua cá thể đã được kiểm duyệt.
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="mt-4 gap-2">
-            <Button variant="secondary" onClick={() => setIsLoginDialogOpen(false)}>
+            <Button variant="secondary" pill onClick={() => setIsLoginDialogOpen(false)}>
               Để sau
             </Button>
-            <ButtonLink to={`/login?next=${encodeURIComponent(`/products/${productId}`)}`} variant="primary">
-              Đăng nhập ngay
+            <ButtonLink to={`/login?next=${encodeURIComponent(`/products/${productId}`)}`} pill>
+              Đăng nhập
             </ButtonLink>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+    </PageContainer>
   );
 }

@@ -1,81 +1,48 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router';
-import { Layers, ChevronRight } from 'lucide-react';
 import type { TaxonomyNodeDto } from '@/types/api';
-import { TaxonRankChip } from '@/components/domain/TaxonRankChip';
+import { RANK_INFO } from '@/components/domain/TaxonRankChip';
 import { cn } from '@/lib/cn';
 
 export interface SpeciesTaxonomyBeamProps {
   breadcrumbs: TaxonomyNodeDto[];
+  /** Tên khoa học của loài: ô cuối của chuỗi */
+  speciesName: string;
   className?: string;
 }
 
-export const SpeciesTaxonomyBeam: React.FC<SpeciesTaxonomyBeamProps> = ({
-  breadcrumbs,
-  className = '',
-}) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const nodeRefs = useRef<Record<number, HTMLAnchorElement | null>>({});
-
+/** Chuỗi 6 cấp từ Giới tới Chi rồi tới loài; mỗi cấp bấm được để mở cây phân loại */
+export const SpeciesTaxonomyBeam: React.FC<SpeciesTaxonomyBeamProps> = ({ breadcrumbs, speciesName, className = '' }) => {
   if (breadcrumbs.length === 0) return null;
 
   return (
-    <div
-      ref={containerRef}
-      className={cn(
-        'relative rounded-2xl border border-line bg-surface-1/70 p-6 backdrop-blur-xl shadow-lg space-y-4 overflow-hidden',
-        className
-      )}
-    >
-      <div className="flex items-center justify-between pb-3 border-b border-line/40">
-        <div className="flex items-center gap-2">
-          <Layers className="size-4 text-accent" />
-          <h3 className="text-xs font-bold uppercase tracking-wider text-fg">
-            Chuỗi phân loại phả hệ 6 cấp
-          </h3>
-        </div>
-        <span className="text-[11px] font-mono text-fg-3">
-          Liên kết trực tiếp Cây phân loại
-        </span>
-      </div>
-
-      <div className="relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 py-2 z-10">
-        {breadcrumbs.map((node, idx) => {
+    <nav aria-label="Vị trí trong cây phân loại" className={cn('-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0', className)}>
+      <ol className="grid min-w-[720px] grid-flow-col auto-cols-fr border-y border-line">
+        {breadcrumbs.map((node) => {
           const rank = node.rankLevel || node.rank;
-          const isGenus = rank === 'GENUS';
-
+          const info = RANK_INFO[rank];
           return (
-            <React.Fragment key={node.id}>
+            <li key={node.id} className="min-w-0 border-l border-line first:border-l-0">
               <Link
-                ref={(el) => {
-                  nodeRefs.current[node.id] = el;
-                }}
                 to={`/taxonomy/${node.id}`}
-                className="group relative flex flex-1 flex-col items-center justify-center rounded-xl border border-line bg-surface-2/80 p-3 text-center transition-all duration-300 hover:border-accent hover:bg-surface-hover hover:scale-105 shadow-sm"
+                className="block px-4 py-4 transition-colors hover:bg-surface focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
               >
-                <TaxonRankChip rank={rank || 'SPECIES'} showHelp={false} className="mb-2 text-[10px]" />
-                <p
-                  className={cn(
-                    'text-xs font-semibold text-fg group-hover:text-accent transition-colors truncate max-w-full',
-                    isGenus && 'font-serif italic text-accent'
-                  )}
-                >
+                <span className="block text-xs font-semibold tracking-[0.18em] text-fg-3 uppercase">{info?.labelVi ?? rank}</span>
+                <span className={cn('mt-1.5 block truncate text-sm text-fg', info?.isItalic && 'font-serif text-base italic')}>
                   {node.scientificName}
-                </p>
-                <p className="text-[10px] text-fg-3 truncate max-w-full mt-0.5">
-                  {node.commonName}
-                </p>
+                </span>
+                <span className="mt-0.5 block truncate text-sm text-fg-3">{node.commonName}</span>
               </Link>
-
-              {idx < breadcrumbs.length - 1 && (
-                <div className="hidden sm:flex items-center justify-center text-fg-mute" aria-hidden="true">
-                  <ChevronRight className="size-4" />
-                </div>
-              )}
-            </React.Fragment>
+            </li>
           );
         })}
-      </div>
-    </div>
+        <li className="relative min-w-0 border-l border-line px-4 py-4 after:absolute after:inset-x-4 after:-bottom-px after:h-0.5 after:bg-accent">
+          <span className="block text-xs font-semibold tracking-[0.18em] text-accent uppercase">Loài</span>
+          <span className="mt-1.5 block truncate font-serif text-base text-fg italic" aria-current="page">
+            {speciesName}
+          </span>
+        </li>
+      </ol>
+    </nav>
   );
 };

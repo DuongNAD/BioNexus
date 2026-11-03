@@ -1,13 +1,14 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { useSearchParams, useNavigate, Link } from 'react-router';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Eye, EyeOff, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useRegister } from '@/api/mutations/useAuthMutations';
 import { toast } from 'sonner';
+import { AuthCard, PasswordField } from './components/AuthCard';
 
 export const registerSchema = z
   .object({
@@ -46,7 +47,6 @@ export default function RegisterPage(): React.JSX.Element {
   const navigate = useNavigate();
   const nextUrl = searchParams.get('next');
 
-  const [showPassword, setShowPassword] = useState(false);
   const registerMutation = useRegister();
 
   const {
@@ -115,176 +115,81 @@ export default function RegisterPage(): React.JSX.Element {
   };
 
   return (
-    <div className="rounded-2xl border border-line bg-surface-1/80 backdrop-blur-xl p-6 sm:p-8 shadow-2xl space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight text-fg font-sans">
-          Đăng Ký Thành Viên
-        </h1>
-        <p className="mt-1 text-xs text-fg-2">
-          Gia nhập cộng đồng bảo tồn và sở hữu sinh vật cảnh F2+ hợp pháp
+    <AuthCard
+      eyebrow="Thành viên mới"
+      title="Tạo tài khoản"
+      description="Gia nhập cộng đồng nuôi sinh vật cảnh nhân giống hợp pháp của BioNexus."
+      footer={
+        <p>
+          Đã có tài khoản?{' '}
+          <Link to="/login" className="font-medium text-accent hover:underline">
+            Đăng nhập
+          </Link>
         </p>
-      </div>
-
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-        {/* Họ và tên & Tên đăng nhập */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="reg-fullname" className="block text-xs font-medium text-fg-2 mb-1">
-              Họ và tên *
-            </label>
-            <Input
-              id="reg-fullname"
-              {...register('fullName')}
-              placeholder="Nguyễn Văn A"
-              className="text-xs"
-              error={errors.fullName?.message}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="reg-username" className="block text-xs font-medium text-fg-2 mb-1">
-              Tên đăng nhập *
-            </label>
-            <Input
-              id="reg-username"
-              {...register('username')}
-              placeholder="nguyenvana"
-              className="text-xs"
-              error={errors.username?.message}
-            />
-          </div>
+      }
+    >
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-5" noValidate>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <Input id="reg-fullname" label="Họ và tên" required {...register('fullName')} placeholder="Nguyễn Văn A" autoComplete="name" error={errors.fullName?.message} />
+          <Input id="reg-username" label="Tên đăng nhập" required {...register('username')} placeholder="nguyenvana" autoComplete="username" error={errors.username?.message} />
         </div>
 
-        {/* Email & Số điện thoại */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="reg-email" className="block text-xs font-medium text-fg-2 mb-1">
-              Địa chỉ Email *
-            </label>
-            <Input
-              id="reg-email"
-              type="email"
-              {...register('email')}
-              placeholder="vana@gmail.com"
-              className="text-xs"
-              error={errors.email?.message}
-            />
-          </div>
-
-          <div>
-            <label htmlFor="reg-phone" className="block text-xs font-medium text-fg-2 mb-1">
-              Số điện thoại *
-            </label>
-            <Input
-              id="reg-phone"
-              {...register('phone')}
-              placeholder="0912345678"
-              className="text-xs"
-              error={errors.phone?.message}
-            />
-          </div>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <Input id="reg-email" label="Email" required type="email" {...register('email')} placeholder="vana@gmail.com" autoComplete="email" error={errors.email?.message} />
+          <Input id="reg-phone" label="Số điện thoại" required {...register('phone')} placeholder="0912345678" autoComplete="tel" error={errors.phone?.message} />
         </div>
 
-        {/* Mật khẩu & Xác nhận mật khẩu */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="reg-password" className="block text-xs font-medium text-fg-2 mb-1">
-              Mật khẩu *
-            </label>
-            <div className="relative">
-              <Input
-                id="reg-password"
-                type={showPassword ? 'text' : 'password'}
-                {...register('password')}
-                placeholder="Tối thiểu 6 ký tự"
-                className="pr-8 text-xs"
-                error={errors.password?.message}
-              />
-              <button
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-fg-3 hover:text-fg"
-                aria-label={showPassword ? 'Ẩn mật khẩu' : 'Hiện mật khẩu'}
-              >
-                {showPassword ? <EyeOff className="size-3.5" /> : <Eye className="size-3.5" />}
-              </button>
-            </div>
-          </div>
-
-          <div>
-            <label htmlFor="reg-confirmpass" className="block text-xs font-medium text-fg-2 mb-1">
-              Xác nhận mật khẩu *
-            </label>
-            <Input
-              id="reg-confirmpass"
-              type={showPassword ? 'text' : 'password'}
-              {...register('confirmPassword')}
-              placeholder="Nhập lại mật khẩu"
-              className="text-xs"
-              error={errors.confirmPassword?.message}
-            />
-          </div>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <PasswordField id="reg-password" label="Mật khẩu" required {...register('password')} placeholder="Tối thiểu 6 ký tự" autoComplete="new-password" error={errors.password?.message} />
+          <Input
+            id="reg-confirmpass"
+            label="Nhập lại mật khẩu"
+            required
+            type="password"
+            {...register('confirmPassword')}
+            placeholder="Nhập lại mật khẩu"
+            autoComplete="new-password"
+            error={errors.confirmPassword?.message}
+          />
         </div>
 
-        {/* Thanh đo độ mạnh mật khẩu 4 cấp độ */}
+        {/* Thanh đo độ mạnh mật khẩu 4 cấp */}
         {passwordVal && (
-          <div className="space-y-1.5 pt-1">
-            <div className="flex items-center justify-between text-[11px]">
-              <span className="text-fg-3">Độ mạnh mật khẩu:</span>
-              <span className="font-mono font-semibold text-fg">
-                {strengthLabels[passwordStrength]}
-              </span>
+          <div className="space-y-2">
+            <div className="flex items-center justify-between text-sm">
+              <span className="text-fg-3">Độ mạnh mật khẩu</span>
+              <span className="text-fg">{strengthLabels[passwordStrength]}</span>
             </div>
-            <div className="grid grid-cols-4 gap-1.5 h-1.5">
+            <div className="grid h-1.5 grid-cols-4 gap-1.5" aria-hidden="true">
               {Array.from({ length: 4 }).map((_, i) => (
                 <div
                   key={i}
-                  className={`rounded-full transition-colors ${
-                    i < passwordStrength ? strengthColors[passwordStrength] : 'bg-surface-2'
-                  }`}
+                  className={`rounded-full transition-colors ${i < passwordStrength ? strengthColors[passwordStrength] : 'bg-surface-2'}`}
                 />
               ))}
             </div>
           </div>
         )}
 
-        {/* Địa chỉ giao hàng mặc định */}
-        <div>
-          <label htmlFor="reg-address" className="block text-xs font-medium text-fg-2 mb-1">
-            Địa chỉ giao hàng mặc định *
-          </label>
-          <Input
-            id="reg-address"
-            {...register('address')}
-            placeholder="Số nhà, tên đường, quận/huyện, tỉnh/thành..."
-            className="text-xs"
-            error={errors.address?.message}
-          />
-        </div>
+        <Input
+          id="reg-address"
+          label="Địa chỉ giao hàng mặc định"
+          required
+          {...register('address')}
+          placeholder="Số nhà, đường, quận/huyện, tỉnh/thành"
+          autoComplete="street-address"
+          error={errors.address?.message}
+        />
 
-        <Button
-          type="submit"
-          size="lg"
-          pill
-          variant="primary"
-          disabled={registerMutation.isPending}
-          className="w-full gap-2 font-bold shadow-[var(--glow-accent-btn)] mt-4"
-        >
+        <Button type="submit" size="lg" pill disabled={registerMutation.isPending} className="mt-2 w-full gap-2">
           {registerMutation.isPending ? (
-            <div className="size-4 animate-spin rounded-full border-2 border-accent-ink border-t-transparent" />
+            <div className="size-4 animate-spin rounded-full border-2 border-accent-ink border-t-transparent" aria-hidden="true" />
           ) : (
-            <ArrowRight className="size-4" />
+            <ArrowRight className="size-4" aria-hidden="true" />
           )}
           <span>{registerMutation.isPending ? 'Đang tạo tài khoản...' : 'Đăng ký tài khoản'}</span>
         </Button>
       </form>
-
-      <div className="pt-2 border-t border-line/60 flex items-center justify-between text-xs text-fg-3">
-        <span>Đã có tài khoản BioNexus?</span>
-        <Link to="/login" className="text-accent hover:underline font-semibold">
-          Đăng nhập ngay →
-        </Link>
-      </div>
-    </div>
+    </AuthCard>
   );
 }

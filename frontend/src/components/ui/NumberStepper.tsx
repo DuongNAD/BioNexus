@@ -33,13 +33,13 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
   const isMax = value >= max;
 
   const sizeClasses = {
-    sm: 'h-7 text-xs',
+    sm: 'h-8 text-sm',
     md: 'h-9 text-sm',
     lg: 'h-11 text-base',
   }[size];
 
   const btnSizeClasses = {
-    sm: 'w-7 h-7 text-xs',
+    sm: 'w-8 h-8 text-sm',
     md: 'w-9 h-9 text-sm',
     lg: 'w-11 h-11 text-base',
   }[size];
@@ -90,7 +90,7 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
 
   return (
     <div
-      className={`inline-flex items-center rounded-xl border border-line bg-surface/60 backdrop-blur-md overflow-hidden transition-colors focus-within:border-accent ${className}`}
+      className={`inline-flex items-center overflow-hidden rounded-full border border-line bg-surface transition-colors focus-within:border-accent ${className}`}
       role="group"
       aria-label={ariaLabel}
     >
@@ -114,7 +114,7 @@ export const NumberStepper: React.FC<NumberStepperProps> = ({
         onKeyDown={handleKeyDown}
         disabled={disabled}
         aria-label={ariaLabel}
-        className={`w-12 text-center font-mono font-semibold bg-transparent text-fg focus:outline-none ${sizeClasses}`}
+        className={`w-10 bg-transparent text-center font-mono font-semibold text-fg focus:outline-none ${sizeClasses}`}
       />
 
       <button

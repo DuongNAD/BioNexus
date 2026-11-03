@@ -60,7 +60,7 @@ export const LensMagnifier: React.FC<ProductLensMagnifierProps> = ({
       ref={containerRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={`group relative overflow-hidden rounded-2xl border border-line bg-surface-2 select-none ${className}`}
+      className={`group relative overflow-hidden bg-bg-raised select-none ${className}`}
     >
       {/* Ảnh chính hiển thị */}
       <img
@@ -101,8 +101,8 @@ export const LensMagnifier: React.FC<ProductLensMagnifierProps> = ({
       )}
 
       {/* Nhãn hướng dẫn soi vi mô */}
-      <div className="absolute bottom-3 left-3 z-10 hidden md:flex items-center gap-1.5 rounded-full border border-line/60 bg-black/60 px-3 py-1 text-[11px] text-fg-3 backdrop-blur-md">
-        <span>Rê chuột để soi kính lúp 2.5x</span>
+      <div className="absolute right-3 bottom-3 z-10 hidden items-center gap-1.5 rounded-full bg-black/65 px-3 py-1 text-xs text-white/85 backdrop-blur-md md:flex">
+        <span>Rê chuột để phóng to</span>
       </div>
     </div>
   );

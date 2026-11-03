@@ -48,7 +48,7 @@ export const TaxonPath: React.FC<TaxonPathProps> = ({
   if (nodes.length === 0) return null;
 
   return (
-    <nav aria-label="Đường dẫn phân loại" className={cn('flex flex-wrap items-center gap-1.5 text-xs', className)}>
+    <nav aria-label="Đường dẫn phân loại" className={cn('flex flex-wrap items-center gap-1.5 text-sm', className)}>
       {nodes.map((node, index) => {
         const isLast = index === nodes.length - 1;
         const rank = node.rankLevel || node.rank;
@@ -58,7 +58,7 @@ export const TaxonPath: React.FC<TaxonPathProps> = ({
           <span
             className={cn(
               isItalic ? 'font-serif italic' : 'font-sans',
-              isLast ? 'text-accent font-semibold' : 'text-fg-3 hover:text-accent transition-colors'
+              isLast ? 'text-fg font-medium' : 'text-fg-3 hover:text-fg transition-colors'
             )}
           >
             {node.scientificName}
@@ -71,7 +71,7 @@ export const TaxonPath: React.FC<TaxonPathProps> = ({
             {linkable && !isLast ? (
               <Link
                 to={`/taxonomy/${node.id}`}
-                className="hover:underline focus:outline-none focus-visible:ring-1 focus-visible:ring-accent rounded"
+                className="rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 title={`${rank || ''}: ${node.scientificName} (${node.commonName})`}
               >
                 {content}

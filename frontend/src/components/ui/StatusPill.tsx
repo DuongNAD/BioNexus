@@ -24,39 +24,39 @@ const STATUS_MAP: Record<
 > = {
   PENDING: {
     label: 'Đang chờ duyệt',
-    styles: 'border-warm/30 bg-warm/15 text-warm',
+    styles: 'bg-warm/12 text-warm',
   },
   APPROVED: {
     label: 'Đã duyệt',
-    styles: 'border-success/30 bg-success/15 text-success',
+    styles: 'bg-success/12 text-success',
   },
   ACTIVE: {
     label: 'Đang hoạt động',
-    styles: 'border-success/30 bg-success/15 text-success',
+    styles: 'bg-success/12 text-success',
   },
   COMPLETED: {
     label: 'Đã hoàn tất',
-    styles: 'border-success/30 bg-success/15 text-success',
+    styles: 'bg-success/12 text-success',
   },
   REJECTED: {
     label: 'Bị từ chối',
-    styles: 'border-danger/30 bg-danger/15 text-danger',
+    styles: 'bg-danger/12 text-danger',
   },
   BANNED: {
     label: 'Bị khóa',
-    styles: 'border-danger/30 bg-danger/15 text-danger',
+    styles: 'bg-danger/12 text-danger',
   },
   CANCELLED: {
     label: 'Đã hủy',
-    styles: 'border-danger/30 bg-danger/15 text-danger',
+    styles: 'bg-danger/12 text-danger',
   },
   SOLD_OUT: {
     label: 'Hết hàng',
-    styles: 'border-line bg-white/[0.08] text-fg-3',
+    styles: 'bg-white/[0.08] text-fg-2',
   },
   INACTIVE: {
     label: 'Chưa kích hoạt',
-    styles: 'border-line bg-white/[0.08] text-fg-3',
+    styles: 'bg-white/[0.08] text-fg-2',
   },
 };
 
@@ -74,11 +74,11 @@ export const StatusPill = React.forwardRef<HTMLSpanElement, StatusPillProps>(
     const uppercaseStatus = (status || '').toUpperCase();
     const config = STATUS_MAP[uppercaseStatus] || {
       label: status || 'Không rõ',
-      styles: 'border-line bg-surface text-fg-2',
+      styles: 'bg-surface-2 text-fg-2',
     };
 
     const sizeStyles = {
-      sm: 'px-2 py-0.5 text-[10px]',
+      sm: 'px-2 py-0.5 text-xs',
       md: 'px-2.5 py-1 text-xs',
     };
 
@@ -86,7 +86,8 @@ export const StatusPill = React.forwardRef<HTMLSpanElement, StatusPillProps>(
       <span
         ref={ref}
         className={cn(
-          'inline-flex items-center rounded-full border font-medium select-none',
+          // Tài liệu 02: nền là chính màu trạng thái ở độ đậm 12%, chữ cùng màu, không viền
+          'inline-flex shrink-0 items-center whitespace-nowrap rounded-full font-medium select-none',
           config.styles,
           sizeStyles[size],
           className

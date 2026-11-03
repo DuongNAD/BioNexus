@@ -156,6 +156,27 @@ Dưới đây là 5 câu hỏi tình huống chuyên sâu mà Hội đồng ch�
 
 ---
 
+## 3.8. Hệ thống giao diện sau đợt làm lại (11/2026)
+
+Chủ dự án yêu cầu làm lại toàn bộ giao diện cho gọn và dễ nhìn hơn, vẫn theo hướng mẫu R. Mọi trang dùng chung các khối sau, trang mới nên dùng lại thay vì tự dựng:
+
+| Khối | File | Dùng cho |
+|---|---|---|
+| `PageContainer`, `PageHeader`, `Section`, `Eyebrow`, `Breadcrumbs`, `Panel`, `ContainedRegion` | `src/components/layout/Page.tsx` | Khung ngang, H1 duy nhất của trang, khối có tiêu đề H2, thẻ một lớp viền. `ContainedRegion` dùng trong layout đã có lề (tài khoản, quản trị) |
+| `MediaCard` | `src/components/media/MediaCard.tsx` | Thẻ ảnh thật làm chủ, cả thẻ là một link |
+| `StatRow` | `src/components/ui/StatRow.tsx` | Dãy số liệu ngăn bằng đường kẻ, thay cho mỗi số một hộp |
+| `SegmentedControl` | `src/components/ui/SegmentedControl.tsx` | Công tắc chế độ xem, bộ lọc trạng thái |
+| `EmptyState`, `QueryErrorState` | `src/components/ui/`, `src/components/domain/` | Trạng thái rỗng và lỗi có nút "Thử lại" |
+
+Quy tắc: mỗi vùng tối đa một lớp thẻ có viền; nhãn nhỏ dùng Be Vietnam Pro (font mono chỉ cho số, mã, giá); chữ mang thông tin không nhỏ hơn 12 px; bo góc 20 px cho thẻ.
+
+Thay đổi so với tài liệu 03:
+- **Cây phân loại** bỏ các cột Miller: thay bằng thang 6 cấp phía trên, lưới thẻ ảnh của các nhánh con và panel tóm tắt dính bên phải (chủ dự án chọn). `/taxonomy` không có id là trang gốc hiện 2 Giới. Chế độ Chuỗi xoắn 3D giữ nguyên, chỉ tải three.js khi bật.
+- **Trang tài khoản và shop** nằm trong RootLayout (giữ navbar và footer chung), menu tài khoản là cột trái trên desktop và hàng tab trên mobile.
+- **Footer** 4 cột: Khám phá, Cửa hàng, Người bán và dự án.
+
+---
+
 ## 4. Lưu ý & Giả định (Caveats)
 
 - **Môi trường Dev và Mock**: Hiện tại toàn bộ dữ liệu mẫu được lưu giữ và cập nhật tự động trong `localStorage` thông qua MSW 2. Để reset dữ liệu về trạng thái hạt giống ban đầu (seed state), người dùng chỉ cần nhấn nút "Khôi phục dữ liệu gốc" trên `DevPanel` (góc dưới màn hình).

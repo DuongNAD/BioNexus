@@ -38,7 +38,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
         {label && (
           <label
             htmlFor={inputId}
-            className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-fg-2"
+            className="mb-2 block text-sm font-medium text-fg-2"
           >
             {label}
             {required && <span className="ml-1 text-danger">*</span>}
@@ -59,12 +59,13 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             aria-invalid={Boolean(error)}
             aria-describedby={describedBy}
             className={cn(
-              'h-10 w-full rounded-lg border border-line bg-surface-hover px-3.5 text-sm text-fg placeholder:text-fg-3 transition-all duration-150',
-              'focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg',
+              'h-11 w-full rounded-[10px] border border-line bg-white/[0.04] px-4 text-[15px] text-fg placeholder:text-fg-3 transition-colors duration-150',
+              // Viền accent + quầng mờ: thấy rõ khi focus mà không chói như vòng offset
+              'hover:border-line-strong focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40',
               'disabled:cursor-not-allowed disabled:opacity-50',
               leftIcon && 'pl-10',
               rightIcon && 'pr-10',
-              error && 'border-danger focus:border-danger focus:ring-danger focus:ring-offset-2 focus:ring-offset-bg',
+              error && 'border-danger hover:border-danger focus:border-danger focus:ring-danger/40',
               className
             )}
             {...props}

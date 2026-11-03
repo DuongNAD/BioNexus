@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
-import { ShoppingBag, Store, ShieldCheck, ArrowRight } from 'lucide-react';
-import { Card } from '@/components/ui/Card';
+import { ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Badge } from '@/components/ui/Badge';
 import { Price } from '@/components/ui/Price';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { SPECIES_EXTRAS } from '@/content/species-extras';
+import { cn } from '@/lib/cn';
 import type { ProductViewModel } from '@/api/adapters';
 
 export interface ProductCardProps {
@@ -15,19 +14,16 @@ export interface ProductCardProps {
   enableHoverFlip?: boolean;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({
-  product,
-  onAddToCart,
-  enableHoverFlip = true,
-}) => {
+/**
+ * Thẻ sản phẩm: ảnh thật đứng đầu, một lớp viền, giá và một nút "Thêm giỏ".
+ * Tên sản phẩm là link phủ cả thẻ (::after) nên bàn phím chỉ có một điểm dừng cho việc mở chi tiết.
+ */
+export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, enableHoverFlip = true }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  // Tìm ảnh phụ từ SPECIES_EXTRAS nếu có tên khoa học
+  // Ảnh chân dung của loài hiện khi rê chuột, giúp so cá thể với mẫu chuẩn
   const extras = product.speciesScientificName ? SPECIES_EXTRAS[product.speciesScientificName] : undefined;
-  const secondaryImage = extras?.slug
-    ? `photos/${extras.slug}/portrait-960.webp`
-    : null;
-
+  const secondaryImage = extras?.slug ? `photos/${extras.slug}/portrait-960.webp` : null;
   const showFlip = enableHoverFlip && isHovered && secondaryImage && secondaryImage !== product.displayImage;
 
   const handleAction = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -35,133 +31,94 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     onAddToCart?.(product.id, e);
   };
 
+  const stockLabel = product.isOutOfStock
+    ? 'Hết hàng'
+    : product.stockQuantity <= 2
+      ? `Chỉ còn ${product.stockQuantity} cá thể`
+      : `Còn ${product.stockQuantity} cá thể`;
+
   return (
-    <Card
-      padding="none"
+    <article
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group relative overflow-hidden rounded-2xl border border-line bg-surface-1/70 backdrop-blur-md transition-all duration-300 hover:border-accent/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5 focus-within:border-accent/60 flex flex-col justify-between"
+      className="group relative flex h-full flex-col overflow-hidden rounded-[20px] border border-line bg-surface transition-colors duration-300 hover:border-line-strong focus-within:border-accent/60"
     >
-      <div>
-        {/* Vùng ảnh sản phẩm: Tỷ lệ 4:5 chuẩn tạp chí */}
-        <div className="relative aspect-[4/5] w-full overflow-hidden bg-surface-2">
-          {/* Ảnh chính */}
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-bg-raised sm:aspect-[4/5]">
+        <img
+          src={product.displayImage}
+          alt={product.productName}
+          loading="lazy"
+          className={cn(
+            'size-full object-cover transition-all duration-500 ease-out motion-reduce:transition-none',
+            showFlip ? 'opacity-0' : 'opacity-100 group-hover:scale-105 motion-reduce:group-hover:scale-100',
+            product.isOutOfStock && 'grayscale opacity-60'
+          )}
+        />
+        {secondaryImage && (
           <img
-            src={product.displayImage}
-            alt={product.productName}
-            className={`h-full w-full object-cover transition-all duration-500 ease-out ${
-              showFlip ? 'opacity-0 scale-95' : 'opacity-100 group-hover:scale-105'
-            } ${product.isOutOfStock ? 'grayscale-[80%] opacity-60' : ''}`}
+            src={secondaryImage}
+            alt=""
+            aria-hidden="true"
             loading="lazy"
+            className={cn(
+              'pointer-events-none absolute inset-0 size-full object-cover transition-opacity duration-500 motion-reduce:transition-none',
+              showFlip ? 'opacity-100' : 'opacity-0'
+            )}
           />
-
-          {/* Ảnh góc 2 (Hover Flip) */}
-          {secondaryImage && (
-            <img
-              src={secondaryImage}
-              alt=""
-              aria-hidden="true"
-              className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 ease-out ${
-                showFlip ? 'opacity-100 scale-105' : 'opacity-0 scale-100 pointer-events-none'
-              }`}
-              loading="lazy"
-            />
-          )}
-
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-60" />
-
-          {/* Huy hiệu pháp lý F2+ góc trên trái */}
-          <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
-            <Badge variant="accent" size="sm" className="bg-black/70 backdrop-blur-md text-[10px] uppercase font-mono border border-accent/30">
-              <ShieldCheck className="size-3 mr-1 text-accent" aria-hidden="true" /> F2+ Nhân tạo
-            </Badge>
-          </div>
-
-          {/* Huy hiệu IUCN góc trên phải */}
-          {product.conservationStatus && (
-            <div className="absolute top-3 right-3 z-10">
-              <IucnBadge code={product.conservationStatus} size="sm" showLabel={false} className="bg-black/80 shadow-md" />
-            </div>
-          )}
-
-          {/* Chỉ báo tồn kho góc dưới ảnh */}
-          <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-[11px] font-medium z-10">
-            {product.isOutOfStock ? (
-              <span className="rounded-md bg-surface-2/90 px-2 py-0.5 text-fg-3 font-mono border border-line">
-                Hết hàng
-              </span>
-            ) : product.stockQuantity <= 2 ? (
-              <span className="rounded-md bg-amber-500/20 px-2 py-0.5 text-amber-300 font-mono border border-amber-500/40">
-                Chỉ còn {product.stockQuantity} cá thể
-              </span>
-            ) : (
-              <span className="rounded-md bg-emerald-500/20 px-2 py-0.5 text-emerald-300 font-mono border border-emerald-500/40">
-                Còn {product.stockQuantity} cá thể
-              </span>
-            )}
-
-            {showFlip && (
-              <span className="text-[10px] text-accent/90 bg-black/60 px-1.5 py-0.5 rounded backdrop-blur-sm">
-                Mẫu loài
-              </span>
-            )}
-          </div>
-        </div>
-
-        {/* Nội dung thông tin */}
-        <div className="p-4">
-          <div className="flex items-center gap-1.5 text-xs text-fg-3 mb-1.5">
-            <Store className="size-3.5 text-accent shrink-0" aria-hidden="true" />
-            <span className="truncate">{product.displayShopName}</span>
-          </div>
-
-          <h3 className="font-semibold text-fg text-base line-clamp-1 group-hover:text-accent transition-colors font-sans">
-            {/* Lớp ::after phủ cả thẻ nên bấm vào đâu cũng mở chi tiết, còn bàn phím chỉ có một điểm dừng */}
-            <Link
-              to={`/products/${product.id}`}
-              className="after:absolute after:inset-0 after:z-0 after:content-[''] focus-visible:outline-none focus-visible:underline"
-            >
-              {product.productName}
-            </Link>
-          </h3>
-
-          {product.speciesScientificName && (
-            <p className="text-xs italic text-fg-3 font-serif line-clamp-1 mt-0.5">
-              {product.speciesScientificName}
-            </p>
-          )}
-
-          <p className="mt-2 text-xs text-fg-2 line-clamp-2 leading-relaxed">
-            {product.description}
-          </p>
-        </div>
-      </div>
-
-      {/* Chân thẻ & nút mua */}
-      <div className="p-4 pt-0 flex items-center justify-between border-t border-line/40 mt-2">
-        <Price amount={product.price} size="md" />
-
-        {onAddToCart ? (
-          <Button
-            size="sm"
-            pill
-            variant={product.isAvailable ? 'primary' : 'secondary'}
-            className="relative z-10 gap-1.5 font-semibold"
-            disabled={!product.isAvailable}
-            onClick={handleAction}
-            aria-label={`Thêm ${product.productName} vào giỏ hàng`}
-          >
-            <ShoppingBag className="size-3.5" aria-hidden="true" />
-            Thêm giỏ
-          </Button>
-        ) : (
-          // Cả thẻ đã là liên kết, nhãn này chỉ để gợi ý thị giác
-          <span className="inline-flex items-center gap-1 text-xs font-semibold text-accent" aria-hidden="true">
-            Chi tiết
-            <ArrowRight className="size-3.5" />
-          </span>
+        )}
+        {product.conservationStatus && (
+          <IucnBadge
+            code={product.conservationStatus}
+            size="md"
+            showLabel={false}
+            className="absolute top-3 left-3 bg-black/65"
+          />
         )}
       </div>
-    </Card>
+
+      <div className="flex flex-1 flex-col p-4 md:p-5">
+        <p className="truncate text-sm text-fg-3">{product.displayShopName}</p>
+        <h3 className="mt-1 line-clamp-2 text-base leading-snug font-semibold text-fg transition-colors group-hover:text-accent">
+          <Link
+            to={`/products/${product.id}`}
+            className="after:absolute after:inset-0 after:z-0 after:content-[''] focus-visible:underline focus-visible:outline-none"
+          >
+            {product.productName}
+          </Link>
+        </h3>
+        {product.speciesScientificName && (
+          <p className="mt-0.5 truncate font-serif text-[15px] text-fg-3 italic">{product.speciesScientificName}</p>
+        )}
+
+        <div className="mt-auto flex items-end justify-between gap-3 pt-4">
+          <div className="min-w-0">
+            <Price amount={product.price} size="lg" className="text-fg" />
+            <p
+              className={cn(
+                'mt-0.5 text-xs',
+                product.isOutOfStock ? 'text-fg-3' : product.stockQuantity <= 2 ? 'text-warm' : 'text-fg-3'
+              )}
+            >
+              {stockLabel}
+            </p>
+          </div>
+
+          {onAddToCart && (
+            <Button
+              size="sm"
+              pill
+              variant={product.isAvailable ? 'primary' : 'secondary'}
+              className="relative z-10 shrink-0 gap-1.5"
+              disabled={!product.isAvailable}
+              onClick={handleAction}
+              aria-label={`Thêm ${product.productName} vào giỏ hàng`}
+            >
+              <ShoppingBag className="size-3.5" aria-hidden="true" />
+              Thêm giỏ
+            </Button>
+          )}
+        </div>
+      </div>
+    </article>
   );
 };

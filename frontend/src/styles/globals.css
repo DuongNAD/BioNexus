@@ -115,6 +115,25 @@ select:-webkit-autofill {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+/* Ảnh nền trang đăng nhập phóng chậm (Ken Burns, tài liệu 03 mục 12) */
+@keyframes kenburns {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.14) translate3d(-1.5%, -1%, 0);
+  }
+}
+
+@keyframes fade-in-soft {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* Tôn trọng chế độ giảm chuyển động */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {

@@ -36,7 +36,9 @@ describe('ProductCard Component', () => {
     expect(screen.getByText('BioGreen Exotic')).toBeInTheDocument();
     expect(screen.getByText('850.000')).toBeInTheDocument();
     expect(screen.getByText('₫')).toBeInTheDocument();
-    expect(screen.getByText('F2+ Nhân tạo')).toBeInTheDocument();
+    // Cả sàn đều là cá thể nhân giống F2+ nên thẻ không lặp lại chip này
+    expect(screen.queryByText('F2+ Nhân tạo')).not.toBeInTheDocument();
+    expect(screen.getByText('CR')).toBeInTheDocument();
     expect(screen.getByText('Còn 5 cá thể')).toBeInTheDocument();
   });
 

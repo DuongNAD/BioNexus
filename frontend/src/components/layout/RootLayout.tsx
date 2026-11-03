@@ -7,6 +7,35 @@ import { FlyToCartContainer } from '@/components/domain/FlyToCart';
 import { useCart } from '@/api/queries/useCartQueries';
 import { useAuthState } from '@/api/queries/useAuthQueries';
 import { cn } from '@/lib/cn';
+import { PageContainer } from './Page';
+
+const FOOTER_COLUMNS: { title: string; links: { label: string; to: string; devOnly?: boolean }[] }[] = [
+  {
+    title: 'Khám phá',
+    links: [
+      { label: 'Cây phân loại', to: '/taxonomy' },
+      { label: 'Bách khoa loài', to: '/species' },
+      { label: 'Hành trình 9 loài', to: '/tham-hiem' },
+    ],
+  },
+  {
+    title: 'Cửa hàng',
+    links: [
+      { label: 'Sàn sinh vật cảnh', to: '/products' },
+      { label: 'Giỏ hàng', to: '/cart' },
+      { label: 'Đơn hàng của tôi', to: '/orders' },
+    ],
+  },
+  {
+    title: 'Người bán và dự án',
+    links: [
+      { label: 'Mở shop', to: '/seller/apply' },
+      { label: 'Nguồn ảnh', to: '/credits' },
+      { label: 'Đăng nhập quản trị', to: '/admin/login' },
+      { label: 'Thư viện giao diện', to: '/dev/ui', devOnly: true },
+    ],
+  },
+];
 
 const NAV_ITEMS = [
   { label: 'Trang chủ', path: '/' },
@@ -224,29 +253,40 @@ export function RootLayout(): React.JSX.Element {
         <Outlet />
       </main>
 
-      {/* Footer sơ khởi */}
-      <footer className="border-t border-line bg-bg-deep p-8 text-center text-sm text-fg-3">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p>BioNexus © 2026 — Bách khoa sinh học & Sàn sinh vật cảnh nhân giống có kiểm duyệt pháp lý.</p>
-          <nav aria-label="Liên kết chân trang" className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-            <Link to="/tham-hiem" className="hover:text-accent transition-colors">
-              Hành trình 9 loài
+      {/* Footer 4 cột (tài liệu 03 mục 1): Khám phá, Cửa hàng, Người bán, Dự án */}
+      <footer className="border-t border-line bg-bg-deep">
+        <PageContainer className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
+          <div className="max-w-sm">
+            <Link to="/" className="inline-flex items-center gap-2.5 text-lg font-bold tracking-tight text-accent">
+              <Logo size={20} />
+              <span>BioNexus</span>
             </Link>
-            <Link to="/credits" className="hover:text-accent transition-colors">
-              Bản quyền ảnh
-            </Link>
-            <Link to="/taxonomy" className="hover:text-accent transition-colors">
-              Phân loại 6 cấp
-            </Link>
-            <Link to="/species" className="hover:text-accent transition-colors">
-              Bách khoa loài
-            </Link>
-            {import.meta.env.DEV && (
-              <Link to="/dev/ui" className="text-accent hover:underline">
-                Thư viện giao diện
-              </Link>
-            )}
-          </nav>
+            <p className="mt-4 text-sm leading-relaxed text-fg-3">
+              Bách khoa sinh học 6 cấp phân loại và sàn sinh vật cảnh nhân giống có kiểm duyệt. Ảnh loài là ảnh thật, giấy phép tự do.
+            </p>
+          </div>
+          {FOOTER_COLUMNS.map((col) => (
+            <nav key={col.title} aria-label={col.title}>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-fg-3">{col.title}</p>
+              <ul className="mt-4 space-y-2.5 text-sm">
+                {col.links
+                  .filter((l) => !l.devOnly || import.meta.env.DEV)
+                  .map((l) => (
+                    <li key={l.to}>
+                      <Link to={l.to} className="text-fg-2 transition-colors hover:text-accent">
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </nav>
+          ))}
+        </PageContainer>
+        <div className="border-t border-line">
+          <PageContainer className="flex flex-col gap-2 py-6 text-sm text-fg-3 sm:flex-row sm:items-center sm:justify-between">
+            <p>© 2026 BioNexus · Đồ án Aptech 2026</p>
+            <p>Dữ liệu loài đối chiếu GBIF · Ảnh từ Wikimedia Commons</p>
+          </PageContainer>
         </div>
       </footer>
     </div>

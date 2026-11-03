@@ -134,10 +134,10 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
           </QueryClientProvider>
         );
 
-        expect(screen.getByRole('link', { name: /Tổng quan KPI/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Kiểm duyệt Shop/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Kiểm duyệt Sản phẩm/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Quản lý Bách khoa Loài/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Tổng quan/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Duyệt shop/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Duyệt sản phẩm/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Quản lý loài/i })).toBeInTheDocument();
       });
 
       it('MODERATOR sees KPI, Shop Moderation, Product Moderation, but Species Management is HIDDEN', () => {
@@ -152,11 +152,11 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
           </QueryClientProvider>
         );
 
-        expect(screen.getByRole('link', { name: /Tổng quan KPI/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Kiểm duyệt Shop/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Kiểm duyệt Sản phẩm/i })).toBeInTheDocument();
-        // Quản lý Bách khoa Loài phải bị ẩn hoàn toàn khỏi DOM
-        expect(screen.queryByRole('link', { name: /Quản lý Bách khoa Loài/i })).not.toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Tổng quan/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Duyệt shop/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Duyệt sản phẩm/i })).toBeInTheDocument();
+        // Quản lý loài phải bị ẩn hoàn toàn khỏi DOM
+        expect(screen.queryByRole('link', { name: /Quản lý loài/i })).not.toBeInTheDocument();
       });
 
       it('BIOLOGIST sees KPI and Species Management, but Shop and Product Moderation are HIDDEN', () => {
@@ -171,11 +171,11 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
           </QueryClientProvider>
         );
 
-        expect(screen.getByRole('link', { name: /Tổng quan KPI/i })).toBeInTheDocument();
-        expect(screen.getByRole('link', { name: /Quản lý Bách khoa Loài/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Tổng quan/i })).toBeInTheDocument();
+        expect(screen.getByRole('link', { name: /Quản lý loài/i })).toBeInTheDocument();
         // Kiểm duyệt Shop & Sản phẩm phải bị ẩn hoàn toàn khỏi DOM
-        expect(screen.queryByRole('link', { name: /Kiểm duyệt Shop/i })).not.toBeInTheDocument();
-        expect(screen.queryByRole('link', { name: /Kiểm duyệt Sản phẩm/i })).not.toBeInTheDocument();
+        expect(screen.queryByRole('link', { name: /Duyệt shop/i })).not.toBeInTheDocument();
+        expect(screen.queryByRole('link', { name: /Duyệt sản phẩm/i })).not.toBeInTheDocument();
       });
     });
 
@@ -246,7 +246,7 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         renderGuarded('/admin', <AdminDashboardPage />);
 
         expect(screen.getByText(/Tổng quan Quản trị/i)).toBeInTheDocument();
-        expect(screen.queryByText('Cửa hàng chờ duyệt')).not.toBeInTheDocument();
+        expect(screen.queryByText('Shop chờ duyệt')).not.toBeInTheDocument();
         expect(screen.queryByText('Sản phẩm chờ duyệt')).not.toBeInTheDocument();
         // Hook vẫn được gọi (luật hook) nhưng phải ở trạng thái tắt để không bắn request 403
         expect(sellersSpy.mock.calls.every(([, opts]) => opts?.enabled === false)).toBe(true);
@@ -299,17 +299,17 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         expect(screen.getAllByText('AquaTerra Shop')[0]).toBeInTheDocument();
 
         // Mở Dialog từ chối bằng nút Từ chối
-        const rejectBtn = screen.getByRole('button', { name: /Từ chối R/i });
+        const rejectBtn = screen.getByRole('button', { name: /^Từ chối$/i });
         fireEvent.click(rejectBtn);
 
-        expect(screen.getByText('Từ chối Cấp phép Đối tác')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Từ chối hồ sơ cửa hàng' })).toBeInTheDocument();
 
         // Nút Xác nhận Từ chối: ban đầu textarea rỗng -> disabled
-        const confirmRejectBtn = screen.getByRole('button', { name: /Xác nhận Từ chối/i });
+        const confirmRejectBtn = screen.getByRole('button', { name: /^Từ chối hồ sơ$/i });
         expect(confirmRejectBtn).toBeDisabled();
 
         // Gõ lý do < 10 ký tự: "Sai giấy" (8 ký tự)
-        const textarea = screen.getByPlaceholderText(/Nhập chi tiết căn cứ từ chối/i);
+        const textarea = screen.getByLabelText(/^Lý do từ chối$/i);
         fireEvent.change(textarea, { target: { value: 'Sai giấy' } });
         expect(confirmRejectBtn).toBeDisabled();
 
@@ -411,10 +411,10 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         expect(screen.getAllByText('Rồng Úc Hypo Baby (2 tháng tuổi)')[0]).toBeInTheDocument();
 
         // Mở dialog từ chối
-        const rejectBtn = screen.getByRole('button', { name: /^Từ chối R$/i });
+        const rejectBtn = screen.getByRole('button', { name: /^Từ chối$/i });
         fireEvent.click(rejectBtn);
 
-        expect(screen.getByText('Từ chối Kiểm định Cá thể')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Từ chối sản phẩm' })).toBeInTheDocument();
 
         // Chọn "Lý do khác" (id = 'OTHER')
         const otherReasonCard = screen.getByText('Lý do khác');
@@ -425,7 +425,7 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         fireEvent.change(customNoteInput, { target: { value: 'abc' } });
 
         // Bấm Xác nhận Từ chối
-        const confirmBtn = screen.getByRole('button', { name: /Xác nhận Từ chối/i });
+        const confirmBtn = screen.getByRole('button', { name: /^Từ chối sản phẩm$/i });
         fireEvent.click(confirmBtn);
 
         // Kích hoạt toast lỗi
@@ -449,11 +449,11 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         expect(screen.getAllByText('AquaTerra Shop')[0]).toBeInTheDocument();
 
         // Tìm kiếm chuỗi không tồn tại
-        const searchInput = screen.getByPlaceholderText(/Tìm theo tên shop, chủ hộ/i);
+        const searchInput = screen.getByPlaceholderText(/Tìm shop, chủ shop/i);
         fireEvent.change(searchInput, { target: { value: 'ShopKhongTonTai999' } });
 
         // Hàng đợi hiển thị trạng thái rỗng
-        expect(screen.getByText('Không có cửa hàng nào thỏa mãn điều kiện lọc.')).toBeInTheDocument();
+        expect(screen.getByText('Không có cửa hàng nào khớp bộ lọc.')).toBeInTheDocument();
         // Cột chi tiết hiển thị placeholder
         expect(screen.getByText('Chưa chọn hồ sơ nào')).toBeInTheDocument();
       });
@@ -473,11 +473,11 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         expect(screen.getAllByText('Rồng Úc Hypo Baby (2 tháng tuổi)')[0]).toBeInTheDocument();
 
         // Tìm kiếm chuỗi không tồn tại
-        const searchInput = screen.getByPlaceholderText(/Tìm theo tên cá thể, loài/i);
+        const searchInput = screen.getByPlaceholderText(/Tìm sản phẩm, loài/i);
         fireEvent.change(searchInput, { target: { value: 'CaTheKhongCoTrenDoi999' } });
 
         // Hàng đợi hiển thị trạng thái rỗng
-        expect(screen.getByText('Không có sản phẩm nào trong hàng đợi này.')).toBeInTheDocument();
+        expect(screen.getByText('Không có sản phẩm nào khớp bộ lọc.')).toBeInTheDocument();
       });
     });
 
@@ -558,17 +558,17 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         expect(screen.getAllByText('AquaTerra Shop')[0]).toBeInTheDocument();
 
-        const searchInput = screen.getByPlaceholderText(/Tìm theo tên shop, chủ hộ/i);
+        const searchInput = screen.getByPlaceholderText(/Tìm shop, chủ shop/i);
         searchInput.focus();
         expect(document.activeElement).toBe(searchInput);
 
         // Gõ phím A khi đang focus input -> KHÔNG được mở Approve Modal
         fireEvent.keyDown(searchInput, { key: 'a' });
-        expect(screen.queryByText('Xác nhận Cấp phép Cửa hàng')).not.toBeInTheDocument();
+        expect(screen.queryByRole('dialog', { name: 'Duyệt cửa hàng này?' })).not.toBeInTheDocument();
 
         // Gõ phím R khi đang focus input -> KHÔNG được mở Reject Modal
         fireEvent.keyDown(searchInput, { key: 'r' });
-        expect(screen.queryByText('Từ chối Cấp phép Đối tác')).not.toBeInTheDocument();
+        expect(screen.queryByRole('dialog', { name: 'Từ chối hồ sơ cửa hàng' })).not.toBeInTheDocument();
 
         // Gõ phím J, K
         fireEvent.keyDown(searchInput, { key: 'j' });
@@ -594,12 +594,12 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         // Gõ 'a'
         fireEvent.keyDown(window, { key: 'a' });
-        expect(screen.getByText('Xác nhận Cấp phép Cửa hàng')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Duyệt cửa hàng này?' })).toBeInTheDocument();
 
         // Gõ 'Escape' để đóng
         fireEvent.keyDown(window, { key: 'Escape' });
         await waitFor(() => {
-          expect(screen.queryByText('Xác nhận Cấp phép Cửa hàng')).not.toBeInTheDocument();
+          expect(screen.queryByRole('dialog', { name: 'Duyệt cửa hàng này?' })).not.toBeInTheDocument();
         });
       });
 
@@ -621,18 +621,18 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         // Gõ 'r'
         fireEvent.keyDown(window, { key: 'r' });
-        expect(screen.getByText('Từ chối Cấp phép Đối tác')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Từ chối hồ sơ cửa hàng' })).toBeInTheDocument();
 
         // Khi modal Reject đang mở, textarea xuất hiện: nếu gõ phím A/J/K trong textarea thì không kích hoạt hotkey khác
-        const textarea = screen.getByPlaceholderText(/Nhập chi tiết căn cứ từ chối/i);
+        const textarea = screen.getByLabelText(/^Lý do từ chối$/i);
         textarea.focus();
         fireEvent.keyDown(textarea, { key: 'a' });
-        expect(screen.queryByText('Xác nhận Cấp phép Cửa hàng')).not.toBeInTheDocument();
+        expect(screen.queryByRole('dialog', { name: 'Duyệt cửa hàng này?' })).not.toBeInTheDocument();
 
         // Nhấn Escape để đóng modal
         fireEvent.keyDown(window, { key: 'Escape' });
         await waitFor(() => {
-          expect(screen.queryByText('Từ chối Cấp phép Đối tác')).not.toBeInTheDocument();
+          expect(screen.queryByRole('dialog', { name: 'Từ chối hồ sơ cửa hàng' })).not.toBeInTheDocument();
         });
       });
     });
@@ -652,15 +652,15 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         expect(screen.getAllByText('Rồng Úc Hypo Baby (2 tháng tuổi)')[0]).toBeInTheDocument();
 
-        const searchInput = screen.getByPlaceholderText(/Tìm theo tên cá thể, loài/i);
+        const searchInput = screen.getByPlaceholderText(/Tìm sản phẩm, loài/i);
         searchInput.focus();
 
         // Gõ A, R, J, K
         fireEvent.keyDown(searchInput, { key: 'a' });
-        expect(screen.queryByText('Chấp thuận Kiểm định Cá thể')).not.toBeInTheDocument();
+        expect(screen.queryByRole('dialog', { name: 'Duyệt sản phẩm này?' })).not.toBeInTheDocument();
 
         fireEvent.keyDown(searchInput, { key: 'r' });
-        expect(screen.queryByText('Từ chối Kiểm định Cá thể')).not.toBeInTheDocument();
+        expect(screen.queryByRole('dialog', { name: 'Từ chối sản phẩm' })).not.toBeInTheDocument();
       });
 
       it('When document body is active, typing A opens Product Approve Modal and Esc closes it', async () => {
@@ -681,12 +681,12 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         // Gõ 'a'
         fireEvent.keyDown(window, { key: 'a' });
-        expect(screen.getByText('Chấp thuận Kiểm định Cá thể')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Duyệt sản phẩm này?' })).toBeInTheDocument();
 
         // Gõ 'Escape'
         fireEvent.keyDown(window, { key: 'Escape' });
         await waitFor(() => {
-          expect(screen.queryByText('Chấp thuận Kiểm định Cá thể')).not.toBeInTheDocument();
+          expect(screen.queryByRole('dialog', { name: 'Duyệt sản phẩm này?' })).not.toBeInTheDocument();
         });
       });
 
@@ -708,12 +708,12 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
         // Gõ 'r'
         fireEvent.keyDown(window, { key: 'r' });
-        expect(screen.getByText('Từ chối Kiểm định Cá thể')).toBeInTheDocument();
+        expect(screen.getByRole('dialog', { name: 'Từ chối sản phẩm' })).toBeInTheDocument();
 
         // Gõ 'Escape'
         fireEvent.keyDown(window, { key: 'Escape' });
         await waitFor(() => {
-          expect(screen.queryByText('Từ chối Kiểm định Cá thể')).not.toBeInTheDocument();
+          expect(screen.queryByRole('dialog', { name: 'Từ chối sản phẩm' })).not.toBeInTheDocument();
         });
       });
     });

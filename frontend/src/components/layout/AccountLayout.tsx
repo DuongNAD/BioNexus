@@ -1,132 +1,106 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
 import { User, Package, FileText, Store, Sparkles, LogOut, type LucideIcon } from 'lucide-react';
-import { Logo } from '@/components/ui/Logo';
 import { useLogout } from '@/api/mutations/useAuthMutations';
-import { useMe } from '@/api/queries/useAuthQueries';
+import { useAuthState, useMe } from '@/api/queries/useAuthQueries';
+import { cn } from '@/lib/cn';
+import { ContainedRegion, PageContainer } from './Page';
 
 interface AccountNavItem {
   label: string;
-  shortLabel: string;
   path: string;
   icon: LucideIcon;
 }
 
+/**
+ * Khung trang tài khoản và shop, nằm trong RootLayout nên vẫn giữ navbar và footer chung.
+ * Desktop: cột menu bên trái; mobile: menu thành hàng tab cuộn ngang (tài liệu 03 mục 11).
+ */
 export function AccountLayout(): React.JSX.Element {
   const location = useLocation();
   const logoutMutation = useLogout();
+  const auth = useAuthState();
   const { data: me } = useMe();
   const shop = me?.shop;
 
   // Mục shop đổi theo trạng thái: chưa có shop thì mời đăng ký, có shop thì vào bảng điều khiển
   const userNav: AccountNavItem[] = [
-    { label: 'Hồ sơ cá nhân', shortLabel: 'Tài khoản', path: '/account', icon: User },
-    { label: 'Lịch sử đơn hàng', shortLabel: 'Đơn hàng', path: '/orders', icon: Package },
+    { label: 'Hồ sơ', path: '/account', icon: User },
+    { label: 'Đơn hàng', path: '/orders', icon: Package },
     ...(shop
-      ? [{ label: 'Bảng điều khiển Shop', shortLabel: 'Shop', path: '/seller', icon: Store }]
-      : [{ label: 'Đăng ký mở shop', shortLabel: 'Mở shop', path: '/seller/apply', icon: FileText }]),
-    ...(shop?.status === 'ACTIVE'
-      ? [{ label: 'Đăng bán sản phẩm mới', shortLabel: 'Đăng bán', path: '/seller/products/new', icon: Sparkles }]
-      : []),
+      ? [{ label: 'Shop của tôi', path: '/seller', icon: Store }]
+      : [{ label: 'Mở shop', path: '/seller/apply', icon: FileText }]),
+    ...(shop?.status === 'ACTIVE' ? [{ label: 'Đăng bán', path: '/seller/products/new', icon: Sparkles }] : []),
   ];
 
   const isActivePath = (path: string) =>
     location.pathname === path || (path === '/orders' && location.pathname.startsWith('/orders/'));
 
+  const displayName = auth.user?.fullName || auth.user?.username || '';
+  const initials = displayName
+    .split(' ')
+    .filter(Boolean)
+    .slice(-2)
+    .map((w) => w[0])
+    .join('')
+    .toUpperCase();
+
   return (
-    <div className="flex min-h-screen bg-bg text-fg">
-      {/* Sidebar người dùng */}
-      <aside className="w-64 border-r border-line bg-bg-raised p-6 flex flex-col justify-between hidden md:flex">
-        <div className="space-y-6">
-          <Link to="/" className="flex items-center gap-2 text-lg font-bold text-accent" aria-label="BioNexus - Về trang chủ">
-            <Logo size={22} />
-            <span>BioNexus</span>
-          </Link>
-
-          <div>
-            <p className="px-3 text-[11px] font-semibold uppercase tracking-wider text-fg-3">Trung tâm thành viên</p>
-            <nav className="mt-3 flex flex-col gap-1 text-sm font-medium" aria-label="Menu tài khoản">
-              {userNav.map((item) => {
-                const isActive = isActivePath(item.path);
-                const Icon = item.icon;
-                return (
-                  <Link
-                    key={item.path}
-                    to={item.path}
-                    aria-current={isActive ? 'page' : undefined}
-                    className={`flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors ${
-                      isActive
-                        ? 'bg-accent/15 text-accent font-semibold border border-accent/25'
-                        : 'text-fg-2 hover:bg-surface-hover hover:text-fg'
-                    }`}
-                  >
-                    <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
-                    <span>{item.label}</span>
-                  </Link>
-                );
-              })}
-            </nav>
+    <PageContainer className="grid gap-6 py-6 md:py-10 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-12">
+      {/* min-w-0: hàng tab cuộn ngang trên mobile không được kéo giãn cột lưới */}
+      <aside className="min-w-0 lg:sticky lg:top-24 lg:self-start">
+        {/* Danh tính: chỉ hiện trên desktop, mobile đã có tên ở navbar */}
+        <div className="hidden items-center gap-3 border-b border-line pb-5 lg:flex">
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-accent/15 text-sm font-semibold text-accent">
+            {initials || '?'}
+          </span>
+          <div className="min-w-0">
+            <p className="truncate text-sm font-semibold text-fg">{displayName}</p>
+            {auth.user?.username && <p className="truncate text-sm text-fg-3">@{auth.user.username}</p>}
           </div>
         </div>
 
-        <div className="border-t border-line/40 pt-4 text-xs text-fg-3 space-y-2">
-          <button
-            type="button"
-            onClick={() => logoutMutation.mutate()}
-            disabled={logoutMutation.isPending}
-            className="flex items-center gap-2 text-fg-3 hover:text-red-400 transition-colors w-full text-left"
-          >
-            <LogOut className="size-3.5" aria-hidden="true" />
-            <span>Đăng xuất tài khoản</span>
-          </button>
-          <Link to="/" className="block hover:text-accent transition-colors pt-1">
-            ← Về trang chủ
-          </Link>
-        </div>
-      </aside>
-
-      {/* Nội dung chính */}
-      <main id="main-content" className="flex-1 flex flex-col min-w-0">
-        <header className="border-b border-line bg-bg/80 backdrop-blur-xl px-4 md:hidden">
-          <div className="flex h-14 items-center justify-between">
-            <Link to="/" className="flex items-center gap-2 text-base font-bold text-accent" aria-label="BioNexus - Về trang chủ">
-              <Logo size={18} />
-              <span>BioNexus</span>
-            </Link>
-            <button
-              type="button"
-              onClick={() => logoutMutation.mutate()}
-              disabled={logoutMutation.isPending}
-              className="flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs text-fg-2 hover:border-red-400/60 hover:text-red-300"
-            >
-              <LogOut className="size-3.5" aria-hidden="true" />
-              <span>Đăng xuất</span>
-            </button>
-          </div>
-          {/* Tài liệu 03 mục 11: trên mobile menu tài khoản thành tabs */}
-          <nav className="-mx-4 flex gap-1 overflow-x-auto px-4 pb-2 text-xs" aria-label="Menu tài khoản">
+        <nav aria-label="Menu tài khoản" className="-mx-4 overflow-x-auto px-4 lg:mx-0 lg:mt-4 lg:overflow-visible lg:px-0">
+          <ul className="flex gap-1 lg:flex-col">
             {userNav.map((item) => {
               const isActive = isActivePath(item.path);
+              const Icon = item.icon;
               return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`whitespace-nowrap rounded-full px-3 py-1.5 transition-colors ${
-                    isActive ? 'bg-accent/15 font-semibold text-accent' : 'text-fg-2 hover:text-fg'
-                  }`}
-                >
-                  {item.shortLabel}
-                </Link>
+                <li key={item.path} className="shrink-0">
+                  <Link
+                    to={item.path}
+                    aria-current={isActive ? 'page' : undefined}
+                    className={cn(
+                      'flex items-center gap-3 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors lg:rounded-xl lg:px-3 lg:py-2.5',
+                      isActive ? 'bg-accent/15 font-semibold text-accent' : 'text-fg-2 hover:bg-surface hover:text-fg'
+                    )}
+                  >
+                    <Icon className="hidden size-4 shrink-0 lg:block" aria-hidden="true" />
+                    <span>{item.label}</span>
+                  </Link>
+                </li>
               );
             })}
-          </nav>
-        </header>
+            <li className="shrink-0 lg:mt-4 lg:border-t lg:border-line lg:pt-4">
+              <button
+                type="button"
+                onClick={() => logoutMutation.mutate()}
+                disabled={logoutMutation.isPending}
+                className="flex w-full items-center gap-3 rounded-full px-4 py-2 text-sm whitespace-nowrap text-fg-3 transition-colors hover:text-danger lg:rounded-xl lg:px-3 lg:py-2.5"
+              >
+                <LogOut className="hidden size-4 shrink-0 lg:block" aria-hidden="true" />
+                <span>Đăng xuất</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </aside>
 
-        <div className="flex-1 p-4 sm:p-6 md:p-10">
+      <div className="min-w-0">
+        <ContainedRegion>
           <Outlet />
-        </div>
-      </main>
-    </div>
+        </ContainedRegion>
+      </div>
+    </PageContainer>
   );
 }

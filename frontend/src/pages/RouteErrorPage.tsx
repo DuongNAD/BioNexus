@@ -14,17 +14,17 @@ export default function RouteErrorPage(): React.JSX.Element {
   const detail = error instanceof Error ? error.message : isRouteErrorResponse(error) ? `${error.status} ${error.statusText}` : String(error);
 
   return (
+    // Tự mang nền và lề vì có thể hiện ngoài mọi layout (lỗi ở chính layout)
     <div
       role="alert"
-      className="flex min-h-[70vh] flex-col items-center justify-center bg-bg px-6 py-16 text-center text-fg"
+      className="flex min-h-[70vh] flex-col items-center justify-center bg-bg px-4 py-16 text-center text-fg sm:px-6"
     >
-      <div className="mb-6 flex size-16 items-center justify-center rounded-2xl border border-danger/40 bg-danger/10 text-danger">
-        <AlertTriangle className="size-8" aria-hidden="true" />
-      </div>
-      <h1 className="text-2xl font-bold tracking-tight md:text-4xl">
+      <AlertTriangle className="mb-5 size-10 text-danger" aria-hidden="true" />
+      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-fg-3">{isNotFound ? 'Lỗi 404' : 'Sự cố hiển thị'}</p>
+      <h1 className="mt-3 text-[34px] leading-tight font-semibold tracking-[-0.035em] md:text-5xl">
         {isNotFound ? 'Không tìm thấy trang' : 'Có lỗi xảy ra'}
       </h1>
-      <p className="mt-3 max-w-md text-sm leading-relaxed text-fg-2 md:text-base">
+      <p className="mt-4 max-w-md text-base leading-relaxed text-fg-2">
         {isChunkLoadError(error)
           ? 'Phiên bản mới của BioNexus vừa được cập nhật. Hãy tải lại trang để tiếp tục.'
           : 'Trang này gặp sự cố khi hiển thị. Bạn có thể tải lại trang hoặc quay về trang chủ.'}
@@ -33,21 +33,21 @@ export default function RouteErrorPage(): React.JSX.Element {
         <button
           type="button"
           onClick={() => window.location.reload()}
-          className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-accent-ink hover:opacity-90"
+          className="inline-flex h-10 items-center gap-2 rounded-full bg-accent px-5 text-sm font-semibold text-accent-ink transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           <RotateCw className="size-4" aria-hidden="true" />
           <span>Tải lại</span>
         </button>
         <Link
           to="/"
-          className="inline-flex items-center gap-2 rounded-xl border border-line bg-surface px-5 py-2.5 text-sm font-semibold text-fg hover:border-line-strong"
+          className="inline-flex h-10 items-center gap-2 rounded-full border border-line px-5 text-sm font-medium text-fg transition-colors hover:border-line-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
-          <Home className="size-4 text-accent" aria-hidden="true" />
+          <Home className="size-4" aria-hidden="true" />
           <span>Về trang chủ</span>
         </Link>
       </div>
       {import.meta.env.DEV && (
-        <pre className="mt-8 max-w-2xl overflow-x-auto whitespace-pre-wrap rounded-xl border border-line bg-surface p-4 text-left font-mono text-xs text-fg-3">
+        <pre className="mt-10 max-w-2xl overflow-x-auto rounded-[10px] bg-surface p-4 text-left font-mono text-xs whitespace-pre-wrap text-fg-3">
           {detail}
         </pre>
       )}

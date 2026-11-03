@@ -14,6 +14,7 @@ export interface EmptyStateProps {
   className?: string;
 }
 
+/** Trạng thái rỗng: khung viền đứt nhẹ, không lồng thêm hộp quanh icon */
 export const EmptyState: React.FC<EmptyStateProps> = ({
   icon,
   title,
@@ -24,36 +25,27 @@ export const EmptyState: React.FC<EmptyStateProps> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-center justify-center p-8 md:p-12 text-center rounded-2xl border border-line/60 bg-surface/40 backdrop-blur-md max-w-lg mx-auto ${className}`}
+      className={`mx-auto flex max-w-xl flex-col items-center justify-center rounded-[20px] border border-dashed border-line px-6 py-12 text-center md:py-16 ${className}`}
       role="status"
     >
-      {icon && (
-        <div className="mb-4 flex size-14 items-center justify-center rounded-2xl border border-line bg-surface-2/60 text-accent shadow-inner">
-          {icon}
-        </div>
-      )}
-      <h3 className="text-xl font-bold tracking-tight text-fg font-sans">{title}</h3>
-      <p className="mt-2 text-sm text-fg-2 leading-relaxed max-w-sm">{description}</p>
+      {icon && <div className="mb-4 text-accent [&_svg]:size-8">{icon}</div>}
+      <h3 className="text-xl font-semibold tracking-[-0.02em] text-fg">{title}</h3>
+      <p className="mt-2 max-w-sm text-sm leading-relaxed text-fg-2">{description}</p>
 
       {children && <div className="mt-4 w-full">{children}</div>}
 
       {action && (
         <div className="mt-6">
-          {action.href ? (
-            <Button
-              variant="primary"
-              pill
-              onClick={() => {
-                if (action.href) window.location.hash = action.href;
-              }}
-            >
-              {action.label}
-            </Button>
-          ) : (
-            <Button variant="primary" pill onClick={action.onClick}>
-              {action.label}
-            </Button>
-          )}
+          <Button
+            variant="primary"
+            pill
+            onClick={() => {
+              if (action.href) window.location.hash = action.href;
+              else action.onClick?.();
+            }}
+          >
+            {action.label}
+          </Button>
         </div>
       )}
     </div>

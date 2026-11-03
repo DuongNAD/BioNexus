@@ -308,15 +308,22 @@ export const router = createHashRouter([
       {
         path: '/',
         element: <RootLayout />,
-        children: childrenOf(['root']),
+        children: [
+          ...childrenOf(['root']),
+          // Trang tài khoản và shop nằm trong RootLayout để giữ navbar và footer chung
+          {
+            element: (
+              <React.Suspense fallback={<PageSuspenseFallback message="Đang tải trang tài khoản..." />}>
+                <AccountLayout />
+              </React.Suspense>
+            ),
+            children: childrenOf(['account', 'seller']),
+          },
+        ],
       },
       {
         element: <AuthLayout />,
         children: childrenOf(['auth']),
-      },
-      {
-        element: <AccountLayout />,
-        children: childrenOf(['account', 'seller']),
       },
       {
         // Khách và tài khoản USER không được thấy khung quản trị

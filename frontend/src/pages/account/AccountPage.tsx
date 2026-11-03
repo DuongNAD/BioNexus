@@ -1,26 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router';
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Store,
-  ShieldCheck,
-  Clock,
-  AlertTriangle,
-  XCircle,
-  ArrowRight,
-  Sparkles,
-  Package,
-  Stamp,
-  Award,
-} from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowRight, Package, Award, Check } from 'lucide-react';
+import { PageContainer, PageHeader, Section, Panel, Eyebrow } from '@/components/layout/Page';
 import { ButtonLink } from '@/components/domain/ButtonLink';
 import { StatusPill } from '@/components/ui/StatusPill';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useMe } from '@/api/queries/useAuthQueries';
 import { usePassport } from '@/hooks/usePassport';
 import { JOURNEY_SPECIES_BASE, LEG } from '@/content/journey';
+import { cn } from '@/lib/cn';
+import type { SellerDto } from '@/types/api';
 
 const STATION_LIST = [
   'tram-1',
@@ -34,6 +24,122 @@ const STATION_LIST = [
   'tram-9',
 ] as const;
 
+const PENDING_STEPS = [
+  { label: 'Bước 1: Nộp hồ sơ', note: 'Đã tiếp nhận thông tin cơ sở' },
+  { label: 'Bước 2: Thẩm định CITES', note: 'Đang đối soát giấy phép nhân giống' },
+  { label: 'Bước 3: Kích hoạt shop', note: 'Mở quyền đăng bán' },
+];
+
+/** Khối trạng thái shop: mỗi trạng thái một nội dung, cùng một khung */
+function ShopStatus({ shop }: { shop: SellerDto | null }): React.JSX.Element {
+  if (!shop) {
+    return (
+      <Panel className="md:p-8">
+        <h3 className="text-xl font-semibold tracking-[-0.02em] text-fg">Trở thành Nhà bảo tồn & Đối tác nhân giống BioNexus</h3>
+        <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-fg-2">
+          BioNexus chỉ nhận cá thể sinh sản nhân tạo từ thế hệ F2 trở lên, có giấy phép rõ ràng. Mở shop để đưa cá thể
+          của bạn tới người nuôi trên toàn quốc.
+        </p>
+        <ul className="mt-5 grid gap-x-6 gap-y-2 text-sm text-fg-2 sm:grid-cols-3">
+          {['Hồ sơ giấy phép minh bạch', 'Tiếp cận người nuôi toàn quốc', 'Kiểm duyệt từng cá thể trước khi lên sàn'].map((t) => (
+            <li key={t} className="flex items-start gap-2">
+              <Check className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
+              <span>{t}</span>
+            </li>
+          ))}
+        </ul>
+        <ButtonLink to="/seller/apply" pill className="mt-6">
+          <span>Nộp hồ sơ mở shop ngay</span>
+          <ArrowRight className="size-4" aria-hidden="true" />
+        </ButtonLink>
+      </Panel>
+    );
+  }
+
+  const head = (
+    <div className="flex flex-wrap items-center gap-3">
+      <h3 className="text-xl font-semibold tracking-[-0.02em] text-fg">{shop.shopName}</h3>
+      <StatusPill status={shop.status} size="sm" />
+    </div>
+  );
+
+  if (shop.status === 'PENDING') {
+    return (
+      <Panel className="md:p-8">
+        {head}
+        <p className="mt-2 text-[15px] text-fg-2">Hồ sơ đang chờ Ban Quản trị BioNexus thẩm định giấy phép cơ sở.</p>
+        <ol className="mt-6 grid gap-4 sm:grid-cols-3">
+          {PENDING_STEPS.map((step, i) => (
+            <li key={step.label} className="flex items-start gap-3">
+              <span
+                className={cn(
+                  'mt-1 size-2.5 shrink-0 rounded-full',
+                  i === 0 ? 'bg-accent' : i === 1 ? 'bg-warm' : 'bg-white/20'
+                )}
+                aria-hidden="true"
+              />
+              <span>
+                <span className={cn('block text-sm font-medium', i === 2 ? 'text-fg-3' : 'text-fg')}>{step.label}</span>
+                <span className="block text-sm text-fg-3">{step.note}</span>
+              </span>
+            </li>
+          ))}
+        </ol>
+        <p className="mt-6 border-t border-line pt-4 text-sm text-fg-3">
+          Thời gian thẩm định thường từ 24 đến 48 giờ làm việc.
+        </p>
+      </Panel>
+    );
+  }
+
+  if (shop.status === 'ACTIVE') {
+    return (
+      <Panel className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between md:p-8">
+        <div className="min-w-0">
+          {head}
+          <p className="mt-2 max-w-xl text-[15px] text-fg-2">
+            {shop.bio || 'Cơ sở nhân giống đã được Ban Quản trị BioNexus duyệt.'}
+          </p>
+        </div>
+        <div className="flex shrink-0 flex-wrap gap-3">
+          <ButtonLink to="/seller/products/new" variant="secondary" pill>
+            Đăng cá thể mới
+          </ButtonLink>
+          <ButtonLink to="/seller" pill>
+            <span>Vào Kênh người bán</span>
+            <ArrowRight className="size-4" aria-hidden="true" />
+          </ButtonLink>
+        </div>
+      </Panel>
+    );
+  }
+
+  if (shop.status === 'REJECTED') {
+    return (
+      <Panel className="md:p-8">
+        {head}
+        <div className="mt-5 border-l-2 border-danger pl-4">
+          <p className="text-sm font-medium text-danger">Lý do chưa phê duyệt:</p>
+          {/* rejectionReason là trường đề xuất, backend có thể chưa trả */}
+          <p className="mt-1 text-[15px] text-fg-2">{shop.rejectionReason || 'Ban Quản trị chưa ghi lý do cụ thể.'}</p>
+        </div>
+        <p className="mt-5 text-sm text-fg-3">
+          Mỗi tài khoản chỉ có một hồ sơ shop. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn xử lý.
+        </p>
+      </Panel>
+    );
+  }
+
+  // BANNED
+  return (
+    <Panel className="border-danger/40 md:p-8">
+      {head}
+      <p className="mt-3 text-[15px] text-fg-2">Shop của bạn đang bị khóa nên không thể đăng bán sản phẩm mới.</p>
+      <p className="mt-2 text-sm text-fg-3">Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn.</p>
+    </Panel>
+  );
+}
+
 export default function AccountPage(): React.JSX.Element {
   // Route đã bọc RequireAuth nên ở đây luôn là tài khoản USER
   const { data: me, isLoading, isError, error, refetch, isRefetching } = useMe();
@@ -41,398 +147,149 @@ export default function AccountPage(): React.JSX.Element {
 
   if (isLoading) {
     return (
-      <div className="space-y-6 max-w-4xl" role="status" aria-label="Đang tải hồ sơ">
-        <div className="h-48 rounded-2xl bg-surface animate-pulse" />
-        <div className="h-64 rounded-2xl bg-surface animate-pulse" />
-      </div>
+      <PageContainer width="default" className="space-y-6 py-12" role="status" aria-label="Đang tải hồ sơ">
+        <Skeleton className="h-24 w-2/3" />
+        <Skeleton className="h-48 w-full rounded-[20px]" />
+        <Skeleton className="h-48 w-full rounded-[20px]" />
+      </PageContainer>
     );
   }
 
   // api/me chưa có ở backend (tài liệu 04): lỗi phải hiện rõ thay vì skeleton quay mãi
   if (isError || !me) {
     return (
-      <QueryErrorState
-        title="Không tải được hồ sơ tài khoản"
-        error={error}
-        onRetry={() => refetch()}
-        isRetrying={isRefetching}
-      />
+      <PageContainer width="default" className="py-16">
+        <QueryErrorState title="Không tải được hồ sơ tài khoản" error={error} onRetry={() => refetch()} isRetrying={isRefetching} />
+      </PageContainer>
     );
   }
 
-  // Lấy 2 chữ cái đầu của họ tên làm avatar
-  const initials = me.fullName
-    ? me.fullName
-        .split(' ')
-        .filter(Boolean)
-        .slice(-2)
-        .map((w) => w[0]?.toUpperCase())
-        .join('')
-    : me.username.slice(0, 2).toUpperCase();
-
   const shop = me.shop;
+  const contactRows = [
+    { icon: Mail, label: 'Email', value: me.email },
+    { icon: Phone, label: 'Số điện thoại', value: me.phone || 'Chưa cập nhật', mono: true },
+    { icon: MapPin, label: 'Địa chỉ giao hàng mặc định', value: me.address || 'Chưa cập nhật' },
+  ];
+
+  const journeyCta =
+    met.length === 0
+      ? { to: '/tham-hiem?chao-mung=1', label: 'Bắt đầu hành trình', primary: true }
+      : met.length < 9
+        ? { to: `/tham-hiem?tram=${firstUnmetStationId}`, label: 'Đi tiếp hành trình', primary: true }
+        : { to: '/tham-hiem?tram=ho-chieu', label: 'Xem lại hộ chiếu', primary: false };
 
   return (
-    <div className="space-y-8 max-w-4xl">
-      {/* Tiêu đề */}
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight text-fg font-sans">
-          Hồ Sơ Thành Viên
-        </h1>
-        <p className="mt-1 text-xs text-fg-3">
-          Thông tin tài khoản và trạng thái liên kết đối tác nhân giống BioNexus
-        </p>
-      </div>
+    <PageContainer width="default" className="pb-20">
+      <PageHeader
+        eyebrow="Tài khoản"
+        title={me.fullName}
+        description={<span className="font-mono text-base">@{me.username}</span>}
+        meta={
+          <>
+            <StatusPill status={me.status} size="sm" />
+            <span>{shop ? 'Đối tác nhân giống' : 'Thành viên cộng đồng'}</span>
+          </>
+        }
+        actions={
+          <ButtonLink to="/orders" variant="secondary" pill>
+            <Package className="size-4" aria-hidden="true" />
+            <span>Đơn hàng của tôi</span>
+          </ButtonLink>
+        }
+      />
 
-      {/* 1. Thẻ hồ sơ thành viên (Member Profile Card) */}
-      <div className="rounded-2xl border border-line bg-surface-1/70 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-6">
-          <div className="flex items-center gap-4">
-            {/* Avatar 80px */}
-            <div className="size-20 rounded-2xl border-2 border-accent/40 bg-gradient-to-tr from-accent/30 via-accent-2/20 to-black/60 flex items-center justify-center text-accent font-bold text-2xl font-mono shadow-lg shrink-0">
-              {initials}
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2">
-                <h2 className="text-xl font-bold text-fg font-sans">{me.fullName}</h2>
-                <StatusPill status={me.status} size="sm" />
+      <Section title="Thông tin liên hệ" className="pt-0 md:pt-0">
+        <Panel padded={false}>
+          <dl className="divide-y divide-line">
+            {contactRows.map(({ icon: Icon, label, value, mono }) => (
+              <div key={label} className="flex items-start gap-4 px-5 py-4 md:px-6">
+                <Icon className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden="true" />
+                <div className="min-w-0">
+                  <dt className="text-sm text-fg-3">{label}</dt>
+                  <dd className={cn('mt-0.5 break-words text-[15px] text-fg', mono && 'font-mono')}>{value}</dd>
+                </div>
               </div>
-              <span className="text-xs font-mono text-fg-3 block mt-0.5">@{me.username}</span>
-              <div className="mt-1.5 flex items-center gap-2">
-                <span className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[11px] font-medium text-fg-2">
-                  {shop ? 'Đối tác nhân giống F2+' : 'Thành viên cộng đồng'}
-                </span>
-              </div>
-            </div>
-          </div>
+            ))}
+          </dl>
+        </Panel>
+        <p className="mt-3 text-sm text-fg-3">Muốn đổi email hoặc số điện thoại, vui lòng gửi yêu cầu xác minh tới Ban Quản trị.</p>
+      </Section>
 
-          <div className="flex items-center gap-2">
-            <ButtonLink to="/orders" size="sm" variant="secondary" pill className="gap-1.5 text-xs">
-                <Package className="size-3.5" />
-                <span>Xem đơn hàng</span>
-              </ButtonLink>
-          </div>
-        </div>
+      <Section title="Cửa hàng của bạn">
+        <ShopStatus shop={shop} />
+      </Section>
 
-        {/* Lưới thông tin chi tiết */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-          <div className="rounded-xl border border-line bg-surface-2/40 p-3.5 flex items-start gap-3">
-            <Mail className="size-4 text-accent shrink-0 mt-0.5" />
-            <div>
-              <span className="text-fg-3 block text-[11px]">Địa chỉ Email:</span>
-              <span className="font-semibold text-fg">{me.email}</span>
-            </div>
-          </div>
-
-          <div className="rounded-xl border border-line bg-surface-2/40 p-3.5 flex items-start gap-3">
-            <Phone className="size-4 text-accent shrink-0 mt-0.5" />
-            <div>
-              <span className="text-fg-3 block text-[11px]">Số điện thoại:</span>
-              <span className="font-semibold text-fg font-mono">{me.phone || 'Chưa cập nhật'}</span>
-            </div>
-          </div>
-
-          <div className="rounded-xl border border-line bg-surface-2/40 p-3.5 flex items-start gap-3 sm:col-span-2">
-            <MapPin className="size-4 text-accent shrink-0 mt-0.5" />
-            <div>
-              <span className="text-fg-3 block text-[11px]">Địa chỉ giao hàng mặc định:</span>
-              <span className="font-semibold text-fg">{me.address || 'Chưa cập nhật'}</span>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-[11px] text-fg-3 leading-relaxed border-t border-line/40 pt-4">
-          Thông tin tài khoản được mã hóa và bảo vệ theo tiêu chuẩn BioNexus. Để thay đổi số điện thoại hoặc email liên kết, vui lòng gửi yêu cầu xác minh danh tính.
-        </p>
-      </div>
-
-      {/* 1b. Thẻ Hộ Chiếu Loài (Species Passport Progress Card) */}
-      <div
-        data-testid="account-passport-card"
-        className="rounded-2xl border border-accent/35 bg-surface-1/80 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-5"
+      <Section
+        title="Hộ chiếu loài"
+        description={
+          met.length === 0
+            ? 'Bạn chưa đóng dấu trạm nào trong Hành trình 9 loài.'
+            : met.length < 9
+              ? `Bạn đã gặp ${met.length} trên 9 loài. Đi tiếp để hoàn thành hộ chiếu.`
+              : 'Bạn đã đóng đủ 9 con dấu qua 4 vùng sinh cảnh.'
+        }
+        actions={
+          <ButtonLink to={journeyCta.to} variant={journeyCta.primary ? 'primary' : 'secondary'} pill>
+            <span>{journeyCta.label}</span>
+            <ArrowRight className="size-4" aria-hidden="true" />
+          </ButtonLink>
+        }
       >
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-5">
-          <div className="space-y-1.5">
-            <div className="flex flex-wrap items-center gap-2.5">
-              <span className="inline-flex size-8 items-center justify-center rounded-xl border border-accent/40 bg-accent/15 text-accent">
-                <Stamp className="size-4" aria-hidden="true" />
-              </span>
-              <h3 className="text-lg font-bold text-fg font-sans">Hộ chiếu loài</h3>
-              <span className="rounded-full border border-accent/40 bg-accent/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-accent tabular-nums">
-                {met.length}/9
-              </span>
-              {met.length >= 9 && (
-                <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/40 bg-emerald-500/15 px-3 py-0.5 text-xs font-semibold text-emerald-300">
-                  <Award className="size-3.5" aria-hidden="true" />
-                  Nhà thám hiểm BioNexus
-                </span>
-              )}
+        <Panel data-testid="account-passport-card" className="md:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <Eyebrow tone="muted">Đã đóng dấu</Eyebrow>
+              <p className="mt-1 font-mono text-3xl font-medium tabular-nums text-fg">
+                {met.length}
+                <span className="text-fg-3">/9</span>
+              </p>
             </div>
-            <p className="text-xs text-fg-2">
-              {met.length === 0
-                ? 'Bạn chưa đóng dấu trạm nào trong Hành trình 9 loài. Hãy mở hộ chiếu và bắt đầu chuyến đi thực địa qua 4 vùng sinh cảnh.'
-                : met.length < 9
-                  ? `Bạn đã gặp ${met.length} trên 9 loài trong bách khoa BioNexus. Đi tiếp để hoàn thành sổ hộ chiếu và nhận chứng nhận.`
-                  : 'Chúc mừng! Bạn đã đóng đủ 9 con dấu thực địa qua 4 vùng sinh cảnh trên toàn cầu.'}
-            </p>
-          </div>
-
-          <div className="shrink-0">
-            {met.length === 0 ? (
-              <ButtonLink to="/tham-hiem?chao-mung=1" size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
-                  <span>Bắt đầu hành trình</span>
-                  <ArrowRight className="size-3.5" aria-hidden="true" />
-                </ButtonLink>
-            ) : met.length < 9 ? (
-              <ButtonLink to={`/tham-hiem?tram=${firstUnmetStationId}`} size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold">
-                  <span>Đi tiếp hành trình</span>
-                  <ArrowRight className="size-3.5" aria-hidden="true" />
-                </ButtonLink>
-            ) : (
-              <ButtonLink to="/tham-hiem?tram=ho-chieu" size="sm" variant="secondary" pill className="gap-1.5 text-xs font-semibold">
-                  <span>Xem lại hộ chiếu & chứng nhận</span>
-                  <ArrowRight className="size-3.5" aria-hidden="true" />
-                </ButtonLink>
+            {met.length >= 9 && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/15 px-3 py-1 text-sm font-medium text-accent">
+                <Award className="size-4" aria-hidden="true" />
+                Nhà thám hiểm BioNexus
+              </span>
             )}
           </div>
-        </div>
 
-        {/* 9 chấm tiến độ và lưới 9 trạm loài */}
-        <div className="space-y-3">
-          <div className="flex items-center justify-between text-xs text-fg-3">
-            <span>Tiến độ đóng dấu thực địa</span>
-            <span className="flex items-center gap-1.5" aria-label={`Đã đóng dấu ${met.length} trên 9 trạm`}>
-              {STATION_LIST.map((stId) => {
-                const slug = LEG[stId]?.slug || '';
-                const stamped = met.includes(slug);
-                return (
-                  <span
-                    key={stId}
-                    className={`size-2 rounded-full transition-colors ${
-                      stamped ? 'bg-accent shadow-[0_0_8px_rgba(110,231,183,0.7)]' : 'bg-white/20'
-                    }`}
-                  />
-                );
-              })}
-            </span>
+          <div
+            className="mt-4 grid grid-cols-9 gap-1.5"
+            role="img"
+            aria-label={`Đã đóng dấu ${met.length} trên 9 trạm`}
+          >
+            {STATION_LIST.map((stId) => {
+              const stamped = met.includes(LEG[stId]?.slug || '');
+              return <span key={stId} className={cn('h-1.5 rounded-full', stamped ? 'bg-accent' : 'bg-white/15')} />;
+            })}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+          <ul className="mt-6 grid gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
             {STATION_LIST.map((stId, idx) => {
-              const leg = LEG[stId];
-              const slug = leg?.slug || '';
+              const slug = LEG[stId]?.slug || '';
               const sp = JOURNEY_SPECIES_BASE[slug];
               const stamped = met.includes(slug);
               return (
-                <Link
-                  key={stId}
-                  to={`/tham-hiem?tram=${stId}`}
-                  className={`flex items-center justify-between rounded-xl border px-3 py-2 transition-colors ${
-                    stamped
-                      ? 'border-accent/40 bg-accent/10 text-fg hover:border-accent'
-                      : 'border-line/60 bg-surface-2/30 text-fg-3 hover:border-line hover:text-fg-2'
-                  }`}
-                >
-                  <div className="min-w-0 pr-2">
-                    <span className="font-mono text-[10px] uppercase tracking-wider block opacity-70">
-                      Trạm 0{idx + 1}
-                    </span>
-                    <span className="font-semibold truncate block">{sp?.name || slug}</span>
-                  </div>
-                  <span
-                    className={`shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] ${
-                      stamped
-                        ? 'bg-accent/20 text-accent font-semibold'
-                        : 'bg-white/5 text-fg-3'
-                    }`}
+                <li key={stId} className="border-b border-line">
+                  <Link
+                    to={`/tham-hiem?tram=${stId}`}
+                    className="flex items-center justify-between gap-3 py-3 transition-colors hover:text-accent"
                   >
-                    {stamped ? 'Đã đóng dấu' : 'Chưa gặp'}
-                  </span>
-                </Link>
+                    <span className="min-w-0">
+                      <span className="block text-sm text-fg-3">Trạm {String(idx + 1).padStart(2, '0')}</span>
+                      <span className={cn('block truncate text-[15px]', stamped ? 'text-fg' : 'text-fg-2')}>
+                        {sp?.name || slug}
+                      </span>
+                    </span>
+                    <span className={cn('shrink-0 text-sm', stamped ? 'text-accent' : 'text-fg-3')}>
+                      {stamped ? 'Đã đóng dấu' : 'Chưa gặp'}
+                    </span>
+                  </Link>
+                </li>
               );
             })}
-          </div>
-        </div>
-      </div>
-
-      {/* 2. Khối Trạng thái "Shop Của Bạn" (Dynamic Shop Status Matrix - 5 States) */}
-      <div className="space-y-4">
-        <h3 className="font-bold text-fg text-base uppercase tracking-wider font-mono">
-          Trạng thái Cửa hàng & Cơ sở Nhân giống
-        </h3>
-
-        {/* State 1: CHƯA CÓ SHOP */}
-        {!shop && (
-          <div className="rounded-2xl border border-accent/40 bg-gradient-to-r from-surface-1/90 to-surface-2/70 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-6">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-              <div>
-                <span className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-mono text-accent">
-                  Cơ hội đối tác
-                </span>
-                <h4 className="text-xl font-bold text-fg mt-3 font-sans">
-                  Trở thành Nhà bảo tồn & Đối tác nhân giống BioNexus
-                </h4>
-                <p className="mt-2 text-xs md:text-sm text-fg-2 max-w-2xl leading-relaxed">
-                  BioNexus chỉ tiếp nhận các cá thể sinh vật cảnh sinh sản nhân tạo từ thế hệ F2 trở lên, có giấy phép kiểm dịch và kiểm định nguồn gen rõ ràng. Hãy cùng chúng tôi xây dựng sàn sinh vật cảnh minh bạch và bền vững.
-                </p>
-              </div>
-
-              <ButtonLink to="/seller/apply" size="lg" pill variant="primary" className="gap-2 font-bold shadow-[var(--glow-accent-btn)] shrink-0">
-                  <span>Nộp hồ sơ mở shop ngay</span>
-                  <ArrowRight className="size-4" />
-                </ButtonLink>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-line/60 text-xs">
-              <div className="flex items-start gap-2.5">
-                <ShieldCheck className="size-4 text-accent shrink-0 mt-0.5" />
-                <div>
-                  <span className="font-semibold text-fg block">Kiểm định F2+ CITES</span>
-                  <span className="text-fg-3 text-[11px]">Chứng nhận pháp lý minh bạch cho cơ sở của bạn.</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-2.5">
-                <Sparkles className="size-4 text-accent shrink-0 mt-0.5" />
-                <div>
-                  <span className="font-semibold text-fg block">Tiếp cận cộng đồng</span>
-                  <span className="text-fg-3 text-[11px]">Kết nối trực tiếp người yêu sinh vật cảnh toàn quốc.</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-2.5">
-                <Package className="size-4 text-accent shrink-0 mt-0.5" />
-                <div>
-                  <span className="font-semibold text-fg block">Vận chuyển chuyên dụng</span>
-                  <span className="text-fg-3 text-[11px]">Quy trình đóng gói sinh học bảo vệ cá thể sống.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* State 2: PENDING (Chờ duyệt) */}
-        {shop && shop.status === 'PENDING' && (
-          <div className="rounded-2xl border border-amber-500/40 bg-surface-1/90 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-line/60 pb-4">
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  <h4 className="text-lg font-bold text-fg">{shop.shopName}</h4>
-                  <StatusPill status="PENDING" size="sm" />
-                </div>
-                <p className="text-xs text-amber-300">
-                  Hồ sơ đang chờ Ban Quản trị BioNexus thẩm định giấy phép cơ sở và kiểm dịch thú y.
-                </p>
-              </div>
-            </div>
-
-            {/* Timeline 3 bước */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
-              <div className="flex items-start gap-3">
-                <div className="size-8 rounded-full bg-accent/20 border border-accent flex items-center justify-center text-accent shrink-0">
-                  <ShieldCheck className="size-4" />
-                </div>
-                <div>
-                  <span className="font-semibold text-fg text-xs block">Bước 1: Nộp hồ sơ</span>
-                  <span className="text-[11px] text-fg-3">Đã tiếp nhận thông tin cơ sở</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3">
-                <div className="size-8 rounded-full bg-amber-500/20 border border-amber-500 flex items-center justify-center text-amber-300 shrink-0 animate-pulse">
-                  <Clock className="size-4" />
-                </div>
-                <div>
-                  <span className="font-semibold text-amber-300 text-xs block">Bước 2: Thẩm định CITES</span>
-                  <span className="text-[11px] text-fg-3">Đang đối soát giấy phép F2+</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 opacity-50">
-                <div className="size-8 rounded-full bg-surface-2 border border-line flex items-center justify-center text-fg-3 shrink-0">
-                  <Store className="size-4" />
-                </div>
-                <div>
-                  <span className="font-semibold text-fg text-xs block">Bước 3: Kích hoạt shop</span>
-                  <span className="text-[11px] text-fg-3">Mở quyền đăng bán sinh vật</span>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-[11px] text-fg-3 pt-2 border-t border-line/40">
-              Thời gian kiểm duyệt tiêu chuẩn từ 24 - 48 giờ làm việc. Bạn sẽ nhận được thông báo ngay khi hồ sơ được phê duyệt.
-            </p>
-          </div>
-        )}
-
-        {/* State 3: ACTIVE (Đang hoạt động) */}
-        {shop && shop.status === 'ACTIVE' && (
-          <div className="rounded-2xl border border-accent/40 bg-surface-1/90 backdrop-blur-xl p-6 md:p-8 shadow-xl space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  <Store className="size-5 text-accent" />
-                  <h4 className="text-xl font-bold text-fg font-sans">{shop.shopName}</h4>
-                  <StatusPill status="ACTIVE" size="sm" />
-                </div>
-                <p className="text-xs text-fg-2 max-w-xl">
-                  {shop.bio || 'Cơ sở nhân giống sinh thái đã được cấp chứng nhận kiểm định F2+.'}
-                </p>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-3">
-                <ButtonLink to="/seller/products/new" size="sm" variant="secondary" pill className="gap-1.5 text-xs">
-                    <Sparkles className="size-3.5 text-accent" />
-                    <span>Đăng cá thể mới</span>
-                  </ButtonLink>
-
-                <ButtonLink to="/seller" size="sm" variant="primary" pill className="gap-1.5 text-xs font-semibold shadow-[var(--glow-accent-btn)]">
-                    <span>Vào Kênh người bán</span>
-                    <ArrowRight className="size-3.5" />
-                  </ButtonLink>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* State 4: REJECTED (Bị từ chối) */}
-        {shop && shop.status === 'REJECTED' && (
-          <div className="rounded-2xl border border-red-500/40 bg-surface-1/90 backdrop-blur-xl p-6 space-y-4">
-            <div className="flex items-center gap-2">
-              <XCircle className="size-5 text-red-400" />
-              <h4 className="text-lg font-bold text-fg">{shop.shopName}</h4>
-              <StatusPill status="REJECTED" size="sm" />
-            </div>
-
-            <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3.5 text-sm text-red-300">
-              <span className="font-bold block mb-1">Lý do chưa phê duyệt:</span>
-              {/* rejectionReason là trường đề xuất, backend có thể chưa trả */}
-              <p>{shop.rejectionReason || 'Ban Quản trị chưa ghi lý do cụ thể.'}</p>
-            </div>
-
-            <p className="text-sm text-fg-2">
-              Mỗi tài khoản chỉ có một hồ sơ shop. Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn xử lý.
-            </p>
-          </div>
-        )}
-
-        {/* State 5: BANNED (Bị đình chỉ) */}
-        {shop && shop.status === 'BANNED' && (
-          <div className="rounded-2xl border border-red-700 bg-black/60 p-6 space-y-3">
-            <div className="flex items-center gap-2">
-              <AlertTriangle className="size-5 text-red-500" />
-              <h4 className="text-lg font-bold text-fg">{shop.shopName}</h4>
-              <StatusPill status="BANNED" size="sm" />
-            </div>
-
-            <p className="text-sm text-red-300 leading-relaxed">
-              Shop của bạn đang bị khóa nên không thể đăng bán sản phẩm mới.
-            </p>
-            <p className="text-sm text-fg-2">Vui lòng liên hệ Ban Quản trị BioNexus để được hướng dẫn.</p>
-          </div>
-        )}
-      </div>
-    </div>
+          </ul>
+        </Panel>
+      </Section>
+    </PageContainer>
   );
 }

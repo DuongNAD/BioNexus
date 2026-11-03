@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
+import { ArrowLeft } from 'lucide-react';
 import { Logo } from '@/components/ui/Logo';
 import { IucnBadge } from '@/components/ui/IucnBadge';
-import { ShieldAlert } from 'lucide-react';
 import { PHOTOS } from '@/content/photos';
 
 const AUTH_SLIDES = [
@@ -13,10 +13,24 @@ const AUTH_SLIDES = [
   { key: 'venus-flytrap/hero-1', iucn: 'VU' },
 ];
 
+function BrandLink(): React.JSX.Element {
+  return (
+    <Link to="/" className="inline-flex items-center gap-2.5 text-lg font-bold tracking-tight text-accent" aria-label="BioNexus - Về trang chủ">
+      <span className="flex size-8 items-center justify-center rounded-lg border border-accent/30 bg-black/40 text-accent">
+        <Logo size={20} />
+      </span>
+      <span>BioNexus</span>
+    </Link>
+  );
+}
+
+/**
+ * Khung đăng nhập chia đôi (tài liệu 03 mục 12): trái là ảnh loài thật đổi mỗi 6 giây, phải là form.
+ * Mobile: ảnh thu thành dải phía trên, form bên dưới.
+ */
 export function AuthLayout(): React.JSX.Element {
   const location = useLocation();
   const isAdminLogin = location.pathname.includes('/admin');
-
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
   useEffect(() => {
@@ -26,113 +40,91 @@ export function AuthLayout(): React.JSX.Element {
     return () => clearInterval(timer);
   }, []);
 
-  const defaultSlide = AUTH_SLIDES[0]!;
-  const slideConfig = AUTH_SLIDES[currentSlideIndex] ?? defaultSlide;
+  const slideConfig = AUTH_SLIDES[currentSlideIndex] ?? AUTH_SLIDES[0]!;
   const defaultPhoto = Object.values(PHOTOS)[0]!;
-  const photo = (slideConfig?.key ? PHOTOS[slideConfig.key] : defaultPhoto) ?? defaultPhoto;
+  const photo = PHOTOS[slideConfig.key] ?? defaultPhoto;
   const imgSrc = photo.sources.webp[photo.sources.webp.length - 1]?.src ?? photo.sources.jpg;
 
+  const credit = (
+    <p className="text-xs leading-relaxed text-white/75">
+      <span className="font-medium text-white">{photo.title}</span>
+      {photo.scientificName && <i className="ml-1 font-serif text-[13px]">({photo.scientificName})</i>}
+      <span className="block">
+        Ảnh: {photo.credit.author} · {photo.credit.license} ·{' '}
+        <a href={photo.credit.sourceUrl} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-white">
+          Nguồn gốc
+        </a>
+      </span>
+    </p>
+  );
+
   return (
-    <div className="grid min-h-screen lg:grid-cols-12 bg-bg text-fg">
-      {/* Cột trái (55% desktop): Trình chiếu Ken Burns Iris Slideshow */}
-      <div className="hidden lg:flex lg:col-span-7 flex-col justify-between border-r border-line bg-bg-deep p-10 relative overflow-hidden">
-        {/* Slideshow background với hiệu ứng Ken Burns & Iris */}
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <div
-            key={photo.id}
-            className="absolute inset-0 bg-cover bg-center transition-all duration-1000 animate-in fade-in"
-            style={{
-              backgroundImage: `url(${imgSrc})`,
-              transform: 'scale(1.05)',
-              animation: 'kenburns 8s ease-in-out infinite alternate',
-            }}
-          />
-          {/* Lớp phủ chuyển tiếp tối sâu */}
-          <div className="absolute inset-0 bg-gradient-to-t from-bg-deep/95 via-bg-deep/40 to-bg-deep/30" />
-          <div className="absolute inset-0 bg-black/35 backdrop-blur-[1px]" />
-        </div>
+    <div className="grid min-h-screen bg-bg text-fg lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
+      {/* Cột ảnh (desktop) */}
+      <div className="relative hidden overflow-hidden bg-bg-deep lg:block">
+        <img
+          key={photo.id}
+          src={imgSrc}
+          alt={photo.alt || photo.title}
+          className="absolute inset-0 size-full object-cover [animation:fade-in-soft_1s_ease-out,kenburns_9s_ease-in-out_infinite_alternate]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/40" aria-hidden="true" />
 
-        {/* Header trên ảnh */}
-        <div className="relative z-10 flex items-center justify-between">
-          <Link
-            to="/"
-            className="group flex items-center gap-2.5 text-xl font-bold tracking-tight text-accent"
-            aria-label="BioNexus - Về trang chủ"
-          >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-accent/30 bg-black/50 text-accent transition-colors group-hover:border-accent group-hover:bg-accent/20">
-              <Logo size={22} />
-            </span>
-            <span className="bg-gradient-to-r from-accent to-accent-2 bg-clip-text text-transparent font-sans">
-              BioNexus
-            </span>
-          </Link>
-
-          {isAdminLogin && (
-            <div className="flex items-center gap-1.5 rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-1 text-xs font-mono text-amber-300 backdrop-blur-md">
-              <ShieldAlert className="size-3.5" />
-              <span>Cổng Quản Trị</span>
-            </div>
-          )}
-        </div>
-
-        {/* Khối trích dẫn giữa */}
-        <div className="relative z-10 my-auto py-8 max-w-lg">
-          <span className="rounded-full border border-line bg-black/60 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-accent backdrop-blur-md font-mono">
-            {isAdminLogin ? 'Quản trị Sinh quyển' : 'Sinh quyển & Bảo tồn'}
-          </span>
-          <blockquote className="mt-4 text-2xl xl:text-3xl font-serif italic text-fg leading-relaxed">
-            {isAdminLogin
-              ? '"Trách nhiệm thẩm định nghiêm ngặt để mọi cá thể mở bán đều vẹn nguyên nguồn gốc nhân tạo F2+."'
-              : '"Mọi cá thể đều có quỹ đạo riêng trong sinh quyển sự sống. Bảo tồn là gìn giữ mắt xích của muôn loài."'}
-          </blockquote>
-          <p className="mt-3 text-xs text-fg-2 font-sans">
-            Sàn giao dịch sinh vật cảnh nhân giống có kiểm định sinh học & bách khoa toàn thư phân loại.
-          </p>
-        </div>
-
-        {/* Hộp ghi công bản quyền nổi (Floating Credit Card) */}
-        <div className="relative z-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-line/40 pt-4">
-          <div className="rounded-xl border border-white/10 bg-black/60 backdrop-blur-md p-3 text-xs shadow-xl max-w-md">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="font-semibold text-fg font-sans">{photo.title}</span>
-              {photo.scientificName && (
-                <span className="italic text-fg-3 font-serif">({photo.scientificName})</span>
-              )}
-              <IucnBadge code={slideConfig.iucn} size="sm" showLabel={false} />
-            </div>
-            <p className="text-[11px] text-fg-3">
-              Ảnh: {photo.credit.author} · Giấy phép {photo.credit.license} · Nguồn:{' '}
-              <a
-                href={photo.credit.sourceUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="text-accent underline underline-offset-2 hover:text-white"
-              >
-                Wikimedia Commons
-              </a>
-            </p>
+        <div className="relative z-10 flex h-full flex-col justify-between p-10 xl:p-14">
+          <div className="flex items-center justify-between">
+            <BrandLink />
+            {isAdminLogin && (
+              <span className="rounded-full border border-warm/40 bg-black/40 px-3 py-1 text-xs font-semibold text-warm backdrop-blur-md">
+                Khu vực quản trị
+              </span>
+            )}
           </div>
 
-          <Link to="/" className="text-xs text-fg-3 hover:text-accent transition-colors font-mono shrink-0">
-            ← Quay lại trang chủ
-          </Link>
+          <div className="max-w-xl">
+            <p className="text-4xl leading-[1.05] font-semibold tracking-[-0.04em] text-white xl:text-5xl">
+              {isAdminLogin ? (
+                <>
+                  Mỗi cá thể lên sàn đều <span className="font-serif font-medium text-accent italic">được thẩm định</span>.
+                </>
+              ) : (
+                <>
+                  Mọi loài đều có <span className="font-serif font-medium text-accent italic">quỹ đạo riêng</span>.
+                </>
+              )}
+            </p>
+            <p className="mt-4 max-w-md text-base leading-relaxed text-white/75">
+              {isAdminLogin
+                ? 'Kiểm duyệt shop và sản phẩm, quản lý bách khoa loài trong một nơi.'
+                : 'Bách khoa sinh học 6 cấp và sàn sinh vật cảnh nhân giống có kiểm duyệt.'}
+            </p>
+            <div className="mt-10 flex items-end justify-between gap-6 border-t border-white/15 pt-5">
+              {credit}
+              <IucnBadge code={slideConfig.iucn} size="sm" className="shrink-0 bg-black/50 backdrop-blur-md" />
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Cột phải (45% desktop): Form xác thực */}
-      <div className="col-span-12 lg:col-span-5 flex flex-col justify-center items-center p-6 md:p-12 relative">
-        {/* Banner mobile thu nhỏ 28vh */}
-        <div className="w-full mb-6 lg:hidden relative h-40 rounded-2xl overflow-hidden border border-line bg-surface-2">
-          <img src={imgSrc} alt={photo.title} className="size-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/40 to-transparent" />
-          <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs">
-            <span className="font-semibold text-fg truncate">{photo.title}</span>
-            <IucnBadge code={slideConfig.iucn} size="sm" showLabel={false} />
+      {/* Cột form */}
+      <div className="flex min-w-0 flex-col">
+        {/* Dải ảnh trên mobile */}
+        <div className="relative h-[30vh] min-h-48 overflow-hidden lg:hidden">
+          <img src={imgSrc} alt={photo.alt || photo.title} className="absolute inset-0 size-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-bg via-black/30 to-black/40" aria-hidden="true" />
+          <div className="absolute inset-x-4 top-4">
+            <BrandLink />
           </div>
+          <div className="absolute inset-x-4 bottom-3">{credit}</div>
         </div>
 
-        <div className="w-full max-w-md">
-          <Outlet />
+        <div className="flex flex-1 flex-col items-center justify-center px-4 py-10 sm:px-8 lg:px-12">
+          <main id="main-content" className="w-full max-w-md">
+            <Outlet />
+          </main>
+          <Link to="/" className="mt-10 inline-flex items-center gap-1.5 text-sm text-fg-3 transition-colors hover:text-fg">
+            <ArrowLeft className="size-4" aria-hidden="true" />
+            <span>Về trang chủ</span>
+          </Link>
         </div>
       </div>
     </div>

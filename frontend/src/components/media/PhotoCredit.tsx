@@ -24,9 +24,9 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
           className
         )}
       >
-        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md border border-line text-[11px] text-fg-3 shadow-lg select-none">
-          <span>© {credit.author}</span>
-          <span className="text-line-strong">·</span>
+        <div className="flex max-w-[calc(100vw-3rem)] items-center gap-1.5 rounded-full bg-black/70 px-3 py-1 text-xs text-white/85 backdrop-blur-md select-none">
+          <span className="truncate">© {credit.author}</span>
+          <span className="text-white/40" aria-hidden="true">·</span>
           <a
             href={credit.licenseUrl}
             target="_blank"
@@ -40,9 +40,10 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
             target="_blank"
             rel="noopener noreferrer"
             title="Xem file gốc trên Wikimedia Commons"
-            className="text-fg-3 hover:text-fg ml-0.5"
+            aria-label="Xem file gốc trên Wikimedia Commons"
+            className="ml-0.5 shrink-0 text-white/70 hover:text-white"
           >
-            <ExternalLink className="w-3 h-3" />
+            <ExternalLink className="size-3.5" aria-hidden="true" />
           </a>
         </div>
       </div>
@@ -51,7 +52,7 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
 
   if (variant === 'banner-fixed') {
     return (
-      <div className={cn('text-[11px] text-fg-3 flex items-center gap-1.5', className)}>
+      <div className={cn('flex flex-wrap items-center gap-x-1.5 text-xs text-fg-3', className)}>
         <span>Nguồn ảnh: © {credit.author} ({credit.license})</span>
         <a
           href={credit.sourceUrl}
@@ -60,7 +61,7 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
           className="text-accent hover:underline flex items-center gap-0.5"
         >
           <span>Commons</span>
-          <ExternalLink className="w-2.5 h-2.5" />
+          <ExternalLink className="size-3" aria-hidden="true" />
         </a>
       </div>
     );
@@ -72,17 +73,18 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
       <button
         type="button"
         onClick={() => setPopoverOpen(!popoverOpen)}
-        className="w-5 h-5 rounded-full bg-surface-hover border border-line flex items-center justify-center text-fg-3 hover:text-fg"
+        aria-expanded={popoverOpen}
+        className="flex size-8 items-center justify-center rounded-full bg-black/50 text-white/80 backdrop-blur-md hover:text-white"
         aria-label="Thông tin bản quyền ảnh"
       >
-        <Info className="w-3 h-3" />
+        <Info className="size-4" aria-hidden="true" />
       </button>
 
       {popoverOpen && (
-        <div className="absolute bottom-full right-0 mb-2 w-56 p-2.5 rounded-xl bg-bg-raised border border-line text-xs text-fg-2 shadow-2xl z-50 backdrop-blur-2xl">
+        <div className="absolute bottom-full right-0 z-50 mb-2 w-60 rounded-[10px] border border-line bg-bg-raised p-3 text-sm text-fg-2">
           <p className="font-semibold text-fg mb-1">Bản quyền hình ảnh</p>
-          <p className="text-[11px] text-fg-3 mb-1.5">Tác giả: {credit.author}</p>
-          <div className="flex items-center justify-between text-[11px] pt-1.5 border-t border-line/60">
+          <p className="mb-2 text-fg-2">Tác giả: {credit.author}</p>
+          <div className="flex items-center justify-between border-t border-line pt-2">
             <a
               href={credit.licenseUrl}
               target="_blank"
@@ -97,8 +99,8 @@ export const PhotoCredit: React.FC<PhotoCreditProps> = ({
               rel="noopener noreferrer"
               className="text-fg-3 hover:text-fg flex items-center gap-0.5"
             >
-              <span>Gốc</span>
-              <ExternalLink className="w-2.5 h-2.5" />
+              <span>Xem file gốc</span>
+              <ExternalLink className="size-3.5" aria-hidden="true" />
             </a>
           </div>
         </div>
