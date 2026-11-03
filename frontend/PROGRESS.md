@@ -621,6 +621,85 @@ Tìm thấy 45 sourceUrl duy nhất trong src/content/.
 - **Unit test (`src/lib/__tests__/journey.test.ts`)**: Kiểm chứng đủ 9 lá, tổ tiên chung của nắp ấm và bắt ruồi Venus là `Caryophyllales` (`Bộ Cẩm chướng`), và câu giải thích tự sinh cho cả nhánh nhiều loài lẫn nhánh 1 loài.
 - **Kiểm tra trực quan**: Đã chụp và đối chiếu `part-b-s20-ho-hang-1440.png` (`1440×900`) và `part-b-sm9-ho-hang-390.png` (`390×844`) với `docs/frontend/reference/screens/s-20-ho-hang.jpg` và `s-m9-ho-hang.jpg` (FPS đạt 60 FPS, 0 lỗi console).
 
+---
+
+## 13. Khắc Phục Lỗi Nội Dung Ảnh, Mô Tả `alt`/`title`, Dữ Liệu Ngoài Seed & Link GBIF (Kiểm Tra Độc Lập 03/11/2026)
+
+### 13.1 Ghi Nhận Sự Cố
+Kiểm tra độc lập ngày 03/11/2026 phát hiện 5 nhóm lỗi nội dung:
+1. **`galleryPhotoIds` trong `src/content/species-extras.ts` lẫn ảnh loài khác hoặc sai vùng bản địa**:
+   - *Ambystoma mexicanum* (Axolotl) có ảnh cây bắt ruồi Venus (`biome/macro-leaf-droplet`) và sông Tembeling Malaysia (`biome/peat-swamp-waters`).
+   - *Python bivittatus* (Trăn đất) có ảnh Axolotl (`biome/coral-reef-deep`).
+   - *Pogona vitticeps* (Rồng Úc) có ảnh Nắp ấm Ampullaria (`biome/fireflies-night`) và vịnh Calanque de Cassis, Pháp (`biome/desert-savanna-sunset`).
+   - *Python regius* (Trăn bóng) có ảnh vịnh Calanque de Cassis và đường mòn Cúc Phương (`biome/rainforest-canopy`).
+   - *Eublepharis macularius* (Thằn lằn da báo) có ảnh vịnh Calanque de Cassis.
+   - *Dionaea muscipula* (Cây bắt ruồi Venus) có ảnh sông Tembeling Malaysia.
+   - *Nepenthes rajah* (Nắp ấm Rajah) có ảnh cầu treo Taman Negara Malaysia (`biome/cloud-forest-mist`).
+   - *Testudo hermanni* (Rùa Hermann) có ảnh dương xỉ thân gỗ rừng mây (`biome/macro-moss-fern`).
+2. **`title` và `alt` sai nội dung thực của ảnh**:
+   - `axolotl/hero-1`: ảnh chụp cá thể Axolotl màu hoang dã (xám xanh đốm đen) nhưng `title`/`alt` ghi `"Leucistic"`, `"màu hồng nhạt"`.
+   - `leopard-gecko/hero-1`: ảnh chụp cá thể sẫm màu (xám nâu và kem) nhưng `alt` ghi `"da vàng đốm đen"`.
+3. **Ảnh sản phẩm chưa khớp tên dòng sản phẩm**:
+   - `"Axolotl Leucistic (5 cm)"` (`prod-axolotl-1`) dùng ảnh Axolotl màu hoang dã thay vì ảnh Leucistic hồng nhạt đã có.
+   - `"Trăn bóng Pastel (4 tháng tuổi)"` (`prod-ball-python-1`) dùng ảnh dòng Hypomelanistic thay vì ảnh dòng Pastel.
+   - `"Nắp ấm Rajah cây con"` (`prod-nepenthes-rajah-1`) dùng bản vẽ tách nền bình lớn thay vì ảnh cây con *Nepenthes rajah*.
+4. **Cả 9 `gbifUrl` trong `species-extras.ts` (và `SEED_SPECIES` mock) đều sai**:
+   - Tra trực tiếp `https://api.gbif.org/v1/species/{id}` thì trỏ sang loài khác hoặc 404 (`Eublepharis` → *Lerista vittata*, `Dionaea` → phân loài *Drosera*, `Python bivittatus` → *Siphneus armandii*, `Testudo hermanni` → *Phrynops williamsi*, `Pogona` → 404…).
+5. **Các trường ngoài seed trong `species-extras.ts`** (`conservationNote`, `pullQuote`, `diet`, `lifespan`, `activityTime`) có số liệu tự suy diễn không ghi nguồn kiểm chứng.
+
+### 13.2 Biện Pháp Khắc Phục Triệt Để
+1. **Thay ảnh thư viện `galleryPhotoIds` đúng loài / đúng sinh cảnh bản địa & Đổi tên `biome/*`**:
+   - Chuyển 3 ảnh thực chất là ảnh loài về đúng vị trí loài của chúng:
+     - `File:Ambystoma_mexicanum_3.jpg` (trước đặt nhầm là `biome/coral-reef-deep`) → `axolotl/portrait-1`.
+     - `File:Venus_Flytrap_showing_trigger_hairs.jpg` (trước đặt nhầm là `biome/macro-leaf-droplet`) → `venus-flytrap/gallery-1`.
+     - `File:Nepenthes_ampullaria_elongated.jpg` (trước đặt nhầm là `biome/fireflies-night`) → `nepenthes-ampullaria/gallery-1`.
+   - Đổi tên 5 ID `biome/*` phản ánh chính xác nội dung và địa điểm chụp kèm trường `region`:
+     - `biome/cuc-phuong-rainforest-trail` (`File:Forest_in_Cuc_Phuong_National_Park_(15706323528).jpg`, `region: 'Nam và Đông Nam Á'`).
+     - `biome/taman-negara-canopy-walkway` (`File:Taman_Negara,_Malaysia,_Canopy_Walkway.jpg`, `region: 'Borneo, Sumatra và Malaysia'`).
+     - `biome/tembeling-river-taman-negara` (`File:Fishing_on_Tembeling_River,_Taman_Negara,_Malaysia.jpg`, `region: 'Borneo, Sumatra và Malaysia'`).
+     - `biome/calanque-cassis-mediterranean` (`File:Calanque_de_Cassis.jpg`, `region: 'Nam Âu — Địa Trung Hải'`).
+     - `biome/montane-cloud-tree-ferns` (`File:Tree_Ferns_(Cyathea_sp.)_and_Montane_Forest_(14647918801).jpg`, `region: 'Rừng mây nhiệt đới'`).
+   - Tải bổ sung ảnh thật từ Wikimedia Commons API, tự mở xem trực tiếp từng ảnh (loại bỏ 1 ảnh có watermark `"Lenny Worthington"` và 1 ảnh có bàn tay đeo đồng hồ), đảm bảo cả 9 loài có 3 ảnh `galleryPhotoIds` hoàn toàn riêng biệt (không trùng `heroPhotoId`, `portraitPhotoId`, `habitatPhotoId` hay trùng `sourceUrl`).
+2. **Rà soát trực quan toàn bộ 63 mục `PHOTOS` và 28 mục `TRIP_PHOTOS`**:
+   - Mở xem từng file ảnh và viết lại `title`, `alt` khớp chính xác màu sắc, tư thế và bối cảnh thực tế trong ảnh (đặc biệt sửa `axolotl/hero-1` thành màu xám xanh đốm đen tự nhiên tại Aquarium Finisterrae và `leopard-gecko/hero-1` thành cá thể màu xám nâu nhạt và trắng kem).
+3. **Khớp ảnh 10 sản phẩm với tên sản phẩm**:
+   - `prod-axolotl-1` (`"Axolotl Leucistic (5 cm)"`): dùng ảnh Axolotl Leucistic hồng nhạt (`File:Axolotl_ambystoma_mexicanum_anfibio_ASAG.jpg`).
+   - `prod-ball-python-1` (`"Trăn bóng Pastel (4 tháng tuổi)"`): dùng ảnh *Python regius* dòng Pastel (`File:Python_Regius_Pastel.jpg`, CC BY-SA 3.0).
+   - `prod-nepenthes-rajah-1` (`"Nắp ấm Rajah cây con"`): dùng ảnh cây con *Nepenthes rajah* (`File:Nepenthes_rajah_(5).jpg`).
+4. **Xoá `gbifUrl` khỏi `species-extras.ts` & Chuẩn hóa `referenceURL` theo `database/seed_data.sql`**:
+   - Xoá hoàn toàn trường `gbifUrl` khỏi `SpeciesExtra` và `SPECIES_EXTRAS`.
+   - Cập nhật `src/api/adapters.ts`, `AdminProductsPage.tsx`, `AdminSpeciesPage.tsx` lấy trực tiếp từ `dto.referenceURL`.
+   - Đồng bộ toàn bộ 9 `referenceURL` trong `src/mocks/data/species.ts` và `tests/e2e/harness/seed-data.ts` khớp 100% với `database/seed_data.sql` (`2431950`, `3702163`, `2465380`, `5221283`, `5421410`, `4820533`, `2465641`, `2441454`, `7167254`).
+5. **Chuẩn hóa mọi trường ngoài seed trong `species-extras.ts`**:
+   - Viết lại toàn bộ `conservationNote`, `pullQuote`, `diet`, `lifespan`, `activityTime` chỉ dựa trên `description`, `environmentSpecs`, `conservationStatus` trong `database/seed_data.sql` và `docs/frontend/07-hanh-trinh.md`, kèm comment ghi rõ nguồn cho từng loài.
+6. **Nâng cấp `scripts/verify-photos.mjs` (`npm run check:photos`)**:
+   - Tự động kiểm tra toàn bộ 54 slot ảnh (`hero`/`portrait`/`habitat`/`gallery[0..2]`) của 9 loài: bắt buộc `photo.scientificName === species.scientificName` hoặc là ảnh sinh cảnh có `photo.region === species.region`, không trùng ID và không trùng `sourceUrl`.
+   - Tự động gọi `https://api.gbif.org/v1/species/{id}` cho cả 9 link GBIF trong dữ liệu và đối chiếu `canonicalName` khớp `scientificName`.
+
+### 13.3 Khắc Phục Bổ Sung Trùng Ảnh dHash & Lặp Loạt Chụp (03/11/2026)
+1. **Thay `nepenthes-rajah/portrait-1` bị trùng gốc ảnh với `nepenthes-rajah/hero-1` (`dHash = 0..1`)**:
+   - Phát hiện `File:Nepenthes_rajah.png` là bản tách nền từ cùng bức ảnh gốc `File:Large_lower_pitcher_of_wild_Nepenthes_rajah_plant.jpg`.
+   - Thay `nepenthes-rajah/portrait-1` bằng ảnh chụp thực địa khác trên Wikimedia Commons: `File:Nep_rajah6.jpg` (`NepGrower~commonswiki`, `CC BY-SA 3.0`, `1488×1984`), ghi rõ `title` và `alt` tiếng Việt khớp nội dung ảnh (bụi cây *Nepenthes rajah* mọc giữa thảm cỏ và dương xỉ rừng núi với bình ấm màu đỏ nâu mở nắp ở góc dưới bên phải).
+2. **Giảm số ảnh cùng loạt chụp của George Chernilevsky (2009) trên Thằn lằn da báo & Rồng Úc (tối đa ≤ 2 ảnh/loạt)**:
+   - **Thằn lằn da báo (*Eublepharis macularius*)**: giữ 1 ảnh từ loạt chụp cát 2009 (`leopard-gecko/hero-1` — `File:Eublepharis_macularius_2009_G6.jpg`), thay `leopard-gecko/gallery-1` bằng `File:Leopard_Gecko,_Eublepharis_macularius.jpg` (`Ryan Somma`, `CC BY 2.0`) và thay `leopard-gecko/gallery-2` bằng `File:Eublepharis_macularius_04.jpg` (`Σ64`, `CC BY 4.0`).
+   - **Rồng Úc (*Pogona vitticeps*)**: giữ 2 ảnh từ loạt chụp cát 2009 (`bearded-dragon/hero-1` và `bearded-dragon/portrait-1`), thay `bearded-dragon/gallery-1` bằng `File:Osnabrück_-_Zoo_-_Pogona_vitticeps_01.jpg` (`Basotxerri`, `CC BY-SA 4.0`) và thay `bearded-dragon/gallery-2` bằng `File:Pogona_vitticeps_0012.jpg` (`PeterBur63`, `CC BY-SA 4.0`).
+3. **Bổ sung kiểm tra `dHash` 64-bit vào `scripts/verify-photos.mjs` (`npm run check:photos`)**:
+   - Sử dụng `sharp` thu phóng ảnh về lưới xám `9×8` và tính mã băm khác biệt ngang `64-bit dHash` cho toàn bộ 6 ô ảnh của mỗi loài (`hero`, `portrait`, `habitat`, `gallery[0..2]`) kèm các ảnh sản phẩm (`role === 'product'`) của loài đó.
+   - Tự động báo lỗi (`exit 1`) nếu có bất kỳ cặp ảnh nào của cùng một loài có khoảng cách Hamming `dHash <= 6`.
+   - Kết quả chạy `npm run check:photos`: **PASS 100%** trên cả 9 loài, khoảng cách `dHash` nhỏ nhất của từng loài đều đạt từ `18` đến `28` (`> 6`):
+     - *Ambystoma mexicanum* (7 ảnh): `min distance = 28`
+     - *Nepenthes rajah* (7 ảnh): `min distance = 24`
+     - *Python regius* (7 ảnh): `min distance = 26`
+     - *Eublepharis macularius* (8 ảnh): `min distance = 21`
+     - *Dionaea muscipula* (7 ảnh): `min distance = 23`
+     - *Python bivittatus* (7 ảnh): `min distance = 18`
+     - *Pogona vitticeps* (7 ảnh): `min distance = 23`
+     - *Testudo hermanni* (7 ảnh): `min distance = 20`
+     - *Nepenthes ampullaria* (7 ảnh): `min distance = 21`
+   - Đã chụp lại và kiểm tra trực quan `/species/2` (Nắp ấm Rajah), `/species/4` (Thằn lằn da báo) và `/species/7` (Rồng Úc) ở cả hai độ phân giải `1440×900` và `390×844` với **0 lỗi console**.
+
+
+
 
 
 

@@ -33,13 +33,14 @@ describe('toSpeciesView', () => {
       environmentSpecs: 'Nhiệt độ: 26-32°C (điểm sưởi 32-34°C), Độ ẩm: 55-65%',
       description: 'Trăn cỡ nhỏ, hiền lành.',
       imageURL: 'https://bionexus.vn/species/python-regius.jpg',
-      referenceURL: 'https://www.gbif.org/species/2465191',
+      referenceURL: 'https://www.gbif.org/species/2465380',
     };
 
     const vm = toSpeciesView(dto);
     expect(vm.id).toBe(3);
     expect(vm.imageURL).toBe(dto.imageURL);
     expect(vm.referenceURL).toBe(dto.referenceURL);
+    expect(vm.gbifUrl).toBe('https://www.gbif.org/species/2465380');
     expect(vm.displayName).toBe('Trăn bóng');
     expect(vm.englishName).toBe('Ball Python');
     expect(vm.slug).toBe('ball-python');

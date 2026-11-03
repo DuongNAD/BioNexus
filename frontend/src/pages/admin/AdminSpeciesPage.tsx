@@ -369,9 +369,9 @@ export default function AdminSpeciesPage(): React.JSX.Element {
                       {/* Cột 6: Hành động */}
                       <td className="py-3.5 px-4 text-right">
                         <div className="flex items-center justify-end gap-2">
-                          {extra?.gbifUrl && (
+                          {sp.referenceURL && (
                             <a
-                              href={extra.gbifUrl}
+                              href={sp.referenceURL}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="rounded-lg border border-line bg-surface p-1.5 text-fg-3 hover:text-ocean hover:border-ocean/40 transition-colors"

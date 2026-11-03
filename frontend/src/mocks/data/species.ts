@@ -10,7 +10,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ nước: 14-18°C, pH: 7.4-7.6, Môi trường: Nước ngọt hoàn toàn, lọc yếu, không nền sỏi nhỏ',
     description: 'Loài lưỡng cư giữ lại đặc điểm ấu trùng suốt đời (neoteny). Cực kỳ nguy cấp ngoài tự nhiên, chỉ còn tại hồ Xochimilco.',
     imageURL: 'https://bionexus.vn/species/ambystoma-mexicanum.jpg',
-    referenceURL: 'https://www.gbif.org/species/2431969',
+    referenceURL: 'https://www.gbif.org/species/2431950',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: ngày 20-25°C, đêm 10-15°C, Độ ẩm: 75-90%, Ánh sáng: tán xạ mạnh, Giá thể: dớn + perlite thoát nước',
     description: 'Cây ăn thịt cao sơn đặc hữu núi Kinabalu, Borneo. Bình ấm lớn tới 41cm, có thể bẫy được động vật có xương sống nhỏ.',
     imageURL: 'https://bionexus.vn/species/nepenthes-rajah.jpg',
-    referenceURL: 'https://www.gbif.org/species/3753587',
+    referenceURL: 'https://www.gbif.org/species/3702163',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 26-32°C (điểm sưởi 32-34°C), Độ ẩm: 55-65%, Chuồng: hộp chuyên dụng có hang trú hai đầu',
     description: 'Loài trăn nhỏ có tập tính cuộn tròn như quả bóng khi tự vệ. Bản tính hiền lành, nhiều biến dị màu (morph) nhân giống nhân tạo.',
     imageURL: 'https://bionexus.vn/species/python-regius.jpg',
-    referenceURL: 'https://www.gbif.org/species/2465191',
+    referenceURL: 'https://www.gbif.org/species/2465380',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 24-30°C (điểm sưởi 31-33°C), Độ ẩm: 30-40% (hang ẩm 70-80%), Giá thể: giấy báo hoặc thảm chuyên dụng',
     description: 'Thằn lằn mí mắt nguồn gốc Trung Á, hoạt động hoàng hôn và ban đêm. Dễ nuôi, đuôi tích trữ mỡ, không có đĩa bám ở chân.',
     imageURL: 'https://bionexus.vn/species/eublepharis-macularius.jpg',
-    referenceURL: 'https://www.gbif.org/species/2464731',
+    referenceURL: 'https://www.gbif.org/species/5221283',
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 21-35°C (ngủ đông 5-10°C), Độ ẩm: 50-70%, Ánh sáng: nắng trực tiếp ≥4h, Nước: thẩm thấu ngược hoặc nước mưa',
     description: 'Cây ăn thịt nổi tiếng với phiến lá gập lại cực nhanh khi con mồi chạm vào lông cảm giác hai lần. Đặc hữu duyên hải Bắc và Nam Carolina.',
     imageURL: 'https://bionexus.vn/species/dionaea-muscipula.jpg',
-    referenceURL: 'https://www.gbif.org/species/3190822',
+    referenceURL: 'https://www.gbif.org/species/5421410',
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 26-32°C (điểm sưởi 35°C), Độ ẩm: 60-75%, Chuồng: chuồng cỡ lớn kiên cố, khay nước đủ ngâm toàn thân',
     description: 'Một trong những loài trăn lớn nhất thế giới, bản địa Đông Nam Á kể cả Việt Nam. Cần diện tích nuôi lớn và kinh nghiệm chuyên sâu.',
     imageURL: 'https://bionexus.vn/species/python-bivittatus.jpg',
-    referenceURL: 'https://www.gbif.org/species/7542289',
+    referenceURL: 'https://www.gbif.org/species/4820533',
   },
   {
     id: 7,
@@ -76,7 +76,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 24-29°C (điểm sưởi 38-42°C, đêm >18°C), Độ ẩm: 30-40%, Đèn: bắt buộc UVB 10.0 hoặc 12-14%',
     description: 'Loài thằn lằn bản địa bán sa mạc Úc. Rất dạn người, có túi gai dưới cổ xòe ra khi kích động hoặc phơi nắng.',
     imageURL: 'https://bionexus.vn/species/pogona-vitticeps.jpg',
-    referenceURL: 'https://www.gbif.org/species/2465806',
+    referenceURL: 'https://www.gbif.org/species/2465641',
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: 22-28°C (điểm sưởi 32-35°C), Độ ẩm: 50-65%, Đèn: UVB 10.0, Chế độ ăn: 100% thảo mộc giàu canxi, xơ cao',
     description: 'Rùa cạn cỡ nhỏ bản địa Nam Âu quanh Địa Trung Hải. Mai vòm vàng đen đẹp mắt, hiền lành, tuổi thọ có thể vượt 50 năm.',
     imageURL: 'https://bionexus.vn/species/testudo-hermanni.jpg',
-    referenceURL: 'https://www.gbif.org/species/2442111',
+    referenceURL: 'https://www.gbif.org/species/2441454',
   },
   {
     id: 9,
@@ -98,6 +98,6 @@ export const SEED_SPECIES: MockSpecies[] = [
     environmentSpecs: 'Nhiệt độ: ngày 28-34°C, đêm 20-24°C, Độ ẩm: 80-95%, Ánh sáng: tán xạ trung bình, Môi trường: đầm lầy thấp râm mát',
     description: 'Cây nắp ấm đất thấp Đông Nam Á, mọc thành thảm ấm tròn dưới mặt đất. Thích nghi ăn mùn lá rụng bên cạnh bẫy côn trùng.',
     imageURL: 'https://bionexus.vn/species/nepenthes-ampullaria.jpg',
-    referenceURL: 'https://www.gbif.org/species/3753696',
+    referenceURL: 'https://www.gbif.org/species/7167254',
   },
 ];

@@ -604,10 +604,10 @@ export default function AdminProductsPage(): React.JSX.Element {
                       </div>
 
                       {/* Lối tắt GBIF */}
-                      {speciesExtra?.gbifUrl && (
+                      {matchedSpecies?.referenceURL && (
                         <div className="pt-1">
                           <a
-                            href={speciesExtra.gbifUrl}
+                            href={matchedSpecies.referenceURL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-1 text-[11px] font-semibold text-ocean hover:underline"

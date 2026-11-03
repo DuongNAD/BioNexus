@@ -267,11 +267,13 @@ function FlightArc({
 function SpeciesMarker({
   species,
   isSelected,
+  showTooltip = true,
   onSelect,
   hubName,
 }: {
   species: SpeciesBioMarker;
   isSelected: boolean;
+  showTooltip?: boolean;
   onSelect: () => void;
   hubName: string;
 }) {
@@ -302,7 +304,7 @@ function SpeciesMarker({
       </mesh>
 
       {/* Thẻ Tooltip Drei Html neo trên đỉnh marker khi được chọn */}
-      {isSelected && (
+      {isSelected && showTooltip && (
         <Html position={[0, 0.22, 0]} center occlude distanceFactor={7}>
           <div className="w-64 rounded-2xl border border-white/20 bg-[#03130E]/95 p-3.5 text-white shadow-2xl backdrop-blur-xl pointer-events-auto">
             <div className="flex items-center justify-between pb-1.5 border-b border-white/10">
@@ -343,6 +345,7 @@ export function BioEarth({
   breedingHubs = VIETNAM_BREEDING_HUBS,
   selectedSpeciesId,
   onSelectSpecies,
+  variant = 'full',
 }: BioEarthProps) {
   const { tier } = useQuality();
   const globeGroup = useRef<THREE.Group | null>(null);
@@ -422,6 +425,7 @@ export function BioEarth({
             key={sp.speciesId}
             species={sp}
             isSelected={selectedSpeciesId === sp.speciesId}
+            showTooltip={variant !== 'mini'}
             onSelect={() => onSelectSpecies?.(sp.speciesId)}
             hubName={hub ? `${hub.shopName} (${hub.city})` : 'Việt Nam Hub'}
           />

@@ -65,8 +65,8 @@ export default function Credits(): React.JSX.Element {
             <span className="text-xs font-medium text-fg-3">File ảnh nội bộ</span>
             <ImageIcon className="size-4" aria-hidden="true" />
           </div>
-          <p className="text-2xl font-bold font-mono text-fg">357</p>
-          <p className="text-[11px] text-fg-3 mt-0.5">161 photos + 196 trip (AVIF & WebP)</p>
+          <p className="text-2xl font-bold font-mono text-fg">482</p>
+          <p className="text-[11px] text-fg-3 mt-0.5">286 photos + 196 trip (AVIF & WebP)</p>
         </div>
 
         <div className="rounded-xl border border-line bg-surface/80 backdrop-blur-md p-4">

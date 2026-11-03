@@ -1,6 +1,7 @@
 import type { SpeciesDto, ProductDto, SellerDto } from '@/types/api';
 import { parseEnvironmentSpecs, formatVnd, type ParsedEnvironmentSpecs } from '@/lib/parseEnvironmentSpecs';
 import { SPECIES_EXTRAS, type SpeciesExtra } from '@/content/species-extras';
+import { PHOTOS } from '@/content/photos';
 
 export { SPECIES_EXTRAS, type SpeciesExtra };
 
@@ -93,6 +94,13 @@ const SPECIES_ID_TO_PROD_IMAGE: Record<number, string> = {
 };
 
 function photoIdToLocalWebp(photoId: string, slug: string): string {
+  const meta = PHOTOS[photoId];
+  if (meta) {
+    return (
+      meta.sources.webp[meta.sources.webp.length - 1]?.src ||
+      meta.sources.jpg
+    );
+  }
   if (photoId.includes('-product-')) {
     return SPECIES_ID_TO_PROD_IMAGE[
       Number(
@@ -133,7 +141,7 @@ export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
     conservationNote: extras?.conservationNote,
     pullQuote: extras?.pullQuote,
     nativeCoordsFormatted: extras?.nativeCoordsFormatted,
-    gbifUrl: extras?.gbifUrl || (dto.referenceURL ? dto.referenceURL : undefined),
+    gbifUrl: dto.referenceURL ? dto.referenceURL : undefined,
     diet: extras?.diet,
     lifespan: extras?.lifespan,
     activityTime: extras?.activityTime,
