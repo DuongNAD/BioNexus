@@ -6,16 +6,35 @@ import { useQuality } from './QualityProvider';
 import vertexShader from './shaders/particleMorph.vert.glsl?raw';
 import fragmentShader from './shaders/particleMorph.frag.glsl?raw';
 
+export interface ParticlePlacement {
+  x: number;
+  y: number;
+  scale: number;
+}
+
 export interface ParticleMorphProps {
   progress: React.RefObject<number> | { current: number };
   interactive?: boolean;
+  /** Vị trí và tỉ lệ cụm hạt theo kích thước khung nhìn (đơn vị thế giới tại z = 0) */
+  placement?: (viewport: { width: number; height: number }) => ParticlePlacement;
 }
 
 const PALETTE_A = ['#c4b5fd', '#38bdf8', '#34d399', '#4ade80'];
 const PALETTE_B = ['#5eead4', '#6ee7b7', '#a7f3d0', '#d9f99d'];
 
-export const ParticleMorph: React.FC<ParticleMorphProps> = ({ progress, interactive = true }) => {
+// Đĩa thiên hà nằm trong mặt phẳng XZ: không nghiêng thì camera nhìn ngang và chỉ thấy một vạch sáng
+const GALAXY_TILT = 0.55;
+const GALAXY_ROLL = -0.3;
+
+const centered = (): ParticlePlacement => ({ x: 0, y: 0, scale: 1 });
+
+export const ParticleMorph: React.FC<ParticleMorphProps> = ({
+  progress,
+  interactive = true,
+  placement = centered,
+}) => {
   const { tier } = useQuality();
+  const groupRef = useRef<THREE.Group>(null!);
   const pointsRef = useRef<THREE.Points>(null!);
   const materialRef = useRef<THREE.ShaderMaterial>(null!);
 
@@ -204,8 +223,20 @@ export const ParticleMorph: React.FC<ParticleMorphProps> = ({ progress, interact
       }
     }
 
-    // Tự xoay cụm hạt ở các pha không gian
     const currP = u['uProgress'] ? u['uProgress'].value : 0;
+
+    // Nghiêng đĩa thiên hà về phía camera, rồi dựng thẳng dần khi hạt chuyển sang chuỗi ADN
+    const group = groupRef.current;
+    if (group) {
+      const galaxyWeight = THREE.MathUtils.clamp(1 - currP, 0, 1);
+      group.rotation.x = GALAXY_TILT * galaxyWeight;
+      group.rotation.z = GALAXY_ROLL * galaxyWeight;
+      const place = placement(state.viewport);
+      group.position.set(place.x, place.y, 0);
+      group.scale.setScalar(place.scale);
+    }
+
+    // Tự xoay quanh trục của đĩa nên thiên hà quay trong mặt phẳng của nó, không lật nghiêng
     if (currP < 2.2) {
       pointsRef.current.rotation.y += dt * 0.12;
     } else {
@@ -218,16 +249,18 @@ export const ParticleMorph: React.FC<ParticleMorphProps> = ({ progress, interact
   if (!geometry) return null;
 
   return (
-    <points ref={pointsRef} geometry={geometry} frustumCulled={false}>
-      <shaderMaterial
-        ref={materialRef}
-        vertexShader={vertexShader}
-        fragmentShader={fragmentShader}
-        uniforms={uniforms}
-        transparent
-        depthWrite={false}
-        blending={THREE.AdditiveBlending}
-      />
-    </points>
+    <group ref={groupRef}>
+      <points ref={pointsRef} geometry={geometry} frustumCulled={false}>
+        <shaderMaterial
+          ref={materialRef}
+          vertexShader={vertexShader}
+          fragmentShader={fragmentShader}
+          uniforms={uniforms}
+          transparent
+          depthWrite={false}
+          blending={THREE.AdditiveBlending}
+        />
+      </points>
+    </group>
   );
 };

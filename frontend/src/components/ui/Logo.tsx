@@ -9,9 +9,9 @@ export interface LogoProps extends React.SVGAttributes<SVGSVGElement> {
 }
 
 /**
- * Logo BioNexus: SVG tự vẽ hai sợi xoắn cách điệu (chuỗi xoắn kép sinh học),
- * một màu `--accent` (#6ee7b7 / #2fe8b0) kết hợp sợi phụ `--accent-2` (#5eead4),
- * tuân thủ tuyệt đối quy tắc "Không emoji" của dự án.
+ * Logo BioNexus: chuỗi xoắn kép đứng, hai sợi bắt chéo hai lần và bốn bậc nối.
+ * Bản cũ chỉ có hai nét chéo nên nhìn như nút đóng "X".
+ * Sợi trước màu `--accent`, sợi sau `--accent-2` mờ hơn để có chiều sâu.
  */
 export function Logo({
   size = 24,
@@ -34,23 +34,28 @@ export function Logo({
       className={cn('shrink-0 text-accent transition-transform duration-200', className)}
       {...props}
     >
-      {/* Sợi xoắn 1: Màu nhấn chính --accent */}
+      {/* Sợi sau vẽ trước để sợi trước đè lên ở chỗ bắt chéo */}
       <path
-        d="M8 6 C14 12, 18 20, 24 26"
-        stroke="currentColor"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
-      {/* Sợi xoắn 2: Màu nhấn phụ --accent-2, mờ 75% tạo chiều sâu 3D */}
-      <path
-        d="M24 6 C18 12, 14 20, 8 26"
+        d="M23 4C23 8.4 9 11.6 9 16S23 23.6 23 28"
         stroke="var(--color-accent-2, currentColor)"
-        strokeWidth="3"
+        strokeWidth="2.6"
         strokeLinecap="round"
-        opacity="0.75"
+        opacity="0.7"
       />
-      {/* Điểm nút trung tâm: Hạt liên kết phân tử */}
-      <circle cx="16" cy="16" r="3" fill="currentColor" />
+      {/* Bốn bậc nối hai sợi, đặt ở nơi hai sợi cách nhau đều */}
+      <path
+        d="M12 7h8M12 13h8M12 19h8M12 25h8"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        opacity="0.5"
+      />
+      <path
+        d="M9 4C9 8.4 23 11.6 23 16S9 23.6 9 28"
+        stroke="currentColor"
+        strokeWidth="2.6"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }

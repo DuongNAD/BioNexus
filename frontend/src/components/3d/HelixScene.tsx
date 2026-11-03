@@ -8,6 +8,10 @@ import { useQuality } from './QualityProvider';
 export interface HelixSceneProps {
   progress: React.RefObject<number> | { current: number };
   onActiveTaxon?: (index: number) => void;
+  /** Lệch trục xoắn sang phải khi khung nằm ngang (chừa chỗ cho chữ hoặc thẻ bên trái). Khung dọc luôn căn giữa */
+  offsetX?: number;
+  /** Khoảng cách camera tối thiểu; khung hẹp thì camera tự lùi thêm để cả hai sợi vừa bề ngang */
+  minDistance?: number;
 }
 
 // Dữ liệu cấp phân loại nằm ở taxonomyRanks.ts (không phụ thuộc three.js)
@@ -26,7 +30,12 @@ export const getHelixPoint = (k: number, strand: number, r = R): [number, number
   return [Math.cos(angle) * r, -k * DY, Math.sin(angle) * r];
 };
 
-export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon }) => {
+export const HelixScene: React.FC<HelixSceneProps> = ({
+  progress,
+  onActiveTaxon,
+  offsetX = 0,
+  minDistance = 14,
+}) => {
   const { tier } = useQuality();
   const groupRef = useRef<THREE.Group>(null!);
   const activeIdxRef = useRef<number>(-1);
@@ -36,15 +45,16 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
   const [strandGeo0, strandGeo1] = useMemo(() => {
     const pts0: THREE.Vector3[] = [];
     const pts1: THREE.Vector3[] = [];
-    for (let t = -1; t <= LEVELS; t += 0.1) {
+    // Sợi kéo dài quá bậc đầu và bậc cuối để khung nhìn không bị trống nửa trên lúc mới vào khối
+    for (let t = -4; t <= LEVELS + 3; t += 0.1) {
       pts0.push(new THREE.Vector3(...getHelixPoint(t, 0)));
       pts1.push(new THREE.Vector3(...getHelixPoint(t, 1)));
     }
     const c0 = new THREE.CatmullRomCurve3(pts0);
     const c1 = new THREE.CatmullRomCurve3(pts1);
     return [
-      new THREE.TubeGeometry(c0, 400, 0.035, 8, false),
-      new THREE.TubeGeometry(c1, 400, 0.035, 8, false),
+      new THREE.TubeGeometry(c0, 560, 0.035, 8, false),
+      new THREE.TubeGeometry(c1, 560, 0.035, 8, false),
     ];
   }, []);
 
@@ -88,6 +98,16 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
       0.35,
       dt
     );
+    // Bán kính 3,3 là cho canvas tràn màn hình: trong thẻ nhỏ hoặc khung dọc, camera đặt cố định sẽ cắt mất một sợi
+    const aspect = state.size.width / Math.max(1, state.size.height);
+    const shift = aspect >= 1 ? offsetX : 0;
+    groupRef.current.position.x = shift;
+    const fov = (state.camera as THREE.PerspectiveCamera).fov ?? 42;
+    const halfTan = Math.tan(THREE.MathUtils.degToRad(fov / 2));
+    // Sợi gần camera nhất nằm ở z = +R nên tính bề ngang tại độ sâu đó, chừa 0,7 đơn vị lề
+    const fitDistance = (Math.abs(shift) + R + 0.7) / (halfTan * aspect) + R;
+    state.camera.position.z = Math.max(minDistance, fitDistance);
+
     easing.damp(state.camera.position, 'y', camY + 0.4, 0.35, dt);
     easing.damp(state.camera.position, 'x', state.pointer.x * 0.8, 0.5, dt);
     state.camera.lookAt(0, state.camera.position.y - 0.4, 0);
@@ -98,7 +118,7 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
 
     for (let k = 0; k < LEVELS; k++) {
       const angle = k * STEP + groupRef.current.rotation.y;
-      const x = Math.cos(angle) * R + 2.4;
+      const x = Math.cos(angle) * R + shift;
       const y = -k * DY;
       const z = Math.sin(angle) * R;
 
@@ -116,7 +136,7 @@ export const HelixScene: React.FC<HelixSceneProps> = ({ progress, onActiveTaxon 
   });
 
   return (
-    <group ref={groupRef} position={[2.4, 0, 0]}>
+    <group ref={groupRef}>
       {/* Ống xoắn phát quang ngọc bích */}
       <mesh geometry={strandGeo0}>
         <meshBasicMaterial color="#6ee7b7" toneMapped={false} />

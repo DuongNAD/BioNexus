@@ -38,6 +38,7 @@ export function SceneShell({
   posterAlt,
   minTier = 'low',
   className = '',
+  posterClassName = '',
   children,
   srDescription,
 }: SceneShellProps): React.JSX.Element {
@@ -207,7 +208,7 @@ export function SceneShell({
       <img
         src={posterSrc}
         alt={posterAlt}
-        className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ease-out z-10 ${
+        className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ease-out z-10 ${posterClassName} ${
           firstFrameRendered && shouldMountCanvas && !contextLost
             ? 'opacity-0 pointer-events-none'
             : 'opacity-100'

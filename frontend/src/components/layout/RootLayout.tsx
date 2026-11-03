@@ -61,6 +61,18 @@ export function RootLayout(): React.JSX.Element {
   const { data: cart } = useCart();
   const cartCount = cart?.itemCount || 0;
 
+  // Trang chủ: header trong suốt nổi trên cảnh hạt, thành kính mờ sau khi cuộn quá 80 px (tài liệu 03 mục 1)
+  const isHome = location.pathname === '/';
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    if (!isHome) return;
+    const onScroll = () => setIsScrolled(window.scrollY > 80);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [isHome]);
+  const isHeaderClear = isHome && !isScrolled && !isMenuOpen;
+
   // Đóng menu mobile khi chuyển trang
   useEffect(() => {
     setIsMenuOpen(false);
@@ -97,48 +109,57 @@ export function RootLayout(): React.JSX.Element {
       <FlyToCartContainer />
 
       {/* Navbar */}
-      <header className="sticky top-0 z-50 border-b border-line bg-bg/85 backdrop-blur-xl">
-        <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6">
+      <header
+        className={cn(
+          'top-0 z-50 border-b transition-[background-color,border-color] duration-300',
+          isHome ? 'fixed inset-x-0' : 'sticky',
+          isHeaderClear ? 'border-transparent bg-transparent' : 'border-line bg-bg/85 backdrop-blur-xl'
+        )}
+      >
+        <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6 lg:px-10">
           <Link
             to="/"
-            className="group flex shrink-0 items-center gap-2.5 text-lg font-bold tracking-tight text-accent"
+            className="flex shrink-0 items-center gap-2 rounded-full text-accent"
             aria-label="BioNexus - Về trang chủ"
           >
-            {/* Logo Helix chuẩn vector */}
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-accent/30 bg-accent/10 text-accent transition-colors group-hover:border-accent group-hover:bg-accent/20">
-              <Logo size={20} />
-            </span>
-            <span className="hidden bg-gradient-to-r from-accent to-accent-2 bg-clip-text text-transparent min-[400px]:inline">
-              BioNexus
-            </span>
+            <Logo size={28} />
+            <span className="text-[17px] font-semibold tracking-[-0.02em] text-fg">BioNexus</span>
           </Link>
 
-          <nav aria-label="Điều hướng chính" className="hidden items-center gap-6 text-sm font-medium lg:flex">
-            {NAV_ITEMS.map((item) => {
-              const isActive = isNavActive(location.pathname, item.path);
-              return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`whitespace-nowrap transition-colors duration-150 ${
-                    isActive ? 'text-accent font-semibold' : 'text-fg-2 hover:text-fg'
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
+          {/* Nav viên thuốc. Nền mục đang chọn làm bằng CSS: motion.span layoutId kéo thêm khoảng 38 KB gzip
+              vào bundle đầu và làm vượt ngân sách 180 KB của check:budget */}
+          <nav aria-label="Điều hướng chính" className="hidden lg:block">
+            <ul className="flex items-center gap-0.5 rounded-full border border-line bg-black/35 p-1 text-sm font-medium backdrop-blur-xl">
+              {NAV_ITEMS.map((item) => {
+                const isActive = isNavActive(location.pathname, item.path);
+                return (
+                  <li key={item.path}>
+                    <Link
+                      to={item.path}
+                      aria-current={isActive ? 'page' : undefined}
+                      className={cn(
+                        'block rounded-full border px-3.5 py-1.5 whitespace-nowrap transition-colors duration-150',
+                        isActive
+                          ? 'border-white/15 bg-white/10 text-fg'
+                          : 'border-transparent text-fg-2 hover:bg-white/5 hover:text-fg'
+                      )}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </nav>
 
-          <div className="flex items-center gap-2 sm:gap-3">
-            <QuickSearchTrigger onClick={() => setIsSearchOpen(true)} className="w-24 sm:w-32 md:w-48" />
+          <div className="flex items-center gap-2">
+            <QuickSearchTrigger onClick={() => setIsSearchOpen(true)} />
 
             {!isAdmin && (
               <Link
                 to="/cart"
                 data-cart-icon
-                className="relative flex size-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface/80 text-fg-2 hover:border-accent hover:text-accent transition-colors"
+                className="relative flex size-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2/60 text-fg-2 hover:border-accent hover:text-accent transition-colors"
                 aria-label={`Giỏ hàng, ${cartCount} sản phẩm`}
               >
                 <ShoppingBag className="size-4" aria-hidden="true" />
@@ -150,34 +171,28 @@ export function RootLayout(): React.JSX.Element {
               </Link>
             )}
 
+            {/* Bỏ nút "Khám phá" cũ: nó trỏ tới /products, trùng mục "Sàn sinh vật cảnh" ngay trên nav */}
             {authState.token ? (
               <Link
                 to={accountLink}
                 aria-label={isAdmin ? `Khu vực quản trị của ${accountLabel}` : `Tài khoản của ${accountLabel}`}
-                className="hidden items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-semibold text-fg hover:border-accent transition-colors sm:flex"
+                className="hidden h-9 items-center gap-1.5 rounded-full border border-line bg-surface-2/60 px-3.5 text-sm font-medium text-fg hover:border-accent transition-colors sm:flex"
               >
                 {isAdmin ? (
-                  <Shield className="size-3.5 text-accent" aria-hidden="true" />
+                  <Shield className="size-4 text-accent" aria-hidden="true" />
                 ) : (
-                  <UserIcon className="size-3.5 text-accent" aria-hidden="true" />
+                  <UserIcon className="size-4 text-accent" aria-hidden="true" />
                 )}
-                <span className="truncate max-w-[100px]">{accountLabel}</span>
+                <span className="truncate max-w-[120px]">{accountLabel}</span>
               </Link>
             ) : (
               <Link
                 to="/login"
-                className="hidden whitespace-nowrap rounded-full border border-line bg-surface px-4 py-1.5 text-xs font-semibold text-fg-2 hover:border-accent hover:text-accent transition-colors sm:inline-block"
+                className="hidden h-9 items-center whitespace-nowrap rounded-full bg-accent px-4 text-sm font-semibold text-accent-ink transition-colors hover:bg-white sm:inline-flex"
               >
                 Đăng nhập
               </Link>
             )}
-
-            <Link
-              to="/products"
-              className="hidden whitespace-nowrap rounded-full bg-accent px-4 py-1.5 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] hover:bg-white transition-colors md:inline-block"
-            >
-              Khám phá
-            </Link>
 
             {/* Màn hình hẹp: thanh điều hướng chính gom vào menu */}
             <button

@@ -409,26 +409,33 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
   );
 }
 
+// Máy Apple dùng ⌘, Windows và Linux dùng Ctrl: hiện sai phím thì người dùng bấm không ra
+function isApplePlatform(): boolean {
+  if (typeof navigator === 'undefined') return false;
+  return /Mac|iPhone|iPad|iPod/i.test(navigator.platform || navigator.userAgent);
+}
+
+/** Nút mở tìm kiếm: chỉ có icon khi header chật, đủ chữ và phím tắt từ màn rộng xl */
 export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: string }> = ({
   onClick,
   className = '',
 }) => {
+  const shortcut = isApplePlatform() ? '⌘K' : 'Ctrl K';
   return (
     <button
       type="button"
       onClick={onClick}
-      aria-label="Mở tìm kiếm nhanh (Ctrl+K)"
+      aria-label={`Mở tìm kiếm nhanh (${shortcut.replace(' ', '+')})`}
       className={cn(
-        'group flex items-center justify-between rounded-full border border-line bg-surface-2/60 px-3 py-1.5 text-xs text-fg-3 transition-all hover:border-accent/40 hover:bg-surface-hover hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent',
+        'group flex h-9 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface-2/60 text-sm text-fg-2 transition-colors hover:border-accent/40 hover:bg-surface-hover hover:text-fg max-xl:w-9 xl:w-56 xl:justify-between xl:pr-1.5 xl:pl-3.5',
         className
       )}
     >
-      <div className="flex items-center gap-2">
-        <Search className="size-3.5 text-accent" aria-hidden="true" />
-        <span className="hidden sm:inline">Tìm kiếm nhanh...</span>
-        <span className="sm:hidden">Tìm...</span>
-      </div>
-      <Kbd className="ml-2 hidden md:inline-block">⌘K</Kbd>
+      <span className="flex items-center gap-2">
+        <Search className="size-4 text-accent" aria-hidden="true" />
+        <span className="hidden xl:inline">Tìm loài, sản phẩm</span>
+      </span>
+      <Kbd className="hidden xl:inline-flex">{shortcut}</Kbd>
     </button>
   );
 };

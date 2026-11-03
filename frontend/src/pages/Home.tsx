@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
+import { motion, type Variants } from 'motion/react';
 import { Compass, ShoppingBag, ArrowRight, MapPin } from 'lucide-react';
 import { SceneShell } from '@/components/3d/SceneShell';
-import { ParticleMorph } from '@/components/3d/ParticleMorph';
+import { ParticleMorph, type ParticlePlacement } from '@/components/3d/ParticleMorph';
+import { Starfield } from '@/components/3d/Starfield';
+import { CameraRig } from '@/components/3d/CameraRig';
 import { HelixScene, HELIX_LEVELS } from '@/components/3d/HelixScene';
 import { TAXONOMIC_RANKS, rankIndexForRung } from '@/components/3d/taxonomyRanks';
 import { BioEarth } from '@/components/3d/BioEarth/BioEarth';
@@ -23,9 +26,29 @@ import { Eyebrow, Panel } from '@/components/layout/Page';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { cn } from '@/lib/cn';
+import { dur, ease } from '@/lib/motion';
 
 // Loài mở màn trên địa cầu: chọn theo tên khoa học vì id trong DB thật có thể khác seed
 const DEFAULT_SELECTED_SPECIES = 'Ambystoma mexicanum';
+
+// Màn ngang: thiên hà bên phải, chữ bên trái như mẫu R-01. Màn dọc: thiên hà ở nửa trên, chữ ở dưới,
+// để hạt không bao giờ chạy ngang qua tiêu đề
+function heroGalaxyPlacement({ width, height }: { width: number; height: number }): ParticlePlacement {
+  if (width >= height * 1.1) {
+    return { x: width * 0.2, y: 0.1, scale: Math.min(1, height / 6.4) };
+  }
+  return { x: 0, y: height * 0.2, scale: Math.min(0.72, width / 5) };
+}
+
+// BlurFade (tài liệu 02 mục 6): chữ hero hiện lần lượt khi mở trang
+const heroStagger: Variants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
+};
+const heroItem: Variants = {
+  hidden: { opacity: 0, y: 24, filter: 'blur(8px)' },
+  show: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: dur.scene, ease: ease.out } },
+};
 
 /** Cuộn tới chương; người dùng bật giảm chuyển động thì nhảy thẳng, không cuộn mượt */
 function scrollToChapter(idx: number): void {
@@ -87,10 +110,9 @@ export default function Home(): React.JSX.Element {
       if (chapter1El) {
         const rect = chapter1El.getBoundingClientRect();
         const total = rect.height - windowH;
-        if (total > 0) {
-          const p = Math.min(1, Math.max(0, -rect.top / total));
-          helixProgressRef.current = p;
-        }
+        // Màn rộng khối dính cao hơn màn hình; màn hẹp không dính thì đo theo lúc khối đi qua màn hình
+        const p = total > 0 ? -rect.top / total : (windowH - rect.top) / (windowH + rect.height);
+        helixProgressRef.current = Math.min(1, Math.max(0, p));
       }
 
       // Nhận diện chương hiện tại qua vị trí cuộn
@@ -172,72 +194,102 @@ export default function Home(): React.JSX.Element {
       </nav>
 
       {/* 2. CHƯƠNG 0: KHỞI NGUYÊN BIONEXUS (Hero Genesis) */}
-      <section id="chapter-0" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section id="chapter-0" className="relative flex min-h-[100svh] overflow-hidden">
         {/* Nền 3D Hạt Biến Hình ParticleMorph */}
         <div className="absolute inset-0 z-0">
           <SceneShell
             id="home-genesis"
             posterSrc="posters/home-genesis.webp"
-            posterAlt="Khởi nguyên BioNexus - Vũ điệu hạt sáng sinh học"
+            posterAlt="Thiên hà hạt sáng xoắn ốc màu ngọc bích trên nền trời sao"
+            posterClassName="max-lg:object-[78%_50%]"
             className="h-full w-full"
-            srDescription="Vũ điệu hạt sáng chuyển đổi giữa thiên hà, ADN và phiến lá quang hợp sinh học."
+            srDescription="Thiên hà hạt sáng xoắn ốc. Khi cuộn xuống, hạt lần lượt đổi thành chuỗi ADN, phiến lá và địa cầu."
           >
             {(_tier, handleFirstFrame) => (
               <Canvas
                 dpr={config.dpr}
                 gl={{ antialias: config.antialias }}
-                camera={{ position: [0, 0, 7], fov: 45 }}
+                camera={{ position: [0, 0, 9], fov: 45 }}
                 onCreated={() => handleFirstFrame?.()}
               >
-                <ParticleMorph progress={genesisProgressRef} />
+                <Starfield />
+                <ParticleMorph progress={genesisProgressRef} placement={heroGalaxyPlacement} />
+                <CameraRig distance={9} />
               </Canvas>
             )}
           </SceneShell>
         </div>
 
-        {/* Lớp phủ mờ bảo đảm độ tương phản chữ WCAG 2.2 AA */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#020605]/40 via-transparent to-[#020605] pointer-events-none z-10" />
+        {/* Lớp phủ cho chữ đạt tương phản AA: màn dọc tối dần từ dưới lên, màn ngang tối từ trái sang */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#020605] via-[#020605]/70 to-transparent lg:bg-gradient-to-r lg:from-black/70 lg:via-black/15 lg:to-transparent"
+        />
+        {/* Mép dưới hoà vào nền chương sau thay vì cắt ngang */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-32 bg-gradient-to-b from-transparent to-[#020605]"
+        />
 
-        {/* Nội dung tiêu đề chính */}
-        <div className="relative z-20 max-w-4xl text-center px-6 pt-24 pb-16">
-          <Eyebrow className="mb-6">Bách khoa sinh học · Sàn sinh vật cảnh</Eyebrow>
+        {/* Khối chữ không nhận con trỏ để rê chuột qua chữ vẫn đẩy được hạt phía sau; chỉ hàng nút nhận lại */}
+        <motion.div
+          initial="hidden"
+          animate="show"
+          variants={heroStagger}
+          className="pointer-events-none relative z-20 flex w-full flex-col justify-end px-4 pt-28 pb-12 sm:px-6 lg:justify-center lg:px-10 lg:pb-16"
+        >
+          <div className="max-w-2xl">
+            <motion.div variants={heroItem}>
+              <Eyebrow className="max-sm:tracking-[0.12em]">Bách khoa sinh học · Sàn sinh vật cảnh</Eyebrow>
+            </motion.div>
 
-          <h1 className="text-[44px] leading-[0.95] font-semibold tracking-[-0.05em] text-fg sm:text-[64px] lg:text-[84px]">
-            Mọi loài đều có{' '}
-            <span className="bg-gradient-to-r from-aurora via-accent-2 to-accent bg-clip-text font-serif font-medium text-transparent italic">
-              quỹ đạo riêng.
-            </span>
-          </h1>
+            <motion.h1
+              variants={heroItem}
+              className="mt-5 text-[44px] leading-[1.02] font-semibold tracking-[-0.05em] text-fg sm:text-[64px] lg:text-[84px]"
+            >
+              <span className="block">Mọi loài đều có</span>{' '}
+              <span className="block w-fit bg-gradient-to-r from-aurora via-accent-2 to-accent bg-clip-text pb-[0.08em] text-transparent">
+                quỹ đạo riêng.
+              </span>
+            </motion.h1>
 
-          {/* Trên màn hẹp dải hạt chạy ngang qua đoạn này: thêm nền mờ để chữ vẫn đọc được */}
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-fg-2 max-md:rounded-[20px] max-md:bg-bg/75 max-md:px-4 max-md:py-3 max-md:backdrop-blur-sm sm:text-lg">
-            Cuộn xuống để đi từ một thiên hà hạt sáng đến từng loài: chúng sống ở đâu, thuộc nhánh nào, và cửa hàng nào đang nhân giống có giấy phép.
-          </p>
+            <motion.p variants={heroItem} className="mt-5 max-w-xl text-base leading-relaxed text-fg-2 sm:text-lg">
+              Cuộn xuống để đi từ một thiên hà hạt sáng đến từng loài: chúng sống ở đâu, thuộc nhánh nào, và cửa hàng nào đang nhân giống có giấy phép.
+            </motion.p>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-            <ButtonLink to="/taxonomy" size="lg" pill>
-              <Compass className="size-4" aria-hidden="true" />
-              <span>Khám phá cây phân loại</span>
-            </ButtonLink>
-            <ButtonLink to="/products" size="lg" variant="secondary" pill className="backdrop-blur-md">
-              <ShoppingBag className="size-4" aria-hidden="true" />
-              <span>Vào cửa hàng</span>
-            </ButtonLink>
+            <motion.div variants={heroItem} className="pointer-events-auto mt-8 flex flex-wrap items-center gap-3">
+              <ButtonLink to="/taxonomy" size="lg" pill>
+                <Compass className="size-4" aria-hidden="true" />
+                <span>Khám phá cây phân loại</span>
+              </ButtonLink>
+              <ButtonLink to="/products" size="lg" variant="secondary" pill className="backdrop-blur-md">
+                <ShoppingBag className="size-4" aria-hidden="true" />
+                <span>Vào cửa hàng</span>
+              </ButtonLink>
+            </motion.div>
+
+            {/* Màn cảm ứng không có chuột: chỉ gợi ý những gì làm được bằng tay */}
+            <motion.p variants={heroItem} className="mt-8 text-sm font-medium text-fg-3">
+              <span className="pointer-coarse:hidden">Cuộn để hạt đổi hình · rê chuột để đẩy hạt · bấm để tạo sóng</span>
+              <span className="hidden pointer-coarse:inline">Cuộn để hạt đổi hình · chạm để tạo sóng</span>
+            </motion.p>
           </div>
-
-          <p className="mt-12 text-sm text-fg-3">Cuộn để đổi chương · Rê chuột để đẩy hạt · Bấm để tạo sóng</p>
-        </div>
+        </motion.div>
       </section>
 
       {/* 3. CHƯƠNG 1: BÁCH KHOA SỰ SỐNG (Taxonomy Helix Sticky Story) */}
-      <section id="chapter-1" className="relative min-h-[160vh] border-t border-line py-24 px-4 sm:px-6 lg:px-10">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-12">
+      {/* Cuộn dính (mẫu 3, tài liệu 02): màn rộng giữ nội dung đứng yên suốt 100vh cuộn để camera đi dọc 14 bậc.
+          Bản cũ cao 160vh mà không dính nên cuộn xuống để lại một khoảng đen lớn */}
+      <section id="chapter-1" className="relative border-t border-line px-4 py-24 sm:px-6 lg:h-[200vh] lg:px-10 lg:py-0">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:sticky lg:top-0 lg:h-screen lg:grid-cols-12 lg:pt-16">
           {/* Cột thông tin bên trái */}
           <div className="lg:col-span-5 z-20">
             <Eyebrow>Chương 01 · Phả hệ sự sống</Eyebrow>
 
+            {/* Cụm nhấn xuống dòng riêng: để tự ngắt thì chữ "Chi" rơi lẻ một mình xuống dòng dưới */}
             <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
-              Sáu cấp, từ Giới tới <em className="font-serif font-medium text-accent">từng Chi</em>
+              Sáu cấp, từ Giới{' '}
+              <em className="block font-serif text-[1.08em] font-medium tracking-[-0.01em] text-accent">tới từng Chi</em>
             </h2>
 
             <p className="mt-5 text-base leading-relaxed text-fg-2 md:text-lg">
@@ -272,7 +324,7 @@ export default function Home(): React.JSX.Element {
             </div>
           </div>
 
-          {/* Cột hiển thị Chuỗi Xoắn 3D bên phải */}
+          {/* Cột hiển thị Chuỗi Xoắn 3D bên phải. Chuỗi nằm gọn trong thẻ: căn giữa và lùi camera để thấy cả hai sợi */}
           <div className="relative h-[480px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[580px] lg:col-span-7">
             <SceneShell
               id="home-helix"
@@ -285,7 +337,7 @@ export default function Home(): React.JSX.Element {
                 <Canvas
                   dpr={config.dpr}
                   gl={{ antialias: config.antialias }}
-                  camera={{ position: [0, 0, 7.5], fov: 42 }}
+                  camera={{ position: [0, 0.4, 14], fov: 42 }}
                   onCreated={() => handleFirstFrame?.()}
                 >
                   <ambientLight intensity={0.5} />
@@ -306,115 +358,125 @@ export default function Home(): React.JSX.Element {
         <div className="mx-auto mb-8 max-w-3xl text-center">
           <Eyebrow>Chương 02 · Hành tinh BioNexus</Eyebrow>
           <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
-            Nhân giống tại Việt Nam, <em className="font-serif font-medium text-accent">gốc gác khắp thế giới</em>
+            Nhân giống tại Việt Nam,{' '}
+            <em className="block font-serif text-[1.08em] font-medium tracking-[-0.01em] text-accent">
+              gốc gác khắp thế giới
+            </em>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-fg-2">
             Khám phá {earthMarkers.length} loài sinh vật biểu tượng và các cung đường nối nơi bản địa với 3 trung tâm nhân giống tại Việt Nam.
           </p>
         </div>
 
-        {/* Thanh chọn nhanh 9 loài biểu tượng */}
-        <div
-          role="group"
-          aria-label="Chọn loài trên địa cầu"
-          className="mx-auto mb-6 flex max-w-6xl items-center gap-2 overflow-x-auto pt-1 pb-3 scrollbar-none md:flex-wrap md:justify-center md:overflow-visible"
-        >
-          {earthMarkers.map((sp) => {
-            const isSelected = selectedMarker?.scientificName === sp.scientificName;
-            const dotColor = IUCN_MARKER_COLORS[sp.conservationStatus] || '#00D29E';
-
-            return (
-              <button
-                key={sp.scientificName}
-                type="button"
-                aria-pressed={isSelected}
-                onClick={() => setSelectedScientificName(sp.scientificName)}
-                className={cn(
-                  'flex h-9 shrink-0 items-center gap-2 rounded-full border px-4 text-sm whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
-                  isSelected
-                    ? 'border-accent bg-accent/15 text-fg'
-                    : 'border-line text-fg-2 hover:border-line-strong hover:text-fg'
-                )}
-              >
-                <span
-                  className="size-2 rounded-full shrink-0"
-                  style={{ backgroundColor: dotColor }}
-                  aria-hidden="true"
-                />
-                <span>{sp.displayName}</span>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Vùng hiển thị Quả Địa Cầu BioEarth 7 Lớp */}
-        <div className="relative mx-auto h-[440px] max-w-6xl overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[620px]">
-          <SceneShell
-            id="home-earth"
-            posterSrc="posters/home-earth.webp"
-            posterAlt="Quả địa cầu BioEarth nối nơi bản địa của các loài với trại nhân giống tại Việt Nam"
-            className="h-full w-full"
-            srDescription="Quả địa cầu 3D hiển thị nơi bản địa của các loài sinh vật cảnh và cung bay về Việt Nam. Thông tin loài đang chọn có ở thẻ bên dưới địa cầu."
-          >
-            {(_tier, handleFirstFrame) => (
-              <Canvas
-                dpr={config.dpr}
-                gl={{ antialias: config.antialias }}
-                camera={{ position: [0, 0.5, 6.2], fov: 42 }}
-                onCreated={() => handleFirstFrame?.()}
-              >
-                <ambientLight intensity={0.4} />
-                <directionalLight position={[5, 3, 5]} intensity={1.2} />
-                <BioEarth
-                  speciesList={earthMarkers}
-                  breedingHubs={VIETNAM_BREEDING_HUBS}
-                  selectedScientificName={selectedMarker?.scientificName}
-                  onSelectSpecies={setSelectedScientificName}
-                />
-                <OrbitControls
-                  enableZoom={false}
-                  minPolarAngle={Math.PI / 4}
-                  maxPolarAngle={(3 * Math.PI) / 4}
-                />
-              </Canvas>
-            )}
-          </SceneShell>
-        </div>
-
-        {/* Thẻ loài đang chọn bằng DOM thật: tooltip trong canvas bị ẩn với trình đọc màn hình và ở chế độ ảnh tĩnh */}
-        {selectedMarker && (
+        {/* Màn rộng: danh sách loài bên trái, địa cầu bên phải (tài liệu 03 khối 2). Màn hẹp: hàng chip cuộn ngang */}
+        <div className="mx-auto grid max-w-6xl gap-4 lg:grid-cols-[280px_minmax(0,1fr)]">
           <div
-            aria-live="polite"
-            className="mx-auto mt-4 flex max-w-6xl flex-col gap-4 rounded-[20px] border border-line bg-surface p-4 sm:flex-row sm:items-center md:p-5"
+            role="group"
+            aria-label="Chọn loài trên địa cầu"
+            className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 pt-1 pb-2 scrollbar-none sm:-mx-6 sm:px-6 lg:mx-0 lg:flex-col lg:items-stretch lg:gap-1 lg:overflow-visible lg:p-0"
           >
-            <img
-              src={selectedMarker.heroPhoto}
-              alt={selectedMarker.displayName}
-              className="size-16 shrink-0 rounded-xl object-cover"
-              loading="lazy"
-            />
-            <div className="min-w-0 flex-1">
-              <div className="flex flex-wrap items-center gap-2">
-                <p className="text-base font-semibold text-fg">{selectedMarker.displayName}</p>
-                <IucnBadge code={selectedMarker.conservationStatus} size="sm" />
-              </div>
-              <p className="font-serif text-base text-accent-2 italic">{selectedMarker.scientificName}</p>
-              <p className="mt-1 flex items-center gap-1.5 text-sm text-fg-2">
-                <MapPin className="size-3.5 text-accent shrink-0" aria-hidden="true" />
-                <span>
-                  Bản địa: {selectedMarker.origin.place}
-                  {selectedHub ? ` · Nhân giống: ${selectedHub.shopName} (${selectedHub.city})` : ''}
-                </span>
-              </p>
+            {earthMarkers.map((sp) => {
+              const isSelected = selectedMarker?.scientificName === sp.scientificName;
+              const dotColor = IUCN_MARKER_COLORS[sp.conservationStatus] || '#00D29E';
+
+              return (
+                <button
+                  key={sp.scientificName}
+                  type="button"
+                  aria-pressed={isSelected}
+                  onClick={() => setSelectedScientificName(sp.scientificName)}
+                  className={cn(
+                    'flex h-10 shrink-0 items-center gap-2.5 rounded-full border px-4 text-left text-sm whitespace-nowrap transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent lg:h-auto lg:rounded-md lg:py-2.5',
+                    isSelected
+                      ? 'border-accent/60 bg-accent/10 text-fg'
+                      : 'border-line text-fg-2 hover:border-line-strong hover:text-fg lg:border-transparent lg:hover:bg-surface'
+                  )}
+                >
+                  <span
+                    className="size-2 rounded-full shrink-0"
+                    style={{ backgroundColor: dotColor }}
+                    aria-hidden="true"
+                  />
+                  <span className="min-w-0">
+                    <span className="block font-medium">{sp.displayName}</span>
+                    <span className="hidden truncate text-sm text-fg-3 lg:block">{sp.origin.place}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          <div className="min-w-0">
+            {/* Vùng hiển thị Quả Địa Cầu BioEarth 7 Lớp. Camera lùi xa để cung bay cao nhất vẫn nằm trong khung */}
+            <div className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[560px]">
+              <SceneShell
+                id="home-earth"
+                posterSrc="posters/home-earth.webp"
+                posterAlt="Quả địa cầu BioEarth nối nơi bản địa của các loài với trại nhân giống tại Việt Nam"
+                className="h-full w-full"
+                srDescription="Quả địa cầu 3D hiển thị nơi bản địa của các loài sinh vật cảnh và cung bay về Việt Nam. Thông tin loài đang chọn có ở thẻ bên dưới địa cầu."
+              >
+                {(_tier, handleFirstFrame) => (
+                  <Canvas
+                    dpr={config.dpr}
+                    gl={{ antialias: config.antialias }}
+                    camera={{ position: [0, 0.4, 8.6], fov: 42 }}
+                    onCreated={() => handleFirstFrame?.()}
+                  >
+                    <ambientLight intensity={0.4} />
+                    <directionalLight position={[5, 3, 5]} intensity={1.2} />
+                    <BioEarth
+                      speciesList={earthMarkers}
+                      breedingHubs={VIETNAM_BREEDING_HUBS}
+                      selectedScientificName={selectedMarker?.scientificName}
+                      onSelectSpecies={setSelectedScientificName}
+                    />
+                    <OrbitControls
+                      enableZoom={false}
+                      minPolarAngle={Math.PI / 4}
+                      maxPolarAngle={(3 * Math.PI) / 4}
+                    />
+                  </Canvas>
+                )}
+              </SceneShell>
             </div>
-            {selectedMarker.speciesId != null && (
-              <ButtonLink to={`/species/${selectedMarker.speciesId}`} variant="secondary" pill className="shrink-0">
-                <span>Xem hồ sơ loài</span>
-                <ArrowRight className="size-4" aria-hidden="true" />
-              </ButtonLink>
+
+            {/* Thẻ loài đang chọn bằng DOM thật: tooltip trong canvas bị ẩn với trình đọc màn hình và ở chế độ ảnh tĩnh */}
+            {selectedMarker && (
+              <div
+                aria-live="polite"
+                className="mt-4 flex flex-col gap-4 rounded-[20px] border border-line bg-surface p-4 sm:flex-row sm:items-center md:p-5"
+              >
+                <img
+                  src={selectedMarker.heroPhoto}
+                  alt={selectedMarker.displayName}
+                  className="size-16 shrink-0 rounded-xl object-cover"
+                  loading="lazy"
+                />
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <p className="text-base font-semibold text-fg">{selectedMarker.displayName}</p>
+                    <IucnBadge code={selectedMarker.conservationStatus} size="sm" />
+                  </div>
+                  <p className="font-serif text-base text-accent-2 italic">{selectedMarker.scientificName}</p>
+                  <p className="mt-1 flex items-center gap-1.5 text-sm text-fg-2">
+                    <MapPin className="size-3.5 text-accent shrink-0" aria-hidden="true" />
+                    <span>
+                      Bản địa: {selectedMarker.origin.place}
+                      {selectedHub ? ` · Nhân giống: ${selectedHub.shopName} (${selectedHub.city})` : ''}
+                    </span>
+                  </p>
+                </div>
+                {selectedMarker.speciesId != null && (
+                  <ButtonLink to={`/species/${selectedMarker.speciesId}`} variant="secondary" pill className="shrink-0">
+                    <span>Xem hồ sơ loài</span>
+                    <ArrowRight className="size-4" aria-hidden="true" />
+                  </ButtonLink>
+                )}
+              </div>
             )}
           </div>
-        )}
+        </div>
 
         {/* Chân trang Chương 2: Danh sách 3 Hub tiếp nhận */}
         {/* Ba trung tâm nhân giống: một dải chia cột bằng đường kẻ, không thêm ba khung riêng */}
@@ -439,7 +501,10 @@ export default function Home(): React.JSX.Element {
             <div className="max-w-2xl">
               <Eyebrow>Chương 03 · Sàn đã kiểm duyệt</Eyebrow>
               <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
-                Cá thể khỏe mạnh, <em className="font-serif font-medium text-accent">pháp lý rõ ràng</em>
+                Cá thể khỏe mạnh,{' '}
+                <em className="block font-serif text-[1.08em] font-medium tracking-[-0.01em] text-accent">
+                  pháp lý rõ ràng
+                </em>
               </h2>
               <p className="mt-4 text-base leading-relaxed text-fg-2">
                 Chỉ cá thể nhân giống có giấy tờ nguồn gốc. Mỗi sản phẩm gắn đúng một loài trong bách khoa và qua kiểm duyệt trước khi lên sàn.

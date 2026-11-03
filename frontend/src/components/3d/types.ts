@@ -47,6 +47,8 @@ export interface SceneShellProps {
   posterAlt: string;
   minTier?: QualityTier;
   className?: string;
+  /** Thêm class cho ảnh poster, ví dụ object-position để giữ chủ thể trong khung ở màn dọc */
+  posterClassName?: string;
   children: (tier: QualityTier, onFirstFrame: () => void) => ReactNode;
   srDescription?: string;
 }

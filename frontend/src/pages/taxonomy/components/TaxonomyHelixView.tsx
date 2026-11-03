@@ -56,7 +56,7 @@ export const TaxonomyHelixView: React.FC<TaxonomyHelixViewProps> = ({
 
   if (total === 0) {
     return (
-      <div className="flex h-[600px] flex-col items-center justify-center rounded-2xl border border-line bg-surface p-8 text-center text-xs text-fg-3">
+      <div className="flex h-[420px] flex-col items-center justify-center rounded-[20px] border border-line bg-surface p-8 text-center text-sm text-fg-3">
         Nhánh này chưa có loài nào để hiển thị trên Chuỗi xoắn 3D.
       </div>
     );
@@ -79,90 +79,88 @@ export const TaxonomyHelixView: React.FC<TaxonomyHelixViewProps> = ({
         }
       }}
       className={cn(
-        'relative h-[650px] w-full overflow-hidden rounded-2xl border border-line bg-bg-deep focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2',
+        'relative w-full overflow-hidden rounded-[20px] border border-line bg-bg-deep focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2',
         className
       )}
     >
       {/* Cảnh 3D chuỗi xoắn kép ADN bọc trong SceneShell */}
-      <SceneShell
-        id="taxonomy-helix"
-        posterSrc="posters/home-helix.webp"
-        posterAlt={`Chuỗi xoắn 3D · ${activeNode.scientificName}`}
-        srDescription="Chuỗi xoắn kép ADN phát quang ngọc bích mô phỏng các bậc phân loại học."
-        className="h-full w-full"
-      >
-        {(_tier, handleFirstFrame) => (
-          <Canvas
-            dpr={config.dpr}
-            gl={{ antialias: config.antialias }}
-            camera={{ position: [0, 0, 7.5], fov: 42 }}
-            onCreated={() => handleFirstFrame?.()}
-          >
-            <ambientLight intensity={0.5} />
-            <pointLight position={[5, 5, 5]} intensity={1.5} color="#5eead4" />
-            <HelixScene progress={progressRef} />
-          </Canvas>
-        )}
-      </SceneShell>
+      <div className="relative h-[420px] md:h-[650px]">
+        <SceneShell
+          id="taxonomy-helix"
+          posterSrc="posters/home-helix.webp"
+          posterAlt={`Chuỗi xoắn 3D · ${activeNode.scientificName}`}
+          srDescription="Chuỗi xoắn kép ADN phát quang ngọc bích mô phỏng các bậc phân loại học."
+          className="h-full w-full"
+        >
+          {(_tier, handleFirstFrame) => (
+            <Canvas
+              dpr={config.dpr}
+              gl={{ antialias: config.antialias }}
+              camera={{ position: [0, 0, 14], fov: 42 }}
+              onCreated={() => handleFirstFrame?.()}
+            >
+              <ambientLight intensity={0.5} />
+              <pointLight position={[5, 5, 5]} intensity={1.5} color="#5eead4" />
+              {/* Lệch phải để thẻ loài ở góc trái dưới không che chuỗi */}
+              <HelixScene progress={progressRef} offsetX={1.4} />
+            </Canvas>
+          )}
+        </SceneShell>
+      </div>
 
-      {/* Thẻ kính nổi: loài đang chọn trên chuỗi (DOM thật nên trình đọc màn hình đọc được) */}
+      {/* Thẻ loài đang chọn (DOM thật nên trình đọc màn hình đọc được).
+          Màn rộng: thẻ kính nổi góc trái dưới. Màn hẹp: nằm dưới khung 3D để không che nửa chuỗi */}
       {currentSpecies && currentNames && (
         <div
           aria-live="polite"
-          className="absolute bottom-6 left-6 z-20 w-80 rounded-2xl border border-white/15 bg-black/75 p-5 shadow-2xl backdrop-blur-xl text-white"
+          className="z-20 border-t border-line bg-black/40 p-5 text-white md:absolute md:bottom-6 md:left-6 md:w-80 md:rounded-md md:border md:border-white/15 md:bg-black/75 md:shadow-2xl md:backdrop-blur-xl"
         >
-          <div className="flex items-center justify-between pb-2 border-b border-white/10">
-            <span className="text-[10px] uppercase tracking-wider text-emerald-400 font-semibold">
-              Loài đang chọn trên chuỗi
-            </span>
-            <IucnBadge code={currentSpecies.conservationStatus} size="sm" />
+          <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-2.5">
+            <span className="text-xs font-semibold tracking-wider text-accent uppercase">Loài đang chọn</span>
+            <IucnBadge code={currentSpecies.conservationStatus} size="sm" className="shrink-0" />
           </div>
 
-          <div className="mt-3 flex gap-3 items-center">
+          <div className="mt-3 flex items-center gap-3">
             {currentExtra && (
               <img
                 src={`photos/${currentExtra.slug}/hero-960.webp`}
                 alt={currentNames.displayName}
-                className="size-14 rounded-xl object-cover border border-white/15 shrink-0"
+                className="size-14 shrink-0 rounded-xl border border-white/15 object-cover"
               />
             )}
             <div className="min-w-0 flex-1">
-              <h4 className="text-sm font-bold truncate text-white">{currentNames.displayName}</h4>
-              <p className="font-serif italic text-xs text-emerald-300 truncate">
-                {currentSpecies.scientificName}
-              </p>
+              <h4 className="truncate text-base font-semibold text-white">{currentNames.displayName}</h4>
+              <p className="truncate font-serif text-sm text-accent-2 italic">{currentSpecies.scientificName}</p>
               {currentExtra?.origin?.place && (
-                <p className="text-[11px] text-white/70 truncate mt-0.5">
-                  {currentExtra.origin.place}
-                </p>
+                <p className="mt-0.5 truncate text-xs text-white/70">{currentExtra.origin.place}</p>
               )}
             </div>
           </div>
 
           {/* Nhiệt độ & Cá thể bán */}
-          <div className="mt-3 grid grid-cols-2 gap-2 text-[11px] font-mono">
-            <div className="rounded-lg bg-white/5 p-2 flex items-center gap-1.5 border border-white/5">
-              <Thermometer className="size-3.5 text-emerald-400 shrink-0" aria-hidden="true" />
-              <span className="truncate">
+          <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
+            <div className="flex items-center gap-1.5 rounded-lg border border-white/5 bg-white/5 p-2">
+              <Thermometer className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
+              <span className="truncate font-mono">
                 {currentSpecs?.tempMin != null ? `${currentSpecs.tempMin}–${currentSpecs.tempMax}°C` : 'Chưa rõ'}
               </span>
             </div>
 
-            <div className="rounded-lg bg-white/5 p-2 flex items-center gap-1.5 border border-white/5">
-              <ShoppingBag className="size-3.5 text-emerald-400 shrink-0" aria-hidden="true" />
+            <div className="flex items-center gap-1.5 rounded-lg border border-white/5 bg-white/5 p-2">
+              <ShoppingBag className="size-3.5 shrink-0 text-accent" aria-hidden="true" />
               <span className="truncate">
                 {currentProdCount > 0 ? `${currentProdCount} cá thể` : 'Chưa có cá thể bán'}
               </span>
             </div>
           </div>
 
-          <div className="mt-4 pt-1">
+          <div className="mt-4">
             <Link
               to={`/species/${currentSpecies.id}`}
-              className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-lg bg-accent px-3 text-xs font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
+              className="inline-flex h-10 w-full items-center justify-center gap-1.5 rounded-full bg-accent px-4 text-sm font-semibold text-accent-ink shadow-[var(--glow-accent-btn)] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
             >
-              Xem hồ sơ loài chi tiết
-              <ExternalLink className="size-3" aria-hidden="true" />
+              Xem hồ sơ loài
+              <ExternalLink className="size-3.5" aria-hidden="true" />
             </Link>
           </div>
         </div>
