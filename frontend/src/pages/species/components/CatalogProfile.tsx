@@ -155,6 +155,32 @@ export const CatalogProfile: React.FC<CatalogProfileProps> = ({ profile, display
         </Section>
       )}
 
+      {(profile.vaccinationVi || profile.legalNoteVi || profile.trade.needsReview) && (
+        <Section title="Tiêm phòng và pháp lý" description="Những việc cần làm trước và sau khi đón vật nuôi về nhà ở Việt Nam.">
+          <div className={cn('grid gap-4', profile.vaccinationVi && (profile.legalNoteVi || profile.trade.needsReview) && 'lg:grid-cols-2')}>
+            {profile.vaccinationVi && (
+              <Panel>
+                <h3 className="text-lg font-semibold text-fg">Lịch tiêm phòng cơ bản</h3>
+                <p className="mt-3 text-base leading-relaxed text-fg-2">{profile.vaccinationVi}</p>
+              </Panel>
+            )}
+            {(profile.legalNoteVi || profile.trade.needsReview) && (
+              <Panel>
+                <h3 className="text-lg font-semibold text-fg">Lưu ý pháp lý</h3>
+                {profile.legalNoteVi && <p className="mt-3 text-base leading-relaxed text-fg-2">{profile.legalNoteVi}</p>}
+                {/* Loài cần chứng minh nguồn gốc: tin đăng bán luôn qua kiểm duyệt */}
+                {profile.trade.needsReview && (
+                  <p className="mt-3 border-l-2 border-warm pl-3 text-sm leading-relaxed text-fg">
+                    <span className="font-semibold">Tin đăng bán phải qua kiểm duyệt.</span>{' '}
+                    {profile.trade.reasonVi}
+                  </p>
+                )}
+              </Panel>
+            )}
+          </div>
+        </Section>
+      )}
+
       {profile.similarSpecies.length > 0 && (
         <Section title="Loài dễ nhầm" description="Những loài trông gần giống, cần xem kỹ trước khi mua hoặc định danh.">
           <ul className="flex flex-wrap gap-2">

@@ -19,6 +19,7 @@ import { useSpeciesDetail } from '@/api/queries/useSpeciesQueries';
 import { useCart } from '@/api/queries/useCartQueries';
 import { useMe, useAuthState } from '@/api/queries/useAuthQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
+import { useCatalogProductExtra } from '@/api/catalog';
 import { PRODUCT_PLACEHOLDER_IMAGE } from '@/api/adapters';
 import { ApiError } from '@/api/errors';
 import { SHIPPING_AND_CARE_COPY } from '@/content/copy';
@@ -49,6 +50,18 @@ export default function ProductDetailPage(): React.JSX.Element {
   const { data: species } = useSpeciesDetail(product?.speciesId || 0, {
     enabled: !!product?.speciesId,
   });
+  // Thông tin giống (chó, mèo...) nằm ngoài hợp đồng API, chỉ có ở sản phẩm catalog
+  const { data: breed } = useCatalogProductExtra(product?.productName);
+  const breedRows = breed
+    ? [
+        { label: 'Giống', value: breed.breedEn && breed.breedEn !== breed.breedVi ? `${breed.breedVi} (${breed.breedEn})` : breed.breedVi },
+        { label: 'Tính cách', value: breed.temperamentVi },
+        { label: 'Khi trưởng thành', value: breed.sizeVi },
+        { label: 'Tuổi thọ', value: breed.lifespanVi },
+        { label: 'Chăm sóc', value: breed.careVi },
+        { label: 'Nguồn gốc giống', value: breed.originVi },
+      ].filter((r): r is { label: string; value: string } => Boolean(r.value))
+    : [];
 
   const auth = useAuthState();
   const token = auth.token;
@@ -343,7 +356,7 @@ export default function ProductDetailPage(): React.JSX.Element {
                 <i className="font-serif text-lg text-fg-2">{product.speciesScientificName}</i>
               )
             )}
-            {product.conservationStatus && <IucnBadge code={product.conservationStatus} size="md" />}
+            {product.conservationStatus && <IucnBadge code={product.conservationStatus} domestic={product.isDomestic} size="md" />}
           </div>
 
           <div className="mt-8">
@@ -444,6 +457,16 @@ export default function ProductDetailPage(): React.JSX.Element {
       <div className="mt-16 grid grid-cols-1 gap-x-14 border-t border-line lg:grid-cols-2">
         <Section title="Mô tả cá thể" className="border-b border-line lg:border-b-0">
           <p className="leading-relaxed whitespace-pre-line text-fg-2">{product.description}</p>
+          {breedRows.length > 0 && (
+            <dl className="mt-6 divide-y divide-line border-y border-line">
+              {breedRows.map((r) => (
+                <div key={r.label} className="grid gap-1 py-3 sm:grid-cols-[150px_minmax(0,1fr)] sm:gap-6">
+                  <dt className="text-sm text-fg-3">{r.label}</dt>
+                  <dd className="text-sm text-fg md:text-base">{r.value}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
           <p className="mt-4 text-sm leading-relaxed text-fg-3">
             Khi nhận hàng, hãy quay video mở hộp liền mạch từ lúc gói còn niêm phong tới khi kiểm tra cá thể để được
             bảo hành sức khỏe trong 48 giờ.

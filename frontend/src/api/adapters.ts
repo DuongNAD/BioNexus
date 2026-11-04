@@ -19,6 +19,8 @@ export interface SpeciesViewModel extends SpeciesDto {
   cardPhoto: string;
   /** true khi loài thuộc catalog mở rộng (hồ sơ chi tiết nằm ở public/catalog) */
   isCatalog: boolean;
+  /** Vật nuôi thuần hoá (chó nhà, mèo nhà...): IUCN không đánh giá, mức trong DB chỉ là giá trị giữ chỗ */
+  isDomestic: boolean;
   galleryPhotos: string[];
   parsedSpecs: ParsedEnvironmentSpecs;
   // Các trường tạp chí khoa học mở rộng
@@ -42,6 +44,8 @@ export interface ProductViewModel extends ProductDto {
   isOutOfStock: boolean;
   displayShopName: string;
   displayImage: string;
+  /** Sản phẩm thuộc loài vật nuôi thuần hoá: hiện nhãn Vật nuôi thay cho mức IUCN */
+  isDomestic: boolean;
 }
 
 /**
@@ -161,6 +165,7 @@ export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
     heroPhoto,
     cardPhoto: catalogPortrait ?? heroPhoto,
     isCatalog: !!entry,
+    isDomestic: entry?.d === 1,
     galleryPhotos: extras?.galleryPhotoIds
       ? extras.galleryPhotoIds.map((id) => photoIdToLocalWebp(id, extras.slug))
       : [catalogHero, catalogPortrait].filter((p): p is string => !!p).concat(catalogHero || catalogPortrait ? [] : [fallbackImage]),
@@ -197,5 +202,7 @@ export function toProductView(dto: ProductDto, sellerMap?: Record<number, Seller
     isOutOfStock: dto.stockQuantity <= 0 || dto.status === 'SOLD_OUT',
     displayShopName: shopName || `Cửa hàng #${dto.sellerProfileId}`,
     displayImage,
+    // Chỉ mục catalog đã được các query sản phẩm tải trước (xem loadCatalogIndex)
+    isDomestic: !!dto.speciesScientificName && getCatalogEntry(dto.speciesScientificName)?.d === 1,
   };
 }

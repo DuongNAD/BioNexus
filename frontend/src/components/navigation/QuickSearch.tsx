@@ -107,11 +107,12 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
         categoryLabel: 'Bách khoa loài',
         title: sp.displayName,
         subtitle: `${sp.scientificName} · ${sp.englishName || sp.commonName}`,
-        iucnCode: sp.conservationStatus,
+        // Vật nuôi thuần hoá không có mức IUCN thật, không hiện huy hiệu giữ chỗ
+        iucnCode: sp.isDomestic ? undefined : sp.conservationStatus,
         imageUrl: sp.cardPhoto,
         iconName: 'species',
         url: `/species/${sp.id}`,
-        keywords: [sp.scientificName, sp.commonName, sp.displayName, sp.englishName, sp.slug, sp.group, sp.conservationStatus].filter(Boolean),
+        keywords: [sp.scientificName, sp.commonName, sp.displayName, sp.englishName, sp.slug, sp.group, sp.isDomestic ? 'vật nuôi' : sp.conservationStatus].filter(Boolean),
       });
     });
 

@@ -14,6 +14,7 @@ export type CatalogGroup =
   | 'Cây ăn thịt'
   | 'Cây cảnh'
   | 'Thú'
+  | 'Thú cưng'
   | 'Chim';
 
 /** Một dòng trong catalog/index.json, tên trường viết tắt để file nhỏ */
@@ -29,6 +30,8 @@ export interface CatalogIndexEntry {
   c?: string;
   o?: [number, number];
   r?: string;
+  /** Vật nuôi thuần hoá: IUCN không đánh giá, conservationStatus trong DB chỉ là giá trị giữ chỗ */
+  d?: 1;
 }
 
 export interface CatalogPhoto {
@@ -91,14 +94,32 @@ export interface CatalogSpecies {
   conservationNoteVi: string | null;
   pullQuoteVi: string | null;
   care: CatalogCare | null;
-  trade: { tradeable: boolean; cites: string | null; vnProtected: string | null };
+  trade: { tradeable: boolean; cites: string | null; vnProtected: string | null; needsReview?: boolean; reasonVi?: string | null };
+  /** Các trường dưới chỉ có ở nhóm thú cưng */
+  domestic?: boolean;
+  wildAncestor?: { scientificName: string; commonNameVi: string | null; iucn: string | null; gbifKey?: number | null } | null;
+  vaccinationVi?: string;
+  legalNoteVi?: string;
   photos: { hero: CatalogPhoto | null; portrait: CatalogPhoto | null };
   sources: string[];
 }
 
 export interface CatalogCredit extends CatalogPhoto {
   scientificName: string;
-  role: 'hero' | 'portrait';
+  role: 'hero' | 'portrait' | 'product';
+  /** Chỉ có với ảnh sản phẩm */
+  productName?: string;
+}
+
+/** Thông tin giống của sản phẩm (public/catalog/products.json), tra theo tên sản phẩm */
+export interface CatalogProductExtra {
+  breedVi: string;
+  breedEn: string | null;
+  temperamentVi: string | null;
+  sizeVi: string | null;
+  lifespanVi: string | null;
+  careVi: string | null;
+  originVi: string | null;
 }
 
 const SHARDS = 16;
@@ -154,6 +175,20 @@ export function useCatalogSpecies(scientificName: string | undefined, options?: 
     },
     select: (data) => (scientificName ? (data[scientificName] ?? null) : null),
     enabled: !!scientificName && (options?.enabled ?? true),
+    staleTime: Infinity,
+  });
+}
+
+/** Thông tin giống của một sản phẩm catalog; null nếu sản phẩm không có (sản phẩm seed gốc, người bán tự đăng) */
+export function useCatalogProductExtra(productName: string | undefined) {
+  return useQuery({
+    queryKey: queryKeys.catalog.products(),
+    queryFn: async (): Promise<Record<string, CatalogProductExtra>> => {
+      const res = await fetch('catalog/products.json');
+      return res.ok ? res.json() : {};
+    },
+    select: (data) => (productName ? (data[productName] ?? null) : null),
+    enabled: !!productName,
     staleTime: Infinity,
   });
 }

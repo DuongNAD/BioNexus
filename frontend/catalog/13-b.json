@@ -1,0 +1,2906 @@
+[
+  {
+    "scientificName": "Muscardinus avellanarius",
+    "commonNameVi": "Sóc ngủ hạt dẻ",
+    "commonNameEn": "Hazel dormouse",
+    "group": "Thú cưng",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Gliridae",
+      "genus": "Muscardinus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gặm nhấm (Rodentia)",
+      "family": "Họ Sóc ngủ (Gliridae)",
+      "genus": "Chi Muscardinus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/13992",
+    "gbifKey": 2439658,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây bụi phỉ (hazel), mâm xôi và hàng rào cây xanh khắp châu Âu"
+    },
+    "descriptionVi": "Loài sóc ngủ cỡ nhỏ có bộ lông màu vàng cam óng ả và đôi mắt đen tròn long lanh. Nổi tiếng trong văn học qua nhân vật Chú Chuột Ngủ Gật (Dormouse) luôn ngủ gục trong ấm trà ở câu chuyện 'Alice ở xứ sở thần tiên'.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) trên toàn vùng phân bố châu Âu và Bắc Tiểu Á.",
+    "pullQuoteVi": "Chính loài sóc ngủ hạt dẻ hay cuộn tròn ngủ say sưa này đã truyền cảm hứng cho nhân vật Dormouse ngủ trong ấm trà của Lewis Carroll.",
+    "dietVi": "Hạt phỉ, mật hoa, quả mọng, chồi cây và côn trùng nhỏ",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Rừng lá rộng ôn đới Trung Âu",
+      "lat": 50.1,
+      "lng": 8.68
+    },
+    "regionVi": "Châu Âu và Bắc Thổ Nhĩ Kỳ",
+    "otherNamesVi": [
+      "Chuột sóc vàng",
+      "Sóc ngủ cây phỉ"
+    ],
+    "synonyms": [
+      "Myoxus avellanarius"
+    ],
+    "wikidataId": "Q207148",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chu%E1%BB%99t_s%C3%B3c_n%C3%A2u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hazel_dormouse",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 9,
+      "weightGMin": 15,
+      "weightGMax": 35,
+      "heightCmMax": null,
+      "noteVi": "Đuôi có lông phủ kín dài 5,5–7,5 cm"
+    },
+    "distribution": {
+      "countries": [
+        "AT",
+        "CH",
+        "DE",
+        "FR",
+        "GB",
+        "IT",
+        "LT",
+        "PL",
+        "SE",
+        "TR"
+      ],
+      "nativeRangeVi": "Hầu khắp châu Âu từ Pháp, Anh, Đức, Thụy Điển đến Ba Lan, Ý và bắc Thổ Nhĩ Kỳ",
+      "elevationM": {
+        "min": 0,
+        "max": 1900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi cây phỉ",
+      "Bìa rừng lá rộng nhiều cây leo"
+    ],
+    "identificationVi": "Lông màu vàng cam hoặc nâu quế ấm áp, ngực và cằm điểm lông trắng, ngón chân mở rộng để bám cành mảnh, đuôi phủ lông mịn đều.",
+    "behaviorVi": "Sống hoàn toàn trên tán cây bụi, hiếm khi chạm chân xuống mặt đất trừ lúc làm tổ ngủ đông dưới lớp lá mục.",
+    "reproductionVi": "Thai kỳ 22–24 ngày, đẻ 3–5 con non trong chiếc tổ cầu đan bằng vỏ cây kim ngân.",
+    "threatsVi": [
+      "Sự phân mảnh các hàng rào cây bụi tự nhiên tại Tây Âu"
+    ],
+    "funFactsVi": [
+      "Ngón chân của sóc ngủ hạt dẻ có thể xoay ngang linh hoạt giúp chúng leo ngược dưới các cành cây mảnh một cách dễ dàng.",
+      "Khi đục hạt phỉ để lấy nhân, chúng để lại một lỗ tròn nhẵn hoàn hảo trên vỏ hạt rất đặc trưng."
+    ],
+    "similarSpecies": [
+      "Micromys minutus",
+      "Glis glis"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Được bảo vệ nghiêm ngặt ở châu Âu; không đăng bán trên BioNexus.",
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể Terrarium đứng 60×45×80 cm bố trí dày đặc cành cây đan chéo và hộp tổ tròn treo trên cao.",
+      "lightingVi": "Ánh sáng dịu, nhiệt độ phòng mát 18–23 °C.",
+      "feedingVi": "Hạt phỉ, hạt hướng dương, quả mọng tươi (việt quất, mâm xôi), phấn hoa và sâu gạo.",
+      "socialVi": "Sống hòa thuận theo cặp hoặc nhóm nhỏ trong chuồng rộng nhiều chỗ trú.",
+      "commonProblemsVi": [
+        "Căng thẳng nếu chuồng thiếu cành leo và nơi ẩn nấp kín đáo"
+      ]
+    },
+    "trade": {
+      "tradeable": false,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài được bảo vệ nghiêm ngặt ở Liên minh châu Âu (Chỉ thị Môi trường sống, Phụ lục IV), hầu như không có nguồn nhân nuôi hợp pháp để bán làm cảnh."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Em - Muscardinus avellanarius - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Em_-_Muscardinus_avellanarius_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Em_-_Muscardinus_avellanarius_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4365,
+        "height": 2909,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Haselmaus (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Haselmaus_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Haselmaus_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1570,
+        "height": 1781,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Danielle Schwarz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dormouse1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dormouse1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Dormouse1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 2248,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zoë Helene Kindermann",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Haselmaus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Haselmaus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Haselmaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Danielle Schwarz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Muscardinus avellanarius 5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Muscardinus_avellanarius_5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Muscardinus_avellanarius_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Massimo L.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2439658",
+      "https://en.wikipedia.org/wiki/Hazel_dormouse",
+      "https://vi.wikipedia.org/wiki/Chu%E1%BB%99t_s%C3%B3c_n%C3%A2u",
+      "https://www.iucnredlist.org/species/13992"
+    ]
+  },
+  {
+    "scientificName": "Sciurus vulgaris",
+    "commonNameVi": "Sóc đỏ Á Âu",
+    "commonNameEn": "Eurasian red squirrel",
+    "group": "Thú cưng",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Sciurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gặm nhấm (Rodentia)",
+      "family": "Họ Sóc (Sciuridae)",
+      "genus": "Chi Sciurus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/20025",
+    "gbifKey": 8211070,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá kim và rừng hỗn giao khắp lục địa Á-Âu từ Tây Âu tới Hokkaido (Nhật Bản)"
+    },
+    "descriptionVi": "Loài sóc cây nổi tiếng với bộ lông màu nâu đỏ rực rỡ, bụng trắng muốt và hai chùm lông dài dựng đứng trên đỉnh vành tai như tai linh miêu. Đuôi bông dày giúp chúng giữ ấm khi cuộn tròn ngủ và làm bánh lái khi nhảy xa giữa các ngọn thông.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) trên toàn vùng phân bố Á-Âu rộng lớn, dù tại quần đảo Anh bị cạnh tranh bởi loài sóc xám Bắc Mỹ ngoại lai.",
+    "pullQuoteVi": "Đôi chùm lông dài trên đỉnh tai của sóc đỏ Á Âu mọc dày lên vào mùa thu đông và rụng bớt khi hè sang.",
+    "dietVi": "Hạt thông, hạt dẻ, quả óc chó, nấm rừng, chồi cây và quả mọng",
+    "lifespanVi": "7–10 năm (trong nuôi nhốt)",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Rừng Taiga và rừng hỗn giao Bắc Á - Âu",
+      "lat": 58.38,
+      "lng": 26.72
+    },
+    "regionVi": "Châu Âu và Bắc Á",
+    "otherNamesVi": [
+      "Sóc tai chùm",
+      "Sóc bông đỏ"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q4388",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%C3%B3c_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red_squirrel",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 19,
+      "lengthCmMax": 23,
+      "weightGMin": 250,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Đuôi bông dài 15–20 cm"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "DE",
+        "FI",
+        "FR",
+        "JP",
+        "KR",
+        "MN",
+        "PL",
+        "RU",
+        "SE"
+      ],
+      "nativeRangeVi": "Khắp châu Âu qua Siberia, Mông Cổ, bắc Trung Quốc, Triều Tiên tới đảo Hokkaido (Nhật Bản)",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá kim phương bắc",
+      "Rừng lá rộng ôn đới",
+      "Công viên cây cổ thụ"
+    ],
+    "identificationVi": "Hai chùm lông dài dựng trên đỉnh tai, lưng đỏ hung hoặc nâu sẫm tùy mùa, vùng ngực và bụng trắng tinh tách biệt rõ.",
+    "behaviorVi": "Hoạt động ban ngày, không ngủ đông mà tích trữ hạt thông và nấm sấy khô trên chạc cây để ăn suốt mùa lạnh.",
+    "reproductionVi": "Thai kỳ 38–39 ngày, đẻ 3–4 con mỗi lứa trong tổ cành cây hình cầu gọi là 'drey' trên ngọn cây.",
+    "threatsVi": [
+      "Cạnh tranh sinh cảnh với loài sóc xám Sciurus carolinensis du nhập tại Anh và Bắc Ý"
+    ],
+    "funFactsVi": [
+      "Sóc đỏ Á Âu biết bơi rất giỏi, dùng chiếc đuôi bông làm bánh lái khi vượt qua các con suối trong rừng.",
+      "Chúng thường treo nấm tươi lên các cành cây khô cho nấm khô quắt lại rồi mới cất vào kho dự trữ mùa đông."
+    ],
+    "similarSpecies": [
+      "Sciurus lis",
+      "Callosciurus erythraeus"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Không thuộc CITES hay danh mục cấm tại Việt Nam; cá thể nuôi cảnh từ trại nhân giống Đông Á được giao dịch hợp pháp.",
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng Aviary ngoài trời có mái che hoặc lồng đứng rất lớn (tối thiểu 120×80×180 cm) với nhiều thân cây tự nhiên và hộp gỗ cao.",
+      "lightingVi": "Không gian thoáng mát dưới 26 °C, có ánh nắng sáng sớm để tổng hợp vitamin D3.",
+      "feedingVi": "Quả thông nguyên trái, hạt óc chó, hạt phỉ nguyên vỏ để mài răng, kèm táo, ngô ngọt và sâu canxi.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp trong chuồng Aviary lớn từ nhỏ.",
+      "commonProblemsVi": [
+        "Quá nhiệt vào mùa hè nếu chuồng đặt nơi bí gió",
+        "Thiếu canxi nếu chỉ ăn hạt hướng dương"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài hoang dã được bảo vệ ở nhiều nước châu Âu (Công ước Bern, Phụ lục III). Chỉ duyệt khi có giấy tờ nhập khẩu và nguồn gốc nhân nuôi."
+    },
+    "products": [
+      {
+        "nameVi": "Sóc đỏ tai chùm Sciurus vulgaris non (3 tháng tuổi)",
+        "breedVi": "Sóc đỏ tai chùm",
+        "breedEn": "Eurasian Red Squirrel",
+        "priceVnd": 3800000,
+        "descriptionVi": "Cá thể non sinh sản tại trại, chùm lông tai đã mọc dài rõ nét, ăn hạt thông và trái cây trên tay chủ.",
+        "temperamentVi": "Lanh lợi, thông minh, hoạt động ban ngày",
+        "sizeVi": "Thân 19–23 cm (đuôi 18 cm), nặng 260–340 g",
+        "lifespanVi": "7–10 năm",
+        "careVi": "Nuôi trong chuồng Aviary cao thoáng mát, cung cấp hạt cứng nguyên vỏ",
+        "originVi": "Trại nhân giống Đông Á",
+        "photos": [
+          {
+            "file": "File:Eichkater.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Eichkater.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Eichkater.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2774,
+            "height": 1849,
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "author": "Klaus-Martin Hansche",
+            "verified": true,
+            "visualChecked": true,
+            "focus": [
+              0.62,
+              0.5
+            ]
+          },
+          {
+            "file": "File:Eichhörnchen12.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Eichh%C3%B6rnchen12.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Eichh%C3%B6rnchen12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 3320,
+            "height": 2490,
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "author": "Sodenk22",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2018-08-09 Orav jälle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2018-08-09_Orav_j%C3%A4lle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/2018-08-09_Orav_j%C3%A4lle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Ott Rebane",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Sciurus vulgaris in Burabay National Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sciurus_vulgaris_in_Burabay_National_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sciurus_vulgaris_in_Burabay_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Khankeldi Zhalilkhan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:-4838- Squirrel (36949634230).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:-4838-_Squirrel_(36949634230).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/-4838-_Squirrel_%2836949634230%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2500,
+        "height": 1667,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "zoofanatic",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eichhörnchen 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eichh%C3%B6rnchen_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Eichh%C3%B6rnchen_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2304,
+        "height": 3072,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Gordito1869",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:DSC 4878 (50091104128).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC_4878_(50091104128).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/DSC_4878_%2850091104128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3936,
+        "height": 2624,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pierre-Marie Epiney",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8211070",
+      "https://en.wikipedia.org/wiki/Red_squirrel",
+      "https://vi.wikipedia.org/wiki/S%C3%B3c_%C4%91%E1%BB%8F",
+      "https://www.iucnredlist.org/species/20025"
+    ]
+  },
+  {
+    "scientificName": "Callosciurus erythraeus",
+    "commonNameVi": "Sóc bụng đỏ",
+    "commonNameEn": "Pallas's squirrel",
+    "group": "Thú cưng",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Callosciurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gặm nhấm (Rodentia)",
+      "family": "Họ Sóc (Sciuridae)",
+      "genus": "Chi Callosciurus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/3595",
+    "gbifKey": 2437394,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới, cận nhiệt đới và vườn cây ăn quả khắp Đông Nam Á và Nam Trung Quốc"
+    },
+    "descriptionVi": "Loài sóc cây bản địa quen thuộc ở Việt Nam và Đông Á, nổi bật với bộ lông lưng màu nâu ô-liu tương phản với phần ngực và bụng màu đỏ nâu hạt dẻ ấm áp. Thích nghi hoàn hảo với khí hậu nhiệt đới nóng ẩm.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) do phân bố rất rộng và số lượng cá thể dồi dào khắp Đông Nam Á.",
+    "pullQuoteVi": "Nhờ khớp cổ chân sau có thể xoay ngược 180 độ, sóc bụng đỏ có thể lao đầu thẳng đứng xuống thân cây cực kỳ điêu luyện.",
+    "dietVi": "Trái cây chín (chuối, nhãn, xoài, ổi), hạt dẻ, ngô ngọt, chồi cây và côn trùng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng rừng nhiệt đới Đông Dương và Nam Trung Quốc",
+      "lat": 21.3,
+      "lng": 105.8
+    },
+    "regionVi": "Đông Nam Á và Nam Á",
+    "otherNamesVi": [
+      "Sóc bông bụng đỏ",
+      "Sóc Pallas"
+    ],
+    "synonyms": [
+      "Sciurus erythraeus"
+    ],
+    "wikidataId": "Q860603",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%C3%B3c_b%E1%BB%A5ng_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pallas%27s_squirrel",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 25,
+      "weightGMin": 280,
+      "weightGMax": 420,
+      "heightCmMax": null,
+      "noteVi": "Đuôi bông dài 18–22 cm"
+    },
+    "distribution": {
+      "countries": [
+        "BD",
+        "CN",
+        "IN",
+        "KH",
+        "LA",
+        "MM",
+        "MY",
+        "TH",
+        "TW",
+        "VN"
+      ],
+      "nativeRangeVi": "Đông Bắc Ấn Độ, miền nam Trung Quốc, Đài Loan và khắp bán đảo Đông Dương (Việt Nam, Lào, Campuchia, Thái Lan, Malaysia)",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng thường xanh",
+      "Rừng thứ sinh",
+      "Công viên và vườn cây ăn quả"
+    ],
+    "identificationVi": "Lưng màu nâu xám điểm đốm vàng li ti (agouti), toàn bộ bụng và mặt trong bốn chân màu đỏ hung hoặc cam sẫm, tai tròn không có chùm lông dài.",
+    "behaviorVi": "Hoạt động mạnh vào buổi sáng sớm và chiều mát trên tán cây, làm tổ bằng lá khô kết thành khối tròn trên chạc cây cao.",
+    "reproductionVi": "Thai kỳ 40 ngày, đẻ 2–3 con mỗi lứa, mỗi năm sinh sản 2–3 lứa.",
+    "threatsVi": [
+      "Ít bị đe dọa do thích nghi tốt với cả rừng thứ sinh và vườn trồng"
+    ],
+    "funFactsVi": [
+      "Sóc bụng đỏ phát ra tiếng kêu báo động khác nhau tùy thuộc kẻ săn mồi đến từ mặt đất (rắn, mèo) hay từ trên không (diều hâu).",
+      "Khi nuôi từ lúc chưa mở mắt bằng sữa chuyên dụng, chúng nhận chủ làm mẹ và rất thích nhảy lên vai người."
+    ],
+    "similarSpecies": [
+      "Callosciurus finlaysonii",
+      "Callosciurus caniceps"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Loài phổ biến không thuộc Nhóm IB hay IIB của Nghị định 84/2021/NĐ-CP; ưu tiên chọn cá thể sinh sản từ trại nuôi hợp pháp.",
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Lồng sắt đứng cao tối thiểu 70×50×100 cm có nhiều khúc gỗ tự nhiên để leo nhảy và mài móng.",
+      "lightingVi": "Nơi thoáng gió có ánh nắng nhẹ buổi sáng.",
+      "feedingVi": "Trái cây tươi theo mùa, ngô ngọt, hạt bí, hạt dẻ nguyên vỏ và sâu canxi.",
+      "socialVi": "Nuôi từ nhỏ rất quấn chủ; khi trưởng thành nên nuôi riêng từng lồng.",
+      "commonProblemsVi": [
+        "Móng chân sắc dài nếu trong chuồng không có thân gỗ nhám tự nhiên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài hoang dã bản địa Việt Nam; sóc con bán trên thị trường thường bắt từ tổ ngoài tự nhiên. Chỉ duyệt tin đăng khi người bán chứng minh cá thể sinh sản trong trại nuôi và có hồ sơ nguồn gốc hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Sóc bụng đỏ nhân nuôi trong trại (3 tháng tuổi)",
+        "breedVi": "Sóc bông bụng đỏ",
+        "breedEn": "Pallas's Red-bellied Squirrel",
+        "priceVnd": 450000,
+        "descriptionVi": "Sóc con sinh sản trong trại nuôi có hồ sơ nguồn gốc, đã cai sữa, ăn trái cây và hạt, quen người.",
+        "temperamentVi": "Năng động, thông minh, thích trèo lên vai chủ",
+        "sizeVi": "Thân 20–24 cm (đuôi 20 cm), nặng 300–400 g khi trưởng thành",
+        "lifespanVi": "8–12 năm",
+        "careVi": "Cho ăn trái cây chín, hạt nguyên vỏ và bố trí cành cây nhám trong lồng",
+        "originVi": "Việt Nam",
+        "photos": [
+          {
+            "file": "File:Callosciurus erythraeus 176661742.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_176661742.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Callosciurus_erythraeus_176661742.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2048,
+            "height": 1499,
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "author": "Rejoice Gassah",
+            "verified": true,
+            "visualChecked": true,
+            "focus": [
+              0.55,
+              0.5
+            ]
+          },
+          {
+            "file": "File:Callosciurus erythraeus 117331758.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_117331758.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Callosciurus_erythraeus_117331758.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2048,
+            "height": 1441,
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "author": "Rejoice Gassah",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Callosciurus erythraeus (8633640793).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_(8633640793).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Callosciurus_erythraeus_%288633640793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4320,
+        "height": 2880,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pallas Squirrel Siju WLS Oct24 A7CR 03953.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pallas_Squirrel_Siju_WLS_Oct24_A7CR_03953.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pallas_Squirrel_Siju_WLS_Oct24_A7CR_03953.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1984,
+        "height": 3175,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Timothy A. Gonsalves",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Callosciurus erythraeus (40950140362).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_(40950140362).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Callosciurus_erythraeus_%2840950140362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Callosciurus erythraeus 86364334.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_86364334.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Callosciurus_erythraeus_86364334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Wich'yanan L",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Callosciurus erythraeus 86906876.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_86906876.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Callosciurus_erythraeus_86906876.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Wich'yanan L",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2437394",
+      "https://en.wikipedia.org/wiki/Pallas%27s_squirrel",
+      "https://vi.wikipedia.org/wiki/S%C3%B3c_b%E1%BB%A5ng_%C4%91%E1%BB%8F",
+      "https://www.iucnredlist.org/species/3595"
+    ]
+  },
+  {
+    "scientificName": "Suricata suricatta",
+    "commonNameVi": "Cầy Meerkat",
+    "commonNameEn": "Meerkat",
+    "group": "Thú cưng",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Herpestidae",
+      "genus": "Suricata"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Cầy lỏn (Herpestidae)",
+      "genus": "Chi Suricata"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/41624",
+    "gbifKey": 2434126,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 32,
+      "baskMin": 33,
+      "baskMax": 36,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Hoang mạc và thảo nguyên khô Kalahari, Namib tại khu vực miền nam châu Phi"
+    },
+    "descriptionVi": "Loài cầy nhỏ miền nam châu Phi nổi tiếng với tư thế đứng thẳng tắp bằng hai chân sau và dùng đuôi làm chân kiềng thứ ba để canh gác bầu trời. Quầng lông đen quanh mắt hoạt động như cặp kính râm tự nhiên chống chói nắng sa mạc.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) nhờ quần thể ổn định tại hoang mạc Kalahari và Namib, không thuộc phụ lục CITES.",
+    "pullQuoteVi": "Vùng lông đen quanh mắt của Meerkat đóng vai trò như một cặp kính râm sinh học giúp chúng nhìn thẳng lên bầu trời nắng gắt tìm đại bàng.",
+    "dietVi": "Ăn côn trùng và thịt nhỏ: dế, sâu Superworm, gián Dubia, thịt gà luộc, trứng và hạt mèo cao cấp",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hoang mạc Kalahari (Nam Phi, Botswana và Namibia)",
+      "lat": -25.5,
+      "lng": 21
+    },
+    "regionVi": "Nam Phi",
+    "otherNamesVi": [
+      "Chồn đất châu Phi",
+      "Hồ đào"
+    ],
+    "synonyms": [
+      "Viverra suricatta"
+    ],
+    "wikidataId": "Q134015",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Meerkat",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Meerkat",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 620,
+      "weightGMax": 970,
+      "heightCmMax": null,
+      "noteVi": "Đuôi thon dài 17–25 cm có chóp đen"
+    },
+    "distribution": {
+      "countries": [
+        "AO",
+        "BW",
+        "NA",
+        "ZA"
+      ],
+      "nativeRangeVi": "Miền nam châu Phi gồm Nam Phi, Botswana, Namibia và cực tây nam Angola",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Hoang mạc khô Kalahari",
+      "Trảng cỏ savan khô hạn"
+    ],
+    "identificationVi": "Thân thon mảnh, lưng có các vệt vằn nâu bạc ngang, vành tai đen hình bán nguyệt có thể khép kín khi đào cát, chóp đuôi đen.",
+    "behaviorVi": "Sống bầy đàn mẫu hệ cực kỳ đoàn kết (10–30 cá thể), thay phiên nhau đứng gác và dạy con non cách xử lý bọ cạp.",
+    "reproductionVi": "Thai kỳ 70–77 ngày, đẻ 2–5 con non; các thành viên trong đàn cùng phụ giúp trông giữ con non.",
+    "threatsVi": [
+      "Biến đổi khí hậu gây nắng nóng cực đoan kéo dài tại Kalahari"
+    ],
+    "funFactsVi": [
+      "Meerkat miễn nhiễm với nọc độc của nhiều loài bọ cạp sa mạc Kalahari và biết cắn bỏ ngòi độc trước khi đưa cho con non tập săn.",
+      "Hai tai của chúng có van cơ đặc biệt tự động đóng chặt lại khi đào đất để cát không lọt vào ống tai."
+    ],
+    "similarSpecies": [
+      "Cynictis penicillata",
+      "Mungos mungo"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Không thuộc phụ lục CITES hay danh mục cấm của Việt Nam; cá thể sinh sản từ các trại nhân giống quốc tế nhập khẩu có kiểm dịch thú y.",
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Khu vực nuôi rộng tối thiểu 2×1,5 m có khay cát sâu để đào bới và điểm đèn sưởi basking ấm áp buổi sáng.",
+      "lightingVi": "Cần đèn UVB và đèn sưởi điểm 33–35 °C để sưởi ấm bụng như ngoài tự nhiên.",
+      "feedingVi": "Khẩu phần giàu côn trùng sống (dế, sâu canxi, gián Dubia) kết hợp thịt nạc và taurine.",
+      "socialVi": "Tính bầy đàn cực kỳ cao; không bao giờ để Meerkat cô độc một mình vì sẽ gây stress nặng.",
+      "commonProblemsVi": [
+        "Trầm cảm nếu nuôi nhốt cô lập thiếu tương tác",
+        "Béo phì và bệnh tim nếu ăn thức ăn nhiều mỡ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Thú hoang ngoại nhập, cần giấy kiểm dịch và hồ sơ nguồn gốc nhân nuôi; tin đăng phải qua kiểm duyệt."
+    },
+    "products": [
+      {
+        "nameVi": "Cầy Meerkat non thuần người sinh sản tại trại (2.5 tháng tuổi)",
+        "breedVi": "Cầy Meerkat",
+        "breedEn": "Captive-bred Meerkat",
+        "priceVnd": 18000000,
+        "descriptionVi": "Cá thể non sinh sản tại trại (CB), cực kỳ quấn chủ, đi theo chân người trong nhà và biết đứng hai chân canh gác.",
+        "temperamentVi": "Thông minh, tình cảm, hoạt động ban ngày và rất gắn bó với gia đình chủ",
+        "sizeVi": "Dài 25–35 cm, nặng 650–900 g",
+        "lifespanVi": "10–14 năm",
+        "careVi": "Cho ăn côn trùng sạch (dế, sâu canxi), hạt cao cấp và có đèn sưởi ấm",
+        "originVi": "Trại nhân giống quốc tế (gốc Nam Phi)",
+        "photos": [
+          {
+            "file": "File:Meerkat (Suricata suricatta) sentinel ... (51654080983).jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Meerkat_(Suricata_suricatta)_sentinel_..._(51654080983).jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Meerkat_%28Suricata_suricatta%29_sentinel_..._%2851654080983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 3648,
+            "height": 4384,
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "author": "Bernard DUPONT from FRANCE",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:Erdmnnchen O (258317917).jpeg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Erdmnnchen_O_(258317917).jpeg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Erdmnnchen_O_%28258317917%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2048,
+            "height": 1369,
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "author": "Simon Samtleben",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Meerkat (32605335755).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Meerkat_(32605335755).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Meerkat_%2832605335755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Simeon W from Wellington, New Zealand",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Close-up of a meerkat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_meerkat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Close-up_of_a_meerkat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6336,
+        "height": 9504,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "RubenVanKuik",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A gang of Meerkats.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_gang_of_Meerkats.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/A_gang_of_Meerkats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 1848,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Vanadium Erbium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A staring meerkat in a group vigil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_staring_meerkat_in_a_group_vigil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/A_staring_meerkat_in_a_group_vigil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 1848,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Vanadium Erbium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A meerkat staring sideways.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_meerkat_staring_sideways.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/A_meerkat_staring_sideways.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1848,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Vanadium Erbium",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2434126",
+      "https://en.wikipedia.org/wiki/Meerkat",
+      "https://vi.wikipedia.org/wiki/Meerkat",
+      "https://www.iucnredlist.org/species/41624"
+    ]
+  },
+  {
+    "scientificName": "Vulpes zerda",
+    "commonNameVi": "Cáo Fennec",
+    "commonNameEn": "Fennec fox",
+    "group": "Thú cưng",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Chó (Canidae)",
+      "genus": "Chi Vulpes"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/41588",
+    "gbifKey": 5219310,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đụn cát sa mạc Sahara và bán đảo Sinai tại Bắc Phi"
+    },
+    "descriptionVi": "Loài cáo nhỏ nhất thế giới trong họ Chó (Canidae), chỉ nặng từ 0,9 đến 1,5 kg nhưng sở hữu đôi tai khổng lồ dài tới 15 cm. Đôi tai lớn vừa giúp tản nhiệt giữa sa mạc Sahara vừa nghe được tiếng côn trùng bò dưới lớp cát sâu.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) do phân bố rộng khắp sa mạc Sahara; thuộc Phụ lục II CITES nhằm quản lý thương mại quốc tế có giấy phép.",
+    "pullQuoteVi": "Dù thuộc họ Chó, cáo Fennec lại kêu rừ rừ trong cổ họng khi được gãi tai và biết đi vệ sinh vào thau cát hệt như mèo.",
+    "dietVi": "Ăn tạp thiên thịt: côn trùng, thịt gia cầm, trứng, thức ăn hạt giàu taurine và một ít trái cây",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Sa mạc Sahara (Maroc, Algeria và Tunisia)",
+      "lat": 31.15,
+      "lng": -4
+    },
+    "regionVi": "Bắc Phi và Bán đảo Sinai",
+    "otherNamesVi": [
+      "Cáo tai to sa mạc",
+      "Cáo lùn Sahara"
+    ],
+    "synonyms": [
+      "Canis zerda",
+      "Fennecus zerda"
+    ],
+    "wikidataId": "Q131564",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1o_fennec",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fennec_fox",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Unknown",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 900,
+      "weightGMax": 1500,
+      "heightCmMax": 20,
+      "noteVi": "Tai dài 10–15 cm, đuôi bông dài 18–30 cm"
+    },
+    "distribution": {
+      "countries": [
+        "DZ",
+        "EG",
+        "LY",
+        "MA",
+        "ML",
+        "MR",
+        "NE",
+        "SD",
+        "TD",
+        "TN"
+      ],
+      "nativeRangeVi": "Toàn bộ vùng sa mạc Sahara từ Maroc, Mauritania qua Algeria, Tunisia đến Ai Cập và Sudan",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Đụn cát sa mạc (Erg)",
+      "Bán hoang mạc khô hạn"
+    ],
+    "identificationVi": "Cơ thể nhỏ hơn mèo nhà, bộ lông màu kem cát mịn, đôi tai tam giác cực lớn so với đầu, chóp đuôi có điểm lông đen.",
+    "behaviorVi": "Hoạt động mạnh về đêm, sống chung thủy một vợ một chồng theo nhóm gia đình nhỏ trong hang cát.",
+    "reproductionVi": "Mỗi năm đẻ 1 lứa, thai kỳ 50–52 ngày, mỗi lứa 2–4 cáo con.",
+    "threatsVi": [
+      "Bắt bẫy trái phép ngoài tự nhiên tại một số vùng Bắc Phi"
+    ],
+    "funFactsVi": [
+      "Lòng bàn chân của cáo Fennec được bao phủ bởi một lớp lông dày vừa chống bỏng khi chạy trên cát nóng vừa như đôi giày đi tuyết chống lún cát.",
+      "Thận của chúng thích nghi đến mức có thể lấy đủ nước hoàn toàn từ con mồi và sương đêm mà ít khi cần uống nước trực tiếp."
+    ],
+    "similarSpecies": [
+      "Vulpes rueppellii",
+      "Otocyon megalotis"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Thuộc Phụ lục II CITES; chỉ được giao dịch các cá thể sinh sản trong trại nhân giống hợp pháp có giấy phép CITES nhập khẩu và kiểm dịch thú y.",
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Phòng riêng hoặc chuồng quây rộng tối thiểu 3×2 m có khay cát sâu để đào và chỗ ẩn nấp yên tĩnh.",
+      "lightingVi": "Giữ nhiệt độ ấm áp trên 22 °C; tránh gió lùa lạnh vào mùa đông.",
+      "feedingVi": "Khẩu phần giàu đạm và taurine gồm thịt tươi, côn trùng (dế, sâu canxi), hạt cao cấp và một lượng nhỏ rau quả.",
+      "socialVi": "Rất giàu năng lượng và phát tiếng kêu líu lo cao vút khi mừng chủ về nhà.",
+      "commonProblemsVi": [
+        "Nhiễm lạnh nếu nhiệt độ dưới 18 °C",
+        "Thiếu taurine gây bệnh cơ tim nếu chỉ cho ăn thức ăn chó thông thường"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; chỉ cho phép đăng bán cá thể sinh sản từ trại nhân giống hợp pháp có giấy tờ CITES và hồ sơ thú y đầy đủ."
+    },
+    "products": [
+      {
+        "nameVi": "Cáo Fennec tai to nhân giống tại trại (3 tháng tuổi, kèm giấy CITES)",
+        "breedVi": "Cáo Fennec sa mạc",
+        "breedEn": "Captive-bred Fennec Fox",
+        "priceVnd": 35000000,
+        "descriptionVi": "Cá thể non sinh sản tại trại quốc tế, có microchip và hồ sơ CITES II hợp lệ, đã biết đi vệ sinh thau cát.",
+        "temperamentVi": "Hiếu động, tình cảm, thích chơi đùa vào buổi tối",
+        "sizeVi": "Dài 30–38 cm, nặng 1–1,4 kg khi trưởng thành",
+        "lifespanVi": "10–14 năm",
+        "careVi": "Giữ ấm trên 22 °C, bổ sung taurine và côn trùng trong khẩu phần",
+        "originVi": "Trại nhân giống quốc tế (gốc Bắc Phi)",
+        "photos": [
+          {
+            "file": "File:2009-03-07Vulpes zerda016.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:2009-03-07Vulpes_zerda016.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/2009-03-07Vulpes_zerda016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 1600,
+            "height": 1200,
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "author": "Wildfeuer",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fennec Fox (9163009503).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_(9163009503).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Fennec_Fox_%289163009503%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5509,
+        "height": 3673,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Daniel Ramirez from Honolulu, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Fenec.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fenec.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Fenec.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Bachounda",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fennec Fox Peek.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Peek.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Fennec_Fox_Peek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3709,
+        "height": 2483,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anass ERRIHANI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fennek (Gerbil's version).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fennek_(Gerbil%27s_version).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fennek_%28Gerbil%27s_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gerbil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2009-03-07Vulpes zerda028.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2009-03-07Vulpes_zerda028.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/2009-03-07Vulpes_zerda028.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2000,
+        "height": 1500,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Wildfeuer",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5219310",
+      "https://en.wikipedia.org/wiki/Fennec_fox",
+      "https://vi.wikipedia.org/wiki/C%C3%A1o_fennec",
+      "https://www.iucnredlist.org/species/41588"
+    ]
+  },
+  {
+    "scientificName": "Gallus gallus domesticus",
+    "commonNameVi": "Gà cảnh",
+    "commonNameEn": "Domestic chicken",
+    "group": "Chim",
+    "domestic": true,
+    "wildAncestor": {
+      "scientificName": "Gallus gallus",
+      "commonNameVi": "Gà rừng đỏ",
+      "iucn": "LC",
+      "gbifKey": 9326020
+    },
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Gallus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Gallus"
+    },
+    "iucn": null,
+    "iucnUrl": null,
+    "gbifKey": 9457155,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "FORM",
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Chuồng sân vườn thoáng mát hoặc lồng cảnh ban công rộng"
+    },
+    "descriptionVi": "Phân loài thuần hóa từ gà rừng đỏ Đông Nam Á cách đây hơn 8.000 năm. Trong giới sinh vật cảnh Việt Nam, các dòng gà kiểng tí hon như gà Serama ưỡn ngực, gà Silkie lông xù tơ lụa và gà Ai Cập Fayoumi rất được ưa chuộng.",
+    "conservationNoteVi": "Dạng vật nuôi thuần hóa không thuộc danh mục đánh giá của IUCN; loài tổ tiên hoang dã Gallus gallus ở mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Giống gà tre Serama của Malaysia là giống gà nhỏ nhất thế giới, cá thể trưởng thành chỉ nặng từ 250 đến 450 gram và đứng ưỡn ngực chữ S như chiến binh.",
+    "dietVi": "Ngũ cốc (thóc, ngô mảnh, cám viên), rau xanh, sâu canxi và khoáng grit tiêu hóa",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Nam Á (Thái Lan, Việt Nam và Nam Trung Quốc)",
+      "lat": 16.5,
+      "lng": 104.5
+    },
+    "regionVi": "Toàn cầu (thuần hóa tại Đông Nam Á)",
+    "otherNamesVi": [
+      "Gà kiểng",
+      "Gà tre cảnh",
+      "Gà nhà"
+    ],
+    "synonyms": [
+      "Gallus domesticus",
+      "Phasianus gallus"
+    ],
+    "wikidataId": "Q780",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%C3%A0",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chicken",
+    "iucnAssessedYear": null,
+    "populationTrend": null,
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 45,
+      "weightGMin": 250,
+      "weightGMax": 2500,
+      "heightCmMax": 40,
+      "noteVi": "Gà Serama chỉ nặng 250–500 g; các dòng gà cảnh cỡ trung nặng 1–2 kg"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "EG",
+        "ID",
+        "MY",
+        "TH",
+        "VN"
+      ],
+      "nativeRangeVi": "Thuần hóa từ Đông Nam Á lục địa, nay phát triển hàng trăm giống gà cảnh khắp thế giới",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Môi trường nhân sinh",
+      "Sân vườn"
+    ],
+    "identificationVi": "Có mào thịt đỏ trên đỉnh đầu và tích dưới cằm, mỏ sừng hơi cong, chân có vảy sừng và cựa ở con trống.",
+    "behaviorVi": "Hoạt động ban ngày, thích bới đất tìm côn trùng, tắm nắng, tắm cát và ngủ trên sào gỗ cao vào ban đêm.",
+    "reproductionVi": "Đẻ trứng, thời gian ấp nở 21 ngày ở nhiệt độ 37,5 °C.",
+    "threatsVi": [
+      "Loài tổ tiên hoang dã Gallus gallus tại Đông Nam Á chịu nguy cơ lai tạp nguồn gen với gà nhà thả rông vùng bìa rừng"
+    ],
+    "funFactsVi": [
+      "Gà có khả năng nhìn thấy thêm phổ tia cực tím (UV) nên chúng nhận biết ánh sáng bình minh sớm hơn con người khoảng 45 phút.",
+      "Ở giống gà Silkie lông xù, các sợi lông thiếu móc nối barbicel nên trông mềm tơi như lông thú thay vì lông vũ thông thường."
+    ],
+    "similarSpecies": [
+      "Gallus gallus",
+      "Gallus sonneratii"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Vật nuôi hợp pháp hoàn toàn; cần tiêm vaccine phòng bệnh Newcastle, Gumboro và cúm gia cầm định kỳ theo hướng dẫn thú y.",
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng thoáng gió khô ráo có sào gỗ ngủ cách mặt đất 30–50 cm, lót trấu hoặc cát sạch và có khay cát tắm.",
+      "lightingVi": "Ánh sáng mặt trời tự nhiên buổi sáng rất tốt cho bộ lông và xương.",
+      "feedingVi": "Ngũ cốc hỗn hợp, rau xanh thái nhỏ, sâu canxi và sỏi nhỏ (grit) giúp mề nghiền hạt.",
+      "socialVi": "Nuôi theo cặp 1 trống 1–3 mái; không nhốt chung hai con trống trưởng thành.",
+      "commonProblemsVi": [
+        "Bệnh Newcastle nếu không nhỏ vaccine định kỳ",
+        "Mạt gà nếu chuồng ẩm thiếu cát tắm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các giống gà cảnh được nhân giống rộng rãi trong nước."
+    },
+    "products": [
+      {
+        "nameVi": "Gà Ai Cập Fayoumi lông vằn bạc thuần chủng (3 tháng tuổi)",
+        "breedVi": "Gà Ai Cập Fayoumi",
+        "breedEn": "Egyptian Fayoumi Chicken",
+        "priceVnd": 650000,
+        "descriptionVi": "Giống gà cổ đại dọc sông Nile với bộ lông cổ bạc thân vằn đen trắng tuyệt đẹp, sức đề kháng cực cao, đã tiêm đủ vaccine.",
+        "temperamentVi": "Lanh lợi, khỏe khoắn, chịu nhiệt độ nóng ẩm rất tốt",
+        "sizeVi": "Nặng 1,4–2 kg khi trưởng thành",
+        "lifespanVi": "6–9 năm",
+        "careVi": "Dễ nuôi, thích hợp sân vườn rộng và có sào đậu cao",
+        "originVi": "Thung lũng Faiyum, Ai Cập",
+        "photos": [
+          {
+            "file": "File:NEW--Egyptian Fayoumi.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:NEW--Egyptian_Fayoumi.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/NEW--Egyptian_Fayoumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2000,
+            "height": 1500,
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "author": "Egyptian_Fayoumi_at_show.jpg: Benny Mazur from Toledo, OH derivative work: Mercurial (talk)",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:Cory's chickens 17 - Brown Leghorn hen and Egyptian Fayoumi pullet (28772763025).jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_17_-_Brown_Leghorn_hen_and_Egyptian_Fayoumi_pullet_(28772763025).jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cory%27s_chickens_17_-_Brown_Leghorn_hen_and_Egyptian_Fayoumi_pullet_%2828772763025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 1554,
+            "height": 2688,
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      },
+      {
+        "nameVi": "Gà tre kiểng Silkie / Gà cảnh triển lãm (3 tháng tuổi)",
+        "breedVi": "Gà cảnh Silkie / Bantam",
+        "breedEn": "Ornamental Bantam / Silkie Chicken",
+        "priceVnd": 900000,
+        "descriptionVi": "Cá thể gà cảnh dáng nhỏ gọn, bộ lông mượt, rất hiền và dạn người, thích hợp nuôi làm cảnh sân vườn.",
+        "temperamentVi": "Hiền lành, thân thiện, tiếng gáy nhỏ gọn",
+        "sizeVi": "Nặng 400–900 g tùy dòng",
+        "lifespanVi": "6–10 năm",
+        "careVi": "Giữ nền chuồng khô ráo sạch sẽ và nhỏ vaccine định kỳ",
+        "originVi": "Đông Nam Á và Đông Á",
+        "photos": [
+          {
+            "file": "File:64.Okresní výstava králíků, holubů a drůbeže 71.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:64.Okresn%C3%AD_v%C3%BDstava_kr%C3%A1l%C3%ADk%C5%AF,_holub%C5%AF_a_dr%C5%AFbe%C5%BEe_71.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/64.Okresn%C3%AD_v%C3%BDstava_kr%C3%A1l%C3%ADk%C5%AF%2C_holub%C5%AF_a_dr%C5%AFbe%C5%BEe_71.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 5184,
+            "height": 3888,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "Pohled 111",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cory's chickens 05 - Egyptian Fayoumi pullet (28696085141).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_05_-_Egyptian_Fayoumi_pullet_(28696085141).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cory%27s_chickens_05_-_Egyptian_Fayoumi_pullet_%2828696085141%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3299,
+        "height": 2459,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cory's chickens 09 - Egyptian Fayoumi pullet (28488787120) (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_09_-_Egyptian_Fayoumi_pullet_(28488787120)_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Cory%27s_chickens_09_-_Egyptian_Fayoumi_pullet_%2828488787120%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2058,
+        "height": 2255,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cory's chickens 09 - Egyptian Fayoumi pullet (28488787120).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_09_-_Egyptian_Fayoumi_pullet_(28488787120).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cory%27s_chickens_09_-_Egyptian_Fayoumi_pullet_%2828488787120%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3767,
+        "height": 2546,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cory's chickens 38 - Egyptian Fayoumi pullets (28155758864).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_38_-_Egyptian_Fayoumi_pullets_(28155758864).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cory%27s_chickens_38_-_Egyptian_Fayoumi_pullets_%2828155758864%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:64.Okresní výstava králíků, holubů a drůbeže 69.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:64.Okresn%C3%AD_v%C3%BDstava_kr%C3%A1l%C3%ADk%C5%AF,_holub%C5%AF_a_dr%C5%AFbe%C5%BEe_69.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/64.Okresn%C3%AD_v%C3%BDstava_kr%C3%A1l%C3%ADk%C5%AF%2C_holub%C5%AF_a_dr%C5%AFbe%C5%BEe_69.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Pohled 111",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9457155",
+      "https://en.wikipedia.org/wiki/Chicken",
+      "https://vi.wikipedia.org/wiki/G%C3%A0"
+    ]
+  },
+  {
+    "scientificName": "Coturnix japonica",
+    "commonNameVi": "Chim cút Nhật",
+    "commonNameEn": "Japanese quail",
+    "group": "Chim",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Coturnix"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Coturnix"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22678949",
+    "gbifKey": 2474162,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ thấp, bờ ruộng và thảo nguyên Đông Á; nuôi cảnh phổ biến trong chuồng đáy phẳng"
+    },
+    "descriptionVi": "Loài chim cút sống trên mặt đất có nguồn gốc Đông Á, đã được nuôi làm chim cảnh hót và lấy trứng tại Nhật Bản từ thế kỷ 12. Thân hình tròn trĩnh, không có đuôi dài và có nhiều biến thể màu lông đẹp như vàng kim (Manchurian Golden), trắng tuyết và Tuxedo.",
+    "conservationNoteVi": "Quần thể di cư hoang dã ngoài tự nhiên ở mức Sắp bị đe dọa (NT) do mất đồng cỏ tự nhiên, trong khi quần thể nhân giống nuôi nhốt cực kỳ dồi dào trên toàn cầu.",
+    "pullQuoteVi": "Năm 1990, trứng chim cút Nhật đã nở thành công trên trạm vũ trụ Mir, trở thành những sinh vật có xương sống đầu tiên chào đời ngoài không gian.",
+    "dietVi": "Hạt kê, cám chim cút, rau xanh băm nhỏ, sâu canxi và bột vỏ sò",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Quần đảo Nhật Bản và vùng Đông Á",
+      "lat": 35.68,
+      "lng": 139.76
+    },
+    "regionVi": "Đông Á",
+    "otherNamesVi": [
+      "Chim cút cảnh Nhật Bản",
+      "Cút vàng Manchurian"
+    ],
+    "synonyms": [
+      "Coturnix coturnix japonica"
+    ],
+    "wikidataId": "Q716869",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%BAt_Nh%E1%BA%ADt_B%E1%BA%A3n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_quail",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 17,
+      "lengthCmMax": 20,
+      "weightGMin": 110,
+      "weightGMax": 160,
+      "heightCmMax": 15,
+      "noteVi": "Chim mái thường nặng hơn chim trống một chút"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "JP",
+        "KP",
+        "KR",
+        "MN",
+        "RU",
+        "VN"
+      ],
+      "nativeRangeVi": "Sinh sản tại Đông Á (Nhật Bản, Hàn Quốc, bắc Trung Quốc, Nga) và trú đông xuống miền nam Trung Quốc, bắc Việt Nam",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ thấp",
+      "Thung lũng ven sông"
+    ],
+    "identificationVi": "Thân bầu dục mũm mĩm, sọc trắng kem chạy trên mắt, lông lưng có các vệt dọc màu vàng nhạt trên nền nâu sẫm (màu tự nhiên) hoặc vàng óng (dòng đột biến).",
+    "behaviorVi": "Kiếm ăn hoàn toàn trên mặt đất, rất thích nằm vùi mình tắm cát mỗi ngày và hiếm khi bay trừ lúc giật mình.",
+    "reproductionVi": "Thời gian ấp trứng 16–18 ngày; chim non phát triển cực nhanh, trưởng thành chỉ sau 6 tuần tuổi.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đồng cỏ tự nhiên đối với các đàn chim hoang dã di cư"
+    ],
+    "funFactsVi": [
+      "Thời phong kiến Nhật Bản, các lãnh chúa Samurai từng tổ chức các cuộc thi nghe tiếng gáy của chim cút Nhật trong những chiếc lồng gỗ chạm khắc tinh xảo.",
+      "Vỏ trứng cút Nhật có những mảng đốm nâu đen độc nhất vô nhị như dấu vân tay của từng cá thể chim mái."
+    ],
+    "similarSpecies": [
+      "Coturnix coturnix",
+      "Synoicus chinensis"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Được nhân giống rộng rãi làm vật nuôi hợp pháp tại Việt Nam.",
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng đáy phẳng diện tích 80×50 cm, chiều cao trần thấp (35–40 cm) hoặc lót lưới mềm trên nóc để tránh chim bật nhảy đụng đầu, có khay cát tắm.",
+      "lightingVi": "Ánh sáng tự nhiên thoáng mát.",
+      "feedingVi": "Hạt kê trộn cám chim đạm 20%, rau xà lách thái nhỏ và sâu khô.",
+      "socialVi": "Nuôi theo nhóm 1 trống kèm 3–4 mái hoặc nhóm toàn chim mái.",
+      "commonProblemsVi": [
+        "Trầy đỉnh đầu nếu trần lồng cứng có độ cao lửng lơ 50–70 cm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại rất phổ biến tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp chim cút Nhật cảnh màu vàng kim Golden (6 tuần tuổi)",
+        "breedVi": "Cút Nhật vàng kim",
+        "breedEn": "Manchurian Golden Japanese Quail",
+        "priceVnd": 180000,
+        "descriptionVi": "Cặp cút cảnh bộ lông vàng óng điểm đốm nâu rất đẹp, hiền lành, đã bắt đầu đẻ trứng.",
+        "temperamentVi": "Hiền hòa, dễ nuôi ở đáy chuồng Aviary hoặc chuồng ban công",
+        "sizeVi": "Dài 17–20 cm, nặng 120–150 g",
+        "lifespanVi": "3–5 năm",
+        "careVi": "Chuẩn bị khay cát mịn để chim tắm cát mỗi ngày",
+        "originVi": "Nhân giống tại Việt Nam (gốc Nhật Bản)",
+        "photos": [
+          {
+            "file": "File:Křepelka japonská - zlaté zbarvení.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:K%C5%99epelka_japonsk%C3%A1_-_zlat%C3%A9_zbarven%C3%AD.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/K%C5%99epelka_japonsk%C3%A1_-_zlat%C3%A9_zbarven%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 4128,
+            "height": 3096,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "Nekomata obecná",
+            "verified": true,
+            "visualChecked": true,
+            "focus": [
+              0.5,
+              0.4
+            ]
+          },
+          {
+            "file": "File:Coturnix japonica day 01.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_japonica_day_01.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Coturnix_japonica_day_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 1279,
+            "height": 1653,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "メルビル",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Křepelka japonská - divoké zbarvení.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:K%C5%99epelka_japonsk%C3%A1_-_divok%C3%A9_zbarven%C3%AD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/K%C5%99epelka_japonsk%C3%A1_-_divok%C3%A9_zbarven%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4128,
+        "height": 3096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nekomata obecná",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Coturnix japonica20150824.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_japonica20150824.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Coturnix_japonica20150824.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1525,
+        "height": 1819,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Vogelpark Olching 57.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vogelpark_Olching_57.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Vogelpark_Olching_57.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Edelmauswaldgeist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adlut Coturnix japonica2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adlut_Coturnix_japonica2015.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Adlut_Coturnix_japonica2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Coturnix j j.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_j_j.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Coturnix_j_j.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2800,
+        "height": 2128,
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Izvora",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2474162",
+      "https://en.wikipedia.org/wiki/Japanese_quail",
+      "https://vi.wikipedia.org/wiki/C%C3%BAt_Nh%E1%BA%ADt_B%E1%BA%A3n",
+      "https://www.iucnredlist.org/species/22678949"
+    ]
+  },
+  {
+    "scientificName": "Synoicus chinensis",
+    "commonNameVi": "Chim cút lùn ngực lam",
+    "commonNameEn": "King quail",
+    "group": "Chim",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Synoicus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Synoicus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22678979",
+    "gbifKey": 8082581,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ ẩm và trảng cỏ thấp từ Ấn Độ, Đông Nam Á tới miền bắc và đông nước Úc"
+    },
+    "descriptionVi": "Loài chim cút nhỏ nhất thế giới, cá thể trưởng thành chỉ dài 12–14 cm và nặng vỏn vẹn 40–50 gram (chim non mới nở nhỏ bằng con ong nghệ). Con trống sở hữu bộ lông ngực màu xanh lam xám quyến rũ kèm vòng cổ đen trắng sắc nét.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) nhờ vùng phân bố rộng khắp Nam Á, Đông Nam Á (có Việt Nam) đến châu Đại Dương.",
+    "pullQuoteVi": "Chim cút lùn mới nở chỉ nặng khoảng 3–4 gram, nhỏ bằng một đốt ngón tay cái nhưng đã biết tự chạy đi mổ hạt kê ngay khi khô lông.",
+    "dietVi": "Hạt kê nhỏ, hạt cỏ, mầm rau xanh và sâu gạo nhỏ",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Nam Á và Nam Trung Quốc",
+      "lat": 19.2,
+      "lng": 109.5
+    },
+    "regionVi": "Nam Á, Đông Nam Á và Úc",
+    "otherNamesVi": [
+      "Cút kiểng Mini",
+      "Cút nút áo (Button quail)",
+      "Cút Trung Quốc"
+    ],
+    "synonyms": [
+      "Excalfactoria chinensis",
+      "Coturnix chinensis"
+    ],
+    "wikidataId": "Q27043839",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chim_c%C3%BAt_ng%E1%BB%B1c_lam",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/King_quail",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 14,
+      "weightGMin": 35,
+      "weightGMax": 55,
+      "heightCmMax": 10,
+      "noteVi": "Loài chim thuộc bộ Gà nhỏ nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "CN",
+        "ID",
+        "IN",
+        "LK",
+        "MY",
+        "PH",
+        "TH",
+        "VN"
+      ],
+      "nativeRangeVi": "Từ Ấn Độ, Sri Lanka, nam Trung Quốc qua toàn bộ Đông Nam Á xuống miền bắc và đông nước Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ dày ẩm",
+      "Bờ ruộng và trảng cỏ"
+    ],
+    "identificationVi": "Chim trống có má trắng viền yếm đen ở họng, ngực xanh lam xám và bụng đỏ hạt dẻ; chim mái màu nâu điểm vằn đen ngụy trang.",
+    "behaviorVi": "Sống theo từng cặp một trống một mái rất gắn bó trên mặt đất, thường được nuôi ở tầng đáy chuồng Aviary để nhặt hạt rơi.",
+    "reproductionVi": "Chim mái đẻ 5–8 trứng nhỏ bằng đầu ngón tay và tự ấp nở trong 16 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa trong tự nhiên"
+    ],
+    "funFactsVi": [
+      "Trong giới chơi chim Aviary, cút lùn ngực lam được mệnh danh là 'máy hút bụi sinh học' vì chúng cần mẫn ăn sạch các hạt kê rơi vãi dưới đáy chuồng.",
+      "Con trống có tập tính gắp mồi ngon rồi phát tiếng kêu 'tắc-tắc' gọi con mái lại ăn trước."
+    ],
+    "similarSpecies": [
+      "Coturnix japonica",
+      "Turnix sylvaticus"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Loài phổ biến mức LC, không thuộc danh mục cấm; các dòng màu đột biến bạc và trắng được nhân giống làm cảnh hợp pháp.",
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính thoáng hoặc tầng đáy chuồng Aviary diện tích từ 60×40 cm trở lên, bố trí bụi cỏ giả để chim ẩn nấp và khay cát mịn.",
+      "lightingVi": "Ánh sáng ấm áp 22–30 °C.",
+      "feedingVi": "Hạt kê nhỏ (finches mix), cám trứng, sâu gạo cắt nhỏ và rau cải băm nhuyễn.",
+      "socialVi": "Nuôi theo đúng cặp 1 trống 1 mái vì loài này sống một vợ một chồng.",
+      "commonProblemsVi": [
+        "Nhiễm lạnh ở chim non nếu nhiệt độ dưới 22 °C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong nước với các màu tự nhiên, bạc (Silver) và trắng."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp chim cút lùn ngực lam Mini (2 tháng tuổi)",
+        "breedVi": "Cút lùn ngực lam",
+        "breedEn": "King Quail / Button Quail Pair",
+        "priceVnd": 280000,
+        "descriptionVi": "Cặp 1 trống 1 mái đã lên đủ lông màu ngực lam và yếm trắng đen, cực kỳ nhỏ nhắn đáng yêu.",
+        "temperamentVi": "Hiền hòa, quấn quýt theo cặp, rất hợp thả đáy bể bán cạn hoặc Aviary",
+        "sizeVi": "Dài 12–14 cm, nặng chỉ 40–50 g",
+        "lifespanVi": "4–6 năm",
+        "careVi": "Cho ăn hạt kê nhỏ, sâu khô và đặt khay cát tắm mịn",
+        "originVi": "Nhân giống tại Việt Nam",
+        "photos": [
+          {
+            "file": "File:Chinesische Zwergwachteln (Excalfactoria chinensis) Schmetterlingspark Uslar.JPG",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinesische_Zwergwachteln_(Excalfactoria_chinensis)_Schmetterlingspark_Uslar.JPG",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Chinesische_Zwergwachteln_%28Excalfactoria_chinensis%29_Schmetterlingspark_Uslar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 4608,
+            "height": 3456,
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "author": "User:AndOrth",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Asian Blue Quail RWD.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Blue_Quail_RWD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Asian_Blue_Quail_RWD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3260,
+        "height": 2445,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "DickDaniels (http://theworldbirds.org/)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Coturnix chinensis (33710110866).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_chinensis_(33710110866).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Coturnix_chinensis_%2833710110866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Asian Blue Quail RWD3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Blue_Quail_RWD3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Asian_Blue_Quail_RWD3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2935,
+        "height": 2201,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "DickDaniels (http://carolinabirds.org/)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chinesische Zwergwachtel (Excalfactoria chinensis) Schmetterlingspark Uslar.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinesische_Zwergwachtel_(Excalfactoria_chinensis)_Schmetterlingspark_Uslar.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chinesische_Zwergwachtel_%28Excalfactoria_chinensis%29_Schmetterlingspark_Uslar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:AndOrth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Coturnix chinensis (32907695614).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_chinensis_(32907695614).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Coturnix_chinensis_%2832907695614%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8082581",
+      "https://en.wikipedia.org/wiki/King_quail",
+      "https://vi.wikipedia.org/wiki/Chim_c%C3%BAt_ng%E1%BB%B1c_lam",
+      "https://www.iucnredlist.org/species/22678979"
+    ]
+  },
+  {
+    "scientificName": "Serinus canaria domestica",
+    "commonNameVi": "Chim yến hót",
+    "commonNameEn": "Domestic canary",
+    "group": "Chim",
+    "domestic": true,
+    "wildAncestor": {
+      "scientificName": "Serinus canaria",
+      "commonNameVi": "Chim yến hoang quần đảo Canaria",
+      "iucn": "LC",
+      "gbifKey": 2494303
+    },
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Fringillidae",
+      "genus": "Serinus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sẻ (Passeriformes)",
+      "family": "Họ Sẻ đồng (Fringillidae)",
+      "genus": "Chi Serinus"
+    },
+    "iucn": null,
+    "iucnUrl": null,
+    "gbifKey": 11221569,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SUBSPECIES",
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Nuôi trong lồng chim cảnh thoáng gió hoặc chuồng Aviary trong nhà"
+    },
+    "descriptionVi": "Phân loài chim cảnh được thuần hóa từ quần đảo Canaria và Madeira từ thế kỷ 17, nổi danh toàn cầu nhờ giọng hót ngân nga nhiều cung bậc của chim trống và bộ lông vàng tươi, hồng đỏ hoặc trắng muốt.",
+    "conservationNoteVi": "Dạng thuần hóa không thuộc đối tượng đánh giá của IUCN; loài hoang dã tổ tiên Serinus canaria ở mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Chim yến hót dòng Harz Roller có thể ngậm kín mỏ mà vẫn ngân dài những chuỗi âm thanh trầm bổng liên tục suốt gần một phút.",
+    "dietVi": "Hạt yến (canary seed), hạt cải, hạt lanh, cám trứng, bông cải xanh và táo tươi",
+    "lifespanVi": "9–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Quần đảo Canaria (Tây Ban Nha) và Madeira (Bồ Đào Nha)",
+      "lat": 28.29,
+      "lng": -16.63
+    },
+    "regionVi": "Toàn cầu (nguồn gốc Macaronesia)",
+    "otherNamesVi": [
+      "Chim Hoàng yến",
+      "Hồng yến",
+      "Bạch yến"
+    ],
+    "synonyms": [
+      "Serinus canaria forma domestica"
+    ],
+    "wikidataId": "Q253941",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chim_y%E1%BA%BFn_h%C3%B3t",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Domestic_canary",
+    "iucnAssessedYear": null,
+    "populationTrend": null,
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 15,
+      "weightGMin": 15,
+      "weightGMax": 28,
+      "heightCmMax": null,
+      "noteVi": "Một số dòng yến dáng lớn (Lancashire) có thể dài tới 20 cm"
+    },
+    "distribution": {
+      "countries": [
+        "BE",
+        "DE",
+        "ES",
+        "FR",
+        "GB",
+        "IT",
+        "PT"
+      ],
+      "nativeRangeVi": "Thuần hóa từ quần đảo Canaria, Azores và Madeira, nay nhân giống khắp thế giới",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Môi trường nhân sinh"
+    ],
+    "identificationVi": "Mỏ hình nón ngắn khỏe chuyên bóc vỏ hạt, bộ lông vàng chanh (Hoàng yến), đỏ cam (Hồng yến) hoặc trắng tinh (Bạch yến), đuôi chẻ nhẹ.",
+    "behaviorVi": "Chim trống hót rất siêng năng vào buổi sáng để khẳng định lãnh thổ; rất thích tắm nước sạch trong cóng tắm mỗi ngày.",
+    "reproductionVi": "Đẻ 3–5 trứng màu xanh nhạt lấm tấm nâu trong ổ đan hình chén, chim mái ấp 13–14 ngày.",
+    "threatsVi": [
+      "Loài tổ tiên hoang dã Serinus canaria ổn định trên quần đảo Canaria; chim nuôi trong nhà rất nhạy cảm với khói độc PTFE từ chảo chống dính quá nhiệt"
+    ],
+    "funFactsVi": [
+      "Tên gọi của chim Canary không phải đặt theo màu vàng, mà ngược lại màu vàng Canary được đặt theo tên quần đảo Canaria (vốn bắt nguồn từ chữ Latin 'Canariae Insulae' nghĩa là Đảo Chó).",
+      "Dòng Hồng yến (Red Factor Canary) là loài vật nuôi đầu tiên trong lịch sử được tạo ra nhờ lai tạo có chủ đích sự chuyển gen giữa chim yến và chim hồng tước đỏ Nam Mỹ."
+    ],
+    "similarSpecies": [
+      "Serinus canaria",
+      "Spinus cucullatus"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Chim cảnh thuần hóa hợp pháp hoàn toàn tại Việt Nam.",
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Lồng ngang dài tối thiểu 60×40×45 cm để chim bay ngang giữa hai cầu đậu xa nhau, có cóng nước tắm.",
+      "lightingVi": "Nơi sáng sủa thoáng gió, tránh khói bếp (đặc biệt hơi chảo chống dính rất độc với phổi chim).",
+      "feedingVi": "Hỗn hợp hạt yến chuyên dụng, nang mực bổ sung canxi, rau xà lách và trứng luộc nghiền.",
+      "socialVi": "Chim trống nên nuôi riêng mỗi con một lồng để chim căng lửa hót tốt nhất.",
+      "commonProblemsVi": [
+        "Ngừng hót tạm thời trong mùa thay lông hàng năm",
+        "Đóng vảy chân nếu cầu đậu không được vệ sinh"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Dòng chim cảnh truyền thống được nhân giống rộng rãi trong nước."
+    },
+    "products": [
+      {
+        "nameVi": "Chim Hoàng yến trống siêng hót (8 tháng tuổi)",
+        "breedVi": "Hoàng yến",
+        "breedEn": "Yellow Singing Domestic Canary",
+        "priceVnd": 1200000,
+        "descriptionVi": "Chim trống lông vàng tươi rực rỡ, đã vào lửa hót giọng dài trong trẻo mỗi sáng.",
+        "temperamentVi": "Lanh lợi, thích tắm nước và hót vang khi có nắng sớm",
+        "sizeVi": "Dài 13–14 cm, nặng 18–24 g",
+        "lifespanVi": "9–14 năm",
+        "careVi": "Cho ăn hạt yến trộn cám trứng và treo nơi thoáng mát có ánh sáng tự nhiên",
+        "originVi": "Nhân giống tại Việt Nam",
+        "photos": [
+          {
+            "file": "File:2017-10-31 - Canário do Reino - Serinus canaria (37355445174).jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:2017-10-31_-_Can%C3%A1rio_do_Reino_-_Serinus_canaria_(37355445174).jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2017-10-31_-_Can%C3%A1rio_do_Reino_-_Serinus_canaria_%2837355445174%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2560,
+            "height": 1440,
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "author": "User:LeonardoOG from Recife, Brazil",
+            "verified": true,
+            "visualChecked": true,
+            "focus": [
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "file": "File:Canari (volière du parc du Thabor, Rennes).JPG",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Canari_(voli%C3%A8re_du_parc_du_Thabor,_Rennes).JPG",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Canari_%28voli%C3%A8re_du_parc_du_Thabor%2C_Rennes%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 4320,
+            "height": 3240,
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "author": "Xfigpower",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      },
+      {
+        "nameVi": "Chim Yến Mosaic / Hồng yến màu (7 tháng tuổi)",
+        "breedVi": "Yến màu Mosaic",
+        "breedEn": "Colorbred Mosaic Canary",
+        "priceVnd": 1500000,
+        "descriptionVi": "Dòng yến màu có hoa văn tương phản tinh tế, khỏe mạnh, lông ôm sát bóng mượt.",
+        "temperamentVi": "Hiền hòa, giọng hót êm dịu",
+        "sizeVi": "Dài 13–15 cm, nặng 20–25 g",
+        "lifespanVi": "9–14 năm",
+        "careVi": "Bổ sung thực phẩm giàu beta-carotene (cà rốt, ớt ngọt) trong kỳ thay lông để giữ sắc tố tươi",
+        "originVi": "Nhân giống tại Việt Nam",
+        "photos": [
+          {
+            "file": "File:Achat gelbmosaik typ2.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Achat_gelbmosaik_typ2.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Achat_gelbmosaik_typ2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 1772,
+            "height": 1181,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "NEWSchr",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:20181001 - Canário belga - casal.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:20181001_-_Can%C3%A1rio_belga_-_casal.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/20181001_-_Can%C3%A1rio_belga_-_casal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 1440,
+            "height": 2560,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "Leonardoo11",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bloedel Conservatory Bird (35371189065).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloedel_Conservatory_Bird_(35371189065).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bloedel_Conservatory_Bird_%2835371189065%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3972,
+        "height": 2982,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Mike's Birds from Riverside, CA, US",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2 canaries (serinus canaria).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2_canaries_(serinus_canaria).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/2_canaries_%28serinus_canaria%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Yavor Momchilov Uzunov (talk)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Canari en cage, janvier 2022, DSC 1767.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Canari_en_cage,_janvier_2022,_DSC_1767.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Canari_en_cage%2C_janvier_2022%2C_DSC_1767.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4634,
+        "height": 3076,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Habib M'henni",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20180825 Vlinders aan de Vliet 05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_05.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/20180825_Vlinders_aan_de_Vliet_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2014-05-12 Solothurn 08.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2014-05-12_Solothurn_08.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/2014-05-12_Solothurn_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nemo bis",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/11221569",
+      "https://en.wikipedia.org/wiki/Domestic_canary",
+      "https://vi.wikipedia.org/wiki/Chim_y%E1%BA%BFn_h%C3%B3t"
+    ]
+  },
+  {
+    "scientificName": "Chrysolophus pictus",
+    "commonNameVi": "Trĩ vàng",
+    "commonNameEn": "Golden pheasant",
+    "group": "Chim",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Chrysolophus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Chrysolophus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22679355",
+    "gbifKey": 5228034,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng tre trúc và rừng núi đá miền trung Trung Quốc; nuôi cảnh trong chuồng Aviary sân vườn"
+    },
+    "descriptionVi": "Một trong những loài chim có bộ lông rực rỡ nhất hành tinh: chim trống mang mào lông vàng óng như tơ trên đỉnh đầu, tấm choàng cổ màu cam viền đen có thể xòe rộng như cánh quạt, ngực đỏ thẫm và chiếc đuôi dài lộng lẫy.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) với vùng phân bố rộng ở miền trung Trung Quốc và được nhân giống làm cảnh rất phổ biến khắp thế giới.",
+    "pullQuoteVi": "Vào mùa tán tỉnh, chim trĩ vàng trống xòe tấm lông cổ màu cam viền đen che kín một bên mặt chỉ để lộ con mắt sáng rực trước chim mái.",
+    "dietVi": "Ngũ cốc, hạt kê, quả mọng, chồi non, rau xanh và côn trùng",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Khu bảo tồn thiên nhiên Đường Gia Hà (Tangjiahe), Tứ Xuyên, Trung Quốc",
+      "lat": 32.58,
+      "lng": 104.75
+    },
+    "regionVi": "Đông Á (Trung Quốc)",
+    "otherNamesVi": [
+      "Gà lôi vàng",
+      "Trĩ hoàng kim",
+      "Kim kê"
+    ],
+    "synonyms": [
+      "Phasianus pictus"
+    ],
+    "wikidataId": "Q335113",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tr%C4%A9_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Golden_pheasant",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 105,
+      "weightGMin": 550,
+      "weightGMax": 750,
+      "heightCmMax": 40,
+      "noteVi": "Riêng chiếc đuôi của con trống chiếm tới 2/3 tổng chiều dài cơ thể (60–70 cm)"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "GB"
+      ],
+      "nativeRangeVi": "Rừng núi miền trung và tây Trung Quốc (Tứ Xuyên, Thiểm Tây, Cam Túc, Hồ Bắc, Quý Châu)",
+      "elevationM": {
+        "min": 800,
+        "max": 2600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng núi cao",
+      "Rừng tre trúc rậm rạp"
+    ],
+    "identificationVi": "Con trống có mào vàng kim, cổ cam vảy đen, lưng trên xanh lục ngọc bích, ngực đỏ tươi và đuôi dài đốm nâu; con mái màu nâu vằn ngụy trang.",
+    "behaviorVi": "Kiếm ăn lặng lẽ trên mặt đất dưới tán cây bụi ban ngày và bay lên đậu ngủ trên cành cây cao vào ban đêm.",
+    "reproductionVi": "Đẻ 8–12 trứng mỗi lứa, thời gian ấp 22–23 ngày; chim trống lên hết màu lông rực rỡ vào năm tuổi thứ hai.",
+    "threatsVi": [
+      "Phân mảnh sinh cảnh rừng cục bộ tại một số tỉnh miền trung Trung Quốc"
+    ],
+    "funFactsVi": [
+      "Trong văn hóa Á Đông, hình ảnh 'Kim kê' (Trĩ vàng) là biểu tượng của sự cát tường và từng được thêu trên phẩm phục quan văn thời xưa.",
+      "Dù có đôi cánh khỏe, trĩ vàng thích chạy luồn lách cực nhanh qua bụi rậm hơn là bay lên không trung."
+    ],
+    "similarSpecies": [
+      "Chrysolophus amherstiae",
+      "Syrmaticus reevesii"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Loài ngoại lai mức LC không thuộc phụ lục CITES hay danh mục cấm của Việt Nam; được phép nuôi cảnh sân vườn hợp pháp từ các trại nhân giống.",
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng Aviary sân vườn dài tối thiểu 3×1,5×2 m để chiếc đuôi dài của chim trống không bị quệt gãy vào lưới, bố trí cành đậu cao và bụi cây trúc.",
+      "lightingVi": "Có mái che mưa nắng một phần và khoảng sân cát khô để tắm nắng.",
+      "feedingVi": "Cám gà lôi/trĩ cảnh giàu đạm, thóc mầm, ngô hạt, rau xanh và sâu canxi.",
+      "socialVi": "Nuôi đơn hoặc ghép 1 trống với 2–3 mái trong chuồng Aviary rộng.",
+      "commonProblemsVi": [
+        "Xơ gãy lông đuôi nếu chuồng nuôi quá hẹp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES, được nhân giống thương mại rất phổ biến tại các trại chim cảnh Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Trĩ vàng Kim kê trống trưởng thành lên đủ màu (14 tháng tuổi)",
+        "breedVi": "Trĩ vàng đỏ truyền thống",
+        "breedEn": "Red Golden Pheasant Male",
+        "priceVnd": 2800000,
+        "descriptionVi": "Chim trống đã thay xong lông trưởng thành rực rỡ 5 màu, đuôi dài nguyên vẹn, khỏe mạnh và dạn người.",
+        "temperamentVi": "Điềm đạm, cực kỳ nổi bật trong chuồng Aviary sân vườn",
+        "sizeVi": "Dài 90–105 cm (tính cả đuôi), nặng 600–750 g",
+        "lifespanVi": "10–15 năm",
+        "careVi": "Nuôi trong Aviary rộng tối thiểu 3 m chiều dài có sào gỗ cao",
+        "originVi": "Nhân giống tại Việt Nam (gốc Tứ Xuyên)",
+        "photos": [
+          {
+            "file": "File:Chrysolophus pictus (male), Lahore Zoo - 01.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Chrysolophus_pictus_(male),_Lahore_Zoo_-_01.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chrysolophus_pictus_%28male%29%2C_Lahore_Zoo_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 4928,
+            "height": 3264,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "Shahzaib Damn Cruze",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:Chrysolophus pictus in Dierenpark Zie-ZOO.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Chrysolophus_pictus_in_Dierenpark_Zie-ZOO.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Chrysolophus_pictus_in_Dierenpark_Zie-ZOO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 5184,
+            "height": 3456,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "FakirNL",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A male Golden Pheasant (Chrysolophus pictus) showing its colorful plumage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_male_Golden_Pheasant_(Chrysolophus_pictus)_showing_its_colorful_plumage.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/A_male_Golden_Pheasant_%28Chrysolophus_pictus%29_showing_its_colorful_plumage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4256,
+        "height": 2832,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bhullargraphic",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Golden Pheasant, Tangjiahe Nature Reserve, Sichuan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_Tangjiahe_Nature_Reserve,_Sichuan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve%2C_Sichuan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1790,
+        "height": 2685,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Jmhullot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Golden Pheasant, courtship display, Tangjiahe Nature Reserve, Sichuan, China.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_courtship_display,_Tangjiahe_Nature_Reserve,_Sichuan,_China.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Golden_Pheasant%2C_courtship_display%2C_Tangjiahe_Nature_Reserve%2C_Sichuan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2099,
+        "height": 1399,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Jmhullot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Golden Pheasant, Tangjiahe Nature Reserve.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_Tangjiahe_Nature_Reserve.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 2569,
+        "height": 1713,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Jmhullot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bažant zlatý (Chrysolophus pictus).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ba%C5%BEant_zlat%C3%BD_(Chrysolophus_pictus).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ba%C5%BEant_zlat%C3%BD_%28Chrysolophus_pictus%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Akdam",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5228034",
+      "https://en.wikipedia.org/wiki/Golden_pheasant",
+      "https://vi.wikipedia.org/wiki/Tr%C4%A9_v%C3%A0ng",
+      "https://www.iucnredlist.org/species/22679355"
+    ]
+  },
+  {
+    "scientificName": "Columba livia domestica",
+    "commonNameVi": "Bồ câu cảnh",
+    "commonNameEn": "Domestic pigeon",
+    "group": "Chim",
+    "domestic": true,
+    "wildAncestor": {
+      "scientificName": "Columba livia",
+      "commonNameVi": "Bồ câu núi đá",
+      "iucn": "LC",
+      "gbifKey": 2495414
+    },
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Columba"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Bồ câu (Columbiformes)",
+      "family": "Họ Bồ câu (Columbidae)",
+      "genus": "Chi Columba"
+    },
+    "iucn": null,
+    "iucnUrl": null,
+    "gbifKey": 9310871,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "FORM",
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Chuồng bồ câu sân thượng, sân vườn hoặc lồng Aviary rộng"
+    },
+    "descriptionVi": "Loài chim được con người thuần hóa sớm nhất trong lịch sử (cách đây hơn 5.000 năm tại Lưỡng Hà và Ai Cập). Các dòng bồ câu kiểng như bồ câu xòe Nhật (Fantail), bồ câu sư tử (Jacobin) và bồ câu đưa thư rất được yêu thích.",
+    "conservationNoteVi": "Dạng vật nuôi thuần hóa không thuộc đối tượng đánh giá của IUCN; loài tổ tiên hoang dã Columba livia ở mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Nhờ la bàn từ trường sinh học ở vùng mỏ và võng mạc, bồ câu đưa thư có thể tìm đường bay chính xác về chuồng từ khoảng cách hơn 1.000 km.",
+    "dietVi": "Hạt ngũ cốc nguyên hạt (đậu xanh, ngô nhỏ, lúa mì, hạt kê, hướng dương nhỏ) và khoáng grit",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Địa Trung Hải và Trung Đông",
+      "lat": 31.77,
+      "lng": 35.21
+    },
+    "regionVi": "Toàn cầu (thuần hóa tại Trung Đông)",
+    "otherNamesVi": [
+      "Bồ câu kiểng",
+      "Bồ câu nhà",
+      "Bồ câu xòe"
+    ],
+    "synonyms": [
+      "Columba domestica"
+    ],
+    "wikidataId": "Q204179",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%E1%BB%93_c%C3%A2u_nh%C3%A0",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Domestic_pigeon",
+    "iucnAssessedYear": null,
+    "populationTrend": null,
+    "size": {
+      "lengthCmMin": 28,
+      "lengthCmMax": 36,
+      "weightGMin": 300,
+      "weightGMax": 600,
+      "heightCmMax": 28,
+      "noteVi": "Sải cánh rộng 60–70 cm"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "DE",
+        "EG",
+        "FR",
+        "GB",
+        "IN",
+        "IT",
+        "US",
+        "VN"
+      ],
+      "nativeRangeVi": "Thuần hóa từ khu vực Địa Trung Hải và Tây Á, nay phổ biến khắp thế giới",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": [
+      "Môi trường nhân sinh"
+    ],
+    "identificationVi": "Gốc mỏ có lớp da sáp trắng phồng nhẹ (cere), bộ lông đa dạng từ trắng muốt, xám hai vạch cánh đen đến các dòng đuôi xòe quạt 30–40 lông đuôi.",
+    "behaviorVi": "Hiền hòa, sống chung thủy một vợ một chồng suốt đời, có khả năng hút nước liên tục như dùng ống hút mà không cần ngửa cổ lên nuốt như các loài chim khác.",
+    "reproductionVi": "Mỗi lứa đẻ đúng 2 trứng trắng, cả chim bố và chim mẹ thay phiên ấp trong 17–18 ngày và tiết 'sữa diều' nuôi con.",
+    "threatsVi": [
+      "Loài tổ tiên hoang dã Columba livia tại các vách đá tự nhiên thường bị lai tạp với quần thể bồ câu nhà hoang hóa"
+    ],
+    "funFactsVi": [
+      "Charles Darwin từng nuôi hàng chục giống bồ câu cảnh tại nhà riêng và dành trọn Chương 1 của kiệt tác 'Nguồn gốc các loài' để phân tích sự chọn giống bồ câu.",
+      "Cả bồ câu trống và bồ câu mái đều tiết ra 'sữa diều' giàu đạm và kháng thể từ niêm mạc diều để mớm cho chim non trong tuần đầu tiên."
+    ],
+    "similarSpecies": [
+      "Columba livia",
+      "Streptopelia risoria"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Vật nuôi thuần hóa hoàn toàn hợp pháp tại Việt Nam.",
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng thoáng khô ráo tối thiểu 100×60×80 cm cho một cặp, có kệ đậu phẳng và ổ đẻ.",
+      "lightingVi": "Ánh sáng mặt trời buổi sáng và khay nước tắm nông 2–3 lần/tuần.",
+      "feedingVi": "Ngũ cốc hỗn hợp sạch, khoáng grit đỏ và nước uống thay mới hàng ngày.",
+      "socialVi": "Nuôi theo cặp trống mái gắn bó.",
+      "commonProblemsVi": [
+        "Bệnh đậu chim nếu chuồng nhiều muỗi",
+        "Thiếu khoáng canxi khi chim mái đẻ liên tục"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến khắp cả nước."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp bồ câu cảnh thuần chủng (4 tháng tuổi)",
+        "breedVi": "Bồ câu cảnh",
+        "breedEn": "Fancy / Homing Domestic Pigeon Pair",
+        "priceVnd": 550000,
+        "descriptionVi": "Cặp bồ câu cảnh bộ lông sạch mượt, mắt sáng, rất hiền và nhớ chuồng tốt.",
+        "temperamentVi": "Hiền lành, quấn chủ, biểu tượng của sự bình yên",
+        "sizeVi": "Dài 30–35 cm, nặng 350–500 g",
+        "lifespanVi": "10–15 năm",
+        "careVi": "Cho ăn ngũ cốc hỗn hợp kèm khoáng grit tiêu hóa",
+        "originVi": "Nhân giống tại Việt Nam",
+        "photos": [
+          {
+            "file": "File:Duivin (25621567824).jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Duivin_(25621567824).jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Duivin_%2825621567824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2236,
+            "height": 1464,
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "author": "kees torn",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:Brieftauben - panoramio (3).jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Brieftauben_-_panoramio_(3).jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Brieftauben_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2095,
+            "height": 2793,
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "author": "DURMERSHEIM",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Duiven zijn bij zondere dieren er komt veel bij kijken.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Duiven_zijn_bij_zondere_dieren_er_komt_veel_bij_kijken.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Duiven_zijn_bij_zondere_dieren_er_komt_veel_bij_kijken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Peter van der Sluijs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Angelbird.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angelbird.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Angelbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nurratih",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brieftauben - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brieftauben_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Brieftauben_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "DURMERSHEIM",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Duivin & Doffer (40497331233).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Duivin_%26_Doffer_(40497331233).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Duivin_%26_Doffer_%2840497331233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3131,
+        "height": 1984,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "kees torn",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Duivin (19406529491).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Duivin_(19406529491).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Duivin_%2819406529491%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4568,
+        "height": 3832,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "kees torn",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9310871",
+      "https://en.wikipedia.org/wiki/Domestic_pigeon",
+      "https://vi.wikipedia.org/wiki/B%E1%BB%93_c%C3%A2u_nh%C3%A0"
+    ]
+  },
+  {
+    "scientificName": "Aix galericulata",
+    "commonNameVi": "Vịt uyên ương",
+    "commonNameEn": "Mandarin duck",
+    "group": "Chim",
+    "domestic": false,
+    "wildAncestor": null,
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Aix"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ngỗng (Anseriformes)",
+      "family": "Họ Vịt (Anatidae)",
+      "genus": "Chi Aix"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22680107",
+    "gbifKey": 2498388,
+    "gbifStatus": "ACCEPTED",
+    "gbifRank": "SPECIES",
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 80,
+      "waterTempMin": 15,
+      "waterTempMax": 25,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Hồ nước ngọt trong rừng lá rộng Đông Á; nuôi cảnh trong hồ sân vườn có rào bao"
+    },
+    "descriptionVi": "Loài thủy cầm cảnh đẹp nhất thế giới và là biểu tượng của tình nghĩa vợ chồng son sắt trong văn hóa Á Đông. Con trống nổi bật với mỏ đỏ san hô, dải lông mày trắng dài, bờm cổ màu cam rực và hai chiếc lông cánh dựng đứng như hai cánh buồm vàng.",
+    "conservationNoteVi": "Đánh giá Ít lo ngại (LC) với quần thể rộng lớn tại Đông Á, châu Âu và được nhân giống thương mại trong các trang trại thủy cầm cảnh toàn cầu.",
+    "pullQuoteVi": "Hai chiếc lông vũ màu cam dựng đứng trên lưng vịt uyên ương trống giống hệt hai cánh buồm căng gió khi chúng bơi sóng đôi trên mặt hồ.",
+    "dietVi": "Ngũ cốc, cám thủy cầm nổi, bèo tấm, rau xanh, ốc nhỏ và sâu canxi",
+    "lifespanVi": "10–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Amur và quần đảo Nhật Bản, Đông Á",
+      "lat": 35.18,
+      "lng": 136.9
+    },
+    "regionVi": "Đông Á",
+    "otherNamesVi": [
+      "Chim uyên ương",
+      "Vịt Mandarin"
+    ],
+    "synonyms": [
+      "Anas galericulata"
+    ],
+    "wikidataId": "Q200339",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uy%C3%AAn_%C6%B0%C6%A1ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mandarin_duck",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 41,
+      "lengthCmMax": 49,
+      "weightGMin": 430,
+      "weightGMax": 690,
+      "heightCmMax": 30,
+      "noteVi": "Sải cánh 65–75 cm"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "GB",
+        "JP",
+        "KP",
+        "KR",
+        "RU",
+        "TW"
+      ],
+      "nativeRangeVi": "Đông Á gồm miền đông nước Nga, đông bắc Trung Quốc, Hàn Quốc, Nhật Bản; quần thể du nhập lớn tại Anh và Tây Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Suối và hồ nước ngọt trong rừng",
+      "Đầm lầy có cây cổ thụ ven bờ"
+    ],
+    "identificationVi": "Con trống có mỏ đỏ, dải lông trắng rộng từ mắt kéo ra sau gáy, hai lông cánh màu cam dựng đứng như cánh buồm; con mái màu xám nâu có vòng mắt trắng mảnh.",
+    "behaviorVi": "Khác với đa số các loài vịt khác, vịt uyên ương đậu trên cành cây rất giỏi và làm tổ trong hốc cây cổ thụ cao trên mặt nước.",
+    "reproductionVi": "Đẻ 9–12 trứng trong hộp gỗ treo cao, thời gian ấp 28–30 ngày; con non vừa nở đã nhảy từ hốc cây cao xuống mặt nước theo tiếng gọi của mẹ.",
+    "threatsVi": [
+      "Mất các khu rừng ngập nước ven sông tại Đông Bắc Á"
+    ],
+    "funFactsVi": [
+      "Sau mùa sinh sản mùa hè, vịt uyên ương trống sẽ rụng bộ lông sặc sỡ để chuyển sang bộ lông màu nâu xám giống hệt con mái (gọi là bộ lông Eclipse) nhằm ngụy trang khi thay lông cánh.",
+      "Dù mới nở được một ngày tuổi, vịt con có thể nhảy từ hốc cây cao hàng chục mét xuống đất mà không hề bị thương nhờ cơ thể siêu nhẹ và lớp lông tơ đàn hồi."
+    ],
+    "similarSpecies": [
+      "Aix sponsa"
+    ],
+    "vaccinationVi": null,
+    "legalNoteVi": "Không thuộc phụ lục CITES; cá thể nhân giống tại các trại sinh vật cảnh được phép nuôi hợp pháp làm cảnh sân vườn.",
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng Aviary sân vườn có lưới bao kín phía trên (vì chúng bay rất khỏe), bên trong có hồ nước sạch sâu 30–50 cm, cây xanh và hộp gỗ làm tổ treo cách đất 1 m.",
+      "lightingVi": "Ánh sáng tự nhiên ngoài trời có bóng cây râm mát.",
+      "feedingVi": "Hạt cám nổi cho thủy cầm cảnh, thóc, ngô mảnh, bèo tấm và sâu khô.",
+      "socialVi": "Bắt buộc nuôi theo cặp 1 trống 1 mái vì loài này gắn bó theo đôi.",
+      "commonProblemsVi": [
+        "Bay mất nếu hồ sân vườn không có lưới che phía trên",
+        "Bẩn lông nếu nước hồ không được lọc thay định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "needsReview": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES, cá thể nhân giống từ trại thủy cầm cảnh được giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp vịt Uyên ương trống mái trưởng thành (12 tháng tuổi)",
+        "breedVi": "Vịt Uyên ương ngũ sắc",
+        "breedEn": "Mandarin Duck Pair",
+        "priceVnd": 4200000,
+        "descriptionVi": "Cặp 1 trống 1 mái nhân giống tại trại, con trống đã lên đủ bộ lông cánh buồm cam rực rỡ, khỏe mạnh.",
+        "temperamentVi": "Hiền hòa, luôn bơi sóng đôi bên nhau trên mặt hồ tiểu cảnh",
+        "sizeVi": "Dài 41–49 cm, nặng 450–650 g mỗi con",
+        "lifespanVi": "10–12 năm",
+        "careVi": "Nuôi trong Aviary có hồ nước sạch và hộp gỗ làm tổ trên cao",
+        "originVi": "Trại nhân giống thủy cầm cảnh (gốc Đông Á)",
+        "photos": [
+          {
+            "file": "File:Mandarin Duck at National Zoo, Washington, D.C. - Sarah Stierch.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandarin_Duck_at_National_Zoo,_Washington,_D.C._-_Sarah_Stierch.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mandarin_Duck_at_National_Zoo%2C_Washington%2C_D.C._-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 2736,
+            "height": 3648,
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "author": "SarahStierch",
+            "verified": true,
+            "visualChecked": true
+          },
+          {
+            "file": "File:Flock of Aix galericulata in Shonai River - 8.jpg",
+            "pageUrl": "https://commons.wikimedia.org/wiki/File:Flock_of_Aix_galericulata_in_Shonai_River_-_8.jpg",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flock_of_Aix_galericulata_in_Shonai_River_-_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "width": 5112,
+            "height": 3834,
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "author": "KKPCW",
+            "verified": true,
+            "visualChecked": true
+          }
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aix galericulata on the pond - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aix_galericulata_on_the_pond_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Aix_galericulata_on_the_pond_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kyu3a",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Mandarin Duck（Aix galericulata）オシドリ.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandarin_Duck%EF%BC%88Aix_galericulata%EF%BC%89%E3%82%AA%E3%82%B7%E3%83%89%E3%83%AA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mandarin_Duck%EF%BC%88Aix_galericulata%EF%BC%89%E3%82%AA%E3%82%B7%E3%83%89%E3%83%AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1671,
+        "height": 2500,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Ken Ishigaki",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aix galericulata on the pond - 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aix_galericulata_on_the_pond_-_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Aix_galericulata_on_the_pond_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3866,
+        "height": 2900,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kyu3a",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flock of Aix galericulata in Shonai River - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flock_of_Aix_galericulata_in_Shonai_River_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flock_of_Aix_galericulata_in_Shonai_River_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4971,
+        "height": 3728,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "KKPCW",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flock of Aix galericulata in Shonai River - 6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flock_of_Aix_galericulata_in_Shonai_River_-_6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flock_of_Aix_galericulata_in_Shonai_River_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 5007,
+        "height": 3513,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "KKPCW",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2498388",
+      "https://en.wikipedia.org/wiki/Mandarin_duck",
+      "https://vi.wikipedia.org/wiki/Uy%C3%AAn_%C6%B0%C6%A1ng",
+      "https://www.iucnredlist.org/species/22680107"
+    ]
+  }
+]

@@ -75,6 +75,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, 
         {product.conservationStatus && (
           <IucnBadge
             code={product.conservationStatus}
+            domestic={product.isDomestic}
             size="md"
             showLabel={false}
             onMedia

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * scripts/build-catalog.mjs
- * Sinh dữ liệu mở rộng từ frontend/catalog/NN-x.json (nhóm 01–11, do Antigravity thu thập, Claude đã đối chiếu GBIF/Commons):
+ * Sinh dữ liệu mở rộng từ frontend/catalog/NN-x.json (nhóm 01–11 và 13, do Antigravity thu thập, Claude đã đối chiếu GBIF/Commons):
  * 1. Khối SQL giữa hai mốc CATALOG trong database/seed_data.sql (thay khối cũ nếu đã có).
  * 2. src/mocks/data/catalog.generated.ts: cùng dữ liệu cho MSW, id nối tiếp seed gốc theo đúng thứ tự INSERT.
  * 3. public/catalog/index.json + species-XX.json: hồ sơ mở rộng ngoài hợp đồng API (giống species-extras.ts của 9 loài gốc)
@@ -58,12 +58,24 @@ const NEW_SHOPS = [
   { group: '08', shopName: 'Đà Lạt Orchid & Cactus', bio: 'Lan, xương rồng, mọng nước và cây thuỷ sinh nuôi cấy mô.', user: { username: 'dalatorchid', fullName: 'Hồ Thị Lan', phone: '0971000806', address: 'Phường 9, Đà Lạt' } },
   { group: '10', shopName: 'Vườn Chim Hà Nội', bio: 'Chim cảnh nuôi sinh sản, có giấy phép.', user: { username: 'vuonchim', fullName: 'Phan Đức Thịnh', phone: '0971001007', address: 'Long Biên, Hà Nội' } },
   { group: '11', shopName: 'Reef House Nha Trang', bio: 'Cá cảnh biển nhân giống và thiết bị bể rạn.', user: { username: 'reefhouse', fullName: 'Võ Hải Đăng', phone: '0971001108', address: 'Nha Trang, Khánh Hòa' } },
+  { group: '13', shopName: 'Pet Garden Sài Gòn', bio: 'Chó mèo thuần chủng và thú nhỏ từ trại nhân giống đăng ký, tiêm phòng và tẩy giun đầy đủ.', user: { username: 'petgarden', fullName: 'Đặng Thu Trang', phone: '0971001309', address: 'Gò Vấp, TP.HCM' } },
 ];
 const GROUP_SHOP = { '01': 'BioGreen Exotic', '07': 'Carnivora Garden' };
 for (const s of NEW_SHOPS) GROUP_SHOP[s.group] = s.shopName;
+// Gà, cút, chim cảnh của nhóm thú cưng do shop chim bán
+const shopOf = (s) => (s._group === '13' && s.taxonomy.class === 'Aves' ? GROUP_SHOP['10'] : GROUP_SHOP[s._group]);
+
+// IUCN không đánh giá dạng thuần hoá (chó nhà, mèo nhà...) nhưng cột conservationStatus bắt buộc 1 trong 7 mức:
+// lưu LC làm giá trị giữ chỗ, giao diện đọc cờ domestic trong public/catalog để ghi "Vật nuôi, IUCN không đánh giá"
+const DOMESTIC_STATUS = 'LC';
+
+// Khoá ảnh sản phẩm: slug loài + slug giống bỏ dấu tiếng Việt (khớp scripts/fetch-catalog-photos.mjs)
+const asciiSlug = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/gi, 'd').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const productKeyOf = (s, p) => `${slugOf(s.scientificName)}--${asciiSlug(p.breedEn || p.breedVi || p.nameVi)}`;
 
 // ---------- Đọc và kiểm catalog ----------
-const files = fs.readdirSync(CATALOG_DIR).filter((f) => /^(0\d|1[01])-[a-z]\.json$/.test(f)).sort();
+// Nhóm 12 là ảnh bổ sung cho 9 loài gốc, không phải loài catalog
+const files = fs.readdirSync(CATALOG_DIR).filter((f) => /^(0\d|1[013])-[a-z]\.json$/.test(f)).sort();
 if (files.length === 0) throw new Error('Không có file catalog nào trong frontend/catalog');
 const species = [];
 const seen = new Set();
@@ -71,7 +83,7 @@ for (const f of files) {
   const group = f.slice(0, 2);
   for (const s of JSON.parse(fs.readFileSync(path.join(CATALOG_DIR, f), 'utf8'))) {
     if (seen.has(s.scientificName)) throw new Error(`Trùng loài ${s.scientificName} (${f})`);
-    if (!IUCN.has(s.iucn)) throw new Error(`${s.scientificName}: IUCN "${s.iucn}" ngoài 7 mức database nhận`);
+    if (!(s.domestic && s.iucn == null) && !IUCN.has(s.iucn)) throw new Error(`${s.scientificName}: IUCN "${s.iucn}" ngoài 7 mức database nhận`);
     for (const r of RANKS) if (!s.taxonomy?.[r]) throw new Error(`${s.scientificName}: thiếu taxonomy.${r}`);
     if (!s.scientificName.startsWith(`${s.taxonomy.genus} `)) throw new Error(`${s.scientificName}: không thuộc chi ${s.taxonomy.genus}`);
     seen.add(s.scientificName);
@@ -117,6 +129,7 @@ function environmentSpecs(e = {}) {
 }
 const slugOf = (sci) => sci.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const clean = (t) => (t ?? '').replace(/\s*♂\s*/g, ' đực ').replace(/\s*♀\s*/g, ' cái ').replace(/[☀-➿]/g, '').replace(/\s{2,}/g, ' ').trim();
+const deepClean = (v) => (typeof v === 'string' ? clean(v) : Array.isArray(v) ? v.map(deepClean) : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deepClean(x)])) : v);
 function commonName(s) {
   const vi = clean(s.commonNameVi);
   const en = clean(s.commonNameEn);
@@ -131,18 +144,22 @@ const speciesRows = species.map((s, i) => ({
   genus: s.taxonomy.genus,
   scientificName: s.scientificName,
   commonName: commonName(s),
-  conservationStatus: s.iucn,
+  conservationStatus: s.iucn ?? DOMESTIC_STATUS,
   environmentSpecs: environmentSpecs(s.environment),
   description: clean(s.descriptionVi),
   imageUrl: `https://bionexus.vn/images/${slugOf(s.scientificName)}.jpg`,
   referenceUrl: `https://www.gbif.org/species/${s.gbifKey}`,
 }));
 
+const PRODUCT_MANIFEST = path.join(CATALOG_DIR, '_product-photos-manifest.json');
+const productPhotos = fs.existsSync(PRODUCT_MANIFEST) ? JSON.parse(fs.readFileSync(PRODUCT_MANIFEST, 'utf8')) : {};
 const productRows = [];
+const productExtras = {};
 const usedNames = new Set();
+const usedKeys = new Set();
 for (const s of species) {
   if (!s.trade?.tradeable) continue;
-  const shopName = GROUP_SHOP[s._group];
+  const shopName = shopOf(s);
   if (!shopName) continue;
   for (const p of s.products ?? []) {
     let name = clean(p.nameVi).slice(0, 200);
@@ -151,7 +168,13 @@ for (const s of species) {
     usedNames.add(name);
     const h = hash(name);
     const bucket = h % 100;
-    const status = bucket < 84 ? 'APPROVED' : bucket < 91 ? 'PENDING' : bucket < 96 ? 'SOLD_OUT' : 'REJECTED';
+    // Loài cần kiểm duyệt nguồn gốc (CITES, hoang dã bản địa...) thì tin đăng luôn chờ duyệt
+    const status = s.trade.needsReview ? 'PENDING' : bucket < 84 ? 'APPROVED' : bucket < 91 ? 'PENDING' : bucket < 96 ? 'SOLD_OUT' : 'REJECTED';
+    // Sản phẩm có ảnh riêng (giống chó, mèo...): imageUrl là đường dẫn tương đối tới ảnh trong bản build, chạy được cả dưới context /BioNexus
+    const key = p.photos?.length ? productKeyOf(s, p) : null;
+    if (key && usedKeys.has(key)) throw new Error(`Trùng khoá ảnh sản phẩm ${key}`);
+    if (key) usedKeys.add(key);
+    const photo = key ? productPhotos[key] : undefined;
     productRows.push({
       id: SEED_COUNTS.products + productRows.length + 1,
       shopName,
@@ -160,9 +183,17 @@ for (const s of species) {
       price: p.priceVnd,
       stockQuantity: status === 'SOLD_OUT' ? 0 : 1 + (h % 30),
       description: clean(p.descriptionVi),
-      imageUrl: `https://bionexus.vn/images/prod-${slugOf(s.scientificName)}.jpg`,
+      imageUrl: photo ? photo.src : `https://bionexus.vn/images/prod-${slugOf(s.scientificName)}.jpg`,
       status,
+      photo,
     });
+    // Thông tin giống (tính cách, kích thước, tuổi thọ...) ngoài hợp đồng API, tra theo tên sản phẩm
+    if (p.breedVi) {
+      productExtras[name] = deepClean({
+        breedVi: p.breedVi, breedEn: p.breedEn ?? null, temperamentVi: p.temperamentVi ?? null, sizeVi: p.sizeVi ?? null,
+        lifespanVi: p.lifespanVi ?? null, careVi: p.careVi ?? null, originVi: p.originVi ?? null,
+      });
+    }
   }
 }
 
@@ -174,7 +205,9 @@ block.push(MARK_BEGIN);
 block.push('    -- 10b. Dữ liệu mở rộng SINH TỰ ĐỘNG bởi frontend/scripts/build-catalog.mjs từ frontend/catalog/*.json. Đừng sửa tay:');
 block.push('    -- sửa catalog rồi chạy lại script. Tên khoa học, gbifKey, phân loại đã đối chiếu GBIF Backbone; IUCN đối chiếu Wikidata (P141);');
 block.push(`    -- ảnh trên Wikimedia Commons đã kiểm giấy phép. ${speciesRows.length} loài, ${productRows.length} sản phẩm, ${NEW_SHOPS.length} shop mới.`);
-block.push('    -- Có thêm mức EX. Users mới dùng mật khẩu thô giống khối 1 (backend chưa băm).');
+block.push('    -- Có thêm mức EX. Vật nuôi thuần hoá (chó nhà, mèo nhà...) IUCN không đánh giá nên lưu LC làm giá trị giữ chỗ.');
+block.push('    -- Sản phẩm có ảnh riêng thì imageUrl là đường dẫn tương đối photos/p/... trong bản build giao diện.');
+block.push('    -- Users mới dùng mật khẩu thô giống khối 1 (backend chưa băm).');
 block.push('');
 block.push('    INSERT INTO Users (username, password_hash, email, fullName, phone, address, status)');
 block.push('    VALUES');
@@ -281,7 +314,6 @@ const shardOf = (slug) => {
 const MANIFEST = path.join(CATALOG_DIR, '_photos-manifest.json');
 const photoManifest = fs.existsSync(MANIFEST) ? JSON.parse(fs.readFileSync(MANIFEST, 'utf8')) : {};
 const PUBLIC_CATALOG = path.join(FRONTEND_DIR, 'public', 'catalog');
-const deepClean = (v) => (typeof v === 'string' ? clean(v) : Array.isArray(v) ? v.map(deepClean) : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deepClean(x)])) : v);
 const photoOf = (m) => m && { src: m.src, width: m.width, height: m.height, color: m.color, author: m.author, license: m.license, licenseUrl: m.licenseUrl, sourceUrl: m.sourceUrl, ...(m.modified ? { modified: true } : {}) };
 const catalogIndex = [];
 const catalogCredits = [];
@@ -292,6 +324,8 @@ for (const s of species) {
   catalogIndex.push({
     s: s.scientificName, slug, g: s.group,
     ...(m.hero ? { h: 1 } : {}), ...(m.portrait ? { p: 1 } : {}), ...(m.portrait?.color ? { c: m.portrait.color } : {}),
+    // Vật nuôi thuần hoá: thẻ loài, thẻ sản phẩm ghi "Vật nuôi" thay cho mức IUCN giữ chỗ
+    ...(s.domestic ? { d: 1 } : {}),
     // Toạ độ và vùng cho bản đồ, địa cầu, ô tìm kiếm ở trang danh sách (không cần tải mảnh hồ sơ)
     ...(s.origin ? { o: [s.origin.lat, s.origin.lng], r: clean(s.regionVi || s.origin.place) } : {}),
   });
@@ -309,11 +343,15 @@ for (const s of species) {
     dietVi: s.dietVi ?? null, lifespanVi: s.lifespanVi ?? null, activityTimeVi: s.activityTimeVi ?? null,
     conservationNoteVi: s.conservationNoteVi ?? null, pullQuoteVi: s.pullQuoteVi || null,
     care: s.care ?? null,
-    trade: { tradeable: !!s.trade?.tradeable, cites: s.trade?.cites ?? null, vnProtected: s.trade?.vnProtected ?? null },
+    trade: { tradeable: !!s.trade?.tradeable, cites: s.trade?.cites ?? null, vnProtected: s.trade?.vnProtected ?? null, ...(s.trade?.needsReview ? { needsReview: true, reasonVi: s.trade.reasonVi ?? null } : {}) },
+    ...(s.domestic ? { domestic: true, wildAncestor: s.wildAncestor ?? null } : {}),
+    ...(s.vaccinationVi ? { vaccinationVi: s.vaccinationVi } : {}),
+    ...(s.legalNoteVi ? { legalNoteVi: s.legalNoteVi } : {}),
     photos: { hero: photoOf(m.hero) ?? null, portrait: photoOf(m.portrait) ?? null },
     sources: s.sources ?? [],
   });
 }
+for (const p of productRows) if (p.photo) catalogCredits.push({ scientificName: p.scientificName, role: 'product', productName: p.productName, ...photoOf(p.photo) });
 
 // ---------- Ghi ----------
 const seed = fs.readFileSync(SEED_SQL, 'utf8');
@@ -338,6 +376,7 @@ if (CHECK_ONLY) {
   fs.mkdirSync(PUBLIC_CATALOG, { recursive: true });
   fs.writeFileSync(path.join(PUBLIC_CATALOG, 'index.json'), JSON.stringify(catalogIndex));
   fs.writeFileSync(path.join(PUBLIC_CATALOG, 'credits.json'), JSON.stringify(catalogCredits));
+  fs.writeFileSync(path.join(PUBLIC_CATALOG, 'products.json'), JSON.stringify(productExtras));
   shards.forEach((sh, i) => fs.writeFileSync(path.join(PUBLIC_CATALOG, `species-${String(i).padStart(2, '0')}.json`), JSON.stringify(sh)));
   console.log('Đã ghi', path.relative(REPO_ROOT, SEED_SQL), ',', path.relative(REPO_ROOT, MOCK_OUT), 'và public/catalog/');
   console.log(stats, `| ảnh: ${catalogIndex.filter((x) => x.h).length} hero, ${catalogIndex.filter((x) => x.p).length} portrait`);

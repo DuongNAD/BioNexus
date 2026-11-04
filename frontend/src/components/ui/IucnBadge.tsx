@@ -19,12 +19,17 @@ export const IUCN_SPECS: Record<ConservationStatus, IucnSpec> = {
   EX: { color: '#000000', label: 'Tuyệt chủng', desc: 'Extinct' },
 };
 
+// Mức NE (Not Evaluated) chỉ để hiển thị, không phải giá trị trong DB
+const DOMESTIC_SPEC: IucnSpec = { color: '#94a3b8', label: 'Vật nuôi', desc: 'Not Evaluated: IUCN không đánh giá dạng vật nuôi thuần hoá' };
+
 export interface IucnBadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   code: ConservationStatus | string;
   size?: 'sm' | 'md' | 'lg';
   showLabel?: boolean;
   /** Đặt trên ảnh: nền đen mờ, chữ trắng ở cả chế độ sáng lẫn tối */
   onMedia?: boolean;
+  /** Vật nuôi thuần hoá: IUCN không đánh giá (NE), bỏ qua code giữ chỗ */
+  domestic?: boolean;
 }
 
 export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
@@ -35,12 +40,13 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
       size = 'md',
       showLabel = true,
       onMedia = false,
+      domestic = false,
       ...props
     },
     ref
   ) => {
-    const uppercaseCode = (code || '').toUpperCase() as ConservationStatus;
-    const spec = IUCN_SPECS[uppercaseCode] || {
+    const uppercaseCode = domestic ? 'NE' : ((code || '').toUpperCase() as ConservationStatus);
+    const spec = (domestic ? DOMESTIC_SPEC : IUCN_SPECS[uppercaseCode as ConservationStatus]) || {
       color: '#94a3b8',
       label: 'Chưa xác định',
       desc: 'Not Evaluated',
@@ -82,8 +88,9 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
           style={{ backgroundColor: spec.color }}
           aria-hidden="true"
         />
-        <span className="font-bold tracking-wider">{uppercaseCode || '--'}</span>
-        {showLabel && (
+        {/* Vật nuôi không có mã IUCN: hiện chữ "Vật nuôi" kể cả ở thẻ chỉ hiện mã */}
+        <span className={cn('font-bold', !domestic && 'tracking-wider')}>{domestic ? spec.label : uppercaseCode || '--'}</span>
+        {showLabel && !domestic && (
           <span className={cn('border-l pl-1.5', onMedia ? 'border-white/20 text-white/80' : 'border-line/60 text-fg-2')}>
             {spec.label}
           </span>

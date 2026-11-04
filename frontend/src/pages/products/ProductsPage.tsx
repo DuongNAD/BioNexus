@@ -28,6 +28,7 @@ const BIOLOGICAL_GROUPS = [
   'Lưỡng cư',
   'Cá cảnh',
   'Động vật không xương sống',
+  'Thú cưng',
   'Chim',
   'Cây ăn thịt',
   'Cây cảnh',

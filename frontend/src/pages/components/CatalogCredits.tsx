@@ -7,6 +7,8 @@ import { normalizeSearchString } from '@/components/navigation/QuickSearch';
 
 const STEP = 60;
 
+const ROLE_LABEL: Record<CatalogCredit['role'], string> = { hero: 'Ảnh chính', portrait: 'Chân dung', product: 'Ảnh sản phẩm' };
+
 export interface CatalogCreditsProps {
   credits: CatalogCredit[];
   searchQuery: string;
@@ -18,7 +20,7 @@ export const CatalogCredits: React.FC<CatalogCreditsProps> = ({ credits, searchQ
     const q = normalizeSearchString(searchQuery);
     if (!q) return credits;
     return credits.filter((c) =>
-      [c.scientificName, c.author, c.license].some((t) => normalizeSearchString(t).includes(q))
+      [c.scientificName, c.productName ?? '', c.author, c.license].some((t) => normalizeSearchString(t).includes(q))
     );
   }, [credits, searchQuery]);
   const [paging, setPaging] = useState({ key: searchQuery, count: STEP });
@@ -30,7 +32,7 @@ export const CatalogCredits: React.FC<CatalogCreditsProps> = ({ credits, searchQ
   return (
     <Section
       title="Ảnh loài trong bách khoa mở rộng"
-      description="Mỗi loài có một ảnh chính và một ảnh chân dung, tải từ Wikimedia Commons và chuyển sang định dạng webp. Ảnh chân dung được cắt về khung 4:5 khi ảnh gốc khác tỉ lệ."
+      description="Mỗi loài có một ảnh chính và một ảnh chân dung; sản phẩm thú cưng có thêm ảnh riêng của từng giống. Ảnh tải từ Wikimedia Commons, chuyển sang định dạng webp; ảnh chân dung và ảnh sản phẩm được cắt về khung 4:5 khi ảnh gốc khác tỉ lệ."
     >
       {filtered.length === 0 ? (
         <p className="text-sm text-fg-2">Không có ảnh nào khớp từ khoá.</p>
@@ -38,10 +40,10 @@ export const CatalogCredits: React.FC<CatalogCreditsProps> = ({ credits, searchQ
         <>
           <ul className="divide-y divide-line border-y border-line">
             {visible.map((c) => (
-              <li key={`${c.scientificName}-${c.role}`} className="flex items-center gap-4 py-3">
+              <li key={`${c.scientificName}-${c.role}-${c.productName ?? ''}`} className="flex items-center gap-4 py-3">
                 <img
                   src={c.src}
-                  alt={`${c.role === 'hero' ? 'Ảnh chính' : 'Chân dung'} của ${c.scientificName}`}
+                  alt={`${ROLE_LABEL[c.role]} của ${c.productName ?? c.scientificName}`}
                   loading="lazy"
                   width={56}
                   height={56}
@@ -49,9 +51,13 @@ export const CatalogCredits: React.FC<CatalogCreditsProps> = ({ credits, searchQ
                   style={{ backgroundColor: c.color }}
                 />
                 <div className="min-w-0 flex-1">
-                  <p className="truncate font-serif text-[15px] text-fg italic">{c.scientificName}</p>
+                  {c.productName ? (
+                    <p className="truncate text-[15px] text-fg">{c.productName}</p>
+                  ) : (
+                    <p className="truncate font-serif text-[15px] text-fg italic">{c.scientificName}</p>
+                  )}
                   <p className="truncate text-sm text-fg-2">
-                    {c.role === 'hero' ? 'Ảnh chính' : 'Chân dung'} · Tác giả: <span className="text-fg">{c.author}</span>
+                    {ROLE_LABEL[c.role]} · Tác giả: <span className="text-fg">{c.author}</span>
                     {c.modified && <span className="text-fg-3"> · đã chỉnh sửa</span>}
                   </p>
                 </div>

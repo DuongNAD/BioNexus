@@ -40,4 +40,11 @@ describe('IucnBadge Component', () => {
     expect(screen.getByText('--')).toBeInTheDocument();
     expect(screen.getByText('Chưa xác định')).toBeInTheDocument();
   });
+
+  it('Vật nuôi thuần hoá hiện "Vật nuôi" thay cho mức giữ chỗ trong DB', () => {
+    render(<IucnBadge code="LC" domestic showLabel={false} />);
+    expect(screen.getByText('Vật nuôi')).toBeInTheDocument();
+    expect(screen.queryByText('LC')).not.toBeInTheDocument();
+    expect(screen.queryByText('Ít quan tâm')).not.toBeInTheDocument();
+  });
 });

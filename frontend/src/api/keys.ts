@@ -25,6 +25,7 @@ export const queryKeys = {
     all: () => [...queryKeys.all, 'catalog'] as const,
     shard: (shard: number) => [...queryKeys.catalog.all(), 'shard', shard] as const,
     credits: () => [...queryKeys.catalog.all(), 'credits'] as const,
+    products: () => [...queryKeys.catalog.all(), 'products'] as const,
   },
 
   // 3. Species

@@ -31,7 +31,7 @@ const nextId = (rows: { id: number }[]) => Math.max(100, ...rows.map((r) => r.id
 
 export function createInitialSeedState(): MockDatabaseState {
   return {
-    seedVersion: 4, // khớp SEED_VERSION trong mocks/db.ts
+    seedVersion: 5, // khớp SEED_VERSION trong mocks/db.ts
     users: JSON.parse(JSON.stringify(ALL_USERS)),
     admins: JSON.parse(JSON.stringify(SEED_ADMINS)),
     shops: JSON.parse(JSON.stringify(ALL_SHOPS)),

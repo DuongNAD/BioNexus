@@ -1,0 +1,46 @@
+{
+  "status": "done",
+  "finishedAt": "2026-11-04T12:59:30Z",
+  "files": [
+    "13-a.json",
+    "13-b.json"
+  ],
+  "speciesCount": 32,
+  "productCount": 88,
+  "photoCount": 337,
+  "skipped": [
+    {
+      "scientificName": "Felis catus (Scottish Fold)",
+      "reasonVi": "Loại trừ khỏi danh sách sản phẩm theo quy tắc phúc lợi động vật (Mục 2B): đột biến sụn xương Osteochondrodysplasia gây đau khớp và biến dạng xương mãn tính."
+    },
+    {
+      "scientificName": "Felis catus (Munchkin)",
+      "reasonVi": "Loại trừ khỏi danh sách sản phẩm theo quy tắc phúc lợi động vật (Mục 2B): đột biến chân ngắn bẩm sinh (Achondroplasia) ảnh hưởng vận động và cột sống."
+    },
+    {
+      "scientificName": "Felis catus (Manx)",
+      "reasonVi": "Loại trừ khỏi danh sách sản phẩm theo quy tắc phúc lợi động vật (Mục 2B): hội chứng Manx gây khiếm khuyết ống thần kinh và đốt sống đuôi."
+    },
+    {
+      "scientificName": "Cricetulus barabensis",
+      "reasonVi": "Chỉ có 1 ảnh ngang đạt chuẩn width >= 2000px trên Wikimedia Commons, không đủ số lượng ảnh chất lượng cao tách biệt giữa loài và sản phẩm."
+    },
+    {
+      "scientificName": "Mus minutoides",
+      "reasonVi": "Không có ảnh hero ngang đạt chuẩn width >= 2000px với giấy phép tự do trên Wikimedia Commons."
+    },
+    {
+      "scientificName": "Acomys cahirinus",
+      "reasonVi": "Thiếu ảnh chân dung dọc (portrait) và ảnh sản phẩm riêng biệt đạt chuẩn chất lượng trên Wikimedia Commons."
+    },
+    {
+      "scientificName": "Pachyuromys duprasi",
+      "reasonVi": "Tổng số ảnh giấy phép tự do trên Wikimedia Commons quá ít, không đủ bộ ảnh loài (hero, portrait, gallery) và ảnh sản phẩm không trùng lặp."
+    },
+    {
+      "scientificName": "Lemniscomys barbarus",
+      "reasonVi": "Không đủ ảnh chụp cá thể sống độ phân giải cao (width >= 2000px) và ảnh dọc trên Wikimedia Commons."
+    }
+  ],
+  "notesVi": "Hoàn thành thu thập và kiểm chứng API (GBIF, Wikidata, Wikimedia Commons) cho Nhóm 13 (Thú cưng): 32 loài chia vào 2 file 13-a.json (20 loài) và 13-b.json (12 loài), tổng cộng 88 sản phẩm (25 giống chó phổ biến tại Việt Nam gồm cả Phú Quốc, Bắc Hà, H'Mông cộc đuôi; 20 giống mèo phổ biến; 43 sản phẩm thú nhỏ và gia cầm/chim cảnh cạn) và 337 ảnh độc nhất không trùng lặp, đã kiểm tra thị giác (visualChecked: true)."
+}

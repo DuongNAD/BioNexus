@@ -146,6 +146,28 @@ Seed có thêm **624 loài, 497 sản phẩm, 495 nút phân loại, 8 shop** si
 - **Hồ sơ mở rộng ngoài hợp đồng:** kích thước, cách nuôi, mối đe doạ... nằm trong file tĩnh `public/catalog/*.json`, không đi qua API, giống `species-extras.ts` của 9 loài gốc.
 - **Tài liệu 04 cần chủ dự án cập nhật:** con số "9 loài, 10 sản phẩm, 25 nút" ở mục `seed.ts` đã cũ. Agent không tự sửa `docs/frontend/` khi chưa được yêu cầu.
 
+#### Nhóm 13: thú cưng (04/11/2026)
+
+Thêm 32 loài và 83 sản phẩm từ `catalog/13-a.json`, `13-b.json`: chó nhà (25 giống, có Phú Quốc, Bắc Hà, H'Mông cộc đuôi), mèo nhà (20 giống), hamster, thỏ, chuột lang, chồn sương, sóc..., cùng gà, cút, chim cảnh. Shop mới **Pet Garden Sài Gòn** (user test `petgarden`); gà, cút, chim của nhóm này do shop Vườn Chim Hà Nội bán.
+- **Kiểm dữ liệu:** GBIF khớp toàn bộ; mức IUCN đối chiếu API IUCN của GBIF và Wikidata. Claude xem bằng mắt toàn bộ 337 ảnh và sửa 49 chỗ, ghi trong `catalog/_claude-fix-13.json`:
+  - Bỏ ảnh linh miêu tai đen (caracal) gắn nhầm vào mèo Maine Coon.
+  - Bỏ ảnh có mặt người, ảnh có chữ đè hoặc watermark, tranh minh hoạ, bản đồ, ảnh chụp vùng sinh dục.
+  - Bỏ 5 sản phẩm có ảnh không đúng giống.
+- **Vật nuôi thuần hoá (chó nhà, mèo nhà, thỏ nhà, chuột lang, chồn sương, gà, hoàng yến, bồ câu):** IUCN không đánh giá dạng thuần hoá (mức NE), nhưng cột `conservationStatus` chỉ nhận 7 mức.
+  - Hiện seed lưu `LC` làm giá trị giữ chỗ.
+  - Giao diện đọc cờ `d` trong `public/catalog/index.json` để hiện nhãn "Vật nuôi" và nói về loài tổ tiên hoang dã, thay cho mức LC.
+- **Kiểm duyệt nguồn gốc:** loài có `trade.needsReview` (chinchilla CITES I, cáo fennec CITES II, sóc bụng đỏ bản địa, sóc đỏ Á Âu, cầy meerkat) có sản phẩm seed ở trạng thái `PENDING`, chờ duyệt.
+  - Hai loài sóc ngủ châu Âu được bảo vệ chỉ có trong bách khoa, không bán.
+- **Ảnh sản phẩm riêng:**
+  - Mỗi sản phẩm nhóm 13 có ảnh của đúng giống, lưu ở `public/photos/p/<loài>--<giống>.webp`.
+  - `Products.imageUrl` trong seed là đường dẫn tương đối `photos/p/...`, chạy được cả dưới context `/BioNexus`.
+  - Ảnh cắt về 4:5 bằng thuật toán attention của sharp; 15 ảnh bị cắt mất con vật có thêm `focus: [x, y]` (chọn bằng mắt) trong catalog.
+  - Thông tin giống (tính cách, kích thước, tuổi thọ...) nằm trong `public/catalog/products.json`, tra theo tên sản phẩm.
+
+| # | Điểm | Frontend đang làm | Đề xuất |
+|---|---|---|---|
+| 13 | Mức IUCN của vật nuôi | Lưu `LC` giữ chỗ, giao diện hiện "Vật nuôi" theo cờ trong `public/catalog` | Thêm mức `NE` (Not Evaluated) vào `CK_Species_Conservation`, enum `ConservationStatus` của backend và kiểu ở tài liệu 04; khi đó đổi `DOMESTIC_STATUS` trong `scripts/build-catalog.mjs` thành `NE` |
+
 | # | Điểm | Frontend đang làm | Đề xuất |
 |---|---|---|---|
 | 10 | Đếm và lọc sản phẩm | `useAllApprovedProducts` tải trang 1 (size 48) để biết `total`, rồi tải song song các trang còn lại (khoảng 9 request), sau đó lọc giá, nhóm, IUCN ở client | Thêm `minPrice`, `maxPrice`, `iucn` vào `GET api/products`; tùy chọn thêm `GET api/species/product-counts` trả `{speciesId: count}` |

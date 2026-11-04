@@ -3,6 +3,7 @@ import { api } from '../client';
 import { queryKeys } from '../keys';
 import { normalizePage } from '../normalize';
 import { toProductView, type ProductViewModel } from '../adapters';
+import { loadCatalogIndex } from '../catalog';
 import type { ProductDto, ReviewDto, Page } from '@/types/api';
 
 export function useProducts(params?: {
@@ -21,7 +22,8 @@ export function useProducts(params?: {
       if (params?.size) searchParams.set('size', String(params.size));
       const queryStr = searchParams.toString() ? `?${searchParams.toString()}` : '';
 
-      const res = await api<Page<ProductDto>>(`products${queryStr}`);
+      // Chỉ mục catalog cho adapter biết loài nào là vật nuôi thuần hoá
+      const [res] = await Promise.all([api<Page<ProductDto>>(`products${queryStr}`), loadCatalogIndex()]);
       const normalized = normalizePage(res.data);
       return {
         ...normalized,
@@ -41,7 +43,8 @@ export function useAllApprovedProducts() {
     queryKey: queryKeys.products.allApproved(),
     queryFn: async () => {
       const PAGE = 48;
-      const first = normalizePage((await api<Page<ProductDto>>(`products?page=1&size=${PAGE}`)).data);
+      const [firstRes] = await Promise.all([api<Page<ProductDto>>(`products?page=1&size=${PAGE}`), loadCatalogIndex()]);
+      const first = normalizePage(firstRes.data);
       // Backend cũ trả mảng thường: normalizePage gộp hết vào trang 1, không cần tải thêm
       const pages = first.items.length < first.total ? Math.ceil(first.total / PAGE) : 1;
       const rest = await Promise.all(
@@ -60,7 +63,7 @@ export function productDetailQueryOptions(id: number | string) {
   return {
     queryKey: queryKeys.products.detail(id),
     queryFn: async (): Promise<ProductViewModel | null> => {
-      const res = await api<ProductDto>(`products/${id}`);
+      const [res] = await Promise.all([api<ProductDto>(`products/${id}`), loadCatalogIndex()]);
       if (!res.data) return null;
       return toProductView(res.data);
     },

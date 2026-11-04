@@ -17324,5 +17324,900 @@
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_lunula_352991312.jpg",
    "modified": true
   }
+ },
+ "Canis lupus familiaris": {
+  "slug": "canis-lupus-familiaris",
+  "hero": {
+   "file": "File:Beagle in Viroinval (DSC04556).jpg",
+   "src": "photos/c/canis-lupus-familiaris/hero.webp",
+   "width": 1280,
+   "height": 825,
+   "bytes": 162634,
+   "color": "#080808",
+   "author": "Trougnouf (Benoit Brummer)",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beagle_in_Viroinval_(DSC04556).jpg"
+  },
+  "portrait": {
+   "file": "File:Alaskan Malamute R Bartz.jpg",
+   "src": "photos/c/canis-lupus-familiaris/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 104614,
+   "color": "#8898a8",
+   "author": "Richard Bartz",
+   "license": "CC BY-SA 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alaskan_Malamute_R_Bartz.jpg",
+   "modified": true
+  }
+ },
+ "Felis catus": {
+  "slug": "felis-catus",
+  "hero": {
+   "file": "File:Calico cat, - Assisi, Italy.jpg",
+   "src": "photos/c/felis-catus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 203956,
+   "color": "#080808",
+   "author": "Terragio67",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calico_cat,_-_Assisi,_Italy.jpg"
+  },
+  "portrait": {
+   "file": "File:Cat November 2010-1a.jpg",
+   "src": "photos/c/felis-catus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 84452,
+   "color": "#c8c8d8",
+   "author": "Alvesgaspar",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg",
+   "modified": true
+  }
+ },
+ "Mesocricetus auratus": {
+  "slug": "mesocricetus-auratus",
+  "hero": {
+   "file": "File:Syrian Hamster Mid-grooming.jpg",
+   "src": "photos/c/mesocricetus-auratus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 50286,
+   "color": "#080818",
+   "author": "John Stockla",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syrian_Hamster_Mid-grooming.jpg"
+  },
+  "portrait": {
+   "file": "File:Albino hamster Stewart - 2022 January.jpg",
+   "src": "photos/c/mesocricetus-auratus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 46376,
+   "color": "#785848",
+   "author": "Fredrik1029",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albino_hamster_Stewart_-_2022_January.jpg",
+   "modified": true
+  }
+ },
+ "Phodopus campbelli": {
+  "slug": "phodopus-campbelli",
+  "hero": {
+   "file": "File:Dwarf campbell hamster male 2012.jpg",
+   "src": "photos/c/phodopus-campbelli/hero.webp",
+   "width": 1280,
+   "height": 959,
+   "bytes": 136542,
+   "color": "#080818",
+   "author": "Alexander theo redgrave",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dwarf_campbell_hamster_male_2012.jpg"
+  },
+  "portrait": {
+   "file": "File:Esemplare di criceto russo.jpg",
+   "src": "photos/c/phodopus-campbelli/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 15246,
+   "color": "#c87838",
+   "author": "Albertostoria",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esemplare_di_criceto_russo.jpg",
+   "modified": true
+  }
+ },
+ "Phodopus sungorus": {
+  "slug": "phodopus-sungorus",
+  "hero": {
+   "file": "File:Djungarian hamster Świr eating pumpkin seed.JPG",
+   "src": "photos/c/phodopus-sungorus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 100960,
+   "color": "#080808",
+   "author": "Mar lena",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Djungarian_hamster_%C5%9Awir_eating_pumpkin_seed.JPG"
+  },
+  "portrait": {
+   "file": "File:Chomik dzungarski kropka.jpg",
+   "src": "photos/c/phodopus-sungorus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 55622,
+   "color": "#e8e8e8",
+   "author": "Podrik",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chomik_dzungarski_kropka.jpg",
+   "modified": true
+  }
+ },
+ "Phodopus roborovskii": {
+  "slug": "phodopus-roborovskii",
+  "hero": {
+   "file": "File:Phodopus roborovskii front.jpg",
+   "src": "photos/c/phodopus-roborovskii/hero.webp",
+   "width": 1280,
+   "height": 951,
+   "bytes": 89790,
+   "color": "#685848",
+   "author": "Bullet",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phodopus_roborovskii_front.jpg"
+  },
+  "portrait": {
+   "file": "File:ホワイトファイスとノーマルカラー2.jpg",
+   "src": "photos/c/phodopus-roborovskii/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 45764,
+   "color": "#181818",
+   "author": "Zousaniine",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%82%B9%E3%81%A8%E3%83%8E%E3%83%BC%E3%83%9E%E3%83%AB%E3%82%AB%E3%83%A9%E3%83%BC2.jpg",
+   "modified": true
+  }
+ },
+ "Meriones unguiculatus": {
+  "slug": "meriones-unguiculatus",
+  "hero": {
+   "file": "File:A gerbil family.JPG",
+   "src": "photos/c/meriones-unguiculatus/hero.webp",
+   "width": 1280,
+   "height": 875,
+   "bytes": 84228,
+   "color": "#b8a898",
+   "author": "Officially Mr X at English Wikipedia",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_gerbil_family.JPG"
+  },
+  "portrait": {
+   "file": "File:Currier Gerbil.JPG",
+   "src": "photos/c/meriones-unguiculatus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 97224,
+   "color": "#080808",
+   "author": "Eschold",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Currier_Gerbil.JPG",
+   "modified": true
+  }
+ },
+ "Octodon degus": {
+  "slug": "octodon-degus",
+  "hero": {
+   "file": "File:2007-12-09 (20) Degu.JPG",
+   "src": "photos/c/octodon-degus/hero.webp",
+   "width": 1280,
+   "height": 851,
+   "bytes": 107302,
+   "color": "#b8b8b8",
+   "author": "Vera Buhl",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007-12-09_(20)_Degu.JPG"
+  },
+  "portrait": {
+   "file": "File:'Common degu' Name Zefyrka 2022 Vadim Chuprina.jpg",
+   "src": "photos/c/octodon-degus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 71616,
+   "color": "#e8d8c8",
+   "author": "Vadim Chuprina",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Common_degu%27_Name_Zefyrka_2022_Vadim_Chuprina.jpg",
+   "modified": true
+  }
+ },
+ "Petaurus breviceps": {
+  "slug": "petaurus-breviceps",
+  "hero": {
+   "file": "File:Petaurus Breviceps Petauro dello Zucchero 2.jpg",
+   "src": "photos/c/petaurus-breviceps/hero.webp",
+   "width": 1280,
+   "height": 908,
+   "bytes": 46512,
+   "color": "#686868",
+   "author": "Alessandro Di Grazia",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petaurus_Breviceps_Petauro_dello_Zucchero_2.jpg"
+  },
+  "portrait": {
+   "file": "File:Sóc Bay Úc - Sugar Glider cực dễ thương 01.jpg",
+   "src": "photos/c/petaurus-breviceps/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 43228,
+   "color": "#f8e8e8",
+   "author": "Mew Pet Shop",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B3c_Bay_%C3%9Ac_-_Sugar_Glider_c%E1%BB%B1c_d%E1%BB%85_th%C6%B0%C6%A1ng_01.jpg",
+   "modified": true
+  }
+ },
+ "Atelerix albiventris": {
+  "slug": "atelerix-albiventris",
+  "hero": {
+   "file": "File:Atelerix albiventris in Spain.jpg",
+   "src": "photos/c/atelerix-albiventris/hero.webp",
+   "width": 1280,
+   "height": 941,
+   "bytes": 163812,
+   "color": "#889898",
+   "author": "Nacaru",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atelerix_albiventris_in_Spain.jpg"
+  },
+  "portrait": {
+   "file": "File:Atelerix albiventris 316800096.jpg",
+   "src": "photos/c/atelerix-albiventris/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 138992,
+   "color": "#080808",
+   "author": "Jason Graham",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atelerix_albiventris_316800096.jpg",
+   "modified": true
+  }
+ },
+ "Oryctolagus cuniculus domesticus": {
+  "slug": "oryctolagus-cuniculus-domesticus",
+  "hero": {
+   "file": "File:2008-01-24 (8) Rabbit, Zwergkaninchen.JPG",
+   "src": "photos/c/oryctolagus-cuniculus-domesticus/hero.webp",
+   "width": 1280,
+   "height": 851,
+   "bytes": 57130,
+   "color": "#986848",
+   "author": "Vera Buhl",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2008-01-24_(8)_Rabbit,_Zwergkaninchen.JPG"
+  },
+  "portrait": {
+   "file": "File:A grey holland lop rabbit.jpg",
+   "src": "photos/c/oryctolagus-cuniculus-domesticus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 118944,
+   "color": "#080808",
+   "author": "Kippo44",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_grey_holland_lop_rabbit.jpg",
+   "modified": true
+  }
+ },
+ "Cavia porcellus": {
+  "slug": "cavia-porcellus",
+  "hero": {
+   "file": "File:\"+arya+\" Cavia porcellus - tikus belanda 01.jpg",
+   "src": "photos/c/cavia-porcellus/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 207766,
+   "color": "#282828",
+   "author": "Aris riyanto",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_Cavia_porcellus_-_tikus_belanda_01.jpg"
+  },
+  "portrait": {
+   "file": "File:22-6-20 Guinea pig in garden Laura Pernigoni.jpg",
+   "src": "photos/c/cavia-porcellus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 170662,
+   "color": "#181818",
+   "author": "Laurona94",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:22-6-20_Guinea_pig_in_garden_Laura_Pernigoni.jpg",
+   "modified": true
+  }
+ },
+ "Mustela furo": {
+  "slug": "mustela-furo",
+  "hero": {
+   "file": "File:BLADE FERRET.JPG",
+   "src": "photos/c/mustela-furo/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 58840,
+   "color": "#180808",
+   "author": "TheBlade28",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:BLADE_FERRET.JPG"
+  },
+  "portrait": {
+   "file": "File:Angora Ferret Ranko.JPG",
+   "src": "photos/c/mustela-furo/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 27044,
+   "color": "#181818",
+   "author": "yuurib",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angora_Ferret_Ranko.JPG",
+   "modified": true
+  }
+ },
+ "Tamias sibiricus": {
+  "slug": "tamias-sibiricus",
+  "hero": {
+   "file": "File:0340 - Nordkorea 2015 - Kumgang Gebirge (22340275304).jpg",
+   "src": "photos/c/tamias-sibiricus/hero.webp",
+   "width": 1280,
+   "height": 848,
+   "bytes": 125838,
+   "color": "#484838",
+   "author": "Uwe Brodrecht",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:0340_-_Nordkorea_2015_-_Kumgang_Gebirge_(22340275304).jpg"
+  },
+  "portrait": {
+   "file": "File:2019-10-18-vanino-chipmunk-4064 (cropped).jpg",
+   "src": "photos/c/tamias-sibiricus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 55748,
+   "color": "#181818",
+   "author": "I13Robin",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-10-18-vanino-chipmunk-4064_(cropped).jpg"
+  }
+ },
+ "Chinchilla lanigera": {
+  "slug": "chinchilla-lanigera",
+  "hero": {
+   "file": "File:Chinchilla lanigera (Wroclaw zoo)-1.JPG",
+   "src": "photos/c/chinchilla-lanigera/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 135030,
+   "color": "#b8a898",
+   "author": "Guérin Nicolas (messages)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinchilla_lanigera_(Wroclaw_zoo)-1.JPG"
+  },
+  "portrait": {
+   "file": "File:Long-tailed chinchilla.jpg",
+   "src": "photos/c/chinchilla-lanigera/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 40010,
+   "color": "#688898",
+   "author": "DestinationFearFan",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tailed_chinchilla.jpg",
+   "modified": true
+  }
+ },
+ "Mus musculus": {
+  "slug": "mus-musculus",
+  "hero": {
+   "file": "File:Hausmaus im Stroh.JPG",
+   "src": "photos/c/mus-musculus/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 207304,
+   "color": "#383838",
+   "author": "3268zauber",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hausmaus_im_Stroh.JPG"
+  },
+  "portrait": {
+   "file": "File:House mouse (Mus musculus) 2745.jpg",
+   "src": "photos/c/mus-musculus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 151210,
+   "color": "#a8c8e8",
+   "author": "Ahunt",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_mouse_(Mus_musculus)_2745.jpg",
+   "modified": true
+  }
+ },
+ "Rattus norvegicus": {
+  "slug": "rattus-norvegicus",
+  "hero": {
+   "file": "File:Dumbo rat.jpg",
+   "src": "photos/c/rattus-norvegicus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 64460,
+   "color": "#b8b8b8",
+   "author": "Oskila",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dumbo_rat.jpg"
+  },
+  "portrait": {
+   "file": "File:Ratedumbo.jpg",
+   "src": "photos/c/rattus-norvegicus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 37398,
+   "color": "#482808",
+   "author": "Ykmyks",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ratedumbo.jpg",
+   "modified": true
+  }
+ },
+ "Cynomys ludovicianus": {
+  "slug": "cynomys-ludovicianus",
+  "hero": {
+   "file": "File:Black-tailed Prairie Dog (48743030733).jpg",
+   "src": "photos/c/cynomys-ludovicianus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 168764,
+   "color": "#d8b898",
+   "author": "PEO ACWA",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black-tailed_Prairie_Dog_(48743030733).jpg"
+  },
+  "portrait": {
+   "file": "File:Black tailed prairie dog eating.jpg",
+   "src": "photos/c/cynomys-ludovicianus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 25370,
+   "color": "#686848",
+   "author": "Smith Elise, U.S. Fish and Wildlife Service",
+   "license": "Public domain",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_tailed_prairie_dog_eating.jpg",
+   "modified": true
+  }
+ },
+ "Micromys minutus": {
+  "slug": "micromys-minutus",
+  "hero": {
+   "file": "File:Micromys minutus - Demian Hiß - 329211302.jpg",
+   "src": "photos/c/micromys-minutus/hero.webp",
+   "width": 1280,
+   "height": 854,
+   "bytes": 103676,
+   "color": "#383828",
+   "author": "Demian Hiß",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Micromys_minutus_-_Demian_Hi%C3%9F_-_329211302.jpg"
+  },
+  "portrait": {
+   "file": "File:Micromys minutus - Олег Юмашев - 608607024.jpeg",
+   "src": "photos/c/micromys-minutus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 61370,
+   "color": "#d8d8d8",
+   "author": "Олег Юмашев",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Micromys_minutus_-_%D0%9E%D0%BB%D0%B5%D0%B3_%D0%AE%D0%BC%D0%B0%D1%88%D0%B5%D0%B2_-_608607024.jpeg",
+   "modified": true
+  }
+ },
+ "Glis glis": {
+  "slug": "glis-glis",
+  "hero": {
+   "file": "File:Edible dormouse - Relmuis - Glis glis 03.jpg",
+   "src": "photos/c/glis-glis/hero.webp",
+   "width": 1280,
+   "height": 998,
+   "bytes": 85988,
+   "color": "#b8b8b8",
+   "author": "Bouke ten Cate",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edible_dormouse_-_Relmuis_-_Glis_glis_03.jpg"
+  },
+  "portrait": {
+   "file": "File:Edible dormouse - Relmuis - Glis glis.jpg",
+   "src": "photos/c/glis-glis/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 38302,
+   "color": "#d8b898",
+   "author": "Bouke ten Cate",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edible_dormouse_-_Relmuis_-_Glis_glis.jpg",
+   "modified": true
+  }
+ },
+ "Muscardinus avellanarius": {
+  "slug": "muscardinus-avellanarius",
+  "hero": {
+   "file": "File:Em - Muscardinus avellanarius - 1.jpg",
+   "src": "photos/c/muscardinus-avellanarius/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 39840,
+   "color": "#d8d8d8",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Em_-_Muscardinus_avellanarius_-_1.jpg"
+  },
+  "portrait": {
+   "file": "File:Haselmaus (cropped).jpg",
+   "src": "photos/c/muscardinus-avellanarius/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 48534,
+   "color": "#080808",
+   "author": "Danielle Schwarz",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haselmaus_(cropped).jpg",
+   "modified": true
+  }
+ },
+ "Sciurus vulgaris": {
+  "slug": "sciurus-vulgaris",
+  "hero": {
+   "file": "File:2018-08-09 Orav jälle.jpg",
+   "src": "photos/c/sciurus-vulgaris/hero.webp",
+   "width": 1280,
+   "height": 848,
+   "bytes": 109548,
+   "color": "#181818",
+   "author": "Ott Rebane",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-08-09_Orav_j%C3%A4lle.jpg"
+  },
+  "portrait": {
+   "file": "File:Sciurus vulgaris in Burabay National Park.jpg",
+   "src": "photos/c/sciurus-vulgaris/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 84072,
+   "color": "#685838",
+   "author": "Khankeldi Zhalilkhan",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sciurus_vulgaris_in_Burabay_National_Park.jpg",
+   "modified": true
+  }
+ },
+ "Callosciurus erythraeus": {
+  "slug": "callosciurus-erythraeus",
+  "hero": {
+   "file": "File:Callosciurus erythraeus (8633640793).jpg",
+   "src": "photos/c/callosciurus-erythraeus/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 315532,
+   "color": "#b8a878",
+   "author": "Donald Hobern from Copenhagen, Denmark",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Callosciurus_erythraeus_(8633640793).jpg"
+  },
+  "portrait": {
+   "file": "File:Pallas Squirrel Siju WLS Oct24 A7CR 03953.jpg",
+   "src": "photos/c/callosciurus-erythraeus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 69938,
+   "color": "#386858",
+   "author": "Timothy A. Gonsalves",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pallas_Squirrel_Siju_WLS_Oct24_A7CR_03953.jpg",
+   "modified": true
+  }
+ },
+ "Suricata suricatta": {
+  "slug": "suricata-suricatta",
+  "hero": {
+   "file": "File:Meerkat (32605335755).jpg",
+   "src": "photos/c/suricata-suricatta/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 222136,
+   "color": "#b89878",
+   "author": "Simeon W from Wellington, New Zealand",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meerkat_(32605335755).jpg"
+  },
+  "portrait": {
+   "file": "File:Close-up of a meerkat.jpg",
+   "src": "photos/c/suricata-suricatta/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 42364,
+   "color": "#a8a8a8",
+   "author": "RubenVanKuik",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_meerkat.jpg",
+   "modified": true
+  }
+ },
+ "Vulpes zerda": {
+  "slug": "vulpes-zerda",
+  "hero": {
+   "file": "File:Fennec Fox (9163009503).jpg",
+   "src": "photos/c/vulpes-zerda/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 42616,
+   "color": "#a87838",
+   "author": "Daniel Ramirez from Honolulu, USA",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_(9163009503).jpg"
+  },
+  "portrait": {
+   "file": "File:Fenec.jpeg",
+   "src": "photos/c/vulpes-zerda/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 79588,
+   "color": "#886858",
+   "author": "Bachounda",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fenec.jpeg",
+   "modified": true
+  }
+ },
+ "Gallus gallus domesticus": {
+  "slug": "gallus-gallus-domesticus",
+  "hero": {
+   "file": "File:Cory's chickens 05 - Egyptian Fayoumi pullet (28696085141).jpg",
+   "src": "photos/c/gallus-gallus-domesticus/hero.webp",
+   "width": 1280,
+   "height": 954,
+   "bytes": 364338,
+   "color": "#080808",
+   "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_05_-_Egyptian_Fayoumi_pullet_(28696085141).jpg"
+  },
+  "portrait": {
+   "file": "File:Cory's chickens 09 - Egyptian Fayoumi pullet (28488787120) (cropped).jpg",
+   "src": "photos/c/gallus-gallus-domesticus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 172706,
+   "color": "#181818",
+   "author": "Joe Mabel (on Flickr as Joe Mabel from Seattle, US)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cory%27s_chickens_09_-_Egyptian_Fayoumi_pullet_(28488787120)_(cropped).jpg",
+   "modified": true
+  }
+ },
+ "Coturnix japonica": {
+  "slug": "coturnix-japonica",
+  "hero": {
+   "file": "File:Křepelka japonská - divoké zbarvení.jpg",
+   "src": "photos/c/coturnix-japonica/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 57724,
+   "color": "#887858",
+   "author": "Nekomata obecná",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C5%99epelka_japonsk%C3%A1_-_divok%C3%A9_zbarven%C3%AD.jpg"
+  },
+  "portrait": {
+   "file": "File:Coturnix japonica20150824.jpg",
+   "src": "photos/c/coturnix-japonica/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 66978,
+   "color": "#382818",
+   "author": "メルビル",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_japonica20150824.jpg",
+   "modified": true
+  }
+ },
+ "Synoicus chinensis": {
+  "slug": "synoicus-chinensis",
+  "hero": {
+   "file": "File:Asian Blue Quail RWD.jpg",
+   "src": "photos/c/synoicus-chinensis/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 68108,
+   "color": "#889898",
+   "author": "DickDaniels (http://theworldbirds.org/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian_Blue_Quail_RWD.jpg"
+  },
+  "portrait": {
+   "file": "File:Coturnix chinensis (33710110866).jpg",
+   "src": "photos/c/synoicus-chinensis/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 26302,
+   "color": "#584838",
+   "author": "Björn S...",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coturnix_chinensis_(33710110866).jpg",
+   "modified": true
+  }
+ },
+ "Serinus canaria domestica": {
+  "slug": "serinus-canaria-domestica",
+  "hero": {
+   "file": "File:Bloedel Conservatory Bird (35371189065).jpg",
+   "src": "photos/c/serinus-canaria-domestica/hero.webp",
+   "width": 1280,
+   "height": 961,
+   "bytes": 106686,
+   "color": "#080808",
+   "author": "Mike's Birds from Riverside, CA, US",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bloedel_Conservatory_Bird_(35371189065).jpg"
+  },
+  "portrait": {
+   "file": "File:2 canaries (serinus canaria).jpg",
+   "src": "photos/c/serinus-canaria-domestica/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 70568,
+   "color": "#a89888",
+   "author": "Yavor Momchilov Uzunov (talk)",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2_canaries_(serinus_canaria).jpg",
+   "modified": true
+  }
+ },
+ "Chrysolophus pictus": {
+  "slug": "chrysolophus-pictus",
+  "hero": {
+   "file": "File:A male Golden Pheasant (Chrysolophus pictus) showing its colorful plumage.jpg",
+   "src": "photos/c/chrysolophus-pictus/hero.webp",
+   "width": 1280,
+   "height": 852,
+   "bytes": 80862,
+   "color": "#585878",
+   "author": "Bhullargraphic",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_male_Golden_Pheasant_(Chrysolophus_pictus)_showing_its_colorful_plumage.jpg"
+  },
+  "portrait": {
+   "file": "File:Golden Pheasant, Tangjiahe Nature Reserve, Sichuan.jpg",
+   "src": "photos/c/chrysolophus-pictus/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 135650,
+   "color": "#181818",
+   "author": "Jmhullot",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_Tangjiahe_Nature_Reserve,_Sichuan.jpg",
+   "modified": true
+  }
+ },
+ "Columba livia domestica": {
+  "slug": "columba-livia-domestica",
+  "hero": {
+   "file": "File:Duiven zijn bij zondere dieren er komt veel bij kijken.jpg",
+   "src": "photos/c/columba-livia-domestica/hero.webp",
+   "width": 1280,
+   "height": 853,
+   "bytes": 81612,
+   "color": "#382818",
+   "author": "Peter van der Sluijs",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duiven_zijn_bij_zondere_dieren_er_komt_veel_bij_kijken.jpg"
+  },
+  "portrait": {
+   "file": "File:Angelbird.jpg",
+   "src": "photos/c/columba-livia-domestica/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 62700,
+   "color": "#181808",
+   "author": "Nurratih",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angelbird.jpg",
+   "modified": true
+  }
+ },
+ "Aix galericulata": {
+  "slug": "aix-galericulata",
+  "hero": {
+   "file": "File:Aix galericulata on the pond - 1.jpg",
+   "src": "photos/c/aix-galericulata/hero.webp",
+   "width": 1280,
+   "height": 960,
+   "bytes": 282594,
+   "color": "#080808",
+   "author": "Kyu3a",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aix_galericulata_on_the_pond_-_1.jpg"
+  },
+  "portrait": {
+   "file": "File:Mandarin Duck（Aix galericulata）オシドリ.jpg",
+   "src": "photos/c/aix-galericulata/portrait.webp",
+   "width": 640,
+   "height": 800,
+   "bytes": 105762,
+   "color": "#080808",
+   "author": "Ken Ishigaki",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandarin_Duck%EF%BC%88Aix_galericulata%EF%BC%89%E3%82%AA%E3%82%B7%E3%83%89%E3%83%AA.jpg",
+   "modified": true
+  }
  }
 }

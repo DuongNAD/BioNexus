@@ -21,7 +21,7 @@ export function SpeciesCard({ species, productCount, aspect = '4/5', className }
       focus={species.focus}
       aspect={aspect}
       className={className}
-      badge={<IucnBadge code={species.conservationStatus} size="md" onMedia />}
+      badge={<IucnBadge code={species.conservationStatus} domestic={species.isDomestic} size="md" onMedia />}
       title={species.displayName}
       subtitle={<i className="font-serif text-[15px]">{species.scientificName}</i>}
       footer={

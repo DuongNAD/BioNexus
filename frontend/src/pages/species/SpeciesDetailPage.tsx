@@ -12,6 +12,7 @@ import { PhotoCredit } from '@/components/media/PhotoCredit';
 import { SpeciesTaxonomyBeam } from './components/SpeciesTaxonomyBeam';
 import { SpeciesNotFound } from './components/SpeciesNotFound';
 import { IucnScale } from './components/IucnScale';
+import { DomesticStatus } from './components/DomesticStatus';
 import { MasonryGallery } from '@/components/domain/MasonryGallery';
 import { SpeciesCard } from '@/components/domain/SpeciesCard';
 import { ProductCard } from '@/components/domain/ProductCard';
@@ -241,10 +242,16 @@ export const SpeciesDetailPage: React.FC = () => {
           </div>
         </Section>
 
-        {/* 3. Mức bảo tồn */}
-        <Section title="Mức bảo tồn IUCN">
-          <IucnScale currentStatus={species.conservationStatus} explanation={species.conservationNote ?? profile?.conservationNoteVi ?? undefined} />
-        </Section>
+        {/* 3. Mức bảo tồn: vật nuôi thuần hoá không có mức IUCN, nói rõ thay vì hiện mức giữ chỗ trong DB */}
+        {species.isDomestic ? (
+          <Section title="Mức bảo tồn IUCN">
+            <DomesticStatus displayName={species.displayName} profile={profile} />
+          </Section>
+        ) : (
+          <Section title="Mức bảo tồn IUCN">
+            <IucnScale currentStatus={species.conservationStatus} explanation={species.conservationNote ?? profile?.conservationNoteVi ?? undefined} />
+          </Section>
+        )}
 
         {profile && <CatalogProfile profile={profile} displayName={species.displayName} speciesIdByName={speciesIdByName} />}
 

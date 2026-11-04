@@ -36,6 +36,7 @@ const GROUP_OPTIONS: { value: GroupFilter; label: string }[] = [
   { value: 'Động vật không xương sống', label: 'Không xương sống' },
   { value: 'Chim', label: 'Chim' },
   { value: 'Thú', label: 'Thú' },
+  { value: 'Thú cưng', label: 'Thú cưng' },
   { value: 'Cây ăn thịt', label: 'Cây ăn thịt' },
   { value: 'Cây cảnh', label: 'Cây cảnh' },
 ];

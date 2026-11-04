@@ -20,6 +20,7 @@ const mockProduct: ProductViewModel = {
   isOutOfStock: false,
   displayShopName: 'BioGreen Exotic',
   displayImage: 'photos/axolotl/hero-960.webp',
+  isDomestic: false,
   speciesCommonName: 'Axolotl (Kỳ giông Mexico)',
   speciesScientificName: 'Ambystoma mexicanum',
   conservationStatus: 'CR',

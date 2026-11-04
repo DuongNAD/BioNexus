@@ -67,7 +67,7 @@ export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, bre
         <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="font-serif text-2xl text-accent-2 italic md:text-[34px]">{species.scientificName}</p>
           {species.englishName && <span className="text-base text-white/70">{species.englishName}</span>}
-          <IucnBadge code={species.conservationStatus} size="md" onMedia />
+          <IucnBadge code={species.conservationStatus} domestic={species.isDomestic} size="md" onMedia />
         </div>
       </PageContainer>
 

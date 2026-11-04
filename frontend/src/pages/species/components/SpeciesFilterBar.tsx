@@ -34,6 +34,7 @@ const GROUPS: Array<{ id: BiologicalGroup; label: string }> = [
   { id: 'Động vật không xương sống', label: 'Không xương sống' },
   { id: 'Chim', label: 'Chim' },
   { id: 'Thú', label: 'Thú' },
+  { id: 'Thú cưng', label: 'Thú cưng' },
   { id: 'Cây ăn thịt', label: 'Cây ăn thịt' },
   { id: 'Cây cảnh', label: 'Cây cảnh' },
 ];

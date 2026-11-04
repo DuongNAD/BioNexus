@@ -569,7 +569,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Chua me đất (Oxalidales)",
-      "family": "Họ Ấm đất Úc (Cephalotaceae)",
+      "family": "Họ Cephalotaceae",
       "genus": "Chi Ấm đất Úc (Cephalotus)"
     },
     "iucn": "VU",
@@ -2828,7 +2828,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Hoa môi (Lamiales)",
-      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "family": "Họ Nhĩ cán (Lentibulariaceae)",
       "genus": "Chi Cây bắt ruồi (Pinguicula)"
     },
     "iucn": "LC",
@@ -3025,7 +3025,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Hoa môi (Lamiales)",
-      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "family": "Họ Nhĩ cán (Lentibulariaceae)",
       "genus": "Chi Cây bắt ruồi (Pinguicula)"
     },
     "iucn": "LC",
@@ -3218,7 +3218,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Hoa môi (Lamiales)",
-      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "family": "Họ Nhĩ cán (Lentibulariaceae)",
       "genus": "Chi Rong ly (Utricularia)"
     },
     "iucn": "LC",
@@ -3415,7 +3415,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Hoa môi (Lamiales)",
-      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "family": "Họ Nhĩ cán (Lentibulariaceae)",
       "genus": "Chi Rong ly (Utricularia)"
     },
     "iucn": "LC",
@@ -3601,7 +3601,7 @@
     },
     "taxonomyVi": {
       "order": "Bộ Hoa môi (Lamiales)",
-      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "family": "Họ Nhĩ cán (Lentibulariaceae)",
       "genus": "Chi Rong ly (Utricularia)"
     },
     "iucn": "LC",
