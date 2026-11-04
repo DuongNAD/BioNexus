@@ -1,0 +1,3634 @@
+[
+  {
+    "scientificName": "Nepenthes alata",
+    "commonNameVi": "Nắp Ấm Cánh",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49120197/143972386",
+    "gbifKey": 3702270,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng sương mù núi thấp và sườn đồi thoáng sáng"
+    },
+    "descriptionVi": "Loài nắp ấm biểu tượng của quần đảo Philippines với chiếc ấm hình trụ thon có phần bụng hơi phình và hai dải cánh tua rua chạy dọc mặt trước.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES, rất phổ biến từ nguồn nuôi cấy mô.",
+    "pullQuoteVi": "Nhờ sức sống dẻo dai ở cả điều kiện nhiệt đới lẫn cận cao nguyên, Nắp Ấm Cánh là một trong những loài cây ăn thịt đầu tiên được nhân giống mô thương mại.",
+    "dietVi": "Bẫy côn trùng bò và bay (kiến, ruồi, muỗi) bằng mật ngọt trên vành môi trơn trượt",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Các đảo Luzon, Mindoro, Panay, Negros và Mindanao của Philippines",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": "Các đảo Luzon, Mindoro, Panay, Negros và Mindanao của Philippines",
+    "otherNamesVi": [
+      "Winged Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes alata biflora",
+      "Nepenthes alata ecristata",
+      "Nepenthes blancoi",
+      "Nepenthes copelandii"
+    ],
+    "wikidataId": "Q139643",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nepenthes_alata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_alata",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 250,
+      "noteVi": "Ấm cao 10–18 cm có hai cánh rìa dọc mặt trước"
+    },
+    "distribution": {
+      "countries": [
+        "PH"
+      ],
+      "nativeRangeVi": "Các đảo Luzon, Mindoro, Panay, Negros và Mindanao của Philippines",
+      "elevationM": {
+        "min": 400,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng sương mù núi thấp và sườn đồi thoáng sáng",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 100–250 cm. Ấm cao 10–18 cm có hai cánh rìa dọc mặt trước.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bò và bay (kiến, ruồi, muỗi) bằng mật ngọt trên vành môi trơn trượt.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Nhờ sức sống dẻo dai ở cả điều kiện nhiệt đới lẫn cận cao nguyên, Nắp Ấm Cánh là một trong những loài cây ăn thịt đầu tiên được nhân giống mô thương mại."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 18–30°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Cánh (Nepenthes alata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Nắp Ấm Cánh nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes alata Kannukasvi Kanntaime liik C IMG 5302.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_alata_Kannukasvi_Kanntaime_liik_C_IMG_5302.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nepenthes_alata_Kannukasvi_Kanntaime_liik_C_IMG_5302.JPG",
+        "width": 3903,
+        "height": 2602,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Anneli Salo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Caryophyllales - Nepenthes alata - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caryophyllales_-_Nepenthes_alata_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Caryophyllales_-_Nepenthes_alata_-_1.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Nepenthes Alata 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_Alata_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nepenthes_Alata_001.jpg",
+        "width": 1920,
+        "height": 2560,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gere72",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes alata Berlin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_alata_Berlin.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Nepenthes_alata_Berlin.jpg",
+        "width": 3264,
+        "height": 4928,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "William Avery",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes alata kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_alata_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nepenthes_alata_kz01.jpg",
+        "width": 3343,
+        "height": 4680,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702270",
+      "https://www.iucnredlist.org/species/49120197/143972386",
+      "https://en.wikipedia.org/wiki/Nepenthes_alata",
+      "https://vi.wikipedia.org/wiki/Nepenthes_alata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes ventricosa",
+    "commonNameVi": "Nắp Ấm Bụng Phình",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39710/143966192",
+    "gbifKey": 3702158,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu nhiệt đới núi cao từ 1.000 đến 2.000 m"
+    },
+    "descriptionVi": "Loài nắp ấm cao nguyên nổi tiếng với chiếc ấm tròn trịa thắt eo duyên dáng như chiếc bình gốm sứ trắng hồng kèm vành môi đỏ tươi xếp nếp.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Thành ấm dày bóng mịn như sứ tráng men kết hợp chiếc eo thắt đồng hồ cát giúp giữ chặt con mồi không thể bò ngược lên.",
+    "dietVi": "Thu hút kiến và ong bắp cày bằng tuyến mật dày dưới nắp và vành môi",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đặc hữu vùng núi các đảo Luzon, Panay và Sibuyan của Philippines",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": "Đặc hữu vùng núi các đảo Luzon, Panay và Sibuyan của Philippines",
+    "otherNamesVi": [
+      "Porcelain Pitcher Plant"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q135548",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nepenthes_ventricosa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_ventricosa",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 200,
+      "noteVi": "Ấm cao 12–20 cm thắt eo ở giữa và môi răng cưa gợn sóng"
+    },
+    "distribution": {
+      "countries": [
+        "PH"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng núi các đảo Luzon, Panay và Sibuyan của Philippines",
+      "elevationM": {
+        "min": 1000,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu nhiệt đới núi cao từ 1.000 đến 2.000 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 100–200 cm. Ấm cao 12–20 cm thắt eo ở giữa và môi răng cưa gợn sóng.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Thu hút kiến và ong bắp cày bằng tuyến mật dày dưới nắp và vành môi.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Thành ấm dày bóng mịn như sứ tráng men kết hợp chiếc eo thắt đồng hồ cát giúp giữ chặt con mồi không thể bò ngược lên."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 15–27°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Bụng Phình (Nepenthes ventricosa) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 220000,
+        "descriptionVi": "Cây Nắp Ấm Bụng Phình nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes ventricosa in Fata Morgana 2012 (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_ventricosa_in_Fata_Morgana_2012_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Nepenthes_ventricosa_in_Fata_Morgana_2012_%281%29.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chmee2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:121215 Fata Morgana Nepenthes ventricosa 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:121215_Fata_Morgana_Nepenthes_ventricosa_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/121215_Fata_Morgana_Nepenthes_ventricosa_2.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "kasparova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leipzig, botanischer Garten, Nepenthes ventricosa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leipzig,_botanischer_Garten,_Nepenthes_ventricosa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Leipzig%2C_botanischer_Garten%2C_Nepenthes_ventricosa.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dguendel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Растения с Тропического маршрута Ботанического сада Петра Великого 184.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D1%81_%D0%A2%D1%80%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B0_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D0%B0%D0%B4%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE_184.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D1%81_%D0%A2%D1%80%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B0_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D0%B0%D0%B4%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D0%B0_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE_184.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anastasiya Lvova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes ventricosa i-saint.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_ventricosa_i-saint.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Nepenthes_ventricosa_i-saint.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "i- saint",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702158",
+      "https://www.iucnredlist.org/species/39710/143966192",
+      "https://en.wikipedia.org/wiki/Nepenthes_ventricosa",
+      "https://vi.wikipedia.org/wiki/Nepenthes_ventricosa"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes mirabilis",
+    "commonNameVi": "Nắp Ấm Hoa Kỳ (Cây Bình Nước)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49122515/21844202",
+    "gbifKey": 3190712,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy đất cát ngập nước theo mùa, trảng cỏ ẩm và ven suối đất thấp"
+    },
+    "descriptionVi": "Loài nắp ấm có phạm vi phân bố rộng lớn nhất thế giới và rất quen thuộc tại miền Trung - Nam Bộ Việt Nam với khả năng thích nghi mạnh ở vùng đầm lầy nắng gắt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Là loài nắp ấm duy nhất vượt qua eo biển sang tới lục địa Úc và đảo Palau nhờ hạt có cánh lông nhẹ bay xa theo gió mùa.",
+    "dietVi": "Bẫy kiến, mối cánh và côn trùng đầm lầy rơi vào dịch tiêu hóa đáy ấm",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Phân bố rộng nhất chi Nepenthes từ miền nam Trung Quốc, Việt Nam qua Đông Nam Á tới bắc Úc",
+    "otherNamesVi": [
+      "Common Swamp Pitcher Plant",
+      "Cây nắp ấm thường"
+    ],
+    "synonyms": [
+      "Nepenthes albolineata",
+      "Nepenthes alicae",
+      "Nepenthes aliciae",
+      "Nepenthes armbrustae"
+    ],
+    "wikidataId": "Q150525",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_hoa_%C4%91%C3%B4i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_mirabilis",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 400,
+      "noteVi": "Ấm cao 10–20 cm, mép lá non có viền lông tơ mịn"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "KH",
+        "MY",
+        "ID",
+        "PH",
+        "AU"
+      ],
+      "nativeRangeVi": "Phân bố rộng nhất chi Nepenthes từ miền nam Trung Quốc, Việt Nam qua Đông Nam Á tới bắc Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy đất cát ngập nước theo mùa, trảng cỏ ẩm và ven suối đất thấp",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 150–400 cm. Ấm cao 10–20 cm, mép lá non có viền lông tơ mịn.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy kiến, mối cánh và côn trùng đầm lầy rơi vào dịch tiêu hóa đáy ấm.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Là loài nắp ấm duy nhất vượt qua eo biển sang tới lục địa Úc và đảo Palau nhờ hạt có cánh lông nhẹ bay xa theo gió mùa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 22–34°C và độ ẩm 65–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Hoa Kỳ (Cây Bình Nước) (Nepenthes mirabilis) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 120000,
+        "descriptionVi": "Cây Nắp Ấm Hoa Kỳ (Cây Bình Nước) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes mirabilis - South China Botanical Garden 2013.11.02 13-28-42.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_mirabilis_-_South_China_Botanical_Garden_2013.11.02_13-28-42.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nepenthes_mirabilis_-_South_China_Botanical_Garden_2013.11.02_13-28-42.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zhangzhugang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes mirabilis - South China Botanical Garden 2013.11.02 13-27-26.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_mirabilis_-_South_China_Botanical_Garden_2013.11.02_13-27-26.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nepenthes_mirabilis_-_South_China_Botanical_Garden_2013.11.02_13-27-26.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zhangzhugang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:NEPENTHES MIRABILIS TANJUNG PUTING NATIONAL PARK.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NEPENTHES_MIRABILIS_TANJUNG_PUTING_NATIONAL_PARK.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/NEPENTHES_MIRABILIS_TANJUNG_PUTING_NATIONAL_PARK.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rezky Putri Harisanti",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Trái nước.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tr%C3%A1i_n%C6%B0%E1%BB%9Bc.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Tr%C3%A1i_n%C6%B0%E1%BB%9Bc.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Bùi Thụy Đào Nguyên",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3190712",
+      "https://www.iucnredlist.org/species/49122515/21844202",
+      "https://en.wikipedia.org/wiki/Nepenthes_mirabilis",
+      "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_hoa_%C4%91%C3%B4i"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes bicalcarata",
+    "commonNameVi": "Nắp Ấm Hai Nanh",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/39624/10252393",
+    "gbifKey": 3702248,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 33,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng đầm lầy than bùn nhiệt đới đất thấp ẩm ướt quanh năm"
+    },
+    "descriptionVi": "Loài nắp ấm độc nhất vô nhị với hai chiếc gai nhọn hoắt cong xuống dưới nắp ấm trông như cặp răng nanh rắn độc và cuống ấm phình rỗng làm tổ cho kiến cộng sinh.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên do mất rừng than bùn Borneo, nhưng được nhân giống nuôi cấy mô hợp pháp (CITES II).",
+    "pullQuoteVi": "Cuống ấm phình to rỗng ruột chính là ngôi nhà dành riêng cho loài kiến biết bơi Camponotus schmitzi — những 'vệ sĩ' lặn xuống dịch ấm vớt mồi lớn rồi thải phân bón trực tiếp cho cây.",
+    "dietVi": "Bẫy côn trùng lớn và hấp thụ đạm từ chất thải của đàn kiến cộng sinh Camponotus schmitzi",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đặc hữu rừng đầm lầy than bùn trên đảo Borneo",
+    "otherNamesVi": [
+      "Fanged Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes dyak"
+    ],
+    "wikidataId": "Q139530",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_bicalcarata",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 800,
+      "noteVi": "Ấm cao tới 25 cm, có hai chiếc gai nhọn như răng nanh rắn dưới nắp"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Đặc hữu rừng đầm lầy than bùn trên đảo Borneo",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng đầm lầy than bùn nhiệt đới đất thấp ẩm ướt quanh năm",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 300–800 cm. Ấm cao tới 25 cm, có hai chiếc gai nhọn như răng nanh rắn dưới nắp.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng lớn và hấp thụ đạm từ chất thải của đàn kiến cộng sinh Camponotus schmitzi.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Cuống ấm phình to rỗng ruột chính là ngôi nhà dành riêng cho loài kiến biết bơi Camponotus schmitzi — những 'vệ sĩ' lặn xuống dịch ấm vớt mồi lớn rồi thải phân bón trực tiếp cho cây."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 24–33°C và độ ẩm 75–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Hai Nanh (Nepenthes bicalcarata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 450000,
+        "descriptionVi": "Cây Nắp Ấm Hai Nanh nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Headhunter's trail Mulu N. bicalcarata 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Headhunter%27s_trail_Mulu_N._bicalcarata_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Headhunter%27s_trail_Mulu_N._bicalcarata_3.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes bicalcarata Kebun Raya Bogor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_bicalcarata_Kebun_Raya_Bogor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Nepenthes_bicalcarata_Kebun_Raya_Bogor.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ayu (WMID)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthesbicalcarata7.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthesbicalcarata7.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Nepenthesbicalcarata7.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes bicalcarata - Conservatory of Flowers - San Francisco, CA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_bicalcarata_-_Conservatory_of_Flowers_-_San_Francisco,_CA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Nepenthes_bicalcarata_-_Conservatory_of_Flowers_-_San_Francisco%2C_CA.jpg",
+        "width": 2095,
+        "height": 3068,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Daderot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Serian road side N. bicalcarata 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serian_road_side_N._bicalcarata_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Serian_road_side_N._bicalcarata_2.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702248",
+      "https://www.iucnredlist.org/species/39624/10252393",
+      "https://en.wikipedia.org/wiki/Nepenthes_bicalcarata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes truncata",
+    "commonNameVi": "Nắp Ấm Lá Cụt Khổng Lồ",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/39708/10257507",
+    "gbifKey": 3702212,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn núi đá dốc và rừng nhiệt đới từ 0 đến 1.500 m"
+    },
+    "descriptionVi": "Một trong những loài nắp ấm có chiếc bình bẫy mồi to lớn nhất hành tinh, nhận diện ngay từ xa nhờ phiến lá có chóp bị cắt ngang vuông vức độc đáo.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) ngoài tự nhiên nhưng được nuôi cấy mô rất phổ biến trên thế giới (CITES II).",
+    "pullQuoteVi": "Những chiếc ấm trưởng thành của N. truncata có thể chứa hơn 2 lít dịch tiêu hóa, đủ lớn để đôi khi bẫy được cả chuột nhắt và ếch cây trong nhà kính.",
+    "dietVi": "Bẫy côn trùng lớn, gián rừng, rết và các động vật nhỏ bằng dịch tiêu hóa đậm đặc",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đặc hữu các đảo Mindanao, Dinagat và Leyte của Philippines",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": "Đặc hữu các đảo Mindanao, Dinagat và Leyte của Philippines",
+    "otherNamesVi": [
+      "Truncate Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes megamphora"
+    ],
+    "wikidataId": "Q138817",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_truncata",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 150,
+      "noteVi": "Ấm khổng lồ cao tới 35–40 cm và phiến lá cắt ngang hình trái tim cụt đầu"
+    },
+    "distribution": {
+      "countries": [
+        "PH"
+      ],
+      "nativeRangeVi": "Đặc hữu các đảo Mindanao, Dinagat và Leyte của Philippines",
+      "elevationM": {
+        "min": 100,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn núi đá dốc và rừng nhiệt đới từ 0 đến 1.500 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 80–150 cm. Ấm khổng lồ cao tới 35–40 cm và phiến lá cắt ngang hình trái tim cụt đầu.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng lớn, gián rừng, rết và các động vật nhỏ bằng dịch tiêu hóa đậm đặc.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Những chiếc ấm trưởng thành của N. truncata có thể chứa hơn 2 lít dịch tiêu hóa, đủ lớn để đôi khi bẫy được cả chuột nhắt và ếch cây trong nhà kính."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 20–30°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Lá Cụt Khổng Lồ (Nepenthes truncata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 480000,
+        "descriptionVi": "Cây Nắp Ấm Lá Cụt Khổng Lồ nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pitcher plant (N. truncata × peltata) at Mito Botanical Garden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_plant_(N._truncata_%C3%97_peltata)_at_Mito_Botanical_Garden.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pitcher_plant_%28N._truncata_%C3%97_peltata%29_at_Mito_Botanical_Garden.jpg",
+        "width": 4928,
+        "height": 3280,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "小石川人晃",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20220605 Hortus Botanicus 49 - Nepenthes truncata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20220605_Hortus_Botanicus_49_-_Nepenthes_truncata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/20220605_Hortus_Botanicus_49_-_Nepenthes_truncata.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hyogo Prefectural Flower Center Kasai Japan35n.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Flower_Center_Kasai_Japan35n.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hyogo_Prefectural_Flower_Center_Kasai_Japan35n.jpg",
+        "width": 3264,
+        "height": 4912,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "663highland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes truncata 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_truncata_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nepenthes_truncata_01.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes truncata IMG 20190502 122444.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_truncata_IMG_20190502_122444.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nepenthes_truncata_IMG_20190502_122444.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MargaretRDonald",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702212",
+      "https://www.iucnredlist.org/species/39708/10257507",
+      "https://en.wikipedia.org/wiki/Nepenthes_truncata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes villosa",
+    "commonNameVi": "Nắp Ấm Răng Lược Lông Nhung",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39712/143966651",
+    "gbifKey": 3702128,
+    "environment": {
+      "tempMin": 8,
+      "tempMax": 20,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu sương mù núi cao lạnh giá từ 2.400 đến 3.200 m"
+    },
+    "descriptionVi": "Báu vật vùng đỉnh núi Kinabalu với lớp lông nhung màu nâu vàng phủ khắp tua cuốn và chiếc vành môi (peristome) xếp tầng thành hàng răng kiếm tinh xảo.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) do toàn bộ sinh cảnh nằm trong Vườn quốc gia Kinabalu được bảo vệ nghiêm ngặt (CITES II).",
+    "pullQuoteVi": "Sống ở độ cao trên 3.000 mét nơi nhiệt độ ban đêm xuống sát 4°C, lớp lông nhung dày của N. villosa giúp cây giữ ấm và ngưng tụ sương mù.",
+    "dietVi": "Dụ côn trùng núi cao bằng mật dưới các răng lược sắc nhọn trên vành môi",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đặc hữu đỉnh núi Kinabalu và núi Tambuyukon tại bang Sabah, đảo Borneo",
+    "otherNamesVi": [
+      "Villose Pitcher Plant"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q134420",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_l%C3%B4ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_villosa",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 150,
+      "noteVi": "Ấm cao 15–25 cm, vành môi có các gờ răng cao vút và toàn thân phủ lông nâu dày"
+    },
+    "distribution": {
+      "countries": [
+        "MY"
+      ],
+      "nativeRangeVi": "Đặc hữu đỉnh núi Kinabalu và núi Tambuyukon tại bang Sabah, đảo Borneo",
+      "elevationM": {
+        "min": 2400,
+        "max": 3240
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu sương mù núi cao lạnh giá từ 2.400 đến 3.200 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 60–150 cm. Ấm cao 15–25 cm, vành môi có các gờ răng cao vút và toàn thân phủ lông nâu dày.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Dụ côn trùng núi cao bằng mật dưới các răng lược sắc nhọn trên vành môi.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Sống ở độ cao trên 3.000 mét nơi nhiệt độ ban đêm xuống sát 4°C, lớp lông nhung dày của N. villosa giúp cây giữ ấm và ngưng tụ sương mù."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 8–20°C và độ ẩm 75–95%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Răng Lược Lông Nhung (Nepenthes villosa) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 1200000,
+        "descriptionVi": "Cây Nắp Ấm Răng Lược Lông Nhung nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes villosa Mount Kinabalu 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_villosa_Mount_Kinabalu_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Nepenthes_villosa_Mount_Kinabalu_1.jpg",
+        "width": 5400,
+        "height": 3600,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "kallerna",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Kinabalu villosa plants 50.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinabalu_villosa_plants_50.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kinabalu_villosa_plants_50.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Nepenthes villosa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_villosa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nepenthes_villosa.jpg",
+        "width": 1042,
+        "height": 1389,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "en:User:NepGrower",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes villosa Mt Kinabalu Sabah Borneo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_villosa_Mt_Kinabalu_Sabah_Borneo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Nepenthes_villosa_Mt_Kinabalu_Sabah_Borneo.jpg",
+        "width": 3883,
+        "height": 5052,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "kallerna",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kinabalu villosa 11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinabalu_villosa_11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Kinabalu_villosa_11.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702128",
+      "https://www.iucnredlist.org/species/39712/143966651",
+      "https://en.wikipedia.org/wiki/Nepenthes_villosa",
+      "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_l%C3%B4ng"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes lowii",
+    "commonNameVi": "Nắp Ấm Thượng Hạng Low",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/39669/10250074",
+    "gbifKey": 3702034,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu đỉnh núi cao từ 1.650 đến 2.600 m"
+    },
+    "descriptionVi": "Loài nắp ấm kỳ lạ bậc nhất giới thực vật khi chiếc ấm trên không còn bắt côn trùng mà biến thành một chiếc 'nhà vệ sinh' có nắp tiết kem ngọt dành cho đồi cói núi.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Các nghiên cứu đồng vị nitơ chứng minh từ 57% đến 100% lượng đạm trên lá của N. lowii trưởng thành đến từ phân của loài đồi cói núi (Tupaia montana) ngồi ăn chất tiết dưới nắp ấm.",
+    "dietVi": "Ấm dưới bắt côn trùng; ấm trên thu nhận phân giàu nitơ và photpho của đồi cói núi Tupaia montana",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Các đỉnh núi cao vùng bắc Sarawak, Sabah (Malaysia) và Brunei trên đảo Borneo",
+    "otherNamesVi": [
+      "Low's Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes macfarlanei",
+      "Nepenthes maxima lowii"
+    ],
+    "wikidataId": "Q148744",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nepenthes_lowii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_lowii",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 500,
+      "noteVi": "Ấm trên có hình chiếc bồn cầu thắt eo rộng phễu và nắp tiết chất nhầy trắng ngọt"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "BN"
+      ],
+      "nativeRangeVi": "Các đỉnh núi cao vùng bắc Sarawak, Sabah (Malaysia) và Brunei trên đảo Borneo",
+      "elevationM": {
+        "min": 1650,
+        "max": 2600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu đỉnh núi cao từ 1.650 đến 2.600 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–500 cm. Ấm trên có hình chiếc bồn cầu thắt eo rộng phễu và nắp tiết chất nhầy trắng ngọt.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Ấm dưới bắt côn trùng; ấm trên thu nhận phân giàu nitơ và photpho của đồi cói núi Tupaia montana.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu đồng vị nitơ chứng minh từ 57% đến 100% lượng đạm trên lá của N. lowii trưởng thành đến từ phân của loài đồi cói núi (Tupaia montana) ngồi ăn chất tiết dưới nắp ấm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 10–22°C và độ ẩm 75–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Thượng Hạng Low (Nepenthes lowii) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 950000,
+        "descriptionVi": "Cây Nắp Ấm Thượng Hạng Low nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes Lowii (13991706846).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_Lowii_(13991706846).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nepenthes_Lowii_%2813991706846%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Murud N. lowii 20 cropped.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Murud_N._lowii_20_cropped.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Murud_N._lowii_20_cropped.jpg",
+        "width": 1656,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Murud_N._lowii_20.jpg : JeremiahsCPs derivative work: Mgiganteus ( )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Murud N. lowii 11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Murud_N._lowii_11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Murud_N._lowii_11.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Murud N. lowii 14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Murud_N._lowii_14.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Murud_N._lowii_14.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702034",
+      "https://www.iucnredlist.org/species/39669/10250074",
+      "https://en.wikipedia.org/wiki/Nepenthes_lowii",
+      "https://vi.wikipedia.org/wiki/Nepenthes_lowii"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes clipeata",
+    "commonNameVi": "Nắp Ấm Khiên Vách Đá",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/39652/19631488",
+    "gbifKey": 3702027,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vách đá granit gần như thẳng đứng ở độ cao 600–800 m"
+    },
+    "descriptionVi": "Loài nắp ấm leo vách đá có hình thái lá hình khiên (peltate) độc đáo với cuống ấm mọc lùi vào mặt dưới phiến lá tròn để treo chiếc ấm lơ lửng ngoài mép vực.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) ngoài tự nhiên trên núi Kelam, được bảo tồn thông qua chương trình nhân giống quốc tế (CITES II).",
+    "pullQuoteVi": "Không mọc từ chóp lá như các loài nắp ấm khác, tua cuốn của N. clipeata đâm ra từ mặt dưới phiến lá tròn giống hệt cách cầm một tấm khiên chiến binh.",
+    "dietVi": "Bẫy côn trùng bay và kiến sống trên vách đá granit",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Đặc hữu các vách đá granit dựng đứng của núi Kelam tại Tây Kalimantan, đảo Borneo",
+    "otherNamesVi": [
+      "Shield-leaved Pitcher Plant"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q3016829",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_clipeata",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 120,
+      "noteVi": "Tua cuốn ấm mọc từ mặt dưới cách chóp lá một đoạn như chiếc khiên tròn"
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu các vách đá granit dựng đứng của núi Kelam tại Tây Kalimantan, đảo Borneo",
+      "elevationM": {
+        "min": 600,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Vách đá granit gần như thẳng đứng ở độ cao 600–800 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 60–120 cm. Tua cuốn ấm mọc từ mặt dưới cách chóp lá một đoạn như chiếc khiên tròn.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay và kiến sống trên vách đá granit.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Không mọc từ chóp lá như các loài nắp ấm khác, tua cuốn của N. clipeata đâm ra từ mặt dưới phiến lá tròn giống hệt cách cầm một tấm khiên chiến binh."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES hoặc Cực kỳ nguy cấp (CR) được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes clipeata bogoriense.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_clipeata_bogoriense.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nepenthes_clipeata_bogoriense.png",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andreas Christian",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes clipeata (in cultivation) IMG 20260125 133708798 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_clipeata_(in_cultivation)_IMG_20260125_133708798_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nepenthes_clipeata_%28in_cultivation%29_IMG_20260125_133708798_01.jpg",
+        "width": 2296,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Philiptdotcom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes Clipeata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_Clipeata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Nepenthes_Clipeata.jpg",
+        "width": 4574,
+        "height": 6861,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NoverKelana",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes clipeata (cultivated).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_clipeata_(cultivated).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Nepenthes_clipeata_%28cultivated%29.jpg",
+        "width": 1080,
+        "height": 850,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Philiptdotcom",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702027",
+      "https://www.iucnredlist.org/species/39652/19631488",
+      "https://en.wikipedia.org/wiki/Nepenthes_clipeata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes albomarginata",
+    "commonNameVi": "Nắp Ấm Cổ Trắng",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39639/143958253",
+    "gbifKey": 3702230,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 31,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng kerangas đất thấp, vách đá ven biển và rừng núi thấp"
+    },
+    "descriptionVi": "Loài nắp ấm dễ nhận diện nhất Đông Nam Á nhờ một vòng cổ màu trắng muốt như nhung nằm sát dưới vành môi ấm dùng làm mồi nhử mối.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Dải lông trắng dưới môi ấm chính là món ăn khoái khẩu của mối rừng: khi đàn mối kéo hàng nghìn con đến gặm sạch vòng lông trắng này, hàng trăm con sẽ trượt chân rơi xuống đáy ấm.",
+    "dietVi": "Chuyên săn mối (Hospitalitermes) theo đàn nhờ vòng lông trắng ăn được dưới môi ấm",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Bán đảo Mã Lai, đảo Borneo và đảo Sumatra",
+    "otherNamesVi": [
+      "White-collared Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes albomarginata rubra",
+      "Nepenthes albomarginata tomentella",
+      "Nepenthes albomarginata typica",
+      "Nepenthes albomarginata villosa"
+    ],
+    "wikidataId": "Q137234",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nepenthes_albomarginata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_albomarginata",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 300,
+      "noteVi": "Ấm hình trụ mảnh có một dải lông nhung màu trắng tuyết ngay dưới vành môi"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID"
+      ],
+      "nativeRangeVi": "Bán đảo Mã Lai, đảo Borneo và đảo Sumatra",
+      "elevationM": {
+        "min": 0,
+        "max": 1100
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng kerangas đất thấp, vách đá ven biển và rừng núi thấp",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 150–300 cm. Ấm hình trụ mảnh có một dải lông nhung màu trắng tuyết ngay dưới vành môi.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Chuyên săn mối (Hospitalitermes) theo đàn nhờ vòng lông trắng ăn được dưới môi ấm.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Dải lông trắng dưới môi ấm chính là món ăn khoái khẩu của mối rừng: khi đàn mối kéo hàng nghìn con đến gặm sạch vòng lông trắng này, hàng trăm con sẽ trượt chân rơi xuống đáy ấm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 22–31°C và độ ẩm 70–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Cổ Trắng (Nepenthes albomarginata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 220000,
+        "descriptionVi": "Cây Nắp Ấm Cổ Trắng nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes albomarginata (Bogor botanical park).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_albomarginata_(Bogor_botanical_park).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Nepenthes_albomarginata_%28Bogor_botanical_park%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andreas Christian",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pitcher Plants (Nepenthes albomarginata) hanging from cliff above the beach (15746982625).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_Plants_(Nepenthes_albomarginata)_hanging_from_cliff_above_the_beach_(15746982625).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pitcher_Plants_%28Nepenthes_albomarginata%29_hanging_from_cliff_above_the_beach_%2815746982625%29.jpg",
+        "width": 3000,
+        "height": 3299,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes albomarginata with trichomes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_albomarginata_with_trichomes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Nepenthes_albomarginata_with_trichomes.jpg",
+        "width": 3234,
+        "height": 2425,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vincent Bazile",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bako N. albomarginata 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bako_N._albomarginata_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bako_N._albomarginata_2.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nep alb328.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nep_alb328.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nep_alb328.jpg",
+        "width": 1488,
+        "height": 1984,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "No machine-readable author provided. NepGrower~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702230",
+      "https://www.iucnredlist.org/species/39639/143958253",
+      "https://en.wikipedia.org/wiki/Nepenthes_albomarginata",
+      "https://vi.wikipedia.org/wiki/Nepenthes_albomarginata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes gracilis",
+    "commonNameVi": "Nắp Ấm Mảnh",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39663/143960417",
+    "gbifKey": 3702049,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 33,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Ven rừng đầm lầy đất thấp, đồi đất chua và bờ bụi ngập nắng"
+    },
+    "descriptionVi": "Loài nắp ấm thân leo mảnh mai nhưng sở hữu cơ chế bẫy mồi tốc độ cao bằng lực bật của giọt mưa rơi xuống mặt nắp ấm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khi hạt mưa đập vào nắp ấm, chiếc nắp hoạt động như một bệ phóng lò xo hất văng những con kiến đang bò mặt dưới nắp rơi thẳng vào lòng ấm chỉ trong vài phần nghìn giây.",
+    "dietVi": "Bẫy kiến và côn trùng nhỏ bằng cơ chế nắp bật lò xo dưới mưa kết hợp lớp sáp trơn",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": "Bán đảo Thái Lan - Mã Lai, Singapore, Borneo, Sumatra và Sulawesi",
+    "otherNamesVi": [
+      "Slender Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes angustifolia",
+      "Nepenthes distillatoria",
+      "Nepenthes gracilis angustifolia",
+      "Nepenthes gracilis arenaria"
+    ],
+    "wikidataId": "Q150492",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_gracilis",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 500,
+      "noteVi": "Thân leo hình tam giác mảnh mai và ấm nhỏ có nắp bật lò xo khi mưa rơi"
+    },
+    "distribution": {
+      "countries": [
+        "TH",
+        "MY",
+        "ID",
+        "SG",
+        "BN"
+      ],
+      "nativeRangeVi": "Bán đảo Thái Lan - Mã Lai, Singapore, Borneo, Sumatra và Sulawesi",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Ven rừng đầm lầy đất thấp, đồi đất chua và bờ bụi ngập nắng",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–500 cm. Thân leo hình tam giác mảnh mai và ấm nhỏ có nắp bật lò xo khi mưa rơi.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy kiến và côn trùng nhỏ bằng cơ chế nắp bật lò xo dưới mưa kết hợp lớp sáp trơn.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Khi hạt mưa đập vào nắp ấm, chiếc nắp hoạt động như một bệ phóng lò xo hất văng những con kiến đang bò mặt dưới nắp rơi thẳng vào lòng ấm chỉ trong vài phần nghìn giây."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 23–33°C và độ ẩm 70–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Mảnh (Nepenthes gracilis) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 150000,
+        "descriptionVi": "Cây Nắp Ấm Mảnh nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Slender Pitcher Plant (Nepenthes gracilis) with flowers (15766986485).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Slender_Pitcher_Plant_(Nepenthes_gracilis)_with_flowers_(15766986485).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Slender_Pitcher_Plant_%28Nepenthes_gracilis%29_with_flowers_%2815766986485%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes gracilis - 2 - par Mickael Schauli.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_gracilis_-_2_-_par_Mickael_Schauli.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Nepenthes_gracilis_-_2_-_par_Mickael_Schauli.jpg",
+        "width": 4024,
+        "height": 6048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mickaël Schauli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes gracilis - 3 - par Mickael Schauli.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_gracilis_-_3_-_par_Mickael_Schauli.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Nepenthes_gracilis_-_3_-_par_Mickael_Schauli.jpg",
+        "width": 4024,
+        "height": 6048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mickaël Schauli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes gracilis (Nepenthaceae) (49924274491).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_gracilis_(Nepenthaceae)_(49924274491).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Nepenthes_gracilis_%28Nepenthaceae%29_%2849924274491%29.jpg",
+        "width": 935,
+        "height": 1400,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dr. Alexey Yakovlev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bako NP.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bako_NP.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bako_NP.jpg",
+        "width": 1984,
+        "height": 1488,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Mgiganteus1 at English Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702049",
+      "https://www.iucnredlist.org/species/39663/143960417",
+      "https://en.wikipedia.org/wiki/Nepenthes_gracilis"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes reinwardtiana",
+    "commonNameVi": "Nắp Ấm Hai Mắt",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39692/177783881",
+    "gbifKey": 7167252,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn đồi đất cát nghèo dinh dưỡng và sống phụ sinh trên cây gỗ"
+    },
+    "descriptionVi": "Loài nắp ấm nổi tiếng với hai chấm tròn không phủ sáp nằm đối xứng bên trong thành ấm tạo thành hình ảnh 'đôi mắt' nhìn chằm chằm vào con mồi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Hai đốm tròn sáng màu bên trong cổ ấm không chỉ gây tò mò cho người quan sát mà còn làm côn trùng bay vào trong bị mất phương hướng.",
+    "dietVi": "Bẫy côn trùng bay và kiến rừng trong ấm hình phễu thắt eo",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đảo Borneo, đảo Sumatra và các đảo nhỏ lân cận",
+    "otherNamesVi": [
+      "Reinwardt's Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes alata biflora",
+      "Nepenthes korthalsiana",
+      "Nepenthes naquiyuddinii",
+      "Nepenthes reinwardtiana samarindaiensis"
+    ],
+    "wikidataId": "Q5405743",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_reinwardtiana",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 600,
+      "noteVi": "Mặt trong thành ấm phía trên mặt dịch có hai đốm tròn sáng như hai con mắt"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID"
+      ],
+      "nativeRangeVi": "Đảo Borneo, đảo Sumatra và các đảo nhỏ lân cận",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn đồi đất cát nghèo dinh dưỡng và sống phụ sinh trên cây gỗ",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–600 cm. Mặt trong thành ấm phía trên mặt dịch có hai đốm tròn sáng như hai con mắt.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay và kiến rừng trong ấm hình phễu thắt eo.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Hai đốm tròn sáng màu bên trong cổ ấm không chỉ gây tò mò cho người quan sát mà còn làm côn trùng bay vào trong bị mất phương hướng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 20–30°C và độ ẩm 70–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Hai Mắt (Nepenthes reinwardtiana) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 240000,
+        "descriptionVi": "Cây Nắp Ấm Hai Mắt nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Nepenthes_03.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepreinwardtiana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepreinwardtiana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nepreinwardtiana.jpg",
+        "width": 600,
+        "height": 800,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "ma_suska",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthessumatra1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthessumatra1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Nepenthessumatra1.jpg",
+        "width": 800,
+        "height": 600,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "ma_suska",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthesumatra2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthesumatra2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Nepenthesumatra2.jpg",
+        "width": 600,
+        "height": 800,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "ma_suska",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7167252",
+      "https://www.iucnredlist.org/species/39692/177783881",
+      "https://en.wikipedia.org/wiki/Nepenthes_reinwardtiana"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes sanguinea",
+    "commonNameVi": "Nắp Ấm Đỏ Máu",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39694/143964128",
+    "gbifKey": 3702234,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng sương mù núi cao từ 900 đến 1.800 m"
+    },
+    "descriptionVi": "Loài nắp ấm cao nguyên của bán đảo Mã Lai rất được yêu thích nhờ những chiếc ấm lớn màu đỏ rượu vang hoặc cam đào và sức chịu đựng biên độ nhiệt tuyệt vời.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Là một trong những loài nắp ấm vùng núi cao dễ trồng nhất đối với người mới chơi vì ít khi bị sốc nhiệt khi thời tiết thay đổi.",
+    "dietVi": "Bẫy côn trùng bằng dịch tiêu hóa nhầy và thành trong phủ sáp trơn",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Dãy núi Titiwangsa trên bán đảo Mã Lai và cực nam Thái Lan",
+    "otherNamesVi": [
+      "Blood-red Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes pumila"
+    ],
+    "wikidataId": "Q4911548",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_sanguinea",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 400,
+      "noteVi": "Ấm hình trụ lớn cao 15–25 cm màu đỏ thẫm hoặc cam hồng với thân leo có góc cạnh"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "TH"
+      ],
+      "nativeRangeVi": "Dãy núi Titiwangsa trên bán đảo Mã Lai và cực nam Thái Lan",
+      "elevationM": {
+        "min": 900,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng sương mù núi cao từ 900 đến 1.800 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 150–400 cm. Ấm hình trụ lớn cao 15–25 cm màu đỏ thẫm hoặc cam hồng với thân leo có góc cạnh.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bằng dịch tiêu hóa nhầy và thành trong phủ sáp trơn.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Là một trong những loài nắp ấm vùng núi cao dễ trồng nhất đối với người mới chơi vì ít khi bị sốc nhiệt khi thời tiết thay đổi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 15–28°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Đỏ Máu (Nepenthes sanguinea) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 210000,
+        "descriptionVi": "Cây Nắp Ấm Đỏ Máu nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes sanguinea (6).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_sanguinea_(6).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nepenthes_sanguinea_%286%29.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Sylvain Bezy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:N.sanguinea2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:N.sanguinea2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/N.sanguinea2.jpg",
+        "width": 768,
+        "height": 1024,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Kenneth Hiew Jian Wei",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes sanguinea, Hong Kong Park, December 2019 20.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_sanguinea,_Hong_Kong_Park,_December_2019_20.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Nepenthes_sanguinea%2C_Hong_Kong_Park%2C_December_2019_20.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ahmed",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes sanguinea (Nepenthaceae) – lower pitchers (49938474003).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_sanguinea_(Nepenthaceae)_%E2%80%93_lower_pitchers_(49938474003).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nepenthes_sanguinea_%28Nepenthaceae%29_%E2%80%93_lower_pitchers_%2849938474003%29.jpg",
+        "width": 1726,
+        "height": 2585,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dr. Alexey Yakovlev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:N.sanguinea1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:N.sanguinea1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/N.sanguinea1.jpg",
+        "width": 768,
+        "height": 1024,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Kenneth Hiew Jian Wei",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702234",
+      "https://www.iucnredlist.org/species/39694/143964128",
+      "https://en.wikipedia.org/wiki/Nepenthes_sanguinea"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes veitchii",
+    "commonNameVi": "Nắp Ấm Cổ Áo Hoàng Gia Veitch",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39709/143965852",
+    "gbifKey": 3702168,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 88,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sống bám (phụ sinh) trên thân cây rừng hoặc mọc trên đất cát kerangas từ 0 đến 1.600 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Ông hoàng vành môi' của chi Nepenthes với chiếc cổ áo peristome xòe rộng lộng lẫy kẻ sọc vàng óng và đỏ thẫm kèm lớp lông nhung phủ khắp thân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Trong rừng già Borneo, đôi lá của N. veitchii mọc hướng sang hai bên rồi vòng ôm sát quanh thân cây chủ giống hệt đôi tay người đang trèo cây.",
+    "dietVi": "Bẫy côn trùng bằng vành môi xòe rộng ướt đẫm mật ngọt trơn trượt",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đặc hữu đảo Borneo (đặc biệt vùng Sarawak và Kalimantan)",
+    "otherNamesVi": [
+      "Veitch's Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes lanata",
+      "Nepenthes sanguinea",
+      "Nepenthes veitchii striata"
+    ],
+    "wikidataId": "Q150501",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_veitchii",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 350,
+      "noteVi": "Vành môi ấm xòe rộng như chiếc cổ áo xếp nếp sọc vàng đỏ và lá ôm chặt thân cây"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Borneo (đặc biệt vùng Sarawak và Kalimantan)",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": [
+      "Sống bám (phụ sinh) trên thân cây rừng hoặc mọc trên đất cát kerangas từ 0 đến 1.600 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 150–350 cm. Vành môi ấm xòe rộng như chiếc cổ áo xếp nếp sọc vàng đỏ và lá ôm chặt thân cây.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bằng vành môi xòe rộng ướt đẫm mật ngọt trơn trượt.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Trong rừng già Borneo, đôi lá của N. veitchii mọc hướng sang hai bên rồi vòng ôm sát quanh thân cây chủ giống hệt đôi tay người đang trèo cây."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 16–28°C và độ ẩm 70–88%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Cổ Áo Hoàng Gia Veitch (Nepenthes veitchii) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 550000,
+        "descriptionVi": "Cây Nắp Ấm Cổ Áo Hoàng Gia Veitch nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pitcher Plant (Nepenthaceae) Nepenthes Veitchii Pink (49359429783).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_Plant_(Nepenthaceae)_Nepenthes_Veitchii_Pink_(49359429783).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pitcher_Plant_%28Nepenthaceae%29_Nepenthes_Veitchii_Pink_%2849359429783%29.jpg",
+        "width": 9504,
+        "height": 6336,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "geoff mckay from Palmerston North, New Zealand",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes veitchii ('Big Mama' x 'Candy Cane' grex CAR-0001) (in cultivation).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_veitchii_(%27Big_Mama%27_x_%27Candy_Cane%27_grex_CAR-0001)_(in_cultivation).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Nepenthes_veitchii_%28%27Big_Mama%27_x_%27Candy_Cane%27_grex_CAR-0001%29_%28in_cultivation%29.jpg",
+        "width": 2296,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Philiptdotcom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes veitchii (22121194850).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_veitchii_(22121194850).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Nepenthes_veitchii_%2822121194850%29.jpg",
+        "width": 3264,
+        "height": 4928,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Praha Troja PBZ kytka 14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Praha_Troja_PBZ_kytka_14.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Praha_Troja_PBZ_kytka_14.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JiriMatejicek",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes veitchii 2011 Chelsea Flower Show.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_veitchii_2011_Chelsea_Flower_Show.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Nepenthes_veitchii_2011_Chelsea_Flower_Show.jpg",
+        "width": 745,
+        "height": 1023,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Richard Wiseman",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702168",
+      "https://www.iucnredlist.org/species/39709/143965852",
+      "https://en.wikipedia.org/wiki/Nepenthes_veitchii"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes fusca",
+    "commonNameVi": "Nắp Ấm Nâu Đốm",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/40109/143967109",
+    "gbifKey": 3702129,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 88,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sống phụ sinh trên tán cây rừng rêu sương mù từ 1.200 đến 2.500 m"
+    },
+    "descriptionVi": "Loài nắp ấm vùng cao nguyên Borneo có chiếc ấm thuôn dài đốm nâu tía và phần nắp hẹp dài uốn cong hình tam giác rất thanh thoát.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Hình dáng chiếc nắp ấm hẹp dài uốn cong giúp hướng côn trùng bò thẳng vào mép trong của vành môi đầy mật.",
+    "dietVi": "Bẫy côn trùng bay và kiến sống trên tán cây rừng rêu",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Rừng núi cao khắp đảo Borneo",
+    "otherNamesVi": [
+      "Dusky Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes curtisii zakriana",
+      "Nepenthes zakriana"
+    ],
+    "wikidataId": "Q1106815",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_fusca",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 500,
+      "noteVi": "Nắp ấm cực hẹp uốn cong như chiếc lá liễu và cổ ấm kéo dài"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Rừng núi cao khắp đảo Borneo",
+      "elevationM": {
+        "min": 1200,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Sống phụ sinh trên tán cây rừng rêu sương mù từ 1.200 đến 2.500 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–500 cm. Nắp ấm cực hẹp uốn cong như chiếc lá liễu và cổ ấm kéo dài.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay và kiến sống trên tán cây rừng rêu.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Hình dáng chiếc nắp ấm hẹp dài uốn cong giúp hướng côn trùng bò thẳng vào mép trong của vành môi đầy mật."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 14–25°C và độ ẩm 70–88%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Nâu Đốm (Nepenthes fusca) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 320000,
+        "descriptionVi": "Cây Nắp Ấm Nâu Đốm nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes fusca GotBot 2015 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_fusca_GotBot_2015_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nepenthes_fusca_GotBot_2015_001.JPG",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Averater",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gunung Murud logging road N. fusca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gunung_Murud_logging_road_N._fusca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Gunung_Murud_logging_road_N._fusca.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes fusca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_fusca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Nepenthes_fusca.jpg",
+        "width": 1704,
+        "height": 2272,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702129",
+      "https://www.iucnredlist.org/species/40109/143967109",
+      "https://en.wikipedia.org/wiki/Nepenthes_fusca"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes stenophylla",
+    "commonNameVi": "Nắp Ấm Lá Hẹp",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39699/143964900",
+    "gbifKey": 3702099,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 88,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu núi cao và rừng cây bụi trên đá cát từ 900 đến 2.600 m"
+    },
+    "descriptionVi": "Loài nắp ấm cao nguyên Borneo nổi bật với những chiếc ấm hình ống trụ thon dài điểm hoa văn đốm nâu hồng và phần mấu lồi tiết mật dưới gốc nắp.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Mặt dưới nắp ấm có một mấu lồi tiết mật ngọt đậm đặc nằm ngay phía trên miệng bẫy khiến côn trùng vừa với tới liếm mật đã ngã nhào xuống ống ấm.",
+    "dietVi": "Dụ côn trùng bằng mấu mật dưới nắp rồi làm trượt chân vào ống ấm sâu",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Vùng cao nguyên trung tâm đảo Borneo",
+    "otherNamesVi": [
+      "Narrow-leaved Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes boschiana lowii",
+      "Nepenthes curtisii",
+      "Nepenthes fallax",
+      "Nepenthes fucosa"
+    ],
+    "wikidataId": "Q1106811",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_stenophylla",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 400,
+      "noteVi": "Ấm hình ống trụ thon dài thanh nhã điểm các vệt tím đỏ và gờ tuyến mật dưới nắp"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Vùng cao nguyên trung tâm đảo Borneo",
+      "elevationM": {
+        "min": 900,
+        "max": 2600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu núi cao và rừng cây bụi trên đá cát từ 900 đến 2.600 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–400 cm. Ấm hình ống trụ thon dài thanh nhã điểm các vệt tím đỏ và gờ tuyến mật dưới nắp.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Dụ côn trùng bằng mấu mật dưới nắp rồi làm trượt chân vào ống ấm sâu.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Mặt dưới nắp ấm có một mấu lồi tiết mật ngọt đậm đặc nằm ngay phía trên miệng bẫy khiến côn trùng vừa với tới liếm mật đã ngã nhào xuống ống ấm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 14–25°C và độ ẩm 70–88%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Lá Hẹp (Nepenthes stenophylla) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 340000,
+        "descriptionVi": "Cây Nắp Ấm Lá Hẹp nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gunung Murud logging road N. stenophylla 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gunung_Murud_logging_road_N._stenophylla_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gunung_Murud_logging_road_N._stenophylla_4.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes sp 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_sp_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Nepenthes_sp_1.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "j nais",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gunung Murud logging road N. stenophylla 10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gunung_Murud_logging_road_N._stenophylla_10.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gunung_Murud_logging_road_N._stenophylla_10.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gunung Murud logging road N. stenophylla 14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gunung_Murud_logging_road_N._stenophylla_14.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Gunung_Murud_logging_road_N._stenophylla_14.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702099",
+      "https://www.iucnredlist.org/species/39699/143964900",
+      "https://en.wikipedia.org/wiki/Nepenthes_stenophylla"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes tentaculata",
+    "commonNameVi": "Nắp Ấm Tua Xúc Tu",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39702/143965172",
+    "gbifKey": 4930497,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 23,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 92,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm rêu Sphagnum ướt đẫm trong rừng mây từ 1.200 đến 2.550 m"
+    },
+    "descriptionVi": "Loài nắp ấm rừng rêu đặc trưng với những sợi tua mảnh như xúc tu mọc dọc hai bên mặt trên của nắp ấm và sắc ấm tím than huyền bí.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Những chiếc tua mềm mọc trên mặt nắp của ấm dưới đóng vai trò như những chiếc cầu dẫn đường đưa kiến từ thảm rêu đi thẳng tới miệng bẫy.",
+    "dietVi": "Bẫy kiến và côn trùng nhỏ bò trong thảm rêu rừng mây",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Các dãy núi cao trên đảo Borneo và đảo Sulawesi",
+    "otherNamesVi": [
+      "Tentaculate Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes tentaculata imberbis",
+      "Nepenthes tentaculata tomentosa"
+    ],
+    "wikidataId": "Q150528",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_tentaculata",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 300,
+      "noteVi": "Mặt trên của nắp ấm có hai hàng sợi tua nhỏ mọc dọc rìa nắp"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Các dãy núi cao trên đảo Borneo và đảo Sulawesi",
+      "elevationM": {
+        "min": 1200,
+        "max": 2550
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm rêu Sphagnum ướt đẫm trong rừng mây từ 1.200 đến 2.550 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 100–300 cm. Mặt trên của nắp ấm có hai hàng sợi tua nhỏ mọc dọc rìa nắp.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy kiến và côn trùng nhỏ bò trong thảm rêu rừng mây.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Những chiếc tua mềm mọc trên mặt nắp của ấm dưới đóng vai trò như những chiếc cầu dẫn đường đưa kiến từ thảm rêu đi thẳng tới miệng bẫy."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–23°C và độ ẩm 75–92%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Tua Xúc Tu (Nepenthes tentaculata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 280000,
+        "descriptionVi": "Cây Nắp Ấm Tua Xúc Tu nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes Mount Kinabalu 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_Mount_Kinabalu_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nepenthes_Mount_Kinabalu_1.jpg",
+        "width": 4576,
+        "height": 2576,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gossipguy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pitcher Plant (Nepenthes tentaculata) (14667870636).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_Plant_(Nepenthes_tentaculata)_(14667870636).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pitcher_Plant_%28Nepenthes_tentaculata%29_%2814667870636%29.jpg",
+        "width": 2129,
+        "height": 3262,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Nepenthes tentaculata moss.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_tentaculata_moss.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nepenthes_tentaculata_moss.jpg",
+        "width": 1984,
+        "height": 1488,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Mgiganteus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kinabalu Mesilau trail N. tentaculata 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinabalu_Mesilau_trail_N._tentaculata_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kinabalu_Mesilau_trail_N._tentaculata_2.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Murud N. tentaculata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Murud_N._tentaculata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Murud_N._tentaculata.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4930497",
+      "https://www.iucnredlist.org/species/39702/143965172",
+      "https://en.wikipedia.org/wiki/Nepenthes_tentaculata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes burbidgeae",
+    "commonNameVi": "Nắp Ấm Sứ Vẽ Burbidge",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/40105/10314173",
+    "gbifKey": 3702164,
+    "environment": {
+      "tempMin": 13,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng núi trên đất đá siêu bazơ (ultramafic) giàu kim loại nặng ở độ cao 1.200–1.800 m"
+    },
+    "descriptionVi": "Một trong những loài nắp ấm thanh nhã nhất đảo Borneo với chiếc ấm tròn màu trắng kem sữa điểm những nét chấm phá màu đỏ rượu vang như tranh thủy mặc.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN nhưng đã được nhân giống nuôi cấy mô hợp pháp (CITES II).",
+    "pullQuoteVi": "Chỉ mọc trên những sườn núi đất đá ultramafic giàu niken và magie của núi Kinabalu, nơi hầu hết các loài cây rừng thông thường không thể trụ vững.",
+    "dietVi": "Bẫy côn trùng bằng vành môi sọc đỏ kem và mặt trong trơn trượt",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đặc hữu núi Kinabalu và núi Tambuyukon tại bang Sabah, đảo Borneo",
+    "otherNamesVi": [
+      "Painted Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes phyllamphora"
+    ],
+    "wikidataId": "Q4912319",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_burbidgeae",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 800,
+      "noteVi": "Ấm tròn màu trắng kem ngà điểm các vệt hồng đỏ như bình sứ vẽ tay"
+    },
+    "distribution": {
+      "countries": [
+        "MY"
+      ],
+      "nativeRangeVi": "Đặc hữu núi Kinabalu và núi Tambuyukon tại bang Sabah, đảo Borneo",
+      "elevationM": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng núi trên đất đá siêu bazơ (ultramafic) giàu kim loại nặng ở độ cao 1.200–1.800 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 300–800 cm. Ấm tròn màu trắng kem ngà điểm các vệt hồng đỏ như bình sứ vẽ tay.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bằng vành môi sọc đỏ kem và mặt trong trơn trượt.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Chỉ mọc trên những sườn núi đất đá ultramafic giàu niken và magie của núi Kinabalu, nơi hầu hết các loài cây rừng thông thường không thể trụ vững."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 13–24°C và độ ẩm 75–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Sứ Vẽ Burbidge (Nepenthes burbidgeae) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 580000,
+        "descriptionVi": "Cây Nắp Ấm Sứ Vẽ Burbidge nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pig Hill Kinabalu N. burbidgeae uppers 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pig_Hill_Kinabalu_N._burbidgeae_uppers_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pig_Hill_Kinabalu_N._burbidgeae_uppers_3.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pitcher plant (2293649090).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_plant_(2293649090).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pitcher_plant_%282293649090%29.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Suresh Aru",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Nepenthes burbidgeae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_burbidgeae.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Nepenthes_burbidgeae.jpg",
+        "width": 1488,
+        "height": 1984,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NepGrower at English Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nep burb.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nep_burb.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Nep_burb.jpg",
+        "width": 992,
+        "height": 744,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "No machine-readable author provided. NepGrower~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702164",
+      "https://www.iucnredlist.org/species/40105/10314173",
+      "https://en.wikipedia.org/wiki/Nepenthes_burbidgeae"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes eymae",
+    "commonNameVi": "Nắp Ấm Ly Rượu Vang Eyma",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39660/143960044",
+    "gbifKey": 3702202,
+    "environment": {
+      "tempMin": 13,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu sương mù núi cao từ 1.000 đến 2.000 m tại Sulawesi"
+    },
+    "descriptionVi": "Loài nắp ấm nổi tiếng của đảo Sulawesi với những chiếc ấm trên có hình dáng giống hệt một chiếc ly rượu vang pha lê kèm nắp ấm hẹp hình mũi tên.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Dịch tiêu hóa trong chiếc ấm hình ly rượu của N. eymae có độ nhớt quánh đặc như keo dán khiến bất kỳ con ruồi hay ong nào chạm vào đều bị dính chặt.",
+    "dietVi": "Bẫy côn trùng bay bằng dịch tiêu hóa siêu nhớt trong ấm hình ly rượu",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Đặc hữu vùng núi cao Trung Sulawesi, Indonesia",
+    "otherNamesVi": [
+      "Wine-glass Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes infundibuliformis"
+    ],
+    "wikidataId": "Q4911481",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_eymae",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 500,
+      "noteVi": "Ấm trên có phần đáy hẹp như chân ly và miệng loe rộng như chiếc ly uống rượu vang"
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng núi cao Trung Sulawesi, Indonesia",
+      "elevationM": {
+        "min": 1000,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu sương mù núi cao từ 1.000 đến 2.000 m tại Sulawesi",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–500 cm. Ấm trên có phần đáy hẹp như chân ly và miệng loe rộng như chiếc ly uống rượu vang.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay bằng dịch tiêu hóa siêu nhớt trong ấm hình ly rượu.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Dịch tiêu hóa trong chiếc ấm hình ly rượu của N. eymae có độ nhớt quánh đặc như keo dán khiến bất kỳ con ruồi hay ong nào chạm vào đều bị dính chặt."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 13–24°C và độ ẩm 75–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Ly Rượu Vang Eyma (Nepenthes eymae) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 520000,
+        "descriptionVi": "Cây Nắp Ấm Ly Rượu Vang Eyma nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:121215 Fata Morgana Prague Nepenthes eymae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:121215_Fata_Morgana_Prague_Nepenthes_eymae.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/121215_Fata_Morgana_Prague_Nepenthes_eymae.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "svajcr",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes eymae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_eymae.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nepenthes_eymae.jpg",
+        "width": 1704,
+        "height": 2272,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Picture taken by JeremiahsCPs,Engulish Wikipedia user",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes eymae at Kew gardens.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_eymae_at_Kew_gardens.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Nepenthes_eymae_at_Kew_gardens.jpg",
+        "width": 1024,
+        "height": 683,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Derek Keats",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes eymae lower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_eymae_lower.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nepenthes_eymae_lower.jpg",
+        "width": 640,
+        "height": 853,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Urs Zimmermann, Switzerland ( www.nepenthes.ch )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3702202",
+      "https://www.iucnredlist.org/species/39660/143960044",
+      "https://en.wikipedia.org/wiki/Nepenthes_eymae"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes hamata",
+    "commonNameVi": "Nắp Ấm Răng Câu",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/40111/143967359",
+    "gbifKey": 4930512,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 23,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 92,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rêu sương mù đỉnh núi cao từ 1.400 đến 2.500 m"
+    },
+    "descriptionVi": "Biểu tượng dữ dội nhất của dòng cây ăn thịt cao nguyên với hàng răng đen bóng cong vút như lưỡi câu cá xếp dọc vành môi và những sợi lông tua trên nắp ấm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Hàng răng cong nhọn hoắt trên miệng ấm N. hamata hoạt động như một chiếc lờ bắt cá một chiều: côn trùng trượt qua khe răng để liếm mật thì không thể lùi ra được nữa.",
+    "dietVi": "Bẫy côn trùng núi cao bằng hàng răng móc câu giữ mồi một chiều",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Đặc hữu các đỉnh núi cao ở miền trung và tây bắc đảo Sulawesi, Indonesia",
+    "otherNamesVi": [
+      "Hooked Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes dentata"
+    ],
+    "wikidataId": "Q746088",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_hamata",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 500,
+      "noteVi": "Vành môi có hàng lưỡi câu sắc nhọn cong quặp vào trong miệng ấm"
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu các đỉnh núi cao ở miền trung và tây bắc đảo Sulawesi, Indonesia",
+      "elevationM": {
+        "min": 1400,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rêu sương mù đỉnh núi cao từ 1.400 đến 2.500 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 200–500 cm. Vành môi có hàng lưỡi câu sắc nhọn cong quặp vào trong miệng ấm.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng núi cao bằng hàng răng móc câu giữ mồi một chiều.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Hàng răng cong nhọn hoắt trên miệng ấm N. hamata hoạt động như một chiếc lờ bắt cá một chiều: côn trùng trượt qua khe răng để liếm mật thì không thể lùi ra được nữa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–23°C và độ ẩm 75–92%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Răng Câu (Nepenthes hamata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 750000,
+        "descriptionVi": "Cây Nắp Ấm Răng Câu nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Nepenthes hamata 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_hamata_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Nepenthes_hamata_1.jpg",
+        "width": 2600,
+        "height": 1510,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Karelj",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nepenthes hamataPitcher.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_hamataPitcher.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Nepenthes_hamataPitcher.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Jan Wieneke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes hamata hairy pitcher.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_hamata_hairy_pitcher.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nepenthes_hamata_hairy_pitcher.jpg",
+        "width": 682,
+        "height": 1023,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Simon Lumb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes hamata upper pitcher.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_hamata_upper_pitcher.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nepenthes_hamata_upper_pitcher.jpg",
+        "width": 640,
+        "height": 853,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Urs Zimmermann, Switzerland ( www.nepenthes.ch )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4930512",
+      "https://www.iucnredlist.org/species/40111/143967359",
+      "https://en.wikipedia.org/wiki/Nepenthes_hamata"
+    ]
+  },
+  {
+    "scientificName": "Nepenthes hirsuta",
+    "commonNameVi": "Nắp Ấm Lông Nhám",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Nepenthaceae",
+      "genus": "Nepenthes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Nắp ấm (Nepenthaceae)",
+      "genus": "Chi Nắp ấm (Nepenthes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39665/143960697",
+    "gbifKey": 4930505,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 88,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới chân núi và đồi đá sa thạch từ 200 đến 1.100 m"
+    },
+    "descriptionVi": "Loài nắp ấm bản địa đảo Borneo dễ nhận biết nhờ lớp lông tơ cứng phủ dọc thân leo và những chiếc ấm hình bầu dục điểm đốm đỏ tía.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Tên khoa học 'hirsuta' (nhiều lông) xuất phát từ lớp lông nhám bao phủ khắp cành non, cuống lá và mặt ngoài chiếc ấm.",
+    "dietVi": "Bẫy kiến và côn trùng tầng thấp trong rừng mưa Borneo",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": "Đặc hữu đảo Borneo (phổ biến tại Sarawak và tây Kalimantan)",
+    "otherNamesVi": [
+      "Hairy Pitcher Plant"
+    ],
+    "synonyms": [
+      "Nepenthes hirsuta glabrata",
+      "Nepenthes hispida",
+      "Nepenthes leptochila"
+    ],
+    "wikidataId": "Q5438256",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nepenthes_hirsuta",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 400,
+      "noteVi": "Thân và gân lá phủ lớp lông cứng màu nâu xám, ấm hình trứng màu xanh đốm đỏ"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Borneo (phổ biến tại Sarawak và tây Kalimantan)",
+      "elevationM": {
+        "min": 200,
+        "max": 1100
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng nhiệt đới chân núi và đồi đá sa thạch từ 200 đến 1.100 m",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 150–400 cm. Thân và gân lá phủ lớp lông cứng màu nâu xám, ấm hình trứng màu xanh đốm đỏ.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy kiến và côn trùng tầng thấp trong rừng mưa Borneo.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'hirsuta' (nhiều lông) xuất phát từ lớp lông nhám bao phủ khắp cành non, cuống lá và mặt ngoài chiếc ấm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 20–30°C và độ ẩm 70–88%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Nắp Ấm Lông Nhám (Nepenthes hirsuta) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 260000,
+        "descriptionVi": "Cây Nắp Ấm Lông Nhám nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lambir Hills N. hispida 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lambir_Hills_N._hispida_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lambir_Hills_N._hispida_2.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JeremiahsCPs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Nep hir190.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nep_hir190.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Nep_hir190.jpg",
+        "width": 744,
+        "height": 992,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "No machine-readable author provided. NepGrower~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nep hir275.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nep_hir275.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Nep_hir275.jpg",
+        "width": 992,
+        "height": 744,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "No machine-readable author provided. NepGrower~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nepenthes hirsuta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nepenthes_hirsuta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Nepenthes_hirsuta.jpg",
+        "width": 744,
+        "height": 992,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "en:User:NepGrower",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4930505",
+      "https://www.iucnredlist.org/species/39665/143960697",
+      "https://en.wikipedia.org/wiki/Nepenthes_hirsuta"
+    ]
+  }
+]

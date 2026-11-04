@@ -1,0 +1,3812 @@
+[
+  {
+    "scientificName": "Corydoras paleatus",
+    "commonNameVi": "Cá Chuột Tiêu",
+    "commonNameEn": "Blue Leopard Corydoras",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Callichthyidae",
+      "genus": "Corydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá chuột (Callichthyidae)",
+      "genus": "Chi Cá chuột (Corydoras)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/186640/1816157",
+    "gbifKey": 2342720,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 25,
+      "phMin": 6.2,
+      "phMax": 7.8,
+      "habitatVi": "Các dòng sông và suối nước mát vùng cận nhiệt đới có đáy cát sỏi mịn"
+    },
+    "descriptionVi": "Loài cá chuột vùng cận nhiệt đới Nam Mỹ nổi bật với hoa văn đốm đen muối tiêu điểm ánh xanh ngọc bích trên hai bên nắp mang và thân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và là một trong những loài cá Nam Mỹ đầu tiên được du nhập vào châu Âu từ thế kỷ 19.",
+    "pullQuoteVi": "Sinh sống ở vùng sông Paraná cận nhiệt đới, Cá Chuột Tiêu có thể chịu được nhiệt độ nước mát xuống tới 16–18°C vào mùa đông.",
+    "dietVi": "Ăn viên chìm tầng đáy, trùng huyết, giun nhỏ và thức ăn đông lạnh",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Paraná, Argentina",
+      "lat": -27.45,
+      "lng": -58.98
+    },
+    "regionVi": "Lưu vực hạ nguồn sông Paraná, sông Uruguay và vùng ven biển nam Brazil",
+    "otherNamesVi": [
+      "Cá chuột muối tiêu",
+      "Peppered Corydoras"
+    ],
+    "synonyms": [
+      "Callichthys paleatus",
+      "Corydoras maculatus",
+      "Corydoras marmoratus",
+      "Corydoras punctatus argentina"
+    ],
+    "wikidataId": "Q863850",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corydoras_paleatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hoplisoma_paleatum",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5.5,
+      "lengthCmMax": 7,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con cái có bụng tròn rộng hơn, trong khi con đực có vây lưng và vây ngực cao nhọn hơn."
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "BR",
+        "UY",
+        "PY"
+      ],
+      "nativeRangeVi": "Lưu vực hạ nguồn sông Paraná, sông Uruguay và vùng ven biển nam Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông và suối nước mát vùng cận nhiệt đới có đáy cát sỏi mịn",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5,5–7 cm với hình thái đặc trưng của chi Corydoras. Con cái có bụng tròn rộng hơn, trong khi con đực có vây lưng và vây ngực cao nhọn hơn.",
+    "behaviorVi": "Nuôi theo đàn từ 6 cá thể trở lên trên nền cát mịn, ưa nước mát và sạch.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sinh sống ở vùng sông Paraná cận nhiệt đới, Cá Chuột Tiêu có thể chịu được nhiệt độ nước mát xuống tới 16–18°C vào mùa đông.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá chuột (Callichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 50 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (18–25°C, pH 6.2–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn viên chìm tầng đáy, trùng huyết, giun nhỏ và thức ăn đông lạnh",
+      "socialVi": "Nuôi theo đàn từ 6 cá thể trở lên trên nền cát mịn, ưa nước mát và sạch.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Cá Chuột Tiêu (Corydoras paleatus) CB",
+        "priceVnd": 55000,
+        "descriptionVi": "Cá Chuột Tiêu (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (18–25°C, pH 6.2–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corydoras paleatus h080.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_paleatus_h080.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Corydoras_paleatus_h080.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "h080",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Peppered cory 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Peppered_cory_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Peppered_cory_01.jpg",
+        "width": 908,
+        "height": 938,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gourami Watcher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras Jungfisch.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_Jungfisch.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Corydoras_Jungfisch.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Graf zu Pappenheim",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kirysek pstry (Corydoras paleatus).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kirysek_pstry_(Corydoras_paleatus).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Kirysek_pstry_%28Corydoras_paleatus%29.JPG",
+        "width": 4288,
+        "height": 2416,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alter welt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras paleatus in current.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_paleatus_in_current.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Corydoras_paleatus_in_current.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ude",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2342720",
+      "https://www.iucnredlist.org/species/186640/1816157",
+      "https://en.wikipedia.org/wiki/Hoplisoma_paleatum",
+      "https://vi.wikipedia.org/wiki/Corydoras_paleatus"
+    ]
+  },
+  {
+    "scientificName": "Corydoras pygmaeus",
+    "commonNameVi": "Cá Chuột Lùn Pygmy",
+    "commonNameEn": "Pygmy Catfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Callichthyidae",
+      "genus": "Corydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá chuột (Callichthyidae)",
+      "genus": "Chi Cá chuột (Corydoras)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49829871/159297646",
+    "gbifKey": 2342634,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 22,
+      "waterTempMax": 26,
+      "phMin": 6,
+      "phMax": 7.4,
+      "habitatVi": "Các nhánh suối nhỏ nước chảy nhẹ có nền cát mịn và thảm cỏ thủy sinh rậm"
+    },
+    "descriptionVi": "Một trong những loài cá da trơn nhỏ nhất thế giới, nổi bật với thân màu bạc ánh kim và một đường sọc đen chạy dọc từ mõm tới chấm gốc đuôi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và cực kỳ được ưa chuộng trong các bể thủy sinh nano.",
+    "pullQuoteVi": "Khác với những loài cá chuột lớn chỉ bò sát đáy, Cá Chuột Lùn Pygmy thường xuyên tụ họp thành đàn bơi lơ lửng ở tầng nước giữa như cá Tetra.",
+    "dietVi": "Ăn thức ăn hạt nghiền mịn chìm, ấu trùng Artemia, bo bo và vi giun",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Madeira (Brazil) và các nhánh sông Aguarico, Nanay ở thượng nguồn Amazon",
+    "otherNamesVi": [
+      "Pygmy Corydoras"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q244281",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corydoras_pygmaeus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pygmy_corydoras",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 3,
+      "weightGMin": 0.3,
+      "weightGMax": 0.7,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành đạt gần 3 cm với phần bụng tròn căng, con đực chỉ khoảng 2 cm và mảnh hơn."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "EC"
+      ],
+      "nativeRangeVi": "Lưu vực sông Madeira (Brazil) và các nhánh sông Aguarico, Nanay ở thượng nguồn Amazon",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các nhánh suối nhỏ nước chảy nhẹ có nền cát mịn và thảm cỏ thủy sinh rậm",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2–3 cm với hình thái đặc trưng của chi Corydoras. Con cái trưởng thành đạt gần 3 cm với phần bụng tròn căng, con đực chỉ khoảng 2 cm và mảnh hơn.",
+    "behaviorVi": "Nên nuôi theo đàn từ 8–10 con trong bể thủy sinh có nhiều cây lá mịn và dòng chảy nhẹ.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với những loài cá chuột lớn chỉ bò sát đáy, Cá Chuột Lùn Pygmy thường xuyên tụ họp thành đàn bơi lơ lửng ở tầng nước giữa như cá Tetra.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá chuột (Callichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 25 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (22–26°C, pH 6.0–7.4).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn hạt nghiền mịn chìm, ấu trùng Artemia, bo bo và vi giun",
+      "socialVi": "Nên nuôi theo đàn từ 8–10 con trong bể thủy sinh có nhiều cây lá mịn và dòng chảy nhẹ.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 6 Cá Chuột Lùn (Corydoras pygmaeus) CB",
+        "priceVnd": 110000,
+        "descriptionVi": "Cá Chuột Lùn Pygmy (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (22–26°C, pH 6.0–7.4) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:C.pygmaeus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:C.pygmaeus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/C.pygmaeus.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AquaTuer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Обитатели петербургского Океанариума 10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_10.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_10.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anastasiya Lvova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras pygmaeus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_pygmaeus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Corydoras_pygmaeus.jpg",
+        "width": 1940,
+        "height": 1373,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Sesarma",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PXL 20260810 003453528~2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PXL_20260810_003453528~2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/PXL_20260810_003453528~2.jpg",
+        "width": 1839,
+        "height": 978,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Softepaul",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PXL 20260618 224801427.MP~2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PXL_20260618_224801427.MP~2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/PXL_20260618_224801427.MP~2.jpg",
+        "width": 1321,
+        "height": 1103,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Softepaul",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2342634",
+      "https://www.iucnredlist.org/species/49829871/159297646",
+      "https://en.wikipedia.org/wiki/Pygmy_corydoras",
+      "https://vi.wikipedia.org/wiki/Corydoras_pygmaeus"
+    ]
+  },
+  {
+    "scientificName": "Corydoras trilineatus",
+    "commonNameVi": "Cá Chuột Ba Sọc",
+    "commonNameEn": "Threestripe corydoras",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Callichthyidae",
+      "genus": "Corydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá chuột (Callichthyidae)",
+      "genus": "Chi Cá chuột (Corydoras)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830212/159299108",
+    "gbifKey": 2342746,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 22,
+      "waterTempMax": 26,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Suối rừng nông đáy cát bùn có nhiều cành khô và lá mục"
+    },
+    "descriptionVi": "Loài cá chuột hoa văn da báo tuyệt đẹp với mạng lưới đường vân đen ngoằn ngoèo trên đầu, vệt đen chóp vây lưng và ba đường sọc chạy dọc giữa sườn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) với quần thể dồi dào ở thượng nguồn Amazon.",
+    "pullQuoteVi": "Mạng vân mê cung kèm sọc đen giữa sườn khiến loài này thường xuyên được gọi là 'Cá Chuột Julii' trong thương mại cá cảnh quốc tế.",
+    "dietVi": "Ăn viên chìm cho cá tầng đáy, trùng huyết, Artemia và thức ăn đông lạnh",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Thượng nguồn và trung lưu lưu vực sông Amazon từ Peru, Ecuador tới tây Brazil",
+    "otherNamesVi": [
+      "Cá chuột báo giả",
+      "Three-stripe Corydoras",
+      "False Julii Cory"
+    ],
+    "synonyms": [
+      "Corydoras dubius",
+      "Corydoras episcopi"
+    ],
+    "wikidataId": "Q1257383",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corydoras_trilineatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Threestripe_corydoras",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 6,
+      "weightGMin": 3,
+      "weightGMax": 6,
+      "heightCmMax": null,
+      "noteVi": "Con cái có thân tròn đầy đặn hơn con đực khi nhìn từ phía trên xuống."
+    },
+    "distribution": {
+      "countries": [
+        "PE",
+        "CO",
+        "BR",
+        "EC"
+      ],
+      "nativeRangeVi": "Thượng nguồn và trung lưu lưu vực sông Amazon từ Peru, Ecuador tới tây Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối rừng nông đáy cát bùn có nhiều cành khô và lá mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–6 cm với hình thái đặc trưng của chi Corydoras. Con cái có thân tròn đầy đặn hơn con đực khi nhìn từ phía trên xuống.",
+    "behaviorVi": "Nuôi theo đàn 6+ con trên nền cát suối mịn, rất chăm chỉ sục tìm thức ăn thừa dưới đáy bể.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Mạng vân mê cung kèm sọc đen giữa sườn khiến loài này thường xuyên được gọi là 'Cá Chuột Julii' trong thương mại cá cảnh quốc tế.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá chuột (Callichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 50 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (22–26°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn viên chìm cho cá tầng đáy, trùng huyết, Artemia và thức ăn đông lạnh",
+      "socialVi": "Nuôi theo đàn 6+ con trên nền cát suối mịn, rất chăm chỉ sục tìm thức ăn thừa dưới đáy bể.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Chuột Ba Sọc Da Báo (Corydoras trilineatus) CB",
+        "priceVnd": 35000,
+        "descriptionVi": "Cá Chuột Ba Sọc (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (22–26°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corydoras trilineatus, 2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_trilineatus,_2010.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Corydoras_trilineatus%2C_2010.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Bob Jenkins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:This is a picture from a corydoras trillineatus 2013-12-08 13-45.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:This_is_a_picture_from_a_corydoras_trillineatus_2013-12-08_13-45.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/This_is_a_picture_from_a_corydoras_trillineatus_2013-12-08_13-45.jpg",
+        "width": 2204,
+        "height": 3920,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:Michael 2002 2002",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras trilineatus h080.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_trilineatus_h080.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Corydoras_trilineatus_h080.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "h080",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras trilineatus5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_trilineatus5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Corydoras_trilineatus5.jpg",
+        "width": 1493,
+        "height": 996,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Soulkeeper",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2342746",
+      "https://www.iucnredlist.org/species/49830212/159299108",
+      "https://en.wikipedia.org/wiki/Threestripe_corydoras",
+      "https://vi.wikipedia.org/wiki/Corydoras_trilineatus"
+    ]
+  },
+  {
+    "scientificName": "Pterygoplichthys gibbiceps",
+    "commonNameVi": "Cá Tỳ Bà Da Báo Cánh Buồm",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Loricariidae",
+      "genus": "Pterygoplichthys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá tỳ bà (Loricariidae)",
+      "genus": "Chi Cá tỳ bà lớn (Pterygoplichthys)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/13151259/13151266",
+    "gbifKey": 2339957,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 28,
+      "phMin": 6.2,
+      "phMax": 7.6,
+      "habitatVi": "Các dòng sông lớn, vùng rừng ngập lũ và đầm phá giàu gỗ lũa mục"
+    },
+    "descriptionVi": "Loài cá tỳ bà cỡ lớn ấn tượng với chiếc vây lưng khổng lồ gồm 12–13 tia giương cao như cánh buồm và họa tiết đốm da báo nâu sẫm viền vàng lưới toàn thân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại lưu vực Amazon và Orinoco.",
+    "pullQuoteVi": "Khi giương hết cỡ chiếc vây lưng cao rộng như cánh buồm thuyền để thị uy, cá Tỳ Bà Da Báo trông lớn gần gấp đôi kích thước thật của nó.",
+    "dietVi": "Ăn tạp thiên thực vật: tảo bám, viên tảo chìm (algae wafers), dưa chuột, bí ngòi luộc và gỗ lũa mềm",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon và sông Orinoco ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá lau kính da báo",
+      "Sailfin Pleco",
+      "Leopard Pleco"
+    ],
+    "synonyms": [
+      "Ancistrus gibbiceps",
+      "Glyptoperichthys gibbiceps",
+      "Liposarcus altipinnis"
+    ],
+    "wikidataId": "Q1456377",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pterygoplichthys_gibbiceps",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pterygoplichthys_gibbiceps",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 45,
+      "weightGMin": 500,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành có gai ngạnh trên tia vây ngực đầu tiên phát triển dài và sắc hơn con cái."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "EC",
+        "CO",
+        "VE"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon và sông Orinoco ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông lớn, vùng rừng ngập lũ và đầm phá giàu gỗ lũa mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 35–45 cm với hình thái đặc trưng của chi Pterygoplichthys. Con đực trưởng thành có gai ngạnh trên tia vây ngực đầu tiên phát triển dài và sắc hơn con cái.",
+    "behaviorVi": "Cá đạt kích thước lớn nên cần bể rộng từ 350 lít trở lên kèm khúc lũa tự nhiên để cá bào chất xơ tiêu hóa.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi giương hết cỡ chiếc vây lưng cao rộng như cánh buồm thuyền để thị uy, cá Tỳ Bà Da Báo trông lớn gần gấp đôi kích thước thật của nó.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá tỳ bà (Loricariidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 350 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–28°C, pH 6.2–7.6).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên thực vật: tảo bám, viên tảo chìm (algae wafers), dưa chuột, bí ngòi luộc và gỗ lũa mềm",
+      "socialVi": "Cá đạt kích thước lớn nên cần bể rộng từ 350 lít trở lên kèm khúc lũa tự nhiên để cá bào chất xơ tiêu hóa.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Tỳ Bà Da Báo Cánh Buồm (Sailfin Pleco) Size 8–10 cm",
+        "priceVnd": 65000,
+        "descriptionVi": "Cá Tỳ Bà Da Báo Cánh Buồm (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–28°C, pH 6.2–7.6) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hal - Pterygoplichthys gibbiceps - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Pterygoplichthys_gibbiceps_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Hal_-_Pterygoplichthys_gibbiceps_-_1.jpg",
+        "width": 5312,
+        "height": 2988,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Liberec Botanischer Garten lub 2024-08 img24 Aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Liberec_Botanischer_Garten_lub_2024-08_img24_Aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Liberec_Botanischer_Garten_lub_2024-08_img24_Aquarium.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Britta Beck",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pterygoplichthys gibbiceps in Botanic garden Teplice (1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pterygoplichthys_gibbiceps_in_Botanic_garden_Teplice_(1).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pterygoplichthys_gibbiceps_in_Botanic_garden_Teplice_%281%29.JPG",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Chmee2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Waben-schilderwels-wurmweb.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Waben-schilderwels-wurmweb.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Waben-schilderwels-wurmweb.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "WurmWEB",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pterygoplichthys gibbiceps 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pterygoplichthys_gibbiceps_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pterygoplichthys_gibbiceps_3.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Miroslav.vajdic",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2339957",
+      "https://www.iucnredlist.org/species/13151259/13151266",
+      "https://en.wikipedia.org/wiki/Pterygoplichthys_gibbiceps",
+      "https://vi.wikipedia.org/wiki/Pterygoplichthys_gibbiceps"
+    ]
+  },
+  {
+    "scientificName": "Kryptopterus vitreolus",
+    "commonNameVi": "Cá Nheo Thủy Tinh",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Siluridae",
+      "genus": "Kryptopterus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá nheo (Siluridae)",
+      "genus": "Chi Cá nheo thủy tinh (Kryptopterus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152136779/152136784",
+    "gbifKey": 7916021,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Suối rừng có dòng chảy vừa phải, nước hơi nâu nhẹ và nhiều cây rủ bóng"
+    },
+    "descriptionVi": "Loài cá da trơn kỳ thú với toàn bộ khối cơ thân trong suốt như pha lê, để lộ rõ cột sống và tạo hiệu ứng tán sắc cầu vồng khi ánh sáng chiếu xiên.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại các lưu vực sông miền nam Thái Lan.",
+    "pullQuoteVi": "Không có vảy cũng chẳng có sắc tố melanin trên thân, các thớ cơ mỏng của cá Nheo Thủy Tinh hoạt động như những lăng kính siêu nhỏ phản chiếu ánh sáng ngũ sắc.",
+    "dietVi": "Ăn động vật nhỏ trôi trong dòng nước: ấu trùng Artemia, bo bo, trùng huyết và cám mảnh chậm chìm",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": "Các lưu vực sông chảy ra vịnh Thái Lan ở miền đông nam và bán đảo Thái Lan",
+    "otherNamesVi": [
+      "Cá trê thủy tinh",
+      "Ghost Catfish",
+      "Glass Catfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q13746133",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_th%E1%BB%A7y_tinh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Kryptopterus_vitreolus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 8,
+      "weightGMin": 2,
+      "weightGMax": 4,
+      "heightCmMax": null,
+      "noteVi": "Hầu như không thể phân biệt đực cái bằng mắt thường do toàn bộ nội tạng nằm gọn sát ngay sau đầu."
+    },
+    "distribution": {
+      "countries": [
+        "TH"
+      ],
+      "nativeRangeVi": "Các lưu vực sông chảy ra vịnh Thái Lan ở miền đông nam và bán đảo Thái Lan",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối rừng có dòng chảy vừa phải, nước hơi nâu nhẹ và nhiều cây rủ bóng",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 6–8 cm với hình thái đặc trưng của chi Kryptopterus. Hầu như không thể phân biệt đực cái bằng mắt thường do toàn bộ nội tạng nằm gọn sát ngay sau đầu.",
+    "behaviorVi": "Bắt buộc nuôi theo đàn từ 6–8 con trở lên; nuôi lẻ cá sẽ bị căng thẳng, bỏ ăn và chuyển màu trắng đục.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Không có vảy cũng chẳng có sắc tố melanin trên thân, các thớ cơ mỏng của cá Nheo Thủy Tinh hoạt động như những lăng kính siêu nhỏ phản chiếu ánh sáng ngũ sắc.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá nheo (Siluridae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 80 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–27°C, pH 6.0–7.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn động vật nhỏ trôi trong dòng nước: ấu trùng Artemia, bo bo, trùng huyết và cám mảnh chậm chìm",
+      "socialVi": "Bắt buộc nuôi theo đàn từ 6–8 con trở lên; nuôi lẻ cá sẽ bị căng thẳng, bỏ ăn và chuyển màu trắng đục.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Cá Nheo Thủy Tinh (Kryptopterus vitreolus)",
+        "priceVnd": 125000,
+        "descriptionVi": "Cá Nheo Thủy Tinh (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–27°C, pH 6.0–7.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aquarium de la Porte Dorée - Kryptopterus vitreolus 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Kryptopterus_vitreolus_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Aquarium_de_la_Porte_Dor%C3%A9e_-_Kryptopterus_vitreolus_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aquarium Tropical Palais Porte Dorée - Paris XII (FR75) - 2021-06-26 - 19.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_(FR75)_-_2021-06-26_-_19.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_%28FR75%29_-_2021-06-26_-_19.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chabe01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glaswelse.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glaswelse.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Glaswelse.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Martin Fisch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kryptopterus vitreolus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kryptopterus_vitreolus.jpg",
+        "width": 5184,
+        "height": 2912,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "serwacy01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium de la Porte Dorée - Kryptopterus vitreolus 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Kryptopterus_vitreolus_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aquarium_de_la_Porte_Dor%C3%A9e_-_Kryptopterus_vitreolus_02.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7916021",
+      "https://www.iucnredlist.org/species/152136779/152136784",
+      "https://en.wikipedia.org/wiki/Kryptopterus_vitreolus",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_th%E1%BB%A7y_tinh"
+    ]
+  },
+  {
+    "scientificName": "Synodontis petricola",
+    "commonNameVi": "Cá Trê Đá Hồ Tanganyika",
+    "commonNameEn": "Cuckoo Catfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Mochokidae",
+      "genus": "Synodontis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá trê ngửa bụng (Mochokidae)",
+      "genus": "Chi Cá trê ngửa bụng (Synodontis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/274936476/47216846",
+    "gbifKey": 2344304,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 7.5,
+      "phMax": 8.8,
+      "habitatVi": "Các vách đá ngầm và hang hốc đá vôi ven bờ hồ Tanganyika tới độ sâu 30 mét"
+    },
+    "descriptionVi": "Loài cá trê nhỏ năng động của hồ Tanganyika với họa tiết đốm báo đen tròn trên nền da vàng nâu và toàn bộ các tia vây đầu tiên đều viền trắng tuyết sắc nét.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại hồ Tanganyika và là bạn cùng bể lý tưởng cho nhóm Cichlid Đông Phi.",
+    "pullQuoteVi": "Một số loài trong nhóm Synodontis hồ Tanganyika nổi tiếng với tập tính đẻ nhờ giống chim tu hú: lén đẻ trứng để cá Cichlid ấp miệng ngậm nhầm và nuôi hộ.",
+    "dietVi": "Ăn tạp: viên chìm tầng đáy, cám Cichlid, Artemia, trùng huyết và tảo Spirulina",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc hồ Tanganyika, Burundi",
+      "lat": -3.38,
+      "lng": 29.36
+    },
+    "regionVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+    "otherNamesVi": [
+      "Cuckoo Dwarf Catfish",
+      "Petricola Catfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q140281",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Synodontis_petricola",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Synodontis_petricola",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 10,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành có phần bụng tròn đầy đặn hơn con đực."
+    },
+    "distribution": {
+      "countries": [
+        "BI",
+        "CD",
+        "TZ",
+        "ZM"
+      ],
+      "nativeRangeVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các vách đá ngầm và hang hốc đá vôi ven bờ hồ Tanganyika tới độ sâu 30 mét",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–10 cm với hình thái đặc trưng của chi Synodontis. Con cái trưởng thành có phần bụng tròn đầy đặn hơn con đực.",
+    "behaviorVi": "Nuôi theo nhóm 4–6 con trong bể nhiều hang đá với nước cứng và pH kiềm.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Một số loài trong nhóm Synodontis hồ Tanganyika nổi tiếng với tập tính đẻ nhờ giống chim tu hú: lén đẻ trứng để cá Cichlid ấp miệng ngậm nhầm và nuôi hộ.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá trê ngửa bụng (Mochokidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 100 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–27°C, pH 7.5–8.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: viên chìm tầng đáy, cám Cichlid, Artemia, trùng huyết và tảo Spirulina",
+      "socialVi": "Nuôi theo nhóm 4–6 con trong bể nhiều hang đá với nước cứng và pH kiềm.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Trê Đá Báo Trắng (Synodontis petricola) Size 4–5 cm",
+        "priceVnd": 120000,
+        "descriptionVi": "Cá Trê Đá Hồ Tanganyika (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–27°C, pH 7.5–8.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Frankfurt Zoo - Synodontis petricola.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Zoo_-_Synodontis_petricola.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Frankfurt_Zoo_-_Synodontis_petricola.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Synodontis petricola in Ouwehands Dierenpark 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Synodontis_petricola_in_Ouwehands_Dierenpark_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Synodontis_petricola_in_Ouwehands_Dierenpark_01.jpg",
+        "width": 2568,
+        "height": 3688,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kleiner Leopard-Fiederbartwels (Tiergarten Delitzsch).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kleiner_Leopard-Fiederbartwels_(Tiergarten_Delitzsch).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kleiner_Leopard-Fiederbartwels_%28Tiergarten_Delitzsch%29.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fiver, der Hellseher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Synodontis petricola in Ouwehands Dierenpark 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Synodontis_petricola_in_Ouwehands_Dierenpark_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Synodontis_petricola_in_Ouwehands_Dierenpark_02.jpg",
+        "width": 3812,
+        "height": 2937,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2344304",
+      "https://www.iucnredlist.org/species/274936476/47216846",
+      "https://en.wikipedia.org/wiki/Synodontis_petricola",
+      "https://vi.wikipedia.org/wiki/Synodontis_petricola"
+    ]
+  },
+  {
+    "scientificName": "Melanotaenia boesemani",
+    "commonNameVi": "Cá Cầu Vồng Boeseman",
+    "commonNameEn": "Boeseman's Rainbowfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Atheriniformes",
+      "family": "Melanotaeniidae",
+      "genus": "Melanotaenia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá suốt (Atheriniformes)",
+      "family": "Họ Cá cầu vồng (Melanotaeniidae)",
+      "genus": "Chi Cá cầu vồng (Melanotaenia)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/13058/147682045",
+    "gbifKey": 2411651,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Các hồ nước ngọt nông trong vắt nằm trên nền đá vôi nhiều thảm thực vật thủy sinh"
+    },
+    "descriptionVi": "Kiệt tác màu sắc của đảo New Guinea với nửa thân trước màu xanh lam tím óng ánh và nửa thân sau rực lên màu cam nghệ tươi như hai loài cá ghép làm một.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) ngoài tự nhiên do phạm vi phân bố cực hẹp tại vùng hồ Ayamaru, nhưng đã được nhân giống rộng rãi trên toàn cầu.",
+    "pullQuoteVi": "Vào buổi sáng sớm khi tán tỉnh, con đực làm sáng rực một dải sọc dọc trên trán và nhấp nháy màu sắc chỉ trong tích tắc khi lướt qua trước mặt con cái.",
+    "dietVi": "Ăn tạp: cám hạt nổi/chậm chìm, trùng huyết, Artemia và thức ăn giàu sắc tố tự nhiên",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Đặc hữu vùng hồ Ayamaru và các suối lân cận trên bán đảo Đầu Chim (Vogelkop), Tây Papua, Indonesia",
+    "otherNamesVi": [
+      "Boeseman's Rainbowfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q833254",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Melanotaenia_boesemani",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Boeseman%27s_rainbowfish",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 11,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Con đực có thân cao bản hơn và sự phân tách hai mảng màu xanh lam phía trước - cam đỏ phía sau cực kỳ rực rỡ; con cái mảnh hơn và màu nhạt ánh bạc."
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng hồ Ayamaru và các suối lân cận trên bán đảo Đầu Chim (Vogelkop), Tây Papua, Indonesia",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các hồ nước ngọt nông trong vắt nằm trên nền đá vôi nhiều thảm thực vật thủy sinh",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–11 cm với hình thái đặc trưng của chi Melanotaenia. Con đực có thân cao bản hơn và sự phân tách hai mảng màu xanh lam phía trước - cam đỏ phía sau cực kỳ rực rỡ; con cái mảnh hơn và màu nhạt ánh bạc.",
+    "behaviorVi": "Bơi nhanh, cần bể dài từ 80–100 cm trở lên và nuôi theo đàn 6+ con có cả đực lẫn cái để đực lên màu đẹp nhất.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vào buổi sáng sớm khi tán tỉnh, con đực làm sáng rực một dải sọc dọc trên trán và nhấp nháy màu sắc chỉ trong tích tắc khi lướt qua trước mặt con cái.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá cầu vồng (Melanotaeniidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 120 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 7.0–8.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: cám hạt nổi/chậm chìm, trùng huyết, Artemia và thức ăn giàu sắc tố tự nhiên",
+      "socialVi": "Bơi nhanh, cần bể dài từ 80–100 cm trở lên và nuôi theo đàn 6+ con có cả đực lẫn cái để đực lên màu đẹp nhất.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Cầu Vồng Boeseman (Melanotaenia boesemani) CB",
+        "priceVnd": 90000,
+        "descriptionVi": "Cá Cầu Vồng Boeseman (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 7.0–8.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Melanotaenia boesemani - IMG 0448.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaenia_boesemani_-_IMG_0448.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Melanotaenia_boesemani_-_IMG_0448.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bosemani Rainbow Fish Pair.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bosemani_Rainbow_Fish_Pair.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bosemani_Rainbow_Fish_Pair.jpg",
+        "width": 1775,
+        "height": 2065,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "CurtisD519",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20210731 Hortus botanicus Leiden - Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20210731_Hortus_botanicus_Leiden_-_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/20210731_Hortus_botanicus_Leiden_-_Fish.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bosemani rainow.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bosemani_rainow.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bosemani_rainow.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Madhav dam",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Melanotaenia boesemani - Karlsruhe Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaenia_boesemani_-_Karlsruhe_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Melanotaenia_boesemani_-_Karlsruhe_Zoo_01.jpg",
+        "width": 5444,
+        "height": 3180,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2411651",
+      "https://www.iucnredlist.org/species/13058/147682045",
+      "https://en.wikipedia.org/wiki/Boeseman%27s_rainbowfish",
+      "https://vi.wikipedia.org/wiki/Melanotaenia_boesemani"
+    ]
+  },
+  {
+    "scientificName": "Glossolepis incisus",
+    "commonNameVi": "Cá Cầu Vồng Đỏ Cá Hồi",
+    "commonNameEn": "Red Rainbowfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Atheriniformes",
+      "family": "Melanotaeniidae",
+      "genus": "Glossolepis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá suốt (Atheriniformes)",
+      "family": "Họ Cá cầu vồng (Melanotaeniidae)",
+      "genus": "Chi Cá cầu vồng đỏ (Glossolepis)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/9268/147681075",
+    "gbifKey": 5214486,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 7,
+      "phMax": 8,
+      "habitatVi": "Vùng ven bờ nhiều thảm rong thủy sinh của hồ nước ngọt nhiệt đới Sentani"
+    },
+    "descriptionVi": "Loài cá cầu vồng lớn nổi bật với màu đỏ cá hồi rực cháy toàn thân ở con đực trưởng thành điểm những chiếc vảy lấp lánh ánh bạc như gương.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên do chỉ phân bố duy nhất tại hồ Sentani ở Papua, song nguồn nhân giống trong nước rất dồi dào.",
+    "pullQuoteVi": "Những hàng vảy ánh bạc chạy dọc sườn con đực được sắp xếp lệch góc đặc biệt để hắt sáng lấp lánh mỗi khi nó uốn mình khoe sắc dưới nắng sớm.",
+    "dietVi": "Ăn tạp: cám hạt, ấu trùng côn trùng, Artemia, trùng huyết và rau xanh băm mịn",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Đặc hữu hồ Sentani gần Jayapura, tỉnh Papua, Indonesia",
+    "otherNamesVi": [
+      "Cá cầu vồng đỏ",
+      "Red Rainbowfish",
+      "Salmon-red Rainbowfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q59066",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Glossolepis_incisus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red_rainbowfish",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 12,
+      "weightGMin": 15,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành toàn thân đỏ rực như gạch nung kèm lưng gù cao và các vảy ánh bạc lấp lánh; con cái có màu vàng ô liu nhạt."
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu hồ Sentani gần Jayapura, tỉnh Papua, Indonesia",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng ven bờ nhiều thảm rong thủy sinh của hồ nước ngọt nhiệt đới Sentani",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–12 cm với hình thái đặc trưng của chi Glossolepis. Con đực trưởng thành toàn thân đỏ rực như gạch nung kèm lưng gù cao và các vảy ánh bạc lấp lánh; con cái có màu vàng ô liu nhạt.",
+    "behaviorVi": "Nuôi theo đàn từ 6 con trong bể dài có không gian bơi lội thoáng ở tầng giữa và cây thủy sinh hai bên.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Những hàng vảy ánh bạc chạy dọc sườn con đực được sắp xếp lệch góc đặc biệt để hắt sáng lấp lánh mỗi khi nó uốn mình khoe sắc dưới nắng sớm.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá cầu vồng (Melanotaeniidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 150 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–27°C, pH 7.0–8.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: cám hạt, ấu trùng côn trùng, Artemia, trùng huyết và rau xanh băm mịn",
+      "socialVi": "Nuôi theo đàn từ 6 con trong bể dài có không gian bơi lội thoáng ở tầng giữa và cây thủy sinh hai bên.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Cầu Vồng Đỏ (Glossolepis incisus) Trưởng Thành CB",
+        "priceVnd": 85000,
+        "descriptionVi": "Cá Cầu Vồng Đỏ Cá Hồi (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–27°C, pH 7.0–8.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Boeseman's rainbowfish with Red rainbowfish in the Leningrad zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Boeseman%27s_rainbowfish_with_Red_rainbowfish_in_the_Leningrad_zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Boeseman%27s_rainbowfish_with_Red_rainbowfish_in_the_Leningrad_zoo.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Горбунова М.С.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:GlossolepisIncisus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GlossolepisIncisus.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/GlossolepisIncisus.JPG",
+        "width": 1372,
+        "height": 1229,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Kyle Weber ( Namcogame at en.wikipedia )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glossolepis incisus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glossolepis_incisus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Glossolepis_incisus.jpg",
+        "width": 4608,
+        "height": 3140,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chrumps",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Red rainbowfish in the Leningrad zoo 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_rainbowfish_in_the_Leningrad_zoo_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Red_rainbowfish_in_the_Leningrad_zoo_2.jpg",
+        "width": 5782,
+        "height": 3860,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Горбунова М.С.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glossolepis incisus at Berlin acquarium (2521274255).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glossolepis_incisus_at_Berlin_acquarium_(2521274255).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Glossolepis_incisus_at_Berlin_acquarium_%282521274255%29.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rino Porrovecchio from Palermo, Italy",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5214486",
+      "https://www.iucnredlist.org/species/9268/147681075",
+      "https://en.wikipedia.org/wiki/Red_rainbowfish",
+      "https://vi.wikipedia.org/wiki/Glossolepis_incisus"
+    ]
+  },
+  {
+    "scientificName": "Carinotetraodon travancoricus",
+    "commonNameVi": "Cá Nóc Lùn Ấn Độ",
+    "commonNameEn": "Malabar Pufferfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Tetraodontiformes",
+      "family": "Tetraodontidae",
+      "genus": "Carinotetraodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá nóc (Tetraodontiformes)",
+      "family": "Họ Cá nóc (Tetraodontidae)",
+      "genus": "Chi Cá nóc lùn (Carinotetraodon)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/166591/174788004",
+    "gbifKey": 2407801,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Các dòng sông và hồ nước ngọt ấm có thảm rong thủy sinh dày đặc"
+    },
+    "descriptionVi": "Loài cá nóc nhỏ nhất thế giới, chỉ bằng hạt đậu Hà Lan, có đôi mắt to đảo độc lập như tắc kè hoa và dáng bơi lượn bằng vây ngực như trực thăng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do khai thác tự nhiên và biến đổi sinh cảnh sông ở Kerala.",
+    "pullQuoteVi": "Dù chỉ dài 2,5 cm, Cá Nóc Hạt Đậu là những thợ săn ốc hại cừ khôi với khả năng lơ lửng tại chỗ rồi xoay tròn ngắm kỹ con mồi trước khi tung cú đớp chính xác.",
+    "dietVi": "Ăn động vật tươi sống/đông lạnh: ốc hại nhỏ (ốc bàng, ốc tháp), trùng huyết và Artemia",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": "Đặc hữu các lưu vực sông Pamba, Chalakudy và Periyar ở bang Kerala (Tây Ghats), miền nam Ấn Độ",
+    "otherNamesVi": [
+      "Cá nóc hạt đậu",
+      "Pea Puffer",
+      "Dwarf Pufferfish"
+    ],
+    "synonyms": [
+      "Monotreta travancoricus",
+      "Tetraodon travancoricus"
+    ],
+    "wikidataId": "Q175560",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Carinotetraodon_travancoricus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dwarf_pufferfish",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 3,
+      "weightGMin": 0.5,
+      "weightGMax": 1.2,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành có một đường gờ da màu đen chạy dọc dưới bụng và những nếp nhăn ánh kim sau mắt; con cái tròn trịa hơn và bụng trắng trơn."
+    },
+    "distribution": {
+      "countries": [
+        "IN"
+      ],
+      "nativeRangeVi": "Đặc hữu các lưu vực sông Pamba, Chalakudy và Periyar ở bang Kerala (Tây Ghats), miền nam Ấn Độ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông và hồ nước ngọt ấm có thảm rong thủy sinh dày đặc",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2–3 cm với hình thái đặc trưng của chi Carinotetraodon. Con đực trưởng thành có một đường gờ da màu đen chạy dọc dưới bụng và những nếp nhăn ánh kim sau mắt; con cái tròn trịa hơn và bụng trắng trơn.",
+    "behaviorVi": "Cần bể trồng thật nhiều cây thủy sinh để che chắn tầm nhìn và hầu như không ăn cám khô công nghiệp.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Dù chỉ dài 2,5 cm, Cá Nóc Hạt Đậu là những thợ săn ốc hại cừ khôi với khả năng lơ lửng tại chỗ rồi xoay tròn ngắm kỹ con mồi trước khi tung cú đớp chính xác.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá nóc (Tetraodontidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 25 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.5–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn động vật tươi sống/đông lạnh: ốc hại nhỏ (ốc bàng, ốc tháp), trùng huyết và Artemia",
+      "socialVi": "Cần bể trồng thật nhiều cây thủy sinh để che chắn tầm nhìn và hầu như không ăn cám khô công nghiệp.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Nóc Lùn Hạt Đậu (Carinotetraodon travancoricus) Size 1,5–2 cm",
+        "priceVnd": 30000,
+        "descriptionVi": "Cá Nóc Lùn Ấn Độ (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aquarium de la Porte Dorée - Poisson 126.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_126.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_126.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Carinotetraodon travancoricus 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carinotetraodon_travancoricus_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Carinotetraodon_travancoricus_1.JPG",
+        "width": 1065,
+        "height": 710,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Haplochromis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:アベニーパファー.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%A2%E3%83%99%E3%83%8B%E3%83%BC%E3%83%91%E3%83%95%E3%82%A1%E3%83%BC.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/%E3%82%A2%E3%83%99%E3%83%8B%E3%83%BC%E3%83%91%E3%83%95%E3%82%A1%E3%83%BC.jpg",
+        "width": 5181,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chunbin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium de la Porte Dorée - Poisson 127.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_127.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_127.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2407801",
+      "https://www.iucnredlist.org/species/166591/174788004",
+      "https://en.wikipedia.org/wiki/Dwarf_pufferfish",
+      "https://vi.wikipedia.org/wiki/Carinotetraodon_travancoricus"
+    ]
+  },
+  {
+    "scientificName": "Polypterus senegalus",
+    "commonNameVi": "Cá Cửu Sừng Hoàng Đế",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Polypteriformes",
+      "family": "Polypteridae",
+      "genus": "Polypterus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá cửu sừng (Polypteriformes)",
+      "family": "Họ Cá cửu sừng (Polypteridae)",
+      "genus": "Chi Cá cửu sừng (Polypterus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/182615/58331540",
+    "gbifKey": 4287129,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 29,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Đầm lầy ven sông, vùng ngập nước nông nhiều bùn và thực vật thủy sinh"
+    },
+    "descriptionVi": "Hóa thạch sống từ kỷ Phấn Trắng với dãy 8–11 vây lưng nhỏ tách rời như hàng gai lưng khủng long, lớp vảy láng bóng cứng như men sứ và đôi vây ngực có cuống thịt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) với vùng phân bố rộng khắp châu Phi nhiệt đới và nhiều dòng nuôi cảnh như Cửu Sừng Hoàng Đế, Cửu Sừng Bạch Tạng.",
+    "pullQuoteVi": "Sở hữu cặp phổi nguyên thủy thay vì bóng bơi, cá Cửu Sừng có thể bò trườn trên mặt đất ẩm suốt nhiều giờ nếu vũng nước cạn kiệt.",
+    "dietVi": "Ăn thịt: thức ăn viên chìm cho cá săn mồi, tôm tép cắt nhỏ, trùn đất và cá mồi sạch",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Senegal",
+      "lat": 16.03,
+      "lng": -16.5
+    },
+    "regionVi": "Phân bố rộng khắp các lưu vực sông nhiệt đới châu Phi như sông Nile, sông Niger, sông Senegal và hồ Chad",
+    "otherNamesVi": [
+      "Cá khủng long 9 sừng",
+      "Senegal Bichir",
+      "Dinosaur Bichir"
+    ],
+    "synonyms": [
+      "Polypterus arnaudii",
+      "Polypterus senagalus",
+      "Polypterus senegalensis",
+      "Polypterus senegalus meridionalis"
+    ],
+    "wikidataId": "Q1515914",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_ch%C3%ACnh_kh%E1%BB%A7ng_long",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Polypterus_senegalus",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 150,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Con đực có vây hậu môn dày, bản rộng gấp đôi và có cơ gập lại tạo thành phễu hứng trứng khi giao phối; con cái có vây hậu môn mảnh nhỏ."
+    },
+    "distribution": {
+      "countries": [
+        "SN",
+        "GM",
+        "NG",
+        "CM",
+        "CD",
+        "EG",
+        "SD",
+        "KE"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp các lưu vực sông nhiệt đới châu Phi như sông Nile, sông Niger, sông Senegal và hồ Chad",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy ven sông, vùng ngập nước nông nhiều bùn và thực vật thủy sinh",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 25–35 cm với hình thái đặc trưng của chi Polypterus. Con đực có vây hậu môn dày, bản rộng gấp đôi và có cơ gập lại tạo thành phễu hứng trứng khi giao phối; con cái có vây hậu môn mảnh nhỏ.",
+    "behaviorVi": "Bể bắt buộc phải đậy nắp thật kín vì cá hay trườn qua khe hở và chừa khoảng không mặt nước để cá ngoi lên thở.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sở hữu cặp phổi nguyên thủy thay vì bóng bơi, cá Cửu Sừng có thể bò trườn trên mặt đất ẩm suốt nhiều giờ nếu vũng nước cạn kiệt.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá cửu sừng (Polypteridae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–29°C, pH 6.5–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thịt: thức ăn viên chìm cho cá săn mồi, tôm tép cắt nhỏ, trùn đất và cá mồi sạch",
+      "socialVi": "Bể bắt buộc phải đậy nắp thật kín vì cá hay trườn qua khe hở và chừa khoảng không mặt nước để cá ngoi lên thở.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Cửu Sừng Hoàng Đế (Polypterus senegalus) Size 10–12 cm",
+        "priceVnd": 70000,
+        "descriptionVi": "Cá Cửu Sừng Hoàng Đế (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–29°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Cá Cửu Sừng Bạch Tạng (Albino Senegal Bichir) Size 10 cm",
+        "priceVnd": 85000,
+        "descriptionVi": "Cá Cửu Sừng Hoàng Đế (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–29°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:金恐龍白子 Polypterus senegalus albino - panoramio (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E6%81%90%E9%BE%8D%E7%99%BD%E5%AD%90_Polypterus_senegalus_albino_-_panoramio_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/%E9%87%91%E6%81%90%E9%BE%8D%E7%99%BD%E5%AD%90_Polypterus_senegalus_albino_-_panoramio_%281%29.jpg",
+        "width": 4081,
+        "height": 2719,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Polypterus senegalus senegalus headstand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polypterus_senegalus_senegalus_headstand.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Polypterus_senegalus_senegalus_headstand.jpg",
+        "width": 870,
+        "height": 860,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "uploaded by en:User:Zhyla",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:金恐龍 Polypterus senegalus albino - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E6%81%90%E9%BE%8D_Polypterus_senegalus_albino_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/%E9%87%91%E6%81%90%E9%BE%8D_Polypterus_senegalus_albino_-_panoramio.jpg",
+        "width": 2496,
+        "height": 1664,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Polyterus Senegalus 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polyterus_Senegalus_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Polyterus_Senegalus_2.jpg",
+        "width": 2396,
+        "height": 1332,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Elma",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4287129",
+      "https://www.iucnredlist.org/species/182615/58331540",
+      "https://en.wikipedia.org/wiki/Polypterus_senegalus",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_ch%C3%ACnh_kh%E1%BB%A7ng_long"
+    ]
+  },
+  {
+    "scientificName": "Erpetoichthys calabaricus",
+    "commonNameVi": "Cá Cửu Sừng Dây",
+    "commonNameEn": "Reed",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Polypteriformes",
+      "family": "Polypteridae",
+      "genus": "Erpetoichthys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá cửu sừng (Polypteriformes)",
+      "family": "Họ Cá cửu sừng (Polypteridae)",
+      "genus": "Chi Cá cửu sừng dây (Erpetoichthys)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/182479/135026602",
+    "gbifKey": 2346564,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Đầm lầy cỏ lau nước ngọt và nước lợ nhẹ chảy chậm ven rừng ngập"
+    },
+    "descriptionVi": "Họ hàng thân dài mảnh như rắn của cá cửu sừng với màu lưng xanh ô liu, bụng vàng nghệ, đốm đen trên vây ngực và cặp ống khứu giác nhô ra trước mũi.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (NT) trên Sách Đỏ IUCN do suy thoái đầm lầy ven biển Tây Phi và khai thác xuất khẩu.",
+    "pullQuoteVi": "Không có vây bụng nhưng có thân uốn lượn mềm mại như dải lụa, cá Cửu Sừng Dây sử dụng hai chiếc ống mũi cực nhạy để đánh hơi con mồi trong đêm tối.",
+    "dietVi": "Ăn thịt: trùn huyết, trùn đất, tôm tép bóc vỏ và viên chìm giàu đạm",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Châu thổ sông Niger, Nigeria",
+      "lat": 5.52,
+      "lng": 5.75
+    },
+    "regionVi": "Các lưu vực sông ven biển Tây và Trung Phi từ Benin qua Nigeria tới lưu vực sông Congo",
+    "otherNamesVi": [
+      "Cá khủng long dây",
+      "Ropefish",
+      "Reedfish"
+    ],
+    "synonyms": [
+      "Calamichthys calabaricus",
+      "Calamoichthys calabaricus",
+      "Calanichthys calabaricus",
+      "Erpetoichthys calabaris"
+    ],
+    "wikidataId": "Q549760",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_nhi%E1%BB%81u_v%C3%A2y_b%E1%BB%A5i_s%E1%BA%ADy",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Reedfish",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 60,
+      "weightGMax": 120,
+      "heightCmMax": null,
+      "noteVi": "Con đực có từ 12–14 tia trên vây hậu môn (dày và rộng hơn), trong khi con cái chỉ có 9–12 tia vây hậu môn mảnh."
+    },
+    "distribution": {
+      "countries": [
+        "NG",
+        "CM",
+        "BJ",
+        "CG",
+        "GA"
+      ],
+      "nativeRangeVi": "Các lưu vực sông ven biển Tây và Trung Phi từ Benin qua Nigeria tới lưu vực sông Congo",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cỏ lau nước ngọt và nước lợ nhẹ chảy chậm ven rừng ngập",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 30–40 cm với hình thái đặc trưng của chi Erpetoichthys. Con đực có từ 12–14 tia trên vây hậu môn (dày và rộng hơn), trong khi con cái chỉ có 9–12 tia vây hậu môn mảnh.",
+    "behaviorVi": "Tính tình rất hiền lành và thích nằm quấn cụm cùng nhau trong hang lũa; bể phải bịt kín mọi lỗ thông dây điện/ống lọc.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Không có vây bụng nhưng có thân uốn lượn mềm mại như dải lụa, cá Cửu Sừng Dây sử dụng hai chiếc ống mũi cực nhạy để đánh hơi con mồi trong đêm tối.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá cửu sừng (Polypteridae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.5–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thịt: trùn huyết, trùn đất, tôm tép bóc vỏ và viên chìm giàu đạm",
+      "socialVi": "Tính tình rất hiền lành và thích nằm quấn cụm cùng nhau trong hang lũa; bể phải bịt kín mọi lỗ thông dây điện/ống lọc.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Cửu Sừng Dây (Erpetoichthys calabaricus) Size 20–25 cm",
+        "priceVnd": 160000,
+        "descriptionVi": "Cá Cửu Sừng Dây (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.5–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Erpetoichthys calabaricus - Flösselaal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_-_Fl%C3%B6sselaal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Erpetoichthys_calabaricus_-_Fl%C3%B6sselaal.jpg",
+        "width": 4380,
+        "height": 3000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Erpetoichthys calabaricus 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Erpetoichthys_calabaricus_02.jpg",
+        "width": 1847,
+        "height": 1774,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ropefish (HPIM0551).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ropefish_(HPIM0551).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ropefish_%28HPIM0551%29.jpg",
+        "width": 2608,
+        "height": 1952,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Trougnouf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Polypterus ornatipinnis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Polypterus_ornatipinnis.jpg",
+        "width": 1100,
+        "height": 619,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.0",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2346564",
+      "https://www.iucnredlist.org/species/182479/135026602",
+      "https://en.wikipedia.org/wiki/Reedfish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_nhi%E1%BB%81u_v%C3%A2y_b%E1%BB%A5i_s%E1%BA%ADy"
+    ]
+  },
+  {
+    "scientificName": "Apteronotus albifrons",
+    "commonNameVi": "Cá Dao Ma Đen",
+    "commonNameEn": "Black ghost knifefish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Gymnotiformes",
+      "family": "Apteronotidae",
+      "genus": "Apteronotus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá lông vũ điện (Gymnotiformes)",
+      "family": "Họ Cá dao ma (Apteronotidae)",
+      "genus": "Chi Cá dao ma (Apteronotus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49829499/159047904",
+    "gbifKey": 2401878,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Các dòng sông chảy nhanh có đáy cát và suối rừng rậm rạp nhiều khúc cây chìm"
+    },
+    "descriptionVi": "Loài cá phát điện yếu màu đen nhung huyền bí với một vệt trắng chạy dọc sống mũi và hai vòng đai trắng quanh đuôi, di chuyển tiến-lùi điêu luyện bằng dải vây bụng gợn sóng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) ngoài tự nhiên và rất được yêu thích nhờ dáng bơi uyển chuyển độc đáo.",
+    "pullQuoteVi": "Cá Dao Ma Đen phát ra xung điện yếu tần số cao quanh cơ thể như một hệ thống radar sinh học để săn mồi và lách qua các khe lũa trong bóng tối hoàn toàn.",
+    "dietVi": "Ăn động vật: trùng huyết, trùn đất nhỏ, tôm tép băm và viên chìm giàu đạm vào buổi tối",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Orinoco và sông Paraná ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá lông vũ điện",
+      "Black Ghost Knifefish"
+    ],
+    "synonyms": [
+      "Apteronotus passan",
+      "Gymnotus albifrons",
+      "Sternarchus albifrons",
+      "Sternarchus lacepedii"
+    ],
+    "wikidataId": "Q1421523",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_dao_ma_%C4%91en",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Black_ghost_knifefish",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 45,
+      "weightGMin": 150,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Khó phân biệt bằng mắt thường; con đực trưởng thành thường có kích thước lớn hơn và phần cằm dài hơn nhẹ."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "VE",
+        "CO",
+        "EC",
+        "PY"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Orinoco và sông Paraná ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông chảy nhanh có đáy cát và suối rừng rậm rạp nhiều khúc cây chìm",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 30–45 cm với hình thái đặc trưng của chi Apteronotus. Khó phân biệt bằng mắt thường; con đực trưởng thành thường có kích thước lớn hơn và phần cằm dài hơn nhẹ.",
+    "behaviorVi": "Cần bố trí ống nhựa trong hoặc hang lũa tối làm nơi trú ẩn ban ngày; không nuôi chung nhiều cá thể phát điện trong bể chật.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cá Dao Ma Đen phát ra xung điện yếu tần số cao quanh cơ thể như một hệ thống radar sinh học để săn mồi và lách qua các khe lũa trong bóng tối hoàn toàn.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá dao ma (Apteronotidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 250 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn động vật: trùng huyết, trùn đất nhỏ, tôm tép băm và viên chìm giàu đạm vào buổi tối",
+      "socialVi": "Cần bố trí ống nhựa trong hoặc hang lũa tối làm nơi trú ẩn ban ngày; không nuôi chung nhiều cá thể phát điện trong bể chật.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Dao Ma Đen (Apteronotus albifrons) Size 10–12 cm",
+        "priceVnd": 95000,
+        "descriptionVi": "Cá Dao Ma Đen (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Apteronotus albifrons Aquarium tropical du Palais de la Porte Dorée 10 04 2016 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg",
+        "width": 2262,
+        "height": 1467,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Black Knife Ghost Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Knife_Ghost_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Black_Knife_Ghost_Fish.jpg",
+        "width": 2160,
+        "height": 3840,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "ProjectManhattan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Apteronotus albifrons Aquarium tropical du Palais de la Porte Dorée 10 04 2016 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_2.jpg",
+        "width": 1735,
+        "height": 1019,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gymnarque Salle nautilus 1006005.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gymnarque_Salle_nautilus_1006005.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Gymnarque_Salle_nautilus_1006005.jpg",
+        "width": 2244,
+        "height": 1881,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "G.Garitan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gymnarque S1006003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gymnarque_S1006003.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Gymnarque_S1006003.jpg",
+        "width": 2145,
+        "height": 974,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "G.Garitan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2401878",
+      "https://www.iucnredlist.org/species/49829499/159047904",
+      "https://en.wikipedia.org/wiki/Black_ghost_knifefish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_dao_ma_%C4%91en"
+    ]
+  },
+  {
+    "scientificName": "Gnathonemus petersii",
+    "commonNameVi": "Cá Mũi Voi",
+    "commonNameEn": "Elephantnose Fish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Osteoglossiformes",
+      "family": "Mormyridae",
+      "genus": "Gnathonemus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá rồng (Osteoglossiformes)",
+      "family": "Họ Cá mũi voi (Mormyridae)",
+      "genus": "Chi Cá mũi voi (Gnathonemus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/181553/134970864",
+    "gbifKey": 2402409,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Các con sông nước đục chảy chậm có đáy bùn mềm và nhiều cành cây chìm"
+    },
+    "descriptionVi": "Loài cá kỳ lạ của châu Phi với phần cằm dưới kéo dài thành chiếc 'vòi' mềm linh hoạt giống vòi voi để sục tìm giun trong bùn kèm hai vệt trắng kem nối giữa vây lưng và vây hậu môn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại các lưu vực sông Tây và Trung Phi.",
+    "pullQuoteVi": "Tỷ lệ trọng lượng não bộ so với cơ thể của Cá Mũi Voi còn lớn hơn cả con người, chủ yếu dùng để xử lý tín hiệu điện trường từ hàng nghìn thụ thể trên chiếc 'vòi' cằm.",
+    "dietVi": "Ăn thức ăn tươi/đông lạnh nhỏ: trùng huyết, trùn chỉ sạch, Artemia ở tầng đáy",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Châu thổ sông Niger, Nigeria",
+      "lat": 5.52,
+      "lng": 5.75
+    },
+    "regionVi": "Lưu vực sông Niger, sông Ogun, sông Chari và lưu vực sông Congo ở Tây và Trung Phi",
+    "otherNamesVi": [
+      "Peter's Elephantnose Fish"
+    ],
+    "synonyms": [
+      "Gnathonemus brevicaudatus",
+      "Gnathonemus histrio",
+      "Gnathonemus peters",
+      "Mormyrus petersii"
+    ],
+    "wikidataId": "Q945393",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_m%C5%A9i_voi_Peters",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Peters%27s_elephantnose_fish",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 50,
+      "weightGMax": 100,
+      "heightCmMax": null,
+      "noteVi": "Không có dị hình giới tính rõ rệt bên ngoài."
+    },
+    "distribution": {
+      "countries": [
+        "NG",
+        "CM",
+        "CD",
+        "BJ",
+        "NE"
+      ],
+      "nativeRangeVi": "Lưu vực sông Niger, sông Ogun, sông Chari và lưu vực sông Congo ở Tây và Trung Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các con sông nước đục chảy chậm có đáy bùn mềm và nhiều cành cây chìm",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 18–25 cm với hình thái đặc trưng của chi Gnathonemus. Không có dị hình giới tính rõ rệt bên ngoài.",
+    "behaviorVi": "Bắt buộc dùng nền cát thật mịn để không làm tổn thương chiếc cằm nhạy cảm và cung cấp nhiều hang tối.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tỷ lệ trọng lượng não bộ so với cơ thể của Cá Mũi Voi còn lớn hơn cả con người, chủ yếu dùng để xử lý tín hiệu điện trường từ hàng nghìn thụ thể trên chiếc 'vòi' cằm.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá mũi voi (Mormyridae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.5–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn tươi/đông lạnh nhỏ: trùng huyết, trùn chỉ sạch, Artemia ở tầng đáy",
+      "socialVi": "Bắt buộc dùng nền cát thật mịn để không làm tổn thương chiếc cằm nhạy cảm và cung cấp nhiều hang tối.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Mũi Voi Châu Phi (Gnathonemus petersii) Size 10–12 cm",
+        "priceVnd": 220000,
+        "descriptionVi": "Cá Mũi Voi (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.5–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elefantenrüsselfisch (Gnathonemus petersii).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elefantenr%C3%BCsselfisch_(Gnathonemus_petersii).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Elefantenr%C3%BCsselfisch_%28Gnathonemus_petersii%29.jpg",
+        "width": 3138,
+        "height": 2018,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "This file is lacking author information.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gnathonemus petersii IMG 3616 africa.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gnathonemus_petersii_IMG_3616_africa.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gnathonemus_petersii_IMG_3616_africa.JPG",
+        "width": 2289,
+        "height": 2811,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Bjoertvedt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gnathonemuspetersii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gnathonemuspetersii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gnathonemuspetersii.jpg",
+        "width": 3072,
+        "height": 2048,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "GnathoMichel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elef.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elef.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Elef.jpg",
+        "width": 1280,
+        "height": 1024,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gnathonemus petersii by OpenCage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gnathonemus_petersii_by_OpenCage.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gnathonemus_petersii_by_OpenCage.jpg",
+        "width": 2192,
+        "height": 2189,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2402409",
+      "https://www.iucnredlist.org/species/181553/134970864",
+      "https://en.wikipedia.org/wiki/Peters%27s_elephantnose_fish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_m%C5%A9i_voi_Peters"
+    ]
+  },
+  {
+    "scientificName": "Scleropages formosus",
+    "commonNameVi": "Cá Rồng Châu Á",
+    "commonNameEn": "Asian arowana",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Osteoglossiformes",
+      "family": "Osteoglossidae",
+      "genus": "Scleropages"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá rồng (Osteoglossiformes)",
+      "family": "Họ Cá rồng (Osteoglossidae)",
+      "genus": "Chi Cá rồng châu Á - Úc (Scleropages)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/152320185/89797267",
+    "gbifKey": 2402231,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 26,
+      "waterTempMax": 30,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Sông suối rừng nước đen chảy chậm và rừng đầm lầy than bùn ngập nước"
+    },
+    "descriptionVi": "Hóa thạch sống quyền quý của Đông Nam Á với những hàng vảy lớn ánh kim rực rỡ như vảy rồng, đôi râu hướng thẳng về phía trước và dáng bơi tuần tra oai vệ sát mặt nước.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES, các cá thể thương mại bắt buộc phải gắn chip vi mạch từ trại nhân giống đăng ký CITES.",
+    "pullQuoteVi": "Cá Rồng Châu Á đực là những ông bố tận tụy bậc nhất thế giới loài cá khi nhịn ăn gần 60 ngày để ngậm ấp những quả trứng to bằng quả nhãn và đàn cá con trong miệng.",
+    "dietVi": "Ăn thịt tầng mặt: côn trùng lớn, tôm cá, ếch nhái ngoài tự nhiên",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Các lưu vực sông cổ tại Đông Nam Á: Borneo, Sumatra, bán đảo Mã Lai và lưu vực sông Mekong",
+    "otherNamesVi": [
+      "Cá Kim Long",
+      "Cá Huyết Long",
+      "Cá Thanh Long",
+      "Asian Arowana"
+    ],
+    "synonyms": [
+      "Osteoglossum formosum",
+      "Scleropages aureus",
+      "Scleropages legendrei",
+      "Scleropages macrocephalus"
+    ],
+    "wikidataId": "Q728584",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_r%E1%BB%93ng_ch%C3%A2u_%C3%81",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Asian_arowana",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 90,
+      "weightGMin": 3000,
+      "weightGMax": 7000,
+      "heightCmMax": null,
+      "noteVi": "Con đực có thân mảnh hơn, khoang miệng rộng hơn và hàm dưới sâu hơn để ngậm ấp đàn trứng và cá con suốt gần 2 tháng."
+    },
+    "distribution": {
+      "countries": [
+        "ID",
+        "MY",
+        "TH",
+        "KH",
+        "VN",
+        "MM"
+      ],
+      "nativeRangeVi": "Các lưu vực sông cổ tại Đông Nam Á: Borneo, Sumatra, bán đảo Mã Lai và lưu vực sông Mekong",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối rừng nước đen chảy chậm và rừng đầm lầy than bùn ngập nước",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 60–90 cm với hình thái đặc trưng của chi Scleropages. Con đực có thân mảnh hơn, khoang miệng rộng hơn và hàm dưới sâu hơn để ngậm ấp đàn trứng và cá con suốt gần 2 tháng.",
+    "behaviorVi": "Loài thuộc Phụ lục I CITES và Nhóm IB/nguy cấp ngoài tự nhiên; chỉ lưu trữ hồ sơ bách khoa trên BioNexus.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cá Rồng Châu Á đực là những ông bố tận tụy bậc nhất thế giới loài cá khi nhịn ăn gần 60 ngày để ngậm ấp những quả trứng to bằng quả nhãn và đàn cá con trong miệng.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rồng (Osteoglossidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES và Nhóm IB/nguy cấp ngoài tự nhiên; chỉ lưu trữ hồ sơ bách khoa trên BioNexus."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Asiatische Gabelbart (Scleropages formosus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asiatische_Gabelbart_(Scleropages_formosus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Asiatische_Gabelbart_%28Scleropages_formosus%29.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Scoute-dich",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aquarium fish 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_fish_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Aquarium_fish_2.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Sivahari",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:London Aquarium (539698092).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:London_Aquarium_(539698092).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/London_Aquarium_%28539698092%29.jpg",
+        "width": 3456,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Phalinn Ooi from Kuala Lumpur, Malaysia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Arowana fish (37090442524).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arowana_fish_(37090442524).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Arowana_fish_%2837090442524%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Pacific Southwest Region USFWS from Sacramento, US",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Scleropages formosus Prague 2012 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Scleropages_formosus_Prague_2012_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Scleropages_formosus_Prague_2012_1.jpg",
+        "width": 3000,
+        "height": 1780,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Karelj",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2402231",
+      "https://www.iucnredlist.org/species/152320185/89797267",
+      "https://en.wikipedia.org/wiki/Asian_arowana",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_r%E1%BB%93ng_ch%C3%A2u_%C3%81"
+    ]
+  },
+  {
+    "scientificName": "Osteoglossum bicirrhosum",
+    "commonNameVi": "Cá Ngân Long",
+    "commonNameEn": "Silver Arawana",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Osteoglossiformes",
+      "family": "Osteoglossidae",
+      "genus": "Osteoglossum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá rồng (Osteoglossiformes)",
+      "family": "Họ Cá rồng (Osteoglossidae)",
+      "genus": "Chi Cá ngân long (Osteoglossum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830060/85282193",
+    "gbifKey": 5212838,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 25,
+      "waterTempMax": 30,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Vùng rừng ngập lũ (Várzea và Igapó), hồ đầm thông với sông lớn nhiều cành cây rủ trên mặt nước"
+    },
+    "descriptionVi": "Loài cá rồng Nam Mỹ có thân dẹt dài uyển chuyển như dải lụa bạc ánh ngũ sắc, vây lưng và vây hậu môn kéo dài nối sát vây đuôi và khả năng bật nhảy săn mồi ngoạn mục.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và được nhân giống rộng rãi tại các trại cá cảnh Đông Nam Á và Nam Mỹ.",
+    "pullQuoteVi": "Người bản địa vùng Amazon gọi Ngân Long là 'khỉ nước' (water monkey) vì chúng có thể phóng vọt lên khỏi mặt nước cao tới gần 2 mét để đớp côn trùng, chim nhỏ hay dơi đậu trên cành cây.",
+    "dietVi": "Ăn thịt tầng mặt: tôm tép, thức ăn viên nổi cho cá rồng, côn trùng và phi lê cá",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Rupununi và sông Oyapock ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá rồng bạc Nam Mỹ",
+      "Silver Arowana"
+    ],
+    "synonyms": [
+      "Ischnosoma bicirrhosum",
+      "Osteoglossum arowana",
+      "Osteoglossum bicirrhostum",
+      "Osteoglossum minus"
+    ],
+    "wikidataId": "Q333375",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_ng%C3%A2n_long",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Silver_arowana",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 70,
+      "lengthCmMax": 100,
+      "weightGMin": 3000,
+      "weightGMax": 6000,
+      "heightCmMax": null,
+      "noteVi": "Con đực có hàm dưới sâu hơn và thân thuôn mảnh hơn để ấp trứng và cá con trong miệng."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "GY",
+        "GF"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Rupununi và sông Oyapock ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng rừng ngập lũ (Várzea và Igapó), hồ đầm thông với sông lớn nhiều cành cây rủ trên mặt nước",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 70–100 cm với hình thái đặc trưng của chi Osteoglossum. Con đực có hàm dưới sâu hơn và thân thuôn mảnh hơn để ấp trứng và cá con trong miệng.",
+    "behaviorVi": "Cần bể rất dài và rộng kèm nắp đậy nặng chắc chắn vì cá có lực phóng nhảy cực mạnh.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Người bản địa vùng Amazon gọi Ngân Long là 'khỉ nước' (water monkey) vì chúng có thể phóng vọt lên khỏi mặt nước cao tới gần 2 mét để đớp côn trùng, chim nhỏ hay dơi đậu trên cành cây.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rồng (Osteoglossidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 600 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (25–30°C, pH 6.0–7.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thịt tầng mặt: tôm tép, thức ăn viên nổi cho cá rồng, côn trùng và phi lê cá",
+      "socialVi": "Cần bể rất dài và rộng kèm nắp đậy nặng chắc chắn vì cá có lực phóng nhảy cực mạnh.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Ngân Long Nam Mỹ (Silver Arowana) Size 15–18 cm",
+        "priceVnd": 220000,
+        "descriptionVi": "Cá Ngân Long (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (25–30°C, pH 6.0–7.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2016-12-11 Arawana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2016-12-11_Arawana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/2016-12-11_Arawana.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Baltimore Aquarium - Silver arowana - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baltimore_Aquarium_-_Silver_arowana_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Baltimore_Aquarium_-_Silver_arowana_-_1.jpg",
+        "width": 2098,
+        "height": 1962,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Jarek Tuszyński",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Osteoglossum bicirrhosum NEAQ.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osteoglossum_bicirrhosum_NEAQ.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Osteoglossum_bicirrhosum_NEAQ.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "ShajiA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bangalore Aquarium 26.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bangalore_Aquarium_26.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bangalore_Aquarium_26.jpg",
+        "width": 4000,
+        "height": 1884,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gpkp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fishes at Shri Bande Mahakali Temple (2024) 12.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fishes_at_Shri_Bande_Mahakali_Temple_(2024)_12.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fishes_at_Shri_Bande_Mahakali_Temple_%282024%29_12.jpg",
+        "width": 4080,
+        "height": 2324,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gpkp",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5212838",
+      "https://www.iucnredlist.org/species/49830060/85282193",
+      "https://en.wikipedia.org/wiki/Silver_arowana",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_ng%C3%A2n_long"
+    ]
+  },
+  {
+    "scientificName": "Astyanax mexicanus",
+    "commonNameVi": "Cá Mù Hang Động Mexico",
+    "commonNameEn": "Mexican Tetra",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Characiformes",
+      "family": "Characidae",
+      "genus": "Astyanax"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá hồng nhung (Characiformes)",
+      "family": "Họ Cá hồng nhung (Characidae)",
+      "genus": "Chi Cá Tetra Mexico (Astyanax)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/62191/3109229",
+    "gbifKey": 5204344,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 26,
+      "phMin": 6.5,
+      "phMax": 8,
+      "habitatVi": "Hang động đá vôi ngầm tối tăm hoàn toàn và các dòng suối mặt đất vùng cận nhiệt đới"
+    },
+    "descriptionVi": "Loài cá Tetra nổi tiếng thế giới với dạng hình sinh thái sống trong hang đá ngầm có cơ thể trắng hồng ánh bạc và đôi mắt tiêu biến hoàn toàn được phủ kín bằng lớp da.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và là sinh vật mô hình quan trọng bậc nhất trong nghiên cứu tiến hóa và y sinh học.",
+    "pullQuoteVi": "Dù không có mắt, Cá Mù Hang Động vẫn bơi lách qua mọi chướng ngại vật và đớp mồi cực nhạy nhờ hệ thống đường bên siêu phát triển cảm nhận từng gợn sóng nhỏ trong nước.",
+    "dietVi": "Ăn tạp: mọi loại cám hạt, mảnh, trùng huyết, Artemia và vụn thức ăn",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Các hệ thống sông và hang động đá vôi vùng đông bắc Mexico (San Luis Potosí, Tamaulipas) và nam Texas",
+    "otherNamesVi": [
+      "Cá Tetra Mexico",
+      "Blind Cave Tetra",
+      "Mexican Tetra"
+    ],
+    "synonyms": [
+      "Astianax mexicanus",
+      "Astyanax argentatus",
+      "Astyanax brevimanus",
+      "Astyanax fasciatus mexicanus"
+    ],
+    "wikidataId": "Q135378",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_hang_m%C3%B9_Mexico",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mexican_tetra",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 10,
+      "weightGMin": 6,
+      "weightGMax": 14,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành có bụng tròn đầy đặn hơn rõ rệt so với con đực mảnh khảnh."
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "US"
+      ],
+      "nativeRangeVi": "Các hệ thống sông và hang động đá vôi vùng đông bắc Mexico (San Luis Potosí, Tamaulipas) và nam Texas",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Hang động đá vôi ngầm tối tăm hoàn toàn và các dòng suối mặt đất vùng cận nhiệt đới",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 7–10 cm với hình thái đặc trưng của chi Astyanax. Con cái trưởng thành có bụng tròn đầy đặn hơn rõ rệt so với con đực mảnh khảnh.",
+    "behaviorVi": "Cực kỳ khỏe mạnh, không cần ánh sáng mạnh và luôn bơi lội không ngừng nghỉ khắp bể.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Dù không có mắt, Cá Mù Hang Động vẫn bơi lách qua mọi chướng ngại vật và đớp mồi cực nhạy nhờ hệ thống đường bên siêu phát triển cảm nhận từng gợn sóng nhỏ trong nước.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá hồng nhung (Characidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 80 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (20–26°C, pH 6.5–8.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: mọi loại cám hạt, mảnh, trùng huyết, Artemia và vụn thức ăn",
+      "socialVi": "Cực kỳ khỏe mạnh, không cần ánh sáng mạnh và luôn bơi lội không ngừng nghỉ khắp bể.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 3 Cá Mù Hang Động Mexico (Blind Cave Tetra) CB",
+        "priceVnd": 75000,
+        "descriptionVi": "Cá Mù Hang Động Mexico (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (20–26°C, pH 6.5–8.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fish national aquarium - 23709055388.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_national_aquarium_-_23709055388.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Fish_national_aquarium_-_23709055388.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Astyanax mexicanus (cavefish) (27589386037).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astyanax_mexicanus_(cavefish)_(27589386037).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Astyanax_mexicanus_%28cavefish%29_%2827589386037%29.jpg",
+        "width": 2480,
+        "height": 2480,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NIH Image Gallery from Bethesda, Maryland, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astyanax mexikanus blind trio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astyanax_mexikanus_blind_trio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Astyanax_mexikanus_blind_trio.jpg",
+        "width": 4500,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "author": "Grand-Duc",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Long Island Aquarium 2018 038.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Long_Island_Aquarium_2018_038.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Long_Island_Aquarium_2018_038.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Oniria - Tétra aveugle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_T%C3%A9tra_aveugle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Oniria_-_T%C3%A9tra_aveugle.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5204344",
+      "https://www.iucnredlist.org/species/62191/3109229",
+      "https://en.wikipedia.org/wiki/Mexican_tetra",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_hang_m%C3%B9_Mexico"
+    ]
+  },
+  {
+    "scientificName": "Serrasalmus rhombeus",
+    "commonNameVi": "Cá Piranha Đen Mắt Đỏ",
+    "commonNameEn": "Redeye piranha",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Characiformes",
+      "family": "Serrasalmidae",
+      "genus": "Serrasalmus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá hồng nhung (Characiformes)",
+      "family": "Họ Cá Piranha (Serrasalmidae)",
+      "genus": "Chi Cá Piranha (Serrasalmus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/187046/1822309",
+    "gbifKey": 2354124,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Các dòng sông lớn, ghềnh thác và nhánh sông sâu của lưu vực Amazon"
+    },
+    "descriptionVi": "Loài Piranha lớn nhất hiện còn sống với thân hình thoi sẫm màu ánh khói bạc, đôi mắt đỏ rực như ngọn lửa và bộ hàm sở hữu lực cắn mạnh bậc nhất giới động vật có xương sống.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phân bố rộng khắp lưu vực Amazon và Orinoco.",
+    "pullQuoteVi": "Các phép đo cơ sinh học cho thấy lực cắn của Cá Piranha Đen đạt tới hơn 320 Newton — gấp hơn 30 lần trọng lượng cơ thể của chính nó.",
+    "dietVi": "Ăn thịt: cá, tôm tép, thịt trai nghêu và thức ăn tươi giàu đạm",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Orinoco và các hệ thống sông vùng Guiana ở Nam Mỹ",
+    "otherNamesVi": [
+      "Red-eye Piranha",
+      "Black Piranha"
+    ],
+    "synonyms": [
+      "Pygocentrus niger",
+      "Pygocentrus normani",
+      "Salmo rhombeus",
+      "Serrasalmo humeralis gracilior"
+    ],
+    "wikidataId": "Q2038575",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Piranha_m%E1%BA%AFt_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Redeye_piranha",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 1000,
+      "weightGMax": 2500,
+      "heightCmMax": null,
+      "noteVi": "Không có sự khác biệt ngoại hình rõ rệt giữa đực và cái."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "VE",
+        "GY",
+        "SR",
+        "GF",
+        "BO"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Orinoco và các hệ thống sông vùng Guiana ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông lớn, ghềnh thác và nhánh sông sâu của lưu vực Amazon",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 30–40 cm với hình thái đặc trưng của chi Serrasalmus. Không có sự khác biệt ngoại hình rõ rệt giữa đực và cái.",
+    "behaviorVi": "Là loài Piranha sống đơn độc khi trưởng thành, chỉ dành cho người chơi có kinh nghiệm nuôi đơn trong bể lớn.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Các phép đo cơ sinh học cho thấy lực cắn của Cá Piranha Đen đạt tới hơn 320 Newton — gấp hơn 30 lần trọng lượng cơ thể của chính nó.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá Piranha (Serrasalmidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 400 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.0–7.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thịt: cá, tôm tép, thịt trai nghêu và thức ăn tươi giàu đạm",
+      "socialVi": "Là loài Piranha sống đơn độc khi trưởng thành, chỉ dành cho người chơi có kinh nghiệm nuôi đơn trong bể lớn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Piranha Đen Mắt Đỏ (Serrasalmus rhombeus) Size 10–12 cm",
+        "priceVnd": 650000,
+        "descriptionVi": "Cá Piranha Đen Mắt Đỏ (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:BlackPirahna2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BlackPirahna2010.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/BlackPirahna2010.jpg",
+        "width": 3088,
+        "height": 2156,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Serrasalmus rhombeus - Flickr - Dick Culbert (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serrasalmus_rhombeus_-_Flickr_-_Dick_Culbert_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Serrasalmus_rhombeus_-_Flickr_-_Dick_Culbert_%281%29.jpg",
+        "width": 648,
+        "height": 932,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Dick Culbert from Gibsons, B.C., Canada",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fish at Louisville Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_at_Louisville_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fish_at_Louisville_Zoo.jpg",
+        "width": 1696,
+        "height": 1216,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Srhombreus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Srhombreus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Srhombreus.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sakura1994",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Wroclaw zoo 15 pirania czerwonooka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wroclaw_zoo_15_pirania_czerwonooka.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Wroclaw_zoo_15_pirania_czerwonooka.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrzej Otrębski",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2354124",
+      "https://www.iucnredlist.org/species/187046/1822309",
+      "https://en.wikipedia.org/wiki/Redeye_piranha",
+      "https://vi.wikipedia.org/wiki/Piranha_m%E1%BA%AFt_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Colossoma macropomum",
+    "commonNameVi": "Cá Chim Trắng Lớn Tambaqui",
+    "commonNameEn": "Tambaqui",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Characiformes",
+      "family": "Serrasalmidae",
+      "genus": "Colossoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá hồng nhung (Characiformes)",
+      "family": "Họ Cá Piranha (Serrasalmidae)",
+      "genus": "Chi Cá chim lớn (Colossoma)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830760/85567354",
+    "gbifKey": 2353152,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 30,
+      "phMin": 5.8,
+      "phMax": 7.5,
+      "habitatVi": "Các sông lớn và vùng rừng ngập lũ mùa mưa (Várzea) giàu cây ăn quả và hạt"
+    },
+    "descriptionVi": "Họ hàng ăn thực vật khổng lồ của cá Piranha với thân hình tròn lớn nửa dưới màu đen sẫm và bộ răng hàm vuông phẳng giống hệt răng hàm con người dùng để nghiền vỡ hạt cao su.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (NT) ngoài tự nhiên do khai thác thủy sản tại Amazon, nhưng được nhân giống rộng rãi khắp nhiệt đới.",
+    "pullQuoteVi": "Bộ răng vuông giống răng hàm người giúp cá Tambaqui nghiền nát các loại hạt cứng rụng xuống rừng ngập lũ và đồng thời phát tán hạt cây đi xa hàng chục cây số.",
+    "dietVi": "Ăn tạp thiên thực vật: trái cây, hạt, rau củ, viên nổi tổng hợp và thức ăn đạm",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon và sông Orinoco ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá Pacu Đen",
+      "Tambaqui",
+      "Black Pacu"
+    ],
+    "synonyms": [
+      "Colosomma macropomum",
+      "Colossoma macropodum",
+      "Colossoma marcopomum",
+      "Colossoma nigripinne"
+    ],
+    "wikidataId": "Q261202",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tambaqui",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tambaqui",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 90,
+      "weightGMin": 8000,
+      "weightGMax": 25000,
+      "heightCmMax": null,
+      "noteVi": "Không có dị hình giới tính bên ngoài rõ rệt ngoài mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "VE",
+        "BO"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon và sông Orinoco ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các sông lớn và vùng rừng ngập lũ mùa mưa (Várzea) giàu cây ăn quả và hạt",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 60–90 cm với hình thái đặc trưng của chi Colossoma. Không có dị hình giới tính bên ngoài rõ rệt ngoài mùa sinh sản.",
+    "behaviorVi": "Lớn rất nhanh, chỉ phù hợp cho các hồ cảnh quan lớn hoặc bể Monster Fish dung tích lớn.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Bộ răng vuông giống răng hàm người giúp cá Tambaqui nghiền nát các loại hạt cứng rụng xuống rừng ngập lũ và đồng thời phát tán hạt cây đi xa hàng chục cây số.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá Piranha (Serrasalmidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 800 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–30°C, pH 5.8–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên thực vật: trái cây, hạt, rau củ, viên nổi tổng hợp và thức ăn đạm",
+      "socialVi": "Lớn rất nhanh, chỉ phù hợp cho các hồ cảnh quan lớn hoặc bể Monster Fish dung tích lớn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Tambaqui / Pacu Đen (Colossoma macropomum) Size 12–15 cm",
+        "priceVnd": 120000,
+        "descriptionVi": "Cá Chim Trắng Lớn Tambaqui (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–30°C, pH 5.8–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Black pacu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_pacu.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Black_pacu.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Megapiranha Colossoma 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Megapiranha_Colossoma_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Megapiranha_Colossoma_2.jpg",
+        "width": 1380,
+        "height": 1840,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Apokryltaros",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Paku (9702333862).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paku_(9702333862).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Paku_%289702333862%29.jpg",
+        "width": 3456,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Eden, Janine and Jim from New York City",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tambaqui-APA do Litoral Sul-RicFotos(001).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tambaqui-APA_do_Litoral_Sul-RicFotos(001).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tambaqui-APA_do_Litoral_Sul-RicFotos%28001%29.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "RicFotos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Yellow Fish (47432499242).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Fish_(47432499242).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Yellow_Fish_%2847432499242%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Eden, Janine and Jim from New York City",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2353152",
+      "https://www.iucnredlist.org/species/49830760/85567354",
+      "https://en.wikipedia.org/wiki/Tambaqui",
+      "https://vi.wikipedia.org/wiki/Tambaqui"
+    ]
+  },
+  {
+    "scientificName": "Pangasianodon hypophthalmus",
+    "commonNameVi": "Cá Tra Sọc (Cá Mập Nước Ngọt Thái)",
+    "commonNameEn": "Striped Catfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Pangasiidae",
+      "genus": "Pangasianodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá tra (Pangasiidae)",
+      "genus": "Chi Cá tra (Pangasianodon)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/180689/7649971",
+    "gbifKey": 2340714,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 30,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Các dòng sông lớn sâu và vùng ngập lũ đồng bằng châu thổ mùa nước nổi"
+    },
+    "descriptionVi": "Loài cá da trơn bơi tầng giữa có dáng thuôn khí động học kèm vây lưng cao giống cá mập và các dải sọc ánh bạc chạy dọc sườn rất đẹp khi còn nhỏ.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) đối với quần thể hoang dã trên dòng Mekong do đập thủy điện chặn đường di cư sinh sản, nhưng nguồn nhân giống trại vô cùng dồi dào.",
+    "pullQuoteVi": "Đôi mắt nằm thấp dưới đường ngang miệng (hypophthalmus) tạo nên góc nhìn hướng xuống độc đáo của loài cá bơi không mỏi trên sông Mekong này.",
+    "dietVi": "Ăn tạp: thức ăn viên nổi/chìm, rau củ, giáp xác và côn trùng nước",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Lưu vực sông Mekong và sông Chao Phraya ở Đông Nam Á",
+    "otherNamesVi": [
+      "Cá tra yêu",
+      "Iridescent Shark",
+      "Sutchi Catfish"
+    ],
+    "synonyms": [
+      "Helicophagus hypophthalmus",
+      "Pangasius hypophthalmus",
+      "Pangasius sutchi"
+    ],
+    "wikidataId": "Q312296",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pangasianodon_hypophthalmus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Iridescent_shark",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 100,
+      "weightGMin": 4000,
+      "weightGMax": 15000,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành có phần bụng to tròn hơn con đực vào mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "TH",
+        "LA"
+      ],
+      "nativeRangeVi": "Lưu vực sông Mekong và sông Chao Phraya ở Đông Nam Á",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông lớn sâu và vùng ngập lũ đồng bằng châu thổ mùa nước nổi",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 60–100 cm với hình thái đặc trưng của chi Pangasianodon. Con cái trưởng thành có phần bụng to tròn hơn con đực vào mùa sinh sản.",
+    "behaviorVi": "Cá có tính giật mình mạnh khi bật đèn đột ngột và lớn rất nhanh, cần hồ rộng thoáng không có vật sắc nhọn.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Đôi mắt nằm thấp dưới đường ngang miệng (hypophthalmus) tạo nên góc nhìn hướng xuống độc đáo của loài cá bơi không mỏi trên sông Mekong này.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá tra (Pangasiidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 600 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–30°C, pH 6.5–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: thức ăn viên nổi/chìm, rau củ, giáp xác và côn trùng nước",
+      "socialVi": "Cá có tính giật mình mạnh khi bật đèn đột ngột và lớn rất nhanh, cần hồ rộng thoáng không có vật sắc nhọn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Mập Nước Ngọt / Cá Tra Sọc Bạch Tạng Cảnh Size 10–12 cm",
+        "priceVnd": 45000,
+        "descriptionVi": "Cá Tra Sọc (Cá Mập Nước Ngọt Thái) (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–30°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hal - Pangasianodon hypophthalmus - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Pangasianodon_hypophthalmus_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hal_-_Pangasianodon_hypophthalmus_-_1.jpg",
+        "width": 5312,
+        "height": 2988,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Tiger Shark Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiger_Shark_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tiger_Shark_Fish.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Nskjnv",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium de Dunkerque Pangasianodon albinos 08102017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_Dunkerque_Pangasianodon_albinos_08102017.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Aquarium_de_Dunkerque_Pangasianodon_albinos_08102017.jpg",
+        "width": 3470,
+        "height": 2114,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Oniria - Poisson 67.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_67.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Oniria_-_Poisson_67.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2340714",
+      "https://www.iucnredlist.org/species/180689/7649971",
+      "https://en.wikipedia.org/wiki/Iridescent_shark",
+      "https://vi.wikipedia.org/wiki/Pangasianodon_hypophthalmus"
+    ]
+  },
+  {
+    "scientificName": "Platydoras armatulus",
+    "commonNameVi": "Cá Trê Gai Sọc Trắng",
+    "commonNameEn": "Southern Striped Raphael",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Doradidae",
+      "genus": "Platydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá trê gai (Doradidae)",
+      "genus": "Chi Cá trê gai sọc (Platydoras)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/202699/2747107",
+    "gbifKey": 2343888,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Đáy sông suối chảy chậm có nhiều rễ cây chìm, hốc đá và lá mục"
+    },
+    "descriptionVi": "Loài cá trê bọc giáp gai nổi bật với màu thân nâu sô-cô-la đậm được chia đôi bởi một đường sọc vàng kem sắc nét chạy suốt từ đầu đến hết chạc đuôi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phân bố rộng khắp Nam Mỹ.",
+    "pullQuoteVi": "Khi bị nhấc lên khỏi mặt nước hoặc cảm thấy bị đe dọa, chúng khóa khớp vây ngực đồng thời co bóp bóng bơi phát ra tiếng kêu 'cót két, ộp ộp' nghe rất rõ nên được gọi là 'Cá Trê Biết Nói'.",
+    "dietVi": "Ăn tạp về đêm: viên chìm tầng đáy, trùng huyết, trùn đất, ốc nhỏ và mảnh thức ăn thừa",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Orinoco và hệ thống sông Paraná - Paraguay ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá trê biết nói",
+      "Striped Raphael Catfish",
+      "Talking Catfish"
+    ],
+    "synonyms": [
+      "Doras armatulus"
+    ],
+    "wikidataId": "Q1826730",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Platydoras_armatulus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Striped_Raphael_catfish",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 80,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành có phần thân giữa to tròn hơn con đực."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "VE",
+        "BO",
+        "PY"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Orinoco và hệ thống sông Paraná - Paraguay ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đáy sông suối chảy chậm có nhiều rễ cây chìm, hốc đá và lá mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–20 cm với hình thái đặc trưng của chi Platydoras. Con cái trưởng thành có phần thân giữa to tròn hơn con đực.",
+    "behaviorVi": "Hoạt động về đêm và rất hiền lành; tuyệt đối không dùng vợt lưới mắt nhỏ để vớt cá vì hàng gai ngạnh bên sườn và vây ngực rất dễ mắc chặt vào lưới.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi bị nhấc lên khỏi mặt nước hoặc cảm thấy bị đe dọa, chúng khóa khớp vây ngực đồng thời co bóp bóng bơi phát ra tiếng kêu 'cót két, ộp ộp' nghe rất rõ nên được gọi là 'Cá Trê Biết Nói'.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá trê gai (Doradidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 150 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–28°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp về đêm: viên chìm tầng đáy, trùng huyết, trùn đất, ốc nhỏ và mảnh thức ăn thừa",
+      "socialVi": "Hoạt động về đêm và rất hiền lành; tuyệt đối không dùng vợt lưới mắt nhỏ để vớt cá vì hàng gai ngạnh bên sườn và vây ngực rất dễ mắc chặt vào lưới.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Trê Gai Sọc Trắng (Platydoras armatulus) Size 7–9 cm",
+        "priceVnd": 110000,
+        "descriptionVi": "Cá Trê Gai Sọc Trắng (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Parmatulus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parmatulus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Parmatulus.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kacper Aleksander",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Striped Raphael catfish (Platydoras armatulus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Striped_Raphael_catfish_(Platydoras_armatulus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Striped_Raphael_catfish_%28Platydoras_armatulus%29.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kacper Aleksander",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Platydoras armatulus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Platydoras_armatulus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Platydoras_armatulus.jpg",
+        "width": 5183,
+        "height": 2950,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kacper Aleksander",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Platydoras costatus 1 (Piotr Kuczynski).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Platydoras_costatus_1_(Piotr_Kuczynski).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Platydoras_costatus_1_%28Piotr_Kuczynski%29.jpg",
+        "width": 2272,
+        "height": 1704,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Piotr Kuczynski",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Platydoras costatus (7070956285).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Platydoras_costatus_(7070956285).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Platydoras_costatus_%287070956285%29.jpg",
+        "width": 1600,
+        "height": 1067,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Alex Polezhaev",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2343888",
+      "https://www.iucnredlist.org/species/202699/2747107",
+      "https://en.wikipedia.org/wiki/Striped_Raphael_catfish",
+      "https://vi.wikipedia.org/wiki/Platydoras_armatulus"
+    ]
+  }
+]

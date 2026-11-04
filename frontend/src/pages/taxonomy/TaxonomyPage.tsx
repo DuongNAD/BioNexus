@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import { Dna, LayoutGrid } from 'lucide-react';
 import { useTaxonomyTree, useTaxonomyDetail, useTaxonomyChildren } from '@/api/queries/useTaxonomyQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
-import { useProducts } from '@/api/queries/useProductQueries';
+import { useAllApprovedProducts } from '@/api/queries/useProductQueries';
 import { useBranchSpeciesMany } from '@/api/queries/useTaxonomyBranchQueries';
 import { ApiError } from '@/api/errors';
 import { normalizeBreadcrumbs } from '@/components/domain/TaxonPath';
@@ -88,14 +88,14 @@ export const TaxonomyPage: React.FC = () => {
   const speciesByChild = useBranchSpeciesMany(childIds);
 
   // Số cá thể đang bán của từng loài (sàn chỉ trả sản phẩm APPROVED)
-  const productsQuery = useProducts({ size: 48 });
+  const productsQuery = useAllApprovedProducts();
   const productCounts = useMemo(() => {
     const counts: Record<number, number> = {};
-    (productsQuery.data?.items ?? []).forEach((p) => {
+    (productsQuery.data ?? []).forEach((p) => {
       counts[p.speciesId] = (counts[p.speciesId] || 0) + 1;
     });
     return counts;
-  }, [productsQuery.data?.items]);
+  }, [productsQuery.data]);
 
   const detailError = detailQuery.error;
   if (isInvalidId || (detailError instanceof ApiError && (detailError.status === 404 || detailError.status === 400))) {
@@ -204,7 +204,7 @@ export const TaxonomyPage: React.FC = () => {
                         <li key={sp.id}>
                           <MediaCard
                             to={`/species/${sp.id}`}
-                            image={sp.heroPhoto}
+                            image={sp.cardPhoto}
                             imageAlt={sp.displayName}
                             focus={sp.focus}
                             badge={<IucnBadge code={sp.conservationStatus} size="sm" className="bg-black/60 backdrop-blur-md" />}
@@ -236,14 +236,15 @@ export const TaxonomyPage: React.FC = () => {
                   <ul className={childNodes.length <= 2 ? 'grid gap-4 sm:grid-cols-2' : 'grid gap-4 sm:grid-cols-2 xl:grid-cols-3'}>
                     {childNodes.map((child) => {
                       const species = speciesByChild[child.id] ?? [];
-                      const cover = species[0];
+                      // Ảnh đại diện: loài đầu tiên có ảnh thật, không lấy ảnh giữ chỗ
+                      const cover = species.find((sp) => sp.cardPhoto !== PRODUCT_PLACEHOLDER_IMAGE) ?? species[0];
                       const onSale = species.reduce((sum, sp) => sum + (productCounts[sp.id] || 0), 0);
                       return (
                         <li key={child.id}>
                           <MediaCard
                             to={`/taxonomy/${child.id}`}
                             aspect={childNodes.length <= 2 ? '4/3' : '4/5'}
-                            image={cover?.heroPhoto ?? PRODUCT_PLACEHOLDER_IMAGE}
+                            image={cover?.cardPhoto ?? PRODUCT_PLACEHOLDER_IMAGE}
                             imageAlt={cover ? `Ảnh đại diện nhánh ${child.scientificName}: ${cover.displayName}` : ''}
                             focus={cover?.focus}
                             title={<ScientificName node={child} />}

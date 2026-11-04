@@ -6,6 +6,7 @@ export * from './client';
 export * from './normalize';
 export * from './adapters';
 export * from './keys';
+export * from './catalog';
 
 // Queries
 export * from './queries/useAuthQueries';

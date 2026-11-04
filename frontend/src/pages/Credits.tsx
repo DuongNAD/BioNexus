@@ -6,6 +6,8 @@ import { PageContainer, PageHeader, Section } from '@/components/layout/Page';
 import { StatRow } from '@/components/ui/StatRow';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { cn } from '@/lib/cn';
+import { useCatalogCredits } from '@/api/catalog';
+import { CatalogCredits } from './components/CatalogCredits';
 
 // Vai trò ảnh hiển thị bằng tiếng Việt thay cho mã nội bộ (hero, portrait...)
 const PHOTO_ROLE_LABELS: Record<string, string> = {
@@ -30,7 +32,8 @@ export default function Credits(): React.JSX.Element {
   }, []);
 
   const photoList: PhotoMetadata[] = Object.values(PHOTOS);
-  const authorCount = new Set(photoList.map((p) => p.credit.author)).size;
+  const catalogCredits = useCatalogCredits().data ?? [];
+  const authorCount = new Set([...photoList.map((p) => p.credit.author), ...catalogCredits.map((c) => c.author)]).size;
 
   const filteredPhotos = photoList.filter((p) => {
     const matchesFilter =
@@ -65,7 +68,7 @@ export default function Credits(): React.JSX.Element {
       <StatRow
         className="border-y border-line py-2"
         items={[
-          { label: 'Tác phẩm nguồn', value: photoList.length },
+          { label: 'Tác phẩm nguồn', value: photoList.length + catalogCredits.length },
           { label: 'Tác giả', value: authorCount },
           { label: 'Ảnh tạo bằng AI', value: 0 },
           { label: 'Giấy phép', value: 'CC', hint: 'CC0, CC BY, CC BY-SA' },
@@ -152,6 +155,8 @@ export default function Credits(): React.JSX.Element {
           </ul>
         )}
       </Section>
+
+      <CatalogCredits credits={catalogCredits} searchQuery={searchQuery} />
     </PageContainer>
   );
 }

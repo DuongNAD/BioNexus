@@ -1,0 +1,3364 @@
+[
+  {
+    "scientificName": "Paphiopedilum delenatii",
+    "commonNameVi": "Lan hài hồng",
+    "commonNameEn": "Delanat's Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/191709/1999702",
+    "gbifKey": 2825640,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Hốc mùn axit trên vách đá granit ẩm ven suối rừng thường xanh độ cao 700–1.300 m"
+    },
+    "descriptionVi": "Niềm tự hào của hệ thực vật Việt Nam và là một trong số ít các loài lan hài châu Á sở hữu sắc hoa hồng phấn cùng hương thơm cam chanh thanh khiết.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) ngoài tự nhiên, thuộc Phụ lục I CITES và Nhóm IA Nghị định 84/2021/NĐ-CP.",
+    "pullQuoteVi": "Từng được cho là tuyệt chủng ngoài tự nhiên suốt gần 80 năm kể từ mẫu vật đầu tiên năm 1913 cho đến khi được tái phát hiện tại Khánh Hòa vào thập niên 1990.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cypripedium delenatii",
+      "Paphiopedilum delenatii albinum",
+      "Paphiopedilum delenatii lutescens",
+      "Paphiopedilum delenatii vinicolor"
+    ],
+    "wikidataId": "Q519651",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_delenatii",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Hoa đường kính 7–8 cm màu hồng phấn dịu và túi môi tròn trịa"
+    },
+    "distribution": {
+      "countries": [
+        "VN"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng núi đá granit tỉnh Khánh Hòa, Phú Yên và Lâm Đồng của Việt Nam",
+      "elevationM": {
+        "min": 700,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Niềm tự hào của hệ thực vật Việt Nam và là một trong số ít các loài lan hài châu Á sở hữu sắc hoa hồng phấn cùng hương thơm cam chanh thanh khiết. Đặc điểm nhận dạng nổi bật: Hoa đường kính 7–8 cm màu hồng phấn dịu và túi môi tròn trịa.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Từng được cho là tuyệt chủng ngoài tự nhiên suốt gần 80 năm kể từ mẫu vật đầu tiên năm 1913 cho đến khi được tái phát hiện tại Khánh Hòa vào thập niên 1990.",
+      "Đặc điểm hình thái đặc trưng: Hoa đường kính 7–8 cm màu hồng phấn dịu và túi môi tròn trịa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum delenatii 'Keiko' Guillaumin- Bull. Soc. Bot. France 71- 554 (1924). 20250524 000434.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_delenatii_%27Keiko%27_Guillaumin-_Bull._Soc._Bot._France_71-_554_(1924)._20250524_000434.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Paphiopedilum_delenatii_%27Keiko%27_Guillaumin-_Bull._Soc._Bot._France_71-_554_%281924%29._20250524_000434.jpg",
+        "width": 16512,
+        "height": 11008,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum delenatii 'Kimio' Guillaumin- Bull. Soc. Bot. France 71- 554 (1924) 20260422 233922.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_delenatii_%27Kimio%27_Guillaumin-_Bull._Soc._Bot._France_71-_554_(1924)_20260422_233922.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Paphiopedilum_delenatii_%27Kimio%27_Guillaumin-_Bull._Soc._Bot._France_71-_554_%281924%29_20260422_233922.jpg",
+        "width": 10794,
+        "height": 16191,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum delenatii 001 GotBot 2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_delenatii_001_GotBot_2018.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Paphiopedilum_delenatii_001_GotBot_2018.jpg",
+        "width": 5496,
+        "height": 3670,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Averater",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum delenatii alba (32856312790).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_delenatii_alba_(32856312790).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Paphiopedilum_delenatii_alba_%2832856312790%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum delenatii 45369.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_delenatii_45369.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Paphiopedilum_delenatii_45369.JPG",
+        "width": 2739,
+        "height": 3931,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Michael Wolf ( Webseite )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825640",
+      "https://www.iucnredlist.org/species/191709/1999702",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_delenatii",
+      "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum rothschildianum",
+    "commonNameVi": "Lan hài Rothschild",
+    "commonNameEn": "Rothschild's Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/43322055/43327969",
+    "gbifKey": 2825321,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Vách đá siêu mafic (ultramafic) ẩm ven suối trong rừng núi thấp độ cao 500–1.200 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Vua của các loài Lan Hài' với đôi cánh hoa sọc nâu đỏ giương ngang uy nghi như đôi cánh đại bàng đang sải lượn.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN với phạm vi phân bố cực hẹp tại Vườn quốc gia Kinabalu (CITES I).",
+    "pullQuoteVi": "Được gọi là 'Vàng của đỉnh Kinabalu', loài lan này cần tới 10–15 năm từ khi gieo hạt đến lúc nở bông hoa đầu tiên.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula rothschildiana",
+      "Cypripedium elliottianum",
+      "Cypripedium neoguineense",
+      "Cypripedium rothschildianum"
+    ],
+    "wikidataId": "Q2700671",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_rothschildianum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_rothschildianum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 60,
+      "noteVi": "Cần hoa mang 2–5 bông lớn có cánh đài xòe ngang rộng tới 25–30 cm"
+    },
+    "distribution": {
+      "countries": [
+        "MY"
+      ],
+      "nativeRangeVi": "Đặc hữu sườn núi Kinabalu thuộc bang Sabah trên đảo Borneo",
+      "elevationM": {
+        "min": 500,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được mệnh danh là 'Vua của các loài Lan Hài' với đôi cánh hoa sọc nâu đỏ giương ngang uy nghi như đôi cánh đại bàng đang sải lượn. Đặc điểm nhận dạng nổi bật: Cần hoa mang 2–5 bông lớn có cánh đài xòe ngang rộng tới 25–30 cm.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Được gọi là 'Vàng của đỉnh Kinabalu', loài lan này cần tới 10–15 năm từ khi gieo hạt đến lúc nở bông hoa đầu tiên.",
+      "Đặc điểm hình thái đặc trưng: Cần hoa mang 2–5 bông lớn có cánh đài xòe ngang rộng tới 25–30 cm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum rothschildianum 'Borneo' FCC AOS (Rchb.f.) Stein, Orchid.-Buch 482 (1892) (50042787343).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_rothschildianum_%27Borneo%27_FCC_AOS_(Rchb.f.)_Stein,_Orchid.-Buch_482_(1892)_(50042787343).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Paphiopedilum_rothschildianum_%27Borneo%27_FCC_AOS_%28Rchb.f.%29_Stein%2C_Orchid.-Buch_482_%281892%29_%2850042787343%29.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:U.S. Botanic Garden Production Facility 19.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:U.S._Botanic_Garden_Production_Facility_19.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/U.S._Botanic_Garden_Production_Facility_19.jpg",
+        "width": 3072,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sdkb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:P rothschildianum JbotMtl.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P_rothschildianum_JbotMtl.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/P_rothschildianum_JbotMtl.JPG",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Silk666",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Picture Orchidaceae Collection 06.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Picture_Orchidaceae_Collection_06.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Picture_Orchidaceae_Collection_06.JPG",
+        "width": 2056,
+        "height": 3648,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Felix González",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rothschild's Slipper Orchids (Paphiopedilum rothschildianum) (14668484495).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rothschild%27s_Slipper_Orchids_(Paphiopedilum_rothschildianum)_(14668484495).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rothschild%27s_Slipper_Orchids_%28Paphiopedilum_rothschildianum%29_%2814668484495%29.jpg",
+        "width": 3241,
+        "height": 2130,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825321",
+      "https://www.iucnredlist.org/species/43322055/43327969",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_rothschildianum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_rothschildianum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum sanderianum",
+    "commonNameVi": "Lan hài Sander",
+    "commonNameEn": "Sander's Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/43322127/43327974",
+    "gbifKey": 2825664,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Vách đá vôi dựng đứng ẩm ướt và râm mát ở độ cao 150–900 m"
+    },
+    "descriptionVi": "Kỳ quan của họ Phong lan thế giới với hai cánh hoa bên buông rủ dài kỷ lục tới gần 1 mét như hai dải râu rồng uốn lượn trong gió.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Đôi cánh hoa dài tới 100 cm đóng vai trò như những chiếc thang dây dẫn đường cho ruồi giả ong (Syrphidae) bò ngược lên rơi vào túi môi thụ phấn.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula sanderiana",
+      "Cypripedium sanderianum"
+    ],
+    "wikidataId": "Q1312923",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_sanderianum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_sanderianum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 60,
+      "noteVi": "Hai cánh hoa bên buông rủ xoắn như dải lụa dài từ 60 đến hơn 100 cm"
+    },
+    "distribution": {
+      "countries": [
+        "MY"
+      ],
+      "nativeRangeVi": "Đặc hữu Vườn quốc gia Gunung Mulu tại bang Sarawak, đảo Borneo",
+      "elevationM": {
+        "min": 150,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Kỳ quan của họ Phong lan thế giới với hai cánh hoa bên buông rủ dài kỷ lục tới gần 1 mét như hai dải râu rồng uốn lượn trong gió. Đặc điểm nhận dạng nổi bật: Hai cánh hoa bên buông rủ xoắn như dải lụa dài từ 60 đến hơn 100 cm.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Đôi cánh hoa dài tới 100 cm đóng vai trò như những chiếc thang dây dẫn đường cho ruồi giả ong (Syrphidae) bò ngược lên rơi vào túi môi thụ phấn.",
+      "Đặc điểm hình thái đặc trưng: Hai cánh hoa bên buông rủ xoắn như dải lụa dài từ 60 đến hơn 100 cm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum sanderianum (flower landscape).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sanderianum_(flower_landscape).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paphiopedilum_sanderianum_%28flower_landscape%29.jpg",
+        "width": 3683,
+        "height": 2446,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum sanderianum (plant).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sanderianum_(plant).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Paphiopedilum_sanderianum_%28plant%29.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum sanderianum (staminode).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sanderianum_(staminode).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Paphiopedilum_sanderianum_%28staminode%29.jpg",
+        "width": 1828,
+        "height": 1214,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:皇后兜蘭 Paphiopedilum sanderianum -香港沙田洋蘭展 Shatin Orchid Show, Hong Kong- (9252404271).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%9A%87%E5%90%8E%E5%85%9C%E8%98%AD_Paphiopedilum_sanderianum_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show,_Hong_Kong-_(9252404271).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E7%9A%87%E5%90%8E%E5%85%9C%E8%98%AD_Paphiopedilum_sanderianum_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show%2C_Hong_Kong-_%289252404271%29.jpg",
+        "width": 1710,
+        "height": 1373,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825664",
+      "https://www.iucnredlist.org/species/43322127/43327974",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_sanderianum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_sanderianum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum callosum",
+    "commonNameVi": "Lan hài chai",
+    "commonNameEn": "Callus Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/191704/1999308",
+    "gbifKey": 2825207,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Đá tảng phủ mùn lá dày hoặc gốc cây mục trong rừng thường xanh núi thấp độ cao 300–1.300 m"
+    },
+    "descriptionVi": "Loài lan hài rừng lá vân cẩm thạch rất đẹp của vùng Tây Nguyên với chiếc cánh đài lưng to tròn điểm các sọc gân màu rượu vang nổi bật.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IA bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Các mụn cóc màu đen bóng dọc mép cánh hoa phát ra tín hiệu thị giác giả làm đàn rệp vừng để thu hút ruồi ăn rệp đến đẻ trứng và thụ phấn.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula callosa",
+      "Cypripedium callosum",
+      "Cypripedium callosum sublaeve",
+      "Paphiopedilum callosum angustipetalum"
+    ],
+    "wikidataId": "Q1944119",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%C3%A2n_h%C3%A0i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_callosum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 35,
+      "noteVi": "Lá khảm vân xanh đậm nhạt và cánh đài lưng trắng sọc tím hồng lớn"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "KH",
+        "LA",
+        "MY"
+      ],
+      "nativeRangeVi": "Đông Dương (Tây Nguyên Việt Nam, Lào, Campuchia, Thái Lan) đến bắc bán đảo Mã Lai",
+      "elevationM": {
+        "min": 300,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài rừng lá vân cẩm thạch rất đẹp của vùng Tây Nguyên với chiếc cánh đài lưng to tròn điểm các sọc gân màu rượu vang nổi bật. Đặc điểm nhận dạng nổi bật: Lá khảm vân xanh đậm nhạt và cánh đài lưng trắng sọc tím hồng lớn.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Các mụn cóc màu đen bóng dọc mép cánh hoa phát ra tín hiệu thị giác giả làm đàn rệp vừng để thu hút ruồi ăn rệp đến đẻ trứng và thụ phấn.",
+      "Đặc điểm hình thái đặc trưng: Lá khảm vân xanh đậm nhạt và cánh đài lưng trắng sọc tím hồng lớn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum callosum '-3' (Rchb.f.) Stein, Orchid.-Buch 457 (1892) (27760317187).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_callosum_%27-3%27_(Rchb.f.)_Stein,_Orchid.-Buch_457_(1892)_(27760317187).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Paphiopedilum_callosum_%27-3%27_%28Rchb.f.%29_Stein%2C_Orchid.-Buch_457_%281892%29_%2827760317187%29.jpg",
+        "width": 7113,
+        "height": 4747,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Auckland, the domain, winter garden, serra tropicale 07 orchidee.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Auckland,_the_domain,_winter_garden,_serra_tropicale_07_orchidee.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Auckland%2C_the_domain%2C_winter_garden%2C_serra_tropicale_07_orchidee.jpg",
+        "width": 3960,
+        "height": 5016,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Francesco Bini",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Orchid - Botanical Garden Rio de Janeiro 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orchid_-_Botanical_Garden_Rio_de_Janeiro_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Orchid_-_Botanical_Garden_Rio_de_Janeiro_2.JPG",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Betadg",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum callosum '-2' (Rchb.f.) Stein, Orchid.-Buch 457 (1892) (31496840217).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_callosum_%27-2%27_(Rchb.f.)_Stein,_Orchid.-Buch_457_(1892)_(31496840217).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Paphiopedilum_callosum_%27-2%27_%28Rchb.f.%29_Stein%2C_Orchid.-Buch_457_%281892%29_%2831496840217%29.jpg",
+        "width": 6985,
+        "height": 4662,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum callosum (Rchb.f.) Stein, Orchid.-Buch 457 (1892) (27408930517).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_callosum_(Rchb.f.)_Stein,_Orchid.-Buch_457_(1892)_(27408930517).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Paphiopedilum_callosum_%28Rchb.f.%29_Stein%2C_Orchid.-Buch_457_%281892%29_%2827408930517%29.jpg",
+        "width": 7060,
+        "height": 4712,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825207",
+      "https://www.iucnredlist.org/species/191704/1999308",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_callosum",
+      "https://vi.wikipedia.org/wiki/V%C3%A2n_h%C3%A0i"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum sukhakulii",
+    "commonNameVi": "Lan hài Sukhakul",
+    "commonNameEn": "Sukhakul's Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/193510/2240326",
+    "gbifKey": 2825346,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Lớp mùn lá ẩm ven suối dưới tán rừng thường xanh núi đá sa thạch độ cao 800–1.000 m"
+    },
+    "descriptionVi": "Loài lan hài đặc hữu của vùng núi Phu Luang (Thái Lan) dễ nhận diện nhờ hai cánh hoa mở ngang thẳng tắp điểm dày đặc chấm bi đen sẫm.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) ngoài tự nhiên trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Nhờ khuôn hoa cân đối và sức sống khỏe, P. sukhakulii là một trong những loài lan hài bố mẹ quan trọng nhất trong lai tạo lan hài hiện đại.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Paphiopedilum sukhakulii aureum"
+    ],
+    "wikidataId": "Q1313883",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_sukhakulii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_sukhakulii",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Hai cánh hoa giương ngang phủ đầy đốm nâu đen và rìa lông tơ"
+    },
+    "distribution": {
+      "countries": [
+        "TH"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng núi Phu Luang thuộc tỉnh Loei, đông bắc Thái Lan",
+      "elevationM": {
+        "min": 800,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài đặc hữu của vùng núi Phu Luang (Thái Lan) dễ nhận diện nhờ hai cánh hoa mở ngang thẳng tắp điểm dày đặc chấm bi đen sẫm. Đặc điểm nhận dạng nổi bật: Hai cánh hoa giương ngang phủ đầy đốm nâu đen và rìa lông tơ.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Nhờ khuôn hoa cân đối và sức sống khỏe, P. sukhakulii là một trong những loài lan hài bố mẹ quan trọng nhất trong lai tạo lan hài hiện đại.",
+      "Đặc điểm hình thái đặc trưng: Hai cánh hoa giương ngang phủ đầy đốm nâu đen và rìa lông tơ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum sukhakulii 'Kouzuke' Schoser & Senghas, Orchidee (Hamburg) 16- 110 (1965) (40453913362).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sukhakulii_%27Kouzuke%27_Schoser_%26_Senghas,_Orchidee_(Hamburg)_16-_110_(1965)_(40453913362).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Paphiopedilum_sukhakulii_%27Kouzuke%27_Schoser_%26_Senghas%2C_Orchidee_%28Hamburg%29_16-_110_%281965%29_%2840453913362%29.jpg",
+        "width": 6857,
+        "height": 4576,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum sukhakulii Schoser & Senghas, Orchidee (Hamburg) 16 110 (1965) (49868530971).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sukhakulii_Schoser_%26_Senghas,_Orchidee_(Hamburg)_16_110_(1965)_(49868530971).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Paphiopedilum_sukhakulii_Schoser_%26_Senghas%2C_Orchidee_%28Hamburg%29_16_110_%281965%29_%2849868530971%29.jpg",
+        "width": 5504,
+        "height": 8256,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum sukhakulii (5444878603).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sukhakulii_(5444878603).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Paphiopedilum_sukhakulii_%285444878603%29.jpg",
+        "width": 3158,
+        "height": 2189,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Maja Dumat from Deutschland (Germany)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Florissimo 2015 156.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Florissimo_2015_156.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Florissimo_2015_156.jpg",
+        "width": 3137,
+        "height": 2094,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "François de Dijon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum sukhakulii-Orchi 008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_sukhakulii-Orchi_008.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Paphiopedilum_sukhakulii-Orchi_008.jpg",
+        "width": 3000,
+        "height": 2200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825346",
+      "https://www.iucnredlist.org/species/193510/2240326",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_sukhakulii",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_sukhakulii"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum niveum",
+    "commonNameVi": "Lan hài trắng tuyết",
+    "commonNameEn": "Snow-White Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43321552/43327924",
+    "gbifKey": 2825192,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Khe đá vôi ven biển hướng bắc/đông có gió biển mát và mùn lá mục độ cao 10–300 m"
+    },
+    "descriptionVi": "Bông lan hài nhỏ nhắn mang sắc trắng ngần như tuyết điểm nhẹ bụi phấn tím trên nền bộ lá khảm vân xanh bạc dày dặn.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Sống ngay trên các vách đá vôi dựng đứng ngoài đảo biển Andaman nơi rễ cây đón hơi sương mặn và gió mùa nhiệt đới.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula nivea",
+      "Cypripedium niveum",
+      "Cypripedium niveum album",
+      "Cypripedium pereirae"
+    ],
+    "wikidataId": "Q1313832",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_niveum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_niveum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 20,
+      "noteVi": "Hoa trắng tinh khôi như sứ điểm những chấm tím li ti ở gốc cánh"
+    },
+    "distribution": {
+      "countries": [
+        "TH",
+        "MY"
+      ],
+      "nativeRangeVi": "Quần đảo Langkawi (Malaysia) và các đảo đá vôi cực nam Thái Lan",
+      "elevationM": {
+        "min": 10,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Bông lan hài nhỏ nhắn mang sắc trắng ngần như tuyết điểm nhẹ bụi phấn tím trên nền bộ lá khảm vân xanh bạc dày dặn. Đặc điểm nhận dạng nổi bật: Hoa trắng tinh khôi như sứ điểm những chấm tím li ti ở gốc cánh.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Sống ngay trên các vách đá vôi dựng đứng ngoài đảo biển Andaman nơi rễ cây đón hơi sương mặn và gió mùa nhiệt đới.",
+      "Đặc điểm hình thái đặc trưng: Hoa trắng tinh khôi như sứ điểm những chấm tím li ti ở gốc cánh."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:雪白兜蘭 Paphiopedilum niveum v alba -香港沙田洋蘭展 Shatin Orchid Show, Hong Kong- (9237503089).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E7%99%BD%E5%85%9C%E8%98%AD_Paphiopedilum_niveum_v_alba_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show,_Hong_Kong-_(9237503089).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%E9%9B%AA%E7%99%BD%E5%85%9C%E8%98%AD_Paphiopedilum_niveum_v_alba_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show%2C_Hong_Kong-_%289237503089%29.jpg",
+        "width": 2288,
+        "height": 1712,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum niveum Orchi 041-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_niveum_Orchi_041-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Paphiopedilum_niveum_Orchi_041-1.jpg",
+        "width": 1500,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum niveum Orchi 042-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_niveum_Orchi_042-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Paphiopedilum_niveum_Orchi_042-1.jpg",
+        "width": 1400,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:兜蘭屬 Paphiopedilum niveum -香港沙田洋蘭展 Shatin Orchid Show, Hong Kong- (9229788396).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%9C%E8%98%AD%E5%B1%AC_Paphiopedilum_niveum_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show,_Hong_Kong-_(9229788396).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/%E5%85%9C%E8%98%AD%E5%B1%AC_Paphiopedilum_niveum_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show%2C_Hong_Kong-_%289229788396%29.jpg",
+        "width": 2028,
+        "height": 1772,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum niveum Orchi 013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_niveum_Orchi_013.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Paphiopedilum_niveum_Orchi_013.jpg",
+        "width": 2000,
+        "height": 1450,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825192",
+      "https://www.iucnredlist.org/species/43321552/43327924",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_niveum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_niveum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum bellatulum",
+    "commonNameVi": "Lan hài xinh",
+    "commonNameEn": "Enchanting Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/201856/2723333",
+    "gbifKey": 2825473,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Khe vách đá vôi ẩm râm mát có rêu phủ ở độ cao 800–1.600 m"
+    },
+    "descriptionVi": "Loài lan hài thuộc nhóm Brachypetalum nổi tiếng với những cánh hoa tròn trịa ôm khum quanh chiếc túi môi như quả trứng chim đa đa.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Bản lá dày mọng nước mặt dưới màu tím sẫm giúp cây chịu được mùa khô kéo dài tới 4 tháng trên vách đá vôi.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula bellatula",
+      "Cypripedium bellatulum",
+      "Paphiopedilum bellatulum album",
+      "Paphiopedilum bellatulum chlorophyllum"
+    ],
+    "wikidataId": "Q1314097",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_bellatulum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_bellatulum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 18,
+      "noteVi": "Cánh hoa tròn bầu bĩnh màu trắng kem điểm các đốm nâu tím lớn"
+    },
+    "distribution": {
+      "countries": [
+        "TH",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi đá vôi biên giới Myanmar, bắc Thái Lan và Vân Nam (Trung Quốc)",
+      "elevationM": {
+        "min": 800,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài thuộc nhóm Brachypetalum nổi tiếng với những cánh hoa tròn trịa ôm khum quanh chiếc túi môi như quả trứng chim đa đa. Đặc điểm nhận dạng nổi bật: Cánh hoa tròn bầu bĩnh màu trắng kem điểm các đốm nâu tím lớn.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Bản lá dày mọng nước mặt dưới màu tím sẫm giúp cây chịu được mùa khô kéo dài tới 4 tháng trên vách đá vôi.",
+      "Đặc điểm hình thái đặc trưng: Cánh hoa tròn bầu bĩnh màu trắng kem điểm các đốm nâu tím lớn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum bellatulum Orchi 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_bellatulum_Orchi_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Paphiopedilum_bellatulum_Orchi_01.jpg",
+        "width": 1280,
+        "height": 960,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:巨瓣兜蘭 Paphiopedilum bellatulum -香港花展 Hong Kong Flower Show- (9252392761).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%B7%A8%E7%93%A3%E5%85%9C%E8%98%AD_Paphiopedilum_bellatulum_-%E9%A6%99%E6%B8%AF%E8%8A%B1%E5%B1%95_Hong_Kong_Flower_Show-_(9252392761).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/%E5%B7%A8%E7%93%A3%E5%85%9C%E8%98%AD_Paphiopedilum_bellatulum_-%E9%A6%99%E6%B8%AF%E8%8A%B1%E5%B1%95_Hong_Kong_Flower_Show-_%289252392761%29.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum bellatulum OrchidsBln0906.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_bellatulum_OrchidsBln0906.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Paphiopedilum_bellatulum_OrchidsBln0906.jpg",
+        "width": 1958,
+        "height": 1015,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "User:BotBln",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825473",
+      "https://www.iucnredlist.org/species/201856/2723333",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_bellatulum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_bellatulum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum concolor",
+    "commonNameVi": "Lan hài đồng màu",
+    "commonNameEn": "One Colored Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43320151/43327809",
+    "gbifKey": 2825331,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Hốc đá vôi thấp thoáng sáng trong rừng karst nhiệt đới độ cao 100–1.000 m"
+    },
+    "descriptionVi": "Loài lan hài đá vôi quen thuộc của Việt Nam với sắc hoa vàng ngà đồng nhất điểm những chấm bi tím nhỏ nhắn duyên dáng.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Tên khoa học 'concolor' nghĩa là 'đồng màu', ám chỉ cả đài hoa, cánh hoa và túi môi đều mang cùng một tông vàng bơ trang nhã.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula concolor",
+      "Cypripedium concolor",
+      "Paphiopedilum concolor longipetalum"
+    ],
+    "wikidataId": "Q3235552",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_%C4%91%E1%BB%91m",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_concolor",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 18,
+      "noteVi": "Hoa màu vàng kem dịu điểm chấm tím mịn khắp cánh và túi môi"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "LA",
+        "KH",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Khắp các dãy núi đá vôi Đông Dương và nam Trung Quốc",
+      "elevationM": {
+        "min": 100,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài đá vôi quen thuộc của Việt Nam với sắc hoa vàng ngà đồng nhất điểm những chấm bi tím nhỏ nhắn duyên dáng. Đặc điểm nhận dạng nổi bật: Hoa màu vàng kem dịu điểm chấm tím mịn khắp cánh và túi môi.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'concolor' nghĩa là 'đồng màu', ám chỉ cả đài hoa, cánh hoa và túi môi đều mang cùng một tông vàng bơ trang nhã.",
+      "Đặc điểm hình thái đặc trưng: Hoa màu vàng kem dịu điểm chấm tím mịn khắp cánh và túi môi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:D85 4507 Plant of Thailand Photographed by Trisorn Triboon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:D85_4507_Plant_of_Thailand_Photographed_by_Trisorn_Triboon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/D85_4507_Plant_of_Thailand_Photographed_by_Trisorn_Triboon.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "One World Thailand",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum concolor Orchi 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_concolor_Orchi_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Paphiopedilum_concolor_Orchi_02.jpg",
+        "width": 1475,
+        "height": 2001,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:同色兜蘭 Paphiopedilum concolor -香港沙田洋蘭展 Shatin Orchid Show, Hong Kong- (9216084860).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%90%8C%E8%89%B2%E5%85%9C%E8%98%AD_Paphiopedilum_concolor_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show,_Hong_Kong-_(9216084860).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E5%90%8C%E8%89%B2%E5%85%9C%E8%98%AD_Paphiopedilum_concolor_-%E9%A6%99%E6%B8%AF%E6%B2%99%E7%94%B0%E6%B4%8B%E8%98%AD%E5%B1%95_Shatin_Orchid_Show%2C_Hong_Kong-_%289216084860%29.jpg",
+        "width": 1590,
+        "height": 1284,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:D85 4508 Plant of Thailand Photographed by Trisorn Triboon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:D85_4508_Plant_of_Thailand_Photographed_by_Trisorn_Triboon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/D85_4508_Plant_of_Thailand_Photographed_by_Trisorn_Triboon.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "One World Thailand",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825331",
+      "https://www.iucnredlist.org/species/43320151/43327809",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_concolor",
+      "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_%C4%91%E1%BB%91m"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum armeniacum",
+    "commonNameVi": "Lan hài vàng mơ",
+    "commonNameEn": "Apricot Orange Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/46695/3010661",
+    "gbifKey": 2825659,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Vách đá vôi dốc đứng có lớp mùn mỏng ở độ cao 1.200–2.000 m"
+    },
+    "descriptionVi": "Khi vừa được công bố năm 1982, loài lan hài này đã gây chấn động giới thực vật học bởi sắc vàng hoàng kim chói lọi chưa từng thấy ở chi Paphiopedilum.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Cây bò lan trên vách đá bằng các thân ngầm (stolon) dài tới 15–20 cm, tạo thành từng cụm lan hài vàng rực trên vách núi Vân Nam.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Trường Giang, Trung Quốc",
+      "lat": 30.59,
+      "lng": 114.3
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Paphiopedilum armeniacum markii",
+      "Paphiopedilum armeniacum parviflorum",
+      "Paphiopedilum armeniacum undulatum",
+      "Paphiopedilum armeniacum mark-fun"
+    ],
+    "wikidataId": "Q1935745",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_armeniacum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_armeniacum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 22,
+      "noteVi": "Hoa màu vàng hoàng yến rực rỡ với chiếc túi môi phồng tròn cực lớn"
+    },
+    "distribution": {
+      "countries": [
+        "CN"
+      ],
+      "nativeRangeVi": "Đặc hữu thung lũng sông Nộ Giang (Salween) thuộc tỉnh Vân Nam, Trung Quốc",
+      "elevationM": {
+        "min": 1200,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Khi vừa được công bố năm 1982, loài lan hài này đã gây chấn động giới thực vật học bởi sắc vàng hoàng kim chói lọi chưa từng thấy ở chi Paphiopedilum. Đặc điểm nhận dạng nổi bật: Hoa màu vàng hoàng yến rực rỡ với chiếc túi môi phồng tròn cực lớn.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cây bò lan trên vách đá bằng các thân ngầm (stolon) dài tới 15–20 cm, tạo thành từng cụm lan hài vàng rực trên vách núi Vân Nam.",
+      "Đặc điểm hình thái đặc trưng: Hoa màu vàng hoàng yến rực rỡ với chiếc túi môi phồng tròn cực lớn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum armeniacum 001 GotBot 2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_armeniacum_001_GotBot_2018.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Paphiopedilum_armeniacum_001_GotBot_2018.jpg",
+        "width": 5496,
+        "height": 3670,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Averater",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum 'Dollgoldi', Longwood Gardens 2022 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_%27Dollgoldi%27,_Longwood_Gardens_2022_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Paphiopedilum_%27Dollgoldi%27%2C_Longwood_Gardens_2022_02.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Shuvaev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:杏黃兜蘭 Paphiopedilum armeniacum -台南國際蘭展 Taiwan International Orchid Show- (26028297057).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%8F%E9%BB%83%E5%85%9C%E8%98%AD_Paphiopedilum_armeniacum_-%E5%8F%B0%E5%8D%97%E5%9C%8B%E9%9A%9B%E8%98%AD%E5%B1%95_Taiwan_International_Orchid_Show-_(26028297057).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%E6%9D%8F%E9%BB%83%E5%85%9C%E8%98%AD_Paphiopedilum_armeniacum_-%E5%8F%B0%E5%8D%97%E5%9C%8B%E9%9A%9B%E8%98%AD%E5%B1%95_Taiwan_International_Orchid_Show-_%2826028297057%29.jpg",
+        "width": 2252,
+        "height": 2472,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum armeniacum Orchi 005.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_armeniacum_Orchi_005.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Paphiopedilum_armeniacum_Orchi_005.jpg",
+        "width": 1450,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825659",
+      "https://www.iucnredlist.org/species/46695/3010661",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_armeniacum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_armeniacum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum micranthum",
+    "commonNameVi": "Lan hài hoa nhỏ",
+    "commonNameEn": "Tiny Flowered Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/191772/2002560",
+    "gbifKey": 2825201,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Khe đá vôi hướng bắc lạnh ẩm có rêu trong rừng núi cao 600–1.600 m"
+    },
+    "descriptionVi": "Báu vật của núi đá vôi Đông Bắc Việt Nam với sự tương phản thú vị giữa đôi cánh hoa nhỏ nhắn và chiếc túi môi phồng căng mọng như quả bóng bay màu hồng phấn.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Dù tên khoa học 'micranthum' có nghĩa là 'hoa nhỏ' (do mẫu vật đầu tiên năm 1951 là một nụ hoa chưa nở), khi bung nở chiếc túi môi của nó lại to gấp nhiều lần cánh hoa.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Paphiopedilum globulosum",
+      "Paphiopedilum micranthum alboflavum",
+      "Paphiopedilum micranthum glanzeanum",
+      "Paphiopedilum micranthum kienii"
+    ],
+    "wikidataId": "Q1942763",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_micranthum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_micranthum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 20,
+      "noteVi": "Cánh hoa nhỏ sọc đỏ nhưng chiếc túi môi phồng to khổng lồ màu hồng phấn"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi đá vôi biên giới Cao Bằng, Hà Giang, Tuyên Quang (Việt Nam) và Quảng Tây, Vân Nam (Trung Quốc)",
+      "elevationM": {
+        "min": 600,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Báu vật của núi đá vôi Đông Bắc Việt Nam với sự tương phản thú vị giữa đôi cánh hoa nhỏ nhắn và chiếc túi môi phồng căng mọng như quả bóng bay màu hồng phấn. Đặc điểm nhận dạng nổi bật: Cánh hoa nhỏ sọc đỏ nhưng chiếc túi môi phồng to khổng lồ màu hồng phấn.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Dù tên khoa học 'micranthum' có nghĩa là 'hoa nhỏ' (do mẫu vật đầu tiên năm 1951 là một nụ hoa chưa nở), khi bung nở chiếc túi môi của nó lại to gấp nhiều lần cánh hoa.",
+      "Đặc điểm hình thái đặc trưng: Cánh hoa nhỏ sọc đỏ nhưng chiếc túi môi phồng to khổng lồ màu hồng phấn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum micranthum ' 2305' Tang & F.T.Wang in Acta Phytotax. Sin. 1- 56 (1951) 20250505 214647.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_micranthum_%27_2305%27_Tang_%26_F.T.Wang_in_Acta_Phytotax._Sin._1-_56_(1951)_20250505_214647.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Paphiopedilum_micranthum_%27_2305%27_Tang_%26_F.T.Wang_in_Acta_Phytotax._Sin._1-_56_%281951%29_20250505_214647.jpg",
+        "width": 16512,
+        "height": 11008,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum micranthum '-2103' Tang & F.T.Wang, Acta Phytotax. Sin. 1 56 (1951). (51098800126).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_micranthum_%27-2103%27_Tang_%26_F.T.Wang,_Acta_Phytotax._Sin._1_56_(1951)._(51098800126).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Paphiopedilum_micranthum_%27-2103%27_Tang_%26_F.T.Wang%2C_Acta_Phytotax._Sin._1_56_%281951%29._%2851098800126%29.jpg",
+        "width": 5504,
+        "height": 8256,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum micranthum '2207' Tang & F.T.Wang- Acta Phytotax. Sin. 1- 56 (1951) 20260416 060400.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_micranthum_%272207%27_Tang_%26_F.T.Wang-_Acta_Phytotax._Sin._1-_56_(1951)_20260416_060400.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Paphiopedilum_micranthum_%272207%27_Tang_%26_F.T.Wang-_Acta_Phytotax._Sin._1-_56_%281951%29_20260416_060400.jpg",
+        "width": 10361,
+        "height": 15542,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum micranthum 'Kimika' Tang & F.T.Wang, Acta Phytotax. Sin. 1 56 (1951) (25645385537).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_micranthum_%27Kimika%27_Tang_%26_F.T.Wang,_Acta_Phytotax._Sin._1_56_(1951)_(25645385537).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Paphiopedilum_micranthum_%27Kimika%27_Tang_%26_F.T.Wang%2C_Acta_Phytotax._Sin._1_56_%281951%29_%2825645385537%29.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:廣西玉女兜蘭 Paphiopedilum micranthum v eburneum -台南國際蘭展 Taiwan International Orchid Show- (40859232042).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%BB%A3%E8%A5%BF%E7%8E%89%E5%A5%B3%E5%85%9C%E8%98%AD_Paphiopedilum_micranthum_v_eburneum_-%E5%8F%B0%E5%8D%97%E5%9C%8B%E9%9A%9B%E8%98%AD%E5%B1%95_Taiwan_International_Orchid_Show-_(40859232042).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E5%BB%A3%E8%A5%BF%E7%8E%89%E5%A5%B3%E5%85%9C%E8%98%AD_Paphiopedilum_micranthum_v_eburneum_-%E5%8F%B0%E5%8D%97%E5%9C%8B%E9%9A%9B%E8%98%AD%E5%B1%95_Taiwan_International_Orchid_Show-_%2840859232042%29.jpg",
+        "width": 1820,
+        "height": 2288,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825201",
+      "https://www.iucnredlist.org/species/191772/2002560",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_micranthum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_micranthum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum malipoense",
+    "commonNameVi": "Lan hài xanh",
+    "commonNameEn": "Malipo Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/191737/177442765",
+    "gbifKey": 2825273,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Hốc mùn trên sườn núi đá vôi râm mát độ cao 700–1.500 m"
+    },
+    "descriptionVi": "Loài lan hài quý hiếm mang sắc hoa xanh ngọc bích pha vân nâu hạt dẻ và tỏa hương thơm ngọt ngào như quả mâm xôi hay táo xanh.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Nụ hoa của Lan Hài Xanh Ngọc phát triển cực kỳ chậm rãi: từ khi nhú mèo nụ đến lúc bung nở hoàn toàn mất tới 5–6 tháng.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1933570",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_xanh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_malipoense",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 50,
+      "noteVi": "Cần hoa cao vút tới 50 cm mang bông hoa màu xanh ngọc bích tỏa hương táo chín"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi đá vôi Tây Bắc và Đông Bắc Việt Nam cùng Vân Nam, Quảng Tây (Trung Quốc)",
+      "elevationM": {
+        "min": 700,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài quý hiếm mang sắc hoa xanh ngọc bích pha vân nâu hạt dẻ và tỏa hương thơm ngọt ngào như quả mâm xôi hay táo xanh. Đặc điểm nhận dạng nổi bật: Cần hoa cao vút tới 50 cm mang bông hoa màu xanh ngọc bích tỏa hương táo chín.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Nụ hoa của Lan Hài Xanh Ngọc phát triển cực kỳ chậm rãi: từ khi nhú mèo nụ đến lúc bung nở hoàn toàn mất tới 5–6 tháng.",
+      "Đặc điểm hình thái đặc trưng: Cần hoa cao vút tới 50 cm mang bông hoa màu xanh ngọc bích tỏa hương táo chín."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum malipoense '241002' S.C.Chen & Z.H.Tsi in Acta Phytotax. Sin. 22- 119 (1984) 20260215 031853.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_malipoense_%27241002%27_S.C.Chen_%26_Z.H.Tsi_in_Acta_Phytotax._Sin._22-_119_(1984)_20260215_031853.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Paphiopedilum_malipoense_%27241002%27_S.C.Chen_%26_Z.H.Tsi_in_Acta_Phytotax._Sin._22-_119_%281984%29_20260215_031853.jpg",
+        "width": 16512,
+        "height": 11008,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum malipoense - Internationale Orchideen- und Tillandsienschau Blumengärten Hirschstetten 2016 b.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_malipoense_-_Internationale_Orchideen-_und_Tillandsienschau_Blumeng%C3%A4rten_Hirschstetten_2016_b.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Paphiopedilum_malipoense_-_Internationale_Orchideen-_und_Tillandsienschau_Blumeng%C3%A4rten_Hirschstetten_2016_b.jpg",
+        "width": 3400,
+        "height": 5100,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Manfred Werner - Tsui",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum malipoense 'Suigyoku' S.C.Chen & Z.H.Tsi, Acta Phytotax. Sin. 22 119 (1984) (40453908322).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_malipoense_%27Suigyoku%27_S.C.Chen_%26_Z.H.Tsi,_Acta_Phytotax._Sin._22_119_(1984)_(40453908322).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Paphiopedilum_malipoense_%27Suigyoku%27_S.C.Chen_%26_Z.H.Tsi%2C_Acta_Phytotax._Sin._22_119_%281984%29_%2840453908322%29.jpg",
+        "width": 6200,
+        "height": 4138,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum malipoense at the Pacific Orchid Exposition 2010 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_malipoense_at_the_Pacific_Orchid_Exposition_2010_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Paphiopedilum_malipoense_at_the_Pacific_Orchid_Exposition_2010_1.jpg",
+        "width": 3900,
+        "height": 2616,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guillaume Paumier",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Jade Slipper Orchid 3890.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jade_Slipper_Orchid_3890.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Jade_Slipper_Orchid_3890.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ronincmc",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825273",
+      "https://www.iucnredlist.org/species/191737/177442765",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_malipoense",
+      "https://vi.wikipedia.org/wiki/Lan_h%C3%A0i_xanh"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum insigne",
+    "commonNameVi": "Lan hài rực rỡ",
+    "commonNameEn": "Splendid Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43320499/43327884",
+    "gbifKey": 2825576,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Vách đá vôi và đá sa thạch ẩm cạnh thác nước ở độ cao 1.000–1.500 m"
+    },
+    "descriptionVi": "Loài lan hài lịch sử được đưa về châu Âu từ năm 1819, nổi bật với toàn bộ bề mặt hoa như được phủ một lớp sơn mài bóng loáng.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Là loài chuẩn (type species) của chi Paphiopedilum và là tổ tiên của hàng ngàn giống lan hài lai cổ điển trong các nhà kính Victoria.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula insignis",
+      "Cypripedium albomarginatum",
+      "Cypripedium chantinii",
+      "Cypripedium insigne"
+    ],
+    "wikidataId": "Q1306307",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_insigne",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_insigne",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 35,
+      "noteVi": "Lá xanh trơn và cánh đài lưng xanh vàng viền trắng điểm đốm nâu bóng"
+    },
+    "distribution": {
+      "countries": [
+        "IN"
+      ],
+      "nativeRangeVi": "Đặc hữu bang Meghalaya và vùng đồi Khasi đông bắc Ấn Độ",
+      "elevationM": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài lịch sử được đưa về châu Âu từ năm 1819, nổi bật với toàn bộ bề mặt hoa như được phủ một lớp sơn mài bóng loáng. Đặc điểm nhận dạng nổi bật: Lá xanh trơn và cánh đài lưng xanh vàng viền trắng điểm đốm nâu bóng.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Là loài chuẩn (type species) của chi Paphiopedilum và là tổ tiên của hàng ngàn giống lan hài lai cổ điển trong các nhà kính Victoria.",
+      "Đặc điểm hình thái đặc trưng: Lá xanh trơn và cánh đài lưng xanh vàng viền trắng điểm đốm nâu bóng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum insigne 003 GotBot 2016.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_insigne_003_GotBot_2016.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Paphiopedilum_insigne_003_GotBot_2016.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Averater",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Flor de orquidea marchitandose.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flor_de_orquidea_marchitandose.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flor_de_orquidea_marchitandose.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Koffermejia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flor de Paphiopedilum insigne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flor_de_Paphiopedilum_insigne.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Flor_de_Paphiopedilum_insigne.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Koffermejia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Orquidea y abeja 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orquidea_y_abeja_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Orquidea_y_abeja_02.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Koffermejia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum insigne 'Magnificum', Longwood Gardens 2024 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_insigne_%27Magnificum%27,_Longwood_Gardens_2024_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Paphiopedilum_insigne_%27Magnificum%27%2C_Longwood_Gardens_2024_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Shuvaev",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825576",
+      "https://www.iucnredlist.org/species/43320499/43327884",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_insigne",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_insigne"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum villosum",
+    "commonNameVi": "Lan hài lông",
+    "commonNameEn": "Villose Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/201858/2723582",
+    "gbifKey": 2825586,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Bì sinh trên chạc cây cổ thụ nhiều rêu hoặc hốc đá rừng núi cao 1.100–2.000 m"
+    },
+    "descriptionVi": "Một trong số ít các loài lan hài sống phụ sinh (bám cây) trên các thân gỗ lớn ở rừng sương mù Tây Nguyên và Tây Bắc Việt Nam.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Đường sống dọc chia đôi cánh hoa thành nửa trên màu nâu đỏ đậm và nửa dưới màu vàng lục sáng bóng như quét mật ong.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula boxallii",
+      "Cordula villosa",
+      "Cypripedium boxallii",
+      "Cypripedium dilectum"
+    ],
+    "wikidataId": "Q2245154",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Kim_h%C3%A0i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_villosum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 40,
+      "noteVi": "Cần hoa phủ đầy lông tơ và cánh hoa bóng loáng chia hai nửa màu nâu mật ong - vàng lục"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "LA",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Dãy Trường Sơn, Tây Nguyên (Việt Nam) qua Lào, Thái Lan, Myanmar tới đông bắc Ấn Độ",
+      "elevationM": {
+        "min": 1100,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong số ít các loài lan hài sống phụ sinh (bám cây) trên các thân gỗ lớn ở rừng sương mù Tây Nguyên và Tây Bắc Việt Nam. Đặc điểm nhận dạng nổi bật: Cần hoa phủ đầy lông tơ và cánh hoa bóng loáng chia hai nửa màu nâu mật ong - vàng lục.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Đường sống dọc chia đôi cánh hoa thành nửa trên màu nâu đỏ đậm và nửa dưới màu vàng lục sáng bóng như quét mật ong.",
+      "Đặc điểm hình thái đặc trưng: Cần hoa phủ đầy lông tơ và cánh hoa bóng loáng chia hai nửa màu nâu mật ong - vàng lục."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum villosum (Lindl.) Stein in Orchid.-Buch- 490 (1892) 20260217 094458.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_villosum_(Lindl.)_Stein_in_Orchid.-Buch-_490_(1892)_20260217_094458.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Paphiopedilum_villosum_%28Lindl.%29_Stein_in_Orchid.-Buch-_490_%281892%29_20260217_094458.jpg",
+        "width": 15640,
+        "height": 10427,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum villosum Orchi 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_villosum_Orchi_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Paphiopedilum_villosum_Orchi_001.jpg",
+        "width": 1400,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum villosum (flower, back side).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_villosum_(flower,_back_side).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Paphiopedilum_villosum_%28flower%2C_back_side%29.jpg",
+        "width": 4347,
+        "height": 3260,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum villosum (plant).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_villosum_(plant).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Paphiopedilum_villosum_%28plant%29.jpg",
+        "width": 4363,
+        "height": 3272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum villosum-1-bsi-yercaud-salem-India.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_villosum-1-bsi-yercaud-salem-India.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Paphiopedilum_villosum-1-bsi-yercaud-salem-India.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yercaud-elango",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825586",
+      "https://www.iucnredlist.org/species/201858/2723582",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_villosum",
+      "https://vi.wikipedia.org/wiki/Kim_h%C3%A0i"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum spicerianum",
+    "commonNameVi": "Lan hài Spicer",
+    "commonNameEn": "Spicer’s Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/15052359/15055149",
+    "gbifKey": 2825197,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Hốc đá vôi dựng đứng trên các hẻm núi sông suối độ cao 300–1.300 m"
+    },
+    "descriptionVi": "Dễ dàng nhận diện ngay từ cái nhìn đầu tiên nhờ chiếc cánh đài lưng màu trắng muốt uốn cong như mái vòm có vạch sọc tím chạy dọc chính giữa.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Khiên nhị lép (staminode) ở tâm hoa có màu tím hồng viền trắng với hình dáng giống hệt một chiếc mặt nạ kịch cổ điển.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula spiceriana",
+      "Cypripedium spicerianum",
+      "Cypripedium spicerianum leodiense",
+      "Paphiopedilum spicerianum burkhardii"
+    ],
+    "wikidataId": "Q1310773",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_spicerianum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_spicerianum",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Cánh đài lưng trắng tinh cuộn ngược ra sau với một vạch kẻ tím chính giữa"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Đông bắc Ấn Độ (Assam, Mizoram), tây bắc Myanmar và nam Vân Nam (Trung Quốc)",
+      "elevationM": {
+        "min": 300,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Dễ dàng nhận diện ngay từ cái nhìn đầu tiên nhờ chiếc cánh đài lưng màu trắng muốt uốn cong như mái vòm có vạch sọc tím chạy dọc chính giữa. Đặc điểm nhận dạng nổi bật: Cánh đài lưng trắng tinh cuộn ngược ra sau với một vạch kẻ tím chính giữa.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Khiên nhị lép (staminode) ở tâm hoa có màu tím hồng viền trắng với hình dáng giống hệt một chiếc mặt nạ kịch cổ điển.",
+      "Đặc điểm hình thái đặc trưng: Cánh đài lưng trắng tinh cuộn ngược ra sau với một vạch kẻ tím chính giữa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum spicerianum 'Tibet' (Rchb.f.) Pfitzer in Jahrb. Wiss. Bot. 19- 144 (1888) 20241203 011701.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_spicerianum_%27Tibet%27_(Rchb.f.)_Pfitzer_in_Jahrb._Wiss._Bot._19-_144_(1888)_20241203_011701.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Paphiopedilum_spicerianum_%27Tibet%27_%28Rchb.f.%29_Pfitzer_in_Jahrb._Wiss._Bot._19-_144_%281888%29_20241203_011701.jpg",
+        "width": 16512,
+        "height": 11008,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum spicerianum var. decanensis 'Third' (Rchb.f.) Pfitzer in Jahrb. Wiss. Bot. 19- 144 (1888) 20241120 221100.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_spicerianum_var._decanensis_%27Third%27_(Rchb.f.)_Pfitzer_in_Jahrb._Wiss._Bot._19-_144_(1888)_20241120_221100.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Paphiopedilum_spicerianum_var._decanensis_%27Third%27_%28Rchb.f.%29_Pfitzer_in_Jahrb._Wiss._Bot._19-_144_%281888%29_20241120_221100.jpg",
+        "width": 11008,
+        "height": 16512,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Motohiro Sunouchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum spicerianum, Longwood Gardens 2022 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_spicerianum,_Longwood_Gardens_2022_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Paphiopedilum_spicerianum%2C_Longwood_Gardens_2022_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Shuvaev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum spicerianum-1-bsi-yercaud-salem-India.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_spicerianum-1-bsi-yercaud-salem-India.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Paphiopedilum_spicerianum-1-bsi-yercaud-salem-India.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yercaud-elango",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum spicerianum-BSI-yercaud-salem-India.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_spicerianum-BSI-yercaud-salem-India.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paphiopedilum_spicerianum-BSI-yercaud-salem-India.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yercaud-elango",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825197",
+      "https://www.iucnredlist.org/species/15052359/15055149",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_spicerianum",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_spicerianum"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum lowii",
+    "commonNameVi": "Lan hài Low",
+    "commonNameEn": "Low's Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43321458/43327914",
+    "gbifKey": 2825644,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Phụ sinh trên cành cây cao hoặc vách đá vôi trong rừng nhiệt đới độ cao 200–1.600 m"
+    },
+    "descriptionVi": "Loài lan hài nhiều hoa rực rỡ của quần đảo Mã Lai với hai cánh hoa xoắn duyên dáng, phần gốc vàng đốm nâu chuyển dần sang chóp muỗng màu tím lavender.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Cùng mang tên nhà tự nhiên học Hugh Low như loài Nắp ấm N. lowii, cả hai đều được ông phát hiện trong những chuyến thám hiểm rừng Borneo năm 1847.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Sarawak, Malaysia",
+      "lat": 1.55,
+      "lng": 110.35
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula lowii",
+      "Cypripedium lowii"
+    ],
+    "wikidataId": "Q1312551",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_lowii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_lowii",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 60,
+      "noteVi": "Cần hoa dài mang 3–6 bông với hai cánh hoa xoắn nhẹ có chóp phình rộng màu tím hồng"
+    },
+    "distribution": {
+      "countries": [
+        "MY",
+        "ID"
+      ],
+      "nativeRangeVi": "Bán đảo Mã Lai, Borneo, Sumatra, Java và Sulawesi",
+      "elevationM": {
+        "min": 200,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài nhiều hoa rực rỡ của quần đảo Mã Lai với hai cánh hoa xoắn duyên dáng, phần gốc vàng đốm nâu chuyển dần sang chóp muỗng màu tím lavender. Đặc điểm nhận dạng nổi bật: Cần hoa dài mang 3–6 bông với hai cánh hoa xoắn nhẹ có chóp phình rộng màu tím hồng.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cùng mang tên nhà tự nhiên học Hugh Low như loài Nắp ấm N. lowii, cả hai đều được ông phát hiện trong những chuyến thám hiểm rừng Borneo năm 1847.",
+      "Đặc điểm hình thái đặc trưng: Cần hoa dài mang 3–6 bông với hai cánh hoa xoắn nhẹ có chóp phình rộng màu tím hồng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:U.S. Botanic Garden in April (23991747355).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:U.S._Botanic_Garden_in_April_(23991747355).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/U.S._Botanic_Garden_in_April_%2823991747355%29.jpg",
+        "width": 3600,
+        "height": 2773,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "DC Gardens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paphiopedilum lowii - whole plant.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_lowii_-_whole_plant.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Paphiopedilum_lowii_-_whole_plant.jpg",
+        "width": 1871,
+        "height": 2755,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Fiszka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum lowii (4737189580).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_lowii_(4737189580).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Paphiopedilum_lowii_%284737189580%29.jpg",
+        "width": 1321,
+        "height": 1112,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "David Eickhoff from Pearl City, Hawaii, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paphiopedilum lowii Orchi 052.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_lowii_Orchi_052.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Paphiopedilum_lowii_Orchi_052.jpg",
+        "width": 2000,
+        "height": 1400,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:U.S. Botanic Garden Conservatory (23695530060).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:U.S._Botanic_Garden_Conservatory_(23695530060).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/U.S._Botanic_Garden_Conservatory_%2823695530060%29.jpg",
+        "width": 2000,
+        "height": 1346,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "DC Gardens",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825644",
+      "https://www.iucnredlist.org/species/43321458/43327914",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_lowii",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_lowii"
+    ]
+  },
+  {
+    "scientificName": "Paphiopedilum philippinense",
+    "commonNameVi": "Lan hài Philippines",
+    "commonNameEn": "Philippine Paphiopedilum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Paphiopedilum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài châu Á (Paphiopedilum)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/43321691/43327944",
+    "gbifKey": 2825516,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Đá vôi ven biển đến sườn núi đá vôi thoáng nắng độ cao 0–500 m"
+    },
+    "descriptionVi": "Loài lan hài chịu nhiệt và ưa sáng nổi tiếng của Philippines với những cánh hoa xoắn ốc màu đỏ tía buông rủ bên dưới cánh đài trắng sọc nâu.",
+    "conservationNoteVi": "Xếp mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Là một trong số ít các loài lan hài có thể chịu được ánh nắng trực tiếp buổi sáng trên các mỏm đá san hô sát bờ biển.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Khắp quần đảo Philippines và cực bắc bang Sabah (Borneo)",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cordula philippinensis",
+      "Cypripedium philippinense",
+      "Cypripedium philippinense roebelenii",
+      "Cypripedium roebelenii"
+    ],
+    "wikidataId": "Q1312906",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paphiopedilum_philippinense",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Paphiopedilum_philippinense",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 50,
+      "noteVi": "Cần hoa mang 3–5 bông có cánh hoa xoắn tít như bím tóc màu tím rượu vang dài 15–20 cm"
+    },
+    "distribution": {
+      "countries": [
+        "PH",
+        "MY"
+      ],
+      "nativeRangeVi": "Khắp quần đảo Philippines và cực bắc bang Sabah (Borneo)",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài chịu nhiệt và ưa sáng nổi tiếng của Philippines với những cánh hoa xoắn ốc màu đỏ tía buông rủ bên dưới cánh đài trắng sọc nâu. Đặc điểm nhận dạng nổi bật: Cần hoa mang 3–5 bông có cánh hoa xoắn tít như bím tóc màu tím rượu vang dài 15–20 cm.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Là một trong số ít các loài lan hài có thể chịu được ánh nắng trực tiếp buổi sáng trên các mỏm đá san hô sát bờ biển.",
+      "Đặc điểm hình thái đặc trưng: Cần hoa mang 3–5 bông có cánh hoa xoắn tít như bím tóc màu tím rượu vang dài 15–20 cm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paphiopedilum philippinense (plant).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paphiopedilum_philippinense_(plant).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Paphiopedilum_philippinense_%28plant%29.jpg",
+        "width": 4604,
+        "height": 3453,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:JGP23WorksByMasters Paph.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JGP23WorksByMasters_Paph.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/JGP23WorksByMasters_Paph.jpg",
+        "width": 2400,
+        "height": 3200,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "QuazDelaCruz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:菲律賓兜蘭 Paphiopedilum philippinense -香港青松觀蘭花展 Tuen Mun, Hong Kong- (9252461655).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%8F%B2%E5%BE%8B%E8%B3%93%E5%85%9C%E8%98%AD_Paphiopedilum_philippinense_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun,_Hong_Kong-_(9252461655).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/%E8%8F%B2%E5%BE%8B%E8%B3%93%E5%85%9C%E8%98%AD_Paphiopedilum_philippinense_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun%2C_Hong_Kong-_%289252461655%29.jpg",
+        "width": 2112,
+        "height": 2816,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:兜蘭屬 Paphiopedilum philippinense v laevigatum -香港青松觀蘭花展 Tuen Mun, Hong Kong- (13918154858).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%9C%E8%98%AD%E5%B1%AC_Paphiopedilum_philippinense_v_laevigatum_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun,_Hong_Kong-_(13918154858).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E5%85%9C%E8%98%AD%E5%B1%AC_Paphiopedilum_philippinense_v_laevigatum_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun%2C_Hong_Kong-_%2813918154858%29.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2825516",
+      "https://www.iucnredlist.org/species/43321691/43327944",
+      "https://en.wikipedia.org/wiki/Paphiopedilum_philippinense",
+      "https://vi.wikipedia.org/wiki/Paphiopedilum_philippinense"
+    ]
+  },
+  {
+    "scientificName": "Phragmipedium besseae",
+    "commonNameVi": "Lan hài Besse",
+    "commonNameEn": "Besse's Phragmipedium",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Phragmipedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài Nam Mỹ (Phragmipedium)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43324091/43328054",
+    "gbifKey": 2814289,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Vách đá granit ẩm ướt có nước rỉ liên tục cạnh thác nước độ cao 1.100–1.800 m"
+    },
+    "descriptionVi": "Viên ngọc đỏ rực của dãy núi Andes Nam Mỹ, loài lan hài đã cách mạng hóa ngành lai tạo chi Phragmipedium nhờ sắc đỏ cam phát sáng.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Cây phát triển các thân bò dài tới 30 cm để leo ngược lên các vách đá ướt sũng nước sương mù ven suối Andes.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Thượng nguồn Amazon, Ecuador",
+      "lat": -1.49,
+      "lng": -77.99
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Paphiopedilum besseae",
+      "Phragmipedium besseae flavum",
+      "Phragmipedium besseae besseae"
+    ],
+    "wikidataId": "Q1312983",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Phragmipedium_besseae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phragmipedium_besseae",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 35,
+      "noteVi": "Hoa màu đỏ cam rực lửa với cánh hoa bầu tròn mở phẳng"
+    },
+    "distribution": {
+      "countries": [
+        "EC",
+        "PE",
+        "CO"
+      ],
+      "nativeRangeVi": "Sườn đông dãy Andes thuộc Ecuador, bắc Peru và nam Colombia",
+      "elevationM": {
+        "min": 1100,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Viên ngọc đỏ rực của dãy núi Andes Nam Mỹ, loài lan hài đã cách mạng hóa ngành lai tạo chi Phragmipedium nhờ sắc đỏ cam phát sáng. Đặc điểm nhận dạng nổi bật: Hoa màu đỏ cam rực lửa với cánh hoa bầu tròn mở phẳng.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cây phát triển các thân bò dài tới 30 cm để leo ngược lên các vách đá ướt sũng nước sương mù ven suối Andes.",
+      "Đặc điểm hình thái đặc trưng: Hoa màu đỏ cam rực lửa với cánh hoa bầu tròn mở phẳng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Phragmipedium besseae 'Limon' Dodson & J.Kuhn, Amer. Orchid Soc. Bull. 50 1308 (1981) (26216401887).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_besseae_%27Limon%27_Dodson_%26_J.Kuhn,_Amer._Orchid_Soc._Bull._50_1308_(1981)_(26216401887).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Phragmipedium_besseae_%27Limon%27_Dodson_%26_J.Kuhn%2C_Amer._Orchid_Soc._Bull._50_1308_%281981%29_%2826216401887%29.jpg",
+        "width": 7063,
+        "height": 4714,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Phragmipedium besseae (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_besseae_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Phragmipedium_besseae_%281%29.jpg",
+        "width": 3012,
+        "height": 4018,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Eric Hunt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Phargmipedium besseae (14792627660).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phargmipedium_besseae_(14792627660).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Phargmipedium_besseae_%2814792627660%29.jpg",
+        "width": 2432,
+        "height": 3648,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "trixty",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phragmipedium besseae GotBot 2015 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_besseae_GotBot_2015_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Phragmipedium_besseae_GotBot_2015_001.jpg",
+        "width": 5496,
+        "height": 3670,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Averater",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phragmipedium besseae - Flickr - blumenbiene.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_besseae_-_Flickr_-_blumenbiene.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Phragmipedium_besseae_-_Flickr_-_blumenbiene.jpg",
+        "width": 3656,
+        "height": 2437,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Maja Dumat from Deutschland (Germany)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2814289",
+      "https://www.iucnredlist.org/species/43324091/43328054",
+      "https://en.wikipedia.org/wiki/Phragmipedium_besseae",
+      "https://vi.wikipedia.org/wiki/Phragmipedium_besseae"
+    ]
+  },
+  {
+    "scientificName": "Phragmipedium caudatum",
+    "commonNameVi": "Lan hài đuôi dài",
+    "commonNameEn": "Tailed Phragmipedium",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Phragmipedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài Nam Mỹ (Phragmipedium)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/43324225/43328074",
+    "gbifKey": 2814310,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Phụ sinh trên cành cây phủ rêu hoặc vách đá ẩm ở độ cao 1.000–2.500 m"
+    },
+    "descriptionVi": "Đối trọng Nam Mỹ của Lan Hài Râu Dài P. sanderianum với đôi cánh hoa xoắn như dải ruy-băng dài hơn nửa mét.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Khi nụ hoa mới hé mở, cánh hoa chỉ dài khoảng 8–10 cm nhưng sẽ vươn dài thêm tới 4–5 cm mỗi ngày cho tới khi chạm đất hoặc giá thể.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "? warscewiczianum",
+      "Cypripedium caudatum",
+      "Cypripedium warsczewiczianum",
+      "Paphiopedilum caudatum"
+    ],
+    "wikidataId": "Q1312662",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Phragmipedium_caudatum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phragmipedium_caudatum",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 60,
+      "noteVi": "Hai cánh hoa bên kéo dài liên tục sau khi nở tới 50–75 cm"
+    },
+    "distribution": {
+      "countries": [
+        "PE",
+        "EC",
+        "BO"
+      ],
+      "nativeRangeVi": "Rừng mây sườn đông dãy Andes từ Ecuador qua Peru đến Bolivia",
+      "elevationM": {
+        "min": 1000,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Đối trọng Nam Mỹ của Lan Hài Râu Dài P. sanderianum với đôi cánh hoa xoắn như dải ruy-băng dài hơn nửa mét. Đặc điểm nhận dạng nổi bật: Hai cánh hoa bên kéo dài liên tục sau khi nở tới 50–75 cm.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Khi nụ hoa mới hé mở, cánh hoa chỉ dài khoảng 8–10 cm nhưng sẽ vươn dài thêm tới 4–5 cm mỗi ngày cho tới khi chạm đất hoặc giá thể.",
+      "Đặc điểm hình thái đặc trưng: Hai cánh hoa bên kéo dài liên tục sau khi nở tới 50–75 cm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Phragmipedium caudatum Orchi 003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_caudatum_Orchi_003.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Phragmipedium_caudatum_Orchi_003.jpg",
+        "width": 3000,
+        "height": 2100,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Orchi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Phragmipedium caudatum - Flickr 003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_caudatum_-_Flickr_003.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Phragmipedium_caudatum_-_Flickr_003.jpg",
+        "width": 2592,
+        "height": 3872,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Elena Gaillard from New York, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phragmipedium caudatum (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_caudatum_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Phragmipedium_caudatum_%281%29.jpg",
+        "width": 2043,
+        "height": 2814,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Philipp Weigell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:長瓣美洲兜蘭 Phragmipedium caudatum -上海辰山植物園 Shanghai Chenshan Botanical Garden- (17113740080).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E7%93%A3%E7%BE%8E%E6%B4%B2%E5%85%9C%E8%98%AD_Phragmipedium_caudatum_-%E4%B8%8A%E6%B5%B7%E8%BE%B0%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9C%92_Shanghai_Chenshan_Botanical_Garden-_(17113740080).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/%E9%95%B7%E7%93%A3%E7%BE%8E%E6%B4%B2%E5%85%9C%E8%98%AD_Phragmipedium_caudatum_-%E4%B8%8A%E6%B5%B7%E8%BE%B0%E5%B1%B1%E6%A4%8D%E7%89%A9%E5%9C%92_Shanghai_Chenshan_Botanical_Garden-_%2817113740080%29.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "阿橋 HQ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phragmipedium caudatum 1zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phragmipedium_caudatum_1zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Phragmipedium_caudatum_1zz.jpg",
+        "width": 1000,
+        "height": 665,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2814310",
+      "https://www.iucnredlist.org/species/43324225/43328074",
+      "https://en.wikipedia.org/wiki/Phragmipedium_caudatum",
+      "https://vi.wikipedia.org/wiki/Phragmipedium_caudatum"
+    ]
+  },
+  {
+    "scientificName": "Cypripedium calceolus",
+    "commonNameVi": "Lan hài châu Âu",
+    "commonNameEn": "Lady's Slipper Orchid",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Cypripedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài ôn đới (Cypripedium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/162021/43316125",
+    "gbifKey": 2820517,
+    "environment": {
+      "tempMin": 5,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Rừng lá rộng rụng lá và rừng thông thưa trên nền đất đá vôi ẩm mát"
+    },
+    "descriptionVi": "Loài lan hài ôn đới biểu tượng của châu Âu với sự phối màu cổ điển giữa chiếc hài vàng tươi bóng bẩy và bộ cánh màu nâu hạt dẻ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Cây ngủ đông hoàn toàn dưới lòng đất băng tuyết suốt mùa đông châu Âu và chỉ đâm chồi nở hoa khi băng tan vào tháng Năm.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Calceolus alternifolius",
+      "Calceolus marianus",
+      "Cypripedilon marianus",
+      "Cypripedilum calceolus"
+    ],
+    "wikidataId": "Q156124",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cypripedium_calceolus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cypripedium_calceolus",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 60,
+      "noteVi": "Cánh hoa màu nâu sô-cô-la xoắn nhẹ bao quanh chiếc túi môi màu vàng tươi"
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "AT",
+        "CH",
+        "PL",
+        "RU",
+        "CN"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp lục địa Á - Âu từ Tây Âu qua Siberia tới đông bắc Trung Quốc",
+      "elevationM": {
+        "min": 100,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài ôn đới biểu tượng của châu Âu với sự phối màu cổ điển giữa chiếc hài vàng tươi bóng bẩy và bộ cánh màu nâu hạt dẻ. Đặc điểm nhận dạng nổi bật: Cánh hoa màu nâu sô-cô-la xoắn nhẹ bao quanh chiếc túi môi màu vàng tươi.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cây ngủ đông hoàn toàn dưới lòng đất băng tuyết suốt mùa đông châu Âu và chỉ đâm chồi nở hoa khi băng tan vào tháng Năm.",
+      "Đặc điểm hình thái đặc trưng: Cánh hoa màu nâu sô-cô-la xoắn nhẹ bao quanh chiếc túi môi màu vàng tươi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2026.05.17 011 Střevíčník pantoflíček.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2026.05.17_011_St%C5%99ev%C3%AD%C4%8Dn%C3%ADk_pantofl%C3%AD%C4%8Dek.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/2026.05.17_011_St%C5%99ev%C3%AD%C4%8Dn%C3%ADk_pantofl%C3%AD%C4%8Dek.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "ProKesTom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20260516 Cypripedium calceolus 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20260516_Cypripedium_calceolus_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/20260516_Cypripedium_calceolus_04.jpg",
+        "width": 2681,
+        "height": 4016,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Flocci Nivis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Cypripedium calceolus - Kaunis kuldking Keila.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_calceolus_-_Kaunis_kuldking_Keila.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cypripedium_calceolus_-_Kaunis_kuldking_Keila.jpg",
+        "width": 4500,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ivar Leidus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium calceolus Башмачок настоящий.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_calceolus_%D0%91%D0%B0%D1%88%D0%BC%D0%B0%D1%87%D0%BE%D0%BA_%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cypripedium_calceolus_%D0%91%D0%B0%D1%88%D0%BC%D0%B0%D1%87%D0%BE%D0%BA_%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B9.jpg",
+        "width": 4211,
+        "height": 3158,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Avustfel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium calceolus Burgberg 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_calceolus_Burgberg_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cypripedium_calceolus_Burgberg_02.jpg",
+        "width": 2672,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dehio",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2820517",
+      "https://www.iucnredlist.org/species/162021/43316125",
+      "https://en.wikipedia.org/wiki/Cypripedium_calceolus",
+      "https://vi.wikipedia.org/wiki/Cypripedium_calceolus"
+    ]
+  },
+  {
+    "scientificName": "Cypripedium reginae",
+    "commonNameVi": "Lan hài nữ hoàng",
+    "commonNameEn": "Showy Lady's Slipper",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Cypripedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài ôn đới (Cypripedium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/43316825/43327719",
+    "gbifKey": 2820340,
+    "environment": {
+      "tempMin": 5,
+      "tempMax": 23,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Đầm lầy rêu trung tính đến hơi kiềm và bờ rừng ẩm"
+    },
+    "descriptionVi": "Một trong những loài lan địa sinh lộng lẫy nhất Bắc Mỹ và là quốc hoa của tiểu bang Minnesota (Hoa Kỳ).",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Một bụi Lan Hài Nữ Hoàng lâu năm ngoài tự nhiên có thể sống trên 50 năm và đẻ hàng chục thân mang hoa nở cùng lúc.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Calceolus reginae",
+      "Cypripedium album",
+      "Cypripedium canadense",
+      "Cypripedium hirsutum album"
+    ],
+    "wikidataId": "Q977605",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cypripedium_reginae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cypripedium_reginae",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 80,
+      "noteVi": "Cánh đài trắng muốt và túi môi tròn phồng màu hồng dâu rực rỡ"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Đông bắc Hoa Kỳ và miền đông - trung Canada",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài lan địa sinh lộng lẫy nhất Bắc Mỹ và là quốc hoa của tiểu bang Minnesota (Hoa Kỳ). Đặc điểm nhận dạng nổi bật: Cánh đài trắng muốt và túi môi tròn phồng màu hồng dâu rực rỡ.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Một bụi Lan Hài Nữ Hoàng lâu năm ngoài tự nhiên có thể sống trên 50 năm và đẻ hàng chục thân mang hoa nở cùng lúc.",
+      "Đặc điểm hình thái đặc trưng: Cánh đài trắng muốt và túi môi tròn phồng màu hồng dâu rực rỡ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cypripedium reginae fma. album '-190405' Walter, Fl. Carol. 222 (1788) (48031277401).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_reginae_fma._album_%27-190405%27_Walter,_Fl._Carol._222_(1788)_(48031277401).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cypripedium_reginae_fma._album_%27-190405%27_Walter%2C_Fl._Carol._222_%281788%29_%2848031277401%29.jpg",
+        "width": 8097,
+        "height": 5398,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cypripedium reginae '-190401' Walter, Fl. Carol. 222 (1788) (48036513113) (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_reginae_%27-190401%27_Walter,_Fl._Carol._222_(1788)_(48036513113)_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cypripedium_reginae_%27-190401%27_Walter%2C_Fl._Carol._222_%281788%29_%2848036513113%29_%28cropped%29.jpg",
+        "width": 4526,
+        "height": 5158,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:030705-northern-minnesota-pink-and-white-showy-ladys-slippers.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:030705-northern-minnesota-pink-and-white-showy-ladys-slippers.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/030705-northern-minnesota-pink-and-white-showy-ladys-slippers.jpg",
+        "width": 1135,
+        "height": 1014,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "The original uploader was S Carpenter at English Wikipedia .",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium reginae '-190402' Walter, Fl. Carol. 222 (1788) (48036583032).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_reginae_%27-190402%27_Walter,_Fl._Carol._222_(1788)_(48036583032).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cypripedium_reginae_%27-190402%27_Walter%2C_Fl._Carol._222_%281788%29_%2848036583032%29.jpg",
+        "width": 5263,
+        "height": 7894,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium reginae - Presqu'ile.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_reginae_-_Presqu%27ile.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Cypripedium_reginae_-_Presqu%27ile.jpg",
+        "width": 3085,
+        "height": 4550,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "The Cosmonaut",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2820340",
+      "https://www.iucnredlist.org/species/43316825/43327719",
+      "https://en.wikipedia.org/wiki/Cypripedium_reginae",
+      "https://vi.wikipedia.org/wiki/Cypripedium_reginae"
+    ]
+  }
+]

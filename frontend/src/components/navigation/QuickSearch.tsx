@@ -5,7 +5,7 @@ import { Search, X, Compass, Layers, ShoppingBag, Dna, ArrowRight } from 'lucide
 import { APP_ROUTES } from '@/app/routes';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
-import { useProducts } from '@/api/queries/useProductQueries';
+import { useAllApprovedProducts } from '@/api/queries/useProductQueries';
 import { useAuthState } from '@/api/queries/useAuthQueries';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { Kbd } from '@/components/ui/Kbd';
@@ -46,6 +46,7 @@ export interface QuickSearchProps {
 
 // Loài gợi ý khi chưa gõ gì: tra theo tên khoa học, không theo id
 const FEATURED_SPECIES = ['Ambystoma mexicanum', 'Python regius', 'Nepenthes rajah'];
+const RESULT_CAPS: Partial<Record<QuickSearchCategory, number>> = { species: 8, product: 6 };
 
 export const QuickSearch: React.FC<QuickSearchProps> = ({
   isOpen: controlledIsOpen,
@@ -92,7 +93,7 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
   const navigate = useNavigate();
   const auth = useAuthState();
   const { data: speciesList = [] } = useSpeciesList();
-  const { data: productPage } = useProducts({ size: 48 });
+  const { data: allProducts } = useAllApprovedProducts();
 
   // Kho dữ liệu tìm kiếm dựng từ API
   const allItems = useMemo<QuickSearchItem[]>(() => {
@@ -107,7 +108,7 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
         title: sp.displayName,
         subtitle: `${sp.scientificName} · ${sp.englishName || sp.commonName}`,
         iucnCode: sp.conservationStatus,
-        imageUrl: sp.heroPhoto,
+        imageUrl: sp.cardPhoto,
         iconName: 'species',
         url: `/species/${sp.id}`,
         keywords: [sp.scientificName, sp.commonName, sp.displayName, sp.englishName, sp.slug, sp.group, sp.conservationStatus].filter(Boolean),
@@ -115,7 +116,7 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
     });
 
     // 2. Nhóm sản phẩm đang bán (API chỉ trả APPROVED)
-    (productPage?.items ?? []).forEach((prod) => {
+    (allProducts ?? []).forEach((prod) => {
       items.push({
         id: `prod-${prod.id}`,
         category: 'product',
@@ -152,7 +153,7 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
     });
 
     return items;
-  }, [speciesList, productPage, auth.accountType]);
+  }, [speciesList, allProducts, auth.accountType]);
 
   const featuredSpeciesIds = useMemo(
     () => new Set(speciesList.filter((sp) => FEATURED_SPECIES.includes(sp.scientificName)).map((sp) => `sp-${sp.id}`)),
@@ -179,12 +180,48 @@ function QuickSearchDialog({ onRequestClose }: { onRequestClose: () => void }): 
       );
     }
 
-    return allItems.filter((item) => {
+    const matched = allItems.filter((item) => {
       const matchTitle = normalizeSearchString(item.title).includes(q);
       const matchSub = item.subtitle ? normalizeSearchString(item.subtitle).includes(q) : false;
       const matchKeywords = item.keywords.some((kw) => normalizeSearchString(kw).includes(q));
       return matchTitle || matchSub || matchKeywords;
     });
+    // Hơn 600 loài và 400 sản phẩm: chỉ hiện vài kết quả đầu mỗi nhóm, phần còn lại mở ở trang danh sách
+    const seen: Partial<Record<QuickSearchCategory, number>> = {};
+    const capped = matched.filter((item) => {
+      const cap = RESULT_CAPS[item.category];
+      if (!cap) return true;
+      seen[item.category] = (seen[item.category] ?? 0) + 1;
+      return seen[item.category]! <= cap;
+    });
+    const extra: QuickSearchItem[] = [];
+    const speciesMatches = matched.filter((i) => i.category === 'species').length;
+    const productMatches = matched.filter((i) => i.category === 'product').length;
+    if (speciesMatches > RESULT_CAPS.species!) {
+      extra.push({
+        id: 'nav-more-species',
+        category: 'navigation',
+        categoryLabel: 'Điều hướng',
+        title: `Xem cả ${speciesMatches} loài khớp "${query.trim()}"`,
+        subtitle: 'Mở Bách khoa loài với từ khoá này',
+        iconName: 'species',
+        url: `/species?q=${encodeURIComponent(query.trim())}`,
+        keywords: [],
+      });
+    }
+    if (productMatches > RESULT_CAPS.product!) {
+      extra.push({
+        id: 'nav-more-products',
+        category: 'navigation',
+        categoryLabel: 'Điều hướng',
+        title: `Xem cả ${productMatches} cá thể khớp "${query.trim()}"`,
+        subtitle: 'Mở sàn sinh vật cảnh với từ khoá này',
+        iconName: 'product',
+        url: `/products?q=${encodeURIComponent(query.trim())}`,
+        keywords: [],
+      });
+    }
+    return [...capped, ...extra];
   }, [allItems, query, featuredSpeciesIds]);
 
   // Phân nhóm kết quả
@@ -415,7 +452,7 @@ function isApplePlatform(): boolean {
   return /Mac|iPhone|iPad|iPod/i.test(navigator.platform || navigator.userAgent);
 }
 
-/** Nút mở tìm kiếm: chỉ có icon khi header chật, đủ chữ và phím tắt từ màn rộng xl */
+/** Nút mở tìm kiếm: chỉ có icon khi header chật, có chữ từ màn rộng xl. Phím tắt vẫn chạy nhưng không hiện nhãn cho header gọn */
 export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: string }> = ({
   onClick,
   className = '',
@@ -427,7 +464,7 @@ export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: st
       onClick={onClick}
       aria-label={`Mở tìm kiếm nhanh (${shortcut.replace(' ', '+')})`}
       className={cn(
-        'group flex h-9 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface-2/60 text-sm text-fg-2 transition-colors hover:border-accent/40 hover:bg-surface-hover hover:text-fg max-xl:w-9 xl:w-56 xl:justify-between xl:pr-1.5 xl:pl-3.5',
+        'group flex h-9 shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface-2/60 text-sm text-fg-2 transition-colors hover:border-accent/40 hover:bg-surface-hover hover:text-fg max-xl:w-9 xl:w-52 xl:justify-start xl:px-3.5',
         className
       )}
     >
@@ -435,7 +472,6 @@ export const QuickSearchTrigger: React.FC<{ onClick?: () => void; className?: st
         <Search className="size-4 text-accent" aria-hidden="true" />
         <span className="hidden xl:inline">Tìm loài, sản phẩm</span>
       </span>
-      <Kbd className="hidden xl:inline-flex">{shortcut}</Kbd>
     </button>
   );
 };

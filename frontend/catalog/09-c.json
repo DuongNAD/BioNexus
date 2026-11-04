@@ -1,0 +1,3367 @@
+[
+  {
+    "scientificName": "Grus antigone",
+    "commonNameVi": "Sếu đầu đỏ",
+    "commonNameEn": "Sarus Crane",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "genus": "Grus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sếu (Gruiformes)",
+      "family": "Họ Sếu (Gruidae)",
+      "genus": "Chi Sếu (Grus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22692064/225108915",
+    "gbifKey": 2474945,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ ngập nước theo mùa có nhiều cây năng kim (Eleocharis) và đầm lầy đất thấp độ cao 0–300 m"
+    },
+    "descriptionVi": "Loài chim biết bay cao lớn nhất hành tinh và là biểu tượng sinh thái thiêng liêng của vùng đất ngập nước Đồng Tháp Mười (Vườn quốc gia Tràm Chim).",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Sếu Đầu Đỏ nổi tiếng chung thủy trọn đời: các cặp đôi kết bạn suốt cuộc đời và thực hiện vũ điệu tung hứng giao duyên uyển chuyển mỗi mùa xuân.",
+    "dietVi": "Ăn củ năng kim dưới bùn ngập nước, hạt lúa ma, côn trùng nước, cá và ếch nhái",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Antigone antigone",
+      "Antigone antigone antigone",
+      "Antigone australasiana",
+      "Ardea antigone"
+    ],
+    "wikidataId": "Q28114126",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Antigone_antigone",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sarus_crane",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 150,
+      "lengthCmMax": 176,
+      "weightGMin": 6000,
+      "weightGMax": 8500,
+      "heightCmMax": null,
+      "noteVi": "Loài chim biết bay cao nhất thế giới với bộ lông xám bạc và phần đầu cùng cổ trên màu đỏ tươi"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "MM",
+        "IN",
+        "AU"
+      ],
+      "nativeRangeVi": "Nam Á, Đông Nam Á (đồng bằng sông Cửu Long - Vườn quốc gia Tràm Chim, Campuchia) và bắc Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài chim biết bay cao lớn nhất hành tinh và là biểu tượng sinh thái thiêng liêng của vùng đất ngập nước Đồng Tháp Mười (Vườn quốc gia Tràm Chim). Đặc điểm nhận dạng: Loài chim biết bay cao nhất thế giới với bộ lông xám bạc và phần đầu cùng cổ trên màu đỏ tươi.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại đồng cỏ ngập nước theo mùa có nhiều cây năng kim (eleocharis) và đầm lầy đất thấp độ cao 0–300 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sếu Đầu Đỏ nổi tiếng chung thủy trọn đời: các cặp đôi kết bạn suốt cuộc đời và thực hiện vũ điệu tung hứng giao duyên uyển chuyển mỗi mùa xuân.",
+      "Đặc điểm nhận diện tiêu biểu: Loài chim biết bay cao nhất thế giới với bộ lông xám bạc và phần đầu cùng cổ trên màu đỏ tươi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A couple of Sarus Crane.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_couple_of_Sarus_Crane.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/A_couple_of_Sarus_Crane.jpg",
+        "width": 7952,
+        "height": 5304,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maya.Xu",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chim Hạc ở Vườn Quốc Gia Tràm Chim.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chim_H%E1%BA%A1c_%E1%BB%9F_V%C6%B0%E1%BB%9Dn_Qu%E1%BB%91c_Gia_Tr%C3%A0m_Chim.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Chim_H%E1%BA%A1c_%E1%BB%9F_V%C6%B0%E1%BB%9Dn_Qu%E1%BB%91c_Gia_Tr%C3%A0m_Chim.jpg",
+        "width": 2960,
+        "height": 1844,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Nhthien",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Birds from the enlightened one's place ( Gautam Buddha ).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Birds_from_the_enlightened_one%27s_place_(_Gautam_Buddha_).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Birds_from_the_enlightened_one%27s_place_%28_Gautam_Buddha_%29.jpg",
+        "width": 3657,
+        "height": 2926,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nishant Sharma Parajuli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A pair of bird calling.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_pair_of_bird_calling.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/A_pair_of_bird_calling.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "วิชิต กองคำ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Crane (bird) Sarus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Crane_(bird)_Sarus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Crane_%28bird%29_Sarus.jpg",
+        "width": 4800,
+        "height": 3200,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mohammad Ayub Musalman",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2474945",
+      "https://www.iucnredlist.org/species/22692064/225108915",
+      "https://en.wikipedia.org/wiki/Sarus_crane",
+      "https://vi.wikipedia.org/wiki/Antigone_antigone"
+    ]
+  },
+  {
+    "scientificName": "Leptoptilos javanicus",
+    "commonNameVi": "Già đẫy nhỏ",
+    "commonNameEn": "Lesser Adjutant",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Ciconiiformes",
+      "family": "Ciconiidae",
+      "genus": "Leptoptilos"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hạc (Ciconiiformes)",
+      "family": "Họ Hạc (Ciconiidae)",
+      "genus": "Chi Già đẫy (Leptoptilos)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22697713/232128569",
+    "gbifKey": 2481947,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ngập mặn ven biển, bãi bùn cửa sông và đầm lầy rừng tràm độ cao 0–300 m"
+    },
+    "descriptionVi": "Loài chim họ Hạc khổng lồ với dáng đi khoan thai nghiêm nghị như một sĩ quan quân đội, gắn liền với các hệ sinh thái đất ngập nước Nam Bộ.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Không có cơ quan phát âm thanh ở thanh quản, Già Đẫy giao tiếp tại tổ bằng cách gõ hai hàm mỏ khổng lồ vào nhau tạo ra tiếng 'lách cách' vang xa.",
+    "dietVi": "Săn cá thòi lòi, lươn, cua biển, ếch nhái và bò sát trên bãi bùn ngập mặn",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ciconia javanica"
+    ],
+    "wikidataId": "Q607893",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gi%C3%A0_%C4%91%E1%BA%ABy_Java",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lesser_adjutant",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 120,
+      "weightGMin": 4000,
+      "weightGMax": 5500,
+      "heightCmMax": null,
+      "noteVi": "Đầu và cổ trần màu vàng cam hồng lưa thưa tóc tơ, chiếc mỏ hình nêm khổng lồ và lưng cánh đen ánh lục"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "LK"
+      ],
+      "nativeRangeVi": "Nam Á và Đông Nam Á (tại Việt Nam có ở rừng ngập mặn Cần Giờ, U Minh và Cát Tiên)",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài chim họ Hạc khổng lồ với dáng đi khoan thai nghiêm nghị như một sĩ quan quân đội, gắn liền với các hệ sinh thái đất ngập nước Nam Bộ. Đặc điểm nhận dạng: Đầu và cổ trần màu vàng cam hồng lưa thưa tóc tơ, chiếc mỏ hình nêm khổng lồ và lưng cánh đen ánh lục.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng ngập mặn ven biển, bãi bùn cửa sông và đầm lầy rừng tràm độ cao 0–300 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Không có cơ quan phát âm thanh ở thanh quản, Già Đẫy giao tiếp tại tổ bằng cách gõ hai hàm mỏ khổng lồ vào nhau tạo ra tiếng 'lách cách' vang xa.",
+      "Đặc điểm nhận diện tiêu biểu: Đầu và cổ trần màu vàng cam hồng lưa thưa tóc tơ, chiếc mỏ hình nêm khổng lồ và lưng cánh đen ánh lục."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20190817162246 IMG 0214.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20190817162246_IMG_0214.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/20190817162246_IMG_0214.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Patrick Sangma",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:DSC01219 Lesser Adjutant leptoptilos javanicus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC01219_Lesser_Adjutant_leptoptilos_javanicus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DSC01219_Lesser_Adjutant_leptoptilos_javanicus.jpg",
+        "width": 2592,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jaywithdev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bird Lesser Adjutant IMG 4698.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bird_Lesser_Adjutant_IMG_4698.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bird_Lesser_Adjutant_IMG_4698.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Big bird of Sundarban.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Big_bird_of_Sundarban.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Big_bird_of_Sundarban.jpg",
+        "width": 7341,
+        "height": 4924,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dr Swapan Kr Dey",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Birds of Shundarban II (6768968341).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Birds_of_Shundarban_II_(6768968341).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Birds_of_Shundarban_II_%286768968341%29.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Faisal Akram from Dhaka, Bangladesh",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2481947",
+      "https://www.iucnredlist.org/species/22697713/232128569",
+      "https://en.wikipedia.org/wiki/Lesser_adjutant",
+      "https://vi.wikipedia.org/wiki/Gi%C3%A0_%C4%91%E1%BA%ABy_Java"
+    ]
+  },
+  {
+    "scientificName": "Mycteria leucocephala",
+    "commonNameVi": "Cò lạo Ấn Độ",
+    "commonNameEn": "Painted Stork",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Ciconiiformes",
+      "family": "Ciconiidae",
+      "genus": "Mycteria"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hạc (Ciconiiformes)",
+      "family": "Họ Hạc (Ciconiidae)",
+      "genus": "Chi Giang sen (Mycteria)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22697658/228020407",
+    "gbifKey": 2481938,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy nước ngọt nông, cánh đồng ngập nước và rừng ngập mặn độ cao 0–300 m"
+    },
+    "descriptionVi": "Loài cò hạc tuyệt đẹp với chùm lông cánh và lông đuôi nhuộm màu hồng cánh sen tươi thắm như một bức tranh thủy mặc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN và thuộc Nhóm IIB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Khi kiếm ăn ở vùng nước đục, Giang Sen hé mở mỏ nhúng xuống nước đồng thời dùng một chân khuấy bùn để xua cá chạm vào mỏ rồi đớp gọn trong 25 phần nghìn giây.",
+    "dietVi": "Săn cá nhỏ, ếch nhái, cua ốc và côn trùng thủy sinh",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ibis leucocephalus",
+      "Tantalus leucocephalus"
+    ],
+    "wikidataId": "Q631805",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Giang_sen",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Painted_stork",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 93,
+      "lengthCmMax": 102,
+      "weightGMin": 2500,
+      "weightGMax": 3500,
+      "heightCmMax": null,
+      "noteVi": "Mỏ vàng cam dài hơi cong xuống ở chóp, ngực có dải đai đen vắt ngang và lông bao đuôi màu hồng sen rực rỡ"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "TH",
+        "MM",
+        "IN",
+        "LK"
+      ],
+      "nativeRangeVi": "Nam Á và Đông Nam Á lục địa (đồng bằng sông Cửu Long, Biển Hồ Campuchia)",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cò hạc tuyệt đẹp với chùm lông cánh và lông đuôi nhuộm màu hồng cánh sen tươi thắm như một bức tranh thủy mặc. Đặc điểm nhận dạng: Mỏ vàng cam dài hơi cong xuống ở chóp, ngực có dải đai đen vắt ngang và lông bao đuôi màu hồng sen rực rỡ.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại đầm lầy nước ngọt nông, cánh đồng ngập nước và rừng ngập mặn độ cao 0–300 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi kiếm ăn ở vùng nước đục, Giang Sen hé mở mỏ nhúng xuống nước đồng thời dùng một chân khuấy bùn để xua cá chạm vào mỏ rồi đớp gọn trong 25 phần nghìn giây.",
+      "Đặc điểm nhận diện tiêu biểu: Mỏ vàng cam dài hơi cong xuống ở chóp, ngực có dải đai đen vắt ngang và lông bao đuôi màu hồng sen rực rỡ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Immature painted stork group.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Immature_painted_stork_group.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Immature_painted_stork_group.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "vasudevan nishanth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Painted Stork by Tisha Mukherjee 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Painted_Stork_by_Tisha_Mukherjee_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Painted_Stork_by_Tisha_Mukherjee_02.jpg",
+        "width": 3097,
+        "height": 4130,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tisha Mukherjee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Painted Storks at Badhaiya Lake Bardia Nepal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Painted_Storks_at_Badhaiya_Lake_Bardia_Nepal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Painted_Storks_at_Badhaiya_Lake_Bardia_Nepal.jpg",
+        "width": 3600,
+        "height": 2400,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rawalams",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A Painted stork (Mycteria leucocephala) roosting.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Painted_stork_(Mycteria_leucocephala)_roosting.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/A_Painted_stork_%28Mycteria_leucocephala%29_roosting.jpg",
+        "width": 4761,
+        "height": 2826,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Murugavel.T",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:BirdWalk at Pullazhi, Kole Wetlands Thrissur 116.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BirdWalk_at_Pullazhi,_Kole_Wetlands_Thrissur_116.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/BirdWalk_at_Pullazhi%2C_Kole_Wetlands_Thrissur_116.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Manojk",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2481938",
+      "https://www.iucnredlist.org/species/22697658/228020407",
+      "https://en.wikipedia.org/wiki/Painted_stork",
+      "https://vi.wikipedia.org/wiki/Giang_sen"
+    ]
+  },
+  {
+    "scientificName": "Platalea minor",
+    "commonNameVi": "Cò thìa",
+    "commonNameEn": "Black-faced Spoonbill",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Threskiornithidae",
+      "genus": "Platalea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Bồ nông (Pelecaniformes)",
+      "family": "Họ Cò quăm (Threskiornithidae)",
+      "genus": "Chi Cò thìa (Platalea)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22697568/154689773",
+    "gbifKey": 2480805,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bãi bồi cửa sông ven biển, rừng ngập mặn và đầm nuôi trồng thủy sản quảng canh độ cao 0–50 m"
+    },
+    "descriptionVi": "Loài chim di cư quý hiếm bậc nhất đường bay Đông Á - Úc, hàng năm bay hàng ngàn kilômét về trú đông tại Vườn quốc gia Xuân Thủy (Nam Định).",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Đầu mỏ hình chiếc thìa của loài chim này có hàng ngàn thụ thể cảm ứng cơ học giúp nó quét ngang trong nước bùn đục ngầu và cảm nhận ngay lập tức khi chạm vào một con tôm cá.",
+    "dietVi": "Săn cá nhỏ, tôm tép và giáp xác trên bãi bùn thủy triều",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q494544",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%B2_th%C3%ACa_m%E1%BA%B7t_%C4%91en",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Black-faced_spoonbill",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 68,
+      "lengthCmMax": 78,
+      "weightGMin": 1200,
+      "weightGMax": 1800,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông trắng muốt với chiếc mỏ dài dẹp phình tròn ở đầu như cái thìa màu đen nối liền vùng mặt đen"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN",
+        "KR",
+        "JP"
+      ],
+      "nativeRangeVi": "Sinh sản ở bán đảo Triều Tiên và đông bắc Trung Quốc; di cư trú đông tại Vườn quốc gia Xuân Thủy (Nam Định, Việt Nam), Đài Loan và Hồng Kông",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài chim di cư quý hiếm bậc nhất đường bay Đông Á - Úc, hàng năm bay hàng ngàn kilômét về trú đông tại Vườn quốc gia Xuân Thủy (Nam Định). Đặc điểm nhận dạng: Bộ lông trắng muốt với chiếc mỏ dài dẹp phình tròn ở đầu như cái thìa màu đen nối liền vùng mặt đen.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại bãi bồi cửa sông ven biển, rừng ngập mặn và đầm nuôi trồng thủy sản quảng canh độ cao 0–50 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Đầu mỏ hình chiếc thìa của loài chim này có hàng ngàn thụ thể cảm ứng cơ học giúp nó quét ngang trong nước bùn đục ngầu và cảm nhận ngay lập tức khi chạm vào một con tôm cá.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông trắng muốt với chiếc mỏ dài dẹp phình tròn ở đầu như cái thìa màu đen nối liền vùng mặt đen."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bird 6223 (25254809252).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bird_6223_(25254809252).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bird_6223_%2825254809252%29.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "LiCheng Shih",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Food Searching (5224481591).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Food_Searching_(5224481591).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Food_Searching_%285224481591%29.jpg",
+        "width": 2050,
+        "height": 2734,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Charles Lam from Hong Kong, China",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Aogu Wetlands and Forest Part Yi-Cheng, Chen 555593995 - 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aogu_Wetlands_and_Forest_Part_Yi-Cheng,_Chen_555593995_-_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Aogu_Wetlands_and_Forest_Part_Yi-Cheng%2C_Chen_555593995_-_3.jpg",
+        "width": 4000,
+        "height": 2400,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "YCCHEN TW",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Happy in the sky.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Happy_in_the_sky.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Happy_in_the_sky.jpg",
+        "width": 6193,
+        "height": 3747,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wenhaichouwiki",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pelecaniformes (24742446444).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pelecaniformes_(24742446444).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pelecaniformes_%2824742446444%29.jpg",
+        "width": 4807,
+        "height": 3205,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "LiCheng Shih",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2480805",
+      "https://www.iucnredlist.org/species/22697568/154689773",
+      "https://en.wikipedia.org/wiki/Black-faced_spoonbill",
+      "https://vi.wikipedia.org/wiki/C%C3%B2_th%C3%ACa_m%E1%BA%B7t_%C4%91en"
+    ]
+  },
+  {
+    "scientificName": "Houbaropsis bengalensis",
+    "commonNameVi": "Ô tác",
+    "commonNameEn": "Bengal Florican",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Otidiformes",
+      "family": "Otididae",
+      "genus": "Houbaropsis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ô tác (Otidiformes)",
+      "family": "Họ Ô tác (Otididae)",
+      "genus": "Chi Ô tác Bengal (Houbaropsis)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/22692015/130184896",
+    "gbifKey": 2474855,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ tự nhiên ngập nước theo mùa xen trảng cây bụi thấp độ cao 0–300 m"
+    },
+    "descriptionVi": "Một trong những loài chim đồng cỏ nguy cấp nhất thế giới, đại diện duy nhất của bộ Ô tác (Otidiformes) có mặt tại Đông Nam Á.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Trong mùa giao phối, Ô Tác trống thực hiện màn trình diễn bay vọt thẳng đứng từ đám cỏ lên cao 10 mét, khoe đôi cánh trắng muốt rồi lượn dù hạ xuống.",
+    "dietVi": "Ăn chồi cỏ non, hạt thực vật, hoa kết hợp châu chấu, bọ cánh cứng và thằn lằn nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Eupodotis bengalensis",
+      "Eupodotis bengalensis bengalensis",
+      "Otis bengalensis"
+    ],
+    "wikidataId": "Q809610",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C3%94_t%C3%A1c_Bengal",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Bengal_florican",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 68,
+      "weightGMin": 1200,
+      "weightGMax": 1700,
+      "heightCmMax": null,
+      "noteVi": "Chim trống mùa sinh sản có đầu, cổ và bụng đen tuyền mượt như nhung tương phản với đôi cánh trắng tinh"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "IN",
+        "NP"
+      ],
+      "nativeRangeVi": "Hai quần thể tách biệt tại chân Himalaya (Ấn Độ, Nepal) và vùng đồng cỏ hạ lưu sông Mê Kông (Campuchia, Nam Bộ Việt Nam)",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài chim đồng cỏ nguy cấp nhất thế giới, đại diện duy nhất của bộ Ô tác (Otidiformes) có mặt tại Đông Nam Á. Đặc điểm nhận dạng: Chim trống mùa sinh sản có đầu, cổ và bụng đen tuyền mượt như nhung tương phản với đôi cánh trắng tinh.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại đồng cỏ tự nhiên ngập nước theo mùa xen trảng cây bụi thấp độ cao 0–300 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Trong mùa giao phối, Ô Tác trống thực hiện màn trình diễn bay vọt thẳng đứng từ đám cỏ lên cao 10 mét, khoe đôi cánh trắng muốt rồi lượn dù hạ xuống.",
+      "Đặc điểm nhận diện tiêu biểu: Chim trống mùa sinh sản có đầu, cổ và bụng đen tuyền mượt như nhung tương phản với đôi cánh trắng tinh."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bengal florican flying in its grassland habitat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bengal_florican_flying_in_its_grassland_habitat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bengal_florican_flying_in_its_grassland_habitat.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aditya Pal",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bengal florican in flight.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bengal_florican_in_flight.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Bengal_florican_in_flight.jpg",
+        "width": 3500,
+        "height": 4060,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jbaishya",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bengal florican (Houbaropsis bengalensis blandini) male in flight Tonle Sap.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bengal_florican_(Houbaropsis_bengalensis_blandini)_male_in_flight_Tonle_Sap.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bengal_florican_%28Houbaropsis_bengalensis_blandini%29_male_in_flight_Tonle_Sap.jpg",
+        "width": 4238,
+        "height": 2825,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bengal florican in its natural habitat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bengal_florican_in_its_natural_habitat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bengal_florican_in_its_natural_habitat.jpg",
+        "width": 5185,
+        "height": 2734,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aditya Pal",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bengal florican.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bengal_florican.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bengal_florican.jpg",
+        "width": 2920,
+        "height": 1643,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Daudabdullah",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2474855",
+      "https://www.iucnredlist.org/species/22692015/130184896",
+      "https://en.wikipedia.org/wiki/Bengal_florican",
+      "https://vi.wikipedia.org/wiki/%C3%94_t%C3%A1c_Bengal"
+    ]
+  },
+  {
+    "scientificName": "Pitta nympha",
+    "commonNameVi": "Đuôi cụt tiên",
+    "commonNameEn": "Fairy Pitta",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Pittidae",
+      "genus": "Pitta"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sẻ (Passeriformes)",
+      "family": "Họ Đuôi cụt (Pittidae)",
+      "genus": "Chi Đuôi cụt (Pitta)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22698684/154680023",
+    "gbifKey": 2489521,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng thảm mục ẩm ướt dưới tán rừng lá rộng thường xanh độ cao 0–1.200 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Nàng tiên bảy sắc' của tầng đáy rừng ẩm với bộ lông phối bảy gam màu rực rỡ như một viên ngọc biết nhảy nhót.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IIB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Chim xây những chiếc tổ hình cầu bằng rêu xanh và cành khô có cửa ra vào nằm ngang ngay trên mặt đất hoặc hốc rễ cây cổ thụ để tránh mưa rừng.",
+    "dietVi": "Ăn giun đất, ốc sên, rết và côn trùng dưới lớp lá mục",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Pitta brachyura nympha"
+    ],
+    "wikidataId": "Q494888",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90u%C3%B4i_c%E1%BB%A5t_b%E1%BB%A5ng_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fairy_pitta",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 20,
+      "weightGMin": 70,
+      "weightGMax": 110,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông 7 màu lộng lẫy gồm đỉnh đầu nâu hạt dẻ, mày trắng kem, cánh xanh ngọc bích, lưng xanh lục và bụng đỏ thắm"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN",
+        "JP",
+        "KR",
+        "MY"
+      ],
+      "nativeRangeVi": "Sinh sản tại Đông Á và di cư qua Việt Nam xuống đảo Borneo vào mùa đông",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được mệnh danh là 'Nàng tiên bảy sắc' của tầng đáy rừng ẩm với bộ lông phối bảy gam màu rực rỡ như một viên ngọc biết nhảy nhót. Đặc điểm nhận dạng: Bộ lông 7 màu lộng lẫy gồm đỉnh đầu nâu hạt dẻ, mày trắng kem, cánh xanh ngọc bích, lưng xanh lục và bụng đỏ thắm.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại tầng thảm mục ẩm ướt dưới tán rừng lá rộng thường xanh độ cao 0–1.200 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chim xây những chiếc tổ hình cầu bằng rêu xanh và cành khô có cửa ra vào nằm ngang ngay trên mặt đất hoặc hốc rễ cây cổ thụ để tránh mưa rừng.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông 7 màu lộng lẫy gồm đỉnh đầu nâu hạt dẻ, mày trắng kem, cánh xanh ngọc bích, lưng xanh lục và bụng đỏ thắm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pitta nympha by Jason Thompson.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitta_nympha_by_Jason_Thompson.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Pitta_nympha_by_Jason_Thompson.jpg",
+        "width": 4928,
+        "height": 3280,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jason Thompson from Bangkok, Thailand",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Fairy Pitta 3895 (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fairy_Pitta_3895_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Fairy_Pitta_3895_%28cropped%29.jpg",
+        "width": 623,
+        "height": 900,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Alnus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fairy Pitta 3073.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fairy_Pitta_3073.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Fairy_Pitta_3073.jpg",
+        "width": 1200,
+        "height": 900,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Alnus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fairy Pitta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fairy_Pitta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Fairy_Pitta.jpg",
+        "width": 3498,
+        "height": 2798,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jason Thompson",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2489521",
+      "https://www.iucnredlist.org/species/22698684/154680023",
+      "https://en.wikipedia.org/wiki/Fairy_pitta",
+      "https://vi.wikipedia.org/wiki/%C4%90u%C3%B4i_c%E1%BB%A5t_b%E1%BB%A5ng_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Cissa hypoleuca",
+    "commonNameVi": "Giẻ cùi vàng",
+    "commonNameEn": "Indochinese Green Magpie",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Corvidae",
+      "genus": "Cissa"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sẻ (Passeriformes)",
+      "family": "Họ Quạ (Corvidae)",
+      "genus": "Chi Giẻ cùi (Cissa)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22705813/280981269",
+    "gbifKey": 2482586,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán trung bình của rừng thường xanh ẩm và rừng tre nứa độ cao 200–1.500 m"
+    },
+    "descriptionVi": "Viên ngọc lục bảo của rừng Trường Sơn với chiếc bụng vàng tươi óng ả và chiếc mỏ đỏ thắm nổi bật giữa tán lá xanh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Sắc xanh lục và vàng tươi trên bộ lông của loài chim này có nguồn gốc từ sắc tố carotenoid lutein trong các loài côn trùng ăn lá mà chúng săn được ngoài tự nhiên.",
+    "dietVi": "Săn côn trùng lớn, bọ ngựa, ve sầu, ếch cây và thằn lằn nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q2317737",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gi%E1%BA%BB_c%C3%B9i_b%E1%BB%A5ng_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indochinese_green_magpie",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 31,
+      "lengthCmMax": 35,
+      "weightGMin": 120,
+      "weightGMax": 150,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông xanh lục tươi pha bụng vàng nghệ rực rỡ, dải mặt nạ đen qua mắt cùng mỏ và chân màu đỏ san hô"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "CN"
+      ],
+      "nativeRangeVi": "Khắp các dãy rừng Trường Sơn Việt Nam, Lào, đông Thái Lan và nam Trung Quốc",
+      "elevationM": {
+        "min": 200,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Viên ngọc lục bảo của rừng Trường Sơn với chiếc bụng vàng tươi óng ả và chiếc mỏ đỏ thắm nổi bật giữa tán lá xanh. Đặc điểm nhận dạng: Bộ lông xanh lục tươi pha bụng vàng nghệ rực rỡ, dải mặt nạ đen qua mắt cùng mỏ và chân màu đỏ san hô.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại tầng tán trung bình của rừng thường xanh ẩm và rừng tre nứa độ cao 200–1.500 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sắc xanh lục và vàng tươi trên bộ lông của loài chim này có nguồn gốc từ sắc tố carotenoid lutein trong các loài côn trùng ăn lá mà chúng săn được ngoài tự nhiên.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông xanh lục tươi pha bụng vàng nghệ rực rỡ, dải mặt nạ đen qua mắt cùng mỏ và chân màu đỏ san hô."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Indochinese Green-Magpie (ssp. chauleti) 0A2A6044.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indochinese_Green-Magpie_(ssp._chauleti)_0A2A6044.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Indochinese_Green-Magpie_%28ssp._chauleti%29_0A2A6044.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JJ Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cissa hypoleucor concolor qtl1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cissa_hypoleucor_concolor_qtl1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cissa_hypoleucor_concolor_qtl1.jpg",
+        "width": 2546,
+        "height": 2343,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Quartl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Cissa hypoleuca - Forest Botial-Jarvis - 385765982.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cissa_hypoleuca_-_Forest_Botial-Jarvis_-_385765982.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Cissa_hypoleuca_-_Forest_Botial-Jarvis_-_385765982.jpeg",
+        "width": 2048,
+        "height": 1413,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Forest Botial-Jarvis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cissa hypoleuca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cissa_hypoleuca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cissa_hypoleuca.jpg",
+        "width": 4708,
+        "height": 2017,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Khoitran1957",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Indochinese green magpie.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indochinese_green_magpie.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Indochinese_green_magpie.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sanzbirder",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2482586",
+      "https://www.iucnredlist.org/species/22705813/280981269",
+      "https://en.wikipedia.org/wiki/Indochinese_green_magpie",
+      "https://vi.wikipedia.org/wiki/Gi%E1%BA%BB_c%C3%B9i_b%E1%BB%A5ng_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Ophiophagus hannah",
+    "commonNameVi": "Rắn hổ chúa",
+    "commonNameEn": "King Cobra",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Ophiophagus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Rắn hổ (Elapidae)",
+      "genus": "Chi Rắn hổ mang chúa (Ophiophagus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/177540/1491874",
+    "gbifKey": 2469850,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh nguyên sinh, rừng tre nứa và ven suối rừng độ cao 0–2.000 m"
+    },
+    "descriptionVi": "Vị vua tối cao của thế giới loài rắn với chiều dài có thể vượt quá 5 mét và trí thông minh, sự cảnh giác vượt trội so với mọi loài bò sát khác.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Tên chi 'Ophiophagus' có nghĩa là 'Kẻ ăn thịt rắn', và Hổ Mang Chúa cũng là loài rắn duy nhất trên thế giới biết dùng thân cuộn lá khô xây tổ hai tầng cho trứng rồi nằm canh gác trên tầng gác suốt 2 tháng.",
+    "dietVi": "Chuyên săn các loài rắn khác (rắn chuột, trăn non và cả các loài rắn độc khác)",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Dendraspis bungarus",
+      "Dendraspis hannah",
+      "Dendraspis hannah borneensis",
+      "Dendraspis hannah brunnea"
+    ],
+    "wikidataId": "Q48186",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_h%E1%BB%95_mang_ch%C3%BAa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/King_cobra",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 300,
+      "lengthCmMax": 500,
+      "weightGMin": 4000,
+      "weightGMax": 9000,
+      "heightCmMax": null,
+      "noteVi": "Loài rắn độc dài nhất thế giới với cặp vảy chẩm lớn phía sau đỉnh đầu và khả năng bành cổ ngóc cao hơn 1 mét"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN",
+        "PH"
+      ],
+      "nativeRangeVi": "Nam Á, nam Trung Quốc và toàn bộ khu vực Đông Nam Á",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Vị vua tối cao của thế giới loài rắn với chiều dài có thể vượt quá 5 mét và trí thông minh, sự cảnh giác vượt trội so với mọi loài bò sát khác. Đặc điểm nhận dạng: Loài rắn độc dài nhất thế giới với cặp vảy chẩm lớn phía sau đỉnh đầu và khả năng bành cổ ngóc cao hơn 1 mét.",
+    "behaviorVi": "Bò sát hoang dã kiếm ăn vào thời điểm ngày, có phản xạ phòng vệ cảnh giác cao.",
+    "reproductionVi": "Đẻ trứng trong hốc đất, gốc cây mục hoặc thảm lá rừng ẩm ướt vào đầu mùa mưa.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên chi 'Ophiophagus' có nghĩa là 'Kẻ ăn thịt rắn', và Hổ Mang Chúa cũng là loài rắn duy nhất trên thế giới biết dùng thân cuộn lá khô xây tổ hai tầng cho trứng rồi nằm canh gác trên tầng gác suốt 2 tháng.",
+      "Đặc điểm nhận diện tiêu biểu: Loài rắn độc dài nhất thế giới với cặp vảy chẩm lớn phía sau đỉnh đầu và khả năng bành cổ ngóc cao hơn 1 mét."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:KING COBRA (94379).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KING_COBRA_(94379).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/KING_COBRA_%2894379%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "CookBooc",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:All Snake, No Vestiage of Beginning, No Prospect of an End (2812436637).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:All_Snake,_No_Vestiage_of_Beginning,_No_Prospect_of_an_End_(2812436637).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/All_Snake%2C_No_Vestiage_of_Beginning%2C_No_Prospect_of_an_End_%282812436637%29.jpg",
+        "width": 1507,
+        "height": 1800,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "cogdogblog",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:12 - The Mystical King Cobra and Coffee Forests.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
+        "width": 1080,
+        "height": 808,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Michael Allen Smith from Seattle, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cobra heading to get hold of food.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cobra_heading_to_get_hold_of_food.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cobra_heading_to_get_hold_of_food.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "VjVijomi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:King cobra at Pulikurumba 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:King_cobra_at_Pulikurumba_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/King_cobra_at_Pulikurumba_2.jpg",
+        "width": 4080,
+        "height": 3060,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nativeplants garden",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2469850",
+      "https://www.iucnredlist.org/species/177540/1491874",
+      "https://en.wikipedia.org/wiki/King_cobra",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_h%E1%BB%95_mang_ch%C3%BAa"
+    ]
+  },
+  {
+    "scientificName": "Naja atra",
+    "commonNameVi": "Rắn hổ mang",
+    "commonNameEn": "Chinese Cobra",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Naja"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Rắn hổ (Elapidae)",
+      "genus": "Chi Rắn hổ mang (Naja)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/192109/2040894",
+    "gbifKey": 2470319,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thấp, đồi cây bụi, bờ ruộng và vùng nông thôn trung du độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài rắn hổ mang tiêu biểu của miền Bắc Việt Nam, nổi tiếng với phản xạ ngóc cao đầu bành rộng mang cổ và phát ra tiếng phì hơi đe dọa rất lớn.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Hoa văn màu trắng viền đen ở mặt lưng cổ khi bành mang hoạt động như một cặp 'mắt giả' lớn để ngăn chặn các loài thú ăn thịt tấn công từ phía sau.",
+    "dietVi": "Săn chuột, cóc, ếch nhái, cá, chim và các loài rắn nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Naia tripudians fasciata",
+      "Naja tripudians scopinucha",
+      "Naja tripudians unicolor"
+    ],
+    "wikidataId": "Q2351506",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_h%E1%BB%95_mang_Trung_Qu%E1%BB%91c",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chinese_cobra",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 160,
+      "weightGMin": 1000,
+      "weightGMax": 2000,
+      "heightCmMax": null,
+      "noteVi": "Thân màu nâu đen đến đen bóng, khi bành mang hiện rõ hoa văn hình mắt kính hoặc mặt nạ trắng sau cổ"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN"
+      ],
+      "nativeRangeVi": "Miền Bắc đến Bắc Trung Bộ Việt Nam, bắc Lào, nam Trung Quốc và Đài Loan",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài rắn hổ mang tiêu biểu của miền Bắc Việt Nam, nổi tiếng với phản xạ ngóc cao đầu bành rộng mang cổ và phát ra tiếng phì hơi đe dọa rất lớn. Đặc điểm nhận dạng: Thân màu nâu đen đến đen bóng, khi bành mang hiện rõ hoa văn hình mắt kính hoặc mặt nạ trắng sau cổ.",
+    "behaviorVi": "Bò sát hoang dã kiếm ăn vào thời điểm chạng vạng, có phản xạ phòng vệ cảnh giác cao.",
+    "reproductionVi": "Đẻ trứng trong hốc đất, gốc cây mục hoặc thảm lá rừng ẩm ướt vào đầu mùa mưa.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Hoa văn màu trắng viền đen ở mặt lưng cổ khi bành mang hoạt động như một cặp 'mắt giả' lớn để ngăn chặn các loài thú ăn thịt tấn công từ phía sau.",
+      "Đặc điểm nhận diện tiêu biểu: Thân màu nâu đen đến đen bóng, khi bành mang hiện rõ hoa văn hình mắt kính hoặc mặt nạ trắng sau cổ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chinese Cobra imported from iNaturalist photo 160623628 on 8 December 2024.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Cobra_imported_from_iNaturalist_photo_160623628_on_8_December_2024.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Chinese_Cobra_imported_from_iNaturalist_photo_160623628_on_8_December_2024.jpg",
+        "width": 2048,
+        "height": 1367,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Lawrence Hylton, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chinese Cobra 383978942.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Cobra_383978942.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chinese_Cobra_383978942.jpg",
+        "width": 1638,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Lawrence Hylton, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chinese Cobra (Naja atra) 眼鏡蛇11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Cobra_(Naja_atra)_%E7%9C%BC%E9%8F%A1%E8%9B%8711.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chinese_Cobra_%28Naja_atra%29_%E7%9C%BC%E9%8F%A1%E8%9B%8711.jpg",
+        "width": 1024,
+        "height": 683,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Juvenile Chinese Cobra (Naja atra) 眼鏡蛇2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_Chinese_Cobra_(Naja_atra)_%E7%9C%BC%E9%8F%A1%E8%9B%872.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Juvenile_Chinese_Cobra_%28Naja_atra%29_%E7%9C%BC%E9%8F%A1%E8%9B%872.jpg",
+        "width": 1024,
+        "height": 684,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Naja atra (03).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naja_atra_(03).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Naja_atra_%2803%29.jpg",
+        "width": 1024,
+        "height": 682,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2470319",
+      "https://www.iucnredlist.org/species/192109/2040894",
+      "https://en.wikipedia.org/wiki/Chinese_cobra",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_h%E1%BB%95_mang_Trung_Qu%E1%BB%91c"
+    ]
+  },
+  {
+    "scientificName": "Bungarus fasciatus",
+    "commonNameVi": "Rắn cạp nong",
+    "commonNameEn": "Banded Krait",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Bungarus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Rắn hổ (Elapidae)",
+      "genus": "Chi Rắn cạp nong / cạp nia (Bungarus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/192063/2034956",
+    "gbifKey": 5226830,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối rừng, đầm lầy, đồng ruộng và rừng thứ sinh ẩm độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài rắn độc có hoa văn khoanh vàng - khoanh đen nổi bật bậc nhất tự nhiên Việt Nam với tiết diện thân hình tam giác rất rõ và chóp đuôi tù.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN và thuộc Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Ban ngày Rắn Cạp Nong rất hiền lành và thường cuộn tròn giấu đầu dưới gầm thân khi bị làm phiền, nhưng ban đêm lại trở thành thợ săn rắn cực kỳ nhạy bén.",
+    "dietVi": "Săn chủ yếu các loài rắn nước, rắn bùn, lươn, cá và ếch nhái",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Bungarus annularis",
+      "Bungarus fasciatus bifasciatus",
+      "Bungarus fasciatus insularis",
+      "Pseudoboa fasciata"
+    ],
+    "wikidataId": "Q40581",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_c%E1%BA%A1p_nong",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Banded_krait",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 140,
+      "lengthCmMax": 200,
+      "weightGMin": 1000,
+      "weightGMax": 2500,
+      "heightCmMax": null,
+      "noteVi": "Sống lưng nhô cao hình tam giác với các khoanh màu đen và màu vàng tươi xen kẽ đều đặn suốt chiều dài cơ thể"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Nam Á, nam Trung Quốc và khắp Đông Nam Á",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài rắn độc có hoa văn khoanh vàng - khoanh đen nổi bật bậc nhất tự nhiên Việt Nam với tiết diện thân hình tam giác rất rõ và chóp đuôi tù. Đặc điểm nhận dạng: Sống lưng nhô cao hình tam giác với các khoanh màu đen và màu vàng tươi xen kẽ đều đặn suốt chiều dài cơ thể.",
+    "behaviorVi": "Bò sát hoang dã kiếm ăn vào thời điểm đêm, có phản xạ phòng vệ cảnh giác cao.",
+    "reproductionVi": "Đẻ trứng trong hốc đất, gốc cây mục hoặc thảm lá rừng ẩm ướt vào đầu mùa mưa.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ban ngày Rắn Cạp Nong rất hiền lành và thường cuộn tròn giấu đầu dưới gầm thân khi bị làm phiền, nhưng ban đêm lại trở thành thợ săn rắn cực kỳ nhạy bén.",
+      "Đặc điểm nhận diện tiêu biểu: Sống lưng nhô cao hình tam giác với các khoanh màu đen và màu vàng tươi xen kẽ đều đặn suốt chiều dài cơ thể."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Banded Krait (Bangarus fasciatus) by David V Raju.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Banded_Krait_(Bangarus_fasciatus)_by_David_V_Raju.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Banded_Krait_%28Bangarus_fasciatus%29_by_David_V_Raju.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Davidvraju",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bungarus fasciatus 85421143.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bungarus_fasciatus_85421143.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bungarus_fasciatus_85421143.jpg",
+        "width": 2048,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "灯管儿",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Banded krait.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Banded_krait.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Banded_krait.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sneham snehi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bungarus fasciatus, Banded krait - Prachantakham District (23937391991).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bungarus_fasciatus,_Banded_krait_-_Prachantakham_District_(23937391991).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bungarus_fasciatus%2C_Banded_krait_-_Prachantakham_District_%2823937391991%29.jpg",
+        "width": 6004,
+        "height": 4007,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:The Banded Krait.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Banded_Krait.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_Banded_Krait.jpg",
+        "width": 4032,
+        "height": 2791,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Arup2602",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5226830",
+      "https://www.iucnredlist.org/species/192063/2034956",
+      "https://en.wikipedia.org/wiki/Banded_krait",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_c%E1%BA%A1p_nong"
+    ]
+  },
+  {
+    "scientificName": "Bungarus multicinctus",
+    "commonNameVi": "Rắn cạp nia bắc",
+    "commonNameEn": "Many-banded Krait",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Bungarus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Rắn hổ (Elapidae)",
+      "genus": "Chi Rắn cạp nong / cạp nia (Bungarus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/191957/199532037",
+    "gbifKey": 5226813,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Ven suối đá rừng núi, đầm lầy và ruộng lúa vùng trung du độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài rắn độc hoạt động về đêm có các khoanh đen - trắng tương phản sắc nét và sở hữu một trong những loại độc tố thần kinh mạnh nhất châu Á.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Từ nọc của Rắn Cạp Nia Bắc, các nhà khoa học đã phân lập được phân tử alpha-bungarotoxin — một công cụ sinh học vô giá giúp giải mã cơ chế truyền dẫn thần kinh - cơ ở người.",
+    "dietVi": "Săn lươn, chạch, cá, ếch nhái, thằn lằn và rắn nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Bungarus candidus multicinctus",
+      "Bungarus semifasciatus",
+      "Bungarus wanghaotingi"
+    ],
+    "wikidataId": "Q637161",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_c%E1%BA%A1p_nia_b%E1%BA%AFc",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Many-banded_krait",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 150,
+      "weightGMin": 500,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Lưng màu đen bóng cắt ngang bởi 30–50 khoanh màu trắng bạc hẹp và mặt bụng màu trắng"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Miền Bắc và Bắc Trung Bộ Việt Nam, bắc Lào, bắc Myanmar, nam Trung Quốc và Đài Loan",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài rắn độc hoạt động về đêm có các khoanh đen - trắng tương phản sắc nét và sở hữu một trong những loại độc tố thần kinh mạnh nhất châu Á. Đặc điểm nhận dạng: Lưng màu đen bóng cắt ngang bởi 30–50 khoanh màu trắng bạc hẹp và mặt bụng màu trắng.",
+    "behaviorVi": "Bò sát hoang dã kiếm ăn vào thời điểm đêm, có phản xạ phòng vệ cảnh giác cao.",
+    "reproductionVi": "Đẻ trứng trong hốc đất, gốc cây mục hoặc thảm lá rừng ẩm ướt vào đầu mùa mưa.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Từ nọc của Rắn Cạp Nia Bắc, các nhà khoa học đã phân lập được phân tử alpha-bungarotoxin — một công cụ sinh học vô giá giúp giải mã cơ chế truyền dẫn thần kinh - cơ ở người.",
+      "Đặc điểm nhận diện tiêu biểu: Lưng màu đen bóng cắt ngang bởi 30–50 khoanh màu trắng bạc hẹp và mặt bụng màu trắng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bungarus multicinctus (31125491348).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bungarus_multicinctus_(31125491348).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bungarus_multicinctus_%2831125491348%29.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "LiCheng Shih",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bungarus multicinctus 77968794.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bungarus_multicinctus_77968794.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bungarus_multicinctus_77968794.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cheng Te Hsu",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Many-banded Krait (Bungarus multicinctus) 銀環蛇 & Forest Skink Species (Sphenomorphus sp.) (6027749670).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Many-banded_Krait_(Bungarus_multicinctus)_%E9%8A%80%E7%92%B0%E8%9B%87_%26_Forest_Skink_Species_(Sphenomorphus_sp.)_(6027749670).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Many-banded_Krait_%28Bungarus_multicinctus%29_%E9%8A%80%E7%92%B0%E8%9B%87_%26_Forest_Skink_Species_%28Sphenomorphus_sp.%29_%286027749670%29.jpg",
+        "width": 1024,
+        "height": 682,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Many-banded Krait, 231台灣新北市新店區美城里 imported from iNaturalist photo 452026922.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Many-banded_Krait,_231%E5%8F%B0%E7%81%A3%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E7%BE%8E%E5%9F%8E%E9%87%8C_imported_from_iNaturalist_photo_452026922.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Many-banded_Krait%2C_231%E5%8F%B0%E7%81%A3%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E7%BE%8E%E5%9F%8E%E9%87%8C_imported_from_iNaturalist_photo_452026922.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) 林正文, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Many-banded krait (1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Many-banded_krait_(1).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Many-banded_krait_%281%29.JPG",
+        "width": 1024,
+        "height": 768,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Fearingpredators fearingpredators",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5226813",
+      "https://www.iucnredlist.org/species/191957/199532037",
+      "https://en.wikipedia.org/wiki/Many-banded_krait",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_c%E1%BA%A1p_nia_b%E1%BA%AFc"
+    ]
+  },
+  {
+    "scientificName": "Protobothrops cornutus",
+    "commonNameVi": "Rắn lục sừng",
+    "commonNameEn": "Horned Pit Viper",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Viperidae",
+      "genus": "Protobothrops"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Rắn lục (Viperidae)",
+      "genus": "Chi Rắn lục mũi hếch / sừng (Protobothrops)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22151/217760780",
+    "gbifKey": 2444155,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh trên núi đá vôi và rừng sương mù núi cao độ cao 250–2.000 m"
+    },
+    "descriptionVi": "Một trong những loài rắn lục kỳ lạ và hiếm gặp nhất Việt Nam với cặp 'sừng' bằng vảy nhô cao ngay trên mắt.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Sau khi mẫu vật đầu tiên được tìm thấy ở Lào Cai năm 1930, loài rắn có sừng này từng 'mất tích' suốt hơn 70 năm trước khi được phát hiện lại tại Vườn quốc gia Phong Nha - Kẻ Bàng.",
+    "dietVi": "Phục kích ếch cây, thằn lằn và chuột rừng nhỏ vào ban đêm nhờ hố cảm nhiệt",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ceratrimeresurus shenlii",
+      "Trimeresurus cornutus"
+    ],
+    "wikidataId": "Q28319909",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Protobothrops_cornutus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Protobothrops_cornutus",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 70,
+      "weightGMin": 80,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Trên mí mắt mỗi bên có các vảy nhô cao lên thành cặp sừng nhọn và màu da nâu xám ngụy trang như đá rêu"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN"
+      ],
+      "nativeRangeVi": "Dãy Hoàng Liên Sơn, Hà Giang, Cao Bằng, Phong Nha - Kẻ Bàng, Bạch Mã (Việt Nam) và nam Trung Quốc",
+      "elevationM": {
+        "min": 250,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài rắn lục kỳ lạ và hiếm gặp nhất Việt Nam với cặp 'sừng' bằng vảy nhô cao ngay trên mắt. Đặc điểm nhận dạng: Trên mí mắt mỗi bên có các vảy nhô cao lên thành cặp sừng nhọn và màu da nâu xám ngụy trang như đá rêu.",
+    "behaviorVi": "Bò sát hoang dã kiếm ăn vào thời điểm đêm, có phản xạ phòng vệ cảnh giác cao.",
+    "reproductionVi": "Đẻ trứng trong hốc đất, gốc cây mục hoặc thảm lá rừng ẩm ướt vào đầu mùa mưa.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sau khi mẫu vật đầu tiên được tìm thấy ở Lào Cai năm 1930, loài rắn có sừng này từng 'mất tích' suốt hơn 70 năm trước khi được phát hiện lại tại Vườn quốc gia Phong Nha - Kẻ Bàng.",
+      "Đặc điểm nhận diện tiêu biểu: Trên mí mắt mỗi bên có các vảy nhô cao lên thành cặp sừng nhọn và màu da nâu xám ngụy trang như đá rêu."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Protobothrops cornutus head.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Protobothrops_cornutus_head.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Protobothrops_cornutus_head.jpg",
+        "width": 3936,
+        "height": 2376,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "TimVickers",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Protobothrops cornutus 246803697.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Protobothrops_cornutus_246803697.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Protobothrops_cornutus_246803697.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "灯管儿",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Trimeresurus cornutus (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trimeresurus_cornutus_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Trimeresurus_cornutus_%281%29.jpg",
+        "width": 1504,
+        "height": 1104,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "TimVickers",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Protobothrops cornutus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Protobothrops_cornutus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Protobothrops_cornutus.jpg",
+        "width": 3547,
+        "height": 2370,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "TimVickers",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2444155",
+      "https://www.iucnredlist.org/species/22151/217760780",
+      "https://en.wikipedia.org/wiki/Protobothrops_cornutus",
+      "https://vi.wikipedia.org/wiki/Protobothrops_cornutus"
+    ]
+  },
+  {
+    "scientificName": "Glyptostrobus pensilis",
+    "commonNameVi": "Thông nước",
+    "commonNameEn": "Chinese Swamp Cypress",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Glyptostrobus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Hoàng đàn / Bách (Cupressaceae)",
+      "genus": "Chi Thủy tùng (Glyptostrobus)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/32312/177795446",
+    "gbifKey": 2684155,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy than bùn ngập nước ngọt quanh năm trên cao nguyên độ cao 500–750 m"
+    },
+    "descriptionVi": "'Hóa thạch sống' từ kỷ Phấn Trắng còn sót lại tại vùng đầm lầy tỉnh Đắk Lắk (Tây Nguyên) với hệ thống rễ thở nhô lên mặt nước độc nhất vô nhị.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc Nhóm IA bảo vệ tối cao tại Việt Nam (quần thể tự nhiên Đắk Lắk chỉ còn khoảng hơn 160 cây).",
+    "pullQuoteVi": "Những chiếc rễ thở xốp nhẹ mọc thẳng đứng cao tới 60 cm cách gốc cây 6–7 mét giúp bộ rễ Thủy Tùng hô hấp trong lớp bùn đầm lầy yếm khí.",
+    "dietVi": "Tự dưỡng quang hợp; rễ thở trao đổi oxy trực tiếp trên mặt đầm lầy",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cuprespinnata heterophylla",
+      "Cuprespinnata sinensis",
+      "Cupressepinnata heterophylla",
+      "Cupressepinnata sinensis"
+    ],
+    "wikidataId": "Q3496220",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Th%C3%B4ng_n%C6%B0%E1%BB%9Bc",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Glyptostrobus_pensilis",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 2500,
+      "noteVi": "Cây hạt trần rụng lá sống đầm lầy có hệ rễ thở (pneumatophores) mọc trồi lên khỏi mặt bùn như búp măng"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN"
+      ],
+      "nativeRangeVi": "Việt Nam (chỉ còn 2 quần thể tự nhiên nhỏ tại Ea Ral và Trấp K'sơ tỉnh Đắk Lắk), trung Lào và đông nam Trung Quốc",
+      "elevationM": {
+        "min": 500,
+        "max": 750
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "'Hóa thạch sống' từ kỷ Phấn Trắng còn sót lại tại vùng đầm lầy tỉnh Đắk Lắk (Tây Nguyên) với hệ thống rễ thở nhô lên mặt nước độc nhất vô nhị. Đặc điểm nhận dạng: Cây hạt trần rụng lá sống đầm lầy có hệ rễ thở (pneumatophores) mọc trồi lên khỏi mặt bùn như búp măng.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Những chiếc rễ thở xốp nhẹ mọc thẳng đứng cao tới 60 cm cách gốc cây 6–7 mét giúp bộ rễ Thủy Tùng hô hấp trong lớp bùn đầm lầy yếm khí.",
+      "Đặc điểm nhận diện tiêu biểu: Cây hạt trần rụng lá sống đầm lầy có hệ rễ thở (pneumatophores) mọc trồi lên khỏi mặt bùn như búp măng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Glyptostrobus pensilis2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glyptostrobus_pensilis2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Glyptostrobus_pensilis2.jpg",
+        "width": 2304,
+        "height": 1712,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chinese Swamp Cypress in Nanhua Temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Swamp_Cypress_in_Nanhua_Temple.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Chinese_Swamp_Cypress_in_Nanhua_Temple.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Geographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glyptostrobus pensilis Villa Taranto.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glyptostrobus_pensilis_Villa_Taranto.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Glyptostrobus_pensilis_Villa_Taranto.jpg",
+        "width": 2848,
+        "height": 2136,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Sciadopitys from UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glyptostrobus pensilis1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glyptostrobus_pensilis1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Glyptostrobus_pensilis1.jpg",
+        "width": 2304,
+        "height": 1712,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20121019 UBCBG-3AE2 Glyptostrobus pensilis Cutler P1340749.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20121019_UBCBG-3AE2_Glyptostrobus_pensilis_Cutler_P1340749.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/20121019_UBCBG-3AE2_Glyptostrobus_pensilis_Cutler_P1340749.jpg",
+        "width": 1200,
+        "height": 900,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Wendy Cutler",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2684155",
+      "https://www.iucnredlist.org/species/32312/177795446",
+      "https://en.wikipedia.org/wiki/Glyptostrobus_pensilis",
+      "https://vi.wikipedia.org/wiki/Th%C3%B4ng_n%C6%B0%E1%BB%9Bc"
+    ]
+  },
+  {
+    "scientificName": "Fokienia hodginsii",
+    "commonNameVi": "Pơ mu",
+    "commonNameEn": "Fokienia",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Fokienia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Hoàng đàn / Bách (Cupressaceae)",
+      "genus": "Chi Pơ mu (Fokienia)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/32351/2815809",
+    "gbifKey": 2684887,
+    "environment": {
+      "tempMin": 8,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng sương mù núi cao ẩm mát trên nền đá granit hoặc đá phiến độ cao 900–2.500 m"
+    },
+    "descriptionVi": "Loài cây hạt trần cổ thụ biểu tượng của những cánh rừng sương mù đỉnh núi cao Việt Nam, nổi tiếng với quần thể hàng ngàn cây Pơ Mu di sản tại Tây Giang (Quảng Nam).",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Nhóm IIA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Tinh dầu tự nhiên trong thân gỗ Pơ Mu tỏa hương thơm thanh khiết đặc trưng giúp cây cổ thụ chống lại mọi loài mối mọt và nấm mục suốt hàng ngàn năm tuổi.",
+    "dietVi": "Tự dưỡng quang hợp trong điều kiện rừng mây độ ẩm cao quanh năm",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chamaecyparis hodginsii",
+      "Cupressus hodginsii",
+      "Fokienia hodginsii kawaii",
+      "Fokienia kawaii"
+    ],
+    "wikidataId": "Q13060340",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/P%C6%A1_mu",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fokienia",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 3500,
+      "noteVi": "Cây gỗ hạt trần đại thụ có lá vảy xếp dẹp với hai dải lỗ khí màu trắng phấn rõ rệt ở mặt dưới lá"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN"
+      ],
+      "nativeRangeVi": "Dãy Hoàng Liên Sơn, Trường Sơn, Tây Nguyên (Việt Nam), Lào và nam Trung Quốc",
+      "elevationM": {
+        "min": 900,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây hạt trần cổ thụ biểu tượng của những cánh rừng sương mù đỉnh núi cao Việt Nam, nổi tiếng với quần thể hàng ngàn cây Pơ Mu di sản tại Tây Giang (Quảng Nam). Đặc điểm nhận dạng: Cây gỗ hạt trần đại thụ có lá vảy xếp dẹp với hai dải lỗ khí màu trắng phấn rõ rệt ở mặt dưới lá.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tinh dầu tự nhiên trong thân gỗ Pơ Mu tỏa hương thơm thanh khiết đặc trưng giúp cây cổ thụ chống lại mọi loài mối mọt và nấm mục suốt hàng ngàn năm tuổi.",
+      "Đặc điểm nhận diện tiêu biểu: Cây gỗ hạt trần đại thụ có lá vảy xếp dẹp với hai dải lỗ khí màu trắng phấn rõ rệt ở mặt dưới lá."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "II",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fokienia hodginsii - Mount Sanqing 2015.09.08 11-09-31.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-31.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-31.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zhangzhugang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chamaecyparis hodginsii, Ruyuan, Shaoguan, Guangdong, China 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaecyparis_hodginsii,_Ruyuan,_Shaoguan,_Guangdong,_China_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Chamaecyparis_hodginsii%2C_Ruyuan%2C_Shaoguan%2C_Guangdong%2C_China_1.jpg",
+        "width": 1242,
+        "height": 1288,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "aaronliston",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fokienia hodginsii - Mount Sanqing 2015.09.08 11-09-42.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-42.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-42.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zhangzhugang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fokienia hodginsii - Mount Sanqing 2015.09.08 11-09-52.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-52.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Fokienia_hodginsii_-_Mount_Sanqing_2015.09.08_11-09-52.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zhangzhugang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2684887",
+      "https://www.iucnredlist.org/species/32351/2815809",
+      "https://en.wikipedia.org/wiki/Fokienia",
+      "https://vi.wikipedia.org/wiki/P%C6%A1_mu"
+    ]
+  },
+  {
+    "scientificName": "Calocedrus macrolepis",
+    "commonNameVi": "Bách xanh",
+    "commonNameEn": "Chinese Incense-cedar",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Calocedrus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Hoàng đàn / Bách (Cupressaceae)",
+      "genus": "Chi Bách xanh (Calocedrus)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/32384/2817157",
+    "gbifKey": 2683942,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh trên núi đá vôi và núi đất độ cao 800–2.000 m"
+    },
+    "descriptionVi": "Loài cây lá kim quý hiếm mọc chênh vênh trên các đỉnh núi đá vôi và sườn núi cao Việt Nam với tán lá xanh thẫm tỏa hương trầm dịu nhẹ.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Nhóm IIA (NĐ 84/2021) bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Bộ rễ cực khỏe của Bách Xanh có thể đâm xuyên sâu vào các khe nứt đá vôi dựng đứng để hút nước ngầm và neo giữ thân cây trước gió bão đỉnh núi.",
+    "dietVi": "Tự dưỡng quang hợp thích nghi với nền đất đá vôi giàu canxi",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Calocedrus macrolepis macrolepis",
+      "Heyderia macrolepis",
+      "Libocedrus macrolepis",
+      "Thuja macrolepis"
+    ],
+    "wikidataId": "Q141100",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1ch_xanh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Calocedrus_macrolepis",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 3000,
+      "noteVi": "Cành nhỏ xếp phẳng như quạt với các lá vảy mọc vòng 4 chiếc và quả nón thuôn dài mở làm 3 mảnh"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi Tây Bắc, Ba Vì, Tây Nguyên (Việt Nam), Lào, bắc Thái Lan, Myanmar và nam Trung Quốc",
+      "elevationM": {
+        "min": 800,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây lá kim quý hiếm mọc chênh vênh trên các đỉnh núi đá vôi và sườn núi cao Việt Nam với tán lá xanh thẫm tỏa hương trầm dịu nhẹ. Đặc điểm nhận dạng: Cành nhỏ xếp phẳng như quạt với các lá vảy mọc vòng 4 chiếc và quả nón thuôn dài mở làm 3 mảnh.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Bộ rễ cực khỏe của Bách Xanh có thể đâm xuyên sâu vào các khe nứt đá vôi dựng đứng để hút nước ngầm và neo giữ thân cây trước gió bão đỉnh núi.",
+      "Đặc điểm nhận diện tiêu biểu: Cành nhỏ xếp phẳng như quạt với các lá vảy mọc vòng 4 chiếc và quả nón thuôn dài mở làm 3 mảnh."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "II",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Calocedrus macrolepis kz1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calocedrus_macrolepis_kz1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Calocedrus_macrolepis_kz1.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Calocedrus macrolepis needles.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calocedrus_macrolepis_needles.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Calocedrus_macrolepis_needles.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Themodoccypress ( )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2683942",
+      "https://www.iucnredlist.org/species/32384/2817157",
+      "https://en.wikipedia.org/wiki/Calocedrus_macrolepis",
+      "https://vi.wikipedia.org/wiki/B%C3%A1ch_xanh"
+    ]
+  },
+  {
+    "scientificName": "Taiwania cryptomerioides",
+    "commonNameVi": "Bách Đài Loan",
+    "commonNameEn": "Coffin Tree",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Taiwania"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Hoàng đàn / Bách (Cupressaceae)",
+      "genus": "Chi Bách tán Đài Loan (Taiwania)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/31255/9620141",
+    "gbifKey": 5284272,
+    "environment": {
+      "tempMin": 6,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng hỗn giao lá rộng - lá kim sương mù núi cao độ cao 1.600–2.600 m"
+    },
+    "descriptionVi": "Một trong những loài cây hạt trần khổng lồ và cổ xưa nhất thế giới, tại Việt Nam chỉ còn một quần thể tự nhiên khoảng 100 cây ở dãy Hoàng Liên Sơn (Lào Cai - Yên Bái).",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN (Cực kỳ nguy cấp tại Việt Nam) và thuộc Nhóm IA bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Cây có sự biến thái hình dạng lá theo tuổi: trong 50 năm đầu đời lá cây dài nhọn như kim khâu, nhưng khi vươn lên tầng vượt tán lại chuyển hoàn toàn sang lá vảy nhỏ ôm sát cành.",
+    "dietVi": "Tự dưỡng quang hợp ở tầng vượt tán rừng sương mù núi cao",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Eotaiwania fushunensis",
+      "Taiwania cryptomerioides flousiana",
+      "Taiwania flousiana",
+      "Taiwania fushunensis"
+    ],
+    "wikidataId": "Q390313",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1ch_t%C3%A1n_%C4%90%C3%A0i_Loan_k%C3%ADn",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Taiwania",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 6000,
+      "noteVi": "Một trong những loài cây cao nhất châu Á; cây non có lá hình dùi sắc nhọn, cây trưởng thành chuyển sang lá vảy tam giác"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Việt Nam (quần thể cổ thụ duy nhất tại Văn Bàn - Lào Cai và Mù Cang Chải - Yên Bái), bắc Myanmar, Vân Nam và Đài Loan",
+      "elevationM": {
+        "min": 1600,
+        "max": 2600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài cây hạt trần khổng lồ và cổ xưa nhất thế giới, tại Việt Nam chỉ còn một quần thể tự nhiên khoảng 100 cây ở dãy Hoàng Liên Sơn (Lào Cai - Yên Bái). Đặc điểm nhận dạng: Một trong những loài cây cao nhất châu Á; cây non có lá hình dùi sắc nhọn, cây trưởng thành chuyển sang lá vảy tam giác.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cây có sự biến thái hình dạng lá theo tuổi: trong 50 năm đầu đời lá cây dài nhọn như kim khâu, nhưng khi vươn lên tầng vượt tán lại chuyển hoàn toàn sang lá vảy nhỏ ôm sát cành.",
+      "Đặc điểm nhận diện tiêu biểu: Một trong những loài cây cao nhất châu Á; cây non có lá hình dùi sắc nhọn, cây trưởng thành chuyển sang lá vảy tam giác."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Taiwania cryptomerioides habitus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwania_cryptomerioides_habitus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Taiwania_cryptomerioides_habitus.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Homoarborea",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Taiwania cryptomerioides (SG) (32215495843).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwania_cryptomerioides_(SG)_(32215495843).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Taiwania_cryptomerioides_%28SG%29_%2832215495843%29.jpg",
+        "width": 2075,
+        "height": 4224,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "David Short from Windsor, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taiwania cryptomerioides (1) Meise Nat. Plantentuin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwania_cryptomerioides_(1)_Meise_Nat._Plantentuin.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Taiwania_cryptomerioides_%281%29_Meise_Nat._Plantentuin.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Homoarborea",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taiwania cryptomerioides Yalova Türkiye.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwania_cryptomerioides_Yalova_T%C3%BCrkiye.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Taiwania_cryptomerioides_Yalova_T%C3%BCrkiye.jpg",
+        "width": 2080,
+        "height": 4624,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Saglıkcıormancı4",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taiwania cryptomerioides kz1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwania_cryptomerioides_kz1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Taiwania_cryptomerioides_kz1.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5284272",
+      "https://www.iucnredlist.org/species/31255/9620141",
+      "https://en.wikipedia.org/wiki/Taiwania",
+      "https://vi.wikipedia.org/wiki/B%C3%A1ch_t%C3%A1n_%C4%90%C3%A0i_Loan_k%C3%ADn"
+    ]
+  },
+  {
+    "scientificName": "Pinus krempfii",
+    "commonNameVi": "Thông lá dẹt",
+    "commonNameEn": "Krempf's Pine",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Thông (Pinaceae)",
+      "genus": "Chi Thông (Pinus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/32804/2823769",
+    "gbifKey": 5285794,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng sương mù hỗn giao đỉnh núi cao Tây Nguyên độ cao 1.200–2.000 m"
+    },
+    "descriptionVi": "Kỳ quan tiến hóa thực vật đặc hữu của cao nguyên Lâm Viên (Việt Nam): loài thông duy nhất trong chi Pinus có lá dẹp bản rộng thay vì lá kim tròn.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Nhóm IIA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Bản lá dẹp rộng 4–5 mm như lưỡi kiếm nhỏ từng khiến các nhà thực vật học tranh cãi suốt một thế kỷ xem có nên xếp loài cây đặc hữu Đà Lạt này thành một chi riêng hay không.",
+    "dietVi": "Tự dưỡng quang hợp dưới tán rừng mây ẩm ướt bằng cặp lá bản dẹp",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ducampopinus krempfii",
+      "Pinus krempfii poilanei"
+    ],
+    "wikidataId": "Q3503440",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Th%C3%B4ng_l%C3%A1_d%E1%BA%B9t",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pinus_krempfii",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 4000,
+      "noteVi": "Loài thông duy nhất trên thế giới có lá kim biến đổi thành bản dẹp rộng 2–5 mm giống lá cây lá rộng"
+    },
+    "distribution": {
+      "countries": [
+        "VN"
+      ],
+      "nativeRangeVi": "Đặc hữu duy nhất tại vùng núi cao Bidoup - Núi Bà, Chư Yang Sin và Hòn Giao (Lâm Đồng, Đắk Lắk, Khánh Hòa) của Việt Nam",
+      "elevationM": {
+        "min": 1200,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Kỳ quan tiến hóa thực vật đặc hữu của cao nguyên Lâm Viên (Việt Nam): loài thông duy nhất trong chi Pinus có lá dẹp bản rộng thay vì lá kim tròn. Đặc điểm nhận dạng: Loài thông duy nhất trên thế giới có lá kim biến đổi thành bản dẹp rộng 2–5 mm giống lá cây lá rộng.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Bản lá dẹp rộng 4–5 mm như lưỡi kiếm nhỏ từng khiến các nhà thực vật học tranh cãi suốt một thế kỷ xem có nên xếp loài cây đặc hữu Đà Lạt này thành một chi riêng hay không.",
+      "Đặc điểm nhận diện tiêu biểu: Loài thông duy nhất trên thế giới có lá kim biến đổi thành bản dẹp rộng 2–5 mm giống lá cây lá rộng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "II",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pinus krempfii 248434780.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinus_krempfii_248434780.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinus_krempfii_248434780.jpg",
+        "width": 2048,
+        "height": 1356,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Eugene Popov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pinus krempfii 17162008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinus_krempfii_17162008.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Pinus_krempfii_17162008.jpg",
+        "width": 1152,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Eugene Popov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pinus krempfii needles (02).jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinus_krempfii_needles_(02).jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Pinus_krempfii_needles_%2802%29.jpeg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Eugene Popov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pinus krempfii 17162013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinus_krempfii_17162013.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pinus_krempfii_17162013.jpg",
+        "width": 1152,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Eugene Popov",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5285794",
+      "https://www.iucnredlist.org/species/32804/2823769",
+      "https://en.wikipedia.org/wiki/Pinus_krempfii",
+      "https://vi.wikipedia.org/wiki/Th%C3%B4ng_l%C3%A1_d%E1%BA%B9t"
+    ]
+  },
+  {
+    "scientificName": "Taxus wallichiana",
+    "commonNameVi": "Thông đỏ nam",
+    "commonNameEn": "East Himalayan Yew",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Taxaceae",
+      "genus": "Taxus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Thông đỏ (Taxaceae)",
+      "genus": "Chi Thông đỏ (Taxus)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/46171879/9730085",
+    "gbifKey": 5284540,
+    "environment": {
+      "tempMin": 6,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng dưới rừng sương mù núi cao lạnh ẩm độ cao 1.300–3.000 m"
+    },
+    "descriptionVi": "Loài cây hạt trần quý giá sống dưới tán rừng già núi cao, nổi tiếng với những quả mọng có lớp áo hạt màu đỏ ruby bao lấy hạt và hoạt chất dược học quý.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IA bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Từ vỏ và lá của Thông Đỏ, y học hiện đại đã chiết xuất được hoạt chất Paclitaxel (Taxol) — một trong những hợp chất quan trọng nhất trong điều trị ung thư.",
+    "dietVi": "Tự dưỡng quang hợp chịu bóng dưới tán cây cổ thụ rừng sương mù",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cephalotaxus celebica",
+      "Cephalotaxus mannii",
+      "Cephalotaxus sumatrana",
+      "Podocarpus celebicus"
+    ],
+    "wikidataId": "Q186553",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sam_h%E1%BA%A1t_%C4%91%E1%BB%8F_l%C3%A1_d%C3%A0i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Taxus_wallichiana",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 2500,
+      "noteVi": "Lá dẹp mềm xếp thành hai hàng phẳng xoắn nhẹ và hạt bao bọc bởi áo hạt (aril) mọng nước màu đỏ tươi như chiếc cốc ngọc"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "MM",
+        "IN",
+        "NP",
+        "CN",
+        "ID",
+        "PH"
+      ],
+      "nativeRangeVi": "Dãy Himalaya, nam Trung Quốc và đỉnh núi cao Tây Bắc cùng Lâm Đồng (Việt Nam)",
+      "elevationM": {
+        "min": 1300,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây hạt trần quý giá sống dưới tán rừng già núi cao, nổi tiếng với những quả mọng có lớp áo hạt màu đỏ ruby bao lấy hạt và hoạt chất dược học quý. Đặc điểm nhận dạng: Lá dẹp mềm xếp thành hai hàng phẳng xoắn nhẹ và hạt bao bọc bởi áo hạt (aril) mọng nước màu đỏ tươi như chiếc cốc ngọc.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Từ vỏ và lá của Thông Đỏ, y học hiện đại đã chiết xuất được hoạt chất Paclitaxel (Taxol) — một trong những hợp chất quan trọng nhất trong điều trị ung thư.",
+      "Đặc điểm nhận diện tiêu biểu: Lá dẹp mềm xếp thành hai hàng phẳng xoắn nhẹ và hạt bao bọc bởi áo hạt (aril) mọng nước màu đỏ tươi như chiếc cốc ngọc."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Mashk puri Top 302.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mashk_puri_Top_302.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mashk_puri_Top_302.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Saud Khan 302",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Taxus wallichiana kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taxus_wallichiana_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Taxus_wallichiana_kz01.jpg",
+        "width": 3015,
+        "height": 4222,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taxus wallichiana syn. Taxus celebica Cis chiński 2024-05-26 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taxus_wallichiana_syn._Taxus_celebica_Cis_chi%C5%84ski_2024-05-26_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Taxus_wallichiana_syn._Taxus_celebica_Cis_chi%C5%84ski_2024-05-26_01.jpg",
+        "width": 6646,
+        "height": 4431,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Agnieszka Kwiecień, Nova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taxus wallichiana kz03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taxus_wallichiana_kz03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Taxus_wallichiana_kz03.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taxus wallichiana kz02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taxus_wallichiana_kz02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Taxus_wallichiana_kz02.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5284540",
+      "https://www.iucnredlist.org/species/46171879/9730085",
+      "https://en.wikipedia.org/wiki/Taxus_wallichiana",
+      "https://vi.wikipedia.org/wiki/Sam_h%E1%BA%A1t_%C4%91%E1%BB%8F_l%C3%A1_d%C3%A0i"
+    ]
+  },
+  {
+    "scientificName": "Taxus chinensis",
+    "commonNameVi": "Thông đỏ bắc",
+    "commonNameEn": "Chinese Yew",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Taxaceae",
+      "genus": "Taxus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Thông đỏ (Taxaceae)",
+      "genus": "Chi Thông đỏ (Taxus)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/42548/2987120",
+    "gbifKey": 8641859,
+    "environment": {
+      "tempMin": 8,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nguyên sinh trên đỉnh núi đá vôi ẩm mát độ cao 900–2.000 m"
+    },
+    "descriptionVi": "Đại diện của chi Thông Đỏ chuyên sinh sống trên các đỉnh núi đá vôi hiểm trở miền Bắc Việt Nam với tuổi thọ có thể lên tới hàng ngàn năm.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IA bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Tất cả các bộ phận của cây (lá, vỏ, hạt) đều chứa độc tố taxine bảo vệ cây khỏi thú ăn cỏ, ngoại trừ lớp áo hạt màu đỏ ngọt ngào dùng để mời gọi chim rừng ăn và phát tán hạt.",
+    "dietVi": "Tự dưỡng quang hợp trên nền mùn núi đá vôi ẩm mát",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Taxus baccata chinensis",
+      "Taxus baccata sinensis",
+      "Taxus calcicola",
+      "Taxus chinensis baokangsis"
+    ],
+    "wikidataId": "Q1056841",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Taxus_chinensis",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 2000,
+      "noteVi": "Phiến lá ngắn thẳng đứng hơi cong hình liềm với mặt dưới màu xanh vàng và áo hạt đỏ tươi khi chín"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi đá vôi Tây Bắc, Đông Bắc (Sơn La, Hòa Bình, Hà Giang, Bắc Kạn) của Việt Nam và Trung Quốc",
+      "elevationM": {
+        "min": 900,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Đại diện của chi Thông Đỏ chuyên sinh sống trên các đỉnh núi đá vôi hiểm trở miền Bắc Việt Nam với tuổi thọ có thể lên tới hàng ngàn năm. Đặc điểm nhận dạng: Phiến lá ngắn thẳng đứng hơi cong hình liềm với mặt dưới màu xanh vàng và áo hạt đỏ tươi khi chín.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tất cả các bộ phận của cây (lá, vỏ, hạt) đều chứa độc tố taxine bảo vệ cây khỏi thú ăn cỏ, ngoại trừ lớp áo hạt màu đỏ ngọt ngào dùng để mời gọi chim rừng ăn và phát tán hạt.",
+      "Đặc điểm nhận diện tiêu biểu: Phiến lá ngắn thẳng đứng hơi cong hình liềm với mặt dưới màu xanh vàng và áo hạt đỏ tươi khi chín."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:紅豆杉風倒木 The Windthrown Taiwan Yew - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%B4%85%E8%B1%86%E6%9D%89%E9%A2%A8%E5%80%92%E6%9C%A8_The_Windthrown_Taiwan_Yew_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E7%B4%85%E8%B1%86%E6%9D%89%E9%A2%A8%E5%80%92%E6%9C%A8_The_Windthrown_Taiwan_Yew_-_panoramio.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Yew trees bear red fruits.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yew_trees_bear_red_fruits.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Yew_trees_bear_red_fruits.jpg",
+        "width": 1600,
+        "height": 3478,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Fumikas Sagisavas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:紅豆杉樹皮.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%B4%85%E8%B1%86%E6%9D%89%E6%A8%B9%E7%9A%AE.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E7%B4%85%E8%B1%86%E6%9D%89%E6%A8%B9%E7%9A%AE.jpg",
+        "width": 3072,
+        "height": 3072,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "丘崈",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:紅豆杉樹幹.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%B4%85%E8%B1%86%E6%9D%89%E6%A8%B9%E5%B9%B9.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/%E7%B4%85%E8%B1%86%E6%9D%89%E6%A8%B9%E5%B9%B9.jpg",
+        "width": 3016,
+        "height": 3016,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "氏子",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8641859",
+      "https://www.iucnredlist.org/species/42548/2987120",
+      "https://en.wikipedia.org/wiki/Taxus_chinensis"
+    ]
+  },
+  {
+    "scientificName": "Cephalotaxus mannii",
+    "commonNameVi": "Đỉnh tùng",
+    "commonNameEn": "Mann's Yew Plum",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cephalotaxaceae",
+      "genus": "Cephalotaxus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thông (Pinales)",
+      "family": "Họ Đỉnh tùng (Cephalotaxaceae)",
+      "genus": "Chi Đỉnh tùng (Cephalotaxus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/18625568/2804770",
+    "gbifKey": 2685261,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh mưa mùa nhiệt đới núi cao độ cao 800–2.000 m"
+    },
+    "descriptionVi": "Loài cây hạt trần quý hiếm có bộ lá xếp hai bên cành phẳng phiu như chiếc lược ngà và hạt chín to tròn giống quả mận rừng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Nhóm IIA bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Hạt của cây Đỉnh Tùng cần tới gần hai năm (khoảng 18–20 tháng) từ khi thụ phấn mới chín hoàn toàn thành quả mọng màu nâu tím.",
+    "dietVi": "Tự dưỡng quang hợp dưới tán rừng nguyên sinh ẩm mát",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cephalotaxus griffithii",
+      "Cephalotaxus harringtonia thailandensis",
+      "Cephalotaxus harringtonii thailandensis",
+      "Cephalotaxus mannii thailandensis"
+    ],
+    "wikidataId": "Q3439559",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%89nh_t%C3%B9ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cephalotaxus_mannii",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 2000,
+      "noteVi": "Lá kim dẹp dài xếp hai dãy đều đặn như lược với hai dải phấn trắng rộng ở mặt dưới và hạt lớn hình quả mận"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Khắp các dãy núi cao Việt Nam (Hoàng Liên Sơn, Trường Sơn, Tây Nguyên), Lào, Thái Lan, đông bắc Ấn Độ và nam Trung Quốc",
+      "elevationM": {
+        "min": 800,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây hạt trần quý hiếm có bộ lá xếp hai bên cành phẳng phiu như chiếc lược ngà và hạt chín to tròn giống quả mận rừng. Đặc điểm nhận dạng: Lá kim dẹp dài xếp hai dãy đều đặn như lược với hai dải phấn trắng rộng ở mặt dưới và hạt lớn hình quả mận.",
+    "behaviorVi": "Cây gỗ hạt trần cổ thụ sinh trưởng chậm trong các khu rừng nguyên sinh và đầm lầy đặc hữu của Việt Nam.",
+    "reproductionVi": "Thực vật hạt trần sinh sản bằng nón đực (phấn hoa nhờ gió) và nón cái tạo hạt phát tán tự nhiên.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Hạt của cây Đỉnh Tùng cần tới gần hai năm (khoảng 18–20 tháng) từ khi thụ phấn mới chín hoàn toàn thành quả mọng màu nâu tím.",
+      "Đặc điểm nhận diện tiêu biểu: Lá kim dẹp dài xếp hai dãy đều đặn như lược với hai dải phấn trắng rộng ở mặt dưới và hạt lớn hình quả mận."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "II",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cephalotaxus mannii kz1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotaxus_mannii_kz1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cephalotaxus_mannii_kz1.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cephalotaxus griffithii 230075305.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotaxus_griffithii_230075305.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Cephalotaxus_griffithii_230075305.jpg",
+        "width": 1542,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Caleb Catto",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotaxus mannii kz3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotaxus_mannii_kz3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Cephalotaxus_mannii_kz3.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotaxus mannii kz2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotaxus_mannii_kz2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cephalotaxus_mannii_kz2.jpg",
+        "width": 2896,
+        "height": 4184,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotaxus griffithii 230075274.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotaxus_griffithii_230075274.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cephalotaxus_griffithii_230075274.jpg",
+        "width": 1542,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Caleb Catto",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2685261",
+      "https://www.iucnredlist.org/species/18625568/2804770",
+      "https://en.wikipedia.org/wiki/Cephalotaxus_mannii",
+      "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%89nh_t%C3%B9ng"
+    ]
+  }
+]

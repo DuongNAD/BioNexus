@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { api } from '../client';
 import { queryKeys } from '../keys';
 import { toSpeciesView, type SpeciesViewModel } from '../adapters';
+import { loadCatalogIndex } from '../catalog';
 import type { SpeciesDto, ProductDto } from '@/types/api';
 
 export function useSpeciesList(filters?: { nodeId?: number; q?: string; iucn?: string }) {
@@ -14,7 +15,8 @@ export function useSpeciesList(filters?: { nodeId?: number; q?: string; iucn?: s
       if (filters?.iucn) params.set('iucn', filters.iucn);
       const queryStr = params.toString() ? `?${params.toString()}` : '';
 
-      const res = await api<SpeciesDto[]>(`species${queryStr}`);
+      // Chỉ mục catalog tải song song với danh sách loài, adapter cần nó để biết nhóm, toạ độ, ảnh
+      const [res] = await Promise.all([api<SpeciesDto[]>(`species${queryStr}`), loadCatalogIndex()]);
       const rawList = res.data || [];
       return rawList.map((s) => toSpeciesView(s));
     },
@@ -26,7 +28,7 @@ export function useSpeciesDetail(id: number | string, options?: { enabled?: bool
   return useQuery<SpeciesViewModel | null>({
     queryKey: queryKeys.species.detail(id),
     queryFn: async () => {
-      const res = await api<SpeciesDto>(`species/${id}`);
+      const [res] = await Promise.all([api<SpeciesDto>(`species/${id}`), loadCatalogIndex()]);
       if (!res.data) return null;
       return toSpeciesView(res.data);
     },

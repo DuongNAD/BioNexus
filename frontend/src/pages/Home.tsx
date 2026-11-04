@@ -25,6 +25,7 @@ import { ButtonLink } from '@/components/domain/ButtonLink';
 import { Eyebrow, Panel } from '@/components/layout/Page';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
+import { SPECIES_EXTRAS } from '@/api/adapters';
 import { cn } from '@/lib/cn';
 import { dur, ease } from '@/lib/motion';
 
@@ -83,11 +84,13 @@ export default function Home(): React.JSX.Element {
 
   // Marker địa cầu dựng từ danh sách loài của API; trong lúc chờ thì dùng bộ dựng sẵn
   const earthMarkers = useMemo(() => {
-    if (!speciesData || speciesData.length === 0) return DEFAULT_SPECIES_BIOMARKERS;
+    // Chương 02 kể chuyện 9 loài tiêu biểu có hồ sơ đầy đủ; hơn 600 loài catalog để dành cho Bách khoa
+    const featured = (speciesData ?? []).filter((sp) => sp.scientificName in SPECIES_EXTRAS);
+    if (featured.length === 0) return DEFAULT_SPECIES_BIOMARKERS;
     const speciesOnSale = new Set(
       (productsData?.items || []).filter((p) => p.status === 'APPROVED').map((p) => p.speciesId)
     );
-    return speciesData.map((sp) => toBioMarker(sp, speciesOnSale.has(sp.id)));
+    return featured.map((sp) => toBioMarker(sp, speciesOnSale.has(sp.id)));
   }, [speciesData, productsData?.items]);
   const selectedMarker =
     earthMarkers.find((m) => m.scientificName === selectedScientificName) ?? earthMarkers[0];

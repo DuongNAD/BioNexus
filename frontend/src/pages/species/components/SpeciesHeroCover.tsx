@@ -4,19 +4,34 @@ import type { TaxonomyNodeDto } from '@/types/api';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { Breadcrumbs, Eyebrow, PageContainer } from '@/components/layout/Page';
 import { PhotoCredit } from '@/components/media/PhotoCredit';
-import { PHOTOS } from '@/content/photos';
+import { PHOTOS, type PhotoCredit as PhotoCreditData } from '@/content/photos';
+import type { CatalogPhoto } from '@/api/catalog';
 
 export interface SpeciesHeroCoverProps {
   species: SpeciesViewModel;
   breadcrumbs: TaxonomyNodeDto[];
+  /** Nguồn ảnh hero của loài catalog (9 loài gốc lấy từ PHOTOS) */
+  catalogHero?: CatalogPhoto | null;
+}
+
+/** Đổi nguồn ảnh catalog sang dạng PhotoCredit dùng chung */
+export function catalogCredit(photo: CatalogPhoto): PhotoCreditData {
+  return {
+    author: photo.author,
+    license: photo.license,
+    licenseUrl: photo.licenseUrl || 'https://creativecommons.org/licenses/',
+    sourceUrl: photo.sourceUrl,
+    modified: photo.modified,
+  };
 }
 
 /**
  * Bìa hồ sơ loài: ảnh thật tràn ngang màn hình (mẫu R "Axolotl phóng to"), chữ đặt trên lớp phủ tối.
  * Chứa H1 duy nhất của trang.
  */
-export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, breadcrumbs }) => {
+export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, breadcrumbs, catalogHero }) => {
   const photoMeta = species.heroPhotoId ? PHOTOS[species.heroPhotoId] : undefined;
+  const credit = photoMeta?.credit ?? (catalogHero ? catalogCredit(catalogHero) : undefined);
   // Đường dẫn ngắn: bách khoa, vài cấp gần nhất của cây phân loại, rồi loài
   const crumbs = [
     { label: 'Bách khoa loài', to: '/species' },
@@ -43,7 +58,7 @@ export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, bre
       <PageContainer className="pt-28 pb-10 md:pb-16">
         <Breadcrumbs items={crumbs} className="mb-6 text-white/70 [&_a:hover]:text-white [&_[aria-current]]:text-white/90" />
         <Eyebrow className="mb-4">
-          {species.group} · {species.origin.place}
+          {[species.group, species.origin.place].filter(Boolean).join(' · ')}
         </Eyebrow>
         <h1 className="max-w-4xl text-[44px] leading-[0.95] font-semibold tracking-[-0.05em] text-white md:text-[84px]">
           {species.displayName}
@@ -55,7 +70,7 @@ export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, bre
         </div>
       </PageContainer>
 
-      {photoMeta?.credit && <PhotoCredit credit={photoMeta.credit} variant="hover-chip" />}
+      {credit && <PhotoCredit credit={credit} variant="hover-chip" />}
     </section>
   );
 };

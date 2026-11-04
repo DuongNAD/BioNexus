@@ -1,0 +1,3796 @@
+[
+  {
+    "scientificName": "Zebrasoma xanthurum",
+    "commonNameVi": "Cá đuôi gai tím đuôi vàng",
+    "commonNameEn": "Yellowtail Tang",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Zebrasoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai cánh buồm (Zebrasoma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178009/1519810",
+    "gbifKey": 2379882,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô giàu san hô nhánh độ sâu 2–20 m"
+    },
+    "descriptionVi": "Viên ngọc quý của Biển Đỏ với sắc tím nhung sang trọng kết hợp chiếc đuôi và viền vây ngực màu vàng nghệ rực sáng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Nhờ cái mõm nhọn vươn dài đặc trưng của chi Zebrasoma, cá dễ dàng luồn miệng vào các khe hẹp giữa các cành san hô để tỉa sạch tảo sợi.",
+    "dietVi": "Ăn tảo biển tự nhiên, rong biển khô Nori, tảo Spirulina và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đặc hữu Biển Đỏ (Red Sea), vịnh Aden và vịnh Ba Tư",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus xanthurus"
+    ],
+    "wikidataId": "Q882730",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zebrasoma_xanthurum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Zebrasoma_xanthurum",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 22,
+      "weightGMin": 180,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Thân màu tím xanh đậm điểm các chấm và đường kẻ mảnh sẫm màu tương phản với chiếc đuôi vàng hoàng yến"
+    },
+    "distribution": {
+      "countries": [
+        "EG"
+      ],
+      "nativeRangeVi": "Đặc hữu Biển Đỏ (Red Sea), vịnh Aden và vịnh Ba Tư",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Viên ngọc quý của Biển Đỏ với sắc tím nhung sang trọng kết hợp chiếc đuôi và viền vây ngực màu vàng nghệ rực sáng. Đặc điểm nhận dạng: Thân màu tím xanh đậm điểm các chấm và đường kẻ mảnh sẫm màu tương phản với chiếc đuôi vàng hoàng yến.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô giàu san hô nhánh độ sâu 2–20 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Nhờ cái mõm nhọn vươn dài đặc trưng của chi Zebrasoma, cá dễ dàng luồn miệng vào các khe hẹp giữa các cành san hô để tỉa sạch tảo sợi.",
+      "Đặc điểm hình thái nổi bật: Thân màu tím xanh đậm điểm các chấm và đường kẻ mảnh sẫm màu tương phản với chiếc đuôi vàng hoàng yến."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo biển tự nhiên, rong biển khô Nori, tảo Spirulina và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Tím Đuôi Vàng (Purple Tang) (Zebrasoma xanthurum) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Tím Đuôi Vàng (Purple Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cirujano de cola amarilla (Zebrasoma xanthurum), mar Rojo, Egipto, 2023-04-15, DD 54.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cirujano_de_cola_amarilla_(Zebrasoma_xanthurum),_mar_Rojo,_Egipto,_2023-04-15,_DD_54.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cirujano_de_cola_amarilla_%28Zebrasoma_xanthurum%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_54.jpg",
+        "width": 5376,
+        "height": 3584,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cirujano de cola amarilla (Zebrasoma xanthurum), mar Rojo, Egipto, 2023-04-17, DD 75.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cirujano_de_cola_amarilla_(Zebrasoma_xanthurum),_mar_Rojo,_Egipto,_2023-04-17,_DD_75.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cirujano_de_cola_amarilla_%28Zebrasoma_xanthurum%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_75.jpg",
+        "width": 2778,
+        "height": 2778,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blauer Segelflossendoktor (Zebrasoma xanthurum) DSCF7058WI.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blauer_Segelflossendoktor_(Zebrasoma_xanthurum)_DSCF7058WI.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Blauer_Segelflossendoktor_%28Zebrasoma_xanthurum%29_DSCF7058WI.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kora27",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eilat aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eilat_aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Eilat_aquarium.jpg",
+        "width": 5456,
+        "height": 3632,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Tiia Monto",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fish in a home aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_in_a_home_aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Fish_in_a_home_aquarium.jpg",
+        "width": 4829,
+        "height": 2780,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tarasna0922",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2379882",
+      "https://www.iucnredlist.org/species/178009/1519810",
+      "https://en.wikipedia.org/wiki/Zebrasoma_xanthurum",
+      "https://vi.wikipedia.org/wiki/Zebrasoma_xanthurum"
+    ]
+  },
+  {
+    "scientificName": "Zebrasoma scopas",
+    "commonNameVi": "Cá đuôi gai nâu",
+    "commonNameEn": "Brushtail Tang",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Zebrasoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai cánh buồm (Zebrasoma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178005/1518420",
+    "gbifKey": 2379864,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá và sườn rạn san hô độ sâu 1–40 m"
+    },
+    "descriptionVi": "Chuyên gia kiểm soát rêu tảo cần mẫn và dẻo dai với họa tiết hàng ngàn đường chấm li tiสี xanh lam nhạt xếp sóng dọc thân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Trước phía ngạnh xương màu trắng ở cuống đuôi của Z. scopas có một đám lông gai nhỏ cứng như bàn chải nên còn được gọi là 'Cá đuôi gai đuôi chổi'.",
+    "dietVi": "Ăn tảo sợi, tảo lục, rong biển Nori và cám viên thực vật",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus altivelis",
+      "Acanthurus ruppelii",
+      "Acanthurus scopas",
+      "Acanthurus suillus"
+    ],
+    "wikidataId": "Q582377",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zebrasoma_scopas",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Zebrasoma_scopas",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 140,
+      "weightGMax": 220,
+      "heightCmMax": null,
+      "noteVi": "Thân hình đĩa bầu dục chuyển màu mịn màng từ vàng mật ong ở đầu sang nâu sô-cô-la đậm ở đuôi với ngạnh đuôi trắng"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Khắp vùng biển Ấn Độ Dương - Thái Bình Dương từ Đông Phi qua biển Việt Nam tới Nhật Bản",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Chuyên gia kiểm soát rêu tảo cần mẫn và dẻo dai với họa tiết hàng ngàn đường chấm li tiสี xanh lam nhạt xếp sóng dọc thân. Đặc điểm nhận dạng: Thân hình đĩa bầu dục chuyển màu mịn màng từ vàng mật ong ở đầu sang nâu sô-cô-la đậm ở đuôi với ngạnh đuôi trắng.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá và sườn rạn san hô độ sâu 1–40 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Trước phía ngạnh xương màu trắng ở cuống đuôi của Z. scopas có một đám lông gai nhỏ cứng như bàn chải nên còn được gọi là 'Cá đuôi gai đuôi chổi'.",
+      "Đặc điểm hình thái nổi bật: Thân hình đĩa bầu dục chuyển màu mịn màng từ vàng mật ong ở đầu sang nâu sô-cô-la đậm ở đuôi với ngạnh đuôi trắng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo sợi, tảo lục, rong biển Nori và cám viên thực vật. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Nâu (Brown Tang / Brush-tail Tang) (Zebrasoma scopas) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 320000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Nâu (Brown Tang / Brush-tail Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pez cirujano marrón (Zebrasoma scopas), Nosy Sakatia, Madagascar, 2025-09-18, DD 22.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pez_cirujano_marr%C3%B3n_(Zebrasoma_scopas),_Nosy_Sakatia,_Madagascar,_2025-09-18,_DD_22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pez_cirujano_marr%C3%B3n_%28Zebrasoma_scopas%29%2C_Nosy_Sakatia%2C_Madagascar%2C_2025-09-18%2C_DD_22.jpg",
+        "width": 4216,
+        "height": 2811,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brushtail Tang, juvenile - Zebrasoma scopas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brushtail_Tang,_juvenile_-_Zebrasoma_scopas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Brushtail_Tang%2C_juvenile_-_Zebrasoma_scopas.jpg",
+        "width": 665,
+        "height": 1000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Francois Libert",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Zebrasoma scopas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zebrasoma_scopas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Zebrasoma_scopas.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "William Warby",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Zebrasoma scopas Atoa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zebrasoma_scopas_Atoa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Zebrasoma_scopas_Atoa.jpg",
+        "width": 3292,
+        "height": 2469,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Totti",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brushtail tang (Zebrasoma scopas) (37188513071).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brushtail_tang_(Zebrasoma_scopas)_(37188513071).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Brushtail_tang_%28Zebrasoma_scopas%29_%2837188513071%29.jpg",
+        "width": 3103,
+        "height": 2327,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Rickard Zerpe",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2379864",
+      "https://www.iucnredlist.org/species/178005/1518420",
+      "https://en.wikipedia.org/wiki/Zebrasoma_scopas",
+      "https://vi.wikipedia.org/wiki/Zebrasoma_scopas"
+    ]
+  },
+  {
+    "scientificName": "Zebrasoma desjardinii",
+    "commonNameVi": "Cá đuôi gai buồm Ấn Độ",
+    "commonNameEn": "Indian Sailfin Tang",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Zebrasoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai cánh buồm (Zebrasoma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178024/1524628",
+    "gbifKey": 2379874,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô đầm phá và vùng rạn ngoài khơi độ sâu 2–30 m"
+    },
+    "descriptionVi": "Khi giương cao cả vây lưng và vây hậu môn, chiều cao cơ thể của loài cá này tăng lên gấp đôi tạo thành một cánh buồm tròn đầy họa tiết nghệ thuật.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Khác với họ hàng Thái Bình Dương Z. velifer có sọc dọc tới tận bụng, Z. desjardinii của Ấn Độ Dương có các sọc dọc ở phần bụng vỡ ra thành những hàng chấm bi tròn vàng kim.",
+    "dietVi": "Ăn rong tảo vĩ mô, rong Nori, rau diếp biển và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Biển Đỏ và khắp Ấn Độ Dương tới đảo Java (Indonesia)",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus desjardinii"
+    ],
+    "wikidataId": "Q1661589",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zebrasoma_desjardinii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Zebrasoma_desjardinii",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 500,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Vây lưng và vây hậu môn căng rộng khổng lồ như hai cánh buồm tròn điểm sọc vàng cam và đốm xanh trên bụng"
+    },
+    "distribution": {
+      "countries": [
+        "EG",
+        "IN",
+        "LK",
+        "ID"
+      ],
+      "nativeRangeVi": "Biển Đỏ và khắp Ấn Độ Dương tới đảo Java (Indonesia)",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Khi giương cao cả vây lưng và vây hậu môn, chiều cao cơ thể của loài cá này tăng lên gấp đôi tạo thành một cánh buồm tròn đầy họa tiết nghệ thuật. Đặc điểm nhận dạng: Vây lưng và vây hậu môn căng rộng khổng lồ như hai cánh buồm tròn điểm sọc vàng cam và đốm xanh trên bụng.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô đầm phá và vùng rạn ngoài khơi độ sâu 2–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Khác với họ hàng Thái Bình Dương Z. velifer có sọc dọc tới tận bụng, Z. desjardinii của Ấn Độ Dương có các sọc dọc ở phần bụng vỡ ra thành những hàng chấm bi tròn vàng kim.",
+      "Đặc điểm hình thái nổi bật: Vây lưng và vây hậu môn căng rộng khổng lồ như hai cánh buồm tròn điểm sọc vàng cam và đốm xanh trên bụng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn rong tảo vĩ mô, rong Nori, rau diếp biển và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Cánh Buồm Biển Đỏ (Desjardin's Sailfin Tang) (Zebrasoma desjardinii) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 680000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Cánh Buồm Biển Đỏ (Desjardin's Sailfin Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brest - Océanopolis - 2015 - 094.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brest_-_Oc%C3%A9anopolis_-_2015_-_094.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Brest_-_Oc%C3%A9anopolis_-_2015_-_094.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Thesupermat",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Sea Life London Aquarium DSC6081 - Flickr - dconvertini.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sea_Life_London_Aquarium_DSC6081_-_Flickr_-_dconvertini.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sea_Life_London_Aquarium_DSC6081_-_Flickr_-_dconvertini.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "dconvertini",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Red sea-reef 3935.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_sea-reef_3935.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Red_sea-reef_3935.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Hannes Grobe/AWI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Coral2000 Eilat 2, February 2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coral2000_Eilat_2,_February_2018.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Coral2000_Eilat_2%2C_February_2018.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gerda Arendt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Desjardin's sailfin tang in the Leningrad zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Desjardin%27s_sailfin_tang_in_the_Leningrad_zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Desjardin%27s_sailfin_tang_in_the_Leningrad_zoo.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Горбунова М.С.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2379874",
+      "https://www.iucnredlist.org/species/178024/1524628",
+      "https://en.wikipedia.org/wiki/Zebrasoma_desjardinii",
+      "https://vi.wikipedia.org/wiki/Zebrasoma_desjardinii"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus leucosternon",
+    "commonNameVi": "Cá đuôi gai xanh phấn",
+    "commonNameEn": "Powder Blue Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178000/1516737",
+    "gbifKey": 5209210,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Mặt bằng rạn san hô nông ngập nắng có sóng vỗ mạnh độ sâu 1–20 m"
+    },
+    "descriptionVi": "Một trong những loài cá đuôi gai có phối màu thanh nhã và nổi bật nhất thế giới với sắc xanh phấn (Powder blue) cùng vây lưng vàng tươi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Ngoài tự nhiên, chúng thường hợp thành các 'đàn viễn chinh' hàng chục cá thể cùng ùa vào lãnh thổ của cá thia để gặm sạch các thảm tảo xanh.",
+    "dietVi": "Ăn tảo đáy trên đá san hô, rong Nori, tảo Spirulina và thức ăn giàu vitamin",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus delisiani",
+      "Acanthurus delisianus",
+      "Acanthurus delissianus",
+      "Acanthurus leucosternum"
+    ],
+    "wikidataId": "Q128785",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_leucosternon",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_leucosternon",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 23,
+      "weightGMin": 180,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Thân màu xanh da trời phấn dịu, mặt đen tuyền có yếm trắng tinh dưới cằm - ngực và vây lưng màu vàng chanh tươi"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "LK",
+        "TH",
+        "ID",
+        "TZ"
+      ],
+      "nativeRangeVi": "Vùng biển nhiệt đới Ấn Độ Dương từ Đông Phi, Maldives tới biển Andaman và Bali",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài cá đuôi gai có phối màu thanh nhã và nổi bật nhất thế giới với sắc xanh phấn (Powder blue) cùng vây lưng vàng tươi. Đặc điểm nhận dạng: Thân màu xanh da trời phấn dịu, mặt đen tuyền có yếm trắng tinh dưới cằm - ngực và vây lưng màu vàng chanh tươi.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại mặt bằng rạn san hô nông ngập nắng có sóng vỗ mạnh độ sâu 1–20 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Ngoài tự nhiên, chúng thường hợp thành các 'đàn viễn chinh' hàng chục cá thể cùng ùa vào lãnh thổ của cá thia để gặm sạch các thảm tảo xanh.",
+      "Đặc điểm hình thái nổi bật: Thân màu xanh da trời phấn dịu, mặt đen tuyền có yếm trắng tinh dưới cằm - ngực và vây lưng màu vàng chanh tươi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–27°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo đáy trên đá san hô, rong Nori, tảo Spirulina và thức ăn giàu vitamin. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Ngực Trắng (Powder Blue Tang) (Acanthurus leucosternon) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 750000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Ngực Trắng (Powder Blue Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Acanthurus leucosternon - 5310.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_-_5310.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Acanthurus_leucosternon_-_5310.jpg",
+        "width": 3361,
+        "height": 2030,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Amada44",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Acanthurus leucosternon - 5317.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_-_5317.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Acanthurus_leucosternon_-_5317.jpg",
+        "width": 2926,
+        "height": 2656,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Amada44",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2013. Крым 956.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013._%D0%9A%D1%80%D1%8B%D0%BC_956.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/2013._%D0%9A%D1%80%D1%8B%D0%BC_956.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthurus leucosternon (6337839630).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_(6337839630).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Acanthurus_leucosternon_%286337839630%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Ruben Undheim from Trondheim, Norway",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209210",
+      "https://www.iucnredlist.org/species/178000/1516737",
+      "https://en.wikipedia.org/wiki/Acanthurus_leucosternon",
+      "https://vi.wikipedia.org/wiki/Acanthurus_leucosternon"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus lineatus",
+    "commonNameVi": "Cá đuôi gai sọc",
+    "commonNameEn": "Lined Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177993/1514809",
+    "gbifKey": 5209244,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Đỉnh rạn san hô ngoài khơi nơi có sóng vỗ giàu oxy độ sâu 1–15 m"
+    },
+    "descriptionVi": "Chiến binh rực rỡ của đỉnh sóng san hô với bộ áo kẻ sọc vàng - xanh điện quang bắt mắt và tốc độ bơi lướt cực nhanh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Ngạnh xương ở cuống đuôi của A. lineatus đặc biệt dài, sắc bén và có tuyến độc nhẹ để bảo vệ lãnh thổ kiếm ăn trên mặt rạn san hô.",
+    "dietVi": "Ăn tảo sợi bám đá, rong biển Nori và thức ăn viên thực vật",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus vittatus",
+      "Chaetodon lineatus",
+      "Ctenodon lineatus",
+      "Harpurus lineatus"
+    ],
+    "wikidataId": "Q151473",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_lineatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_lineatus",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 38,
+      "weightGMin": 350,
+      "weightGMax": 700,
+      "heightCmMax": null,
+      "noteVi": "Nửa thân trên có các dải sọc ngang màu vàng cam và xanh lam viền đen chạy dọc tới vây đuôi hình trăng khuyết"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Khắp vùng Ấn Độ Dương - Thái Bình Dương (bao gồm quần đảo Hoàng Sa, Trường Sa và biển miền Trung Việt Nam)",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Chiến binh rực rỡ của đỉnh sóng san hô với bộ áo kẻ sọc vàng - xanh điện quang bắt mắt và tốc độ bơi lướt cực nhanh. Đặc điểm nhận dạng: Nửa thân trên có các dải sọc ngang màu vàng cam và xanh lam viền đen chạy dọc tới vây đuôi hình trăng khuyết.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đỉnh rạn san hô ngoài khơi nơi có sóng vỗ giàu oxy độ sâu 1–15 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Ngạnh xương ở cuống đuôi của A. lineatus đặc biệt dài, sắc bén và có tuyến độc nhẹ để bảo vệ lãnh thổ kiếm ăn trên mặt rạn san hô.",
+      "Đặc điểm hình thái nổi bật: Nửa thân trên có các dải sọc ngang màu vàng cam và xanh lam viền đen chạy dọc tới vây đuôi hình trăng khuyết."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–27°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo sợi bám đá, rong biển Nori và thức ăn viên thực vật. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Sọc Vằn (Clown Tang / Lined Surgeonfish) (Acanthurus lineatus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 480000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Sọc Vằn (Clown Tang / Lined Surgeonfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:ニジハギ Acanthurus lineatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%8B%E3%82%B8%E3%83%8F%E3%82%AE_Acanthurus_lineatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%E3%83%8B%E3%82%B8%E3%83%8F%E3%82%AE_Acanthurus_lineatus.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "merec0",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lined surgeonfish Acanthurus lineatus (striped surgeonfish) (5846786387).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lined_surgeonfish_Acanthurus_lineatus_(striped_surgeonfish)_(5846786387).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Lined_surgeonfish_Acanthurus_lineatus_%28striped_surgeonfish%29_%285846786387%29.jpg",
+        "width": 652,
+        "height": 978,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Paul Asman and Jill Lenoble",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Acanthurus lineatus Flynn Reef crop.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_lineatus_Flynn_Reef_crop.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Acanthurus_lineatus_Flynn_Reef_crop.jpg",
+        "width": 1382,
+        "height": 664,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "99of9",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fish Georgia aquarium - 37529455082.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_Georgia_aquarium_-_37529455082.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Fish_Georgia_aquarium_-_37529455082.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Great Barrier Reef Surgeonfish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Barrier_Reef_Surgeonfish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Great_Barrier_Reef_Surgeonfish.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Eomes",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209244",
+      "https://www.iucnredlist.org/species/177993/1514809",
+      "https://en.wikipedia.org/wiki/Acanthurus_lineatus",
+      "https://vi.wikipedia.org/wiki/Acanthurus_lineatus"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus achilles",
+    "commonNameVi": "Cá đuôi gai Achilles",
+    "commonNameEn": "Achilles Tang",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177960/1503262",
+    "gbifKey": 5209178,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 26,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Đới sóng vỗ mạnh (surge zone) trên rạn san hô đá độ sâu 0–10 m"
+    },
+    "descriptionVi": "Biểu tượng quý tộc của dòng cá đuôi gai với tấm áo đen nhung lịch lãm và giọt lửa màu cam chói lọi ngay tại vị trí 'gót chân Achilles' ở cuống đuôi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Đốm màu cam lửa rực sáng ở phần sau thân chỉ xuất hiện khi cá đạt chiều dài trưởng thành trên 7–8 cm để báo hiệu chiếc ngạnh đuôi sắc nhọn bên trong.",
+    "dietVi": "Ăn tảo đỏ, tảo lục sợi, rong Nori và thức ăn viên giàu Spirulina",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus achillas",
+      "Acanthurus aterrimus",
+      "Acanthurus orbicularis",
+      "Acronurus formosus"
+    ],
+    "wikidataId": "Q340279",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_achilles",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_achilles",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 24,
+      "weightGMin": 200,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Thân màu đen nhung sẫm làm nổi bật một mảng hình giọt nước màu cam lửa rực rỡ bao quanh ngạnh cuống đuôi"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "FR",
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng đảo san hô Thái Bình Dương gồm Hawaii, Polynesia thuộc Pháp và Micronesia",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Biểu tượng quý tộc của dòng cá đuôi gai với tấm áo đen nhung lịch lãm và giọt lửa màu cam chói lọi ngay tại vị trí 'gót chân Achilles' ở cuống đuôi. Đặc điểm nhận dạng: Thân màu đen nhung sẫm làm nổi bật một mảng hình giọt nước màu cam lửa rực rỡ bao quanh ngạnh cuống đuôi.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đới sóng vỗ mạnh (surge zone) trên rạn san hô đá độ sâu 0–10 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Đốm màu cam lửa rực sáng ở phần sau thân chỉ xuất hiện khi cá đạt chiều dài trưởng thành trên 7–8 cm để báo hiệu chiếc ngạnh đuôi sắc nhọn bên trong.",
+      "Đặc điểm hình thái nổi bật: Thân màu đen nhung sẫm làm nổi bật một mảng hình giọt nước màu cam lửa rực rỡ bao quanh ngạnh cuống đuôi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 23–26°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo đỏ, tảo lục sợi, rong Nori và thức ăn viên giàu Spirulina. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Achilles (Acanthurus achilles) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 6500000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Achilles đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Acanthurus Achilles - IMG 0340.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_Achilles_-_IMG_0340.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Acanthurus_Achilles_-_IMG_0340.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Acanthurus achilles (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_achilles_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Acanthurus_achilles_%28cropped%29.jpg",
+        "width": 1100,
+        "height": 1045,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jean",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Reef0689 - Flickr - NOAA Photo Library.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Reef0689_-_Flickr_-_NOAA_Photo_Library.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Reef0689_-_Flickr_-_NOAA_Photo_Library.jpg",
+        "width": 1488,
+        "height": 1184,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Dr. Dwayne Meadows, NOAA/NMFS/OPR.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthurus achilles in Ouwehands Dierenpark 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_achilles_in_Ouwehands_Dierenpark_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Acanthurus_achilles_in_Ouwehands_Dierenpark_03.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fish Georgia aquarium - 36850866814.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_Georgia_aquarium_-_36850866814.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fish_Georgia_aquarium_-_36850866814.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209178",
+      "https://www.iucnredlist.org/species/177960/1503262",
+      "https://en.wikipedia.org/wiki/Acanthurus_achilles",
+      "https://vi.wikipedia.org/wiki/Acanthurus_achilles"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus triostegus",
+    "commonNameVi": "Cá đuôi gai vằn",
+    "commonNameEn": "Convict Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177965/1504553",
+    "gbifKey": 5209217,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá san hô, bãi đá thủy triều và mặt rạn nông độ sâu 0–30 m"
+    },
+    "descriptionVi": "Được gọi là 'Cá đuôi gai tù nhân' (Convict Tang) nhờ bộ đồng phục kẻ sọc đen trên nền trắng bạc và tính cách ôn hòa thích bơi theo đàn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Tại Hawaii, loài cá này mang tên bản địa là 'Manini' và đóng vai trò như những chiếc máy cắt cỏ sống giữ cho san hô không bị tảo phủ kín.",
+    "dietVi": "Chuyên ăn tảo sợi bám đá, tảo lam, rong Nori và cám thảo mộc",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus hirudo",
+      "Acanthurus hirundo",
+      "Acanthurus pentazona",
+      "Acanthurus sandvicensis"
+    ],
+    "wikidataId": "Q1247501",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_triostegus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_triostegus",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 24,
+      "weightGMin": 150,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Thân màu trắng bạc ánh vàng nhạt với 5–6 dải sọc đen thẳng đứng chạy đều từ đầu đến cuống đuôi"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "US"
+      ],
+      "nativeRangeVi": "Toàn bộ vùng biển nhiệt đới Ấn Độ Dương - Thái Bình Dương từ Đông Phi qua biển Việt Nam tới Hawaii và Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được gọi là 'Cá đuôi gai tù nhân' (Convict Tang) nhờ bộ đồng phục kẻ sọc đen trên nền trắng bạc và tính cách ôn hòa thích bơi theo đàn. Đặc điểm nhận dạng: Thân màu trắng bạc ánh vàng nhạt với 5–6 dải sọc đen thẳng đứng chạy đều từ đầu đến cuống đuôi.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá san hô, bãi đá thủy triều và mặt rạn nông độ sâu 0–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Tại Hawaii, loài cá này mang tên bản địa là 'Manini' và đóng vai trò như những chiếc máy cắt cỏ sống giữ cho san hô không bị tảo phủ kín.",
+      "Đặc điểm hình thái nổi bật: Thân màu trắng bạc ánh vàng nhạt với 5–6 dải sọc đen thẳng đứng chạy đều từ đầu đến cuống đuôi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Chuyên ăn tảo sợi bám đá, tảo lam, rong Nori và cám thảo mộc. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Năm Sọc (Convict Tang) (Acanthurus triostegus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 280000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Năm Sọc (Convict Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:DSC08851 - Going to School (37049218672).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC08851_-_Going_to_School_(37049218672).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/DSC08851_-_Going_to_School_%2837049218672%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dennis G. Jarvis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aquarium nanCy 1005851.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_nanCy_1005851.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Aquarium_nanCy_1005851.jpg",
+        "width": 2579,
+        "height": 2755,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "G.Garitan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:A school of manini at Kingman Reef NWR (12197790793).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_school_of_manini_at_Kingman_Reef_NWR_(12197790793).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/A_school_of_manini_at_Kingman_Reef_NWR_%2812197790793%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS - Pacific Region",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Convict Surgeonfish, Acanthurus triostegus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Convict_Surgeonfish,_Acanthurus_triostegus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Convict_Surgeonfish%2C_Acanthurus_triostegus.jpg",
+        "width": 4159,
+        "height": 2773,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "brian.gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Convict Tangs (23426618923).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Convict_Tangs_(23426618923).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Convict_Tangs_%2823426618923%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209217",
+      "https://www.iucnredlist.org/species/177965/1504553",
+      "https://en.wikipedia.org/wiki/Acanthurus_triostegus",
+      "https://vi.wikipedia.org/wiki/Acanthurus_triostegus"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus olivaceus",
+    "commonNameVi": "Cá đuôi gai vai cam",
+    "commonNameEn": "Orange band Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177991/1514102",
+    "gbifKey": 5209196,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Đáy cát sỏi xen đá san hô chân rạn ở độ sâu 5–45 m"
+    },
+    "descriptionVi": "Loài cá đuôi gai có sự lột xác màu sắc ngoạn mục từ màu vàng chanh tươi sáng lúc nhỏ sang màu xám bạc đeo 'quân hàm' màu cam lửa trên vai khi trưởng thành.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Dạ dày của A. olivaceus có thành cơ dày như mề chim bởi chúng thường nuốt thêm cát san hô mịn để giúp nghiền nát tảo khuê và màng sinh học.",
+    "dietVi": "Ăn tảo khuê trên nền cát, tảo sợi, rong Nori và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus chrysosoma",
+      "Acanthurus eparai",
+      "Acanthurus eparei",
+      "Acanthurus erythromelas"
+    ],
+    "wikidataId": "Q1481899",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_olivaceus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_olivaceus",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 22,
+      "lengthCmMax": 30,
+      "weightGMin": 250,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Cá non màu vàng tươi hoàn toàn; cá trưởng thành màu xám ô-liu có vệt ngang màu cam rực viền xanh tím phía sau nắp mang"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "AU",
+        "JP",
+        "US"
+      ],
+      "nativeRangeVi": "Tây và Trung Thái Bình Dương từ biển Đông (Việt Nam), Indonesia tới Úc và Hawaii",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cá đuôi gai có sự lột xác màu sắc ngoạn mục từ màu vàng chanh tươi sáng lúc nhỏ sang màu xám bạc đeo 'quân hàm' màu cam lửa trên vai khi trưởng thành. Đặc điểm nhận dạng: Cá non màu vàng tươi hoàn toàn; cá trưởng thành màu xám ô-liu có vệt ngang màu cam rực viền xanh tím phía sau nắp mang.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đáy cát sỏi xen đá san hô chân rạn ở độ sâu 5–45 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Dạ dày của A. olivaceus có thành cơ dày như mề chim bởi chúng thường nuốt thêm cát san hô mịn để giúp nghiền nát tảo khuê và màng sinh học.",
+      "Đặc điểm hình thái nổi bật: Cá non màu vàng tươi hoàn toàn; cá trưởng thành màu xám ô-liu có vệt ngang màu cam rực viền xanh tím phía sau nắp mang."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo khuê trên nền cát, tảo sợi, rong Nori và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Vai Cam (Orange-band Surgeonfish) (Acanthurus olivaceus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 450000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Vai Cam (Orange-band Surgeonfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A. olivaceus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A._olivaceus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/A._olivaceus.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Oniria - Poisson 97.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_97.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Oniria_-_Poisson_97.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Orangeblotch Surgeonfish, Opal Reef, QLD, Australie imported from iNaturalist photo 354761689.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orangeblotch_Surgeonfish,_Opal_Reef,_QLD,_Australie_imported_from_iNaturalist_photo_354761689.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Orangeblotch_Surgeonfish%2C_Opal_Reef%2C_QLD%2C_Australie_imported_from_iNaturalist_photo_354761689.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Donald Davesne, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fish Georgia aquarium - 36891550563.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_Georgia_aquarium_-_36891550563.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Fish_Georgia_aquarium_-_36891550563.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Surgeonfish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Surgeonfish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Surgeonfish.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Lonnie Huffman",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209196",
+      "https://www.iucnredlist.org/species/177991/1514102",
+      "https://en.wikipedia.org/wiki/Acanthurus_olivaceus",
+      "https://vi.wikipedia.org/wiki/Acanthurus_olivaceus"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus pyroferus",
+    "commonNameVi": "Cá đuôi gai đội lốt",
+    "commonNameEn": "Mimic Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178022/1523952",
+    "gbifKey": 5209154,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá và sườn rạn san hô độ sâu 4–40 m"
+    },
+    "descriptionVi": "Bậc thầy hóa trang của rạn san hô Thái Bình Dương với khả năng bắt chước y hệt ngoại hình của các loài cá thiên thần lùn khi còn nhỏ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Khi còn nhỏ và ngạnh đuôi chưa phát triển đủ cứng, cá non A. pyroferus giả dạng màu vàng tươi của Cá thiên thần Centropyge flavissima để đánh lừa cá săn mồi rằng mình là loài cá có gai nắp mang khó nuốt.",
+    "dietVi": "Ăn tảo sợi, màng tảo bám đá, rong Nori và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus armiger",
+      "Acanthurus celebicus",
+      "Acanthurus doreensis",
+      "Acanthurus fuscus"
+    ],
+    "wikidataId": "Q3042764",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_pyroferus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthurus_pyroferus",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 180,
+      "weightGMax": 320,
+      "heightCmMax": null,
+      "noteVi": "Cá non bắt chước màu vàng hoặc hai màu của cá thiên thần lùn Centropyge; cá trưởng thành màu nâu sô-cô-la điểm vệt cam sau mang"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "MY",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Đông Nam Á (gồm biển Việt Nam), Nhật Bản, Rạn san hô Great Barrier (Úc) tới Polynesia",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Bậc thầy hóa trang của rạn san hô Thái Bình Dương với khả năng bắt chước y hệt ngoại hình của các loài cá thiên thần lùn khi còn nhỏ. Đặc điểm nhận dạng: Cá non bắt chước màu vàng hoặc hai màu của cá thiên thần lùn Centropyge; cá trưởng thành màu nâu sô-cô-la điểm vệt cam sau mang.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá và sườn rạn san hô độ sâu 4–40 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Khi còn nhỏ và ngạnh đuôi chưa phát triển đủ cứng, cá non A. pyroferus giả dạng màu vàng tươi của Cá thiên thần Centropyge flavissima để đánh lừa cá săn mồi rằng mình là loài cá có gai nắp mang khó nuốt.",
+      "Đặc điểm hình thái nổi bật: Cá non bắt chước màu vàng hoặc hai màu của cá thiên thần lùn Centropyge; cá trưởng thành màu nâu sô-cô-la điểm vệt cam sau mang."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo sợi, màng tảo bám đá, rong Nori và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Sô-cô-la (Chocolate / Mimic Tang) (Acanthurus pyroferus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 420000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Sô-cô-la (Chocolate / Mimic Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cirujano imitador (Acanthurus pyroferus), Anilao, Filipinas, 2023-08-24, DD 20.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cirujano_imitador_(Acanthurus_pyroferus),_Anilao,_Filipinas,_2023-08-24,_DD_20.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Cirujano_imitador_%28Acanthurus_pyroferus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_20.jpg",
+        "width": 5737,
+        "height": 3825,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cirujano imitador (Acanthurus pyroferus), Anilao, Filipinas, 2023-08-22, DD 28.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cirujano_imitador_(Acanthurus_pyroferus),_Anilao,_Filipinas,_2023-08-22,_DD_28.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Cirujano_imitador_%28Acanthurus_pyroferus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_28.jpg",
+        "width": 3069,
+        "height": 4604,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mimic surgeonfish (Acanthurus Pyroferus) (46991497534).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mimic_surgeonfish_(Acanthurus_Pyroferus)_(46991497534).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mimic_surgeonfish_%28Acanthurus_Pyroferus%29_%2846991497534%29.jpg",
+        "width": 4657,
+        "height": 3493,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Rickard Zerpe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chocolate Surgeonfish (Acanthurus pyroferus) on Brown Sponge (Spheciospongia vagabunda) (8482314396).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_Surgeonfish_(Acanthurus_pyroferus)_on_Brown_Sponge_(Spheciospongia_vagabunda)_(8482314396).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chocolate_Surgeonfish_%28Acanthurus_pyroferus%29_on_Brown_Sponge_%28Spheciospongia_vagabunda%29_%288482314396%29.jpg",
+        "width": 3657,
+        "height": 2194,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chocolate tang - Acanthurus pyroferus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_tang_-_Acanthurus_pyroferus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chocolate_tang_-_Acanthurus_pyroferus.jpg",
+        "width": 2422,
+        "height": 1516,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209154",
+      "https://www.iucnredlist.org/species/178022/1523952",
+      "https://en.wikipedia.org/wiki/Acanthurus_pyroferus",
+      "https://vi.wikipedia.org/wiki/Acanthurus_pyroferus"
+    ]
+  },
+  {
+    "scientificName": "Acanthurus sohal",
+    "commonNameVi": "Cá đuôi gai Sohal",
+    "commonNameEn": "Sohal Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Acanthurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai (Acanthurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177987/1512212",
+    "gbifKey": 5209184,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Đỉnh rạn san hô ngoài khơi nơi sóng vỗ dữ dội độ sâu 0–20 m"
+    },
+    "descriptionVi": "Vị vua của các rạn san hô Biển Đỏ với dáng bơi dũng mãnh như cá thu và cặp ngạnh đuôi màu cam sáng rực nổi bật trên nền vây xanh lam.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Nhờ cơ thể thuôn hình ngư lôi và vây đuôi chẻ sâu như trăng lưỡi liềm, Sohal Tang là một trong những loài cá bơi nhanh nhất trên các rạn san hô.",
+    "dietVi": "Ăn các loài tảo sợi, rong biển Nori, tảo Sargassum và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đặc hữu Biển Đỏ (Red Sea) và vùng biển quanh bán đảo Ả Rập tới vịnh Ba Tư",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "? sohar",
+      "Acanthurus carinatus",
+      "Acanthurus rueppellii",
+      "Acanthurus ruppelii"
+    ],
+    "wikidataId": "Q377713",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthurus_sohal",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sohal_surgeonfish",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 500,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Thân thon dài kẻ sọc ngang mảnh đen trắng như ngựa vằn, vây viền xanh neon và ngạnh đuôi lớn màu cam rực"
+    },
+    "distribution": {
+      "countries": [
+        "EG"
+      ],
+      "nativeRangeVi": "Đặc hữu Biển Đỏ (Red Sea) và vùng biển quanh bán đảo Ả Rập tới vịnh Ba Tư",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Vị vua của các rạn san hô Biển Đỏ với dáng bơi dũng mãnh như cá thu và cặp ngạnh đuôi màu cam sáng rực nổi bật trên nền vây xanh lam. Đặc điểm nhận dạng: Thân thon dài kẻ sọc ngang mảnh đen trắng như ngựa vằn, vây viền xanh neon và ngạnh đuôi lớn màu cam rực.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đỉnh rạn san hô ngoài khơi nơi sóng vỗ dữ dội độ sâu 0–20 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Nhờ cơ thể thuôn hình ngư lôi và vây đuôi chẻ sâu như trăng lưỡi liềm, Sohal Tang là một trong những loài cá bơi nhanh nhất trên các rạn san hô.",
+      "Đặc điểm hình thái nổi bật: Thân thon dài kẻ sọc ngang mảnh đen trắng như ngựa vằn, vây viền xanh neon và ngạnh đuôi lớn màu cam rực."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn các loài tảo sợi, rong biển Nori, tảo Sargassum và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Sohal Biển Đỏ (Acanthurus sohal) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 3800000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Sohal Biển Đỏ đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Acanthurus sohal at Red Sea Aquarium by Hatem Moushir 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_sohal_at_Red_Sea_Aquarium_by_Hatem_Moushir_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Acanthurus_sohal_at_Red_Sea_Aquarium_by_Hatem_Moushir_1.JPG",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hatem Moushir",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Acanthurus sohal - Arabischer Doktorfisch- Аравийская рыба-хирург DSCF8107WI.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_sohal_-_Arabischer_Doktorfisch-_%D0%90%D1%80%D0%B0%D0%B2%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D1%8B%D0%B1%D0%B0-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3_DSCF8107WI.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Acanthurus_sohal_-_Arabischer_Doktorfisch-_%D0%90%D1%80%D0%B0%D0%B2%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D1%8B%D0%B1%D0%B0-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3_DSCF8107WI.jpg",
+        "width": 3278,
+        "height": 2865,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kora27",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Arabischer Doktorfisch (Acanthurus sohal) im Roten Meer DSCF7943WI.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arabischer_Doktorfisch_(Acanthurus_sohal)_im_Roten_Meer_DSCF7943WI.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Arabischer_Doktorfisch_%28Acanthurus_sohal%29_im_Roten_Meer_DSCF7943WI.jpg",
+        "width": 4502,
+        "height": 3164,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kora27",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthurus sohal - osobnik dorosły.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_sohal_-_osobnik_doros%C5%82y.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Acanthurus_sohal_-_osobnik_doros%C5%82y.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dariusz Białoń",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthurus sohal in Red Sea Aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_sohal_in_Red_Sea_Aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Acanthurus_sohal_in_Red_Sea_Aquarium.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Хомелка",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209184",
+      "https://www.iucnredlist.org/species/177987/1512212",
+      "https://en.wikipedia.org/wiki/Sohal_surgeonfish",
+      "https://vi.wikipedia.org/wiki/Acanthurus_sohal"
+    ]
+  },
+  {
+    "scientificName": "Naso lituratus",
+    "commonNameVi": "Cá kỳ lân gai cam",
+    "commonNameEn": "Orange Spine Surgeonfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Naso"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai mũi sừng (Naso)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/177950/1500256",
+    "gbifKey": 5209096,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô đá và đầm phá ngoài khơi độ sâu 3–50 m"
+    },
+    "descriptionVi": "Được người chơi cá biển Việt Nam yêu mến gọi là 'Cá Môi Son' nhờ đôi môi màu cam đỏ tươi tắn trên gương mặt xám bạc lịch lãm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Khác với chi Acanthurus có ngạnh gấp gọn, chi Naso sở hữu hai phiến xương sắc như lưỡi dao màu cam gắn cố định ở mỗi bên cuống đuôi và con đực trưởng thành mọc hai dải cờ dài ở chóp đuôi.",
+    "dietVi": "Chuyên ăn các loại tảo nâu vĩ mô (Sargassum, Dictyota), rong Nori và cám viên lớn",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthurus lituratus",
+      "Aspisurus carolinarum",
+      "Callicanthus literatus",
+      "Callicanthus lituratus"
+    ],
+    "wikidataId": "Q674381",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Naso_lituratus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Naso_lituratus",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 45,
+      "weightGMin": 600,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Môi màu cam đỏ như tô son, mặt có mặt nạ vàng, vây lưng đen tuyền và cuống đuôi có hai tấm gai xương màu cam cố định"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "AU",
+        "JP",
+        "US"
+      ],
+      "nativeRangeVi": "Thái Bình Dương từ biển Đông (Việt Nam), Indonesia, Nhật Bản, Úc tới Hawaii",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được người chơi cá biển Việt Nam yêu mến gọi là 'Cá Môi Son' nhờ đôi môi màu cam đỏ tươi tắn trên gương mặt xám bạc lịch lãm. Đặc điểm nhận dạng: Môi màu cam đỏ như tô son, mặt có mặt nạ vàng, vây lưng đen tuyền và cuống đuôi có hai tấm gai xương màu cam cố định.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô đá và đầm phá ngoài khơi độ sâu 3–50 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Khác với chi Acanthurus có ngạnh gấp gọn, chi Naso sở hữu hai phiến xương sắc như lưỡi dao màu cam gắn cố định ở mỗi bên cuống đuôi và con đực trưởng thành mọc hai dải cờ dài ở chóp đuôi.",
+      "Đặc điểm hình thái nổi bật: Môi màu cam đỏ như tô son, mặt có mặt nạ vàng, vây lưng đen tuyền và cuống đuôi có hai tấm gai xương màu cam cố định."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Chuyên ăn các loại tảo nâu vĩ mô (Sargassum, Dictyota), rong Nori và cám viên lớn. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Môi Son (Nasotang Thái Bình Dương) (Naso lituratus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 650000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Môi Son (Nasotang Thái Bình Dương) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "gallery",
+        "file": "File:Acquario civico (Civic Aquarium) - Milan - 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acquario_civico_(Civic_Aquarium)_-_Milan_-_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Acquario_civico_%28Civic_Aquarium%29_-_Milan_-_001.JPG",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Stefano Stabile",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Naso lituratus 345457224.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naso_lituratus_345457224.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Naso_lituratus_345457224.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "laiet17",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Copenhagen 2014-03-01 (12994976664).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_2014-03-01_(12994976664).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Copenhagen_2014-03-01_%2812994976664%29.jpg",
+        "width": 3576,
+        "height": 2460,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Guillaume Baviere from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lisbon, Oceanarium, Naso lituratus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lisbon,_Oceanarium,_Naso_lituratus.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lisbon%2C_Oceanarium%2C_Naso_lituratus.JPG",
+        "width": 2764,
+        "height": 1843,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dguendel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acquario Milano 20095.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acquario_Milano_20095.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Acquario_Milano_20095.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Stefano Bolognini",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209096",
+      "https://www.iucnredlist.org/species/177950/1500256",
+      "https://en.wikipedia.org/wiki/Naso_lituratus",
+      "https://vi.wikipedia.org/wiki/Naso_lituratus"
+    ]
+  },
+  {
+    "scientificName": "Naso elegans",
+    "commonNameVi": "Cá kỳ lân thanh lịch",
+    "commonNameEn": "Elegant Unicornfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Acanthuridae",
+      "genus": "Naso"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá đuôi gai (Acanthuridae)",
+      "genus": "Chi Cá đuôi gai mũi sừng (Naso)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/178004/1518077",
+    "gbifKey": 5209095,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Sườn rạn san hô và đầm phá độ sâu 5–30 m"
+    },
+    "descriptionVi": "Phiên bản Ấn Độ Dương rực sáng hơn của Cá Môi Son với chiếc vây lưng màu vàng kim chạy dọc từ gáy đến tận cuống đuôi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Đảo Bali (Indonesia) chính là nơi giao thoa địa lý hiếm hoi mà người lặn biển có thể bắt gặp cả N. elegans (vây lưng vàng Ấn Độ Dương) và N. lituratus (vây lưng đen Thái Bình Dương) bơi cạnh nhau.",
+    "dietVi": "Ăn rong nâu, rong biển Nori, rau xanh chần và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Aspisurus elegans"
+    ],
+    "wikidataId": "Q83720",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Naso_elegans",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Naso_elegans",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 45,
+      "weightGMin": 600,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Giống N. lituratus nhưng toàn bộ vây lưng dài chạy suốt sống lưng mang màu vàng hoàng yến rực rỡ thay vì màu đen"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "LK",
+        "TH",
+        "ID",
+        "EG"
+      ],
+      "nativeRangeVi": "Khắp Ấn Độ Dương và Biển Đỏ tới đảo Bali (Indonesia)",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Phiên bản Ấn Độ Dương rực sáng hơn của Cá Môi Son với chiếc vây lưng màu vàng kim chạy dọc từ gáy đến tận cuống đuôi. Đặc điểm nhận dạng: Giống N. lituratus nhưng toàn bộ vây lưng dài chạy suốt sống lưng mang màu vàng hoàng yến rực rỡ thay vì màu đen.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại sườn rạn san hô và đầm phá độ sâu 5–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Đảo Bali (Indonesia) chính là nơi giao thoa địa lý hiếm hoi mà người lặn biển có thể bắt gặp cả N. elegans (vây lưng vàng Ấn Độ Dương) và N. lituratus (vây lưng đen Thái Bình Dương) bơi cạnh nhau.",
+      "Đặc điểm hình thái nổi bật: Giống N. lituratus nhưng toàn bộ vây lưng dài chạy suốt sống lưng mang màu vàng hoàng yến rực rỡ thay vì màu đen."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn rong nâu, rong biển Nori, rau xanh chần và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đuôi Gai Vây Vàng (Blonde Naso Tang) (Naso elegans) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 850000,
+        "descriptionVi": "Cá cảnh biển Cá Đuôi Gai Vây Vàng (Blonde Naso Tang) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oniria - Poisson 88.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_88.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Oniria_-_Poisson_88.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pez unicornio elegante (Naso elegans), mar Rojo, Egipto, 2023-04-18, DD 24.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pez_unicornio_elegante_(Naso_elegans),_mar_Rojo,_Egipto,_2023-04-18,_DD_24.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pez_unicornio_elegante_%28Naso_elegans%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_24.jpg",
+        "width": 4538,
+        "height": 4538,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Elegant Unicornfish, 2 mile reef imported from iNaturalist photo 15669956.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elegant_Unicornfish,_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Elegant_Unicornfish%2C_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg",
+        "width": 2048,
+        "height": 1370,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Naso elegans - Изящная рыба-носорог -Elegant unicornfish..DSCF2976ОВ.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naso_elegans_-_%D0%98%D0%B7%D1%8F%D1%89%D0%BD%D0%B0%D1%8F_%D1%80%D1%8B%D0%B1%D0%B0-%D0%BD%D0%BE%D1%81%D0%BE%D1%80%D0%BE%D0%B3_-Elegant_unicornfish..DSCF2976%D0%9E%D0%92.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Naso_elegans_-_%D0%98%D0%B7%D1%8F%D1%89%D0%BD%D0%B0%D1%8F_%D1%80%D1%8B%D0%B1%D0%B0-%D0%BD%D0%BE%D1%81%D0%BE%D1%80%D0%BE%D0%B3_-Elegant_unicornfish..DSCF2976%D0%9E%D0%92.jpg",
+        "width": 4248,
+        "height": 2876,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kora27",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Naso elegans.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naso_elegans.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Naso_elegans.jpg",
+        "width": 4310,
+        "height": 2868,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "MathieuTTL",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209095",
+      "https://www.iucnredlist.org/species/178004/1518077",
+      "https://en.wikipedia.org/wiki/Naso_elegans",
+      "https://vi.wikipedia.org/wiki/Naso_elegans"
+    ]
+  },
+  {
+    "scientificName": "Zanclus cornutus",
+    "commonNameVi": "Cá thù lù",
+    "commonNameEn": "Moorish Idol",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Zanclidae",
+      "genus": "Zanclus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thần tiên Ai Cập (Zanclidae)",
+      "genus": "Chi Cá thần tiên Ai Cập (Zanclus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/69741115/69742744",
+    "gbifKey": 2374663,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô nông đến sâu từ 3 đến 180 m"
+    },
+    "descriptionVi": "Loài cá duy nhất còn tồn tại của họ Zanclidae với hình dáng thanh tao kỳ vĩ và chiếc cờ lưng trắng phất phơ theo từng nhịp bơi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Ấu trùng cá con của Cá Thần Tiên Ai Cập trôi nổi theo dòng hải lưu đại dương suốt कई tháng và đạt kích thước tới 7,5 cm trước khi định cư xuống rạn san hô — giúp loài này phân bố rộng khắp Thái Bình Dương.",
+    "dietVi": "Ngoài tự nhiên ăn bọt biển (hải miên), động vật có vỏ bao (tunicates), tảo và thức ăn chuyên dụng chứa bọt biển",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chaetodon canescens",
+      "Chaetodon cornutus",
+      "Gonopterus moerens",
+      "Zanclus canescens"
+    ],
+    "wikidataId": "Q941448",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_th%C3%B9_l%C3%B9",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Moorish_idol",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 23,
+      "weightGMin": 150,
+      "weightGMax": 250,
+      "heightCmMax": null,
+      "noteVi": "Thân dẹp cao có 3 dải rộng đen - trắng - vàng, mõm nhọn dài và tia vây lưng kéo dài vút ra sau như dải lụa trắng"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "US"
+      ],
+      "nativeRangeVi": "Toàn bộ Ấn Độ Dương - Thái Bình Dương từ Đông Phi qua biển Việt Nam tới Hawaii và Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cá duy nhất còn tồn tại của họ Zanclidae với hình dáng thanh tao kỳ vĩ và chiếc cờ lưng trắng phất phơ theo từng nhịp bơi. Đặc điểm nhận dạng: Thân dẹp cao có 3 dải rộng đen - trắng - vàng, mõm nhọn dài và tia vây lưng kéo dài vút ra sau như dải lụa trắng.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô nông đến sâu từ 3 đến 180 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Ấu trùng cá con của Cá Thần Tiên Ai Cập trôi nổi theo dòng hải lưu đại dương suốt कई tháng và đạt kích thước tới 7,5 cm trước khi định cư xuống rạn san hô — giúp loài này phân bố rộng khắp Thái Bình Dương.",
+      "Đặc điểm hình thái nổi bật: Thân dẹp cao có 3 dải rộng đen - trắng - vàng, mõm nhọn dài và tia vây lưng kéo dài vút ra sau như dải lụa trắng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ngoài tự nhiên ăn bọt biển (hải miên), động vật có vỏ bao (tunicates), tảo và thức ăn chuyên dụng chứa bọt biển. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thần Tiên Ai Cập (Cá Ông Tiên / Moorish Idol) (Zanclus cornutus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 450000,
+        "descriptionVi": "Cá cảnh biển Cá Thần Tiên Ai Cập (Cá Ông Tiên / Moorish Idol) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Maldives (15379845721).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maldives_(15379845721).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Maldives_%2815379845721%29.jpg",
+        "width": 4608,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Laika ac from UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aquarium de Paris 12-26 (32025276382).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_Paris_12-26_(32025276382).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Aquarium_de_Paris_12-26_%2832025276382%29.jpg",
+        "width": 2682,
+        "height": 2955,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "KimonBerlin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:An underwater shot of a reef.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:An_underwater_shot_of_a_reef.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/An_underwater_shot_of_a_reef.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Youngren Sarah, U.S. Fish and Wildlife Service",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium Genoa 14.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Genoa_14.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Aquarium_Genoa_14.JPG",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superchilum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kapoho Tide Pools, Waiopae, Pahoa (503820) (21231143236).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kapoho_Tide_Pools,_Waiopae,_Pahoa_(503820)_(21231143236).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kapoho_Tide_Pools%2C_Waiopae%2C_Pahoa_%28503820%29_%2821231143236%29.jpg",
+        "width": 4598,
+        "height": 3065,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Robert Linsdell from St. Andrews, Canada",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2374663",
+      "https://www.iucnredlist.org/species/69741115/69742744",
+      "https://en.wikipedia.org/wiki/Moorish_idol",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_th%C3%B9_l%C3%B9"
+    ]
+  },
+  {
+    "scientificName": "Centropyge bispinosa",
+    "commonNameVi": "Cá thiên thần lùn hai gai",
+    "commonNameEn": "Twospined Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Centropyge"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lùn (Centropyge)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165871/6153518",
+    "gbifKey": 2396495,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Khe đá và hang hốc rạn san hô ngoài khơi độ sâu 5–45 m"
+    },
+    "descriptionVi": "Viên ngọc lưỡng sắc phổ biến và khỏe mạnh bậc nhất của nhóm Cá thiên thần lùn (Dwarf Angelfish) với sắc tím lam quyện cùng sắc cam rực lửa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Đặc điểm phân biệt họ Cá thiên thần biển (Pomacanthidae) với họ Cá bướm là một chiếc gai nhọn cứng mọc ngược ra sau ở góc dưới nắp mang mỗi bên.",
+    "dietVi": "Ăn tảo bám trên đá sống, giáp xác nhỏ, tôm Mysis và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Centropyge hispinosus",
+      "Centropyge tutuilae",
+      "Holacanthus bispinosus"
+    ],
+    "wikidataId": "Q2191959",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Centropyge_bispinosa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Twospined_angelfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 10,
+      "weightGMin": 20,
+      "weightGMax": 35,
+      "heightCmMax": null,
+      "noteVi": "Đầu, lưng và đuôi màu xanh tím coban đậm ôm lấy phần bụng màu cam đỏ rực rỡ có các sọc dọc tím"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "MY",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Ấn Độ Dương - Thái Bình Dương từ Đông Phi qua biển Việt Nam tới Nhật Bản và Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Viên ngọc lưỡng sắc phổ biến và khỏe mạnh bậc nhất của nhóm Cá thiên thần lùn (Dwarf Angelfish) với sắc tím lam quyện cùng sắc cam rực lửa. Đặc điểm nhận dạng: Đầu, lưng và đuôi màu xanh tím coban đậm ôm lấy phần bụng màu cam đỏ rực rỡ có các sọc dọc tím.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại khe đá và hang hốc rạn san hô ngoài khơi độ sâu 5–45 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Đặc điểm phân biệt họ Cá thiên thần biển (Pomacanthidae) với họ Cá bướm là một chiếc gai nhọn cứng mọc ngược ra sau ở góc dưới nắp mang mỗi bên.",
+      "Đặc điểm hình thái nổi bật: Đầu, lưng và đuôi màu xanh tím coban đậm ôm lấy phần bụng màu cam đỏ rực rỡ có các sọc dọc tím."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo bám trên đá sống, giáp xác nhỏ, tôm Mysis và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần San Hô (Coral Beauty Angelfish) (Centropyge bispinosa) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 480000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần San Hô (Coral Beauty Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Twospined Angelfish (Centropyge bispinosa) (8482559164).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Twospined_Angelfish_(Centropyge_bispinosa)_(8482559164).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Twospined_Angelfish_%28Centropyge_bispinosa%29_%288482559164%29.jpg",
+        "width": 2488,
+        "height": 1493,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Centropyge bispinosa - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Centropyge_bispinosa_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Centropyge_bispinosa_-_1.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pomacéntrido (Centropyge bispinosa), Mauricio, 2025-09-23, DD 38.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomac%C3%A9ntrido_(Centropyge_bispinosa),_Mauricio,_2025-09-23,_DD_38.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pomac%C3%A9ntrido_%28Centropyge_bispinosa%29%2C_Mauricio%2C_2025-09-23%2C_DD_38.jpg",
+        "width": 5058,
+        "height": 3372,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Twospined Angelfish (Centropyge bispinosa) and Bicolor Chromis (Chromis margaritifer) (6133058534).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Twospined_Angelfish_(Centropyge_bispinosa)_and_Bicolor_Chromis_(Chromis_margaritifer)_(6133058534).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Twospined_Angelfish_%28Centropyge_bispinosa%29_and_Bicolor_Chromis_%28Chromis_margaritifer%29_%286133058534%29.jpg",
+        "width": 3075,
+        "height": 1844,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396495",
+      "https://www.iucnredlist.org/species/165871/6153518",
+      "https://en.wikipedia.org/wiki/Twospined_angelfish",
+      "https://vi.wikipedia.org/wiki/Centropyge_bispinosa"
+    ]
+  },
+  {
+    "scientificName": "Centropyge bicolor",
+    "commonNameVi": "Cá thiên thần hai màu",
+    "commonNameEn": "Bicolor Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Centropyge"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lùn (Centropyge)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165902/6161394",
+    "gbifKey": 2396484,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá san hô và khe đá sườn rạn độ sâu 3–25 m"
+    },
+    "descriptionVi": "Một trong những loài cá cảnh biển có sự đối lập màu sắc ấn tượng nhất: nửa trước vàng chanh rực sáng và nửa sau xanh lam thẫm như bầu trời đêm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Ngay phía trên đôi mắt còn có một dải băng ngang màu xanh coban trông như chú cá đang đeo một chiếc kính mát thời trang.",
+    "dietVi": "Ăn tảo biển, bọt biển nhỏ, tôm Mysis, Artemia và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Centropyge bicolour",
+      "Chaetodon bicolor",
+      "Holacanthus bicolor",
+      "Holacanthus bicolor oahuensis"
+    ],
+    "wikidataId": "Q882860",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Centropyge_bicolor",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Bicolor_angelfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 15,
+      "weightGMin": 30,
+      "weightGMax": 50,
+      "heightCmMax": null,
+      "noteVi": "Nửa thân trước và vây đuôi màu vàng hoàng yến tươi tắn chia đôi rõ rệt với nửa thân sau màu xanh coban thẫm"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "MY",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Tây và Trung Thái Bình Dương từ biển Đông (Việt Nam), Indonesia tới Rạn san hô Great Barrier",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài cá cảnh biển có sự đối lập màu sắc ấn tượng nhất: nửa trước vàng chanh rực sáng và nửa sau xanh lam thẫm như bầu trời đêm. Đặc điểm nhận dạng: Nửa thân trước và vây đuôi màu vàng hoàng yến tươi tắn chia đôi rõ rệt với nửa thân sau màu xanh coban thẫm.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá san hô và khe đá sườn rạn độ sâu 3–25 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Ngay phía trên đôi mắt còn có một dải băng ngang màu xanh coban trông như chú cá đang đeo một chiếc kính mát thời trang.",
+      "Đặc điểm hình thái nổi bật: Nửa thân trước và vây đuôi màu vàng hoàng yến tươi tắn chia đôi rõ rệt với nửa thân sau màu xanh coban thẫm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–27°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo biển, bọt biển nhỏ, tôm Mysis, Artemia và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Hai Màu (Bicolor Angelfish) (Centropyge bicolor) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 380000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Hai Màu (Bicolor Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bicolor Angelfishes (Centropyge bicolor) (8501953783).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bicolor_Angelfishes_(Centropyge_bicolor)_(8501953783).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bicolor_Angelfishes_%28Centropyge_bicolor%29_%288501953783%29.jpg",
+        "width": 2528,
+        "height": 1516,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Béziers - Aquarium Polygone 05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A9ziers_-_Aquarium_Polygone_05.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/B%C3%A9ziers_-_Aquarium_Polygone_05.jpg",
+        "width": 2268,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bicolor angelfish (Centropyge bicolor) (40856469565).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bicolor_angelfish_(Centropyge_bicolor)_(40856469565).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bicolor_angelfish_%28Centropyge_bicolor%29_%2840856469565%29.jpg",
+        "width": 2639,
+        "height": 1979,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Rickard Zerpe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bicolor angelfish (Centropyge bicolor) (35642353422).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bicolor_angelfish_(Centropyge_bicolor)_(35642353422).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bicolor_angelfish_%28Centropyge_bicolor%29_%2835642353422%29.jpg",
+        "width": 2809,
+        "height": 2107,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Rickard Zerpe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bicolor Angelfish (Centropyge bicolor) (8486579682).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bicolor_Angelfish_(Centropyge_bicolor)_(8486579682).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bicolor_Angelfish_%28Centropyge_bicolor%29_%288486579682%29.jpg",
+        "width": 3312,
+        "height": 1987,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396484",
+      "https://www.iucnredlist.org/species/165902/6161394",
+      "https://en.wikipedia.org/wiki/Bicolor_angelfish",
+      "https://vi.wikipedia.org/wiki/Centropyge_bicolor"
+    ]
+  },
+  {
+    "scientificName": "Pomacanthus imperator",
+    "commonNameVi": "Cá thiên thần hoàng đế",
+    "commonNameEn": "Emperor Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Pomacanthus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lớn (Pomacanthus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165862/6151184",
+    "gbifKey": 2396426,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Hang động và vách đá rạn san hô trưởng thành độ sâu 3–70 m"
+    },
+    "descriptionVi": "Hoàng đế đích thực của rạn san hô nhiệt đới với bộ hoàng bào kẻ sọc vàng - xanh lam lộng lẫy và sự biến đổi hình thái kỳ diệu từ lúc nhỏ đến khi trưởng thành.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Cá non và cá trưởng thành khác nhau đến mức khó tin: cá non có màu xanh đen với các vòng xoắn đồng tâm màu trắng xanh ở đuôi, và các vòng tròn này tự duỗi thẳng thành các sọc ngang màu vàng khi cá lớn lên!",
+    "dietVi": "Ăn hải miên (bọt biển), động vật có vỏ bao, tảo biển, tôm Mysis và cám cá thần tiên lớn",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Acanthochaetodon imperator",
+      "Acanthochaetodon nicobariensis",
+      "Chaetodon imperator",
+      "Chaetodon nicobariensis"
+    ],
+    "wikidataId": "Q847501",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_chim_ho%C3%A0ng_%C4%91%E1%BA%BF",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Emperor_angelfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 800,
+      "weightGMax": 1500,
+      "heightCmMax": null,
+      "noteVi": "Cá trưởng thành có hàng chục sọc ngang màu vàng chanh và xanh tím chạy dọc thân kèm mặt nạ đen viền xanh qua mắt"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "EG"
+      ],
+      "nativeRangeVi": "Khắp vùng biển Ấn Độ Dương - Thái Bình Dương từ Biển Đỏ qua biển Việt Nam tới Hawaii",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Hoàng đế đích thực của rạn san hô nhiệt đới với bộ hoàng bào kẻ sọc vàng - xanh lam lộng lẫy và sự biến đổi hình thái kỳ diệu từ lúc nhỏ đến khi trưởng thành. Đặc điểm nhận dạng: Cá trưởng thành có hàng chục sọc ngang màu vàng chanh và xanh tím chạy dọc thân kèm mặt nạ đen viền xanh qua mắt.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại hang động và vách đá rạn san hô trưởng thành độ sâu 3–70 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Cá non và cá trưởng thành khác nhau đến mức khó tin: cá non có màu xanh đen với các vòng xoắn đồng tâm màu trắng xanh ở đuôi, và các vòng tròn này tự duỗi thẳng thành các sọc ngang màu vàng khi cá lớn lên!",
+      "Đặc điểm hình thái nổi bật: Cá trưởng thành có hàng chục sọc ngang màu vàng chanh và xanh tím chạy dọc thân kèm mặt nạ đen viền xanh qua mắt."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn hải miên (bọt biển), động vật có vỏ bao, tảo biển, tôm Mysis và cám cá thần tiên lớn. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Hoàng Đế (Emperor Angelfish) (Pomacanthus imperator) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 1200000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Hoàng Đế (Emperor Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:20090426 Parc Paradisio (0305).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20090426_Parc_Paradisio_(0305).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/20090426_Parc_Paradisio_%280305%29.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Donar Reiskoffer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:CSIRO ScienceImage 2879 Tropical Reef Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2879_Tropical_Reef_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/CSIRO_ScienceImage_2879_Tropical_Reef_Fish.jpg",
+        "width": 2657,
+        "height": 1804,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Robert Kerton, CSIRO",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:2013. Крым 922.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013._%D0%9A%D1%80%D1%8B%D0%BC_922.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2013._%D0%9A%D1%80%D1%8B%D0%BC_922.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20180825 Vlinders aan de Vliet - Pomacanthus imperator.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396426",
+      "https://www.iucnredlist.org/species/165862/6151184",
+      "https://en.wikipedia.org/wiki/Emperor_angelfish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_chim_ho%C3%A0ng_%C4%91%E1%BA%BF"
+    ]
+  },
+  {
+    "scientificName": "Pomacanthus semicirculatus",
+    "commonNameVi": "Cá thiên thần bán nguyệt",
+    "commonNameEn": "Semicircle Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Pomacanthus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lớn (Pomacanthus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165851/6148505",
+    "gbifKey": 2396399,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô ven bờ và các hang đá ngầm độ sâu 1–40 m"
+    },
+    "descriptionVi": "Loài cá thiên thần lớn khỏe mạnh và dễ thích nghi nhất trong chi Pomacanthus với các chóp vây kéo dài thướt tha viền xanh neon.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Tên gọi 'Koran Angelfish' bắt nguồn từ những đường vân trắng uốn lượn ở phần vây đuôi của cá đang chuyển màu trông giống hệt các ký tự thư pháp Ả Rập cổ.",
+    "dietVi": "Ăn tảo biển, hải miên, giáp xác, rong Nori và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Holacanthus alternans",
+      "Holacanthus alternans meleagris",
+      "Holacanthus lepidolepis",
+      "Holacanthus poecilus"
+    ],
+    "wikidataId": "Q781918",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pomacanthus_semicirculatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pomacanthus_semicirculatus",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 800,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Cá non có các vạch trắng uốn cong như trăng khuyết; cá trưởng thành màu xanh lục vàng điểm đốm xanh và vây viền xanh điện quang"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "EG"
+      ],
+      "nativeRangeVi": "Ấn Độ Dương - Tây Thái Bình Dương từ Biển Đỏ và Đông Phi qua biển Việt Nam tới Nhật Bản, Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cá thiên thần lớn khỏe mạnh và dễ thích nghi nhất trong chi Pomacanthus với các chóp vây kéo dài thướt tha viền xanh neon. Đặc điểm nhận dạng: Cá non có các vạch trắng uốn cong như trăng khuyết; cá trưởng thành màu xanh lục vàng điểm đốm xanh và vây viền xanh điện quang.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô ven bờ và các hang đá ngầm độ sâu 1–40 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Tên gọi 'Koran Angelfish' bắt nguồn từ những đường vân trắng uốn lượn ở phần vây đuôi của cá đang chuyển màu trông giống hệt các ký tự thư pháp Ả Rập cổ.",
+      "Đặc điểm hình thái nổi bật: Cá non có các vạch trắng uốn cong như trăng khuyết; cá trưởng thành màu xanh lục vàng điểm đốm xanh và vây viền xanh điện quang."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn tảo biển, hải miên, giáp xác, rong Nori và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Koran (Semicircle Angelfish) (Pomacanthus semicirculatus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 750000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Koran (Semicircle Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Semicircled angelfish in the Leningrad zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Semicircled_angelfish_in_the_Leningrad_zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Semicircled_angelfish_in_the_Leningrad_zoo.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Горбунова М.С.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:KoranAngel1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KoranAngel1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/KoranAngel1.jpg",
+        "width": 1804,
+        "height": 1681,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gdiggers",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Semicircle angelfish (Pomacanthus semicirculatus) (28822083567).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Semicircle_angelfish_(Pomacanthus_semicirculatus)_(28822083567).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Semicircle_angelfish_%28Pomacanthus_semicirculatus%29_%2828822083567%29.jpg",
+        "width": 3878,
+        "height": 2909,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Rickard Zerpe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Copenhagen 2014-03-01 (12994978424).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_2014-03-01_(12994978424).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Copenhagen_2014-03-01_%2812994978424%29.jpg",
+        "width": 3216,
+        "height": 2532,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Guillaume Baviere from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Koran Angelfish Seychelles.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koran_Angelfish_Seychelles.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Koran_Angelfish_Seychelles.jpg",
+        "width": 1070,
+        "height": 1155,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Photography by Dino Sassi - Marcel Fayon, Photo Eden LTD",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396399",
+      "https://www.iucnredlist.org/species/165851/6148505",
+      "https://en.wikipedia.org/wiki/Pomacanthus_semicirculatus",
+      "https://vi.wikipedia.org/wiki/Pomacanthus_semicirculatus"
+    ]
+  },
+  {
+    "scientificName": "Pomacanthus xanthometopon",
+    "commonNameVi": "Cá thiên thần mặt vàng",
+    "commonNameEn": "Yellowface Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Pomacanthus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lớn (Pomacanthus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165829/6143143",
+    "gbifKey": 2396411,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá và vách rạn san hô ngoài khơi nhiều hang hốc độ sâu 5–30 m"
+    },
+    "descriptionVi": "Một kiệt tác hội họa dưới đáy biển khi mỗi chiếc vảy trên thân đều có tâm xanh lam viền vàng kim và khuôn mặt đeo mặt nạ xanh - vàng rực rỡ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Khi giật mình hoặc muốn khẳng định lãnh thổ trong hang đá, cá trưởng thành có thể phát ra tiếng gõ 'thịch thịch' trầm đục nghe rõ cả từ bên ngoài thành bể kính.",
+    "dietVi": "Ăn hải miên, động vật có vỏ bao, tảo biển, tôm thịt và cám chuyên dụng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Euxiphipops xanthometopon",
+      "Holacanthus xanthometopon"
+    ],
+    "wikidataId": "Q882944",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pomacanthus_xanthometopon",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pomacanthus_xanthometopon",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 38,
+      "weightGMin": 700,
+      "weightGMax": 1300,
+      "heightCmMax": null,
+      "noteVi": "Khuôn mặt đan lưới màu xanh lam rực sáng kết hợp một dải mặt nạ màu vàng nghệ vắt ngang mắt và đốm đen ở cuối vây lưng"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU"
+      ],
+      "nativeRangeVi": "Ấn Độ Dương - Tây Thái Bình Dương từ Maldives qua biển Việt Nam tới Rạn san hô Great Barrier",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một kiệt tác hội họa dưới đáy biển khi mỗi chiếc vảy trên thân đều có tâm xanh lam viền vàng kim và khuôn mặt đeo mặt nạ xanh - vàng rực rỡ. Đặc điểm nhận dạng: Khuôn mặt đan lưới màu xanh lam rực sáng kết hợp một dải mặt nạ màu vàng nghệ vắt ngang mắt và đốm đen ở cuối vây lưng.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá và vách rạn san hô ngoài khơi nhiều hang hốc độ sâu 5–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Khi giật mình hoặc muốn khẳng định lãnh thổ trong hang đá, cá trưởng thành có thể phát ra tiếng gõ 'thịch thịch' trầm đục nghe rõ cả từ bên ngoài thành bể kính.",
+      "Đặc điểm hình thái nổi bật: Khuôn mặt đan lưới màu xanh lam rực sáng kết hợp một dải mặt nạ màu vàng nghệ vắt ngang mắt và đốm đen ở cuối vây lưng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn hải miên, động vật có vỏ bao, tảo biển, tôm thịt và cám chuyên dụng. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Mặt Xanh (Blueface Angelfish) (Pomacanthus xanthometopon) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 1800000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Mặt Xanh (Blueface Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oniria - Poisson 107.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_107.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Oniria_-_Poisson_107.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pomacanthus xanthometopon 41472835.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomacanthus_xanthometopon_41472835.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pomacanthus_xanthometopon_41472835.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Thibaud Aronson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hal - Pomacanthus xanthometopon - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Pomacanthus_xanthometopon_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hal_-_Pomacanthus_xanthometopon_-_1.jpg",
+        "width": 3704,
+        "height": 2470,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blaukopf-Kaiserfisch (Pomacanthus xantometopon) 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blaukopf-Kaiserfisch_(Pomacanthus_xantometopon)_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Blaukopf-Kaiserfisch_%28Pomacanthus_xantometopon%29_01.jpg",
+        "width": 2106,
+        "height": 1521,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Norbert Potensky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Diving in Blue Corner, Palau - fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Diving_in_Blue_Corner,_Palau_-_fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Diving_in_Blue_Corner%2C_Palau_-_fish.jpg",
+        "width": 3072,
+        "height": 2048,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "LuxTonnerre",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396411",
+      "https://www.iucnredlist.org/species/165829/6143143",
+      "https://en.wikipedia.org/wiki/Pomacanthus_xanthometopon",
+      "https://vi.wikipedia.org/wiki/Pomacanthus_xanthometopon"
+    ]
+  },
+  {
+    "scientificName": "Pomacanthus annularis",
+    "commonNameVi": "Cá thiên thần vòng xanh",
+    "commonNameEn": "Bluering Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Pomacanthus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần lớn (Pomacanthus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165873/6154247",
+    "gbifKey": 2396404,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Vùng rạn san hô ven bờ và vách đá nhiều bọt biển độ sâu 3–30 m"
+    },
+    "descriptionVi": "Loài cá thiên thần biển tiêu biểu của vùng biển Đông Nam Á với những đường cong màu xanh neon phát sáng trên nền thân vàng đồng và chiếc đuôi trắng muốt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Ngay phía trên nắp mang mỗi bên có một vòng tròn khép kín màu xanh lam điện quang như chiếc nhẫn ngọc ('annularis' nghĩa là có vòng nhẫn).",
+    "dietVi": "Ăn bọt biển, tảo biển, tôm tép, nghêu sò và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chaetodon annularis",
+      "Chaetodon vorticosus",
+      "Holacanthus pseudannularis",
+      "Pomacanthodes annularis"
+    ],
+    "wikidataId": "Q215807",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pomacanthus_annularis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Bluering_angelfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 30,
+      "weightGMin": 500,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Thân màu vàng đồng ấm áp được trang điểm bởi các dải sọc cong màu xanh lam điện quang và một chiếc vòng xanh tròn trên vai"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "MY",
+        "ID",
+        "PH",
+        "IN",
+        "LK"
+      ],
+      "nativeRangeVi": "Từ Ấn Độ, Sri Lanka qua vịnh Thái Lan, biển Việt Nam tới Indonesia và Philippines",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cá thiên thần biển tiêu biểu của vùng biển Đông Nam Á với những đường cong màu xanh neon phát sáng trên nền thân vàng đồng và chiếc đuôi trắng muốt. Đặc điểm nhận dạng: Thân màu vàng đồng ấm áp được trang điểm bởi các dải sọc cong màu xanh lam điện quang và một chiếc vòng xanh tròn trên vai.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại vùng rạn san hô ven bờ và vách đá nhiều bọt biển độ sâu 3–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Ngay phía trên nắp mang mỗi bên có một vòng tròn khép kín màu xanh lam điện quang như chiếc nhẫn ngọc ('annularis' nghĩa là có vòng nhẫn).",
+      "Đặc điểm hình thái nổi bật: Thân màu vàng đồng ấm áp được trang điểm bởi các dải sọc cong màu xanh lam điện quang và một chiếc vòng xanh tròn trên vai."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn bọt biển, tảo biển, tôm tép, nghêu sò và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Vòng Xanh (Bluering Angelfish) (Pomacanthus annularis) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 950000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Vòng Xanh (Bluering Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oniria - Poisson 178.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_178.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Oniria_-_Poisson_178.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Copenhagen 2014-03-01 (12994717523).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_2014-03-01_(12994717523).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Copenhagen_2014-03-01_%2812994717523%29.jpg",
+        "width": 2608,
+        "height": 4072,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Guillaume Baviere from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Great Lakes Aquarium, Duluth 4-6-18 ^GLAquariumMN ^angelfish ^fishtank - Flickr - Sharon Mollerus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Lakes_Aquarium,_Duluth_4-6-18_%5EGLAquariumMN_%5Eangelfish_%5Efishtank_-_Flickr_-_Sharon_Mollerus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Great_Lakes_Aquarium%2C_Duluth_4-6-18_%5EGLAquariumMN_%5Eangelfish_%5Efishtank_-_Flickr_-_Sharon_Mollerus.jpg",
+        "width": 4792,
+        "height": 3581,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Sharon Mollerus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Angel Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Angel_Fish.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Subro89",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:EM DSC 2208 (2878626250).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:EM_DSC_2208_(2878626250).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/EM_DSC_2208_%282878626250%29.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Eddie Maloney from North Las Vegas, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396404",
+      "https://www.iucnredlist.org/species/165873/6154247",
+      "https://en.wikipedia.org/wiki/Bluering_angelfish",
+      "https://vi.wikipedia.org/wiki/Pomacanthus_annularis"
+    ]
+  },
+  {
+    "scientificName": "Pygoplites diacanthus",
+    "commonNameVi": "Cá thiên thần hoàng gia",
+    "commonNameEn": "Royal Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae",
+      "genus": "Pygoplites"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá thiên thần biển (Pomacanthidae)",
+      "genus": "Chi Cá thiên thần vương giả (Pygoplites)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165885/6157224",
+    "gbifKey": 2396596,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 8.1,
+      "phMax": 8.4,
+      "habitatVi": "Hang động và gờ đá rạn san hô giàu hải miên ở độ sâu 3–45 m"
+    },
+    "descriptionVi": "Loài duy nhất thuộc chi Pygoplites, được giới chơi cá cảnh biển tôn vinh là một trong những loài cá rạn có hoa văn vương giả đẹp nhất hành tinh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Các cá thể vùng Ấn Độ Dương và Biển Đỏ có phần ngực và cổ họng màu vàng cam rực rỡ, trong khi các cá thể vùng Thái Bình Dương lại có phần ngực màu xám xanh.",
+    "dietVi": "Ăn hải miên, động vật có vỏ bao, tảo biển, nghêu tươi và tôm Mysis",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chaetodon diacanthus",
+      "Holacanthus diacanthus",
+      "Pomacanthus diacanthus",
+      "Pygoplites boddaerti"
+    ],
+    "wikidataId": "Q1759426",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pygoplites_diacanthus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Royal_angelfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 25,
+      "weightGMin": 250,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Thân được trang trí bởi các dải sọc dọc xen kẽ giữa màu vàng cam, trắng và xanh lam viền đen sắc sảo"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "PH",
+        "ID",
+        "AU",
+        "EG"
+      ],
+      "nativeRangeVi": "Khắp vùng biển Ấn Độ Dương - Thái Bình Dương từ Biển Đỏ qua biển Việt Nam tới Tahiti",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài duy nhất thuộc chi Pygoplites, được giới chơi cá cảnh biển tôn vinh là một trong những loài cá rạn có hoa văn vương giả đẹp nhất hành tinh. Đặc điểm nhận dạng: Thân được trang trí bởi các dải sọc dọc xen kẽ giữa màu vàng cam, trắng và xanh lam viền đen sắc sảo.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại hang động và gờ đá rạn san hô giàu hải miên ở độ sâu 3–45 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Các cá thể vùng Ấn Độ Dương và Biển Đỏ có phần ngực và cổ họng màu vàng cam rực rỡ, trong khi các cá thể vùng Thái Bình Dương lại có phần ngực màu xám xanh.",
+      "Đặc điểm hình thái nổi bật: Thân được trang trí bởi các dải sọc dọc xen kẽ giữa màu vàng cam, trắng và xanh lam viền đen sắc sảo."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–27°C và pH 8.1–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn hải miên, động vật có vỏ bao, tảo biển, nghêu tươi và tôm Mysis. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Thiên Thần Vương Giả (Regal Angelfish) (Pygoplites diacanthus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 1500000,
+        "descriptionVi": "Cá cảnh biển Cá Thiên Thần Vương Giả (Regal Angelfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pygoplites diacanthus (26701497116).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pygoplites_diacanthus_(26701497116).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pygoplites_diacanthus_%2826701497116%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Paul Kli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pfauen-Kaiserfisch (Pygoplites diacanthus). Королевский ангел DSCF4145WI.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pfauen-Kaiserfisch_(Pygoplites_diacanthus)._%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_DSCF4145WI.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pfauen-Kaiserfisch_%28Pygoplites_diacanthus%29._%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_DSCF4145WI.jpg",
+        "width": 2033,
+        "height": 2249,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kora27",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:OLYMPUS DIGITAL CAMERA (33001230984).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:OLYMPUS_DIGITAL_CAMERA_(33001230984).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/OLYMPUS_DIGITAL_CAMERA_%2833001230984%29.jpg",
+        "width": 4288,
+        "height": 3216,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "cotterillmike",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pez ángel real (Pygoplites diacanthus), Anilao, Filipinas, 2023-08-25, DD 225.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pez_%C3%A1ngel_real_(Pygoplites_diacanthus),_Anilao,_Filipinas,_2023-08-25,_DD_225.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pez_%C3%A1ngel_real_%28Pygoplites_diacanthus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_225.jpg",
+        "width": 4254,
+        "height": 2836,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:London Aquarium (539713395).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:London_Aquarium_(539713395).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/London_Aquarium_%28539713395%29.jpg",
+        "width": 3456,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Phalinn Ooi from Kuala Lumpur, Malaysia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2396596",
+      "https://www.iucnredlist.org/species/165885/6157224",
+      "https://en.wikipedia.org/wiki/Royal_angelfish",
+      "https://vi.wikipedia.org/wiki/Pygoplites_diacanthus"
+    ]
+  }
+]

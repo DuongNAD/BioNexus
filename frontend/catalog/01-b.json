@@ -1,0 +1,3834 @@
+[
+  {
+    "scientificName": "Uroplatus sikorae",
+    "commonNameVi": "Tắc kè đuôi lá rêu Sikora",
+    "commonNameEn": "Mossy leaf-tailed gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Uroplatus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Uroplatus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172820/6924215",
+    "gbifKey": 2445771,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 25,
+      "baskMin": 25,
+      "baskMax": 26,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa ẩm nguyên sinh nhiều rêu và địa y tại miền đông và bắc Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè đuôi lá cỡ trung bình có rìa da tua tủa chạy dọc hàm dưới, hai bên thân và bốn chân giúp xóa nhòa ranh giới cơ thể với lớp rêu và địa y trên vỏ cây rừng mưa.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng ở các khu rừng ẩm phía đông Madagascar nhưng phụ thuộc chặt chẽ vào tán rừng già nguyên sinh.",
+    "pullQuoteVi": "Khi nằm áp mình vào thân gỗ phủ địa y, các diềm da tua tủa dọc cơ thể khiến chúng biến mất hoàn toàn ngay trước mắt người quan sát.",
+    "dietVi": "Ăn côn trùng đêm, nhện, bướm đêm và ốc sên nhỏ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Vườn quốc gia Andasibe-Mantadia, miền đông Madagascar",
+      "lat": -18.88,
+      "lng": 48.45
+    },
+    "regionVi": "Đông và Bắc Madagascar",
+    "otherNamesVi": [
+      "Tắc kè vỏ cây rêu Madagascar"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2384229",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uroplatus_sikorae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uroplatus_sikorae",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 20,
+      "weightGMax": 40,
+      "heightCmMax": null,
+      "noteVi": "Tính cả chiếc đuôi dẹp hình chiếc lá"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Miền đông và miền bắc Madagascar",
+      "elevationM": {
+        "min": 350,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới",
+      "Thân cây cổ thụ phủ rêu và địa y"
+    ],
+    "identificationVi": "Đuôi dẹp rộng như phiến lá, rìa cằm và hai bên sườn có viền da tua rua xóa bóng đổ, màu da loang lổ xanh rêu, xám bạc và nâu gỗ.",
+    "behaviorVi": "Ban ngày nằm ép sát đầu hướng xuống đất trên thân cây thẳng đứng; ban đêm mới rời vị trí để săn côn trùng.",
+    "reproductionVi": "Đẻ 2 trứng tròn mỗi lứa trong lớp rêu ẩm dưới gốc cây, ấp nở sau 65–85 ngày ở 21–24°C.",
+    "threatsVi": [
+      "Chặt phá rừng nguyên sinh Madagascar",
+      "Khai thác buôn bán thú cưng"
+    ],
+    "funFactsVi": [
+      "Khả năng đổi màu da của Uroplatus sikorae tinh vi đến mức có thể tái hiện cả các mảng địa y xanh trắng và vết nứt vỏ cây nơi chúng đang đậu."
+    ],
+    "similarSpecies": [
+      "Uroplatus sameiti",
+      "Uroplatus fimbriatus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng kính đứng 45×45×75 cm có nhiều thân gỗ thẳng đứng phủ rêu trong phòng mát.",
+      "lightingVi": "Đèn UVB 5.0% dịu nhẹ, nhiệt độ ban ngày duy trì 21–25°C.",
+      "feedingVi": "Dế, gián nhỏ và ốc sên bổ sung canxi 2–3 lần/tuần.",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong chuồng rộng nhiều cành đứng.",
+      "commonProblemsVi": [
+        "Sốc nhiệt nếu nhiệt độ vượt quá 27°C",
+        "Mất nước nếu thiếu phun sương đêm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè đuôi lá rêu Uroplatus sikorae (CB 6 tháng tuổi)",
+        "priceVnd": 7200000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, vân rêu trắng xanh tương phản cao."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Mossy leaf-tailed gecko (Uroplatus sikorae), Vohimana reserve, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mossy_leaf-tailed_gecko_(Uroplatus_sikorae),_Vohimana_reserve,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mossy_leaf-tailed_gecko_%28Uroplatus_sikorae%29%2C_Vohimana_reserve%2C_Madagascar.jpg",
+        "width": 4592,
+        "height": 3448,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Uroplatus sikorae (21837369478).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_sikorae_(21837369478).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Uroplatus_sikorae_%2821837369478%29.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mossy Leaf-tailed Gecko, Andasibe, Madagascar (4022292121).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mossy_Leaf-tailed_Gecko,_Andasibe,_Madagascar_(4022292121).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mossy_Leaf-tailed_Gecko%2C_Andasibe%2C_Madagascar_%284022292121%29.jpg",
+        "width": 4224,
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blattschwanzgecko.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blattschwanzgecko.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Blattschwanzgecko.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Maubreville",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gecko Leaftail 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gecko_Leaftail_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gecko_Leaftail_3.jpg",
+        "width": 1632,
+        "height": 1224,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "w:User:Lpm",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445771",
+      "https://www.iucnredlist.org/species/172820/6924215",
+      "https://en.wikipedia.org/wiki/Uroplatus_sikorae",
+      "https://vi.wikipedia.org/wiki/Uroplatus_sikorae"
+    ]
+  },
+  {
+    "scientificName": "Uroplatus fimbriatus",
+    "commonNameVi": "Tắc kè đuôi lá khổng lồ",
+    "commonNameEn": "Common flat-tail gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Uroplatus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Uroplatus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172939/6945080",
+    "gbifKey": 2445758,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 26,
+      "baskMax": 27,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp và trung du phía đông Madagascar"
+    },
+    "descriptionVi": "Loài lớn nhất trong chi tắc kè đuôi lá với chiều dài vượt quá 30 cm, đôi mắt to tròn có đồng tử dọc viền các vòng tròn đồng tâm màu vàng cam và đỏ rực kỳ ảo.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố dọc dải rừng mưa miền đông Madagascar và đảo Nosy Boraha.",
+    "pullQuoteVi": "Khi bị đe dọa, chúng đột ngột bật mở cái miệng đỏ tươi, phồng diềm cổ và cong chiếc đuôi lá khổng lồ lên để uy hiếp kẻ thù.",
+    "dietVi": "Ăn côn trùng cỡ lớn, gián rừng, châu chấu và thằn lằn nhỏ",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đảo Nosy Boraha (Sainte-Marie), đông Madagascar",
+      "lat": -16.9,
+      "lng": 49.9
+    },
+    "regionVi": "Đông Madagascar",
+    "otherNamesVi": [
+      "Tắc kè đuôi lá lớn Madagascar"
+    ],
+    "synonyms": [
+      "Chiroperus sarrube",
+      "Rhacoessa hypoxantha",
+      "Stellio fimbriatus"
+    ],
+    "wikidataId": "Q610404",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uroplatus_fimbriatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Common_flat-tail_gecko",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 33,
+      "weightGMin": 60,
+      "weightGMax": 110,
+      "heightCmMax": null,
+      "noteVi": "Loài lớn nhất chi Uroplatus"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Rừng mưa miền đông Madagascar và đảo Nosy Mangabe, Nosy Boraha",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới nguyên sinh",
+      "Thân cây gỗ lớn"
+    ],
+    "identificationVi": "Cơ thể lớn màu nâu gỗ điểm bệt trắng, viền da tua tủa suốt từ môi dưới dọc hai bên thân, tròng mắt màu vàng kem có vệt đỏ.",
+    "behaviorVi": "Ban ngày nằm áp sát trên thân cây đường kính trung bình; ban đêm leo trèo săn mồi rất quyết đoán.",
+    "reproductionVi": "Đẻ 2 trứng tròn trong lớp lá mục ẩm, nở sau 70–90 ngày.",
+    "threatsVi": [
+      "Phá rừng làm nông nghiệp",
+      "Khai thác mẫu vật tự nhiên"
+    ],
+    "funFactsVi": [
+      "Uroplatus fimbriatus sở hữu nhiều răng hơn hầu hết các loài bò sát sống trên cạn còn tồn tại hiện nay (tới hơn 300 chiếc răng nhỏ)."
+    ],
+    "similarSpecies": [
+      "Uroplatus giganteus",
+      "Uroplatus henkeli"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng rất cao tối thiểu 60×60×120 cm với các thân cây gỗ đứng đường kính 8–12 cm.",
+      "lightingVi": "Đèn UVB 5.0% và hệ thống phun sương tự động giữ ẩm 80%.",
+      "feedingVi": "Gián Dubia lớn, châu chấu và dế phủ khoáng canxi.",
+      "socialVi": "Nuôi đơn độc hoặc ghép cặp trong chuồng kích thước lớn.",
+      "commonProblemsVi": [
+        "Mất nước và suy thận nếu không được uống nước giọt phun sương hằng ngày"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp các cá thể nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè đuôi lá khổng lồ Uroplatus fimbriatus (CB 6 tháng)",
+        "priceVnd": 9800000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, mắt vòng cam đỏ sắc nét, ăn gián và dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Uroplatus fimbriatus 05.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_fimbriatus_05.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Uroplatus_fimbriatus_05.JPG",
+        "width": 3983,
+        "height": 2799,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Giant leaf tail gecko (Uroplatus fimbriatus) 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giant_leaf_tail_gecko_(Uroplatus_fimbriatus)_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Giant_leaf_tail_gecko_%28Uroplatus_fimbriatus%29_2.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bloopityboop",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Giant Leaf-tailed Gecko (Uroplatus fimbriatus), Nosy Mangabe, Madagascar (3897171513).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giant_Leaf-tailed_Gecko_(Uroplatus_fimbriatus),_Nosy_Mangabe,_Madagascar_(3897171513).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Giant_Leaf-tailed_Gecko_%28Uroplatus_fimbriatus%29%2C_Nosy_Mangabe%2C_Madagascar_%283897171513%29.jpg",
+        "width": 3467,
+        "height": 2639,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uroplatus (fimbriatus?) (15721626789).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_(fimbriatus%3F)_(15721626789).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Uroplatus_%28fimbriatus%3F%29_%2815721626789%29.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bladstaartgekko.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bladstaartgekko.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bladstaartgekko.jpg",
+        "width": 683,
+        "height": 1024,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dennis Tang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445758",
+      "https://www.iucnredlist.org/species/172939/6945080",
+      "https://en.wikipedia.org/wiki/Common_flat-tail_gecko",
+      "https://vi.wikipedia.org/wiki/Uroplatus_fimbriatus"
+    ]
+  },
+  {
+    "scientificName": "Uroplatus henkeli",
+    "commonNameVi": "Tắc kè đuôi lá Henkel",
+    "commonNameEn": "Henkel's leaf-tailed gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Uroplatus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Uroplatus"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/178653/7589062",
+    "gbifKey": 2445768,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": 27,
+      "baskMax": 28,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ẩm đất thấp và rừng chuyển tiếp tại tây bắc Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè đuôi lá cỡ lớn bản địa vùng tây bắc Madagascar với chiếc đầu dẹp dài, diềm da mịn viền quanh thân và màu sắc biến thiên từ trắng kem đốm nâu tới vân vỏ cây.",
+    "conservationNoteVi": "Xếp hạng Sắp nguy cấp (VU) do diện tích rừng đất thấp ở vùng Sambirano và đảo Nosy Be bị chia cắt nghiêm trọng bởi đồn điền nông nghiệp.",
+    "pullQuoteVi": "Đôi mắt lớn vân cẩm thạch hồng be cùng chiếc đuôi hình chiếc lá bầu dục giúp chúng hòa lẫn vào các thân cây rừng Sambirano.",
+    "dietVi": "Ăn côn trùng, ốc sên nhỏ và các loài chân khớp ăn đêm",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đảo Nosy Be, tây bắc Madagascar",
+      "lat": -13.35,
+      "lng": 48.28
+    },
+    "regionVi": "Tây Bắc Madagascar",
+    "otherNamesVi": [
+      "Tắc kè đuôi lá diềm Nosy Bé"
+    ],
+    "synonyms": [
+      "Uroplatus henkeli bohme"
+    ],
+    "wikidataId": "Q137604",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uroplatus_henkeli",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Henkel%27s_leaf-tailed_gecko",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 22,
+      "lengthCmMax": 28,
+      "weightGMin": 45,
+      "weightGMax": 80,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ hơn U. fimbriatus và chịu ấm tốt hơn một chút"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Vùng Sambirano, bán đảo Ampasindava và đảo Nosy Be (tây bắc Madagascar)",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa đất thấp",
+      "Rừng bán thường xanh ven biển"
+    ],
+    "identificationVi": "Mắt không có các vòng tròn đỏ rực như U. fimbriatus mà mang vân lưới màu hồng kem đến nâu vàng; đuôi bầu dục rộng hơn.",
+    "behaviorVi": "Thường ngủ chúc đầu xuống đất trên thân cây thẳng đứng vào ban ngày và hoạt động săn mồi tích cực về đêm.",
+    "reproductionVi": "Đẻ 2 trứng trên mặt đất dưới lớp lá khô, nở sau 65–85 ngày.",
+    "threatsVi": [
+      "Mất rừng đất thấp ở Nosy Be và Sambirano",
+      "Thu bắt tự nhiên"
+    ],
+    "funFactsVi": [
+      "Nhờ xuất xứ từ vùng đất thấp ấm áp hơn ở tây bắc Madagascar, Uroplatus henkeli là loài dễ nuôi và nhân giống thành công nhất trong chi Uroplatus."
+    ],
+    "similarSpecies": [
+      "Uroplatus fimbriatus",
+      "Uroplatus sikorae"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng 60×45×90 cm có nhiều cành cây thẳng đứng và cây lá rộng.",
+      "lightingVi": "Đèn UVB 5.0% ban ngày, nhiệt độ 22–27°C.",
+      "feedingVi": "Dế, gián Dubia và ốc sên nhỏ phủ canxi.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp sinh sản trong chuồng lớn.",
+      "commonProblemsVi": [
+        "Thiếu canxi ở con cái đang mang trứng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, được nhân giống CB rộng rãi nhất trong chi Uroplatus."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè đuôi lá Henkel Uroplatus henkeli (CB 5 tháng)",
+        "priceVnd": 8200000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, dễ thích nghi hơn các loài đuôi lá núi cao."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gfp-henkels-leaf-tailed-gecko.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gfp-henkels-leaf-tailed-gecko.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Gfp-henkels-leaf-tailed-gecko.jpg",
+        "width": 3456,
+        "height": 2304,
+        "license": "Public Domain",
+        "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+        "author": "Yinan Chen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Geco de cola plana de Henkel (Uroplatus henkeli), Parque Nacional de Lokobe, Nosy Be, Madagascar, 2025-09-21, DD 26.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geco_de_cola_plana_de_Henkel_(Uroplatus_henkeli),_Parque_Nacional_de_Lokobe,_Nosy_Be,_Madagascar,_2025-09-21,_DD_26.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Geco_de_cola_plana_de_Henkel_%28Uroplatus_henkeli%29%2C_Parque_Nacional_de_Lokobe%2C_Nosy_Be%2C_Madagascar%2C_2025-09-21%2C_DD_26.jpg",
+        "width": 4540,
+        "height": 6810,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Henkel's leaf-tailed gecko (Uroplatus henkeli) Lokobe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Henkel%27s_leaf-tailed_gecko_(Uroplatus_henkeli)_Lokobe.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Henkel%27s_leaf-tailed_gecko_%28Uroplatus_henkeli%29_Lokobe.jpg",
+        "width": 2338,
+        "height": 3508,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Henkel's Leaf Tailed Gecko, Jacksonville Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Henkel%27s_Leaf_Tailed_Gecko,_Jacksonville_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Henkel%27s_Leaf_Tailed_Gecko%2C_Jacksonville_Zoo.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Michael Rivera",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uroplatus Ankarana MS6250.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_Ankarana_MS6250.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Uroplatus_Ankarana_MS6250.jpg",
+        "width": 2848,
+        "height": 4272,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Marco Schmidt [1]",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445768",
+      "https://www.iucnredlist.org/species/178653/7589062",
+      "https://en.wikipedia.org/wiki/Henkel%27s_leaf-tailed_gecko",
+      "https://vi.wikipedia.org/wiki/Uroplatus_henkeli"
+    ]
+  },
+  {
+    "scientificName": "Uroplatus ebenaui",
+    "commonNameVi": "Tắc kè đuôi lá mũi giáo",
+    "commonNameEn": "Spearpoint leaf-tailed gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Uroplatus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Uroplatus"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/172792/6919303",
+    "gbifKey": 9565477,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 24,
+      "baskMin": 24,
+      "baskMax": 25,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa núi cao và rừng ẩm miền bắc và tây bắc Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè đuôi lá cỡ nhỏ có hình dáng gần giống tắc kè đuôi lá quỷ Satan nhưng sở hữu chiếc đuôi ngắn nhỏ nhọn ở đầu mút như mũi giáo hoặc chiếc lá khô bị mục rữa.",
+    "conservationNoteVi": "Xếp hạng Sắp nguy cấp (VU) do sinh cảnh rừng ẩm ở cực bắc Madagascar và đảo Nosy Be bị thu hẹp và phân mảnh.",
+    "pullQuoteVi": "Chiếc đuôi ngắn nhọn hình mũi giáo kết hợp cùng những chiếc gai nhỏ trên mí mắt tạo nên lớp ngụy trang lá mục hoàn hảo.",
+    "dietVi": "Ăn côn trùng nhỏ, ruồi, dế non và nhện",
+    "lifespanVi": "7–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Vườn quốc gia Montagne d'Ambre, bắc Madagascar",
+      "lat": -12.53,
+      "lng": 49.17
+    },
+    "regionVi": "Bắc và Tây Bắc Madagascar",
+    "otherNamesVi": [
+      "Tắc kè đuôi lá Ebenau"
+    ],
+    "synonyms": [
+      "Uroplates boettgeri",
+      "Uroplates ebenaui"
+    ],
+    "wikidataId": "Q2058368",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uroplatus_ebenaui",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uroplatus_ebenaui",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 10,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Đuôi rất ngắn chỉ bằng khoảng 1/4 tổng chiều dài"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Miền bắc và tây bắc Madagascar, bao gồm Montagne d'Ambre và Nosy Be",
+      "elevationM": {
+        "min": 100,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa vùng núi",
+      "Cây bụi tầng thấp cách mặt đất 1–2 mét"
+    ],
+    "identificationVi": "Kích thước nhỏ như U. phantasticus nhưng chiếc đuôi ngắn và thuôn nhọn hình mũi giáo thay vì bản lá rộng dài.",
+    "behaviorVi": "Đậu bất động trên các nhánh cây mảnh vào ban ngày, ban đêm săn côn trùng nhỏ trong tầng cây bụi thấp.",
+    "reproductionVi": "Đẻ 2 trứng nhỏ dưới lớp lá mục ẩm, nở sau 60–80 ngày.",
+    "threatsVi": [
+      "Mất sinh cảnh rừng ẩm miền bắc Madagascar"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu di truyền học gần đây cho thấy quần thể Uroplatus ebenaui thực chất là một phức hợp gồm nhiều loài ẩn có hình thái rất giống nhau."
+    ],
+    "similarSpecies": [
+      "Uroplatus phantasticus",
+      "Uroplatus finiavana"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng kính trồng cây thật 40×40×60 cm đặt trong phòng mát dưới 25°C.",
+      "lightingVi": "Đèn UVB 2.0–5.0% nhẹ và phun sương mịn sáng tối.",
+      "feedingVi": "Dế nhỏ, gián nhỏ phủ khoáng canxi.",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong hồ nhiều cành cây mảnh.",
+      "commonProblemsVi": [
+        "Nhạy cảm với nhiệt độ cao trên 26°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch từ nguồn nhân giống CB chuyên nghiệp."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè đuôi lá mũi giáo Uroplatus ebenaui (CB 5 tháng)",
+        "priceVnd": 7500000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, đuôi mũi giáo đặc trưng nguyên vẹn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Spearpoint Leaf-tailed Gecko, Ankarafantsika, Madagascar (3899501433).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spearpoint_Leaf-tailed_Gecko,_Ankarafantsika,_Madagascar_(3899501433).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Spearpoint_Leaf-tailed_Gecko%2C_Ankarafantsika%2C_Madagascar_%283899501433%29.jpg",
+        "width": 3076,
+        "height": 2377,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Uroplatus ebenaui.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_ebenaui.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Uroplatus_ebenaui.jpg",
+        "width": 2000,
+        "height": 3008,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Alextelford",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uroplatus ebenaui, Ankarafantsika National Park, Madagascar (4463679348).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_ebenaui,_Ankarafantsika_National_Park,_Madagascar_(4463679348).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Uroplatus_ebenaui%2C_Ankarafantsika_National_Park%2C_Madagascar_%284463679348%29.jpg",
+        "width": 1701,
+        "height": 1276,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uroplatus ebenaui 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_ebenaui_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Uroplatus_ebenaui_3.jpg",
+        "width": 1753,
+        "height": 2459,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Alextelford from en.wikipedia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9565477",
+      "https://www.iucnredlist.org/species/172792/6919303",
+      "https://en.wikipedia.org/wiki/Uroplatus_ebenaui",
+      "https://vi.wikipedia.org/wiki/Uroplatus_ebenaui"
+    ]
+  },
+  {
+    "scientificName": "Uroplatus lineatus",
+    "commonNameVi": "Tắc kè đuôi lá sọc tre",
+    "commonNameEn": "Lined leaf-tailed gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Uroplatus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Uroplatus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172769/177284299",
+    "gbifKey": 2445744,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": 26,
+      "baskMax": 28,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng tre trúc ẩm ướt và rừng cọ đất thấp miền đông Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè đuôi lá có hình thái khác biệt nhất trong chi: cơ thể thuôn dài mảnh dẻ với các đường sọc dọc màu vàng kem và nâu gỗ chạy suốt từ mõm tới đuôi như một bẹ tre khô.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng ở các khu rừng ẩm có tre trúc dọc bờ biển phía đông Madagascar.",
+    "pullQuoteVi": "Thay vì giả dạng chiếc lá rụng, loài tắc kè này tiến hóa những đường sọc dọc thẳng tắp để hóa thân thành một lóng tre khô.",
+    "dietVi": "Ăn côn trùng đêm: dế, bướm đêm và gián rừng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Vùng Maroantsetra, vịnh Antongil, đông bắc Madagascar",
+      "lat": -15.43,
+      "lng": 49.73
+    },
+    "regionVi": "Đông Madagascar",
+    "otherNamesVi": [
+      "Tắc kè đuôi lá kẻ sọc"
+    ],
+    "synonyms": [
+      "Ptyodactylus lineatus"
+    ],
+    "wikidataId": "Q2555897",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uroplatus_lineatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lined_flat-tail_gecko",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 27,
+      "weightGMin": 25,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Thân rất thon dài, trên mí mắt có một gai da dài nhô lên"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Rừng mưa đất thấp phía đông Madagascar và đảo Nosy Bohara",
+      "elevationM": {
+        "min": 0,
+        "max": 650
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng tre trúc ẩm",
+      "Rừng mưa đất thấp"
+    ],
+    "identificationVi": "Toàn thân có các sọc dọc màu kem và nâu xen kẽ như thớ tre, không có diềm da tua rua hai bên sườn, trên mỗi mắt có một tua da dài.",
+    "behaviorVi": "Ban ngày duỗi thẳng bốn chân ép sát dọc theo các thân tre hoặc bẹ lá cọ; ban đêm mới đổi sang màu đậm hơn và đi săn.",
+    "reproductionVi": "Con cái dán cặp trứng dính vào mặt trong của bẹ lá hoặc lóng tre, nở sau 65–80 ngày.",
+    "threatsVi": [
+      "Chặt phá rừng đất thấp và khai thác tre rừng"
+    ],
+    "funFactsVi": [
+      "Đây là loài duy nhất trong chi Uroplatus đẻ trứng dán dính lên bề mặt thực vật thay vì giấu trứng dưới lớp lá mục trên mặt đất."
+    ],
+    "similarSpecies": [
+      "Uroplatus fimbriatus",
+      "Phelsuma lineata"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng cao 45×45×90 cm bố trí nhiều thân tre khô thẳng đứng và cây cọ nhỏ.",
+      "lightingVi": "Đèn UVB 5.0% dịu nhẹ, nhiệt độ ban ngày 22–26°C.",
+      "feedingVi": "Dế và gián nhỏ phủ canxi 3 lần/tuần.",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong hồ nhiều ống tre đứng.",
+      "commonProblemsVi": [
+        "Stress nếu chuồng thiếu các gióng tre thẳng đứng để ngụy trang ban ngày"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, nhân giống CB hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè đuôi lá sọc tre Uroplatus lineatus (CB 5 tháng)",
+        "priceVnd": 7900000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, sọc vân tre rõ nét, ăn dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lined Leaf-tailed Gecko, Marojey National Park, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lined_Leaf-tailed_Gecko,_Marojey_National_Park,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lined_Leaf-tailed_Gecko%2C_Marojey_National_Park%2C_Madagascar.jpg",
+        "width": 3700,
+        "height": 2760,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Uroplatus Lineatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uroplatus_Lineatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Uroplatus_Lineatus.jpg",
+        "width": 1564,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Kimon Berlin, user:Gribeco",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lined Flat-tailed Gecko (Uroplatus lineatus) (7637805134).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lined_Flat-tailed_Gecko_(Uroplatus_lineatus)_(7637805134).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Lined_Flat-tailed_Gecko_%28Uroplatus_lineatus%29_%287637805134%29.jpg",
+        "width": 2536,
+        "height": 2744,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lined Flat-tailed Gecko (Uroplatus lineatus) (7637235668).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lined_Flat-tailed_Gecko_(Uroplatus_lineatus)_(7637235668).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lined_Flat-tailed_Gecko_%28Uroplatus_lineatus%29_%287637235668%29.jpg",
+        "width": 3240,
+        "height": 2520,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lined Flat-tailed Gecko (Uroplatus lineatus) (7632200520).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lined_Flat-tailed_Gecko_(Uroplatus_lineatus)_(7632200520).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lined_Flat-tailed_Gecko_%28Uroplatus_lineatus%29_%287632200520%29.jpg",
+        "width": 3544,
+        "height": 2520,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445744",
+      "https://www.iucnredlist.org/species/172769/177284299",
+      "https://en.wikipedia.org/wiki/Lined_flat-tail_gecko",
+      "https://vi.wikipedia.org/wiki/Uroplatus_lineatus"
+    ]
+  },
+  {
+    "scientificName": "Lygodactylus williamsi",
+    "commonNameVi": "Tắc kè lùn xanh ngọc lam",
+    "commonNameEn": "Turquoise dwarf gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Lygodactylus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Lygodactylus"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/14665363/14665385",
+    "gbifKey": 2446749,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Chỉ sống trên loài cây dứa dại đặc hữu Pandanus rabaiensis tại rừng Kimboza, Tanzania"
+    },
+    "descriptionVi": "Loài tắc kè ngày kích thước tí hon nổi tiếng vì con đực trưởng thành sở hữu màu xanh lam điện quang rực rỡ bậc nhất giới động vật, tương phản với cổ họng đen đậm và bụng màu vàng cam.",
+    "conservationNoteVi": "Xếp hạng Cực kỳ nguy cấp (CR) do chỉ phân bố trong diện tích khoảng 20 km² tại rừng Kimboza (Tanzania) và từng bị săn bắt tự nhiên quá mức.",
+    "pullQuoteVi": "Toàn bộ quần thể hoang dã trên Trái Đất chỉ gói gọn trong vài kilômét vuông rừng đá vôi và lệ thuộc hoàn toàn vào một loài cây dứa dại duy nhất.",
+    "dietVi": "Ăn côn trùng nhỏ li ti và liếm mật hoa, dịch quả",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Khu bảo tồn rừng Kimboza, vùng Morogoro, Tanzania",
+      "lat": -7.02,
+      "lng": 37.8
+    },
+    "regionVi": "Đông Tanzania",
+    "otherNamesVi": [
+      "Tắc kè ngày xanh điện",
+      "Tắc kè Williams"
+    ],
+    "synonyms": [
+      "Lygodactylus picturatus williamsi"
+    ],
+    "wikidataId": "Q137615",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%E1%BA%AFc_k%C3%A8_l%C3%B9n_William",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lygodactylus_williamsi",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 8.5,
+      "weightGMin": 1.5,
+      "weightGMax": 3,
+      "heightCmMax": null,
+      "noteVi": "Con đực màu xanh lam điện, con cái màu xanh đồng ánh lục"
+    },
+    "distribution": {
+      "countries": [
+        "TZ"
+      ],
+      "nativeRangeVi": "Rừng Kimboza và Ruvu dưới chân dãy núi Uluguru, miền đông Tanzania",
+      "elevationM": {
+        "min": 170,
+        "max": 550
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới trên núi đá vôi",
+      "Tán cây dứa dại Pandanus rabaiensis"
+    ],
+    "identificationVi": "Con đực xanh ngọc lam rực sáng, sọc đen qua mắt, cổ họng có mạng vạch đen đậm, mặt bụng vàng cam tươi.",
+    "behaviorVi": "Mỗi cây dứa dại Pandanus lớn thường là lãnh thổ của một con đực thống trị cùng vài con cái và cá thể non.",
+    "reproductionVi": "Con cái đẻ 2 trứng nhỏ bằng hạt gạo dính chặt vào kẽ lá dứa dại, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Khai thác trộm từ tự nhiên trong quá khứ",
+      "Chặt phá cây gỗ và cháy rừng xâm lấn khu bảo tồn Kimboza"
+    ],
+    "funFactsVi": [
+      "Trong tự nhiên, loài tắc kè này hoàn toàn không sống trên các loài cây khác mà chỉ cư trú, kiếm ăn và đẻ trứng trong bẹ lá có gai của loài cây Pandanus rabaiensis."
+    ],
+    "similarSpecies": [
+      "Lygodactylus kimhowelli",
+      "Phelsuma klemmeri"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I Công ước CITES (từ năm 2019) và mức Cực kỳ nguy cấp (CR), cấm buôn bán thương mại tự do."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Zürich Zoo Tanzania blue gecko (15727077154).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Zoo_Tanzania_blue_gecko_(15727077154).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Z%C3%BCrich_Zoo_Tanzania_blue_gecko_%2815727077154%29.jpg",
+        "width": 3791,
+        "height": 2843,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "kuhnmi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gekkonidae Lygodactylus williamsi 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gekkonidae_Lygodactylus_williamsi_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Gekkonidae_Lygodactylus_williamsi_1.jpg",
+        "width": 1503,
+        "height": 2004,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:BioExo 2017 9033.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BioExo_2017_9033.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/BioExo_2017_9033.jpg",
+        "width": 2000,
+        "height": 1333,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Klemen Čotar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Female Lygodactylus williamsi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Female_Lygodactylus_williamsi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Female_Lygodactylus_williamsi.jpg",
+        "width": 800,
+        "height": 800,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "WingedWolfPsion",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2446749",
+      "https://www.iucnredlist.org/species/14665363/14665385",
+      "https://en.wikipedia.org/wiki/Lygodactylus_williamsi",
+      "https://vi.wikipedia.org/wiki/T%E1%BA%AFc_k%C3%A8_l%C3%B9n_William"
+    ]
+  },
+  {
+    "scientificName": "Basiliscus plumifrons",
+    "commonNameVi": "Rồng đất Basilisk mào xanh",
+    "commonNameEn": "Plumed basilisk",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Corytophanidae",
+      "genus": "Basiliscus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Corytophanidae",
+      "genus": "Chi Basiliscus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/203046/2759302",
+    "gbifKey": 5221810,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 31,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới ẩm dọc bờ sông suối tại Trung Mỹ (Costa Rica, Nicaragua, Panama)"
+    },
+    "descriptionVi": "Loài thằn lằn màu xanh lục bảo rực sáng nổi tiếng khắp thế giới với khả năng chạy bằng hai chân sau trên mặt nước; con đực trưởng thành sở hữu mào đôi trên đầu, mào lưng và mào đuôi cực kỳ đồ sộ.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng và còn phổ biến dọc các hệ thống sông suối rừng mưa ở Đông Honduras, Nicaragua, Costa Rica và Panama.",
+    "pullQuoteVi": "Nhờ những diềm vảy mở rộng dưới ngón chân sau tạo túi khí trên mặt nước, chúng có thể chạy băng qua mặt sông với tốc độ 1,5 mét/giây mà không chìm.",
+    "dietVi": "Ăn tạp: côn trùng lớn, nhện, ếch nhỏ, cá nhỏ, hoa và quả rừng chín",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Tortuguero, tỉnh Limón, Costa Rica",
+      "lat": 10.54,
+      "lng": -83.5
+    },
+    "regionVi": "Trung Mỹ (Honduras, Nicaragua, Costa Rica, Panama)",
+    "otherNamesVi": [
+      "Thằn lằn chạy trên mặt nước",
+      "Rồng hai mào Trung Mỹ"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q753071",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Basiliscus_plumifrons",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plumed_basilisk",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 85,
+      "weightGMin": 200,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Chiếc đuôi dài chiếm tới gần 70% tổng chiều dài cơ thể"
+    },
+    "distribution": {
+      "countries": [
+        "HN",
+        "NI",
+        "CR",
+        "PA"
+      ],
+      "nativeRangeVi": "Miền đông Honduras, Nicaragua, Costa Rica và miền tây Panama",
+      "elevationM": {
+        "min": 0,
+        "max": 775
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới ven sông suối",
+      "Cây bụi rủ bóng trên mặt nước"
+    ],
+    "identificationVi": "Toàn thân xanh lục ngọc điểm chấm xanh lam và trắng, mắt vàng cam sáng, con đực có 3 cụm mào vây lớn trên đầu, lưng và đuôi.",
+    "behaviorVi": "Khi bị kẻ săn mồi làm giật mình trên cành cây ven bờ, chúng rơi xuống mặt nước và đạp chân sau cực nhanh để chạy thẳng trên mặt nước một quãng 5–20 mét trước khi bơi lặn.",
+    "reproductionVi": "Con cái đẻ 8–18 trứng mỗi lứa trong hố cát ẩm gần bờ suối, thời gian ấp nở 55–70 ngày.",
+    "threatsVi": [
+      "Thu hẹp rừng ven sông cục bộ"
+    ],
+    "funFactsVi": [
+      "Nhờ tuyệt kỹ chạy thẳng đứng bằng hai chân sau trên mặt nước không bị chìm, người dân bản địa Trung Mỹ gọi loài này là 'Thằn lằn Chúa Giê-su' (Jesus Christ lizard)."
+    ],
+    "similarSpecies": [
+      "Basiliscus basiliscus",
+      "Physignathus cocincinus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bán thủy sinh rất lớn (120×60×120 cm) có bể nước rộng ở đáy và nhiều cành cây ngang phía trên.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi chiếu điểm 35–37°C.",
+      "feedingVi": "Gián Dubia, dế lớn, châu chấu phủ canxi kết hợp một ít trái cây ngọt.",
+      "socialVi": "Nuôi đơn hoặc 1 đực kèm 2 cái trong chuồng lớn che kín 3 mặt.",
+      "commonProblemsVi": [
+        "Trầy mõm do tính nhát, dễ nhảy lao vào kính nếu giật mình"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp, không thuộc phụ lục cấm CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng đất Basilisk mào xanh Basiliscus plumifrons (CB 5 tháng)",
+        "priceVnd": 3200000,
+        "descriptionVi": "Cá thể CB màu xanh ngọc lục bảo sáng, bắt đầu nhú mào đầu và lưng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2019. Крокодиловый каньон в Ейске 064.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2019._%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_064.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2019._%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_064.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20180825 Vlinders aan de Vliet 29 - Basiliscus plumifrons.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_29_-_Basiliscus_plumifrons.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/20180825_Vlinders_aan_de_Vliet_29_-_Basiliscus_plumifrons.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Basilic vert (Basiliscus plumifrons).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilic_vert_(Basiliscus_plumifrons).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Basilic_vert_%28Basiliscus_plumifrons%29.jpg",
+        "width": 4532,
+        "height": 3561,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lucas Vogel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Basiliscus plumifrons (Caño Negro).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basiliscus_plumifrons_(Ca%C3%B1o_Negro).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Basiliscus_plumifrons_%28Ca%C3%B1o_Negro%29.jpg",
+        "width": 3511,
+        "height": 2634,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hans Hillewaert",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Basiliscus plumifrons -Costa Rica-8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basiliscus_plumifrons_-Costa_Rica-8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Basiliscus_plumifrons_-Costa_Rica-8.jpg",
+        "width": 2884,
+        "height": 3361,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Steve Jurvetson",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5221810",
+      "https://www.iucnredlist.org/species/203046/2759302",
+      "https://en.wikipedia.org/wiki/Plumed_basilisk",
+      "https://vi.wikipedia.org/wiki/Basiliscus_plumifrons"
+    ]
+  },
+  {
+    "scientificName": "Teratoscincus scincus",
+    "commonNameVi": "Tắc kè mắt ếch Turkestan",
+    "commonNameEn": "Common wonder gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Sphaerodactylidae",
+      "genus": "Teratoscincus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè ngón tròn (Sphaerodactylidae)",
+      "genus": "Chi Teratoscincus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/164580/1059264",
+    "gbifKey": 2447091,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 31,
+      "baskMin": 33,
+      "baskMax": 36,
+      "humidMin": 25,
+      "humidMax": 40,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cát hoang mạc và bán hoang mạc vùng Trung Á và Trung Đông"
+    },
+    "descriptionVi": "Loài tắc kè sa mạc kỳ lạ có đôi mắt lồi to phát sáng như mắt ếch trong đêm và lớp vảy lớn xếp chồng lên nhau như vảy cá hoặc vảy thằn lằn bóng thay vì da hạt mềm.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp các vùng cát khô hạn từ Iran và bán đảo Ả Rập tới Trung Á và tây Trung Quốc.",
+    "pullQuoteVi": "Khi bị uy hiếp, chúng vẫy chiếc đuôi làm các tấm vảy lớn cọ xát vào nhau tạo ra tiếng rít xào xạc như rắn lục sừng.",
+    "dietVi": "Ăn côn trùng sa mạc: bọ cánh cứng, dế, châu chấu và nhện",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Hoang mạc Kyzylkum, Uzbekistan",
+      "lat": 42.1,
+      "lng": 63.8
+    },
+    "regionVi": "Trung Á và Tây Á",
+    "otherNamesVi": [
+      "Tắc kè vảy cá sa mạc"
+    ],
+    "synonyms": [
+      "Stenodactylus scincus"
+    ],
+    "wikidataId": "Q734033",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Teratoscincus_scincus",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 30,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Các ngón chân có hàng vảy lược dài giúp chạy trên cát lún"
+    },
+    "distribution": {
+      "countries": [
+        "UZ",
+        "KZ",
+        "TM",
+        "IR",
+        "AF",
+        "PK",
+        "CN",
+        "AE",
+        "OM"
+      ],
+      "nativeRangeVi": "Trung Á, Iran, Afghanistan, Pakistan, tây bắc Trung Quốc và đông bán đảo Ả Rập",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Đụn cát hoang mạc",
+      "Thung lũng cát bán hoang mạc"
+    ],
+    "identificationVi": "Đầu to mắt lồi lớn, thân và đuôi phủ vảy lớn bóng láng xếp ngói như vảy cá, ngón chân có diềm vảy hình răng lược.",
+    "behaviorVi": "Đào hang sâu tới 60–80 cm dưới lòng đụn cát ẩm để tránh cái nóng ban ngày; ban đêm ra ngoài săn mồi và phát tiếng kêu cọ vảy.",
+    "reproductionVi": "Đẻ 2 trứng vỏ cứng trong hang cát sâu có độ ẩm nhẹ, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Thu bắt cục bộ tại một số vùng hoang mạc"
+    ],
+    "funFactsVi": [
+      "Lớp vảy lớn trên cơ thể loài này rất mỏng manh và có thể tự bong ra từng mảng khi bị kẻ săn mồi ngoạm giữ, giúp chúng tuột khỏi hàm thú ăn thịt."
+    ],
+    "similarSpecies": [
+      "Teratoscincus roborowskii",
+      "Teratoscincus keyserlingii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng ngang 60×40×40 cm trải lớp cát sa mạc dày để tắc kè đào hang giữ ẩm ở tầng đáy.",
+      "lightingVi": "Đèn sưởi tạo điểm nóng 34–36°C ban ngày, ban đêm hạ nhiệt mát.",
+      "feedingVi": "Dế, gián Dubia và bọ cánh cứng nhỏ phủ canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể và hạn chế cầm nắm bằng tay không vì vảy dễ tróc.",
+      "commonProblemsVi": [
+        "Tróc vảy da nếu bị cầm nắm mạnh tay"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp, không thuộc phụ lục cấm CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè mắt ếch Teratoscincus scincus (CB 5 tháng tuổi)",
+        "priceVnd": 2400000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, lớp vảy bóng khỏe mạnh, ăn dế sung."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Teratoscincus rustamowi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teratoscincus_rustamowi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Teratoscincus_rustamowi.jpg",
+        "width": 6093,
+        "height": 4579,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Carpodacus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Beautiful eye (4356605978) (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beautiful_eye_(4356605978)_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beautiful_eye_%284356605978%29_%282%29.jpg",
+        "width": 1314,
+        "height": 1314,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Sander van der Wel from Netherlands",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Teratoscincus scincus Aktakyr.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teratoscincus_scincus_Aktakyr.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Teratoscincus_scincus_Aktakyr.jpg",
+        "width": 3818,
+        "height": 2863,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexander A. Fomichev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Teratoscincus scincus Kattakum (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teratoscincus_scincus_Kattakum_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Teratoscincus_scincus_Kattakum_%281%29.jpg",
+        "width": 4088,
+        "height": 3066,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexander A. Fomichev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Teratoscincus scincus Mingbulak.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teratoscincus_scincus_Mingbulak.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Teratoscincus_scincus_Mingbulak.jpg",
+        "width": 4469,
+        "height": 3352,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexander A. Fomichev",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2447091",
+      "https://www.iucnredlist.org/species/164580/1059264",
+      "https://en.wikipedia.org/wiki/Teratoscincus_scincus"
+    ]
+  },
+  {
+    "scientificName": "Stenodactylus sthenodactylus",
+    "commonNameVi": "Tắc kè cát ngón mảnh",
+    "commonNameEn": "Elegant gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Stenodactylus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Stenodactylus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198513/2527957",
+    "gbifKey": 5221497,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 32,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 25,
+      "humidMax": 40,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Hoang mạc sỏi đá và cồn cát khô hạn khắp Bắc Phi và Cận Đông"
+    },
+    "descriptionVi": "Loài tắc kè sa mạc tí hon với bốn chiếc chân cao mảnh khảnh, cái đầu tròn to và đôi mắt lồi lớn có đồng tử dọc viền răng cưa lấp lánh dưới ánh đèn đêm.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố cực kỳ rộng khắp vùng Sahara Bắc Phi sang bán đảo Sinai và Trung Đông.",
+    "pullQuoteVi": "Dù dài chưa đầy 9 cm, loài tắc kè sa mạc này sở hữu dáng đứng chống cao bốn chân đầy kiêu hãnh trên nền cát nóng.",
+    "dietVi": "Ăn côn trùng nhỏ: dế nhỏ, mối, kiến và nhện cát",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Ốc đảo Bahariya, Ai Cập",
+      "lat": 28.35,
+      "lng": 28.86
+    },
+    "regionVi": "Bắc Phi và Cận Đông",
+    "otherNamesVi": [
+      "Tắc kè lùn sa mạc Sahara"
+    ],
+    "synonyms": [
+      "Ascalabotes sthenodactylus",
+      "Garzoniella longipes",
+      "Stenodactylus cornaliae",
+      "Stenodactylus elegans"
+    ],
+    "wikidataId": "Q1153855",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Stenodactylus_sthenodactylus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Stenodactylus_sthenodactylus",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 9.5,
+      "weightGMin": 3,
+      "weightGMax": 7,
+      "heightCmMax": null,
+      "noteVi": "Chân dài mảnh không có đệm bám, đầu ngón có móng nhỏ"
+    },
+    "distribution": {
+      "countries": [
+        "EG",
+        "MA",
+        "DZ",
+        "TN",
+        "LY",
+        "SD",
+        "IL",
+        "JO",
+        "SA"
+      ],
+      "nativeRangeVi": "Khắp Bắc Phi từ Morocco qua Ai Cập tới Israel, Jordan và Ả Rập Xê Út",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Sa mạc cát và sỏi đá",
+      "Trảng cây bụi khô cằn"
+    ],
+    "identificationVi": "Cơ thể nhỏ gọn màu vàng cát điểm đốm nâu và chấm trắng, mắt to có mí viền dày che cát, đuôi thon nhọn.",
+    "behaviorVi": "Hoạt động về đêm và lúc chạng vạng, dùng hai chân trước cào cát rất nhanh để đào hang hoặc săn côn trùng nhỏ.",
+    "reproductionVi": "Đẻ 2 trứng vỏ cứng mỗi lứa vùi trong cát, nở sau 50–65 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa trên phạm vi phân bố sa mạc rộng lớn"
+    ],
+    "funFactsVi": [
+      "Nhờ kích thước nhỏ bé và tính cách ôn hòa, đây là một trong số ít loài tắc kè có thể sống thành nhóm nhỏ trong hồ sa mạc thu nhỏ."
+    ],
+    "similarSpecies": [
+      "Stenodactylus petrii",
+      "Tropiocolotes steudneri"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 45×30×30 cm trải cát sa mạc mịn kết hợp các phiến đá phẳng làm nơi trú.",
+      "lightingVi": "Đèn halogen nhỏ tạo điểm sưởi 35°C một góc chuồng.",
+      "feedingVi": "Dế nhỏ và gián Red runner nhỏ phủ canxi 3 lần/tuần.",
+      "socialVi": "Có thể nuôi đơn hoặc nhóm 1 đực 2–3 cái.",
+      "commonProblemsVi": [
+        "Mất nước nếu quên phun sương nhẹ một góc đá vào buổi tối"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Phổ biến trong giới nuôi bò sát cảnh cỡ nhỏ, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè cát ngón mảnh Stenodactylus sthenodactylus (CB 4 tháng)",
+        "priceVnd": 950000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn dế nhỏ rất nhạy, thích hợp cho hồ sa mạc mini."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gekkonidae- Stenodactylus sthenodactylus (Elegant Short-fingered Gecko) - 46801777655.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gekkonidae-_Stenodactylus_sthenodactylus_(Elegant_Short-fingered_Gecko)_-_46801777655.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gekkonidae-_Stenodactylus_sthenodactylus_%28Elegant_Short-fingered_Gecko%29_-_46801777655.jpg",
+        "width": 2200,
+        "height": 1467,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kristof Zyskowski & Yulia Bereshpolova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Stenodactylus sthenodactylus ישימונית.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stenodactylus_sthenodactylus_%D7%99%D7%A9%D7%99%D7%9E%D7%95%D7%A0%D7%99%D7%AA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Stenodactylus_sthenodactylus_%D7%99%D7%A9%D7%99%D7%9E%D7%95%D7%A0%D7%99%D7%AA.jpg",
+        "width": 872,
+        "height": 1158,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "מינוזיג - MinoZig",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Stenodactylus sthenodactylus00.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stenodactylus_sthenodactylus00.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Stenodactylus_sthenodactylus00.jpg",
+        "width": 1313,
+        "height": 875,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Itamar Ofer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gekkonidae- Stenodactylus sthenodactylus (Elegant Short-fingered Gecko) - 46801777725.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gekkonidae-_Stenodactylus_sthenodactylus_(Elegant_Short-fingered_Gecko)_-_46801777725.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Gekkonidae-_Stenodactylus_sthenodactylus_%28Elegant_Short-fingered_Gecko%29_-_46801777725.jpg",
+        "width": 2200,
+        "height": 1467,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kristof Zyskowski & Yulia Bereshpolova",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5221497",
+      "https://www.iucnredlist.org/species/198513/2527957",
+      "https://en.wikipedia.org/wiki/Stenodactylus_sthenodactylus",
+      "https://vi.wikipedia.org/wiki/Stenodactylus_sthenodactylus"
+    ]
+  },
+  {
+    "scientificName": "Paroedura picta",
+    "commonNameVi": "Tắc kè báo Madagascar",
+    "commonNameEn": "Panther gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Paroedura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Paroedura"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172978/6951903",
+    "gbifKey": 2445469,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 50,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô rụng lá và thảm lá mục vùng tây nam và nam Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè sống trên mặt đất có cái đầu lớn, đôi mắt to tròn và hoa văn khoang nâu sẫm viền trắng kem tuyệt đẹp; nhiều cá thể mang thêm một dải sọc trắng chạy dọc chính giữa sống lưng.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng và thích nghi tốt với các vùng rừng khô và trảng cây bụi ở miền nam và tây Madagascar.",
+    "pullQuoteVi": "Với cái đầu to tròn và bộ da vằn nâu kem bắt mắt, loài tắc kè đất này được mệnh danh là 'thằn lằn da báo thu nhỏ' của đảo Madagascar.",
+    "dietVi": "Ăn côn trùng nhỏ: dế, gián nhỏ, sâu sáp và nhện",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Toliara, tây nam Madagascar",
+      "lat": -23.35,
+      "lng": 43.67
+    },
+    "regionVi": "Nam và Tây Madagascar",
+    "otherNamesVi": [
+      "Tắc kè đất đầu to Madagascar",
+      "Tắc kè Ocelot"
+    ],
+    "synonyms": [
+      "Diplodactylus pictus",
+      "Diplodactylus robustus"
+    ],
+    "wikidataId": "Q146547",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Paroedura_picta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ocelot_gecko",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 16,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn con cái"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Miền nam, tây nam và miền tây Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô rụng lá",
+      "Rừng cây gai bán khô hạn",
+      "Thảm lá khô trên mặt đất"
+    ],
+    "identificationVi": "Đầu lớn mõm ngắn, mắt to đồng tử dọc, chân không có giác bám rộng mà có móng nhỏ, thân có các khoang nâu đậm viền kem.",
+    "behaviorVi": "Sống hoàn toàn trên mặt đất, ban ngày ẩn dưới lớp lá khô hoặc vỏ cây mục, ban đêm ra ngoài rình bắt côn trùng.",
+    "reproductionVi": "Sinh sản rất khỏe, đẻ 2 trứng vỏ cứng cách nhau mỗi 2–3 tuần vào mùa sinh sản, nở sau 50–60 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa trên toàn vùng phân bố rộng"
+    ],
+    "funFactsVi": [
+      "Trứng của Paroedura picta có lớp vỏ vôi cứng rất bền, giúp phôi trứng chịu được điều kiện khô hạn của miền nam Madagascar."
+    ],
+    "similarSpecies": [
+      "Coleonyx variegatus",
+      "Paroedura bastardi"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 45×30×30 cm trải mùn dừa pha cát, bố trí 2–3 hang trú và lá khô.",
+      "lightingVi": "Tấm sưởi đáy tạo điểm ấm 30–32°C.",
+      "feedingVi": "Dế nhỏ và gián nhỏ phủ canxi và vitamin D3.",
+      "socialVi": "Nuôi riêng con đực và con cái để tránh con cái đẻ trứng liên tục gây kiệt sức.",
+      "commonProblemsVi": [
+        "Kiệt sức và thiếu canxi ở con cái nếu nhốt chung với con đực quanh năm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB rất phổ biến, có nhiều biến thể màu (Stripe, Xanthic, Anery)."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè báo Madagascar Paroedura picta Dorsal Stripe (4 tháng)",
+        "priceVnd": 1100000,
+        "descriptionVi": "Cá thể CB có đường sọc trắng lưng thẳng nét, ăn dế rất khỏe."
+      },
+      {
+        "nameVi": "Tắc kè báo Madagascar Xanthic (5 tháng tuổi)",
+        "priceVnd": 1850000,
+        "descriptionVi": "Biến thể tăng sắc tố vàng cam sáng, nhân giống trong nước."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paroedura picta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paroedura_picta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Paroedura_picta.jpg",
+        "width": 6960,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NRJMelvinT",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paroedura picta 60173042.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paroedura_picta_60173042.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Paroedura_picta_60173042.jpg",
+        "width": 1731,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Micha Baum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Madagascar Ground Gecko (Paroedura picta) (10275080156).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Madagascar_Ground_Gecko_(Paroedura_picta)_(10275080156).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Madagascar_Ground_Gecko_%28Paroedura_picta%29_%2810275080156%29.jpg",
+        "width": 3187,
+        "height": 2081,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Big-headed gecko (Paroedura picta) Arboretum d'Antsokay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Big-headed_gecko_(Paroedura_picta)_Arboretum_d%27Antsokay.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Big-headed_gecko_%28Paroedura_picta%29_Arboretum_d%27Antsokay.jpg",
+        "width": 4858,
+        "height": 3239,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paroeudura Picta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paroeudura_Picta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Paroeudura_Picta.jpg",
+        "width": 1024,
+        "height": 679,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "SpydercoGecko",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445469",
+      "https://www.iucnredlist.org/species/172978/6951903",
+      "https://en.wikipedia.org/wiki/Ocelot_gecko",
+      "https://vi.wikipedia.org/wiki/Paroedura_picta"
+    ]
+  },
+  {
+    "scientificName": "Lepidodactylus lugubris",
+    "commonNameVi": "Thạch sùng trinh sản",
+    "commonNameEn": "Mourning gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Gekkonidae",
+      "genus": "Lepidodactylus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè (Gekkonidae)",
+      "genus": "Chi Lepidodactylus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172593/1348302",
+    "gbifKey": 9164170,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ven biển, rừng ngập mặn và vườn cây khắp vùng nhiệt đới Ấn Độ - Thái Bình Dương"
+    },
+    "descriptionVi": "Loài thạch sùng nhỏ nhắn màu nâu kem điểm hàng vạch hình chữ W dọc sống lưng, nổi tiếng trong sinh học vì quần thể hầu như chỉ toàn cá thể cái có khả năng tự sinh sản vô tính.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp Đông Nam Á, châu Đại Dương và du nhập sang nhiều vùng nhiệt đới châu Mỹ.",
+    "pullQuoteVi": "Một quần thể gần như hoàn toàn không có con đực: mỗi cá thể cái đều có thể tự đẻ ra những bản sao di truyền của chính mình.",
+    "dietVi": "Ăn tạp: côn trùng nhỏ li ti, mật hoa và trái cây chín mềm",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Côn Đảo, Bà Rịa - Vũng Tàu, Việt Nam",
+      "lat": 8.68,
+      "lng": 106.6
+    },
+    "regionVi": "Đông Nam Á và quần đảo Thái Bình Dương",
+    "otherNamesVi": [
+      "Tắc kè trinh nữ",
+      "Thạch sùng vằn chữ W"
+    ],
+    "synonyms": [
+      "Amydosaurus lugubris",
+      "Dactyloperus pomareae",
+      "Gecko harrieti",
+      "Gecko lugubris"
+    ],
+    "wikidataId": "Q1235711",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lepidodactylus_lugubris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lepidodactylus_lugubris",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 10,
+      "weightGMin": 2,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Thân nhỏ mảnh, đuôi hơi dẹp có rìa khía nhỏ"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "MY",
+        "ID",
+        "PH",
+        "AU",
+        "FJ",
+        "PF"
+      ],
+      "nativeRangeVi": "Duyên hải Đông Nam Á, Indonesia, Philippines, bắc Úc và các đảo Thái Bình Dương",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây ven biển",
+      "Rặng dừa và chuối",
+      "Vườn cây nhiệt đới"
+    ],
+    "identificationVi": "Một vạch nâu sẫm chạy từ mũi qua mắt đến vai, dọc lưng có các vệt sẫm hình chữ W hoặc cánh cung.",
+    "behaviorVi": "Sống thành đàn có phân cấp xã hội trên cây, giao tiếp bằng những tiếng 'chíp chíp' nhỏ và có khả năng đổi độ đậm nhạt của da.",
+    "reproductionVi": "Sinh sản trinh sản (parthenogenesis): con cái tự đẻ 2 trứng dính chặt vào vỏ cây mỗi 4–6 tuần mà không cần giao phối.",
+    "threatsVi": [
+      "Không bị đe dọa nhờ khả năng phát tán và sinh sản vô tính cực mạnh"
+    ],
+    "funFactsVi": [
+      "Tên gọi 'Mourning gecko' (tắc kè tang lễ) xuất phát từ niềm tin xưa của các nhà tự nhiên học rằng con cái luôn 'để tang' người bạn đời không bao giờ tồn tại của mình."
+    ],
+    "similarSpecies": [
+      "Hemidactylus frenatus",
+      "Gehyra mutilata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng kính đứng kín khít 30×30×45 cm trồng cây thật, có thể nuôi theo đàn 3–5 con.",
+      "lightingVi": "Đèn LED trồng cây và UVB 2.0–5.0% ở nhiệt độ phòng 23–28°C.",
+      "feedingVi": "Bột ăn quả CGD (Pangea/Repashy) và ruồi giấm cánh cụt.",
+      "socialVi": "Sống hòa thuận theo đàn các cá thể cái cùng kích thước.",
+      "commonProblemsVi": [
+        "Cá thể non mới nở dài chỉ 2.5 cm rất dễ chui lọt qua khe cửa kính"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống cực kỳ phổ biến cho các hồ tiểu cảnh bán cạn và terrarium."
+    },
+    "products": [
+      {
+        "nameVi": "Thạch sùng trinh sản Lepidodactylus lugubris (Combo 2 cá thể)",
+        "priceVnd": 650000,
+        "descriptionVi": "Cá thể CB chuyên diệt côn trùng nhỏ trong hồ terrarium, ăn bột CGD tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lepidodactylus lugubris from Bulon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lepidodactylus_lugubris_from_Bulon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lepidodactylus_lugubris_from_Bulon.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Psumuseum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Surugekko kukassa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Surugekko_kukassa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Surugekko_kukassa.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "KaroliinaER",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lugubris-mirko.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lugubris-mirko.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Lugubris-mirko.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mirko ag",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Morning Gecko Lepidodactylus lugubris - Flickr - GregTheBusker.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Morning_Gecko_Lepidodactylus_lugubris_-_Flickr_-_GregTheBusker.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Morning_Gecko_Lepidodactylus_lugubris_-_Flickr_-_GregTheBusker.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mourning Gecko 2021.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mourning_Gecko_2021.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mourning_Gecko_2021.jpg",
+        "width": 4096,
+        "height": 2733,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Connor Long",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9164170",
+      "https://www.iucnredlist.org/species/172593/1348302",
+      "https://en.wikipedia.org/wiki/Lepidodactylus_lugubris",
+      "https://vi.wikipedia.org/wiki/Lepidodactylus_lugubris"
+    ]
+  },
+  {
+    "scientificName": "Tarentola mauritanica",
+    "commonNameVi": "Tắc kè tường Địa Trung Hải",
+    "commonNameEn": "Moorish gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Phyllodactylidae",
+      "genus": "Tarentola"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè ngón lá (Phyllodactylidae)",
+      "genus": "Chi Tarentola"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/248310890/210764472",
+    "gbifKey": 2445034,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 34,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vách đá khô, tường đá cổ và thân cây ô-liu quanh lưu vực Địa Trung Hải"
+    },
+    "descriptionVi": "Loài tắc kè vách đá cứng cáp đặc trưng của vùng Địa Trung Hải với lớp da dày phủ đầy những hàng u gai sần sùi hình chóp trên lưng và đuôi trông như một chú cá sấu thu nhỏ.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rất rộng khắp Bắc Phi và Nam Âu, thích nghi mạnh với các công trình đá của con người.",
+    "pullQuoteVi": "Lớp giáp gai sần sùi dọc sống lưng và chiếc đuôi khoang gai giúp chúng bám chặt vào những vách đá nắng gió vùng Địa Trung Hải.",
+    "dietVi": "Ăn côn trùng, bướm đêm, nhện và các loài chân khớp bám trên vách đá",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Vùng Andalusia, miền nam Tây Ban Nha",
+      "lat": 37.38,
+      "lng": -5.98
+    },
+    "regionVi": "Lưu vực Địa Trung Hải (Bắc Phi và Nam Âu)",
+    "otherNamesVi": [
+      "Tắc kè cá sấu Bắc Phi"
+    ],
+    "synonyms": [
+      "Ascalabotes mauritanicus",
+      "Ascalobotes mauritanicus",
+      "Gecko fascicularis",
+      "Gecko stellio"
+    ],
+    "wikidataId": "Q901720",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tarentola_mauritanica",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 16,
+      "weightGMin": 15,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể dẹp và rất khỏe"
+    },
+    "distribution": {
+      "countries": [
+        "ES",
+        "PT",
+        "FR",
+        "IT",
+        "GR",
+        "MA",
+        "DZ",
+        "TN",
+        "EG"
+      ],
+      "nativeRangeVi": "Nam Âu (Tây Ban Nha, Bồ Đào Nha, Pháp, Ý, Hy Lạp) và Bắc Phi (Morocco tới Ai Cập)",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Vách núi đá khô",
+      "Rừng cây sồi bần và ô-liu",
+      "Tường thành đá cổ"
+    ],
+    "identificationVi": "Thân dẹp màu xám đá đến nâu sẫm, lưng và đuôi có các hàng gai củ lớn nhô cao, chỉ ngón thứ 3 và thứ 4 có móng vuốt rõ.",
+    "behaviorVi": "Dù chủ yếu săn mồi về đêm nhưng thường ra phơi nắng trên vách đá ấm vào buổi sáng sớm, khi đó màu da chuyển sang nâu đen sẫm để hấp thụ nhiệt.",
+    "reproductionVi": "Đẻ 2 trứng vỏ cứng gần như tròn trong khe nứt vách đá, nở sau 60–90 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa nhờ khả năng thích nghi cao với cảnh quan đô thị cổ"
+    ],
+    "funFactsVi": [
+      "Tắc kè tường Địa Trung Hải có khả năng tự làm tối màu da đáng kể khi ra phơi nắng buổi sáng để tăng tốc độ hấp thụ bức xạ nhiệt."
+    ],
+    "similarSpecies": [
+      "Tarentola chazaliae",
+      "Mediodactylus kotschyi"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng đứng hoặc ngang 45×45×45 cm ốp vách đá giả và vỏ cây bần khô ráo.",
+      "lightingVi": "Đèn sưởi chiếu vào vách đá đạt 33°C kết hợp UVB 5.0%.",
+      "feedingVi": "Dế, gián Dubia và sâu bướm phủ canxi.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp trong chuồng nhiều khe đá ẩn nấp.",
+      "commonProblemsVi": [
+        "Nhiễm nấm da nếu chuồng quá ẩm ướt và thiếu thông gió"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Dễ nuôi và nhân giống, không thuộc danh mục hạn chế CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè tường cá sấu Tarentola mauritanica (CB 5 tháng)",
+        "priceVnd": 900000,
+        "descriptionVi": "Cá thể CB khỏe khoắn, gai lưng rõ nét, ăn côn trùng rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:003-Tarentola mauritanica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:003-Tarentola_mauritanica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/003-Tarentola_mauritanica.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Luis nunes alberto",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gecko in Lisbon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gecko_in_Lisbon.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gecko_in_Lisbon.JPG",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Salix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:25-08-2017 Moorish Geko, (Tarentola mauritanica), Albufeira (1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:25-08-2017_Moorish_Geko,_(Tarentola_mauritanica),_Albufeira_(1).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/25-08-2017_Moorish_Geko%2C_%28Tarentola_mauritanica%29%2C_Albufeira_%281%29.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Kolforn",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2011-09-03 Osga-moura.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2011-09-03_Osga-moura.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/2011-09-03_Osga-moura.JPG",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Mecanismo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gekkon murowy (Tarentola mauritanica).jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gekkon_murowy_(Tarentola_mauritanica).jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gekkon_murowy_%28Tarentola_mauritanica%29.jpeg",
+        "width": 4752,
+        "height": 3168,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Trekato",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2445034",
+      "https://www.iucnredlist.org/species/248310890/210764472",
+      "https://en.wikipedia.org/wiki/Tarentola_mauritanica"
+    ]
+  },
+  {
+    "scientificName": "Gonatodes albogularis",
+    "commonNameVi": "Tắc kè ngày đầu vàng Trung Mỹ",
+    "commonNameEn": "Yellow-headed gecko",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Sphaerodactylidae",
+      "genus": "Gonatodes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè ngón tròn (Sphaerodactylidae)",
+      "genus": "Chi Gonatodes"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/197487/217775948",
+    "gbifKey": 2447609,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới ẩm và rừng khô ven biển Trung Mỹ, Caribe và bắc Nam Mỹ"
+    },
+    "descriptionVi": "Loài tắc kè hoạt động ban ngày cỡ nhỏ thuộc họ Sphaerodactylidae có sự dị hình giới tính rõ rệt: con đực có thân màu đen nhung hoặc xanh lam đậm với toàn bộ phần đầu màu vàng cam rực rỡ.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp Trung Mỹ, vùng biển Caribe và miền bắc Nam Mỹ.",
+    "pullQuoteVi": "Sự tương phản giữa chiếc đầu vàng cam rực lửa và thân mình đen tuyền biến con đực thành một ngọn đuốc tí hon trên thân cây.",
+    "dietVi": "Ăn côn trùng nhỏ, kiến, mối và nhện nhỏ",
+    "lifespanVi": "6–9 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tỉnh Limón, Costa Rica",
+      "lat": 9.99,
+      "lng": -83.03
+    },
+    "regionVi": "Trung Mỹ, Caribe và Bắc Nam Mỹ",
+    "otherNamesVi": [
+      "Tắc kè lùn đầu vàng cổ trắng"
+    ],
+    "synonyms": [
+      "Gonatodes bodinii",
+      "Gymnodactylus albogularis",
+      "Gymnodactylus maculatus",
+      "Gymnodactylus notatus"
+    ],
+    "wikidataId": "Q2708095",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-headed_gecko",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 9,
+      "weightGMin": 2,
+      "weightGMax": 4,
+      "heightCmMax": null,
+      "noteVi": "Ngón chân mảnh có móng vuốt, không có giác bám phình rộng"
+    },
+    "distribution": {
+      "countries": [
+        "CR",
+        "PA",
+        "NI",
+        "HN",
+        "GT",
+        "CO",
+        "VE",
+        "CU",
+        "JM"
+      ],
+      "nativeRangeVi": "Từ nam Mexico qua Trung Mỹ, Cuba, Jamaica tới Colombia và Venezuela",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa đất thấp",
+      "Rừng khô nhiệt đới",
+      "Gốc cây lớn và đống gỗ mục"
+    ],
+    "identificationVi": "Con đực đầu vàng cam tươi, thân đen xám, chóp đuôi trắng; con cái màu nâu xám đốm lốm đốm có cổ họng trắng.",
+    "behaviorVi": "Kiếm ăn ban ngày ở phần gốc các thân cây lớn, không leo lên mặt kính trơn được vì ngón chân không có giác bám rộng.",
+    "reproductionVi": "Mỗi lần chỉ đẻ 1 trứng duy nhất có vỏ cứng trong khe vỏ cây hoặc hốc gỗ mục, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa trên toàn vùng phân bố rộng"
+    ],
+    "funFactsVi": [
+      "Khác với đa số các họ tắc kè đẻ 2 trứng mỗi lứa, tất cả các loài thuộc họ Sphaerodactylidae chỉ đẻ đúng 1 quả trứng mỗi lần."
+    ],
+    "similarSpecies": [
+      "Gonatodes vittatus",
+      "Lygodactylus kimhowelli"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng kính 30×30×45 cm ốp vỏ cây nhám để tắc kè leo trèo dễ dàng.",
+      "lightingVi": "Đèn UVB 5.0% và đèn chiếu sáng tạo điểm ấm 30–32°C.",
+      "feedingVi": "Ruồi giấm Drosophila, dế kim và bọ nhảy springtail.",
+      "socialVi": "Nuôi theo cặp 1 đực 1 cái, không nhốt hai con đực cùng chuồng.",
+      "commonProblemsVi": [
+        "Khó leo trèo nếu chuồng chỉ có vách kính trơn mà thiếu cành gỗ và vỏ bần"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp trong giới chơi hồ tiểu cảnh nhiệt đới."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè ngày đầu vàng Gonatodes albogularis (Cặp đực cái CB)",
+        "priceVnd": 2600000,
+        "descriptionVi": "Cặp cá thể CB trưởng thành, con đực đã lên đầu vàng cam và thân đen nhung."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Flickr - ggallice - Gecko (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Gecko_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flickr_-_ggallice_-_Gecko_%281%29.jpg",
+        "width": 4424,
+        "height": 2212,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Yellow-headed Gecko (Gonadotes albogularis) (9356558478).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yellow-headed_Gecko_(Gonadotes_albogularis)_(9356558478).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Yellow-headed_Gecko_%28Gonadotes_albogularis%29_%289356558478%29.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flickr - ggallice - Gecko (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Gecko_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Flickr_-_ggallice_-_Gecko_%282%29.jpg",
+        "width": 3924,
+        "height": 2616,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Panamanian yellow-headed gecko (Gonatodes albogularis fuscus) male.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panamanian_yellow-headed_gecko_(Gonatodes_albogularis_fuscus)_male.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Panamanian_yellow-headed_gecko_%28Gonatodes_albogularis_fuscus%29_male.jpg",
+        "width": 4000,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lagarto - Flickr - Alejandro Bayer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagarto_-_Flickr_-_Alejandro_Bayer.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lagarto_-_Flickr_-_Alejandro_Bayer.jpg",
+        "width": 2711,
+        "height": 3310,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Alejandro Bayer Tamayo from Armenia, Colombia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2447609",
+      "https://www.iucnredlist.org/species/197487/217775948",
+      "https://en.wikipedia.org/wiki/Yellow-headed_gecko"
+    ]
+  },
+  {
+    "scientificName": "Chamaeleo calyptratus",
+    "commonNameVi": "Tắc kè hoa mũ Yemen",
+    "commonNameEn": "Veiled chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Chamaeleo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Chamaeleo"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176306/1437838",
+    "gbifKey": 2449133,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 33,
+      "baskMax": 36,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn núi cao nguyên, thung lũng xanh (wadi) và bụi cây keo tại Yemen và Ả Rập Xê Út"
+    },
+    "descriptionVi": "Loài tắc kè hoa phổ biến nhất thế giới, dễ nhận diện nhờ chiếc mũ xương cao vút trên đỉnh đầu (đặc biệt ở con đực), thân dẹp bên màu xanh ngọc điểm các dải khoang vàng, cam và xanh lam.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) nhờ phân bố rộng ở vùng cao nguyên tây nam bán đảo Ả Rập với quần thể ổn định.",
+    "pullQuoteVi": "Chiếc mũ cao tới 8 cm trên đỉnh đầu không chỉ để phô trương thanh thế mà còn giúp thu gom sương sớm chảy xuống khóe miệng.",
+    "dietVi": "Ăn côn trùng sống (dế, châu chấu, gián) kết hợp một lượng nhỏ lá cây xanh và hoa",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Cao nguyên Ibb, tây nam Yemen",
+      "lat": 13.97,
+      "lng": 44.18
+    },
+    "regionVi": "Tây Nam bán đảo Ả Rập (Yemen và Ả Rập Xê Út)",
+    "otherNamesVi": [
+      "Tắc kè hoa mạng che"
+    ],
+    "synonyms": [
+      "Chamaeleo calcaratus",
+      "Chamaeleo calcarifer"
+    ],
+    "wikidataId": "Q1124882",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%E1%BA%AFc_k%C3%A8_hoa_%C4%91eo_m%E1%BA%A1ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Veiled_chameleon",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 60,
+      "weightGMin": 100,
+      "weightGMax": 220,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn nhiều và có một cựa nhỏ ở mặt sau gót chân sau"
+    },
+    "distribution": {
+      "countries": [
+        "YE",
+        "SA"
+      ],
+      "nativeRangeVi": "Vùng núi và cao nguyên tây Yemen và tây nam Ả Rập Xê Út",
+      "elevationM": {
+        "min": 1200,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": [
+      "Thung lũng cây xanh vùng núi (wadi)",
+      "Rừng cây keo trên cao nguyên khô"
+    ],
+    "identificationVi": "Mũ đỉnh đầu (casque) nhô rất cao, hàng gai nhỏ chạy dọc cằm và sống lưng, chân kẹp đôi và đuôi cuộn tròn như lò xo.",
+    "behaviorVi": "Đôi mắt hình nón có thể xoay độc lập 360 độ để ngắm mồi trước khi phóng chiếc lưỡi dài hơn cả thân mình với tốc độ chớp nhoáng.",
+    "reproductionVi": "Con cái đẻ 25–50 trứng mỗi lứa trong hố đất cát ẩm sâu 15–20 cm, thời gian ấp kéo dài 150–200 ngày.",
+    "threatsVi": [
+      "Thu hẹp cây bụi tự nhiên cục bộ"
+    ],
+    "funFactsVi": [
+      "Khác với hầu hết các loài tắc kè hoa khác chỉ ăn động vật, tắc kè hoa mũ Yemen thường xuyên ăn thêm lá non và nụ hoa để bổ sung nước và chất xơ."
+    ],
+    "similarSpecies": [
+      "Chamaeleo chamaeleon",
+      "Chamaeleo arabicus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng lưới thông thoáng đứng kích thước tối thiểu 60×60×120 cm trồng cây trầu bà hoặc sanh si không độc.",
+      "lightingVi": "Bắt buộc đèn UVB 5.0–10.0% dạng ống T5 và đèn sưởi tạo điểm nắng 34–36°C.",
+      "feedingVi": "Gián Dubia, dế, sâu tằm phủ canxi và vitamin; lắp hệ thống nhỏ giọt nước trên lá cây.",
+      "socialVi": "Bắt buộc nuôi đơn độc từng cá thể do tính bảo vệ lãnh thổ cực kỳ gay gắt.",
+      "commonProblemsVi": [
+        "Bệnh xương chuyển hóa (MBD) do thiếu UVB",
+        "Tắc trứng ở con cái nếu thiếu thùng cát ẩm để đào ổ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, nhân giống CB rất phổ biến tại Việt Nam và quốc tế."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa mũ Yemen đực (CB 4 tháng tuổi)",
+        "priceVnd": 1600000,
+        "descriptionVi": "Cá thể đực có cựa gót chân rõ, mũ đầu đang phát triển cao, ăn dế và gián tốt."
+      },
+      {
+        "nameVi": "Tắc kè hoa mũ Yemen Translucent (Piebald 5 tháng)",
+        "priceVnd": 2600000,
+        "descriptionVi": "Dòng đột biến mảng trắng hồng kết hợp xanh ngọc, nhân giống CB khỏe mạnh."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2017-03-30 AT Wien 22 Donaustadt, Palmenhaus Hirschstetten, Chamaeleo calyptratus (51703709682).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2017-03-30_AT_Wien_22_Donaustadt,_Palmenhaus_Hirschstetten,_Chamaeleo_calyptratus_(51703709682).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/2017-03-30_AT_Wien_22_Donaustadt%2C_Palmenhaus_Hirschstetten%2C_Chamaeleo_calyptratus_%2851703709682%29.jpg",
+        "width": 5073,
+        "height": 3392,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Paul Korecky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blumengärten Hirschstetten 2016-02-21 Jemenchamäleon (Chamaeleo calyptratus) b.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blumeng%C3%A4rten_Hirschstetten_2016-02-21_Jemencham%C3%A4leon_(Chamaeleo_calyptratus)_b.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Blumeng%C3%A4rten_Hirschstetten_2016-02-21_Jemencham%C3%A4leon_%28Chamaeleo_calyptratus%29_b.jpg",
+        "width": 3400,
+        "height": 5100,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Manfred Werner - Tsui",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chamaeleo calyptratus (molt).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleo_calyptratus_(molt).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chamaeleo_calyptratus_%28molt%29.JPG",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "O",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chamaeleo calyptratus 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleo_calyptratus_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Chamaeleo_calyptratus_03.jpg",
+        "width": 5478,
+        "height": 3652,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Σ64",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chamaeleo calyptratus Esapolis 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleo_calyptratus_Esapolis_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chamaeleo_calyptratus_Esapolis_01.jpg",
+        "width": 4103,
+        "height": 3077,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2449133",
+      "https://www.iucnredlist.org/species/176306/1437838",
+      "https://en.wikipedia.org/wiki/Veiled_chameleon",
+      "https://vi.wikipedia.org/wiki/T%E1%BA%AFc_k%C3%A8_hoa_%C4%91eo_m%E1%BA%A1ng"
+    ]
+  },
+  {
+    "scientificName": "Furcifer pardalis",
+    "commonNameVi": "Tắc kè hoa báo",
+    "commonNameEn": "Panther chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Furcifer"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Furcifer"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172955/6947909",
+    "gbifKey": 5221988,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới ẩm ven biển và đảo nhỏ miền bắc và đông Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè hoa rực rỡ nhất hành tinh, nổi tiếng vì mỗi vùng địa lý ở Madagascar lại sản sinh ra những cá thể đực mang bảng màu hoàn toàn khác biệt từ xanh ngọc lam, đỏ lửa, cam vàng tới cầu vồng.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng ở vùng ven biển phía bắc và phía đông Madagascar và thích nghi tốt với rừng thứ sinh.",
+    "pullQuoteVi": "Mỗi hòn đảo và thung lũng ở bắc Madagascar lại sở hữu một 'bộ tộc màu sắc' riêng biệt nhờ lớp tinh thể quang tử nano dưới da.",
+    "dietVi": "Ăn côn trùng: gián, dế, châu chấu, sâu tằm và bọ ngựa",
+    "lifespanVi": "5–7 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Ambilobe, miền bắc Madagascar",
+      "lat": -13.2,
+      "lng": 49.05
+    },
+    "regionVi": "Bắc và Đông Madagascar",
+    "otherNamesVi": [
+      "Tắc kè hoa cầu vồng Madagascar"
+    ],
+    "synonyms": [
+      "Chamaeleo ater",
+      "Chamaeleo guentheri",
+      "Chamaeleo pardalis",
+      "Chamaeleon axillaris"
+    ],
+    "wikidataId": "Q838578",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Furcifer_pardalis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Panther_chameleon",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 52,
+      "weightGMin": 120,
+      "weightGMax": 200,
+      "heightCmMax": null,
+      "noteVi": "Con cái nhỏ hơn nhiều (25–33 cm) và có màu hồng đào hoặc cam đất"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Duyên hải miền bắc, tây bắc và đông bắc Madagascar cùng các đảo Nosy Be, Nosy Boraha",
+      "elevationM": {
+        "min": 0,
+        "max": 950
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng ẩm ven biển",
+      "Bìa rừng thứ sinh và đồn điền cây ăn quả"
+    ],
+    "identificationVi": "Mũ đầu thấp làm thành gờ phẳng kéo về phía mõm tạo gờ mũi hơi nhô, một dải sọc sáng chạy dọc hai bên hông cắt ngang các vằn đứng.",
+    "behaviorVi": "Thay đổi màu sắc chỉ trong vài chục giây bằng cách điều chỉnh khoảng cách giữa các tinh thể guanine trong tế bào iridophore dưới da.",
+    "reproductionVi": "Con cái đẻ 15–35 trứng trong hố đất ẩm; con cái chuyển sang màu đen sẫm điểm vạch cam chói để báo hiệu từ chối giao phối khi đã mang thai.",
+    "threatsVi": [
+      "Thu bắt chọn lọc các dòng địa phương hiếm ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Nghiên cứu năm 2015 của Đại học Geneva chứng minh tắc kè hoa báo đổi màu không chỉ bằng sắc tố mà bằng cách co giãn mạng lưới tinh thể nano phản xạ ánh sáng dưới da."
+    ],
+    "similarSpecies": [
+      "Furcifer oustaleti",
+      "Furcifer verrucosus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới đứng 60×60×120 cm nhiều cành leo ngang chéo và cây thật giữ ẩm.",
+      "lightingVi": "Đèn ống T5 UVB 5.0% và đèn sưởi chiếu điểm 32°C.",
+      "feedingVi": "Gián Dubia, dế, sâu tằm kèm hệ thống phun sương tự động 3–4 lần/ngày.",
+      "socialVi": "Nuôi đơn độc hoàn toàn, che vách giữa các chuồng để tránh cá thể đực nhìn thấy nhau gây stress.",
+      "commonProblemsVi": [
+        "Mất nước dẫn đến mắt trũng sâu",
+        "Thiếu vitamin A gây viêm mắt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, các dòng địa phương (Ambilobe, Nosy Be, Sambava) đều được nhân giống CB phổ biến."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa báo Ambilobe Blue Bar (Đực CB 5 tháng)",
+        "priceVnd": 6800000,
+        "descriptionVi": "Dòng Ambilobe nền đỏ vàng vằn xanh lam đang trổ màu cực đẹp."
+      },
+      {
+        "nameVi": "Tắc kè hoa báo Nosy Be True Blue (Đực CB 6 tháng)",
+        "priceVnd": 7500000,
+        "descriptionVi": "Dòng đảo Nosy Be toàn thân xanh ngọc lam thuần khiết."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cameleón pantera (Furcifer pardalis), Parque Nacional de Lokobe, Nosy Be, Madagascar, 2025-09-21, DD 19.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Camele%C3%B3n_pantera_(Furcifer_pardalis),_Parque_Nacional_de_Lokobe,_Nosy_Be,_Madagascar,_2025-09-21,_DD_19.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Camele%C3%B3n_pantera_%28Furcifer_pardalis%29%2C_Parque_Nacional_de_Lokobe%2C_Nosy_Be%2C_Madagascar%2C_2025-09-21%2C_DD_19.jpg",
+        "width": 7035,
+        "height": 4690,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Caméléon - Faune et flore de l'île de La Réunion.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cam%C3%A9l%C3%A9on_-_Faune_et_flore_de_l%27%C3%AEle_de_La_R%C3%A9union.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cam%C3%A9l%C3%A9on_-_Faune_et_flore_de_l%27%C3%AEle_de_La_R%C3%A9union.jpg",
+        "width": 3671,
+        "height": 5499,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexandre Péribé",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cameleon 2597a.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cameleon_2597a.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cameleon_2597a.JPG",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Yves Picq",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cameleon, peyrieras 17.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cameleon,_peyrieras_17.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Cameleon%2C_peyrieras_17.JPG",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Caméléon femelle - Faune et flore de l'île de La Réunion.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cam%C3%A9l%C3%A9on_femelle_-_Faune_et_flore_de_l%27%C3%AEle_de_La_R%C3%A9union.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cam%C3%A9l%C3%A9on_femelle_-_Faune_et_flore_de_l%27%C3%AEle_de_La_R%C3%A9union.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexandre Péribé",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5221988",
+      "https://www.iucnredlist.org/species/172955/6947909",
+      "https://en.wikipedia.org/wiki/Panther_chameleon",
+      "https://vi.wikipedia.org/wiki/Furcifer_pardalis"
+    ]
+  },
+  {
+    "scientificName": "Furcifer oustaleti",
+    "commonNameVi": "Tắc kè hoa khổng lồ Oustalet",
+    "commonNameEn": "Oustalet's chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Furcifer"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Furcifer"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172866/6932058",
+    "gbifKey": 5221973,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Savan cây gỗ, rừng khô và bìa rừng trên khắp đảo Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè hoa có chiều dài cơ thể lớn nhất thế giới (đạt tới gần 70 cm), sở hữu chiếc mũ hộp sọ tròn rộng màu nâu đồng, xám rêu và các đốm tròn lớn dọc bên sườn.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố khắp mọi vùng sinh thái của Madagascar trừ các đỉnh núi cao nhất.",
+    "pullQuoteVi": "Với chiều dài gần 70 cm và chiếc lưỡi có thể phóng xa hơn nửa mét, chúng đủ sức săn cả chim nhỏ và thằn lằn khác.",
+    "dietVi": "Ăn thịt và tạp: côn trùng lớn, châu chấu, thằn lằn nhỏ, chim non và một số quả rừng",
+    "lifespanVi": "7–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Mahajanga, tây bắc Madagascar",
+      "lat": -15.72,
+      "lng": 46.32
+    },
+    "regionVi": "Madagascar",
+    "otherNamesVi": [
+      "Tắc kè hoa lớn Madagascar"
+    ],
+    "synonyms": [
+      "Chamaeleo oustaleti",
+      "Chamaeleon oustaleti"
+    ],
+    "wikidataId": "Q135629",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Furcifer_oustaleti",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Malagasy_giant_chameleon",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 68,
+      "weightGMin": 250,
+      "weightGMax": 500,
+      "heightCmMax": null,
+      "noteVi": "Loài tắc kè hoa dài nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Hầu khắp đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": [
+      "Savan cây bụi",
+      "Rừng khô rụng lá",
+      "Vườn cây ngoại ô"
+    ],
+    "identificationVi": "Kích thước khổng lồ, mũ đầu hình bán nguyệt dựng nghiêng về sau, hàng gai lưng đều đặn, màu nâu đất pha xanh ô-liu và trắng.",
+    "behaviorVi": "Di chuyển chậm rãi, điềm tĩnh hơn nhiều loài tắc kè hoa khác; lực kẹp của bàn chân và lực phóng lưỡi rất mạnh.",
+    "reproductionVi": "Đẻ 30–60 trứng mỗi lứa trong hố đất sâu, thời gian ấp 220–260 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa do khả năng thích nghi cao với sinh cảnh biến đổi"
+    ],
+    "funFactsVi": [
+      "Dù dài nhất thế giới tính cả đuôi, Furcifer oustaleti vẫn nhẹ cân hơn một chút so với loài tắc kè hoa Parson (Calumma parsonii) có thân mình đẫy đà hơn."
+    ],
+    "similarSpecies": [
+      "Furcifer verrucosus",
+      "Calumma parsonii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới cực lớn tối thiểu 90×60×150 cm với các cành cây gỗ to chắc chắn.",
+      "lightingVi": "Đèn UVB 5.0–10.0% công suất lớn và đèn sưởi tạo điểm nắng 34°C.",
+      "feedingVi": "Châu chấu lớn, gián Dubia trưởng thành, sâu tằm và dế lớn.",
+      "socialVi": "Chỉ nuôi đơn độc mỗi chuồng một cá thể.",
+      "commonProblemsVi": [
+        "Lỏng khớp chân nếu cành leo trong chuồng quá nhỏ so với bàn chân"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa khổng lồ Furcifer oustaleti (CB 5 tháng tuổi)",
+        "priceVnd": 5900000,
+        "descriptionVi": "Cá thể CB khung xương to khỏe, tính tình điềm đạm, ăn gián Dubia rất sung."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chamaeleon Ankarana MS6264.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleon_Ankarana_MS6264.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Chamaeleon_Ankarana_MS6264.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Marco Schmidt [1]",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Furcifer oustaleti (22194232715).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Furcifer_oustaleti_(22194232715).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Furcifer_oustaleti_%2822194232715%29.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Furcifer oustaleti (male), Lake Ravelobe, Madagascar (4308957321).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Furcifer_oustaleti_(male),_Lake_Ravelobe,_Madagascar_(4308957321).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Furcifer_oustaleti_%28male%29%2C_Lake_Ravelobe%2C_Madagascar_%284308957321%29.jpg",
+        "width": 1701,
+        "height": 1276,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cameleon, peyrieras 07.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cameleon,_peyrieras_07.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cameleon%2C_peyrieras_07.JPG",
+        "width": 3738,
+        "height": 2495,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Furcifer oustaleti - male.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Furcifer_oustaleti_-_male.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Furcifer_oustaleti_-_male.JPG",
+        "width": 2869,
+        "height": 2062,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Drägüs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5221973",
+      "https://www.iucnredlist.org/species/172866/6932058",
+      "https://en.wikipedia.org/wiki/Malagasy_giant_chameleon",
+      "https://vi.wikipedia.org/wiki/Furcifer_oustaleti"
+    ]
+  },
+  {
+    "scientificName": "Furcifer lateralis",
+    "commonNameVi": "Tắc kè hoa thảm",
+    "commonNameEn": "Carpet chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Furcifer"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Furcifer"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/42696174/42695999",
+    "gbifKey": 5221969,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cao nguyên trung tâm và vùng cây bụi ẩm tại Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè hoa cỡ nhỏ nổi tiếng với hoa văn phức tạp và rực rỡ như một tấm thảm dệt Ba Tư, đặc biệt là ở con cái đang mang trứng với các đốm tròn cam, vàng, đen và xanh ngọc.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng trên vùng cao nguyên trung tâm và miền đông Madagascar.",
+    "pullQuoteVi": "Ngược lại với phần lớn giới động vật, chính những con cái đang mang trứng mới là chủ nhân của bộ hoa văn thảm thêu lộng lẫy nhất.",
+    "dietVi": "Ăn côn trùng nhỏ: ruồi, dế nhỏ, châu chấu non và bướm nhỏ",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Cao nguyên Antananarivo, trung tâm Madagascar",
+      "lat": -18.88,
+      "lng": 47.51
+    },
+    "regionVi": "Trung và Đông Madagascar",
+    "otherNamesVi": [
+      "Tắc kè hoa thổ cẩm Madagascar"
+    ],
+    "synonyms": [
+      "Chamaeleo lambertoni",
+      "Chamaeleo lateralis"
+    ],
+    "wikidataId": "Q115602",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Furcifer_lateralis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Carpet_chameleon",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 23,
+      "weightGMin": 20,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Thuộc nhóm tắc kè hoa kích thước nhỏ gọn"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Khắp cao nguyên trung tâm và sườn đông Madagascar",
+      "elevationM": {
+        "min": 500,
+        "max": 1900
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cây bụi vùng cao nguyên",
+      "Bìa rừng ẩm và vườn cây"
+    ],
+    "identificationVi": "Mũ đầu thấp, một sọc trắng chạy dọc giữa hông kèm hai hoặc ba đốm hình bầu dục viền mảnh trên thân.",
+    "behaviorVi": "Thích nghi với khí hậu mát mẻ của vùng cao nguyên có biên độ nhiệt ngày và đêm chênh lệch rõ rệt.",
+    "reproductionVi": "Trưởng thành sớm và đẻ 8–18 trứng mỗi lứa trong đất ẩm.",
+    "threatsVi": [
+      "Thu bắt tự nhiên phục vụ thị trường thú cảnh"
+    ],
+    "funFactsVi": [
+      "Tên gọi 'Carpet chameleon' bắt nguồn từ những mảng hoa văn đối xứng nhiều tầng màu sắc trên sườn con cái giống hệt họa tiết thảm dệt phương Đông."
+    ],
+    "similarSpecies": [
+      "Furcifer campani",
+      "Furcifer minor"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới đứng 45×45×90 cm trồng cây rậm rạp đặt trong phòng mát.",
+      "lightingVi": "Đèn UVB 5.0% và đèn sưởi nhẹ đạt 29°C; ban đêm hạ nhiệt xuống 16–20°C.",
+      "feedingVi": "Dế nhỏ, gián nhỏ và ruồi phủ khoáng canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Suy kiệt nếu nhiệt độ ban đêm quá nóng trên 24°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, nhân giống CB chuyên biệt."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa thảm Furcifer lateralis (CB 4 tháng tuổi)",
+        "priceVnd": 5200000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, hoa văn sườn sắc nét."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Furcifer lateralis (15720845659).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Furcifer_lateralis_(15720845659).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Furcifer_lateralis_%2815720845659%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Carpet Chameleon (Furcifer lateralis) (10292845744).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carpet_Chameleon_(Furcifer_lateralis)_(10292845744).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Carpet_Chameleon_%28Furcifer_lateralis%29_%2810292845744%29.jpg",
+        "width": 3239,
+        "height": 2123,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Furcifer lateralis (Peyrieras Reserve).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Furcifer_lateralis_(Peyrieras_Reserve).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Furcifer_lateralis_%28Peyrieras_Reserve%29.jpg",
+        "width": 2978,
+        "height": 1986,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Andrea Schieber from München, Deutschland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:F. lateralis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:F._lateralis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/F._lateralis.jpg",
+        "width": 4683,
+        "height": 2587,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "dododotzler",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Carpet Chameleon (Furcifer lateralis) female (7636716522).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carpet_Chameleon_(Furcifer_lateralis)_female_(7636716522).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Carpet_Chameleon_%28Furcifer_lateralis%29_female_%287636716522%29.jpg",
+        "width": 3336,
+        "height": 2248,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5221969",
+      "https://www.iucnredlist.org/species/42696174/42695999",
+      "https://en.wikipedia.org/wiki/Carpet_chameleon",
+      "https://vi.wikipedia.org/wiki/Furcifer_lateralis"
+    ]
+  },
+  {
+    "scientificName": "Trioceros jacksonii",
+    "commonNameVi": "Tắc kè hoa ba sừng Jackson",
+    "commonNameEn": "Jackson's chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Trioceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Trioceros"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172531/109922526",
+    "gbifKey": 8371864,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ẩm vùng núi cao mát mẻ tại Kenya và miền bắc Tanzania"
+    },
+    "descriptionVi": "Loài tắc kè hoa nổi tiếng với ba chiếc sừng thật có lõi xương nhô thẳng ra phía trước trên trán và mõm của con đực trưởng thành, gợi nhớ trực tiếp đến loài khủng long ba sừng Triceratops.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do quần thể đông đảo tại các vùng núi cao ở Kenya và Tanzania.",
+    "pullQuoteVi": "Ba chiếc sừng nhọn hoắt vươn dài phía trước mặt giúp các con đực húc và khóa sừng nhau trong những cuộc đấu giành lãnh thổ trên cành cây.",
+    "dietVi": "Ăn côn trùng nhỏ: dế, gián, ruồi, ốc sên nhỏ và sâu tằm",
+    "lifespanVi": "6–9 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Sườn núi Kenya, miền trung Kenya",
+      "lat": -0.15,
+      "lng": 37.3
+    },
+    "regionVi": "Cao nguyên Đông Phi (Kenya và Tanzania)",
+    "otherNamesVi": [
+      "Tắc kè hoa khủng long ba sừng"
+    ],
+    "synonyms": [
+      "Chamaeleo jacksonii",
+      "Chamaeleo jacksonii merumontana",
+      "Chamaeleo jacksonii xantholophus",
+      "Chamaeleon jacksonii"
+    ],
+    "wikidataId": "Q18599624",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trioceros_jacksonii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Jackson%27s_chameleon",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 65,
+      "weightGMax": 130,
+      "heightCmMax": null,
+      "noteVi": "Con đực có 3 sừng dài, con cái thường không có sừng hoặc chỉ có mấu nhỏ ở mũi"
+    },
+    "distribution": {
+      "countries": [
+        "KE",
+        "TZ"
+      ],
+      "nativeRangeVi": "Các vùng núi cao miền trung Kenya và miền bắc Tanzania (Núi Meru)",
+      "elevationM": {
+        "min": 1600,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa vùng núi cao",
+      "Vườn cây cà phê và chè vùng cao nguyên"
+    ],
+    "identificationVi": "Thân màu xanh lá cây tươi sáng, vảy lưng hình nón thô, con đực có 1 sừng mũi và 2 sừng trước mắt dài cong nhẹ.",
+    "behaviorVi": "Hiền lành với người nhưng các con đực sẽ dùng 3 chiếc sừng để đấu đẩy nhau khỏi cành cây khi chạm trán.",
+    "reproductionVi": "Đẻ con (noãn thai sinh): trứng được giữ trong bụng mẹ suốt 5–7 tháng và nở thành 10–30 con non biết tự leo trèo ngay khi vừa chào đời.",
+    "threatsVi": [
+      "Thu hẹp rừng núi tự nhiên cục bộ"
+    ],
+    "funFactsVi": [
+      "Nhờ phương thức đẻ con trực tiếp (ovoviviparity), con cái giúp phôi thai luôn được sưởi ấm khi mẹ tắm nắng trên các đỉnh núi lạnh giá ở Đông Phi."
+    ],
+    "similarSpecies": [
+      "Trioceros johnstoni",
+      "Trioceros quadricornis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới đứng 60×60×120 cm đặt trong phòng mát có chênh lệch nhiệt ngày đêm.",
+      "lightingVi": "Đèn UVB 5.0% và đèn sưởi nhẹ đạt 28–29°C; ban đêm cần hạ nhiệt xuống 15–19°C.",
+      "feedingVi": "Dế, gián nhỏ, sâu tằm và phun sương nhiều lần trong ngày.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Không chịu được nhiệt độ nóng trên 30°C kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, sinh sản nhân tạo phổ biến."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa ba sừng Trioceros jacksonii (Đực CB 5 tháng)",
+        "priceVnd": 4800000,
+        "descriptionVi": "Cá thể đực đã nhú đều 3 sừng cân đối, màu xanh lá ngọc tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Three-horned Chameleon (in explore) - Flickr - Rod Waddington.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Three-horned_Chameleon_(in_explore)_-_Flickr_-_Rod_Waddington.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Three-horned_Chameleon_%28in_explore%29_-_Flickr_-_Rod_Waddington.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rod Waddington from Kergunyah, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Camouflaged an.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Camouflaged_an.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Camouflaged_an.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maneno Charles",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Caméléon de Jackson-Musée zoologique de Strasbourg-2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cam%C3%A9l%C3%A9on_de_Jackson-Mus%C3%A9e_zoologique_de_Strasbourg-2025.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cam%C3%A9l%C3%A9on_de_Jackson-Mus%C3%A9e_zoologique_de_Strasbourg-2025.jpg",
+        "width": 1680,
+        "height": 2670,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ji-Elle",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Trioceros jacksonii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_jacksonii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Trioceros_jacksonii.jpg",
+        "width": 3000,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexandre Prevot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Horned chameleon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Horned_chameleon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Horned_chameleon.jpg",
+        "width": 1664,
+        "height": 2960,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gasperkamau",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8371864",
+      "https://www.iucnredlist.org/species/172531/109922526",
+      "https://en.wikipedia.org/wiki/Jackson%27s_chameleon",
+      "https://vi.wikipedia.org/wiki/Trioceros_jacksonii"
+    ]
+  },
+  {
+    "scientificName": "Trioceros melleri",
+    "commonNameVi": "Tắc kè hoa một sừng Meller",
+    "commonNameEn": "Meller's chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Trioceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Trioceros"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172576/1346077",
+    "gbifKey": 7858801,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Savan cây gỗ thưa và rừng miombo tại Đông Phi (Tanzania, Malawi, Mozambique)"
+    },
+    "descriptionVi": "Loài tắc kè hoa lớn nhất lục địa châu Phi đại lục (ngoài Madagascar), nổi bật với một chiếc sừng nhỏ ở chóp mũi, hai thùy da lớn phía sau đầu như tai voi và hàng vây lưng nhấp nhô.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng trên vùng savan rừng thưa ở Tanzania, Malawi và bắc Mozambique.",
+    "pullQuoteVi": "Khi bị kích thích, chúng xòe rộng hai thùy da sau sọ trông như đôi tai voi và chuyển toàn thân sang những vằn đen vàng trắng kịch tính.",
+    "dietVi": "Ăn côn trùng lớn, châu chấu, bọ ngựa và đôi khi cả thằn lằn nhỏ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Morogoro, miền đông Tanzania",
+      "lat": -6.82,
+      "lng": 37.66
+    },
+    "regionVi": "Đông và Đông Nam Phi",
+    "otherNamesVi": [
+      "Tắc kè hoa tai voi khổng lồ"
+    ],
+    "synonyms": [
+      "Chamaeleo melleri",
+      "Ensirostris melleri"
+    ],
+    "wikidataId": "Q964868",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trioceros_melleri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Meller%27s_chameleon",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 60,
+      "weightGMin": 300,
+      "weightGMax": 500,
+      "heightCmMax": null,
+      "noteVi": "Lớn nhất trong các loài tắc kè hoa ở lục địa châu Phi"
+    },
+    "distribution": {
+      "countries": [
+        "TZ",
+        "MW",
+        "MZ"
+      ],
+      "nativeRangeVi": "Tanzania, Malawi và miền bắc Mozambique",
+      "elevationM": {
+        "min": 200,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thưa miombo",
+      "Savan cây gỗ cao"
+    ],
+    "identificationVi": "Mõm có một sừng nhỏ nhô lên, hai thùy chẩm lớn như tai, dọc sống lưng và gốc đuôi có diềm vây hình lượn sóng, thân xanh lá sọc vàng trắng.",
+    "behaviorVi": "Thường sống ở tầng tán cao của các cây gỗ lớn, vẫy hai thùy chẩm sau đầu để giao tiếp và thị uy.",
+    "reproductionVi": "Đẻ 35–70 trứng mỗi lứa trong hố đất ẩm, thời gian ấp 130–160 ngày.",
+    "threatsVi": [
+      "Cháy rừng savan và khai thác thương mại cục bộ"
+    ],
+    "funFactsVi": [
+      "Cả con đực và con cái của Trioceros melleri đều có chiếc sừng mũi và hai thùy tai chẩm phát triển như nhau, rất khó phân biệt giới tính bằng mắt thường."
+    ],
+    "similarSpecies": [
+      "Furcifer oustaleti",
+      "Calumma parsonii"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới rất lớn tối thiểu 90×90×180 cm hoặc góc phòng trồng cây xanh lớn.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi chiếu điểm 32°C.",
+      "feedingVi": "Châu chấu, gián Dubia lớn, sâu tằm và hệ thống phun mưa dài.",
+      "socialVi": "Nuôi đơn độc trong không gian lớn yên tĩnh.",
+      "commonProblemsVi": [
+        "Stress bỏ ăn nếu chuồng quá chật hoặc đặt nơi nhiều người qua lại"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa một sừng Trioceros melleri (CB 6 tháng tuổi)",
+        "priceVnd": 7800000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, sừng mũi và hai thùy chẩm phát triển cân đối."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chamaeleon - Bristol Zoo (4323204522).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chamaeleon_-_Bristol_Zoo_(4323204522).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chamaeleon_-_Bristol_Zoo_%284323204522%29.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Airwolfhound from Hertfordshire, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Trioceros melleri 15147437.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_melleri_15147437.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Trioceros_melleri_15147437.jpg",
+        "width": 1799,
+        "height": 1173,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Simon Tonge",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Trioceros melleri 103864119.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_melleri_103864119.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Trioceros_melleri_103864119.jpg",
+        "width": 2048,
+        "height": 1150,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "John Lyakurwa",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mellers.chameleon.bristol.zoo.arp.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mellers.chameleon.bristol.zoo.arp.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mellers.chameleon.bristol.zoo.arp.jpg",
+        "width": 1951,
+        "height": 1411,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Adrian Pingstone",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Trioceros melleri 140186259.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_melleri_140186259.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Trioceros_melleri_140186259.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "John Lyakurwa",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7858801",
+      "https://www.iucnredlist.org/species/172576/1346077",
+      "https://en.wikipedia.org/wiki/Meller%27s_chameleon",
+      "https://vi.wikipedia.org/wiki/Trioceros_melleri"
+    ]
+  },
+  {
+    "scientificName": "Trioceros hoehnelii",
+    "commonNameVi": "Tắc kè hoa mũ cao Kenya",
+    "commonNameEn": "High-casqued chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Trioceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Trioceros"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176315/47633405",
+    "gbifKey": 7582319,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": 27,
+      "baskMax": 29,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cây bụi và đồng cỏ vùng núi cao mát lạnh tại Kenya và đông Uganda"
+    },
+    "descriptionVi": "Loài tắc kè hoa vùng núi cao cỡ nhỏ đến trung bình có chiếc mũ sọ nhô cao phủ các tấm vảy lớn, hàng râu gai rõ rệt dưới cằm và một mấu sừng tù nhỏ ở đầu mõm.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do còn phổ biến tại các vùng núi cao và vườn cây ngoại ô Nairobi ở Kenya và đông Uganda.",
+    "pullQuoteVi": "Mỗi buổi sáng sớm trên độ cao hơn 2.000 mét, chúng biến toàn thân sang màu đen tuyền để hút trọn từng tia nắng mặt trời hiếm hoi.",
+    "dietVi": "Ăn côn trùng nhỏ: ruồi, dế, châu chấu non và nhện",
+    "lifespanVi": "5–7 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Cao nguyên Aberdare, miền trung Kenya",
+      "lat": -0.4,
+      "lng": 36.7
+    },
+    "regionVi": "Cao nguyên Kenya và Đông Uganda",
+    "otherNamesVi": [
+      "Tắc kè hoa Hoehnel"
+    ],
+    "synonyms": [
+      "Chamael hohnelii",
+      "Chamaeleo bergeri",
+      "Chamaeleo bitaeniatus hohnelii",
+      "Chamaeleo hoehnelii"
+    ],
+    "wikidataId": "Q26840044",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trioceros_hoehnelii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Trioceros_hoehnelii",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 25,
+      "weightGMin": 25,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Thích nghi với khí hậu núi cao tới 3.500 m"
+    },
+    "distribution": {
+      "countries": [
+        "KE",
+        "UG"
+      ],
+      "nativeRangeVi": "Các vùng núi cao miền trung và tây Kenya sang miền đông Uganda (Núi Elgon)",
+      "elevationM": {
+        "min": 1600,
+        "max": 3500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ và cây bụi núi cao",
+      "Bìa rừng tre núi và hàng rào cây xanh"
+    ],
+    "identificationVi": "Mũ đầu nhô cao gồ ghề, đầu mũi có một mấu sừng ngắn, diềm gai cằm và gai lưng phát triển đều đặn.",
+    "behaviorVi": "Có khả năng chịu lạnh rất tốt nhờ tập tính đổi sang màu đen sẫm vào buổi sáng sớm và sinh con trực tiếp thay vì đẻ trứng.",
+    "reproductionVi": "Đẻ con (noãn thai sinh): con cái mang thai khoảng 5–6 tháng và đẻ từ 8–16 con non trên cành cây.",
+    "threatsVi": [
+      "Sử dụng thuốc trừ sâu trong các vùng canh tác nông nghiệp cao nguyên"
+    ],
+    "funFactsVi": [
+      "Con đực trưởng thành khi phô trương với bạn tình sẽ chuyển chiếc mũ đầu và hai bên sườn sang sự phối hợp rực rỡ giữa xanh ngọc, vàng chanh và cam gạch."
+    ],
+    "similarSpecies": [
+      "Trioceros bitaeniatus",
+      "Trioceros ellioti"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới đứng 45×45×90 cm đặt trong phòng máy lạnh có đêm mát 14–18°C.",
+      "lightingVi": "Đèn UVB 5.0% và đèn chiếu điểm ấm 28°C vào buổi sáng.",
+      "feedingVi": "Dế nhỏ, ruồi và gián nhỏ phủ canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Sốc nhiệt nếu nhiệt độ phòng vượt quá 28°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, sinh sản rất dễ trong điều kiện nuôi nhốt phòng mát."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa mũ cao Trioceros hoehnelii (CB 4 tháng tuổi)",
+        "priceVnd": 4500000,
+        "descriptionVi": "Cá thể CB đẻ trực tiếp trong trại, mũ đầu và gai cằm sắc nét."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Trioceros hoehnelii 114532820.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_hoehnelii_114532820.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Trioceros_hoehnelii_114532820.jpg",
+        "width": 2048,
+        "height": 1356,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Marius Burger",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Trioceros hoehnelii - olliesaunders - 609169346.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trioceros_hoehnelii_-_olliesaunders_-_609169346.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Trioceros_hoehnelii_-_olliesaunders_-_609169346.jpeg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "olliesaunders",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Von Höhnel's chameleon close-up.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Von_H%C3%B6hnel%27s_chameleon_close-up.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Von_H%C3%B6hnel%27s_chameleon_close-up.jpg",
+        "width": 960,
+        "height": 1280,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "ChriKo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Von Höhnel's chameleon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Von_H%C3%B6hnel%27s_chameleon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Von_H%C3%B6hnel%27s_chameleon.jpg",
+        "width": 1190,
+        "height": 1280,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "ChriKo",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7582319",
+      "https://www.iucnredlist.org/species/176315/47633405",
+      "https://en.wikipedia.org/wiki/Trioceros_hoehnelii",
+      "https://vi.wikipedia.org/wiki/Trioceros_hoehnelii"
+    ]
+  }
+]

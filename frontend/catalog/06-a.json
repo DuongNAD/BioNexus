@@ -1,0 +1,3317 @@
+[
+  {
+    "scientificName": "Brachypelma hamorii",
+    "commonNameVi": "Nhện Tarantula Đầu Gối Đỏ Mexico",
+    "commonNameEn": "Mexican redknee",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/66081800/148726332",
+    "gbifKey": 2153428,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rụng lá nhiệt đới khô và trảng cây bụi có nền đất pha cát dễ đào hang"
+    },
+    "descriptionVi": "Biểu tượng kinh điển nhất của giới chơi nhện cảnh toàn cầu với thân đen nhung điểm các đốt gối chân màu cam đỏ tươi rực rỡ và tính tình điềm tĩnh.",
+    "conservationNoteVi": "Xếp mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES nhằm quản lý hoạt động khai thác tự nhiên tại Mexico.",
+    "pullQuoteVi": "Một cá thể nhện Đầu Gối Đỏ cái có thể sống tới 25–30 năm — lâu ngang một chú vẹt hay ngựa cảnh.",
+    "dietVi": "Ăn côn trùng sống: dế, gián Dubia, sâu Superworm",
+    "lifespanVi": "20–30 năm (cái)",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Vùng rừng khô ven biển Thái Bình Dương thuộc các bang Colima, Jalisco và Michoacán (Mexico)",
+    "otherNamesVi": [
+      "Mexican Redknee Tarantula"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q4122285",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_hamorii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_hamorii",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 15,
+      "weightGMin": 40,
+      "weightGMax": 70,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 12–15 cm; con cái to nặng và sống thọ gấp ba lần con đực."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng rừng khô ven biển Thái Bình Dương thuộc các bang Colima, Jalisco và Michoacán (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rụng lá nhiệt đới khô và trảng cây bụi có nền đất pha cát dễ đào hang"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 12–15 cm. Sải chân 12–15 cm; con cái to nặng và sống thọ gấp ba lần con đực.",
+    "behaviorVi": "Loài nhện đất hiền lành, ít khi cắn; cần chuồng ngang có lớp nền xơ dừa dày 8–10 cm và chén nước nông.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Một cá thể nhện Đầu Gối Đỏ cái có thể sống tới 25–30 năm — lâu ngang một chú vẹt hay ngựa cảnh."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn côn trùng sống: dế, gián Dubia, sâu Superworm",
+      "socialVi": "Loài nhện đất hiền lành, ít khi cắn; cần chuồng ngang có lớp nền xơ dừa dày 8–10 cm và chén nước nông.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Đầu Gối Đỏ Mexico (Brachypelma hamorii) Size 3–4 cm CB",
+        "priceVnd": 450000,
+        "descriptionVi": "Nhện Tarantula Đầu Gối Đỏ Mexico (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      },
+      {
+        "nameVi": "Nhện Brachypelma hamorii Cái Trưởng Thành Tuyển Chọn CB",
+        "priceVnd": 1650000,
+        "descriptionVi": "Nhện Tarantula Đầu Gối Đỏ Mexico (Trưởng thành, Cái) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brachypelma Hamorii Spiderling 2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_Hamorii_Spiderling_2025.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Brachypelma_Hamorii_Spiderling_2025.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "BhaalPriestess",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153428",
+      "https://www.iucnredlist.org/species/66081800/148726332",
+      "https://en.wikipedia.org/wiki/Brachypelma_hamorii",
+      "https://vi.wikipedia.org/wiki/Brachypelma_hamorii"
+    ]
+  },
+  {
+    "scientificName": "Brachypelma smithi",
+    "commonNameVi": "Nhện Tarantula Đầu Gối Đỏ Guerrero",
+    "commonNameEn": "Mexican Orangeknee",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/8152/148728332",
+    "gbifKey": 2153432,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn đồi rừng khô nhiệt đới có nhiều hốc đá và gốc cây"
+    },
+    "descriptionVi": "Loài nhện đầu gối đỏ chị em cực kỳ gần gũi với B. hamorii nhưng sở hữu sắc cam hồng rực sáng hơn trên đầu gối và viền mai ngực màu vàng kem liền mạch.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES để bảo vệ quần thể tự nhiên ở bang Guerrero.",
+    "pullQuoteVi": "Từng được mô tả dưới tên Brachypelma annitha trước khi phân tích di truyền xác nhận đây chính là loài B. smithi gốc từ bang Guerrero.",
+    "dietVi": "Ăn côn trùng sống: dế, gián Dubia, cào cào nhỏ",
+    "lifespanVi": "20–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Đặc hữu sườn núi phía nam bang Guerrero thuộc miền tây nam Mexico",
+    "otherNamesVi": [
+      "Guerrero Redknee Tarantula",
+      "Brachypelma annitha"
+    ],
+    "synonyms": [
+      "Avicularia smithi",
+      "Brachypelma annitha",
+      "Euathlus smithi"
+    ],
+    "wikidataId": "Q300963",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_smithi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_smithi",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 15,
+      "weightGMin": 45,
+      "weightGMax": 75,
+      "heightCmMax": null,
+      "noteVi": "Sải chân đạt 13–15 cm; mảng màu cam hồng trên đốt patella trải rộng và sáng hơn B. hamorii."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Đặc hữu sườn núi phía nam bang Guerrero thuộc miền tây nam Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn đồi rừng khô nhiệt đới có nhiều hốc đá và gốc cây"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 13–15 cm. Sải chân đạt 13–15 cm; mảng màu cam hồng trên đốt patella trải rộng và sáng hơn B. hamorii.",
+    "behaviorVi": "Nuôi đơn độc trong hộp/chuồng thông thoáng với nền xơ dừa khô ráo ở mặt trên và một góc giữ ẩm.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Từng được mô tả dưới tên Brachypelma annitha trước khi phân tích di truyền xác nhận đây chính là loài B. smithi gốc từ bang Guerrero."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn côn trùng sống: dế, gián Dubia, cào cào nhỏ",
+      "socialVi": "Nuôi đơn độc trong hộp/chuồng thông thoáng với nền xơ dừa khô ráo ở mặt trên và một góc giữ ẩm.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Đầu Gối Đỏ Guerrero (Brachypelma smithi) Size 4 cm CB",
+        "priceVnd": 550000,
+        "descriptionVi": "Nhện Tarantula Đầu Gối Đỏ Guerrero (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brachypelma smithi Small.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_smithi_Small.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Brachypelma_smithi_Small.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Blackmesa2018",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Big spider.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Big_spider.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Big_spider.jpg",
+        "width": 1476,
+        "height": 1760,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kevin Walsh from Oxford, England",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma smithi 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_smithi_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Brachypelma_smithi_01.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Patrick Edwin Moran",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma smithi, a newly moulted female.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_smithi,_a_newly_moulted_female.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Brachypelma_smithi%2C_a_newly_moulted_female.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "HTO",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153432",
+      "https://www.iucnredlist.org/species/8152/148728332",
+      "https://en.wikipedia.org/wiki/Brachypelma_smithi",
+      "https://vi.wikipedia.org/wiki/Brachypelma_smithi"
+    ]
+  },
+  {
+    "scientificName": "Brachypelma boehmei",
+    "commonNameVi": "Nhện Tarantula Chân Lửa Mexico",
+    "commonNameEn": "Mexican fireleg",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/66081558/148681774",
+    "gbifKey": 2153425,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây bụi khô hạn trên sườn đồi đất sỏi đá"
+    },
+    "descriptionVi": "Một trong những loài nhện đất có màu sắc rực rỡ nhất thế giới với toàn bộ mai ngực và ba đốt chân ngoài mang sắc cam đỏ rực cháy tương phản với đốt đùi đen nhánh.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) ngoài tự nhiên do vùng phân bố hẹp tại Guerrero nhưng rất phổ biến từ nguồn nhân giống CB.",
+    "pullQuoteVi": "Khi bị quấy rầy, thay vì tấn công, Nhện Chân Lửa thường dùng hai chân sau đá tung đám lông ngứa trên bụng về phía kẻ xâm phạm.",
+    "dietVi": "Ăn côn trùng sống: dế, gián Dubia, sâu quy",
+    "lifespanVi": "18–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Vùng ven biển Thái Bình Dương thuộc bang Guerrero và tây Michoacán, Mexico",
+    "otherNamesVi": [
+      "Mexican Fireleg Tarantula"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q134962",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_boehmei",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_boehmei",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 15,
+      "weightGMin": 45,
+      "weightGMax": 70,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 13–15 cm; ba đốt chân dưới cùng rực màu đỏ cam như ngọn lửa trên nền đùi đen tuyền."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng ven biển Thái Bình Dương thuộc bang Guerrero và tây Michoacán, Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi khô hạn trên sườn đồi đất sỏi đá"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 13–15 cm. Sải chân 13–15 cm; ba đốt chân dưới cùng rực màu đỏ cam như ngọn lửa trên nền đùi đen tuyền.",
+    "behaviorVi": "Ưa môi trường khô thoáng và ấm áp, cung cấp hang trú bằng vỏ gỗ bần và chén nước sạch.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khi bị quấy rầy, thay vì tấn công, Nhện Chân Lửa thường dùng hai chân sau đá tung đám lông ngứa trên bụng về phía kẻ xâm phạm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn côn trùng sống: dế, gián Dubia, sâu quy",
+      "socialVi": "Ưa môi trường khô thoáng và ấm áp, cung cấp hang trú bằng vỏ gỗ bần và chén nước sạch.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Chân Lửa Mexico (Brachypelma boehmei) Size 3–4 cm CB",
+        "priceVnd": 480000,
+        "descriptionVi": "Nhện Tarantula Chân Lửa Mexico (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brachypelma boehmei Prague Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_boehmei_Prague_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Brachypelma_boehmei_Prague_Zoo.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Erfil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ptasznik czerwononogi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ptasznik_czerwononogi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ptasznik_czerwononogi.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "EdycjomanCommons",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma boehmei-Gehege Zoo Zajac.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_boehmei-Gehege_Zoo_Zajac.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Brachypelma_boehmei-Gehege_Zoo_Zajac.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Falkmart",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mexican Fireleg Tarantula. Brachypelma. boehmei - Flickr - gailhampshire.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mexican_Fireleg_Tarantula._Brachypelma._boehmei_-_Flickr_-_gailhampshire.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Mexican_Fireleg_Tarantula._Brachypelma._boehmei_-_Flickr_-_gailhampshire.jpg",
+        "width": 3630,
+        "height": 2979,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma boehmei.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_boehmei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Brachypelma_boehmei.jpg",
+        "width": 3573,
+        "height": 2316,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Elekes Andor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153425",
+      "https://www.iucnredlist.org/species/66081558/148681774",
+      "https://en.wikipedia.org/wiki/Brachypelma_boehmei",
+      "https://vi.wikipedia.org/wiki/Brachypelma_boehmei"
+    ]
+  },
+  {
+    "scientificName": "Brachypelma emilia",
+    "commonNameVi": "Nhện Tarantula Chân Đỏ Tam Giác Đen",
+    "commonNameEn": "Mexican redleg",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/66081622/148682190",
+    "gbifKey": 2153435,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 68,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô bán hoang mạc và đồng cỏ cây bụi"
+    },
+    "descriptionVi": "Loài nhện Tarantula Mexico dễ nhận diện ngay lập tức nhờ họa tiết hình tam giác đen tuyền nổi bật trên tấm mai ngực màu cam hồng và đôi chân đỏ cam.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Tính tình hiền hòa đến mức người bản địa Mexico từng gọi chúng là loài nhện hiền nhất vùng Sierra Madre.",
+    "dietVi": "Ăn dế, gián Dubia và ấu trùng bọ cánh cứng",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Sườn tây dãy Sierra Madre Occidental thuộc các bang Sinaloa, Durango và Nayarit (Mexico)",
+    "otherNamesVi": [
+      "Mexican Redleg Tarantula"
+    ],
+    "synonyms": [
+      "Euathlus emilia",
+      "Eurypelma emilia",
+      "Mygale emilia"
+    ],
+    "wikidataId": "Q684157",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_emilia",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_emilia",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 15,
+      "weightGMin": 40,
+      "weightGMax": 65,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 12–15 cm; mai ngực màu vàng cam có hình tam giác màu đen sắc nét trùm lên cụm mắt."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Sườn tây dãy Sierra Madre Occidental thuộc các bang Sinaloa, Durango và Nayarit (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô bán hoang mạc và đồng cỏ cây bụi"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 12–15 cm. Sải chân 12–15 cm; mai ngực màu vàng cam có hình tam giác màu đen sắc nét trùm lên cụm mắt.",
+    "behaviorVi": "Tốc độ lớn chậm nhưng tuổi thọ cực cao, rất phù hợp cho người mới bắt đầu tìm hiểu nhện cảnh.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Tính tình hiền hòa đến mức người bản địa Mexico từng gọi chúng là loài nhện hiền nhất vùng Sierra Madre."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn dế, gián Dubia và ấu trùng bọ cánh cứng",
+      "socialVi": "Tốc độ lớn chậm nhưng tuổi thọ cực cao, rất phù hợp cho người mới bắt đầu tìm hiểu nhện cảnh.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Chân Đỏ Tam Giác (Brachypelma emilia) Size 3,5 cm CB",
+        "priceVnd": 490000,
+        "descriptionVi": "Nhện Tarantula Chân Đỏ Tam Giác Đen (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Mexican redleg tarantula (Brachypelma emilia), Entomica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mexican_redleg_tarantula_(Brachypelma_emilia),_Entomica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mexican_redleg_tarantula_%28Brachypelma_emilia%29%2C_Entomica.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fungus Guy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brachypelma Emilia, Kusonóżka Emilii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_Emilia,_Kuson%C3%B3%C5%BCka_Emilii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Brachypelma_Emilia%2C_Kuson%C3%B3%C5%BCka_Emilii.jpg",
+        "width": 3686,
+        "height": 3194,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dr.Zoidberg2186",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Spiders Genova - Brachypelma emilia 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Brachypelma_emilia_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Spiders_Genova_-_Brachypelma_emilia_1.jpg",
+        "width": 2671,
+        "height": 2004,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma emilia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_emilia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Brachypelma_emilia.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "John",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma emilia 20100219w.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_emilia_20100219w.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Brachypelma_emilia_20100219w.JPG",
+        "width": 1601,
+        "height": 1201,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:Strobilomyces",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153435",
+      "https://www.iucnredlist.org/species/66081622/148682190",
+      "https://en.wikipedia.org/wiki/Brachypelma_emilia",
+      "https://vi.wikipedia.org/wiki/Brachypelma_emilia"
+    ]
+  },
+  {
+    "scientificName": "Brachypelma auratum",
+    "commonNameVi": "Nhện Tarantula Đầu Gối Lửa Mexico",
+    "commonNameEn": "Mexican Flameknee",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/66081448/148680713",
+    "gbifKey": 2153441,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rụng lá nhiệt đới trên sườn đồi núi đá tới độ cao 1.000 m"
+    },
+    "descriptionVi": "Loài nhện lớn và đậm màu trong chi Brachypelma với lớp lông đen nhung dày và hai đốm đỏ rực như ngọn lửa hẹp sắc nét ngay trên khớp gối.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "So với họ hàng Đầu Gối Đỏ B. hamorii, Nhện Đầu Gối Lửa có vóc dáng vạm vỡ hơn và sắc đỏ tập trung đậm như hòn than hồng nơi đầu gối.",
+    "dietVi": "Ăn dế, gián Dubia và sâu Superworm",
+    "lifespanVi": "20–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Vùng núi thuộc hai bang Guerrero và Michoacán ở miền nam Mexico",
+    "otherNamesVi": [
+      "Mexican Flame Knee Tarantula"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q134981",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_auratum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_auratum",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 16,
+      "weightGMin": 50,
+      "weightGMax": 80,
+      "heightCmMax": null,
+      "noteVi": "Sải chân đạt tới 15–16 cm; vệt đỏ trên đốt gối hẹp và sắc như ngọn lửa bốc lên từ nền chân đen đậm."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng núi thuộc hai bang Guerrero và Michoacán ở miền nam Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rụng lá nhiệt đới trên sườn đồi núi đá tới độ cao 1.000 m"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 13–16 cm. Sải chân đạt tới 15–16 cm; vệt đỏ trên đốt gối hẹp và sắc như ngọn lửa bốc lên từ nền chân đen đậm.",
+    "behaviorVi": "Cần nền xơ dừa pha đất sạch dày để nhện đào hang trú ẩn theo bản năng.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "So với họ hàng Đầu Gối Đỏ B. hamorii, Nhện Đầu Gối Lửa có vóc dáng vạm vỡ hơn và sắc đỏ tập trung đậm như hòn than hồng nơi đầu gối."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn dế, gián Dubia và sâu Superworm",
+      "socialVi": "Cần nền xơ dừa pha đất sạch dày để nhện đào hang trú ẩn theo bản năng.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Đầu Gối Lửa (Brachypelma auratum) Size 3–4 cm CB",
+        "priceVnd": 520000,
+        "descriptionVi": "Nhện Tarantula Đầu Gối Lửa Mexico (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Spiders Genova - Brachypelma auratum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Brachypelma_auratum.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Spiders_Genova_-_Brachypelma_auratum.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brachypelma auratum kiel.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_auratum_kiel.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Brachypelma_auratum_kiel.png",
+        "width": 974,
+        "height": 882,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ruben Kiel Alvarado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma auratum in Yekaterinburg Zoo (March 2023) - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_auratum_in_Yekaterinburg_Zoo_(March_2023)_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Brachypelma_auratum_in_Yekaterinburg_Zoo_%28March_2023%29_-_1.jpg",
+        "width": 3978,
+        "height": 2477,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vyacheslav Bukharov",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153441",
+      "https://www.iucnredlist.org/species/66081448/148680713",
+      "https://en.wikipedia.org/wiki/Brachypelma_auratum",
+      "https://vi.wikipedia.org/wiki/Brachypelma_auratum"
+    ]
+  },
+  {
+    "scientificName": "Brachypelma klaasi",
+    "commonNameVi": "Nhện Tarantula Hồng Mexico",
+    "commonNameEn": "Mexican pink beauty",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Brachypelma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện đầu gối đỏ Mexico (Brachypelma)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/66081934/148727068",
+    "gbifKey": 2153443,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 72,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rụng lá nhiệt đới ven biển có mùa khô rõ rệt"
+    },
+    "descriptionVi": "Loài nhện ред và thanh lịch nhất chi Brachypelma với tấm mai ngực đen tuyền không viền và lớp lông dày màu hồng cam phấn phủ từ đốt chày tới bàn chân.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khác với các loài Brachypelma khác làm hang lộ thiên, B. klaasi thường đào hang sâu dưới bộ rễ của những bụi dứa dại nhiều gai để tránh thú ăn thịt.",
+    "dietVi": "Ăn dế, gián Dubia và côn trùng sống",
+    "lifespanVi": "20–28 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Vùng rừng khô ven biển Thái Bình Dương thuộc bang Jalisco và Nayarit (khhu bảo tồn Chamela), Mexico",
+    "otherNamesVi": [
+      "Mexican Pink Tarantula"
+    ],
+    "synonyms": [
+      "Brachypelmides klaasi"
+    ],
+    "wikidataId": "Q548969",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brachypelma_klaasi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brachypelma_klaasi",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 16,
+      "weightGMin": 50,
+      "weightGMax": 75,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 13–16 cm; mai ngực đen tuyền tương phản với lông chân dưới màu hồng cam đào."
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng rừng khô ven biển Thái Bình Dương thuộc bang Jalisco và Nayarit (khhu bảo tồn Chamela), Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng rụng lá nhiệt đới ven biển có mùa khô rõ rệt"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 13–16 cm. Sải chân 13–16 cm; mai ngực đen tuyền tương phản với lông chân dưới màu hồng cam đào.",
+    "behaviorVi": "Cần thông gió tốt kết hợp lớp nền giữ ẩm nhẹ ở tầng đáy.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khác với các loài Brachypelma khác làm hang lộ thiên, B. klaasi thường đào hang sâu dưới bộ rễ của những bụi dứa dại nhiều gai để tránh thú ăn thịt."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 25 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn dế, gián Dubia và côn trùng sống",
+      "socialVi": "Cần thông gió tốt kết hợp lớp nền giữ ẩm nhẹ ở tầng đáy.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Tarantula Hồng Mexico (Brachypelma klaasi) Size 3 cm CB",
+        "priceVnd": 680000,
+        "descriptionVi": "Nhện Tarantula Hồng Mexico (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Spiders Genova - Brachypelma klaasi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Brachypelma_klaasi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Spiders_Genova_-_Brachypelma_klaasi.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brachypelma klaasi 2009 G11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_klaasi_2009_G11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Brachypelma_klaasi_2009_G11.jpg",
+        "width": 2700,
+        "height": 2590,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "George Chernilevsky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mygalomorphae Brachypelma klaasi Lille (2015).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mygalomorphae_Brachypelma_klaasi_Lille_(2015).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mygalomorphae_Brachypelma_klaasi_Lille_%282015%29.jpg",
+        "width": 4079,
+        "height": 3059,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Pierre André Leclercq",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brachypelma klaasi Lille 20100219w.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brachypelma_klaasi_Lille_20100219w.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Brachypelma_klaasi_Lille_20100219w.JPG",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:Strobilomyces",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2153443",
+      "https://www.iucnredlist.org/species/66081934/148727068",
+      "https://en.wikipedia.org/wiki/Brachypelma_klaasi",
+      "https://vi.wikipedia.org/wiki/Brachypelma_klaasi"
+    ]
+  },
+  {
+    "scientificName": "Poecilotheria metallica",
+    "commonNameVi": "Nhện Tarantula Xanh Ánh Kim Gooty",
+    "commonNameEn": "Peacock Tarantula",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Poecilotheria"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện cây hoa văn Ấn Độ (Poecilotheria)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/63563/12681959",
+    "gbifKey": 2154249,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán cây cổ thụ có nhiều hốc mục trong rừng khô nhiệt đới miền nam Ấn Độ"
+    },
+    "descriptionVi": "Viên ngọc bích sống của giới chân khớp với toàn thân phủ sắc xanh lam coban ánh kim loại kết hợp hoa văn trắng hình học đối xứng trên lưng và điểm vàng chanh dưới chân.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) ngoài tự nhiên do diện tích rừng gốc dưới 100 km², nhưng đã được nhân giống rộng rãi trong nuôi nhốt toàn cầu (CITES Phụ lục II).",
+    "pullQuoteVi": "Màu xanh coban rực rỡ của P. metallica không phải do sắc tố hóa học mà được tạo ra bởi cấu trúc nano khúc xạ ánh sáng trên từng sợi lông.",
+    "dietVi": "Ăn côn trùng bay và bò trên cây: dế, gián Dubia, gián Red Runner",
+    "lifespanVi": "10–15 năm (cái)",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": "Đặc hữu một khu rừng rụng lá nhỏ rộng chưa tới 100 km² giữa Nandyal và Giddalur, bang Andhra Pradesh, miền nam Ấn Độ",
+    "otherNamesVi": [
+      "Gooty Sapphire Ornamental Tarantula"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q135749",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Poecilotheria_metallica",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Poecilotheria_metallica",
+    "iucnAssessedYear": 2008,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 35,
+      "weightGMax": 60,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 15–20 cm; cả đực và cái đều mang sắc xanh ngọc bích coban rực rỡ kèm đốm vàng tươi dưới khớp chân."
+    },
+    "distribution": {
+      "countries": [
+        "IN"
+      ],
+      "nativeRangeVi": "Đặc hữu một khu rừng rụng lá nhỏ rộng chưa tới 100 km² giữa Nandyal và Giddalur, bang Andhra Pradesh, miền nam Ấn Độ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Tán cây cổ thụ có nhiều hốc mục trong rừng khô nhiệt đới miền nam Ấn Độ"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–20 cm. Sải chân 15–20 cm; cả đực và cái đều mang sắc xanh ngọc bích coban rực rỡ kèm đốm vàng tươi dưới khớp chân.",
+    "behaviorVi": "Loài nhện cây Cựu Thế Giới di chuyển cực nhanh và có nọc mạnh; chỉ dành cho người chơi có kinh nghiệm với chuồng đứng có khúc vỏ cây bần dựng dọc.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Màu xanh coban rực rỡ của P. metallica không phải do sắc tố hóa học mà được tạo ra bởi cấu trúc nano khúc xạ ánh sáng trên từng sợi lông."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 30 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn côn trùng bay và bò trên cây: dế, gián Dubia, gián Red Runner",
+      "socialVi": "Loài nhện cây Cựu Thế Giới di chuyển cực nhanh và có nọc mạnh; chỉ dành cho người chơi có kinh nghiệm với chuồng đứng có khúc vỏ cây bần dựng dọc.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Cây Xanh Ngọc Bích (Poecilotheria metallica) Size 3–4 cm CB",
+        "priceVnd": 850000,
+        "descriptionVi": "Nhện Tarantula Xanh Ánh Kim Gooty (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Adult Poecilotheria metallica Gooty Sapphire Ornamental.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Poecilotheria_metallica_Gooty_Sapphire_Ornamental.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Adult_Poecilotheria_metallica_Gooty_Sapphire_Ornamental.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "B a y L e e ' s 8 Legged Art",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Spiders Genova - Poecilotheria metallica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Poecilotheria_metallica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Spiders_Genova_-_Poecilotheria_metallica.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:P. metallica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P._metallica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/P._metallica.jpg",
+        "width": 3528,
+        "height": 2063,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dododotzler",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria metallica rotated 90 degr.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_metallica_rotated_90_degr.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Poecilotheria_metallica_rotated_90_degr.png",
+        "width": 2592,
+        "height": 1944,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Poecilotheria_metallica.JPG : Morkelsker derivative work: B kimmel ( )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria metallica.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_metallica.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Poecilotheria_metallica.JPG",
+        "width": 1944,
+        "height": 2592,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Morkelsker",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2154249",
+      "https://www.iucnredlist.org/species/63563/12681959",
+      "https://en.wikipedia.org/wiki/Poecilotheria_metallica",
+      "https://vi.wikipedia.org/wiki/Poecilotheria_metallica"
+    ]
+  },
+  {
+    "scientificName": "Poecilotheria regalis",
+    "commonNameVi": "Nhện Tarantula Hoa Văn Hoàng Gia Ấn Độ",
+    "commonNameEn": "Indian Ornamental",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Poecilotheria"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện cây hoa văn Ấn Độ (Poecilotheria)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63566/12682744",
+    "gbifKey": 2154248,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Các hốc cây cao trên thân cây gỗ tếch và rừng nhiệt đới gió mùa"
+    },
+    "descriptionVi": "Loài nhện cây lớn của Ấn Độ với họa tiết lá sồi trắng xám tinh xảo trên lưng và mặt dưới hai chân trước kẻ vằn đen-vàng tươi như biển cảnh báo.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN nhờ vùng phân bố rộng khắp miền nam Ấn Độ và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khi cảm thấy bị đe dọa, chúng đứng bật dậy giương cao hai chân trước để lộ mảng vằn vàng chanh - đen tuyền rực sáng nhằm cảnh báo kẻ thù trước khi tung cú mổ.",
+    "dietVi": "Ăn dế, gián Dubia, cào cào trên thân cây",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": "Dãy Tây Ghats và Đông Ghats thuộc miền nam và miền tây Ấn Độ",
+    "otherNamesVi": [
+      "Indian Ornamental Tarantula"
+    ],
+    "synonyms": [
+      "Ornithoctonus gadgili",
+      "Poecilotheria gadgili"
+    ],
+    "wikidataId": "Q1781627",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Poecilotheria_regalis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Poecilotheria_regalis",
+    "iucnAssessedYear": 2008,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 22,
+      "weightGMin": 45,
+      "weightGMax": 75,
+      "heightCmMax": null,
+      "noteVi": "Sải chân tới 18–22 cm; mặt dưới bụng có một dải băng ngang màu vàng ngà hoặc trắng kem rất rộng."
+    },
+    "distribution": {
+      "countries": [
+        "IN"
+      ],
+      "nativeRangeVi": "Dãy Tây Ghats và Đông Ghats thuộc miền nam và miền tây Ấn Độ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Các hốc cây cao trên thân cây gỗ tếch và rừng nhiệt đới gió mùa"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 16–22 cm. Sải chân tới 18–22 cm; mặt dưới bụng có một dải băng ngang màu vàng ngà hoặc trắng kem rất rộng.",
+    "behaviorVi": "Cần chuồng đứng cao từ 40 cm với ống vỏ cây dựng thẳng để nhện dệt tổ ống tơ.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khi cảm thấy bị đe dọa, chúng đứng bật dậy giương cao hai chân trước để lộ mảng vằn vàng chanh - đen tuyền rực sáng nhằm cảnh báo kẻ thù trước khi tung cú mổ."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 35 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn dế, gián Dubia, cào cào trên thân cây",
+      "socialVi": "Cần chuồng đứng cao từ 40 cm với ống vỏ cây dựng thẳng để nhện dệt tổ ống tơ.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Nhện Cây Hoa Văn Hoàng Gia (Poecilotheria regalis) Size 4–5 cm CB",
+        "priceVnd": 420000,
+        "descriptionVi": "Nhện Tarantula Hoa Văn Hoàng Gia Ấn Độ (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Poecilotheria regalis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_regalis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Poecilotheria_regalis.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Marc BRETHES",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Spiders Genova - Poecilotheria regalis 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiders_Genova_-_Poecilotheria_regalis_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Spiders_Genova_-_Poecilotheria_regalis_1.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria regalis frontal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_regalis_frontal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Poecilotheria_regalis_frontal.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "John",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:P regalis.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P_regalis.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/P_regalis.JPG",
+        "width": 1944,
+        "height": 2592,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Morkelsker",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria regalis 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_regalis_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Poecilotheria_regalis_001.jpg",
+        "width": 1893,
+        "height": 1264,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "ADwarf",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2154248",
+      "https://www.iucnredlist.org/species/63566/12682744",
+      "https://en.wikipedia.org/wiki/Poecilotheria_regalis",
+      "https://vi.wikipedia.org/wiki/Poecilotheria_regalis"
+    ]
+  },
+  {
+    "scientificName": "Poecilotheria hanumavilasumica",
+    "commonNameVi": "Nhện Tarantula Đảo Rameshwaram",
+    "commonNameEn": "Rameshwaram Ornamental",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Theraphosidae",
+      "genus": "Poecilotheria"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện lông lớn Tarantula (Theraphosidae)",
+      "genus": "Chi Nhện cây hoa văn Ấn Độ (Poecilotheria)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/63562/12681695",
+    "gbifKey": 2154253,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 78,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồn điền me, dừa và cây thốt nốt ven biển nhiệt đới"
+    },
+    "descriptionVi": "Loài nhện cây cực hiếm chỉ được khoa học phát hiện năm 2004 trong các hốc cây me cổ thụ quanh khu đền Hanumavilasum trên đảo Rameshwaram.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES do sinh cảnh bị thu hẹp trên đảo Rameshwaram.",
+    "pullQuoteVi": "Được phát hiện lần đầu tiên ngay trong khuôn viên vườn cây me của ngôi đền cổ Hanumavilasum trên đảo Rameshwaram.",
+    "dietVi": "Ăn côn trùng sống trên thân cây",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": "Đặc hữu đảo Rameshwaram và vùng ven biển quận Ramanathapuram, bang Tamil Nadu, Ấn Độ",
+    "otherNamesVi": [
+      "Rameshwaram Ornamental Tarantula"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2193916",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Poecilotheria_hanumavilasumica",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Poecilotheria_hanumavilasumica",
+    "iucnAssessedYear": 2008,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 18,
+      "weightGMin": 35,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Sải chân 14–18 cm; hoa văn lưng màu nâu xám điểm vằn chân đen trắng rõ nét."
+    },
+    "distribution": {
+      "countries": [
+        "IN"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Rameshwaram và vùng ven biển quận Ramanathapuram, bang Tamil Nadu, Ấn Độ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồn điền me, dừa và cây thốt nốt ven biển nhiệt đới"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 14–18 cm. Sải chân 14–18 cm; hoa văn lưng màu nâu xám điểm vằn chân đen trắng rõ nét.",
+    "behaviorVi": "Loài Cực kỳ nguy cấp (CR) đặc hữu vùng hẹp tại Tamil Nadu, chỉ trưng bày hồ sơ bách khoa trên BioNexus.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Được phát hiện lần đầu tiên ngay trong khuôn viên vườn cây me của ngôi đền cổ Hanumavilasum trên đảo Rameshwaram."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Cực kỳ nguy cấp (CR) đặc hữu vùng hẹp tại Tamil Nadu, chỉ trưng bày hồ sơ bách khoa trên BioNexus."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Poecilotheria hanumavilasumica 51193054.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_hanumavilasumica_51193054.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Poecilotheria_hanumavilasumica_51193054.jpg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Aravinth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Poecilotheria hanumavilasumica 87060683.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_hanumavilasumica_87060683.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Poecilotheria_hanumavilasumica_87060683.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Aravinth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria hanumavilasumica 51193060.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_hanumavilasumica_51193060.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Poecilotheria_hanumavilasumica_51193060.jpg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Aravinth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilotheria hanumavilasumica 87060711.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilotheria_hanumavilasumica_87060711.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Poecilotheria_hanumavilasumica_87060711.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Aravinth",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2154253",
+      "https://www.iucnredlist.org/species/63562/12681695",
+      "https://en.wikipedia.org/wiki/Poecilotheria_hanumavilasumica",
+      "https://vi.wikipedia.org/wiki/Poecilotheria_hanumavilasumica"
+    ]
+  },
+  {
+    "scientificName": "Dolomedes plantarius",
+    "commonNameVi": "Nhện Bè Lớn Châu Âu",
+    "commonNameEn": "Great Raft Spider",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Araneae",
+      "family": "Pisauridae",
+      "genus": "Dolomedes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Nhện (Araneae)",
+      "family": "Họ Nhện săn mồi mặt nước (Pisauridae)",
+      "genus": "Chi Nhện bè (Dolomedes)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/6790/3136581",
+    "gbifKey": 2150951,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy nước ngọt không ô nhiễm, kênh rạch thực vật thủy sinh dày"
+    },
+    "descriptionVi": "Một trong những loài nhện lớn nhất châu Âu có khả năng đi lại nhẹ nhàng trên mặt nước và lặn xuống dưới nước để bắt cá con hay nòng nọc.",
+    "conservationNoteVi": "Xếp mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do suy giảm diện tích đầm lầy đất ngập nước tự nhiên tại châu Âu.",
+    "pullQuoteVi": "Nhờ lớp lông kỵ nước phủ khắp chân, Nhện Bè Lớn cảm nhận được từng rung động nhỏ trên màng căng bề mặt nước để định vị con mồi từ xa.",
+    "dietVi": "Ăn côn trùng mặt nước, ấu trùng chuồn chuồn, nòng nọc và cá nhỏ",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Các vùng đất ngập nước khắp châu Âu tới Tây Siberia",
+    "otherNamesVi": [
+      "Great Raft Spider",
+      "Fen Raft Spider"
+    ],
+    "synonyms": [
+      "Araneus plantarius",
+      "Dolomedes clercki"
+    ],
+    "wikidataId": "Q2090659",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nh%E1%BB%87n_b%C3%A8_kh%E1%BB%95ng_l%E1%BB%93",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Great_raft_spider",
+    "iucnAssessedYear": 2026,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 7,
+      "weightGMin": 2,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Sải chân đạt 6–7 cm; thân màu nâu sô-cô-la hoặc đen nhung có hai dải sọc trắng kem hoặc vàng chạy dọc hai bên sườn."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "GB",
+        "DE",
+        "NL",
+        "SE",
+        "PL",
+        "IT"
+      ],
+      "nativeRangeVi": "Các vùng đất ngập nước khắp châu Âu tới Tây Siberia",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy nước ngọt không ô nhiễm, kênh rạch thực vật thủy sinh dày"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–7 cm. Sải chân đạt 6–7 cm; thân màu nâu sô-cô-la hoặc đen nhung có hai dải sọc trắng kem hoặc vàng chạy dọc hai bên sườn.",
+    "behaviorVi": "Loài nhện bán thủy sinh được bảo vệ nghiêm ngặt tại châu Âu, chỉ lưu trữ trong bách khoa sinh học.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Nhờ lớp lông kỵ nước phủ khắp chân, Nhện Bè Lớn cảm nhận được từng rung động nhỏ trên màng căng bề mặt nước để định vị con mồi từ xa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài nhện bán thủy sinh được bảo vệ nghiêm ngặt tại châu Âu, chỉ lưu trữ trong bách khoa sinh học."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gerandete Wasserspinne Dolomedes plantarius.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gerandete_Wasserspinne_Dolomedes_plantarius.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Gerandete_Wasserspinne_Dolomedes_plantarius.jpg",
+        "width": 4000,
+        "height": 2667,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Holger Krisp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dolomedes plantarius (Indre, France) 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dolomedes_plantarius_(Indre,_France)_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dolomedes_plantarius_%28Indre%2C_France%29_1.jpg",
+        "width": 1749,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Thomas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dolomedes plantarius, great raft spider or fen raft spider, Grote oeverspin 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dolomedes_plantarius,_great_raft_spider_or_fen_raft_spider,_Grote_oeverspin_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dolomedes_plantarius%2C_great_raft_spider_or_fen_raft_spider%2C_Grote_oeverspin_01.jpg",
+        "width": 3000,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luc hoogenstein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2012.06.18.-20-g-Saegersee Godendorfer Papiermühle-Raubspinne-Dolomedes plantarius frist Blaue Federlibelle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2012.06.18.-20-g-Saegersee_Godendorfer_Papierm%C3%BChle-Raubspinne-Dolomedes_plantarius_frist_Blaue_Federlibelle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2012.06.18.-20-g-Saegersee_Godendorfer_Papierm%C3%BChle-Raubspinne-Dolomedes_plantarius_frist_Blaue_Federlibelle.jpg",
+        "width": 2976,
+        "height": 1674,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andreas Eichler",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2012.06.18.-11-g-Saegersee Godendorfer Papiermühle-Raubspinne-Dolomedes plantarius im Boot.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2012.06.18.-11-g-Saegersee_Godendorfer_Papierm%C3%BChle-Raubspinne-Dolomedes_plantarius_im_Boot.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/2012.06.18.-11-g-Saegersee_Godendorfer_Papierm%C3%BChle-Raubspinne-Dolomedes_plantarius_im_Boot.jpg",
+        "width": 2808,
+        "height": 2808,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andreas Eichler",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2150951",
+      "https://www.iucnredlist.org/species/6790/3136581",
+      "https://en.wikipedia.org/wiki/Great_raft_spider",
+      "https://vi.wikipedia.org/wiki/Nh%E1%BB%87n_b%C3%A8_kh%E1%BB%95ng_l%E1%BB%93"
+    ]
+  },
+  {
+    "scientificName": "Limulus polyphemus",
+    "commonNameVi": "Sam Mỹ Đại Tây Dương",
+    "commonNameEn": "American Horseshoe Crab",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Merostomata",
+      "order": "Xiphosurida",
+      "family": "Limulidae",
+      "genus": "Limulus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sam biển (Xiphosurida)",
+      "family": "Họ Sam biển (Limulidae)",
+      "genus": "Chi Sam Mỹ (Limulus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/11987/80159830",
+    "gbifKey": 1010610,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 25,
+      "phMin": 7.8,
+      "phMax": 8.3,
+      "habitatVi": "Vùng đáy cát bùn ven bờ biển, cửa sông và bãi triều đẻ trứng"
+    },
+    "descriptionVi": "Hóa thạch sống có lịch sử tiến hóa hơn 445 triệu năm với chiếc mai hình móng ngựa màu nâu đồng, chiếc đuôi nhọn dài và 9 con mắt phân bố khắp cơ thể.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do thu hoạch lấy máu phục vụ y sinh và mất bãi cát đẻ trứng ven biển.",
+    "pullQuoteVi": "Máu của loài sam có màu xanh lam kỳ ảo do chứa đồng (hemocyanin) thay vì sắt và có khả năng đông đặc tức thì khi gặp độc tố vi khuẩn.",
+    "dietVi": "Ăn giun biển, trai sò nhỏ và động vật đáy",
+    "lifespanVi": "18–22 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Bờ biển phía đông Bắc Mỹ từ bang Maine tới Florida và bán đảo Yucatán (Mexico)",
+    "otherNamesVi": [
+      "Atlantic Horseshoe Crab"
+    ],
+    "synonyms": [
+      "Limulus albus",
+      "Limulus americanus",
+      "Limulus cyclops",
+      "Limulus occidentalis"
+    ],
+    "wikidataId": "Q1133152",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sam_M%E1%BB%B9",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Atlantic_horseshoe_crab",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 60,
+      "weightGMin": 1500,
+      "weightGMax": 4500,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn khoảng 25–30% so với con đực; con đực có đôi chân kẹp đầu tiên biến đổi thành móc câu để bám vào mai cái."
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Bờ biển phía đông Bắc Mỹ từ bang Maine tới Florida và bán đảo Yucatán (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng đáy cát bùn ven bờ biển, cửa sông và bãi triều đẻ trứng"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 35–60 cm. Con cái lớn hơn khoảng 25–30% so với con đực; con đực có đôi chân kẹp đầu tiên biến đổi thành móc câu để bám vào mai cái.",
+    "behaviorVi": "Loài hóa thạch sống biển cần bãi cát triều rộng lớn, chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Máu của loài sam có màu xanh lam kỳ ảo do chứa đồng (hemocyanin) thay vì sắt và có khả năng đông đặc tức thì khi gặp độc tố vi khuẩn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài hóa thạch sống biển cần bãi cát triều rộng lớn, chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Atlantic-horseshoe-crab-Aquarium-of-the-Pacific.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atlantic-horseshoe-crab-Aquarium-of-the-Pacific.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Atlantic-horseshoe-crab-Aquarium-of-the-Pacific.png",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Coughdrop12",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Atlantic horseshoe crab Limulus polyphemus American horseshoe crab Cape Cod Ventral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_horseshoe_crab_Limulus_polyphemus_American_horseshoe_crab_Cape_Cod_Ventral.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Atlantic_horseshoe_crab_Limulus_polyphemus_American_horseshoe_crab_Cape_Cod_Ventral.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "EgorovaSvetlana",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:A Round Reunion.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Round_Reunion.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/A_Round_Reunion.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Coughdrop12",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Arthropod (50696026283).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arthropod_(50696026283).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Arthropod_%2850696026283%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "YVC Biology Department",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Atlantic horseshoe crab (Limulus polyphemus) (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_horseshoe_crab_(Limulus_polyphemus)_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Atlantic_horseshoe_crab_%28Limulus_polyphemus%29_%281%29.jpg",
+        "width": 4592,
+        "height": 2576,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "domdomegg",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/1010610",
+      "https://www.iucnredlist.org/species/11987/80159830",
+      "https://en.wikipedia.org/wiki/Atlantic_horseshoe_crab",
+      "https://vi.wikipedia.org/wiki/Sam_M%E1%BB%B9"
+    ]
+  },
+  {
+    "scientificName": "Tachypleus tridentatus",
+    "commonNameVi": "Sam Ba Gai Châu Á",
+    "commonNameEn": "Tri-spine Horseshoe Crab",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Merostomata",
+      "order": "Xiphosurida",
+      "family": "Limulidae",
+      "genus": "Tachypleus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sam biển (Xiphosurida)",
+      "family": "Họ Sam biển (Limulidae)",
+      "genus": "Chi Sam châu Á (Tachypleus)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/21309/149768986",
+    "gbifKey": 1010608,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 22,
+      "waterTempMax": 28,
+      "phMin": 7.8,
+      "phMax": 8.3,
+      "habitatVi": "Bãi triều cát bùn cửa sông và vùng biển nông ven bờ"
+    },
+    "descriptionVi": "Loài sam lớn nhất thế giới phân bố dọc bờ biển Việt Nam và Đông Á, luôn đi thành từng cặp đực bám lưng cái khăng khít nên tạo thành câu thành ngữ 'dính như sam'.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN do suy giảm bãi triều sinh sản và khai thác quá mức.",
+    "pullQuoteVi": "Hình ảnh con sam đực dùng đôi móc chân trước ôm chặt lấy mai con cái suốt mùa sinh sản đã đi vào ca dao tục ngữ Việt Nam với câu 'Thương nhau như vợ chồng sam'.",
+    "dietVi": "Ăn động vật thân mềm hai mảnh vỏ, giun nhiều tơ và giáp xác đáy biển",
+    "lifespanVi": "20–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Vùng biển ven bờ Đông Á và Đông Nam Á từ phía nam Nhật Bản qua biển Đông tới Indonesia",
+    "otherNamesVi": [
+      "Sam đuôi tam giác",
+      "Tri-spine Horseshoe Crab"
+    ],
+    "synonyms": [
+      "Limulus longispina",
+      "Limulus tridentatus"
+    ],
+    "wikidataId": "Q1328469",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sam_%C4%91u%C3%B4i_tam_gi%C3%A1c",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tachypleus_tridentatus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 75,
+      "weightGMin": 2000,
+      "weightGMax": 5000,
+      "heightCmMax": null,
+      "noteVi": "Con cái dài tới 75 cm (kể cả đuôi kiếm), phía sau mai bụng có ba chiếc gai nhọn đặc trưng ở rìa trên gốc đuôi."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN",
+        "JP",
+        "TW",
+        "MY",
+        "ID",
+        "PH"
+      ],
+      "nativeRangeVi": "Vùng biển ven bờ Đông Á và Đông Nam Á từ phía nam Nhật Bản qua biển Đông tới Indonesia",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Bãi triều cát bùn cửa sông và vùng biển nông ven bờ"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 45–75 cm. Con cái dài tới 75 cm (kể cả đuôi kiếm), phía sau mai bụng có ba chiếc gai nhọn đặc trưng ở rìa trên gốc đuôi.",
+    "behaviorVi": "Loài Nguy cấp (EN) có giá trị bảo tồn cao tại vùng biển Việt Nam; chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Hình ảnh con sam đực dùng đôi móc chân trước ôm chặt lấy mai con cái suốt mùa sinh sản đã đi vào ca dao tục ngữ Việt Nam với câu 'Thương nhau như vợ chồng sam'."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) có giá trị bảo tồn cao tại vùng biển Việt Nam; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Limule(dD).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Limule(dD).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Limule%28dD%29.jpg",
+        "width": 6500,
+        "height": 4110,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Didier Descouens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Limule(dD) rotated.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Limule(dD)_rotated.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Limule%28dD%29_rotated.jpg",
+        "width": 3602,
+        "height": 6500,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Didier Descouens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:LimuleFace.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LimuleFace.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/LimuleFace.jpg",
+        "width": 4435,
+        "height": 2110,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Didier Descouens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Horseshoe crabs in Hongkong.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_crabs_in_Hongkong.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Horseshoe_crabs_in_Hongkong.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Adrian F",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Degenkrab.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Degenkrab.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Degenkrab.jpg",
+        "width": 1024,
+        "height": 768,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Arjenvanderlinden at Dutch Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/1010608",
+      "https://www.iucnredlist.org/species/21309/149768986",
+      "https://en.wikipedia.org/wiki/Tachypleus_tridentatus",
+      "https://vi.wikipedia.org/wiki/Sam_%C4%91u%C3%B4i_tam_gi%C3%A1c"
+    ]
+  },
+  {
+    "scientificName": "Procambarus clarkii",
+    "commonNameVi": "Tôm Hùm Đất Đỏ Louisiana",
+    "commonNameEn": "Red Swamp Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Cambaridae",
+      "genus": "Procambarus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm đất Bắc Mỹ (Cambaridae)",
+      "genus": "Chi Tôm hùm đất (Procambarus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/153877/4557336",
+    "gbifKey": 2227300,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 26,
+      "phMin": 6.8,
+      "phMax": 8,
+      "habitatVi": "Đầm lầy nước ngọt, ruộng ngập nước, ao hồ và sông suối chảy chậm"
+    },
+    "descriptionVi": "Loài tôm hùm đất nổi tiếng của Bắc Mỹ với lớp vỏ đỏ thẫm điểm các gai hạt sần trên càng và nhiều biến thể màu cảnh như Trắng Tuyết, Cam, Ghost.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại vùng bản địa Bắc Mỹ nhưng là loài ngoại lai xâm hại cần quản lý chặt chẽ ngoài tự nhiên.",
+    "pullQuoteVi": "Nhờ khả năng đào hang sâu tới gần 1 mét trong bùn ẩm, chúng có thể sống sót qua nhiều tháng khô hạn liên tiếp khi đầm lầy cạn nước.",
+    "dietVi": "Ăn tạp: thức ăn viên chìm cho tôm cảnh, lá bàng mục, rau củ luộc và thức ăn đông lạnh",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Lưu vực hạ nguồn sông Mississippi, vùng vịnh Mexico từ Texas tới Florida và đông bắc Mexico",
+    "otherNamesVi": [
+      "Red Swamp Crayfish",
+      "Ghost Clarkii Crayfish"
+    ],
+    "synonyms": [
+      "Cambarus clarkii"
+    ],
+    "wikidataId": "Q1133124",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%C3%B4m_h%C3%B9m_n%C6%B0%E1%BB%9Bc_ng%E1%BB%8Dt",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Procambarus_clarkii",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 12,
+      "weightGMin": 25,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đôi càng to dài hơn và hai chân bơi đầu tiên biến đổi thành cơ quan giao cấu cứng (gonopods)."
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Lưu vực hạ nguồn sông Mississippi, vùng vịnh Mexico từ Texas tới Florida và đông bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy nước ngọt, ruộng ngập nước, ao hồ và sông suối chảy chậm"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 7–12 cm. Con đực có đôi càng to dài hơn và hai chân bơi đầu tiên biến đổi thành cơ quan giao cấu cứng (gonopods).",
+    "behaviorVi": "Thuộc danh mục loài ngoại lai có nguy cơ xâm hại tại Việt Nam nên cấm phát tán và không mở bán thương mại.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Nhờ khả năng đào hang sâu tới gần 1 mét trong bùn ẩm, chúng có thể sống sót qua nhiều tháng khô hạn liên tiếp khi đầm lầy cạn nước."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Thuộc danh mục loài ngoại lai có nguy cơ xâm hại tại Việt Nam nên cấm phát tán và không mở bán thương mại."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Delta del Ebro, cangrejo Procambarus clarkii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Delta_del_Ebro,_cangrejo_Procambarus_clarkii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Delta_del_Ebro%2C_cangrejo_Procambarus_clarkii.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Juan Emilio Prades Bel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blue morph, red swamp crayfish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_morph,_red_swamp_crayfish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Blue_morph%2C_red_swamp_crayfish.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Sarah Zukoff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cangrejos en Covatillas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cangrejos_en_Covatillas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Cangrejos_en_Covatillas.jpg",
+        "width": 3072,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Arturo Francisco Barbero y la Caballera de Resplandeciente Bañador",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Procambarus clarkii - inat 161296348.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Procambarus_clarkii_-_inat_161296348.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Procambarus_clarkii_-_inat_161296348.jpg",
+        "width": 2048,
+        "height": 1751,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Don Loarie Depicted place: Sonoma County, CA, USA ( 38°36′46″N 122°47′07″W ﻿ / ﻿ 38.6128529465°N 122.7853649145°W ﻿ / 38",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Procambarus Clarkii in a home aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Procambarus_Clarkii_in_a_home_aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Procambarus_Clarkii_in_a_home_aquarium.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "KingKingston1st",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2227300",
+      "https://www.iucnredlist.org/species/153877/4557336",
+      "https://en.wikipedia.org/wiki/Procambarus_clarkii",
+      "https://vi.wikipedia.org/wiki/T%C3%B4m_h%C3%B9m_n%C6%B0%E1%BB%9Bc_ng%E1%BB%8Dt"
+    ]
+  },
+  {
+    "scientificName": "Procambarus alleni",
+    "commonNameVi": "Tôm Hùm Đất Xanh Điện Quang Florida",
+    "commonNameEn": "Florida Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Cambaridae",
+      "genus": "Procambarus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm đất Bắc Mỹ (Cambaridae)",
+      "genus": "Chi Tôm hùm đất (Procambarus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/153828/4550642",
+    "gbifKey": 2227203,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 26,
+      "phMin": 7,
+      "phMax": 8,
+      "habitatVi": "Đầm lầy cỏ Everglades, suối nước ngọt và ao hồ nhiều rễ cây"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt cảnh nổi bật với lớp vỏ màu xanh lam coban điện quang rực sáng tự nhiên điểm các chấm trắng nhỏ trên càng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại bang Florida, Hoa Kỳ.",
+    "pullQuoteVi": "Sắc xanh lam điện quang rực rỡ giúp loài tôm này nổi bật như một viên đá sapphire di động dưới ánh đèn bể cá.",
+    "dietVi": "Ăn tạp: viên chìm giàu canxi, lá bàng khô, đậu Hà Lan luộc và trùng huyết",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Đặc hữu bán đảo Florida (phía đông sông St. Johns và toàn bộ vùng Everglades), Hoa Kỳ",
+    "otherNamesVi": [
+      "Electric Blue Crayfish",
+      "Florida Crayfish"
+    ],
+    "synonyms": [
+      "Cambarus alleni"
+    ],
+    "wikidataId": "Q882633",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%C3%B4m_h%C3%B9m_%C4%91%E1%BA%A5t_xanh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Procambarus_alleni",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 12,
+      "weightGMin": 20,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đôi càng dài và thon khỏe hơn, kèm cặp chân giao cấu gonopods dưới bụng."
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đặc hữu bán đảo Florida (phía đông sông St. Johns và toàn bộ vùng Everglades), Hoa Kỳ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cỏ Everglades, suối nước ngọt và ao hồ nhiều rễ cây"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–12 cm. Con đực có đôi càng dài và thon khỏe hơn, kèm cặp chân giao cấu gonopods dưới bụng.",
+    "behaviorVi": "Nuôi đơn hoặc theo cặp trong bể có nhiều ống gốm/hang đá để tôm ẩn nấp an toàn khi lột vỏ.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Sắc xanh lam điện quang rực rỡ giúp loài tôm này nổi bật như một viên đá sapphire di động dưới ánh đèn bể cá."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 50 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn tạp: viên chìm giàu canxi, lá bàng khô, đậu Hà Lan luộc và trùng huyết",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong bể có nhiều ống gốm/hang đá để tôm ẩn nấp an toàn khi lột vỏ.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Tôm Cảnh Xanh Lam Florida (Procambarus alleni) Size 5–6 cm CB",
+        "priceVnd": 120000,
+        "descriptionVi": "Tôm Hùm Đất Xanh Điện Quang Florida (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Iz - Procambarus alleni - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iz_-_Procambarus_alleni_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Iz_-_Procambarus_alleni_-_1.jpg",
+        "width": 5312,
+        "height": 2988,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blue lobster in tank.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_lobster_in_tank.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Blue_lobster_in_tank.jpg",
+        "width": 1800,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Suresh.bh87",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:ElectricBlueDunesCrayfish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ElectricBlueDunesCrayfish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/ElectricBlueDunesCrayfish.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MoonlitDunes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Procambarus alleni red variant.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Procambarus_alleni_red_variant.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Procambarus_alleni_red_variant.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "ArtemisiaGentileschiFan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Female Blue Crayfish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Female_Blue_Crayfish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Female_Blue_Crayfish.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "A Captain D",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2227203",
+      "https://www.iucnredlist.org/species/153828/4550642",
+      "https://en.wikipedia.org/wiki/Procambarus_alleni",
+      "https://vi.wikipedia.org/wiki/T%C3%B4m_h%C3%B9m_%C4%91%E1%BA%A5t_xanh"
+    ]
+  },
+  {
+    "scientificName": "Cambarellus puer",
+    "commonNameVi": "Tôm Hùm Đất Lùn Đầm Lầy",
+    "commonNameEn": "Swamp Dwarf Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Cambaridae",
+      "genus": "Cambarellus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm đất Bắc Mỹ (Cambaridae)",
+      "genus": "Chi Tôm hùm đất lùn (Cambarellus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/153931/4565476",
+    "gbifKey": 2227434,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 25,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Đầm lầy nông nhiều cỏ nước, lá mục và rễ cây thủy sinh"
+    },
+    "descriptionVi": "Một trong những loài tôm hùm đất lùn nhỏ nhất thế giới, chỉ dài khoảng 3 cm, cực kỳ hiền lành và không hề cắt phá cây thủy sinh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại lưu vực sông Mississippi.",
+    "pullQuoteVi": "Với chiều dài chỉ nhỉnh hơn con tép cảnh đôi chút, chúng mang đầy đủ dáng dấp oai vệ của tôm hùm nhưng lại sống hòa thuận trong bể thủy sinh nano.",
+    "dietVi": "Ăn vụn hữu cơ, viên chìm cho tép cảnh, lá dâu và lá bàng luộc",
+    "lifespanVi": "1,5–2,5 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Hạ lưu thung lũng sông Mississippi từ nam Illinois xuống Louisiana và đông Texas (Hoa Kỳ)",
+    "otherNamesVi": [
+      "Swamp Dwarf Crayfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q1765755",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cambarellus_puer",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2.5,
+      "lengthCmMax": 3.5,
+      "weightGMin": 1,
+      "weightGMax": 2,
+      "heightCmMax": null,
+      "noteVi": "Con cái có bụng bản rộng hơn để ôm trứng, con đực có đôi càng nhỉnh hơn nhẹ."
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Hạ lưu thung lũng sông Mississippi từ nam Illinois xuống Louisiana và đông Texas (Hoa Kỳ)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy nông nhiều cỏ nước, lá mục và rễ cây thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2,5–3,5 cm. Con cái có bụng bản rộng hơn để ôm trứng, con đực có đôi càng nhỉnh hơn nhẹ.",
+    "behaviorVi": "Thích hợp nuôi trong bể thủy sinh từ 20 lít có nhiều rêu Java và hang gốm nhỏ.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Với chiều dài chỉ nhỉnh hơn con tép cảnh đôi chút, chúng mang đầy đủ dáng dấp oai vệ của tôm hùm nhưng lại sống hòa thuận trong bể thủy sinh nano."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 20 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn vụn hữu cơ, viên chìm cho tép cảnh, lá dâu và lá bàng luộc",
+      "socialVi": "Thích hợp nuôi trong bể thủy sinh từ 20 lít có nhiều rêu Java và hang gốm nhỏ.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Tôm Hùm Đất Lùn Thủy Sinh (Cambarellus puer) CB",
+        "priceVnd": 90000,
+        "descriptionVi": "Tôm Hùm Đất Lùn Đầm Lầy (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cambarellus puer 61222726.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cambarellus_puer_61222726.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cambarellus_puer_61222726.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "fishesoftexas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cambarellus puer 13203074.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cambarellus_puer_13203074.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Cambarellus_puer_13203074.jpg",
+        "width": 2048,
+        "height": 2002,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Brady Reed",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cambarellus puer 13203072.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cambarellus_puer_13203072.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Cambarellus_puer_13203072.jpg",
+        "width": 2048,
+        "height": 1684,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Brady Reed",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cambarellus puer 53937865.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cambarellus_puer_53937865.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cambarellus_puer_53937865.jpg",
+        "width": 1760,
+        "height": 1275,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dan Johnson",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2227434",
+      "https://www.iucnredlist.org/species/153931/4565476",
+      "https://en.wikipedia.org/wiki/Cambarellus_puer"
+    ]
+  },
+  {
+    "scientificName": "Cherax quadricarinatus",
+    "commonNameVi": "Tôm Hùm Nước Ngọt Móng Đỏ Úc",
+    "commonNameEn": "Redclaw",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Parastacidae",
+      "genus": "Cherax"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm nước ngọt Nam bán cầu (Parastacidae)",
+      "genus": "Chi Tôm hùm nước ngọt Úc (Cherax)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/4621/11041003",
+    "gbifKey": 4648609,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 29,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Sông suối chảy chậm vùng nhiệt đới có nhiều khúc cây gỗ chìm và hốc bờ đất"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt nhiệt đới cỡ lớn của Úc với lớp giáp màu xanh lam ngọc lục bảo bóng bẩy, bốn đường gờ dọc trên đầu và vệt đỏ tươi nơi mép càng con đực.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại vùng nhiệt đới bắc Úc và Papua New Guinea.",
+    "pullQuoteVi": "Vệt màu đỏ tươi như sơn mài ở rìa ngoài đôi càng lớn của con đực vừa là vũ khí vừa là tín hiệu thị giác chứng tỏ sức mạnh lãnh thổ.",
+    "dietVi": "Ăn tạp thiên thực vật: lá cây mục, rau củ, viên chìm giàu canxi và thức ăn đạm",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Các lưu vực sông nhiệt đới vùng Lãnh thổ phương Bắc, bắc Queensland (Úc) và nam Papua New Guinea",
+    "otherNamesVi": [
+      "Australian Redclaw Crayfish",
+      "Blue Lobster"
+    ],
+    "synonyms": [
+      "Astacus quadricarinatus"
+    ],
+    "wikidataId": "Q1417029",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%C3%B4m_c%C3%A0ng_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 25,
+      "weightGMin": 150,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành có một vệt màu đỏ tươi hoặc cam rực ở rìa ngoài của hai chiếc càng lớn; con cái không có vệt đỏ này."
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "PG"
+      ],
+      "nativeRangeVi": "Các lưu vực sông nhiệt đới vùng Lãnh thổ phương Bắc, bắc Queensland (Úc) và nam Papua New Guinea",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối chảy chậm vùng nhiệt đới có nhiều khúc cây gỗ chìm và hốc bờ đất"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–25 cm. Con đực trưởng thành có một vệt màu đỏ tươi hoặc cam rực ở rìa ngoài của hai chiếc càng lớn; con cái không có vệt đỏ này.",
+    "behaviorVi": "Thuộc danh mục kiểm soát chặt chẽ đối với tôm hùm nước ngọt ngoại lai tại Việt Nam; chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Vệt màu đỏ tươi như sơn mài ở rìa ngoài đôi càng lớn của con đực vừa là vũ khí vừa là tín hiệu thị giác chứng tỏ sức mạnh lãnh thổ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Thuộc danh mục kiểm soát chặt chẽ đối với tôm hùm nước ngọt ngoại lai tại Việt Nam; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oniria - Cherax quadricarinatus 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Cherax_quadricarinatus_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Oniria_-_Cherax_quadricarinatus_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cherax quadricarinatus juvenile.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_quadricarinatus_juvenile.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cherax_quadricarinatus_juvenile.jpg",
+        "width": 1588,
+        "height": 1618,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Miss Fish",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Australian red claw crayfish (Cherax quadricarinatus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Australian_red_claw_crayfish_(Cherax_quadricarinatus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Australian_red_claw_crayfish_%28Cherax_quadricarinatus%29.jpg",
+        "width": 4339,
+        "height": 1576,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "nature.catcher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cherax quadricarinatus im Aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_quadricarinatus_im_Aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Cherax_quadricarinatus_im_Aquarium.jpg",
+        "width": 4460,
+        "height": 2612,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cherax quadricarinatus in Lodz ZOO (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_quadricarinatus_in_Lodz_ZOO_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cherax_quadricarinatus_in_Lodz_ZOO_%281%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MOs810",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4648609",
+      "https://www.iucnredlist.org/species/4621/11041003",
+      "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
+      "https://vi.wikipedia.org/wiki/T%C3%B4m_c%C3%A0ng_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Cherax destructor",
+    "commonNameVi": "Tôm Hùm Nước Ngọt Yabby Úc",
+    "commonNameEn": "Yabby",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Parastacidae",
+      "genus": "Cherax"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm nước ngọt Nam bán cầu (Parastacidae)",
+      "genus": "Chi Tôm hùm nước ngọt Úc (Cherax)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/4622/11042150",
+    "gbifKey": 4417558,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 26,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Sông suối đục, đầm nước tạm thời (billabongs) và hồ chứa có bờ đất sét"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt biểu tượng của nước Úc với cặp càng bản rộng cực khỏe và nhiều dòng màu xanh ngọc trai (Blue Pearl), trắng sứ tuyệt đẹp trong bể cảnh.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do biến đổi chế độ dòng chảy lưu vực sông Murray-Darling.",
+    "pullQuoteVi": "Tên khoa học 'destructor' bắt nguồn từ khả năng đào những đường hầm sâu tới 2 mét dưới lòng đất khô để ngủ hè chờ mùa mưa năm sau.",
+    "dietVi": "Ăn tạp: viên chìm cho tôm, rau củ luộc, lá bàng khô và tôm cá nhỏ",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Lưu vực sông Murray-Darling và vùng nội địa miền đông, miền nam nước Úc",
+    "otherNamesVi": [
+      "Common Yabby",
+      "Blue Pearl Yabby"
+    ],
+    "synonyms": [
+      "Cherax davisi",
+      "Cherax esculus"
+    ],
+    "wikidataId": "Q2711833",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cherax_destructor",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Common_yabby",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 18,
+      "weightGMin": 80,
+      "weightGMax": 200,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đôi càng to bản như chiếc xẻng đào đất; con cái có lỗ sinh dục tròn ở gốc đôi chân bò thứ ba."
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Lưu vực sông Murray-Darling và vùng nội địa miền đông, miền nam nước Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối đục, đầm nước tạm thời (billabongs) và hồ chứa có bờ đất sét"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–18 cm. Con đực có đôi càng to bản như chiếc xẻng đào đất; con cái có lỗ sinh dục tròn ở gốc đôi chân bò thứ ba.",
+    "behaviorVi": "Nuôi đơn từng cá thể trong bể có nắp đậy kín và hang gốm lớn để tránh đánh nhau khi lột xác.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'destructor' bắt nguồn từ khả năng đào những đường hầm sâu tới 2 mét dưới lòng đất khô để ngủ hè chờ mùa mưa năm sau."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 100 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn tạp: viên chìm cho tôm, rau củ luộc, lá bàng khô và tôm cá nhỏ",
+      "socialVi": "Nuôi đơn từng cá thể trong bể có nắp đậy kín và hang gốm lớn để tránh đánh nhau khi lột xác.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Tôm Cảnh Yabby Xanh Ngọc Trai (Cherax destructor) Size 6–8 cm CB",
+        "priceVnd": 180000,
+        "descriptionVi": "Tôm Hùm Nước Ngọt Yabby Úc (Thiếu niên, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Cherax destructor by OpenCage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_destructor_by_OpenCage.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cherax_destructor_by_OpenCage.jpg",
+        "width": 2735,
+        "height": 2736,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Cherax destructor volcano - baby (6).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_destructor_volcano_-_baby_(6).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cherax_destructor_volcano_-_baby_%286%29.jpg",
+        "width": 4355,
+        "height": 2672,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cherax destructor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_destructor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cherax_destructor.jpg",
+        "width": 2268,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "TarnishedPath",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cherax destructor volcano -baby (5).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cherax_destructor_volcano_-baby_(5).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Cherax_destructor_volcano_-baby_%285%29.jpg",
+        "width": 2888,
+        "height": 1794,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4417558",
+      "https://www.iucnredlist.org/species/4622/11042150",
+      "https://en.wikipedia.org/wiki/Common_yabby",
+      "https://vi.wikipedia.org/wiki/Cherax_destructor"
+    ]
+  },
+  {
+    "scientificName": "Astacus astacus",
+    "commonNameVi": "Tôm Hùm Sông Quý Tộc Châu Âu",
+    "commonNameEn": "Noble Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Astacidae",
+      "genus": "Astacus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm sông châu Âu (Astacidae)",
+      "genus": "Chi Tôm hùm sông (Astacus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/2191/9338388",
+    "gbifKey": 2226998,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 12,
+      "waterTempMax": 20,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Sông suối nước trong mát, giàu oxy có bờ đất nhiều rễ cây sủi và đáy sỏi đá"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt bản địa lớn và danh giá nhất châu Âu, từng là món ăn chỉ dành cho giới quý tộc Bắc Âu trước khi suy giảm mạnh vì dịch nấm tôm Bắc Mỹ.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do dịch nấm Aphanomyces astaci và mất sinh cảnh bờ suối tự nhiên.",
+    "pullQuoteVi": "Người Thụy Điển và Phần Lan từ thế kỷ 16 đã tổ chức lễ hội mùa hè Kräftskiva tôn vinh loài tôm sông bản địa này.",
+    "dietVi": "Ăn lá cây mục, côn trùng nước, ốc nhỏ và thực vật thủy sinh",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Trung Âu, Đức",
+      "lat": 50.11,
+      "lng": 8.68
+    },
+    "regionVi": "Các hệ thống sông suối và hồ nước mát khắp Trung Âu, Đông Âu và Bắc Âu",
+    "otherNamesVi": [
+      "Noble Crayfish",
+      "Broad-fingered Crayfish"
+    ],
+    "synonyms": [
+      "Astacus astacus colchicus",
+      "Cancer astacus",
+      "Potamobius astacus"
+    ],
+    "wikidataId": "Q210959",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astacus_astacus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astacus_astacus",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 16,
+      "weightGMin": 60,
+      "weightGMax": 150,
+      "heightCmMax": null,
+      "noteVi": "Con đực dài tới 16 cm với đôi càng to rộng có mặt dưới màu đỏ gạch; con cái nhỏ hơn (10–12 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "DE",
+        "FR",
+        "PL",
+        "SE",
+        "FI",
+        "AT",
+        "CZ"
+      ],
+      "nativeRangeVi": "Các hệ thống sông suối và hồ nước mát khắp Trung Âu, Đông Âu và Bắc Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối nước trong mát, giàu oxy có bờ đất nhiều rễ cây sủi và đáy sỏi đá"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–16 cm. Con đực dài tới 16 cm với đôi càng to rộng có mặt dưới màu đỏ gạch; con cái nhỏ hơn (10–12 cm).",
+    "behaviorVi": "Loài Sắp nguy cấp (VU) ưa nước lạnh được bảo vệ nghiêm ngặt tại châu Âu, chỉ lưu trữ trong bách khoa.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Người Thụy Điển và Phần Lan từ thế kỷ 16 đã tổ chức lễ hội mùa hè Kräftskiva tôn vinh loài tôm sông bản địa này."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Sắp nguy cấp (VU) ưa nước lạnh được bảo vệ nghiêm ngặt tại châu Âu, chỉ lưu trữ trong bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astacus astacus in danger.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astacus_astacus_in_danger.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Astacus_astacus_in_danger.jpg",
+        "width": 4956,
+        "height": 3191,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "brian.gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Actacus actacus3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Actacus_actacus3.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Actacus_actacus3.JPG",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Martti13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2013 Ingelfingen (und drum rum) (9317953894).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013_Ingelfingen_(und_drum_rum)_(9317953894).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/2013_Ingelfingen_%28und_drum_rum%29_%289317953894%29.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "marsupium photography",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Deutscher Flußkrebs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Deutscher_Flu%C3%9Fkrebs.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Deutscher_Flu%C3%9Fkrebs.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fotosherling",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astacus from Dnieper Estuary 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astacus_from_Dnieper_Estuary_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Astacus_from_Dnieper_Estuary_1.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yuriy Kvach",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2226998",
+      "https://www.iucnredlist.org/species/2191/9338388",
+      "https://en.wikipedia.org/wiki/Astacus_astacus",
+      "https://vi.wikipedia.org/wiki/Astacus_astacus"
+    ]
+  },
+  {
+    "scientificName": "Austropotamobius pallipes",
+    "commonNameVi": "Tôm Hùm Sông Chân Trắng",
+    "commonNameEn": "White-clawed Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Astacidae",
+      "genus": "Austropotamobius"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm sông châu Âu (Astacidae)",
+      "genus": "Chi Tôm hùm suối (Austropotamobius)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/2430/9438817",
+    "gbifKey": 4312658,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 10,
+      "waterTempMax": 18,
+      "phMin": 7.2,
+      "phMax": 8.4,
+      "habitatVi": "Suối đá vôi nước trong vắt, mát lành và giàu canxi"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt bản địa duy nhất của quần đảo Anh, nổi bật với lớp vỏ nâu đồng nhẵn và mặt dưới hai chiếc càng sáng màu trắng ngà.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và được bảo vệ nghiêm ngặt theo Chỉ thị Sinh cảnh Liên minh Châu Âu.",
+    "pullQuoteVi": "Vì cực kỳ nhạy cảm với hóa chất và thiếu oxy, sự hiện diện của Tôm Chân Trắng được xem là 'huy chương vàng' chứng nhận dòng suối hoàn toàn tinh khiết.",
+    "dietVi": "Ăn ấu trùng côn trùng suối, lá mục, rêu nước và giáp xác nhỏ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền nam nước Anh",
+      "lat": 51.5,
+      "lng": -0.12
+    },
+    "regionVi": "Tây Âu và Nam Âu từ quần đảo Anh qua Pháp tới bắc Tây Ban Nha và Ý",
+    "otherNamesVi": [
+      "White-clawed Crayfish"
+    ],
+    "synonyms": [
+      "Astacus fontinalis",
+      "Astacus pallipes",
+      "Astacus pallipes flavus",
+      "Atlantoastacus orientalis orientalis"
+    ],
+    "wikidataId": "Q966376",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Austropotamobius_pallipes",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 12,
+      "weightGMin": 30,
+      "weightGMax": 70,
+      "heightCmMax": null,
+      "noteVi": "Mặt dưới của đôi càng có màu trắng hồng nhạt đặc trưng giúp phân biệt ngay với mặt càng đỏ của Astacus astacus."
+    },
+    "distribution": {
+      "countries": [
+        "GB",
+        "FR",
+        "ES",
+        "IT",
+        "CH",
+        "AT"
+      ],
+      "nativeRangeVi": "Tây Âu và Nam Âu từ quần đảo Anh qua Pháp tới bắc Tây Ban Nha và Ý",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Suối đá vôi nước trong vắt, mát lành và giàu canxi"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–12 cm. Mặt dưới của đôi càng có màu trắng hồng nhạt đặc trưng giúp phân biệt ngay với mặt càng đỏ của Astacus astacus.",
+    "behaviorVi": "Loài Nguy cấp (EN) được bảo vệ tại châu Âu, không thương mại, chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Vì cực kỳ nhạy cảm với hóa chất và thiếu oxy, sự hiện diện của Tôm Chân Trắng được xem là 'huy chương vàng' chứng nhận dòng suối hoàn toàn tinh khiết."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) được bảo vệ tại châu Âu, không thương mại, chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gambero di fiume.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gambero_di_fiume.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gambero_di_fiume.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Albarubescens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Austropotamobius pallipes 03 by-dpc.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Austropotamobius_pallipes_03_by-dpc.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Austropotamobius_pallipes_03_by-dpc.jpg",
+        "width": 1751,
+        "height": 2616,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "David Perez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:White-footed Crayfish (Austropotamobius pallipes) (13533705014).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:White-footed_Crayfish_(Austropotamobius_pallipes)_(13533705014).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/White-footed_Crayfish_%28Austropotamobius_pallipes%29_%2813533705014%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Austropotamobius pallipes 01 by-dpc.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Austropotamobius_pallipes_01_by-dpc.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Austropotamobius_pallipes_01_by-dpc.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "David Perez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Austropotamobius italicus Dohlenkrebs.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Austropotamobius_italicus_Dohlenkrebs.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Austropotamobius_italicus_Dohlenkrebs.JPG",
+        "width": 2770,
+        "height": 1587,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Chucholl, Ch.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4312658",
+      "https://www.iucnredlist.org/species/2430/9438817",
+      "https://en.wikipedia.org/wiki/Austropotamobius_pallipes"
+    ]
+  }
+]

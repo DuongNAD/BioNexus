@@ -360,20 +360,20 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         expect(pendingProduct).toBeDefined();
         expect(pendingProduct?.status).toBe('PENDING');
 
-        // Danh mục công khai ban đầu chỉ có 7 sản phẩm APPROVED
+        // Danh mục công khai ban đầu (seed gốc + khối CATALOG) chưa có sản phẩm #3
         const initialPublic = db.getProducts();
-        expect(initialPublic.total).toBe(7);
-        expect(initialPublic.items.some((p) => p.id === 3)).toBe(false);
+        const initialTotal = initialPublic.total;
+        const sameSpecies = { speciesId: pendingProduct!.speciesId, size: 48 };
+        expect(db.getProducts(sameSpecies).items.some((p) => p.id === 3)).toBe(false);
 
         // Duyệt sản phẩm #3
         const approveRes = db.moderateProduct(1, 3, 'APPROVED');
         expect(approveRes.status).toBe(200);
         expect(approveRes.body.code).toBe('PRODUCT_APPROVED_SUCCESS');
 
-        // Danh mục công khai phản ánh tức thì: 8 sản phẩm, bao gồm sản phẩm #3
-        const updatedPublic = db.getProducts();
-        expect(updatedPublic.total).toBe(8);
-        const approvedItem = updatedPublic.items.find((p) => p.id === 3);
+        // Danh mục công khai phản ánh tức thì: thêm đúng 1 sản phẩm, chính là sản phẩm #3
+        expect(db.getProducts().total).toBe(initialTotal + 1);
+        const approvedItem = db.getProducts(sameSpecies).items.find((p) => p.id === 3);
         expect(approvedItem).toBeDefined();
         expect(approvedItem?.productName).toBe('Rồng Úc Hypo Baby (2 tháng tuổi)');
       });
@@ -483,10 +483,13 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
 
     describe('2.4 Species Management State Machine & Validation', () => {
       it('BIOLOGIST creates species successfully when attached to valid GENUS node (rank: GENUS)', () => {
+        // Tra chi theo tên thay vì id cố định; Pogona barbata đã có trong catalog nên dùng loài khác cùng chi
+        const pogonaId = db.getRawState().taxonomy.find((n) => n.scientificName === 'Pogona')!.id;
+        const speciesBefore = db.getSpeciesList().length;
         const req: CreateSpeciesRequest = {
-          nodeId: 22, // Pogona (rank GENUS)
-          scientificName: 'Pogona barbata',
-          commonName: 'Rồng Úc Miền Đông',
+          nodeId: pogonaId,
+          scientificName: 'Pogona microlepidota',
+          commonName: 'Rồng Úc Kimberley',
           conservationStatus: 'LC',
           environmentSpecs: 'Nhiệt độ: 24–30°C; Điểm sưởi: 36–40°C; Độ ẩm: 35–50%',
           description: 'Loài bò sát có gai cằm sẫm màu khi bị kích động.',
@@ -497,10 +500,10 @@ describe('CHALLENGER 1: Milestone 6 Adversarial Stress Testing Suite', () => {
         const res = db.createSpecies(104, req);
         expect(res.status).toBe(201);
         expect(res.body.code).toBe('CREATED_SUCCESS');
-        expect(res.body.data?.scientificName).toBe('Pogona barbata');
+        expect(res.body.data?.scientificName).toBe('Pogona microlepidota');
 
-        // Danh sách loài tăng lên 10
-        expect(db.getSpeciesList().length).toBe(10);
+        // Danh sách loài tăng đúng 1
+        expect(db.getSpeciesList().length).toBe(speciesBefore + 1);
       });
 
       it('Rejects creating species if attached to non-GENUS node (e.g. node 1 - Animalia, rank KINGDOM)', () => {

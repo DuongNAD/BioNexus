@@ -11,18 +11,27 @@ import { PageContainer, PageHeader, Panel, Eyebrow } from '@/components/layout/P
 import { ProductCard } from '@/components/domain/ProductCard';
 import { triggerFlyToCart } from '@/components/domain/FlyToCart';
 import { QueryErrorState } from '@/components/domain/QueryErrorState';
-import { useProducts } from '@/api/queries/useProductQueries';
+import { useAllApprovedProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { useAuthState } from '@/api/queries/useAuthQueries';
 import { useAddToCart } from '@/api/mutations/useCartMutations';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
-import { SPECIES_EXTRAS } from '@/content/species-extras';
 import { cn } from '@/lib/cn';
 import { toast } from 'sonner';
 import type { ConservationStatus } from '@/types/api';
 import type { SpeciesViewModel } from '@/api/adapters';
+import { normalizeSearchString } from '@/components/navigation/QuickSearch';
 
-const BIOLOGICAL_GROUPS = ['Tất cả', 'Bò sát', 'Lưỡng cư', 'Cây ăn thịt'] as const;
+const BIOLOGICAL_GROUPS = [
+  'Tất cả',
+  'Bò sát',
+  'Lưỡng cư',
+  'Cá cảnh',
+  'Động vật không xương sống',
+  'Chim',
+  'Cây ăn thịt',
+  'Cây cảnh',
+] as const;
 type BiologicalGroup = (typeof BIOLOGICAL_GROUPS)[number];
 
 const IUCN_OPTIONS: { code: ConservationStatus; color: string; label: string }[] = [
@@ -36,10 +45,18 @@ const IUCN_OPTIONS: { code: ConservationStatus; color: string; label: string }[]
 const PRICE_PRESETS: { label: string; min: number; max: number }[] = [
   { label: 'Dưới 500 nghìn', min: 0, max: 500000 },
   { label: '500 nghìn – 1,5 triệu', min: 500000, max: 1500000 },
-  { label: 'Trên 1,5 triệu', min: 1500000, max: 5000000 },
+  // Infinity: tới mức giá cao nhất đang bán
+  { label: 'Trên 1,5 triệu', min: 1500000, max: Infinity },
 ];
 
-const PAGE_SIZE = 9;
+const PAGE_SIZE = 12;
+
+/** Dãy nút trang rút gọn: luôn có trang đầu, trang cuối và hai trang quanh trang hiện tại */
+function pageWindow(current: number, total: number): Array<number | 'gap'> {
+  const pages = new Set([1, total, current - 1, current, current + 1].filter((p) => p >= 1 && p <= total));
+  const sorted = [...pages].sort((a, b) => a - b);
+  return sorted.flatMap((p, i) => (i > 0 && p - sorted[i - 1]! > 1 ? ['gap' as const, p] : [p]));
+}
 
 function chipClass(active: boolean): string {
   return cn(
@@ -58,6 +75,8 @@ interface FilterFieldsProps {
   speciesList: SpeciesViewModel[];
   minPrice: number;
   maxPrice: number;
+  /** Trần thanh trượt giá: giá cao nhất đang bán, làm tròn lên triệu */
+  priceCeiling: number;
   inStock: boolean;
   iucn: string[];
   updateFilters: (updates: Record<string, string | number | boolean | null | undefined>) => void;
@@ -74,6 +93,7 @@ function FilterFields({
   speciesList,
   minPrice,
   maxPrice,
+  priceCeiling,
   inStock,
   iucn,
   updateFilters,
@@ -145,19 +165,21 @@ function FilterFields({
           aria-label="Khoảng giá"
           value={[minPrice, maxPrice]}
           min={0}
-          max={5000000}
+          max={priceCeiling}
           step={50000}
-          onValueChange={([min, max]) => updateFilters({ minPrice: min, maxPrice: max })}
+          // Kéo hết về trần thì bỏ lọc giá trên để cá thể đắt hơn trần cũ vẫn hiện
+          onValueChange={([min, max]) => updateFilters({ minPrice: min || null, maxPrice: max !== undefined && max < priceCeiling ? max : null })}
         />
         <div className="mt-4 flex flex-wrap gap-2">
           {PRICE_PRESETS.map((preset) => {
-            const active = minPrice === preset.min && maxPrice === preset.max;
+            const presetMax = Number.isFinite(preset.max) ? preset.max : priceCeiling;
+            const active = minPrice === preset.min && maxPrice === presetMax;
             return (
               <button
                 key={preset.label}
                 type="button"
                 aria-pressed={active}
-                onClick={() => updateFilters({ minPrice: preset.min, maxPrice: preset.max })}
+                onClick={() => updateFilters({ minPrice: preset.min || null, maxPrice: Number.isFinite(preset.max) ? preset.max : null })}
                 className={chipClass(active)}
               >
                 {preset.label}
@@ -219,7 +241,7 @@ export default function ProductsPage(): React.JSX.Element {
   const querySpeciesId = searchParams.get('speciesId') ? Number(searchParams.get('speciesId')) : undefined;
   const queryGroup = (searchParams.get('group') as BiologicalGroup) || 'Tất cả';
   const queryMinPrice = searchParams.get('minPrice') ? Number(searchParams.get('minPrice')) : 0;
-  const queryMaxPrice = searchParams.get('maxPrice') ? Number(searchParams.get('maxPrice')) : 5000000;
+  const queryMaxPriceParam = searchParams.get('maxPrice') ? Number(searchParams.get('maxPrice')) : null;
   const queryInStock = searchParams.get('inStock') === 'true';
   const queryIucn = useMemo(() => (searchParams.get('iucn') ? searchParams.get('iucn')!.split(',') : []), [searchParams]);
   const querySort = searchParams.get('sort') || 'newest';
@@ -228,24 +250,26 @@ export default function ProductsPage(): React.JSX.Element {
   const [searchInput, setSearchInput] = useState(querySearch);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
-  const { data: speciesList = [] } = useSpeciesList();
+  const { data: allSpecies = [] } = useSpeciesList();
 
-  // Lấy trang lớn nhất hợp đồng cho phép (size ≤ 48) rồi lọc giá/nhóm/IUCN ở client (ghi trong HANDOFF)
-  const {
-    data: productsData,
-    isLoading,
-    isError,
-    error,
-    refetch,
-    isRefetching,
-  } = useProducts({
-    speciesId: querySpeciesId,
-    q: querySearch || undefined,
-    size: 48,
-  });
+  // Tải đủ mọi trang sản phẩm APPROVED rồi lọc giá/nhóm/IUCN ở client vì API chưa có các bộ lọc này (ghi trong HANDOFF)
+  const { data: productsData, isLoading, isError, error, refetch, isRefetching } = useAllApprovedProducts();
 
-  const allProducts = useMemo(() => productsData?.items || [], [productsData]);
-  const totalOnSale = productsData?.total ?? allProducts.length;
+  const allProducts = useMemo(() => productsData || [], [productsData]);
+  const totalOnSale = allProducts.length;
+  const priceCeiling = useMemo(
+    () => Math.max(5000000, Math.ceil(allProducts.reduce((m, p) => Math.max(m, p.price), 0) / 1000000) * 1000000),
+    [allProducts]
+  );
+  const queryMaxPrice = queryMaxPriceParam ?? priceCeiling;
+  const groupBySpecies = useMemo(() => new Map(allSpecies.map((s) => [s.scientificName, s.group])), [allSpecies]);
+  // Ô chọn loài chỉ liệt kê loài đang có cá thể bán (trong nhóm đang lọc), thay vì cả bách khoa
+  const speciesList = useMemo(() => {
+    const onSale = new Set(allProducts.map((p) => p.speciesId));
+    return allSpecies
+      .filter((s) => onSale.has(s.id) && (queryGroup === 'Tất cả' || s.group === queryGroup))
+      .sort((a, b) => a.displayName.localeCompare(b.displayName, 'vi'));
+  }, [allSpecies, allProducts, queryGroup]);
 
   useEffect(() => {
     setSearchInput(querySearch);
@@ -288,11 +312,17 @@ export default function ProductsPage(): React.JSX.Element {
   const filteredProducts = useMemo(() => {
     let list = [...allProducts];
 
+    if (querySpeciesId) list = list.filter((p) => p.speciesId === querySpeciesId);
+
+    if (querySearch) {
+      const q = normalizeSearchString(querySearch);
+      list = list.filter((p) =>
+        [p.productName, p.speciesCommonName, p.speciesScientificName, p.displayShopName].some((t) => t && normalizeSearchString(t).includes(q))
+      );
+    }
+
     if (queryGroup !== 'Tất cả') {
-      list = list.filter((p) => {
-        if (!p.speciesScientificName) return false;
-        return SPECIES_EXTRAS[p.speciesScientificName]?.group === queryGroup;
-      });
+      list = list.filter((p) => !!p.speciesScientificName && groupBySpecies.get(p.speciesScientificName) === queryGroup);
     }
 
     list = list.filter((p) => p.price >= queryMinPrice && p.price <= queryMaxPrice);
@@ -322,18 +352,24 @@ export default function ProductsPage(): React.JSX.Element {
     }
 
     return list;
-  }, [allProducts, queryGroup, queryMinPrice, queryMaxPrice, queryInStock, queryIucn, querySort]);
+  }, [allProducts, querySpeciesId, querySearch, groupBySpecies, queryGroup, queryMinPrice, queryMaxPrice, queryInStock, queryIucn, querySort]);
 
   const totalPages = Math.ceil(filteredProducts.length / PAGE_SIZE) || 1;
+  // URL cũ có thể trỏ quá trang cuối sau khi lọc
+  const currentPage = Math.min(Math.max(1, queryPage), totalPages);
   const paginatedProducts = useMemo(() => {
-    const start = (queryPage - 1) * PAGE_SIZE;
+    const start = (currentPage - 1) * PAGE_SIZE;
     return filteredProducts.slice(start, start + PAGE_SIZE);
-  }, [filteredProducts, queryPage]);
+  }, [filteredProducts, currentPage]);
+  const goToPage = (page: number) => {
+    updateFilters({ page });
+    document.getElementById('product-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   const activeFilterCount =
     (queryGroup !== 'Tất cả' ? 1 : 0) +
     (querySpeciesId ? 1 : 0) +
-    (queryMinPrice > 0 || queryMaxPrice < 5000000 ? 1 : 0) +
+    (queryMinPrice > 0 || queryMaxPriceParam !== null ? 1 : 0) +
     (queryInStock ? 1 : 0) +
     queryIucn.length +
     (querySearch ? 1 : 0);
@@ -387,6 +423,7 @@ export default function ProductsPage(): React.JSX.Element {
     speciesList,
     minPrice: queryMinPrice,
     maxPrice: queryMaxPrice,
+    priceCeiling,
     inStock: queryInStock,
     iucn: queryIucn,
     updateFilters,
@@ -430,7 +467,7 @@ export default function ProductsPage(): React.JSX.Element {
           <FilterFields idPrefix="filter-desktop" {...filterProps} />
         </aside>
 
-        <section aria-label="Danh sách sinh vật cảnh" className="min-w-0">
+        <section id="product-results" aria-label="Danh sách sinh vật cảnh" className="min-w-0 scroll-mt-24">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-line pb-4">
             <p className="text-sm text-fg-2" aria-live="polite">
               <span className="font-mono text-fg">{filteredProducts.length}</span> kết quả
@@ -526,26 +563,32 @@ export default function ProductsPage(): React.JSX.Element {
           )}
 
           {totalPages > 1 && !isLoading && !isError && (
-            <nav aria-label="Phân trang" className="mt-10 flex items-center justify-center gap-2">
+            <nav aria-label="Phân trang" className="mt-10 flex flex-wrap items-center justify-center gap-2">
               <Button
                 size="sm"
                 pill
                 variant="secondary"
-                disabled={queryPage <= 1}
-                onClick={() => updateFilters({ page: queryPage - 1 })}
+                disabled={currentPage <= 1}
+                onClick={() => goToPage(currentPage - 1)}
               >
                 Trước
               </Button>
-              {Array.from({ length: totalPages }).map((_, idx) => {
-                const pNum = idx + 1;
-                const isActive = pNum === queryPage;
+              {pageWindow(currentPage, totalPages).map((pNum, idx) => {
+                if (pNum === 'gap') {
+                  return (
+                    <span key={`gap-${idx}`} className="px-1 text-fg-3" aria-hidden="true">
+                      …
+                    </span>
+                  );
+                }
+                const isActive = pNum === currentPage;
                 return (
                   <button
                     key={pNum}
                     type="button"
                     aria-label={`Trang ${pNum}`}
                     aria-current={isActive ? 'page' : undefined}
-                    onClick={() => updateFilters({ page: pNum })}
+                    onClick={() => goToPage(pNum)}
                     className={cn(
                       'size-9 rounded-full font-mono text-sm transition-colors',
                       isActive ? 'bg-accent font-semibold text-accent-ink' : 'text-fg-2 hover:bg-surface hover:text-fg'
@@ -559,8 +602,8 @@ export default function ProductsPage(): React.JSX.Element {
                 size="sm"
                 pill
                 variant="secondary"
-                disabled={queryPage >= totalPages}
-                onClick={() => updateFilters({ page: queryPage + 1 })}
+                disabled={currentPage >= totalPages}
+                onClick={() => goToPage(currentPage + 1)}
               >
                 Sau
               </Button>

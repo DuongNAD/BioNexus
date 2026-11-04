@@ -289,11 +289,14 @@ const ACTIVE_ROUTES = APP_ROUTES.filter((r) => !r.devOnly || import.meta.env.DEV
 const childrenOf = (layouts: RouteMeta['layout'][]): RouteObject[] =>
   ACTIVE_ROUTES.filter((r) => layouts.includes(r.layout)).map(toChild);
 
-/** Khung gốc: đưa cuộn về đầu khi chuyển trang và khôi phục vị trí khi bấm Quay lại */
+/**
+ * Khung gốc: đưa cuộn về đầu khi chuyển trang và khôi phục vị trí khi bấm Quay lại.
+ * Khoá theo pathname: bộ lọc ghi vào ?query (kéo thanh giá, chọn nhóm) không làm trang nhảy về đầu.
+ */
 function AppShell(): React.JSX.Element {
   return (
     <>
-      <ScrollRestoration />
+      <ScrollRestoration getKey={(location) => location.pathname} />
       <Outlet />
     </>
   );

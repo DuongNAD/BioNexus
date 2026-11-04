@@ -1,0 +1,1720 @@
+[
+  {
+    "scientificName": "Salamandra atra",
+    "commonNameVi": "Kỳ Giông Đen Núi Cao",
+    "commonNameEn": "Alpine Salamander",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Salamandra"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Kỳ giông lửa (Salamandra)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/19843/227233771",
+    "gbifKey": 2431781,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ núi cao, sườn đá vôi ẩm và rừng thông/vân sam vùng núi"
+    },
+    "descriptionVi": "Loài kỳ giông đặc trưng của dãy núi Alps với toàn thân phủ một màu đen tuyền bóng mượt và khả năng sinh con trên cạn hoàn toàn không phụ thuộc vào mặt nước.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố ở các vùng núi cao dãy Alps và vùng núi Dinaric Balkans tại châu Âu.",
+    "pullQuoteVi": "Để thích nghi với khí hậu khắc nghiệt trên đỉnh Alps, kỳ giông đen núi cao mang thai suốt 2 đến 3 năm và đẻ thẳng ra con non hoàn chỉnh trên cạn.",
+    "dietVi": "Ăn giun đất, sên núi, bọ cánh cứng nhỏ, cuốn chiếu và nhện",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Dãy Alps và dãy núi Dinaric ở Trung - Nam Âu",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": "Dãy núi Alps và vùng núi Dinaric (Thụy Sĩ, Áo, nam Đức, đông Pháp, bắc Ý, Slovenia, Croatia, Montenegro)",
+    "otherNamesVi": [
+      "Kỳ giông Alps"
+    ],
+    "synonyms": [
+      "Geotriton fuscus",
+      "Lacerta atra",
+      "Salamandra atra atra",
+      "Salamandra atra aurorae"
+    ],
+    "wikidataId": "Q259425",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Salamandra_atra",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Alpine_salamander",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 11,
+      "lengthCmMax": 16,
+      "weightGMin": 15,
+      "weightGMax": 35,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đôi chút; con đực có vùng huyệt phồng tròn rõ rệt."
+    },
+    "distribution": {
+      "countries": [
+        "CH",
+        "AT",
+        "DE",
+        "FR",
+        "IT"
+      ],
+      "nativeRangeVi": "Dãy Alps và dãy núi Dinaric ở Trung - Nam Âu",
+      "elevationM": {
+        "min": 600,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ núi cao, sườn đá vôi ẩm và rừng thông/vân sam vùng núi",
+      "Dưới các phiến đá phẳng và khúc gỗ mục ẩm lạnh"
+    ],
+    "identificationVi": "Toàn bộ cơ thể (cả lưng, sườn và bụng) có màu đen bóng như than đá không một đốm sáng (trừ phân loài hiếm S. a. aurorae có lưng vàng). Hai tuyến mang tai hình bầu dục nổi cao sau mắt và hàng nốt tuyến dọc hai bên sườn rất rõ. Thân nhỏ gọn hơn kỳ giông lửa châu Âu (S. salamandra).",
+    "behaviorVi": "Ẩn dưới các phiến đá ẩm lạnh ban ngày; ngủ đông dưới lòng đất sâu từ tháng 10 đến tận tháng 4 hoặc tháng 5 năm sau.",
+    "reproductionVi": "Thai sinh hoàn toàn (viviparous): con cái chỉ sinh ra 1–2 con non đã biến thái hoàn chỉnh sau chu kỳ mang thai kéo dài 2–3 năm tùy độ cao.",
+    "threatsVi": [
+      "Biến đổi khí hậu làm ấm dần các sinh cảnh núi cao Alps"
+    ],
+    "funFactsVi": [
+      "Ở độ cao trên 2.000 mét trên dãy Alps, thời gian mang thai của một con cái có thể kéo dài tới gần 4 năm — một kỷ lục trong giới động vật có xương sống.",
+      "Con non khi mới sinh đã dài tới 4–5 cm (bằng một phần ba chiều dài cơ thể mẹ) và có thể tự săn mồi ngay trên cạn."
+    ],
+    "similarSpecies": [
+      "Salamandra salamandra"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài lưỡng cư vùng núi cao được bảo vệ nghiêm ngặt theo Công ước Bern tại châu Âu; chỉ trưng bày thông tin học thuật."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Alpensalamander Breitachklamm Bayern.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpensalamander_Breitachklamm_Bayern.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Alpensalamander_Breitachklamm_Bayern.jpg",
+        "width": 5333,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Brausch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:60 Alpensalamander (Salamandra atra).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:60_Alpensalamander_(Salamandra_atra).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/60_Alpensalamander_%28Salamandra_atra%29.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ekki3",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alpensalamander (1) bei Schöllang im Allgäu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpensalamander_(1)_bei_Sch%C3%B6llang_im_Allg%C3%A4u.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alpensalamander_%281%29_bei_Sch%C3%B6llang_im_Allg%C3%A4u.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Detlef Pohl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alpensalamander Allgäuer Alpen.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpensalamander_Allg%C3%A4uer_Alpen.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alpensalamander_Allg%C3%A4uer_Alpen.JPG",
+        "width": 4000,
+        "height": 2664,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Remarbenny987",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alpensalamander Besler.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpensalamander_Besler.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Alpensalamander_Besler.jpg",
+        "width": 4512,
+        "height": 3008,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Clemenspool",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431781",
+      "https://www.iucnredlist.org/species/19843/227233771",
+      "https://en.wikipedia.org/wiki/Alpine_salamander",
+      "https://vi.wikipedia.org/wiki/Salamandra_atra"
+    ]
+  },
+  {
+    "scientificName": "Cynops pyrrhogaster",
+    "commonNameVi": "Sa Giông Bụng Lửa Nhật Bản",
+    "commonNameEn": "Japanese Fire-bellied Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Cynops"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông bụng lửa (Cynops)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/59444/177224976",
+    "gbifKey": 2431862,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 14,
+      "waterTempMax": 22,
+      "phMin": 6.5,
+      "phMax": 7.6,
+      "habitatVi": "Suối chảy chậm, ao rừng, đầm lầy và ruộng lúa truyền thống có nước mát"
+    },
+    "descriptionVi": "Loài sa giông nổi tiếng đặc hữu của Nhật Bản với mặt lưng màu nâu đen trầm mặc đối lập hoàn toàn với mặt bụng màu đỏ son điểm đốm đen rực rỡ.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) ngoài tự nhiên Nhật Bản do bê tông hóa kênh mương nông thôn, nhưng được nhân giống rộng rãi trong điều kiện nuôi nhốt.",
+    "pullQuoteVi": "Nhà vô địch tái tạo mô trong thế giới sinh học: chúng có thể mọc lại nguyên vẹn cả tứ chi, đuôi, hàm và thậm chí cả thủy tinh thể mắt.",
+    "dietVi": "Ăn trùn huyết, giun đất cắt nhỏ, bo bo, côn trùng nước và dế nhỏ",
+    "lifespanVi": "15–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Đặc hữu Nhật Bản (các đảo Honshu, Shikoku, Kyushu và các đảo nhỏ ven bờ)",
+    "otherNamesVi": [
+      "Cá cóc bụng đỏ Nhật Bản"
+    ],
+    "synonyms": [
+      "Cynops immaculiventris",
+      "Cynops sasayamae",
+      "Cynops shataukokensis",
+      "Cynops subcristatus"
+    ],
+    "wikidataId": "Q394395",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cynops_pyrrhogaster",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_fire-bellied_newt",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 14,
+      "weightGMin": 8,
+      "weightGMax": 18,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn (11–14 cm); mùa sinh sản con đực (9–11 cm) có đuôi ánh tím bạc và vùng huyệt phồng to."
+    },
+    "distribution": {
+      "countries": [
+        "JP"
+      ],
+      "nativeRangeVi": "Honshu, Shikoku và Kyushu (Nhật Bản)",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Suối chảy chậm, ao rừng, đầm lầy và ruộng lúa truyền thống có nước mát",
+      "Bờ cỏ ẩm quanh các thủy vực nước ngọt"
+    ],
+    "identificationVi": "Da lưng hơi nhám hạt màu nâu đen hoặc đen sẫm với gờ sống lưng nhẹ. Mặt bụng và mặt dưới đuôi màu đỏ tươi hoặc đỏ cam điểm các mảng đốm đen. Tuyến mang tai sau mắt phát triển rõ, đuôi dẹt bên phục vụ bơi lội.",
+    "behaviorVi": "Dành phần lớn thời gian dưới làn nước mát nhiều cây thủy sinh; con đực tán tỉnh bằng cách đứng trước mũi con cái và quạt đuôi tạo dòng pheromone.",
+    "reproductionVi": "Con cái dùng hai chân sau gói cẩn thận từng quả trứng vào bên trong lá cây thủy sinh mềm.",
+    "threatsVi": [
+      "Hiện đại hóa hệ thống thủy lợi ruộng lúa và buôn bán cá thể hoang dã"
+    ],
+    "funFactsVi": [
+      "Trong một thí nghiệm nổi tiếng kéo dài 16 năm của các nhà khoa học Nhật Bản, thủy tinh thể mắt của một cá thể sa giông đã tái tạo hoàn chỉnh tới 18 lần liên tiếp.",
+      "Ở tuổi trưởng thành trong môi trường tốt, chúng có thể sống thọ trên 20 năm."
+    ],
+    "similarSpecies": [
+      "Paramesotriton hongkongensis"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Bể bán cạn với 70% diện tích nước mát sâu 15–20 cm trồng dày ráy, rong đuôi chó và 30% đảo nổi bằng vỏ bần.",
+      "lightingVi": "Đèn LED bể thủy sinh mát dịu 8–10 giờ/ngày",
+      "feedingVi": "Giun đất nhỏ, trùn huyết đông lạnh, viên cám chìm chuyên dụng cho sa giông",
+      "socialVi": "Sống hòa thuận theo nhóm 2–5 cá thể cùng loài",
+      "commonProblemsVi": [
+        "Bỏ ăn hoặc trèo lên cạn liên tục nếu nước quá ấm hoặc còn clo"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; giao dịch nguồn nhân giống nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Bụng Lửa Nhật Bản (Cynops pyrrhogaster) CB",
+        "priceVnd": 680000,
+        "descriptionVi": "Sa giông bụng đỏ Nhật Bản CB khỏe mạnh, ăn trùn huyết và cám chìm rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cynops pyrrhogaster in Hamada, Shimane 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cynops_pyrrhogaster_in_Hamada,_Shimane_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Cynops_pyrrhogaster_in_Hamada%2C_Shimane_01.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cynops pyrrhogaster (under s3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cynops_pyrrhogaster_(under_s3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cynops_pyrrhogaster_%28under_s3%29.jpg",
+        "width": 2720,
+        "height": 2400,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Cynops pyrrhogaster (Karikomi Pond).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cynops_pyrrhogaster_(Karikomi_Pond).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cynops_pyrrhogaster_%28Karikomi_Pond%29.JPG",
+        "width": 3000,
+        "height": 1600,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cynops pyrrhogaster (flocks).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cynops_pyrrhogaster_(flocks).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cynops_pyrrhogaster_%28flocks%29.JPG",
+        "width": 3200,
+        "height": 2560,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cynops pyrrhogaster (under s5).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cynops_pyrrhogaster_(under_s5).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cynops_pyrrhogaster_%28under_s5%29.jpg",
+        "width": 3798,
+        "height": 3001,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431862",
+      "https://www.iucnredlist.org/species/59444/177224976",
+      "https://en.wikipedia.org/wiki/Japanese_fire-bellied_newt",
+      "https://vi.wikipedia.org/wiki/Cynops_pyrrhogaster"
+    ]
+  },
+  {
+    "scientificName": "Triturus marmoratus",
+    "commonNameVi": "Sa Giông Cẩm Thạch",
+    "commonNameEn": "Marbled Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Triturus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông mào (Triturus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/59477/270778119",
+    "gbifKey": 2431886,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 21,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 14,
+      "waterTempMax": 20,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Rừng lá rộng, rừng thông ẩm và vùng đất thạch nam có ao hồ"
+    },
+    "descriptionVi": "Một trong những loài sa giông đẹp nhất châu Âu với toàn bộ mặt lưng phủ hoa văn cẩm thạch xanh lục tươi đan xen màu đen nhung và chiếc mào lưng cao ở con đực.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do suy giảm diện tích các ao đầm truyền thống tại Pháp và bán đảo Iberia.",
+    "pullQuoteVi": "Sự kết hợp giữa sắc xanh rêu ngọc bích và những mảng vân đen huyền bí khiến sa giông cẩm thạch nổi bật như một tác phẩm điêu khắc sống.",
+    "dietVi": "Ăn giun đất, sên nhỏ, ấu trùng côn trùng nước, giáp xác nhỏ và dế non",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Miền tây và miền trung nước Pháp cùng phía bắc bán đảo Iberia (Tây Ban Nha và Bồ Đào Nha)",
+    "otherNamesVi": [
+      "Sa giông mào cẩm thạch"
+    ],
+    "synonyms": [
+      "Hemisalamandra marmorata",
+      "Molge blasiusi",
+      "Molge marmorata",
+      "Pyronicia marmorata"
+    ],
+    "wikidataId": "Q983768",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Triturus_marmoratus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Marbled_newt",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 16,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Mùa sinh sản dưới nước, con đực mọc mào cao vằn đen-trắng dọc lưng và đuôi kèm dải sọc bạc ở đuôi; con cái và con non có đường sọc màu cam tươi dọc sống lưng."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "ES",
+        "PT"
+      ],
+      "nativeRangeVi": "Miền tây Pháp, bắc Tây Ban Nha và bắc Bồ Đào Nha",
+      "elevationM": {
+        "min": 0,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng, rừng thông ẩm và vùng đất thạch nam có ao hồ",
+      "Ao đầm nước sạch có nhiều cây thủy sinh dùng làm nơi sinh sản mùa xuân"
+    ],
+    "identificationVi": "Nền da màu xanh lá cây tươi phủ mạng hoa văn cẩm thạch màu đen hoặc nâu đen khắp thân. Ở con cái và cá thể chưa trưởng thành có một đường chỉ màu cam đỏ tươi chạy dọc chính giữa sống lưng. Mặt bụng màu xám đen hoặc nâu tím điểm các chấm trắng li ti.",
+    "behaviorVi": "Sống lưỡng cư theo mùa rõ rệt: mùa xuân ở dưới nước để giao phối và đẻ trứng, mùa hè và mùa thu lên cạn sống dưới các khúc gỗ ẩm.",
+    "reproductionVi": "Con đực biểu diễn vũ điệu quạt đuôi dưới nước; con cái gói từng quả trứng vào lá cây cỏ nước.",
+    "threatsVi": [
+      "Mất các ao nước sinh sản và sự xâm lấn của tôm hùm đất ngoại lai tại bán đảo Iberia"
+    ],
+    "funFactsVi": [
+      "Ở miền tây nước Pháp nơi vùng phân bố chồng lấn với sa giông mào lớn (T. cristatus), hai loài đôi khi lai tự nhiên tạo ra dạng lai 'Triturus blasii'.",
+      "Do cơ chế nhiễm sắc thể đặc biệt của chi Triturus, chính xác 50% số trứng đẻ ra sẽ ngừng phát triển tự nhiên ngay từ giai đoạn phôi."
+    ],
+    "similarSpecies": [
+      "Triturus carnifex"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 75 lít. Giá thể: Hồ bán cạn 50% phần đất rừng phủ rêu/vỏ bần và 50% phần nước mát trồng nhiều cây thủy sinh lá mềm.",
+      "lightingVi": "Đèn LED dịu mát cho cây thủy sinh và rêu",
+      "feedingVi": "Giun đất nhỏ, dế nhỏ, sên sạch, trùn huyết đông lạnh rắc canxi",
+      "socialVi": "Nuôi theo cặp hoặc nhóm 3–4 cá thể",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ vượt 23°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; chỉ giao dịch cá thể nhân giống nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Cẩm Thạch Xanh (Triturus marmoratus) CB",
+        "priceVnd": 1950000,
+        "descriptionVi": "Sa giông cẩm thạch xanh lục sọc lưng cam CB tuyệt đẹp, ăn giun đất và dế nhỏ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A Marbled Newt by the Rio Maçãs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Marbled_Newt_by_the_Rio_Ma%C3%A7%C3%A3s.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/A_Marbled_Newt_by_the_Rio_Ma%C3%A7%C3%A3s.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maxwell Lamb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bestiole 2012-10-05 11.42.39.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bestiole_2012-10-05_11.42.39.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bestiole_2012-10-05_11.42.39.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Perlinpinpin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Triton marbré (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Triton_marbr%C3%A9_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Triton_marbr%C3%A9_%282%29.jpg",
+        "width": 3378,
+        "height": 2304,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chris Le Jeune",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anfibio en Trasalba. Amoeiro. Galiza-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anfibio_en_Trasalba._Amoeiro._Galiza-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Anfibio_en_Trasalba._Amoeiro._Galiza-1.jpg",
+        "width": 4024,
+        "height": 1371,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luis Miguel Bugallo Sánchez (Lmbuga)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bretagne - Finistère - Triton marbré - 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bretagne_-_Finist%C3%A8re_-_Triton_marbr%C3%A9_-_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bretagne_-_Finist%C3%A8re_-_Triton_marbr%C3%A9_-_001.jpg",
+        "width": 5760,
+        "height": 3840,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Thesupermat",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431886",
+      "https://www.iucnredlist.org/species/59477/270778119",
+      "https://en.wikipedia.org/wiki/Marbled_newt",
+      "https://vi.wikipedia.org/wiki/Triturus_marmoratus"
+    ]
+  },
+  {
+    "scientificName": "Triturus carnifex",
+    "commonNameVi": "Sa Giông Mào Ý",
+    "commonNameEn": "Italian Crested Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Triturus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông mào (Triturus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/214696589/264468745",
+    "gbifKey": 2431887,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": 14,
+      "waterTempMax": 21,
+      "phMin": 6.8,
+      "phMax": 7.8,
+      "habitatVi": "Ao hồ sâu có nhiều thực vật thủy sinh, đầm lầy và bể chứa nước đá truyền thống"
+    },
+    "descriptionVi": "Loài sa giông mào lớn của bán đảo Ý và vùng núi Alps phía nam, nổi bật với chiếc mào lưng răng cưa hùng vĩ ở con đực mùa xuân và phần bụng vàng cam đốm đen.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN; rất phổ biến trong các dòng nhân giống nuôi nhốt (đặc biệt cả biến thể Leucistic trắng mắt đen).",
+    "pullQuoteVi": "Mùa xuân đến, sa giông đực khoác lên chiếc mào lưng cao vút như một chú rồng nước thu nhỏ giữa lòng hồ.",
+    "dietVi": "Ăn giun đất, ấu trùng côn trùng nước, trùn huyết, tôm tép nhỏ và ốc nước nhỏ",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền bắc nước Ý",
+      "lat": 45.07,
+      "lng": 7.68
+    },
+    "regionVi": "Bán đảo Ý, nam Thụy Sĩ, Áo, Slovenia và bắc Croatia",
+    "otherNamesVi": [
+      "Sa giông mào núi Alps"
+    ],
+    "synonyms": [
+      "Gecko carnifex",
+      "Petraponia nigra",
+      "Salamandra carnifex",
+      "Salamandra platycauda"
+    ],
+    "wikidataId": "Q660346",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Italian_crested_newt",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 18,
+      "weightGMin": 15,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Con đực mùa sinh sản có mào lưng cao răng cưa và sọc trắng bạc dọc đuôi; con cái lớn hơn (tới 18 cm) và có sọc vàng dọc sống lưng."
+    },
+    "distribution": {
+      "countries": [
+        "IT",
+        "CH",
+        "AT"
+      ],
+      "nativeRangeVi": "Bán đảo Ý và sườn nam - đông dãy Alps",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ sâu có nhiều thực vật thủy sinh, đầm lầy và bể chứa nước đá truyền thống",
+      "Rừng lá rộng ẩm và đồng cỏ quanh ao hồ"
+    ],
+    "identificationVi": "Thân lớn khỏe, da lưng màu nâu đen hoặc xám sẫm với ít chấm trắng ở sườn hơn loài T. cristatus. Mặt bụng màu vàng tươi hoặc vàng cam có các mảng đốm tròn màu đen mờ viền xám. Con cái và con non thường có đường sọc mảnh màu vàng sáng chạy dọc giữa sống lưng.",
+    "behaviorVi": "Gắn bó với môi trường nước lâu hơn các loài sa giông mào khác, trong điều kiện bể mát có thể sống dưới nước gần như quanh năm.",
+    "reproductionVi": "Con đực múa quạt đuôi trước mặt con cái để dẫn con cái bước qua túi tinh (spermatophore) dưới đáy hồ.",
+    "threatsVi": [
+      "Thả cá ăn thịt vào các ao sinh sản và ô nhiễm hóa chất nông nghiệp"
+    ],
+    "funFactsVi": [
+      "So với các loài khác trong chi Triturus, sa giông mào Ý thích nghi với đời sống thủy sinh trong bể nuôi tốt nhất và rất dạn người.",
+      "Chiếc mào lưng của con đực giàu mạch máu nên đồng thời giúp tăng diện tích trao đổi oxy dưới nước trong lúc biểu diễn tán tỉnh."
+    ],
+    "similarSpecies": [
+      "Triturus marmoratus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Bể bán cạn 80% diện tích nước sâu 20–25 cm trồng nhiều rong đuôi chó, ráy và 20% đảo gỗ bần nổi.",
+      "lightingVi": "Đèn LED bể thủy sinh mát",
+      "feedingVi": "Giun đất, trùn huyết đông lạnh, cám viên chìm cho sa giông/Axolotl",
+      "socialVi": "Nuôi cặp hoặc nhóm nhỏ cùng kích cỡ",
+      "commonProblemsVi": [
+        "Nấm thủy mi nếu nước dơ hoặc quá ấm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Mào Ý (Triturus carnifex) CB",
+        "priceVnd": 1450000,
+        "descriptionVi": "Sa giông mào Ý CB khỏe khoắn, sống tốt trong bể thủy sinh mát có đảo nổi."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Benny Trapp Triturus carnifex.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Benny_Trapp_Triturus_carnifex.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Benny_Trapp_Triturus_carnifex.jpg",
+        "width": 4256,
+        "height": 2832,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Benny Trapp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Triturus carnifex.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Triturus_carnifex.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Triturus_carnifex.jpg",
+        "width": 683,
+        "height": 1024,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "author": "Christian Herzog",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Triturus carnifex Sao Miguel.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Triturus_carnifex_Sao_Miguel.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Triturus_carnifex_Sao_Miguel.jpg",
+        "width": 3859,
+        "height": 2430,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tristan He",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alpen Kammmolch, Triturus carnifex 3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpen_Kammmolch,_Triturus_carnifex_3.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Alpen_Kammmolch%2C_Triturus_carnifex_3.JPG",
+        "width": 3635,
+        "height": 2517,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Böhringer Friedrich",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431887",
+      "https://www.iucnredlist.org/species/214696589/264468745",
+      "https://en.wikipedia.org/wiki/Italian_crested_newt"
+    ]
+  },
+  {
+    "scientificName": "Ichthyosaura alpestris",
+    "commonNameVi": "Sa Giông Núi Cao",
+    "commonNameEn": "Alpine newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Ichthyosaura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông núi cao (Ichthyosaura)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/59472/228183943",
+    "gbifKey": 2431783,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 20,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 12,
+      "waterTempMax": 20,
+      "phMin": 6.5,
+      "phMax": 7.6,
+      "habitatVi": "Ao rừng mát, hồ băng tan trên núi cao và các suối chảy chậm"
+    },
+    "descriptionVi": "Loài sa giông tuyệt đẹp của vùng núi châu Âu với mặt lưng xanh lam đá phiến, sườn lốm đốm bạc đen như da báo và chiếc bụng màu cam lửa rực rỡ không một vết đốm.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố rộng khắp Trung Âu và các dãy núi Nam Âu.",
+    "pullQuoteVi": "Trong mùa sinh sản dưới làn nước suối trong vắt, sa giông đực khoác lên màu xanh lam coban lấp lánh cạnh chiếc bụng cam rực rỡ.",
+    "dietVi": "Ăn giun đỏ, bo bo, ấu trùng muỗi, giun đất nhỏ và côn trùng nhỏ",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Trung, Tây và Đông Nam châu Âu (từ Pháp, Bỉ, Đức qua dãy Alps và Carpathian tới Hy Lạp)",
+    "otherNamesVi": [
+      "Sa giông Alps",
+      "Mesotriton alpestris"
+    ],
+    "synonyms": [
+      "Gecko gyrinoides",
+      "Hemitriton alpestris",
+      "Ichthyosaura alpestris alpestris",
+      "Ichthyosaura alpestris apuana"
+    ],
+    "wikidataId": "Q282715",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ichthyosaura_alpestris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Alpine_newt",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 12,
+      "weightGMin": 6,
+      "weightGMax": 14,
+      "heightCmMax": null,
+      "noteVi": "Con đực dài 8–9 cm với lưng xanh lam tươi, mào lưng thấp vằn vàng-đen và sườn chấm đen trên nền trắng bạc; con cái dài 10–12 cm với vân cẩm thạch xám xanh."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "CH",
+        "AT",
+        "IT",
+        "PL",
+        "RO",
+        "GR"
+      ],
+      "nativeRangeVi": "Trung Âu và các vùng núi Nam - Đông Nam Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Ao rừng mát, hồ băng tan trên núi cao và các suối chảy chậm",
+      "Rừng lá rộng và rừng hỗn giao ẩm quanh thủy vực"
+    ],
+    "identificationVi": "Toàn bộ mặt bụng và cổ họng có màu cam đỏ hoặc cam tươi thuần nhất (hầu như không có đốm đen ở giữa bụng). Con đực mùa sinh sản có mặt lưng màu xanh lam coban và dải sườn màu trắng bạc điểm các chấm đen tròn đều. Mào lưng của con đực thấp, nhẵn không xẻ răng cưa và có các vạch vàng-đen xen kẽ.",
+    "behaviorVi": "Thích nghi với nước lạnh rất tốt, hoạt động linh hoạt dưới đáy ao và giữa các khóm cây thủy sinh.",
+    "reproductionVi": "Giao phối dưới nước vào mùa xuân; con cái đẻ 100–300 trứng gói từng quả trong lá cây thủy sinh.",
+    "threatsVi": [
+      "Thả cá hồi và cá ăn thịt vào các hồ núi cao tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ở một số hồ sâu trên núi cao vùng Balkan, nhiều quần thể sa giông núi cao giữ nguyên mang ngoài (paedomorphosis) và sống trọn đời dưới nước.",
+      "Sự phối hợp ba màu xanh lam coban, trắng bạc chấm đen và bụng cam lửa khiến chúng được mệnh danh là loài sa giông có màu sắc đẹp nhất châu Âu."
+    ],
+    "similarSpecies": [
+      "Lissotriton vulgaris"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Bể bán cạn mát với 70% nước sâu 15–20 cm trồng nhiều rêu Java, rong thủy sinh và 30% đảo nổi vỏ bần.",
+      "lightingVi": "Đèn LED bể thủy sinh mát dịu",
+      "feedingVi": "Giun đất nhỏ, trùn huyết đông lạnh, bo bo, cám viên chìm nhỏ",
+      "socialVi": "Rất hiền lành, nuôi nhóm 3–5 cá thể cùng loài",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nước vượt quá 22°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Núi Cao Xanh Lam (Ichthyosaura alpestris apuana) CB",
+        "priceVnd": 1650000,
+        "descriptionVi": "Phân loài Apuana sống thủy sinh tốt, lưng xanh lam bụng cam đỏ rực rỡ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Alpine newt - Ichthyosaura alpestris (27202439667).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpine_newt_-_Ichthyosaura_alpestris_(27202439667).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Alpine_newt_-_Ichthyosaura_alpestris_%2827202439667%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Alpine newt.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpine_newt.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Alpine_newt.JPG",
+        "width": 2121,
+        "height": 2293,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "N p holmes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Alpine newt simming (Ichthyosaura alpestris).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpine_newt_simming_(Ichthyosaura_alpestris).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Alpine_newt_simming_%28Ichthyosaura_alpestris%29.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrea massagli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2016 07 18 Ichthyosaura alpestris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2016_07_18_Ichthyosaura_alpestris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/2016_07_18_Ichthyosaura_alpestris.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Slimguy",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431783",
+      "https://www.iucnredlist.org/species/59472/228183943",
+      "https://en.wikipedia.org/wiki/Alpine_newt",
+      "https://vi.wikipedia.org/wiki/Ichthyosaura_alpestris"
+    ]
+  },
+  {
+    "scientificName": "Lissotriton vulgaris",
+    "commonNameVi": "Sa Giông Thường Châu Âu",
+    "commonNameEn": "Smooth Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Lissotriton"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông thân nhẵn (Lissotriton)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/79078647/229006372",
+    "gbifKey": 5218405,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 21,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 14,
+      "waterTempMax": 20,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Ao vườn, đầm lầy cỏ, mương nước tĩnh và rừng ẩm"
+    },
+    "descriptionVi": "Loài sa giông nhỏ nhắn phổ biến nhất châu Âu với những đường sọc đen chạy qua mắt, chiếc mào lưng lượn sóng mềm mại ở con đực mùa xuân và bụng cam điểm đốm tròn đen.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) với phạm vi phân bố cực rộng từ quần đảo Anh tới tận Tây Siberia.",
+    "pullQuoteVi": "Chiếc mào lưng uốn lượn như làn sóng nước giúp các chàng sa giông đực phô diễn sức quyến rũ trong những ao vườn mùa xuân.",
+    "dietVi": "Ăn bo bo, ấu trùng muỗi, giun nhỏ, sên nhỏ và bọ nhảy trên cạn",
+    "lifespanVi": "6–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền nam nước Anh",
+      "lat": 51.5,
+      "lng": -0.12
+    },
+    "regionVi": "Hầu khắp châu Âu (trừ bán đảo Iberia và nam Ý) kéo dài tới Tây Siberia và vùng Kavkaz",
+    "otherNamesVi": [
+      "Sa giông nhẵn",
+      "Triturus vulgaris"
+    ],
+    "synonyms": [
+      "Gecko aquaticus",
+      "Gecko triton",
+      "Gekko triedrus",
+      "Hydromantes genei ferrugineus"
+    ],
+    "wikidataId": "Q215247",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lissotriton_vulgaris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Smooth_newt",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 11,
+      "weightGMin": 3,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con đực mùa sinh sản có mào lưng lượn sóng liền mạch từ đầu tới đuôi, bàn chân sau có thùy da và đốm đen to tròn; con cái không có mào."
+    },
+    "distribution": {
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "PL",
+        "SE",
+        "FI",
+        "AT",
+        "HU",
+        "RU"
+      ],
+      "nativeRangeVi": "Bắc, Tây, Trung và Đông Âu sang Tây Siberia",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Ao vườn, đầm lầy cỏ, mương nước tĩnh và rừng ẩm",
+      "Đồng cỏ và vườn cây có nhiều gỗ đá ẩm để trú ẩn trên cạn"
+    ],
+    "identificationVi": "Cơ thể nhỏ thon, đầu có các đường sọc sẫm chạy dọc qua hai mắt. Mặt lưng màu nâu vàng hoặc nâu ô-liu; mặt bụng có dải màu cam đỏ ở giữa kèm các đốm đen tròn. Mào lưng con đực mùa sinh sản chạy liên tục không bị đứt quãng ở gốc đuôi.",
+    "behaviorVi": "Mùa xuân sống dưới ao đầm, từ giữa mùa hè chuyển sang sống trên cạn với làn da khô mịn như nhung để săn côn trùng nhỏ trong đám cỏ ẩm.",
+    "reproductionVi": "Con cái đẻ 100–300 trứng, dùng chân sau gấp từng chiếc lá thủy sinh bọc kín từng quả trứng.",
+    "threatsVi": [
+      "San lấp ao hồ nhỏ trong khu dân cư"
+    ],
+    "funFactsVi": [
+      "Là loài sa giông duy nhất bản địa tại đảo Ireland.",
+      "Khi chuyển từ giai đoạn sống dưới nước sang sống trên cạn vào mùa hè, lớp da của chúng thay đổi cấu trúc trở nên mịn khô và không thấm nước."
+    ],
+    "similarSpecies": [
+      "Lissotriton helveticus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Hồ bán cạn 50% nước nông nhiều cây thủy sinh và 50% bờ đất rêu ẩm.",
+      "lightingVi": "Đèn LED chiếu sáng cho rêu và cây thủy sinh",
+      "feedingVi": "Trùn chỉ/trùn huyết sạch, bo bo, giun đất cắt nhỏ, bọ nhảy",
+      "socialVi": "Nuôi nhóm 3–6 cá thể rất hòa thuận",
+      "commonProblemsVi": [
+        "Stress nếu nhiệt độ vượt 23°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Thường Châu Âu (Lissotriton vulgaris) CB",
+        "priceVnd": 750000,
+        "descriptionVi": "Sa giông châu Âu nhỏ nhắn, hiền lành, thích hợp hồ paludarium mát."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gruga-0068.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gruga-0068.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gruga-0068.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Björn Sothmann",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20181013 Klein Leeuwenhorst - Lissotriton vulgaris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20181013_Klein_Leeuwenhorst_-_Lissotriton_vulgaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/20181013_Klein_Leeuwenhorst_-_Lissotriton_vulgaris.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Fosse Houssen Lissotriton vulgaris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fosse_Houssen_Lissotriton_vulgaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Fosse_Houssen_Lissotriton_vulgaris.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylototriton",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Canon 20110926a salamandre, à dampierre-st.nic. IMG 0010.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Canon_20110926a_salamandre,_%C3%A0_dampierre-st.nic._IMG_0010.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Canon_20110926a_salamandre%2C_%C3%A0_dampierre-st.nic._IMG_0010.JPG",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Thierry DERAS",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218405",
+      "https://www.iucnredlist.org/species/79078647/229006372",
+      "https://en.wikipedia.org/wiki/Smooth_newt",
+      "https://vi.wikipedia.org/wiki/Lissotriton_vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Lissotriton helveticus",
+    "commonNameVi": "Sa Giông Chân Màng",
+    "commonNameEn": "Palmate Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Lissotriton"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông thân nhẵn (Lissotriton)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/59475/228185144",
+    "gbifKey": 5218410,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 21,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 14,
+      "waterTempMax": 20,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Ao rừng, đầm lầy đất chua (heathland ponds) và các vũng nước suối đồi"
+    },
+    "descriptionVi": "Loài sa giông nhỏ của miền Tây Âu có thân hình hơi vuông vức, đôi bàn chân sau có màng bơi đen xòe rộng và một sợi tơ mảnh kéo dài ở chóp đuôi con đực mùa sinh sản.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố rộng khắp Tây Âu từ đảo Anh và Pháp xuống bắc bán đảo Iberia.",
+    "pullQuoteVi": "Đôi bàn chân sau căng màng đen như chân vịt cùng sợi chỉ mảnh nơi chóp đuôi là bộ lễ phục mùa xuân độc nhất của sa giông đực.",
+    "dietVi": "Ăn giáp xác nhỏ dưới nước, ấu trùng muỗi, giun đất nhỏ, bọ nhảy và ruồi giấm",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền nam nước Anh",
+      "lat": 51.5,
+      "lng": -0.12
+    },
+    "regionVi": "Tây Âu: Anh, Pháp, Bỉ, Hà Lan, tây Đức, Thụy Sĩ và bắc Tây Ban Nha, Bồ Đào Nha",
+    "otherNamesVi": [
+      "Sa giông đuôi chỉ",
+      "Triturus helveticus"
+    ],
+    "synonyms": [
+      "Diemictylus palmatus",
+      "Lacerta helvetica",
+      "Lacerta paradoxa",
+      "Lacerta paradoxa helvetica"
+    ],
+    "wikidataId": "Q138526",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sa_gi%C3%B4ng_ch%C3%A2n_m%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Palmate_newt",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 6.5,
+      "lengthCmMax": 9.5,
+      "weightGMin": 2.5,
+      "weightGMax": 6,
+      "heightCmMax": null,
+      "noteVi": "Con đực mùa sinh sản có màng bơi màu đen nối các ngón chân sau, hai gờ lưng làm thân có tiết diện hơi vuông và một sợi chỉ mảnh dài 4–8 mm ở chóp đuôi."
+    },
+    "distribution": {
+      "countries": [
+        "GB",
+        "FR",
+        "BE",
+        "NL",
+        "DE",
+        "CH",
+        "ES",
+        "PT"
+      ],
+      "nativeRangeVi": "Khu vực Tây Âu từ đảo Anh tới bắc bán đảo Iberia",
+      "elevationM": {
+        "min": 0,
+        "max": 2400
+      }
+    },
+    "habitatTypesVi": [
+      "Ao rừng, đầm lầy đất chua (heathland ponds) và các vũng nước suối đồi",
+      "Rừng lá rộng và đồng cỏ ẩm Tây Âu"
+    ],
+    "identificationVi": "Là một trong những loài sa giông nhỏ nhất châu Âu (dưới 9,5 cm). Cổ họng màu hồng nhạt hoặc trắng kem hoàn toàn không có đốm đen (đặc điểm phân biệt với L. vulgaris). Con đực mùa xuân có màng chân sau màu đen rõ và chóp đuôi cụt đột ngột rồi kéo dài thành một sợi tơ mảnh.",
+    "behaviorVi": "Chịu được các thủy vực có độ pH hơi chua tốt hơn các loài sa giông châu Âu khác; bơi lội nhanh nhẹn giữa các bụi cỏ nước.",
+    "reproductionVi": "Giao phối dưới nước vào mùa xuân; con cái đẻ 150–300 trứng gắn từng quả vào lá cây thủy sinh.",
+    "threatsVi": [
+      "Mất các đầm lầy đất thạch nam tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sợi chỉ mảnh ở chóp đuôi con đực rung động liên tục với tần số cao khi quạt nước, giúp khuếch tán pheromone dẫn dụ con cái hiệu quả hơn.",
+      "Cổ họng trắng hồng không chấm đen giúp nhận diện cả con cái của loài này ngay ngoài thực địa."
+    ],
+    "similarSpecies": [
+      "Lissotriton vulgaris"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Hồ bán cạn 50% nước mát nhiều rêu Java và 50% bờ đất rừng ẩm.",
+      "lightingVi": "Đèn LED dịu mát cho rêu thủy sinh",
+      "feedingVi": "Bo bo, trùn chỉ sạch, giun đất nhỏ, bọ nhảy, ruồi giấm",
+      "socialVi": "Nuôi nhóm 3–6 cá thể hòa thuận",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ trên 23°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Chân Màng (Lissotriton helveticus) CB",
+        "priceVnd": 820000,
+        "descriptionVi": "Sa giông đuôi chỉ Tây Âu nhỏ nhắn, hiền hòa, khỏe mạnh."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fadenmolch (Lissotriton helveticus), Fagne de la Petite Roer, Sourbrodt (50311612318).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fadenmolch_(Lissotriton_helveticus),_Fagne_de_la_Petite_Roer,_Sourbrodt_(50311612318).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Fadenmolch_%28Lissotriton_helveticus%29%2C_Fagne_de_la_Petite_Roer%2C_Sourbrodt_%2850311612318%29.jpg",
+        "width": 5072,
+        "height": 3516,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bad Driburg - 2017-05-06 - Sachsenweg (12).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bad_Driburg_-_2017-05-06_-_Sachsenweg_(12).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Bad_Driburg_-_2017-05-06_-_Sachsenweg_%2812%29.jpg",
+        "width": 4000,
+        "height": 2667,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tsungam",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Lissotriton helveticus in a drinking pond for cattle (Lanestosa; Euskadi; Spain) (15958255818).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lissotriton_helveticus_in_a_drinking_pond_for_cattle_(Lanestosa;_Euskadi;_Spain)_(15958255818).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lissotriton_helveticus_in_a_drinking_pond_for_cattle_%28Lanestosa%3B_Euskadi%3B_Spain%29_%2815958255818%29.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Javier Ábalos Alvarez from Madrid, España",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bad Driburg - 2017-05-06 - Sachsenweg (11).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bad_Driburg_-_2017-05-06_-_Sachsenweg_(11).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bad_Driburg_-_2017-05-06_-_Sachsenweg_%2811%29.jpg",
+        "width": 4000,
+        "height": 2667,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tsungam",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:IMG 0135xweb.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:IMG_0135xweb.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/IMG_0135xweb.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "LOISEAU Samuel",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218410",
+      "https://www.iucnredlist.org/species/59475/228185144",
+      "https://en.wikipedia.org/wiki/Palmate_newt",
+      "https://vi.wikipedia.org/wiki/Sa_gi%C3%B4ng_ch%C3%A2n_m%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Pleurodeles waltl",
+    "commonNameVi": "Sa Giông Sườn Gai Iberia",
+    "commonNameEn": "Sharp-ribbed Salamander",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Pleurodeles"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Sa giông sườn gai (Pleurodeles)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/59463/89708437",
+    "gbifKey": 2431875,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 15,
+      "waterTempMax": 24,
+      "phMin": 6.8,
+      "phMax": 8,
+      "habitatVi": "Ao hồ sâu, bể chứa nước truyền thống, đầm lầy và các đoạn suối chảy chậm"
+    },
+    "descriptionVi": "Loài sa giông lớn nhất châu Âu bản địa bán đảo Iberia và Maroc, nổi tiếng với cơ chế tự vệ có một không hai: đâm đầu xương sườn nhọn xuyên qua các nốt cam dọc hai bên sườn.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố ở Tây Ban Nha, Bồ Đào Nha và Maroc, đồng thời rất phổ biến và dễ sinh sản trong bể thủy sinh.",
+    "pullQuoteVi": "Khi bị kẻ săn mồi ngoạm chặt, chúng uốn cong cơ thể đẩy các đầu xương sườn sắc nhọn xuyên qua tuyến độc màu cam dọc hai bên hông.",
+    "dietVi": "Ăn giun đất, cá nhỏ, tôm tép, côn trùng nước, ốc nước và thức ăn viên chìm",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Bán đảo Iberia, Tây Ban Nha",
+      "lat": 40.42,
+      "lng": -3.7
+    },
+    "regionVi": "Trung và nam bán đảo Iberia (Tây Ban Nha, Bồ Đào Nha) và dải đồng bằng ven biển bắc Maroc",
+    "otherNamesVi": [
+      "Sa giông xương sườn nhọn"
+    ],
+    "synonyms": [
+      "Bradybates ventricosus",
+      "Pleurodeles exasperatus",
+      "Salamandra fenestrata",
+      "Salamandra funebris"
+    ],
+    "wikidataId": "Q534989",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sa_gi%C3%B4ng_g%C3%A2n_T%C3%A2y_Ban_Nha",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Iberian_ribbed_newt",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 30,
+      "weightGMin": 35,
+      "weightGMax": 90,
+      "heightCmMax": null,
+      "noteVi": "Con đực có cánh tay trước to khỏe với miếng đệm chai đen ở mặt trong cánh tay để ôm giữ con cái từ phía dưới."
+    },
+    "distribution": {
+      "countries": [
+        "ES",
+        "PT"
+      ],
+      "nativeRangeVi": "Bán đảo Iberia và tây bắc Maroc",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ sâu, bể chứa nước truyền thống, đầm lầy và các đoạn suối chảy chậm",
+      "Thủy vực có nhiều cây cỏ thủy sinh"
+    ],
+    "identificationVi": "Cơ thể lớn và dẹt, đầu rộng bè với đôi mắt nhỏ hướng lên trên, đuôi dài bằng nửa tổng chiều dài thân. Da lưng sần sùi màu xám nâu hoặc nâu ô-liu điểm các vệt đen. Dọc hai bên sườn có hàng 7–10 nốt mụn tròn màu vàng cam hoặc đỏ gạch tương ứng với vị trí các đầu xương sườn bên trong.",
+    "behaviorVi": "Sống gần như hoàn toàn dưới nước quanh năm; chỉ bò lên cạn trốn dưới đá ẩm khi ao hồ khô cạn vào mùa hè hạn hán.",
+    "reproductionVi": "Con đực luồn xuống dưới bụng con cái và dùng hai tay trước ngoắc chặt lấy tay con cái bơi đi suốt nhiều giờ trước khi trao túi tinh.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước nông nghiệp và tôm hùm đất ngoại lai tại Tây Ban Nha"
+    ],
+    "funFactsVi": [
+      "Sau khi đầu xương sườn đâm xuyên qua các nốt da màu cam để tẩm độc tự vệ, vết thương nhỏ trên da sa giông tự lành lại nhanh chóng mà không hề nhiễm trùng.",
+      "Loài sa giông này đã nhiều lần được đưa lên trạm vũ trụ Mir và tàu sinh học Bion để nghiên cứu tái tạo mô và sinh sản ngoài không gian."
+    ],
+    "similarSpecies": [
+      "Triturus carnifex"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Bể thủy sinh nước sâu 25–35 cm trải cát mịn hoặc để đáy trơn kèm lũa, ống gốm và cây ráy.",
+      "lightingVi": "Đèn LED bể cá/thủy sinh 8–10 giờ/ngày",
+      "feedingVi": "Giun đất, tép nhỏ, trùn huyết và viên cám chìm cho cá ăn đáy/Axolotl",
+      "socialVi": "Hòa thuận, nuôi được theo cặp hoặc nhóm 2–4 cá thể cùng cỡ trong bể rộng",
+      "commonProblemsVi": [
+        "Hiếm khi mắc bệnh, rất khỏe và háu ăn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; lưu hành rộng rãi nguồn CB (cả màu tự nhiên và dòng Leucistic trắng)."
+    },
+    "products": [
+      {
+        "nameVi": "Sa Giông Sườn Gai Iberia (Pleurodeles waltl) CB",
+        "priceVnd": 650000,
+        "descriptionVi": "Sa giông thủy sinh cỡ lớn khỏe mạnh, ăn cám chìm và giun đất cực tốt."
+      },
+      {
+        "nameVi": "Sa Giông Sườn Gai Trắng Hồng (Pleurodeles waltl Leucistic) CB",
+        "priceVnd": 850000,
+        "descriptionVi": "Dòng Leucistic trắng hồng mắt đen nổi bật trong bể thủy sinh nền tối."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pleurodèle de Waltl (3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pleurod%C3%A8le_de_Waltl_(3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pleurod%C3%A8le_de_Waltl_%283%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Iberian ribbed newt (Pleurodeles waltl) at the California Academy of Sciences 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iberian_ribbed_newt_(Pleurodeles_waltl)_at_the_California_Academy_of_Sciences_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Iberian_ribbed_newt_%28Pleurodeles_waltl%29_at_the_California_Academy_of_Sciences_02.jpg",
+        "width": 4032,
+        "height": 1960,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "EvanBaldonado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Pleurodeles waltl 02 by-dpc.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pleurodeles_waltl_02_by-dpc.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pleurodeles_waltl_02_by-dpc.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "David Perez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Iberian ribbed newt (Pleurodeles waltl) at the California Academy of Sciences 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iberian_ribbed_newt_(Pleurodeles_waltl)_at_the_California_Academy_of_Sciences_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Iberian_ribbed_newt_%28Pleurodeles_waltl%29_at_the_California_Academy_of_Sciences_01.jpg",
+        "width": 4032,
+        "height": 1960,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "EvanBaldonado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gallipatosloja.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gallipatosloja.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Gallipatosloja.JPG",
+        "width": 2272,
+        "height": 1704,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Menesteo",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431875",
+      "https://www.iucnredlist.org/species/59463/89708437",
+      "https://en.wikipedia.org/wiki/Iberian_ribbed_newt",
+      "https://vi.wikipedia.org/wiki/Sa_gi%C3%B4ng_g%C3%A2n_T%C3%A2y_Ban_Nha"
+    ]
+  },
+  {
+    "scientificName": "Paramesotriton hongkongensis",
+    "commonNameVi": "Cá Cóc Hồng Kông",
+    "commonNameEn": "Hong Kong Warty Newt",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Paramesotriton"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông thực (Salamandridae)",
+      "genus": "Chi Cá cóc suối (Paramesotriton)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/59460/63873529",
+    "gbifKey": 2431847,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 15,
+      "waterTempMax": 22,
+      "phMin": 6.5,
+      "phMax": 7.6,
+      "habitatVi": "Vũng nước tĩnh sâu (stream pools) trong các con suối đá rừng núi sạch mát"
+    },
+    "descriptionVi": "Loài cá cóc suối núi vùng duyên hải tỉnh Quảng Đông và Hồng Kông với làn da sần cứng màu nâu hạt dẻ, các gờ xương nổi rõ trên đầu và mặt bụng đốm cam đỏ rực rỡ.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và được bảo vệ sinh cảnh suối rừng tại các công viên đồng quê của Hồng Kông.",
+    "pullQuoteVi": "Những gờ xương góc cạnh trên hộp sọ cùng tấm lưng nâu gồ ghề giúp cá cóc Hồng Kông hòa mình hoàn hảo vào đáy suối đá vùng Lĩnh Nam.",
+    "dietVi": "Ăn tôm suối nhỏ, giun đất, ấu trùng chuồn chuồn, ốc nhỏ và côn trùng rơi xuống suối",
+    "lifespanVi": "10–18 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Trường Giang, Trung Quốc",
+      "lat": 30.59,
+      "lng": 114.3
+    },
+    "regionVi": "Đặc hữu vùng Hồng Kông và các huyện ven biển lân cận thuộc tỉnh Quảng Đông (Trung Quốc)",
+    "otherNamesVi": [
+      "Sa giông mụn Hồng Kông"
+    ],
+    "synonyms": [
+      "Paramesotriton chinensis hongkongensis",
+      "Trituroides hongkongensis"
+    ],
+    "wikidataId": "Q2275134",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_c%C3%B3c_H%E1%BB%93ng_K%C3%B4ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hong_Kong_warty_newt",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 11,
+      "lengthCmMax": 15,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Mùa sinh sản mùa đông, con đực xuất hiện một dải sọc màu xanh trắng óng ánh chạy dọc hai bên đuôi."
+    },
+    "distribution": {
+      "countries": [
+        "CN"
+      ],
+      "nativeRangeVi": "Đặc khu Hồng Kông và vùng ven biển nam Quảng Đông (Thâm Quyến, Huệ Châu)",
+      "elevationM": {
+        "min": 20,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Vũng nước tĩnh sâu (stream pools) trong các con suối đá rừng núi sạch mát",
+      "Khe đá cuội và thảm lá rụng dưới đáy suối"
+    ],
+    "identificationVi": "Da lưng sần nhám màu nâu sẫm hoặc nâu ô-liu với một gờ sống lưng nổi cao rõ. Đầu dẹt có hai gờ xương chạy dọc hai bên đỉnh đầu nối tới tuyến mang tai tạo dáng góc cạnh. Mặt bụng màu đen xám điểm các mảng đốm lớn màu cam đỏ tươi và rìa dưới đuôi màu cam.",
+    "behaviorVi": "Thích bò chậm rãi dưới đáy các vũng suối đá mát có nhiều lá mục; có tính bảo vệ lãnh thổ dưới các hốc đá.",
+    "reproductionVi": "Sinh sản vào mùa đông mát mẻ (từ tháng 11 đến tháng 3); con cái đẻ từng quả trứng kẹp vào khe lá cây hoặc rễ cây ngập nước.",
+    "threatsVi": [
+      "Bê tông hóa lòng suối và thu bắt trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với các loài sa giông ôn đới ngủ đông, cá cóc Hồng Kông lại bước vào cao điểm giao phối và đẻ trứng ngay trong những tháng mùa đông khi nước suối mát nhất.",
+      "Da của chúng chứa một lượng nhỏ độc tố tetrodotoxin giúp xua đuổi cá suối và rắn nước săn mồi."
+    ],
+    "similarSpecies": [
+      "Cynops pyrrhogaster"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Bể suối đá cuội nhẵn nhiều hang đá trú ẩn, lũa và cây ráy thủy sinh với phần đảo đá nhô lên mặt nước.",
+      "lightingVi": "Đèn LED dịu mô phỏng suối rừng rợp bóng",
+      "feedingVi": "Giun đất nhỏ, tép tươi bóc vỏ, trùn huyết đông lạnh và cám chìm",
+      "socialVi": "Bố trí nhiều hang đá riêng biệt cho từng cá thể vì có tính lãnh thổ nhẹ khi ăn",
+      "commonProblemsVi": [
+        "Nấm da nếu nhiệt độ nước vượt quá 24°C vào mùa hè"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; giao dịch cá thể nhân giống nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Cóc Hồng Kông (Paramesotriton hongkongensis) CB",
+        "priceVnd": 980000,
+        "descriptionVi": "Cá cóc suối Hồng Kông CB khỏe mạnh, bụng đốm cam đỏ rõ nét, ăn trùn huyết và giun tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Paramesotriton hongkongensis - Casa de las Ciencias.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paramesotriton_hongkongensis_-_Casa_de_las_Ciencias.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Paramesotriton_hongkongensis_-_Casa_de_las_Ciencias.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fernando Losada Rodríguez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Paramesotriton sp. - 20090511.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paramesotriton_sp._-_20090511.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Paramesotriton_sp._-_20090511.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Kokopellli .",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hong Kong Newt (Paramesotriton hongkongensis) 香港瘰螈.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Newt_(Paramesotriton_hongkongensis)_%E9%A6%99%E6%B8%AF%E7%98%B0%E8%9E%88.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hong_Kong_Newt_%28Paramesotriton_hongkongensis%29_%E9%A6%99%E6%B8%AF%E7%98%B0%E8%9E%88.jpg",
+        "width": 683,
+        "height": 1024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hong Kong Newt 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Newt_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hong_Kong_Newt_1.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lokionly from zh.wikipedia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hong Kong Newt (Paramesotriton hongkongensis) 香港瘰螈 & Asian Common Toad (Duttaphrynus melanostictus) 黑眶蟾蜍 (6165490886).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Newt_(Paramesotriton_hongkongensis)_%E9%A6%99%E6%B8%AF%E7%98%B0%E8%9E%88_%26_Asian_Common_Toad_(Duttaphrynus_melanostictus)_%E9%BB%91%E7%9C%B6%E8%9F%BE%E8%9C%8D_(6165490886).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hong_Kong_Newt_%28Paramesotriton_hongkongensis%29_%E9%A6%99%E6%B8%AF%E7%98%B0%E8%9E%88_%26_Asian_Common_Toad_%28Duttaphrynus_melanostictus%29_%E9%BB%91%E7%9C%B6%E8%9F%BE%E8%9C%8D_%286165490886%29.jpg",
+        "width": 683,
+        "height": 1024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Brown",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431847",
+      "https://www.iucnredlist.org/species/59460/63873529",
+      "https://en.wikipedia.org/wiki/Hong_Kong_warty_newt",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_c%C3%B3c_H%E1%BB%93ng_K%C3%B4ng"
+    ]
+  }
+]

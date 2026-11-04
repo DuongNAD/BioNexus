@@ -1,0 +1,3711 @@
+[
+  {
+    "scientificName": "Gopherus polyphemus",
+    "commonNameVi": "Rùa Đất Gopher",
+    "commonNameEn": "Gopher Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Gopherus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Gopherus"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/9403/3151418",
+    "gbifKey": 2441812,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 32,
+      "baskMin": 33,
+      "baskMax": 37,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cát rừng thông lá dài và đồng cỏ ven biển Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rùa cạn chốt chặn sinh thái của miền Đông Nam Hoa Kỳ, nổi tiếng với những đường hầm dài tới 12 mét làm nơi trú ngụ cho hơn 350 loài động vật khác.",
+    "conservationNoteVi": "Xếp mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và được bảo vệ nghiêm ngặt tại Hoa Kỳ do mất rừng thông lá dài.",
+    "pullQuoteVi": "Một cái hang của rùa đất Gopher là ngôi nhà chung cứu mạng cho hơn 350 loài sinh vật từ rắn chàm, ếch gopher đến cú đào hang khi cháy rừng quét qua.",
+    "dietVi": "Động vật ăn thực vật: cỏ dây (wiregrass), các loài đậu dại, lá thông non, xương rồng lê gai và quả mọng rụng.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Florida, Hoa Kỳ",
+      "lat": 28.6,
+      "lng": -81.5
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa đào hang Florida"
+    ],
+    "synonyms": [
+      "Gopherus polyphemus polyphemus",
+      "Gopherus praecedens",
+      "Testudo depressa",
+      "Testudo gopher"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gopherus_polyphemus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gopher_tortoise",
+    "iucnAssessedYear": 2026,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 23,
+      "lengthCmMax": 35,
+      "weightGMin": 3500,
+      "weightGMax": 6500,
+      "heightCmMax": null,
+      "noteVi": "Chân trước dẹt rộng như xẻng đào đất"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đồng bằng ven biển Đông Nam Hoa Kỳ từ cực nam Nam Carolina, Georgia, toàn bộ Florida qua Alabama, Mississippi đến đông Louisiana",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông lá dài đồi cát",
+      "Trảng cỏ sồi cát",
+      "Cồn cát ven biển"
+    ],
+    "identificationVi": "Mai thuôn dài màu nâu xám hoặc nâu sẫm đồng nhất không có hoa văn sáng; hai chân trước dẹt to phủ vảy cứng như lưỡi xẻng.",
+    "behaviorVi": "Đào các hang sâu trung bình 4,5 mét và rộng tới 12 mét trong đất cát thoát nước tốt để duy trì nhiệt độ và độ ẩm ổn định quanh năm.",
+    "reproductionVi": "Đẻ 5–9 trứng tròn ngay trên gò cát cửa hang vào cuối xuân, trứng nở sau 80–110 ngày.",
+    "threatsVi": [
+      "Đô thị hóa nhanh tại Florida làm mất rừng thông cát",
+      "Bệnh nhiễm trùng đường hô hấp trên"
+    ],
+    "funFactsVi": [
+      "Nhờ vai trò sống còn đối với hơn 350 loài cộng sinh trong hang, rùa Gopher được các nhà sinh thái học công nhận là loài chủ chốt (keystone species) điển hình nhất Bắc Mỹ."
+    ],
+    "similarSpecies": [
+      "Gopherus agassizii",
+      "Gopherus berlandieri"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài nguy cấp được bảo vệ nghiêm ngặt cấp Liên bang và Tiểu bang tại Hoa Kỳ, cấm thương mại tự do, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gopher Tortoise - Gopherus polyphemus, Lake June-in-Winter Scrub State Park, Lake Placid, Florida - 31527638716.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Tortoise_-_Gopherus_polyphemus,_Lake_June-in-Winter_Scrub_State_Park,_Lake_Placid,_Florida_-_31527638716.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gopher_Tortoise_-_Gopherus_polyphemus%2C_Lake_June-in-Winter_Scrub_State_Park%2C_Lake_Placid%2C_Florida_-_31527638716.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gopher Tortoise at Smyrna Dunes Park - Andrea Westmoreland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Tortoise_at_Smyrna_Dunes_Park_-_Andrea_Westmoreland.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Gopher_Tortoise_at_Smyrna_Dunes_Park_-_Andrea_Westmoreland.jpg",
+        "width": 2744,
+        "height": 2800,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Andrea Westmoreland from DeLand, United States",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:A small gopher tortoise on the forest floor. (d906b593-9e1d-4d98-a0c5-71d7e70c7a52).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_small_gopher_tortoise_on_the_forest_floor._(d906b593-9e1d-4d98-a0c5-71d7e70c7a52).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/A_small_gopher_tortoise_on_the_forest_floor._%28d906b593-9e1d-4d98-a0c5-71d7e70c7a52%29.jpg",
+        "width": 1944,
+        "height": 1296,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS Photo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Foraging Florida Gopher Tortoise 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Foraging_Florida_Gopher_Tortoise_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Foraging_Florida_Gopher_Tortoise_001.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Clariosophic Stephen B Calvert",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gopher Tortoise 01, Reed Bingham State Park.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Tortoise_01,_Reed_Bingham_State_Park.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gopher_Tortoise_01%2C_Reed_Bingham_State_Park.JPG",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Michael Rivera",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441812",
+      "https://www.iucnredlist.org/species/9403/3151418",
+      "https://en.wikipedia.org/wiki/Gopher_tortoise",
+      "https://vi.wikipedia.org/wiki/Gopherus_polyphemus"
+    ]
+  },
+  {
+    "scientificName": "Gopherus berlandieri",
+    "commonNameVi": "Rùa Đất Texas",
+    "commonNameEn": "Texas Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Gopherus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Gopherus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/9401/12983179",
+    "gbifKey": 2441808,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 33,
+      "baskMin": 34,
+      "baskMax": 38,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ cây bụi gai chaparral và bán sa mạc ở Nam Texas và Đông Bắc Mexico"
+    },
+    "descriptionVi": "Loài nhỏ nhất trong nhóm rùa đất Bắc Mỹ chi Gopherus, không tự đào hang sâu mà chỉ khoét các hốc nông dưới những bụi xương rồng lê gai.",
+    "conservationNoteVi": "Đánh giá mức Ít quan tâm (LC) trên Sách Đỏ IUCN nhưng được xếp vào danh sách loài bị đe dọa được bảo vệ tại bang Texas (Hoa Kỳ).",
+    "pullQuoteVi": "Khác với những người anh em chuyên đào hầm sâu hàng chục mét, rùa đất Texas chỉ dùng mõm ủi một hố nông dưới gốc xương rồng để nghỉ qua buổi trưa nắng.",
+    "dietVi": "Động vật ăn thực vật: lá và quả chín xương rồng lê gai (Opuntia), cỏ khô và hoa dại bán sa mạc.",
+    "lifespanVi": "40–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thung lũng Rio Grande, Texas, Hoa Kỳ",
+      "lat": 26.2,
+      "lng": -98.23
+    },
+    "regionVi": "Nam Hoa Kỳ và Đông Bắc Mexico",
+    "otherNamesVi": [
+      "Rùa Berlandier"
+    ],
+    "synonyms": [
+      "Gopherus berlanderi",
+      "Scaptochelys berlandieri",
+      "Testudo bicolor",
+      "Testudo tuberculata"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gopherus_berlandieri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Texas_tortoise",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 22,
+      "weightGMin": 900,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ nhất trong chi Gopherus"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Nam Texas (Hoa Kỳ) kéo dài xuống các bang Coahuila, Nuevo León và Tamaulipas (Đông Bắc Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cây bụi gai mesquite và xương rồng",
+      "Đồng cỏ cát ven biển",
+      "Sườn đồi bán khô hạn"
+    ],
+    "identificationVi": "Mai vòm tròn ngắn màu nâu sẫm với tâm các tấm vảy màu vàng cam; vảy yếm ngực (gular) nhô dài và chẻ đôi hình chữ V dưới cổ ở con đực.",
+    "behaviorVi": "Thích nghi chặt chẽ với cây xương rồng lê gai Opuntia vừa làm nguồn nước uống, nguồn thức ăn chính vừa làm mái che nắng.",
+    "reproductionVi": "Chỉ đẻ 1–4 trứng thuôn dài mỗi lứa vào đầu mùa hè.",
+    "threatsVi": [
+      "Giải phóng mặt bằng làm nông trại và phát triển đô thị ở Nam Texas",
+      "Tử vong trên đường bộ"
+    ],
+    "funFactsVi": [
+      "Để tự vệ trước thú ăn thịt, rùa đất Texas có thể nghiêng người nâng cao một bên mai như một chiếc khiên chặn hướng tấn công của kẻ thù."
+    ],
+    "similarSpecies": [
+      "Gopherus agassizii",
+      "Gopherus polyphemus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Được luật pháp bang Texas và Mexico bảo vệ nghiêm ngặt, cấm thu bắt và buôn bán thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Texas Tortoise (close-up) Beeville TX June 2011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Texas_Tortoise_(close-up)_Beeville_TX_June_2011.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Texas_Tortoise_%28close-up%29_Beeville_TX_June_2011.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nancy Lawson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:At New York, USA 2017 350.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_New_York,_USA_2017_350.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/At_New_York%2C_USA_2017_350.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Scute of the carapace of a Texas tortoise Gopherus berlandieri.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Scute_of_the_carapace_of_a_Texas_tortoise_Gopherus_berlandieri.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Scute_of_the_carapace_of_a_Texas_tortoise_Gopherus_berlandieri.jpg",
+        "width": 2950,
+        "height": 4065,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Miguel Angel Omaña Rojas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dunas de Yeso, Cuatrociénegas, Coahuila (22757888709).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dunas_de_Yeso,_Cuatroci%C3%A9negas,_Coahuila_(22757888709).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dunas_de_Yeso%2C_Cuatroci%C3%A9negas%2C_Coahuila_%2822757888709%29.jpg",
+        "width": 2685,
+        "height": 3668,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Comisión Mexicana de Filmaciones from México D. F., México",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Texas Tortoise - Gopherus berlandieri.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Texas_Tortoise_-_Gopherus_berlandieri.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Texas_Tortoise_-_Gopherus_berlandieri.jpg",
+        "width": 2652,
+        "height": 1968,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Clinton & Charles Robertson from Del Rio, Texas & College Station, TX, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441808",
+      "https://www.iucnredlist.org/species/9401/12983179",
+      "https://en.wikipedia.org/wiki/Texas_tortoise",
+      "https://vi.wikipedia.org/wiki/Gopherus_berlandieri"
+    ]
+  },
+  {
+    "scientificName": "Trachemys scripta",
+    "commonNameVi": "Rùa Tai Đỏ",
+    "commonNameEn": "Pond Slider",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Trachemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Trachemys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22028/97429935",
+    "gbifKey": 2443002,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 22,
+      "waterTempMax": 27,
+      "phMin": 6.5,
+      "phMax": 8,
+      "habitatVi": "Sông chậm, hồ nước ngọt, đầm lầy và ao có nhiều khúc gỗ phơi nắng ở Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rùa đầm Bắc Mỹ nổi tiếng với vệt sọc đỏ hoặc vàng tươi sau mắt, từng được nuôi phổ biến nhưng nay nằm trong danh sách 100 loài ngoại lai xâm hại nguy hiểm nhất thế giới.",
+    "conservationNoteVi": "Quần thể tự nhiên rất lớn tại Hoa Kỳ và Mexico nên ở mức Ít quan tâm (LC); tại Việt Nam thuộc danh mục loài ngoại lai xâm hại cấm phát tán và thương mại.",
+    "pullQuoteVi": "Từ một loài rùa cảnh nhỏ bé ở thung lũng sông Mississippi, việc phóng sinh thiếu kiểm soát đã biến rùa tai đỏ thành kẻ xâm lấn đe dọa các loài rùa bản địa khắp năm châu.",
+    "dietVi": "Động vật ăn tạp: rùa non ăn côn trùng thủy sinh, cá nhỏ, ốc, tép; rùa trưởng thành chuyển sang ăn thực vật thủy sinh tới 70%.",
+    "lifespanVi": "25–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Mississippi, Louisiana, Hoa Kỳ",
+      "lat": 30.45,
+      "lng": -91.19
+    },
+    "regionVi": "Đông Nam và Trung Hoa Kỳ đến Đông Bắc Mexico",
+    "otherNamesVi": [
+      "Rùa vạch đỏ",
+      "Rùa tai vàng"
+    ],
+    "synonyms": [
+      "? scripta",
+      "Chrysemys elegans",
+      "Chrysemys scripta",
+      "Emys cumberlandensis"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trachemys_scripta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pond_slider",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 30,
+      "weightGMin": 1000,
+      "weightGMax": 2800,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn con đực; con đực có móng chân trước rất dài"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Miền Đông Nam và Trung Tây Hoa Kỳ từ Virginia, Illinois xuống Florida, Texas và đông bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Hồ nước ngọt và ao đầm",
+      "Sông chảy chậm nhiều khúc gỗ nổi",
+      "Đầm lầy ngập nước"
+    ],
+    "identificationVi": "Mai hình bầu dục hơi dẹt màu xanh lục ở con non và nâu ô-liu ở con lớn; hai bên thái dương sau mắt có vệt rộng màu đỏ tươi (phân loài elegans) hoặc vết vàng đứng (phân loài scripta).",
+    "behaviorVi": "Thường xếp hàng chồng lên nhau phơi nắng trên các khúc gỗ nổi vào buổi trưa rồi đồng loạt lao tõm xuống nước(slider) khi có tiếng động.",
+    "reproductionVi": "Đẻ 6–20 trứng mỗi lứa trong hố đất ven bờ, có thể đẻ 2–4 lứa mỗi năm.",
+    "threatsVi": [
+      "Không bị đe dọa tại vùng bản địa nhưng gây nguy cơ cạnh tranh sinh thái nặng nề tại nơi du nhập"
+    ],
+    "funFactsVi": [
+      "Vào mùa tán tỉnh, rùa tai đỏ đực bơi lùi trước mặt con cái và dùng những chiếc móng chân trước dài rung nhẹ vào hai bên má con cái dưới nước."
+    ],
+    "similarSpecies": [
+      "Chrysemys picta",
+      "Pseudemys concinna"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục loài ngoại lai xâm hại theo Thông tư 35/2018/TT-BTNMT tại Việt Nam, nghiêm cấm nhập khẩu, phát tán và kinh doanh thương mại trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:At Loro Parque, Tenerife 2019 174.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_Loro_Parque,_Tenerife_2019_174.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/At_Loro_Parque%2C_Tenerife_2019_174.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20250731 Youth residential complex in Zelenograd territory 07 (66210).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20250731_Youth_residential_complex_in_Zelenograd_territory_07_(66210).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/20250731_Youth_residential_complex_in_Zelenograd_territory_07_%2866210%29.jpg",
+        "width": 2252,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Sergey A. Demidov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:3 Turtles sittin on a log.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:3_Turtles_sittin_on_a_log.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/3_Turtles_sittin_on_a_log.jpg",
+        "width": 1098,
+        "height": 833,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aclinenyc",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:050104 USA Hampton PICT3313.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:050104_USA_Hampton_PICT3313.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/050104_USA_Hampton_PICT3313.jpg",
+        "width": 1600,
+        "height": 1066,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Jan Rehschuh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20180825 Vlinders aan de Vliet - Trachemys scripta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_-_Trachemys_scripta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/20180825_Vlinders_aan_de_Vliet_-_Trachemys_scripta.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443002",
+      "https://www.iucnredlist.org/species/22028/97429935",
+      "https://en.wikipedia.org/wiki/Pond_slider",
+      "https://vi.wikipedia.org/wiki/Trachemys_scripta"
+    ]
+  },
+  {
+    "scientificName": "Chrysemys picta",
+    "commonNameVi": "Rùa Sơn Gấm Bắc Mỹ",
+    "commonNameEn": "Painted Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Chrysemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Chrysemys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/163467/97410447",
+    "gbifKey": 2443133,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 20,
+      "waterTempMax": 26,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Hồ nước ngọt, đầm lầy, ao bùn và suối chảy chậm khắp Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rùa nước có phạm vi phân bố rộng nhất Bắc Mỹ với chiếc mai trơn bóng viền đỏ cam rực rỡ như được họa sĩ tô vẽ bằng tay.",
+    "conservationNoteVi": "Phổ biến rộng khắp từ Đại Tây Dương sang Thái Bình Dương ở Canada và Hoa Kỳ nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Rùa sơn non mới nở có khả năng chịu đóng băng kỳ diệu dưới lòng đất lạnh giá suốt mùa đông phương Bắc rồi rã đông sống lại vào mùa xuân.",
+    "dietVi": "Động vật ăn tạp: côn trùng nước, nòng nọc, cá nhỏ, ốc nước và bèo tấm, rong đuôi chó.",
+    "lifespanVi": "25–35 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Michigan, Hoa Kỳ",
+      "lat": 44.31,
+      "lng": -85.6
+    },
+    "regionVi": "Bắc Mỹ",
+    "otherNamesVi": [
+      "Rùa vẽ gấm"
+    ],
+    "synonyms": [
+      "Chrysemys marginata",
+      "Chrysemys nuttallii",
+      "Chrysemys pulchra",
+      "Chrysemys treleasei"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chrysemys_picta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Painted_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 22,
+      "weightGMin": 300,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Phân loài miền Nam (dorsalis) chỉ dài 12–15 cm"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Khắp miền Nam Canada, phần lớn lãnh thổ Hoa Kỳ và cực bắc bang Chihuahua (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ nước ngọt đáy bùn",
+      "Đầm lầy lau sậy",
+      "Vịnh sông chảy êm"
+    ],
+    "identificationVi": "Mai bầu dục phẳng và hoàn toàn trơn láng không có gờ răng cưa phía sau; rìa mai và mặt yếm có hoa văn đỏ cam và đen rực rỡ, cổ có sọc vàng tươi.",
+    "behaviorVi": "Dành nhiều giờ mỗi ngày phơi nắng trên các thân cây đổ giữa hồ để làm khô mai và tổng hợp vitamin D3.",
+    "reproductionVi": "Đẻ 4–15 trứng vào đầu mùa hè; rùa con ở miền Bắc thường nằm lại trong ổ trứng dưới đất qua cả mùa đông mới chui lên.",
+    "threatsVi": [
+      "Tai nạn giao thông khi rùa cái lên bờ tìm chỗ đẻ trứng"
+    ],
+    "funFactsVi": [
+      "Khi ngủ đông trong bùn không có oxy suốt 4 tháng dưới lớp băng dày, vỏ mai của rùa sơn giải phóng muối canxi cacbonat vào máu để trung hòa axit lactic."
+    ],
+    "similarSpecies": [
+      "Trachemys scripta",
+      "Pseudemys rubriventris"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể thủy sinh bán cạn tối thiểu 90×45×45 cm có bộ lọc ngoài mạnh và đảo phơi nắng khô ráo.",
+      "lightingVi": "Bắt buộc có đèn UVB 5.0–10.0% và đèn sưởi trên đảo phơi 31–33°C.",
+      "feedingVi": "Ăn thức ăn viên cao cấp cho rùa nước (Hikari, Mazuri), tép khô, cá nhỏ và bổ sung bèo, rau thủy sinh.",
+      "socialVi": "Ôn hòa, có thể nuôi chung với các loài rùa nước hiền cùng kích cỡ.",
+      "commonProblemsVi": [
+        "Mềm mai hoặc nấm mai nếu thiếu đèn UVB và đảo phơi khô hoàn toàn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp, không thuộc danh mục CITES hay danh mục ngoại lai xâm hại tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Sơn Gấm Southern Painted Turtle CB (4–5 cm)",
+        "priceVnd": 1650000,
+        "descriptionVi": "Phân loài kích thước nhỏ có sọc đỏ dọc giữa sống lưng, ăn cám nổi rất khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20240629 painted turtle gay city PD203208 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20240629_painted_turtle_gay_city_PD203208_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/20240629_painted_turtle_gay_city_PD203208_2.jpg",
+        "width": 6009,
+        "height": 4006,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul Danese",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:I see you (22865915051).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:I_see_you_(22865915051).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/I_see_you_%2822865915051%29.jpg",
+        "width": 1290,
+        "height": 2048,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Sheila Sund from Salem, United States",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:5842 pond painted turtles munsel odfw (4421083572).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:5842_pond_painted_turtles_munsel_odfw_(4421083572).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/5842_pond_painted_turtles_munsel_odfw_%284421083572%29.jpg",
+        "width": 2100,
+        "height": 1500,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Oregon Department of Fish & Wildlife",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20240825 painted turtle wood parcel PD201722.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20240825_painted_turtle_wood_parcel_PD201722.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/20240825_painted_turtle_wood_parcel_PD201722.jpg",
+        "width": 4310,
+        "height": 2424,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul Danese",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chrysemys picta (Painted Turtle) on a Road in Canada.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chrysemys_picta_(Painted_Turtle)_on_a_Road_in_Canada.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Chrysemys_picta_%28Painted_Turtle%29_on_a_Road_in_Canada.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gogerr",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443133",
+      "https://www.iucnredlist.org/species/163467/97410447",
+      "https://en.wikipedia.org/wiki/Painted_turtle",
+      "https://vi.wikipedia.org/wiki/Chrysemys_picta"
+    ]
+  },
+  {
+    "scientificName": "Pseudemys concinna",
+    "commonNameVi": "Rùa Sông Cooter Miền Đông",
+    "commonNameEn": "River Cooter",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Pseudemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Pseudemys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/163444/97425355",
+    "gbifKey": 8898408,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 22,
+      "waterTempMax": 26,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Sông lớn chảy vừa đến nhanh có nhiều thảm rong thủy sinh ở Đông và Trung Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rùa nước ngọt cỡ lớn chuyên sống ở các dòng sông trong vắt miền Đông Hoa Kỳ với hoa văn chữ C ngược màu vàng trên tấm vảy sườn thứ hai.",
+    "conservationNoteVi": "Phân bố rộng khắp các lưu vực sông miền Đông Nam và Trung Hoa Kỳ nên giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Là một kình ngư thực thụ của những dòng sông lớn, rùa Cooter trưởng thành gần như chuyển sang chế độ ăn chay hoàn toàn bằng các thảm rong nước.",
+    "dietVi": "Động vật ăn thực vật thủy sinh: rong mái chèo, rong đuôi chó, bèo cái và tảo nước ngọt (rùa non ăn thêm côn trùng nước).",
+    "lifespanVi": "30–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Sông Suwannee, Florida, Hoa Kỳ",
+      "lat": 29.95,
+      "lng": -82.93
+    },
+    "regionVi": "Đông và Trung Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa Cooter sông"
+    ],
+    "synonyms": [
+      "Chrysemys concinna",
+      "Chrysemys mobilensis",
+      "Emys annulifera",
+      "Emys hieroglyphica"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pseudemys_concinna",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/River_cooter",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 24,
+      "lengthCmMax": 37,
+      "weightGMin": 1800,
+      "weightGMax": 4500,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể lớn, cần hồ rộng hoặc hồ ngoài trời khi trưởng thành"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ Virginia, Indiana, Missouri xuống Florida, Texas và vùng biên giới đông bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Sông lớn nước chảy",
+      "Hồ chứa và suối nước trong",
+      "Thảm cỏ thủy sinh"
+    ],
+    "identificationVi": "Mai thuôn dài hơi dẹt giúp giảm sức cản dòng nước, có hoa văn vòng xoắn đồng tâm màu vàng kem và dấu chữ C quay về phía sau trên tấm sườn thứ 2.",
+    "behaviorVi": "Bơi rất khỏe ngược dòng nước chảy, tính tình hiền lành và thích phơi nắng thành từng đàn trên các tảng đá giữa sông.",
+    "reproductionVi": "Đẻ 10–25 trứng hình bầu dục vào cuối xuân đầu hè, nở sau 65–80 ngày.",
+    "threatsVi": [
+      "Đập thủy điện làm thay đổi dòng chảy tự nhiên và ô nhiễm sông ngòi"
+    ],
+    "funFactsVi": [
+      "Nhờ chiếc mai thuôn khí động học thấp hơn rùa tai đỏ, rùa Cooter sông có thể bơi giữ vị trí giữa những đoạn sông chảy xiết mà rùa ao không chịu nổi."
+    ],
+    "similarSpecies": [
+      "Pseudemys nelsoni",
+      "Trachemys scripta"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính lớn tối thiểu 120×60×50 cm có luồng nước lưu thông tốt hoặc hồ cảnh sân vườn.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi đảo phơi 32°C.",
+      "feedingVi": "Cho ăn rau thủy sinh, bèo cái, xà lách Romaine và cám rùa thực vật.",
+      "socialVi": "Rất hiền lành, sống hòa thuận trong hồ cộng đồng.",
+      "commonProblemsVi": [
+        "Lớn khá nhanh nên cần dự trù không gian hồ rộng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp, không thuộc CITES hay danh mục cấm tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Sông Eastern River Cooter CB (4–5 cm)",
+        "priceVnd": 450000,
+        "descriptionVi": "Rùa con khỏe mạnh, hoa văn vân vàng sáng, ăn tốt cám và rau."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pseudemys concinna concinna Eastern river cooter lake artemesia 5.16.21 DSC 0305.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pseudemys_concinna_concinna_Eastern_river_cooter_lake_artemesia_5.16.21_DSC_0305.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Pseudemys_concinna_concinna_Eastern_river_cooter_lake_artemesia_5.16.21_DSC_0305.jpg",
+        "width": 5568,
+        "height": 3712,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pseudemys concinna (river cooter turtle) 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pseudemys_concinna_(river_cooter_turtle)_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Pseudemys_concinna_%28river_cooter_turtle%29_3.jpg",
+        "width": 2329,
+        "height": 2374,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "James St. John",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:(1)River cooter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:(1)River_cooter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/%281%29River_cooter.jpg",
+        "width": 4328,
+        "height": 3025,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sardaka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern river cooter patuxent research refuge north tract 9.29.19 DSC 0636.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_river_cooter_patuxent_research_refuge_north_tract_9.29.19_DSC_0636.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Eastern_river_cooter_patuxent_research_refuge_north_tract_9.29.19_DSC_0636.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gewöhnliche Schmuckschildkröte (Pseudemys concinna), schwimmen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gew%C3%B6hnliche_Schmuckschildkr%C3%B6te_(Pseudemys_concinna),_schwimmen.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Gew%C3%B6hnliche_Schmuckschildkr%C3%B6te_%28Pseudemys_concinna%29%2C_schwimmen.jpg",
+        "width": 4664,
+        "height": 3388,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8898408",
+      "https://www.iucnredlist.org/species/163444/97425355",
+      "https://en.wikipedia.org/wiki/River_cooter",
+      "https://vi.wikipedia.org/wiki/Pseudemys_concinna"
+    ]
+  },
+  {
+    "scientificName": "Pseudemys nelsoni",
+    "commonNameVi": "Rùa Bụng Đỏ Florida",
+    "commonNameEn": "Florida Red-bellied Cooter",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Pseudemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Pseudemys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170495/97426506",
+    "gbifKey": 2442843,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Đầm lầy Everglades, hồ nước ngọt, suối khoáng và vùng nước lợ nhẹ ở Florida"
+    },
+    "descriptionVi": "Loài rùa đầm lầy đặc trưng của bán đảo Florida với chiếc mai vòm cao điểm vạch đỏ cam và mặt yếm bụng ánh màu san hô rực rỡ.",
+    "conservationNoteVi": "Phổ biến khắp các vùng đất ngập nước của Florida và cực nam Georgia nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Tại vùng đầm lầy Everglades, rùa bụng đỏ Florida đôi khi liều lĩnh đào ổ đẻ trứng ngay bên trong gò tổ đất của cá sấu mõm ngắn Bắc Mỹ.",
+    "dietVi": "Động vật ăn thực vật thủy sinh: rong đuôi chồn, bèo tấm, cỏ lác nước và lá súng.",
+    "lifespanVi": "30–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Everglades, Florida, Hoa Kỳ",
+      "lat": 25.29,
+      "lng": -80.9
+    },
+    "regionVi": "Đông Nam Hoa Kỳ (Florida, Georgia)",
+    "otherNamesVi": [
+      "Rùa Cooter bụng đỏ miền Nam"
+    ],
+    "synonyms": [
+      "Chrysemys nelsoni",
+      "Deirochelys floridana",
+      "Pseudemys rubriventris nelsoni",
+      "Trachemys jarmani"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pseudemys_nelsoni",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Florida_red-bellied_cooter",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 22,
+      "lengthCmMax": 33,
+      "weightGMin": 1600,
+      "weightGMax": 4000,
+      "heightCmMax": null,
+      "noteVi": "Mai vòm cao tròn hơn hẳn Pseudemys concinna"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Toàn bộ bán đảo Florida và vùng đầm lầy cực nam bang Georgia (Hoa Kỳ)",
+      "elevationM": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cỏ Everglades",
+      "Suối nước ngọt trong vắt",
+      "Kênh hồ và cửa sông nước lợ nhẹ"
+    ],
+    "identificationVi": "Mai vòm cao màu đen nâu có một vạch dọc màu đỏ cam hoặc vàng đậm trên mỗi tấm vảy sườn; mặt yếm dưới bụng màu hồng cam đến đỏ san hô.",
+    "behaviorVi": "Ưa nước ấm áp và ánh nắng nhiệt đới, thường phơi nắng cùng các loài rùa khác trên các khúc gỗ trôi.",
+    "reproductionVi": "Đẻ 10–20 trứng mỗi lứa từ tháng 5 đến tháng 8, thường gửi trứng vào gò tổ của cá sấu Alligator để được cá sấu mẹ vô tình bảo vệ khỏi gấu trúc Mỹ.",
+    "threatsVi": [
+      "Ô nhiễm nông nghiệp và phát triển đô thị tại Florida"
+    ],
+    "funFactsVi": [
+      "Chiếc mỏ hàm trên của loài này có hai mấu răng nhọn ở chính giữa giúp cắt đứt những thân cây thủy sinh dai cứng dễ dàng như một chiếc kéo."
+    ],
+    "similarSpecies": [
+      "Pseudemys rubriventris",
+      "Pseudemys concinna"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể bán cạn từ 100×50×50 cm trở lên hoặc hồ ngoài trời có khu vực phơi nắng.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi 31–33°C.",
+      "feedingVi": "Ăn thực vật thủy sinh, rau lá xanh và thức ăn viên cho rùa nước.",
+      "socialVi": "Hiền lành, nuôi ghép tốt.",
+      "commonProblemsVi": [
+        "Cần giữ nước sạch bằng hệ thống lọc tốt do ăn nhiều rau"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp và phổ biến, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Bụng Đỏ Florida Red-bellied Cooter CB (4–5 cm)",
+        "priceVnd": 550000,
+        "descriptionVi": "Cá thể CB yếm bụng hồng cam tươi, ăn cám và bèo rất khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Florida Redbelly Turtle - Pseudemys nelsoni, Everglades National Park, Homestead, Florida.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Florida_Redbelly_Turtle_-_Pseudemys_nelsoni,_Everglades_National_Park,_Homestead,_Florida.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Florida_Redbelly_Turtle_-_Pseudemys_nelsoni%2C_Everglades_National_Park%2C_Homestead%2C_Florida.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:020240211 145018 Pseudemys nelsoni.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:020240211_145018_Pseudemys_nelsoni.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/020240211_145018_Pseudemys_nelsoni.jpg",
+        "width": 1928,
+        "height": 2559,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Silar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Pseudemys nelsoni - Bailey Duncan - 522192109.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pseudemys_nelsoni_-_Bailey_Duncan_-_522192109.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pseudemys_nelsoni_-_Bailey_Duncan_-_522192109.jpeg",
+        "width": 1851,
+        "height": 1234,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bailey Duncan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2442843",
+      "https://www.iucnredlist.org/species/170495/97426506",
+      "https://en.wikipedia.org/wiki/Florida_red-bellied_cooter",
+      "https://vi.wikipedia.org/wiki/Pseudemys_nelsoni"
+    ]
+  },
+  {
+    "scientificName": "Pseudemys rubriventris",
+    "commonNameVi": "Rùa Bụng Đỏ Phương Bắc",
+    "commonNameEn": "Northern Red-bellied Cooter",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Pseudemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Pseudemys"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/18460/97427406",
+    "gbifKey": 9601519,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 29,
+      "baskMax": 32,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 20,
+      "waterTempMax": 25,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Sông sâu, hồ băng hà và đầm lầy ven biển miền Trung Đại Tây Dương Hoa Kỳ"
+    },
+    "descriptionVi": "Họ hàng phương Bắc chịu lạnh giỏi của nhóm rùa bụng đỏ, sinh sống dọc vùng vịnh Chesapeake và có một quần thể di tích tại bang Massachusetts.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN do suy giảm diện tích đất ngập nước ven biển Đông Bắc Hoa Kỳ.",
+    "pullQuoteVi": "Một quần thể rùa bụng đỏ phương Bắc biệt lập tại hạt Plymouth (Massachusetts) là di tích sống còn sót lại từ thời kỳ khí hậu ấm áp hàng nghìn năm trước.",
+    "dietVi": "Động vật ăn thực vật thủy sinh: rong cỏ nước, tảo sợi, ốc nhỏ và ấu trùng côn trùng.",
+    "lifespanVi": "35–45 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vịnh Chesapeake, Maryland, Hoa Kỳ",
+      "lat": 38.98,
+      "lng": -76.49
+    },
+    "regionVi": "Đông Bắc và Trung Đại Tây Dương Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa Cooter bụng đỏ miền Bắc"
+    ],
+    "synonyms": [
+      "Chrysemys rubriventris",
+      "Chrysemys rubriventris bangsi",
+      "Chrysemys rubriventris rubriventris",
+      "Emys irrigata"
+    ],
+    "wikidataId": "Q1619703",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pseudemys_rubriventris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Northern_red-bellied_cooter",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 2000,
+      "weightGMax": 4500,
+      "heightCmMax": null,
+      "noteVi": "Thân mai phẳng hơn loài Florida"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đồng bằng ven biển từ New Jersey, đông Pennsylvania, Delaware, Maryland, Virginia tới đông bắc Bắc Carolina và một quần thể biệt lập ở Massachusetts",
+      "elevationM": {
+        "min": 0,
+        "max": 250
+      }
+    },
+    "habitatTypesVi": [
+      "Sông nước ngọt và cửa sông nước lợ nhẹ",
+      "Hồ sâu có nhiều rong nước",
+      "Đầm lầy ven biển"
+    ],
+    "identificationVi": "Mai hơi thắt nhẹ ở phần eo giữa, màu nâu đen có vạch đứng màu đỏ hạt dẻ trên mỗi tấm sườn; mặt trên mõm có vệt vàng hình mũi tên hướng về phía giữa hai mắt.",
+    "behaviorVi": "Thích vùng nước sâu và ấm, cảnh giác cao khi phơi nắng trên các thân cây giữa đầm.",
+    "reproductionVi": "Đẻ 10–18 trứng vào tháng 6–7, trứng nở vào cuối mùa hè.",
+    "threatsVi": [
+      "Đô thị hóa vùng ven biển Đại Tây Dương",
+      "Ô nhiễm vùng vịnh Chesapeake"
+    ],
+    "funFactsVi": [
+      "Chương trình ươm nuôi rùa con 'Headstart' tại bang Massachusetts đã giúp giải cứu quần thể cực bắc của loài này khỏi nguy cơ tuyệt chủng cục bộ."
+    ],
+    "similarSpecies": [
+      "Pseudemys nelsoni",
+      "Chrysemys picta"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể bán cạn lớn tối thiểu 120×60×50 cm hoặc hồ sân vườn.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi 31°C.",
+      "feedingVi": "Ăn thực vật thủy sinh, rau xanh và cám rùa nước.",
+      "socialVi": "Nuôi ghép hòa thuận với các loài rùa đầm khác.",
+      "commonProblemsVi": [
+        "Nấm vảy nếu thiếu ánh nắng hoặc đèn UVB"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các dòng nhân giống thương mại từ quần thể phía nam không thuộc CITES và được giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Bụng Đỏ Northern Red-bellied Cooter CB (4–5 cm)",
+        "priceVnd": 600000,
+        "descriptionVi": "Cá thể CB yếm đỏ hồng sắc nét, bơi khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2017-03-30 AT Wien 22 Donaustadt, Blumengärten Hirschstetten, Pseudemys rubriventris nelsoni (51685897522).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2017-03-30_AT_Wien_22_Donaustadt,_Blumeng%C3%A4rten_Hirschstetten,_Pseudemys_rubriventris_nelsoni_(51685897522).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/2017-03-30_AT_Wien_22_Donaustadt%2C_Blumeng%C3%A4rten_Hirschstetten%2C_Pseudemys_rubriventris_nelsoni_%2851685897522%29.jpg",
+        "width": 4722,
+        "height": 3142,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Paul Korecky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2017-03-30 AT Wien 22 Donaustadt, Blumengärten Hirschstetten, Pseudemys rubriventris nelsoni (51686958653).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2017-03-30_AT_Wien_22_Donaustadt,_Blumeng%C3%A4rten_Hirschstetten,_Pseudemys_rubriventris_nelsoni_(51686958653).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/2017-03-30_AT_Wien_22_Donaustadt%2C_Blumeng%C3%A4rten_Hirschstetten%2C_Pseudemys_rubriventris_nelsoni_%2851686958653%29.jpg",
+        "width": 4722,
+        "height": 3142,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Paul Korecky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Northern red-bellied cooter in Long Pond.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Northern_red-bellied_cooter_in_Long_Pond.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Northern_red-bellied_cooter_in_Long_Pond.jpg",
+        "width": 4096,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jere7my",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Northern Red-bellied Cooters (Pseudemys rubriventris) - Plainsboro Township, New Jersey 2023-04-17.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Northern_Red-bellied_Cooters_(Pseudemys_rubriventris)_-_Plainsboro_Township,_New_Jersey_2023-04-17.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Northern_Red-bellied_Cooters_%28Pseudemys_rubriventris%29_-_Plainsboro_Township%2C_New_Jersey_2023-04-17.jpg",
+        "width": 4343,
+        "height": 2443,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Basking turtles.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basking_turtles.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Basking_turtles.JPG",
+        "width": 3872,
+        "height": 2592,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Oxlamb",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9601519",
+      "https://www.iucnredlist.org/species/18460/97427406",
+      "https://en.wikipedia.org/wiki/Northern_red-bellied_cooter",
+      "https://vi.wikipedia.org/wiki/Pseudemys_rubriventris"
+    ]
+  },
+  {
+    "scientificName": "Graptemys pseudogeographica",
+    "commonNameVi": "Rùa Bản Đồ Giả",
+    "commonNameEn": "False Map Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Graptemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Graptemys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165600/97424024",
+    "gbifKey": 9228211,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 21,
+      "waterTempMax": 26,
+      "phMin": 6.8,
+      "phMax": 8,
+      "habitatVi": "Sông lớn nhiều khúc gỗ trôi thuộc lưu vực sông Mississippi và Missouri"
+    },
+    "descriptionVi": "Loài rùa nước nổi tiếng với đường sống lưng nhô các gai sừng như lưng rồng và những đường vân mảnh trên mai giống đường đồng mức bản đồ địa hình.",
+    "conservationNoteVi": "Phân bố rộng và dồi dào dọc hệ thống sông Mississippi và Missouri nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Những đường vân vàng mảnh đan xen trên mai cùng sống lưng nhấp nhô gai nhọn khiến loài rùa này trông như một tấm hải đồ cổ đang trôi trên sông.",
+    "dietVi": "Động vật ăn tạp: côn trùng thủy sinh, ốc nước, trai nhỏ, tép và thực vật thủy sinh.",
+    "lifespanVi": "25–35 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Mississippi, Missouri, Hoa Kỳ",
+      "lat": 38.57,
+      "lng": -92.6
+    },
+    "regionVi": "Trung và Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa bản đồ Mississippi",
+      "Rùa lưng cưa"
+    ],
+    "synonyms": [
+      "Emys lesueuri",
+      "Emys pseudogeographica",
+      "Malaclemys lesueuri",
+      "Malacoclemmys kohnii"
+    ],
+    "wikidataId": "Q1078899",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Graptemys_pseudogeographica",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/False_map_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 25,
+      "weightGMin": 250,
+      "weightGMax": 1600,
+      "heightCmMax": null,
+      "noteVi": "Dị hình giới tính lớn: con đực chỉ dài 10–14 cm, con cái đạt 20–25 cm"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Toàn bộ lưu vực sông Mississippi và Missouri từ Bắc Dakota, Minnesota, Ohio xuống Louisiana và đông Texas",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông lớn nước chảy",
+      "Hồ móng ngựa ven sông",
+      "Hồ chứa có nhiều cây gỗ nổi"
+    ],
+    "identificationVi": "Dọc chính giữa mai có hàng gai nhô cao như lưỡi cưa, rìa mai phía sau khía răng cưa rõ rệt; sau mắt có vệt vàng hình chữ L hoặc lưỡi liềm cong (phân loài kohnii có tròng mắt trắng).",
+    "behaviorVi": "Bơi cực nhanh nhưng rất nhát người, chỉ cần bóng người xuất hiện từ xa là cả đàn đã lao từ khúc gỗ xuống nước.",
+    "reproductionVi": "Đẻ 8–16 trứng vào đầu mùa hè, nhiệt độ ấp quyết định giới tính (dưới 28°C nở toàn con đực, trên 30°C nở toàn con cái).",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước sông làm giảm lượng ốc và côn trùng thủy sinh"
+    ],
+    "funFactsVi": [
+      "Con cái trưởng thành có chiếc đầu to và bộ hàm rộng hơn hẳn con đực để nghiền vỡ vỏ ốc và trai sông, trong khi con đực nhỏ nhắn chủ yếu bắt côn trùng."
+    ],
+    "similarSpecies": [
+      "Graptemys geographica",
+      "Graptemys ouachitensis"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 90×45×45 cm có lọc nước công suất cao giữ nước trong và giàu oxy.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi trên lũa phơi nắng 31–33°C.",
+      "feedingVi": "Ăn thức ăn viên cho rùa nước, tép, ốc nhỏ và rau thủy sinh.",
+      "socialVi": "Rất hiền, thích hợp nuôi theo nhóm.",
+      "commonProblemsVi": [
+        "Nhạy cảm với chất lượng nước bẩn hơn rùa tai đỏ, cần thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "III",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục III CITES (do Hoa Kỳ đăng ký để thống kê), được nhân giống thương mại rộng rãi và hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Bản Đồ Mississippi Map Turtle CB (4–5 cm)",
+        "priceVnd": 380000,
+        "descriptionVi": "Cá thể CB sống lưng gai rõ nét, mắt sáng, ăn cám nổi tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Falsche Landkarten-Höckerschildkröte (Graptemys pseudogeographica), Vorderansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Falsche_Landkarten-H%C3%B6ckerschildkr%C3%B6te_(Graptemys_pseudogeographica),_Vorderansicht.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Falsche_Landkarten-H%C3%B6ckerschildkr%C3%B6te_%28Graptemys_pseudogeographica%29%2C_Vorderansicht.jpg",
+        "width": 5240,
+        "height": 3944,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Schildkröte Kl-U 2012 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schildkr%C3%B6te_Kl-U_2012_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Schildkr%C3%B6te_Kl-U_2012_001.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Commander-pirx at German Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Taklos-2-AL.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taklos-2-AL.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Taklos-2-AL.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ventus55",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Schildkröten.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schildkr%C3%B6ten.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Schildkr%C3%B6ten.jpg",
+        "width": 1844,
+        "height": 2459,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ventus55 A. Lange",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Graptemys pseudogeographica-4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graptemys_pseudogeographica-4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Graptemys_pseudogeographica-4.jpg",
+        "width": 2265,
+        "height": 1476,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ventus55",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9228211",
+      "https://www.iucnredlist.org/species/165600/97424024",
+      "https://en.wikipedia.org/wiki/False_map_turtle",
+      "https://vi.wikipedia.org/wiki/Graptemys_pseudogeographica"
+    ]
+  },
+  {
+    "scientificName": "Malaclemys terrapin",
+    "commonNameVi": "Rùa Kim Cương Nước Lợ",
+    "commonNameEn": "Diamondback Terrapin",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Malaclemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Malaclemys"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/12695/507698",
+    "gbifKey": 2443212,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": 22,
+      "waterTempMax": 26,
+      "phMin": 7.2,
+      "phMax": 8.2,
+      "habitatVi": "Đầm lầy cỏ muối, cửa sông, vịnh ven biển và rừng ngập mặn bờ Đông và vịnh Mexico Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rùa duy nhất trên thế giới chuyên sống trọn đời trong môi trường nước lợ ven biển, sở hữu làn da trắng xám lấm tấm chấm bi đen và các tấm vảy mai hình kim cương đồng tâm.",
+    "conservationNoteVi": "Xếp mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do vô tình mắc kẹt chết ngạt trong lờ bắt cua xanh ven biển Đông Hoa Kỳ.",
+    "pullQuoteVi": "Giữa vùng cửa sông giao thoa sông và biển, rùa kim cương sở hữu tuyến lệ đặc biệt quanh mắt giúp bài tiết lượng muối dư thừa giống như rùa biển.",
+    "dietVi": "Động vật ăn thịt thiên giáp xác và thân mềm: ốc cửa sông, cua nhỏ, tôm tép, nghêu nhỏ và cá.",
+    "lifespanVi": "25–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vịnh Chesapeake, Maryland, Hoa Kỳ",
+      "lat": 38.5,
+      "lng": -76.1
+    },
+    "regionVi": "Bờ Đông và bờ Vịnh Mexico Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa DBT",
+      "Rùa kim cương"
+    ],
+    "synonyms": [
+      "Emys centrata",
+      "Emys concentrica",
+      "Emys macrocephalus",
+      "Emys macrocephalus homonym"
+    ],
+    "wikidataId": "Q569170",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Malaclemys_terrapin",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Diamondback_terrapin",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 23,
+      "weightGMin": 300,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn gần gấp đôi con đực"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "BM"
+      ],
+      "nativeRangeVi": "Dải ven biển Đại Tây Dương và vịnh Mexico từ mũi Cod (Massachusetts) vòng qua Florida tới Corpus Christi (Texas) và quần đảo Bermuda",
+      "elevationM": {
+        "min": 0,
+        "max": 10
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cỏ muối Spartina",
+      "Cửa sông nước lợ và đầm phá",
+      "Rừng ngập mặn ven biển"
+    ],
+    "identificationVi": "Các tấm vảy trên mai có đường vân đồng tâm sâu tạo hình thoi như mặt cắt kim cương; da đầu, cổ và bốn chân màu trắng bạc hoặc xám xanh phủ kín chấm bi đen như hoa báo.",
+    "behaviorVi": "Bơi lội cực kỳ linh hoạt nhờ bàn chân có màng bơi rộng; có thể uống nước ngọt nổi trên bề mặt lớp nước mặn sau những cơn mưa.",
+    "reproductionVi": "Đẻ 5–12 trứng trên các đụn cát ven biển vào cuối xuân đầu hè, nở sau 60–85 ngày.",
+    "threatsVi": [
+      "Chết ngạt trong bẫy lờ bắt cua xanh thương mại",
+      "Mất đụn cát đẻ trứng do kè biển"
+    ],
+    "funFactsVi": [
+      "Đây là linh vật chính thức của bang Maryland và Đại học Maryland (Hoa Kỳ) nhờ vẻ đẹp độc bản của nó tại vịnh Chesapeake."
+    ],
+    "similarSpecies": [
+      "Graptemys pseudogeographica",
+      "Graptemys geographica"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể thủy sinh 90×45×45 cm với hệ thống lọc cực khỏe; cá thể CB nuôi được nước ngọt sạch có độ cứng cao hoặc pha 3–5 phần nghìn muối biển chuyên dụng.",
+      "lightingVi": "Bắt buộc có đèn UVB 10.0% và đèn sưởi trên đảo phơi 31–33°C.",
+      "feedingVi": "Ăn thức ăn viên chuyên dụng giàu đạm, tôm tép, thịt nghêu và cá nhỏ.",
+      "socialVi": "Nuôi đơn hoặc nuôi trong bể rộng để tránh cắn đuôi nhau.",
+      "commonProblemsVi": [
+        "Nấm da trắng nếu nước nuôi bị tù đọng hoặc pH quá thấp (dưới 7.0)"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, các dòng nhân giống nuôi nhốt (Northern, Concentric, Ornate DBT CB) rất được ưa chuộng và giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Kim Cương Northern Diamondback Terrapin CB (4–5 cm)",
+        "priceVnd": 2200000,
+        "descriptionVi": "Cá thể nhân giống đã thuần nước ngọt pH kiềm nhẹ, da trắng chấm đen sắc nét."
+      },
+      {
+        "nameVi": "Rùa Kim Cương Concentric DBT CB (5–6 cm)",
+        "priceVnd": 4800000,
+        "descriptionVi": "Dòng vân vòng đồng tâm trắng sáng cao cấp, ăn cám Hikari khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20250703 diamondback terrapin long wharf nature preserve PD206977.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20250703_diamondback_terrapin_long_wharf_nature_preserve_PD206977.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/20250703_diamondback_terrapin_long_wharf_nature_preserve_PD206977.jpg",
+        "width": 5522,
+        "height": 3106,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul Danese",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A diamondback terrapin crossing NC-12 on Ocracoke Island (50123481302).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_diamondback_terrapin_crossing_NC-12_on_Ocracoke_Island_(50123481302).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/A_diamondback_terrapin_crossing_NC-12_on_Ocracoke_Island_%2850123481302%29.jpg",
+        "width": 3070,
+        "height": 2678,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Cape Hatteras National Seashore",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Diamondback in profile (5734564079).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Diamondback_in_profile_(5734564079).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Diamondback_in_profile_%285734564079%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U.S. Fish and Wildlife Service Headquarters",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:\"Lynnhaven\" - Diamond Back Terrapin (7851335188).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Lynnhaven%22_-_Diamond_Back_Terrapin_(7851335188).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/%22Lynnhaven%22_-_Diamond_Back_Terrapin_%287851335188%29.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Virginia State Parks staff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Diamonback terrapin bombay hook nwr 6.13.22 DSC 2980.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Diamonback_terrapin_bombay_hook_nwr_6.13.22_DSC_2980.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Diamonback_terrapin_bombay_hook_nwr_6.13.22_DSC_2980.jpg",
+        "width": 5568,
+        "height": 3712,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443212",
+      "https://www.iucnredlist.org/species/12695/507698",
+      "https://en.wikipedia.org/wiki/Diamondback_terrapin",
+      "https://vi.wikipedia.org/wiki/Malaclemys_terrapin"
+    ]
+  },
+  {
+    "scientificName": "Terrapene carolina",
+    "commonNameVi": "Rùa Hộp Phương Đông Bắc Mỹ",
+    "commonNameEn": "Eastern Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Terrapene"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Terrapene"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/21641/97428179",
+    "gbifKey": 2443173,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng lá rộng ẩm ướt, đồng cỏ ven rừng và thung lũng suối miền Đông Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rùa cạn thuộc họ rùa đầm (Emydidae) nổi tiếng của miền Đông Hoa Kỳ với chiếc mai vòm cao điểm hoa văn vàng cam và yếm bụng có bản lề đóng kín tuyệt đối.",
+    "conservationNoteVi": "Được IUCN xếp mức Sắp nguy cấp (VU) do phân mảnh sinh cảnh rừng, tỷ lệ tử vong cao khi băng qua đường bộ và nạn thu bắt tự nhiên.",
+    "pullQuoteVi": "Mỗi con rùa hộp phương Đông gắn bó trọn đời trên một mảnh rừng quê hương chỉ rộng vài héc-ta và có thể sống quá một thế kỷ ngay tại khu rừng đó.",
+    "dietVi": "Động vật ăn tạp: giun đất, sên, côn trùng, nấm rừng, quả dâu rừng và lá cây mềm.",
+    "lifespanVi": "50–100 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Virginia, Hoa Kỳ",
+      "lat": 37.54,
+      "lng": -77.43
+    },
+    "regionVi": "Đông và Trung Nam Hoa Kỳ đến Mexico",
+    "otherNamesVi": [
+      "Rùa hộp ba móng",
+      "Rùa hộp Carolina"
+    ],
+    "synonyms": [
+      "Cistudo carolina",
+      "Cistudo eurypygia",
+      "Cistudo major",
+      "Cistudo triunguis"
+    ],
+    "wikidataId": "Q1044378",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Terrapene_carolina",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Common_box_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 18,
+      "weightGMin": 350,
+      "weightGMax": 750,
+      "heightCmMax": null,
+      "noteVi": "Con đực thường có tròng mắt màu đỏ ruby rực rỡ"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Miền Đông và Trung Nam Hoa Kỳ từ Maine, Michigan xuống Florida, Texas và một số vùng ở Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng rụng lá ẩm",
+      "Bìa rừng và đồng cỏ",
+      "Đầm lầy nông ven suối"
+    ],
+    "identificationVi": "Mai vòm cao tròn màu nâu đen điểm các vệt tia, đốm màu vàng tươi hoặc cam sáng; yếm bụng có một khớp bản lề ngang cho phép khép kín hoàn toàn vào mép mai.",
+    "behaviorVi": "Dù thuộc họ rùa đầm nhưng sống trên cạn dưới lớp lá rừng ẩm, rất thích đi kiếm giun và nấm ngay sau những cơn mưa mùa hè.",
+    "reproductionVi": "Đẻ 3–8 trứng mỗi lứa vào đầu mùa hè; rùa cái có thể lưu giữ tinh trùng sống tới 4 năm sau một lần giao phối.",
+    "threatsVi": [
+      "Tai nạn giao thông trên đường cao tốc",
+      "Phân mảnh rừng lá rộng"
+    ],
+    "funFactsVi": [
+      "Rùa hộp phương Đông có bản năng định vị quê hương mạnh đến mức nếu bị mang đi nơi khác, chúng sẽ đi bộ không ngừng về hướng cũ cho tới khi kiệt sức."
+    ],
+    "similarSpecies": [
+      "Terrapene ornata",
+      "Cuora flavomarginata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, mức Sắp nguy cấp (VU) và bị hạn chế xuất khẩu nghiêm ngặt tại Hoa Kỳ, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Box Turtle - Terrapene carolina carolina, Prince William Forest Park, Triangle, Virginia, April 22, 2019 (53128548282).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Box_Turtle_-_Terrapene_carolina_carolina,_Prince_William_Forest_Park,_Triangle,_Virginia,_April_22,_2019_(53128548282).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Eastern_Box_Turtle_-_Terrapene_carolina_carolina%2C_Prince_William_Forest_Park%2C_Triangle%2C_Virginia%2C_April_22%2C_2019_%2853128548282%29.jpg",
+        "width": 6720,
+        "height": 4480,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Common Eastern Box Turtle (14929591436).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Eastern_Box_Turtle_(14929591436).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Common_Eastern_Box_Turtle_%2814929591436%29.jpg",
+        "width": 2152,
+        "height": 2152,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Katja Schulz from Washington, D. C., USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:BOX TURTLE 1 (5853886646).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BOX_TURTLE_1_(5853886646).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/BOX_TURTLE_1_%285853886646%29.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Virginia State Parks staff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A young box turtle (5930510071) (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_young_box_turtle_(5930510071)_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/A_young_box_turtle_%285930510071%29_%282%29.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Virginia State Parks staff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hiding Box Turtle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hiding_Box_Turtle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hiding_Box_Turtle.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "John Stockla",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443173",
+      "https://www.iucnredlist.org/species/21641/97428179",
+      "https://en.wikipedia.org/wiki/Common_box_turtle",
+      "https://vi.wikipedia.org/wiki/Terrapene_carolina"
+    ]
+  },
+  {
+    "scientificName": "Terrapene ornata",
+    "commonNameVi": "Rùa Hộp Hoa Văn Thảo Nguyên",
+    "commonNameEn": "Ornate Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Terrapene"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Terrapene"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/21644/97429080",
+    "gbifKey": 2443168,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 34,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên cỏ ngắn, đồi cát và bán sa mạc vùng Đại Bình Nguyên Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rùa hộp thích nghi với thảo nguyên khô và bán sa mạc miền Trung Bắc Mỹ, nổi bật với những đường tia vàng sắc nét tỏa ra trên cả mai lưng lẫn yếm bụng.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN do thảo nguyên tự nhiên bị chuyển đổi thành đất canh tác nông nghiệp.",
+    "pullQuoteVi": "Là cư dân thảo nguyên không bóng cây, rùa hộp hoa văn tự đào những căn hầm sâu tới hơn một mét dưới lòng đất để ngủ qua mùa đông băng giá.",
+    "dietVi": "Động vật ăn tạp thiên côn trùng: bọ cánh cứng phân, châu chấu, sâu bướm, giun đất và quả xương rồng lê gai.",
+    "lifespanVi": "35–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kansas, Hoa Kỳ",
+      "lat": 38.5,
+      "lng": -98.5
+    },
+    "regionVi": "Trung và Tây Nam Hoa Kỳ đến Bắc Mexico",
+    "otherNamesVi": [
+      "Rùa hộp sa mạc Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Cistudo ornata",
+      "Terrapene longinsulae",
+      "Terrapene ornata cimarronensis"
+    ],
+    "wikidataId": "Q2302528",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Terrapene_ornata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Terrapene_ornata",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 15,
+      "weightGMin": 250,
+      "weightGMax": 500,
+      "heightCmMax": null,
+      "noteVi": "Đỉnh mai hơi phẳng và không có gờ sống lưng"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng Đại Bình Nguyên từ nam Nam Dakota, Wisconsin xuống Texas, Arizona và bắc Mexico (Sonora, Chihuahua)",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên cỏ ngắn",
+      "Đồi cát thảo nguyên",
+      "Bán sa mạc cây bụi"
+    ],
+    "identificationVi": "Khác với Terrapene carolina: đỉnh mai hơi phẳng không có gờ dọc giữa lưng, nền nâu đen với các tia thẳng màu vàng tươi tỏa ra trên từng tấm vảy và phủ kín cả mặt yếm bụng.",
+    "behaviorVi": "Thường đi theo các đàn gia súc hoặc bò rừng trên thảo nguyên để tìm bắt những con bọ hung tập trung dưới bãi phân.",
+    "reproductionVi": "Đẻ 2–8 trứng vỏ giòn vào đầu mùa hè, nở sau khoảng 60–75 ngày.",
+    "threatsVi": [
+      "Cày xới thảo nguyên và máy nông nghiệp",
+      "Tử vong trên các tuyến quốc lộ"
+    ],
+    "funFactsVi": [
+      "Đây là loài chính thức đại diện cho bang Kansas (Hoa Kỳ) từ năm 1986."
+    ],
+    "similarSpecies": [
+      "Terrapene carolina",
+      "Geochelone elegans"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES và được bảo vệ tại nhiều bang miền Trung Tây Hoa Kỳ, không mở bán thương mại tại Việt Nam."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ornate Box Turtle (26591080763).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ornate_Box_Turtle_(26591080763).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ornate_Box_Turtle_%2826591080763%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWSmidwest",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:ORNATE BOX TURTLE (Terrapene ornata) (10-22-2014) san rafael grasslands, santa cruz co, az -03 (15417291528).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ORNATE_BOX_TURTLE_(Terrapene_ornata)_(10-22-2014)_san_rafael_grasslands,_santa_cruz_co,_az_-03_(15417291528).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ORNATE_BOX_TURTLE_%28Terrapene_ornata%29_%2810-22-2014%29_san_rafael_grasslands%2C_santa_cruz_co%2C_az_-03_%2815417291528%29.jpg",
+        "width": 2326,
+        "height": 2792,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "ALAN SCHMIERER",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Terrapene ornata 45408582.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Terrapene_ornata_45408582.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Terrapene_ornata_45408582.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Alex Abair",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ornate terrapin hatchling.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ornate_terrapin_hatchling.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ornate_terrapin_hatchling.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Onebiglie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Box Turtle 1366.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Box_Turtle_1366.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Box_Turtle_1366.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chris Light",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443168",
+      "https://www.iucnredlist.org/species/21644/97429080",
+      "https://en.wikipedia.org/wiki/Terrapene_ornata",
+      "https://vi.wikipedia.org/wiki/Terrapene_ornata"
+    ]
+  },
+  {
+    "scientificName": "Clemmys guttata",
+    "commonNameVi": "Rùa Đốm Sao Bắc Mỹ",
+    "commonNameEn": "Spotted Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Clemmys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Clemmys"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/4968/97411228",
+    "gbifKey": 5961001,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 31,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": 20,
+      "waterTempMax": 25,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Đầm lầy nông, suối rừng, vũng nước mùa xuân và đầm rêu than bùn miền Đông Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rùa bán thủy sinh tí hon duy nhất của chi Clemmys với tấm mai đen bóng điểm những chấm tròn vàng tươi như bầu trời đêm đầy sao.",
+    "conservationNoteVi": "Xếp mức Nguy cấp (EN) trên Sách Đỏ IUCN do suy giảm sinh cảnh đầm lầy nông và nạn thu bắt ngoài tự nhiên.",
+    "pullQuoteVi": "Mỗi chấm vàng tròn trịa trên lưng và đầu rùa đốm sao phát triển thêm theo từng năm tuổi như những ngôi sao mới mọc trên nền mai đen tuyền.",
+    "dietVi": "Động vật ăn tạp: côn trùng nước, nòng nọc, giun đỏ, tép nhỏ, bèo tấm và quả mọng đầm lầy.",
+    "lifespanVi": "30–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Carolina, Hoa Kỳ",
+      "lat": 35.5,
+      "lng": -77
+    },
+    "regionVi": "Đông Bắc Mỹ",
+    "otherNamesVi": [
+      "Rùa chấm bi vàng"
+    ],
+    "synonyms": [
+      "Chelopus guttatus",
+      "Clemmys punctata",
+      "Emys punctata",
+      "Geoclemmys sebae"
+    ],
+    "wikidataId": "Q845189",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%B9a_%C4%91%E1%BB%91m",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Spotted_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 13,
+      "weightGMin": 120,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Kích thước tí hon chỉ vừa lòng bàn tay khi trưởng thành"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Nam Ontario (Canada), vùng Ngũ Hồ và dọc bờ Đông Hoa Kỳ từ Maine xuống bắc Florida",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy than bùn nông",
+      "Vũng nước rừng mùa xuân (vernal pools)",
+      "Suối nhỏ nhiều rêu và cây mục"
+    ],
+    "identificationVi": "Mai đen bóng trơn láng không có gờ, rải rác từ 10 đến hơn 100 chấm tròn màu vàng chanh sắc nét trên mai, đầu, cổ và bốn chân.",
+    "behaviorVi": "Bơi trong mực nước nông chỉ 10–15 cm có nhiều cành lũa để bám; vào mùa hè nóng bức chúng thường lên bờ ngủ hè dưới lớp lá mục ẩm.",
+    "reproductionVi": "Đẻ số lượng ít từ 2–5 trứng thuôn dài vào cuối xuân, nở sau 60–80 ngày.",
+    "threatsVi": [
+      "San lấp các đầm lầy nhỏ và vũng nước mùa xuân",
+      "Săn trộm tự nhiên"
+    ],
+    "funFactsVi": [
+      "Rùa đốm con khi vừa chui ra khỏi vỏ trứng thường chỉ có đúng 1 chấm vàng ở chính giữa mỗi tấm vảy mai trước khi mọc thêm hàng chục chấm mới khi lớn lên."
+    ],
+    "similarSpecies": [
+      "Emys orbicularis",
+      "Glyptemys muhlenbergii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Hồ bán cạn (paludarium) 80×45×40 cm với mực nước nông 10–15 cm, nhiều lũa nổi và phần bờ đất rêu ẩm rộng.",
+      "lightingVi": "Đèn UVB 5.0% và đèn sưởi nhẹ 29–30°C trên bờ phơi.",
+      "feedingVi": "Ăn thức ăn viên hạt nhỏ cho rùa nước (Hikari Saki-Turtle), trùng huyết đông lạnh, tép nhỏ và bèo.",
+      "socialVi": "Rất hiền lành và kích thước nhỏ nên nuôi được trong hồ bán cạn phòng khách.",
+      "commonProblemsVi": [
+        "Không để mực nước quá sâu mà thiếu cành lũa dẫn lên mặt nước"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, rất phổ biến trong các trại nhân giống sinh vật cảnh (CB) nhờ kích thước nhỏ gọn phù hợp hồ bán cạn."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Đốm Sao Spotted Turtle CB (4–5 cm)",
+        "priceVnd": 3600000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, chấm vàng tròn nhiều và đều trên mai đen bóng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Clemmys guttata emerging from water at Oakland Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Clemmys_guttata_emerging_from_water_at_Oakland_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Clemmys_guttata_emerging_from_water_at_Oakland_Zoo.jpg",
+        "width": 5628,
+        "height": 3756,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Derrick Coetzee ( User:Dcoetzee )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Clemmys guttata 1zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Clemmys_guttata_1zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Clemmys_guttata_1zz.jpg",
+        "width": 1000,
+        "height": 667,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Spotted turtle palmetto peartree preserve 10.5.24 DSC 0286-topaz-rawdenoise.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spotted_turtle_palmetto_peartree_preserve_10.5.24_DSC_0286-topaz-rawdenoise.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Spotted_turtle_palmetto_peartree_preserve_10.5.24_DSC_0286-topaz-rawdenoise.jpg",
+        "width": 4141,
+        "height": 3313,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Clemmys guttata - Buffalo Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Clemmys_guttata_-_Buffalo_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Clemmys_guttata_-_Buffalo_Zoo.jpg",
+        "width": 2673,
+        "height": 2091,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Dave Pape",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Spotted Turtle by Trisha 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spotted_Turtle_by_Trisha_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Spotted_Turtle_by_Trisha_2.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5961001",
+      "https://www.iucnredlist.org/species/4968/97411228",
+      "https://en.wikipedia.org/wiki/Spotted_turtle",
+      "https://vi.wikipedia.org/wiki/R%C3%B9a_%C4%91%E1%BB%91m"
+    ]
+  },
+  {
+    "scientificName": "Glyptemys insculpta",
+    "commonNameVi": "Rùa Điêu Khắc Gỗ Bắc Mỹ",
+    "commonNameEn": "Wood Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Glyptemys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Glyptemys"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/4965/97416259",
+    "gbifKey": 2443115,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": 18,
+      "waterTempMax": 23,
+      "phMin": 6.5,
+      "phMax": 7.6,
+      "habitatVi": "Suối rừng nước trong đáy cát sỏi và cánh rừng lá rộng ven suối Đông Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rùa bán thủy sinh thông minh của miền Đông Bắc Mỹ với từng tấm vảy trên mai nổi gờ đồng tâm trông hệt như được chạm khắc từ gỗ sồi.",
+    "conservationNoteVi": "Xếp mức Nguy cấp (EN) trên Sách Đỏ IUCN do suy giảm hành lang rừng ven suối và tỷ lệ sinh sản chậm trong tự nhiên.",
+    "pullQuoteVi": "Rùa điêu khắc gỗ biết giậm hai chân trước xuống mặt đất tạo ra nhịp rung động giống tiếng mưa rơi khiến giun đất tưởng trời mưa mà chui lên mặt đất.",
+    "dietVi": "Động vật ăn tạp: giun đất, sên, quả dâu rừng, nấm, lá bồ công anh và côn trùng.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Pennsylvania, Hoa Kỳ",
+      "lat": 41.2,
+      "lng": -77.19
+    },
+    "regionVi": "Đông Bắc Hoa Kỳ và Đông Nam Canada",
+    "otherNamesVi": [
+      "Rùa vân gỗ"
+    ],
+    "synonyms": [
+      "Chelopus insculptus",
+      "Clemmys insculpta",
+      "Emys inscripta",
+      "Emys speciosa"
+    ],
+    "wikidataId": "Q844687",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Glyptemys_insculpta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Wood_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 23,
+      "weightGMin": 600,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Các tấm vảy mai nổi hình chóp vân gỗ tự nhiên"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Từ Nova Scotia, New Brunswick, nam Quebec, Ontario (Canada) xuống Virginia và sang phía tây tới Minnesota, Iowa (Hoa Kỳ)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Suối rừng nước mát chảy vừa",
+      "Rừng lá rộng và đồng cỏ ẩm ven suối",
+      "Bờ cát sỏi"
+    ],
+    "identificationVi": "Mai màu nâu gỗ với từng tấm vảy nhô thành hình tháp thấp có rãnh đồng tâm sâu như vân gỗ chạm khắc; da cổ và bốn chân có màu cam gạch hoặc đỏ cam tươi.",
+    "behaviorVi": "Mùa đông ngủ dưới đáy suối nước chảy giàu oxy, mùa hè lên sinh sống trên cạn trong các khu rừng và đồng cỏ ven suối.",
+    "reproductionVi": "Thành thục muộn ở 14–18 năm tuổi, đẻ 6–12 trứng trên bãi cát ven suối vào tháng 6.",
+    "threatsVi": [
+      "Phân mảnh hành lang rừng - suối do đường giao thông",
+      "Gấu trúc Mỹ (Raccoon) đào phá ổ trứng"
+    ],
+    "funFactsVi": [
+      "Trong các thí nghiệm mê cung của nhà sinh học hành vi, rùa điêu khắc gỗ học đường thoát nhanh ngang ngửa với chuột bạch phòng thí nghiệm."
+    ],
+    "similarSpecies": [
+      "Glyptemys muhlenbergii",
+      "Terrapene carolina"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES và mức Nguy cấp (EN), được bảo vệ nghiêm ngặt tại Canada và các bang Đông Bắc Hoa Kỳ, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A wood turtle basking in the sun (44095504541).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_wood_turtle_basking_in_the_sun_(44095504541).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/A_wood_turtle_basking_in_the_sun_%2844095504541%29.jpg",
+        "width": 5312,
+        "height": 2988,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U.S. Department of Agriculture",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Wood turtle crossing the trial (50130493197).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wood_turtle_crossing_the_trial_(50130493197).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Wood_turtle_crossing_the_trial_%2850130493197%29.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "daveynin from United States",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Female Wood Turtle (6762045051).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Female_Wood_Turtle_(6762045051).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Female_Wood_Turtle_%286762045051%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U. S. Fish and Wildlife Service - Northeast Region",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Baltimore Aquarium - Glyptemys insculpta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baltimore_Aquarium_-_Glyptemys_insculpta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Baltimore_Aquarium_-_Glyptemys_insculpta.jpg",
+        "width": 3285,
+        "height": 1769,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Jarek Tuszyński",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult Wood turtle walking at Great Swamp National Wildlife Refuge (6762042961).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Wood_turtle_walking_at_Great_Swamp_National_Wildlife_Refuge_(6762042961).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Adult_Wood_turtle_walking_at_Great_Swamp_National_Wildlife_Refuge_%286762042961%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U. S. Fish and Wildlife Service - Northeast Region",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443115",
+      "https://www.iucnredlist.org/species/4965/97416259",
+      "https://en.wikipedia.org/wiki/Wood_turtle",
+      "https://vi.wikipedia.org/wiki/Glyptemys_insculpta"
+    ]
+  },
+  {
+    "scientificName": "Emys orbicularis",
+    "commonNameVi": "Rùa Đầm Châu Âu",
+    "commonNameEn": "European Pond Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Emydidae",
+      "genus": "Emys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Emydidae",
+      "genus": "Chi Emys"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/7717/97292665",
+    "gbifKey": 8909809,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 31,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 19,
+      "waterTempMax": 25,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Đầm lầy lau sậy, hồ nước ngọt, kênh đào và cửa sông chảy chậm khắp châu Âu và Tây Á"
+    },
+    "descriptionVi": "Loài rùa nước ngọt bản địa biểu tượng của châu Âu với chiếc mai đen bóng điểm hàng trăm chấm và tia vàng li ti như bụi vàng.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và được bảo vệ nghiêm ngặt tại Liên minh Châu Âu do mất đầm lầy và cạnh tranh từ rùa tai đỏ ngoại lai.",
+    "pullQuoteVi": "Là một trong hai loài rùa nước ngọt bản địa hiếm hoi của lục địa châu Âu, chúng đã bơi lội trong các đầm lầy từ sau kỷ Băng Hà cuối cùng.",
+    "dietVi": "Động vật ăn tạp thiên đạm: côn trùng thủy sinh, cá nhỏ, nòng nọc, ốc nước, giun và một ít thực vật thủy sinh.",
+    "lifespanVi": "40–70 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng đất ngập nước Camargue, Pháp",
+      "lat": 43.53,
+      "lng": 4.5
+    },
+    "regionVi": "Châu Âu, Bắc Phi và Tây Á",
+    "otherNamesVi": [
+      "Rùa ao châu Âu"
+    ],
+    "synonyms": [
+      "Cistuda hellenica",
+      "Cistudo anhaltina",
+      "Cistudo hellenica",
+      "Emys antiquorum"
+    ],
+    "wikidataId": "Q187036",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Emys_orbicularis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/European_pond_turtle",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 22,
+      "weightGMin": 400,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Đuôi khá dài so với các loài rùa đầm khác"
+    },
+    "distribution": {
+      "countries": [
+        "PT",
+        "ES",
+        "FR",
+        "IT",
+        "DE",
+        "PL",
+        "LT",
+        "UA",
+        "RU",
+        "HU",
+        "RO",
+        "BG",
+        "GR",
+        "TR",
+        "IR",
+        "MA",
+        "DZ",
+        "TN"
+      ],
+      "nativeRangeVi": "Nam, Trung và Đông Âu kéo dài tới Bắc Phi (Morocco, Algeria, Tunisia) và Tây Á (Thổ Nhĩ Kỳ, vùng biển Caspi)",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy ngập nước",
+      "Ao hồ nhiều bèo và lau sậy",
+      "Vịnh sông chảy êm"
+    ],
+    "identificationVi": "Mai bầu dục trơn nhẵn màu đen hoặc nâu đen phủ kín các chấm nhỏ và vạch ngắn màu vàng tươi tỏa ra như pháo hoa; da đầu, cổ và chân cũng đen điểm chấm vàng.",
+    "behaviorVi": "Cực kỳ cảnh giác khi phơi nắng trên các gốc cây ven bờ, lặn rất sâu và ngủ đông dưới bùn đáy hồ suốt mùa đông.",
+    "reproductionVi": "Đẻ 6–16 trứng vào đầu mùa hè trên các sườn đất cát đón nắng.",
+    "threatsVi": [
+      "Tiêu nước đầm lầy làm nông nghiệp tại châu Âu",
+      "Cạnh tranh bãi phơi nắng với rùa tai đỏ ngoại lai"
+    ],
+    "funFactsVi": [
+      "Yếm bụng của rùa đầm châu Âu có một khớp nối bán linh hoạt bằng dây chằng, là bước chuyển tiếp tiến hóa hướng tới khớp bản lề của các loài rùa hộp."
+    ],
+    "similarSpecies": [
+      "Clemmys guttata",
+      "Mauremys leprosa"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Được bảo vệ nghiêm ngặt theo Công ước Bern (Phụ lục II) và Chỉ thị Sinh cảnh Liên minh Châu Âu (Phụ lục II và IV), chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2 Mediterranean Pond Turtles (Mauremys leprosa) and European Pond Turtle (Emys orbicularis)(Right) (26060818166).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2_Mediterranean_Pond_Turtles_(Mauremys_leprosa)_and_European_Pond_Turtle_(Emys_orbicularis)(Right)_(26060818166).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2_Mediterranean_Pond_Turtles_%28Mauremys_leprosa%29_and_European_Pond_Turtle_%28Emys_orbicularis%29%28Right%29_%2826060818166%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Emys orbicularis 2020 G1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Emys_orbicularis_2020_G1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Emys_orbicularis_2020_G1.jpg",
+        "width": 3200,
+        "height": 4500,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "George Chernilevsky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:DebrecenDSCN3574.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DebrecenDSCN3574.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/DebrecenDSCN3574.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Yoav Dothan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20170425 054 Camargue Schildpad (34304097982).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20170425_054_Camargue_Schildpad_(34304097982).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/20170425_054_Camargue_Schildpad_%2834304097982%29.jpg",
+        "width": 6720,
+        "height": 4480,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jac. Janssen from Baarlo lb, NL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2012 11 15 Xarrada tortuga d'estanya al Centre Cívic 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2012_11_15_Xarrada_tortuga_d%27estanya_al_Centre_C%C3%ADvic_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2012_11_15_Xarrada_tortuga_d%27estanya_al_Centre_C%C3%ADvic_03.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Pacopac",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8909809",
+      "https://www.iucnredlist.org/species/7717/97292665",
+      "https://en.wikipedia.org/wiki/European_pond_turtle",
+      "https://vi.wikipedia.org/wiki/Emys_orbicularis"
+    ]
+  },
+  {
+    "scientificName": "Cuora amboinensis",
+    "commonNameVi": "Rùa Hộp Lưng Đen",
+    "commonNameEn": "Southeast Asian Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Cuora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Cuora"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/5958/3078812",
+    "gbifKey": 2443521,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Đầm lầy trũng, ruộng lúa, rừng ngập nước và suối chảy chậm ở Đông Nam Á"
+    },
+    "descriptionVi": "Loài rùa hộp bán thủy sinh bản địa của Việt Nam và Đông Nam Á, có chiếc mai vòm cao đen tuyền và ba sọc vàng tươi chạy dọc mỗi bên đầu.",
+    "conservationNoteVi": "Xếp mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc nhóm IIB Nghị định 84/2021/NĐ-CP tại Việt Nam do bị khai thác quá mức ngoài tự nhiên.",
+    "pullQuoteVi": "Nhờ khớp bản lề linh hoạt ở yếm bụng, khi gặp kẻ săn mồi, rùa hộp lưng đen có thể đóng sập cả hai nửa yếm trước và sau biến mình thành một viên đá kín mít.",
+    "dietVi": "Động vật ăn tạp: rau muống, bèo, trái cây chín rụng, ốc nước, cá nhỏ, tép và giun đất.",
+    "lifespanVi": "30–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia U Minh Thượng, Kiên Giang, Việt Nam",
+      "lat": 9.6,
+      "lng": 105.09
+    },
+    "regionVi": "Đông Nam Á",
+    "otherNamesVi": [
+      "Rùa hộp Đông Nam Á",
+      "Rùa nắp"
+    ],
+    "synonyms": [
+      "Cyclemys amboinensis",
+      "Emys couro",
+      "Terrapene bicolor",
+      "Testudo amboinensis"
+    ],
+    "wikidataId": "Q458153",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cuora_amboinensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Amboina_box_turtle",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 800,
+      "weightGMax": 1800,
+      "heightCmMax": null,
+      "noteVi": "Phân loài miền Nam có mai vòm rất cao"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "BD",
+        "MM",
+        "LA",
+        "VN",
+        "KH",
+        "TH",
+        "MY",
+        "SG",
+        "ID",
+        "BN",
+        "PH"
+      ],
+      "nativeRangeVi": "Đông Bắc Ấn Độ, Bangladesh, Đông Dương, Thái Lan, Malaysia xuyên qua toàn bộ quần đảo Indonesia và Philippines",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy nước ngọt và rừng tràm",
+      "Ruộng lúa và kênh mương",
+      "Suối rừng đất thấp"
+    ],
+    "identificationVi": "Mai vòm cao trơn nhẵn màu đen hoặc nâu đen; đầu màu đen ô-liu với 3 đường kẻ sọc màu vàng chanh rất sắc nét chạy dọc mỗi bên mặt và thái dương.",
+    "behaviorVi": "Ưa nước hơn hầu hết các loài rùa hộp châu Á khác, thường kiếm ăn dưới đáy đầm lầy nông và lên bờ nằm dưới bụi cỏ rậm.",
+    "reproductionVi": "Đẻ 2–4 trứng lớn vỏ cứng mỗi lứa, có thể đẻ 2–3 lứa trong mùa mưa.",
+    "threatsVi": [
+      "Bị thu gom số lượng lớn phục vụ buôn bán thực phẩm và dược liệu châu Á"
+    ],
+    "funFactsVi": [
+      "Dù phát hiện đầu tiên trên đảo Ambon (Indonesia) nên mang tên amboinensis, loài rùa này phân bố khắp vùng đất ngập nước Nam Bộ Việt Nam."
+    ],
+    "similarSpecies": [
+      "Cuora flavomarginata",
+      "Cuora galbinifrons"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Loài bản địa Nguy cấp (EN), thuộc Phụ lục II CITES và Nhóm IIB Nghị định 06/2019/NĐ-CP và 84/2021/NĐ-CP, không mở bán trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cuora amboinensis - Vivarium de Meyrin 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_amboinensis_-_Vivarium_de_Meyrin_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cuora_amboinensis_-_Vivarium_de_Meyrin_01.JPG",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Eveha",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rùa hộp lưng đen.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B9a_h%E1%BB%99p_l%C6%B0ng_%C4%91en.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/R%C3%B9a_h%E1%BB%99p_l%C6%B0ng_%C4%91en.JPG",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nguyễn Thanh Quang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:AmboinaBoxTurtleYoung.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AmboinaBoxTurtleYoung.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/AmboinaBoxTurtleYoung.JPG",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MacPoli1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Asian Box Turtle001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Box_Turtle001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Asian_Box_Turtle001.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kura-kura ambon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kura-kura_ambon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kura-kura_ambon.jpg",
+        "width": 1831,
+        "height": 2929,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kikisittisarifa",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443521",
+      "https://www.iucnredlist.org/species/5958/3078812",
+      "https://en.wikipedia.org/wiki/Amboina_box_turtle",
+      "https://vi.wikipedia.org/wiki/Cuora_amboinensis"
+    ]
+  },
+  {
+    "scientificName": "Cuora flavomarginata",
+    "commonNameVi": "Rùa Hộp Viền Vàng",
+    "commonNameEn": "Yellow-margined Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Cuora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Cuora"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/5960/97359069",
+    "gbifKey": 9116969,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng ẩm cận nhiệt đới, bìa suối và ruộng bậc thang ở Nam Trung Quốc, Đài Loan và quần đảo Ryukyu"
+    },
+    "descriptionVi": "Loài rùa hộp sống trên cạn nhiều nhất trong chi Cuora, nổi bật với đường chỉ vàng kem trên sống lưng và đôi vệt vàng tươi viền từ sau mắt ra cổ.",
+    "conservationNoteVi": "Xếp mức Nguy cấp (EN) trên Sách Đỏ IUCN do suy giảm sinh cảnh tự nhiên tại Nam Trung Quốc, dù được bảo tồn tốt ở Đài Loan và đảo Ishigaki.",
+    "pullQuoteVi": "Trong văn hóa dân gian Đài Loan và Hoa Nam, rùa hộp viền vàng được gọi là 'Thực xà quy' vì truyền thuyết kể rằng chúng dùng nắp yếm kẹp chết rắn để ăn thịt.",
+    "dietVi": "Động vật ăn tạp trên cạn: giun đất, sên, côn trùng, trái cây rụng, nấm rừng và rau lá mềm.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đài Loan",
+      "lat": 24.15,
+      "lng": 120.67
+    },
+    "regionVi": "Đông Á (Nam Trung Quốc, Đài Loan, Nhật Bản)",
+    "otherNamesVi": [
+      "Thực xà quy",
+      "Rùa hộp lưng vàng"
+    ],
+    "synonyms": [
+      "Cistoclemmys flavomarginata",
+      "Cuora amboinensis",
+      "Cuora evelynae",
+      "Cyclemys flavomarginata"
+    ],
+    "wikidataId": "Q304894",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cuora_flavomarginata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chinese_box_turtle",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 19,
+      "weightGMin": 500,
+      "weightGMax": 950,
+      "heightCmMax": null,
+      "noteVi": "Mai vòm cao tròn giống rùa hộp Bắc Mỹ"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "TW",
+        "JP"
+      ],
+      "nativeRangeVi": "Miền trung và nam Trung Quốc, đảo Đài Loan và quần đảo Yaeyama (Ishigaki, Iriomote thuộc Nhật Bản)",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thường xanh cận nhiệt đới",
+      "Thung lũng suối rừng",
+      "Bìa rừng và vườn cây nông nghiệp"
+    ],
+    "identificationVi": "Mai vòm cao màu nâu sô-cô-la đậm với một đường sọc vàng kem dọc sống lưng; mặt yếm đen bóng có viền ngoài màu vàng ngà (flavomarginata) và khép kín hoàn toàn.",
+    "behaviorVi": "Sống chủ yếu trên nền rừng ẩm có nhiều lá mục, chỉ xuống các vũng nước nông để ngâm mình và uống nước; tính cách rất thông minh và nhận ra chủ nuôi.",
+    "reproductionVi": "Đẻ 1–4 trứng thuôn dài vào đầu mùa hè, trứng nở sau khoảng 65–80 ngày.",
+    "threatsVi": [
+      "Thu bắt tự nhiên và mất rừng đồi thấp tại lục địa"
+    ],
+    "funFactsVi": [
+      "Quần thể trên đảo Ishigaki và Iriomote (Nhật Bản) được Chính phủ Nhật Bản công nhận là Di tích Tự nhiên Quốc gia từ năm 1972."
+    ],
+    "similarSpecies": [
+      "Cuora amboinensis",
+      "Terrapene carolina"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) thuộc Phụ lục II CITES với hạn ngạch xuất khẩu tự nhiên bằng 0, chỉ trưng bày bách khoa trên BioNexus."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cuora flavomarginata - Karlsruhe Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_flavomarginata_-_Karlsruhe_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cuora_flavomarginata_-_Karlsruhe_Zoo_01.jpg",
+        "width": 4926,
+        "height": 3025,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cuora flavomarginata (Gray, 1863)2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_flavomarginata_(Gray,_1863)2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cuora_flavomarginata_%28Gray%2C_1863%292.JPG",
+        "width": 1028,
+        "height": 1453,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Pełnik",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cuora flavomarginata Genève 24102014 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_flavomarginata_Gen%C3%A8ve_24102014_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cuora_flavomarginata_Gen%C3%A8ve_24102014_1.jpg",
+        "width": 3888,
+        "height": 1405,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cuora flavomarginata (Gray, 1863).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_flavomarginata_(Gray,_1863).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cuora_flavomarginata_%28Gray%2C_1863%29.JPG",
+        "width": 2012,
+        "height": 1423,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Pełnik",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chineseboxturtle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chineseboxturtle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chineseboxturtle.jpg",
+        "width": 2304,
+        "height": 1728,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "Keitei",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9116969",
+      "https://www.iucnredlist.org/species/5960/97359069",
+      "https://en.wikipedia.org/wiki/Chinese_box_turtle",
+      "https://vi.wikipedia.org/wiki/Cuora_flavomarginata"
+    ]
+  },
+  {
+    "scientificName": "Cuora galbinifrons",
+    "commonNameVi": "Rùa Hộp Trán Vàng Miền Bắc",
+    "commonNameEn": "Indochinese Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Cuora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Cuora"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/97357437/123816666",
+    "gbifKey": 2443503,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 27,
+      "baskMax": 29,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng thường xanh núi cao ẩm ướt tại Việt Nam, Lào và cực nam Trung Quốc"
+    },
+    "descriptionVi": "Báu vật rừng già của dãy Trường Sơn và vùng núi Bắc Bộ Việt Nam với chiếc đầu màu vàng chanh tươi sáng và tấm mai hoa văn vệt vàng trên nền nâu đỏ.",
+    "conservationNoteVi": "Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB Nghị định 06/2019 & 84/2021/NĐ-CP tại Việt Nam.",
+    "pullQuoteVi": "Ẩn mình dưới lớp thảm mục dày của rừng nguyên sinh trên độ cao hàng nghìn mét, rùa hộp trán vàng là một trong những loài rùa quý hiếm và nguy cấp bậc nhất thế giới.",
+    "dietVi": "Động vật ăn tạp rừng ẩm: giun đất, sên rừng, nấm, quả sung rụng và chồi cây mọng nước.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Vườn quốc gia Cúc Phương, Ninh Bình, Việt Nam",
+      "lat": 20.32,
+      "lng": 105.61
+    },
+    "regionVi": "Việt Nam, Lào và Nam Trung Quốc",
+    "otherNamesVi": [
+      "Rùa hộp hoa",
+      "Rùa nắp trán vàng"
+    ],
+    "synonyms": [
+      "Cistoclemmys galbinifrons",
+      "Cuora galbinifrons serrata",
+      "Cyclemus flavomarginata hainanensis",
+      "Cyclemys flavomarginata hainanensis"
+    ],
+    "wikidataId": "Q304965",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cuora_galbinifrons",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indochinese_box_turtle",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 500,
+      "weightGMax": 1100,
+      "heightCmMax": null,
+      "noteVi": "Yếm bụng có khớp bản lề khép kín không một khe hở"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN"
+      ],
+      "nativeRangeVi": "Vùng núi miền Bắc và Bắc Trung Bộ Việt Nam, trung Lào và nam Quảng Tây, đảo Hải Nam (Trung Quốc)",
+      "elevationM": {
+        "min": 300,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thường xanh núi đá vôi",
+      "Rừng mưa á nhiệt đới núi cao",
+      "Thung lũng suối rừng già"
+    ],
+    "identificationVi": "Đỉnh đầu màu vàng tươi hoặc vàng cam điểm vân mảnh, mai vòm cao có ba dải sọc vàng cam chạy dọc trên nền nâu hạt dẻ hoặc đen.",
+    "behaviorVi": "Sống hoàn toàn trên cạn dưới lớp lá rừng ẩm mát, cực kỳ nhút nhát và khép chặt mai suốt nhiều giờ khi cảm thấy nguy hiểm.",
+    "reproductionVi": "Chỉ đẻ 1–3 trứng lớn mỗi năm vào đầu mùa mưa, thời gian ấp kéo dài 75–95 ngày.",
+    "threatsVi": [
+      "Nạn săn trộm bằng chó săn chuyên nghiệp để bán lậu qua biên giới",
+      "Mất rừng nguyên sinh"
+    ],
+    "funFactsVi": [
+      "Trung tâm Bảo tồn Rùa (TCC) tại Vườn quốc gia Cúc Phương đang dẫn đầu nỗ lực nhân giống bảo tồn loài rùa quý hiếm này nhằm ngăn chặn sự tuyệt chủng ngoài tự nhiên."
+    ],
+    "similarSpecies": [
+      "Cuora bourreti",
+      "Cuora picturata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Thuộc Phụ lục I CITES và Nhóm IB Nghị định 06/2019/NĐ-CP và 84/2021/NĐ-CP (nghiêm cấm khai thác, mua bán vì mục đích thương mại)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Želva žlutočelá 7327.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C5%BDelva_%C5%BEluto%C4%8Del%C3%A1_7327.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/%C5%BDelva_%C5%BEluto%C4%8Del%C3%A1_7327.jpg",
+        "width": 3600,
+        "height": 2400,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Matěj Baťha",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:花背箱龜龜殼標本.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%8A%B1%E8%83%8C%E7%AE%B1%E9%BE%9C%E9%BE%9C%E6%AE%BC%E6%A8%99%E6%9C%AC.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/%E8%8A%B1%E8%83%8C%E7%AE%B1%E9%BE%9C%E9%BE%9C%E6%AE%BC%E6%A8%99%E6%9C%AC.jpg",
+        "width": 3424,
+        "height": 3424,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "氏子",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443503",
+      "https://www.iucnredlist.org/species/97357437/123816666",
+      "https://en.wikipedia.org/wiki/Indochinese_box_turtle",
+      "https://vi.wikipedia.org/wiki/Cuora_galbinifrons"
+    ]
+  },
+  {
+    "scientificName": "Cuora mouhotii",
+    "commonNameVi": "Rùa Sa Nhân",
+    "commonNameEn": "Keeled Box Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Cuora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Cuora"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/163414/1006285",
+    "gbifKey": 2443546,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng núi đá vôi và rừng thường xanh nhiều lá mục ở Việt Nam và Đông Dương"
+    },
+    "descriptionVi": "Loài rùa rừng núi đá vôi có diện mạo góc cạnh độc đáo với đỉnh mai phẳng lì có ba gờ sống nổi cao và rìa mai phía sau khía răng cưa sắc nhọn như lá cưa.",
+    "conservationNoteVi": "Xếp mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc nhóm IIB Nghị định 84/2021/NĐ-CP tại Việt Nam do săn bắt và mất rừng núi đá vôi.",
+    "pullQuoteVi": "Với chiếc mai màu nâu lá khô phẳng ở đỉnh và khía răng cưa sắc lẻm ở đuôi, rùa sa nhân nằm bất động giữa thảm lá rừng trông không khác gì một chiếc lá gỗ mục.",
+    "dietVi": "Động vật ăn tạp: ốc sên núi đá, giun đất, cuốn chiếu, quả rừng rụng (như quả sa nhân) và nấm.",
+    "lifespanVi": "35–50 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Vườn quốc gia Phong Nha - Kẻ Bàng, Quảng Bình, Việt Nam",
+      "lat": 17.53,
+      "lng": 106.15
+    },
+    "regionVi": "Nam Á, Nam Trung Quốc và Đông Dương",
+    "otherNamesVi": [
+      "Rùa lưng phẳng",
+      "Rùa răng cưa núi đá"
+    ],
+    "synonyms": [
+      "Cuora serrata",
+      "Cyclemys mouhotii",
+      "Pyxidea mouboti",
+      "Pyxidea mouhotii"
+    ],
+    "wikidataId": "Q2391815",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cuora_mouhotii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Keeled_box_turtle",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 18,
+      "weightGMin": 400,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Đỉnh mai phẳng với 3 sống gờ song song rất rõ"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "BT",
+        "MM",
+        "CN",
+        "LA",
+        "VN"
+      ],
+      "nativeRangeVi": "Đông Bắc Ấn Độ, Bhutan, bắc Myanmar, Nam Trung Quốc, Lào và miền Bắc đến Trung Bộ Việt Nam",
+      "elevationM": {
+        "min": 200,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng nguyên sinh trên núi đá vôi",
+      "Khe đá và hang hốc phủ lá mục",
+      "Rừng thường xanh đồi núi"
+    ],
+    "identificationVi": "Đỉnh mai phẳng như mặt bàn có 3 gờ dọc nổi cao, hai bên sườn mai dốc đứng và phần rìa sau đuôi xẻ răng cưa sâu; mắt con đực thường đỏ hoặc nâu sẫm.",
+    "behaviorVi": "Leo trèo các bậc đá vôi rất khéo léo nhờ móng chân sắc và dành phần lớn thời gian vùi mình dưới lớp lá mục.",
+    "reproductionVi": "Đẻ 2–5 trứng thuôn dài vào đầu mùa mưa, nở sau khoảng 80–100 ngày.",
+    "threatsVi": [
+      "Săn bắt trái phép và khai thác đá vôi phá hủy sinh cảnh"
+    ],
+    "funFactsVi": [
+      "Tên gọi dân gian 'rùa sa nhân' bắt nguồn từ việc người đi rừng thường bắt gặp loài rùa này tìm ăn quả chín rụng dưới các bụi cây sa nhân rừng."
+    ],
+    "similarSpecies": [
+      "Geoemyda spengleri",
+      "Cuora galbinifrons"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Loài bản địa Nguy cấp (EN), thuộc Phụ lục II CITES và Nhóm IIB Nghị định 06/2019/NĐ-CP và 84/2021/NĐ-CP, không mở bán thương mại."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cuora mouhotii 46248661.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_mouhotii_46248661.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cuora_mouhotii_46248661.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cuora mouhotii 88505761.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_mouhotii_88505761.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cuora_mouhotii_88505761.jpg",
+        "width": 2048,
+        "height": 1742,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rejoice Gassah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cuora mouhotii 46344303.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_mouhotii_46344303.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cuora_mouhotii_46344303.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cuora mouhotii 88505709.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuora_mouhotii_88505709.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cuora_mouhotii_88505709.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rejoice Gassah",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443546",
+      "https://www.iucnredlist.org/species/163414/1006285",
+      "https://en.wikipedia.org/wiki/Keeled_box_turtle",
+      "https://vi.wikipedia.org/wiki/Cuora_mouhotii"
+    ]
+  },
+  {
+    "scientificName": "Mauremys reevesii",
+    "commonNameVi": "Rùa Ba Gờ Reeves",
+    "commonNameEn": "Chinese Pond Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Mauremys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Mauremys"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/170502/97431862",
+    "gbifKey": 2443597,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": 20,
+      "waterTempMax": 26,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Ao hồ, đầm lầy, ruộng lúa và suối chảy chậm vùng Đông Á"
+    },
+    "descriptionVi": "Loài rùa nước Đông Á quen thuộc với ba đường sống gờ nổi rõ dọc chiếc mai nâu hạt dẻ và khả năng tương tác thân thiện như thú cưng với người nuôi.",
+    "conservationNoteVi": "Quần thể hoang dã nguyên bản tại Đông Á bị suy giảm mạnh nên được IUCN xếp mức Nguy cấp (EN), trong khi hàng triệu cá thể được nhân giống trong trại nuôi mỗi năm.",
+    "pullQuoteVi": "Vào độ tuổi trưởng thành, những con rùa Reeves đực trải qua quá trình nhiễm hắc tố tự nhiên khiến toàn bộ mai, da và mắt chuyển sang màu đen mun huyền bí.",
+    "dietVi": "Động vật ăn tạp: thức ăn viên, cá nhỏ, tép, ốc nước, côn trùng và rau thủy sinh.",
+    "lifespanVi": "25–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Chiết Giang, Trung Quốc",
+      "lat": 29.15,
+      "lng": 120.09
+    },
+    "regionVi": "Đông Á (Trung Quốc, Triều Tiên, Nhật Bản)",
+    "otherNamesVi": [
+      "Rùa kim quy ba gờ",
+      "Rùa thảo"
+    ],
+    "synonyms": [
+      "Chinemys megalocephala",
+      "Chinemys pani",
+      "Chinemys reevesii",
+      "Clemmys unicolor"
+    ],
+    "wikidataId": "Q495153",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Mauremys_reevesii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chinese_pond_turtle",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 22,
+      "weightGMin": 350,
+      "weightGMax": 1100,
+      "heightCmMax": null,
+      "noteVi": "Kích thước vừa phải, con đực nhỏ hơn và hóa đen khi già"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "TW",
+        "KP",
+        "KR",
+        "JP"
+      ],
+      "nativeRangeVi": "Miền trung và đông Trung Quốc, Đài Loan, bán đảo Triều Tiên và Nhật Bản",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ nước ngọt và đầm lầy",
+      "Ruộng lúa và kênh thủy lợi",
+      "Sông suối vùng đồng bằng"
+    ],
+    "identificationVi": "Mai hình chữ nhật bo góc màu nâu hạt dẻ hoặc đen với 3 đường gờ sống nổi rõ chạy dọc lưng; hai bên cổ có các đường sọc vàng viền đen.",
+    "behaviorVi": "Cực kỳ dạn người và háu ăn nhưng bơi không giỏi bằng rùa Cooter, vì vậy trong bể nuôi cần mực nước vừa phải và nhiều lũa đá để trèo lên thở.",
+    "reproductionVi": "Đẻ 4–12 trứng thuôn dài mỗi lứa vào mùa hè, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Mất đất ngập nước tự nhiên và lai tạp di truyền ngoài hoang dã"
+    ],
+    "funFactsVi": [
+      "Những chiếc mai rùa dùng để khắc chữ Giáp cốt văn thời nhà Thương (Trung Quốc cổ đại) phần lớn chính là mai và yếm của loài rùa Mauremys reevesii này."
+    ],
+    "similarSpecies": [
+      "Mauremys sinensis",
+      "Mauremys mutica"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể bán cạn 80×45×40 cm có mực nước cao gấp 1,5–2 lần chiều dài mai kèm bãi phơi nắng rộng dễ leo.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi trên bãi phơi 30–32°C.",
+      "feedingVi": "Ăn thức ăn viên cho rùa nước (Hikari Turtle), tép khô, cá nhỏ và rau xanh 1 lần/ngày.",
+      "socialVi": "Thân thiện, dễ thuần ăn trên tay người nuôi.",
+      "commonProblemsVi": [
+        "Đuối nước ở rùa con nếu bể quá sâu và thành bể trơn không có chỗ bám"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "III",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục III CITES, không phân bố tự nhiên hay thuộc danh mục cấm tại Việt Nam; được nhân giống trang trại quy mô cực lớn."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Ba Gờ Reeves Turtle CB (4–5 cm)",
+        "priceVnd": 180000,
+        "descriptionVi": "Rùa con nhân giống khỏe mạnh, dạn người, ăn cám nổi rất nhạy."
+      },
+      {
+        "nameVi": "Rùa Ba Gờ Reeves Juvenile (8–10 cm)",
+        "priceVnd": 350000,
+        "descriptionVi": "Cá thể nhỡ đã cứng cáp, mai 3 gờ sắc nét."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Mauremys reevesi (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauremys_reevesi_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Mauremys_reevesi_%282%29.jpg",
+        "width": 6620,
+        "height": 3322,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dinkun Chen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bentley nuestra Mauremys reevesii 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bentley_nuestra_Mauremys_reevesii_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bentley_nuestra_Mauremys_reevesii_01.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "19Tarrestnom65",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Chinese Pond Turtle (Mauremys reevesii).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Pond_Turtle_(Mauremys_reevesii).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Chinese_Pond_Turtle_%28Mauremys_reevesii%29.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Pedro Henrique Maloso Ramos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mauremys reevesii in Kibichuo, Okayama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauremys_reevesii_in_Kibichuo,_Okayama.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mauremys_reevesii_in_Kibichuo%2C_Okayama.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:クサガメの飼育個体.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%AF%E3%82%B5%E3%82%AC%E3%83%A1%E3%81%AE%E9%A3%BC%E8%82%B2%E5%80%8B%E4%BD%93.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/%E3%82%AF%E3%82%B5%E3%82%AC%E3%83%A1%E3%81%AE%E9%A3%BC%E8%82%B2%E5%80%8B%E4%BD%93.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "虹の蛇",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443597",
+      "https://www.iucnredlist.org/species/170502/97431862",
+      "https://en.wikipedia.org/wiki/Chinese_pond_turtle",
+      "https://vi.wikipedia.org/wiki/Mauremys_reevesii"
+    ]
+  },
+  {
+    "scientificName": "Mauremys sinensis",
+    "commonNameVi": "Rùa Cổ Sọc",
+    "commonNameEn": "Chinese Stripe-necked Turtle",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Geoemydidae",
+      "genus": "Mauremys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Geoemydidae",
+      "genus": "Chi Mauremys"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/15026/547319",
+    "gbifKey": 2443244,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": 22,
+      "waterTempMax": 27,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Sông suối đồng bằng, hồ đầm và kênh rạch ở miền Bắc, Trung Việt Nam, Nam Trung Quốc và Đài Loan"
+    },
+    "descriptionVi": "Loài rùa nước ngọt có chiếc cổ và bốn chân trang trí hàng chục đường kẻ sọc mảnh màu vàng xanh song song vô cùng tinh xảo như nét vẽ cọ.",
+    "conservationNoteVi": "Quần thể tự nhiên ngoài sông hồ bị suy giảm mạnh nên được IUCN xếp mức Cực kỳ nguy cấp (CR), dù không thuộc Nghị định 84/2021 và được nhân giống trại nuôi rất phổ biến.",
+    "pullQuoteVi": "Hơn tám đường chỉ vàng mảnh chạy song song từ chóp mũi dọc suốt chiếc cổ dài là dấu ấn nghệ thuật giúp nhận ra rùa cổ sọc ngay từ cái nhìn đầu tiên.",
+    "dietVi": "Động vật ăn tạp (con trưởng thành thiên thực vật): rau muống, bèo, trái cây chín, ốc, tép và thức ăn viên.",
+    "lifespanVi": "25–40 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đài Loan",
+      "lat": 25.03,
+      "lng": 121.56
+    },
+    "regionVi": "Việt Nam, Lào, Nam Trung Quốc và Đài Loan",
+    "otherNamesVi": [
+      "Rùa hoa Trung Hoa",
+      "Ocadia sinensis"
+    ],
+    "synonyms": [
+      "Clemmys anyangensis",
+      "Emys bennettii",
+      "Emys chinensis",
+      "Emys sinensis"
+    ],
+    "wikidataId": "Q1124688",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Mauremys_sinensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chinese_stripe-necked_turtle",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 27,
+      "weightGMin": 700,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn và rộng mai hơn con đực"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN",
+        "TW"
+      ],
+      "nativeRangeVi": "Đồng bằng Bắc Bộ và Bắc Trung Bộ Việt Nam, trung Lào, miền nam Trung Quốc (Quảng Đông, Quảng Tây, Hải Nam, Phúc Kiến) và Đài Loan",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": [
+      "Sông chảy chậm và hồ đầm đồng bằng",
+      "Kênh mương thủy lợi",
+      "Vùng ngập nước ven sông"
+    ],
+    "identificationVi": "Đầu, cổ và tứ chi có từ 8–10 đường kẻ sọc mảnh màu vàng hoặc xanh lục nhạt viền đen chạy song song; mai con non có 3 gờ kèm đốm cam mờ, phẳng dần khi trưởng thành.",
+    "behaviorVi": "Hiền lành, bơi lội giỏi hơn rùa Reeves và rất thích phơi nắng thành từng đàn trên các bờ kè và khúc gỗ.",
+    "reproductionVi": "Đẻ 7–17 trứng thuôn dài vào mùa xuân hè, trứng nở sau khoảng 60–70 ngày.",
+    "threatsVi": [
+      "Bị đánh bắt tận diệt trong các sông hồ tự nhiên và mất sinh cảnh đất ngập nước"
+    ],
+    "funFactsVi": [
+      "Nhờ khả năng sinh sản mạnh trong điều kiện nuôi dưỡng, rùa cổ sọc là một trong những loài rùa nước châu Á được nhân giống thành công nhất tại các trại nuôi bảo tồn và sinh vật cảnh."
+    ],
+    "similarSpecies": [
+      "Mauremys reevesii",
+      "Mauremys annamensis"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể bán cạn 90×45×45 cm có đảo phơi nắng khô ráo và bộ lọc nước tốt.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi 31–33°C.",
+      "feedingVi": "Ăn kết hợp 50% thức ăn viên/tép cá và 50% rau xanh (rau muống, xà lách, bèo cái).",
+      "socialVi": "Rất ôn hòa, sống chung tốt với các loài rùa nước hiền.",
+      "commonProblemsVi": [
+        "Nấm trắng trên da cổ nếu nước bể không được lọc sạch và thiếu phơi nắng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "III",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục III CITES, không nằm trong danh mục IB/IIB Nghị định 84/2021/NĐ-CP; cá thể nhân giống trại nuôi (CB) được giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Cổ Sọc Chinese Stripe-necked Turtle CB (4–5 cm)",
+        "priceVnd": 160000,
+        "descriptionVi": "Cá thể nhân giống sọc cổ vàng nét, khỏe mạnh và phàm ăn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chinese stripe-necked turtle (Mauremys sinensis) Bach Ma.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_stripe-necked_turtle_(Mauremys_sinensis)_Bach_Ma.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chinese_stripe-necked_turtle_%28Mauremys_sinensis%29_Bach_Ma.jpg",
+        "width": 5587,
+        "height": 3725,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Geoemydidae Mauremys sinensis 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geoemydidae_Mauremys_sinensis_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Geoemydidae_Mauremys_sinensis_1.jpg",
+        "width": 1799,
+        "height": 2398,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mauremys sinensis in China (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauremys_sinensis_in_China_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mauremys_sinensis_in_China_%282%29.jpg",
+        "width": 6312,
+        "height": 4420,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dinkun Chen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ocadia sinensis 02.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ocadia_sinensis_02.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ocadia_sinensis_02.JPG",
+        "width": 4288,
+        "height": 2848,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Secundum naturam",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:野生台灣斑龜.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%87%8E%E7%94%9F%E5%8F%B0%E7%81%A3%E6%96%91%E9%BE%9C.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/%E9%87%8E%E7%94%9F%E5%8F%B0%E7%81%A3%E6%96%91%E9%BE%9C.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yuyiolulu",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2443244",
+      "https://www.iucnredlist.org/species/15026/547319",
+      "https://en.wikipedia.org/wiki/Chinese_stripe-necked_turtle",
+      "https://vi.wikipedia.org/wiki/Mauremys_sinensis"
+    ]
+  }
+]

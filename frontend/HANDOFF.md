@@ -125,7 +125,32 @@ Frontend đã được sửa để chạy đúng hợp đồng tài liệu 04. N
 | 6 | Danh sách chi (GENUS) | Form "Thêm loài" duyệt `taxonomy` rồi `taxonomy/{id}/children` từng cấp (khoảng 19 request) | Tùy chọn: `GET api/taxonomy?rank=GENUS` trả mảng phẳng |
 | 7 | Endpoint ngoài hợp đồng còn trong code | `species/{id}/products`, `products/{id}/reviews`, `seller/profile` (hook không trang nào gọi hoặc chỉ là phần phụ) | Không bắt buộc. Trang sản phẩm theo loài dùng `products?speciesId=` đúng hợp đồng |
 | 8 | Dữ liệu `me` và giỏ | Chỉ gọi khi tài khoản là USER | — |
-| 9 | Lọc sản phẩm | Trang Cửa hàng lọc theo giá, nhóm và mức IUCN ở client trên tối đa 48 sản phẩm của một trang | Khi sàn có hơn 48 sản phẩm: thêm tham số lọc (`minPrice`, `maxPrice`, `iucn`) vào `GET api/products` hoặc cho phép duyệt nhiều trang |
+| 9 | Lọc sản phẩm | Đã thay bằng mục 10 bên dưới (tải đủ mọi trang rồi lọc ở client) | Xem mục 10 |
+
+#### Catalog mở rộng (04/11/2026, chủ dự án cho phép sửa seed)
+
+Seed có thêm **624 loài, 497 sản phẩm, 495 nút phân loại, 8 shop** sinh tự động từ `frontend/catalog/*.json`:
+- **Nguồn dữ liệu:** Antigravity thu thập, Claude đối chiếu với các nguồn sau:
+  - GBIF: 100% `gbifKey` đúng, tên đều là tên được chấp nhận.
+  - Wikidata, mục IUCN P141: lệch 3 loài.
+  - Wikimedia Commons: mọi ảnh tồn tại, giấy phép hợp lệ.
+- **Không sửa tay:**
+  - Khối nằm giữa hai mốc `-- >>> CATALOG BEGIN` và `-- <<< CATALOG END` trong `database/seed_data.sql`.
+  - File `src/mocks/data/catalog.generated.ts`.
+  - Muốn đổi thì sửa catalog rồi chạy `node scripts/build-catalog.mjs`.
+- **Chưa chạy thử trên SQL Server thật.** Hãy chạy `BioNexusDatabes.sql` rồi `seed_data.sql` một lần. Khối CATALOG có thêm `THROW 50010/50011` khi tra sai tên shop, loài hoặc chi.
+- **Có thêm mức EX** (*Chelonoidis niger*), nên dòng "chưa có EW, EX" ở đầu seed không còn đúng.
+- **Ảnh:**
+  - `scripts/fetch-catalog-photos.mjs` tải 2 ảnh mỗi loài (hero 1280px và portrait 640×800, webp) vào `public/photos/c/<slug>/`, tổng khoảng 90 MB.
+  - Nguồn ảnh ghi trong `catalog/_photos-manifest.json` và hiện ở trang Ghi nguồn.
+- **Hồ sơ mở rộng ngoài hợp đồng:** kích thước, cách nuôi, mối đe doạ... nằm trong file tĩnh `public/catalog/*.json`, không đi qua API, giống `species-extras.ts` của 9 loài gốc.
+- **Tài liệu 04 cần chủ dự án cập nhật:** con số "9 loài, 10 sản phẩm, 25 nút" ở mục `seed.ts` đã cũ. Agent không tự sửa `docs/frontend/` khi chưa được yêu cầu.
+
+| # | Điểm | Frontend đang làm | Đề xuất |
+|---|---|---|---|
+| 10 | Đếm và lọc sản phẩm | `useAllApprovedProducts` tải trang 1 (size 48) để biết `total`, rồi tải song song các trang còn lại (khoảng 9 request), sau đó lọc giá, nhóm, IUCN ở client | Thêm `minPrice`, `maxPrice`, `iucn` vào `GET api/products`; tùy chọn thêm `GET api/species/product-counts` trả `{speciesId: count}` |
+| 11 | Nhánh phân loại | Trang Cây phân loại gọi `species?nodeId=` cho từng nhánh con (một bộ có tới khoảng 20 họ) | Tùy chọn: `GET api/taxonomy/{id}/children` trả kèm `speciesCount` |
+| 12 | Danh sách loài | `GET api/species` trả cả 633 loài (khoảng 400 KB JSON), giao diện tự phân trang | Giữ nguyên được. Nếu chậm thì thêm `page`/`size` theo mục 7 tài liệu 04 |
 
 Dữ liệu mock (`src/mocks/data/*`) đã chép lại đúng `database/seed_data.sql`: id loài theo thứ tự INSERT (1 = *Eublepharis macularius*, 6 = *Ambystoma mexicanum*…), 25 nút phân loại (`Caudata`, không có `Ericales`), 3 đơn với dòng đơn đúng seed (ORD-2026-0003 của `dangvang`, CANCELLED). Giao diện không còn tra theo id cứng ở đâu: ảnh, điểm trên địa cầu, liên kết hành trình đều tra theo `scientificName`. Khi seed đổi thì tăng `SEED_VERSION` trong `src/mocks/db.ts` để trình duyệt tự nạp lại.
 

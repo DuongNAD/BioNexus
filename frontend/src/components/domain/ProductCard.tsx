@@ -7,6 +7,7 @@ import { IucnBadge } from '@/components/ui/IucnBadge';
 import { SPECIES_EXTRAS } from '@/content/species-extras';
 import { cn } from '@/lib/cn';
 import type { ProductViewModel } from '@/api/adapters';
+import { catalogPhotoPath } from '@/api/catalog';
 
 export interface ProductCardProps {
   product: ProductViewModel;
@@ -23,7 +24,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, 
 
   // Ảnh chân dung của loài hiện khi rê chuột, giúp so cá thể với mẫu chuẩn
   const extras = product.speciesScientificName ? SPECIES_EXTRAS[product.speciesScientificName] : undefined;
-  const secondaryImage = extras?.slug ? `photos/${extras.slug}/portrait-960.webp` : null;
+  // Loài catalog: ảnh thẻ đã là portrait của loài nên lật sang ảnh hero
+  const secondaryImage = extras?.slug
+    ? `photos/${extras.slug}/portrait-960.webp`
+    : product.speciesScientificName
+      ? catalogPhotoPath(product.speciesScientificName, 'hero')
+      : null;
   const showFlip = enableHoverFlip && isHovered && secondaryImage && secondaryImage !== product.displayImage;
 
   const handleAction = (e: React.MouseEvent<HTMLButtonElement>) => {

@@ -1,0 +1,3466 @@
+[
+  {
+    "scientificName": "Arctictis binturong",
+    "commonNameVi": "Cầy mực",
+    "commonNameEn": "Binturong",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Viverridae",
+      "genus": "Arctictis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Cầy (Viverridae)",
+      "genus": "Chi Cầy mực (Arctictis)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/41690/45217088",
+    "gbifKey": 2434615,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán cao của rừng mưa nhiệt đới nguyên sinh nhiều cây sung vả độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài lớn nhất trong họ Cầy (Viverridae) với ngoại hình lai giữa một chú gấu đen nhỏ và một con mèo rừng cùng chiếc đuôi cuốn thứ năm độc đáo.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục III CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Tuyến xạ dưới đuôi của Cầy Mực tiết ra hợp chất hữu cơ 2-acetyl-1-pyrroline — chính là phân tử tạo nên mùi thơm đặc trưng của bỏng ngô bơ nóng hổi và gạo nếp thơm!",
+    "dietVi": "Ăn chủ yếu quả sung, quả vả chín, chồi cây, trứng chim và động vật nhỏ trên tán cây",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ictides albifrons",
+      "Ictides ater",
+      "Paradoxurus albifrons",
+      "Viverra binturong"
+    ],
+    "wikidataId": "Q213141",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BA%A7y_m%E1%BB%B1c",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Binturong",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 160,
+      "weightGMin": 9000,
+      "weightGMax": 20000,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông đen xù dài, chùm lông tai dài và chiếc đuôi cơ bắp có khả năng cuốn bám cành cây"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN"
+      ],
+      "nativeRangeVi": "Đông Nam Á lục địa và hải đảo tới đông bắc Ấn Độ và nam Trung Quốc",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lớn nhất trong họ Cầy (Viverridae) với ngoại hình lai giữa một chú gấu đen nhỏ và một con mèo rừng cùng chiếc đuôi cuốn thứ năm độc đáo. Đặc điểm nhận dạng: Bộ lông đen xù dài, chùm lông tai dài và chiếc đuôi cơ bắp có khả năng cuốn bám cành cây.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh tầng tán cao của rừng mưa nhiệt đới nguyên sinh nhiều cây sung vả độ cao 0–1.500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tuyến xạ dưới đuôi của Cầy Mực tiết ra hợp chất hữu cơ 2-acetyl-1-pyrroline — chính là phân tử tạo nên mùi thơm đặc trưng của bỏng ngô bơ nóng hổi và gạo nếp thơm!",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông đen xù dài, chùm lông tai dài và chiếc đuôi cơ bắp có khả năng cuốn bám cành cây."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "III",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Binturong diatas pohon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Binturong_diatas_pohon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Binturong_diatas_pohon.jpg",
+        "width": 7293,
+        "height": 5209,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Joni Manurung",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Binturong 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Binturong_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Binturong_04.jpg",
+        "width": 960,
+        "height": 1280,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Pacific Southwest Forest Service, USDA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Binturong 07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Binturong_07.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Binturong_07.jpg",
+        "width": 1024,
+        "height": 686,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Theerawat Sangprakarn",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bearcat (01).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bearcat_(01).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bearcat_%2801%29.jpg",
+        "width": 4083,
+        "height": 2484,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "NAPARAZZI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Herbivora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Herbivora.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Herbivora.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cecepsupyandani",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2434615",
+      "https://www.iucnredlist.org/species/41690/45217088",
+      "https://en.wikipedia.org/wiki/Binturong",
+      "https://vi.wikipedia.org/wiki/C%E1%BA%A7y_m%E1%BB%B1c"
+    ]
+  },
+  {
+    "scientificName": "Catopuma temminckii",
+    "commonNameVi": "Báo lửa",
+    "commonNameEn": "Asian Golden Cat",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Catopuma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Mèo (Felidae)",
+      "genus": "Chi Beo (Catopuma)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/4038/245236583",
+    "gbifKey": 2435094,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh nhiệt đới, rừng đá vôi và rừng rụng lá độ cao 0–3.000 m"
+    },
+    "descriptionVi": "Loài mèo hoang dã cỡ trung tuyệt đẹp của rừng già châu Á với bộ lông màu vàng đồng đến đỏ hung rực rỡ và đôi chân dài thanh thoát.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Khi di chuyển trong rừng, Beo Lửa luôn cong phần chóp đuôi lên để lộ mặt dưới đuôi màu trắng tinh như một tín hiệu dẫn đường trong bóng râm.",
+    "dietVi": "Săn thú gặm nhấm, cheo cheo, hươu mang con, chim gà rừng và bò sát",
+    "lifespanVi": null,
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Felis temminckii",
+      "Pardofelis temminckii"
+    ],
+    "wikidataId": "Q192233",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1o_l%E1%BB%ADa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Asian_golden_cat",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 115,
+      "lengthCmMax": 150,
+      "weightGMin": 9000,
+      "weightGMax": 16000,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông màu nâu đỏ vàng rực như lửa với hai vạch trắng viền đen chạy từ khóe mắt lên đỉnh đầu"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ chân dãy Himalaya, nam Trung Quốc trải dài khắp Đông Nam Á tới Sumatra",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài mèo hoang dã cỡ trung tuyệt đẹp của rừng già châu Á với bộ lông màu vàng đồng đến đỏ hung rực rỡ và đôi chân dài thanh thoát. Đặc điểm nhận dạng: Bộ lông màu nâu đỏ vàng rực như lửa với hai vạch trắng viền đen chạy từ khóe mắt lên đỉnh đầu.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban chạng vạng trong sinh cảnh rừng thường xanh nhiệt đới, rừng đá vôi và rừng rụng lá độ cao 0–3.000 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi di chuyển trong rừng, Beo Lửa luôn cong phần chóp đuôi lên để lộ mặt dưới đuôi màu trắng tinh như một tín hiệu dẫn đường trong bóng râm.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông màu nâu đỏ vàng rực như lửa với hai vạch trắng viền đen chạy từ khóe mắt lên đỉnh đầu."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Catopuma temminckii moormensis, Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catopuma_temminckii_moormensis,_Myanmar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Catopuma_temminckii_moormensis%2C_Myanmar.jpg",
+        "width": 2048,
+        "height": 1580,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "otomops",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Asian Golden Cat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Golden_Cat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Asian_Golden_Cat.jpg",
+        "width": 1872,
+        "height": 2808,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jenni Douglas from Edinburgh, Scotland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Asian golden cat at Edinburgh Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_golden_cat_at_Edinburgh_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Asian_golden_cat_at_Edinburgh_Zoo.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Marie Hale",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Catopuma temminckii 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catopuma_temminckii_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Catopuma_temminckii_2.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Umeshsrinivasan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Catopuma temminckii Safari Park Cisarua.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catopuma_temminckii_Safari_Park_Cisarua.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Catopuma_temminckii_Safari_Park_Cisarua.JPG",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Sakurai Midori",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2435094",
+      "https://www.iucnredlist.org/species/4038/245236583",
+      "https://en.wikipedia.org/wiki/Asian_golden_cat",
+      "https://vi.wikipedia.org/wiki/B%C3%A1o_l%E1%BB%ADa"
+    ]
+  },
+  {
+    "scientificName": "Pardofelis marmorata",
+    "commonNameVi": "Mèo gấm",
+    "commonNameEn": "Marbled Cat",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Pardofelis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Mèo (Felidae)",
+      "genus": "Chi Mèo gấm (Pardofelis)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/16218/97164299",
+    "gbifKey": 2435089,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng thường xanh nhiệt đới ẩm nguyên sinh độ cao 100–2.500 m"
+    },
+    "descriptionVi": "Bản sao thu nhỏ hoàn hảo của Báo Gấm với bộ lông họa tiết đá cẩm thạch và chiếc đuôi bông xù cực dài giúp giữ thăng bằng trên cành cây cao.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Khớp cổ chân sau của Mèo Gấm có thể xoay ngược 180 độ, cho phép nó leo xuống thân cây thẳng đứng với đầu chúc xuống đất giống như loài sóc.",
+    "dietVi": "Săn sóc cây, sóc bay, chim rừng, ếch cây và thằn lằn trên tán cây cao",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Felis marmorata"
+    ],
+    "wikidataId": "Q80191",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%A8o_g%E1%BA%A5m",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Marbled_cat",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 115,
+      "weightGMin": 2500,
+      "weightGMax": 5000,
+      "heightCmMax": null,
+      "noteVi": "Hoa văn vân mây lớn viền đen như đá cẩm thạch và chiếc đuôi xù dài hơn cả chiều dài thân"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Đông Himalaya, nam Trung Quốc qua Đông Dương tới Borneo và Sumatra",
+      "elevationM": {
+        "min": 100,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Bản sao thu nhỏ hoàn hảo của Báo Gấm với bộ lông họa tiết đá cẩm thạch và chiếc đuôi bông xù cực dài giúp giữ thăng bằng trên cành cây cao. Đặc điểm nhận dạng: Hoa văn vân mây lớn viền đen như đá cẩm thạch và chiếc đuôi xù dài hơn cả chiều dài thân.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh tán rừng thường xanh nhiệt đới ẩm nguyên sinh độ cao 100–2.500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khớp cổ chân sau của Mèo Gấm có thể xoay ngược 180 độ, cho phép nó leo xuống thân cây thẳng đứng với đầu chúc xuống đất giống như loài sóc.",
+      "Đặc điểm nhận diện tiêu biểu: Hoa văn vân mây lớn viền đen như đá cẩm thạch và chiếc đuôi xù dài hơn cả chiều dài thân."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pardofelis marmorata - James Eaton - 339015539.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pardofelis_marmorata_-_James_Eaton_-_339015539.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pardofelis_marmorata_-_James_Eaton_-_339015539.jpeg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "James Eaton",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pardofelis marmorata 437781601.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pardofelis_marmorata_437781601.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pardofelis_marmorata_437781601.jpg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Justin Philbois",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pardofelis marmorata 300280177.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pardofelis_marmorata_300280177.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Pardofelis_marmorata_300280177.jpg",
+        "width": 2048,
+        "height": 1853,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Harsha Jayaramaiah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pardofelis marmorata 437781511.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pardofelis_marmorata_437781511.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pardofelis_marmorata_437781511.jpg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Justin Philbois",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2435089",
+      "https://www.iucnredlist.org/species/16218/97164299",
+      "https://en.wikipedia.org/wiki/Marbled_cat",
+      "https://vi.wikipedia.org/wiki/M%C3%A8o_g%E1%BA%A5m"
+    ]
+  },
+  {
+    "scientificName": "Prionailurus viverrinus",
+    "commonNameVi": "Mèo cá",
+    "commonNameEn": "Fishing Cat",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Prionailurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Mèo (Felidae)",
+      "genus": "Chi Mèo rừng châu Á (Prionailurus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/18150/268618387",
+    "gbifKey": 2434899,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ngập mặn, đầm lầy lau sậy, rừng tràm và ven sông suối đất thấp độ cao 0–500 m"
+    },
+    "descriptionVi": "Loài mèo hoang dã phá vỡ định kiến 'mèo sợ nước', chuyên lặn ngụp săn cá điêu luyện trong các đầm lầy và rừng ngập mặn.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Mèo Cá có bộ lông hai lớp chống thấm nước hoàn hảo và thường dùng bàn chân trước vỗ nhẹ lên mặt nước giả làm côn trùng rơi để nhử cá bơi lại gần rồi tóm gọn.",
+    "dietVi": "Săn cá (chiếm hơn 70% khẩu phần), cua, ếch nhái, rắn nước và chim nước",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Felis viverrina",
+      "Prionailurus viverrinus rhizophoreus"
+    ],
+    "wikidataId": "Q190674",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%A8o_c%C3%A1",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fishing_cat",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 85,
+      "lengthCmMax": 115,
+      "weightGMin": 6000,
+      "weightGMax": 14000,
+      "heightCmMax": null,
+      "noteVi": "Thân hình vạm vỡ phủ lông xám ô-liu điểm đốm đen chạy dọc, đuôi ngắn và bàn chân có màng bơi bán phần"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "TH",
+        "MM",
+        "IN",
+        "LK",
+        "BD"
+      ],
+      "nativeRangeVi": "Các vùng đất ngập nước Nam Á và Đông Nam Á (đồng bằng sông Cửu Long, rừng ngập mặn)",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài mèo hoang dã phá vỡ định kiến 'mèo sợ nước', chuyên lặn ngụp săn cá điêu luyện trong các đầm lầy và rừng ngập mặn. Đặc điểm nhận dạng: Thân hình vạm vỡ phủ lông xám ô-liu điểm đốm đen chạy dọc, đuôi ngắn và bàn chân có màng bơi bán phần.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh rừng ngập mặn, đầm lầy lau sậy, rừng tràm và ven sông suối đất thấp độ cao 0–500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Mèo Cá có bộ lông hai lớp chống thấm nước hoàn hảo và thường dùng bàn chân trước vỗ nhẹ lên mặt nước giả làm côn trùng rơi để nhử cá bơi lại gần rồi tóm gọn.",
+      "Đặc điểm nhận diện tiêu biểu: Thân hình vạm vỡ phủ lông xám ô-liu điểm đốm đen chạy dọc, đuôi ngắn và bàn chân có màng bơi bán phần."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fischkatze (Zoo Leipzig).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fischkatze_(Zoo_Leipzig).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Fischkatze_%28Zoo_Leipzig%29.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fiver, der Hellseher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gato-pescador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gato-pescador.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gato-pescador.jpg",
+        "width": 2592,
+        "height": 3872,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Silvio Tanaka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:FishingCat-NightSafari-Singapore-20100110.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FishingCat-NightSafari-Singapore-20100110.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/FishingCat-NightSafari-Singapore-20100110.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Shiny Things .",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:FishingCat CincinnatiZoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FishingCat_CincinnatiZoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/FishingCat_CincinnatiZoo.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gfp-fishing-cat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gfp-fishing-cat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gfp-fishing-cat.jpg",
+        "width": 3456,
+        "height": 2304,
+        "license": "Public Domain",
+        "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+        "author": "Yinan Chen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2434899",
+      "https://www.iucnredlist.org/species/18150/268618387",
+      "https://en.wikipedia.org/wiki/Fishing_cat",
+      "https://vi.wikipedia.org/wiki/M%C3%A8o_c%C3%A1"
+    ]
+  },
+  {
+    "scientificName": "Prionailurus bengalensis",
+    "commonNameVi": "Mèo rừng",
+    "commonNameEn": "Mainland Leopard Cat",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Prionailurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Mèo (Felidae)",
+      "genus": "Chi Mèo rừng châu Á (Prionailurus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/223138747/226150742",
+    "gbifKey": 2434903,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh, rừng thứ sinh, rừng ngập mặn và bìa rừng độ cao 0–3.000 m"
+    },
+    "descriptionVi": "Loài mèo hoang dã có phạm vi phân bố rộng nhất châu Á với bộ lông đốm hoa báo tuyệt đẹp và khả năng thích nghi cao từ rừng ngập mặn đến núi cao.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN, thuộc Phụ lục II CITES và Nhóm IIB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Hai đốm lông trắng tròn nổi bật ở mặt sau đôi tai đen được gọi là 'mắt giả' (ocelli), giúp mèo con đi theo mẹ trong đêm tối và đánh lừa kẻ săn mồi từ phía sau.",
+    "dietVi": "Săn chuột rừng, sóc, chim nhỏ, thằn lằn, ếch nhái và côn trùng lớn",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Felis bengalensis"
+    ],
+    "wikidataId": "Q42627",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%A8o_b%C3%A1o",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Leopard_cat",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 95,
+      "weightGMin": 2500,
+      "weightGMax": 5000,
+      "heightCmMax": null,
+      "noteVi": "Kích thước tương đương mèo nhà nhưng chân dài hơn, lông vàng điểm đốm hoa mai và sau tai đen có đốm trắng giữa"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MY",
+        "ID",
+        "IN",
+        "CN",
+        "JP"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp Đông Á, Nam Á và toàn bộ Đông Nam Á",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài mèo hoang dã có phạm vi phân bố rộng nhất châu Á với bộ lông đốm hoa báo tuyệt đẹp và khả năng thích nghi cao từ rừng ngập mặn đến núi cao. Đặc điểm nhận dạng: Kích thước tương đương mèo nhà nhưng chân dài hơn, lông vàng điểm đốm hoa mai và sau tai đen có đốm trắng giữa.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh rừng thường xanh, rừng thứ sinh, rừng ngập mặn và bìa rừng độ cao 0–3.000 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Hai đốm lông trắng tròn nổi bật ở mặt sau đôi tai đen được gọi là 'mắt giả' (ocelli), giúp mèo con đi theo mẹ trong đêm tối và đánh lừa kẻ săn mồi từ phía sau.",
+      "Đặc điểm nhận diện tiêu biểu: Kích thước tương đương mèo nhà nhưng chân dài hơn, lông vàng điểm đốm hoa mai và sau tai đen có đốm trắng giữa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Leopard Cat Lakkidi -Wayanad.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopard_Cat_Lakkidi_-Wayanad.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Leopard_Cat_Lakkidi_-Wayanad.jpg",
+        "width": 8192,
+        "height": 5464,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Davidvraju",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Prionailurus bengalensis 544774621.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Prionailurus_bengalensis_544774621.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Prionailurus_bengalensis_544774621.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ian Dugdale",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:LEOPARD CAT(Prionailurus benalensis).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LEOPARD_CAT(Prionailurus_benalensis).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/LEOPARD_CAT%28Prionailurus_benalensis%29.jpg",
+        "width": 3412,
+        "height": 2400,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anirnoy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Prionailurus bengalensis 348837047.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Prionailurus_bengalensis_348837047.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Prionailurus_bengalensis_348837047.jpg",
+        "width": 2048,
+        "height": 1371,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "kalyanvarma",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Prionailurus bengalensis Thailand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Prionailurus_bengalensis_Thailand.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Prionailurus_bengalensis_Thailand.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ian Dugdale",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2434903",
+      "https://www.iucnredlist.org/species/223138747/226150742",
+      "https://en.wikipedia.org/wiki/Leopard_cat",
+      "https://vi.wikipedia.org/wiki/M%C3%A8o_b%C3%A1o"
+    ]
+  },
+  {
+    "scientificName": "Neofelis nebulosa",
+    "commonNameVi": "Báo gấm",
+    "commonNameEn": "Clouded Leopard",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Neofelis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Mèo (Felidae)",
+      "genus": "Chi Báo gấm (Neofelis)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/14519/198843258",
+    "gbifKey": 2435079,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh nhiệt đới nguyên sinh rậm rạp độ cao 100–2.500 m"
+    },
+    "descriptionVi": "Sát thủ thầm lặng trên tán rừng già châu Á với bộ lông họa tiết đám mây huyền ảo và cấu trúc hộp sọ tiến hóa độc lập giữa nhóm đại miêu và tiểu miêu.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Báo Gấm sở hữu cặp răng nanh dài nhất tính theo tỷ lệ kích thước hộp sọ trong toàn bộ các loài họ Mèo hiện đại (dài tới 4–5 cm), được ví như 'Hổ răng kiếm của thời hiện đại'.",
+    "dietVi": "Săn khỉ, voọc, mang, cheo cheo, lợn rừng con, sóc lớn và chim trĩ",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Felis nebulosa"
+    ],
+    "wikidataId": "Q36135",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1o_g%E1%BA%A5m",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Clouded_leopard",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 140,
+      "lengthCmMax": 190,
+      "weightGMin": 12000,
+      "weightGMax": 23000,
+      "heightCmMax": null,
+      "noteVi": "Những mảng hoa văn lớn hình đám mây viền đen sẫm và chiếc đuôi dài bằng cả thân mình"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "IN",
+        "NP",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ chân Himalaya qua nam Trung Quốc và khắp Đông Nam Á lục địa",
+      "elevationM": {
+        "min": 100,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Sát thủ thầm lặng trên tán rừng già châu Á với bộ lông họa tiết đám mây huyền ảo và cấu trúc hộp sọ tiến hóa độc lập giữa nhóm đại miêu và tiểu miêu. Đặc điểm nhận dạng: Những mảng hoa văn lớn hình đám mây viền đen sẫm và chiếc đuôi dài bằng cả thân mình.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh rừng thường xanh nhiệt đới nguyên sinh rậm rạp độ cao 100–2.500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Báo Gấm sở hữu cặp răng nanh dài nhất tính theo tỷ lệ kích thước hộp sọ trong toàn bộ các loài họ Mèo hiện đại (dài tới 4–5 cm), được ví như 'Hổ răng kiếm của thời hiện đại'.",
+      "Đặc điểm nhận diện tiêu biểu: Những mảng hoa văn lớn hình đám mây viền đen sẫm và chiếc đuôi dài bằng cả thân mình."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Neofelis nebulosa 359448788.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Neofelis_nebulosa_359448788.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Neofelis_nebulosa_359448788.jpg",
+        "width": 2048,
+        "height": 1542,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Nathan Ruser",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Hanging from a Fence NashvilleZoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hanging_from_a_Fence_NashvilleZoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hanging_from_a_Fence_NashvilleZoo.jpg",
+        "width": 2428,
+        "height": 3641,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Charles Barilleaux from Cincinnati, Ohio, United States of America",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:CloudedLeopard.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CloudedLeopard.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/CloudedLeopard.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Neofelis nebulosa, Clouded leopard.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Neofelis_nebulosa,_Clouded_leopard.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Neofelis_nebulosa%2C_Clouded_leopard.jpg",
+        "width": 4500,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rushenb",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2435079",
+      "https://www.iucnredlist.org/species/14519/198843258",
+      "https://en.wikipedia.org/wiki/Clouded_leopard",
+      "https://vi.wikipedia.org/wiki/B%C3%A1o_g%E1%BA%A5m"
+    ]
+  },
+  {
+    "scientificName": "Helarctos malayanus",
+    "commonNameVi": "Gấu chó",
+    "commonNameEn": "Sun Bear",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Helarctos"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Gấu (Ursidae)",
+      "genus": "Chi Gấu chó (Helarctos)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/9760/123798233",
+    "gbifKey": 2433403,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp và rừng thường xanh núi thấp độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài gấu nhỏ nhắn nhất thế giới, dành phần lớn thời gian leo trèo trên cây cao để tìm tổ ong mật và quả rừng chín.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Gấu Chó sở hữu chiếc lưỡi dài kỷ lục tới 20–25 cm chuyên dùng để luồn sâu vào các hốc cây cổ thụ liếm sạch mật ong và ấu trùng mối.",
+    "dietVi": "Ăn mật ong rừng, ấu trùng ong, mối, kiến, bọ cánh cứng và quả sung vả chín",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Helarctos euryspilus",
+      "Ursus malayanus"
+    ],
+    "wikidataId": "Q144923",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%E1%BA%A5u_ch%C3%B3",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sun_bear",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 140,
+      "weightGMin": 35000,
+      "weightGMax": 65000,
+      "heightCmMax": null,
+      "noteVi": "Loài gấu nhỏ nhất thế giới với bộ lông đen ngắn bóng mượt và yếm ngực màu vàng cam hình mặt trời mọc"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID"
+      ],
+      "nativeRangeVi": "Đông Nam Á lục địa (Việt Nam, Lào, Campuchia, Thái Lan, Myanmar) đến Sumatra và Borneo",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài gấu nhỏ nhắn nhất thế giới, dành phần lớn thời gian leo trèo trên cây cao để tìm tổ ong mật và quả rừng chín. Đặc điểm nhận dạng: Loài gấu nhỏ nhất thế giới với bộ lông đen ngắn bóng mượt và yếm ngực màu vàng cam hình mặt trời mọc.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban ngày trong sinh cảnh rừng mưa nhiệt đới đất thấp và rừng thường xanh núi thấp độ cao 0–1.500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Gấu Chó sở hữu chiếc lưỡi dài kỷ lục tới 20–25 cm chuyên dùng để luồn sâu vào các hốc cây cổ thụ liếm sạch mật ong và ấu trùng mối.",
+      "Đặc điểm nhận diện tiêu biểu: Loài gấu nhỏ nhất thế giới với bộ lông đen ngắn bóng mượt và yếm ngực màu vàng cam hình mặt trời mọc."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Helarctos malayanus, Sun bear - Kaeng Krachan National Park (50770053781).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helarctos_malayanus,_Sun_bear_-_Kaeng_Krachan_National_Park_(50770053781).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Helarctos_malayanus%2C_Sun_bear_-_Kaeng_Krachan_National_Park_%2850770053781%29.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:1 rainforest wild 2026 sunbear.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1_rainforest_wild_2026_sunbear.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/1_rainforest_wild_2026_sunbear.jpg",
+        "width": 14466,
+        "height": 14472,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chensiyuan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Sun bear (Helarctos malayanus euryspilus) Sepilok.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sun_bear_(Helarctos_malayanus_euryspilus)_Sepilok.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sun_bear_%28Helarctos_malayanus_euryspilus%29_Sepilok.jpg",
+        "width": 5244,
+        "height": 3498,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2014 Borneo Luyten-De-Hauwere-Sun-Bear-02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2014_Borneo_Luyten-De-Hauwere-Sun-Bear-02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/2014_Borneo_Luyten-De-Hauwere-Sun-Bear-02.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Denis Luyten",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2014 Borneo Luyten-De-Hauwere-Sun-Bear-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2014_Borneo_Luyten-De-Hauwere-Sun-Bear-01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2014_Borneo_Luyten-De-Hauwere-Sun-Bear-01.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Denis Luyten",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2433403",
+      "https://www.iucnredlist.org/species/9760/123798233",
+      "https://en.wikipedia.org/wiki/Sun_bear",
+      "https://vi.wikipedia.org/wiki/G%E1%BA%A5u_ch%C3%B3"
+    ]
+  },
+  {
+    "scientificName": "Ursus thibetanus",
+    "commonNameVi": "Gấu ngựa",
+    "commonNameEn": "Asiatic Black Bear",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Gấu (Ursidae)",
+      "genus": "Chi Gấu (Ursus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22824/166528664",
+    "gbifKey": 9335699,
+    "environment": {
+      "tempMin": 5,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh núi cao, rừng sồi dẻ và rừng hỗn giao độ cao 200–3.500 m"
+    },
+    "descriptionVi": "Loài gấu lớn mang biểu tượng vầng trăng khuyết màu trắng ngà nổi bật trước ngực và đôi tai tròn lớn dựng cao.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Khi kiếm ăn trên tán cây sồi hoặc cây dẻ rừng vào mùa thu, Gấu Ngựa bẻ các cành cây quanh chỗ ngồi đan lại tạo thành những 'tổ gấu' lớn giữa chạc cây.",
+    "dietVi": "Ăn tạp: quả hạt dẻ, quả sồi, măng rừng, quả mọng, mật ong và côn trùng",
+    "lifespanVi": null,
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Arcticonus thibetanus",
+      "Selenarctos thibetanus"
+    ],
+    "wikidataId": "Q124410",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%E1%BA%A5u_ng%E1%BB%B1a",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Asian_black_bear",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 130,
+      "lengthCmMax": 180,
+      "weightGMin": 80000,
+      "weightGMax": 160000,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông đen dài có bờm cổ dày và vệt lông màu trắng kem hình chữ V (vầng trăng khuyết) trước ngực"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "IN",
+        "CN",
+        "JP"
+      ],
+      "nativeRangeVi": "Khắp Đông Á, Nam Á và Đông Nam Á lục địa",
+      "elevationM": {
+        "min": 200,
+        "max": 3500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài gấu lớn mang biểu tượng vầng trăng khuyết màu trắng ngà nổi bật trước ngực và đôi tai tròn lớn dựng cao. Đặc điểm nhận dạng: Bộ lông đen dài có bờm cổ dày và vệt lông màu trắng kem hình chữ V (vầng trăng khuyết) trước ngực.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban chạng vạng trong sinh cảnh rừng thường xanh núi cao, rừng sồi dẻ và rừng hỗn giao độ cao 200–3.500 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi kiếm ăn trên tán cây sồi hoặc cây dẻ rừng vào mùa thu, Gấu Ngựa bẻ các cành cây quanh chỗ ngồi đan lại tạo thành những 'tổ gấu' lớn giữa chạc cây.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông đen dài có bờm cổ dày và vệt lông màu trắng kem hình chữ V (vầng trăng khuyết) trước ngực."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Moon bear at Beijing Wildlife Park image 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moon_bear_at_Beijing_Wildlife_Park_image_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Moon_bear_at_Beijing_Wildlife_Park_image_1.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "TarnishedPath",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ursus thibetanus 3 (Wroclaw zoo).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ursus_thibetanus_3_(Wroclaw_zoo).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Demo of white lioness and black beer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Demo_of_white_lioness_and_black_beer.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Demo_of_white_lioness_and_black_beer.jpg",
+        "width": 4000,
+        "height": 2252,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Dev Jadiya",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Asian Black Bear Ursus thibetanus by Dr. Raju Kasambe 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Black_Bear_Ursus_thibetanus_by_Dr._Raju_Kasambe_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Asian_Black_Bear_Ursus_thibetanus_by_Dr._Raju_Kasambe_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dr. Raju Kasambe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ursusthibetanus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ursusthibetanus.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ursusthibetanus.JPG",
+        "width": 2304,
+        "height": 1728,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "japanbearandforestsociety's file. japanbearandforestsociety",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9335699",
+      "https://www.iucnredlist.org/species/22824/166528664",
+      "https://en.wikipedia.org/wiki/Asian_black_bear",
+      "https://vi.wikipedia.org/wiki/G%E1%BA%A5u_ng%E1%BB%B1a"
+    ]
+  },
+  {
+    "scientificName": "Cuon alpinus",
+    "commonNameVi": "Sói đỏ",
+    "commonNameEn": "Dhole",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Cuon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Chó (Canidae)",
+      "genus": "Chi Chó sói lửa (Cuon)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/5953/72477893",
+    "gbifKey": 2434317,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh, rừng khộp rụng lá và trảng cỏ xen rừng độ cao 0–3.000 m"
+    },
+    "descriptionVi": "Thợ săn bầy đàn kiệt xuất của rừng già châu Á với bộ lông đỏ hung như lửa và tinh thần hợp tác săn mồi kỷ luật cao.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Khác với chó sói xám tru dài, Chó Sói Lửa giao tiếp với đồng loại trong rừng rậm bằng những tiếng huýt sáo thanh cao nghe giống tiếng chim hót nên còn được gọi là 'Sói huýt sáo'.",
+    "dietVi": "Săn theo đàn các loài thú móng guốc cỡ trung và lớn như nai, mang, lợn rừng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Canis alpinus"
+    ],
+    "wikidataId": "Q132585",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%C3%B3i_l%E1%BB%ADa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dhole",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 130,
+      "weightGMin": 12000,
+      "weightGMax": 20000,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông màu đỏ gạch rực rỡ, bụng trắng và chiếc đuôi bông xù màu đen tuyền ở chóp"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Nam Á, Đông Á và Đông Nam Á tới đảo Java và Sumatra",
+      "elevationM": {
+        "min": 0,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Thợ săn bầy đàn kiệt xuất của rừng già châu Á với bộ lông đỏ hung như lửa và tinh thần hợp tác săn mồi kỷ luật cao. Đặc điểm nhận dạng: Bộ lông màu đỏ gạch rực rỡ, bụng trắng và chiếc đuôi bông xù màu đen tuyền ở chóp.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban ngày trong sinh cảnh rừng thường xanh, rừng khộp rụng lá và trảng cỏ xen rừng độ cao 0–3.000 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với chó sói xám tru dài, Chó Sói Lửa giao tiếp với đồng loại trong rừng rậm bằng những tiếng huýt sáo thanh cao nghe giống tiếng chim hót nên còn được gọi là 'Sói huýt sáo'.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông màu đỏ gạch rực rỡ, bụng trắng và chiếc đuôi bông xù màu đen tuyền ở chóp."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Dhole in India.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dhole_in_India.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Dhole_in_India.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Atul.rewild",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cuon alpinus 166929821.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuon_alpinus_166929821.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cuon_alpinus_166929821.jpg",
+        "width": 2034,
+        "height": 1786,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rajanna",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dhole-kanha.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dhole-kanha.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dhole-kanha.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Davidvraju",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Maleadultdhole.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maleadultdhole.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Maleadultdhole.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Akul2008",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cuon alpinus, Dhole, Asiatic wild dog - Kaeng Krachan National Park (50769296003).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuon_alpinus,_Dhole,_Asiatic_wild_dog_-_Kaeng_Krachan_National_Park_(50769296003).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cuon_alpinus%2C_Dhole%2C_Asiatic_wild_dog_-_Kaeng_Krachan_National_Park_%2850769296003%29.jpg",
+        "width": 3928,
+        "height": 2619,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2434317",
+      "https://www.iucnredlist.org/species/5953/72477893",
+      "https://en.wikipedia.org/wiki/Dhole",
+      "https://vi.wikipedia.org/wiki/S%C3%B3i_l%E1%BB%ADa"
+    ]
+  },
+  {
+    "scientificName": "Lutrogale perspicillata",
+    "commonNameVi": "Rái cá lông mượt",
+    "commonNameEn": "Smooth-coated Otter",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Lutrogale"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ăn thịt (Carnivora)",
+      "family": "Họ Chồn (Mustelidae)",
+      "genus": "Chi Rái cá lông mượt (Lutrogale)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/12427/164579961",
+    "gbifKey": 2433686,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sông lớn, hồ nước ngọt, rừng tràm ngập nước và rừng ngập mặn ven biển độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Kình ngư săn cá số một của các vùng đất ngập nước Đông Nam Á với bộ lông mượt mà ôm sát cơ thể thủy động học.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Rái Cá Lông Mượt sống theo gia đình gắn kết chặt chẽ và thường bơi dàn hàng ngang thành hình vòng cung để lùa đàn cá vào vùng nước nông.",
+    "dietVi": "Săn cá (chiếm 85–90% khẩu phần), tôm, cua và ếch nhái",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Lutra perspicillata"
+    ],
+    "wikidataId": "Q754737",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%A1i_c%C3%A1_l%C3%B4ng_m%C6%B0%E1%BB%A3t",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Smooth-coated_otter",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 130,
+      "weightGMin": 7000,
+      "weightGMax": 11000,
+      "heightCmMax": null,
+      "noteVi": "Loài rái cá lớn nhất Đông Nam Á với bộ lông ngắn mịn như nhung và chiếc đuôi hơi dẹp ở chóp"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MY",
+        "ID",
+        "IN"
+      ],
+      "nativeRangeVi": "Nam Á và khắp Đông Nam Á (tại Việt Nam có ở U Minh, Cát Tiên, đồng bằng sông Cửu Long)",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Kình ngư săn cá số một của các vùng đất ngập nước Đông Nam Á với bộ lông mượt mà ôm sát cơ thể thủy động học. Đặc điểm nhận dạng: Loài rái cá lớn nhất Đông Nam Á với bộ lông ngắn mịn như nhung và chiếc đuôi hơi dẹp ở chóp.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban ngày trong sinh cảnh sông lớn, hồ nước ngọt, rừng tràm ngập nước và rừng ngập mặn ven biển độ cao 0–1.000 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Rái Cá Lông Mượt sống theo gia đình gắn kết chặt chẽ và thường bơi dàn hàng ngang thành hình vòng cung để lùa đàn cá vào vùng nước nông.",
+      "Đặc điểm nhận diện tiêu biểu: Loài rái cá lớn nhất Đông Nam Á với bộ lông ngắn mịn như nhung và chiếc đuôi hơi dẹp ở chóp."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Otter (1) by N. As Naseer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Otter_(1)_by_N._As_Naseer.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Otter_%281%29_by_N._As_Naseer.jpg",
+        "width": 3888,
+        "height": 2002,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/in/deed.en",
+        "author": "N.A.Nazeer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Smooth-coated Otter (13970797279).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth-coated_Otter_(13970797279).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Smooth-coated_Otter_%2813970797279%29.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Mike Prince from Bangalore, India",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Smooth-coated Otter (Lutrogale perspicillata) in Sundarban.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth-coated_Otter_(Lutrogale_perspicillata)_in_Sundarban.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Smooth-coated_Otter_%28Lutrogale_perspicillata%29_in_Sundarban.jpg",
+        "width": 2582,
+        "height": 1722,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Sultan Ahmed 09",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Smooth-coated Otters Feeding on Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth-coated_Otters_Feeding_on_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Smooth-coated_Otters_Feeding_on_Fish.jpg",
+        "width": 3840,
+        "height": 2560,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Khaoyaicult",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Smooth-coated Otters (29290889122).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth-coated_Otters_(29290889122).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Smooth-coated_Otters_%2829290889122%29.jpg",
+        "width": 3055,
+        "height": 2037,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Thomas Quine",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2433686",
+      "https://www.iucnredlist.org/species/12427/164579961",
+      "https://en.wikipedia.org/wiki/Smooth-coated_otter",
+      "https://vi.wikipedia.org/wiki/R%C3%A1i_c%C3%A1_l%C3%B4ng_m%C6%B0%E1%BB%A3t"
+    ]
+  },
+  {
+    "scientificName": "Ratufa bicolor",
+    "commonNameVi": "Sóc đen",
+    "commonNameEn": "Black Giant Squirrel",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Ratufa"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gặm nhấm (Rodentia)",
+      "family": "Họ Sóc (Sciuridae)",
+      "genus": "Chi Sóc lớn (Ratufa)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/19377/22261810",
+    "gbifKey": 2437566,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán cao của rừng thường xanh nhiệt đới và cận nhiệt đới độ cao 0–2.000 m"
+    },
+    "descriptionVi": "Một trong những loài sóc cây lớn nhất hành tinh với chiếc đuôi dài hơn nửa mét buông rủ xuống dưới cành cây khi nghỉ ngơi.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IIB tại Việt Nam.",
+    "pullQuoteVi": "Khi đứng gặm hạt trên cành cây, Sóc Đen không cong đuôi lên lưng như sóc nhỏ mà thả chiếc đuôi dài nặng của mình buông thẳng xuống dưới làm đối trọng cân bằng.",
+    "dietVi": "Ăn hạt thông, quả rừng vỏ cứng, chồi non và vỏ cây",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ratufa tennentii",
+      "Sciurus bicolor"
+    ],
+    "wikidataId": "Q917916",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%C3%B3c_l%E1%BB%9Bn_%C4%91en",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Black_giant_squirrel",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 75,
+      "lengthCmMax": 105,
+      "weightGMin": 1200,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể dài tới 1 mét tính cả chiếc đuôi bông xù dài đen nhánh, mặt lưng đen tuyền và má - bụng màu vàng kem"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ đông Himalaya, nam Trung Quốc qua khắp Việt Nam và Đông Nam Á tới đảo Java, Bali",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài sóc cây lớn nhất hành tinh với chiếc đuôi dài hơn nửa mét buông rủ xuống dưới cành cây khi nghỉ ngơi. Đặc điểm nhận dạng: Cơ thể dài tới 1 mét tính cả chiếc đuôi bông xù dài đen nhánh, mặt lưng đen tuyền và má - bụng màu vàng kem.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban ngày trong sinh cảnh tầng tán cao của rừng thường xanh nhiệt đới và cận nhiệt đới độ cao 0–2.000 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi đứng gặm hạt trên cành cây, Sóc Đen không cong đuôi lên lưng như sóc nhỏ mà thả chiếc đuôi dài nặng của mình buông thẳng xuống dưới làm đối trọng cân bằng.",
+      "Đặc điểm nhận diện tiêu biểu: Cơ thể dài tới 1 mét tính cả chiếc đuôi bông xù dài đen nhánh, mặt lưng đen tuyền và má - bụng màu vàng kem."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Black giant squirrel by Tisha Mukherjee 06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_giant_squirrel_by_Tisha_Mukherjee_06.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Black_giant_squirrel_by_Tisha_Mukherjee_06.jpg",
+        "width": 5047,
+        "height": 3365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tisha Mukherjee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Black giant squirrel in Latpanchar April 2026 by Tisha Mukherjee 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_giant_squirrel_in_Latpanchar_April_2026_by_Tisha_Mukherjee_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Black_giant_squirrel_in_Latpanchar_April_2026_by_Tisha_Mukherjee_02.jpg",
+        "width": 3345,
+        "height": 4991,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tisha Mukherjee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Malayan Giant Squirrel P1100863.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malayan_Giant_Squirrel_P1100863.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Malayan_Giant_Squirrel_P1100863.jpg",
+        "width": 2124,
+        "height": 1493,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "T. R. Shankar Raman",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black giant squirrel in Kaziranga National Park March 2025 by Tisha Mukherjee 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_giant_squirrel_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Black_giant_squirrel_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_01.jpg",
+        "width": 4729,
+        "height": 3153,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tisha Mukherjee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chintamani 002.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chintamani_002.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Chintamani_002.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chintamanivk",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2437566",
+      "https://www.iucnredlist.org/species/19377/22261810",
+      "https://en.wikipedia.org/wiki/Black_giant_squirrel",
+      "https://vi.wikipedia.org/wiki/S%C3%B3c_l%E1%BB%9Bn_%C4%91en"
+    ]
+  },
+  {
+    "scientificName": "Petaurista philippensis",
+    "commonNameVi": "Sóc bay lớn",
+    "commonNameEn": "Indian Giant Flying Squirrel",
+    "group": "Thú",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Petaurista"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gặm nhấm (Rodentia)",
+      "family": "Họ Sóc (Sciuridae)",
+      "genus": "Chi Sóc bay lớn (Petaurista)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/16724/184098981",
+    "gbifKey": 5219697,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh lá rộng và rừng hỗn giao có nhiều cây cổ thụ rỗng thân độ cao 100–2.200 m"
+    },
+    "descriptionVi": "Tàu lượn bóng đêm của rừng già nhiệt đới với khả năng căng màng da lượn êm ru hàng chục mét giữa các ngọn cây cao.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN và thuộc Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Từ đỉnh một cây cổ thụ cao, Sóc Bay Lớn có thể lượn một mạch xa tới hơn 100 mét và dùng chiếc đuôi tròn dài làm bánh lái chuyển hướng 90 độ ngay trên không trung.",
+    "dietVi": "Ăn quả rừng (sung, vả), lá non, chồi cây, hoa và vỏ cây vào ban đêm",
+    "lifespanVi": null,
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1767097",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%C3%B3c_bay_kh%E1%BB%95ng_l%E1%BB%93_%E1%BA%A4n_%C4%90%E1%BB%99",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indian_giant_flying_squirrel",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 80,
+      "lengthCmMax": 110,
+      "weightGMin": 1200,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Màng da lượn (patagium) rộng nối từ cổ tay đến cổ chân và bộ lông nâu hạt dẻ điểm bạc"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Nam Á, nam Trung Quốc và Đông Nam Á lục địa",
+      "elevationM": {
+        "min": 100,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Tàu lượn bóng đêm của rừng già nhiệt đới với khả năng căng màng da lượn êm ru hàng chục mét giữa các ngọn cây cao. Đặc điểm nhận dạng: Màng da lượn (patagium) rộng nối từ cổ tay đến cổ chân và bộ lông nâu hạt dẻ điểm bạc.",
+    "behaviorVi": "Thú hoang dã hoạt động chủ yếu vào ban đêm trong sinh cảnh rừng thường xanh lá rộng và rừng hỗn giao có nhiều cây cổ thụ rỗng thân độ cao 100–2.200 m.",
+    "reproductionVi": "Thú có nhau thai đẻ con và nuôi con bằng sữa mẹ; thời gian mang thai và chăm sóc con non kéo dài.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Từ đỉnh một cây cổ thụ cao, Sóc Bay Lớn có thể lượn một mạch xa tới hơn 100 mét và dùng chiếc đuôi tròn dài làm bánh lái chuyển hướng 90 độ ngay trên không trung.",
+      "Đặc điểm nhận diện tiêu biểu: Màng da lượn (patagium) rộng nối từ cổ tay đến cổ chân và bộ lông nâu hạt dẻ điểm bạc."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Common Giant Flying Squirrel, Valparai, Tamil Nadu 642127, India imported from iNaturalist photo 348947467.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Giant_Flying_Squirrel,_Valparai,_Tamil_Nadu_642127,_India_imported_from_iNaturalist_photo_348947467.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Common_Giant_Flying_Squirrel%2C_Valparai%2C_Tamil_Nadu_642127%2C_India_imported_from_iNaturalist_photo_348947467.jpg",
+        "width": 2048,
+        "height": 1371,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) kalyanvarma, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Indian Giant Flying Squirrel captured at Polo Forests, Sabarkantha, Gujarat India.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indian_Giant_Flying_Squirrel_captured_at_Polo_Forests,_Sabarkantha,_Gujarat_India.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Indian_Giant_Flying_Squirrel_captured_at_Polo_Forests%2C_Sabarkantha%2C_Gujarat_India.jpg",
+        "width": 3062,
+        "height": 4593,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vickey Chauhan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Common Giant Flying Squirrel, Khon San District, Chaiyaphum, Thailand imported from iNaturalist photo 329155228.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Giant_Flying_Squirrel,_Khon_San_District,_Chaiyaphum,_Thailand_imported_from_iNaturalist_photo_329155228.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Common_Giant_Flying_Squirrel%2C_Khon_San_District%2C_Chaiyaphum%2C_Thailand_imported_from_iNaturalist_photo_329155228.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Wich’yanan (Jay) Limparungpatthanakij, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Common Giant Flying Squirrel, Kalpetta, Kerala, India imported from iNaturalist photo 254810868.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Giant_Flying_Squirrel,_Kalpetta,_Kerala,_India_imported_from_iNaturalist_photo_254810868.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Common_Giant_Flying_Squirrel%2C_Kalpetta%2C_Kerala%2C_India_imported_from_iNaturalist_photo_254810868.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Ahirbudhnyan M, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Petaurista philippensis Kalyan Varma 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Petaurista_philippensis_Kalyan_Varma_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Petaurista_philippensis_Kalyan_Varma_1.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kalyan Varma",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5219697",
+      "https://www.iucnredlist.org/species/16724/184098981",
+      "https://en.wikipedia.org/wiki/Indian_giant_flying_squirrel",
+      "https://vi.wikipedia.org/wiki/S%C3%B3c_bay_kh%E1%BB%95ng_l%E1%BB%93_%E1%BA%A4n_%C4%90%E1%BB%99"
+    ]
+  },
+  {
+    "scientificName": "Lophura edwardsi",
+    "commonNameVi": "Gà lôi lam mào trắng",
+    "commonNameEn": "Vietnam Pheasant",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Lophura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Gà lôi (Lophura)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/45354985/249120158",
+    "gbifKey": 5227960,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng dưới rừng thường xanh mưa ẩm đất thấp và chân núi độ cao 0–600 m"
+    },
+    "descriptionVi": "Báu vật đặc hữu cực kỳ quý hiếm của rừng mưa Bắc Trung Bộ Việt Nam với bộ lông xanh tím ánh thép lấp lánh và chiếc mào trắng thanh lịch.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ tối cao tại Việt Nam.",
+    "pullQuoteVi": "Do chưa ghi nhận lại ngoài tự nhiên suốt hơn hai thập kỷ qua, các chương trình bảo tồn quốc tế và Việt Nam đang nhân giống bảo tồn nguồn gen Gà Lôi Lam Mào Trắng để tái thả về rừng Trường Sơn.",
+    "dietVi": "Ăn hạt cây rừng rụng, quả mọng, mối, giun đất và côn trùng dưới thảm mục",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Gennaeus edwardsi",
+      "Lophura hatinhensis",
+      "Lophura imperialis"
+    ],
+    "wikidataId": "Q2854549",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_lam_m%C3%A0o_tr%E1%BA%AFng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Edwards%27s_pheasant",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 58,
+      "lengthCmMax": 65,
+      "weightGMin": 1000,
+      "weightGMax": 1150,
+      "heightCmMax": null,
+      "noteVi": "Chim trống có bộ lông màu xanh lam tím ánh kim, mào lông trắng ngắn trên đỉnh đầu và mặt da đỏ tươi"
+    },
+    "distribution": {
+      "countries": [
+        "VN"
+      ],
+      "nativeRangeVi": "Đặc hữu hẹp vùng rừng đất thấp Bắc Trung Bộ Việt Nam (Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên Huế)",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Báu vật đặc hữu cực kỳ quý hiếm của rừng mưa Bắc Trung Bộ Việt Nam với bộ lông xanh tím ánh thép lấp lánh và chiếc mào trắng thanh lịch. Đặc điểm nhận dạng: Chim trống có bộ lông màu xanh lam tím ánh kim, mào lông trắng ngắn trên đỉnh đầu và mặt da đỏ tươi.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại tầng dưới rừng thường xanh mưa ẩm đất thấp và chân núi độ cao 0–600 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Do chưa ghi nhận lại ngoài tự nhiên suốt hơn hai thập kỷ qua, các chương trình bảo tồn quốc tế và Việt Nam đang nhân giống bảo tồn nguồn gen Gà Lôi Lam Mào Trắng để tái thả về rừng Trường Sơn.",
+      "Đặc điểm nhận diện tiêu biểu: Chim trống có bộ lông màu xanh lam tím ánh kim, mào lông trắng ngắn trên đỉnh đầu và mặt da đỏ tươi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Edwards Pheasant RWD.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Edwards_Pheasant_RWD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Edwards_Pheasant_RWD.jpg",
+        "width": 2000,
+        "height": 1500,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "DickDaniels ( http://theworldbirds.org/ )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lophura hatinhensis qtl1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_hatinhensis_qtl1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Lophura_hatinhensis_qtl1.jpg",
+        "width": 2128,
+        "height": 2229,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Quartl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Edward's pheasant.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Edward%27s_pheasant.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Edward%27s_pheasant.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "frank wouters",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophura hatinhensis -Camperdown Wildlife Centre, Dundee, Angus, Scotland -pair-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_hatinhensis_-Camperdown_Wildlife_Centre,_Dundee,_Angus,_Scotland_-pair-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Lophura_hatinhensis_-Camperdown_Wildlife_Centre%2C_Dundee%2C_Angus%2C_Scotland_-pair-8a.jpg",
+        "width": 1024,
+        "height": 768,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Glen Bowman from Newcastle, England",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophura edwardsi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_edwardsi.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lophura_edwardsi.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Thaisk",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5227960",
+      "https://www.iucnredlist.org/species/45354985/249120158",
+      "https://en.wikipedia.org/wiki/Edwards%27s_pheasant",
+      "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_lam_m%C3%A0o_tr%E1%BA%AFng"
+    ]
+  },
+  {
+    "scientificName": "Lophura nycthemera",
+    "commonNameVi": "Gà lôi trắng",
+    "commonNameEn": "Silver Pheasant",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Lophura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Gà lôi (Lophura)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22679220/280964662",
+    "gbifKey": 5227966,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh núi thấp và núi cao, rừng tre nứa độ cao 200–2.100 m"
+    },
+    "descriptionVi": "Loài chim trĩ tuyệt đẹp của các khu rừng già Việt Nam, từng được chọn làm hình tượng thêu trên phẩm phục quan văn hàm Ngũ phẩm thời phong kiến.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN và thuộc Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Vào mùa sinh sản, đôi tích da màu đỏ máu trên mặt gà trống phồng to rực rỡ kèm điệu vũ đập cánh dồn dập vang vọng trong rừng trúc.",
+    "dietVi": "Ăn măng non, hạt rừng, quả mọng, côn trùng và giun đất",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "? imperialis",
+      "Lophura imperialis"
+    ],
+    "wikidataId": "Q546835",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_tr%E1%BA%AFng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Silver_pheasant",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 70,
+      "lengthCmMax": 125,
+      "weightGMin": 1100,
+      "weightGMax": 2000,
+      "heightCmMax": null,
+      "noteVi": "Chim trống khoác bộ lông lưng và đuôi dài màu trắng bạc điểm vạch đen mảnh tương phản với bụng xanh đen và mặt đỏ"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "CN"
+      ],
+      "nativeRangeVi": "Nam Trung Quốc và khắp các dãy núi rừng Việt Nam, Lào, Campuchia, Thái Lan, Myanmar",
+      "elevationM": {
+        "min": 200,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài chim trĩ tuyệt đẹp của các khu rừng già Việt Nam, từng được chọn làm hình tượng thêu trên phẩm phục quan văn hàm Ngũ phẩm thời phong kiến. Đặc điểm nhận dạng: Chim trống khoác bộ lông lưng và đuôi dài màu trắng bạc điểm vạch đen mảnh tương phản với bụng xanh đen và mặt đỏ.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng thường xanh núi thấp và núi cao, rừng tre nứa độ cao 200–2.100 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vào mùa sinh sản, đôi tích da màu đỏ máu trên mặt gà trống phồng to rực rỡ kèm điệu vũ đập cánh dồn dập vang vọng trong rừng trúc.",
+      "Đặc điểm nhận diện tiêu biểu: Chim trống khoác bộ lông lưng và đuôi dài màu trắng bạc điểm vạch đen mảnh tương phản với bụng xanh đen và mặt đỏ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lophura nycthemera cock and hen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_nycthemera_cock_and_hen.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lophura_nycthemera_cock_and_hen.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drcbrothephotographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Captive silver pheasant cock bird in Daegot.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Captive_silver_pheasant_cock_bird_in_Daegot.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Captive_silver_pheasant_cock_bird_in_Daegot.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drcbrothephotographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Lophura nycthemera, Exiandong reserve, Fujian 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_nycthemera,_Exiandong_reserve,_Fujian_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Lophura_nycthemera%2C_Exiandong_reserve%2C_Fujian_1.jpg",
+        "width": 1200,
+        "height": 800,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "lonelyshrimp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Captive Silver pheasant cock and hen, Gyeonggido, Gwangju.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Captive_Silver_pheasant_cock_and_hen,_Gyeonggido,_Gwangju.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Captive_Silver_pheasant_cock_and_hen%2C_Gyeonggido%2C_Gwangju.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drcbrothephotographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:The Silver Jewel of Phu Khiao.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Silver_Jewel_of_Phu_Khiao.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/The_Silver_Jewel_of_Phu_Khiao.jpg",
+        "width": 4016,
+        "height": 2667,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emaruchi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5227966",
+      "https://www.iucnredlist.org/species/22679220/280964662",
+      "https://en.wikipedia.org/wiki/Silver_pheasant",
+      "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_tr%E1%BA%AFng"
+    ]
+  },
+  {
+    "scientificName": "Lophura diardi",
+    "commonNameVi": "Gà lôi hông tía",
+    "commonNameEn": "Siamese Fireback",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Lophura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Gà lôi (Lophura)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22679274/274693356",
+    "gbifKey": 5227987,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh đất thấp, rừng bán thường xanh và rừng tre nứa độ cao 0–800 m"
+    },
+    "descriptionVi": "Một trong những loài gà lôi đẹp nhất Đông Dương với chùm mào hình giọt nước trên đỉnh đầu và mảng lông lưng ánh vàng rực lửa chỉ lộ ra khi vỗ cánh.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Tên tiếng Anh 'Fireback' (Lưng lửa) xuất phát từ mảng lông màu vàng đồng và đỏ tía rực sáng trên hông chim trống mỗi khi nó xòe cánh khoe mẽ.",
+    "dietVi": "Ăn quả rừng rụng, hạt tre nứa, mối, kiến và ốc sên nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Euplocomus diardi"
+    ],
+    "wikidataId": "Q839857",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_h%C3%B4ng_t%C3%ADa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Siamese_fireback",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 80,
+      "weightGMin": 900,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông xám khói lịch lãm, chùm mào đen cong như lông công trên đỉnh đầu và mảng lưng dưới màu vàng kim - đỏ tía"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH"
+      ],
+      "nativeRangeVi": "Đông Dương (Trung Bộ, Tây Nguyên, Nam Bộ Việt Nam, Lào, Campuchia) và Thái Lan",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài gà lôi đẹp nhất Đông Dương với chùm mào hình giọt nước trên đỉnh đầu và mảng lông lưng ánh vàng rực lửa chỉ lộ ra khi vỗ cánh. Đặc điểm nhận dạng: Bộ lông xám khói lịch lãm, chùm mào đen cong như lông công trên đỉnh đầu và mảng lưng dưới màu vàng kim - đỏ tía.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng thường xanh đất thấp, rừng bán thường xanh và rừng tre nứa độ cao 0–800 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên tiếng Anh 'Fireback' (Lưng lửa) xuất phát từ mảng lông màu vàng đồng và đỏ tía rực sáng trên hông chim trống mỗi khi nó xòe cánh khoe mẽ.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông xám khói lịch lãm, chùm mào đen cong như lông công trên đỉnh đầu và mảng lưng dưới màu vàng kim - đỏ tía."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Siamese-fireback-Lophura-diardi-khao-yai-national-park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siamese-fireback-Lophura-diardi-khao-yai-national-park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Siamese-fireback-Lophura-diardi-khao-yai-national-park.jpg",
+        "width": 6103,
+        "height": 4073,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rushenb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lophura diardi -Florida, USA -captive-8a (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_diardi_-Florida,_USA_-captive-8a_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lophura_diardi_-Florida%2C_USA_-captive-8a_%281%29.jpg",
+        "width": 2936,
+        "height": 3176,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "cuatrok77 hernandez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Siamese Fireback Lophura diardi (Bonaparte, 1856) (24969062106).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siamese_Fireback_Lophura_diardi_(Bonaparte,_1856)_(24969062106).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Siamese_Fireback_Lophura_diardi_%28Bonaparte%2C_1856%29_%2824969062106%29.jpg",
+        "width": 2628,
+        "height": 2000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Len Worthington",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophura diardi 246408023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophura_diardi_246408023.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Lophura_diardi_246408023.jpg",
+        "width": 2048,
+        "height": 1625,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Jan Ebr & Ivana Ebrová",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:SIAMESE FIREBACK.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SIAMESE_FIREBACK.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/SIAMESE_FIREBACK.jpg",
+        "width": 4116,
+        "height": 2655,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "cuatrok77",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5227987",
+      "https://www.iucnredlist.org/species/22679274/274693356",
+      "https://en.wikipedia.org/wiki/Siamese_fireback",
+      "https://vi.wikipedia.org/wiki/G%C3%A0_l%C3%B4i_h%C3%B4ng_t%C3%ADa"
+    ]
+  },
+  {
+    "scientificName": "Polyplectron bicalcaratum",
+    "commonNameVi": "Gà tiền mặt vàng",
+    "commonNameEn": "Grey Peacock-Pheasant",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Polyplectron"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Gà tiền (Polyplectron)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22736199/263601893",
+    "gbifKey": 2474079,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh rậm rạp và rừng hỗn giao tre nứa độ cao 100–1.800 m"
+    },
+    "descriptionVi": "Khi xòe tròn bộ cánh và đuôi để tán tỉnh bạn tình, Gà Tiền Mặt Vàng biến thành một chiếc quạt khổng lồ đính hàng chục viên ngọc bích phát sáng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Tên khoa học 'bicalcaratum' nghĩa là 'hai cựa' vì trên mỗi ống chân của chim trống mọc tới 2 (đôi khi 3) chiếc cựa nhọn sắc bén.",
+    "dietVi": "Ăn hạt cây rừng, quả mọng, mối và côn trùng trên sàn rừng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Pavo bicalcaratus",
+      "Polyplectron bicalcaratum bakeri",
+      "Polyplectron bicalcaratum bicalcaratum",
+      "Polyplectron bicalcaratum ghigii"
+    ],
+    "wikidataId": "Q748957",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%C3%A0_ti%E1%BB%81n_x%C3%A1m",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Grey_peacock-pheasant",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 55,
+      "lengthCmMax": 75,
+      "weightGMin": 500,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông nâu xám điểm hàng chục 'mắt ngọc' (ocelli) màu xanh lục tím ánh kim trên cánh và đuôi"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ đông bắc Ấn Độ, nam Trung Quốc qua Bắc Bộ và Bắc Trung Bộ Việt Nam, Lào, Thái Lan",
+      "elevationM": {
+        "min": 100,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Khi xòe tròn bộ cánh và đuôi để tán tỉnh bạn tình, Gà Tiền Mặt Vàng biến thành một chiếc quạt khổng lồ đính hàng chục viên ngọc bích phát sáng. Đặc điểm nhận dạng: Bộ lông nâu xám điểm hàng chục 'mắt ngọc' (ocelli) màu xanh lục tím ánh kim trên cánh và đuôi.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng thường xanh rậm rạp và rừng hỗn giao tre nứa độ cao 100–1.800 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'bicalcaratum' nghĩa là 'hai cựa' vì trên mỗi ống chân của chim trống mọc tới 2 (đôi khi 3) chiếc cựa nhọn sắc bén.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông nâu xám điểm hàng chục 'mắt ngọc' (ocelli) màu xanh lục tím ánh kim trên cánh và đuôi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Polyplectron bicalcaratum -Birmingham Nature Centre, Cannon Hill Park, England-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polyplectron_bicalcaratum_-Birmingham_Nature_Centre,_Cannon_Hill_Park,_England-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Polyplectron_bicalcaratum_-Birmingham_Nature_Centre%2C_Cannon_Hill_Park%2C_England-8a.jpg",
+        "width": 4422,
+        "height": 2124,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tony Hisgett from Birmingham, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Polyplectron bicalcaratum -Birmingham Nature Centre, England-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polyplectron_bicalcaratum_-Birmingham_Nature_Centre,_England-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Polyplectron_bicalcaratum_-Birmingham_Nature_Centre%2C_England-8a.jpg",
+        "width": 3192,
+        "height": 2796,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tony Hisgett from Birmingham, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:นกแวนสีเทา.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg",
+        "width": 4276,
+        "height": 2810,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "วิศักดิ์",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Grey Peacock-pheasant - Kang-Kra Khan, Thailand H8O5535 (15362061647).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grey_Peacock-pheasant_-_Kang-Kra_Khan,_Thailand_H8O5535_(15362061647).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Grey_Peacock-pheasant_-_Kang-Kra_Khan%2C_Thailand_H8O5535_%2815362061647%29.jpg",
+        "width": 1024,
+        "height": 683,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Francesco Veronesi from Italy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phasianidae Polyplectron bicalcaratum 1.2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phasianidae_Polyplectron_bicalcaratum_1.2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Phasianidae_Polyplectron_bicalcaratum_1.2.jpg",
+        "width": 3932,
+        "height": 2960,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2474079",
+      "https://www.iucnredlist.org/species/22736199/263601893",
+      "https://en.wikipedia.org/wiki/Grey_peacock-pheasant",
+      "https://vi.wikipedia.org/wiki/G%C3%A0_ti%E1%BB%81n_x%C3%A1m"
+    ]
+  },
+  {
+    "scientificName": "Pavo muticus",
+    "commonNameVi": "Công",
+    "commonNameEn": "Green Peafowl",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Pavo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Gà (Galliformes)",
+      "family": "Họ Trĩ (Phasianidae)",
+      "genus": "Chi Công (Pavo)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/22679440/131749282",
+    "gbifKey": 2473599,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khộp rụng lá, rừng bán thường xanh gần sông suối và trảng cỏ độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Loài chim đẹp và lộng lẫy bậc nhất hệ động vật Việt Nam với bộ lông xanh ngọc lục bảo dát vàng kim khác biệt hoàn toàn với Công lam Ấn Độ.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IB bảo vệ tối cao tại Việt Nam.",
+    "pullQuoteVi": "Khác với Công lam Ấn Độ có mào xòe hình quạt, Công Lục Đông Dương có chiếc mào chụm thẳng đứng như ngọn giáo và cả chim trống lẫn chim mái đều khoác cổ vảy rồng xanh lục.",
+    "dietVi": "Ăn hạt cỏ, chồi non, quả rừng, châu chấu, mối, ếch nhái và cả rắn độc nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q254636",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%B4ng_l%E1%BB%A5c",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Green_peafowl",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 250,
+      "weightGMin": 3800,
+      "weightGMax": 5000,
+      "heightCmMax": null,
+      "noteVi": "Cổ và ngực phủ lông vảy rồng màu xanh lục ánh vàng kim, mào đứng thẳng như bông lúa và đuôi dài tới 1,5 mét"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "LA",
+        "TH",
+        "MM",
+        "ID"
+      ],
+      "nativeRangeVi": "Tây Nguyên, Vườn quốc gia Cát Tiên (Việt Nam), Campuchia, Thái Lan, Myanmar và đảo Java",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài chim đẹp và lộng lẫy bậc nhất hệ động vật Việt Nam với bộ lông xanh ngọc lục bảo dát vàng kim khác biệt hoàn toàn với Công lam Ấn Độ. Đặc điểm nhận dạng: Cổ và ngực phủ lông vảy rồng màu xanh lục ánh vàng kim, mào đứng thẳng như bông lúa và đuôi dài tới 1,5 mét.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng khộp rụng lá, rừng bán thường xanh gần sông suối và trảng cỏ độ cao 0–1.000 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với Công lam Ấn Độ có mào xòe hình quạt, Công Lục Đông Dương có chiếc mào chụm thẳng đứng như ngọn giáo và cả chim trống lẫn chim mái đều khoác cổ vảy rồng xanh lục.",
+      "Đặc điểm nhận diện tiêu biểu: Cổ và ngực phủ lông vảy rồng màu xanh lục ánh vàng kim, mào đứng thẳng như bông lúa và đuôi dài tới 1,5 mét."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Green Peafowl 0A2A0093.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Peafowl_0A2A0093.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Green_Peafowl_0A2A0093.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JJ Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Kepala Merak Betina Solo Safari.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kepala_Merak_Betina_Solo_Safari.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Kepala_Merak_Betina_Solo_Safari.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Candramawa99",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Green peafowl in Java, Indonesia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_peafowl_in_Java,_Indonesia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Green_peafowl_in_Java%2C_Indonesia.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Badroe Zaman from Semarang, Central Java, Indonesia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Doi Phu Nang National Park อุทยานแห่งชาติดอยภูนาง (Dec 2021) - img 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Doi_Phu_Nang_National_Park_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%A0%E0%B8%B9%E0%B8%99%E0%B8%B2%E0%B8%87_(Dec_2021)_-_img_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Doi_Phu_Nang_National_Park_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%A0%E0%B8%B9%E0%B8%99%E0%B8%B2%E0%B8%87_%28Dec_2021%29_-_img_01.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chainwit.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gerombolan Merak.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gerombolan_Merak.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Gerombolan_Merak.jpg",
+        "width": 4392,
+        "height": 3336,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ari hidayat11",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2473599",
+      "https://www.iucnredlist.org/species/22679440/131749282",
+      "https://en.wikipedia.org/wiki/Green_peafowl",
+      "https://vi.wikipedia.org/wiki/C%C3%B4ng_l%E1%BB%A5c"
+    ]
+  },
+  {
+    "scientificName": "Buceros bicornis",
+    "commonNameVi": "Hồng hoàng",
+    "commonNameEn": "Great Hornbill",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Buceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hồng hoàng (Bucerotiformes)",
+      "family": "Họ Hồng hoàng (Bucerotidae)",
+      "genus": "Chi Hồng hoàng lớn (Buceros)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22682453/184603863",
+    "gbifKey": 2476012,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng thường xanh nhiệt đới nguyên sinh có nhiều cây cổ thụ họ Dầu độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Chúa tể bầu trời rừng già nhiệt đới với chiếc mũ sừng màu vàng tươi uy nghi và tiếng đập cánh phần phật vang dội như đoàn tàu chạy qua tán rừng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Màu vàng tươi trên chiếc mũ sừng và vệt lông cánh trắng của Hồng Hoàng thực chất là lớp dầu trang điểm từ tuyến phao câu được chim dùng mỏ chải lên mỗi ngày.",
+    "dietVi": "Ăn chủ yếu quả sung, quả vả chín, hạt nhục đậu khấu cùng thằn lằn, ếch cây và côn trùng lớn",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q232768",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/H%E1%BB%93ng_ho%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Great_hornbill",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 95,
+      "lengthCmMax": 130,
+      "weightGMin": 2200,
+      "weightGMax": 4000,
+      "heightCmMax": null,
+      "noteVi": "Chiếc mỏ vàng khổng lồ đội mũ sừng (casque) lõm hai đầu phía trước và sải cánh rộng tới 1,5 mét"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN"
+      ],
+      "nativeRangeVi": "Nam Á và khắp Đông Nam Á lục địa tới đảo Sumatra",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Chúa tể bầu trời rừng già nhiệt đới với chiếc mũ sừng màu vàng tươi uy nghi và tiếng đập cánh phần phật vang dội như đoàn tàu chạy qua tán rừng. Đặc điểm nhận dạng: Chiếc mỏ vàng khổng lồ đội mũ sừng (casque) lõm hai đầu phía trước và sải cánh rộng tới 1,5 mét.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại tán rừng thường xanh nhiệt đới nguyên sinh có nhiều cây cổ thụ họ dầu độ cao 0–1.500 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Màu vàng tươi trên chiếc mũ sừng và vệt lông cánh trắng của Hồng Hoàng thực chất là lớp dầu trang điểm từ tuyến phao câu được chim dùng mỏ chải lên mỗi ngày.",
+      "Đặc điểm nhận diện tiêu biểu: Chiếc mỏ vàng khổng lồ đội mũ sừng (casque) lõm hai đầu phía trước và sải cánh rộng tới 1,5 mét."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:00B3 Great hornbill.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00B3_Great_hornbill.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/00B3_Great_hornbill.jpg",
+        "width": 8192,
+        "height": 5464,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drsssuresh1961",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A female Great Indian Hornbill.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_female_Great_Indian_Hornbill.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/A_female_Great_Indian_Hornbill.jpg",
+        "width": 2214,
+        "height": 3195,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Debrup Chakraborty",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bird Great Hornbill Buceros bicornis at nest DSCN9018 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bird_Great_Hornbill_Buceros_bicornis_at_nest_DSCN9018_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bird_Great_Hornbill_Buceros_bicornis_at_nest_DSCN9018_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:00A5a Great hornbill.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00A5a_Great_hornbill.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/00A5a_Great_hornbill.jpg",
+        "width": 3600,
+        "height": 2400,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drsssuresh1961",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:00A7 Great hornbill.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00A7_Great_hornbill.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/00A7_Great_hornbill.jpg",
+        "width": 1800,
+        "height": 1200,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drsssuresh1961",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2476012",
+      "https://www.iucnredlist.org/species/22682453/184603863",
+      "https://en.wikipedia.org/wiki/Great_hornbill",
+      "https://vi.wikipedia.org/wiki/H%E1%BB%93ng_ho%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Aceros nipalensis",
+    "commonNameVi": "Niệc cổ hung",
+    "commonNameEn": "Rufous-necked Hornbill",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Aceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hồng hoàng (Bucerotiformes)",
+      "family": "Họ Hồng hoàng (Bucerotidae)",
+      "genus": "Chi Niệc cổ hung (Aceros)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22682510/176267243",
+    "gbifKey": 5228459,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh lá rộng núi cao nguyên sinh độ cao 600–2.200 m"
+    },
+    "descriptionVi": "Một trong những loài chim họ Hồng hoàng có màu sắc rực rỡ nhất châu Á với sự phối hợp táo bạo giữa cổ cam lửa, viền mắt xanh lam và mỏ ngà sọc đen.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN, thuộc Phụ lục I CITES và Nhóm IB bảo vệ nghiêm ngặt tại Việt Nam.",
+    "pullQuoteVi": "Đến mùa sinh sản, chim mái tự trát bùn và phân bịt kín cửa hốc cây cổ thụ chỉ chừa một khe dọc hẹp để chim trống đứng ngoài mớm từng quả rừng nuôi vợ con suốt hơn 3 tháng.",
+    "dietVi": "Ăn quả rừng chín trên tán cây cao (họ Long não, họ Dâu tằm) và động vật nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Buceros nipalensis"
+    ],
+    "wikidataId": "Q924326",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ni%E1%BB%87c_c%E1%BB%95_hung",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rufous-necked_hornbill",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 105,
+      "lengthCmMax": 117,
+      "weightGMin": 2200,
+      "weightGMax": 2600,
+      "heightCmMax": null,
+      "noteVi": "Chim trống có đầu, cổ và ngực màu nâu hung cam rực rỡ, túi da họng đỏ cam và vùng mắt màu xanh ngọc"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Đông Himalaya (Bhutan, đông bắc Ấn Độ) qua Myanmar, bắc Thái Lan, Lào tới Tây Bắc - Bắc Trung Bộ Việt Nam",
+      "elevationM": {
+        "min": 600,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài chim họ Hồng hoàng có màu sắc rực rỡ nhất châu Á với sự phối hợp táo bạo giữa cổ cam lửa, viền mắt xanh lam và mỏ ngà sọc đen. Đặc điểm nhận dạng: Chim trống có đầu, cổ và ngực màu nâu hung cam rực rỡ, túi da họng đỏ cam và vùng mắt màu xanh ngọc.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng thường xanh lá rộng núi cao nguyên sinh độ cao 600–2.200 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Đến mùa sinh sản, chim mái tự trát bùn và phân bịt kín cửa hốc cây cổ thụ chỉ chừa một khe dọc hẹp để chim trống đứng ngoài mớm từng quả rừng nuôi vợ con suốt hơn 3 tháng.",
+      "Đặc điểm nhận diện tiêu biểu: Chim trống có đầu, cổ và ngực màu nâu hung cam rực rỡ, túi da họng đỏ cam và vùng mắt màu xanh ngọc."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": "IB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rufous-necked Hornbill While She Waited in Darkness, He Carried the Forest to Her 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rufous-necked_Hornbill_While_She_Waited_in_Darkness,_He_Carried_the_Forest_to_Her_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Rufous-necked_Hornbill_While_She_Waited_in_Darkness%2C_He_Carried_the_Forest_to_Her_01.jpg",
+        "width": 5568,
+        "height": 3712,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Shiv's fotografia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bird Wreathed Hornbill Rufous-necked Hornbill IMG 4614 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bird_Wreathed_Hornbill_Rufous-necked_Hornbill_IMG_4614_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Bird_Wreathed_Hornbill_Rufous-necked_Hornbill_IMG_4614_01.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Rufous-necked hornbill 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rufous-necked_hornbill_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Rufous-necked_hornbill_1.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rufous-necked Hornbill DSCN1385 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rufous-necked_Hornbill_DSCN1385_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rufous-necked_Hornbill_DSCN1385_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rufous-necked hornbill flight.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rufous-necked_hornbill_flight.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Rufous-necked_hornbill_flight.jpg",
+        "width": 3000,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ehsan Ali Biswas",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5228459",
+      "https://www.iucnredlist.org/species/22682510/176267243",
+      "https://en.wikipedia.org/wiki/Rufous-necked_hornbill",
+      "https://vi.wikipedia.org/wiki/Ni%E1%BB%87c_c%E1%BB%95_hung"
+    ]
+  },
+  {
+    "scientificName": "Anthracoceros albirostris",
+    "commonNameVi": "Cao cát bụng trắng",
+    "commonNameEn": "Oriental Pied Hornbill",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "genus": "Anthracoceros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hồng hoàng (Bucerotiformes)",
+      "family": "Họ Hồng hoàng (Bucerotidae)",
+      "genus": "Chi Cao cát (Anthracoceros)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22682437/184925767",
+    "gbifKey": 2475991,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh, rừng thứ sinh, rừng ngập mặn và đảo ven biển độ cao 0–1.200 m"
+    },
+    "descriptionVi": "Loài hồng hoàng cỡ trung phổ biến và lanh lợi nhất trong các khu rừng Việt Nam, góp phần phát tán hạt giống tái sinh rừng tự nhiên.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN, thuộc Phụ lục II CITES và Nhóm IIB bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Được các nhà sinh thái học mệnh danh là 'Người trồng rừng có cánh' vì chúng nuốt nguyên quả rừng rồi bay đi hàng kilômét trước khi nhả hạt nguyên vẹn.",
+    "dietVi": "Ăn quả sung, quả đa, quả cọ cùng côn trùng lớn, thằn lằn và cua nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q640999",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cao_c%C3%A1t_ph%C6%B0%C6%A1ng_%C4%91%C3%B4ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oriental_pied_hornbill",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 55,
+      "lengthCmMax": 65,
+      "weightGMin": 600,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông đen bóng có bụng trắng tinh và chiếc mỏ cùng mũ sừng lớn màu vàng ngà điểm vệt đen ở đầu"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "ID",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ đông Ấn Độ, nam Trung Quốc trải rộng khắp Đông Nam Á tới Borneo và Java",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài hồng hoàng cỡ trung phổ biến và lanh lợi nhất trong các khu rừng Việt Nam, góp phần phát tán hạt giống tái sinh rừng tự nhiên. Đặc điểm nhận dạng: Bộ lông đen bóng có bụng trắng tinh và chiếc mỏ cùng mũ sừng lớn màu vàng ngà điểm vệt đen ở đầu.",
+    "behaviorVi": "Chim hoang dã kiếm ăn ban ngày tại rừng thường xanh, rừng thứ sinh, rừng ngập mặn và đảo ven biển độ cao 0–1.200 m, di chuyển theo cặp hoặc đàn nhỏ theo mùa.",
+    "reproductionVi": "Đẻ trứng trong tổ trên cây cao, hốc cây hoặc thảm cỏ kín đáo; chim bố mẹ ấp trứng và chăm sóc con non.",
+    "threatsVi": [
+      "Mất và phân mảnh sinh cảnh rừng tự nhiên",
+      "Săn bắt và khai thác trái phép ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Được các nhà sinh thái học mệnh danh là 'Người trồng rừng có cánh' vì chúng nuốt nguyên quả rừng rồi bay đi hàng kilômét trước khi nhả hạt nguyên vẹn.",
+      "Đặc điểm nhận diện tiêu biểu: Bộ lông đen bóng có bụng trắng tinh và chiếc mỏ cùng mũ sừng lớn màu vàng ngà điểm vệt đen ở đầu."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Động thực vật hoang dã Việt Nam được bảo tồn nghiêm ngặt (chỉ phục vụ tra cứu bách khoa sinh học, không buôn bán)."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Anthracoceros albirostris (Brunei) 2023-08-13.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anthracoceros_albirostris_(Brunei)_2023-08-13.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Anthracoceros_albirostris_%28Brunei%29_2023-08-13.jpg",
+        "width": 5226,
+        "height": 3483,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Chin Yu Chu",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Anthracoceros albirostris - Changi Beach Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anthracoceros_albirostris_-_Changi_Beach_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Anthracoceros_albirostris_-_Changi_Beach_Park.jpg",
+        "width": 2358,
+        "height": 4716,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JJ Harrison ( https://tiny.jjharrison.com.au/t/WnrNTPSv5UZYne9y )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Anthracoceros albirostris (Oriential Pied Hornbill).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anthracoceros_albirostris_(Oriential_Pied_Hornbill).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Anthracoceros_albirostris_%28Oriential_Pied_Hornbill%29.jpg",
+        "width": 4238,
+        "height": 2848,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Tan Pek Nan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A free ranging Oriental Pied Hornbill 2013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_free_ranging_Oriental_Pied_Hornbill_2013.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/A_free_ranging_Oriental_Pied_Hornbill_2013.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "shankar s.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anthracoceros albirostris 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anthracoceros_albirostris_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Anthracoceros_albirostris_4.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sipuwildlife",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2475991",
+      "https://www.iucnredlist.org/species/22682437/184925767",
+      "https://en.wikipedia.org/wiki/Oriental_pied_hornbill",
+      "https://vi.wikipedia.org/wiki/Cao_c%C3%A1t_ph%C6%B0%C6%A1ng_%C4%91%C3%B4ng"
+    ]
+  }
+]

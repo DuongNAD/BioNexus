@@ -1,0 +1,3647 @@
+[
+  {
+    "scientificName": "Pacifastacus leniusculus",
+    "commonNameVi": "Tôm Hùm Nước Ngọt Tín Hiệu",
+    "commonNameEn": "Signal Crayfish",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Astacidae",
+      "genus": "Pacifastacus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm hùm sông châu Âu (Astacidae)",
+      "genus": "Chi Tôm hùm tín hiệu (Pacifastacus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/153648/4526314",
+    "gbifKey": 2226990,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 12,
+      "waterTempMax": 22,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Sông suối đá cuội, hồ nước trong vùng ôn đới"
+    },
+    "descriptionVi": "Loài tôm hùm nước ngọt miền Tây Bắc Mỹ có lớp vỏ nâu xanh nhẵn bóng và đốm trắng lam nổi bật ngay khớp kẹp càng giống như cờ hiệu của nhân viên đường sắt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại vùng bản địa Tây Bắc Bắc Mỹ.",
+    "pullQuoteVi": "Đốm trắng xanh ngọc ngay khớp bản lề càng không chỉ giúp các cá thể nhận diện nhau mà còn tạo nên cái tên 'Tôm Tín Hiệu' (Signal Crayfish).",
+    "dietVi": "Ăn tạp: thực vật thủy sinh, lá mục, côn trùng nước và cá nhỏ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Vùng Tây Bắc Thái Bình Dương của Bắc Mỹ từ British Columbia (Canada) tới California và Utah (Hoa Kỳ)",
+    "otherNamesVi": [
+      "Signal Crayfish"
+    ],
+    "synonyms": [
+      "Astacus klamathensis",
+      "Astacus leniusculus",
+      "Astacus oreganus",
+      "Astacus spec"
+    ],
+    "wikidataId": "Q693000",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pacifastacus_leniusculus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Signal_crayfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 15,
+      "weightGMin": 50,
+      "weightGMax": 110,
+      "heightCmMax": null,
+      "noteVi": "Tại khớp bản lề của chiếc càng lớn có một đốm màu trắng xanh ngọc sáng rõ như biển báo tín hiệu."
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Vùng Tây Bắc Thái Bình Dương của Bắc Mỹ từ British Columbia (Canada) tới California và Utah (Hoa Kỳ)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối đá cuội, hồ nước trong vùng ôn đới"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–15 cm. Tại khớp bản lề của chiếc càng lớn có một đốm màu trắng xanh ngọc sáng rõ như biển báo tín hiệu.",
+    "behaviorVi": "Loài tôm nước lạnh vùng ôn đới có nguy cơ xâm hại ngoài vùng bản địa; chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Đốm trắng xanh ngọc ngay khớp bản lề càng không chỉ giúp các cá thể nhận diện nhau mà còn tạo nên cái tên 'Tôm Tín Hiệu' (Signal Crayfish)."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài tôm nước lạnh vùng ôn đới có nguy cơ xâm hại ngoài vùng bản địa; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pacifastacus leniusculus (23210077784).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacifastacus_leniusculus_(23210077784).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pacifastacus_leniusculus_%2823210077784%29.jpg",
+        "width": 5118,
+        "height": 3348,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS - Pacific Region",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pacifastacus leniusculus ventral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacifastacus_leniusculus_ventral.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pacifastacus_leniusculus_ventral.jpg",
+        "width": 2888,
+        "height": 3102,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Nervurax Fishing",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Signal crayfish branchiobdellid crop 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Signal_crayfish_branchiobdellid_crop_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Signal_crayfish_branchiobdellid_crop_1.jpg",
+        "width": 1764,
+        "height": 1880,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Roger Tabor (USFWS) USFWS - Pacific Region",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Living signal crayfish in Helsinki.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Living_signal_crayfish_in_Helsinki.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Living_signal_crayfish_in_Helsinki.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JIP",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kräftor levande, 2019.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4ftor_levande,_2019.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Kr%C3%A4ftor_levande%2C_2019.jpg",
+        "width": 4641,
+        "height": 3315,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Holger.Ellgaard",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2226990",
+      "https://www.iucnredlist.org/species/153648/4526314",
+      "https://en.wikipedia.org/wiki/Signal_crayfish",
+      "https://vi.wikipedia.org/wiki/Pacifastacus_leniusculus"
+    ]
+  },
+  {
+    "scientificName": "Caridina multidentata",
+    "commonNameVi": "Tép Amano (Tép Yamato)",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Atyidae",
+      "genus": "Caridina"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tép rêu (Atyidae)",
+      "genus": "Chi Tép ong / Amano (Caridina)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198258/147797329",
+    "gbifKey": 5863054,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 27,
+      "phMin": 6.4,
+      "phMax": 7.6,
+      "habitatVi": "Suối nước ngọt chảy ra cửa biển (ấu trùng nở ra phải trôi ra vùng nước lợ - mặn để phát triển rồi mới ngược dòng về nước ngọt)"
+    },
+    "descriptionVi": "Chiến binh diệt rêu hại số một trong nghệ thuật bể thủy sinh thiên nhiên do bậc thầy Takashi Amano giới thiệu ra toàn thế giới từ thập niên 1980.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với quần thể tự nhiên ổn định tại Nhật Bản và Đài Loan.",
+    "pullQuoteVi": "Chỉ bằng cách quan sát hình dáng hàng chấm nâu bên sườn — chấm tròn ở con đực và vạch gạch ngang như mã Morse ở con cái — người chơi có thể phân biệt giới tính tép Amano chính xác 100%.",
+    "dietVi": "Ăn rêu tóc, tảo nâu bám lá, màng vi sinh và thức ăn viên chìm cho tép",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Các lưu vực sông suối đổ ra biển thuộc miền trung và miền nam Nhật Bản cùng đảo Đài Loan",
+    "otherNamesVi": [
+      "Amano Shrimp",
+      "Yamato Shrimp",
+      "Algae-eating Shrimp"
+    ],
+    "synonyms": [
+      "Caridina japonica",
+      "Caridina japonica sikokuensis",
+      "Caridina voeltzkowi"
+    ],
+    "wikidataId": "Q609311",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Caridina_multidentata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Caridina_multidentata",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.5,
+      "lengthCmMax": 5.5,
+      "weightGMin": 0.8,
+      "weightGMax": 2,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn rõ rệt (4,5–5,5 cm) với hàng gạch đứt đoạn dọc sườn; con đực nhỏ mảnh (3,5–4 cm) có hàng chấm tròn đều."
+    },
+    "distribution": {
+      "countries": [
+        "JP",
+        "TW"
+      ],
+      "nativeRangeVi": "Các lưu vực sông suối đổ ra biển thuộc miền trung và miền nam Nhật Bản cùng đảo Đài Loan",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Suối nước ngọt chảy ra cửa biển (ấu trùng nở ra phải trôi ra vùng nước lợ - mặn để phát triển rồi mới ngược dòng về nước ngọt)"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 3,5–5,5 cm. Con cái lớn hơn rõ rệt (4,5–5,5 cm) với hàng gạch đứt đoạn dọc sườn; con đực nhỏ mảnh (3,5–4 cm) có hàng chấm tròn đều.",
+    "behaviorVi": "Cực kỳ chăm chỉ dọn rêu hại trong bể thủy sinh; ấu trùng không tự lớn được trong nước ngọt hoàn toàn nên không lo bùng nổ dân số.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Chỉ bằng cách quan sát hình dáng hàng chấm nâu bên sườn — chấm tròn ở con đực và vạch gạch ngang như mã Morse ở con cái — người chơi có thể phân biệt giới tính tép Amano chính xác 100%."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 20 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn rêu tóc, tảo nâu bám lá, màng vi sinh và thức ăn viên chìm cho tép",
+      "socialVi": "Cực kỳ chăm chỉ dọn rêu hại trong bể thủy sinh; ấu trùng không tự lớn được trong nước ngọt hoàn toàn nên không lo bùng nổ dân số.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Tép Amano Diệt Rêu Hại (Caridina multidentata) Size 3–4 cm",
+        "priceVnd": 75000,
+        "descriptionVi": "Tép Amano (Tép Yamato) (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Amano Shrimp with eggs eating.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amano_Shrimp_with_eggs_eating.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Amano_Shrimp_with_eggs_eating.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "John Stockla",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Amanogarnele 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amanogarnele_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Amanogarnele_3.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Graf zu Pappenheim",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Amano Shrimp.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amano_Shrimp.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Amano_Shrimp.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Atulbhats",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Caridina multidentata - Haus des Meeres.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caridina_multidentata_-_Haus_des_Meeres.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Caridina_multidentata_-_Haus_des_Meeres.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "spacebirdy (also known as geimfyglið (:> )=| made with Sternenlaus -spirit)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Crevette caridina multidentata (amano, japonica).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Crevette_caridina_multidentata_(amano,_japonica).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Crevette_caridina_multidentata_%28amano%2C_japonica%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sky99",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5863054",
+      "https://www.iucnredlist.org/species/198258/147797329",
+      "https://en.wikipedia.org/wiki/Caridina_multidentata",
+      "https://vi.wikipedia.org/wiki/Caridina_multidentata"
+    ]
+  },
+  {
+    "scientificName": "Macrobrachium rosenbergii",
+    "commonNameVi": "Tôm Càng Xanh Khổng Lồ",
+    "commonNameEn": "Giant River Prawn",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Palaemonidae",
+      "genus": "Macrobrachium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Tôm càng (Palaemonidae)",
+      "genus": "Chi Tôm càng (Macrobrachium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/197873/2503520",
+    "gbifKey": 2224546,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 25,
+      "waterTempMax": 31,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Sông lớn, kênh rạch nước ngọt và vùng hạ lưu cửa sông nước lợ nhẹ"
+    },
+    "descriptionVi": "Loài tôm nước ngọt lớn nhất thế giới bản địa vùng sông Cửu Long Việt Nam, nổi bật với cặp càng dài mảnh màu xanh lam ngọc bích vươn xa đầy uy lực ở con đực trưởng thành.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và là loài thủy sản bản địa giá trị cao của Việt Nam.",
+    "pullQuoteVi": "Trong đàn tôm càng xanh đực luôn tồn tại hệ thống phân cấp xã hội 3 bậc được nhận diện qua màu sắc đôi càng: từ càng trong suốt (cấp thấp), càng cam (trung cấp) đến càng xanh coban (thủ lĩnh).",
+    "dietVi": "Ăn tạp thiên đạm: giun, ốc nhỏ, côn trùng nước, hạt ngũ cốc và viên chìm",
+    "lifespanVi": "3–4 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Khắp các lưu vực sông nhiệt đới Nam Á và Đông Nam Á, đặc biệt là đồng bằng sông Cửu Long",
+    "otherNamesVi": [
+      "Giant River Prawn",
+      "Giant Freshwater Prawn"
+    ],
+    "synonyms": [
+      "Cryphiops rosenbergii",
+      "Macrobrachium dacqueti",
+      "Macrobrachium rosenbergii dacqueti",
+      "Macrobrachium rosenbergii rosenbergii"
+    ],
+    "wikidataId": "Q2700085",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%C3%B4m_c%C3%A0ng_xanh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Macrobrachium_rosenbergii",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 32,
+      "weightGMin": 150,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành (tôm càng đại) có đôi càng thứ hai dài gấp đôi cơ thể và phủ sắc xanh lam coban tuyệt đẹp."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "KH",
+        "MY",
+        "ID",
+        "IN",
+        "BD",
+        "PH"
+      ],
+      "nativeRangeVi": "Khắp các lưu vực sông nhiệt đới Nam Á và Đông Nam Á, đặc biệt là đồng bằng sông Cửu Long",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông lớn, kênh rạch nước ngọt và vùng hạ lưu cửa sông nước lợ nhẹ"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 20–32 cm. Con đực trưởng thành (tôm càng đại) có đôi càng thứ hai dài gấp đôi cơ thể và phủ sắc xanh lam coban tuyệt đẹp.",
+    "behaviorVi": "Có tính lãnh thổ mạnh nên nếu nuôi làm cảnh trưng bày chỉ nên nuôi đơn 1 cá thể đực càng xanh trong bể lớn.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Trong đàn tôm càng xanh đực luôn tồn tại hệ thống phân cấp xã hội 3 bậc được nhận diện qua màu sắc đôi càng: từ càng trong suốt (cấp thấp), càng cam (trung cấp) đến càng xanh coban (thủ lĩnh)."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 250 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn tạp thiên đạm: giun, ốc nhỏ, côn trùng nước, hạt ngũ cốc và viên chìm",
+      "socialVi": "Có tính lãnh thổ mạnh nên nếu nuôi làm cảnh trưng bày chỉ nên nuôi đơn 1 cá thể đực càng xanh trong bể lớn.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Tôm Càng Xanh Đực Càng Lam Trưng Bày Bể Biotope Mekong",
+        "priceVnd": 120000,
+        "descriptionVi": "Tôm Càng Xanh Khổng Lồ (Trưởng thành, Đực) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2013. Крым 920.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013._%D0%9A%D1%80%D1%8B%D0%BC_920.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/2013._%D0%9A%D1%80%D1%8B%D0%BC_920.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Machrobrachium rosenbergii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Machrobrachium_rosenbergii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Machrobrachium_rosenbergii.jpg",
+        "width": 3072,
+        "height": 2048,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "The original uploader was Brian.gratwicke at Wikipedia .",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Macrobrachium rosenbergii - crevette géante d'eau douce - Aqua Porte Dorée 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Macrobrachium_rosenbergii_-_crevette_g%C3%A9ante_d%27eau_douce_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Macrobrachium_rosenbergii_-_crevette_g%C3%A9ante_d%27eau_douce_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy - Loury Cédric",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Macrobrachium rosenbergii - crevette géante d'eau douce - Aqua Porte Dorée 02.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Macrobrachium_rosenbergii_-_crevette_g%C3%A9ante_d%27eau_douce_-_Aqua_Porte_Dor%C3%A9e_02.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Macrobrachium_rosenbergii_-_crevette_g%C3%A9ante_d%27eau_douce_-_Aqua_Porte_Dor%C3%A9e_02.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy - Loury Cédric",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2224546",
+      "https://www.iucnredlist.org/species/197873/2503520",
+      "https://en.wikipedia.org/wiki/Macrobrachium_rosenbergii",
+      "https://vi.wikipedia.org/wiki/T%C3%B4m_c%C3%A0ng_xanh"
+    ]
+  },
+  {
+    "scientificName": "Birgus latro",
+    "commonNameVi": "Cua Dừa Khổng Lồ",
+    "commonNameEn": "Coconut Crab",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Coenobitidae",
+      "genus": "Birgus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Mười chân (Decapoda)",
+      "family": "Họ Cua ẩn sĩ cạn (Coenobitidae)",
+      "genus": "Chi Cua dừa (Birgus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/2811/126813586",
+    "gbifKey": 4311512,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ven biển, hốc đá vôi san hô và rừng dừa trên các đảo nhiệt đới"
+    },
+    "descriptionVi": "Loài động vật chân khớp trên cạn nặng nhất hành tinh, phát triển từ cua ẩn sĩ nhưng khi trưởng thành không còn mang vỏ ốc mà có lớp vỏ bụng hóa vôi siêu cứng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do săn bắt quá mức trên các đảo nhiệt đới và thời gian trưởng thành kéo dài hàng chục năm.",
+    "pullQuoteVi": "Đôi càng khổng lồ của Cua Dừa có thể tạo ra lực kẹp lên tới 3.300 Newton — mạnh ngang lực cắn của một con sư tử trưởng thành và đủ sức bóc toạc vỏ quả dừa khô.",
+    "dietVi": "Ăn cùi dừa, quả dứa dại chín, hạt cây rừng, xác động vật và cua nhỏ",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": "Các đảo san hô nhiệt đới khắp Ấn Độ Dương và Tây Thái Bình Dương",
+    "otherNamesVi": [
+      "Coconut Crab",
+      "Robber Crab"
+    ],
+    "synonyms": [
+      "Birgus laticauda",
+      "Cancer crumenatus",
+      "Cancer crumenatus orientalis",
+      "Cancer latro"
+    ],
+    "wikidataId": "Q206070",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cua_d%E1%BB%ABa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Coconut_crab",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 2000,
+      "weightGMax": 4000,
+      "heightCmMax": null,
+      "noteVi": "Sải chân có thể đạt tới 90–100 cm và nặng trên 4 kg; là loài chân khớp sống trên cạn lớn nhất thế giới."
+    },
+    "distribution": {
+      "countries": [
+        "ID",
+        "PH",
+        "PG",
+        "AU",
+        "TZ"
+      ],
+      "nativeRangeVi": "Các đảo san hô nhiệt đới khắp Ấn Độ Dương và Tây Thái Bình Dương",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng ven biển, hốc đá vôi san hô và rừng dừa trên các đảo nhiệt đới"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 30–40 cm. Sải chân có thể đạt tới 90–100 cm và nặng trên 4 kg; là loài chân khớp sống trên cạn lớn nhất thế giới.",
+    "behaviorVi": "Loài Sắp nguy cấp (VU) cần bảo tồn trên các đảo san hô, không buôn bán làm cảnh.",
+    "reproductionVi": "Con cái đẻ và ấp bọc trứng (egg sac) hoặc ôm trứng dưới bụng cho tới khi con non nở hoàn chỉnh.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Đôi càng khổng lồ của Cua Dừa có thể tạo ra lực kẹp lên tới 3.300 Newton — mạnh ngang lực cắn của một con sư tử trưởng thành và đủ sức bóc toạc vỏ quả dừa khô."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Sắp nguy cấp (VU) cần bảo tồn trên các đảo san hô, không buôn bán làm cảnh."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A Birgus latro on the Orchid Island 20100913.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Birgus_latro_on_the_Orchid_Island_20100913.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/A_Birgus_latro_on_the_Orchid_Island_20100913.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "othree",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Birgus latro 283668739.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Birgus_latro_283668739.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Birgus_latro_283668739.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Quentin Groom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Birgus latro (Bora-Bora).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Birgus_latro_(Bora-Bora).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Birgus_latro_%28Bora-Bora%29.jpg",
+        "width": 1000,
+        "height": 893,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Brocken Inaglory",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Birgus latro 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Birgus_latro_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Birgus_latro_2.jpg",
+        "width": 3968,
+        "height": 2232,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "John Tann from Sydney, Australia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4311512",
+      "https://www.iucnredlist.org/species/2811/126813586",
+      "https://en.wikipedia.org/wiki/Coconut_crab",
+      "https://vi.wikipedia.org/wiki/Cua_d%E1%BB%ABa"
+    ]
+  },
+  {
+    "scientificName": "Pomacea canaliculata",
+    "commonNameVi": "Ốc Táo Vàng Nam Mỹ (Ốc Bươu Vàng)",
+    "commonNameEn": "Channeled Applesnail",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Architaenioglossa",
+      "family": "Ampullariidae",
+      "genus": "Pomacea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nắp mang (Architaenioglossa)",
+      "family": "Họ Ốc táo (Ampullariidae)",
+      "genus": "Chi Ốc táo (Pomacea)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/166261/1124485",
+    "gbifKey": 2292582,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 30,
+      "phMin": 6.8,
+      "phMax": 8.2,
+      "habitatVi": "Đầm lầy, ao hồ nước tĩnh và sông suối chảy chậm nhiều thực vật nước"
+    },
+    "descriptionVi": "Loài ốc nước ngọt cỡ lớn có vỏ xoắn cầu với rãnh sâu giữa các vòng xoắn; dòng đột biến vàng tươi từng được nuôi làm ốc cảnh trước khi trở thành loài xâm hại ruộng lúa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại Nam Mỹ nhưng nằm trong danh sách 100 loài ngoại lai xâm hại nghiêm trọng nhất thế giới.",
+    "pullQuoteVi": "Chùm trứng màu hồng rực của ốc chứa một loại protein độc tố thần kinh (PV2) khiến hầu hết chim, cá và bò sát đều tránh xa ngoại trừ loài kiến lửa.",
+    "dietVi": "Ăn thực vật thủy sinh mềm, rau xanh và tảo",
+    "lifespanVi": "2–4 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Paraná, Argentina",
+      "lat": -27.45,
+      "lng": -58.98
+    },
+    "regionVi": "Lưu vực sông La Plata, sông Paraná và vùng hạ lưu Amazon ở Nam Mỹ",
+    "otherNamesVi": [
+      "Golden Apple Snail",
+      "Channeled Apple Snail"
+    ],
+    "synonyms": [
+      "Ampullaria australis",
+      "Ampullaria canaliculata",
+      "Ampullaria dorbignyana",
+      "Ampullaria figulina"
+    ],
+    "wikidataId": "Q2005098",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BB%90c_b%C6%B0%C6%A1u_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pomacea_canaliculata",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 4,
+      "lengthCmMax": 7.5,
+      "weightGMin": 20,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Con cái có nắp miệng vỏ hơi lõm vào và thường bò lên khỏi mặt nước đẻ chùm trứng màu hồng dâu tươi."
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "BR",
+        "PY",
+        "UY",
+        "BO"
+      ],
+      "nativeRangeVi": "Lưu vực sông La Plata, sông Paraná và vùng hạ lưu Amazon ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy, ao hồ nước tĩnh và sông suối chảy chậm nhiều thực vật nước"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 4–7,5 cm. Con cái có nắp miệng vỏ hơi lõm vào và thường bò lên khỏi mặt nước đẻ chùm trứng màu hồng dâu tươi.",
+    "behaviorVi": "Thuộc danh mục sinh vật ngoại lai xâm hại bị cấm nhân nuôi và phát tán tại Việt Nam; chỉ lưu trữ hồ sơ bách khoa để nhận diện.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Chùm trứng màu hồng rực của ốc chứa một loại protein độc tố thần kinh (PV2) khiến hầu hết chim, cá và bò sát đều tránh xa ngoại trừ loài kiến lửa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Thuộc danh mục sinh vật ngoại lai xâm hại bị cấm nhân nuôi và phát tán tại Việt Nam; chỉ lưu trữ hồ sơ bách khoa để nhận diện."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Caracol dulceacuícola Pomacea canaliculata, Camarles, Delta del Ebro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caracol_dulceacu%C3%ADcola_Pomacea_canaliculata,_Camarles,_Delta_del_Ebro.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Caracol_dulceacu%C3%ADcola_Pomacea_canaliculata%2C_Camarles%2C_Delta_del_Ebro.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Emilio Prades Bel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A Golden apple snail (Pomacea canaliculata) collected in Hunan Prov. China.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Golden_apple_snail_(Pomacea_canaliculata)_collected_in_Hunan_Prov._China.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/A_Golden_apple_snail_%28Pomacea_canaliculata%29_collected_in_Hunan_Prov._China.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FlyingBatt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Cópula subacuática de Pomacea canaliculata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B3pula_subacu%C3%A1tica_de_Pomacea_canaliculata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/C%C3%B3pula_subacu%C3%A1tica_de_Pomacea_canaliculata.jpg",
+        "width": 3584,
+        "height": 2544,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "SilBurela",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:02049jfMaestrang Kikay Bugtong Snails Hall Gulod Talavera Ecijafvf 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:02049jfMaestrang_Kikay_Bugtong_Snails_Hall_Gulod_Talavera_Ecijafvf_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/02049jfMaestrang_Kikay_Bugtong_Snails_Hall_Gulod_Talavera_Ecijafvf_01.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Judgefloro",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eggs of Golden apple snails (Pomacea canaliculata) collected in rice paddies, Hunan Province, China. Photo by Linda Wong.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eggs_of_Golden_apple_snails_(Pomacea_canaliculata)_collected_in_rice_paddies,_Hunan_Province,_China._Photo_by_Linda_Wong.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Eggs_of_Golden_apple_snails_%28Pomacea_canaliculata%29_collected_in_rice_paddies%2C_Hunan_Province%2C_China._Photo_by_Linda_Wong.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FlyingBatt",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2292582",
+      "https://www.iucnredlist.org/species/166261/1124485",
+      "https://en.wikipedia.org/wiki/Pomacea_canaliculata",
+      "https://vi.wikipedia.org/wiki/%E1%BB%90c_b%C6%B0%C6%A1u_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Pomacea paludosa",
+    "commonNameVi": "Ốc Táo Florida",
+    "commonNameEn": "Florida Applesnail",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Architaenioglossa",
+      "family": "Ampullariidae",
+      "genus": "Pomacea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nắp mang (Architaenioglossa)",
+      "family": "Họ Ốc táo (Ampullariidae)",
+      "genus": "Chi Ốc táo (Pomacea)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/189339/8718219",
+    "gbifKey": 2292584,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 28,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Đầm lầy cỏ Everglades, hồ nước ngọt trong và suối đá vôi"
+    },
+    "descriptionVi": "Loài ốc nước ngọt bản địa lớn nhất Bắc Mỹ và là nguồn thức ăn sống còn duy nhất của loài chim Diều ăn ốc Everglades đang nguy cấp.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại Florida và Cuba.",
+    "pullQuoteVi": "Vừa có mang để thở dưới nước vừa có lá phổi kèm ống thở dài như kính tiềm vọng của tàu ngầm để hút khí trời khi vùng đầm lầy thiếu oxy.",
+    "dietVi": "Ăn tảo bám trên thân cỏ nước (periphyton) và thực vật mục",
+    "lifespanVi": "1,5–2,5 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Bán đảo Florida, nam Georgia (Hoa Kỳ) và đảo Cuba",
+    "otherNamesVi": [
+      "Florida Apple Snail"
+    ],
+    "synonyms": [
+      "Ampullaria caliginosa",
+      "Ampullaria depressa",
+      "Ampullaria hopetonensis",
+      "Ampullaria miamiensis"
+    ],
+    "wikidataId": "Q3142468",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pomacea_paludosa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pomacea_paludosa",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 4.5,
+      "lengthCmMax": 6.5,
+      "weightGMin": 20,
+      "weightGMax": 40,
+      "heightCmMax": null,
+      "noteVi": "Vỏ tròn lớn màu nâu ô liu có các dải sọc dọc đậm nhạt; trứng đẻ thành chùm quả to màu trắng hồng ngọc trai."
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CU"
+      ],
+      "nativeRangeVi": "Bán đảo Florida, nam Georgia (Hoa Kỳ) và đảo Cuba",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cỏ Everglades, hồ nước ngọt trong và suối đá vôi"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 4,5–6,5 cm. Vỏ tròn lớn màu nâu ô liu có các dải sọc dọc đậm nhạt; trứng đẻ thành chùm quả to màu trắng hồng ngọc trai.",
+    "behaviorVi": "Các loài thuộc chi Pomacea bị hạn chế nhập khẩu tại Việt Nam để phòng ngừa rủi ro nông nghiệp; chỉ lưu trữ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Vừa có mang để thở dưới nước vừa có lá phổi kèm ống thở dài như kính tiềm vọng của tàu ngầm để hút khí trời khi vùng đầm lầy thiếu oxy."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các loài thuộc chi Pomacea bị hạn chế nhập khẩu tại Việt Nam để phòng ngừa rủi ro nông nghiệp; chỉ lưu trữ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pomacea paludosa 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomacea_paludosa_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Pomacea_paludosa_01.JPG",
+        "width": 10000,
+        "height": 6137,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pomacea paludosa and Pomacea insularum eggs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomacea_paludosa_and_Pomacea_insularum_eggs.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pomacea_paludosa_and_Pomacea_insularum_eggs.jpg",
+        "width": 600,
+        "height": 1570,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Timothy A Rawlings, Kenneth A Hayes, Robert H Cowie and Timothy M Collins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pomacea paludosa eggs maturation.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomacea_paludosa_eggs_maturation.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pomacea_paludosa_eggs_maturation.jpg",
+        "width": 1236,
+        "height": 884,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Timothy A Rawlings, Kenneth A Hayes, Robert H Cowie and Timothy M Collins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pomacea paludosa (Say, 1829) (4520568613).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomacea_paludosa_(Say,_1829)_(4520568613).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pomacea_paludosa_%28Say%2C_1829%29_%284520568613%29.jpg",
+        "width": 872,
+        "height": 1034,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Udo Schmidt from Deutschland",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2292584",
+      "https://www.iucnredlist.org/species/189339/8718219",
+      "https://en.wikipedia.org/wiki/Pomacea_paludosa",
+      "https://vi.wikipedia.org/wiki/Pomacea_paludosa"
+    ]
+  },
+  {
+    "scientificName": "Marisa cornuarietis",
+    "commonNameVi": "Ốc Sừng Cừu Khổng Lồ",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Architaenioglossa",
+      "family": "Ampullariidae",
+      "genus": "Marisa"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nắp mang (Architaenioglossa)",
+      "family": "Họ Ốc táo (Ampullariidae)",
+      "genus": "Chi Ốc sừng cừu lớn (Marisa)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/189507/8741248",
+    "gbifKey": 2292586,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 22,
+      "waterTempMax": 28,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Vùng nước nông ấm áp nhiều thực vật thủy sinh"
+    },
+    "descriptionVi": "Mặc dù mang chiếc vỏ cuộn tròn phẳng hệt như ốc sừng cừu Planorbidae, loài ốc này thực chất lại thuộc họ Ốc Táo (Ampullariidae) và có nắp miệng vỏ cứng rõ rệt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phân bố rộng khắp bắc Nam Mỹ.",
+    "pullQuoteVi": "Khác với ốc táo đẻ trứng trên cạn, Ốc Sừng Cừu Khổng Lồ đẻ những khối trứng bọc trong lớp thạch trong suốt dính ngay dưới mặt lá thủy sinh ngập nước.",
+    "dietVi": "Ăn thực vật thủy sinh, rau luộc, tảo và thức ăn thừa dưới đáy bể",
+    "lifespanVi": "2–4 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Miền bắc Nam Mỹ, đảo Trinidad và vùng nam Trung Mỹ",
+    "otherNamesVi": [
+      "Giant Ramshorn Snail",
+      "Colombian Ramshorn Snail"
+    ],
+    "synonyms": [
+      "Ampullaria chiquitensis",
+      "Ampullaria cornuarietis",
+      "Ampullaria knorrii",
+      "Ampullaria rotula"
+    ],
+    "wikidataId": "Q2508490",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Marisa_cornuarietis",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.5,
+      "lengthCmMax": 5.5,
+      "weightGMin": 10,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Vỏ cuộn phẳng trên một mặt phẳng giống chiếc sừng cừu với các đường sọc nâu sẫm và vàng kem xen kẽ."
+    },
+    "distribution": {
+      "countries": [
+        "CO",
+        "VE",
+        "BR",
+        "TT",
+        "CR",
+        "PA"
+      ],
+      "nativeRangeVi": "Miền bắc Nam Mỹ, đảo Trinidad và vùng nam Trung Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước nông ấm áp nhiều thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 3,5–5,5 cm. Vỏ cuộn phẳng trên một mặt phẳng giống chiếc sừng cừu với các đường sọc nâu sẫm và vàng kem xen kẽ.",
+    "behaviorVi": "Vỏ sọc kẻ rất đẹp nhưng ốc ăn khỏe lá cây mềm nên chỉ nuôi trong bể cá không trồng cây thủy sinh.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khác với ốc táo đẻ trứng trên cạn, Ốc Sừng Cừu Khổng Lồ đẻ những khối trứng bọc trong lớp thạch trong suốt dính ngay dưới mặt lá thủy sinh ngập nước."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 40 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn thực vật thủy sinh, rau luộc, tảo và thức ăn thừa dưới đáy bể",
+      "socialVi": "Vỏ sọc kẻ rất đẹp nhưng ốc ăn khỏe lá cây mềm nên chỉ nuôi trong bể cá không trồng cây thủy sinh.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ốc Cảnh Sừng Cừu Sọc (Marisa cornuarietis) Size 3 cm",
+        "priceVnd": 35000,
+        "descriptionVi": "Ốc Sừng Cừu Khổng Lồ (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Marisa cornuarietis 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marisa_cornuarietis_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Marisa_cornuarietis_01.JPG",
+        "width": 11000,
+        "height": 5372,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Moluscos del Estado Falcon 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moluscos_del_Estado_Falcon_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Moluscos_del_Estado_Falcon_001.jpg",
+        "width": 757,
+        "height": 1002,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luis Ruiz Berti",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Marisa cornuarietis ,.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marisa_cornuarietis_,.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Marisa_cornuarietis_%2C.jpg",
+        "width": 4096,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Iranshahi.Amir Ali",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Marisa cornuarietis 017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marisa_cornuarietis_017.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Marisa_cornuarietis_017.jpg",
+        "width": 1359,
+        "height": 799,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Luis Ruiz Berti",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2292586",
+      "https://www.iucnredlist.org/species/189507/8741248",
+      "https://en.wikipedia.org/wiki/Marisa_cornuarietis"
+    ]
+  },
+  {
+    "scientificName": "Faunus ater",
+    "commonNameVi": "Ốc Đinh Đen (Ốc Devil)",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Sorbeoconcha",
+      "family": "Pachychilidae",
+      "genus": "Faunus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc suối (Sorbeoconcha)",
+      "family": "Họ Ốc đinh (Pachychilidae)",
+      "genus": "Chi Ốc đinh đen (Faunus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/175104/7097356",
+    "gbifKey": 5857723,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 29,
+      "phMin": 7.2,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá cửa sông nước lợ và hạ lưu sông suối có nền cát bùn giàu mùn"
+    },
+    "descriptionVi": "Loài ốc cảnh tầng đáy sang trọng với chiếc vỏ hình tháp nhọn đen bóng như đá núi lửa và phần thân mềm màu đen điểm xúc tu xám bạc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với vùng phân bố rộng dọc các cửa sông nhiệt đới châu Á.",
+    "pullQuoteVi": "Dù sinh sống tự nhiên ở vùng nước lợ cửa sông, Ốc Đinh Đen thích nghi rất tốt trong bể nước ngọt giàu khoáng và không thể tự sinh sản tràn lan trong bể.",
+    "dietVi": "Ăn vụn hữu cơ trên nền cát, tảo nâu, viên tảo chìm và lá bàng mục",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Vùng ven biển Ấn Độ Dương - Tây Thái Bình Dương từ Ấn Độ qua Đông Nam Á tới bắc Úc",
+    "otherNamesVi": [
+      "Black Devil Snail",
+      "Lava Snail",
+      "Cappuccino Snail"
+    ],
+    "synonyms": [
+      "Buccinum acicula",
+      "Cerithium fluviatile",
+      "Faunus melanopsis",
+      "Melanopsis princeps"
+    ],
+    "wikidataId": "Q5438244",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Faunus_ater",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 8,
+      "weightGMin": 12,
+      "weightGMax": 25,
+      "heightCmMax": null,
+      "noteVi": "Vỏ hình tháp xoắn nhọn dài tới 7–8 cm gồm 12–15 vòng xoắn màu đen tuyền hoặc nâu cà phê bóng mượt."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "MY",
+        "ID",
+        "PH",
+        "IN",
+        "LK"
+      ],
+      "nativeRangeVi": "Vùng ven biển Ấn Độ Dương - Tây Thái Bình Dương từ Ấn Độ qua Đông Nam Á tới bắc Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm phá cửa sông nước lợ và hạ lưu sông suối có nền cát bùn giàu mùn"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–8 cm. Vỏ hình tháp xoắn nhọn dài tới 7–8 cm gồm 12–15 vòng xoắn màu đen tuyền hoặc nâu cà phê bóng mượt.",
+    "behaviorVi": "Hoàn toàn không ăn cây thủy sinh khỏe mạnh, giúp xới nhẹ mặt cát và dọn sạch thức ăn thừa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Dù sinh sống tự nhiên ở vùng nước lợ cửa sông, Ốc Đinh Đen thích nghi rất tốt trong bể nước ngọt giàu khoáng và không thể tự sinh sản tràn lan trong bể."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 30 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn vụn hữu cơ trên nền cát, tảo nâu, viên tảo chìm và lá bàng mục",
+      "socialVi": "Hoàn toàn không ăn cây thủy sinh khỏe mạnh, giúp xới nhẹ mặt cát và dọn sạch thức ăn thừa.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 3 Ốc Đinh Đen Devil (Faunus ater) Dọn Đáy Bể Thủy Sinh",
+        "priceVnd": 45000,
+        "descriptionVi": "Ốc Đinh Đen (Ốc Devil) (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Fanat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fanat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fanat.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "serwacy01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Faunus ater 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Faunus_ater_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Faunus_ater_01.JPG",
+        "width": 5500,
+        "height": 5897,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Faunus aterr.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Faunus_aterr.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Faunus_aterr.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "serwacy01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Faunus - Faunus ater (Linnaeus, 1758) - 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Faunus_-_Faunus_ater_(Linnaeus,_1758)_-_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_Faunus_-_Faunus_ater_%28Linnaeus%2C_1758%29_-_2.jpg",
+        "width": 960,
+        "height": 864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mário NET",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Faunus - Faunus ater (Linnaeus, 1758) - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Faunus_-_Faunus_ater_(Linnaeus,_1758)_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Black_Faunus_-_Faunus_ater_%28Linnaeus%2C_1758%29_-_1.jpg",
+        "width": 900,
+        "height": 960,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mário NET",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5857723",
+      "https://www.iucnredlist.org/species/175104/7097356",
+      "https://en.wikipedia.org/wiki/Faunus_ater"
+    ]
+  },
+  {
+    "scientificName": "Theodoxus fluviatilis",
+    "commonNameVi": "Ốc Nerita Sông Châu Âu",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Cycloneritida",
+      "family": "Neritidae",
+      "genus": "Theodoxus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc Nerita (Cycloneritida)",
+      "family": "Họ Ốc Nerita (Neritidae)",
+      "genus": "Chi Ốc Nerita sông (Theodoxus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/201276480/201282909",
+    "gbifKey": 2291444,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 16,
+      "waterTempMax": 25,
+      "phMin": 7.2,
+      "phMax": 8.5,
+      "habitatVi": "Bề mặt đá cuội và gỗ chìm trong các dòng sông suối giàu canxi và oxy"
+    },
+    "descriptionVi": "Đại diện tiêu biểu của họ Ốc Nerita vùng nước ngọt ôn đới với chiếc vỏ hình giọt nước dẹt bám chặt vào mặt đá giữa dòng chảy mạnh và họa tiết hoa văn tinh xảo.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN khắp các lưu vực sông lớn của châu Âu.",
+    "pullQuoteVi": "Không có hai cá thể Ốc Nerita Sông nào có hoa văn mạng lưới trên vỏ giống hệt nhau, mỗi chiếc vỏ là một bản thiết kế khảm đá độc nhất.",
+    "dietVi": "Chuyên cạo tảo lục và tảo khuê bám trên đá, kính và lũa",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Khắp các hệ thống sông hồ châu Âu tới vùng Tây Á",
+    "otherNamesVi": [
+      "River Nerite",
+      "Freshwater Nerite Snail"
+    ],
+    "synonyms": [
+      "Nerita fluviatilis",
+      "Nerita intexta",
+      "Nerita mittreana",
+      "Neritina brauneri"
+    ],
+    "wikidataId": "Q908813",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Theodoxus_fluviatilis",
+    "iucnAssessedYear": 2026,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 0.7,
+      "lengthCmMax": 1.1,
+      "weightGMin": 0.5,
+      "weightGMax": 1.2,
+      "heightCmMax": null,
+      "noteVi": "Vỏ bán cầu nhỏ gọn với hoa văn mạng lưới hoặc zíc-zắc trắng trên nền tím đen, nâu đỏ rất đa dạng."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "IT",
+        "ES",
+        "PL",
+        "UA",
+        "TR"
+      ],
+      "nativeRangeVi": "Khắp các hệ thống sông hồ châu Âu tới vùng Tây Á",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Bề mặt đá cuội và gỗ chìm trong các dòng sông suối giàu canxi và oxy"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 0,7–1,1 cm. Vỏ bán cầu nhỏ gọn với hoa văn mạng lưới hoặc zíc-zắc trắng trên nền tím đen, nâu đỏ rất đa dạng.",
+    "behaviorVi": "Cần nước có độ cứng và pH từ 7.2 trở lên để bảo vệ lớp vỏ hoa văn không bị mòn.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Không có hai cá thể Ốc Nerita Sông nào có hoa văn mạng lưới trên vỏ giống hệt nhau, mỗi chiếc vỏ là một bản thiết kế khảm đá độc nhất."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 20 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Chuyên cạo tảo lục và tảo khuê bám trên đá, kính và lũa",
+      "socialVi": "Cần nước có độ cứng và pH từ 7.2 trở lên để bảo vệ lớp vỏ hoa văn không bị mòn.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Ốc Nerita Hoa Văn Cạo Tảo Bể Thủy Sinh",
+        "priceVnd": 40000,
+        "descriptionVi": "Ốc Nerita Sông Châu Âu (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Theodoxus fluviatilis dalmatinus 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theodoxus_fluviatilis_dalmatinus_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Theodoxus_fluviatilis_dalmatinus_01.JPG",
+        "width": 10000,
+        "height": 5386,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Theodoxus fluviatilis Mollusque eau douce Charente 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theodoxus_fluviatilis_Mollusque_eau_douce_Charente_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Theodoxus_fluviatilis_Mollusque_eau_douce_Charente_2.JPG",
+        "width": 1424,
+        "height": 1286,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lamiot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Habitat of Theodoxus fluviatilis in Touvre river (affluent de la Charente, peu avant le vieil Angoulême).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Habitat_of_Theodoxus_fluviatilis_in_Touvre_river_(affluent_de_la_Charente,_peu_avant_le_vieil_Angoul%C3%AAme).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Habitat_of_Theodoxus_fluviatilis_in_Touvre_river_%28affluent_de_la_Charente%2C_peu_avant_le_vieil_Angoul%C3%AAme%29.JPG",
+        "width": 3850,
+        "height": 2398,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lamiot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Theodoxus fluviatilis littoralis 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theodoxus_fluviatilis_littoralis_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Theodoxus_fluviatilis_littoralis_01.jpg",
+        "width": 6000,
+        "height": 2949,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Theodoxus fluviatilis dans la Touvre (affluent de la Charente, peu avant le vieil Angoulême) 03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theodoxus_fluviatilis_dans_la_Touvre_(affluent_de_la_Charente,_peu_avant_le_vieil_Angoul%C3%AAme)_03.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Theodoxus_fluviatilis_dans_la_Touvre_%28affluent_de_la_Charente%2C_peu_avant_le_vieil_Angoul%C3%AAme%29_03.JPG",
+        "width": 3909,
+        "height": 2474,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lamiot",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2291444",
+      "https://www.iucnredlist.org/species/201276480/201282909",
+      "https://en.wikipedia.org/wiki/Theodoxus_fluviatilis"
+    ]
+  },
+  {
+    "scientificName": "Planorbarius corneus",
+    "commonNameVi": "Ốc Táo Đỏ Sừng Cừu",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Hygrophila",
+      "family": "Planorbidae",
+      "genus": "Planorbarius"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nước ngọt (Hygrophila)",
+      "family": "Họ Ốc sừng cừu (Planorbidae)",
+      "genus": "Chi Ốc táo đỏ (Planorbarius)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/273503965/42434326",
+    "gbifKey": 2290946,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 16,
+      "waterTempMax": 27,
+      "phMin": 6.8,
+      "phMax": 8.2,
+      "habitatVi": "Ao hồ tĩnh, đầm lầy và kênh rạch có nhiều thực vật thủy sinh"
+    },
+    "descriptionVi": "Loài ốc sừng cừu lớn nhất châu Âu và cực kỳ quen thuộc trong giới thủy sinh với các biến thể Táo Đỏ, Táo Hồng, Táo Xanh ngọc lấp lánh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với vùng phân bố rộng khắp lục địa Á - Âu.",
+    "pullQuoteVi": "Khác với đa số các loài thân mềm có máu không màu hoặc xanh nhạt, Ốc Sừng Cừu sở hữu sắc tố hemoglobin giống máu người nên dòng bạch tạng có thân màu đỏ hồng rực rỡ.",
+    "dietVi": "Ăn tảo mềm bám kính, lá cây thủy sinh già úa và thức ăn cá dư thừa",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Khắp châu Âu kéo dài tới vùng Trung Á và Tây Siberia",
+    "otherNamesVi": [
+      "Great Ramshorn",
+      "Red Ramshorn Snail"
+    ],
+    "synonyms": [
+      "Coretus corneus",
+      "Coretus corneus corneus",
+      "Coretus corneus etruscus",
+      "Helix cornea"
+    ],
+    "wikidataId": "Q598612",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Planorbarius_corneus",
+    "iucnAssessedYear": 2026,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 3.5,
+      "weightGMin": 3,
+      "weightGMax": 7,
+      "heightCmMax": null,
+      "noteVi": "Vỏ cuộn phẳng dạng đĩa tròn không có nắp miệng; dòng bạch tạng để lộ màu máu đỏ tươi qua lớp vỏ trong suốt."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "IT",
+        "PL",
+        "RU",
+        "SE"
+      ],
+      "nativeRangeVi": "Khắp châu Âu kéo dài tới vùng Trung Á và Tây Siberia",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ tĩnh, đầm lầy và kênh rạch có nhiều thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2–3,5 cm. Vỏ cuộn phẳng dạng đĩa tròn không có nắp miệng; dòng bạch tạng để lộ màu máu đỏ tươi qua lớp vỏ trong suốt.",
+    "behaviorVi": "Là loài ốc lưỡng tính rất dễ nuôi trong mọi bể thủy sinh và hồ cá ngoài trời.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khác với đa số các loài thân mềm có máu không màu hoặc xanh nhạt, Ốc Sừng Cừu sở hữu sắc tố hemoglobin giống máu người nên dòng bạch tạng có thân màu đỏ hồng rực rỡ."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 15 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn tảo mềm bám kính, lá cây thủy sinh già úa và thức ăn cá dư thừa",
+      "socialVi": "Là loài ốc lưỡng tính rất dễ nuôi trong mọi bể thủy sinh và hồ cá ngoài trời.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 10 Ốc Táo Đỏ / Táo Hồng (Planorbarius corneus) Dọn Bể",
+        "priceVnd": 30000,
+        "descriptionVi": "Ốc Táo Đỏ Sừng Cừu (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Planorbarius corneus 04.2025 (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Planorbarius_corneus_04.2025_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Planorbarius_corneus_04.2025_%281%29.jpg",
+        "width": 8192,
+        "height": 6144,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "DidierFy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Planorbarius corneus eggs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Planorbarius_corneus_eggs.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Planorbarius_corneus_eggs.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Keimzelle",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Planorbarius corneus Pukhivka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Planorbarius_corneus_Pukhivka.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Planorbarius_corneus_Pukhivka.jpg",
+        "width": 3170,
+        "height": 2567,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Аимаина хикари",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mäander (38818286992).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A4ander_(38818286992).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/M%C3%A4ander_%2838818286992%29.jpg",
+        "width": 4109,
+        "height": 2694,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rolf Dietrich Brecher from Germany",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Planorbarius corneus 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Planorbarius_corneus_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Planorbarius_corneus_001.JPG",
+        "width": 10000,
+        "height": 4550,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2290946",
+      "https://www.iucnredlist.org/species/273503965/42434326",
+      "https://en.wikipedia.org/wiki/Planorbarius_corneus"
+    ]
+  },
+  {
+    "scientificName": "Lymnaea stagnalis",
+    "commonNameVi": "Ốc Tai Hồ Lớn",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Hygrophila",
+      "family": "Lymnaeidae",
+      "genus": "Lymnaea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nước ngọt (Hygrophila)",
+      "family": "Họ Ốc tai hồ (Lymnaeidae)",
+      "genus": "Chi Ốc tai hồ (Lymnaea)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/284220403/284222051",
+    "gbifKey": 2291253,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 15,
+      "waterTempMax": 25,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Ao hồ nước tĩnh, đầm nước ngọt giàu rong bèo"
+    },
+    "descriptionVi": "Loài ốc phổi nước ngọt cỡ lớn có chiếc vỏ xoắn nhọn thanh thoát và đôi râu đầu dẹt rộng hình tam giác như tai mèo, thường xuyên bò lộn ngược ngay dưới mặt nước.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN trên khắp Bắc Bán Cầu.",
+    "pullQuoteVi": "Nhờ hệ thần kinh gồm những tế bào nơ-ron khổng lồ dễ quan sát, Ốc Tai Hồ Lớn là sinh vật mô hình kinh điển giúp các nhà khoa học giải mã cơ chế hình thành trí nhớ.",
+    "dietVi": "Ăn tảo sợi, màng vi sinh mặt nước và lá cây mục",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Phân bố toàn vùng Toàn Bắc (Holarctic): châu Âu, Bắc Á và Bắc Mỹ",
+    "otherNamesVi": [
+      "Great Pond Snail"
+    ],
+    "synonyms": [
+      "Helix stagnalis",
+      "Limnaea acicula",
+      "Limnaea anglica",
+      "Limnaea appressa"
+    ],
+    "wikidataId": "Q911251",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lymnaea_stagnalis",
+    "iucnAssessedYear": 2026,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 4.5,
+      "lengthCmMax": 6,
+      "weightGMin": 6,
+      "weightGMax": 12,
+      "heightCmMax": null,
+      "noteVi": "Vỏ xoắn chóp nhọn cao với vòng xoắn cuối phình rộng và đôi xúc tu dẹt hình tam giác giống đôi tai nhỏ."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "PL",
+        "RU",
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Phân bố toàn vùng Toàn Bắc (Holarctic): châu Âu, Bắc Á và Bắc Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ nước tĩnh, đầm nước ngọt giàu rong bèo"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 4,5–6 cm. Vỏ xoắn chóp nhọn cao với vòng xoắn cuối phình rộng và đôi xúc tu dẹt hình tam giác giống đôi tai nhỏ.",
+    "behaviorVi": "Thích hợp cho các hồ sen súng và bể cá nước mát.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Nhờ hệ thần kinh gồm những tế bào nơ-ron khổng lồ dễ quan sát, Ốc Tai Hồ Lớn là sinh vật mô hình kinh điển giúp các nhà khoa học giải mã cơ chế hình thành trí nhớ."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 30 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Ăn tảo sợi, màng vi sinh mặt nước và lá cây mục",
+      "socialVi": "Thích hợp cho các hồ sen súng và bể cá nước mát.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Ốc Tai Hồ Lớn (Lymnaea stagnalis) Dọn Tảo Sợi",
+        "priceVnd": 45000,
+        "descriptionVi": "Ốc Tai Hồ Lớn (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lymnaea stagnalis 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lymnaea_stagnalis_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Lymnaea_stagnalis_01.JPG",
+        "width": 8000,
+        "height": 6732,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lymnaea stagnalis 03.2025 (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lymnaea_stagnalis_03.2025_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lymnaea_stagnalis_03.2025_%281%29.jpg",
+        "width": 6144,
+        "height": 8192,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "DidierFy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Great Pond Snail . Lymnaea stagnalis (28903593598).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Pond_Snail_._Lymnaea_stagnalis_(28903593598).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Great_Pond_Snail_._Lymnaea_stagnalis_%2828903593598%29.jpg",
+        "width": 1920,
+        "height": 1080,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lymnaea stagnalis - Spitzschlammschnecke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lymnaea_stagnalis_-_Spitzschlammschnecke.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Lymnaea_stagnalis_-_Spitzschlammschnecke.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Peter Pfeiffer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Glänzende Wasserschnecke.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gl%C3%A4nzende_Wasserschnecke.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gl%C3%A4nzende_Wasserschnecke.JPG",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "4028mdk09",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2291253",
+      "https://www.iucnredlist.org/species/284220403/284222051",
+      "https://en.wikipedia.org/wiki/Lymnaea_stagnalis"
+    ]
+  },
+  {
+    "scientificName": "Viviparus viviparus",
+    "commonNameVi": "Ốc Vặn Sông Ba Sọc",
+    "commonNameEn": "Viviparus River Snail",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Architaenioglossa",
+      "family": "Viviparidae",
+      "genus": "Viviparus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc nắp mang (Architaenioglossa)",
+      "family": "Họ Ốc vặn (Viviparidae)",
+      "genus": "Chi Ốc vặn (Viviparus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/155517/42429254",
+    "gbifKey": 5725685,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 15,
+      "waterTempMax": 25,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Đáy bùn cát của các dòng sông chảy chậm và hồ lớn giàu oxy"
+    },
+    "descriptionVi": "Loài ốc nắp mang nước ngọt đẻ con trực tiếp, có vỏ hình nón tròn trịa màu vàng lục điểm ba dải sọc nâu đỏ chạy song song quanh vòng xoắn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại các lưu vực sông châu Âu.",
+    "pullQuoteVi": "Đúng như tên gọi 'Viviparus' (đẻ con), ốc mẹ giữ trứng nở ngay trong ống dẫn trứng và sinh ra những chú ốc con đã có vỏ hoàn chỉnh.",
+    "dietVi": "Vừa ăn mùn bã hữu cơ đáy vừa lọc thức ăn phù du lơ lửng trong nước qua mang",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Các hệ thống sông lớn khắp Tây Âu, Trung Âu và Đông Âu",
+    "otherNamesVi": [
+      "Common River Snail"
+    ],
+    "synonyms": [
+      "Cyclostoma achatinum",
+      "Helix vivipara",
+      "Nerita fasciata",
+      "Paludina achatina"
+    ],
+    "wikidataId": "Q1758969",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Viviparus_viviparus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Viviparus_viviparus",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3,
+      "lengthCmMax": 4,
+      "weightGMin": 6,
+      "weightGMax": 12,
+      "heightCmMax": null,
+      "noteVi": "Con đực có xúc tu bên phải dày và cong lại làm cơ quan giao phối; con cái có hai xúc tu bằng nhau và đẻ con trực tiếp."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "PL",
+        "RU",
+        "UA",
+        "NL"
+      ],
+      "nativeRangeVi": "Các hệ thống sông lớn khắp Tây Âu, Trung Âu và Đông Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đáy bùn cát của các dòng sông chảy chậm và hồ lớn giàu oxy"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 3–4 cm. Con đực có xúc tu bên phải dày và cong lại làm cơ quan giao phối; con cái có hai xúc tu bằng nhau và đẻ con trực tiếp.",
+    "behaviorVi": "Hoàn toàn không ăn cây thủy sinh, giúp lọc trong nước và làm sạch nền cát.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Đúng như tên gọi 'Viviparus' (đẻ con), ốc mẹ giữ trứng nở ngay trong ống dẫn trứng và sinh ra những chú ốc con đã có vỏ hoàn chỉnh."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 40 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Vừa ăn mùn bã hữu cơ đáy vừa lọc thức ăn phù du lơ lửng trong nước qua mang",
+      "socialVi": "Hoàn toàn không ăn cây thủy sinh, giúp lọc trong nước và làm sạch nền cát.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Ốc Vặn Sọc Lọc Nước (Viviparus viviparus)",
+        "priceVnd": 50000,
+        "descriptionVi": "Ốc Vặn Sông Ba Sọc (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Viviparus viviparus 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Viviparus_viviparus_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Viviparus_viviparus_01.JPG",
+        "width": 9000,
+        "height": 6407,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20180917Viviparus viviparus2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180917Viviparus_viviparus2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/20180917Viviparus_viviparus2.jpg",
+        "width": 2000,
+        "height": 1500,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "AnRo0002",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Viviparus viviparus jeunes dans coquilles Haute-Deûle près écluse Barre Lille a 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Viviparus_viviparus_jeunes_dans_coquilles_Haute-De%C3%BBle_pr%C3%A8s_%C3%A9cluse_Barre_Lille_a_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Viviparus_viviparus_jeunes_dans_coquilles_Haute-De%C3%BBle_pr%C3%A8s_%C3%A9cluse_Barre_Lille_a_01.JPG",
+        "width": 4274,
+        "height": 3819,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lamiot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20180917Viviparus viviparus1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180917Viviparus_viviparus1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/20180917Viviparus_viviparus1.jpg",
+        "width": 3000,
+        "height": 2250,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "AnRo0002",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Viviparus viviparus coquille adulte détail suture.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Viviparus_viviparus_coquille_adulte_d%C3%A9tail_suture.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Viviparus_viviparus_coquille_adulte_d%C3%A9tail_suture.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lamiot",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5725685",
+      "https://www.iucnredlist.org/species/155517/42429254",
+      "https://en.wikipedia.org/wiki/Viviparus_viviparus",
+      "https://vi.wikipedia.org/wiki/Viviparus_viviparus"
+    ]
+  },
+  {
+    "scientificName": "Helix pomatia",
+    "commonNameVi": "Ốc Sên Rượu Vang Châu Âu (Ốc Burgundy)",
+    "commonNameEn": null,
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Stylommatophora",
+      "family": "Helicidae",
+      "genus": "Helix"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc sên cạn (Stylommatophora)",
+      "family": "Họ Ốc sên vườn (Helicidae)",
+      "genus": "Chi Ốc sên lớn (Helix)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/215128878/215129049",
+    "gbifKey": 2294287,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng thưa, vườn nho, sườn đồi đá vôi nhiều bụi cây ẩm"
+    },
+    "descriptionVi": "Loài ốc sên cạn lớn nhất châu Âu với chiếc vỏ tròn dày màu nâu kem ấm áp, gắn liền với văn hóa ẩm thực và lịch sử tự nhiên từ thời Đế chế La Mã.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN nhưng được quản lý mùa vụ thu hoạch theo luật bảo tồn tại nhiều quốc gia châu Âu.",
+    "pullQuoteVi": "Trước khi mùa đông băng giá ập đến, ốc tự đào hố trong đất rồi tiết ra một cái nắp vôi trắng cứng như thạch cao bịt kín miệng vỏ để ngủ đông suốt 5 tháng.",
+    "dietVi": "Ăn lá cây tươi, rau xanh, hoa quả mềm và bổ sung đá vôi/nang mực",
+    "lifespanVi": "5–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Trung Âu, Đông Nam Âu và Tây Âu",
+    "otherNamesVi": [
+      "Burgundy Snail",
+      "Roman Snail",
+      "Escargot"
+    ],
+    "synonyms": [
+      "Helicogena inflata",
+      "Helicogena pomatia",
+      "Helicogena pomatia brenaensis",
+      "Helicogena pomatia burmeisteri"
+    ],
+    "wikidataId": "Q245314",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Helix_pomatia",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Helix_pomatia",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 4,
+      "lengthCmMax": 5,
+      "weightGMin": 25,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Đường kính vỏ 4–5 cm; là loài lưỡng tính đồng thời, hai cá thể trao đổi tinh dịch cho nhau khi giao phối."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "IT",
+        "AT",
+        "CH",
+        "PL",
+        "CZ",
+        "HU"
+      ],
+      "nativeRangeVi": "Trung Âu, Đông Nam Âu và Tây Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng thưa, vườn nho, sườn đồi đá vôi nhiều bụi cây ẩm"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 4–5 cm. Đường kính vỏ 4–5 cm; là loài lưỡng tính đồng thời, hai cá thể trao đổi tinh dịch cho nhau khi giao phối.",
+    "behaviorVi": "Loài ốc sên cạn châu Âu được bảo hộ theo Công ước Bern, chỉ lưu trữ trong bách khoa sinh học.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Trước khi mùa đông băng giá ập đến, ốc tự đào hố trong đất rồi tiết ra một cái nắp vôi trắng cứng như thạch cao bịt kín miệng vỏ để ngủ đông suốt 5 tháng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài ốc sên cạn châu Âu được bảo hộ theo Công ước Bern, chỉ lưu trữ trong bách khoa sinh học."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:11.8.20 Tabor River Luznice 066 (50217261221).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:11.8.20_Tabor_River_Luznice_066_(50217261221).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/11.8.20_Tabor_River_Luznice_066_%2850217261221%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Judge",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2011-07-02 Weinbergschnecke Helix pomatia Kühlungsborn.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2011-07-02_Weinbergschnecke_Helix_pomatia_K%C3%BChlungsborn.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/2011-07-02_Weinbergschnecke_Helix_pomatia_K%C3%BChlungsborn.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Geoprofi Lars",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Broumar, educational trail, snail 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broumar,_educational_trail,_snail_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Broumar%2C_educational_trail%2C_snail_01.jpg",
+        "width": 4000,
+        "height": 2250,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Czeva",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20220526 Helix pomatia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20220526_Helix_pomatia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/20220526_Helix_pomatia.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Flocci Nivis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:294 V lese Na Babce.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:294_V_lese_Na_Babce.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/294_V_lese_Na_Babce.JPG",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Janmanak",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2294287",
+      "https://www.iucnredlist.org/species/215128878/215129049",
+      "https://en.wikipedia.org/wiki/Helix_pomatia",
+      "https://vi.wikipedia.org/wiki/Helix_pomatia"
+    ]
+  },
+  {
+    "scientificName": "Cepaea nemoralis",
+    "commonNameVi": "Ốc Sên Vườn Viền Môi Đen",
+    "commonNameEn": "Brown Lipped Snail",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Stylommatophora",
+      "family": "Helicidae",
+      "genus": "Cepaea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc sên cạn (Stylommatophora)",
+      "family": "Họ Ốc sên vườn (Helicidae)",
+      "genus": "Chi Ốc sên dải màu (Cepaea)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/156896/220199866",
+    "gbifKey": 2294280,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa, bờ rào cây bụi, đồng cỏ và công viên đô thị"
+    },
+    "descriptionVi": "Loài ốc sên cạn nổi tiếng nhất trong sách giáo khoa tiến hóa nhờ sự đa hình màu vỏ rực rỡ từ vàng tươi, hồng phấn đến sọc vằn kèm viền môi miệng vỏ màu đen nhánh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với quần thể dồi dào khắp châu Âu.",
+    "pullQuoteVi": "Sự biến thiên số lượng sọc đen và màu nền vỏ giữa các quần thể ở rừng tối và đồng cỏ nắng là ví dụ kinh điển nhất về chọn lọc tự nhiên do chim hét săn mồi.",
+    "dietVi": "Ăn lá cây mục, nấm mốc, tảo trên vỏ cây và rau mềm",
+    "lifespanVi": "4–7 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Tây Âu và Trung Âu",
+    "otherNamesVi": [
+      "Grove Snail",
+      "Brown-lipped Snail"
+    ],
+    "synonyms": [
+      "Helicogena libellula",
+      "Helix adamii",
+      "Helix cisalpina",
+      "Helix erjaveci"
+    ],
+    "wikidataId": "Q114893",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cepaea_nemoralis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cepaea_nemoralis",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 1.8,
+      "lengthCmMax": 2.5,
+      "weightGMin": 2,
+      "weightGMax": 4,
+      "heightCmMax": null,
+      "noteVi": "Vỏ tròn bóng có từ 0 đến 5 dải sọc đen trên nền vàng chanh, hồng hoặc nâu; viền môi miệng vỏ luôn có màu nâu đen đậm."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "NL",
+        "BE",
+        "IT",
+        "ES",
+        "PL"
+      ],
+      "nativeRangeVi": "Tây Âu và Trung Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thưa, bờ rào cây bụi, đồng cỏ và công viên đô thị"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 1,8–2,5 cm. Vỏ tròn bóng có từ 0 đến 5 dải sọc đen trên nền vàng chanh, hồng hoặc nâu; viền môi miệng vỏ luôn có màu nâu đen đậm.",
+    "behaviorVi": "Loài ốc sên cạn vùng ôn đới châu Âu, chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Sự biến thiên số lượng sọc đen và màu nền vỏ giữa các quần thể ở rừng tối và đồng cỏ nắng là ví dụ kinh điển nhất về chọn lọc tự nhiên do chim hét săn mồi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài ốc sên cạn vùng ôn đới châu Âu, chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20220417 Korbinianiholz 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20220417_Korbinianiholz_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/20220417_Korbinianiholz_04.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Flocci Nivis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20230928 Cepaea nemoralis Wstężyk gajowy Panewniki kalwaria nad Kłodnicą Katowice Poland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20230928_Cepaea_nemoralis_Wst%C4%99%C5%BCyk_gajowy_Panewniki_kalwaria_nad_K%C5%82odnic%C4%85_Katowice_Poland.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/20230928_Cepaea_nemoralis_Wst%C4%99%C5%BCyk_gajowy_Panewniki_kalwaria_nad_K%C5%82odnic%C4%85_Katowice_Poland.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Abraham",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Brown-lipped Snail (Cepaea nemoralis) (8141187351).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown-lipped_Snail_(Cepaea_nemoralis)_(8141187351).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Brown-lipped_Snail_%28Cepaea_nemoralis%29_%288141187351%29.jpg",
+        "width": 2091,
+        "height": 1577,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:5650 route Transcanadienne, Pointe-Claire - 2022-06-16 - 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:5650_route_Transcanadienne,_Pointe-Claire_-_2022-06-16_-_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/5650_route_Transcanadienne%2C_Pointe-Claire_-_2022-06-16_-_04.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jeangagnon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bayerischer Spessart Naturpark, Hain-Bänderschnecke (Cepaea nemoralis).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bayerischer_Spessart_Naturpark,_Hain-B%C3%A4nderschnecke_(Cepaea_nemoralis).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bayerischer_Spessart_Naturpark%2C_Hain-B%C3%A4nderschnecke_%28Cepaea_nemoralis%29.jpg",
+        "width": 5926,
+        "height": 3951,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Thomas Fuhrmann",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2294280",
+      "https://www.iucnredlist.org/species/156896/220199866",
+      "https://en.wikipedia.org/wiki/Cepaea_nemoralis",
+      "https://vi.wikipedia.org/wiki/Cepaea_nemoralis"
+    ]
+  },
+  {
+    "scientificName": "Cepaea hortensis",
+    "commonNameVi": "Ốc Sên Vườn Viền Môi Trắng",
+    "commonNameEn": "White Lipped Snail",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Stylommatophora",
+      "family": "Helicidae",
+      "genus": "Cepaea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ốc sên cạn (Stylommatophora)",
+      "family": "Họ Ốc sên vườn (Helicidae)",
+      "genus": "Chi Ốc sên dải màu (Cepaea)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/157208/220221843",
+    "gbifKey": 2294279,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cánh đồng cỏ ẩm, ven rừng và vùng đồi núi mát"
+    },
+    "descriptionVi": "Loài chị em gần gũi của ốc sên C. nemoralis với chiếc vỏ vàng tươi hoặc kẻ sọc đen nổi bật, được phân biệt chắc chắn nhờ đường gờ môi trắng muốt quanh miệng vỏ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN trên khắp châu Âu.",
+    "pullQuoteVi": "Chịu lạnh giỏi hơn người anh em viền môi đen, Ốc Sên Viền Môi Trắng có thể phân bố lên tận các vùng núi cao và Bắc Âu lạnh giá.",
+    "dietVi": "Ăn thực vật mục, địa y, tảo trên thân cây và lá non",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Tây Âu, Trung Âu và Bắc Âu (lên tới sát vòng Bắc Cực)",
+    "otherNamesVi": [
+      "White-lipped Snail"
+    ],
+    "synonyms": [
+      "Helix hortensis",
+      "Helix hortensis arenicola",
+      "Helix hortensis bicolor",
+      "Helix hortensis dichroa"
+    ],
+    "wikidataId": "Q427854",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cepaea_hortensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/White-lipped_snail",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 1.5,
+      "lengthCmMax": 2.2,
+      "weightGMin": 1.5,
+      "weightGMax": 3.5,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ hơn nhẹ so với C. nemoralis và viền môi quanh miệng vỏ của con trưởng thành luôn có màu trắng tinh khiết."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "SE",
+        "FI",
+        "PL",
+        "AT"
+      ],
+      "nativeRangeVi": "Tây Âu, Trung Âu và Bắc Âu (lên tới sát vòng Bắc Cực)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Cánh đồng cỏ ẩm, ven rừng và vùng đồi núi mát"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 1,5–2,2 cm. Nhỏ hơn nhẹ so với C. nemoralis và viền môi quanh miệng vỏ của con trưởng thành luôn có màu trắng tinh khiết.",
+    "behaviorVi": "Loài ốc sên cạn ôn đới phục vụ tra cứu phân loại học và di truyền học trên bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Chịu lạnh giỏi hơn người anh em viền môi đen, Ốc Sên Viền Môi Trắng có thể phân bố lên tận các vùng núi cao và Bắc Âu lạnh giá."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài ốc sên cạn ôn đới phục vụ tra cứu phân loại học và di truyền học trên bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cepaea hortensis (26876983874).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cepaea_hortensis_(26876983874).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cepaea_hortensis_%2826876983874%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aestivating snails (Cepaea hortensis) in Voerde-Löhnen, Germany - Flickr - reingestalter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aestivating_snails_(Cepaea_hortensis)_in_Voerde-L%C3%B6hnen,_Germany_-_Flickr_-_reingestalter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Aestivating_snails_%28Cepaea_hortensis%29_in_Voerde-L%C3%B6hnen%2C_Germany_-_Flickr_-_reingestalter.jpg",
+        "width": 1131,
+        "height": 1845,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Daniel Ullrich from Köln, Germany",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cepaea hortensis + nemoralis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cepaea_hortensis_%2B_nemoralis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cepaea_hortensis_%2B_nemoralis.jpg",
+        "width": 4629,
+        "height": 3071,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "SecretServiceLH",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cepaea hortensis - Schnecke - snail - Mörfelden-Walldorf - 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cepaea_hortensis_-_Schnecke_-_snail_-_M%C3%B6rfelden-Walldorf_-_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cepaea_hortensis_-_Schnecke_-_snail_-_M%C3%B6rfelden-Walldorf_-_02.jpg",
+        "width": 4293,
+        "height": 2623,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Norbert Nagel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cepaea hortensis Josselin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cepaea_hortensis_Josselin.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cepaea_hortensis_Josselin.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tsaag Valren",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2294279",
+      "https://www.iucnredlist.org/species/157208/220221843",
+      "https://en.wikipedia.org/wiki/White-lipped_snail",
+      "https://vi.wikipedia.org/wiki/Cepaea_hortensis"
+    ]
+  },
+  {
+    "scientificName": "Anodonta anatina",
+    "commonNameVi": "Trai Sông Vịt Châu Âu",
+    "commonNameEn": "Duck Mussel",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Unionida",
+      "family": "Unionidae",
+      "genus": "Anodonta"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Trai sông (Unionida)",
+      "family": "Họ Trai sông (Unionidae)",
+      "genus": "Chi Trai sông không răng (Anodonta)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/155667/21400363",
+    "gbifKey": 4559631,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 14,
+      "waterTempMax": 24,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Đáy bùn cát của các dòng sông chảy chậm, kênh đào và hồ nước ngọt"
+    },
+    "descriptionVi": "Loài trai nước ngọt phổ biến của lục địa Á - Âu với lớp vỏ bầu dục không răng bản lề (Anodonta) và khả năng lọc sạch hàng chục lít nước mỗi ngày.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại châu Âu và Bắc Á.",
+    "pullQuoteVi": "Ấu trùng glochidia của trai sông có cặp móc nhỏ tạm thời bám vào vây cá nước ngọt để đi nhờ đến những vùng đáy sông mới trước khi rơi xuống phát triển thành trai con.",
+    "dietVi": "Lọc tảo đơn bào, vi khuẩn và mùn hữu cơ lơ lửng trong nước",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Khắp châu Âu kéo dài qua vùng Siberia của Nga",
+    "otherNamesVi": [
+      "Duck Mussel"
+    ],
+    "synonyms": [
+      "Anodon subrhombea",
+      "Anodonta acallia",
+      "Anodonta adusta",
+      "Anodonta aechmopsis"
+    ],
+    "wikidataId": "Q1500716",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Duck_mussel",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 12,
+      "weightGMin": 40,
+      "weightGMax": 90,
+      "heightCmMax": null,
+      "noteVi": "Hai mảnh vỏ hình bầu dục hơi thoi, mỏng nhẹ, bản lề hoàn toàn không có răng khớp và mặt trong ánh xà cừ xanh bạc."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "PL",
+        "RU",
+        "SE",
+        "IT"
+      ],
+      "nativeRangeVi": "Khắp châu Âu kéo dài qua vùng Siberia của Nga",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đáy bùn cát của các dòng sông chảy chậm, kênh đào và hồ nước ngọt"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–12 cm. Hai mảnh vỏ hình bầu dục hơi thoi, mỏng nhẹ, bản lề hoàn toàn không có răng khớp và mặt trong ánh xà cừ xanh bạc.",
+    "behaviorVi": "Loài hai mảnh vỏ bản địa châu Âu có chu kỳ ấu trùng phụ thuộc cá chủ, chỉ lưu trữ hồ sơ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Ấu trùng glochidia của trai sông có cặp móc nhỏ tạm thời bám vào vây cá nước ngọt để đi nhờ đến những vùng đáy sông mới trước khi rơi xuống phát triển thành trai con."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài hai mảnh vỏ bản địa châu Âu có chu kỳ ấu trùng phụ thuộc cá chủ, chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Anodonta anatina 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anodonta_anatina_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Anodonta_anatina_01.jpg",
+        "width": 16600,
+        "height": 5600,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Anodonte (Anodonta anatina) - Moule d'eau douce 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anodonte_(Anodonta_anatina)_-_Moule_d%27eau_douce_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Anodonte_%28Anodonta_anatina%29_-_Moule_d%27eau_douce_1.jpg",
+        "width": 2084,
+        "height": 4624,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Selmoval",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anodonta anatina 145813928.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anodonta_anatina_145813928.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Anodonta_anatina_145813928.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Brandon Froh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anodonta anatina 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anodonta_anatina_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Anodonta_anatina_02.jpg",
+        "width": 16000,
+        "height": 5400,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4559631",
+      "https://www.iucnredlist.org/species/155667/21400363",
+      "https://en.wikipedia.org/wiki/Duck_mussel"
+    ]
+  },
+  {
+    "scientificName": "Unio pictorum",
+    "commonNameVi": "Trai Sông Họa Sĩ",
+    "commonNameEn": "Painter's Mussel",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Unionida",
+      "family": "Unionidae",
+      "genus": "Unio"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Trai sông (Unionida)",
+      "family": "Họ Trai sông (Unionidae)",
+      "genus": "Chi Trai sông (Unio)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/155543/4795613",
+    "gbifKey": 4374772,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 14,
+      "waterTempMax": 24,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Đáy cát sỏi của các dòng sông lớn và hồ nước trong"
+    },
+    "descriptionVi": "Loài trai sông có chiếc vỏ thuôn dài cân đối từng được các danh họa châu Âu suốt nhiều thế kỷ dùng làm khay đựng và pha màu vẽ hội họa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN khắp các hệ thống sông châu Âu.",
+    "pullQuoteVi": "Chính đại danh hào Linnaeus vào năm 1758 đã đặt tên khoa học 'pictorum' (của các họa sĩ) cho loài trai này vì các xưởng vẽ thời Phục Hưng đều đựng bột màu bạc và vàng trong vỏ của chúng.",
+    "dietVi": "Lọc thực vật phù du và chất hữu cơ lơ lửng trong dòng nước",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Các lưu vực sông hồ khắp châu Âu tới dãy Ural",
+    "otherNamesVi": [
+      "Painter's Mussel"
+    ],
+    "synonyms": [
+      "Limnium pictorum",
+      "Lymnium pictorum",
+      "Mya nodosa",
+      "Mya ovalis"
+    ],
+    "wikidataId": "Q943262",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Unio_pictorum",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 11,
+      "weightGMin": 35,
+      "weightGMax": 80,
+      "heightCmMax": null,
+      "noteVi": "Vỏ thuôn dài với hai cạnh lưng và bụng gần như song song, bản lề có răng khớp khỏe và lớp xà cừ dày óng ánh."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "NL",
+        "PL",
+        "RU",
+        "AT"
+      ],
+      "nativeRangeVi": "Các lưu vực sông hồ khắp châu Âu tới dãy Ural",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đáy cát sỏi của các dòng sông lớn và hồ nước trong"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 7–11 cm. Vỏ thuôn dài với hai cạnh lưng và bụng gần như song song, bản lề có răng khớp khỏe và lớp xà cừ dày óng ánh.",
+    "behaviorVi": "Loài trai lọc nước tiêu biểu của hệ sinh thái sông châu Âu, lưu trữ trong bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Chính đại danh hào Linnaeus vào năm 1758 đã đặt tên khoa học 'pictorum' (của các họa sĩ) cho loài trai này vì các xưởng vẽ thời Phục Hưng đều đựng bột màu bạc và vàng trong vỏ của chúng."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài trai lọc nước tiêu biểu của hệ sinh thái sông châu Âu, lưu trữ trong bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Перламутровый слой раковины перловицы Unio Pictorium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D0%BB%D0%B0%D0%BC%D1%83%D1%82%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%BB%D0%BE%D0%B9_%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%8B_%D0%BF%D0%B5%D1%80%D0%BB%D0%BE%D0%B2%D0%B8%D1%86%D1%8B_Unio_Pictorium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/%D0%9F%D0%B5%D1%80%D0%BB%D0%B0%D0%BC%D1%83%D1%82%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%BB%D0%BE%D0%B9_%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%8B_%D0%BF%D0%B5%D1%80%D0%BB%D0%BE%D0%B2%D0%B8%D1%86%D1%8B_Unio_Pictorium.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Андрюша Романов",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Korýtka maliarske, Ružiná 2019.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kor%C3%BDtka_maliarske,_Ru%C5%BEin%C3%A1_2019.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kor%C3%BDtka_maliarske%2C_Ru%C5%BEin%C3%A1_2019.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Peter261504",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Muschel, Donau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Muschel,_Donau.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Muschel%2C_Donau.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rosa-Maria Rinkl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Unio pictorum 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Unio_pictorum_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Unio_pictorum_01.jpg",
+        "width": 15200,
+        "height": 4600,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Перламутрица обыкновенная (Unio pictorum) f004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D0%BB%D0%B0%D0%BC%D1%83%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_(Unio_pictorum)_f004.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%9F%D0%B5%D1%80%D0%BB%D0%B0%D0%BC%D1%83%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%28Unio_pictorum%29_f004.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Ural-66",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/4374772",
+      "https://www.iucnredlist.org/species/155543/4795613",
+      "https://en.wikipedia.org/wiki/Unio_pictorum"
+    ]
+  },
+  {
+    "scientificName": "Margaritifera margaritifera",
+    "commonNameVi": "Trai Ngọc Nước Ngọt Phương Bắc",
+    "commonNameEn": "Freshwater Pearl Mussel",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Unionida",
+      "family": "Margaritiferidae",
+      "genus": "Margaritifera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Trai sông (Unionida)",
+      "family": "Họ Trai ngọc nước ngọt (Margaritiferidae)",
+      "genus": "Chi Trai ngọc (Margaritifera)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/12799/128686456",
+    "gbifKey": 7911174,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 8,
+      "waterTempMax": 18,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Sông suối nước chảy nhanh, cực kỳ tinh khiết, nghèo dinh dưỡng và có cá hồi sinh sống"
+    },
+    "descriptionVi": "Một trong những loài động vật không xương sống sống thọ nhất hành tinh với tuổi thọ vượt quá 200 năm và khả năng kết tạo những viên ngọc trai nước ngọt quý giá.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN do ô nhiễm nguồn nước suối và sự suy giảm quần thể cá hồi — vật chủ bắt buộc của ấu trùng trai.",
+    "pullQuoteVi": "Các nhà khoa học đã tìm thấy những cá thể Trai Ngọc Nước Ngọt ở vùng Bắc Âu có tuổi đời lên tới 210–250 năm qua các vòng sinh trưởng trên vỏ.",
+    "dietVi": "Lọc các hạt hữu cơ siêu mịn và vi sinh vật trong dòng nước suối lạnh",
+    "lifespanVi": "100–250 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Miền nam nước Anh",
+      "lat": 51.5,
+      "lng": -0.12
+    },
+    "regionVi": "Các dòng sông suối nước lạnh vùng Bắc Âu, Tây Âu và đông bắc Bắc Mỹ",
+    "otherNamesVi": [
+      "Freshwater Pearl Mussel"
+    ],
+    "synonyms": [
+      "Alasmodonta arcuata",
+      "Margaretifera margaretifera",
+      "Margarita margaritifera",
+      "Margaritana alleni"
+    ],
+    "wikidataId": "Q772012",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Margaritifera_margaritifera",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Freshwater_pearl_mussel",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 15,
+      "weightGMin": 80,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Vỏ dày nặng hình hạt đậu hơi cong màu đen sẫm, mặt trong phủ lớp xà cừ dày có khả năng tạo ngọc trai tự nhiên."
+    },
+    "distribution": {
+      "countries": [
+        "GB",
+        "FR",
+        "DE",
+        "SE",
+        "FI",
+        "RU",
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Các dòng sông suối nước lạnh vùng Bắc Âu, Tây Âu và đông bắc Bắc Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Sông suối nước chảy nhanh, cực kỳ tinh khiết, nghèo dinh dưỡng và có cá hồi sinh sống"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–15 cm. Vỏ dày nặng hình hạt đậu hơi cong màu đen sẫm, mặt trong phủ lớp xà cừ dày có khả năng tạo ngọc trai tự nhiên.",
+    "behaviorVi": "Loài Nguy cấp (EN) được bảo vệ nghiêm ngặt cấp quốc tế, cấm khai thác thương mại, chỉ lưu trữ bách khoa.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Các nhà khoa học đã tìm thấy những cá thể Trai Ngọc Nước Ngọt ở vùng Bắc Âu có tuổi đời lên tới 210–250 năm qua các vòng sinh trưởng trên vỏ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) được bảo vệ nghiêm ngặt cấp quốc tế, cấm khai thác thương mại, chỉ lưu trữ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Perlorodka říční (Margaritifera margaritifera), Otava, třetí jez pod Vojníkovem.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perlorodka_%C5%99%C3%AD%C4%8Dn%C3%AD_(Margaritifera_margaritifera),_Otava,_t%C5%99et%C3%AD_jez_pod_Vojn%C3%ADkovem.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Perlorodka_%C5%99%C3%AD%C4%8Dn%C3%AD_%28Margaritifera_margaritifera%29%2C_Otava%2C_t%C5%99et%C3%AD_jez_pod_Vojn%C3%ADkovem.JPG",
+        "width": 4416,
+        "height": 3312,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Juan de Vojníkov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Freshwater Pearl Mussel (Margaritifera margaritifera) - Springdale, Newfoundland 2019-08-16.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Freshwater_Pearl_Mussel_(Margaritifera_margaritifera)_-_Springdale,_Newfoundland_2019-08-16.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Freshwater_Pearl_Mussel_%28Margaritifera_margaritifera%29_-_Springdale%2C_Newfoundland_2019-08-16.jpg",
+        "width": 3056,
+        "height": 3820,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Navarån.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Navar%C3%A5n.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Navar%C3%A5n.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Boldie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Margaritifera margaritifera Berglund.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Margaritifera_margaritifera_Berglund.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Margaritifera_margaritifera_Berglund.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joel Berglund",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Group of Margaritifera margaritifera.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Group_of_Margaritifera_margaritifera.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Group_of_Margaritifera_margaritifera.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Joel Berglund",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7911174",
+      "https://www.iucnredlist.org/species/12799/128686456",
+      "https://en.wikipedia.org/wiki/Freshwater_pearl_mussel",
+      "https://vi.wikipedia.org/wiki/Margaritifera_margaritifera"
+    ]
+  },
+  {
+    "scientificName": "Corbicula fluminea",
+    "commonNameVi": "Hến Sông Vàng Châu Á",
+    "commonNameEn": "Asian Clam",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Venerida",
+      "family": "Cyrenidae",
+      "genus": "Corbicula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Ngao (Venerida)",
+      "family": "Họ Hến sông (Cyrenidae)",
+      "genus": "Chi Hến (Corbicula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/155736/735697",
+    "gbifKey": 8190231,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 18,
+      "waterTempMax": 28,
+      "phMin": 6.8,
+      "phMax": 8.2,
+      "habitatVi": "Đáy cát và cát pha bùn giàu oxy của các dòng sông, suối và hồ nước ngọt"
+    },
+    "descriptionVi": "Loài hai mảnh vỏ nước ngọt quen thuộc của các dòng sông Việt Nam với chiếc vỏ vàng óng có gờ nổi đồng tâm, đóng vai trò như những chiếc máy lọc sinh học tự nhiên dưới nền cát.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với quần thể dồi dào khắp châu Á.",
+    "pullQuoteVi": "Một cá thể hến nhỏ bé chỉ dài 2,5 cm có thể lọc sạch tới 4–5 lít nước mỗi ngày nhờ cặp ống siphon hút-xả hoạt động liên tục trên mặt cát.",
+    "dietVi": "Lọc tảo lơ lửng, vi khuẩn và vụn hữu cơ mịn trong nước",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Bản địa khắp các lưu vực sông Đông Á và Đông Nam Á (trong đó có Việt Nam)",
+    "otherNamesVi": [
+      "Asian Clam",
+      "Golden Freshwater Clam"
+    ],
+    "synonyms": [
+      "Corbicula adunca",
+      "Corbicula andersoniana",
+      "Corbicula aquilina",
+      "Corbicula astronomica"
+    ],
+    "wikidataId": "Q728187",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corbicula_fluminea",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Corbicula_fluminea",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 3.5,
+      "weightGMin": 4,
+      "weightGMax": 10,
+      "heightCmMax": null,
+      "noteVi": "Vỏ hình tam giác tròn cân đối màu vàng lục ánh đồng với các đường gờ đồng tâm nổi rõ đều đặn."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN",
+        "JP",
+        "KR",
+        "TH",
+        "RU"
+      ],
+      "nativeRangeVi": "Bản địa khắp các lưu vực sông Đông Á và Đông Nam Á (trong đó có Việt Nam)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đáy cát và cát pha bùn giàu oxy của các dòng sông, suối và hồ nước ngọt"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2–3,5 cm. Vỏ hình tam giác tròn cân đối màu vàng lục ánh đồng với các đường gờ đồng tâm nổi rõ đều đặn.",
+    "behaviorVi": "Cần nền cát dày tối thiểu 4–5 cm để hến tự vùi một phần cơ thể và dòng nước luân chuyển tốt.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Một cá thể hến nhỏ bé chỉ dài 2,5 cm có thể lọc sạch tới 4–5 lít nước mỗi ngày nhờ cặp ống siphon hút-xả hoạt động liên tục trên mặt cát."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/hộp nuôi tối thiểu 30 lít đảm bảo thông thoáng và thông số môi trường ổn định.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ hoặc đèn LED thủy sinh (không phơi nắng trực tiếp)",
+      "feedingVi": "Lọc tảo lơ lửng, vi khuẩn và vụn hữu cơ mịn trong nước",
+      "socialVi": "Cần nền cát dày tối thiểu 4–5 cm để hến tự vùi một phần cơ thể và dòng nước luân chuyển tốt.",
+      "commonProblemsVi": [
+        "Khó lột xác hoặc mòn vỏ nếu thiếu độ ẩm và khoáng canxi",
+        "Sốc nhiệt hoặc nhiễm độc hóa chất/thuốc diệt côn trùng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá thể nhân giống trong nuôi nhốt hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Hến Vàng Lọc Nước Bể Thủy Sinh (Corbicula fluminea)",
+        "priceVnd": 35000,
+        "descriptionVi": "Hến Sông Vàng Châu Á (Trưởng thành, Chưa phân biệt) khỏe mạnh, ăn tốt và có nguồn gốc nhân giống hợp pháp (CB)."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Vergrabene Corbicula fluminea.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vergrabene_Corbicula_fluminea.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Vergrabene_Corbicula_fluminea.jpg",
+        "width": 4032,
+        "height": 3180,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lorenz Seebauer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Asian Clam (Corbicula fluminea) - Mahwah, New Jersey 2023-01-18 (03).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Clam_(Corbicula_fluminea)_-_Mahwah,_New_Jersey_2023-01-18_(03).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Asian_Clam_%28Corbicula_fluminea%29_-_Mahwah%2C_New_Jersey_2023-01-18_%2803%29.jpg",
+        "width": 993,
+        "height": 1242,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Corbicula fluminea (I0972) (16848724997).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corbicula_fluminea_(I0972)_(16848724997).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Corbicula_fluminea_%28I0972%29_%2816848724997%29.jpg",
+        "width": 1832,
+        "height": 1584,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Smithsonian Environmental Research Center",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corbicula fluminea unterwasser.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corbicula_fluminea_unterwasser.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Corbicula_fluminea_unterwasser.jpg",
+        "width": 3784,
+        "height": 2708,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lorenz Seebauer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bynesian Decay 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bynesian_Decay_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bynesian_Decay_001.JPG",
+        "width": 2144,
+        "height": 1608,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Daniel Cavallari",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8190231",
+      "https://www.iucnredlist.org/species/155736/735697",
+      "https://en.wikipedia.org/wiki/Corbicula_fluminea",
+      "https://vi.wikipedia.org/wiki/Corbicula_fluminea"
+    ]
+  },
+  {
+    "scientificName": "Osmoderma eremita",
+    "commonNameVi": "Bọ Hung Ẩn Sĩ Mùi Đào",
+    "commonNameEn": "Hermit Beetle",
+    "group": "Động vật không xương sống",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Scarabaeidae",
+      "genus": "Osmoderma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cánh cứng (Coleoptera)",
+      "family": "Họ Bọ hung (Scarabaeidae)",
+      "genus": "Chi Bọ hung ẩn sĩ (Osmoderma)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/15632/283806710",
+    "gbifKey": 1079588,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Mùn gỗ mục bên trong các hốc cây sồi, dẻ gai và đoạn cổ thụ hàng trăm năm tuổi"
+    },
+    "descriptionVi": "Loài bọ cánh cứng rừng già quý hiếm của châu Âu với lớp vỏ màu nâu đồng đen bóng ánh kim và hương thơm trái đào chín đặc trưng do con đực tiết ra.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và là loài chỉ thị ưu tiên bảo tồn hàng đầu của mạng lưới Natura 2000 tại châu Âu.",
+    "pullQuoteVi": "Vào những ngày hè ấm áp, người đi rừng có thể ngửi thấy mùi hương quả đào chín ngọt ngào của bọ đực tỏa ra từ hốc cây sồi từ khoảng cách vài mét.",
+    "dietVi": "Ấu trùng ăn mùn gỗ sồi mục trong hốc cây; con trưởng thành liếm nhựa cây rỉ ra",
+    "lifespanVi": "3–4 năm (cả vòng đời)",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Trung Âu, Đức",
+      "lat": 50.11,
+      "lng": 8.68
+    },
+    "regionVi": "Các khu rừng cổ thụ lá rộng khắp châu Âu",
+    "otherNamesVi": [
+      "Hermit Beetle"
+    ],
+    "synonyms": [
+      "Cetonia cremiticum",
+      "Osmoderma coriaceum",
+      "Osmoderma coriarius",
+      "Osmoderma eremita semirufum"
+    ],
+    "wikidataId": "Q1141328",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Osmoderma_eremita",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Osmoderma_eremita",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 2.5,
+      "lengthCmMax": 3.8,
+      "weightGMin": 2,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Con đực có rãnh lõm sâu hơn trên mảnh lưng ngực trước và tiết ra pheromone có mùi thơm nồng như quả đào chín hoặc da thuộc Nga."
+    },
+    "distribution": {
+      "countries": [
+        "DE",
+        "FR",
+        "IT",
+        "PL",
+        "SE",
+        "AT",
+        "CZ"
+      ],
+      "nativeRangeVi": "Các khu rừng cổ thụ lá rộng khắp châu Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Mùn gỗ mục bên trong các hốc cây sồi, dẻ gai và đoạn cổ thụ hàng trăm năm tuổi"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2,5–3,8 cm. Con đực có rãnh lõm sâu hơn trên mảnh lưng ngực trước và tiết ra pheromone có mùi thơm nồng như quả đào chín hoặc da thuộc Nga.",
+    "behaviorVi": "Loài bọ cánh cứng rừng cổ thụ được bảo vệ nghiêm ngặt tại châu Âu, chỉ trưng bày trong bách khoa sinh học.",
+    "reproductionVi": "Đẻ trứng (hoặc đẻ con đối với họ Viviparidae) trong môi trường ẩm/nước sạch giàu khoáng chất.",
+    "threatsVi": [
+      "Mất sinh cảnh tự nhiên và ô nhiễm nguồn nước / thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Vào những ngày hè ấm áp, người đi rừng có thể ngửi thấy mùi hương quả đào chín ngọt ngào của bọ đực tỏa ra từ hốc cây sồi từ khoảng cách vài mét."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài bọ cánh cứng rừng cổ thụ được bảo vệ nghiêm ngặt tại châu Âu, chỉ trưng bày trong bách khoa sinh học."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Osmoderma eremita, Urwald Sababurg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osmoderma_eremita,_Urwald_Sababurg.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Osmoderma_eremita%2C_Urwald_Sababurg.jpg",
+        "width": 3648,
+        "height": 2432,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nemracc",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Osmoderma eremita hann.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osmoderma_eremita_hann.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Osmoderma_eremita_hann.JPG",
+        "width": 2848,
+        "height": 3437,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Magne Flåten",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Osmoderma eremita-larve.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osmoderma_eremita-larve.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Osmoderma_eremita-larve.jpg",
+        "width": 3760,
+        "height": 1517,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Magne Flåten",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Osmoderma eremita female.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osmoderma_eremita_female.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Osmoderma_eremita_female.jpg",
+        "width": 2080,
+        "height": 1368,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Siga",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/1079588",
+      "https://www.iucnredlist.org/species/15632/283806710",
+      "https://en.wikipedia.org/wiki/Osmoderma_eremita",
+      "https://vi.wikipedia.org/wiki/Osmoderma_eremita"
+    ]
+  }
+]

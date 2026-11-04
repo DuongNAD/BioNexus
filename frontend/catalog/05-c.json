@@ -1,0 +1,3845 @@
+[
+  {
+    "scientificName": "Poecilia wingei",
+    "commonNameVi": "Cá Bảy Màu Endler",
+    "commonNameEn": "Endler's Livebearer",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Cyprinodontiformes",
+      "family": "Poeciliidae",
+      "genus": "Poecilia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá chép răng (Cyprinodontiformes)",
+      "family": "Họ Cá khổng tước (Poeciliidae)",
+      "genus": "Chi Cá bảy màu (Poecilia)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/177429528/177429532",
+    "gbifKey": 5203789,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 7,
+      "phMax": 8.2,
+      "habitatVi": "Đầm nước lợ ấm và suối nước ngọt ven biển nhiều tảo lục"
+    },
+    "descriptionVi": "Họ hàng gần kích thước siêu nhỏ của cá bảy màu với các mảng màu cam neon, xanh lục bảo và đen ánh kim tương phản mạnh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) nhưng sinh cảnh gốc tại đầm Laguna de Patos ở Venezuela đang bị đe dọa bởi rác thải đô thị.",
+    "pullQuoteVi": "Ánh sắc xanh lục và cam trên mình cá Endler đực rực sáng như đèn neon nhằm thu hút bạn tình trong làn nước đục giàu tảo.",
+    "dietVi": "Ăn tạp: thức ăn hạt siêu mịn, ấu trùng Artemia, bo bo và tảo mềm",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco, Venezuela",
+      "lat": 6.18,
+      "lng": -67.45
+    },
+    "regionVi": "Laguna de Patos và vùng ven biển Cumaná, đông bắc Venezuela",
+    "otherNamesVi": [
+      "Cá Endler",
+      "Cá bảy màu rừng Venezuela"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q1340577",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_b%E1%BA%A3y_m%C3%A0u_Endler",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Poecilia_wingei",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 3.5,
+      "weightGMin": 0.5,
+      "weightGMax": 1.2,
+      "heightCmMax": null,
+      "noteVi": "Đực nhỏ gọn (2–2,5 cm) rực rỡ màu cam, xanh neon và đen ánh kim; cái lớn hơn (3–3,5 cm) màu xám bạc."
+    },
+    "distribution": {
+      "countries": [
+        "VE"
+      ],
+      "nativeRangeVi": "Laguna de Patos và vùng ven biển Cumaná, đông bắc Venezuela",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm nước lợ ấm và suối nước ngọt ven biển nhiều tảo lục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 2–3,5 cm với hình thái đặc trưng của chi Poecilia. Đực nhỏ gọn (2–2,5 cm) rực rỡ màu cam, xanh neon và đen ánh kim; cái lớn hơn (3–3,5 cm) màu xám bạc.",
+    "behaviorVi": "Bơi nhanh, rất hòa đồng và lý tưởng cho các bể thủy sinh nano từ 20 lít.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), cá con mới sinh đã có thể tự bơi và kiếm ăn ngay.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ánh sắc xanh lục và cam trên mình cá Endler đực rực sáng như đèn neon nhằm thu hút bạn tình trong làn nước đục giàu tảo.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá khổng tước (Poeciliidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 20 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 7.0–8.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: thức ăn hạt siêu mịn, ấu trùng Artemia, bo bo và tảo mềm",
+      "socialVi": "Bơi nhanh, rất hòa đồng và lý tưởng cho các bể thủy sinh nano từ 20 lít.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Bảy Màu Endler Black Bar Thuần Chủng",
+        "priceVnd": 30000,
+        "descriptionVi": "Cá Bảy Màu Endler (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 7.0–8.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Poecilia wingei Campoma Guppy, Campoma, Venezuela, male 101 de 20131123.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_wingei_Campoma_Guppy,_Campoma,_Venezuela,_male_101_de_20131123.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Poecilia_wingei_Campoma_Guppy%2C_Campoma%2C_Venezuela%2C_male_101_de_20131123.jpg",
+        "width": 3403,
+        "height": 2456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Emilio17",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Endlers Guppy Poecilia wingei.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Endlers_Guppy_Poecilia_wingei.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Endlers_Guppy_Poecilia_wingei.JPG",
+        "width": 2282,
+        "height": 2167,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Usien",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:El Tigre.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Tigre.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/El_Tigre.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dgrummon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilia wingei locustypicus female 4e 20121101.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_wingei_locustypicus_female_4e_20121101.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Poecilia_wingei_locustypicus_female_4e_20121101.jpg",
+        "width": 3138,
+        "height": 2017,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Emilio17",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poecilia wingei Cologne Zoo 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_wingei_Cologne_Zoo_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Poecilia_wingei_Cologne_Zoo_1.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "TomCatX",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5203789",
+      "https://www.iucnredlist.org/species/177429528/177429532",
+      "https://en.wikipedia.org/wiki/Poecilia_wingei",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_b%E1%BA%A3y_m%C3%A0u_Endler"
+    ]
+  },
+  {
+    "scientificName": "Epiplatys annulatus",
+    "commonNameVi": "Cá Killi Chú Hề",
+    "commonNameEn": "Banded Panchax",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Cyprinodontiformes",
+      "family": "Nothobranchiidae",
+      "genus": "Epiplatys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá chép răng (Cyprinodontiformes)",
+      "family": "Họ Cá Killi châu Phi (Nothobranchiidae)",
+      "genus": "Chi Cá Killi sọc (Epiplatys)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/182796/134754514",
+    "gbifKey": 2348780,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Suối nước ngọt chảy chậm, đầm lầy cỏ và rãnh nước nông nhiều thực vật nổi"
+    },
+    "descriptionVi": "Loài cá Killi mặt nước siêu nhỏ của Tây Phi với bốn khoanh sọc đen-vàng kem xen kẽ trên thân và chiếc đuôi rực rỡ như đuôi tên lửa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với quần thể ổn định tại các suối ven biển Tây Phi.",
+    "pullQuoteVi": "Chiếc vây đuôi nhọn hai màu xanh lam - đỏ rực của con đực khiến giới thủy sinh đặt cho chúng biệt danh 'Cá Killi Tên Lửa'.",
+    "dietVi": "Ăn động vật nhỏ trên mặt nước: ấu trùng Artemia, bo bo, ruồi giấm không cánh và cám hạt nổi siêu mịn",
+    "lifespanVi": "2–3 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng rừng Thượng Guinea, Guinea",
+      "lat": 9.51,
+      "lng": -13.71
+    },
+    "regionVi": "Vùng đồng bằng ven biển Tây Phi từ Guinea đến Liberia",
+    "otherNamesVi": [
+      "Cá Killi tên lửa",
+      "Clown Killifish"
+    ],
+    "synonyms": [
+      "Aplocheilus annulatus",
+      "Haplochilus annulatus",
+      "Panchax annulatus",
+      "Pseudepiplatys annulatus"
+    ],
+    "wikidataId": "Q2067460",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Clown_killi",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3,
+      "lengthCmMax": 4,
+      "weightGMin": 0.6,
+      "weightGMax": 1.2,
+      "heightCmMax": null,
+      "noteVi": "Đực có vây đuôi nhọn dài mang sắc xanh lam và đỏ tươi như ngọn lửa tên lửa; cái nhỏ hơn và vây trong suốt."
+    },
+    "distribution": {
+      "countries": [
+        "GN",
+        "LR",
+        "SL"
+      ],
+      "nativeRangeVi": "Vùng đồng bằng ven biển Tây Phi từ Guinea đến Liberia",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối nước ngọt chảy chậm, đầm lầy cỏ và rãnh nước nông nhiều thực vật nổi",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 3–4 cm với hình thái đặc trưng của chi Epiplatys. Đực có vây đuôi nhọn dài mang sắc xanh lam và đỏ tươi như ngọn lửa tên lửa; cái nhỏ hơn và vây trong suốt.",
+    "behaviorVi": "Luôn bơi sát mặt nước dưới tán bèo nổi, bể cần có nắp đậy vì cá nhảy rất giỏi.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chiếc vây đuôi nhọn hai màu xanh lam - đỏ rực của con đực khiến giới thủy sinh đặt cho chúng biệt danh 'Cá Killi Tên Lửa'.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá Killi châu Phi (Nothobranchiidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 20 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–27°C, pH 6.0–7.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn động vật nhỏ trên mặt nước: ấu trùng Artemia, bo bo, ruồi giấm không cánh và cám hạt nổi siêu mịn",
+      "socialVi": "Luôn bơi sát mặt nước dưới tán bèo nổi, bể cần có nắp đậy vì cá nhảy rất giỏi.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Killi Chú Hề (Epiplatys annulatus) CB",
+        "priceVnd": 70000,
+        "descriptionVi": "Cá Killi Chú Hề (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–27°C, pH 6.0–7.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Panchax prstencový.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panchax_prstencov%C3%BD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Panchax_prstencov%C3%BD.jpg",
+        "width": 3840,
+        "height": 2160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cassius Chaerea",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ringelhechtling -Epiplatys annulatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ringelhechtling_-Epiplatys_annulatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Ringelhechtling_-Epiplatys_annulatus.jpg",
+        "width": 2466,
+        "height": 1878,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Dornenwolf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Epiplatys annulatus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epiplatys_annulatus.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Epiplatys_annulatus.JPG",
+        "width": 1639,
+        "height": 944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrew Bogott",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2348780",
+      "https://www.iucnredlist.org/species/182796/134754514",
+      "https://en.wikipedia.org/wiki/Clown_killi"
+    ]
+  },
+  {
+    "scientificName": "Oryzias latipes",
+    "commonNameVi": "Cá Medaka Nhật Bản",
+    "commonNameEn": "Japanese rice fish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Beloniformes",
+      "family": "Adrianichthyidae",
+      "genus": "Oryzias"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá nhói (Beloniformes)",
+      "family": "Họ Cá sóc (Adrianichthyidae)",
+      "genus": "Chi Cá sóc (Oryzias)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/166979/1159322",
+    "gbifKey": 2368377,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 16,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 8,
+      "habitatVi": "Ruộng lúa nước, ao hồ tĩnh, kênh mương nông nhiều rong bèo"
+    },
+    "descriptionVi": "Loài cá ruộng lúa truyền thống của Nhật Bản có sức chịu đựng biên độ nhiệt đáng kinh ngạc và nhiều dòng màu Miyuki, Youkihi lấp lánh khi nhìn từ trên xuống.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC), được bảo tồn và nhân giống rộng rãi trong các chậu súng, chum gốm truyền thống khắp Nhật Bản.",
+    "pullQuoteVi": "Năm 1994, cá Medaka Nhật Bản trở thành loài động vật có xương sống đầu tiên giao phối và đẻ trứng nở thành công ngoài không gian trên tàu con thoi Columbia.",
+    "dietVi": "Ăn tạp: cám bột nổi, bo bo, ấu trùng Artemia và vi sinh vật mặt nước",
+    "lifespanVi": "2–4 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Các đảo Honshu, Shikoku và Kyushu của Nhật Bản",
+    "otherNamesVi": [
+      "Cá sóc Nhật Bản",
+      "Japanese Ricefish"
+    ],
+    "synonyms": [
+      "Aplocheilus latipes",
+      "Oryzias latipes latipes",
+      "Poecilia latipes"
+    ],
+    "wikidataId": "Q1142975",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_s%C3%B3c",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_rice_fish",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3,
+      "lengthCmMax": 4,
+      "weightGMin": 0.5,
+      "weightGMax": 1.2,
+      "heightCmMax": null,
+      "noteVi": "Đực có vây lưng khía chữ V ở rìa sau và vây hậu môn hình bình hành rộng; cái thường mang chùm trứng trong suốt dưới bụng."
+    },
+    "distribution": {
+      "countries": [
+        "JP"
+      ],
+      "nativeRangeVi": "Các đảo Honshu, Shikoku và Kyushu của Nhật Bản",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Ruộng lúa nước, ao hồ tĩnh, kênh mương nông nhiều rong bèo",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 3–4 cm với hình thái đặc trưng của chi Oryzias. Đực có vây lưng khía chữ V ở rìa sau và vây hậu môn hình bình hành rộng; cái thường mang chùm trứng trong suốt dưới bụng.",
+    "behaviorVi": "Cực kỳ khỏe mạnh, thích hợp nuôi cả trong bể thủy sinh lẫn chậu sen súng ngoài hiên.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Năm 1994, cá Medaka Nhật Bản trở thành loài động vật có xương sống đầu tiên giao phối và đẻ trứng nở thành công ngoài không gian trên tàu con thoi Columbia.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá sóc (Adrianichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 20 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (16–28°C, pH 6.5–8.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: cám bột nổi, bo bo, ấu trùng Artemia và vi sinh vật mặt nước",
+      "socialVi": "Cực kỳ khỏe mạnh, thích hợp nuôi cả trong bể thủy sinh lẫn chậu sen súng ngoài hiên.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Cá Medaka Bạch Kim Miyuki Nhật Bản CB",
+        "priceVnd": 90000,
+        "descriptionVi": "Cá Medaka Nhật Bản (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (16–28°C, pH 6.5–8.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Killifish-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Killifish-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Killifish-1.jpg",
+        "width": 5479,
+        "height": 3653,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "些細な日常",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20240724 Medaka Miyuki Blue 3 male Foto Manuel Werner DSC0808.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/20240724_Medaka_Miyuki_Blue_3_male_Foto_Manuel_Werner_DSC0808.jpg",
+        "width": 1008,
+        "height": 1420,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Werner, Deutschland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:School of Japanese killifish,Katori-city,Japan.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:School_of_Japanese_killifish,Katori-city,Japan.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/School_of_Japanese_killifish%2CKatori-city%2CJapan.JPG",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "katorisi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Oryzias latipes(Hamamatsu,Shizuoka,Japan,2007)-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oryzias_latipes(Hamamatsu,Shizuoka,Japan,2007)-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Oryzias_latipes%28Hamamatsu%2CShizuoka%2CJapan%2C2007%29-1.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Seotaro",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kitano Medaka female by Hino, Tokyo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kitano_Medaka_female_by_Hino,_Tokyo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kitano_Medaka_female_by_Hino%2C_Tokyo.jpg",
+        "width": 2880,
+        "height": 1920,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "根川孝太郎 (Kotaro Negawa)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2368377",
+      "https://www.iucnredlist.org/species/166979/1159322",
+      "https://en.wikipedia.org/wiki/Japanese_rice_fish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_s%C3%B3c"
+    ]
+  },
+  {
+    "scientificName": "Pterophyllum scalare",
+    "commonNameVi": "Cá Ông Tiên",
+    "commonNameEn": "Angelfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Pterophyllum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá ông tiên (Pterophyllum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830495/160296386",
+    "gbifKey": 5208518,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 30,
+      "phMin": 6,
+      "phMax": 7.4,
+      "habitatVi": "Vùng nước ngập tĩnh, nhánh sông nhiều rễ cây ngập nước và lau sậy thẳng đứng"
+    },
+    "descriptionVi": "Biểu tượng thanh lịch của bể thủy sinh Nam Mỹ với thân tròn dẹt bên, vây lưng và vây bụng vươn cao như cánh buồm tam giác kèm bốn sọc đen dọc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) với vùng phân bố rộng khắp lưu vực Amazon và hàng chục biến thể lai tạo trong nuôi nhốt.",
+    "pullQuoteVi": "Thân hình dẹt mỏng kèm các sọc đen thẳng đứng giúp cá ông tiên hòa lẫn hoàn hảo vào bóng đổ của những thân cây sậy dưới nước.",
+    "dietVi": "Ăn tạp thiên đạm: trùng huyết, ấu trùng Artemia, tim bò trộn và thức ăn hạt chậm chìm",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Orinoco và sông Essequibo ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá thần tiên",
+      "Freshwater Angelfish"
+    ],
+    "synonyms": [
+      "Platax scalaris",
+      "Plataxoides dumerilii",
+      "Pterophillum eimekei",
+      "Pterophyllum dumerilii"
+    ],
+    "wikidataId": "Q827441",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_th%E1%BA%A7n_ti%C3%AAn",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pterophyllum_scalare",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 15,
+      "weightGMin": 30,
+      "weightGMax": 60,
+      "heightCmMax": null,
+      "noteVi": "Rất khó phân biệt ngoài mùa sinh sản; khi đẻ trứng, gai sinh dục của con đực nhỏ nhọn còn ống đẻ trứng của con cái to tròn."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "GY",
+        "GF"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Orinoco và sông Essequibo ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước ngập tĩnh, nhánh sông nhiều rễ cây ngập nước và lau sậy thẳng đứng",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 12–15 cm với hình thái đặc trưng của chi Pterophyllum. Rất khó phân biệt ngoài mùa sinh sản; khi đẻ trứng, gai sinh dục của con đực nhỏ nhọn còn ống đẻ trứng của con cái to tròn.",
+    "behaviorVi": "Cần bể có chiều cao tối thiểu 45–50 cm để bộ vây phát triển thẳng đẹp; tránh nuôi chung với cá quá nhỏ như Neon cỡ bé.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Thân hình dẹt mỏng kèm các sọc đen thẳng đứng giúp cá ông tiên hòa lẫn hoàn hảo vào bóng đổ của những thân cây sậy dưới nước.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 120 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–30°C, pH 6.0–7.4).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên đạm: trùng huyết, ấu trùng Artemia, tim bò trộn và thức ăn hạt chậm chìm",
+      "socialVi": "Cần bể có chiều cao tối thiểu 45–50 cm để bộ vây phát triển thẳng đẹp; tránh nuôi chung với cá quá nhỏ như Neon cỡ bé.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Ông Tiên Sọc Tự Nhiên (Pterophyllum scalare) Size M",
+        "priceVnd": 45000,
+        "descriptionVi": "Cá Ông Tiên (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–30°C, pH 6.0–7.4) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Cá Ông Tiên Koi Đỏ Trắng Tuyển Chọn",
+        "priceVnd": 85000,
+        "descriptionVi": "Cá Ông Tiên (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–30°C, pH 6.0–7.4) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aquarium at Amsterdam Zoo - Artis (25673518534).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_at_Amsterdam_Zoo_-_Artis_(25673518534).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Aquarium_at_Amsterdam_Zoo_-_Artis_%2825673518534%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tobias Niepel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Angel Fish(A type of Fish).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_Fish(A_type_of_Fish).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Angel_Fish%28A_type_of_Fish%29.jpg",
+        "width": 3120,
+        "height": 4208,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Nskjnv",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Biotope aquarium - Pterophyllum sp. Manacapuru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biotope_aquarium_-_Pterophyllum_sp._Manacapuru.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Biotope_aquarium_-_Pterophyllum_sp._Manacapuru.jpg",
+        "width": 1605,
+        "height": 1038,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ewkaa",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2023-08-20. Анапа DSC 5536.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2023-08-20._%D0%90%D0%BD%D0%B0%D0%BF%D0%B0_DSC_5536.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/2023-08-20._%D0%90%D0%BD%D0%B0%D0%BF%D0%B0_DSC_5536.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Angel fish at meenalokam aquarium 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angel_fish_at_meenalokam_aquarium_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Angel_fish_at_meenalokam_aquarium_01.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Adityamadhav83",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5208518",
+      "https://www.iucnredlist.org/species/49830495/160296386",
+      "https://en.wikipedia.org/wiki/Pterophyllum_scalare",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_th%E1%BA%A7n_ti%C3%AAn"
+    ]
+  },
+  {
+    "scientificName": "Pterophyllum altum",
+    "commonNameVi": "Cá Ông Tiên Altum",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Pterophyllum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá ông tiên (Pterophyllum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176002413/176002427",
+    "gbifKey": 5208522,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 26,
+      "waterTempMax": 30,
+      "phMin": 4.8,
+      "phMax": 6.5,
+      "habitatVi": "Các dòng sông nước đen sâu, trong vắt, rất mềm và có độ pH axit thấp"
+    },
+    "descriptionVi": "Loài cá ông tiên lớn nhất và uy nghi nhất với chiều cao sải vây có thể vượt 35 cm, vết lõm sâu đặc trưng trên sống mũi và các sọc nâu đồng sắc nét.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại lưu vực Orinoco nhưng đòi hỏi chất lượng nước khắt khe hơn nhiều so với cá ông tiên thường.",
+    "pullQuoteVi": "Sải vây đứng cao tới 35–40 cm khiến cá Ông Tiên Altum được mệnh danh là vị vua uy nghi của những bể Biotope sông Orinoco.",
+    "dietVi": "Ăn thức ăn tươi đông lạnh sạch: trùng huyết, Artemia trưởng thành, côn trùng nước và cám cao cấp",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Thượng nguồn sông Orinoco và nhánh sông Rio Negro ở bắc Nam Mỹ",
+    "otherNamesVi": [
+      "Thần tiên Ai Cập",
+      "Altum Angelfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q3541",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pterophyllum_altum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pterophyllum_altum",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 60,
+      "weightGMax": 110,
+      "heightCmMax": null,
+      "noteVi": "Đực và cái có ngoại hình tương đồng, chỉ phân biệt rõ qua ống sinh dục khi bắt cặp đẻ trứng."
+    },
+    "distribution": {
+      "countries": [
+        "CO",
+        "VE",
+        "BR"
+      ],
+      "nativeRangeVi": "Thượng nguồn sông Orinoco và nhánh sông Rio Negro ở bắc Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các dòng sông nước đen sâu, trong vắt, rất mềm và có độ pH axit thấp",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 18–25 cm với hình thái đặc trưng của chi Pterophyllum. Đực và cái có ngoại hình tương đồng, chỉ phân biệt rõ qua ống sinh dục khi bắt cặp đẻ trứng.",
+    "behaviorVi": "Cần bể sâu từ 60 cm trở lên, nước mềm có pH thấp giàu tannin và hệ lọc vi sinh cực kỳ ổn định.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sải vây đứng cao tới 35–40 cm khiến cá Ông Tiên Altum được mệnh danh là vị vua uy nghi của những bể Biotope sông Orinoco.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 250 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (26–30°C, pH 4.8–6.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn tươi đông lạnh sạch: trùng huyết, Artemia trưởng thành, côn trùng nước và cám cao cấp",
+      "socialVi": "Cần bể sâu từ 60 cm trở lên, nước mềm có pH thấp giàu tannin và hệ lọc vi sinh cực kỳ ổn định.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Ông Tiên Altum Orinoco Nhập Nội Thuần Nước",
+        "priceVnd": 450000,
+        "descriptionVi": "Cá Ông Tiên Altum (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (26–30°C, pH 4.8–6.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Altum Angel 15 41 17 811000.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Altum_Angel_15_41_17_811000.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Altum_Angel_15_41_17_811000.jpeg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chris.sherlock",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Copenhagen 2014-03-01 (12953812993).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_2014-03-01_(12953812993).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Copenhagen_2014-03-01_%2812953812993%29.jpg",
+        "width": 3024,
+        "height": 4304,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Guillaume Baviere from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Скалярия.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BA%D0%B0%D0%BB%D1%8F%D1%80%D0%B8%D1%8F.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8F%D1%80%D0%B8%D1%8F.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kalabin.dmitriy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Daniel Kruczynski - 4251752117.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Kruczynski_-_4251752117.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Daniel_Kruczynski_-_4251752117.jpg",
+        "width": 2260,
+        "height": 3389,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Daniel Kruczynski",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Group of Pterophyllum Altum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Group_of_Pterophyllum_Altum.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Group_of_Pterophyllum_Altum.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Jeff Kubina",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5208522",
+      "https://www.iucnredlist.org/species/176002413/176002427",
+      "https://en.wikipedia.org/wiki/Pterophyllum_altum",
+      "https://vi.wikipedia.org/wiki/Pterophyllum_altum"
+    ]
+  },
+  {
+    "scientificName": "Symphysodon aequifasciatus",
+    "commonNameVi": "Cá Đĩa Xanh",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Symphysodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá đĩa (Symphysodon)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830657/141105884",
+    "gbifKey": 5208133,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 28,
+      "waterTempMax": 31,
+      "phMin": 5.5,
+      "phMax": 6.8,
+      "habitatVi": "Vùng nước tĩnh ven bờ sông nhánh Amazon nhiều cành lũa đổ và rễ cây chằng chịt"
+    },
+    "descriptionVi": "Nữ hoàng của các loài cá cảnh nước ngọt với thân tròn dẹt như chiếc đĩa và 9 vạch sọc dọc đồng đều điểm những đường vân xanh ngọc lam óng ánh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) ngoài tự nhiên và là gốc lai tạo của hầu hết các dòng cá đĩa cảnh hiện đại trên thế giới.",
+    "pullQuoteVi": "Cá đĩa bố mẹ tiết ra một lớp dịch nhầy giàu dưỡng chất và kháng thể ngay trên da thân mình để đàn cá bột bám vào rỉa ăn như sữa mẹ.",
+    "dietVi": "Ăn thức ăn giàu đạm: trùng huyết đông lạnh, Artemia, tim bò chế biến sạch và hạt dinh dưỡng chuyên dụng cho cá đĩa",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon từ vùng hạ lưu đến thượng nguồn Peru và Colombia",
+    "otherNamesVi": [
+      "Cá Đĩa Nâu",
+      "Green/Blue Discus"
+    ],
+    "synonyms": [
+      "Symphysodon aequifasciata aequifasciata",
+      "Symphysodon aequifasciata axelrodi",
+      "Symphysodon aequifasciata haraldi",
+      "Symphysodon aequifasciatus aequifasciatus"
+    ],
+    "wikidataId": "Q3091839",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_%C4%91%C4%A9a_th%C3%B4ng_th%C6%B0%E1%BB%9Dng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Symphysodon_aequifasciatus",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 120,
+      "weightGMax": 220,
+      "heightCmMax": null,
+      "noteVi": "Khó phân biệt bằng mắt thường; con đực thường có trán dày hơn và vây lưng nhọn hơn nhẹ khi trưởng thành."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon từ vùng hạ lưu đến thượng nguồn Peru và Colombia",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước tĩnh ven bờ sông nhánh Amazon nhiều cành lũa đổ và rễ cây chằng chịt",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–20 cm với hình thái đặc trưng của chi Symphysodon. Khó phân biệt bằng mắt thường; con đực thường có trán dày hơn và vây lưng nhọn hơn nhẹ khi trưởng thành.",
+    "behaviorVi": "Nuôi theo đàn từ 5–6 con trong bể nước ấm 28–30°C, nước sạch và thay nước định kỳ thường xuyên.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cá đĩa bố mẹ tiết ra một lớp dịch nhầy giàu dưỡng chất và kháng thể ngay trên da thân mình để đàn cá bột bám vào rỉa ăn như sữa mẹ.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (28–31°C, pH 5.5–6.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn giàu đạm: trùng huyết đông lạnh, Artemia, tim bò chế biến sạch và hạt dinh dưỡng chuyên dụng cho cá đĩa",
+      "socialVi": "Nuôi theo đàn từ 5–6 con trong bể nước ấm 28–30°C, nước sạch và thay nước định kỳ thường xuyên.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đĩa Lam (Blue Turquoise Discus) Size 9–10 cm",
+        "priceVnd": 280000,
+        "descriptionVi": "Cá Đĩa Xanh (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (28–31°C, pH 5.5–6.8) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Cá Đĩa Xanh Tự Nhiên (Symphysodon aequifasciatus) Trưởng Thành",
+        "priceVnd": 650000,
+        "descriptionVi": "Cá Đĩa Xanh (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (28–31°C, pH 5.5–6.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Discus (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Discus_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Discus_%281%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brown Discus Symphysodon aequifasciatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown_Discus_Symphysodon_aequifasciatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Brown_Discus_Symphysodon_aequifasciatus.jpg",
+        "width": 2304,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium Paradise, Bangalore (2025) 36.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Paradise,_Bangalore_(2025)_36.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Aquarium_Paradise%2C_Bangalore_%282025%29_36.jpg",
+        "width": 4080,
+        "height": 2636,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gpkp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Symphysodon, Acará disco A74260220241123.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon,_Acar%C3%A1_disco_A74260220241123.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Symphysodon%2C_Acar%C3%A1_disco_A74260220241123.jpg",
+        "width": 6646,
+        "height": 3168,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rjcastillo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Symphysodon aequifasciatus - Karlsruhe Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_01.jpg",
+        "width": 5130,
+        "height": 3983,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5208133",
+      "https://www.iucnredlist.org/species/49830657/141105884",
+      "https://en.wikipedia.org/wiki/Symphysodon_aequifasciatus",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_%C4%91%C4%A9a_th%C3%B4ng_th%C6%B0%E1%BB%9Dng"
+    ]
+  },
+  {
+    "scientificName": "Symphysodon discus",
+    "commonNameVi": "Cá Đĩa Heckel",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Symphysodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá đĩa (Symphysodon)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/141105901/141105905",
+    "gbifKey": 5208131,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 28,
+      "waterTempMax": 31,
+      "phMin": 4.5,
+      "phMax": 6.2,
+      "habitatVi": "Vùng nước đen cực mềm và có tính axit mạnh (pH 4.2–5.5) giữa rừng ngập lũ Igapó"
+    },
+    "descriptionVi": "Loài cá đĩa đầu tiên được khoa học mô tả, dễ dàng nhận diện nhờ sọc đen thứ năm ở chính giữa thân đậm và to bản vượt trội hơn hẳn tám sọc còn lại.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại lưu vực sông Rio Negro ở Brazil.",
+    "pullQuoteVi": "Sọc đen trung tâm to đậm chạy dọc giữa thân được gọi là 'sọc Heckel', dấu ấn độc nhất giúp phân biệt loài này với mọi loài cá đĩa khác.",
+    "dietVi": "Ăn trùng huyết, trùn trắng, Artemia và thức ăn hạt mềm giàu đạm",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Rio Negro, sông Abacaxis và sông Trombetas tại Brazil",
+    "otherNamesVi": [
+      "Heckel Discus"
+    ],
+    "synonyms": [
+      "Symphysodon discus willischwartzi"
+    ],
+    "wikidataId": "Q920640",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Symphysodon_discus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Symphysodon_discus",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 120,
+      "weightGMax": 200,
+      "heightCmMax": null,
+      "noteVi": "Đực và cái gần như giống hệt nhau, chỉ phân biệt qua gai sinh dục vào mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "BR"
+      ],
+      "nativeRangeVi": "Lưu vực sông Rio Negro, sông Abacaxis và sông Trombetas tại Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước đen cực mềm và có tính axit mạnh (pH 4.2–5.5) giữa rừng ngập lũ Igapó",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–20 cm với hình thái đặc trưng của chi Symphysodon. Đực và cái gần như giống hệt nhau, chỉ phân biệt qua gai sinh dục vào mùa sinh sản.",
+    "behaviorVi": "Thích hợp cho người chơi có kinh nghiệm với hệ thống nước mềm RO pha lá bàng hoặc lũa nước đen.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sọc đen trung tâm to đậm chạy dọc giữa thân được gọi là 'sọc Heckel', dấu ấn độc nhất giúp phân biệt loài này với mọi loài cá đĩa khác.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (28–31°C, pH 4.5–6.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn trùng huyết, trùn trắng, Artemia và thức ăn hạt mềm giàu đạm",
+      "socialVi": "Thích hợp cho người chơi có kinh nghiệm với hệ thống nước mềm RO pha lá bàng hoặc lũa nước đen.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đĩa Heckel Rio Negro Size 10–12 cm",
+        "priceVnd": 750000,
+        "descriptionVi": "Cá Đĩa Heckel (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (28–31°C, pH 4.5–6.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Discus Fish.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Discus_Fish.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Discus_Fish.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sarbast.T.Hameed",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Symphysodon discus1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon_discus1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Symphysodon_discus1.jpg",
+        "width": 2565,
+        "height": 2664,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Symphysodon discus in Minsk Zoo 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon_discus_in_Minsk_Zoo_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Symphysodon_discus_in_Minsk_Zoo_01.JPG",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Хомелка",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Symphysodon aequifasciatus (1) 03May2010.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_(1)_03May2010.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Symphysodon_aequifasciatus_%281%29_03May2010.JPG",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ingvar-fed",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Symphysodon discus Prague 2011 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symphysodon_discus_Prague_2011_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Symphysodon_discus_Prague_2011_1.jpg",
+        "width": 3000,
+        "height": 2110,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Karelj",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5208131",
+      "https://www.iucnredlist.org/species/141105901/141105905",
+      "https://en.wikipedia.org/wiki/Symphysodon_discus",
+      "https://vi.wikipedia.org/wiki/Symphysodon_discus"
+    ]
+  },
+  {
+    "scientificName": "Mikrogeophagus ramirezi",
+    "commonNameVi": "Cá Phượng Hoàng Lam",
+    "commonNameEn": "Ram cichlid",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Mikrogeophagus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá phượng hoàng (Mikrogeophagus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176002147/176002324",
+    "gbifKey": 2373104,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 26,
+      "waterTempMax": 30,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Đầm nước ấm trong vắt, suối cát mịn có các cụm cỏ thủy sinh rải rác"
+    },
+    "descriptionVi": "Loài cá rô lùn Nam Mỹ được yêu thích nhất với sắc lam ngọc lấp lánh, trán vàng cam, mắt đỏ gạch có sọc đen chạy dọc qua.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trong tự nhiên và được nhân giống rộng rãi với các dòng Phượng Hoàng Lam Đức, Vàng và Bóng.",
+    "pullQuoteVi": "Khi bước vào mùa sinh sản, bụng của cá Phượng Hoàng cái chuyển sang màu hồng rượu vang rực rỡ để báo hiệu sẵn sàng đẻ trứng trên mặt đá phẳng.",
+    "dietVi": "Ăn tạp thiên đạm: cám hạt chìm nhỏ, trùng huyết, Artemia và bo bo",
+    "lifespanVi": "3–4 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Thảo nguyên ngập nước Llanos thuộc lưu vực sông Orinoco ở Colombia và Venezuela",
+    "otherNamesVi": [
+      "Cá Ram",
+      "Ram Cichlid",
+      "German Blue Ram"
+    ],
+    "synonyms": [
+      "Apistogramma ramirezi",
+      "Microgeophagus ramirezi",
+      "Papiliochromis ramirezi",
+      "Papilochromis ramirezi"
+    ],
+    "wikidataId": "Q260468",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_ph%C6%B0%E1%BB%A3ng_ho%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ram_cichlid",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 7,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn, tia vây lưng thứ 2–3 vươn cao hơn; con cái có vùng bụng ánh hồng tím rõ rệt và đốm đen bên sườn điểm vảy xanh."
+    },
+    "distribution": {
+      "countries": [
+        "CO",
+        "VE"
+      ],
+      "nativeRangeVi": "Thảo nguyên ngập nước Llanos thuộc lưu vực sông Orinoco ở Colombia và Venezuela",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm nước ấm trong vắt, suối cát mịn có các cụm cỏ thủy sinh rải rác",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–7 cm với hình thái đặc trưng của chi Mikrogeophagus. Con đực lớn hơn, tia vây lưng thứ 2–3 vươn cao hơn; con cái có vùng bụng ánh hồng tím rõ rệt và đốm đen bên sườn điểm vảy xanh.",
+    "behaviorVi": "Ưa nước ấm ổn định (27–29°C) và nền cát mịn; rất hiền lành khi nuôi ghép trong bể thủy sinh cộng đồng.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi bước vào mùa sinh sản, bụng của cá Phượng Hoàng cái chuyển sang màu hồng rượu vang rực rỡ để báo hiệu sẵn sàng đẻ trứng trên mặt đá phẳng.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 40 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (26–30°C, pH 5.5–7.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên đạm: cám hạt chìm nhỏ, trùng huyết, Artemia và bo bo",
+      "socialVi": "Ưa nước ấm ổn định (27–29°C) và nền cát mịn; rất hiền lành khi nuôi ghép trong bể thủy sinh cộng đồng.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Phượng Hoàng Lam Đức (German Blue Ram) Tuyển Chọn",
+        "priceVnd": 90000,
+        "descriptionVi": "Cá Phượng Hoàng Lam (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (26–30°C, pH 5.5–7.0) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Cá Phượng Hoàng Vàng Ánh Kim CB",
+        "priceVnd": 45000,
+        "descriptionVi": "Cá Phượng Hoàng Lam (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (26–30°C, pH 5.5–7.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Electric blue ram cichlids.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Electric_blue_ram_cichlids.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Electric_blue_ram_cichlids.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "BlueRam92",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Mikrogeophagus ramirezi female.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi_female.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Mikrogeophagus_ramirezi_female.jpg",
+        "width": 3456,
+        "height": 2940,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sven Kullander",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium Tropical Palais Porte Dorée - Paris XII (FR75) - 2021-06-26 - 26.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_(FR75)_-_2021-06-26_-_26.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_%28FR75%29_-_2021-06-26_-_26.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chabe01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue Ram 2 (Male).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Ram_2_(Male).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Blue_Ram_2_%28Male%29.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Aquakeeper14",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mikrogeophagus ramirezi male.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi_male.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Mikrogeophagus_ramirezi_male.jpg",
+        "width": 4528,
+        "height": 3278,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sven Kullander",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2373104",
+      "https://www.iucnredlist.org/species/176002147/176002324",
+      "https://en.wikipedia.org/wiki/Ram_cichlid",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_ph%C6%B0%E1%BB%A3ng_ho%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Apistogramma cacatuoides",
+    "commonNameVi": "Cá Rô Lùn Mào Gà",
+    "commonNameEn": "Cockatoo cichlid",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Apistogramma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá rô lùn Nam Mỹ (Apistogramma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49829909/191112142",
+    "gbifKey": 2371275,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Vùng nước nông chảy chậm dưới tán rừng mưa với đáy phủ dày lá mục"
+    },
+    "descriptionVi": "Loài cá rô lùn Apistogramma khỏe và dễ nuôi nhất, nổi bật với vây lưng dựng đứng như chiếc mào của loài vẹt mào Cockatoo và họa tiết ngọn lửa trên đuôi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và là loài nhập môn lý tưởng nhất cho dòng cá rô lùn Nam Mỹ.",
+    "pullQuoteVi": "Khi dẫn đàn cá con đi kiếm ăn, cá mẹ chuyển sang màu vàng tươi kèm dải đen đậm và dùng những cú quẫy vây làm mật hiệu điều khiển cả đàn con.",
+    "dietVi": "Ăn thức ăn sống/đông lạnh nhỏ (Artemia, trùng huyết) và cám hạt chìm giàu đạm",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Thượng nguồn sông Amazon thuộc lưu vực sông Ucayali, Rio Yavarí và Rio Solimões",
+    "otherNamesVi": [
+      "Cockatoo Dwarf Cichlid"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q265787",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Apistogramma_cacatuoides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Apistogramma_cacatuoides",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 8,
+      "weightGMin": 4,
+      "weightGMax": 9,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn tới 8 cm với các tia vây lưng đầu tiên vươn cao như mào gà trống và vây đuôi rực lửa đỏ cam; con cái chỉ dài 5 cm màu vàng chanh khi giữ con."
+    },
+    "distribution": {
+      "countries": [
+        "PE",
+        "BR",
+        "CO"
+      ],
+      "nativeRangeVi": "Thượng nguồn sông Amazon thuộc lưu vực sông Ucayali, Rio Yavarí và Rio Solimões",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước nông chảy chậm dưới tán rừng mưa với đáy phủ dày lá mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–8 cm với hình thái đặc trưng của chi Apistogramma. Con đực lớn tới 8 cm với các tia vây lưng đầu tiên vươn cao như mào gà trống và vây đuôi rực lửa đỏ cam; con cái chỉ dài 5 cm màu vàng chanh khi giữ con.",
+    "behaviorVi": "Bố trí hang gốm nhỏ hoặc gáo dừa khô trên nền cát kèm lá bàng để cá làm tổ và trú ẩn.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi dẫn đàn cá con đi kiếm ăn, cá mẹ chuyển sang màu vàng tươi kèm dải đen đậm và dùng những cú quẫy vây làm mật hiệu điều khiển cả đàn con.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 45 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn sống/đông lạnh nhỏ (Artemia, trùng huyết) và cám hạt chìm giàu đạm",
+      "socialVi": "Bố trí hang gốm nhỏ hoặc gáo dừa khô trên nền cát kèm lá bàng để cá làm tổ và trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Rô Lùn Mào Gà Triple Red (Apistogramma cacatuoides)",
+        "priceVnd": 180000,
+        "descriptionVi": "Cá Rô Lùn Mào Gà (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Apistogramma cacatuoides (11120015446).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_(11120015446).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Apistogramma_cacatuoides_%2811120015446%29.jpg",
+        "width": 4036,
+        "height": 2634,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Britzke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Apistogramma Cacatuoides Male and Female.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_Cacatuoides_Male_and_Female.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Apistogramma_Cacatuoides_Male_and_Female.jpg",
+        "width": 2145,
+        "height": 2022,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Waylah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult male Apistogramma Cacatuoides.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_male_Apistogramma_Cacatuoides.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Adult_male_Apistogramma_Cacatuoides.jpg",
+        "width": 2769,
+        "height": 1813,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Waylah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Apistogramma cacatuoides mother and fry.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_mother_and_fry.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Apistogramma_cacatuoides_mother_and_fry.jpg",
+        "width": 2724,
+        "height": 2013,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Dornenwolf ( https://www.flickr.com/photos/gartenfreuden/ )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Apistogramma cacatuoides Happy.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_Happy.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Apistogramma_cacatuoides_Happy.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Happy Birthday To You!",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2371275",
+      "https://www.iucnredlist.org/species/49829909/191112142",
+      "https://en.wikipedia.org/wiki/Apistogramma_cacatuoides",
+      "https://vi.wikipedia.org/wiki/Apistogramma_cacatuoides"
+    ]
+  },
+  {
+    "scientificName": "Apistogramma agassizii",
+    "commonNameVi": "Cá Rô Lùn Agassiz",
+    "commonNameEn": "Agassiz's Dwarf Cichlid",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Apistogramma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá rô lùn Nam Mỹ (Apistogramma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830666/191112112",
+    "gbifKey": 2371326,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Suối rừng nước đen và nước trong có đáy phủ dày lá rụng và cành cây mục"
+    },
+    "descriptionVi": "Loài cá rô lùn kinh điển mang tên nhà tự nhiên học Louis Agassiz, nổi bật với chiếc vây đuôi nhọn hình ngọn giáo (spade-tail) và ánh vảy xanh ngọc dọc thân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) nhờ phạm vi phân bố rộng lớn nhất trong toàn chi Apistogramma.",
+    "pullQuoteVi": "Hình dáng chiếc vây đuôi nhọn như đầu mũi giáo viền ba màu đã biến Apistogramma agassizii thành biểu tượng của dòng cá rô lùn vùng Amazon.",
+    "dietVi": "Ăn ấu trùng Artemia, trùng huyết, trùn chỉ sạch và thức ăn hạt chìm chuyên dụng",
+    "lifespanVi": "3–5 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Khắp lưu vực sông Amazon từ thượng nguồn Peru tới hạ lưu Brazil",
+    "otherNamesVi": [
+      "Agassiz's Dwarf Cichlid"
+    ],
+    "synonyms": [
+      "Apistogramma parva",
+      "Biotodoma agassizii",
+      "Geophagus agassizii"
+    ],
+    "wikidataId": "Q390808",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Apistogramma_agassizii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Apistogramma_agassizii",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 7.5,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con đực dài tới 7,5 cm có vây đuôi nhọn hình mũi giáo viền trắng-cam-lam rực rỡ; con cái nhỏ hơn (5 cm), đuôi tròn và có màu vàng nghệ."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "BO"
+      ],
+      "nativeRangeVi": "Khắp lưu vực sông Amazon từ thượng nguồn Peru tới hạ lưu Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối rừng nước đen và nước trong có đáy phủ dày lá rụng và cành cây mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5–7,5 cm với hình thái đặc trưng của chi Apistogramma. Con đực dài tới 7,5 cm có vây đuôi nhọn hình mũi giáo viền trắng-cam-lam rực rỡ; con cái nhỏ hơn (5 cm), đuôi tròn và có màu vàng nghệ.",
+    "behaviorVi": "Nuôi theo cặp hoặc 1 đực 2 cái trong bể nhiều lũa, lá khô và hang ẩn nấp.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Hình dáng chiếc vây đuôi nhọn như đầu mũi giáo viền ba màu đã biến Apistogramma agassizii thành biểu tượng của dòng cá rô lùn vùng Amazon.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 45 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 5.5–7.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn ấu trùng Artemia, trùng huyết, trùn chỉ sạch và thức ăn hạt chìm chuyên dụng",
+      "socialVi": "Nuôi theo cặp hoặc 1 đực 2 cái trong bể nhiều lũa, lá khô và hang ẩn nấp.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Rô Lùn Agassiz Double Red CB",
+        "priceVnd": 220000,
+        "descriptionVi": "Cá Rô Lùn Agassiz (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 5.5–7.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Agassiz's dwarf cichlid (Apistogramma agassizii) (15443591763).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agassiz%27s_dwarf_cichlid_(Apistogramma_agassizii)_(15443591763).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Agassiz%27s_dwarf_cichlid_%28Apistogramma_agassizii%29_%2815443591763%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "harum.koh from Kobe city, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Apistogramma agassizii (Wroclaw zoo)-2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_agassizii_(Wroclaw_zoo)-2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Apistogramma_agassizii_%28Wroclaw_zoo%29-2.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agassiz's dwarf cichlid (Apistogramma agassizii) (15875959140).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agassiz%27s_dwarf_cichlid_(Apistogramma_agassizii)_(15875959140).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Agassiz%27s_dwarf_cichlid_%28Apistogramma_agassizii%29_%2815875959140%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "harum.koh from Kobe city, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Apistogramma agassizii in aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_agassizii_in_aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Apistogramma_agassizii_in_aquarium.jpg",
+        "width": 3483,
+        "height": 2613,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Cisamarc",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Apistogramma agassizii (Wroclaw zoo)-1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_agassizii_(Wroclaw_zoo)-1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Apistogramma_agassizii_%28Wroclaw_zoo%29-1.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2371326",
+      "https://www.iucnredlist.org/species/49830666/191112112",
+      "https://en.wikipedia.org/wiki/Apistogramma_agassizii",
+      "https://vi.wikipedia.org/wiki/Apistogramma_agassizii"
+    ]
+  },
+  {
+    "scientificName": "Cleithracara maronii",
+    "commonNameVi": "Cá Rô Lỗ Khóa",
+    "commonNameEn": "Keyhole cichlid",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Cleithracara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá rô lỗ khóa (Cleithracara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/175979854/175979875",
+    "gbifKey": 2373115,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 6,
+      "phMax": 7.2,
+      "habitatVi": "Suối nước nâu chảy chậm giàu tannin có nhiều gỗ lũa và tảng đá phẳng"
+    },
+    "descriptionVi": "Loài cá rô phi Nam Mỹ vô cùng hiền lành và nhút nhát, mang vệt đen đặc trưng bên sườn giống hệt hình một lỗ khóa cổ điển.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại các lưu vực sông vùng Guiana.",
+    "pullQuoteVi": "Khi hoảng sợ, cá Rô Lỗ Khóa có thể đổi màu cơ thể thành những mảng nâu loang lổ để giả làm một chiếc lá mục nằm im dưới đáy suối.",
+    "dietVi": "Ăn tạp: thức ăn hạt chìm, trùng huyết, Artemia và rau củ luộc mềm",
+    "lifespanVi": "6–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Essequibo, Guyana",
+      "lat": 5.28,
+      "lng": -58.62
+    },
+    "regionVi": "Lưu vực sông Maroni và các sông ven biển vùng Guiana cùng đồng bằng Orinoco",
+    "otherNamesVi": [
+      "Keyhole Cichlid"
+    ],
+    "synonyms": [
+      "Acara maronii",
+      "Aequidens maronii"
+    ],
+    "wikidataId": "Q795072",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cleithracara_maronii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Keyhole_cichlid",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 11,
+      "weightGMin": 18,
+      "weightGMax": 35,
+      "heightCmMax": null,
+      "noteVi": "Con đực có tia vây lưng và vây hậu môn kéo dài nhọn hơn con cái khi trưởng thành."
+    },
+    "distribution": {
+      "countries": [
+        "GY",
+        "SR",
+        "GF",
+        "VE",
+        "TT"
+      ],
+      "nativeRangeVi": "Lưu vực sông Maroni và các sông ven biển vùng Guiana cùng đồng bằng Orinoco",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối nước nâu chảy chậm giàu tannin có nhiều gỗ lũa và tảng đá phẳng",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 8–11 cm với hình thái đặc trưng của chi Cleithracara. Con đực có tia vây lưng và vây hậu môn kéo dài nhọn hơn con cái khi trưởng thành.",
+    "behaviorVi": "Một trong số ít loài Cichlid cực kỳ ôn hòa, không đào bới cây thủy sinh và sống rất chung thủy theo cặp.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi hoảng sợ, cá Rô Lỗ Khóa có thể đổi màu cơ thể thành những mảng nâu loang lổ để giả làm một chiếc lá mục nằm im dưới đáy suối.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 80 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–27°C, pH 6.0–7.2).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: thức ăn hạt chìm, trùng huyết, Artemia và rau củ luộc mềm",
+      "socialVi": "Một trong số ít loài Cichlid cực kỳ ôn hòa, không đào bới cây thủy sinh và sống rất chung thủy theo cặp.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Rô Lỗ Khóa (Cleithracara maronii) Size 5–6 cm",
+        "priceVnd": 85000,
+        "descriptionVi": "Cá Rô Lỗ Khóa (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–27°C, pH 6.0–7.2) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cleithracara maronii-Seite.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cleithracara_maronii-Seite.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Cleithracara_maronii-Seite.jpg",
+        "width": 2472,
+        "height": 1434,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "User:D.W.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cleithracara maronii-Kopf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cleithracara_maronii-Kopf.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cleithracara_maronii-Kopf.jpg",
+        "width": 753,
+        "height": 1031,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "User:D.W.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cleithracara maronii-adult.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cleithracara_maronii-adult.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cleithracara_maronii-adult.jpg",
+        "width": 1875,
+        "height": 972,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "User:D.W.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cleithracara maronii mit Gelege.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cleithracara_maronii_mit_Gelege.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cleithracara_maronii_mit_Gelege.jpg",
+        "width": 1858,
+        "height": 1340,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "User:D.W. , Daniel W.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cleithracara maronii-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cleithracara_maronii-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cleithracara_maronii-1.jpg",
+        "width": 1743,
+        "height": 958,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "User:D.W.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2373115",
+      "https://www.iucnredlist.org/species/175979854/175979875",
+      "https://en.wikipedia.org/wiki/Keyhole_cichlid",
+      "https://vi.wikipedia.org/wiki/Cleithracara_maronii"
+    ]
+  },
+  {
+    "scientificName": "Astronotus ocellatus",
+    "commonNameVi": "Cá Tai Tượng Châu Phi (Oscar)",
+    "commonNameEn": "Oscar",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Astronotus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá tai tượng Nam Mỹ (Astronotus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830436/159048790",
+    "gbifKey": 2370243,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Kênh sông nước chảy chậm, hồ móng ngựa và rừng ngập nước nhiều thân cây đổ"
+    },
+    "descriptionVi": "Loài cá Cichlid cỡ lớn thông minh nổi tiếng với đốm tròn đen viền cam đỏ ở gốc đuôi giống con mắt giả và tính cách quấn chủ như thú cưng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và có nhiều dòng màu nổi tiếng như Tiger Oscar, Red Oscar, Albino Oscar.",
+    "pullQuoteVi": "Đốm tròn viền cam rực ở cuống đuôi đóng vai trò như một 'con mắt giả' đánh lừa cá Piranha không biết đâu là đầu, đâu là đuôi.",
+    "dietVi": "Ăn tạp thiên thịt: thức ăn viên nổi cỡ lớn cho Cichlid, tôm tép, cá nhỏ và côn trùng",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon, sông Orinoco và sông Paraná ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá Oscar",
+      "Cá heo lửa",
+      "Velvet Cichlid"
+    ],
+    "synonyms": [
+      "Acara compressus",
+      "Acara hyposticta",
+      "Acara ocellatus",
+      "Astronotus ocellatus ocellatus"
+    ],
+    "wikidataId": "Q3442",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astronotus_ocellatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oscar_(fish)",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 600,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Đực và cái có ngoại hình giống nhau hoàn toàn, chỉ xác định chắc chắn khi cặp đôi dọn mặt đá đẻ trứng."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "VE",
+        "GF"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon, sông Orinoco và sông Paraná ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Kênh sông nước chảy chậm, hồ móng ngựa và rừng ngập nước nhiều thân cây đổ",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 25–35 cm với hình thái đặc trưng của chi Astronotus. Đực và cái có ngoại hình giống nhau hoàn toàn, chỉ xác định chắc chắn khi cặp đôi dọn mặt đá đẻ trứng.",
+    "behaviorVi": "Cá lớn nhanh và có trí nhớ tốt, biết nhận ra người cho ăn; cần bể lớn từ 300 lít với bộ lọc khỏe.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Đốm tròn viền cam rực ở cuống đuôi đóng vai trò như một 'con mắt giả' đánh lừa cá Piranha không biết đâu là đầu, đâu là đuôi.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 300 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên thịt: thức ăn viên nổi cỡ lớn cho Cichlid, tôm tép, cá nhỏ và côn trùng",
+      "socialVi": "Cá lớn nhanh và có trí nhớ tốt, biết nhận ra người cho ăn; cần bể lớn từ 300 lít với bộ lọc khỏe.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Oscar Bông Hổ (Tiger Oscar) Size 8–10 cm",
+        "priceVnd": 75000,
+        "descriptionVi": "Cá Tai Tượng Châu Phi (Oscar) (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Cá Oscar Đỏ Bạch Tạng (Albino Red Oscar) Size 10 cm",
+        "priceVnd": 95000,
+        "descriptionVi": "Cá Tai Tượng Châu Phi (Oscar) (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astronotus Ocellatus - Apollo & Rosa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astronotus_Ocellatus_-_Apollo_%26_Rosa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Astronotus_Ocellatus_-_Apollo_%26_Rosa.jpg",
+        "width": 6347,
+        "height": 4090,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lukaso40",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Apollo & Rosa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apollo_%26_Rosa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Apollo_%26_Rosa.jpg",
+        "width": 2944,
+        "height": 3185,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lukaso40",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:52 Barcelona CosmoCaixa 02082016.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:52_Barcelona_CosmoCaixa_02082016.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/52_Barcelona_CosmoCaixa_02082016.jpg",
+        "width": 4140,
+        "height": 3116,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2013. Крым 928.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013._%D0%9A%D1%80%D1%8B%D0%BC_928.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2013._%D0%9A%D1%80%D1%8B%D0%BC_928.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium Paradise, Bangalore (2025) 31.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Paradise,_Bangalore_(2025)_31.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Aquarium_Paradise%2C_Bangalore_%282025%29_31.jpg",
+        "width": 4080,
+        "height": 2476,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gpkp",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2370243",
+      "https://www.iucnredlist.org/species/49830436/159048790",
+      "https://en.wikipedia.org/wiki/Oscar_(fish)",
+      "https://vi.wikipedia.org/wiki/Astronotus_ocellatus"
+    ]
+  },
+  {
+    "scientificName": "Heros efasciatus",
+    "commonNameVi": "Cá Hồng Két Dĩa (Severum)",
+    "commonNameEn": null,
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Heros"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá hồng két dĩa (Heros)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830013/159670768",
+    "gbifKey": 5208365,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Vùng nước tĩnh ven sông nhiều cành cây ngập và thảm thực vật ven bờ"
+    },
+    "descriptionVi": "Loài Cichlid thân tròn dẹt duyên dáng thường được ví là 'Cá Đĩa của người mới chơi' nhờ dáng bơi khoan thai và sức sống bền bỉ hơn cá đĩa rất nhiều.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) ngoài tự nhiên và rất phổ biến với các biến thể Vàng (Gold Severum) và Đỏ chấm (Red Spotted).",
+    "pullQuoteVi": "Dù có kích thước lớn và vẻ ngoài oai vệ, cá Severum lại khá điềm tĩnh và có chế độ ăn thiên về thực vật, trái cây rụng trong rừng ngập Amazon.",
+    "dietVi": "Ăn tạp thiên thực vật: cám viên tổng hợp, tảo Spirulina, đậu Hà Lan bóc vỏ và trùng huyết",
+    "lifespanVi": "10–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon và các sông vùng Guiana ở Nam Mỹ",
+    "otherNamesVi": [
+      "Cá Severum",
+      "Green/Gold Severum",
+      "Banded Cichlid"
+    ],
+    "synonyms": [
+      "Chromys appendiculata",
+      "Chromys fasciata",
+      "Cichlasoma severum perpunctatum",
+      "Heros appendiculatus"
+    ],
+    "wikidataId": "Q657599",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Heros_efasciatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Heros_efasciatus",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 22,
+      "weightGMin": 150,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành có những đường hoa văn dạng sâu bò màu đỏ cam trên má và trán rõ nét hơn hẳn con cái."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "GY",
+        "GF"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon và các sông vùng Guiana ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng nước tĩnh ven sông nhiều cành cây ngập và thảm thực vật ven bờ",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 15–22 cm với hình thái đặc trưng của chi Heros. Con đực trưởng thành có những đường hoa văn dạng sâu bò màu đỏ cam trên má và trán rõ nét hơn hẳn con cái.",
+    "behaviorVi": "Hiền hơn đa số các loài Cichlid lớn khác nhưng hay nhấm nháp lá cây thủy sinh mềm.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Dù có kích thước lớn và vẻ ngoài oai vệ, cá Severum lại khá điềm tĩnh và có chế độ ăn thiên về thực vật, trái cây rụng trong rừng ngập Amazon.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–28°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên thực vật: cám viên tổng hợp, tảo Spirulina, đậu Hà Lan bóc vỏ và trùng huyết",
+      "socialVi": "Hiền hơn đa số các loài Cichlid lớn khác nhưng hay nhấm nháp lá cây thủy sinh mềm.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Hồng Két Dĩa Vàng (Gold Severum) Size 7–9 cm",
+        "priceVnd": 80000,
+        "descriptionVi": "Cá Hồng Két Dĩa (Severum) (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–28°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rotruecken-Augenfleck-Buntbarsch Heros efasciatus Tierpark Hellabrunn-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rotruecken-Augenfleck-Buntbarsch_Heros_efasciatus_Tierpark_Hellabrunn-1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rotruecken-Augenfleck-Buntbarsch_Heros_efasciatus_Tierpark_Hellabrunn-1.jpg",
+        "width": 5275,
+        "height": 3340,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Rufus46",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Zoo Hodonín, Heros sp. rotkeil (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zoo_Hodon%C3%ADn,_Heros_sp._rotkeil_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zoo_Hodon%C3%ADn%2C_Heros_sp._rotkeil_%282%29.jpg",
+        "width": 2976,
+        "height": 3968,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Palickap",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cichlidae Heros efasciatus 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cichlidae_Heros_efasciatus_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cichlidae_Heros_efasciatus_1.jpg",
+        "width": 1620,
+        "height": 1216,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Heros efasciatus - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heros_efasciatus_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Heros_efasciatus_-_1.jpg",
+        "width": 4197,
+        "height": 2799,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Heros efasciatus at Kanpur Zoo (2015).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heros_efasciatus_at_Kanpur_Zoo_(2015).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Heros_efasciatus_at_Kanpur_Zoo_%282015%29.jpg",
+        "width": 4208,
+        "height": 2368,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Harsh Awasthi99",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5208365",
+      "https://www.iucnredlist.org/species/49830013/159670768",
+      "https://en.wikipedia.org/wiki/Heros_efasciatus",
+      "https://vi.wikipedia.org/wiki/Heros_efasciatus"
+    ]
+  },
+  {
+    "scientificName": "Andinoacara pulcher",
+    "commonNameVi": "Cá Acara Xanh",
+    "commonNameEn": "Blue Acara",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Andinoacara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá Acara (Andinoacara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/64791019/214850080",
+    "gbifKey": 7525430,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 22,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Suối nước trong và sông đục chảy chậm có đáy sỏi cát và đá cuội"
+    },
+    "descriptionVi": "Loài cá rô phi Nam Mỹ cỡ trung nổi bật với các hàng vảy ánh xanh ngọc lục bảo lấp lánh trên thân và tính cách ôn hòa dễ nuôi ghép.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) và cực kỳ được ưa chuộng trong giới cá cảnh với biến thể Electric Blue Acara xanh sáng toàn thân.",
+    "pullQuoteVi": "Khác với những họ hàng hung dữ, cá Acara Xanh chăm sóc con non rất tận tụy mà vẫn giữ thái độ ôn hòa với các loài cá tầng mặt trong bể.",
+    "dietVi": "Ăn tạp: thức ăn viên cho Cichlid, trùng huyết, tép nhỏ và thức ăn đông lạnh",
+    "lifespanVi": "8–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco, Venezuela",
+      "lat": 6.18,
+      "lng": -67.45
+    },
+    "regionVi": "Các lưu vực sông đổ ra biển Caribe ở Venezuela, Colombia và đảo Trinidad",
+    "otherNamesVi": [
+      "Blue Acara",
+      "Electric Blue Acara"
+    ],
+    "synonyms": [
+      "? pulcher",
+      "Aequidens pulcher",
+      "Aequidens pulchrus",
+      "Cychlasoma pulchrum"
+    ],
+    "wikidataId": "Q3583",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Andinoacara_pulcher",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Blue_acara",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 16,
+      "weightGMin": 50,
+      "weightGMax": 100,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn, có vây lưng và vây hậu môn kéo dài nhọn vượt quá gốc đuôi."
+    },
+    "distribution": {
+      "countries": [
+        "VE",
+        "CO",
+        "TT"
+      ],
+      "nativeRangeVi": "Các lưu vực sông đổ ra biển Caribe ở Venezuela, Colombia và đảo Trinidad",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối nước trong và sông đục chảy chậm có đáy sỏi cát và đá cuội",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 12–16 cm với hình thái đặc trưng của chi Andinoacara. Con đực lớn hơn, có vây lưng và vây hậu môn kéo dài nhọn vượt quá gốc đuôi.",
+    "behaviorVi": "Sống khỏe trong dải thông số nước rộng, thích hợp nuôi trong bể cộng đồng cá cỡ trung bình.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với những họ hàng hung dữ, cá Acara Xanh chăm sóc con non rất tận tụy mà vẫn giữ thái độ ôn hòa với các loài cá tầng mặt trong bể.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 120 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (22–28°C, pH 6.5–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: thức ăn viên cho Cichlid, trùng huyết, tép nhỏ và thức ăn đông lạnh",
+      "socialVi": "Sống khỏe trong dải thông số nước rộng, thích hợp nuôi trong bể cộng đồng cá cỡ trung bình.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Acara Xanh Điện Quang (Electric Blue Acara) Size 5–6 cm",
+        "priceVnd": 65000,
+        "descriptionVi": "Cá Acara Xanh (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (22–28°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Andinoacara pulcher spec. neonblue.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Andinoacara_pulcher_spec._neonblue.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Andinoacara_pulcher_spec._neonblue.jpg",
+        "width": 4876,
+        "height": 2580,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:The Electric Blue Acara (Andinoacara pulcher, electric blue morph).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Electric_Blue_Acara_(Andinoacara_pulcher,_electric_blue_morph).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Electric_Blue_Acara_%28Andinoacara_pulcher%2C_electric_blue_morph%29.jpg",
+        "width": 1740,
+        "height": 1725,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Shamekh.yasser",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cichlide species 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cichlide_species_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cichlide_species_1.jpg",
+        "width": 4321,
+        "height": 2881,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fishes at Shri Bande Mahakali Temple (2024) 21.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fishes_at_Shri_Bande_Mahakali_Temple_(2024)_21.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fishes_at_Shri_Bande_Mahakali_Temple_%282024%29_21.jpg",
+        "width": 4080,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gpkp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blaupunktbuntbarsch (Aequidens pulcher) Männchen zur Paarungszeit.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blaupunktbuntbarsch_(Aequidens_pulcher)_M%C3%A4nnchen_zur_Paarungszeit.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Blaupunktbuntbarsch_%28Aequidens_pulcher%29_M%C3%A4nnchen_zur_Paarungszeit.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Eckol",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7525430",
+      "https://www.iucnredlist.org/species/64791019/214850080",
+      "https://en.wikipedia.org/wiki/Blue_acara",
+      "https://vi.wikipedia.org/wiki/Andinoacara_pulcher"
+    ]
+  },
+  {
+    "scientificName": "Rocio octofasciata",
+    "commonNameVi": "Cá Rô Mỹ Jack Dempsey",
+    "commonNameEn": "Jack Dempsey",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Rocio"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá rô Mỹ (Rocio)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/192905/2179785",
+    "gbifKey": 2369703,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 28,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Đầm lầy, kênh rạch nước ấm chảy chậm có đáy bùn cát và nhiều gốc cây"
+    },
+    "descriptionVi": "Loài Cichlid Trung Mỹ mạnh mẽ được đặt theo tên nhà vô địch quyền Anh hạng nặng thế giới năm 1920 nhờ tính cách gan dạ và bộ vảy đốm ngọc lam lấp lánh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) với quần thể tự nhiên dồi dào khắp bán đảo Yucatán và Trung Mỹ.",
+    "pullQuoteVi": "Màu sắc của cá Jack Dempsey thay đổi rõ rệt theo tâm trạng và thứ bậc lãnh thổ, chuyển từ xám nhạt sang tím than điểm ngọc lục bảo rực sáng khi trưởng thành.",
+    "dietVi": "Ăn tạp thiên đạm: viên Cichlid giàu đạm, trùn đất, tép, côn trùng và thức ăn đông lạnh",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Sườn Đại Tây Dương của Trung Mỹ từ nam Mexico đến Honduras",
+    "otherNamesVi": [
+      "Jack Dempsey Cichlid"
+    ],
+    "synonyms": [
+      "Archocentrus octofasciatus",
+      "Cichlasoma biocellatum",
+      "Cichlasoma hedricki",
+      "Cichlasoma octofasciatus"
+    ],
+    "wikidataId": "Q3737",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rocio_octofasciata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Jack_Dempsey_(fish)",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 150,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn, vây lưng và vây hậu môn nhọn dài; con cái có nhiều đốm xanh ngọc lớn ở phần dưới nắp mang hơn."
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "BZ",
+        "GT",
+        "HN"
+      ],
+      "nativeRangeVi": "Sườn Đại Tây Dương của Trung Mỹ từ nam Mexico đến Honduras",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy, kênh rạch nước ấm chảy chậm có đáy bùn cát và nhiều gốc cây",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 18–25 cm với hình thái đặc trưng của chi Rocio. Con đực lớn hơn, vây lưng và vây hậu môn nhọn dài; con cái có nhiều đốm xanh ngọc lớn ở phần dưới nắp mang hơn.",
+    "behaviorVi": "Có tính lãnh thổ rõ rệt, cần bể rộng nhiều hang đá và chỉ nuôi chung với các loài cá khỏe mạnh tương đương.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Màu sắc của cá Jack Dempsey thay đổi rõ rệt theo tâm trạng và thứ bậc lãnh thổ, chuyển từ xám nhạt sang tím than điểm ngọc lục bảo rực sáng khi trưởng thành.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 200 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (23–28°C, pH 6.5–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp thiên đạm: viên Cichlid giàu đạm, trùn đất, tép, côn trùng và thức ăn đông lạnh",
+      "socialVi": "Có tính lãnh thổ rõ rệt, cần bể rộng nhiều hang đá và chỉ nuôi chung với các loài cá khỏe mạnh tương đương.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Jack Dempsey Xanh Ngọc Size 6–8 cm",
+        "priceVnd": 60000,
+        "descriptionVi": "Cá Rô Mỹ Jack Dempsey (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (23–28°C, pH 6.5–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aquarium de la Porte Dorée - Poisson 70.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_70.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_70.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rocio octofasciata 245838487.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rocio_octofasciata_245838487.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rocio_octofasciata_245838487.jpg",
+        "width": 1887,
+        "height": 1887,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Yucatan Dive Center",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2019-07-16. Океанариум в Ейске 031.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2019-07-16._%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_031.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/2019-07-16._%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_031.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aquarium Tropical Palais Porte Dorée - Paris XII (FR75) - 2021-06-26 - 119.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_(FR75)_-_2021-06-26_-_119.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Aquarium_Tropical_Palais_Porte_Dor%C3%A9e_-_Paris_XII_%28FR75%29_-_2021-06-26_-_119.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chabe01",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Zoologico de Cali (14985484739).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zoologico_de_Cali_(14985484739).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Zoologico_de_Cali_%2814985484739%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Martha Rivero",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2369703",
+      "https://www.iucnredlist.org/species/192905/2179785",
+      "https://en.wikipedia.org/wiki/Jack_Dempsey_(fish)",
+      "https://vi.wikipedia.org/wiki/Rocio_octofasciata"
+    ]
+  },
+  {
+    "scientificName": "Pelvicachromis pulcher",
+    "commonNameVi": "Cá Rô Lùn Bụng Đỏ Kribensis",
+    "commonNameEn": "Bone Back",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Pelvicachromis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá rô lùn Tây Phi (Pelvicachromis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/182905/58332967",
+    "gbifKey": 2372929,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 6,
+      "phMax": 7.5,
+      "habitatVi": "Suối rừng chảy chậm có nhiều hang hốc dưới rễ cây và lá mục"
+    },
+    "descriptionVi": "Đại diện nổi tiếng nhất của nhóm cá rô lùn Tây Phi với chiếc bụng màu tím hồng mận chín tuyệt đẹp và tập tính làm tổ trong hang.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại vùng hạ lưu sông Niger.",
+    "pullQuoteVi": "Vào mùa sinh sản, cá Kribensis cái là bên chủ động uốn cong thân mình khoe chiếc bụng tím hồng rực sáng để tán tỉnh con đực vào hang.",
+    "dietVi": "Ăn tạp: cám hạt chìm, trùng huyết, Artemia và tảo mảnh",
+    "lifespanVi": "5–7 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Châu thổ sông Niger, Nigeria",
+      "lat": 5.52,
+      "lng": 5.75
+    },
+    "regionVi": "Châu thổ sông Niger ở miền nam Nigeria và vùng ven biển Cameroon",
+    "otherNamesVi": [
+      "Cá Kribensis",
+      "Rainbow Krib"
+    ],
+    "synonyms": [
+      "Pelmatochromis aureocephalus",
+      "Pelmatochromis aurocephalus",
+      "Pelmatochromis camerunensis",
+      "Pelmatochromis pulcher"
+    ],
+    "wikidataId": "Q839683",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pelvicachromis_pulcher",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pelvicachromis_pulcher",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 10,
+      "weightGMin": 8,
+      "weightGMax": 15,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn (9–10 cm) với vây đuôi nhọn hình ngọn giáo có chấm mắt đen viền vàng; con cái nhỏ hơn (7 cm), bụng tròn căng màu hồng tím rực rỡ."
+    },
+    "distribution": {
+      "countries": [
+        "NG",
+        "CM"
+      ],
+      "nativeRangeVi": "Châu thổ sông Niger ở miền nam Nigeria và vùng ven biển Cameroon",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối rừng chảy chậm có nhiều hang hốc dưới rễ cây và lá mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 7–10 cm với hình thái đặc trưng của chi Pelvicachromis. Con đực lớn hơn (9–10 cm) với vây đuôi nhọn hình ngọn giáo có chấm mắt đen viền vàng; con cái nhỏ hơn (7 cm), bụng tròn căng màu hồng tím rực rỡ.",
+    "behaviorVi": "Rất dễ nuôi và dễ sinh sản trong bể thủy sinh có bố trí hang gốm hoặc gáo dừa.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vào mùa sinh sản, cá Kribensis cái là bên chủ động uốn cong thân mình khoe chiếc bụng tím hồng rực sáng để tán tỉnh con đực vào hang.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 60 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–27°C, pH 6.0–7.5).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn tạp: cám hạt chìm, trùng huyết, Artemia và tảo mảnh",
+      "socialVi": "Rất dễ nuôi và dễ sinh sản trong bể thủy sinh có bố trí hang gốm hoặc gáo dừa.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cặp Cá Rô Lùn Bụng Đỏ Kribensis (Pelvicachromis pulcher) CB",
+        "priceVnd": 80000,
+        "descriptionVi": "Cá Rô Lùn Bụng Đỏ Kribensis (Trưởng thành, Cặp Đực - Cái) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–27°C, pH 6.0–7.5) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Цихлида попугай в боевой раскраске.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B8%D1%85%D0%BB%D0%B8%D0%B4%D0%B0_%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9_%D0%B2_%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/%D0%A6%D0%B8%D1%85%D0%BB%D0%B8%D0%B4%D0%B0_%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9_%D0%B2_%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B5.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "MarDe",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:P pulcher male female.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P_pulcher_male_female.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/P_pulcher_male_female.jpg",
+        "width": 800,
+        "height": 1064,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "The original uploader was MidgleyDJ at English Wikipedia .",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Barwniak i narybek.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barwniak_i_narybek.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Barwniak_i_narybek.JPG",
+        "width": 3648,
+        "height": 2056,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Soldering",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hallo to ja.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hallo_to_ja.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hallo_to_ja.JPG",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Soldering",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pelvicachromis pulcher (aka).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pelvicachromis_pulcher_(aka).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pelvicachromis_pulcher_%28aka%29.jpg",
+        "width": 3044,
+        "height": 1548,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "André Karwath aka Aka",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2372929",
+      "https://www.iucnredlist.org/species/182905/58332967",
+      "https://en.wikipedia.org/wiki/Pelvicachromis_pulcher",
+      "https://vi.wikipedia.org/wiki/Pelvicachromis_pulcher"
+    ]
+  },
+  {
+    "scientificName": "Cyphotilapia frontosa",
+    "commonNameVi": "Cá Đầu Bò Frontosa",
+    "commonNameEn": "Humphead Cichlid",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Cyphotilapia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá đầu bò (Cyphotilapia)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/60486/47192744",
+    "gbifKey": 2373233,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 7.8,
+      "phMax": 9,
+      "habitatVi": "Vùng vách đá ngầm sâu từ 20 đến 50 mét dưới lòng hồ Tanganyika"
+    },
+    "descriptionVi": "Biểu tượng quyền lực của hồ Tanganyika với chiếc bướu trán cao uy nghi, các vây bụng kéo dài thướt tha ánh xanh lam và 6–7 sọc đen đậm trên nền trắng bạc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại hồ Tanganyika nhưng sinh trưởng chậm và mỗi lứa chỉ ấp miệng một số lượng trứng ít ỏi.",
+    "pullQuoteVi": "Sống ở độ sâu 30–50 mét dưới hồ Tanganyika, cá Đầu Bò săn mồi lúc rạng đông khi đàn cá nhỏ còn đang ngơ ngác ngủ trên vách đá.",
+    "dietVi": "Ăn thức ăn giàu đạm chìm: viên Cichlid chuyên dụng, tép Mysis, thịt nghêu và cá nhỏ sạch",
+    "lifespanVi": "15–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hồ Tanganyika, Tanzania",
+      "lat": -6.25,
+      "lng": 29.75
+    },
+    "regionVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+    "otherNamesVi": [
+      "Cá Hoàng Đế Đầu Bò",
+      "Frontosa Cichlid",
+      "Humphead Cichlid"
+    ],
+    "synonyms": [
+      "Paratilapia frontosa",
+      "Pelmatochromis frontosus"
+    ],
+    "wikidataId": "Q285838",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cyphotilapia_frontosa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cyphotilapia_frontosa",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 33,
+      "weightGMin": 400,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành lớn hơn hẳn và phát triển khối bướu trán (nuchal hump) nhô cao đồ sộ hơn con cái."
+    },
+    "distribution": {
+      "countries": [
+        "TZ",
+        "BI",
+        "CD",
+        "ZM"
+      ],
+      "nativeRangeVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Vùng vách đá ngầm sâu từ 20 đến 50 mét dưới lòng hồ Tanganyika",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 25–33 cm với hình thái đặc trưng của chi Cyphotilapia. Con đực trưởng thành lớn hơn hẳn và phát triển khối bướu trán (nuchal hump) nhô cao đồ sộ hơn con cái.",
+    "behaviorVi": "Nuôi theo đàn hậu cung (1 đực kèm 3–5 cái) trong bể đá lớn có nước cứng và độ pH kiềm cao ổn định.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sống ở độ sâu 30–50 mét dưới hồ Tanganyika, cá Đầu Bò săn mồi lúc rạng đông khi đàn cá nhỏ còn đang ngơ ngác ngủ trên vách đá.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 400 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–27°C, pH 7.8–9.0).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn giàu đạm chìm: viên Cichlid chuyên dụng, tép Mysis, thịt nghêu và cá nhỏ sạch",
+      "socialVi": "Nuôi theo đàn hậu cung (1 đực kèm 3–5 cái) trong bể đá lớn có nước cứng và độ pH kiềm cao ổn định.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Đầu Bò Frontosa Burundi 6 Sọc Size 6–8 cm",
+        "priceVnd": 180000,
+        "descriptionVi": "Cá Đầu Bò Frontosa (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–27°C, pH 7.8–9.0) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cyphotilapia frontosa - Karlsruhe Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+        "width": 5150,
+        "height": 3028,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cyphotilapia frontosa - Tanganjika-Beulenkopf frontal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Tanganjika-Beulenkopf_frontal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cyphotilapia_frontosa_-_Tanganjika-Beulenkopf_frontal.jpg",
+        "width": 2376,
+        "height": 2952,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cyphotilapia frontosa Zoo Cologne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_Zoo_Cologne.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cyphotilapia_frontosa_Zoo_Cologne.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Patrick Ch. Apfeld",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Frontosa Cichlid.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Frontosa_Cichlid.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Frontosa_Cichlid.JPG",
+        "width": 4390,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Maha Dinesh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Обитатели петербургского Океанариума 09.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_09.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_09.jpg",
+        "width": 4096,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anastasiya Lvova",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2373233",
+      "https://www.iucnredlist.org/species/60486/47192744",
+      "https://en.wikipedia.org/wiki/Cyphotilapia_frontosa",
+      "https://vi.wikipedia.org/wiki/Cyphotilapia_frontosa"
+    ]
+  },
+  {
+    "scientificName": "Julidochromis marlieri",
+    "commonNameVi": "Cá Hoàng Đế Kẻ Ô Marlier",
+    "commonNameEn": "Chequered Julie",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Julidochromis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá rô phi (Cichlidae)",
+      "genus": "Chi Cá hoàng đế kẻ ô (Julidochromis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/60546/47197531",
+    "gbifKey": 2372484,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": 7.8,
+      "phMax": 8.8,
+      "habitatVi": "Các khe đá ngầm và bãi đá cuội ven bờ hồ Tanganyika ở độ sâu 2–15 mét"
+    },
+    "descriptionVi": "Loài cá Cichlid thân thuôn dài của hồ Tanganyika với họa tiết kẻ ô bàn cờ đen-vàng kem chạy dọc thân và đường viền xanh lam điện quang nơi rìa vây.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) tại hồ Tanganyika và rất phổ biến trong các bể đá Đông Phi.",
+    "pullQuoteVi": "Nhờ cơ thể thon như ngư lôi, chúng luôn bơi áp sát mặt đá — kể cả bơi lộn ngược dưới trần hang đá — theo đúng độ cong của vách đá.",
+    "dietVi": "Ăn động vật giáp xác nhỏ: Artemia, Cyclops, Mysis và cám hạt chìm cho Cichlid Tanganyika",
+    "lifespanVi": "6–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc hồ Tanganyika, Burundi",
+      "lat": -3.38,
+      "lng": 29.36
+    },
+    "regionVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+    "otherNamesVi": [
+      "Marlier's Julie",
+      "Checkerboard Julie"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q1515543",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Julidochromis_marlieri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Julidochromis_marlieri",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 10,
+      "lengthCmMax": 13,
+      "weightGMin": 18,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Ngược với đa số các loài cá khác, con cái trưởng thành của loài này thường có kích thước lớn hơn và giữ vai trò thống lĩnh lãnh thổ so với con đực."
+    },
+    "distribution": {
+      "countries": [
+        "BI",
+        "CD",
+        "TZ",
+        "ZM"
+      ],
+      "nativeRangeVi": "Đặc hữu hồ Tanganyika ở Đông Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các khe đá ngầm và bãi đá cuội ven bờ hồ Tanganyika ở độ sâu 2–15 mét",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 10–13 cm với hình thái đặc trưng của chi Julidochromis. Ngược với đa số các loài cá khác, con cái trưởng thành của loài này thường có kích thước lớn hơn và giữ vai trò thống lĩnh lãnh thổ so với con đực.",
+    "behaviorVi": "Bể cần xếp nhiều hang đá nhiều tầng và duy trì độ cứng kH/gH cùng pH kiềm (8.0–8.5).",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Nhờ cơ thể thon như ngư lôi, chúng luôn bơi áp sát mặt đá — kể cả bơi lộn ngược dưới trần hang đá — theo đúng độ cong của vách đá.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá rô phi (Cichlidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể kính tối thiểu 100 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (24–27°C, pH 7.8–8.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn động vật giáp xác nhỏ: Artemia, Cyclops, Mysis và cám hạt chìm cho Cichlid Tanganyika",
+      "socialVi": "Bể cần xếp nhiều hang đá nhiều tầng và duy trì độ cứng kH/gH cùng pH kiềm (8.0–8.5).",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Hoàng Đế Kẻ Ô (Julidochromis marlieri) Size 4–5 cm",
+        "priceVnd": 90000,
+        "descriptionVi": "Cá Hoàng Đế Kẻ Ô Marlier (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (24–27°C, pH 7.8–8.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oniria - Poisson 36.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oniria_-_Poisson_36.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Oniria_-_Poisson_36.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Jmarlieri eggs.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jmarlieri_eggs.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Jmarlieri_eggs.JPG",
+        "width": 1103,
+        "height": 1115,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Klsywd",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Julidochromis marlieri - Aqua porte dorée 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Julidochromis_marlieri_-_Aqua_porte_dor%C3%A9e_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Julidochromis_marlieri_-_Aqua_porte_dor%C3%A9e_01.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy- Loury Cédric",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Schachbrett-Schlankcichlide.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schachbrett-Schlankcichlide.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Schachbrett-Schlankcichlide.jpg",
+        "width": 3000,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dan Kollmann",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Julidochromis marlieri (Worclaw zoo).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Julidochromis_marlieri_(Worclaw_zoo).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Julidochromis_marlieri_%28Worclaw_zoo%29.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2372484",
+      "https://www.iucnredlist.org/species/60546/47197531",
+      "https://en.wikipedia.org/wiki/Julidochromis_marlieri",
+      "https://vi.wikipedia.org/wiki/Julidochromis_marlieri"
+    ]
+  },
+  {
+    "scientificName": "Corydoras panda",
+    "commonNameVi": "Cá Chuột Panda",
+    "commonNameEn": "panda",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Callichthyidae",
+      "genus": "Corydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá chuột (Callichthyidae)",
+      "genus": "Chi Cá chuột (Corydoras)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/49830400/53818288",
+    "gbifKey": 2342738,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 20,
+      "waterTempMax": 25,
+      "phMin": 6,
+      "phMax": 7.4,
+      "habitatVi": "Các con suối cát trong mát chảy từ sườn Đông dãy Andes giàu oxy hòa tan"
+    },
+    "descriptionVi": "Loài cá chuột tầng đáy đáng yêu bậc nhất với màu thân trắng hồng kem điểm vệt đen quanh mắt, vây lưng đen và đốm đen gốc đuôi giống hệt gấu trúc Panda.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) nhưng ưa nước mát và giàu oxy hơn các loài cá chuột vùng đồng bằng.",
+    "pullQuoteVi": "Bộ họa tiết vệt đen che mắt và vây lưng đen trên nền thân trắng hồng khiến nhà ngư류 học Nijssen lập tức đặt tên loài theo loài Gấu trúc lớn.",
+    "dietVi": "Ăn thức ăn viên chìm tầng đáy, trùng huyết, trùn chỉ sạch và ấu trùng Artemia",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Thượng nguồn lưu vực sông Ucayali và sông Pachitea ở miền trung Peru",
+    "otherNamesVi": [
+      "Panda Cory",
+      "Panda Catfish"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q387817",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corydoras_panda",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hoplisoma_panda",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 4,
+      "lengthCmMax": 5,
+      "weightGMin": 2,
+      "weightGMax": 4,
+      "heightCmMax": null,
+      "noteVi": "Con cái trưởng thành có thân hình tròn trịa và bản bụng rộng hơn con đực khi nhìn từ trên xuống."
+    },
+    "distribution": {
+      "countries": [
+        "PE"
+      ],
+      "nativeRangeVi": "Thượng nguồn lưu vực sông Ucayali và sông Pachitea ở miền trung Peru",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Các con suối cát trong mát chảy từ sườn Đông dãy Andes giàu oxy hòa tan",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 4–5 cm với hình thái đặc trưng của chi Corydoras. Con cái trưởng thành có thân hình tròn trịa và bản bụng rộng hơn con đực khi nhìn từ trên xuống.",
+    "behaviorVi": "Nuôi theo đàn từ 6 con trở lên trên nền cát mịn để tránh làm trầy xước đôi râu tìm mồi nhạy cảm.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Bộ họa tiết vệt đen che mắt và vây lưng đen trên nền thân trắng hồng khiến nhà ngư류 học Nijssen lập tức đặt tên loài theo loài Gấu trúc lớn.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá chuột (Callichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 50 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (20–25°C, pH 6.0–7.4).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn thức ăn viên chìm tầng đáy, trùng huyết, trùn chỉ sạch và ấu trùng Artemia",
+      "socialVi": "Nuôi theo đàn từ 6 con trở lên trên nền cát mịn để tránh làm trầy xước đôi râu tìm mồi nhạy cảm.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Cá Chuột Panda (Corydoras panda) CB",
+        "priceVnd": 100000,
+        "descriptionVi": "Cá Chuột Panda (Thiếu niên, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (20–25°C, pH 6.0–7.4) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corydoras panda paar.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_panda_paar.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Corydoras_panda_paar.JPG",
+        "width": 3616,
+        "height": 2712,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "author": "MGorges at German Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Обитатели петербургского Океанариума 11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_11.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anastasiya Lvova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras panda Dornenwolf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_panda_Dornenwolf.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Corydoras_panda_Dornenwolf.jpg",
+        "width": 3561,
+        "height": 2256,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "PRODornenwolf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Panda Corydoras.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panda_Corydoras.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Panda_Corydoras.jpg",
+        "width": 3213,
+        "height": 2142,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chronotopian",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corydoras panda.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_panda.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Corydoras_panda.JPG",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Giniro",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2342738",
+      "https://www.iucnredlist.org/species/49830400/53818288",
+      "https://en.wikipedia.org/wiki/Hoplisoma_panda",
+      "https://vi.wikipedia.org/wiki/Corydoras_panda"
+    ]
+  },
+  {
+    "scientificName": "Corydoras aeneus",
+    "commonNameVi": "Cá Chuột Đồng",
+    "commonNameEn": "Bronze corydoras",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Callichthyidae",
+      "genus": "Corydoras"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá da trơn (Siluriformes)",
+      "family": "Họ Cá chuột (Callichthyidae)",
+      "genus": "Chi Cá chuột (Corydoras)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/186449/1813227",
+    "gbifKey": 2342606,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 21,
+      "waterTempMax": 27,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Suối cạn đáy cát bùn chảy chậm, vùng ngập lũ có nhiều lá mục"
+    },
+    "descriptionVi": "Loài cá dọn đáy hiền lành và phổ biến nhất thế giới với lớp tấm xương giáp hai bên sườn ánh màu đồng cổ và ánh xanh lục kim loại.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) với vùng phân bố rộng nhất họ Callichthyidae khắp lục địa Nam Mỹ.",
+    "pullQuoteVi": "Cá chuột có khả năng lao vút lên mặt nước đớp một bóng khí rồi hấp thụ oxy trực tiếp qua thành ruột sau được biến đổi giàu mạch máu.",
+    "dietVi": "Ăn viên chìm cho cá tầng đáy, trùng huyết, cám hạt chìm và mảnh vụn hữu cơ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Phân bố rộng khắp Nam Mỹ từ Trinidad và lưu vực Orinoco kéo dài tới lưu vực La Plata",
+    "otherNamesVi": [
+      "Cá chuột cà phê",
+      "Cá chuột bạch tạng",
+      "Bronze Corydoras"
+    ],
+    "synonyms": [
+      "Callichthys aeneus",
+      "Corydoras aeheus",
+      "Corydoras aenaeus",
+      "Corydoras macrosteus"
+    ],
+    "wikidataId": "Q741269",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corydoras_aeneus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Bronze_corydoras",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 5.5,
+      "lengthCmMax": 7,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con cái dài và mập hơn rõ rệt so với con đực mảnh mai khi nhìn từ mặt lưng."
+    },
+    "distribution": {
+      "countries": [
+        "CO",
+        "VE",
+        "BR",
+        "PE",
+        "BO",
+        "AR",
+        "TT"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp Nam Mỹ từ Trinidad và lưu vực Orinoco kéo dài tới lưu vực La Plata",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Suối cạn đáy cát bùn chảy chậm, vùng ngập lũ có nhiều lá mục",
+      "Thủy vực nước ngọt giàu oxy và thực vật thủy sinh"
+    ],
+    "identificationVi": "Kích thước trưởng thành đạt 5,5–7 cm với hình thái đặc trưng của chi Corydoras. Con cái dài và mập hơn rõ rệt so với con đực mảnh mai khi nhìn từ mặt lưng.",
+    "behaviorVi": "Hoạt động theo bầy rất vui mắt ở tầng đáy, hoàn toàn vô hại với mọi loài cá và cây thủy sinh.",
+    "reproductionVi": "Đẻ trứng trong bể có thực vật thủy sinh hoặc giá thể phù hợp theo tập tính của họ.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt và biến đổi sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cá chuột có khả năng lao vút lên mặt nước đớp một bóng khí rồi hấp thụ oxy trực tiếp qua thành ruột sau được biến đổi giàu mạch máu.",
+      "Là một trong những đại diện tiêu biểu của Họ Cá chuột (Callichthyidae) được nghiên cứu và nuôi dưỡng rộng rãi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể kính tối thiểu 50 lít có hệ thống lọc vi sinh ổn định, nền cát/sỏi mịn, lũa và cây thủy sinh (21–27°C, pH 6.0–7.8).",
+      "lightingVi": "Đèn LED bể cá/thủy sinh chiếu sáng dịu 8–10 giờ/ngày",
+      "feedingVi": "Ăn viên chìm cho cá tầng đáy, trùng huyết, cám hạt chìm và mảnh vụn hữu cơ",
+      "socialVi": "Hoạt động theo bầy rất vui mắt ở tầng đáy, hoàn toàn vô hại với mọi loài cá và cây thủy sinh.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng (Ich) khi nhiệt độ nước thay đổi đột ngột",
+        "Nấm vây hoặc sốc pH nếu không thay nước định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cá cảnh nước ngọt sinh sản từ nguồn trại nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Combo 5 Cá Chuột Cà Phê / Chuột Đồng (Corydoras aeneus)",
+        "priceVnd": 45000,
+        "descriptionVi": "Cá Chuột Đồng (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (21–27°C, pH 6.0–7.8) và ăn tốt thức ăn công nghiệp."
+      },
+      {
+        "nameVi": "Combo 5 Cá Chuột Bạch Tạng (Albino Corydoras) CB",
+        "priceVnd": 45000,
+        "descriptionVi": "Cá Chuột Đồng (Trưởng thành, Chưa phân biệt) khỏe mạnh, bơi lội linh hoạt, đã thuần nước (21–27°C, pH 6.0–7.8) và ăn tốt thức ăn công nghiệp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corydoras aeneus 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corydoras_aeneus_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Corydoras_aeneus_03.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gabriel Resende Veiga",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Kirysek spiżowy (Corydoras aeneus) ryba akwariowa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kirysek_spi%C5%BCowy_(Corydoras_aeneus)_ryba_akwariowa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kirysek_spi%C5%BCowy_%28Corydoras_aeneus%29_ryba_akwariowa.jpg",
+        "width": 5566,
+        "height": 3715,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Henryk Niestrój",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kirysek spiżowy.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kirysek_spi%C5%BCowy.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Kirysek_spi%C5%BCowy.jpg",
+        "width": 5731,
+        "height": 3825,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Henryk Niestrój",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2342606",
+      "https://www.iucnredlist.org/species/186449/1813227",
+      "https://en.wikipedia.org/wiki/Bronze_corydoras",
+      "https://vi.wikipedia.org/wiki/Corydoras_aeneus"
+    ]
+  }
+]

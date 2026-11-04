@@ -11,13 +11,8 @@ vi.mock('@/api/queries/useSpeciesQueries', () => ({
   useSpeciesList: () => ({ data: SEED_SPECIES.map((s) => toSpeciesView(s)) }),
 }));
 vi.mock('@/api/queries/useProductQueries', () => ({
-  useProducts: () => ({
-    data: {
-      items: SEED_PRODUCTS.filter((p) => p.status === 'APPROVED').map((p) => toProductView(p)),
-      page: 1,
-      size: 48,
-      total: 7,
-    },
+  useAllApprovedProducts: () => ({
+    data: SEED_PRODUCTS.filter((p) => p.status === 'APPROVED').map((p) => toProductView(p)),
   }),
 }));
 

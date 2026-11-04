@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { toast } from 'sonner';
 import { ExternalLink, Plus } from 'lucide-react';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
-import { useProducts } from '@/api/queries/useProductQueries';
+import { useAllApprovedProducts } from '@/api/queries/useProductQueries';
 import { useGenusOptions } from '@/api/queries/useAdminQueries';
 import { useCreateSpecies } from '@/api/mutations/useAdminMutations';
 import { Eyebrow, PageContainer, PageHeader, Panel } from '@/components/layout/Page';
@@ -24,15 +24,24 @@ import { SPECIES_EXTRAS } from '@/content/species-extras';
 import { PHOTOS } from '@/content/photos';
 import { QueueSearch, RangeLine, fieldClass } from './components/AdminKit';
 import type { ConservationStatus, CreateSpeciesRequest } from '@/types/api';
+import type { SpeciesGroup } from '@/api/adapters';
 
-type GroupFilter = 'ALL' | 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt';
+type GroupFilter = 'ALL' | Exclude<SpeciesGroup, 'Khác'>;
 
 const GROUP_OPTIONS: { value: GroupFilter; label: string }[] = [
   { value: 'ALL', label: 'Tất cả' },
   { value: 'Bò sát', label: 'Bò sát' },
   { value: 'Lưỡng cư', label: 'Lưỡng cư' },
+  { value: 'Cá cảnh', label: 'Cá cảnh' },
+  { value: 'Động vật không xương sống', label: 'Không xương sống' },
+  { value: 'Chim', label: 'Chim' },
+  { value: 'Thú', label: 'Thú' },
   { value: 'Cây ăn thịt', label: 'Cây ăn thịt' },
+  { value: 'Cây cảnh', label: 'Cây cảnh' },
 ];
+
+// Hơn 600 loài: bảng hiện từng đợt để không dựng cả nghìn dòng một lúc
+const ROWS_STEP = 50;
 
 const IUCN_OPTIONS: { status: ConservationStatus; label: string }[] = [
   { status: 'LC', label: 'LC — Ít quan tâm' },
@@ -44,8 +53,6 @@ const IUCN_OPTIONS: { status: ConservationStatus; label: string }[] = [
   { status: 'EX', label: 'EX — Tuyệt chủng' },
 ];
 
-// Kích thước trang lớn nhất hợp đồng cho phép: đủ để đếm sản phẩm đang bán theo loài
-const PRODUCT_COUNT_PAGE_SIZE = 48;
 
 interface SpeciesFormState {
   nodeId: string;
@@ -143,7 +150,7 @@ function buildEnvironmentSpecs(form: SpeciesFormState): string {
 export default function AdminSpeciesPage(): React.JSX.Element {
   const { data: speciesData, isLoading, isError, refetch } = useSpeciesList();
   // Đếm từ API công khai (chỉ sản phẩm APPROVED): BIOLOGIST không được gọi hàng đợi kiểm duyệt
-  const { data: productPage } = useProducts({ size: PRODUCT_COUNT_PAGE_SIZE });
+  const { data: approvedProducts } = useAllApprovedProducts();
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const genusQuery = useGenusOptions();
   const createSpeciesMutation = useCreateSpecies();
@@ -160,7 +167,7 @@ export default function AdminSpeciesPage(): React.JSX.Element {
   const filteredSpecies = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     return speciesList.filter((species) => {
-      if (selectedGroup !== 'ALL' && SPECIES_EXTRAS[species.scientificName]?.group !== selectedGroup) return false;
+      if (selectedGroup !== 'ALL' && species.group !== selectedGroup) return false;
       if (!q) return true;
       return species.scientificName.toLowerCase().includes(q) || species.commonName.toLowerCase().includes(q);
     });
@@ -168,9 +175,15 @@ export default function AdminSpeciesPage(): React.JSX.Element {
 
   const productCountBySpecies = useMemo(() => {
     const map = new Map<number, number>();
-    (productPage?.items ?? []).forEach((p) => map.set(p.speciesId, (map.get(p.speciesId) ?? 0) + 1));
+    (approvedProducts ?? []).forEach((p) => map.set(p.speciesId, (map.get(p.speciesId) ?? 0) + 1));
     return map;
-  }, [productPage]);
+  }, [approvedProducts]);
+
+  // Đổi bộ lọc thì quay về đợt đầu
+  const filterKey = `${selectedGroup}|${searchQuery}`;
+  const [paging, setPaging] = useState({ key: filterKey, count: ROWS_STEP });
+  const visibleCount = paging.key === filterKey ? paging.count : ROWS_STEP;
+  const visibleSpecies = filteredSpecies.slice(0, visibleCount);
 
   const previewSpecs = parseEnvironmentSpecs(buildEnvironmentSpecs(formData));
   const humidMin = toNumber(formData.humidMin);
@@ -289,14 +302,14 @@ export default function AdminSpeciesPage(): React.JSX.Element {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-line">
-                  {filteredSpecies.map((sp) => {
+                  {visibleSpecies.map((sp) => {
                     const prodCount = productCountBySpecies.get(sp.id) ?? 0;
                     const genus = genusById.get(sp.nodeId);
                     return (
                       <tr key={sp.id} className="transition-colors hover:bg-surface-hover">
                         <td className="px-5 py-3">
                           <div className="flex items-center gap-3">
-                            <img src={thumbOf(sp.scientificName, sp.heroPhoto)} alt="" className="size-12 shrink-0 rounded-xl object-cover" loading="lazy" />
+                            <img src={thumbOf(sp.scientificName, sp.cardPhoto)} alt="" className="size-12 shrink-0 rounded-xl object-cover" loading="lazy" />
                             <div className="min-w-0">
                               <p className="truncate font-medium text-fg">{sp.displayName || sp.commonName}</p>
                               <p className="truncate font-serif text-[15px] text-fg-3 italic">{sp.scientificName}</p>
@@ -339,12 +352,12 @@ export default function AdminSpeciesPage(): React.JSX.Element {
               </table>
 
               <ul className="divide-y divide-line md:hidden">
-                {filteredSpecies.map((sp) => {
+                {visibleSpecies.map((sp) => {
                   const prodCount = productCountBySpecies.get(sp.id) ?? 0;
                   return (
                     <li key={sp.id}>
                       <Link to={`/species/${sp.id}`} className="flex items-center gap-3 px-4 py-3.5 transition-colors hover:bg-surface-hover">
-                        <img src={thumbOf(sp.scientificName, sp.heroPhoto)} alt="" className="size-12 shrink-0 rounded-xl object-cover" loading="lazy" />
+                        <img src={thumbOf(sp.scientificName, sp.cardPhoto)} alt="" className="size-12 shrink-0 rounded-xl object-cover" loading="lazy" />
                         <span className="min-w-0 flex-1">
                           <span className="block truncate font-medium text-fg">{sp.displayName || sp.commonName}</span>
                           <span className="block truncate font-serif text-[15px] text-fg-3 italic">{sp.scientificName}</span>
@@ -358,6 +371,17 @@ export default function AdminSpeciesPage(): React.JSX.Element {
                   );
                 })}
               </ul>
+              <div className="flex flex-col items-center gap-3 border-t border-line px-5 py-5">
+                <p className="text-sm text-fg-2" aria-live="polite">
+                  Đang hiện <span className="font-mono text-fg">{visibleSpecies.length}</span> /{' '}
+                  <span className="font-mono text-fg">{filteredSpecies.length}</span> loài
+                </p>
+                {visibleSpecies.length < filteredSpecies.length && (
+                  <Button variant="secondary" pill onClick={() => setPaging({ key: filterKey, count: visibleCount + ROWS_STEP })}>
+                    Xem thêm {Math.min(ROWS_STEP, filteredSpecies.length - visibleSpecies.length)} loài
+                  </Button>
+                )}
+              </div>
             </>
           )}
         </Panel>

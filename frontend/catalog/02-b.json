@@ -1,0 +1,3832 @@
+[
+  {
+    "scientificName": "Pituophis catenifer",
+    "commonNameVi": "Rắn Chuột Chũi Thái Bình Dương",
+    "commonNameEn": "Gopher Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pituophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pituophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63869/12723241",
+    "gbifKey": 2453826,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ khô, rừng thông thưa, bán sa mạc và đất nông nghiệp Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn siết mồi cỡ lớn phổ biến khắp miền Tây và Trung Bắc Mỹ, nổi tiếng với chiếc nắp thanh quản rung lên tạo tiếng rít cực lớn bắt chước rắn đuôi chuông.",
+    "conservationNoteVi": "Phạm vi phân bố rộng từ Canada đến Mexico với quần thể lớn giúp loài giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Một mảnh sụn đặc biệt dựng đứng trước khí quản giúp loài rắn không độc này phát ra tiếng rít vang dội như tiếng cảnh báo của rắn đuôi chuông.",
+    "dietVi": "Động vật ăn thịt: chuột túi má (gopher), chuột đồng, sóc đất, thỏ non và chim.",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Arizona, Hoa Kỳ",
+      "lat": 34.05,
+      "lng": -111.09
+    },
+    "regionVi": "Tây và Trung Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn bò Bullsnake",
+      "Rắn Gopher"
+    ],
+    "synonyms": [
+      "Coluber catenifer",
+      "Coluber sayi",
+      "Elaphis reticulatus",
+      "Pituophis affinis"
+    ],
+    "wikidataId": "Q2705737",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pituophis_catenifer",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pituophis_catenifer",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 210,
+      "weightGMin": 600,
+      "weightGMax": 1800,
+      "heightCmMax": null,
+      "noteVi": "Phân loài Bullsnake có thể vượt quá 2 mét"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ tây nam Canada qua toàn bộ miền Tây và Trung Hoa Kỳ xuống bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 2700
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên cỏ ngắn",
+      "Sa mạc cây bụi",
+      "Rừng thông khô và trang trại"
+    ],
+    "identificationVi": "Thân to khỏe, vảy lưng có gờ rõ rệt, vảy mõm cao nhọn để đào hang; lưng màu vàng cát hoặc kem với 35–60 đốm nâu đen lớn.",
+    "behaviorVi": "Khi gặp kẻ săn mồi bên ngoài sẽ dẹt đầu thành hình tam giác, phồng cơ thể, rít lớn và rung đuôi trên lá khô dù thực chất rất nhanh thuần trong nuôi nhốt.",
+    "reproductionVi": "Đẻ 8–24 trứng kích thước lớn vào đầu mùa hè, trứng nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Tai nạn giao thông",
+      "Bị giết nhầm do màn tự vệ giống hệt rắn đuôi chuông"
+    ],
+    "funFactsVi": [
+      "Rắn Gopher có thể chui thẳng vào đường hầm của chuột túi má rồi dùng chính cơ thể mình ép chặt con mồi vào vách đất."
+    ],
+    "similarSpecies": [
+      "Pituophis melanoleucus",
+      "Pituophis deppei"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng lớn 120×60×50 cm trở lên, khô thoáng với lớp lót dày để đào bới.",
+      "lightingVi": "Điểm sưởi 31–33°C, độ ẩm 35–50%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–14 ngày/lần tùy kích cỡ.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Tiêu thụ lượng thức ăn lớn nên cần dọn phân thường xuyên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại phổ biến (Sonoran Gopher, Albino Bullsnake), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Gopher Sonora / Bullsnake Normal (Juvenile)",
+        "priceVnd": 2200000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn tốt chuột rã đông."
+      },
+      {
+        "nameVi": "Rắn Gopher Albino (Juvenile)",
+        "priceVnd": 2900000,
+        "descriptionVi": "Biến thể bạch tạng vàng cam rực rỡ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gopher Snake (34836827884).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Snake_(34836827884).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Gopher_Snake_%2834836827884%29.jpg",
+        "width": 5994,
+        "height": 3368,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Arches National Park from Moab, Utah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Snake in Big Bend.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Snake_in_Big_Bend.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Snake_in_Big_Bend.JPG",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Fredlyfish4",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gopher Snake Close-up (35290652410).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Snake_Close-up_(35290652410).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Gopher_Snake_Close-up_%2835290652410%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Arches National Park from Moab, Utah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gophersnake (Pituophis catenifer).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gophersnake_(Pituophis_catenifer).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gophersnake_%28Pituophis_catenifer%29.jpg",
+        "width": 4354,
+        "height": 2897,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Snake (4804032911).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Snake_(4804032911).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Snake_%284804032911%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Weldon Kennedy from London, UK",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2453826",
+      "https://www.iucnredlist.org/species/63869/12723241",
+      "https://en.wikipedia.org/wiki/Pituophis_catenifer",
+      "https://vi.wikipedia.org/wiki/Pituophis_catenifer"
+    ]
+  },
+  {
+    "scientificName": "Pituophis melanoleucus",
+    "commonNameVi": "Rắn Thông Phương Đông",
+    "commonNameEn": "Pine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pituophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pituophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63873/12723588",
+    "gbifKey": 9187223,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông đất cát và đồi cát khô miền Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn đào hang khỏe khoắn của rừng thông đất cát miền Đông Hoa Kỳ với hoa văn đốm đen hoặc nâu sẫm nổi bật trên nền trắng kem.",
+    "conservationNoteVi": "Đánh giá tổng thể toàn loài ở mức Ít quan tâm (LC), dù một số quần thể địa phương đang suy giảm do mất rừng thông lá dài.",
+    "pullQuoteVi": "Với chiếc mõm cứng như lưỡi cày, rắn thông có thể tự đào những đường hầm dài hàng mét dưới lớp cát rừng thông để tránh nắng hè.",
+    "dietVi": "Động vật ăn thịt: chuột túi Đông Nam, chuột đồng, chim làm tổ mặt đất và trứng.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "New Jersey Pine Barrens, Hoa Kỳ",
+      "lat": 39.85,
+      "lng": -74.55
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn thông Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Churchillia bellona",
+      "Coluber melanoleucus",
+      "Pituophis lodingi",
+      "Pityophis melanoleucus"
+    ],
+    "wikidataId": "Q1663774",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pituophis_melanoleucus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pituophis_melanoleucus",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 180,
+      "weightGMin": 600,
+      "weightGMax": 1600,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể vạm vỡ, vảy có gờ nổi"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Nam New Jersey xuống Bắc Carolina, Nam Carolina, Georgia, Florida và tây tới Alabama, Tennessee",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông cát Pine Barrens",
+      "Đồi cát khô",
+      "Rừng sồi thưa"
+    ],
+    "identificationVi": "Đầu nhỏ hơi nhọn với 4 vảy trước trán thay vì 2 như đa số rắn nước; nền trắng ngà hoặc vàng kem với các đốm yên ngựa đen đậm ở nửa thân trước.",
+    "behaviorVi": "Dành phần lớn thời gian dưới hang cát tự đào và phát ra tiếng rít trầm lớn khi bị quấy rầy.",
+    "reproductionVi": "Đẻ 4–12 trứng có kích thước rất lớn trong hang cát sâu vào tháng 6, nở sau 65–75 ngày.",
+    "threatsVi": [
+      "Phân mảnh sinh cảnh rừng thông cát",
+      "Săn bắt trái phép các quần thể tự nhiên"
+    ],
+    "funFactsVi": [
+      "Trứng của rắn thông dài tới 7–9 cm, thuộc hàng trứng lớn nhất trong các loài rắn đẻ trứng ở Bắc Mỹ."
+    ],
+    "similarSpecies": [
+      "Pituophis catenifer",
+      "Pantherophis alleghaniensis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 120×60×50 cm với lớp nền dày tơi xốp cho rắn đào bới.",
+      "lightingVi": "Điểm sưởi 30–32°C, chiếu sáng ban ngày 12 giờ.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 10–14 ngày/lần ở con trưởng thành.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Tiếng rít tự vệ lớn có thể làm người mới nuôi giật mình"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các dòng nhân giống nuôi nhốt (Northern & Southern Pine Snake CB) được giao dịch hợp pháp, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Thông Northern Pine Snake CB (Juvenile)",
+        "priceVnd": 3400000,
+        "descriptionVi": "Cá thể nhân giống tương phản đen trắng rõ nét, ăn khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Pinesnake (Pituophis melanoleucus) (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Pinesnake_(Pituophis_melanoleucus)_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Eastern_Pinesnake_%28Pituophis_melanoleucus%29_%28cropped%29.jpg",
+        "width": 5731,
+        "height": 3581,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pituophis melanoleucus 1zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pituophis_melanoleucus_1zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Pituophis_melanoleucus_1zz.jpg",
+        "width": 1000,
+        "height": 2062,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Serpent taureau Détail Ile aux Serpents 17 11 08 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serpent_taureau_D%C3%A9tail_Ile_aux_Serpents_17_11_08_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Serpent_taureau_D%C3%A9tail_Ile_aux_Serpents_17_11_08_1.jpg",
+        "width": 1701,
+        "height": 1353,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Pinesnake (Pituophis melanoleucus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Pinesnake_(Pituophis_melanoleucus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Eastern_Pinesnake_%28Pituophis_melanoleucus%29.jpg",
+        "width": 5731,
+        "height": 3813,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pituophis melanoleucus (Stanton 1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pituophis_melanoleucus_(Stanton_1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pituophis_melanoleucus_%28Stanton_1%29.jpg",
+        "width": 6960,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9187223",
+      "https://www.iucnredlist.org/species/63873/12723588",
+      "https://en.wikipedia.org/wiki/Pituophis_melanoleucus",
+      "https://vi.wikipedia.org/wiki/Pituophis_melanoleucus"
+    ]
+  },
+  {
+    "scientificName": "Pituophis deppei",
+    "commonNameVi": "Rắn Thông Mexico",
+    "commonNameEn": "Mexican Pine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pituophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pituophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63870/12723360",
+    "gbifKey": 9208361,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông sồi và cao nguyên bán khô hạn miền Trung Mexico"
+    },
+    "descriptionVi": "Loài rắn thông đặc hữu của cao nguyên Mexico nổi bật với phần thân giữa rực lên sắc cam đồng giữa những đốm yên ngựa đen tuyền.",
+    "conservationNoteVi": "Phân bố rộng trên cao nguyên Mexico nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Phân loài phương bắc Jani mang hai mảng màu đối lập trên cùng một cơ thể: cổ và đuôi đen trắng nhưng giữa lưng lại rực cháy màu cam lửa.",
+    "dietVi": "Động vật ăn thịt: chuột túi, chuột đồng và thằn lằn cao nguyên.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hidalgo, Mexico",
+      "lat": 20.48,
+      "lng": -98.86
+    },
+    "regionVi": "Cao nguyên Mexico",
+    "otherNamesVi": [
+      "Rắn thông Jani"
+    ],
+    "synonyms": [
+      "Arizona jani",
+      "Elaphis deppei"
+    ],
+    "wikidataId": "Q3389431",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pituophis_deppei",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pituophis_deppei",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 165,
+      "weightGMin": 500,
+      "weightGMax": 1300,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ gọn và hiền hơn rắn thông phương Bắc"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Cao nguyên Mexico từ nam Chihuahua, Coahuila, Nuevo León xuống Puebla và Oaxaca",
+      "elevationM": {
+        "min": 1500,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông và sồi núi cao",
+      "Đồng cỏ cao nguyên",
+      "Bán sa mạc cây thùa"
+    ],
+    "identificationVi": "Chỉ có 2 vảy trước trán và 2 vảy môi trên chạm mắt; thân màu vàng cam hoặc cam đồng rực rỡ với các đốm yên ngựa đen lớn.",
+    "behaviorVi": "Điềm tĩnh nhất trong chi Pituophis, rất ít khi rít dọa hay mổ khi đã quen người chăm sóc.",
+    "reproductionVi": "Đẻ 5–12 trứng lớn vào mùa mưa đầu hè, nở sau 65–75 ngày.",
+    "threatsVi": [
+      "Mở rộng đất canh tác và đường giao thông trên cao nguyên Mexico"
+    ],
+    "funFactsVi": [
+      "Loài này được đặt tên theo Ferdinand Deppe, nhà tự nhiên học người Đức đã khảo sát hệ động thực vật Mexico đầu thế kỷ 19."
+    ],
+    "similarSpecies": [
+      "Pituophis catenifer",
+      "Pituophis lineaticollis"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 120×50×50 cm khô thoáng, có hang đá và lớp nền đào bới.",
+      "lightingVi": "Điểm sưởi 29–31°C, vùng mát 22–24°C.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 10–14 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Không chịu được nhiệt độ nền quá nóng và ẩm bí"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong giới sưu tầm Colubrid (nhất là phân loài P. d. jani), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Thông Mexico Northern Mexican Pine Snake (Juvenile)",
+        "priceVnd": 3900000,
+        "descriptionVi": "Cá thể CB dòng Jani lên màu cam lưng cực đẹp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Culebra sorda mexicana en Jesús María 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_2.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luisalvaz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Alicante (Pituophis deppei) 006734626.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alicante_(Pituophis_deppei)_006734626.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Alicante_%28Pituophis_deppei%29_006734626.jpg",
+        "width": 2648,
+        "height": 2649,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pituophis deppei.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pituophis_deppei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Pituophis_deppei.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NS777",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Culebra sorda mexicana en Jesús María 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_4.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luisalvaz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Culebra sorda mexicana en Jesús María 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Culebra_sorda_mexicana_en_Jes%C3%BAs_Mar%C3%ADa_3.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Luisalvaz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9208361",
+      "https://www.iucnredlist.org/species/63870/12723360",
+      "https://en.wikipedia.org/wiki/Pituophis_deppei",
+      "https://vi.wikipedia.org/wiki/Pituophis_deppei"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis sirtalis",
+    "commonNameVi": "Rắn Sọc Garter Thường",
+    "commonNameEn": "Common Garter Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/62240/68308267",
+    "gbifKey": 2457522,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ ẩm, bờ hồ, đầm lầy và rừng thưa khắp Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn đẻ con có phạm vi phân bố rộng nhất Bắc Mỹ, nổi tiếng với ba dải sọc dọc chạy suốt lưng và các biến thể sườn đỏ xanh rực rỡ ở bờ Tây.",
+    "conservationNoteVi": "Phổ biến rộng khắp Bắc Mỹ nên được xếp mức Ít quan tâm (LC), ngoại trừ riêng phân loài San Francisco (T. s. tetrataenia) được bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Vào mùa xuân tại Manitoba, hàng chục nghìn con rắn sọc Garter cùng thức giấc trồi lên từ một hang đá vôi tạo nên cảnh tượng tập hợp bò sát lớn nhất hành tinh.",
+    "dietVi": "Động vật ăn thịt: cá nhỏ, giun đất, lưỡng cư và chuột nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Ontario, Canada",
+      "lat": 44.38,
+      "lng": -79.69
+    },
+    "regionVi": "Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn Garter sọc đỏ",
+      "Rắn dây bít tất"
+    ],
+    "synonyms": [
+      "Coluber ibibe",
+      "Coluber infemalis",
+      "Coluber ordinatus",
+      "Coluber parietalis"
+    ],
+    "wikidataId": "Q911786",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_sirtalis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Common_garter_snake",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 100,
+      "weightGMin": 80,
+      "weightGMax": 280,
+      "heightCmMax": null,
+      "noteVi": "Con cái to và dài hơn con đực rõ rệt"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Khắp Canada và Hoa Kỳ từ Đại Tây Dương sang Thái Bình Dương, kéo dài tới bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ ẩm ven hồ",
+      "Bờ suối và đầm lầy",
+      "Rừng lá rộng và vườn ngoại ô"
+    ],
+    "identificationVi": "Vảy lưng có gờ, ba sọc sáng màu (vàng, kem hoặc xanh ngọc) chạy dọc từ cổ tới đuôi xen giữa các hàng đốm đen và vệt đỏ bên sườn.",
+    "behaviorVi": "Hoạt động ban ngày, bơi lội giỏi, có tính xã hội cao hơn đa số loài rắn và có thể sống hòa thuận theo nhóm nhỏ cùng giới trong chuồng rộng.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), mỗi lứa 10–30 rắn con hoàn chỉnh vào cuối mùa hè.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước ngọt",
+      "Mất đầm lầy ven biển với một số phân loài địa phương"
+    ],
+    "funFactsVi": [
+      "Một số quần thể rắn sọc Garter miền Tây đã tiến hóa khả năng kháng độc tố thần kinh tetrodotoxin cực mạnh của sa giông bụng đỏ Taricha granulosa."
+    ],
+    "similarSpecies": [
+      "Thamnophis saurita",
+      "Thamnophis elegans"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm khô ráo có đĩa nước rộng nhưng nền lót luôn giữ khô để tránh nấm vảy.",
+      "lightingVi": "Điểm sưởi 29–30°C, đèn UVB 5.0% ban ngày giúp rắn lanh lợi và lên màu đẹp.",
+      "feedingVi": "Ăn chuột pinky cắt nhỏ, cá nước ngọt không chứa thiaminase (cá bảy màu, cá hồi cắt lát) và giun đất sạch 4–6 ngày/lần.",
+      "socialVi": "Có thể nuôi ghép 2–3 cá thể cùng cỡ và cùng giới tính trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Thiếu hụt vitamin B1 nếu chỉ cho ăn cá đông lạnh chứa enzyme thiaminase"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các phân loài phổ biến (California Red-sided, Eastern, Flame) được nhân giống thương mại hợp pháp; trừ phân loài San Francisco không giao dịch."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sọc Garter Đỏ California Red-sided (Juvenile CB)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể nhân giống lên sọc xanh và đốm đỏ sườn tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Common Garter Snake - Thamnophis sirtalis (27909758511).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Garter_Snake_-_Thamnophis_sirtalis_(27909758511).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Common_Garter_Snake_-_Thamnophis_sirtalis_%2827909758511%29.jpg",
+        "width": 5282,
+        "height": 3521,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "GlacierNPS",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Common Garter Snake, Thamnophis sirtalis - Flickr - GregTheBusker (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Garter_Snake,_Thamnophis_sirtalis_-_Flickr_-_GregTheBusker_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Common_Garter_Snake%2C_Thamnophis_sirtalis_-_Flickr_-_GregTheBusker_%281%29.jpg",
+        "width": 2304,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Common garter snake (Thamnophis sirtalis).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_garter_snake_(Thamnophis_sirtalis).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Common_garter_snake_%28Thamnophis_sirtalis%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Jmcgnh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2016-09 Monts Valin 37.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2016-09_Monts_Valin_37.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/2016-09_Monts_Valin_37.jpg",
+        "width": 4431,
+        "height": 2954,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "0x010C",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Common Garter Snake (15681127020).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Garter_Snake_(15681127020).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Common_Garter_Snake_%2815681127020%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWSmidwest",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2457522",
+      "https://www.iucnredlist.org/species/62240/68308267",
+      "https://en.wikipedia.org/wiki/Common_garter_snake",
+      "https://vi.wikipedia.org/wiki/Thamnophis_sirtalis"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis marcianus",
+    "commonNameVi": "Rắn Sọc Kẻ Ô",
+    "commonNameEn": "Checkered Garter Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198521/299756043",
+    "gbifKey": 9342283,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Ốc đảo, bờ sông suối và đồng cỏ bán khô hạn Tây Nam Hoa Kỳ đến Trung Mỹ"
+    },
+    "descriptionVi": "Loài rắn Garter dễ nuôi nhất trong hồ cạn nhờ hoa văn bàn cờ đen kem sắc nét dọc lưng và khả năng thích nghi với khí hậu ấm khô.",
+    "conservationNoteVi": "Phân bố rất rộng từ Tây Nam Hoa Kỳ xuyên qua Mexico tới Costa Rica nên giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Hai hàng ô vuông đen xếp so le dọc sống lưng trông hệt như lá cờ xuất phát trên đường đua đã tạo nên diện mạo độc đáo cho loài rắn này.",
+    "dietVi": "Động vật ăn thịt: ếch nhái, cá nhỏ, giun đất và chuột non.",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam Texas, Hoa Kỳ",
+      "lat": 27.8,
+      "lng": -97.4
+    },
+    "regionVi": "Tây Nam Bắc Mỹ và Trung Mỹ",
+    "otherNamesVi": [
+      "Rắn Garter bàn cờ"
+    ],
+    "synonyms": [
+      "Eutaenia marcianus",
+      "Eutaenia praeocularis",
+      "Thamnophis arabdotus",
+      "Thamnophis bovalli"
+    ],
+    "wikidataId": "Q1458979",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_marcianus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Checkered_garter_snake",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 90,
+      "weightGMin": 90,
+      "weightGMax": 260,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX",
+        "GT",
+        "BZ",
+        "HN",
+        "NI",
+        "CR"
+      ],
+      "nativeRangeVi": "Từ Kansas, Texas, Arizona (Hoa Kỳ) qua Mexico xuống tới Costa Rica",
+      "elevationM": {
+        "min": 0,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối bán sa mạc",
+      "Kênh tưới tiêu nông nghiệp",
+      "Đồng cỏ ngập nước theo mùa"
+    ],
+    "identificationVi": "Nền da vàng ô-liu hoặc kem với hai hàng đốm vuông đen xếp so le như bàn cờ và một vệt vàng hình lưỡi liềm có viền đen ngay sau khóe miệng.",
+    "behaviorVi": "Hiền lành, dạn người, kiếm ăn cả ban ngày lẫn những đêm mùa hè oi bức quanh các vũng nước.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), mỗi lứa 8–24 rắn non vào mùa hè.",
+    "threatsVi": [
+      "Cạn kiệt các nguồn nước mặt tại vùng sa mạc do khai thác nước ngầm"
+    ],
+    "funFactsVi": [
+      "Đây là một trong những loài rắn Garter hiếm hoi sẵn sàng ăn chuột pinky rã đông ngay từ khi mới sinh mà không cần tạo mùi cá."
+    ],
+    "similarSpecies": [
+      "Thamnophis sirtalis",
+      "Thamnophis radix"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm khô thoáng kèm khay nước sạch.",
+      "lightingVi": "Điểm sưởi 30–31°C, đèn UVB 5.0% ban ngày.",
+      "feedingVi": "Ăn chuột pinky/fuzzy rã đông xen kẽ cá phi-lê sạch 5–7 ngày/lần.",
+      "socialVi": "Có thể nuôi đơn hoặc nuôi cặp cùng giới trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Phồng rộp vảy nếu nền chuồng bị ướt sũng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại rất phổ biến (Normal và Albino Checkered Garter), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sọc Kẻ Ô Checkered Garter Normal (Baby CB)",
+        "priceVnd": 1600000,
+        "descriptionVi": "Cá thể CB hoa văn bàn cờ rõ nét, đã ăn chuột pinky rã đông."
+      },
+      {
+        "nameVi": "Rắn Sọc Kẻ Ô Albino Checkered Garter (Juvenile)",
+        "priceVnd": 2300000,
+        "descriptionVi": "Biến thể bạch tạng cam trắng kẻ ô nổi bật."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hurricane Harvey (2017)170827-H-NI589-601 (36452753110).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hurricane_Harvey_(2017)170827-H-NI589-601_(36452753110).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hurricane_Harvey_%282017%29170827-H-NI589-601_%2836452753110%29.jpg",
+        "width": 5446,
+        "height": 3382,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U.S. Customs and Border Protection",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Checkered Gartersnake (Thamnophis marcianus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Checkered_Gartersnake_(Thamnophis_marcianus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Checkered_Gartersnake_%28Thamnophis_marcianus%29.jpg",
+        "width": 4397,
+        "height": 2926,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Checkered Garter Snake (6984593316).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Checkered_Garter_Snake_(6984593316).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Checkered_Garter_Snake_%286984593316%29.jpg",
+        "width": 1563,
+        "height": 1080,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jay Phagan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Checkered Garter Snake, Port Aransas, TX, USA imported from iNaturalist photo 68459458.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Checkered_Garter_Snake,_Port_Aransas,_TX,_USA_imported_from_iNaturalist_photo_68459458.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Checkered_Garter_Snake%2C_Port_Aransas%2C_TX%2C_USA_imported_from_iNaturalist_photo_68459458.jpg",
+        "width": 1080,
+        "height": 810,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Austin R. Kelly, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9342283",
+      "https://www.iucnredlist.org/species/198521/299756043",
+      "https://en.wikipedia.org/wiki/Checkered_garter_snake",
+      "https://vi.wikipedia.org/wiki/Thamnophis_marcianus"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis elegans",
+    "commonNameVi": "Rắn Sọc Garter Phương Tây",
+    "commonNameEn": "Western Terrestrial Garter Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63976/12732762",
+    "gbifKey": 2457545,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ núi cao, rừng lá kim và bờ suối miền Tây Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn sọc sống trên cạn nhiều nhất ở miền Tây Bắc Mỹ, xuất hiện từ bờ biển Thái Bình Dương lên tới các đồng cỏ núi cao trên 3.000 mét.",
+    "conservationNoteVi": "Phân bố rộng và số lượng dồi dào khắp miền Tây Bắc Mỹ nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Các nhà sinh thái học phát hiện loài rắn này có hai chiến lược sống trái ngược: nhóm sống ven hồ có tuổi thọ dài, còn nhóm sống đồng cỏ lại lớn nhanh và sinh sản sớm.",
+    "dietVi": "Động vật ăn thịt: sên trần, giun đất, đỉa, ếch nhái, cá nhỏ và chuột non.",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Oregon, Hoa Kỳ",
+      "lat": 44.05,
+      "lng": -121.31
+    },
+    "regionVi": "Tây Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn Garter thanh lịch"
+    ],
+    "synonyms": [
+      "Eutaenia biscutata",
+      "Eutaenia elegans",
+      "Eutaenia elegans brunnea",
+      "Eutaenia elegans lineolata"
+    ],
+    "wikidataId": "Q819220",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_elegans",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Western_terrestrial_garter_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 95,
+      "weightGMin": 70,
+      "weightGMax": 250,
+      "heightCmMax": null,
+      "noteVi": "Thân hình cân đối"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Miền Tây Canada và Hoa Kỳ từ British Columbia xuống Baja California (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 3500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ núi cao",
+      "Rừng thông và linh sam",
+      "Bờ suối và ghềnh đá ven biển"
+    ],
+    "identificationVi": "Một sọc vàng hoặc cam sáng chạy dọc chính giữa lưng rất sắc nét, hai bên sườn có sọc sáng và các đốm đen nhỏ.",
+    "behaviorVi": "Ít phụ thuộc vào mặt nước hơn các loài Thamnophis khác, leo đá và săn mồi trên đồng cỏ rất linh hoạt.",
+    "reproductionVi": "Đẻ 6–18 con non hoàn chỉnh vào cuối mùa hè.",
+    "threatsVi": [
+      "Biến đổi khí hậu làm khô hạn các đồng cỏ núi cao"
+    ],
+    "funFactsVi": [
+      "Loài này là mô hình nghiên cứu kinh điển của sinh học tiến hóa về sự đánh đổi giữa tốc độ lão hóa và áp lực săn mồi."
+    ],
+    "similarSpecies": [
+      "Thamnophis sirtalis",
+      "Thamnophis radix"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm thoáng mát, nền khô ráo có hang đá.",
+      "lightingVi": "Điểm sưởi 28–30°C, đèn UVB 5.0%.",
+      "feedingVi": "Ăn chuột pinky/fuzzy rã đông và cá phi-lê sạch 5–7 ngày/lần.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp cùng giới.",
+      "commonProblemsVi": [
+        "Không chịu được nhiệt độ chuồng quá 31°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp trong nuôi nhốt, không thuộc phụ lục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sọc Garter Phương Tây CB (Juvenile)",
+        "priceVnd": 1900000,
+        "descriptionVi": "Cá thể nhân giống sọc vàng lưng nét, đã ăn chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A snake devouring a Frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_snake_devouring_a_Frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/A_snake_devouring_a_Frog.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mousum Hazarika",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:California fish and game (19891742403).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:California_fish_and_game_(19891742403).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/California_fish_and_game_%2819891742403%29.jpg",
+        "width": 1396,
+        "height": 2880,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "California. Dept. of Fish and Game; California. Fish and Game Commission; California. Division of Fish and Game",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:ONE GARTER SNAKE LIVING WITHIN A COLONY OF GARTER SNAKES WHO MADE THEIR HOME IN A DESERTED BEAVER HOUSE AT TIN MINE... - NARA - 555065.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ONE_GARTER_SNAKE_LIVING_WITHIN_A_COLONY_OF_GARTER_SNAKES_WHO_MADE_THEIR_HOME_IN_A_DESERTED_BEAVER_HOUSE_AT_TIN_MINE..._-_NARA_-_555065.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/ONE_GARTER_SNAKE_LIVING_WITHIN_A_COLONY_OF_GARTER_SNAKES_WHO_MADE_THEIR_HOME_IN_A_DESERTED_BEAVER_HOUSE_AT_TIN_MINE..._-_NARA_-_555065.jpg",
+        "width": 2000,
+        "height": 1352,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Unknown author Unknown author or not provided",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2015.05.30 10.22.50 IMG 2432 - Flickr - andrey zharkikh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2015.05.30_10.22.50_IMG_2432_-_Flickr_-_andrey_zharkikh.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2015.05.30_10.22.50_IMG_2432_-_Flickr_-_andrey_zharkikh.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Andrey Zharkikh from Salt Lake City, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:File-Garter snake;-Neal Herbert;-June 2014;-Catalog 19408d;-Original 1242 (08b0c0f7-5e45-47ad-bbf1-13978ac94515).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:File-Garter_snake;-Neal_Herbert;-June_2014;-Catalog_19408d;-Original_1242_(08b0c0f7-5e45-47ad-bbf1-13978ac94515).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/File-Garter_snake%3B-Neal_Herbert%3B-June_2014%3B-Catalog_19408d%3B-Original_1242_%2808b0c0f7-5e45-47ad-bbf1-13978ac94515%29.jpg",
+        "width": 5028,
+        "height": 3352,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Neal Herbert",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2457545",
+      "https://www.iucnredlist.org/species/63976/12732762",
+      "https://en.wikipedia.org/wiki/Western_terrestrial_garter_snake",
+      "https://vi.wikipedia.org/wiki/Thamnophis_elegans"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis radix",
+    "commonNameVi": "Rắn Sọc Đồng Bằng",
+    "commonNameEn": "Plains Garter Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63988/12726792",
+    "gbifKey": 2457512,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên cỏ cao, đầm lầy và bờ hồ vùng Đại Bình Nguyên Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn sọc đặc trưng của thảo nguyên Bắc Mỹ với đường chỉ sống lưng màu cam rực rỡ và các vạch đen viền trên vảy môi.",
+    "conservationNoteVi": "Phân bố rộng khắp vùng đồng bằng trung tâm Bắc Mỹ nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Sọc cam tươi chạy dọc chính giữa sống lưng kết hợp với hai sọc vàng chanh bên hông khiến loài rắn thảo nguyên này nổi bật giữa thảm cỏ xanh.",
+    "dietVi": "Động vật ăn thịt: giun đất, ếch nhái, nòng nọc, cá nhỏ và chuột đồng non.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nebraska, Hoa Kỳ",
+      "lat": 41.49,
+      "lng": -99.9
+    },
+    "regionVi": "Đại Bình Nguyên Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn Garter thảo nguyên"
+    ],
+    "synonyms": [
+      "Eutaenia haydenii",
+      "Eutaenia radix",
+      "Eutaenia radix twiningi",
+      "Eutainia haydenii"
+    ],
+    "wikidataId": "Q385759",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_radix",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plains_garter_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 90,
+      "weightGMin": 80,
+      "weightGMax": 250,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Từ nam Alberta, Manitoba (Canada) xuống New Mexico, Oklahoma và miền bắc Illinois, Ohio (Hoa Kỳ)",
+      "elevationM": {
+        "min": 100,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên cỏ cao",
+      "Bờ ao hồ thảo nguyên",
+      "Đồng cỏ ẩm"
+    ],
+    "identificationVi": "Sọc giữa lưng màu cam hoặc vàng cam rất rõ, hai sọc bên hông nằm ở hàng vảy thứ 3 và 4 tính từ bụng lên, các vảy môi trên có viền đen đậm.",
+    "behaviorVi": "Chịu lạnh rất giỏi, thường là một trong những loài bò sát thức dậy sớm nhất sau băng tuyết mùa xuân.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), mỗi lứa 10–25 rắn non vào cuối hè.",
+    "threatsVi": [
+      "Chuyển đổi đồng cỏ tự nhiên thành đất trồng độc canh"
+    ],
+    "funFactsVi": [
+      "Vị trí sọc bên hông nằm ở hàng vảy 3 và 4 là dấu hiệu giải phẫu chính xác giúp phân biệt loài này với Thamnophis sirtalis (sọc ở hàng 2 và 3)."
+    ],
+    "similarSpecies": [
+      "Thamnophis sirtalis",
+      "Thamnophis marcianus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm khô thoáng với máng nước sạch.",
+      "lightingVi": "Điểm sưởi 28–30°C, chiếu sáng UVB nhẹ.",
+      "feedingVi": "Ăn chuột pinky rã đông và cá phi-lê sạch 5–7 ngày/lần.",
+      "socialVi": "Nuôi đơn hoặc theo nhóm nhỏ cùng giới.",
+      "commonProblemsVi": [
+        "Tránh nền chuồng ẩm ướt gây viêm da bụng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong nuôi nhốt, không thuộc phụ lục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sọc Đồng Bằng Plains Garter CB (Juvenile)",
+        "priceVnd": 1850000,
+        "descriptionVi": "Cá thể CB sọc lưng cam sáng, ăn tốt chuột pinky rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Plains garter snake (Thamnophis radix).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plains_garter_snake_(Thamnophis_radix).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Plains_garter_snake_%28Thamnophis_radix%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Photo Credit: Krista Lundgren/USFWS USFWS Mountain-Prairie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Plains Garter Snake - Flickr - GregTheBusker (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plains_Garter_Snake_-_Flickr_-_GregTheBusker_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Plains_Garter_Snake_-_Flickr_-_GregTheBusker_%281%29.jpg",
+        "width": 1080,
+        "height": 1920,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Garter Snake Eating a Paddlefish (51372739779).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Garter_Snake_Eating_a_Paddlefish_(51372739779).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Garter_Snake_Eating_a_Paddlefish_%2851372739779%29.jpg",
+        "width": 2361,
+        "height": 1181,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS Mountain Prairie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Plains Garter Snake - Flickr - GregTheBusker (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plains_Garter_Snake_-_Flickr_-_GregTheBusker_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Plains_Garter_Snake_-_Flickr_-_GregTheBusker_%282%29.jpg",
+        "width": 4270,
+        "height": 2674,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Prärie-Strumpfbandnatter (Thamnophis radix), Seitenansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pr%C3%A4rie-Strumpfbandnatter_(Thamnophis_radix),_Seitenansicht.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pr%C3%A4rie-Strumpfbandnatter_%28Thamnophis_radix%29%2C_Seitenansicht.jpg",
+        "width": 4712,
+        "height": 2860,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2457512",
+      "https://www.iucnredlist.org/species/63988/12726792",
+      "https://en.wikipedia.org/wiki/Plains_garter_snake",
+      "https://vi.wikipedia.org/wiki/Thamnophis_radix"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis proximus",
+    "commonNameVi": "Rắn Ruy Băng Phương Tây",
+    "commonNameEn": "Western Ribbon Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198522/299792803",
+    "gbifKey": 2457575,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối, đầm lầy lau sậy và cành cây bụi rủ sát mặt nước Bắc và Trung Mỹ"
+    },
+    "descriptionVi": "Loài rắn nước có thân hình mảnh mai như dải ruy băng với cái đuôi dài chiếm tới một phần ba tổng chiều dài cơ thể.",
+    "conservationNoteVi": "Phân bố rộng từ vùng Trung Tây Hoa Kỳ xuống tận Costa Rica nên giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Thân hình mảnh dẻ và chiếc đuôi siêu dài giúp rắn ruy băng lướt đi trên cành cây bụi ven sông lẫn trên mặt nước nhanh như một tia chớp.",
+    "dietVi": "Động vật ăn thịt: ếch nhái nhỏ, nòng nọc và cá nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Texas, Hoa Kỳ",
+      "lat": 29.76,
+      "lng": -95.37
+    },
+    "regionVi": "Trung Nam Bắc Mỹ và Trung Mỹ",
+    "otherNamesVi": [
+      "Rắn ruy băng"
+    ],
+    "synonyms": [
+      "Coluber proximus",
+      "Eutaenia rutiloris",
+      "Eutainia faireyi",
+      "Thamnophis sauritus proximus"
+    ],
+    "wikidataId": "Q2565456",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_proximus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Thamnophis_proximus",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 95,
+      "weightGMin": 50,
+      "weightGMax": 150,
+      "heightCmMax": null,
+      "noteVi": "Thân rất mảnh, đuôi chiếm hơn 30% chiều dài"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX",
+        "GT",
+        "BZ",
+        "SV",
+        "HN",
+        "NI",
+        "CR"
+      ],
+      "nativeRangeVi": "Từ Wisconsin, Indiana qua Texas xuống dọc bờ đông Mexico và Trung Mỹ tới Costa Rica",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối có cây bụi rậm",
+      "Đầm lầy nước ngọt",
+      "Rừng ngập nước"
+    ],
+    "identificationVi": "Đầu nhỏ mắt to, môi trên màu trắng kem hoàn toàn không có vạch đen đứng, ba sọc vàng hoặc cam mảnh chạy dọc thân trên nền đen ô-liu.",
+    "behaviorVi": "Bán thủy sinh và bán leo cây, thường phơi nắng trên các nhánh liễu rủ sát mặt nước để có thể lao xuống nước ngay khi có động.",
+    "reproductionVi": "Đẻ 6–20 con non hoàn chỉnh vào mùa hè.",
+    "threatsVi": [
+      "Suy thoái thảm thực vật bờ sông và ô nhiễm nguồn nước"
+    ],
+    "funFactsVi": [
+      "Khác với rắn Garter thường, rắn ruy băng hầu như không bao giờ ăn giun đất mà chỉ săn cá và lưỡng cư chuyển động nhanh."
+    ],
+    "similarSpecies": [
+      "Thamnophis saurita",
+      "Thamnophis sirtalis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng 80×45×50 cm có nhiều cành cây leo bên trên một khay nước rộng.",
+      "lightingVi": "Điểm sưởi 30°C và đèn UVB 5.0% ban ngày.",
+      "feedingVi": "Ăn cá nhỏ nguyên con (cá bảy màu, cá molly sạch) hoặc chuột pinky đã tạo mùi cá/ếch 4–5 ngày/lần.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Trao đổi chất rất nhanh nên cần cho ăn thường xuyên hơn rắn chuột"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống và giao dịch hợp pháp, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Ruy Băng Phương Tây Western Ribbon Snake (Sub-adult)",
+        "priceVnd": 1650000,
+        "descriptionVi": "Cá thể khỏe mạnh, lanh lợi, ăn cá mồi sạch và chuột pinky cắt nhỏ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Westliche Bändernatter (Thamnophis proximus), Seitenansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Westliche_B%C3%A4ndernatter_(Thamnophis_proximus),_Seitenansicht.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Westliche_B%C3%A4ndernatter_%28Thamnophis_proximus%29%2C_Seitenansicht.jpg",
+        "width": 6032,
+        "height": 4240,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Thamnophis proximus 202739662.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thamnophis_proximus_202739662.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Thamnophis_proximus_202739662.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "David Peden",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Westliche Streifenstrumpfbandnatter (Thamnophis proximus proximus), Seitenansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Westliche_Streifenstrumpfbandnatter_(Thamnophis_proximus_proximus),_Seitenansicht.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Westliche_Streifenstrumpfbandnatter_%28Thamnophis_proximus_proximus%29%2C_Seitenansicht.jpg",
+        "width": 4708,
+        "height": 3196,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ribbon Snake - Flickr - GregTheBusker.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ribbon_Snake_-_Flickr_-_GregTheBusker.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ribbon_Snake_-_Flickr_-_GregTheBusker.jpg",
+        "width": 3109,
+        "height": 1755,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Western Ribbon Snake, Thamnophis proximus - Flickr - GregTheBusker.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Western_Ribbon_Snake,_Thamnophis_proximus_-_Flickr_-_GregTheBusker.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Western_Ribbon_Snake%2C_Thamnophis_proximus_-_Flickr_-_GregTheBusker.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2457575",
+      "https://www.iucnredlist.org/species/198522/299792803",
+      "https://en.wikipedia.org/wiki/Thamnophis_proximus",
+      "https://vi.wikipedia.org/wiki/Thamnophis_proximus"
+    ]
+  },
+  {
+    "scientificName": "Thamnophis saurita",
+    "commonNameVi": "Rắn Ruy Băng Phương Đông",
+    "commonNameEn": "Eastern Ribbon Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Thamnophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Thamnophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63991/12727431",
+    "gbifKey": 2457577,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy cỏ lác, bờ hồ và suối rừng miền Đông Bắc Mỹ"
+    },
+    "descriptionVi": "Họ hàng miền Đông của rắn ruy băng với ba đường kẻ vàng thẳng tắp trên nền nhung nâu đen như được vẽ bằng thước kẻ.",
+    "conservationNoteVi": "Phân bố rộng khắp miền Đông Hoa Kỳ và đông nam Canada nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Không chỉ bơi lướt trên mặt nước mà chẳng cần lặn sâu, rắn ruy băng phương Đông còn leo thoăn thoắt trên các bụi lau sậy ven đầm.",
+    "dietVi": "Động vật ăn thịt: ếch cây, nòng nọc, kỳ giông nhỏ và cá nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Virginia, Hoa Kỳ",
+      "lat": 37.43,
+      "lng": -78.65
+    },
+    "regionVi": "Đông Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn ruy băng miền Đông"
+    ],
+    "synonyms": [
+      "Coluber saurita",
+      "Eutaenia sackenii",
+      "Prymnomiodon chalceus",
+      "Thamnophis sauritus nitae"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thamnophis_sauritus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Thamnophis_saurita",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 85,
+      "weightGMin": 45,
+      "weightGMax": 130,
+      "heightCmMax": null,
+      "noteVi": "Thân cực kỳ thon mảnh"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Từ Nova Scotia, nam Ontario (Canada) dọc toàn bộ miền Đông Hoa Kỳ xuống Florida",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy lau sậy",
+      "Bờ ao rừng",
+      "Đồng cỏ ngập nước"
+    ],
+    "identificationVi": "Ba sọc vàng hoặc cam viền thẳng tắp chạy dọc thân, dưới sọc bên hông là một dải màu nâu hạt dẻ trước khi tiếp giáp bụng trắng kem.",
+    "behaviorVi": "Nhanh nhẹn, cảnh giác, hoạt động hoàn toàn vào ban ngày gần nguồn nước.",
+    "reproductionVi": "Đẻ 5–16 con non vào cuối mùa hè.",
+    "threatsVi": [
+      "San lấp đất ngập nước để phát triển đô thị"
+    ],
+    "funFactsVi": [
+      "Một vệt trắng nhỏ nằm ngay trước mắt trên vảy trước ổ mắt là dấu hiệu tinh tế giúp nhận ra các loài rắn ruy băng."
+    ],
+    "similarSpecies": [
+      "Thamnophis proximus",
+      "Thamnophis sirtalis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng 80×45×45 cm có cành cây leo và khay nước lớn kèm vùng nền khô.",
+      "lightingVi": "Điểm sưởi 29–30°C, đèn UVB 5.0%.",
+      "feedingVi": "Ăn cá nhỏ không chứa thiaminase và chuột pinky tạo mùi 4–6 ngày/lần.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp cùng giới.",
+      "commonProblemsVi": [
+        "Dễ bị suy nhược nếu bỏ đói quá 10 ngày do dự trữ mỡ ít"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Giao dịch hợp pháp trong giới nuôi bò sát cảnh, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Ruy Băng Phương Đông (Sub-adult)",
+        "priceVnd": 1700000,
+        "descriptionVi": "Cá thể sọc vàng thẳng nét, ăn cá mồi sạch tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Thamnophis saurita Stanton 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thamnophis_saurita_Stanton_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Thamnophis_saurita_Stanton_1.jpg",
+        "width": 6960,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Common Ribbon Snake, North Carolina, US imported from iNaturalist photo 415276091.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Ribbon_Snake,_North_Carolina,_US_imported_from_iNaturalist_photo_415276091.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Common_Ribbon_Snake%2C_North_Carolina%2C_US_imported_from_iNaturalist_photo_415276091.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Matthew, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2457577",
+      "https://www.iucnredlist.org/species/63991/12727431",
+      "https://en.wikipedia.org/wiki/Thamnophis_saurita",
+      "https://vi.wikipedia.org/wiki/Thamnophis_sauritus"
+    ]
+  },
+  {
+    "scientificName": "Elaphe climacophora",
+    "commonNameVi": "Rắn Chuột Nhật Bản Aodaisho",
+    "commonNameEn": "Japanese Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/47755764/47755773",
+    "gbifKey": 2458390,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ôn đới, ruộng bậc thang và khu dân cư nông thôn Nhật Bản"
+    },
+    "descriptionVi": "Loài rắn lớn và quen thuộc nhất quần đảo Nhật Bản, mang màu xanh ô-liu pha ngọc bích thanh tao và được tôn vinh như thần hộ mệnh kho thóc.",
+    "conservationNoteVi": "Đặc hữu nhưng phân bố rộng khắp các đảo chính của Nhật Bản với quần thể ổn định, mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Tại thị trấn Iwakuni (Nhật Bản), quần thể rắn Aodaisho bạch tạng tự nhiên được công nhận là Di tích Tự nhiên Quốc gia và thờ phụng như sứ giả của nữ thần Benzaiten.",
+    "dietVi": "Động vật ăn thịt: chuột, chim, trứng chim và ếch cây.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.65
+    },
+    "regionVi": "Nhật Bản",
+    "otherNamesVi": [
+      "Rắn Aodaisho",
+      "Rắn chuột Kunashir"
+    ],
+    "synonyms": [
+      "Coluber climacophorus",
+      "Coluber virgatus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_climacophora",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_rat_snake",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 180,
+      "weightGMin": 400,
+      "weightGMax": 1100,
+      "heightCmMax": null,
+      "noteVi": "Loài rắn dài nhất trên các đảo chính Nhật Bản"
+    },
+    "distribution": {
+      "countries": [
+        "JP",
+        "RU"
+      ],
+      "nativeRangeVi": "Hokkaido, Honshu, Shikoku, Kyushu (Nhật Bản) và đảo Kunashir",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng và rừng hỗn giao",
+      "Bờ ruộng và trang trại",
+      "Vườn cây cổ thụ"
+    ],
+    "identificationVi": "Con trưởng thành có màu xanh xám, xanh ô-liu hoặc xanh ngọc lam (nhất là quần thể đảo Kunashir) với bốn dải sọc dọc mờ chạy dọc thân.",
+    "behaviorVi": "Leo trèo cực kỳ khéo léo trên mái nhà và tán cây cao, tính tình điềm đạm và hiếu kỳ.",
+    "reproductionVi": "Đẻ 6–16 trứng vào tháng 7, trứng nở sau khoảng 55–65 ngày.",
+    "threatsVi": [
+      "Đô thị hóa làm giảm diện tích đồng ruộng truyền thống"
+    ],
+    "funFactsVi": [
+      "Tên tiếng Nhật Aodaisho có nghĩa là 'Vị đại tướng màu xanh', phản ánh kích thước lớn và bộ vảy ánh xanh lục của loài rắn này."
+    ],
+    "similarSpecies": [
+      "Elaphe quadrivirgata",
+      "Elaphe schrenckii"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 120×50×60 cm có nhiều nhánh cây leo khỏe và hộp ẩm.",
+      "lightingVi": "Điểm sưởi vừa phải 28–30°C, không cần quá nóng.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–12 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Bỏ ăn nếu nhiệt độ môi trường vượt quá 31°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các dòng nhân giống thương mại (đặc biệt dòng Kunashir Island xanh ngọc và Albino) được nuôi phổ biến trên thế giới, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Nhật Bản Kunashir Locale CB (Juvenile)",
+        "priceVnd": 3500000,
+        "descriptionVi": "Cá thể nhân giống dòng đảo Kunashir đang bắt đầu lên ánh xanh ngọc."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elaphe climacophora in Hamada 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_climacophora_in_Hamada_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Elaphe_climacophora_in_Hamada_04.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe climacophora 42573268.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_climacophora_42573268.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Elaphe_climacophora_42573268.jpg",
+        "width": 1152,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Daniel J. Layton",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Japan-Snake-Center-Greenhouse-for-Tropical-Snakes-2018021103.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Japan-Snake-Center-Greenhouse-for-Tropical-Snakes-2018021103.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Japan-Snake-Center-Greenhouse-for-Tropical-Snakes-2018021103.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Hasec",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe climacophora Ile aux Serpents 201108 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_climacophora_Ile_aux_Serpents_201108_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Elaphe_climacophora_Ile_aux_Serpents_201108_2.jpg",
+        "width": 2268,
+        "height": 1686,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult Elaphe climacophora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Elaphe_climacophora.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Adult_Elaphe_climacophora.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "harumkoh",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458390",
+      "https://www.iucnredlist.org/species/47755764/47755773",
+      "https://en.wikipedia.org/wiki/Japanese_rat_snake",
+      "https://vi.wikipedia.org/wiki/Elaphe_climacophora"
+    ]
+  },
+  {
+    "scientificName": "Elaphe quadrivirgata",
+    "commonNameVi": "Rắn Bốn Sọc Nhật Bản",
+    "commonNameEn": "Japanese Four-lined Ratsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/47755783/47755792",
+    "gbifKey": 2458480,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ, bờ suối, ruộng lúa và suối nước nóng tự nhiên tại Nhật Bản"
+    },
+    "descriptionVi": "Loài rắn đặc hữu Nhật Bản nổi tiếng với tròng mắt màu đỏ hồng ngọc và bốn đường sọc đen chạy thẳng tắp dọc tấm lưng vàng đồng.",
+    "conservationNoteVi": "Phổ biến rộng khắp quần đảo Nhật Bản nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Đôi mắt đỏ rực như hồng ngọc kết hợp với kiểu hình hắc tố đen tuyền Karasu-hebi khiến loài rắn Nhật Bản này mang vẻ đẹp đầy cuốn hút.",
+    "dietVi": "Động vật ăn thịt: ếch nhái, thằn lằn, chuột nhỏ và rắn nhỏ.",
+    "lifespanVi": "12–16 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kyoto, Nhật Bản",
+      "lat": 35.01,
+      "lng": 135.77
+    },
+    "regionVi": "Nhật Bản",
+    "otherNamesVi": [
+      "Rắn Shima-hebi",
+      "Rắn quạ đen Karasu-hebi"
+    ],
+    "synonyms": [
+      "Coluber quadrivirgatus",
+      "Coluber vulneratus",
+      "Elaphis bilineatus",
+      "Leptophidium dorsale"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_quadrivirgata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_striped_snake",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 140,
+      "weightGMin": 250,
+      "weightGMax": 650,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể thon gọn, cực kỳ nhanh nhẹn"
+    },
+    "distribution": {
+      "countries": [
+        "JP",
+        "RU"
+      ],
+      "nativeRangeVi": "Hokkaido, Honshu, Shikoku, Kyushu (Nhật Bản) và đảo Kunashir",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ ruộng lúa và kênh suối",
+      "Rừng thưa đồi thấp",
+      "Khu vực quanh suối khoáng nóng"
+    ],
+    "identificationVi": "Mống mắt màu đỏ cam rực rỡ, thân màu vàng nâu hoặc đồng với 4 dải sọc đen chạy dọc từ cổ tới đuôi; có biến thể hắc tố tự nhiên đen tuyền cả mặt bụng.",
+    "behaviorVi": "Hoạt động ban ngày, di chuyển rất nhanh và có phản xạ rung đuôi cảnh báo khi bị bất ngờ.",
+    "reproductionVi": "Đẻ 6–15 trứng vào tháng 7, trứng nở sau 45–55 ngày.",
+    "threatsVi": [
+      "Suy giảm quần thể ếch nhái trên đồng ruộng do hóa chất nông nghiệp"
+    ],
+    "funFactsVi": [
+      "Các cá thể nhiễm hắc tố đen tuyền hoàn toàn trong tự nhiên được người Nhật gọi riêng là Karasu-hebi, nghĩa là 'rắn quạ'."
+    ],
+    "similarSpecies": [
+      "Elaphe climacophora",
+      "Elaphe quatuorlineata"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm thoáng mát với khay nước rộng và nhiều nơi ẩn nấp.",
+      "lightingVi": "Điểm sưởi 28–30°C, chiếu sáng ban ngày 12 giờ.",
+      "feedingVi": "Cá thể CB ăn tốt chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Khá nhanh nhẹn khi mở cửa chuồng nên cần thao tác nhẹ nhàng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp trong nuôi nhốt (nhất là dòng Melanistic Karasu), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Bốn Sọc Nhật Bản Melanistic Karasu CB (Juvenile)",
+        "priceVnd": 3800000,
+        "descriptionVi": "Biến thể đen tuyền mắt đỏ hồng ngọc nhân giống nuôi nhốt, ăn chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elaphe quadrivirgata around farm road in Yame.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quadrivirgata_around_farm_road_in_Yame.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Elaphe_quadrivirgata_around_farm_road_in_Yame.jpg",
+        "width": 5000,
+        "height": 2500,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Peka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe quadrivirgata.P1060303.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quadrivirgata.P1060303.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Elaphe_quadrivirgata.P1060303.jpg",
+        "width": 2140,
+        "height": 2675,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yasunori Koide",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe quadrivirgata in Shimane 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quadrivirgata_in_Shimane_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Elaphe_quadrivirgata_in_Shimane_01.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe quadrivirgata capturing rat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quadrivirgata_capturing_rat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Elaphe_quadrivirgata_capturing_rat.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Σωτήρης Μπόγρης Sbogris",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe quadrivirgata1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quadrivirgata1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Elaphe_quadrivirgata1.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458480",
+      "https://www.iucnredlist.org/species/47755783/47755792",
+      "https://en.wikipedia.org/wiki/Japanese_striped_snake",
+      "https://vi.wikipedia.org/wiki/Elaphe_quadrivirgata"
+    ]
+  },
+  {
+    "scientificName": "Elaphe dione",
+    "commonNameVi": "Rắn Chuột Thảo Nguyên Á Âu",
+    "commonNameEn": "Dione's Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/157275/747623",
+    "gbifKey": 2458400,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên, rừng thưa, thung lũng sông và bán sa mạc từ Đông Âu đến Đông Á"
+    },
+    "descriptionVi": "Loài rắn nước có phạm vi phân bố rộng bậc nhất lục địa Á Âu, hiền lành, nhỏ gọn và sở hữu hàng chục kiểu hình địa lý khác nhau.",
+    "conservationNoteVi": "Phân bố trải dài từ Đông Âu qua Trung Á đến Trung Quốc, Hàn Quốc và Nga nên giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Trải dài qua hơn bảy múi giờ từ bờ biển Đen đến tận Thái Bình Dương, rắn chuột Dione thích nghi từ thảo nguyên băng giá Siberia tới ốc đảo sa mạc Gobi.",
+    "dietVi": "Động vật ăn thịt: chuột nhắt, thằn lằn, chim nhỏ và trứng chim.",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Primorsky, Nga",
+      "lat": 43.12,
+      "lng": 131.89
+    },
+    "regionVi": "Đông Âu, Trung Á và Đông Á",
+    "otherNamesVi": [
+      "Rắn chuột Dione"
+    ],
+    "synonyms": [
+      "Coluber diana",
+      "Coluber dione",
+      "Coluber dione cumana",
+      "Coluber eremita"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_dione",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Steppe_rat_snake",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 70,
+      "lengthCmMax": 105,
+      "weightGMin": 180,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài nhỏ nhất chi Elaphe"
+    },
+    "distribution": {
+      "countries": [
+        "UA",
+        "RU",
+        "KZ",
+        "UZ",
+        "KG",
+        "TJ",
+        "TM",
+        "IR",
+        "AF",
+        "MN",
+        "CN",
+        "KP",
+        "KR"
+      ],
+      "nativeRangeVi": "Từ miền đông Ukraine, miền nam Nga qua Trung Á, Mông Cổ đến bắc Trung Quốc và bán đảo Triều Tiên",
+      "elevationM": {
+        "min": -20,
+        "max": 3200
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên ôn đới",
+      "Bìa rừng hỗn giao",
+      "Thung lũng đá và bờ suối"
+    ],
+    "identificationVi": "Đầu nhỏ có vệt đen kéo từ sau mắt xuống khóe miệng; lưng màu xám nâu, vàng kem hoặc đỏ gạch với hai sọc dọc mờ và các vạch ngang nhỏ.",
+    "behaviorVi": "Cực kỳ hiền lành, chịu lạnh tốt và hoạt động ban ngày trên cả mặt đất lẫn cây bụi thấp.",
+    "reproductionVi": "Đẻ 5–12 trứng có vỏ da dày vào đầu mùa hè; trứng đã phát triển phôi một phần trong bụng mẹ nên nở chỉ sau 25–35 ngày.",
+    "threatsVi": [
+      "Canh tác thảo nguyên quy mô lớn ở một số vùng"
+    ],
+    "funFactsVi": [
+      "Nhờ giữ trứng trong ống dẫn trứng lâu hơn các loài rắn khác trước khi đẻ, trứng của Elaphe dione chỉ mất chưa đầy một tháng để nở trong mùa hè ngắn ngủi phương Bắc."
+    ],
+    "similarSpecies": [
+      "Elaphe schrenckii",
+      "Elaphe quatuorlineata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm thoáng mát, lót nền khô ráo có hang trú.",
+      "lightingVi": "Điểm sưởi 28–30°C, nhiệt độ nền mát 20–24°C.",
+      "feedingVi": "Ăn chuột nhắt rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Ít bệnh tật, chỉ cần tránh nhiệt độ chuồng quá nóng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại rất phổ biến theo từng vùng địa lý (Beijing Red, Vladivostok, Albino), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Dione Đỏ Bắc Kinh (Juvenile CB)",
+        "priceVnd": 2500000,
+        "descriptionVi": "Cá thể nhân giống lên sắc đỏ gạch rõ nét, cực kỳ hiền lành."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Візерунковий полоз Elaphe dione (Pallas, 1773).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7_Elaphe_dione_(Pallas,_1773).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7_Elaphe_dione_%28Pallas%2C_1773%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Моховинка",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe dione.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_dione.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Elaphe_dione.JPG",
+        "width": 810,
+        "height": 620,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vladimir Yu. Arkhipov, Arkhivov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Steppennattern - 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Steppennattern_-_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Steppennattern_-_01.jpg",
+        "width": 3072,
+        "height": 2048,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Torsten Wenzel (photocase.at)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Білокузминівка. Зелений змій..jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%96%D0%BB%D0%BE%D0%BA%D1%83%D0%B7%D0%BC%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B0._%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B7%D0%BC%D1%96%D0%B9..jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/%D0%91%D1%96%D0%BB%D0%BE%D0%BA%D1%83%D0%B7%D0%BC%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B0._%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B7%D0%BC%D1%96%D0%B9..jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Lyonlyon",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458400",
+      "https://www.iucnredlist.org/species/157275/747623",
+      "https://en.wikipedia.org/wiki/Steppe_rat_snake",
+      "https://vi.wikipedia.org/wiki/Elaphe_dione"
+    ]
+  },
+  {
+    "scientificName": "Elaphe carinata",
+    "commonNameVi": "Rắn Hổ Vương",
+    "commonNameEn": "King Ratsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/192025/2029654",
+    "gbifKey": 2458466,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi núi rừng cây lá rộng, thung lũng đá và ruộng bậc thang Đông Á"
+    },
+    "descriptionVi": "Loài rắn nước cỡ lớn vùng Đông Á có những hàng vảy lưng gồ cao sắc cạnh viền vàng đen như vảy rồng và tập tính chuyên săn các loài rắn khác.",
+    "conservationNoteVi": "Phân bố rộng ở Trung Quốc, Đài Loan, Nhật Bản và miền Bắc Việt Nam nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Những chiếc vảy lớn có gờ nổi cao màu vàng viền đen trên cổ khiến rắn hổ vương trông như đang khoác bộ giáp vảy rồng truyền thống Á Đông.",
+    "dietVi": "Động vật ăn thịt: rắn khác, chuột, chim và ếch nhái.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đài Loan",
+      "lat": 23.7,
+      "lng": 120.96
+    },
+    "regionVi": "Đông Á và Bắc Việt Nam",
+    "otherNamesVi": [
+      "Rắn vảy rồng",
+      "Rắn xú mẫu thần"
+    ],
+    "synonyms": [
+      "Coluber camillo-schneideri",
+      "Coluber phyllophis",
+      "Elaphe carinata deqenensis",
+      "Elaphe carinata deqinensis"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%8Dc_g%E1%BB%9D",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Elaphe_carinata",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 150,
+      "lengthCmMax": 220,
+      "weightGMin": 800,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể lớn, vảy lưng có sống gờ rất rõ"
+    },
+    "distribution": {
+      "countries": [
+        "CN",
+        "TW",
+        "JP",
+        "VN"
+      ],
+      "nativeRangeVi": "Miền trung và nam Trung Quốc, Đài Loan, quần đảo Senkaku (Nhật Bản) và vùng núi cực bắc Việt Nam",
+      "elevationM": {
+        "min": 100,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng cận nhiệt đới",
+      "Sườn đồi cây bụi đá",
+      "Ven ruộng bậc thang"
+    ],
+    "identificationVi": "Vảy lưng lớn có gờ nổi cao sắc nét; nửa thân trước có hoa văn lưới đen vàng tương phản cao, nửa thân sau chuyển dần sang màu vàng đồng viền vảy đen.",
+    "behaviorVi": "Rất lanh lợi, cảnh giác; cá thể hoang dã có tuyến xạ mùi rất nồng nhưng cá thể nhân giống CB từ nhỏ hoàn toàn không tiết mùi khi cầm.",
+    "reproductionVi": "Đẻ 8–16 trứng lớn vào đầu mùa hè, trứng nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Bị săn bắt làm thực phẩm và dược liệu trong tự nhiên"
+    ],
+    "funFactsVi": [
+      "Giống như rắn vua châu Mỹ, rắn hổ vương châu Á cũng săn bắt nhiều loài rắn khác kể cả rắn lục độc trong khu vực phân bố của chúng."
+    ],
+    "similarSpecies": [
+      "Ptyas carinata",
+      "Elaphe anomalolepis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lớn tối thiểu 120×60×60 cm đến 150×60×60 cm, thoáng khí tốt.",
+      "lightingVi": "Điểm sưởi 28–30°C, vùng mát 22–24°C.",
+      "feedingVi": "Cá thể CB ăn chuột đông lạnh rã đông 10–14 ngày/lần.",
+      "socialVi": "Tuyệt đối nuôi đơn độc vì có tập tính ăn thịt rắn khác.",
+      "commonProblemsVi": [
+        "Cần không gian chuồng rộng và dọn vệ sinh thường xuyên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES hay Nghị định 84/2021; các dòng CB (Albino, Hypo) được nhân giống thương mại hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Hổ Vương King Ratsnake Albino T+ CB (Juvenile)",
+        "priceVnd": 2900000,
+        "descriptionVi": "Cá thể nhân giống màu vàng cam rực rỡ, đã dạn người và ăn chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elaphe carinata à Taïwan 2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_carinata_%C3%A0_Ta%C3%AFwan_2018.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Elaphe_carinata_%C3%A0_Ta%C3%AFwan_2018.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Taiwankengo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe carinata 250944274.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_carinata_250944274.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Elaphe_carinata_250944274.jpg",
+        "width": 1080,
+        "height": 1920,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Manis Lin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ferme des Reptiles - Elaphe carinata 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Elaphe_carinata_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ferme_des_Reptiles_-_Elaphe_carinata_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Reptile in Artis (2128938379).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Reptile_in_Artis_(2128938379).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Reptile_in_Artis_%282128938379%29.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Antonio Manfredonio from Napoli, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe carinata in Soochow University 20070428.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_carinata_in_Soochow_University_20070428.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Elaphe_carinata_in_Soochow_University_20070428.jpg",
+        "width": 2848,
+        "height": 2136,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "Allentchang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458466",
+      "https://www.iucnredlist.org/species/192025/2029654",
+      "https://en.wikipedia.org/wiki/Elaphe_carinata",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%8Dc_g%E1%BB%9D"
+    ]
+  },
+  {
+    "scientificName": "Elaphe schrenckii",
+    "commonNameVi": "Rắn Chuột Amur",
+    "commonNameEn": "Amur Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/192165/2049795",
+    "gbifKey": 2458438,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng hỗn giao lá rộng - lá kim và thung lũng sông vùng Viễn Đông Nga, Đông Bắc Trung Quốc và Triều Tiên"
+    },
+    "descriptionVi": "Loài rắn lớn vùng rừng taiga Amur có bộ vảy đen bóng điểm các vạch chéo màu vàng ngà hoặc trắng kem tương phản mạnh mẽ và tính tình cực kỳ hiền hậu.",
+    "conservationNoteVi": "Phân bố rộng và ổn định tại lưu vực sông Amur, Đông Bắc Trung Quốc và bán đảo Triều Tiên nên ở mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Dù mang kích thước bề thế với bộ khoanh đen vàng uy nghi, rắn chuột Amur lại nổi tiếng là một trong những loài rắn lớn hiền lành và điềm tĩnh nhất thế giới.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, chim, trứng chim và dơi.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Amur, Viễn Đông Nga",
+      "lat": 48.48,
+      "lng": 135.07
+    },
+    "regionVi": "Đông Bắc Á",
+    "otherNamesVi": [
+      "Rắn nước Nga",
+      "Rắn chuột Mãn Châu"
+    ],
+    "synonyms": [
+      "Coluber virgatus",
+      "Elaphe schrenckii schrenckii"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_schrenckii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Elaphe_schrenckii",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 130,
+      "lengthCmMax": 180,
+      "weightGMin": 600,
+      "weightGMax": 1500,
+      "heightCmMax": null,
+      "noteVi": "Thân hình vạm vỡ nhưng rất hiền"
+    },
+    "distribution": {
+      "countries": [
+        "RU",
+        "CN",
+        "MN",
+        "KP",
+        "KR"
+      ],
+      "nativeRangeVi": "Viễn Đông Nga, Đông Bắc Trung Quốc, đông Mông Cổ và toàn bộ bán đảo Triều Tiên",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng hỗn giao ôn đới",
+      "Bờ sông suối rừng",
+      "Vườn cây và bìa làng"
+    ],
+    "identificationVi": "Con trưởng thành có nền đen bóng như sơn mài hoặc nâu đen với 22–35 dải vạch ngang chéo màu vàng tươi hoặc trắng ngà chẻ đôi ở hai bên sườn.",
+    "behaviorVi": "Leo cây và bơi lội đều giỏi, hoàn toàn không hung dữ và thường tò mò quan sát người nuôi từ trong chuồng.",
+    "reproductionVi": "Đẻ 8–20 trứng vào giữa mùa hè, trứng nở sau khoảng 45–55 ngày.",
+    "threatsVi": [
+      "Khai thác gỗ rừng nguyên sinh ở một số khu vực"
+    ],
+    "funFactsVi": [
+      "Con non mới nở của loài này có màu xám nâu đốm tối hoàn toàn khác biệt, phải sau 1–2 năm tuổi mới lột xác chuyển thành màu đen khoanh vàng rực rỡ."
+    ],
+    "similarSpecies": [
+      "Elaphe anomala",
+      "Lampropeltis californiae"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 120×60×60 cm thoáng mát với cành cây lớn chắc chắn.",
+      "lightingVi": "Điểm sưởi nhẹ 28–30°C, vùng mát 20–23°C.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 10–14 ngày/lần khi trưởng thành.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Không chịu được nhiệt độ nóng bức trên 30°C kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong nuôi nhốt tại châu Âu, Mỹ và châu Á, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Amur Russian Rat Snake CB (Juvenile)",
+        "priceVnd": 3600000,
+        "descriptionVi": "Cá thể nhân giống đang lên khoanh đen vàng rõ nét, cực kỳ dạn tay."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elaphe Schrenckii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_Schrenckii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Elaphe_Schrenckii.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Michał Bielawski",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Colubridae - Elaphe schrenckii.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Colubridae_-_Elaphe_schrenckii.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Colubridae_-_Elaphe_schrenckii.JPG",
+        "width": 1450,
+        "height": 1089,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hectonichus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Полоз амурский.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BB%D0%BE%D0%B7_%D0%B0%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B7_%D0%B0%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Sonya Nefedova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Амурский полоз Гродно.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Шатилло Г.В.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Амурский полоз.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7.jpg",
+        "width": 2800,
+        "height": 1710,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Гурьева Светлана (zooclub.ru)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458438",
+      "https://www.iucnredlist.org/species/192165/2049795",
+      "https://en.wikipedia.org/wiki/Elaphe_schrenckii",
+      "https://vi.wikipedia.org/wiki/Elaphe_schrenckii"
+    ]
+  },
+  {
+    "scientificName": "Elaphe quatuorlineata",
+    "commonNameVi": "Rắn Bốn Sọc Châu Âu",
+    "commonNameEn": "Four-lined Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/157264/204978521",
+    "gbifKey": 9099408,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa Địa Trung Hải, tường đá cổ và vườn ô-liu Nam Âu"
+    },
+    "descriptionVi": "Một trong những loài rắn không độc lớn nhất châu Âu với bốn đường kẻ đen chạy dọc tấm lưng nâu vàng và tính khí vô cùng ôn hòa.",
+    "conservationNoteVi": "Được IUCN xếp mức Gần bị đe dọa (NT) hoặc Ít quan tâm (LC) tùy kỳ đánh giá khu vực do mất sinh cảnh nông thôn truyền thống vùng Địa Trung Hải.",
+    "pullQuoteVi": "Trong các nghi lễ cổ xưa tại vùng Abruzzo nước Ý, rắn bốn sọc được người dân quấn lên tượng thánh Domenico vì bản tính hiền lành không bao giờ cắn người.",
+    "dietVi": "Động vật ăn thịt: chuột, sóc, thỏ non, chim và trứng chim.",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Abruzzo, Ý",
+      "lat": 42.35,
+      "lng": 13.4
+    },
+    "regionVi": "Nam Âu và Balkan",
+    "otherNamesVi": [
+      "Rắn chuột bốn sọc Địa Trung Hải"
+    ],
+    "synonyms": [
+      "Coluber nauii",
+      "Coluber pictus",
+      "Coluber poecilocephalus",
+      "Coluber quadristriatus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_quatuorlineata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Four-lined_snake",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 130,
+      "lengthCmMax": 200,
+      "weightGMin": 600,
+      "weightGMax": 1600,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài rắn lớn nhất châu Âu"
+    },
+    "distribution": {
+      "countries": [
+        "IT",
+        "SI",
+        "HR",
+        "BA",
+        "ME",
+        "AL",
+        "MK",
+        "GR"
+      ],
+      "nativeRangeVi": "Miền trung và nam nước Ý cùng bờ tây bán đảo Balkan từ Slovenia xuống Hy Lạp",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng sồi thưa Địa Trung Hải",
+      "Vườn cây ô-liu và tường đá khô",
+      "Thung lũng ven suối"
+    ],
+    "identificationVi": "Con trưởng thành màu nâu vàng hoặc đồng có 4 dải sọc đen đậm chạy song song dọc thân và một vệt đen kéo từ mắt ra sau hàm.",
+    "behaviorVi": "Di chuyển chậm rãi, rất điềm tĩnh nhưng leo cây và bơi lội đều tốt.",
+    "reproductionVi": "Đẻ 6–16 trứng vào đầu mùa hè, trứng nở sau 50–65 ngày.",
+    "threatsVi": [
+      "Cơ giới hóa nông nghiệp làm mất các bờ tường đá khô và hàng rào cây bụi"
+    ],
+    "funFactsVi": [
+      "Lễ hội rước rắn tại làng Cocullo (Ý) có lịch sử hàng thế kỷ luôn chọn loài rắn này làm tâm điểm nhờ tính cách hiền hòa đặc biệt của chúng."
+    ],
+    "similarSpecies": [
+      "Elaphe sauromates",
+      "Zamenis longissimus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài được bảo vệ nghiêm ngặt theo Công ước Bern và Phụ lục II/IV Chỉ thị Sinh cảnh Liên minh Châu Âu, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Kravosas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kravosas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kravosas.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fraxinus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe quatuorlineata 685312386.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quatuorlineata_685312386.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Elaphe_quatuorlineata_685312386.jpg",
+        "width": 1520,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Lorenzo De Luca",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe-quatuorlineata-parensis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe-quatuorlineata-parensis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Elaphe-quatuorlineata-parensis.jpg",
+        "width": 600,
+        "height": 800,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Bernie2004",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Four-lined Snake imported from iNaturalist photo 285950415 on 7 March 2024.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Four-lined_Snake_imported_from_iNaturalist_photo_285950415_on_7_March_2024.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Four-lined_Snake_imported_from_iNaturalist_photo_285950415_on_7_March_2024.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "(c) Daniel Linzbauer, some rights reserved (CC BY)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe quatuorlineata 180988289.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_quatuorlineata_180988289.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elaphe_quatuorlineata_180988289.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kristof Zyskowski",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9099408",
+      "https://www.iucnredlist.org/species/157264/204978521",
+      "https://en.wikipedia.org/wiki/Four-lined_snake",
+      "https://vi.wikipedia.org/wiki/Elaphe_quatuorlineata"
+    ]
+  },
+  {
+    "scientificName": "Elaphe sauromates",
+    "commonNameVi": "Rắn Bốn Sọc Phương Đông",
+    "commonNameEn": "Blotched Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Elaphe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Elaphe"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/200130337/200130864",
+    "gbifKey": 2458386,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên đá, rừng thưa và sườn đồi khô Đông Nam Âu đến Tây Á"
+    },
+    "descriptionVi": "Họ hàng phương Đông của rắn bốn sọc châu Âu, giữ nguyên hàng đốm yên ngựa nâu đen sắc nét trên nền vàng rơm suốt cả đời trưởng thành.",
+    "conservationNoteVi": "Phân bố rộng từ Đông Balkan qua Thổ Nhĩ Kỳ, Kavkaz tới Tây Kazakstan nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Trong khi người anh em phía Tây chuyển sang bốn sọc dọc khi lớn, loài rắn phương Đông này vẫn giữ trọn chuỗi hoa văn đốm yên ngựa cổ điển suốt cuộc đời.",
+    "dietVi": "Động vật ăn thịt: sóc đất, chuột thảo nguyên, chim làm tổ mặt đất và trứng.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Thrace, Thổ Nhĩ Kỳ",
+      "lat": 41.67,
+      "lng": 26.56
+    },
+    "regionVi": "Đông Nam Âu và Tây Á",
+    "otherNamesVi": [
+      "Rắn đốm Sarmatian"
+    ],
+    "synonyms": [
+      "Coluber cereus",
+      "Coluber fulvus",
+      "Coluber sauromates",
+      "Coluber thaeniothys"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Elaphe_sauromates",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Blotched_snake",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 170,
+      "weightGMin": 500,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Thân hình chắc khỏe"
+    },
+    "distribution": {
+      "countries": [
+        "BG",
+        "RO",
+        "MD",
+        "UA",
+        "RU",
+        "GR",
+        "TR",
+        "GE",
+        "AM",
+        "AZ",
+        "IR",
+        "KZ"
+      ],
+      "nativeRangeVi": "Đông Hy Lạp, Bulgaria, Romania, Ukraine đến Thổ Nhĩ Kỳ, vùng Kavkaz và tây bắc Iran",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên khô",
+      "Sườn đồi đá và cây bụi",
+      "Bìa rừng sồi"
+    ],
+    "identificationVi": "Nền da vàng tươi hoặc nâu sáng với khoảng 50 đốm lưng hình bầu dục màu nâu đen đậm chạy dọc từ cổ xuống đuôi ngay cả ở con trưởng thành.",
+    "behaviorVi": "Hoạt động ban ngày, thường tận dụng hang của sóc đất để trú nắng và ngủ đông.",
+    "reproductionVi": "Đẻ 6–16 trứng vào tháng 6–7, trứng nở vào cuối mùa hè.",
+    "threatsVi": [
+      "Cày xới thảo nguyên tự nhiên làm đất nông nghiệp"
+    ],
+    "funFactsVi": [
+      "Tên khoa học sauromates bắt nguồn từ người Sarmatia, bộ tộc kỵ binh cổ đại từng sinh sống trên vùng thảo nguyên Bắc Biển Đen."
+    ],
+    "similarSpecies": [
+      "Elaphe quatuorlineata",
+      "Elaphe dione"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài hoang dã được bảo vệ theo Công ước Bern tại châu Âu và ít nguồn nhân giống thương mại tại Việt Nam, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Elaphe sauromates 19(01). Serednya Khortytsya.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_sauromates_19(01)._Serednya_Khortytsya.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Elaphe_sauromates_19%2801%29._Serednya_Khortytsya.jpg",
+        "width": 2400,
+        "height": 1350,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Петроченко Віктор Іванович",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe sauromates 20(06). Virva.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_sauromates_20(06)._Virva.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Elaphe_sauromates_20%2806%29._Virva.jpg",
+        "width": 2400,
+        "height": 1500,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Петроченко Віктор Іванович",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe sauromates 20(10). Virva.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_sauromates_20(10)._Virva.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Elaphe_sauromates_20%2810%29._Virva.jpg",
+        "width": 2400,
+        "height": 1800,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Петроченко Віктор Іванович",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elaphe sauromates 19(03). Serednya Khortytsya.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_sauromates_19(03)._Serednya_Khortytsya.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Elaphe_sauromates_19%2803%29._Serednya_Khortytsya.jpg",
+        "width": 2200,
+        "height": 1500,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Петроченко Віктор Іванович",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458386",
+      "https://www.iucnredlist.org/species/200130337/200130864",
+      "https://en.wikipedia.org/wiki/Blotched_snake",
+      "https://vi.wikipedia.org/wiki/Elaphe_sauromates"
+    ]
+  },
+  {
+    "scientificName": "Zamenis situla",
+    "commonNameVi": "Rắn Báo Châu Âu",
+    "commonNameEn": "European Leopard Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Zamenis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Zamenis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/61444/12485786",
+    "gbifKey": 2458374,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 45,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tường đá khô, vườn ô-liu và sườn đồi cây bụi маquis vùng Địa Trung Hải"
+    },
+    "descriptionVi": "Được mệnh danh là loài rắn đẹp nhất châu Âu nhờ hàng đốm đỏ gạch viền đen nổi bật trên nền xám kem hoặc hai dải sọc đỏ chạy dọc lưng.",
+    "conservationNoteVi": "Phân bố tại Nam Ý, Balkan và Tây Thổ Nhĩ Kỳ với quần thể ổn định ở các vùng đồi đá, mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Với những đốm đỏ thẫm viền đen trên tấm lưng xám bạc, rắn báo châu Âu từ lâu đã được giới bò sát học xem là viên ngọc quý của vùng Địa Trung Hải.",
+    "dietVi": "Động vật ăn thịt: chuột nhắt, chuột chù và thằn lằn tường.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Apulia, Nam Ý",
+      "lat": 40.79,
+      "lng": 17.1
+    },
+    "regionVi": "Địa Trung Hải",
+    "otherNamesVi": [
+      "Rắn chuột báo"
+    ],
+    "synonyms": [
+      "Coluber leopardinus",
+      "Coluber situla",
+      "Elaphe situla"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zamenis_situla",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/European_ratsnake",
+    "iucnAssessedYear": 2009,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 70,
+      "lengthCmMax": 100,
+      "weightGMin": 140,
+      "weightGMax": 320,
+      "heightCmMax": null,
+      "noteVi": "Thân thon mảnh, thanh thoát"
+    },
+    "distribution": {
+      "countries": [
+        "IT",
+        "MT",
+        "HR",
+        "BA",
+        "ME",
+        "AL",
+        "MK",
+        "GR",
+        "BG",
+        "TR",
+        "UA"
+      ],
+      "nativeRangeVi": "Nam Ý, Sicily, Malta, bờ biển Balkan, Hy Lạp, tây Thổ Nhĩ Kỳ và bán đảo Crimea",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ tường đá khô Địa Trung Hải",
+      "Rừng cây bụi maquis",
+      "Vườn nho và ô-liu cổ"
+    ],
+    "identificationVi": "Nền xám bạc hoặc vàng kem với hai kiểu hình tự nhiên: đốm yên ngựa đỏ gạch viền đen (Spotted) hoặc hai sọc đỏ viền đen chạy dọc lưng (Striped).",
+    "behaviorVi": "Kín đáo, ưa chui luồn trong các khe tường đá và hoạt động vào sáng sớm hoặc chiều mát khi trời nắng gắt.",
+    "reproductionVi": "Đẻ số lượng ít chỉ từ 2–6 trứng thuôn dài vào đầu mùa hè, nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Phá bỏ các bờ tường đá truyền thống và mở rộng khu du lịch ven biển"
+    ],
+    "funFactsVi": [
+      "Dù chỉ đẻ 2 đến 5 trứng mỗi lứa, mỗi quả trứng của rắn báo châu Âu lại dài tới 5–6 cm, rất lớn so với cơ thể mảnh mai của rắn mẹ."
+    ],
+    "similarSpecies": [
+      "Pantherophis guttatus",
+      "Zamenis Hohenackeri"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng 80×45×45 cm khô thoáng, nhiều khe đá ẩn nấp và tránh nhiệt độ quá cao.",
+      "lightingVi": "Điểm sưởi 28–29°C, vùng mát 20–23°C; cần giai đoạn mát mẻ mùa đông.",
+      "feedingVi": "Ăn chuột nhắt cỡ nhỏ rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Nhạy cảm với độ ẩm quá cao và nhiệt độ trên 30°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Các dòng nhân giống thương mại nhiều thế hệ (Spotted & Striped CB) được giao dịch hợp pháp kèm giấy tờ nguồn gốc trại nuôi, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Báo Châu Âu Leopard Snake Striped CB (Juvenile)",
+        "priceVnd": 4200000,
+        "descriptionVi": "Cá thể nhân giống dòng sọc đỏ viền đen, ăn chuột pinky/fuzzy rã đông tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Zamenis situla 181473159.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zamenis_situla_181473159.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Zamenis_situla_181473159.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Stephan Kleinfelder",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Zamenis situla from Bulgaria 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zamenis_situla_from_Bulgaria_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Zamenis_situla_from_Bulgaria_2.jpg",
+        "width": 960,
+        "height": 1280,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "Atanas Grozdanov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leopardsnake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopardsnake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Leopardsnake.jpg",
+        "width": 2988,
+        "height": 3984,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Berkay353",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Luipaardslang.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luipaardslang.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Luipaardslang.JPG",
+        "width": 2016,
+        "height": 1512,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "No machine-readable author provided. Jpdr assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leopard Snake (Il-Lifgħa).png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopard_Snake_(Il-Lifg%C4%A7a).png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Leopard_Snake_%28Il-Lifg%C4%A7a%29.png",
+        "width": 1366,
+        "height": 768,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Saviour Bonnici",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458374",
+      "https://www.iucnredlist.org/species/61444/12485786",
+      "https://en.wikipedia.org/wiki/European_ratsnake",
+      "https://vi.wikipedia.org/wiki/Zamenis_situla"
+    ]
+  },
+  {
+    "scientificName": "Zamenis longissimus",
+    "commonNameVi": "Rắn Thần Y Aesculapian",
+    "commonNameEn": "Aesculapian Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Zamenis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Zamenis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/157266/49063773",
+    "gbifKey": 2458538,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 50,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng ấm áp, thung lũng sông và tàn tích đá cổ khắp Trung và Nam Âu"
+    },
+    "descriptionVi": "Loài rắn lịch sử gắn liền với cây gậy của thần Y học Asclepius trong văn minh Hy Lạp - La Mã cổ đại, nổi bật với bộ vảy nâu đồng điểm vệt trắng mảnh.",
+    "conservationNoteVi": "Phân bố rộng khắp Nam và Trung Âu tới vùng Kavkaz nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Hình ảnh con rắn quấn quanh cây gậy trên biểu tượng ngành Y thế giới ngày nay chính là chân dung của loài rắn Aesculapian hiền lành này.",
+    "dietVi": "Động vật ăn thịt: chuột rừng, sóc non, chim và thằn lằn.",
+    "lifespanVi": "18–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bán đảo Peloponnese, Hy Lạp",
+      "lat": 37.56,
+      "lng": 22.8
+    },
+    "regionVi": "Nam và Trung Âu đến Tây Á",
+    "otherNamesVi": [
+      "Rắn biểu tượng Y học"
+    ],
+    "synonyms": [
+      "Coluber aesculapi",
+      "Coluber auculapii",
+      "Coluber longissima",
+      "Coluber scopoli"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_Aesculape",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Aesculapian_snake",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 175,
+      "weightGMin": 350,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Thân dài, thanh mảnh và leo trèo cực giỏi"
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "ES",
+        "IT",
+        "CH",
+        "AT",
+        "DE",
+        "CZ",
+        "SK",
+        "PL",
+        "HU",
+        "RO",
+        "BG",
+        "GR",
+        "TR",
+        "GE"
+      ],
+      "nativeRangeVi": "Từ đông bắc Tây Ban Nha, Pháp, Ý, nam Đức qua Balkan đến bắc Thổ Nhĩ Kỳ và vùng Kavkaz",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng sồi và dẻ gai",
+      "Tường đá cổ và tàn tích",
+      "Thung lũng sông ấm áp"
+    ],
+    "identificationVi": "Lưng màu nâu ô-liu hoặc vàng đồng bóng mượt với các vạch trắng nhỏ li ti trên rìa vảy và hai đốm vàng nhạt phía sau gáy ở con non.",
+    "behaviorVi": "Leo cây rất điêu luyện nhờ rìa vảy bụng có gờ bám, tính tình hiền lành và thích sưởi nắng trên các bức tường đá.",
+    "reproductionVi": "Đẻ 5–12 trứng trong đống lá mục hoặc mùn gỗ vào tháng 6–7, nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Mất các cây cổ thụ có hốc và đống mùn làm tổ ở vùng cực bắc phân bố"
+    ],
+    "funFactsVi": [
+      "Người La Mã cổ đại từng mang loài rắn này nuôi quanh các đền thờ thần Asclepius và suối khoáng khắp châu Âu, tạo nên những quần thể biệt lập tồn tại đến tận ngày nay ở Đức và Thụy Sĩ."
+    ],
+    "similarSpecies": [
+      "Elaphe quatuorlineata",
+      "Hierophis viridiflavus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài di sản tự nhiên được bảo vệ nghiêm ngặt tại Liên minh Châu Âu (Phụ lục IV Chỉ thị Sinh cảnh), chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bois de l'Huisserie 06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bois_de_l%27Huisserie_06.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bois_de_l%27Huisserie_06.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fab5669",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Couleuvre-esculape-2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Couleuvre-esculape-2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Couleuvre-esculape-2.JPG",
+        "width": 2592,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chau7",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:998 Äskulapnatter-Elaphe longissima.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:998_%C3%84skulapnatter-Elaphe_longissima.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/998_%C3%84skulapnatter-Elaphe_longissima.jpg",
+        "width": 1574,
+        "height": 1181,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "author": "Dietmar Foelsche",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2019-05-19 (366) Bicycle tour Emmersdorf - Pöchlarn - Melk - Emmersdorf, Austria.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2019-05-19_(366)_Bicycle_tour_Emmersdorf_-_P%C3%B6chlarn_-_Melk_-_Emmersdorf,_Austria.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/2019-05-19_%28366%29_Bicycle_tour_Emmersdorf_-_P%C3%B6chlarn_-_Melk_-_Emmersdorf%2C_Austria.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "GT1976",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Couleuvre d'esculape.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Couleuvre_d%27esculape.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Couleuvre_d%27esculape.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Baptried",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458538",
+      "https://www.iucnredlist.org/species/157266/49063773",
+      "https://en.wikipedia.org/wiki/Aesculapian_snake",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_Aesculape"
+    ]
+  },
+  {
+    "scientificName": "Zamenis scalaris",
+    "commonNameVi": "Rắn Hình Thang",
+    "commonNameEn": "Ladder Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Zamenis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Zamenis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/61565/137857016",
+    "gbifKey": 9416124,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 40,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cây bụi Địa Trung Hải, rừng thông khô và vườn ô-liu bán đảo Iberia"
+    },
+    "descriptionVi": "Loài rắn đặc trưng của bán đảo Iberia và miền Nam nước Pháp, nổi tiếng với hoa văn hình chiếc thang trên lưng lúc nhỏ chuyển thành hai đường kẻ song song khi trưởng thành.",
+    "conservationNoteVi": "Phổ biến và thích nghi tốt với cảnh quan nông nghiệp Địa Trung Hải ở Tây Ban Nha, Bồ Đào Nha và Pháp, mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Con non mang họa tiết chiếc thang đen hoàn chỉnh dọc sống lưng, nhưng khi trưởng thành các bậc thang biến mất và chỉ còn lại hai thanh dọc song song.",
+    "dietVi": "Động vật ăn thịt: chuột đồng, chuột nhắt, thỏ con và chim.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Andalusia, Tây Ban Nha",
+      "lat": 37.39,
+      "lng": -5.98
+    },
+    "regionVi": "Tây Nam Châu Âu",
+    "otherNamesVi": [
+      "Rắn chuột bậc thang"
+    ],
+    "synonyms": [
+      "Coluber elaphis",
+      "Coluber hermannii",
+      "Coluber quater radiatus",
+      "Coluber scalaris"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zamenis_scalaris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ladder_snake",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 150,
+      "weightGMin": 350,
+      "weightGMax": 850,
+      "heightCmMax": null,
+      "noteVi": "Đầu hơi nhọn với vảy mõm nhô rõ"
+    },
+    "distribution": {
+      "countries": [
+        "ES",
+        "PT",
+        "FR"
+      ],
+      "nativeRangeVi": "Toàn bộ Bồ Đào Nha, phần lớn Tây Ban Nha và vùng ven biển Địa Trung Hải miền Nam nước Pháp",
+      "elevationM": {
+        "min": 0,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi Địa Trung Hải",
+      "Vườn nho và ô-liu",
+      "Tường đá và bìa rừng thông"
+    ],
+    "identificationVi": "Mõm hơi nhọn; con non màu xám vàng với hoa văn hình thang đen rõ rệt trên lưng, con trưởng thành màu nâu vàng chỉ giữ lại hai đường sọc đen chạy dọc lưng.",
+    "behaviorVi": "Săn mồi tích cực trên mặt đất và trong hang chuột, con non khá dữ để tự vệ nhưng dịu dần khi lớn.",
+    "reproductionVi": "Đẻ 5–15 trứng vào đầu mùa hè, trứng nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Tỷ lệ chết cao trên các tuyến đường nhựa cắt qua vùng đồi Địa Trung Hải"
+    ],
+    "funFactsVi": [
+      "Sự thay đổi hoa văn ngoạn mục từ hình thang ở con non sang hai sọc thẳng ở con lớn từng khiến các nhà tự nhiên học thế kỷ 18 tưởng nhầm đây là hai loài khác nhau."
+    ],
+    "similarSpecies": [
+      "Elaphe quatuorlineata",
+      "Malpolon monspessulanus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Được bảo vệ tại Tây Ban Nha, Bồ Đào Nha và Pháp theo luật bảo tồn châu Âu, không giao dịch thương mại tại Việt Nam."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Alligator Bay - Zamenis scalaris 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alligator_Bay_-_Zamenis_scalaris_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alligator_Bay_-_Zamenis_scalaris_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ladder Snake (Rhinechis scalaris) (35986082850).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ladder_Snake_(Rhinechis_scalaris)_(35986082850).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ladder_Snake_%28Rhinechis_scalaris%29_%2835986082850%29.jpg",
+        "width": 2080,
+        "height": 3036,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Benny Trapp Rhinechis scalaris Portugal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Benny_Trapp_Rhinechis_scalaris_Portugal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Benny_Trapp_Rhinechis_scalaris_Portugal.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Benny Trapp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ladder snake - Trapslang - Rhinechis scalaris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ladder_snake_-_Trapslang_-_Rhinechis_scalaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ladder_snake_-_Trapslang_-_Rhinechis_scalaris.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bouke ten Cate",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Micro Zoo de Saint Malo - Zamenis scalaris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Micro_Zoo_de_Saint_Malo_-_Zamenis_scalaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Micro_Zoo_de_Saint_Malo_-_Zamenis_scalaris.jpg",
+        "width": 4415,
+        "height": 2770,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9416124",
+      "https://www.iucnredlist.org/species/61565/137857016",
+      "https://en.wikipedia.org/wiki/Ladder_snake",
+      "https://vi.wikipedia.org/wiki/Zamenis_scalaris"
+    ]
+  },
+  {
+    "scientificName": "Coelognathus radiatus",
+    "commonNameVi": "Rắn Hổ Ngựa",
+    "commonNameEn": "Radiated Ratsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Coelognathus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Coelognathus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/191907/217765466",
+    "gbifKey": 5224321,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 31,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng ruộng, trảng cỏ, rừng thứ sinh và vùng ven làng mạc Đông Nam Á"
+    },
+    "descriptionVi": "Loài rắn nước cỡ lớn quen thuộc khắp Đông Nam Á với ba vệt đen tỏa ra như tia nắng từ mắt và thế phòng thủ phồng dẹp cổ cao chữ S đầy kịch tính.",
+    "conservationNoteVi": "Phân bố rộng từ Ấn Độ đến Indonesia nên được IUCN xếp mức Ít quan tâm (LC), nhưng tại Việt Nam thuộc nhóm hạn chế khai thác thương mại (IIB).",
+    "pullQuoteVi": "Khi bị dồn vào góc hẹp, rắn hổ ngựa dựng đứng phần thân trước, phồng cổ theo chiều dọc và cuộn hình chữ S giống như một chiếc lò xo sẵn sàng bung ra.",
+    "dietVi": "Động vật ăn thịt: chuột đồng, ếch nhái, thằn lằn và chim nhỏ.",
+    "lifespanVi": "12–16 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng Nai, Việt Nam",
+      "lat": 11.12,
+      "lng": 107.18
+    },
+    "regionVi": "Nam Á và Đông Nam Á",
+    "otherNamesVi": [
+      "Rắn sọc dưa"
+    ],
+    "synonyms": [
+      "Coluber quadrifasciatus",
+      "Coluber radiatus",
+      "Elaphe radiata",
+      "Tropidonotus quinque"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%8Dc_d%C6%B0a",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Radiated_ratsnake",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 140,
+      "lengthCmMax": 195,
+      "weightGMin": 500,
+      "weightGMax": 1300,
+      "heightCmMax": null,
+      "noteVi": "Thân thon dài, chạy cực nhanh"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "BD",
+        "MM",
+        "CN",
+        "LA",
+        "VN",
+        "KH",
+        "TH",
+        "MY",
+        "SG",
+        "ID"
+      ],
+      "nativeRangeVi": "Đông Ấn Độ, Bangladesh, Nam Trung Quốc và toàn bộ khu vực Đông Nam Á lục địa tới Java, Sumatra",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng ruộng và bờ đê",
+      "Rừng thứ sinh và trảng cây bụi",
+      "Vườn cây ăn quả"
+    ],
+    "identificationVi": "Đầu màu nâu đồng có vạch đen ngang sau chẩm và ba vệt đen tỏa ra từ mắt giống nan hoa; nửa thân trước có 4 sọc đen dọc trên nền vàng nâu.",
+    "behaviorVi": "Di chuyển nhanh như tên bắn vào ban ngày; khi không thể chạy trốn sẽ há miệng, phồng cổ theo chiều trên-dưới hoặc giả chết.",
+    "reproductionVi": "Đẻ 5–15 trứng mỗi lứa, có thể đẻ nhiều lứa trong năm ở vùng nhiệt đới.",
+    "threatsVi": [
+      "Bị săn bắt làm thực phẩm và ngâm rượu tại nhiều nước Đông Nam Á"
+    ],
+    "funFactsVi": [
+      "Là thiên địch số một của chuột đồng trên các cánh đồng lúa Việt Nam, giúp nhà nông bảo vệ mùa màng rất hiệu quả."
+    ],
+    "similarSpecies": [
+      "Coelognathus flavolineatus",
+      "Ptyas mucosa"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": "IIB",
+      "reasonVi": "Thuộc danh mục động vật rừng hạn chế khai thác, sử dụng vì mục đích thương mại (Nhóm IIB Nghị định 06/2019/NĐ-CP và 84/2021/NĐ-CP), không mở bán trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Coelognathus radiatus, Copperhead racer - Kaeng Krachan District, Phetchaburi (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coelognathus_radiatus,_Copperhead_racer_-_Kaeng_Krachan_District,_Phetchaburi_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Coelognathus_radiatus%2C_Copperhead_racer_-_Kaeng_Krachan_District%2C_Phetchaburi_%28cropped%29.jpg",
+        "width": 5459,
+        "height": 3653,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Coelognathus radiatus, Copperhead racer - Kaeng Krachan District, Phetchaburi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aggression on display.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aggression_on_display.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Aggression_on_display.jpg",
+        "width": 4640,
+        "height": 6960,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Drishtant Bidari",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Coelognathus radiatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coelognathus_radiatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Coelognathus_radiatus.jpg",
+        "width": 6823,
+        "height": 4549,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rushenb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Copper Headed Trinket Snake- Close peace view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Copper_Headed_Trinket_Snake-_Close_peace_view.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Copper_Headed_Trinket_Snake-_Close_peace_view.jpg",
+        "width": 3694,
+        "height": 5550,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lurey Rohit",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ferme des Reptiles - Coelognathus radiatus 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Coelognathus_radiatus_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ferme_des_Reptiles_-_Coelognathus_radiatus_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224321",
+      "https://www.iucnredlist.org/species/191907/217765466",
+      "https://en.wikipedia.org/wiki/Radiated_ratsnake",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%8Dc_d%C6%B0a"
+    ]
+  }
+]

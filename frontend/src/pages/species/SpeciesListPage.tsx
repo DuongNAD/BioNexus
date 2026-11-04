@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router';
 import { RotateCcw, SearchX, X } from 'lucide-react';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
-import { useProducts } from '@/api/queries/useProductQueries';
+import { useAllApprovedProducts } from '@/api/queries/useProductQueries';
 import { useTaxonomyDetail } from '@/api/queries/useTaxonomyQueries';
 import { SpeciesFilterBar, type BiologicalGroup, type SortOption } from './components/SpeciesFilterBar';
 import { SpeciesCard } from '@/components/domain/SpeciesCard';
@@ -18,6 +18,9 @@ import type { ConservationStatus } from '@/types/api';
 const SpeciesMapView = React.lazy(() =>
   import('./components/SpeciesMapView').then((m) => ({ default: m.SpeciesMapView }))
 );
+
+// 633 thẻ ảnh render một lần làm trang giật; hiện từng đợt, bấm Xem thêm để tải tiếp
+const PAGE_STEP = 24;
 
 const IUCN_WEIGHT: Record<ConservationStatus, number> = {
   CR: 5,
@@ -46,7 +49,7 @@ export const SpeciesListPage: React.FC = () => {
   const nodeQuery = useTaxonomyDetail(nodeFilter ?? 0, { enabled: Boolean(nodeFilter) });
 
   const speciesQuery = useSpeciesList(nodeFilter ? { nodeId: nodeFilter } : undefined);
-  const productsQuery = useProducts({ size: 48 });
+  const productsQuery = useAllApprovedProducts();
 
   const allSpecies = useMemo(() => speciesQuery.data || [], [speciesQuery.data]);
   const [mapSelection, setMapSelection] = useState<string | null>(null);
@@ -54,13 +57,20 @@ export const SpeciesListPage: React.FC = () => {
   // Số cá thể đang bán của từng loài (sàn chỉ trả sản phẩm APPROVED)
   const productCounts = useMemo(() => {
     const counts: Record<number, number> = {};
-    (productsQuery.data?.items || [])
-      .filter((p) => p.status === 'APPROVED')
-      .forEach((p) => {
-        counts[p.speciesId] = (counts[p.speciesId] || 0) + 1;
-      });
+    (productsQuery.data || []).forEach((p) => {
+      counts[p.speciesId] = (counts[p.speciesId] || 0) + 1;
+    });
     return counts;
-  }, [productsQuery.data?.items]);
+  }, [productsQuery.data]);
+
+  // Shop của sản phẩm đầu tiên đang bán mỗi loài, để cung bay trên địa cầu về đúng trại nhân giống
+  const shopBySpecies = useMemo(() => {
+    const map: Record<number, string> = {};
+    (productsQuery.data || []).forEach((p) => {
+      if (!map[p.speciesId] && p.displayShopName) map[p.speciesId] = p.displayShopName;
+    });
+    return map;
+  }, [productsQuery.data]);
 
   const iucnCounts = useMemo<Record<ConservationStatus, number>>(() => {
     const counts: Record<ConservationStatus, number> = { LC: 0, NT: 0, VU: 0, EN: 0, CR: 0, EW: 0, EX: 0 };
@@ -87,7 +97,7 @@ export const SpeciesListPage: React.FC = () => {
         if (queryParam) {
           // Tìm không phân biệt dấu trên tên thường, tên khoa học và nơi bản địa
           const q = normalizeSearchString(queryParam);
-          const haystack = [sp.commonName, sp.displayName, sp.scientificName, sp.slug, sp.origin.place];
+          const haystack = [sp.commonName, sp.displayName, sp.englishName, sp.scientificName, sp.slug, sp.origin.place];
           if (!haystack.some((text) => normalizeSearchString(text).includes(q))) return false;
         }
         return true;
@@ -102,6 +112,13 @@ export const SpeciesListPage: React.FC = () => {
         return a.displayName.localeCompare(b.displayName, 'vi');
       });
   }, [allSpecies, groupParam, iucnParam, queryParam, sortParam, productCounts]);
+
+  // Đổi bộ lọc thì quay về đợt đầu
+  const filterKey = [groupParam, iucnParam, queryParam, sortParam, nodeFilter].join('|');
+  const [paging, setPaging] = useState({ key: filterKey, count: PAGE_STEP });
+  const visibleCount = paging.key === filterKey ? paging.count : PAGE_STEP;
+  const visibleSpecies = filteredSpecies.slice(0, visibleCount);
+  const remaining = filteredSpecies.length - visibleSpecies.length;
 
   const onSaleTotal = Object.values(productCounts).reduce((sum, n) => sum + n, 0);
   const branchNode = nodeFilter ? nodeQuery.data?.node : undefined;
@@ -190,13 +207,26 @@ export const SpeciesListPage: React.FC = () => {
             </Button>
           </EmptyState>
         ) : viewParam === 'grid' ? (
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredSpecies.map((species) => (
-              <li key={species.id}>
-                <SpeciesCard species={species} productCount={productCounts[species.id] || 0} />
-              </li>
-            ))}
-          </ul>
+          <>
+            <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {visibleSpecies.map((species) => (
+                <li key={species.id}>
+                  <SpeciesCard species={species} productCount={productCounts[species.id] || 0} />
+                </li>
+              ))}
+            </ul>
+            <div className="mt-10 flex flex-col items-center gap-3">
+              <p className="text-sm text-fg-2" aria-live="polite">
+                Đang hiện <span className="font-mono text-fg">{visibleSpecies.length}</span> /{' '}
+                <span className="font-mono text-fg">{filteredSpecies.length}</span> loài
+              </p>
+              {remaining > 0 && (
+                <Button variant="secondary" pill onClick={() => setPaging({ key: filterKey, count: visibleCount + PAGE_STEP })}>
+                  Xem thêm {Math.min(PAGE_STEP, remaining)} loài
+                </Button>
+              )}
+            </div>
+          </>
         ) : (
           <React.Suspense
             fallback={<Skeleton className="h-[640px] w-full rounded-[20px]" role="status" aria-label="Đang tải bản đồ" />}
@@ -211,6 +241,7 @@ export const SpeciesListPage: React.FC = () => {
               }
               onSelectSpecies={setMapSelection}
               productCounts={productCounts}
+              shopBySpecies={shopBySpecies}
             />
           </React.Suspense>
         )}

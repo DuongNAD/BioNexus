@@ -6,7 +6,7 @@ import { SceneShell } from '@/components/3d/SceneShell';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { BioEarth } from '@/components/3d/BioEarth/BioEarth';
-import { toBioMarker } from '@/components/3d/BioEarth/coordinates';
+import { toBioMarker, ALL_BREEDING_HUBS } from '@/components/3d/BioEarth/coordinates';
 import { useQuality } from '@/components/3d/QualityProvider';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { cn } from '@/lib/cn';
@@ -17,6 +17,8 @@ export interface SpeciesMapViewProps {
   selectedScientificName: string | null;
   onSelectSpecies: (scientificName: string) => void;
   productCounts?: Record<number, number>;
+  /** Shop đang bán từng loài (theo id loài): cung bay nối nơi bản địa với trại của shop đó */
+  shopBySpecies?: Record<number, string>;
   className?: string;
 }
 
@@ -25,14 +27,15 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
   selectedScientificName,
   onSelectSpecies,
   productCounts = {},
+  shopBySpecies = {},
   className = '',
 }) => {
   const { config } = useQuality();
 
   // Địa cầu chỉ vẽ các loài đang qua bộ lọc
   const markers = useMemo(
-    () => speciesList.map((sp) => toBioMarker(sp, (productCounts[sp.id] || 0) > 0)),
-    [speciesList, productCounts]
+    () => speciesList.map((sp) => toBioMarker(sp, (productCounts[sp.id] || 0) > 0, shopBySpecies[sp.id])),
+    [speciesList, productCounts, shopBySpecies]
   );
   const selectedSpecies = speciesList.find((sp) => sp.scientificName === selectedScientificName);
 
@@ -57,7 +60,7 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
                   className="flex min-w-0 flex-1 items-center gap-3 py-3 pl-5 text-left focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
                 >
                   <img
-                    src={sp.heroPhoto}
+                    src={sp.cardPhoto}
                     alt=""
                     className="size-12 shrink-0 rounded-xl object-cover"
                     style={{ objectPosition: sp.focus || 'center' }}
@@ -107,6 +110,7 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
               <directionalLight position={[5, 3, 5]} intensity={1.2} />
               <BioEarth
                 speciesList={markers}
+                breedingHubs={ALL_BREEDING_HUBS}
                 selectedScientificName={selectedScientificName ?? undefined}
                 onSelectSpecies={onSelectSpecies}
               />

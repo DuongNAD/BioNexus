@@ -1,0 +1,3808 @@
+[
+  {
+    "scientificName": "Pantherophis guttatus",
+    "commonNameVi": "Rắn Ngô",
+    "commonNameEn": "Corn Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63863/71740603",
+    "gbifKey": 2455615,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông, đồng cỏ, trang trại và ven rừng Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn săn mồi siết mồi hiền lành bậc nhất trong giới bò sát cảnh, nổi bật với hàng đốm yên ngựa màu cam đỏ viền đen dọc lưng và mặt bụng kẻ ô vuông đen trắng như bắp ngô.",
+    "conservationNoteVi": "Quần thể tự nhiên rất lớn và ổn định khắp miền Đông Nam Hoa Kỳ nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Hoa văn mặt bụng kẻ ô đen trắng giống hệt những hạt bắp ngô chín đã làm nên tên gọi của loài rắn cảnh phổ biến nhất thế giới.",
+    "dietVi": "Động vật ăn thịt: chuột nhắt, chuột đồng, chim nhỏ và thằn lằn trong tự nhiên.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Florida, Hoa Kỳ",
+      "lat": 28.54,
+      "lng": -81.38
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn bắp",
+      "Rắn ngô đỏ"
+    ],
+    "synonyms": [
+      "Coluber carolinianus",
+      "Coluber compressus",
+      "Coluber floridanus",
+      "Coluber guttatus"
+    ],
+    "wikidataId": "Q754747",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_guttatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Corn_snake",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 150,
+      "weightGMin": 300,
+      "weightGMax": 700,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài tổng toàn thân con trưởng thành"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đông Nam và Trung Đại Tây Dương Hoa Kỳ, từ New Jersey đến Florida và Louisiana",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông lá kim",
+      "Đồng cỏ và trang trại",
+      "Bãi đá ven rừng"
+    ],
+    "identificationVi": "Thân thon dài vừa phải, nền da cam hoặc nâu gạch với 25–45 đốm lưng màu đỏ cam viền đen, trên đỉnh đầu có vệt hình mũi giáo và bụng kẻ ô vuông đen trắng xen kẽ.",
+    "behaviorVi": "Tính tình điềm tĩnh, hầu như không cắn khi cầm nắm nhẹ nhàng, vừa bò sát mặt đất vừa leo cành cây thấp rất khéo vào lúc hoàng hôn.",
+    "reproductionVi": "Đẻ trứng, mỗi lứa 12–24 trứng vào cuối xuân, trứng nở sau khoảng 60–65 ngày ở nhiệt độ 27–28°C.",
+    "threatsVi": [
+      "Mất sinh cảnh cục bộ do đô thị hóa",
+      "Tai nạn giao thông trên đường cao tốc"
+    ],
+    "funFactsVi": [
+      "Những người nông dân miền Nam nước Mỹ xưa rất quý rắn ngô vì chúng tìm diệt chuột phá kho lương thực.",
+      "Hàng trăm biến thể màu sắc như Amelanistic, Anerythristic, Snow và Palmetto đã được lai tạo trong nuôi nhốt."
+    ],
+    "similarSpecies": [
+      "Pantherophis emoryi",
+      "Lampropeltis triangulum"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang tối thiểu 90×45×45 cm cho cá thể trưởng thành, nắp khóa kín chống thoát và có tối thiểu hai hang trú.",
+      "lightingVi": "Sưởi nhiệt bằng tấm sưởi đáy có thermostat; đèn UVB 2.0–5.0% mức thấp giúp tăng cường trao đổi chất.",
+      "feedingVi": "Cho ăn chuột đông lạnh rã đông vừa kích cỡ vòng bụng, 5–7 ngày/lần với rắn non và 10–14 ngày/lần với rắn trưởng thành.",
+      "socialVi": "Nuôi đơn độc từng cá thể một chuồng riêng.",
+      "commonProblemsVi": [
+        "Đào thoát qua khe chuồng hẹp",
+        "Nôn thức ăn nếu nhiệt độ điểm sưởi dưới 28°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại quy mô lớn, không thuộc danh mục CITES hay loài nguy cấp tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Ngô Normal / Classic (Baby 3 tháng)",
+        "priceVnd": 950000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn tốt chuột pinky rã đông, màu cam đỏ cổ điển."
+      },
+      {
+        "nameVi": "Rắn Ngô Amelanistic Albino (Juvenile 6 tháng)",
+        "priceVnd": 1350000,
+        "descriptionVi": "Biến thể bạch tạng mắt đỏ rực rỡ, đã quen tay người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corn Snake Face.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corn_Snake_Face.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Corn_Snake_Face.jpg",
+        "width": 4080,
+        "height": 3072,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Ethan Porcaro",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Corn Snake Skin Under UV Illumination.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corn_Snake_Skin_Under_UV_Illumination.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Corn_Snake_Skin_Under_UV_Illumination.jpg",
+        "width": 6000,
+        "height": 6336,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MicrocosmicWorld",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Corn snake (Pantherophis guttatus) 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corn_snake_(Pantherophis_guttatus)_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Corn_snake_%28Pantherophis_guttatus%29_1.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Killarnee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A close up of a coiled up Corn snake on the grass. (00f0e1dc-b4b7-4ab6-b124-bcddd284a68e).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_close_up_of_a_coiled_up_Corn_snake_on_the_grass._(00f0e1dc-b4b7-4ab6-b124-bcddd284a68e).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/A_close_up_of_a_coiled_up_Corn_snake_on_the_grass._%2800f0e1dc-b4b7-4ab6-b124-bcddd284a68e%29.jpg",
+        "width": 3150,
+        "height": 2092,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS photo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cornsnake (Pantherophis guttatus) - Flickr - 2ndPeter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cornsnake_(Pantherophis_guttatus)_-_Flickr_-_2ndPeter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cornsnake_%28Pantherophis_guttatus%29_-_Flickr_-_2ndPeter.jpg",
+        "width": 4262,
+        "height": 3350,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2455615",
+      "https://www.iucnredlist.org/species/63863/71740603",
+      "https://en.wikipedia.org/wiki/Corn_snake",
+      "https://vi.wikipedia.org/wiki/Pantherophis_guttatus"
+    ]
+  },
+  {
+    "scientificName": "Pantherophis obsoletus",
+    "commonNameVi": "Rắn Chuột Đen Phương Tây",
+    "commonNameEn": "Western Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/90069553/90069569",
+    "gbifKey": 2455676,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng, sườn đồi đá và đồng cỏ cây bụi miền Trung Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn chuột kích thước lớn phân bố phía tây sông Mississippi, có khả năng leo trèo thẳng đứng lên thân cây sồi chỉ bằng cách bám vảy bụng vào kẽ vỏ cây.",
+    "conservationNoteVi": "Phân bố rộng và thích nghi tốt với vùng ven nông trại nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Nhờ tiết diện cơ thể hình ổ bánh mì với hai rìa bụng gập góc, loài rắn này có thể trèo thẳng đứng lên thân cây gỗ lớn mà không cần quấn vòng.",
+    "dietVi": "Động vật ăn thịt: chuột, sóc đất, chim non và trứng chim.",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Texas, Hoa Kỳ",
+      "lat": 31.05,
+      "lng": -97.56
+    },
+    "regionVi": "Trung và Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn chuột Texas",
+      "Rắn chuột đen"
+    ],
+    "synonyms": [
+      "Coluber obsoletus",
+      "Elaphe obsoleta",
+      "Elaphe obsoleta lindheimerii",
+      "Elaphe obsoleta obsoleta"
+    ],
+    "wikidataId": "Q998324",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_obsoletus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pantherophis_obsoletus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 185,
+      "weightGMin": 500,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài rắn nước Bắc Mỹ dài nhất"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Miền Trung Hoa Kỳ phía tây sông Mississippi từ Minnesota xuống Texas",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng gỗ cứng",
+      "Vách đá vôi",
+      "Đồng cỏ xen rừng"
+    ],
+    "identificationVi": "Vảy lưng có gờ nhẹ ở hàng giữa, con non có đốm yên ngựa xám nâu trên nền sáng nhưng sẫm dần thành đen bóng hoặc nâu đỏ pha vàng khi trưởng thành.",
+    "behaviorVi": "Khi gặp nguy hiểm thường uốn cong cơ thể thành hình sóng gấp khúc bất động như cành cây khô hoặc rung đuôi vào lá khô phát ra tiếng xè.",
+    "reproductionVi": "Đẻ 8–20 trứng trong hốc cây mục hoặc dưới lớp mùn vào đầu mùa hè, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Bị con người giết nhầm vì tưởng là rắn độc",
+      "Chết trên đường giao thông"
+    ],
+    "funFactsVi": [
+      "Tư thế nằm gợn sóng gấp khúc kỳ lạ khi bị giật mình là tập tính đặc trưng của nhóm rắn chuột Bắc Mỹ.",
+      "Dòng Leucistic trắng muốt mắt xanh đen của loài này rất nổi tiếng trong giới nuôi bò sát."
+    ],
+    "similarSpecies": [
+      "Pantherophis alleghaniensis",
+      "Coluber constrictor"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng lớn tối thiểu 120×60×60 cm có cành gỗ chắc chắn để leo trèo.",
+      "lightingVi": "Điểm sưởi 30°C ban ngày, chiếu sáng chu kỳ 12 giờ/ngày.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông định kỳ 7–14 ngày/lần tùy độ tuổi.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Cần chuồng rộng khi trưởng thành do kích thước lớn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong nuôi nhốt, đặc biệt là dòng Leucistic trắng."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Texas Leucistic Trắng Mắt Đen (Juvenile)",
+        "priceVnd": 3200000,
+        "descriptionVi": "Cá thể toàn thân trắng tinh không tì vết, ăn chuột rã đông khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ascension - Flickr - 2ndPeter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ascension_-_Flickr_-_2ndPeter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ascension_-_Flickr_-_2ndPeter.jpg",
+        "width": 5544,
+        "height": 3744,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Black ratsnake climbing.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_ratsnake_climbing.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Black_ratsnake_climbing.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Krenkelm",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Rat Snake (Pantherophis obsoletus) (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Rat_Snake_(Pantherophis_obsoletus)_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Black_Rat_Snake_%28Pantherophis_obsoletus%29_%28cropped%29.jpg",
+        "width": 4168,
+        "height": 1545,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chuck Homler, Focus On Wildlife",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Rat Snake - Elaphe obsoleta obsoleta, Julie Metz Wetlands, Woodbridge, Virginia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Rat_Snake_-_Elaphe_obsoleta_obsoleta,_Julie_Metz_Wetlands,_Woodbridge,_Virginia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Black_Rat_Snake_-_Elaphe_obsoleta_obsoleta%2C_Julie_Metz_Wetlands%2C_Woodbridge%2C_Virginia.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black rat snake at Pinellas County Reptiles, Largo, Florida, US, on 27 August 2020.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_rat_snake_at_Pinellas_County_Reptiles,_Largo,_Florida,_US,_on_27_August_2020.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Black_rat_snake_at_Pinellas_County_Reptiles%2C_Largo%2C_Florida%2C_US%2C_on_27_August_2020.jpg",
+        "width": 4160,
+        "height": 2340,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MatthewHoobin",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2455676",
+      "https://www.iucnredlist.org/species/90069553/90069569",
+      "https://en.wikipedia.org/wiki/Pantherophis_obsoletus",
+      "https://vi.wikipedia.org/wiki/Pantherophis_obsoletus"
+    ]
+  },
+  {
+    "scientificName": "Pantherophis alleghaniensis",
+    "commonNameVi": "Rắn Chuột Phương Đông",
+    "commonNameEn": "Eastern Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/90069536/90069545",
+    "gbifKey": 7453543,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng rậm, đầm lầy ven biển và vùng nông thôn miền Đông Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn chuột miền Đông Hoa Kỳ có sự biến thiên màu sắc lớn theo vùng địa lý, từ đen bóng vùng núi phía bắc đến vàng sọc hoặc cam rực ở bán đảo Florida.",
+    "conservationNoteVi": "Sách Đỏ IUCN xếp mức Ít quan tâm (LC) nhờ phạm vi phân bố rộng dọc bờ Đông Hoa Kỳ.",
+    "pullQuoteVi": "Từ sắc đen huyền bí vùng núi Appalachian đến màu cam vàng rực nắng ở Everglades, loài rắn này mang bộ áo ngụy trang biến đổi theo từng vĩ độ.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, chim, ếch nhái và thằn lằn.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Carolina, Hoa Kỳ",
+      "lat": 35.76,
+      "lng": -79.02
+    },
+    "regionVi": "Đông Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn chuột vàng",
+      "Rắn chuột Everglades"
+    ],
+    "synonyms": [
+      "Coluber alleghaniensis",
+      "Coluber quadrivittatus",
+      "Elaphe alleghaniensis",
+      "Elaphe obsoleta quadrivittata"
+    ],
+    "wikidataId": "Q2998811",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_spiloides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Central_ratsnake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 115,
+      "lengthCmMax": 180,
+      "weightGMin": 450,
+      "weightGMax": 1300,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Miền Đông Hoa Kỳ dọc sườn đông dãy Appalachian tới Florida",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng ôn đới",
+      "Đầm lầy cây bách",
+      "Đồng cỏ ven nông trại"
+    ],
+    "identificationVi": "Cơ thể săn chắc, cằm và họng màu trắng kem; các quần thể phía nam có nền vàng hoặc cam với 4 dải sọc dọc nâu sẫm chạy suốt thân.",
+    "behaviorVi": "Bơi lội và leo cây đều giỏi, thường trú đông tập thể trong các hốc đá sâu cùng nhiều loài rắn khác.",
+    "reproductionVi": "Đẻ 10–22 trứng vào tháng 6–7, trứng nở vào cuối tháng 8 hoặc tháng 9.",
+    "threatsVi": [
+      "Suy giảm diện tích rừng ngập nước ở cực nam",
+      "Tai nạn giao thông"
+    ],
+    "funFactsVi": [
+      "Các cá thể non mới nở luôn có hoa văn đốm xám giống nhau trước khi chuyển sang màu đen hoặc sọc vàng khi trưởng thành."
+    ],
+    "similarSpecies": [
+      "Pantherophis obsoletus",
+      "Pantherophis guttatus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 120×50×50 cm thoáng khí, bố trí cành leo và hộp ẩm.",
+      "lightingVi": "Điểm sưởi 30°C, không đòi hỏi UVB cường độ cao.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–12 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Dễ béo phì nếu cho ăn chuột quá lớn ở tuổi trưởng thành"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp phổ biến, không thuộc phụ lục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Vàng Yellow Rat Snake (Juvenile)",
+        "priceVnd": 1800000,
+        "descriptionVi": "Cá thể CB lên sọc vàng rõ nét, ăn khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Complex Pantherophis alleghaniensis - Eastern & Gray Ratsnake Complex 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Complex_Pantherophis_alleghaniensis_-_Eastern_%26_Gray_Ratsnake_Complex_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Complex_Pantherophis_alleghaniensis_-_Eastern_%26_Gray_Ratsnake_Complex_02.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Jasper Shide",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Black Snake KB (27329407701).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Snake_KB_(27329407701).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Black_Snake_KB_%2827329407701%29.jpg",
+        "width": 2988,
+        "height": 5312,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "vastateparksstaff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Flickr - ggallice - Rat snake with prey (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Rat_snake_with_prey_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flickr_-_ggallice_-_Rat_snake_with_prey_%281%29.jpg",
+        "width": 2931,
+        "height": 1954,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Rat Snake - Pantherophis alleghaniensis, Occoquan Regional Park, Lorton, Virginia, April 12, 2019 (53120661028).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Rat_Snake_-_Pantherophis_alleghaniensis,_Occoquan_Regional_Park,_Lorton,_Virginia,_April_12,_2019_(53120661028).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eastern_Rat_Snake_-_Pantherophis_alleghaniensis%2C_Occoquan_Regional_Park%2C_Lorton%2C_Virginia%2C_April_12%2C_2019_%2853120661028%29.jpg",
+        "width": 6720,
+        "height": 4480,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Rat Snake (9597236735).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Rat_Snake_(9597236735).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Black_Rat_Snake_%289597236735%29.jpg",
+        "width": 2564,
+        "height": 3272,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Shenandoah National Park from Virginia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7453543",
+      "https://www.iucnredlist.org/species/90069536/90069545",
+      "https://en.wikipedia.org/wiki/Central_ratsnake",
+      "https://vi.wikipedia.org/wiki/Pantherophis_spiloides"
+    ]
+  },
+  {
+    "scientificName": "Pantherophis bairdi",
+    "commonNameVi": "Rắn Chuột Baird",
+    "commonNameEn": "Baird's Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63860/12722977",
+    "gbifKey": 2455636,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 40,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Hẻm núi đá vôi và rừng sồi thông vùng Tây Texas và Bắc Mexico"
+    },
+    "descriptionVi": "Loài rắn chuột vùng núi đá khô hạn có sắc vảy ánh kim pha hồng cá hồi, vàng đồng và bốn dải sọc dọc trầm mặc khi trưởng thành.",
+    "conservationNoteVi": "Quần thể ổn định tại các vùng núi đá Tây Texas và đông bắc Mexico, được IUCN đánh giá Ít quan tâm (LC).",
+    "pullQuoteVi": "Khi lớn lên, lớp vảy xám thời thơ ấu của rắn chuột Baird biến đổi thành ánh kim loại pha sắc cam hồng độc nhất trong chi Pantherophis.",
+    "dietVi": "Động vật ăn thịt: chuột núi đá, dơi trong hang và thằn lằn.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Vùng Big Bend, Texas, Hoa Kỳ",
+      "lat": 29.25,
+      "lng": -103.25
+    },
+    "regionVi": "Tây Nam Hoa Kỳ và Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn chuột ánh kim"
+    ],
+    "synonyms": [
+      "Coluber bairdi",
+      "Elaphe bairdi"
+    ],
+    "wikidataId": "Q2701965",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_bairdi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pantherophis_bairdi",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 145,
+      "weightGMin": 300,
+      "weightGMax": 750,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Tây Texas (Hoa Kỳ) và các bang Coahuila, Nuevo León, Tamaulipas (Mexico)",
+      "elevationM": {
+        "min": 400,
+        "max": 2300
+      }
+    },
+    "habitatTypesVi": [
+      "Hẻm núi đá vôi",
+      "Rừng thông và sồi núi cao",
+      "Bãi đá sa mạc Chihuahuan"
+    ],
+    "identificationVi": "Thân trưởng thành có nền vàng cam hoặc hồng bạc với bốn dải sọc tối màu chạy dọc lưng và viền vảy ánh bạc kim loại.",
+    "behaviorVi": "Hiền lành, ưa ẩn mình trong các khe đá sâu ban ngày và ra săn mồi lúc hoàng hôn.",
+    "reproductionVi": "Đẻ 5–12 trứng kích thước khá lớn so với cơ thể mẹ, nở sau khoảng 65–75 ngày.",
+    "threatsVi": [
+      "Thu bắt tự nhiên trái phép ở một số hẻm núi dễ tiếp cận"
+    ],
+    "funFactsVi": [
+      "Trứng của rắn chuột Baird thuộc nhóm lớn nhất trong chi Pantherophis nhưng số lượng trứng mỗi ổ lại ít hơn."
+    ],
+    "similarSpecies": [
+      "Pantherophis obsoletus",
+      "Pantherophis emoryi"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm khô thoáng với nhiều phiến đá phẳng và hang trú.",
+      "lightingVi": "Điểm sưởi 30°C, độ ẩm giữ ở mức vừa phải 40–55%.",
+      "feedingVi": "Ăn chuột rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Viêm vảy nếu lót nền quá ẩm ướt kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống trong nuôi nhốt hợp pháp, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Baird (Juvenile 6 tháng)",
+        "priceVnd": 2600000,
+        "descriptionVi": "Cá thể CB đang bắt đầu lên ánh cam bạc đặc trưng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Baird's Ratsnake (Pantherophis bairdi).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baird%27s_Ratsnake_(Pantherophis_bairdi).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Baird%27s_Ratsnake_%28Pantherophis_bairdi%29.jpg",
+        "width": 5189,
+        "height": 3452,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Elaphe obsoleta 2zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elaphe_obsoleta_2zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Elaphe_obsoleta_2zz.jpg",
+        "width": 1000,
+        "height": 1050,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Culebra Ratonera del Noreste - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Culebra_Ratonera_del_Noreste_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Culebra_Ratonera_del_Noreste_-_panoramio.jpg",
+        "width": 5760,
+        "height": 3840,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "panza-rayada",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pantherophis bairdi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_bairdi.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pantherophis_bairdi.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Шатилло Г.В.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pantherophis bairdi Kletternatter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_bairdi_Kletternatter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Pantherophis_bairdi_Kletternatter.jpg",
+        "width": 3000,
+        "height": 1925,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Holger Krisp",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2455636",
+      "https://www.iucnredlist.org/species/63860/12722977",
+      "https://en.wikipedia.org/wiki/Pantherophis_bairdi",
+      "https://vi.wikipedia.org/wiki/Pantherophis_bairdi"
+    ]
+  },
+  {
+    "scientificName": "Pantherophis vulpinus",
+    "commonNameVi": "Rắn Cáo Phương Tây",
+    "commonNameEn": "Western Fox Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/90069683/90069697",
+    "gbifKey": 2455654,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ thảo nguyên, đất nông nghiệp và bìa rừng vùng Trung Tây Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn thảo nguyên có cái đầu màu đồng đỏ nổi bật và tập tính tiết chất dịch có mùi giống cáo đỏ khi bị đe dọa.",
+    "conservationNoteVi": "Phân bố rộng khắp vùng Trung Tây Hoa Kỳ với quần thể lớn nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Tên gọi rắn cáo bắt nguồn từ mùi xạ hương tự vệ giống mùi cáo đỏ mà chúng tiết ra khi bị kẻ săn mồi tấn công.",
+    "dietVi": "Động vật ăn thịt: chuột đồng, chuột nhắt, sóc đất và trứng chim làm tổ dưới đất.",
+    "lifespanVi": "15–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Iowa, Hoa Kỳ",
+      "lat": 41.88,
+      "lng": -93.1
+    },
+    "regionVi": "Trung Tây Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn cáo thảo nguyên"
+    ],
+    "synonyms": [
+      "Elaphe gloydi",
+      "Elaphe vulpina",
+      "Elaphe vulpina gloydi",
+      "Elaphe vulpina vulpina"
+    ],
+    "wikidataId": "Q5080520",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_vulpinus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pantherophis_vulpinus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 135,
+      "weightGMin": 300,
+      "weightGMax": 700,
+      "heightCmMax": null,
+      "noteVi": "Thân hình mập và chắc hơn rắn ngô"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Lưu vực thượng nguồn sông Mississippi từ Michigan, Wisconsin đến Iowa, Illinois và Nebraska",
+      "elevationM": {
+        "min": 150,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên cỏ cao",
+      "Bìa rừng ôn đới",
+      "Đầm lầy và bờ kênh"
+    ],
+    "identificationVi": "Đầu màu nâu đồng hoặc cam đồng không đốm ở con trưởng thành, lưng màu vàng rơm với các đốm nâu sô-cô-la tròn lớn.",
+    "behaviorVi": "Khi bị dồn vào thế bí thường rung đuôi rất nhanh trên lá khô bắt chước tiếng rắn đuôi chuông để dọa kẻ thù.",
+    "reproductionVi": "Đẻ 7–20 trứng trong đất mùn hoặc gốc cây mục vào đầu mùa hè, nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Mất đồng cỏ bản địa do canh tác công nghiệp",
+      "Bị giết nhầm vì đầu màu đồng giống rắn độc Copperhead"
+    ],
+    "funFactsVi": [
+      "Dù không có nọc độc, phần đầu màu đồng khiến loài này thường bị nhầm với rắn độc đầu đồng Agkistrodon contortrix."
+    ],
+    "similarSpecies": [
+      "Pantherophis ramspotti",
+      "Pantherophis guttatus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm với lớp lót dày để đào bới.",
+      "lightingVi": "Nhiệt độ mát hơn rắn nhiệt đới, điểm sưởi 28–30°C.",
+      "feedingVi": "Ăn chuột rã đông 7–12 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Không chịu được nhiệt độ quá nóng trên 32°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống trong nuôi nhốt, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Cáo Phương Tây CB (Juvenile)",
+        "priceVnd": 2200000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, đã dạn tay không tiết xạ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Foxsnake (Pantherophis vulpinus) - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Foxsnake_(Pantherophis_vulpinus)_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eastern_Foxsnake_%28Pantherophis_vulpinus%29_-_1.jpg",
+        "width": 5584,
+        "height": 3952,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Foxsnake (Pantherophis vulpinus) - 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Foxsnake_(Pantherophis_vulpinus)_-_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eastern_Foxsnake_%28Pantherophis_vulpinus%29_-_2.jpg",
+        "width": 5344,
+        "height": 3360,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pantherophis vulpinus (Stanton 1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_vulpinus_(Stanton_1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pantherophis_vulpinus_%28Stanton_1%29.jpg",
+        "width": 5330,
+        "height": 3553,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Western Fox Snake (14767362115).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Western_Fox_Snake_(14767362115).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Western_Fox_Snake_%2814767362115%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "U.S. Fish and Wildlife Service - Midwest Region",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pantherophis vulpinus - Östliche Fuchsnatter 45870727.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_vulpinus_-_%C3%96stliche_Fuchsnatter_45870727.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pantherophis_vulpinus_-_%C3%96stliche_Fuchsnatter_45870727.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Patrick Jackson",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2455654",
+      "https://www.iucnredlist.org/species/90069683/90069697",
+      "https://en.wikipedia.org/wiki/Pantherophis_vulpinus",
+      "https://vi.wikipedia.org/wiki/Pantherophis_vulpinus"
+    ]
+  },
+  {
+    "scientificName": "Pantherophis emoryi",
+    "commonNameVi": "Rắn Ngô Đồng Bằng Lớn",
+    "commonNameEn": "Great Plains Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Pantherophis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Pantherophis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63861/12723067",
+    "gbifKey": 2455644,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi đá thảo nguyên, hẻm núi khô và thung lũng sông miền Trung Hoa Kỳ và Bắc Mexico"
+    },
+    "descriptionVi": "Họ hàng gần nhất của rắn ngô đỏ nhưng mang tông màu xám bạc và nâu ô-liu nhã nhặn của vùng Đại Bình Nguyên Bắc Mỹ.",
+    "conservationNoteVi": "Phân bố rộng và số lượng ổn định nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Là phiên bản thảo nguyên khô của rắn ngô, loài này mang bộ giáp xám nâu hòa lẫn hoàn hảo vào đá vôi và cỏ khô vùng Đại Bình Nguyên.",
+    "dietVi": "Động vật ăn thịt: chuột, dơi nhỏ, thằn lằn và chim non.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Kansas, Hoa Kỳ",
+      "lat": 38.5,
+      "lng": -98
+    },
+    "regionVi": "Đại Bình Nguyên Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn chuột Emory"
+    ],
+    "synonyms": [
+      "Coluber laetus",
+      "Coluber rhinomegas",
+      "Elaphe emoryi emoryi",
+      "Elaphe guttata emoryi"
+    ],
+    "wikidataId": "Q1897560",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pantherophis_emoryi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pantherophis_emoryi",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 80,
+      "lengthCmMax": 125,
+      "weightGMin": 250,
+      "weightGMax": 550,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ gọn hơn rắn ngô miền Đông"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ Nebraska, Kansas qua Oklahoma, Texas đến đông bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên đá vôi",
+      "Bờ suối khô",
+      "Hang động và vách đá"
+    ],
+    "identificationVi": "Nền da xám nhạt hoặc nâu kem với 25–45 đốm lưng nâu xám viền đen và hoa văn chữ V nhọn hướng về phía mõm trên đỉnh đầu.",
+    "behaviorVi": "Hoạt động chủ yếu về đêm để tránh cái nóng thảo nguyên, ban ngày ẩn dưới các tảng đá phẳng.",
+    "reproductionVi": "Đẻ 4–15 trứng vào đầu mùa hè, trứng nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Mất nơi trú ẩn do khai thác đá và mở rộng đất canh tác"
+    ],
+    "funFactsVi": [
+      "Tại các cửa hang dơi ở Texas, loài rắn này thường phục kích trên vách đá để bắt dơi bay ra lúc chập tối."
+    ],
+    "similarSpecies": [
+      "Pantherophis guttatus",
+      "Pantherophis slowinskii"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm với nền khô ráo và hang đá trú ẩn.",
+      "lightingVi": "Điểm sưởi 30–31°C, độ ẩm trung bình thấp 40–50%.",
+      "feedingVi": "Ăn chuột nhắt rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Ít gặp bệnh lý nếu giữ nền chuồng khô sạch"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp và thường được nuôi như rắn ngô cảnh."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Ngô Đồng Bằng Lớn Emoryi (Baby)",
+        "priceVnd": 1400000,
+        "descriptionVi": "Cá thể CB ăn chuột pinky rã đông ổn định."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pantherophis emoryi striped.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_emoryi_striped.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Pantherophis_emoryi_striped.jpg",
+        "width": 6024,
+        "height": 4168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Great Plains Rat Snake (Pantherophis emoryi) (5073ac4f-2781-42d8-ac6c-94ef3a9c67b3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Plains_Rat_Snake_(Pantherophis_emoryi)_(5073ac4f-2781-42d8-ac6c-94ef3a9c67b3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Great_Plains_Rat_Snake_%28Pantherophis_emoryi%29_%285073ac4f-2781-42d8-ac6c-94ef3a9c67b3%29.jpg",
+        "width": 760,
+        "height": 786,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS Photo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Great Plains Ratsnake (Pantherophis emoryi) - Flickr - 2ndPeter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Plains_Ratsnake_(Pantherophis_emoryi)_-_Flickr_-_2ndPeter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Great_Plains_Ratsnake_%28Pantherophis_emoryi%29_-_Flickr_-_2ndPeter.jpg",
+        "width": 4785,
+        "height": 3400,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pantherophis emoryi(small).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantherophis_emoryi(small).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pantherophis_emoryi%28small%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vclark00",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Great Plains Rat Snake (Pantherophis emoryi) (26337206683).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Plains_Rat_Snake_(Pantherophis_emoryi)_(26337206683).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Great_Plains_Rat_Snake_%28Pantherophis_emoryi%29_%2826337206683%29.jpg",
+        "width": 4734,
+        "height": 3198,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2455644",
+      "https://www.iucnredlist.org/species/63861/12723067",
+      "https://en.wikipedia.org/wiki/Pantherophis_emoryi",
+      "https://vi.wikipedia.org/wiki/Pantherophis_emoryi"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis getula",
+    "commonNameVi": "Rắn Vua Phương Đông",
+    "commonNameEn": "Eastern Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/67662588/67662645",
+    "gbifKey": 9799308,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông, bờ suối và đồng cỏ ven rừng miền Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn vua nổi tiếng với bộ vảy đen bóng điểm các dải mắt xích trắng vàng và khả năng miễn nhiễm tự nhiên với nọc độc của rắn đuôi chuông.",
+    "conservationNoteVi": "Phạm vi phân bố rộng khắp miền Đông Nam Hoa Kỳ giúp loài duy trì mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Danh xưng rắn vua đến từ khả năng miễn dịch với nọc độc máu của rắn đuôi chuông và tập tính săn luôn cả những loài rắn khác.",
+    "dietVi": "Động vật ăn thịt: rắn khác (kể cả rắn độc), thằn lằn, chuột, chim và trứng rùa.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Georgia, Hoa Kỳ",
+      "lat": 32.16,
+      "lng": -82.9
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn vua mắt xích"
+    ],
+    "synonyms": [
+      "Coluber getulus",
+      "Lampropeltis floridana",
+      "Lampropeltis getula floridana",
+      "Lampropeltis getula getula"
+    ],
+    "wikidataId": "Q747093",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_getula",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lampropeltis_getula",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 150,
+      "weightGMin": 350,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể tròn lẳn, cơ bắp rất khỏe"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Bờ Đông Hoa Kỳ từ nam New Jersey xuống toàn bộ bán đảo Florida",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông lá dài",
+      "Bờ sông suối",
+      "Đầm lầy và rìa đồng ruộng"
+    ],
+    "identificationVi": "Vảy trơn bóng như tráng men, nền đen hoặc nâu sẫm với 23–52 vạch ngang màu trắng hoặc vàng nối nhau ở hai bên hông giống chuỗi mắt xích.",
+    "behaviorVi": "Săn mồi chủ động trên mặt đất bằng lực siết cực mạnh; tuyệt đối không thể nuôi chung vì có tập tính ăn thịt đồng loại.",
+    "reproductionVi": "Đẻ 5–18 trứng vào cuối xuân, trứng nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Suy giảm sinh cảnh rừng thông tự nhiên",
+      "Kiến lửa nhập nội ăn trứng rắn"
+    ],
+    "funFactsVi": [
+      "Huyết thanh của rắn vua chứa các protein trung hòa enzyme xuất huyết trong nọc rắn lục và rắn đuôi chuông Bắc Mỹ.",
+      "Tên chi Lampropeltis trong tiếng Hy Lạp có nghĩa là 'chiếc khiên sáng bóng', mô tả lớp vảy lấp lánh của chúng."
+    ],
+    "similarSpecies": [
+      "Lampropeltis californiae",
+      "Lampropeltis nigra"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm đến 120×45×45 cm, có nắp khóa chắc chắn.",
+      "lightingVi": "Điểm sưởi 30–31°C, chiếu sáng chu kỳ ngày đêm rõ ràng.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần; rửa sạch tay sau khi cầm chuột để tránh rắn đớp nhầm vì phản xạ ăn mạnh.",
+      "socialVi": "Bắt buộc nuôi riêng từng cá thể một chuồng.",
+      "commonProblemsVi": [
+        "Phản xạ đớp mồi quá nhạy nếu tay người có mùi thức ăn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại lâu đời, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Florida Brooks Kingsnake (Baby)",
+        "priceVnd": 1600000,
+        "descriptionVi": "Cá thể CB hoa văn sáng, phàm ăn chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brooks King Snake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brooks_King_Snake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Brooks_King_Snake.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Old Time Music Fan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Apalachicola Kingsnake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apalachicola_Kingsnake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Apalachicola_Kingsnake.jpg",
+        "width": 3780,
+        "height": 1356,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Greg Hume",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Lampropeltis getula Stanton 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_getula_Stanton_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lampropeltis_getula_Stanton_2.jpg",
+        "width": 4876,
+        "height": 3251,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:\"Neptune\" - King Snake (7851313768).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Neptune%22_-_King_Snake_(7851313768).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/%22Neptune%22_-_King_Snake_%287851313768%29.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Virginia State Parks staff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:DSC 3275-topaz-denoiseraw.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC_3275-topaz-denoiseraw.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/DSC_3275-topaz-denoiseraw.jpg",
+        "width": 5017,
+        "height": 4014,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "lwolfartist",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9799308",
+      "https://www.iucnredlist.org/species/67662588/67662645",
+      "https://en.wikipedia.org/wiki/Lampropeltis_getula",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_getula"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis californiae",
+    "commonNameVi": "Rắn Vua California",
+    "commonNameEn": "California Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/67662524/67662576",
+    "gbifKey": 8170369,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ khô, rừng cây bụi chaparral và bán sa mạc miền Tây Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn vua phổ biến nhất trong giới nuôi bò sát cảnh với những khoanh đen trắng hoặc sọc dọc tương phản sắc nét dọc toàn thân.",
+    "conservationNoteVi": "Phân bố rộng và thích nghi tốt với nhiều sinh cảnh khô hạn ở miền Tây Bắc Mỹ nên ở mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Dù mang khoanh tròn đen trắng hay sọc dọc chạy suốt lưng, rắn vua California vẫn giữ nguyên bản năng khắc tinh của rắn đuôi chuông sa mạc.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, thằn lằn, rắn khác và chim nhỏ.",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "San Diego, California, Hoa Kỳ",
+      "lat": 32.72,
+      "lng": -117.16
+    },
+    "regionVi": "Tây Nam Hoa Kỳ và Tây Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn vua khoanh đen trắng",
+      "Cali King"
+    ],
+    "synonyms": [
+      "Coluber californiae",
+      "Lampropeltis boylii conjuncta",
+      "Lampropeltis getula califoniae",
+      "Lampropeltis getula californiae"
+    ],
+    "wikidataId": "Q3216841",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_californiae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/California_kingsnake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 130,
+      "weightGMin": 300,
+      "weightGMax": 750,
+      "heightCmMax": null,
+      "noteVi": "Vừa vặn cho chuồng nuôi gia đình"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Oregon, California, Nevada, Utah, Arizona (Hoa Kỳ) đến Baja California (Mexico)",
+      "elevationM": {
+        "min": 0,
+        "max": 2100
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ cây bụi chaparral",
+      "Sa mạc đá",
+      "Thung lũng ven suối"
+    ],
+    "identificationVi": "Vảy trơn bóng láng, hai kiểu hình tự nhiên phổ biến nhất là khoanh đen trắng xen kẽ đều đặn hoặc một sọc trắng vàng chạy dọc sống lưng trên nền đen.",
+    "behaviorVi": "Năng động, tò mò, chịu hạn tốt và rất khỏe mạnh trong môi trường nuôi nhốt.",
+    "reproductionVi": "Đẻ 5–12 trứng vào tháng 5–6, trứng nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Trở thành loài ngoại lai xâm lấn tại quần đảo Canary (Tây Ban Nha)"
+    ],
+    "funFactsVi": [
+      "Ngay trong tự nhiên tại vùng ven biển miền Nam California, cá thể khoanh ngang và cá thể sọc dọc có thể nở ra từ cùng một ổ trứng."
+    ],
+    "similarSpecies": [
+      "Lampropeltis getula",
+      "Lampropeltis splendida"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm khô ráo, lót gỗ dương (aspen) giúp đào hang.",
+      "lightingVi": "Điểm sưởi 30–32°C, độ ẩm thấp 35–50%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Tuyệt đối nuôi đơn độc vì sẽ ăn thịt rắn khác cùng chuồng.",
+      "commonProblemsVi": [
+        "Đớp nhầm ngón tay người nuôi nếu cầm thức ăn bằng tay trần"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Một trong những loài rắn cảnh nhân giống phổ biến nhất thế giới."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua California Banded 50/50 (Baby)",
+        "priceVnd": 1400000,
+        "descriptionVi": "Khoanh đen trắng rõ nét tỷ lệ cân đối, ăn chuột pinky rã đông tốt."
+      },
+      {
+        "nameVi": "Rắn Vua California High White / Albino Striped (Juvenile)",
+        "priceVnd": 1850000,
+        "descriptionVi": "Biến thể sọc dọc sáng màu nhân giống trong nước."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:California Kingsnake - Lampropeltis getula californiae (29998392648).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:California_Kingsnake_-_Lampropeltis_getula_californiae_(29998392648).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/California_Kingsnake_-_Lampropeltis_getula_californiae_%2829998392648%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:California kingsnake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:California_kingsnake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/California_kingsnake.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "DestinationFearFan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:CA Kingsnake (14688942456).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CA_Kingsnake_(14688942456).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/CA_Kingsnake_%2814688942456%29.jpg",
+        "width": 4128,
+        "height": 2322,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Pacific Southwest Region USFWS from Sacramento, US",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:California Kingsnake (Lampropeltis getula californiae).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:California_Kingsnake_(Lampropeltis_getula_californiae).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/California_Kingsnake_%28Lampropeltis_getula_californiae%29.JPG",
+        "width": 4095,
+        "height": 2726,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Connor Long",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis getula californiae - Kalifornische Kettennatter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_getula_californiae_-_Kalifornische_Kettennatter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Lampropeltis_getula_californiae_-_Kalifornische_Kettennatter.jpg",
+        "width": 4288,
+        "height": 2668,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "5snake5",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8170369",
+      "https://www.iucnredlist.org/species/67662524/67662576",
+      "https://en.wikipedia.org/wiki/California_kingsnake",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_californiae"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis triangulum",
+    "commonNameVi": "Rắn Sữa Phương Đông",
+    "commonNameEn": "Eastern Milksnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/197493/2490171",
+    "gbifKey": 5224503,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng, cánh đồng đá và chuồng trại nông thôn Đông Bắc Mỹ"
+    },
+    "descriptionVi": "Loài rắn sữa miền Đông Bắc Mỹ có hàng đốm yên ngựa đỏ nâu viền đen trên nền xám kem và chữ Y hoặc V sáng màu trên gáy.",
+    "conservationNoteVi": "Phân bố rộng từ đông nam Canada xuống vùng Ngũ Hồ và dãy Appalachian nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Truyền thuyết nông dân xưa kể rằng chúng lẻn vào chuồng bò để bú sữa, nhưng thực ra chúng chỉ đến săn lũ chuột trốn trong đống cỏ khô.",
+    "dietVi": "Động vật ăn thịt: chuột đồng, chuột nhắt, thằn lằn và rắn nhỏ.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Pennsylvania, Hoa Kỳ",
+      "lat": 40.9,
+      "lng": -77.8
+    },
+    "regionVi": "Đông Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn sữa Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Coluber doliatus",
+      "Coluber eximius",
+      "Coluber triangulum",
+      "Lampropeltis amaura"
+    ],
+    "wikidataId": "Q1257513",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%AFa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Milk_snake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 110,
+      "weightGMin": 180,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Thân mảnh và gọn"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Đông Nam Canada và Đông Bắc đến Trung Tây Hoa Kỳ",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rụng ôn đới",
+      "Đồng cỏ đá",
+      "Trang trại và bờ tường đá cũ"
+    ],
+    "identificationVi": "Khác với các loài rắn sữa nhiệt đới khoanh tròn quanh thân, loài này có các đốm lưng màu nâu đỏ viền đen chỉ phủ phần lưng và mặt bụng kẻ ô đen trắng.",
+    "behaviorVi": "Kín đáo, thường ẩn dưới các phiến đá phẳng hoặc gỗ mục và săn mồi dưới lòng đất.",
+    "reproductionVi": "Đẻ 6–15 trứng vào tháng 6, trứng nở sau khoảng 55–65 ngày.",
+    "threatsVi": [
+      "Bị giết nhầm do hoa văn lưng giống rắn chuông lùn hoặc rắn đầu đồng"
+    ],
+    "funFactsVi": [
+      "Sau phân loại học phân tử năm 2014, quần thể rắn sữa rộng lớn trước đây được tách thành 7 loài riêng biệt, trong đó Lampropeltis triangulum giữ tên cho nhánh Đông Bắc Mỹ."
+    ],
+    "similarSpecies": [
+      "Pantherophis guttatus",
+      "Lampropeltis elapsoides"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×40×40 cm có nhiều hang trú thấp sát mặt nền.",
+      "lightingVi": "Điểm sưởi 28–30°C, không cần nhiệt độ quá cao.",
+      "feedingVi": "Ăn chuột nhắt rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Con non hơi nhát và hay búng mình khi mới cầm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp trong nuôi nhốt, không thuộc phụ lục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sữa Phương Đông CB (Juvenile)",
+        "priceVnd": 1750000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, ăn chuột rã đông đều."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Milksnake (Lampropeltis triangulum) - 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Milksnake_(Lampropeltis_triangulum)_-_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Eastern_Milksnake_%28Lampropeltis_triangulum%29_-_2.jpg",
+        "width": 6136,
+        "height": 4112,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:City jungle.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:City_jungle.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/City_jungle.JPG",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "BlazeMKD86",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Milk Snake (9273329716).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Milk_Snake_(9273329716).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eastern_Milk_Snake_%289273329716%29.jpg",
+        "width": 4288,
+        "height": 3216,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "David Whelan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Milk Snake (Lampropeltis triangulum triangulum) (27916193197).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Milk_Snake_(Lampropeltis_triangulum_triangulum)_(27916193197).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Eastern_Milk_Snake_%28Lampropeltis_triangulum_triangulum%29_%2827916193197%29.jpg",
+        "width": 4034,
+        "height": 2888,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Will Brown",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis triangulum triangulum 2024 06 02 (1) 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_triangulum_triangulum_2024_06_02_(1)_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lampropeltis_triangulum_triangulum_2024_06_02_%281%29_01.jpg",
+        "width": 5568,
+        "height": 3712,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Lusilier",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224503",
+      "https://www.iucnredlist.org/species/197493/2490171",
+      "https://en.wikipedia.org/wiki/Milk_snake",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_s%E1%BB%AFa"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis polyzona",
+    "commonNameVi": "Rắn Sữa Đại Tây Dương Trung Mỹ",
+    "commonNameEn": "Atlantic Central American Milksnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/90069354/90069357",
+    "gbifKey": 5224530,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 31,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô nhiệt đới, thảo nguyên chân núi và rừng ẩm Mexico"
+    },
+    "descriptionVi": "Loài rắn sữa nổi bật nhất với những khoanh đỏ, đen, trắng hoặc vàng cam rực rỡ của các dòng Sinaloa, Puebla và Nelson trong giới bò sát cảnh.",
+    "conservationNoteVi": "Phân bố rộng dọc Mexico và có quần thể tự nhiên ổn định nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Ba sắc đỏ, đen, trắng xen kẽ của rắn sữa Mexico là ví dụ kinh điển của tiến hóa bắt chước Batesian nhằm giả dạng rắn san hô kịch độc.",
+    "dietVi": "Động vật ăn thịt: thằn lằn, chuột nhỏ, rắn nhỏ và trứng bò sát.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Puebla, Mexico",
+      "lat": 19.04,
+      "lng": -98.2
+    },
+    "regionVi": "Mexico",
+    "otherNamesVi": [
+      "Rắn sữa Sinaloa",
+      "Rắn sữa Puebla",
+      "Rắn sữa Nelson"
+    ],
+    "synonyms": [
+      "Coronella micropholis arcifera",
+      "Lampropeltis triangulum arcifera",
+      "Lampropeltis triangulum campbelli",
+      "Lampropeltis triangulum conanti"
+    ],
+    "wikidataId": "Q18618734",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lampropeltis_polyzona",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 85,
+      "lengthCmMax": 125,
+      "weightGMin": 250,
+      "weightGMax": 550,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Từ tây bắc Mexico (Sonora, Sinaloa) qua cao nguyên Puebla đến Veracruz và Oaxaca",
+      "elevationM": {
+        "min": 0,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô nhiệt đới",
+      "Bán sa mạc cây bụi",
+      "Rừng thông sồi chân núi"
+    ],
+    "identificationVi": "Toàn thân có các vòng khoanh tròn khép kín theo thứ tự đỏ - đen - trắng/vàng - đen - đỏ với lớp vảy láng bóng.",
+    "behaviorVi": "Hoạt động về đêm và chạng vạng, ban ngày ẩn dưới đá hoặc gốc cây; khi mới cầm có thể giật mình nhanh nhưng rất hiếm khi cắn.",
+    "reproductionVi": "Đẻ 5–14 trứng mỗi lứa vào mùa mưa, nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Bị người dân địa phương giết nhầm vì giống rắn san hô độc Micrurus"
+    ],
+    "funFactsVi": [
+      "Các dòng rắn sữa nổi tiếng trong thú chơi như Sinaloae, Campbelli (Pueblan) và Nelsoni hiện đều được gộp vào loài Lampropeltis polyzona."
+    ],
+    "similarSpecies": [
+      "Lampropeltis micropholis",
+      "Lampropeltis elapsoides"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm có lớp lót dày 5 cm để rúc và hai hang trú.",
+      "lightingVi": "Điểm sưởi 30–31°C, độ ẩm 50–65%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Dễ trốn thoát nếu cửa lùa có khe hở trên 4 mm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại rất phổ biến (Pueblan, Sinaloan, Nelson), không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Sữa Pueblan / Apricot Milksnake (Baby)",
+        "priceVnd": 1550000,
+        "descriptionVi": "Khoanh đỏ cam trắng tương phản cao, ăn chuột pinky rã đông tốt."
+      },
+      {
+        "nameVi": "Rắn Sữa Nelson Albino (Juvenile)",
+        "priceVnd": 1950000,
+        "descriptionVi": "Biến thể bạch tạng khoanh đỏ hồng và vàng kem rực rỡ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Ferme des Reptiles - Lampropeltis triangulum nelsoni.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Lampropeltis_triangulum_nelsoni.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ferme_des_Reptiles_-_Lampropeltis_triangulum_nelsoni.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Lampropeltis triangulum in Burgers' Zoo (Desert).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_triangulum_in_Burgers%27_Zoo_(Desert).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Lampropeltis_triangulum_in_Burgers%27_Zoo_%28Desert%29.JPG",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Milksnake 004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Milksnake_004.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Milksnake_004.jpg",
+        "width": 3275,
+        "height": 2325,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis-triangulum-sinaloae-0-23.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis-triangulum-sinaloae-0-23.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lampropeltis-triangulum-sinaloae-0-23.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Danny Steaven",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224530",
+      "https://www.iucnredlist.org/species/90069354/90069357",
+      "https://en.wikipedia.org/wiki/Lampropeltis_polyzona"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis alterna",
+    "commonNameVi": "Rắn Vua Khoanh Xám",
+    "commonNameEn": "Gray-banded Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63825/12719595",
+    "gbifKey": 5224476,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 35,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vách núi đá vôi và hẻm núi sa mạc Chihuahuan ở Tây Texas và Bắc Mexico"
+    },
+    "descriptionVi": "Loài rắn vua vùng núi đá sa mạc Chihuahuan có nền xám bạc thanh lịch điểm những dải yên ngựa màu cam đỏ viền đen trắng.",
+    "conservationNoteVi": "Sinh cảnh hẻm núi đá vôi rộng lớn và hiểm trở giúp quần thể tự nhiên ổn định ở mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Giữa những vách đá vôi xám lạnh của sa mạc Chihuahuan, những dải cam rực trên lưng rắn vua Alterna nổi lên như vệt hoàng hôn.",
+    "dietVi": "Động vật ăn thịt: thằn lằn gai Sceloporus, chuột sa mạc và ếch hẻm núi.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Hạt Brewster, Texas, Hoa Kỳ",
+      "lat": 29.8,
+      "lng": -103.25
+    },
+    "regionVi": "Tây Nam Hoa Kỳ và Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn vua Alterna"
+    ],
+    "synonyms": [
+      "Lampropeltis blairi",
+      "Ophibolus alternus"
+    ],
+    "wikidataId": "Q2383381",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_alterna",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gray-banded_kingsnake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 75,
+      "lengthCmMax": 110,
+      "weightGMin": 200,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Đầu hơi dẹt thích nghi chui khe đá"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng Trans-Pecos (Texas), nam New Mexico và bắc Mexico (Coahuila, Chihuahua, Durango)",
+      "elevationM": {
+        "min": 450,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Vách đá vôi sa mạc",
+      "Sườn đồi đá dăm",
+      "Hẻm núi khô"
+    ],
+    "identificationVi": "Nền da xám tro hoặc xám xanh với hai kiểu hình chính: Blairi (khoanh cam rộng viền đen trắng) và Alterna (khoanh đen hẹp xen vạch cam mảnh).",
+    "behaviorVi": "Hiền lành, hoạt động hoàn toàn về đêm và dành phần lớn thời gian ẩn sâu trong các kẽ đá vôi.",
+    "reproductionVi": "Đẻ 4–12 trứng vào đầu mùa hè, trứng nở sau 60–70 ngày.",
+    "threatsVi": [
+      "Thu bắt trái phép dọc các tuyến đường cao tốc cắt qua hẻm núi vào ban đêm"
+    ],
+    "funFactsVi": [
+      "Hai kiểu hình Blairi và Alterna khác nhau đến mức từng được mô tả là hai loài riêng trước khi người ta phát hiện chúng nở ra từ cùng một ổ trứng."
+    ],
+    "similarSpecies": [
+      "Lampropeltis mexicana",
+      "Lampropeltis ruthveni"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm khô thoáng, xếp các phiến đá phẳng tạo khe hẹp an toàn.",
+      "lightingVi": "Điểm sưởi 30°C, độ ẩm thấp 35–50%.",
+      "feedingVi": "Cá thể CB đã quen ăn chuột pinky/fuzzy rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Rắn non mới nở đôi khi kén chuột vì bản năng tự nhiên thích ăn thằn lằn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp theo từng vùng địa lý (locality), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Khoanh Xám Blair's Phase (Juvenile)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể CB khoanh cam rộng rõ nét, đã ăn tốt chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Museo Doria - Lampropeltis alterna blairi 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Doria_-_Lampropeltis_alterna_blairi_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Museo_Doria_-_Lampropeltis_alterna_blairi_02.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superchilum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Museo Doria - Lampropeltis alterna blairi 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Doria_-_Lampropeltis_alterna_blairi_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Museo_Doria_-_Lampropeltis_alterna_blairi_01.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superchilum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gray-banded kingsnake, Los Angeles Zoo, October 2026.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gray-banded_kingsnake,_Los_Angeles_Zoo,_October_2026.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Gray-banded_kingsnake%2C_Los_Angeles_Zoo%2C_October_2026.jpg",
+        "width": 2870,
+        "height": 2107,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superraptor123",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Serpent-Roi Mexicain Ile aux Serpents 17 11 08 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serpent-Roi_Mexicain_Ile_aux_Serpents_17_11_08_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Serpent-Roi_Mexicain_Ile_aux_Serpents_17_11_08_1.jpg",
+        "width": 1701,
+        "height": 1701,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224476",
+      "https://www.iucnredlist.org/species/63825/12719595",
+      "https://en.wikipedia.org/wiki/Gray-banded_kingsnake",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_alterna"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis pyromelana",
+    "commonNameVi": "Rắn Vua Núi Sonora",
+    "commonNameEn": "Arizona Mountain Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/68045250/68045261",
+    "gbifKey": 9089978,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông Ponderosa và hẻm núi suối đá vùng núi Arizona và Bắc Mexico"
+    },
+    "descriptionVi": "Loài rắn vua núi cao tuyệt đẹp với chiếc mõm trắng tinh và các vòng đỏ, đen, trắng kem sắc nét sống trên các dãy núi đảo trời Arizona.",
+    "conservationNoteVi": "Quần thể ổn định tại hệ thống rừng núi cao Tây Nam Hoa Kỳ và Tây Bắc Mexico, xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Chiếc mõm trắng muốt như phủ tuyết là dấu hiệu nhận diện ngay tức khắc của rắn vua núi Sonora giữa các loài rắn ba màu Bắc Mỹ.",
+    "dietVi": "Động vật ăn thịt: thằn lằn núi, chuột nhỏ và rắn nhỏ.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Dãy núi Huachuca, Arizona, Hoa Kỳ",
+      "lat": 31.43,
+      "lng": -110.28
+    },
+    "regionVi": "Tây Nam Hoa Kỳ và Tây Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn vua núi Arizona"
+    ],
+    "synonyms": [
+      "Ophibolus pyromelanus"
+    ],
+    "wikidataId": "Q819201",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_pyromelana",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lampropeltis_pyromelana",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 100,
+      "weightGMin": 150,
+      "weightGMax": 380,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể thon mảnh, nhanh nhẹn"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Các dãy núi ở Arizona, Utah, Nevada, New Mexico (Hoa Kỳ) và Sonora, Chihuahua (Mexico)",
+      "elevationM": {
+        "min": 900,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông và linh sam núi cao",
+      "Hẻm núi đá dọc suối",
+      "Bãi đá sườn núi"
+    ],
+    "identificationVi": "Mõm trắng hoặc vàng kem không đen, thân có 35–60 bộ khoanh đỏ - đen - trắng với các vòng đen thường thu hẹp hoặc đứt đoạn ở hai bên hông.",
+    "behaviorVi": "Hoạt động ban ngày vào buổi sáng mát mẻ, leo đá rất khéo và có kỳ ngủ đông rõ rệt trên núi cao.",
+    "reproductionVi": "Đẻ 3–9 trứng thuôn dài vào đầu mùa hè, nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Cháy rừng quy mô lớn tại các dãy núi khô hạn miền Tây Hoa Kỳ"
+    ],
+    "funFactsVi": [
+      "Tên khoa học pyromelana ghép từ tiếng Hy Lạp nghĩa là 'lửa đen', ám chỉ sắc đỏ rực và đen tuyền trên thân rắn."
+    ],
+    "similarSpecies": [
+      "Lampropeltis zonata",
+      "Lampropeltis knoblochi"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm thoáng mát, tránh đặt ở phòng quá nóng bức.",
+      "lightingVi": "Điểm sưởi vừa phải 28–30°C, vùng mát 21–24°C.",
+      "feedingVi": "Ăn chuột nhắt rã đông cỡ nhỏ 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ toàn chuồng vượt quá 30°C kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp trong nuôi nhốt, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Núi Arizona Pyro (Juvenile)",
+        "priceVnd": 2900000,
+        "descriptionVi": "Cá thể CB ba màu đỏ-đen-trắng mõm trắng đặc trưng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Alligator Bay - Lampropeltis pyromelana 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alligator_Bay_-_Lampropeltis_pyromelana_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Alligator_Bay_-_Lampropeltis_pyromelana_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lampropeltis pyromelana 39961908.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_pyromelana_39961908.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Lampropeltis_pyromelana_39961908.jpg",
+        "width": 1000,
+        "height": 851,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "jimeckert49",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Arizona Mountain Kingsnake. Lampropeltis pyromelana - Flickr - gailhampshire.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arizona_Mountain_Kingsnake._Lampropeltis_pyromelana_-_Flickr_-_gailhampshire.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Arizona_Mountain_Kingsnake._Lampropeltis_pyromelana_-_Flickr_-_gailhampshire.jpg",
+        "width": 4350,
+        "height": 1812,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9089978",
+      "https://www.iucnredlist.org/species/68045250/68045261",
+      "https://en.wikipedia.org/wiki/Lampropeltis_pyromelana",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_pyromelana"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis mexicana",
+    "commonNameVi": "Rắn Vua Mexico",
+    "commonNameEn": "Mexican Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63830/12720231",
+    "gbifKey": 5224471,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 40,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn núi đá, rừng sồi thông và vùng cây bụi cao nguyên Mexico"
+    },
+    "descriptionVi": "Loài rắn vua cao nguyên Mexico có nền xám bạc hoặc hồng phớt điểm hàng đốm yên ngựa đỏ hồng viền đen và hoa văn đầu chữ Y cổ điển.",
+    "conservationNoteVi": "Quần thể tự nhiên rộng khắp cao nguyên trung tâm Mexico, được IUCN đánh giá mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Mỗi đốm yên ngựa đỏ thẫm viền đen trên tấm lưng xám đá của rắn vua Mexico trông như một viên hồng ngọc khảm trên bạc.",
+    "dietVi": "Động vật ăn thịt: thằn lằn, chuột nhỏ và rắn con.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "San Luis Potosí, Mexico",
+      "lat": 22.15,
+      "lng": -100.98
+    },
+    "regionVi": "Cao nguyên Mexico",
+    "otherNamesVi": [
+      "Rắn vua San Luis Potosí",
+      "Rắn vua Thayeri"
+    ],
+    "synonyms": [
+      "Coronella mexicana",
+      "Ophibolus triangulus mexicanus",
+      "Oreophis boulengeri"
+    ],
+    "wikidataId": "Q1926265",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_mexicana",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lampropeltis_mexicana",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 75,
+      "lengthCmMax": 110,
+      "weightGMin": 200,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Kích thước vừa phải, dễ chăm sóc"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Cao nguyên trung và đông bắc Mexico (San Luis Potosí, Nuevo León, Tamaulipas, Guanajuato)",
+      "elevationM": {
+        "min": 1200,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng sồi thông núi cao",
+      "Sườn đồi đá vôi",
+      "Thảo nguyên cây bụi khô"
+    ],
+    "identificationVi": "Nền xám bạc, kem hoặc cam đào với 25–40 đốm yên ngựa màu đỏ gạch hoặc cam viền đen đậm; đỉnh đầu thường có dấu chữ Y hoặc ba chạc màu đỏ.",
+    "behaviorVi": "Tính tình rất hiền, ít giật mình hơn rắn sữa và ưa rúc dưới các phiến đá phẳng.",
+    "reproductionVi": "Đẻ 5–12 trứng vào cuối xuân, trứng nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Mở rộng nông nghiệp và chăn thả gia súc trên cao nguyên"
+    ],
+    "funFactsVi": [
+      "Nhánh Thayeri ở bang Nuevo León nổi tiếng với sự đa dạng kiểu hình từ xám đốm đỏ đến cam rực giống rắn sữa ngay trong cùng một quần thể."
+    ],
+    "similarSpecies": [
+      "Lampropeltis alterna",
+      "Lampropeltis leonis"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 80×45×45 cm khô thoáng với nhiều hang đá.",
+      "lightingVi": "Điểm sưởi 29–31°C, độ ẩm 40–55%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Hầu như không có bệnh vặt nếu giữ nhiệt độ ổn định"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống phổ biến trong nuôi nhốt (nhất là dòng Thayeri và Greeri), không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Mexico Thayeri (Juvenile)",
+        "priceVnd": 2400000,
+        "descriptionVi": "Cá thể CB hoa văn yên ngựa đỏ viền đen sắc nét trên nền xám bạc."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lampropeltis mexicana complex, captive breed 22.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_mexicana_complex,_captive_breed_22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lampropeltis_mexicana_complex%2C_captive_breed_22.jpg",
+        "width": 2157,
+        "height": 1820,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Danny S.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lampropeltis Mexicana Thayeri (2).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_Mexicana_Thayeri_(2).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lampropeltis_Mexicana_Thayeri_%282%29.JPG",
+        "width": 2336,
+        "height": 3504,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chmee2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis Mexicana Greeri (11).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_Mexicana_Greeri_(11).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Lampropeltis_Mexicana_Greeri_%2811%29.JPG",
+        "width": 2336,
+        "height": 3504,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chmee2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis Mexicana Greeri (1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_Mexicana_Greeri_(1).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Lampropeltis_Mexicana_Greeri_%281%29.JPG",
+        "width": 3076,
+        "height": 1952,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Chmee2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis mexicana by Danny S. 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_mexicana_by_Danny_S._001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lampropeltis_mexicana_by_Danny_S._001.JPG",
+        "width": 1000,
+        "height": 793,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Danny S.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224471",
+      "https://www.iucnredlist.org/species/63830/12720231",
+      "https://en.wikipedia.org/wiki/Lampropeltis_mexicana",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_mexicana"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis splendida",
+    "commonNameVi": "Rắn Vua Sa Mạc",
+    "commonNameEn": "Desert Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/68045356/68045369",
+    "gbifKey": 5224492,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 35,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ bán khô hạn, thung lũng sông và sa mạc cây bụi Tây Nam Hoa Kỳ và Bắc Mexico"
+    },
+    "descriptionVi": "Loài rắn vua vùng bán sa mạc nổi bật với hàng tấm lưng đen nhánh ở giữa và hai bên sườn lấm tấm vàng chanh rực rỡ như dát cốm vàng.",
+    "conservationNoteVi": "Phân bố rộng từ Texas, New Mexico tới bắc Mexico với quần thể ổn định, được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Mỗi vảy bên hông đều đính một chấm vàng tươi bao quanh sống lưng đen bóng khiến rắn vua sa mạc trông như khoác tấm áo choàng thêu kim tuyến.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, thằn lằn, rắn khác (kể cả rắn đuôi chuông) và trứng bò sát.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "New Mexico, Hoa Kỳ",
+      "lat": 32.32,
+      "lng": -106.76
+    },
+    "regionVi": "Tây Nam Hoa Kỳ và Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn vua đốm vàng sa mạc"
+    ],
+    "synonyms": [
+      "Lampropeltis getula splendida",
+      "Ophibolus splendidus"
+    ],
+    "wikidataId": "Q3216844",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_splendida",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Desert_kingsnake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 135,
+      "weightGMin": 300,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Thân hình săn chắc"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Trung và Tây Texas, New Mexico, đông nam Arizona xuống bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ sa mạc",
+      "Rừng cây bụi mesquite",
+      "Hành lang cây xanh ven sông"
+    ],
+    "identificationVi": "Đầu đen bóng, dọc chính giữa lưng có hàng yên ngựa màu đen nguyên khối trong khi các vảy hai bên sườn mỗi vảy đều có một chấm vàng tươi ở tâm.",
+    "behaviorVi": "Săn mồi tích cực vào chiều muộn và ban đêm, chịu khô hạn tốt và miễn nhiễm với nọc rắn đuôi chuông địa phương.",
+    "reproductionVi": "Đẻ 6–15 trứng vào đầu mùa hè, trứng nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Tai nạn giao thông trên các tuyến đường xuyên sa mạc"
+    ],
+    "funFactsVi": [
+      "Tên khoa học splendida có nghĩa là 'lộng lẫy', đặt theo sự tương phản giữa sống lưng đen tuyền và hai bên sườn lấp lánh đốm vàng."
+    ],
+    "similarSpecies": [
+      "Lampropeltis holbrooki",
+      "Lampropeltis getula"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm khô thoáng, có máng nước sạch và hai hang trú.",
+      "lightingVi": "Điểm sưởi 30–32°C, độ ẩm 35–50%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Bắt buộc nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Dễ ăn quá mức nếu cho ăn quá dày"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp trong nuôi nhốt, không thuộc phụ lục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Sa Mạc Desert Kingsnake CB (Juvenile)",
+        "priceVnd": 1900000,
+        "descriptionVi": "Cá thể CB lên đốm vàng sườn sắc nét, ăn chuột rã đông khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ferme des Reptiles - Lampropeltis splendida 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Lampropeltis_splendida_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ferme_des_Reptiles_-_Lampropeltis_splendida_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ferme des Reptiles - Lampropeltis splendida 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Lampropeltis_splendida_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ferme_des_Reptiles_-_Lampropeltis_splendida_02.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Desert Kingsnake (Lampropeltis getula splendida). (c7f4f868-155d-451f-67ac-3b05819ff48d).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Desert_Kingsnake_(Lampropeltis_getula_splendida)._(c7f4f868-155d-451f-67ac-3b05819ff48d).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Desert_Kingsnake_%28Lampropeltis_getula_splendida%29._%28c7f4f868-155d-451f-67ac-3b05819ff48d%29.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS Photo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis splendida Stanton 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_splendida_Stanton_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Lampropeltis_splendida_Stanton_2.JPG",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis getula splendida 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_getula_splendida_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lampropeltis_getula_splendida_2.jpg",
+        "width": 2165,
+        "height": 1440,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "User:Haplochromis",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5224492",
+      "https://www.iucnredlist.org/species/68045356/68045369",
+      "https://en.wikipedia.org/wiki/Desert_kingsnake",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_splendida"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis nigra",
+    "commonNameVi": "Rắn Vua Đen Phương Đông",
+    "commonNameEn": "Eastern Black Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/90069326/90069345",
+    "gbifKey": 7721444,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thung lũng sông, rừng gỗ cứng và đồng cỏ miền Đông Trung Bộ Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn vua mang sắc đen huyền bóng loáng như gỗ mun từ phía đông sông Mississippi đến dãy Appalachian.",
+    "conservationNoteVi": "Quần thể tự nhiên rộng và ổn định tại lưu vực sông Ohio và Tennessee, được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Khi trưởng thành, những vạch chấm trắng thời niên thiếu mờ dần để nhường chỗ cho lớp giáp đen bóng loáng phản chiếu ánh cầu vồng dưới nắng.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, rắn khác, thằn lằn và chim nhỏ.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tennessee, Hoa Kỳ",
+      "lat": 35.86,
+      "lng": -86.66
+    },
+    "regionVi": "Đông Trung Bộ Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn vua đen"
+    ],
+    "synonyms": [
+      "? nigra",
+      "Lampropeltis getula nigra",
+      "Ophibolus getulus niger"
+    ],
+    "wikidataId": "Q3216842",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_nigra",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lampropeltis_nigra",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 140,
+      "weightGMin": 300,
+      "weightGMax": 850,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Từ nam Illinois, Indiana, Ohio qua Kentucky, Tennessee đến bắc Alabama và tây bắc Georgia",
+      "elevationM": {
+        "min": 50,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng thung lũng sông",
+      "Bìa rừng và đồng cỏ",
+      "Sườn đồi đá"
+    ],
+    "identificationVi": "Toàn thân lưng màu đen bóng như mực với những chấm trắng vàng li ti tạo thành vạch ngang mờ hoặc mất hẳn ở con trưởng thành; bụng kẻ ô đen trắng.",
+    "behaviorVi": "Điềm tĩnh hơn nhiều loài rắn vua khác, hoạt động ban ngày và rất giỏi săn chuột lẫn rắn độc Copperhead.",
+    "reproductionVi": "Đẻ 6–16 trứng vào đầu mùa hè, trứng nở sau 55–65 ngày.",
+    "threatsVi": [
+      "Phân mảnh sinh cảnh rừng ven sông"
+    ],
+    "funFactsVi": [
+      "Nhiều cá thể trưởng thành ở miền bắc có lớp vảy lưng đen tuyền gần giống rắn vua đen Mexico Lampropeltis nigrita."
+    ],
+    "similarSpecies": [
+      "Lampropeltis getula",
+      "Lampropeltis holbrooki"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm thoáng khí, có hộp ẩm hỗ trợ lột xác.",
+      "lightingVi": "Điểm sưởi 30°C, độ ẩm 50–60%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Hiếm gặp vấn đề sức khỏe khi giữ vệ sinh chuồng tốt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống trong nuôi nhốt hợp pháp, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Đen Eastern Black Kingsnake (Juvenile)",
+        "priceVnd": 2100000,
+        "descriptionVi": "Cá thể CB vảy đen bóng khỏe mạnh, ăn tốt chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Schwarze Kettennatter (Lampropeltis nigra), zusammengerollt.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schwarze_Kettennatter_(Lampropeltis_nigra),_zusammengerollt.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Schwarze_Kettennatter_%28Lampropeltis_nigra%29%2C_zusammengerollt.jpg",
+        "width": 4549,
+        "height": 3053,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Black kingsnake eating.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_kingsnake_eating.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Black_kingsnake_eating.jpg",
+        "width": 2995,
+        "height": 2719,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rossh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kaldari Lampropeltis getula 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Lampropeltis_getula_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kaldari_Lampropeltis_getula_01.jpg",
+        "width": 900,
+        "height": 600,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Kaldari",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lampropeltis nigra 364772583.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lampropeltis_nigra_364772583.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Lampropeltis_nigra_364772583.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dominic",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black Kingsnake (Lampropeltis getula niger).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Kingsnake_(Lampropeltis_getula_niger).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Black_Kingsnake_%28Lampropeltis_getula_niger%29.jpg",
+        "width": 1784,
+        "height": 1200,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7721444",
+      "https://www.iucnredlist.org/species/90069326/90069345",
+      "https://en.wikipedia.org/wiki/Lampropeltis_nigra",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_nigra"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis holbrooki",
+    "commonNameVi": "Rắn Vua Đốm Muối Tiêu",
+    "commonNameEn": "Speckled Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/67662914/67662925",
+    "gbifKey": 7915678,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy, rừng ngập nước, thảo nguyên ẩm và thung lũng sông Mississippi"
+    },
+    "descriptionVi": "Loài rắn vua đặc trưng của lưu vực hạ nguồn sông Mississippi với từng chiếc vảy đen đều đính một chấm trắng vàng ở chính giữa như rắc muối tiêu.",
+    "conservationNoteVi": "Phân bố rộng và phổ biến ở các bang miền Trung Nam Hoa Kỳ nên được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Mỗi chiếc vảy đen trên toàn bộ cơ thể đều mang đúng một chấm vàng kem ở tâm, tạo nên hoa văn muối tiêu đều đặn hiếm thấy trong tự nhiên.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, rắn nước, ếch nhái, thằn lằn và chim.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Louisiana, Hoa Kỳ",
+      "lat": 30.98,
+      "lng": -91.96
+    },
+    "regionVi": "Trung Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn vua đốm vàng"
+    ],
+    "synonyms": [
+      "Lampropeltis getula holbrooki"
+    ],
+    "wikidataId": "Q3009241",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_holbrooki",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Speckled_kingsnake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 135,
+      "weightGMin": 300,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài toàn thân"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Lưu vực sông Mississippi từ nam Iowa, Missouri, Kansas xuống Arkansas, Louisiana và đông Texas",
+      "elevationM": {
+        "min": 0,
+        "max": 700
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy và rừng trũng",
+      "Đồng cỏ ẩm",
+      "Bờ sông và ruộng lúa"
+    ],
+    "identificationVi": "Khác với Lampropeltis splendida có lưng đen trơn, loài này có chấm vàng hoặc trắng kem phủ kín trên hầu hết mọi vảy lưng kể cả hàng vảy chính giữa.",
+    "behaviorVi": "Ưa ẩm hơn các loài rắn vua phía tây, bơi lội giỏi và thường ẩn dưới các thân cây đổ ven đầm lầy.",
+    "reproductionVi": "Đẻ 6–14 trứng vào cuối xuân, trứng nở sau khoảng 60 ngày.",
+    "threatsVi": [
+      "Mất sinh cảnh đầm lầy tự nhiên và ô nhiễm thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Loài này được đặt tên để vinh danh John Edwards Holbrook, cha đẻ của ngành bò sát học Bắc Mỹ thế kỷ 19."
+    ],
+    "similarSpecies": [
+      "Lampropeltis splendida",
+      "Lampropeltis nigra"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 90×45×45 cm với máng nước đủ rộng để ngâm mình và hai hang trú.",
+      "lightingVi": "Điểm sưởi 30°C, độ ẩm 50–65%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Lột xác sót nếu độ ẩm chuồng quá khô dưới 40%"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại hợp pháp, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Đốm Muối Tiêu Speckled Kingsnake (Juvenile)",
+        "priceVnd": 1950000,
+        "descriptionVi": "Cá thể CB đốm vàng đều khắp lưng, ăn khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gefleckte Kettennatter (Lampropeltis holbrooki), Abwehrhaltung.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gefleckte_Kettennatter_(Lampropeltis_holbrooki),_Abwehrhaltung.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Gefleckte_Kettennatter_%28Lampropeltis_holbrooki%29%2C_Abwehrhaltung.jpg",
+        "width": 5784,
+        "height": 4136,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Speckled King Snake CozCoz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Speckled_King_Snake_CozCoz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Speckled_King_Snake_CozCoz.jpg",
+        "width": 1704,
+        "height": 2272,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "User:Cozcoz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Speckled King Snake (Lampropeltis getula holbrooki) (26289894531).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Speckled_King_Snake_(Lampropeltis_getula_holbrooki)_(26289894531).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Speckled_King_Snake_%28Lampropeltis_getula_holbrooki%29_%2826289894531%29.jpg",
+        "width": 4398,
+        "height": 3120,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Speckled Kingsnake (Lampropeltis holbrooki) - Flickr - 2ndPeter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Speckled_Kingsnake_(Lampropeltis_holbrooki)_-_Flickr_-_2ndPeter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Speckled_Kingsnake_%28Lampropeltis_holbrooki%29_-_Flickr_-_2ndPeter.jpg",
+        "width": 6496,
+        "height": 5176,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Speckled Kingsnake - Flickr - GregTheBusker (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Speckled_Kingsnake_-_Flickr_-_GregTheBusker_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Speckled_Kingsnake_-_Flickr_-_GregTheBusker_%281%29.jpg",
+        "width": 4458,
+        "height": 2509,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7915678",
+      "https://www.iucnredlist.org/species/67662914/67662925",
+      "https://en.wikipedia.org/wiki/Speckled_kingsnake",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_holbrooki"
+    ]
+  },
+  {
+    "scientificName": "Lampropeltis elapsoides",
+    "commonNameVi": "Rắn Vua Đỏ Scarlet",
+    "commonNameEn": "Scarlet Kingsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Lampropeltis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Lampropeltis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/67662850/67662876",
+    "gbifKey": 7794320,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông lá dài và dưới vỏ cây thông mục miền Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn vua nhỏ nhất Bắc Mỹ với chiếc mõm đỏ tươi và các vòng đỏ, đen, vàng kem quấn trọn quanh cả mặt bụng, bắt chước hoàn hảo rắn san hô phương Đông.",
+    "conservationNoteVi": "Phân bố rộng khắp đồng bằng ven biển Đông Nam Hoa Kỳ nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Câu vè 'đỏ chạm vàng là độc, đỏ chạm đen là bạn hiền' ở Đông Nam Hoa Kỳ chính là để phân biệt rắn san hô với loài rắn vua tí hon này.",
+    "dietVi": "Động vật ăn thịt: thằn lằn bóng nhỏ, thằn lằn Anolis và chuột sơ sinh.",
+    "lifespanVi": "12–16 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Florida, Hoa Kỳ",
+      "lat": 29.65,
+      "lng": -82.32
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn sữa đỏ Florida"
+    ],
+    "synonyms": [
+      "Coluber elapsoides",
+      "Coronella doliata",
+      "Lampropeltis triangulum elapsoides",
+      "Lampropeltis triangulum virginiana"
+    ],
+    "wikidataId": "Q1950584",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lampropeltis_elapsoides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Scarlet_kingsnake",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 40,
+      "lengthCmMax": 55,
+      "weightGMin": 40,
+      "weightGMax": 95,
+      "heightCmMax": null,
+      "noteVi": "Loài nhỏ nhất trong chi Lampropeltis"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đồng bằng ven biển Đông Nam Hoa Kỳ từ Virginia, Carolina xuống toàn bộ Florida và đông Louisiana",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông cát",
+      "Gốc cây thông mục",
+      "Vỏ cây bong tróc"
+    ],
+    "identificationVi": "Mõm màu đỏ tươi, đầu nhỏ thuôn liền với cổ, các khoanh đỏ - đen - vàng/trắng quấn kín cả mặt bụng thay vì đứt ở bụng như rắn đỏ Cemophora.",
+    "behaviorVi": "Sống ẩn mình dưới lớp vỏ cây thông mục và lá thông rụng, hiếm khi lộ diện ban ngày.",
+    "reproductionVi": "Đẻ 3–8 trứng nhỏ thuôn dài vào cuối xuân, trứng nở sau khoảng 50–60 ngày.",
+    "threatsVi": [
+      "Mất hệ sinh thái rừng thông lá dài già cỗi",
+      "Bị giết nhầm vì tưởng là rắn san hô"
+    ],
+    "funFactsVi": [
+      "Nhờ chiếc đầu nhỏ và hộp sọ cứng cáp, chúng có thể luồn lách vào những khe hẹp nhất giữa lớp vỏ và thân cây thông mục để săn thằn lằn bóng."
+    ],
+    "similarSpecies": [
+      "Lampropeltis triangulum",
+      "Lampropeltis polyzona"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng 60×40×40 cm kín kẽ tuyệt đối vì rắn rất nhỏ, lót vỏ thông và rêu ẩm.",
+      "lightingVi": "Điểm sưởi 29–30°C, độ ẩm 55–70%.",
+      "feedingVi": "Chọn cá thể CB đã tập ăn tốt chuột pinky rã đông 6–8 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Con non rất nhỏ, đôi khi cần mồi có mùi thằn lằn trong những lần ăn đầu tiên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống trong nuôi nhốt hợp pháp, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vua Đỏ Scarlet Kingsnake CB (Sub-adult)",
+        "priceVnd": 2700000,
+        "descriptionVi": "Cá thể nhân giống đã ổn định, ăn chuột pinky đông lạnh đều đặn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Scarlet King Snake (Lampropeltis elapsoides) (32391807822).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Scarlet_King_Snake_(Lampropeltis_elapsoides)_(32391807822).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Scarlet_King_Snake_%28Lampropeltis_elapsoides%29_%2832391807822%29.jpg",
+        "width": 4712,
+        "height": 3048,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Scarlet 003.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Scarlet_003.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Scarlet_003.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Norman.benton",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7794320",
+      "https://www.iucnredlist.org/species/67662850/67662876",
+      "https://en.wikipedia.org/wiki/Scarlet_kingsnake",
+      "https://vi.wikipedia.org/wiki/Lampropeltis_elapsoides"
+    ]
+  },
+  {
+    "scientificName": "Heterodon nasicus",
+    "commonNameVi": "Rắn Mũi Hếch Phương Tây",
+    "commonNameEn": "Western Hognose Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Heterodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Heterodon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63819/12718545",
+    "gbifKey": 5223725,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 30,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ cát và thảo nguyên bán khô hạn từ miền Nam Canada đến Bắc Mexico"
+    },
+    "descriptionVi": "Loài rắn nhỏ mũm mĩm có chiếc vảy mõm hếch ngược lên như mũi lợn để đào cát và màn kịch giả chết lật ngửa bụng nổi tiếng toàn cầu.",
+    "conservationNoteVi": "Phân bố rất rộng dọc vùng Đại Bình Nguyên Bắc Mỹ nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Khi dọa phình cổ và rít không hiệu quả, rắn mũi hếch sẽ lật ngửa bụng, há miệng thè lưỡi đóng kịch giả chết đầy kịch tính.",
+    "dietVi": "Động vật ăn thịt: cóc, ếch, thằn lằn, chuột nhỏ và trứng bò sát trong tự nhiên.",
+    "lifespanVi": "15–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Colorado, Hoa Kỳ",
+      "lat": 39.55,
+      "lng": -105.78
+    },
+    "regionVi": "Đại Bình Nguyên Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn mũi lợn",
+      "Hognose"
+    ],
+    "synonyms": [
+      "Heterodon gloydi",
+      "Heterodon nasicus gloydi",
+      "Heterodon nasicus nasicus"
+    ],
+    "wikidataId": "Q1441196",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Heterodon_nasicus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Western_hognose_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 40,
+      "lengthCmMax": 75,
+      "weightGMin": 80,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn gần gấp đôi con đực"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ nam Alberta, Manitoba (Canada) qua toàn bộ vùng Đại Bình Nguyên Hoa Kỳ đến bắc Mexico",
+      "elevationM": {
+        "min": 100,
+        "max": 2400
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên đất cát",
+      "Đồi cát ven sông",
+      "Đồng cỏ bán sa mạc"
+    ],
+    "identificationVi": "Thân ngắn mập, vảy lưng có gờ, chiếc vảy mõm nhọn và hếch cong lên trên; nền da vàng cát với các đốm nâu sẫm và mặt bụng đen bóng pha vàng.",
+    "behaviorVi": "Đào bới đất cát rất giỏi bằng mõm; có đôi răng nanh sau hàm (opisthoglyphous) tiết nước bọt gây sưng nhẹ chuyên trị cóc nhưng vô hại với người nếu không cho nhai lâu.",
+    "reproductionVi": "Đẻ 6–20 trứng vào đầu mùa hè, trứng nở sau 50–60 ngày.",
+    "threatsVi": [
+      "Mất đồng cỏ cát tự nhiên do canh tác nông nghiệp"
+    ],
+    "funFactsVi": [
+      "Nếu bạn lật một con rắn mũi hếch đang giả chết úp bụng trở lại, nó sẽ lập tức lật ngửa bụng ra một lần nữa để chứng minh rằng mình đã chết.",
+      "Đây là một trong những loài rắn cảnh được lai tạo nhiều biến thể nhất như Anaconda, Toffeebelly, Axanthic và Superconda."
+    ],
+    "similarSpecies": [
+      "Heterodon platirhinos",
+      "Heterodon simus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng 60×40×35 cm (con đực) hoặc 80×45×40 cm (con cái) với lớp lót gỗ dương dày 7–10 cm để đào hang.",
+      "lightingVi": "Điểm sưởi 31–33°C, độ ẩm thấp 30–45%, đèn UVB 5.0% kích thích ăn uống tốt.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông bằng kẹp gắp 5–7 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Con đực đôi khi bỏ ăn theo mùa vào mùa đông hoặc mùa giao phối"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống thương mại cực kỳ phổ biến, không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Mũi Hếch Western Hognose Normal (Baby)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể CB ăn tốt chuột pinky rã đông không cần tạo mùi."
+      },
+      {
+        "nameVi": "Rắn Mũi Hếch Anaconda / Conda Morph (Juvenile)",
+        "priceVnd": 4500000,
+        "descriptionVi": "Biến thể giảm đốm lưng với mặt bụng đen bóng đặc trưng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Heterodon gloydi, Abwehrhaltung.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterodon_gloydi,_Abwehrhaltung.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Heterodon_gloydi%2C_Abwehrhaltung.jpg",
+        "width": 5528,
+        "height": 4040,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Heterodon nasicus Zoo Amneville 28092014 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterodon_nasicus_Zoo_Amneville_28092014_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Heterodon_nasicus_Zoo_Amneville_28092014_2.jpg",
+        "width": 1666,
+        "height": 1486,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dusty Hognose Snake (Heterodon gloydi) (31520201128).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dusty_Hognose_Snake_(Heterodon_gloydi)_(31520201128).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dusty_Hognose_Snake_%28Heterodon_gloydi%29_%2831520201128%29.jpg",
+        "width": 4026,
+        "height": 2862,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Heterodon gloydi, Kopfansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterodon_gloydi,_Kopfansicht.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Heterodon_gloydi%2C_Kopfansicht.jpg",
+        "width": 5904,
+        "height": 4264,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ferme des Reptiles - Heterodon nasicus 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferme_des_Reptiles_-_Heterodon_nasicus_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ferme_des_Reptiles_-_Heterodon_nasicus_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5223725",
+      "https://www.iucnredlist.org/species/63819/12718545",
+      "https://en.wikipedia.org/wiki/Western_hognose_snake",
+      "https://vi.wikipedia.org/wiki/Heterodon_nasicus"
+    ]
+  },
+  {
+    "scientificName": "Heterodon platirhinos",
+    "commonNameVi": "Rắn Mũi Hếch Phương Đông",
+    "commonNameEn": "Eastern Hognose Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Heterodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Heterodon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63820/12718733",
+    "gbifKey": 5223730,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thông đất cát, đồi cát ven biển và bìa rừng miền Đông Hoa Kỳ"
+    },
+    "descriptionVi": "Họ hàng kích thước lớn hơn của rắn mũi hếch phương Tây, nổi tiếng với màn bành rộng cổ như rắn hổ mang trước khi lăn ra giả chết.",
+    "conservationNoteVi": "Phân bố rộng khắp miền Đông Hoa Kỳ nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Được mệnh danh là bậc thầy kịch nghệ của rừng thông Bắc Mỹ, chúng có thể bành cổ dẹt như rắn hổ mang rồi bất ngờ co giật lật ngửa giả chết.",
+    "dietVi": "Động vật ăn thịt chuyên biệt: cóc (chi Anaxyrus), ếch và kỳ giông.",
+    "lifespanVi": "12–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam Carolina, Hoa Kỳ",
+      "lat": 33.84,
+      "lng": -81.16
+    },
+    "regionVi": "Đông Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn hổ mang giả Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Coluber heterodon",
+      "Coluber platyrhinos",
+      "Heterodon atmodes",
+      "Heterodon browni"
+    ],
+    "wikidataId": "Q2699564",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Heterodon_platirhinos",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Eastern_hognose_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 55,
+      "lengthCmMax": 95,
+      "weightGMin": 180,
+      "weightGMax": 550,
+      "heightCmMax": null,
+      "noteVi": "Lớn và to ngang hơn loài phương Tây"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Miền Đông Hoa Kỳ từ New Hampshire, Minnesota xuống Florida và đông Texas, cùng nam Ontario (Canada)",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thông đất cát",
+      "Bãi bồi ven sông",
+      "Cồn cát ven biển"
+    ],
+    "identificationVi": "Vảy mõm hếch nhưng ít nhọn dựng đứng hơn loài phương Tây; màu sắc tự nhiên rất đa dạng từ vàng cam, đỏ gạch, nâu đốm đến đen tuyền toàn thân.",
+    "behaviorVi": "Chuyên săn cóc vào ban ngày nhờ tuyến thượng thận lớn giúp trung hòa độc tố bufotoxin trên da cóc.",
+    "reproductionVi": "Đẻ 10–30 trứng vào đầu mùa hè, trứng nở sau 50–65 ngày.",
+    "threatsVi": [
+      "Suy giảm quần thể cóc và mất rừng đất cát",
+      "Bị con người giết vì tưởng là rắn độc khi bành cổ"
+    ],
+    "funFactsVi": [
+      "Răng nanh phía sau hàm trên của chúng dài và cong giúp chọc xẹp những con cóc đang phồng bụng tự vệ."
+    ],
+    "similarSpecies": [
+      "Heterodon nasicus",
+      "Heterodon simus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng 80×45×45 cm với lớp nền cát pha mùn tơi xốp dày để đào bới.",
+      "lightingVi": "Điểm sưởi 30–32°C, đèn UVB 5.0% ban ngày.",
+      "feedingVi": "Chỉ nên nuôi cá thể CB đã được tập ăn chuột rã đông hoặc xúc xích thịt ếch/bò sát chuyên dụng.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Khó tập ăn chuột nguyên con hơn nhiều so với Heterodon nasicus"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống hợp pháp trong nuôi nhốt nhưng kén người nuôi hơn loài phương Tây."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Mũi Hếch Phương Đông CB (Juvenile đã ăn chuột)",
+        "priceVnd": 3600000,
+        "descriptionVi": "Cá thể nhân giống đã tập ăn ổn định chuột rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Hog-nosed Snake - Heterodon platirhinos, Meadowood Farm SRMA, Mason Neck, Virginia - 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Hog-nosed_Snake_-_Heterodon_platirhinos,_Meadowood_Farm_SRMA,_Mason_Neck,_Virginia_-_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Eastern_Hog-nosed_Snake_-_Heterodon_platirhinos%2C_Meadowood_Farm_SRMA%2C_Mason_Neck%2C_Virginia_-_01.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:EASTERN HOGNOSE SNAKE 4 (5853888690).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:EASTERN_HOGNOSE_SNAKE_4_(5853888690).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/EASTERN_HOGNOSE_SNAKE_4_%285853888690%29.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Virginia State Parks staff",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Hognose Snake (Heterodon platirhinos) (17130316660).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Hognose_Snake_(Heterodon_platirhinos)_(17130316660).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Eastern_Hognose_Snake_%28Heterodon_platirhinos%29_%2817130316660%29.jpg",
+        "width": 4170,
+        "height": 2706,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Heterodon platirhinos (Stanton 1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterodon_platirhinos_(Stanton_1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Heterodon_platirhinos_%28Stanton_1%29.jpg",
+        "width": 6960,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Serpiente Hocico de Puerco - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serpiente_Hocico_de_Puerco_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Serpiente_Hocico_de_Puerco_-_panoramio.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "panza-rayada",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5223730",
+      "https://www.iucnredlist.org/species/63820/12718733",
+      "https://en.wikipedia.org/wiki/Eastern_hognose_snake",
+      "https://vi.wikipedia.org/wiki/Heterodon_platirhinos"
+    ]
+  },
+  {
+    "scientificName": "Heterodon simus",
+    "commonNameVi": "Rắn Mũi Hếch Phương Nam",
+    "commonNameEn": "Southern Hognose Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Heterodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Heterodon"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/63821/12718888",
+    "gbifKey": 5223729,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cát rừng thông lá dài vùng đồng bằng ven biển Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài nhỏ nhất và hiếm nhất trong chi rắn mũi hếch Bắc Mỹ, gắn liền với hệ sinh thái đồi cát rừng thông lá dài đang bị thu hẹp nghiêm trọng.",
+    "conservationNoteVi": "Được IUCN xếp mức Sắp nguy cấp (VU) do mất hơn 80% sinh cảnh rừng thông lá dài và sự tấn công của kiến lửa nhập nội.",
+    "pullQuoteVi": "Là cư dân nhỏ bé nhất của dòng họ rắn mũi hếch, loài rắn này dành tới 90% cuộc đời vùi mình dưới lớp cát tơi xốp của rừng thông cổ thụ.",
+    "dietVi": "Động vật ăn thịt: cóc spadefoot (Scaphiopus holbrookii), ếch nhỏ và thằn lằn.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Florida, Hoa Kỳ",
+      "lat": 29.9,
+      "lng": -82.6
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn mũi hếch lùn"
+    ],
+    "synonyms": [
+      "Coluber simus",
+      "Heterodon catesbyi"
+    ],
+    "wikidataId": "Q2707061",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Heterodon_simus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Southern_hognose_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 33,
+      "lengthCmMax": 55,
+      "weightGMin": 60,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ nhất trong ba loài Heterodon"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đồng bằng ven biển từ Bắc Carolina, Nam Carolina, Georgia đến bắc và trung Florida",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Đồi cát rừng thông lá dài",
+      "Thảo nguyên cát khô",
+      "Rừng sồi cát"
+    ],
+    "identificationVi": "Vảy mõm nhọn và hếch cao giống loài phương Tây nhưng mặt bụng màu xám kem hoặc hồng nhạt không có mảng đen lớn.",
+    "behaviorVi": "Sống ngầm dưới cát gần như quanh năm, chỉ trồi lên mặt đất vào những ngày ấm áp sau mưa để săn cóc đào đất.",
+    "reproductionVi": "Đẻ 5–12 trứng vào cuối xuân đầu hè, trứng nở sau khoảng 55–65 ngày.",
+    "threatsVi": [
+      "Mất sinh cảnh rừng thông lá dài",
+      "Kiến lửa đỏ nhập nội Solenopsis invicta ăn trứng và rắn non"
+    ],
+    "funFactsVi": [
+      "Tại các bang Alabama và Mississippi, loài này đã biến mất hoàn toàn trong tự nhiên suốt nhiều thập kỷ qua."
+    ],
+    "similarSpecies": [
+      "Heterodon nasicus",
+      "Heterodon platirhinos"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài Sắp nguy cấp (VU), được bảo vệ tại nhiều bang Hoa Kỳ và nguồn nhân giống thương mại rất hiếm, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Southern Hog-nosed Snake (Heterodon simus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Southern_Hog-nosed_Snake_(Heterodon_simus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Southern_Hog-nosed_Snake_%28Heterodon_simus%29.jpg",
+        "width": 5731,
+        "height": 3813,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Benjamin Genter",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:H. Simus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:H._Simus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/H._Simus.jpg",
+        "width": 960,
+        "height": 819,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Glenn Bartolotti",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult Heterodon simus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Heterodon_simus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Adult_Heterodon_simus.jpg",
+        "width": 2500,
+        "height": 1590,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Caudatejake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult Simus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Simus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Adult_Simus.jpg",
+        "width": 2048,
+        "height": 613,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Glenn Bartolotti",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Male and female red phase Southern hognose snakes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Male_and_female_red_phase_Southern_hognose_snakes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Male_and_female_red_phase_Southern_hognose_snakes.jpg",
+        "width": 2048,
+        "height": 1361,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Spineback1",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5223729",
+      "https://www.iucnredlist.org/species/63821/12718888",
+      "https://en.wikipedia.org/wiki/Southern_hognose_snake",
+      "https://vi.wikipedia.org/wiki/Heterodon_simus"
+    ]
+  }
+]

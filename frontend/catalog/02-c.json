@@ -1,0 +1,2360 @@
+[
+  {
+    "scientificName": "Gonyosoma oxycephalum",
+    "commonNameVi": "Rắn Đuôi Đỏ Cây",
+    "commonNameEn": "Red-tailed Green Ratsnake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Gonyosoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Gonyosoma"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/183196/1732988",
+    "gbifKey": 2456135,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng mưa nhiệt đới, rừng ngập mặn và thung lũng ven suối Đông Nam Á"
+    },
+    "descriptionVi": "Loài rắn cây tuyệt đẹp của rừng nhiệt đới Đông Nam Á với toàn thân xanh ngọc lục bảo rực rỡ đối lập cùng chiếc đuôi màu nâu đỏ hoặc xám bạc.",
+    "conservationNoteVi": "Phân bố rộng khắp Đông Nam Á lục địa và hải đảo nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Sống gần như trọn đời trên vòm lá rừng mưa, rắn đuôi đỏ sở hữu chiếc lưỡi hai màu xanh lam - đen hiếm gặp bậc nhất trong thế giới loài rắn.",
+    "dietVi": "Động vật ăn thịt: chim, dơi, chuột cây và thằn lằn sống trên tán lá.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Java, Indonesia",
+      "lat": -6.91,
+      "lng": 107.61
+    },
+    "regionVi": "Đông Nam Á",
+    "otherNamesVi": [
+      "Rắn lục đuôi đỏ không độc",
+      "Rắn hổ cây đuôi đỏ"
+    ],
+    "synonyms": [
+      "Aepidea robusta",
+      "Alopecophis chalybeus",
+      "Coluber oxycephalus",
+      "Gonyosoma viride"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_%C4%91u%C3%B4i_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gonyosoma_oxycephalum",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 160,
+      "lengthCmMax": 230,
+      "weightGMin": 500,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Thân dẹp bên thích nghi leo cành cây cao"
+    },
+    "distribution": {
+      "countries": [
+        "MM",
+        "TH",
+        "LA",
+        "KH",
+        "VN",
+        "MY",
+        "SG",
+        "ID",
+        "PH"
+      ],
+      "nativeRangeVi": "Từ Myanmar, Thái Lan, Đông Dương xuyên qua Malaysia, Indonesia tới Philippines",
+      "elevationM": {
+        "min": 0,
+        "max": 1100
+      }
+    },
+    "habitatTypesVi": [
+      "Tán rừng mưa nhiệt đới",
+      "Rừng thứ sinh ven sông",
+      "Rừng ngập mặn và đồn điền cây ăn quả"
+    ],
+    "identificationVi": "Thân xanh lá cây tươi (hoặc xám bạc ở biến thể Java/Panay), vệt đen chạy ngang qua mắt, đuôi màu nâu đỏ gạch và lưỡi màu xanh lam sẫm.",
+    "behaviorVi": "Hoạt động ban ngày trên cành cây cao; khi bị đe dọa sẽ phồng dẹp cổ theo chiều dọc để lộ viền da đen trắng và thè lưỡi xanh cảnh báo.",
+    "reproductionVi": "Đẻ 5–12 trứng trong hốc cây trên cao, trứng nở sau 85–100 ngày.",
+    "threatsVi": [
+      "Mất rừng nhiệt đới tầng thấp",
+      "Thu bắt tự nhiên phục vụ buôn bán sinh vật cảnh"
+    ],
+    "funFactsVi": [
+      "Dù đôi khi bị người dân gọi nhầm là 'rắn lục đuôi đỏ', loài này hoàn toàn không có nọc độc và khác hẳn rắn lục đuôi đỏ Trimeresurus albolabris có đầu tam giác."
+    ],
+    "similarSpecies": [
+      "Gonyosoma boulengeri",
+      "Gonyosoma prasinum"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng kích thước lớn tối thiểu 90×60×120 cm có nhiều cành ngang và tán lá che chắn trên cao.",
+      "lightingVi": "Điểm sưởi trên cành 31–32°C, đèn UVB 5.0% và phun sương 2 lần/ngày giữ ẩm 70–85%.",
+      "feedingVi": "Cho ăn chuột đông lạnh rã đông hoặc chim cút non trên cành cao 10–14 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Cá thể đánh bắt tự nhiên dễ bị stress và ký sinh trùng, chỉ nên chọn cá thể CB"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES hay Nghị định 84/2021; các cá thể nhân giống CB (Green và Silver phase) được giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Đuôi Đỏ Cây Gonyosoma oxycephalum CB (Juvenile)",
+        "priceVnd": 3800000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt màu xanh ngọc đuôi đỏ, đã ăn chuột rã đông trên cành."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Gonyosoma oxycephalum, Red-tailed racer (in situ) - Huai Yang Waterfall National Park (29841538262).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gonyosoma_oxycephalum,_Red-tailed_racer_(in_situ)_-_Huai_Yang_Waterfall_National_Park_(29841538262).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Gonyosoma_oxycephalum%2C_Red-tailed_racer_%28in_situ%29_-_Huai_Yang_Waterfall_National_Park_%2829841538262%29.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Green Trinket Snake P1120804.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Trinket_Snake_P1120804.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Green_Trinket_Snake_P1120804.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Naniwadekar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Gonyosoma oxycephalum (263214617).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gonyosoma_oxycephalum_(263214617).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Gonyosoma_oxycephalum_%28263214617%29.jpg",
+        "width": 2048,
+        "height": 1366,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "https://www.inaturalist.org/people/lawrencehylton lawrencehylton",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:\" Redtail \" Rat Snake (Gonyosoma oxycephalum) - in Borneo, the tail is grey ... (15621221395).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22_Redtail_%22_Rat_Snake_(Gonyosoma_oxycephalum)_-_in_Borneo,_the_tail_is_grey_..._(15621221395).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%22_Redtail_%22_Rat_Snake_%28Gonyosoma_oxycephalum%29_-_in_Borneo%2C_the_tail_is_grey_..._%2815621221395%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Red Tailed Racer (Gonyosoma oxycephalum) (22835344399).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_Tailed_Racer_(Gonyosoma_oxycephalum)_(22835344399).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Red_Tailed_Racer_%28Gonyosoma_oxycephalum%29_%2822835344399%29.jpg",
+        "width": 4623,
+        "height": 3001,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2456135",
+      "https://www.iucnredlist.org/species/183196/1732988",
+      "https://en.wikipedia.org/wiki/Gonyosoma_oxycephalum",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_%C4%91u%C3%B4i_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Gonyosoma boulengeri",
+    "commonNameVi": "Rắn Vòi Voi",
+    "commonNameEn": "Rhinoceros Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Gonyosoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Gonyosoma"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/190628/1955324",
+    "gbifKey": 9454074,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 27,
+      "baskMax": 29,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh cận nhiệt đới núi cao và thung lũng suối miền Bắc Việt Nam và Nam Trung Quốc"
+    },
+    "descriptionVi": "Loài rắn cây kỳ thú của vùng núi Bắc Bộ Việt Nam và Nam Trung Quốc với chiếc sừng mềm покрытый vảy nhô ra trước mũi như sừng tê giác.",
+    "conservationNoteVi": "Phân bố tại các khu rừng núi đá vôi và rừng thường xanh miền Bắc Việt Nam và Nam Trung Quốc, được xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Chiếc mấu sừng mềm ở chóp mũi khiến loài rắn xanh biếc vùng núi Tam Đảo này trông như một sinh vật bước ra từ truyền thuyết.",
+    "dietVi": "Động vật ăn thịt: chuột rừng, chim nhỏ và ếch cây.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Tam Đảo, Vĩnh Phúc, Việt Nam",
+      "lat": 21.46,
+      "lng": 105.64
+    },
+    "regionVi": "Bắc Việt Nam và Nam Trung Quốc",
+    "otherNamesVi": [
+      "Rắn mũi tên",
+      "Rắn tê giác xanh"
+    ],
+    "synonyms": [
+      "Proboscidophis versicolor",
+      "Rhynchophis boulengeri"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rhynchophis_boulengeri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rhinoceros_ratsnake",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 150,
+      "weightGMin": 300,
+      "weightGMax": 700,
+      "heightCmMax": null,
+      "noteVi": "Mấu sừng mũi dài khoảng 5–10 mm"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN"
+      ],
+      "nativeRangeVi": "Miền Bắc Việt Nam (Lào Cai, Vĩnh Phúc, Cao Bằng, Hà Tĩnh) và miền Nam Trung Quốc (Quảng Tây, Quảng Đông, Hải Nam)",
+      "elevationM": {
+        "min": 300,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa á nhiệt đới núi cao",
+      "Thung lũng rừng cạnh suối đá",
+      "Rừng trên núi đá vôi"
+    ],
+    "identificationVi": "Mõm có phần phụ nhọn mềm phủ vảy nhỏ nhô ra phía trước; con non màu xám thép viền vảy đen, chuyển sang xanh lục pha lam khi đạt 1–2 năm tuổi.",
+    "behaviorVi": "Ưa khí hậu mát ẩm của rừng núi cao, leo cây giỏi nhưng cũng thường ngâm mình trong khay nước mát.",
+    "reproductionVi": "Đẻ 5–11 trứng vào tháng 5–6, trứng nở sau khoảng 60–70 ngày.",
+    "threatsVi": [
+      "Thu hẹp rừng thường xanh vùng đồi núi thấp"
+    ],
+    "funFactsVi": [
+      "Rắn vòi voi trải qua sự lột xác đổi màu ngoạn mục: sinh ra có màu xám nâu giả cành khô, rồi chuyển sang xanh ngọc bích khi trưởng thành."
+    ],
+    "similarSpecies": [
+      "Gonyosoma oxycephalum",
+      "Gonyosoma frenatum"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng đứng hoặc bán đứng 80×50×80 cm có nhiều cành leo, hộp ẩm và khay nước rộng.",
+      "lightingVi": "Ưa mát: điểm sưởi chỉ 27–28°C, nhiệt độ nền 21–25°C, độ ẩm 70–85%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông rất dễ dàng 7–12 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Rất nhạy cảm với nhiệt độ nóng trên 30°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống nuôi nhốt cực kỳ phổ biến trên thế giới và không thuộc danh mục CITES hay Nghị định 84/2021."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Vòi Voi Rhino Rat Snake CB (Juvenile đang lên màu xanh)",
+        "priceVnd": 3200000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, ăn chuột pinky/fuzzy rã đông rất nhạy."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Neushoornslang (14783925669).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Neushoornslang_(14783925669).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Neushoornslang_%2814783925669%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Tim Strater from Rotterdam, Nederland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Vietnamese Long-nosed Snake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_Long-nosed_Snake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Vietnamese_Long-nosed_Snake.jpg",
+        "width": 768,
+        "height": 1024,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "KCBirdFan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhynchophis boulengeri (4).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhynchophis_boulengeri_(4).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rhynchophis_boulengeri_%284%29.jpg",
+        "width": 4002,
+        "height": 2376,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "TimVickers",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhynchophis boulengeri - Ménagerie Paris 03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhynchophis_boulengeri_-_M%C3%A9nagerie_Paris_03.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rhynchophis_boulengeri_-_M%C3%A9nagerie_Paris_03.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy - Loury Cédric",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhynchophis boulengeri juvenile.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhynchophis_boulengeri_juvenile.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Rhynchophis_boulengeri_juvenile.JPG",
+        "width": 3648,
+        "height": 2432,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Goodshort",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9454074",
+      "https://www.iucnredlist.org/species/190628/1955324",
+      "https://en.wikipedia.org/wiki/Rhinoceros_ratsnake",
+      "https://vi.wikipedia.org/wiki/Rhynchophis_boulengeri"
+    ]
+  },
+  {
+    "scientificName": "Ahaetulla prasina",
+    "commonNameVi": "Rắn Roi Xanh",
+    "commonNameEn": "Asian Vine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Ahaetulla"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Ahaetulla"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176329/123302214",
+    "gbifKey": 2453368,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán cây bụi, rừng thứ sinh và vườn cây nhiệt đới khắp Đông Nam Á"
+    },
+    "descriptionVi": "Loài rắn dây leo có thân hình mảnh như sợi dây rừng, chiếc đầu nhọn như mũi tên và đôi mắt có đồng tử nằm ngang nhìn hai mắt tập trung cực chuẩn.",
+    "conservationNoteVi": "Phân bố rất rộng và phổ biến khắp Nam Á và Đông Nam Á nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Nhờ đồng tử hình lỗ khóa nằm ngang và hai rãnh lõm trước mõm, rắn roi xanh sở hữu thị giác lập thể sắc bén bậc nhất trong các loài rắn.",
+    "dietVi": "Động vật ăn thịt: thằn lằn cây, tắc kè, nhái bén và chim nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ninh, Việt Nam",
+      "lat": 11.31,
+      "lng": 106.1
+    },
+    "regionVi": "Nam Á và Đông Nam Á",
+    "otherNamesVi": [
+      "Rắn lục cườm",
+      "Rắn dây leo xanh"
+    ],
+    "synonyms": [
+      "Ahaetulla flavescens",
+      "Coluber nasutus",
+      "Dryinus prasinus",
+      "Dryophis prasinus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_roi_th%C6%B0%E1%BB%9Dng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ahaetulla_prasina",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 180,
+      "weightGMin": 80,
+      "weightGMax": 220,
+      "heightCmMax": null,
+      "noteVi": "Dài tới gần 2 mét nhưng thân chỉ mảnh bằng ngón tay"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "BT",
+        "BD",
+        "MM",
+        "CN",
+        "LA",
+        "VN",
+        "KH",
+        "TH",
+        "MY",
+        "SG",
+        "ID",
+        "BN",
+        "PH"
+      ],
+      "nativeRangeVi": "Đông Bắc Ấn Độ, Nam Trung Quốc và toàn bộ khu vực Đông Nam Á lục địa lẫn hải đảo",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới",
+      "Trảng cây bụi và bìa rừng",
+      "Vườn cây ăn trái"
+    ],
+    "identificationVi": "Thân cực kỳ thon mảnh màu xanh lá non (đôi khi có biến thể vàng hoặc nâu kem), đầu thuôn dài nhọn, đồng tử mắt nằm ngang hình lỗ khóa.",
+    "behaviorVi": "Khi di chuyển trên cành thường đung đưa cơ thể qua lại bắt chước cành cây rung trước gió để tiếp cận con mồi mà không bị phát hiện.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), mỗi lứa 4–10 rắn con dài tới 35 cm ngay trên cành cây.",
+    "threatsVi": [
+      "Bị con người đập chết do nhầm với rắn lục độc"
+    ],
+    "funFactsVi": [
+      "Khi phồng cổ đe dọa, lớp da giữa các vảy xanh của rắn roi xanh giãn ra làm lộ họa tiết kẻ sọc đen - trắng như bàn cờ rất ấn tượng."
+    ],
+    "similarSpecies": [
+      "Ahaetulla nasuta",
+      "Oxybelis fulgidus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng 60×50×90 cm trồng nhiều cây thật và cành mảnh đan chéo.",
+      "lightingVi": "Đèn UVB 5.0% ban ngày, điểm sưởi 30–31°C và phun sương tạo giọt nước trên lá vì rắn chỉ uống nước đọng trên lá.",
+      "feedingVi": "Chuyên ăn thằn lằn và nhái sạch ký sinh trùng 5–7 ngày/lần.",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong chuồng cây rộng.",
+      "commonProblemsVi": [
+        "Mất nước nếu không phun sương lên lá cây hàng ngày"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Phổ biến, không thuộc danh mục CITES hay loài nguy cấp quý hiếm tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Roi Xanh Asian Vine Snake (Sub-adult)",
+        "priceVnd": 650000,
+        "descriptionVi": "Cá thể khỏe mạnh, màu xanh lá non tươi sáng, ăn thằn lằn tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ahaetulla prasina - Asian vine snake (white morph) - Khao Yai National Park (22110761079).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahaetulla_prasina_-_Asian_vine_snake_(white_morph)_-_Khao_Yai_National_Park_(22110761079).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ahaetulla_prasina_-_Asian_vine_snake_%28white_morph%29_-_Khao_Yai_National_Park_%2822110761079%29.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Oriental Whipsnake (Ahaetulla prasina) (36544862380).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oriental_Whipsnake_(Ahaetulla_prasina)_(36544862380).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Oriental_Whipsnake_%28Ahaetulla_prasina%29_%2836544862380%29.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:An Oriental whip snake with its tongue flicking out.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:An_Oriental_whip_snake_with_its_tongue_flicking_out.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/An_Oriental_whip_snake_with_its_tongue_flicking_out.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "RidhoArifuddin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ahaetulla prasina, Asian vine snake - Tat Mok National Park (38510276695).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahaetulla_prasina,_Asian_vine_snake_-_Tat_Mok_National_Park_(38510276695).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ahaetulla_prasina%2C_Asian_vine_snake_-_Tat_Mok_National_Park_%2838510276695%29.jpg",
+        "width": 4757,
+        "height": 3175,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ahaetulla prasina, oriental whipsnake - Kaeng Krachan National Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahaetulla_prasina,_oriental_whipsnake_-_Kaeng_Krachan_National_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ahaetulla_prasina%2C_oriental_whipsnake_-_Kaeng_Krachan_National_Park.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "www.thainationalparks.com/kaeng-krachan-national-park Thai National Parks Rushen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2453368",
+      "https://www.iucnredlist.org/species/176329/123302214",
+      "https://en.wikipedia.org/wiki/Ahaetulla_prasina",
+      "https://vi.wikipedia.org/wiki/R%E1%BA%AFn_roi_th%C6%B0%E1%BB%9Dng"
+    ]
+  },
+  {
+    "scientificName": "Ahaetulla nasuta",
+    "commonNameVi": "Rắn Roi Mũi Dài Sri Lanka",
+    "commonNameEn": "Sri Lankan Green Vine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Ahaetulla"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Ahaetulla"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172707/286750830",
+    "gbifKey": 2453329,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới thấp và vườn cây rậm rạp tại Sri Lanka"
+    },
+    "descriptionVi": "Loài rắn roi cây nổi tiếng của đảo quốc Sri Lanka với phần phụ da nhọn dài vươn ra ở chóp mõm giúp ngụy trang hoàn hảo như một đọt lá non.",
+    "conservationNoteVi": "Phân bố rộng khắp các vùng đồng bằng và đồi thấp Sri Lanka nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Chiếc mấu da nhọn vươn dài trước mũi xóa nhòa đường viền đầu rắn, biến chúng thành một chồi lá xanh vô hình giữa tán rừng.",
+    "dietVi": "Động vật ăn thịt: nhông cây, thằn lằn, ếch cây và chim nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Sinharaja, Sri Lanka",
+      "lat": 6.41,
+      "lng": 80.46
+    },
+    "regionVi": "Nam Á (Sri Lanka)",
+    "otherNamesVi": [
+      "Rắn dây leo mũi nhọn"
+    ],
+    "synonyms": [
+      "Dryophis hammatorhynchus",
+      "Dryophis mycterizans cineroventer",
+      "Dryophis mycterizans tephrogaster",
+      "Dryophis nasuta"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ahaetulla_nasuta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ahaetulla_nasuta",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 165,
+      "weightGMin": 70,
+      "weightGMax": 200,
+      "heightCmMax": null,
+      "noteVi": "Có mấu da mềm nhọn ở đầu mũi"
+    },
+    "distribution": {
+      "countries": [
+        "LK"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Sri Lanka (sau khi các quần thể Ấn Độ và Đông Nam Á được tách thành các loài riêng trong phức hợp Ahaetulla)",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới",
+      "Vườn trà và cây ăn quả",
+      "Bụi cây ven suối"
+    ],
+    "identificationVi": "Khác với Ahaetulla prasina có mõm tù không mấu da, loài này có một phần phụ da nhọn dài dễ uốn ở chóp mõm và sọc vàng trắng dọc rìa bụng.",
+    "behaviorVi": "Hoạt động ban ngày trên tán cây, dùng thị giác hai mắt để tính toán khoảng cách phóng đớp con mồi chính xác tuyệt đối.",
+    "reproductionVi": "Đẻ con (noãn thai sinh), mỗi lứa 5–14 rắn con.",
+    "threatsVi": [
+      "Thu hẹp rừng tự nhiên và xung đột với con người quanh khu dân cư"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu di truyền năm 2020 đã xác định Ahaetulla nasuta thực sự là loài đặc hữu của Sri Lanka, còn các quần thể ở đất liền thuộc những loài anh em như Ahaetulla oxyrhyncha."
+    ],
+    "similarSpecies": [
+      "Ahaetulla prasina",
+      "Ahaetulla pulverulenta"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Sri Lanka cấm xuất khẩu thương mại động vật hoang dã đặc hữu và không có nguồn nhân giống thương mại tại Việt Nam, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ahaetulla nasuta, Long-nosed vine snake (juvenile) - Kaeng Krachan District, Phetchaburi (30032399592).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahaetulla_nasuta,_Long-nosed_vine_snake_(juvenile)_-_Kaeng_Krachan_District,_Phetchaburi_(30032399592).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ahaetulla_nasuta%2C_Long-nosed_vine_snake_%28juvenile%29_-_Kaeng_Krachan_District%2C_Phetchaburi_%2830032399592%29.jpg",
+        "width": 6152,
+        "height": 4106,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:\" Green vine snake \".jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22_Green_vine_snake_%22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%22_Green_vine_snake_%22.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "@ Vikas patil photography",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Green Vine of Agumbe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Vine_of_Agumbe.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Green_Vine_of_Agumbe.jpg",
+        "width": 1765,
+        "height": 1217,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vrinda Menon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ahaetulla nasuta (Green Vine Snake) (40589732533).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahaetulla_nasuta_(Green_Vine_Snake)_(40589732533).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ahaetulla_nasuta_%28Green_Vine_Snake%29_%2840589732533%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dinesh Valke from Thane, India",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Common Vine Snake Ahaetulla nasuta by Raju Kasambe DSCN1328 (6).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Vine_Snake_Ahaetulla_nasuta_by_Raju_Kasambe_DSCN1328_(6).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Common_Vine_Snake_Ahaetulla_nasuta_by_Raju_Kasambe_DSCN1328_%286%29.jpg",
+        "width": 4054,
+        "height": 2965,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dr. Raju Kasambe",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2453329",
+      "https://www.iucnredlist.org/species/172707/286750830",
+      "https://en.wikipedia.org/wiki/Ahaetulla_nasuta",
+      "https://vi.wikipedia.org/wiki/Ahaetulla_nasuta"
+    ]
+  },
+  {
+    "scientificName": "Oxybelis aeneus",
+    "commonNameVi": "Rắn Dây Leo Nâu Châu Mỹ",
+    "commonNameEn": "Brown Vine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Oxybelis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Oxybelis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198390/2523934",
+    "gbifKey": 2453632,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô nhiệt đới, trảng cây bụi và bìa rừng từ cực nam Arizona đến Nam Mỹ"
+    },
+    "descriptionVi": "Bậc thầy ngụy trang thành cành cây khô của châu Mỹ nhiệt đới với chiếc đầu thuôn nhọn và phần trong khoang miệng màu đen tím đặc trưng.",
+    "conservationNoteVi": "Phân bố cực rộng từ miền Nam Arizona (Hoa Kỳ) qua Trung Mỹ tới tận Brazil nên giữ mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Mỗi khi gió thổi làm cành lá đung đưa, rắn dây leo nâu cũng lắc lư cơ thể theo đúng nhịp gió để đánh lừa mắt những con thằn lằn Anolis.",
+    "dietVi": "Động vật ăn thịt: thằn lằn Anolis, thằn lằn chạy, ếch cây và chim nhỏ.",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Guanacaste, Costa Rica",
+      "lat": 10.63,
+      "lng": -85.44
+    },
+    "regionVi": "Trung và Nam Mỹ",
+    "otherNamesVi": [
+      "Rắn dây khô"
+    ],
+    "synonyms": [
+      "Bascanion acuminatus",
+      "Coluber acuminatus",
+      "Dryinus aeneus",
+      "Dryinus auratus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Oxybelis_aeneus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oxybelis_aeneus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 110,
+      "lengthCmMax": 160,
+      "weightGMin": 60,
+      "weightGMax": 160,
+      "heightCmMax": null,
+      "noteVi": "Thân mảnh như cành củi khô, đồng tử mắt tròn"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX",
+        "GT",
+        "BZ",
+        "HN",
+        "SV",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BO",
+        "BR"
+      ],
+      "nativeRangeVi": "Từ nam Arizona (Hoa Kỳ), Mexico, toàn bộ Trung Mỹ xuống lưu vực Amazon và đông nam Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô nhiệt đới",
+      "Bìa rừng mưa",
+      "Trảng cây bụi savan"
+    ],
+    "identificationVi": "Thân mảnh màu xám tro hoặc nâu đồng ánh kim giống cành cây khô, mõm nhọn dài, môi trên màu vàng kem viền đen, đồng tử mắt tròn (khác đồng tử ngang của Ahaetulla châu Á).",
+    "behaviorVi": "Khi bị đe dọa sẽ há to miệng để lộ niêm mạc miệng màu xanh đen sẫm nhằm làm kẻ thù giật mình.",
+    "reproductionVi": "Đẻ trứng (khác với rắn roi châu Á đẻ con), mỗi lứa 3–6 trứng dài vào mùa mưa.",
+    "threatsVi": [
+      "Cháy rừng khô nhiệt đới ở một số khu vực cục bộ"
+    ],
+    "funFactsVi": [
+      "Đây là ví dụ điển hình của tiến hóa hội tụ: dù thuộc họ nhánh khác và có đồng tử tròn, hình dáng của chúng giống hệt rắn roi Ahaetulla ở châu Á."
+    ],
+    "similarSpecies": [
+      "Oxybelis fulgidus",
+      "Ahaetulla prasina"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Chuyên ăn thằn lằn sống và gần như không có nguồn nhân giống nuôi nhốt thương mại tại Việt Nam, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Parque Nacional da Furna Feia Diego Bento (02).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Furna_Feia_Diego_Bento_(02).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Parque_Nacional_da_Furna_Feia_Diego_Bento_%2802%29.jpg",
+        "width": 4724,
+        "height": 3150,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego de Medeiros Bento",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Brown vine snake (9353224698).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown_vine_snake_(9353224698).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Brown_vine_snake_%289353224698%29.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Colubridae- Oxybelis aeneus aeneus (Brown Vinesnake) - 49786998156.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Colubridae-_Oxybelis_aeneus_aeneus_(Brown_Vinesnake)_-_49786998156.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Colubridae-_Oxybelis_aeneus_aeneus_%28Brown_Vinesnake%29_-_49786998156.jpg",
+        "width": 3504,
+        "height": 2336,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kristof Zyskowski & Yulia Bereshpolova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cobra - cipó - Oxybelis aeneus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cobra_-_cip%C3%B3_-_Oxybelis_aeneus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cobra_-_cip%C3%B3_-_Oxybelis_aeneus.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Renato Augusto Martins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brown vine snake (Oxybelis aeneus) (8038937868).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brown_vine_snake_(Oxybelis_aeneus)_(8038937868).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Brown_vine_snake_%28Oxybelis_aeneus%29_%288038937868%29.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2453632",
+      "https://www.iucnredlist.org/species/198390/2523934",
+      "https://en.wikipedia.org/wiki/Oxybelis_aeneus",
+      "https://vi.wikipedia.org/wiki/Oxybelis_aeneus"
+    ]
+  },
+  {
+    "scientificName": "Oxybelis fulgidus",
+    "commonNameVi": "Rắn Dây Leo Xanh Nam Mỹ",
+    "commonNameEn": "Green Vine Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Oxybelis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Oxybelis"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198389/2523790",
+    "gbifKey": 2453625,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng mưa nhiệt đới và rừng thứ sinh từ Mexico đến lưu vực Amazon"
+    },
+    "descriptionVi": "Loài rắn dây leo xanh lớn và khỏe khoắn của rừng mưa Trung và Nam Mỹ với chiếc lưỡi dài màu xanh lục giữ bất động khi dò tìm mùi con mồi.",
+    "conservationNoteVi": "Phân bố rộng khắp vùng Trung Mỹ và lưu vực Amazon nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Thay vì thè thụt lưỡi liên tục như các loài rắn khác, rắn dây leo xanh Nam Mỹ duỗi thẳng chiếc lưỡi xanh lá cây ra ngoài và giữ yên để không làm động con mồi.",
+    "dietVi": "Động vật ăn thịt: thằn lằn lớn, chim sẻ, chim ruồi và chuột cây.",
+    "lifespanVi": "12–16 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Iquitos, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Trung và Nam Mỹ",
+    "otherNamesVi": [
+      "Rắn dây leo ngọc lục bảo"
+    ],
+    "synonyms": [
+      "Coluber fulgidus",
+      "Dryiophis catesbyi"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Oxybelis_fulgidus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oxybelis_fulgidus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 140,
+      "lengthCmMax": 200,
+      "weightGMin": 120,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Lớn và săn chắc hơn Oxybelis aeneus"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "GT",
+        "BZ",
+        "HN",
+        "SV",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "GY",
+        "SR",
+        "GF",
+        "EC",
+        "PE",
+        "BO",
+        "BR"
+      ],
+      "nativeRangeVi": "Từ miền nam Mexico dọc Trung Mỹ tới toàn bộ bồn địa Amazon ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới đất thấp",
+      "Bìa rừng và rừng hành lang ven sông",
+      "Đồn điền ca cao"
+    ],
+    "identificationVi": "Toàn thân màu xanh lá cây tươi sáng với hai đường kẻ vàng trắng chạy dọc hai rìa bụng, đầu thuôn nhọn có vệt đen qua mắt và đồng tử mắt tròn.",
+    "behaviorVi": "Săn mồi ban ngày ở tầng cây bụi và tán thấp; nhờ kích thước lớn hơn nên săn được cả chim và gặm nhấm nhỏ bên cạnh thằn lằn.",
+    "reproductionVi": "Đẻ 4–10 trứng thuôn dài trên tán cây hoặc hốc gỗ mục, nở sau 75–90 ngày.",
+    "threatsVi": [
+      "Phá rừng Amazon ở một số vùng biên giới nông nghiệp"
+    ],
+    "funFactsVi": [
+      "Nhờ ăn cả chim và chuột nhỏ trong tự nhiên, loài này dễ tập ăn chuột rã đông trong nuôi nhốt hơn nhiều so với rắn dây leo nâu."
+    ],
+    "similarSpecies": [
+      "Ahaetulla prasina",
+      "Oxybelis aeneus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng lớn 90×60×120 cm trồng cây nhiệt đới và nhiều cành ngang.",
+      "lightingVi": "Đèn UVB 5.0%, điểm sưởi 31°C và hệ thống phun sương tự động.",
+      "feedingVi": "Ăn thằn lằn hoặc chuột fuzzy/hopper rã đông gắp đưa lên cành 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Cần chuồng cao thoáng khí và tránh chạm vào mũi kính"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc phụ lục CITES, được phép giao dịch hợp pháp với người chơi có kinh nghiệm."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Dây Leo Xanh Nam Mỹ Oxybelis fulgidus (Sub-adult)",
+        "priceVnd": 3900000,
+        "descriptionVi": "Cá thể khỏe mạnh, đã tập ăn chuột hopper rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oxybelis fulgidus Instituto Butantã.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oxybelis_fulgidus_Instituto_Butant%C3%A3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Oxybelis_fulgidus_Instituto_Butant%C3%A3.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Miguelrangeljr",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Costa Rica 93.DSCN4412-new (31129635125).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Costa_Rica_93.DSCN4412-new_(31129635125).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Costa_Rica_93.DSCN4412-new_%2831129635125%29.jpg",
+        "width": 1200,
+        "height": 897,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Åsa Berndtsson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:CulebraChocoya1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CulebraChocoya1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/CulebraChocoya1.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "SergioTorresC",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Instituto butanta 00.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Instituto_butanta_00.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Instituto_butanta_00.jpg",
+        "width": 3289,
+        "height": 2118,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Luiz coelho",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Oxybelis fulgidus (head).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oxybelis_fulgidus_(head).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Oxybelis_fulgidus_%28head%29.jpg",
+        "width": 2700,
+        "height": 1900,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Philipp Weigell",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2453625",
+      "https://www.iucnredlist.org/species/198389/2523790",
+      "https://en.wikipedia.org/wiki/Oxybelis_fulgidus",
+      "https://vi.wikipedia.org/wiki/Oxybelis_fulgidus"
+    ]
+  },
+  {
+    "scientificName": "Opheodrys aestivus",
+    "commonNameVi": "Rắn Xanh Nhám",
+    "commonNameEn": "Rough Green Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Opheodrys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Opheodrys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63859/12722881",
+    "gbifKey": 8984671,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 29,
+      "baskMax": 31,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cây bụi rậm ven sông hồ, đầm lầy và bìa rừng miền Đông Nam Hoa Kỳ"
+    },
+    "descriptionVi": "Loài rắn ăn côn trùng hiền lành tuyệt đối của miền Đông Nam Hoa Kỳ với lớp vảy xanh lá cây có gờ nhám và chiếc bụng vàng kem tươi sáng.",
+    "conservationNoteVi": "Phân bố rộng và phổ biến tại các hành lang cây xanh ven nước Đông Nam Hoa Kỳ nên ở mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Là một trong số rất ít loài rắn chuyên ăn côn trùng và nhện, rắn xanh nhám hiền đến mức hầu như không bao giờ biết mở miệng cắn khi được cầm trên tay.",
+    "dietVi": "Động vật ăn côn trùng: dế, châu chấu, sâu bướm không lông và nhện.",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Florida, Hoa Kỳ",
+      "lat": 28.1,
+      "lng": -81.6
+    },
+    "regionVi": "Đông Nam Hoa Kỳ và Đông Bắc Mexico",
+    "otherNamesVi": [
+      "Rắn cỏ xanh nhám"
+    ],
+    "synonyms": [
+      "Coluber aestivus",
+      "Leptophis majalis",
+      "Opheodrys aestivus conanti"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Opheodrys_aestivus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Opheodrys_aestivus",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 55,
+      "lengthCmMax": 90,
+      "weightGMin": 30,
+      "weightGMax": 75,
+      "heightCmMax": null,
+      "noteVi": "Thân mảnh nhẹ, vảy lưng có gờ"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ New Jersey, Indiana, Kansas xuống toàn bộ Florida, Texas và bờ đông bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Cây bụi ven suối và hồ",
+      "Bìa rừng ẩm",
+      "Đầm lầy và hàng rào dây leo"
+    ],
+    "identificationVi": "Lưng màu xanh lục tươi với các vảy có sống gờ rõ rệt (nhám), bụng màu vàng chanh hoặc trắng kem, mắt tròn đen lớn.",
+    "behaviorVi": "Hoạt động ban ngày trên các cành cây bụi thấp sát mặt nước, phù hợp cho người yêu rắn nhưng không muốn cho ăn chuột.",
+    "reproductionVi": "Đẻ 4–12 trứng thuôn dài trong hốc cây mục vào mùa hè, nở sau 35–45 ngày.",
+    "threatsVi": [
+      "Thuốc trừ sâu nông nghiệp làm giảm nguồn côn trùng và gây nhiễm độc thứ cấp"
+    ],
+    "funFactsVi": [
+      "Sau khi chết, sắc tố vàng trên da bị phân hủy nhanh khiến cơ thể rắn xanh nhám chuyển sang màu xanh dương chỉ sau vài giờ."
+    ],
+    "similarSpecies": [
+      "Opheodrys vernalis",
+      "Oxybelis fulgidus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng cây sinh cảnh (bioactive) 60×45×60 cm trồng nhiều cây xanh để rắn ẩn mình.",
+      "lightingVi": "Bắt buộc có đèn UVB 5.0% ban ngày và điểm sưởi 29–30°C.",
+      "feedingVi": "Thả dế, châu chấu non, sâu sáp hoặc sâu tằm đã rắc bột canxi + D3 vào khay ăn trên cành 2–3 ngày/lần.",
+      "socialVi": "Có thể nuôi đơn hoặc nuôi theo cặp trong hồ trồng cây dày.",
+      "commonProblemsVi": [
+        "Dễ bị stress nếu chuồng trống trải không có tán lá che phủ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES, rất được ưa chuộng vì ăn côn trùng thay vì chuột."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Xanh Nhám Rough Green Snake (Adult khỏe mạnh)",
+        "priceVnd": 1650000,
+        "descriptionVi": "Cá thể ăn dế và sâu sáp rất nhạy, phù hợp hồ bán cạn trồng cây."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Opheodrys aestivus - rough green snake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Opheodrys_aestivus_-_rough_green_snake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Opheodrys_aestivus_-_rough_green_snake.jpg",
+        "width": 5376,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Asklēpiós",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Florida Rough Green Snake (13132ae8-53e8-4ead-bfec-52581c03f6d3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Florida_Rough_Green_Snake_(13132ae8-53e8-4ead-bfec-52581c03f6d3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Florida_Rough_Green_Snake_%2813132ae8-53e8-4ead-bfec-52581c03f6d3%29.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Green Snake (5753010752).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Snake_(5753010752).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Green_Snake_%285753010752%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Chris M Morris",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rough Green Snake (Opheodrys aestivus) (17002000829).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rough_Green_Snake_(Opheodrys_aestivus)_(17002000829).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Rough_Green_Snake_%28Opheodrys_aestivus%29_%2817002000829%29.jpg",
+        "width": 4044,
+        "height": 2886,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:256 365 - Rough Green Snake - Opheodrys aestivus, Meadowood SRMA, Mason Neck, Virginia, September 13, 2023 (53186243181).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:256_365_-_Rough_Green_Snake_-_Opheodrys_aestivus,_Meadowood_SRMA,_Mason_Neck,_Virginia,_September_13,_2023_(53186243181).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/256_365_-_Rough_Green_Snake_-_Opheodrys_aestivus%2C_Meadowood_SRMA%2C_Mason_Neck%2C_Virginia%2C_September_13%2C_2023_%2853186243181%29.jpg",
+        "width": 2195,
+        "height": 1485,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8984671",
+      "https://www.iucnredlist.org/species/63859/12722881",
+      "https://en.wikipedia.org/wiki/Opheodrys_aestivus",
+      "https://vi.wikipedia.org/wiki/Opheodrys_aestivus"
+    ]
+  },
+  {
+    "scientificName": "Opheodrys vernalis",
+    "commonNameVi": "Rắn Xanh Mượt",
+    "commonNameEn": "Smooth Green Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Opheodrys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Opheodrys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63842/90083304",
+    "gbifKey": 2458587,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 25,
+      "baskMin": 26,
+      "baskMax": 28,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ ẩm, đầm lầy cỏ và trảng rừng thông miền Bắc Hoa Kỳ và Nam Canada"
+    },
+    "descriptionVi": "Họ hàng phương Bắc của rắn xanh nhám với lớp vảy trơn láng bóng như lụa xanh và lối sống gắn liền với các thảm cỏ mát mẻ.",
+    "conservationNoteVi": "Phân bố rộng ở miền Bắc Hoa Kỳ và miền Nam Canada nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Tại những vùng núi có mùa hè cực ngắn ở Bắc Mỹ, rắn cái giữ trứng phát triển trong cơ thể đến khi gần nở mới đẻ để trứng chỉ cần 4 ngày ấp ngoài tự nhiên.",
+    "dietVi": "Động vật ăn côn trùng: sâu bướm, dế, cào cào, nhện và sên nhỏ.",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Wisconsin, Hoa Kỳ",
+      "lat": 44.5,
+      "lng": -89.5
+    },
+    "regionVi": "Bắc Mỹ",
+    "otherNamesVi": [
+      "Rắn cỏ xanh mượt"
+    ],
+    "synonyms": [
+      "Coluber vernalis",
+      "Liochlorophis vernalis",
+      "Opheodrys vermlis borealis",
+      "Opheodrys vernalis blanchardi"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Opheodrys_vernalis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Smooth_green_snake",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 60,
+      "weightGMin": 20,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ hơn và sống dưới mặt cỏ nhiều hơn loài nhám"
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "nativeRangeVi": "Nam Canada (từ Saskatchewan tới Nova Scotia) và miền Đông Bắc, Trung Tây cùng vùng núi Rocky Hoa Kỳ",
+      "elevationM": {
+        "min": 0,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ ẩm",
+      "Đầm lầy than bùn",
+      "Trảng cỏ rừng miền núi"
+    ],
+    "identificationVi": "Thân ngắn gọn hơn Opheodrys aestivus, vảy lưng hoàn toàn trơn láng không có gờ nhám, màu xanh lá cây tươi sáng và bụng trắng ngà.",
+    "behaviorVi": "Hiền lành, hoạt động ban ngày trên mặt đất phủ cỏ dày thay vì leo cao lên ngọn cây.",
+    "reproductionVi": "Đẻ 3–11 trứng vào cuối hè; thời gian ấp ngoài tự nhiên cực ngắn chỉ từ 4 đến 23 ngày.",
+    "threatsVi": [
+      "Sử dụng thuốc trừ sâu và mất đồng cỏ tự nhiên"
+    ],
+    "funFactsVi": [
+      "Rắn xanh mượt giữ kỷ lục là một trong những loài rắn đẻ trứng có thời gian ấp ngoài cơ thể ngắn nhất thế giới."
+    ],
+    "similarSpecies": [
+      "Opheodrys aestivus",
+      "Diadophis punctatus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Được bảo vệ tại nhiều bang miền Trung Tây Hoa Kỳ và rất nhạy cảm với khí hậu nóng nhiệt đới, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Opheodrys vernalis (Stanton 1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Opheodrys_vernalis_(Stanton_1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Opheodrys_vernalis_%28Stanton_1%29.jpg",
+        "width": 5894,
+        "height": 3929,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Rstanton13",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Smooth Greensnake (Opheodrys vernalis) - MacGregor Point Provincial Park 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth_Greensnake_(Opheodrys_vernalis)_-_MacGregor_Point_Provincial_Park_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Smooth_Greensnake_%28Opheodrys_vernalis%29_-_MacGregor_Point_Provincial_Park_01.jpg",
+        "width": 2136,
+        "height": 3204,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Smooth Green Snake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth_Green_Snake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Smooth_Green_Snake.jpg",
+        "width": 1839,
+        "height": 1380,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Martha Dol.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Smooth green snake (Opheodrys vernalis) Madden Haag.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Smooth_green_snake_(Opheodrys_vernalis)_Madden_Haag.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Smooth_green_snake_%28Opheodrys_vernalis%29_Madden_Haag.jpg",
+        "width": 3885,
+        "height": 2498,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MH Herpetology",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Western Smooth Green Snake, Opheodrys vernalis blanchardi - Flickr - GregTheBusker (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Western_Smooth_Green_Snake,_Opheodrys_vernalis_blanchardi_-_Flickr_-_GregTheBusker_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Western_Smooth_Green_Snake%2C_Opheodrys_vernalis_blanchardi_-_Flickr_-_GregTheBusker_%281%29.jpg",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2458587",
+      "https://www.iucnredlist.org/species/63842/90083304",
+      "https://en.wikipedia.org/wiki/Smooth_green_snake",
+      "https://vi.wikipedia.org/wiki/Opheodrys_vernalis"
+    ]
+  },
+  {
+    "scientificName": "Drymarchon couperi",
+    "commonNameVi": "Rắn Chàm Phương Đông",
+    "commonNameEn": "Eastern Indigo Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Drymarchon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Drymarchon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/63773/12714602",
+    "gbifKey": 2452317,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cát rừng thông lá dài và đầm lầy ven suối ở Florida và Nam Georgia"
+    },
+    "descriptionVi": "Loài rắn bản địa dài nhất Bắc Mỹ với lớp vảy đen ánh xanh chàm tím lấp lánh như kim loại và cằm màu cam rực rỡ.",
+    "conservationNoteVi": "Đánh giá mức Ít quan tâm (LC) trên Sách Đỏ IUCN nhưng được bảo vệ cấp Liên bang theo Đạo luật Các loài Nguy cấp Hoa Kỳ (ESA).",
+    "pullQuoteVi": "Là loài rắn bản địa dài nhất Bắc Mỹ, rắn chàm phương Đông gắn kết vận mệnh sinh tồn của mình với những cái hang sâu của rùa đất Gopher.",
+    "dietVi": "Động vật ăn thịt: rắn khác (kể cả rắn đuôi chuông kim cương), rùa non, ếch nhái, chim và thú nhỏ.",
+    "lifespanVi": "18–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam Georgia, Hoa Kỳ",
+      "lat": 31.2,
+      "lng": -82.4
+    },
+    "regionVi": "Đông Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rắn Indigo phương Đông"
+    ],
+    "synonyms": [
+      "Coluber couperi",
+      "Drymarchon corais couperi",
+      "Drymarchon kolpobasileus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Drymarchon_couperi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Eastern_indigo_snake",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 150,
+      "lengthCmMax": 240,
+      "weightGMin": 1200,
+      "weightGMax": 3500,
+      "heightCmMax": null,
+      "noteVi": "Loài rắn bản địa dài nhất Bắc Mỹ, kỷ lục đạt 2,6 mét"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Đông Nam Georgia và toàn bộ bán đảo Florida (đang được tái thả phục hồi tại Alabama)",
+      "elevationM": {
+        "min": 0,
+        "max": 150
+      }
+    },
+    "habitatTypesVi": [
+      "Đồi cát rừng thông lá dài",
+      "Rừng sồi ven đầm lầy",
+      "Rừng ngập mặn ven biển"
+    ],
+    "identificationVi": "Toàn thân màu đen tuyền ánh xanh chàm tím dưới nắng với vảy lớn trơn bóng; vùng cằm, má và cổ họng thường có màu đỏ cam hoặc kem.",
+    "behaviorVi": "Săn mồi ban ngày bằng tốc độ và sức mạnh hàm thay vì siết vòng; mùa đông thường trú ngụ trong hang của rùa đất Gopherus polyphemus.",
+    "reproductionVi": "Đẻ 5–12 trứng rất lớn vào cuối mùa xuân, nở sau 80–100 ngày.",
+    "threatsVi": [
+      "Phá hủy rừng thông lá dài",
+      "Nạn đổ xăng hun khói bắt rắn đuôi chuông trong hang rùa Gopher trước đây"
+    ],
+    "funFactsVi": [
+      "Rắn chàm không siết con mồi như trăn hay rắn ngô mà dùng bộ hàm cực khỏe ghì chặt con mồi xuống mặt đất rồi nuốt chửng."
+    ],
+    "similarSpecies": [
+      "Drymarchon melanurus",
+      "Drymarchon corais"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Được bảo vệ nghiêm ngặt cấp Liên bang theo Đạo luật Các loài Nguy cấp Hoa Kỳ (ESA), cần giấy phép đặc biệt mới được sở hữu, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eastern Indigo 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Indigo_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Eastern_Indigo_001.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Eastern indigo snake lying on ground - DPLA - c1a82f0106f95233f11b545e89eecd0d.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_indigo_snake_lying_on_ground_-_DPLA_-_c1a82f0106f95233f11b545e89eecd0d.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Eastern_indigo_snake_lying_on_ground_-_DPLA_-_c1a82f0106f95233f11b545e89eecd0d.jpg",
+        "width": 1000,
+        "height": 1500,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Garst, Warren, 1922-2016, photographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Indigo snake reptile.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indigo_snake_reptile.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Indigo_snake_reptile.jpg",
+        "width": 3593,
+        "height": 2400,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Mount R, U.S. Fish and Wildlife Service",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Indigo Snake 085.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Indigo_Snake_085.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Eastern_Indigo_Snake_085.jpg",
+        "width": 2840,
+        "height": 2185,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:EasternIndigo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:EasternIndigo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/EasternIndigo.jpg",
+        "width": 2060,
+        "height": 1608,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2452317",
+      "https://www.iucnredlist.org/species/63773/12714602",
+      "https://en.wikipedia.org/wiki/Eastern_indigo_snake",
+      "https://vi.wikipedia.org/wiki/Drymarchon_couperi"
+    ]
+  },
+  {
+    "scientificName": "Drymarchon corais",
+    "commonNameVi": "Rắn Chàm Đuôi Vàng Nam Mỹ",
+    "commonNameEn": "Yellow-tailed Cribo",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Drymarchon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Drymarchon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/62234/3110201",
+    "gbifKey": 7759294,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới, trảng cỏ savan ngập nước và bờ sông Nam Mỹ"
+    },
+    "descriptionVi": "Loài rắn săn mồi đỉnh cao không độc của rừng nhiệt đới Nam Mỹ với nửa thân trước đen nhánh chuyển dần sang vàng tươi rực rỡ ở phần đuôi.",
+    "conservationNoteVi": "Phân bố rất rộng khắp bồn địa Amazon, Orinoco và Pantanal nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Với sự chuyển màu mượt mà từ đen huyền ở đầu sang vàng hoàng yến ở đuôi, rắn Cribo đuôi vàng là một trong những loài rắn nước ấn tượng nhất Nam Mỹ.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, cóc lớn, ếch, cá, chim và các loài rắn độc Nam Mỹ.",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Suriname",
+      "lat": 4,
+      "lng": -56
+    },
+    "regionVi": "Nam Mỹ và Trinidad",
+    "otherNamesVi": [
+      "Rắn Cribo đuôi vàng"
+    ],
+    "synonyms": [
+      "Coluber corais",
+      "Drymarchon corais corais",
+      "Geoptyas collaris",
+      "Geoptyas flaviventris"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Drymarchon_corais",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indigo_snake_(species)",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 160,
+      "lengthCmMax": 250,
+      "weightGMin": 1200,
+      "weightGMax": 3200,
+      "heightCmMax": null,
+      "noteVi": "Cơ thể vạm vỡ, rất năng động ban ngày"
+    },
+    "distribution": {
+      "countries": [
+        "VE",
+        "TT",
+        "GY",
+        "SR",
+        "GF",
+        "CO",
+        "EC",
+        "PE",
+        "BO",
+        "BR",
+        "PY",
+        "AR"
+      ],
+      "nativeRangeVi": "Từ Venezuela, đảo Trinidad và vùng Guiana qua toàn bộ Amazon xuống Bolivia, Paraguay và bắc Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới",
+      "Đồng cỏ ngập nước Llanos và Pantanal",
+      "Hành lang rừng ven sông"
+    ],
+    "identificationVi": "Vảy trơn lớn bóng loáng; hai phần ba thân trước màu đen hoặc nâu đen, một phần ba thân sau và toàn bộ đuôi màu vàng tươi tương phản.",
+    "behaviorVi": "Cực kỳ thông minh, tỉnh táo, hoạt động ban ngày và có khả năng kháng nọc của các loài rắn lục Nam Mỹ chi Bothrops.",
+    "reproductionVi": "Đẻ 6–14 trứng kích thước lớn, thời gian ấp kéo dài khoảng 85–105 ngày.",
+    "threatsVi": [
+      "Mất rừng cục bộ và tử vong trên đường cao tốc"
+    ],
+    "funFactsVi": [
+      "Người dân bản địa vùng Amazon rất tôn trọng rắn Cribo và không giết chúng khi bắt gặp quanh nhà vì chúng săn diệt rắn lục đầu giáo Bothrops kịch độc."
+    ],
+    "similarSpecies": [
+      "Drymarchon couperi",
+      "Spilotes pullatus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng cực lớn tối thiểu 180×75×60 cm vì rắn lớn và di chuyển liên tục ban ngày.",
+      "lightingVi": "Điểm sưởi 31–32°C, đèn UVB 5.0% và khay nước lớn để ngâm mình.",
+      "feedingVi": "Ăn chuột cống đông lạnh rã đông hoặc đùi gà/chim cút 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Trao đổi chất rất nhanh nên tiêu hóa và thải phân nhiều hơn các loài rắn cùng cỡ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES, các cá thể nhân giống CB được giao dịch hợp pháp cho người chơi chuyên sâu."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chàm Đuôi Vàng Yellow-tailed Cribo CB (Juvenile)",
+        "priceVnd": 7500000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, ăn chuột rã đông cực nhạy."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Escamas de Drymarchon corais.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Escamas_de_Drymarchon_corais.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Escamas_de_Drymarchon_corais.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MauMirror",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drymarchon corais 283565713.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drymarchon_corais_283565713.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Drymarchon_corais_283565713.jpg",
+        "width": 2048,
+        "height": 1301,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Whaldener Endo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Indigo Snake (Drymarchon corais) close-up (14124598973).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indigo_Snake_(Drymarchon_corais)_close-up_(14124598973).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Indigo_Snake_%28Drymarchon_corais%29_close-up_%2814124598973%29.jpg",
+        "width": 3219,
+        "height": 2126,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drymarchon corais 283565054.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drymarchon_corais_283565054.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Drymarchon_corais_283565054.jpg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Whaldener Endo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drymarchon corais 250446673.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drymarchon_corais_250446673.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Drymarchon_corais_250446673.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "....Christopher Borges....",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7759294",
+      "https://www.iucnredlist.org/species/62234/3110201",
+      "https://en.wikipedia.org/wiki/Indigo_snake_(species)",
+      "https://vi.wikipedia.org/wiki/Drymarchon_corais"
+    ]
+  },
+  {
+    "scientificName": "Hydrodynastes gigas",
+    "commonNameVi": "Rắn Hổ Mang Nước Giả Nam Mỹ",
+    "commonNameEn": "False Water Cobra",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Hydrodynastes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Hydrodynastes"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/15179152/15179161",
+    "gbifKey": 2454428,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy ngập nước, rừng Pantanal và lưu vực sông lớn ở Nam Mỹ"
+    },
+    "descriptionVi": "Loài rắn bán thủy sinh khổng lồ của vùng đất ngập nước Nam Mỹ có khả năng bành rộng cổ như rắn hổ mang nhưng lại mang tính cách thông minh, tò mò.",
+    "conservationNoteVi": "Phân bố rộng khắp các vùng đất ngập nước Nam Mỹ nên ở mức Ít quan tâm (LC), thuộc Phụ lục II CITES để quản lý thương mại quốc tế.",
+    "pullQuoteVi": "Dù có thể bành cổ rộng ngang ngửa rắn hổ mang thật, loài rắn đầm lầy Nam Mỹ này lại giữ đầu nằm ngang sát đất hoặc mặt nước thay vì ngóc cao.",
+    "dietVi": "Động vật ăn thịt: cá nước ngọt, ếch nhái lớn, gặm nhấm và chim nước.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Pantanal, Brazil",
+      "lat": -17.7,
+      "lng": -57.38
+    },
+    "regionVi": "Nam Mỹ",
+    "otherNamesVi": [
+      "Rắn Falsie",
+      "Boipeva"
+    ],
+    "synonyms": [
+      "Cyclagras gigas",
+      "Hydrodynastes melanogigas",
+      "Lejosophis gigas",
+      "Xenodon gigas"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Hydrodynastes_gigas",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hydrodynastes_gigas",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 180,
+      "lengthCmMax": 260,
+      "weightGMin": 1800,
+      "weightGMax": 4500,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài rắn họ Dipsadidae lớn nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "GF",
+        "SR",
+        "GY",
+        "VE",
+        "CO",
+        "PE",
+        "BO",
+        "BR",
+        "PY",
+        "AR"
+      ],
+      "nativeRangeVi": "Lưu vực Amazon, vùng Pantanal (Brazil, Bolivia, Paraguay) xuống miền bắc Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy ngập nước Pantanal",
+      "Bờ sông và hồ móng ngựa",
+      "Rừng ngập lũ theo mùa"
+    ],
+    "identificationVi": "Nền da vàng đồng hoặc nâu ô-liu với các đốm yên ngựa đen lớn và vệt đen dài chạy từ sau mắt xuống cổ; có khả năng bành dẹt phần cổ rất rộng.",
+    "behaviorVi": "Bơi lặn xuất sắc, hoạt động ban ngày rất linh hoạt; thuộc nhóm răng nanh sau (opisthoglyphous) có độc nhẹ gây sưng đau nên cần thao tác bằng móc rắn và kẹp dài khi cho ăn.",
+    "reproductionVi": "Đẻ 12–30 trứng lớn vào mùa mưa, trứng nở sau khoảng 60–75 ngày.",
+    "threatsVi": [
+      "Khai thác da trong quá khứ và suy thoái vùng đất ngập nước"
+    ],
+    "funFactsVi": [
+      "Khác với rắn hổ mang châu Á ngóc thẳng đứng khi bành cổ, Hydrodynastes gigas có thể bành dẹt cả phần cổ lẫn nửa thân trên trong khi vẫn đang bơi ngang trên mặt nước."
+    ],
+    "similarSpecies": [
+      "Drymarchon corais",
+      "Spilotes pullatus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lớn tối thiểu 180×75×60 cm có bể bơi nước sạch chiếm ít nhất 1/3 diện tích đáy.",
+      "lightingVi": "Điểm sưởi 31–33°C, đèn UVB 5.0% ban ngày.",
+      "feedingVi": "Ăn chuột cống rã đông, cá phi-lê và chim cút bằng kẹp dài 7–10 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Phản xạ đớp mồi cực mạnh, luôn dùng kẹp dài trên 40 cm khi cho ăn để tránh bị nhai nhầm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES nhưng không thuộc danh mục cấm tại Việt Nam; các cá thể nhân giống CB hợp pháp được giao dịch cho người nuôi kinh nghiệm."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Hổ Mang Nước Giả False Water Cobra CB (Juvenile)",
+        "priceVnd": 5500000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, ăn tốt chuột và cá phi-lê rã đông."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brazilian False Water Cobra (Hydrodynastes gigas) on the road ... (28245677790).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brazilian_False_Water_Cobra_(Hydrodynastes_gigas)_on_the_road_..._(28245677790).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Brazilian_False_Water_Cobra_%28Hydrodynastes_gigas%29_on_the_road_..._%2828245677790%29.jpg",
+        "width": 5472,
+        "height": 2888,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Milwaukee County Zoo August 2022 112 (false water cobra).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Milwaukee_County_Zoo_August_2022_112_(false_water_cobra).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Milwaukee_County_Zoo_August_2022_112_%28false_water_cobra%29.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Michael Barera",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hydrodynastes gigas Instituto Butantã.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrodynastes_gigas_Instituto_Butant%C3%A3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hydrodynastes_gigas_Instituto_Butant%C3%A3.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Miguelrangeljr",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brazilian False Water Cobra (Hydrodynastes gigas) on the road ... (28497210736).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brazilian_False_Water_Cobra_(Hydrodynastes_gigas)_on_the_road_..._(28497210736).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Brazilian_False_Water_Cobra_%28Hydrodynastes_gigas%29_on_the_road_..._%2828497210736%29.jpg",
+        "width": 5192,
+        "height": 2875,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hydrodynastes gigas CB08 3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrodynastes_gigas_CB08_3.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hydrodynastes_gigas_CB08_3.JPG",
+        "width": 3456,
+        "height": 2304,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "XPS420",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2454428",
+      "https://www.iucnredlist.org/species/15179152/15179161",
+      "https://en.wikipedia.org/wiki/Hydrodynastes_gigas",
+      "https://vi.wikipedia.org/wiki/Hydrodynastes_gigas"
+    ]
+  },
+  {
+    "scientificName": "Spilotes pullatus",
+    "commonNameVi": "Rắn Chuột Vàng Đen Nam Mỹ",
+    "commonNameEn": "Tiger Rat Snake",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Spilotes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy",
+      "family": "Họ Colubridae",
+      "genus": "Chi Spilotes"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/190633/1955620",
+    "gbifKey": 9195230,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới, bìa rừng và hành lang cây xanh ven sông từ Mexico đến Argentina"
+    },
+    "descriptionVi": "Loài rắn leo cây bán địa sinh nổi bật nhất vùng Tân Nhiệt đới với những vạch chéo màu vàng chanh và đen tuyền đan xen như bộ lông hổ.",
+    "conservationNoteVi": "Phân bố trải dài khắp Trung và Nam Mỹ với quần thể ổn định nên được IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Khi bị khiêu khích, rắn chuột hổ Nam Mỹ phồng to vùng cổ theo chiều dọc thành một quả cầu vàng đen khổng lồ và quất đuôi xuống lá cây rào rào.",
+    "dietVi": "Động vật ăn thịt: gặm nhấm, dơi, chim, trứng chim và thằn lằn lớn.",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Costa Rica",
+      "lat": 9.93,
+      "lng": -84.08
+    },
+    "regionVi": "Trung và Nam Mỹ",
+    "otherNamesVi": [
+      "Rắn chuột hổ",
+      "Rắn Caninana"
+    ],
+    "synonyms": [
+      "Cerastes coronatus",
+      "Cerates mexicanus",
+      "Coluber novae-hispaniae",
+      "Coluber plutonius"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Spilotes_pullatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Spilotes_pullatus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 180,
+      "lengthCmMax": 250,
+      "weightGMin": 800,
+      "weightGMax": 2000,
+      "heightCmMax": null,
+      "noteVi": "Thân dài vươn cao nhưng tương đối nhẹ để leo cây"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "GT",
+        "BZ",
+        "HN",
+        "SV",
+        "NI",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "TT",
+        "GY",
+        "SR",
+        "GF",
+        "EC",
+        "PE",
+        "BO",
+        "BR",
+        "PY",
+        "AR"
+      ],
+      "nativeRangeVi": "Từ nam Mexico qua toàn bộ Trung Mỹ và phần lớn lục địa Nam Mỹ tới bắc Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Tán rừng mưa nhiệt đới",
+      "Rừng hành lang ven sông",
+      "Đồn điền cây ăn quả và bìa rừng"
+    ],
+    "identificationVi": "Vảy lưng lớn có gờ nhẹ, toàn thân là sự đan xen tương phản mạnh giữa nền đen bóng và các dải vạch chéo màu vàng tươi từ đầu tới chóp đuôi.",
+    "behaviorVi": "Leo trèo cực nhanh trên cành cây cao lẫn mặt đất vào ban ngày, thị lực rất tinh nhạy.",
+    "reproductionVi": "Đẻ 6–14 trứng kích thước lớn trong hốc cây hoặc đống mùn, nở sau 70–85 ngày.",
+    "threatsVi": [
+      "Tai nạn giao thông trên các tuyến đường xuyên rừng"
+    ],
+    "funFactsVi": [
+      "Tại Brazil, loài rắn không độc này được gọi là Caninana và nổi tiếng trong dân gian về tốc độ lướt qua các ngọn cây rừng nhanh như gió."
+    ],
+    "similarSpecies": [
+      "Drymarchon corais",
+      "Phrynonax poecilonotus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lớn cả chiều dài lẫn chiều cao tối thiểu 150×60×120 cm với các nhánh gỗ lớn chắc chắn.",
+      "lightingVi": "Điểm sưởi trên cành 31–32°C, đèn UVB 5.0% và độ ẩm 65–80%.",
+      "feedingVi": "Ăn chuột đông lạnh rã đông hoặc chim cút non 7–12 ngày/lần.",
+      "socialVi": "Nuôi đơn độc.",
+      "commonProblemsVi": [
+        "Cần chuồng rộng có nhiều chỗ ẩn trên cao để rắn cảm thấy an toàn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES, các cá thể nhân giống CB được giao dịch hợp pháp trong giới chơi bò sát cảnh."
+    },
+    "products": [
+      {
+        "nameVi": "Rắn Chuột Vàng Đen Tiger Rat Snake CB (Juvenile)",
+        "priceVnd": 4800000,
+        "descriptionVi": "Cá thể nhân giống lên màu vàng đen tương phản rực rỡ, ăn chuột rã đông tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Caninana-PE do Turvo-Bio.ThaliaVoeltz(001).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caninana-PE_do_Turvo-Bio.ThaliaVoeltz(001).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Caninana-PE_do_Turvo-Bio.ThaliaVoeltz%28001%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bio.ThaliaVoeltz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Spilotes pullatus (Puerto Viejo, CR).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spilotes_pullatus_(Puerto_Viejo,_CR).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Spilotes_pullatus_%28Puerto_Viejo%2C_CR%29.jpg",
+        "width": 2029,
+        "height": 3043,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Caninana.1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caninana.1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Caninana.1.JPG",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "José Mário S.Cassiano",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Escamas de una gigante.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Escamas_de_una_gigante.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Escamas_de_una_gigante.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Edunavia1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Parque Estadual do Turvo Anderson Cristiano Hendgen (12).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_do_Turvo_Anderson_Cristiano_Hendgen_(12).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Parque_Estadual_do_Turvo_Anderson_Cristiano_Hendgen_%2812%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anderson cristiano hendgen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9195230",
+      "https://www.iucnredlist.org/species/190633/1955620",
+      "https://en.wikipedia.org/wiki/Spilotes_pullatus",
+      "https://vi.wikipedia.org/wiki/Spilotes_pullatus"
+    ]
+  }
+]

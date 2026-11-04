@@ -1,0 +1,1690 @@
+{
+  "finishedAt": "2026-11-04T09:18:37+07:00",
+  "files": [
+    "01-a.json",
+    "01-b.json",
+    "01-c.json",
+    "01-d.json",
+    "02-a.json",
+    "02-b.json",
+    "02-c.json",
+    "03-a.json",
+    "03-b.json",
+    "04-a.json",
+    "04-b.json",
+    "04-c.json",
+    "04-d.json",
+    "05-a.json",
+    "05-b.json",
+    "05-c.json",
+    "05-d.json",
+    "06-a.json",
+    "06-b.json",
+    "07-a.json",
+    "07-b.json",
+    "07-c.json",
+    "08-a.json",
+    "08-b.json",
+    "08-c.json",
+    "08-d.json",
+    "09-a.json",
+    "09-b.json",
+    "09-c.json",
+    "10-a.json",
+    "10-b.json",
+    "11-a.json",
+    "11-b.json",
+    "11-c.json",
+    "12-a.json"
+  ],
+  "speciesCount": 624,
+  "productCount": 497,
+  "photoCount": 3109,
+  "photosVerified": 3109,
+  "skipped": [
+    {
+      "scientificName": "Mniarogekko chahoua",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Correlophus sarasinorum",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Eurydactylodes agricolae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hemitheconyx caudicinctus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Coleonyx mitratus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Coleonyx elegans",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 13 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Underwoodisaurus milii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 14 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Strophurus ciliaris",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Chondrodactylus angulifer",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tarentola chazaliae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Trioceros quadricornis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Lepidothyris fernandi",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Eumeces schneideri",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Tiliqua nigrolutea",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 18 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tribolonotus novaeguineae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Egernia stokesii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 16 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cyclodomorphus gerrardii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hydrosaurus pustulatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 37 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Lygodactylus kimhowelli",
+      "reasonVi": "Ảnh chân dung trên Commons có nhãn giá bán (€25), chỉ còn 3 ảnh hợp lệ khác nhau"
+    },
+    {
+      "scientificName": "Coelognathus Helena",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=NONE, rank=NONE)"
+    },
+    {
+      "scientificName": "Orthriophis taeniurus",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Orthriophis moellendorffi",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Oreocryptophis porphyraceus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Euprepiophis mandarinus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Coelognathus flavolineatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Gonyosoma prasinum",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 9 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "nerodia sipedon",
+      "reasonVi": "Tên chuẩn GBIF khác tên truy vấn (Nerodia sipedon)"
+    },
+    {
+      "scientificName": "bogertophis subocularis",
+      "reasonVi": "Tên chuẩn GBIF khác tên truy vấn (Bogertophis subocularis)"
+    },
+    {
+      "scientificName": "Chelonoidis carbonarius",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aldabrachelys gigantea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Kinixys belliana",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pyxis planicauda",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Geochelone platynota",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Indotestudo forstenii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Indotestudo travancorica",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 7 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Manouria impressa",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Kinixys erosa",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Trachemys decussata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Trachemys ornata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Graptemys geographica",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Graptemys ouachitensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Graptemys oculifera",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Emydoidea blandingii",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Deirochelys reticularia",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Mauremys caspica",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Mauremys leprosa",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Cuora trifasciata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 13 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Graptemys nigrinoda",
+      "reasonVi": "Ảnh trên Wikimedia Commons có ảnh ván gỗ trống và thiếu ảnh dự phòng đạt chuẩn"
+    },
+    {
+      "scientificName": "Glyptemys muhlenbergii",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là ảnh cầm tay đo thước kẹp khảo sát thực địa"
+    },
+    {
+      "scientificName": "Litoria caerulea",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Litoria infrafrenata",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Litoria aurea",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Litoria chloris",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Hyla cinerea",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Hyla versicolor",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Agalychnis spurrelli",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cruziohyla craspedopus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Litoria ewingii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Theloderma bicolor",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Oophaga lehmanni",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ranitomeya variabilis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ranitomeya ventrimaculata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Mantella baroni",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 14 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Mantella madagascariensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pelobates Jerman",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=NONE, rank=NONE)"
+    },
+    {
+      "scientificName": "Kassina maculata",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Mantella pulchra",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Mantella viridis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Incilius valliceps",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hypselotriton orientalis",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Tylototriton verrucosus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tylototriton shanjing",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Laotriton laoensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Polypedates leucomystax",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là ảnh ghép nhiều ô hoặc lẫn loài rắn leo cây"
+    },
+    {
+      "scientificName": "Ceratophrys aurita",
+      "reasonVi": "Thiếu ảnh chụp cá thể sống chất lượng cao (ảnh hero và portrait trên Commons là tranh vẽ cổ)"
+    },
+    {
+      "scientificName": "Xenopus tropicalis",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là sơ đồ giải phẫu và hình thí nghiệm di truyền"
+    },
+    {
+      "scientificName": "Pipa pipa",
+      "reasonVi": "Thiếu ảnh chụp cá thể sống chất lượng cao (nhiều ảnh trên Commons là bản khắc cổ thế kỷ 18-19)"
+    },
+    {
+      "scientificName": "Bufotes viridis",
+      "reasonVi": "Ảnh độ phân giải cao trên Commons chủ yếu chụp cảnh ao sinh cảnh và biển báo bảo tồn"
+    },
+    {
+      "scientificName": "Triturus cristatus",
+      "reasonVi": "Ảnh hero trên Commons là biển báo đường hầm lưỡng cư và ảnh portrait là tranh in năm 1897"
+    },
+    {
+      "scientificName": "Neurergus kaiseri",
+      "reasonVi": "Nhiều ảnh trên Commons là ảnh ghép nhiều ô và ảnh tiêu bản mô học"
+    },
+    {
+      "scientificName": "Betta mahachaiensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Betta smaragdina",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Sphaerichthys osphromenoides",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Betta imbellis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Betta channoides",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Betta macrostoma",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Trichopsis pumila",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Trichopsis vittata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hemigrammus rhodostomus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hemigrammus erythrozonus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hemigrammus ocellifer",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nematobrycon palmeri",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Danio margaritatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Hyphessobrycon pulchripinnis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pristella maxillaris",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Thayeria boehlkei",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Petitella georgiae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Carnegiella strigata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 10 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Gasteropelecus sternicla",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nannostomus beckfordi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nannostomus marginatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Metynnis argenteus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Danio erythromicron",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Danio albolineatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Devario aequipinnatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Boraras brigittae",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Pethia padamya",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Rohanella titteya",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=NONE, rank=NONE)"
+    },
+    {
+      "scientificName": "Tanichthys albonubes",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Tanichthys micagemmae",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Epalzeorhynchos frenatum",
+      "reasonVi": "Tên chuẩn GBIF khác tên truy vấn (Epalzeorhynchos frenatus)"
+    },
+    {
+      "scientificName": "Rhodeus ocellatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Trigonostigma hengeli",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Boraras maculatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Rasbora trilineata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pethia nigrofasciata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Barbodes semifasciolatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Balantiocheilos melanopterus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 25 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ambastaia sidthimunki",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Botia almorhae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Xiphophorus maculatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Heterandria formosa",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sewellia lineolata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Gastromyzon punctulatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Aphyosemion australe",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Fundulopanchax gardneri",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 7 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nothobranchius rachovii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nothobranchius guentheri",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Mikrogeophagus altispinosus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 19 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Amatitlania nigrofasciata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Chindongo demasoni",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Apistogramma borellii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Laetacara curviceps",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nannacara anomala",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Thorichthys meeki",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Labidochromis caeruleus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 28 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Maylandia estherae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 20 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Neolamprologus multifasciatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Neolamprologus brichardi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 9 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tropheus duboisi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Aulonocara nyassae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Corydoras sterbai",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pseudomugil furcatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Corydoras julii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ancistrus cirrhosus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hypancistrus zebra",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Otocinclus vittatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Synodontis nigriventris",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pimelodus pictus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 9 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Melanotaenia praecox",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 7 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Melanotaenia lacustris",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pseudomugil gertrudae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Iriatherina werneri",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Dichotomyctere nigroviridis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 10 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Brachygobius doriae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Stiphodon elegans",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tateurndina ocellicauda",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pantodon buchholzi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Channa aurantimaculata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Channa bleheri",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Phenacogrammus interruptus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 14 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hasemania nana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 7 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Moenkhausia sanctaefilomenae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Hyphessobrycon rosaceus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 6 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Exodon paradoxus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Leporinus fasciatus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Rhodeus amarus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 18 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pygocentrus nattereri",
+      "reasonVi": "Nhiều ảnh trên Wikimedia Commons là tiêu bản khô, cá câu trên lưỡi câu hoặc bảng ghép nhiều loài"
+    },
+    {
+      "scientificName": "Danio rerio",
+      "reasonVi": "Ảnh độ phân giải cao trên Commons chủ yếu là ảnh phi hành gia trên trạm ISS, sơ đồ phôi học và hệ thống kệ thí nghiệm"
+    },
+    {
+      "scientificName": "Boraras urophthalmoides",
+      "reasonVi": "Ảnh trên Wikimedia Commons có đóng dấu chữ chìm (watermark) của tác giả trên ảnh"
+    },
+    {
+      "scientificName": "Tliltocatl albopilosus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Tliltocatl vagans",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Tliltocatl kahlenbergi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Tliltocatl schroederi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Tliltocatl verdezi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Poecilotheria ornata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Poecilotheria subfusca",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Poecilotheria fasciata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Poecilotheria tigrinawesseli",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Caribena versicolor",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Brachypelma baumgarteni",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Brachypelma albiceps",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Poecilotheria rufilata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Poecilotheria formosa",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Poecilotheria miranda",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Poecilotheria striata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Grammostola pulchripes",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Grammostola rosea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Lasiodora parahybana",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Chromatopelma cyaneopubescens",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Theraphosa blondi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aphonopelma hentzi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aphonopelma chalcodes",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pandinus imperator",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Heterometrus spinifer",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Euscorpius italicus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Argiope bruennichi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Eresus sandaliatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Carcinoscorpius rotundicauda",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Cambarellus diminutus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Procambarus fallax",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cambarellus patzcuarensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 18 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cambarellus shufeldtii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cambarellus texanus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cherax boesemani",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Faxonius immunis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Faxonius virilis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Caridina cf. cantonensis",
+      "reasonVi": "Tên chuẩn GBIF khác tên truy vấn (Caridina cantonensis)"
+    },
+    {
+      "scientificName": "Palaemonetes paludosus",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Cherax cainii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cherax tenuimanus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Caridina cantonensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 24 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Caridina gracilirostris",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Caridina babaulti",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Caridina serrata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Caridina dennerli",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Atyopsis moluccensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Atya gabonensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Atyaephyra desmarestii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Macrobrachium assamense",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Triops cancriformis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Cardisoma guanhumi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pomacea maculata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Melanoides tuberculata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Clea helena",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Neritina virginea",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Neritina zebra",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Clithon diadema",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Clithon oualaniense",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Bithynia tentaculata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Potamon fluviatile",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 7 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Potamon ibericum",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Tylomelania patriarchalis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Neritina pulligera",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 73 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cornu aspersum",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Lissachatina fulica",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Lucanus cervus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Dorcus parallelipipedus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sinodendron cylindricum",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Platycerus caraboides",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Oryctes nasicornis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Cetonia aurata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Protaetia cuprea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Protaetia speciosissima",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Gnorimus nobilis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Trichius fasciatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Morimus asper",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Prionus coriarius",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aromia moschata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes maxima",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes edwardsiana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes macrophylla",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes attenboroughii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes chaniana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes ephippiata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes hispida",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Nepenthes jacquelineae",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes jamban",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes thorelii",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Nepenthes bokorensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes holdenii",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes faizaliana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 9 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes glabrata",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 10 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes inermis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes masoalensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes pervillei",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes mikei",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes kampotiana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes kerrii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes kongkandana",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes peltata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes burkei",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes flava",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes lingulata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes longifolia",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Nepenthespectinata",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=NONE, rank=NONE)"
+    },
+    {
+      "scientificName": "Nepenthes platychila",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes bellii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes sibuyanensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes argentii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes diatas",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes dubia",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes izumiae",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 10 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes lavicola",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes ramispina",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes rhombicaulis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes singalana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 8 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes talangensis",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Sarracenia purpurea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sarracenia minor",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sarracenia rubra",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sarracenia rosea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sarracenia jonesii",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Sarracenia alabamensis",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Heliamphora nutans",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Heliamphora minor",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Heliamphora heterodoxa",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Heliamphora tatei",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Heliamphora ionasi",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes sumatrana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 46 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nepenthes treubiana",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Heliamphora pulchella",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera capensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera intermedia",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera anglica",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera spatulata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera burmanni",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Drosera schizandra",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera regia",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera aliciae",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosera nidiformis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Drosophyllum lusitanicum",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula grandiflora",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula alpina",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula primuliflora",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula caerulea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula lutea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula planifolia",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula ionantha",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula pumila",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula moranensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula gigantea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula esseriana",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula ehlersiae",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula cyclosecta",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula gypsicola",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula laueana",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Pinguicula emarginata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Argyroneta aquatica",
+      "reasonVi": "Ảnh độ phân giải cao trên Wikimedia Commons là bản vẽ giải phẫu thế kỷ 19 và ảnh tiêu bản hiển vi có chữ"
+    },
+    {
+      "scientificName": "Macrobrachium lar",
+      "reasonVi": "Thiếu ảnh dự phòng thay thế cho các tranh vẽ lịch sử tự nhiên thế kỷ 19"
+    },
+    {
+      "scientificName": "Tarebia granifera",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là thẻ tiêu bản bảo tàng Naturalis có nhãn viết tay"
+    },
+    {
+      "scientificName": "Viviparus contectus",
+      "reasonVi": "Ảnh trên Wikimedia Commons gồm sơ đồ giải phẫu có nhãn chữ và thẻ bảo tàng"
+    },
+    {
+      "scientificName": "Paphiopedilum fairrieanum",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cattleya purpurata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Guarianthe skinneri",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Dendrobium nobile",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Dendrobium chrysotoxum",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Dendrobium thyrsiflorum",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Vanda coerulea",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Kroenleinia grusonii",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Stenocactus multicostatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Opuntia ficus-indica",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Selenicereus undatus",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aloe vera",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aloe polyphylla",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aloe dichotoma",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aloe pillansii",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Aloe plicatilis",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Aloe variegata",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=ACCEPTED, rank=FAMILY)"
+    },
+    {
+      "scientificName": "Aloe ferox",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Euphorbia obesa",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Euphorbia trigona",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Euphorbia francoisii",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Adansonia digitata",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Welwitschia mirabilis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Nepenthes rafflesiana",
+      "reasonVi": "Ảnh độ phân giải cao trên Wikimedia Commons gồm biểu đồ độ nhớt dịch tiêu hóa và biểu đồ thống kê"
+    },
+    {
+      "scientificName": "Nepenthes ovata",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là tranh vẽ thực vật thế kỷ 19 của Korthals và Haeckel"
+    },
+    {
+      "scientificName": "Nepenthes gymnamphora",
+      "reasonVi": "Ảnh trên Wikimedia Commons gồm nhiều bản khắc màu cổ năm 1839–1900"
+    },
+    {
+      "scientificName": "Nepenthes pectinata",
+      "reasonVi": "Trùng bộ ảnh đồng nghĩa với Nepenthes gymnamphora kèm tranh vẽ lịch sử"
+    },
+    {
+      "scientificName": "Muntiacus truongsonensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Tragulus versicolor",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=DD)"
+    },
+    {
+      "scientificName": "Panolia eldii",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Pseudoryx nghetinhensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Rhinopithecus avunculus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Trachypithecus hatinhensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nomascus nasutus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nomascus siki",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Muntiacus vuquangensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Bos gaurus",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Aonyx cinereus",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Chrotogale owstoni",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cynogale bennettii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Viverra megaspila",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Prionodon pardicolor",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nesolagus timminsi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Thaumatibis gigantea",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Cairina scutulata",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Hydrornis soror",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Polyplectron germaini",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 4 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pseudibis davisoni",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 12 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Carpococcyx renauldi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pelochelys cantorii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Crocodylus siamensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 37 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cnemaspis psychedelica",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Cupressus vietnamensis",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Aquilaria crassna",
+      "reasonVi": "Mức bảo tồn IUCN không thuộc 7 mức hợp lệ (code=NE)"
+    },
+    {
+      "scientificName": "Goniurosaurus catbaensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Leiolepis ngovantrii",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 0 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Deinagkistrodon acutus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pinus dalatensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 3 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Nageia fleuryi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 1 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Dalbergia cochinchinensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Dalbergia oliveri",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 10 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Vanilla pompona",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là tiêu bản khô, bản khắc đen trắng và sơ đồ cây phát sinh chủng loại"
+    },
+    {
+      "scientificName": "Eupsittula nana",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Chloebia gouldiae",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Pygathrix cinerea",
+      "reasonVi": "Chỉ có 3 ảnh độc lập trên Wikimedia Commons (ảnh thứ 4 là bản cắt từ ảnh hero)"
+    },
+    {
+      "scientificName": "Rheinardia ocellata",
+      "reasonVi": "Ảnh độ phân giải >= 2000px trên Wikimedia Commons gồm tranh khắc đen trắng thế kỷ 19 và ảnh lông vũ rời"
+    },
+    {
+      "scientificName": "Rafetus swinhoei",
+      "reasonVi": "Ảnh trên Wikimedia Commons gồm sơ đồ hộp sọ và tiêu bản bảo tàng trong tủ kính, không đủ 4 ảnh cá thể sống"
+    },
+    {
+      "scientificName": "Pterocarpus macrocarpus",
+      "reasonVi": "Ảnh trên Wikimedia Commons chủ yếu là thớt gỗ xẻ, mẫu gỗ Xylothèque và tiêu bản khô"
+    },
+    {
+      "scientificName": "Zebrasoma velifer",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    },
+    {
+      "scientificName": "Chrysiptera cyanea",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 18 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Centropyge loricula",
+      "reasonVi": "Tên chuẩn GBIF khác tên truy vấn (Centropyge loriculus)"
+    },
+    {
+      "scientificName": "Acanthurus japonicus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 11 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ctenochaetus strigosus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 15 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Ctenochaetus tominiensis",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 5 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Centropyge argi",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Centropyge acanthops",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Centropyge eibli",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 2 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Pomacanthus navarchus",
+      "reasonVi": "Không đủ ảnh chuẩn trên Wikimedia Commons (chỉ có 9 ảnh hợp lệ hoặc thiếu ảnh hero >= 2000px)"
+    },
+    {
+      "scientificName": "Synchiropus ocellatus",
+      "reasonVi": "GBIF không khớp loài ACCEPTED (status=SYNONYM, rank=SPECIES)"
+    }
+  ]
+}

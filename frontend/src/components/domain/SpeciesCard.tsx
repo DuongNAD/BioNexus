@@ -16,7 +16,7 @@ export function SpeciesCard({ species, productCount, aspect = '4/5', className }
   return (
     <MediaCard
       to={`/species/${species.id}`}
-      image={species.heroPhoto}
+      image={species.cardPhoto}
       imageAlt={species.displayName}
       focus={species.focus}
       aspect={aspect}

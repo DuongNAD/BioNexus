@@ -36,7 +36,7 @@ import { createMockToken } from './auth';
 
 const STORAGE_KEY = 'bionexus.mock.v1';
 // Tăng khi đổi dữ liệu trong mocks/data để trình duyệt đã lưu bản cũ tự nạp lại seed
-export const SEED_VERSION = 3;
+export const SEED_VERSION = 4;
 
 const ORDER_CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 

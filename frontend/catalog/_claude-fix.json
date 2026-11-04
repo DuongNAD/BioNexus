@@ -1,0 +1,25 @@
+{
+ "status": "done",
+ "by": "Claude",
+ "finishedAt": "2026-11-04T05:53:04.300Z",
+ "namesFilled": 211,
+ "pullQuotesFilled": 211,
+ "photosDropped": 86,
+ "heroesChanged": 15,
+ "portraitsChanged": 30,
+ "speciesRemoved": [
+  {
+   "scientificName": "Austropotamobius torrentium",
+   "reasonVi": "IUCN đánh giá DD (thiếu dữ liệu), database không nhận DD"
+  }
+ ],
+ "iucnFixed": [
+  "Gopherus polyphemus"
+ ],
+ "wikidataCleared": 50,
+ "noGoodHero": [],
+ "noGoodPortrait": [
+  "Brachypelma hamorii"
+ ],
+ "notesVi": "Tên Việt: tên chuẩn Sách Đỏ/danh lục chim Việt Nam khi có, còn lại dịch nghĩa tên tiếng Anh. Câu trích lấy từ funFactsVi[0]. Ảnh hero/portrait chọn lại trong các ảnh thuộc đúng thể loại Commons của loài."
+}

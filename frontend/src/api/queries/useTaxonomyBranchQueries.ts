@@ -2,6 +2,7 @@ import { useQueries } from '@tanstack/react-query';
 import { api } from '../client';
 import { queryKeys } from '../keys';
 import { toSpeciesView, type SpeciesViewModel } from '../adapters';
+import { loadCatalogIndex } from '../catalog';
 import type { SpeciesDto } from '@/types/api';
 
 /**
@@ -13,7 +14,7 @@ export function useBranchSpeciesMany(nodeIds: number[]): Record<number, SpeciesV
     queries: nodeIds.map((nodeId) => ({
       queryKey: queryKeys.species.list({ nodeId }),
       queryFn: async () => {
-        const res = await api<SpeciesDto[]>(`species?nodeId=${nodeId}`);
+        const [res] = await Promise.all([api<SpeciesDto[]>(`species?nodeId=${nodeId}`), loadCatalogIndex()]);
         return (res.data || []).map((s) => toSpeciesView(s));
       },
       staleTime: 5 * 60 * 1000,

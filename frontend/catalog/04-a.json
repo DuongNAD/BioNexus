@@ -1,0 +1,3908 @@
+[
+  {
+    "scientificName": "Agalychnis callidryas",
+    "commonNameVi": "Ếch Cây Mắt Đỏ",
+    "commonNameEn": "Red-eyed Treefrog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Phyllomedusidae",
+      "genus": "Agalychnis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch lá (Phyllomedusidae)",
+      "genus": "Chi Ếch cây mắt đỏ (Agalychnis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55290/3028059",
+    "gbifKey": 2428197,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nhiệt đới đất thấp"
+    },
+    "descriptionVi": "Loài ếch cây nổi tiếng ở rừng mưa Trung Mỹ với đôi mắt đỏ rực, thân xanh lá tươi, sườn xanh lam sọc vàng và bàn chân màu cam.",
+    "conservationNoteVi": "Được xếp mức Ít lo ngại (LC) nhưng thuộc Phụ lục II CITES nhằm kiểm soát thương mại quốc tế và bảo vệ sinh cảnh rừng mưa.",
+    "pullQuoteVi": "Đôi mắt đỏ thẫm mở to khi giật mình giúp làm chệch hướng kẻ săn mồi trong chớp mắt.",
+    "dietVi": "Ăn côn trùng: dế, cào cào nhỏ, ruồi và bướm đêm",
+    "lifespanVi": "5–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": "Rừng mưa nhiệt đới từ nam Mexico qua Trung Mỹ tới Colombia",
+    "otherNamesVi": [
+      "Ếch mắt đỏ Trung Mỹ"
+    ],
+    "synonyms": [
+      "Agalychnis callidryas callidryas",
+      "Agalychnis callidryas taylori",
+      "Agalychnis helenae",
+      "Hyla callidryas"
+    ],
+    "wikidataId": "Q337616",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agalychnis_callidryas",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Agalychnis_callidryas",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 7.5,
+      "weightGMin": 6,
+      "weightGMax": 15,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đáng kể (6,5–7,5 cm) so với con đực (5–5,5 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "BZ",
+        "GT",
+        "HN",
+        "NI",
+        "CR",
+        "PA",
+        "CO"
+      ],
+      "nativeRangeVi": "Trung Mỹ và tây bắc Colombia",
+      "elevationM": {
+        "min": 0,
+        "max": 1250
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới đất thấp",
+      "Vùng cây bụi ven suối và đầm nước ngọt"
+    ],
+    "identificationVi": "Thân màu xanh lá cây sáng với sườn màu xanh lam hoặc tím điểm các vạch dọc màu vàng kem. Đôi mắt to màu đỏ tươi với đồng tử dọc và mí mắt dưới có vân lưới vàng. Đầu ngón chân có giác bám lớn màu cam đỏ.",
+    "behaviorVi": "Ban ngày ngủ yên dưới mặt dưới lá cây lớn, khép kín tứ chi để giấu mảng màu sặc sỡ ở sườn và chỉ để lộ lưng xanh ngụy trang.",
+    "reproductionVi": "Đẻ chùm 40–70 trứng dính trên mặt lá rủ ngay phía trên mặt nước; nòng nọc nở ra sẽ rơi thẳng xuống nước bên dưới.",
+    "threatsVi": [
+      "Mất rừng nhiệt đới và ô nhiễm nguồn nước do thuốc trừ sâu",
+      "Bệnh nấm da lưỡng cư Chytridiomycosis"
+    ],
+    "funFactsVi": [
+      "Phôi trong trứng có thể nở sớm hơn bình thường tới 30% thời gian nếu cảm nhận được rung động của rắn ăn trứng tấn công.",
+      "Mí mắt thứ ba trong suốt có mạng vân vàng cho phép chúng vẫn quan sát được xung quanh ngay cả khi khép mắt ngủ."
+    ],
+    "similarSpecies": [
+      "Agalychnis spurrelli"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 90 lít. Giá thể: Đất trồng sinh học phủ rêu ẩm và lá khô trên lớp sỏi thoát nước.",
+      "lightingVi": "Đèn LED trồng cây dịu nhẹ 10–12 giờ/ngày",
+      "feedingVi": "Dế, gián Dubia nhỏ rắc canxi và vitamin định kỳ",
+      "socialVi": "Sống hòa thuận theo nhóm nhỏ trong chuồng đứng cao nhiều cây lá rộng",
+      "commonProblemsVi": [
+        "Nhiễm khuẩn da (Red-leg)",
+        "Mất nước do độ ẩm thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; trên sàn lưu hành nguồn nhân giống hợp pháp (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Mắt Đỏ (Agalychnis callidryas) con giống CB",
+        "priceVnd": 1650000,
+        "descriptionVi": "Ếch cây mắt đỏ CB khỏe mạnh, ăn dế nhỏ tốt, màu sắc tươi sáng."
+      },
+      {
+        "nameVi": "Ếch Cây Mắt Đỏ trưởng thành Costa Rica line",
+        "priceVnd": 2600000,
+        "descriptionVi": "Cá thể trưởng thành sườn xanh đậm, thích hợp cho hồ bán cạn nhiệt đới."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rainettes aux yeux rouges (Agalychnis callidryas).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rainettes_aux_yeux_rouges_(Agalychnis_callidryas).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rainettes_aux_yeux_rouges_%28Agalychnis_callidryas%29.jpg",
+        "width": 4371,
+        "height": 2632,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lucas Vogel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Gaudi frog (8038936352).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gaudi_frog_(8038936352).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Gaudi_frog_%288038936352%29.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Pavel Kirillov from St.Petersburg, Russia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Agalychnis callidryas (50965938307).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agalychnis_callidryas_(50965938307).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Agalychnis_callidryas_%2850965938307%29.jpg",
+        "width": 1200,
+        "height": 800,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Carlos Eduardo Joos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rana arborícola de ojos rojos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rana_arbor%C3%ADcola_de_ojos_rojos.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Rana_arbor%C3%ADcola_de_ojos_rojos.jpg",
+        "width": 6112,
+        "height": 6112,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Fernan bth",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:RanitaCostaRica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:RanitaCostaRica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/RanitaCostaRica.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "No machine-readable author provided. Tolofernandez assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2428197",
+      "https://www.iucnredlist.org/species/55290/3028059",
+      "https://en.wikipedia.org/wiki/Agalychnis_callidryas",
+      "https://vi.wikipedia.org/wiki/Agalychnis_callidryas"
+    ]
+  },
+  {
+    "scientificName": "Phyllomedusa bicolor",
+    "commonNameVi": "Ếch Lá Khổng Lồ Hai Màu",
+    "commonNameEn": "Blue-and-Yellow Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Phyllomedusidae",
+      "genus": "Phyllomedusa"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch lá (Phyllomedusidae)",
+      "genus": "Chi Ếch lá khỉ (Phyllomedusa)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55841/61405317",
+    "gbifKey": 2427977,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nhiệt đới ngập nước theo mùa"
+    },
+    "descriptionVi": "Loài ếch cây lớn nhất họ Phyllomedusidae ở lưu vực Amazon, có lưng xanh lục đậm, bụng trắng vàng và hàng đốm trắng viền đen dọc sườn.",
+    "conservationNoteVi": "Phân bố rộng khắp rừng Amazon với quần thể ổn định ở mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Bàn chân có ngón cái đối diện giúp chúng bước đi chậm rãi trên cành cây như một loài linh trưởng thu nhỏ.",
+    "dietVi": "Ăn côn trùng lớn, dế, muỗm, gián rừng và nhện",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon và vùng khiên Guiana ở Nam Mỹ",
+    "otherNamesVi": [
+      "Ếch cây sáp khổng lồ",
+      "Ếch Kambo"
+    ],
+    "synonyms": [
+      "Calamita bicolor",
+      "Hyla bicolor",
+      "Phyllomedusa boiei",
+      "Pithecopus scleroderma"
+    ],
+    "wikidataId": "Q2697105",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Phyllomedusa_bicolor",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phyllomedusa_bicolor",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 12,
+      "weightGMin": 40,
+      "weightGMax": 80,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 11–12 cm, to nặng hơn con đực (9–10 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "CO",
+        "PE",
+        "BO",
+        "VE",
+        "GY",
+        "SR"
+      ],
+      "nativeRangeVi": "Rừng mưa nhiệt đới lưu vực Amazon",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới ngập nước theo mùa",
+      "Cây gỗ cao ven sông suối và đầm lầy rừng"
+    ],
+    "identificationVi": "Thân lớn màu xanh lá vôi hoặc xanh lục đậm, mặt bụng màu kem vàng. Hàng đốm trắng tròn viền đen chạy dọc sườn và mặt trong đùi. Mắt màu bạc xám với đồng tử dọc, tuyến mang tai phát triển rõ phía sau mắt.",
+    "behaviorVi": "Di chuyển bằng cách bước từng chân nắm chặt cành cây thay vì nhảy xa; tiết lớp dịch sáp phủ khắp da để chống mất nước.",
+    "reproductionVi": "Đực và cái cùng cuốn chiếc lá cây thành hình phễu quanh ổ trứng treo trên mặt nước.",
+    "threatsVi": [
+      "Khai thác rừng ở rìa phía nam lưu vực Amazon",
+      "Bắt ngoài tự nhiên lấy dịch tiết da"
+    ],
+    "funFactsVi": [
+      "Dịch tiết da của loài này chứa hàng chục chuỗi peptide sinh học đặc biệt giúp bảo vệ da khỏi vi khuẩn và nấm trong rừng ẩm.",
+      "Chúng dùng cả bốn chân xoa đều lớp lipid tiết từ tuyến da lên khắp cơ thể như thoa kem chống nắng."
+    ],
+    "similarSpecies": [
+      "Pithecopus hypochondrialis"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 150 lít. Giá thể: Vỏ thông trộn đất sinh học phủ lá khô, cần hệ thống thông gió cực tốt.",
+      "lightingVi": "Đèn UVB 5.0 kết hợp sưởi nhẹ ở tầng cành trên cùng",
+      "feedingVi": "Dế trưởng thành, gián Dubia, châu chấu rắc canxi/D3",
+      "socialVi": "Nuôi đơn hoặc theo cặp trong chuồng đứng kích thước lớn nhiều cành ngang",
+      "commonProblemsVi": [
+        "Nhiễm khuẩn da do chuồng bí khí",
+        "Thiếu canxi chuyển hóa"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Được phép lưu hành cá thể sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Lá Khổng Lồ (Phyllomedusa bicolor) CB",
+        "priceVnd": 3800000,
+        "descriptionVi": "Ếch lá sáp khổng lồ sinh sản nuôi nhốt, đã quen ăn dế và gián Dubia từ nhíp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Испуг.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%81%D0%BF%D1%83%D0%B3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%98%D1%81%D0%BF%D1%83%D0%B3.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Матвеев Олег 2017",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Phyllomedusa bicolor • waxy-monkey treefrog • leaf frog, Oceanário de Lisboa • Lisbon Oceanarium, - 49680483503.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllomedusa_bicolor_%E2%80%A2_waxy-monkey_treefrog_%E2%80%A2_leaf_frog,_Ocean%C3%A1rio_de_Lisboa_%E2%80%A2_Lisbon_Oceanarium,_-_49680483503.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Phyllomedusa_bicolor_%E2%80%A2_waxy-monkey_treefrog_%E2%80%A2_leaf_frog%2C_Ocean%C3%A1rio_de_Lisboa_%E2%80%A2_Lisbon_Oceanarium%2C_-_49680483503.jpg",
+        "width": 3114,
+        "height": 4205,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Sonse",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Jielbeaumadier rainette singe de guyane mjp paris 2013.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_rainette_singe_de_guyane_mjp_paris_2013.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jielbeaumadier_rainette_singe_de_guyane_mjp_paris_2013.jpeg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jiel Beaumadier ( http://jiel.b.free.fr )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllomedusa bicolor - rainette singe - Ménagerie Paris 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllomedusa_bicolor_-_rainette_singe_-_M%C3%A9nagerie_Paris_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Phyllomedusa_bicolor_-_rainette_singe_-_M%C3%A9nagerie_Paris_01.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy - Loury Cédric",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Serpentarium Blankenberge Phyllomedusa bicolor 30042015 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serpentarium_Blankenberge_Phyllomedusa_bicolor_30042015_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Serpentarium_Blankenberge_Phyllomedusa_bicolor_30042015_3.jpg",
+        "width": 4380,
+        "height": 2836,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2427977",
+      "https://www.iucnredlist.org/species/55841/61405317",
+      "https://en.wikipedia.org/wiki/Phyllomedusa_bicolor",
+      "https://vi.wikipedia.org/wiki/Phyllomedusa_bicolor"
+    ]
+  },
+  {
+    "scientificName": "Pithecopus hypochondrialis",
+    "commonNameVi": "Ếch Lá Đùi Cam",
+    "commonNameEn": "Orange-legged Leaf Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Phyllomedusidae",
+      "genus": "Pithecopus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch lá (Phyllomedusidae)",
+      "genus": "Chi Ếch lá sọc (Pithecopus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/125197791/61406075",
+    "gbifKey": 9491182,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa ẩm và trảng cỏ savan ngập nước"
+    },
+    "descriptionVi": "Loài ếch lá nhỏ nhắn của Nam Mỹ với lưng xanh lục tươi và mặt trong đùi cùng sườn màu cam đỏ rực rỡ điểm các vạch sọc đen.",
+    "conservationNoteVi": "Có phạm vi phân bố rộng tại Nam Mỹ và thích nghi tốt với cả savan ẩm, mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Mảng màu cam vạch đen rực lửa ẩn giấu ở mặt trong đùi chỉ lộ ra khi chúng duỗi chân bước đi.",
+    "dietVi": "Ăn côn trùng nhỏ: dế, ruồi giấm lớn, nhện và sâu non",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Đông Colombia, Venezuela, vùng Guiana tới Brazil, Bolivia và Paraguay",
+    "otherNamesVi": [
+      "Ếch cây khỉ đùi cam",
+      "Phyllomedusa hypochondrialis"
+    ],
+    "synonyms": [
+      "Bradymedusa hypochondrialis",
+      "Calamita hypochondrialis",
+      "Hyla hypochondrialis",
+      "Hyla hypocondrialis"
+    ],
+    "wikidataId": "Q28925644",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pithecopus_hypochondrialis",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.5,
+      "lengthCmMax": 5,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn (4,5–5 cm) so với con đực (3,5–4 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "CO",
+        "VE",
+        "GY",
+        "SR",
+        "BO",
+        "PY"
+      ],
+      "nativeRangeVi": "Từ bắc Nam Mỹ tới vùng Cerrado và Pantanal",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thưa ẩm và trảng cỏ savan ngập nước",
+      "Bụi cây thấp quanh đầm lầy và ao tạm thời"
+    ],
+    "identificationVi": "Lưng màu xanh lá tươi vào ban ngày, chuyển xanh nâu sẫm vào ban đêm. Sườn và mặt trong đùi màu cam đỏ tươi có các vạch sọc dọc màu đen. Ngón tay và ngón chân không có màng bơi, ngón cái đối diện để leo nắm cành nhỏ.",
+    "behaviorVi": "Leo trèo chậm rãi và khéo léo trên các nhánh cỏ và cành cây mảnh; khi bị đe dọa có hành vi giả chết bằng cách co cứng thân.",
+    "reproductionVi": "Con cái đẻ khoảng 50–100 trứng rồi dùng chân sau cuộn lá cây thành ống bao bọc ổ trứng phía trên mặt nước.",
+    "threatsVi": [
+      "Mở rộng đất nông nghiệp và cháy rừng ở vùng Cerrado"
+    ],
+    "funFactsVi": [
+      "Khác với nhiều loài ếch nhảy xa, ếch lá đùi cam hầu như chỉ bước đi từng bước như tắc kè hoa.",
+      "Chúng có thể đổi màu lưng từ xanh lá sáng sang nâu tím tùy nhiệt độ và ánh sáng."
+    ],
+    "similarSpecies": [
+      "Phyllomedusa bicolor"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Mùn dừa ẩm phủ lá khô và nhiều cành cây nhỏ đường kính 0,5–1 cm.",
+      "lightingVi": "Đèn LED chiếu sáng chu kỳ ngày đêm 12 giờ",
+      "feedingVi": "Dế nhỏ 0,5–1 cm, ruồi giấm Hydei rắc canxi",
+      "socialVi": "Có thể nuôi nhóm 3–5 cá thể trong hồ bán cạn đứng",
+      "commonProblemsVi": [
+        "Mất nước",
+        "Nhiễm ký sinh trùng ở cá thể mới nhập"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Lá Đùi Cam (Pithecopus hypochondrialis) CB",
+        "priceVnd": 1450000,
+        "descriptionVi": "Ếch lá đùi cam khỏe mạnh, leo cành khéo léo, ăn dế nhỏ đều."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Perereca-macaco - Phyllomedusa rohdei.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perereca-macaco_-_Phyllomedusa_rohdei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Perereca-macaco_-_Phyllomedusa_rohdei.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Renato Augusto Martins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pithecopus hypochondrialis 63468.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pithecopus_hypochondrialis_63468.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Pithecopus_hypochondrialis_63468.jpg",
+        "width": 1280,
+        "height": 960,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ibere Machado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tadpole at Tijuca National Park (2024-08-24) 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tadpole_at_Tijuca_National_Park_(2024-08-24)_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tadpole_at_Tijuca_National_Park_%282024-08-24%29_02.jpg",
+        "width": 4080,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Avelludo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pithecopus hypochondrialis 58664648.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pithecopus_hypochondrialis_58664648.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pithecopus_hypochondrialis_58664648.jpg",
+        "width": 1771,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Andrew J. Crawford",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllomedusa hypochondrialis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllomedusa_hypochondrialis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Phyllomedusa_hypochondrialis.jpg",
+        "width": 1458,
+        "height": 941,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Hugo Claessen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9491182",
+      "https://www.iucnredlist.org/species/125197791/61406075",
+      "https://en.wikipedia.org/wiki/Pithecopus_hypochondrialis"
+    ]
+  },
+  {
+    "scientificName": "Hyla arborea",
+    "commonNameVi": "Nhái Bén Châu Âu",
+    "commonNameEn": "European Tree Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Hylidae",
+      "genus": "Hyla"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bén (Hylidae)",
+      "genus": "Chi Nhái bén (Hyla)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/82496838/228182338",
+    "gbifKey": 2427573,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bụi cây, lau sậy và bìa rừng ngập nắng gần ao hồ"
+    },
+    "descriptionVi": "Loài nhái bén nhỏ đặc trưng của châu Âu với da lưng nhẵn bóng màu xanh lá cây và dải sọc đen viền trắng chạy từ mũi qua mắt tới bẹn.",
+    "conservationNoteVi": "Mức Ít lo ngại (LC) trên toàn cầu nhưng được bảo vệ nghiêm ngặt tại nhiều quốc gia châu Âu do suy giảm ao hồ tự nhiên.",
+    "pullQuoteVi": "Dải sọc bên hông uốn cong lên phía bẹn là dấu hiệu kinh điển giúp phân biệt nhái bén châu Âu với các loài họ hàng.",
+    "dietVi": "Ăn ruồi, muỗi, bọ cánh cứng nhỏ, sâu bướm và nhện",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Khắp lục địa châu Âu tới vùng Kavkaz và tây Thổ Nhĩ Kỳ",
+    "otherNamesVi": [
+      "Ếch cây châu Âu"
+    ],
+    "synonyms": [
+      "Calamita arboreus",
+      "Calamita viridis",
+      "Dendrohyas arborea",
+      "Dendrohyas arborea daudinii"
+    ],
+    "wikidataId": "Q2142057",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Hyla_arborea",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/European_tree_frog",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 3.5,
+      "lengthCmMax": 5,
+      "weightGMin": 5,
+      "weightGMax": 9,
+      "heightCmMax": null,
+      "noteVi": "Con đực có túi kêu lớn màu vàng nâu hoặc xám ở cổ họng; con cái họng trắng nhạt."
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "PL",
+        "AT",
+        "HU",
+        "RO",
+        "GR",
+        "UA"
+      ],
+      "nativeRangeVi": "Trung, Tây và Đông Nam châu Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 2300
+      }
+    },
+    "habitatTypesVi": [
+      "Bụi cây, lau sậy và bìa rừng ngập nắng gần ao hồ",
+      "Đồng cỏ ẩm và vườn cây ăn quả truyền thống"
+    ],
+    "identificationVi": "Da lưng nhẵn mịn không có mụn cóc, thường màu xanh lá tươi nhưng có thể chuyển xám hoặc nâu. Sọc đen viền vàng trắng kéo dài từ lỗ mũi qua mắt dọc sườn và có nhánh móc ngược ở vùng hông. Đầu các ngón có đĩa bám tròn rõ rệt.",
+    "behaviorVi": "Thường phơi nắng trên lá cây bụi vào ban ngày và bật nhảy rất xa để bắt côn trùng đang bay vào lúc hoàng hôn.",
+    "reproductionVi": "Mùa xuân di cư xuống ao đầm nước tĩnh có nhiều cây thủy sinh; con cái đẻ nhiều cụm trứng nhỏ gắn vào thân cỏ nước.",
+    "threatsVi": [
+      "San lấp ao hồ nhỏ và chỉnh trị dòng chảy",
+      "Thả cá ăn thịt vào các ao sinh sản của lưỡng cư"
+    ],
+    "funFactsVi": [
+      "Túi thanh âm dưới cổ con đực khi phồng to có đường kính gần bằng cả đầu của chúng, phát ra tiếng kêu vang xa hàng trăm mét.",
+      "Trong văn hóa dân gian châu Âu, loài này từng được cho là có khả năng báo trước trời mưa khi leo lên cao."
+    ],
+    "similarSpecies": [
+      "Dryophytes japonicus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Đất rừng ẩm phủ rêu và khay nước sạch nông.",
+      "lightingVi": "Đèn UVB 2.0–5.0 nhẹ và đèn LED sáng cho cây",
+      "feedingVi": "Dế nhỏ, ruồi và sâu sáp nhỏ rắc khoáng",
+      "socialVi": "Sống tốt theo nhóm trong chuồng cây thoáng mát",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ vượt 27°C kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; thương mại từ nguồn trại nhân giống."
+    },
+    "products": [
+      {
+        "nameVi": "Nhái Bén Châu Âu (Hyla arborea) CB",
+        "priceVnd": 950000,
+        "descriptionVi": "Nhái bén xanh châu Âu CB khỏe mạnh, thích hợp hồ terrarium mát."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Croat fg001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Croat_fg001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Croat_fg001.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Fritz Geller-Grimm",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20160907Hyla arborea1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20160907Hyla_arborea1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/20160907Hyla_arborea1.jpg",
+        "width": 2625,
+        "height": 3500,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "AnRo0002",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:European Treefrog (Hyla arborea).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:European_Treefrog_(Hyla_arborea).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/European_Treefrog_%28Hyla_arborea%29.JPG",
+        "width": 2304,
+        "height": 1728,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Originally uploaded by Raddy7 (Transferred by rohith_goura )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Broasca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broasca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Broasca.jpg",
+        "width": 3264,
+        "height": 1836,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NGC 54",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Broască.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broasc%C4%83.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Broasc%C4%83.jpg",
+        "width": 1836,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NGC 54",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2427573",
+      "https://www.iucnredlist.org/species/82496838/228182338",
+      "https://en.wikipedia.org/wiki/European_tree_frog",
+      "https://vi.wikipedia.org/wiki/Hyla_arborea"
+    ]
+  },
+  {
+    "scientificName": "Dryophytes japonicus",
+    "commonNameVi": "Nhái Bén Nhật Bản",
+    "commonNameEn": "Japanese Treefrog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Hylidae",
+      "genus": "Dryophytes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bén (Hylidae)",
+      "genus": "Chi Nhái bén Á-Mỹ (Dryophytes)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55519/63863120",
+    "gbifKey": 10857535,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Ruộng lúa nước, bờ mương và đầm lầy cỏ"
+    },
+    "descriptionVi": "Loài nhái bén phổ biến khắp Đông Á từ Nhật Bản tới Hàn Quốc và Đông Bắc Á, nổi bật với khả năng biến đổi màu da linh hoạt và chịu lạnh giỏi.",
+    "conservationNoteVi": "Phân bố rộng và rất phổ biến quanh ruộng lúa truyền thống cũng như vườn ngoại ô, mức Ít lo ngại (LC).",
+    "pullQuoteVi": "Loài nhái bén nhỏ bé này có thể sống sót qua mùa đông băng giá ở Hokkaido bằng cách tích tụ đường tự nhiên trong máu.",
+    "dietVi": "Ăn kiến, ruồi, muỗi, rệp cây, nhện và côn trùng nhỏ",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Nhật Bản, bán đảo Triều Tiên, đông bắc Trung Quốc, Mông Cổ và vùng Viễn Đông Nga",
+    "otherNamesVi": [
+      "Ếch cây Nhật Bản",
+      "Hyla japonica"
+    ],
+    "synonyms": [
+      "Hyla arborea japonica",
+      "Hyla arborea stepheni",
+      "Hyla arborea ussuriensis",
+      "Hyla heinzsteinitzi"
+    ],
+    "wikidataId": "Q733704",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Hyla_japonica",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Japanese_tree_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3,
+      "lengthCmMax": 4.5,
+      "weightGMin": 3,
+      "weightGMax": 7,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn (3,5–4,5 cm), con đực nhỏ hơn (3–3,8 cm) và có da cổ sẫm màu."
+    },
+    "distribution": {
+      "countries": [
+        "JP",
+        "KR",
+        "CN",
+        "RU"
+      ],
+      "nativeRangeVi": "Đông Bắc Á và quần đảo Nhật Bản",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Ruộng lúa nước, bờ mương và đầm lầy cỏ",
+      "Rừng lá rộng ôn đới và vườn cây quanh khu dân cư"
+    ],
+    "identificationVi": "Lưng màu xanh lục sáng trên lá cây hoặc chuyển sang nâu xám lốm đốm khi ở trên vỏ cây hay mặt đất. Dải sọc nâu đen chạy từ mũi qua mắt và màng nhĩ kéo dài dọc hai bên sườn, thường có vệt sẫm nhỏ dưới mắt. Đầu ngón chân có giác bám tròn giúp bám chặt trên cả mặt kính thẳng đứng.",
+    "behaviorVi": "Thường ẩn mình trên lá cây hoặc bám quanh đèn hiên nhà vào ban đêm để đón bắt côn trùng bị thu hút bởi ánh sáng.",
+    "reproductionVi": "Đẻ trứng thành từng cụm nhỏ nổi trên mặt nước ruộng lúa từ tháng 5 đến tháng 7.",
+    "threatsVi": [
+      "Bê tông hóa kênh mương thủy lợi và sử dụng thuốc bảo vệ thực vật"
+    ],
+    "funFactsVi": [
+      "Khi đậu trên vỏ cây hay tường đá, da của chúng xuất hiện các mảng hoa văn rêu mốc chỉ sau khoảng 30–60 phút.",
+      "Là một trong số ít loài ếch cây có thể mở rộng phân bố lên tận vùng lạnh giá của Siberia và đảo Sakhalin."
+    ],
+    "similarSpecies": [
+      "Zhangixalus schlegelii"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Đất nền trồng cây ẩm kết hợp rêu xanh và bát nước nông.",
+      "lightingVi": "Đèn LED sáng tự nhiên 10–12 giờ/ngày",
+      "feedingVi": "Dế nhỏ, gián nhỏ, sâu gạo non bổ sung canxi",
+      "socialVi": "Rất hiền lành, nuôi ghép nhóm 3–5 con dễ dàng",
+      "commonProblemsVi": [
+        "Nhiễm nấm da nếu chuồng bẩn và úng nước"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES, được phép kinh doanh hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Nhái Bén Nhật Bản (Dryophytes japonicus) CB",
+        "priceVnd": 450000,
+        "descriptionVi": "Nhái bén Nhật Bản khỏe mạnh, dễ nuôi, đổi màu linh hoạt theo phông nền hồ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hyla japonica in Kitahiroshima, Hiroshima.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyla_japonica_in_Kitahiroshima,_Hiroshima.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hyla_japonica_in_Kitahiroshima%2C_Hiroshima.jpg",
+        "width": 3690,
+        "height": 2767,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Hyla japonica in Hiroshima Prefecture.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyla_japonica_in_Hiroshima_Prefecture.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hyla_japonica_in_Hiroshima_Prefecture.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Hyla japonica dark concrete.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyla_japonica_dark_concrete.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hyla_japonica_dark_concrete.jpg",
+        "width": 1560,
+        "height": 1366,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Visviva",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hyla japonica on the wall of convenience store - 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyla_japonica_on_the_wall_of_convenience_store_-_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Hyla_japonica_on_the_wall_of_convenience_store_-_2.jpg",
+        "width": 2096,
+        "height": 2211,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "KKPCW（Kyu3）",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tree frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tree_frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tree_frog.jpg",
+        "width": 1204,
+        "height": 2000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "池田正樹 ( )masaki ikeda",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/10857535",
+      "https://www.iucnredlist.org/species/55519/63863120",
+      "https://en.wikipedia.org/wiki/Japanese_tree_frog",
+      "https://vi.wikipedia.org/wiki/Hyla_japonica"
+    ]
+  },
+  {
+    "scientificName": "Osteopilus septentrionalis",
+    "commonNameVi": "Ếch Cây Cuba",
+    "commonNameEn": "Cuban Treefrog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Hylidae",
+      "genus": "Osteopilus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bén (Hylidae)",
+      "genus": "Chi Ếch cây Cuba (Osteopilus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55811/3032751",
+    "gbifKey": 2428083,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới ẩm, đầm lầy rừng ngập mặn và rừng cọ"
+    },
+    "descriptionVi": "Loài ếch cây cỡ lớn bản địa vùng Caribe với làn da sần nhẹ nhiều sắc thái từ trắng xám, nâu đồng tới xanh ô-liu và đôi bàn chân có đĩa bám cực lớn.",
+    "conservationNoteVi": "Mức Ít lo ngại (LC) với quần thể tự nhiên rất dồi dào ở vùng Caribe và mở rộng mạnh tại Bắc Mỹ.",
+    "pullQuoteVi": "Đĩa bám ở đầu ngón chân của ếch cây Cuba rộng gần bằng màng nhĩ, cho phép chúng bám chắc vào những thân cọ trơn nhẵn nhất.",
+    "dietVi": "Ăn tạp côn trùng lớn, nhện, ốc nhỏ và cả các loài ếch nhỏ hơn",
+    "lifespanVi": "5–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Miền tây Cuba",
+      "lat": 22.41,
+      "lng": -83.69
+    },
+    "regionVi": "Bản địa Cuba, Bahamas và quần đảo Cayman; du nhập vào Florida và nhiều đảo Caribe",
+    "otherNamesVi": [
+      "Nhái bén lớn Cuba"
+    ],
+    "synonyms": [
+      "Dendrohyas septentrionalis",
+      "Hyla dominicensis insulsa",
+      "Hyla dominicensis septentrionalis",
+      "Hyla insulsa"
+    ],
+    "wikidataId": "Q1790867",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cuban_tree_frog",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 7,
+      "lengthCmMax": 14,
+      "weightGMin": 30,
+      "weightGMax": 70,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn vượt trội (9–14 cm) so với con đực (6–8,5 cm); đực có chai sinh dục đen ở ngón cái mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "CU"
+      ],
+      "nativeRangeVi": "Cuba, Bahamas và quần đảo Cayman",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng nhiệt đới ẩm, đầm lầy rừng ngập mặn và rừng cọ",
+      "Vườn cây, công viên và khu đô thị có nguồn nước ngọt"
+    ],
+    "identificationVi": "Da lưng có nhiều hạt mụn nhỏ thưa, màu sắc biến thiên từ xám bạc, nâu vàng tới xanh rêu. Da trên đỉnh đầu dính liền với xương sọ ở cá thể trưởng thành. Mắt to lồi, giác bám ngón tay rất lớn, mặt trong đùi có ánh vàng nhạt.",
+    "behaviorVi": "Thích nghi mạnh mẽ với môi trường gần con người; có tính săn mồi cơ hội cao và chỉ nên nuôi riêng từng cá thể cùng kích cỡ.",
+    "reproductionVi": "Sinh sản bùng nổ sau những trận mưa lớn mùa hè; một con cái có thể đẻ từ 2.000 đến 4.000 trứng nổi trên mặt nước ấm.",
+    "threatsVi": [
+      "Hầu như không bị đe dọa; ngược lại là loài cạnh tranh mạnh tại các vùng du nhập"
+    ],
+    "funFactsVi": [
+      "Là loài ếch cây lớn nhất ở Bắc Mỹ và vùng Caribe, cá thể cái kỷ lục có thể dài tới 14 cm.",
+      "Xương cẳng chân của một số cá thể có sắc tố biliverdin khiến xương ánh lên màu xanh lục dưới da."
+    ],
+    "similarSpecies": [
+      "Trachycephalus resinifictrix"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 90 lít. Giá thể: Mùn dừa ẩm dày 5 cm và khay nước rộng để ngâm mình.",
+      "lightingVi": "Đèn LED chiếu sáng ngày đêm 12 giờ",
+      "feedingVi": "Dế lớn, gián Dubia, sâu canxi",
+      "socialVi": "Nên nuôi đơn hoặc chỉ ghép các cá thể có kích thước ngang nhau vì có tập tính ăn thịt con nhỏ hơn",
+      "commonProblemsVi": [
+        "Béo phì nếu cho ăn quá nhiều"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; tuyệt đối không thả ra môi trường tự nhiên."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Cuba (Osteopilus septentrionalis) CB",
+        "priceVnd": 650000,
+        "descriptionVi": "Ếch cây cỡ lớn khỏe khoắn, háu ăn và rất dạn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Osteopilus septentrionalis (30201804917).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus_septentrionalis_(30201804917).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Osteopilus_septentrionalis_%2830201804917%29.jpg",
+        "width": 3694,
+        "height": 2771,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Osteopilus septentrionalis 6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus_septentrionalis_6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Osteopilus_septentrionalis_6.jpg",
+        "width": 1510,
+        "height": 1481,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Munkel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Osteopilus septentrionalis, orange co.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus_septentrionalis,_orange_co.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Osteopilus_septentrionalis%2C_orange_co.jpg",
+        "width": 1128,
+        "height": 920,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "pondhawk",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Osteopilus septentrionalis - Maxime Laterreur - 59898495.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus_septentrionalis_-_Maxime_Laterreur_-_59898495.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Osteopilus_septentrionalis_-_Maxime_Laterreur_-_59898495.jpeg",
+        "width": 2048,
+        "height": 1152,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Maxime Laterreur",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hyla septentrionalis 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyla_septentrionalis_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hyla_septentrionalis_1.jpg",
+        "width": 852,
+        "height": 607,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2428083",
+      "https://www.iucnredlist.org/species/55811/3032751",
+      "https://en.wikipedia.org/wiki/Cuban_tree_frog"
+    ]
+  },
+  {
+    "scientificName": "Trachycephalus resinifictrix",
+    "commonNameVi": "Ếch Cây Sữa Amazon",
+    "commonNameEn": "Mission Golden-eyed Treefrog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Hylidae",
+      "genus": "Trachycephalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bén (Hylidae)",
+      "genus": "Chi Ếch cây đầu nhám (Trachycephalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/79680060/61405034",
+    "gbifKey": 5217956,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nhiệt đới nguyên sinh gần sông suối"
+    },
+    "descriptionVi": "Loài ếch cây cỡ lớn của rừng mưa Amazon nổi bật với các dải vằn nâu sô-cô-la xen trắng sữa, da điểm hạt nhỏ và mống mắt có hình chữ thập vàng đen.",
+    "conservationNoteVi": "Phân bố rộng trong toàn lưu vực Amazon và vùng Guiana, mức bảo tồn Ít lo ngại (LC).",
+    "pullQuoteVi": "Khi bị đe dọa, chúng tiết ra chất dịch trắng đục như sữa từ tuyến da lưng — nguồn gốc của tên gọi ếch sữa Amazon.",
+    "dietVi": "Ăn dế, gián rừng, sâu bướm, cào cào và nhện",
+    "lifespanVi": "8–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực rừng mưa Amazon thuộc Brazil, Peru, Colombia, Ecuador, Bolivia và vùng Guiana",
+    "otherNamesVi": [
+      "Ếch cây mắt vàng",
+      "Ếch sữa mặt trăng"
+    ],
+    "synonyms": [
+      "Hyla resinifictrix",
+      "Phrynohyas resinifictrix"
+    ],
+    "wikidataId": "Q672277",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trachycephalus_resinifictrix",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mission_golden-eyed_tree_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 10,
+      "weightGMin": 25,
+      "weightGMax": 50,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 8–10 cm, lớn hơn con đực (6–7,5 cm); con đực có đôi túi kêu phồng hai bên góc hàm."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "CO",
+        "EC",
+        "BO",
+        "VE",
+        "GY",
+        "SR"
+      ],
+      "nativeRangeVi": "Rừng mưa nhiệt đới đất thấp lưu vực sông Amazon",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới nguyên sinh gần sông suối",
+      "Các hốc cây gỗ lớn đọng nước mưa trên cao"
+    ],
+    "identificationVi": "Thân có các dải khoang rộng màu nâu đen hoặc nâu sô-cô-la xen kẽ màu xám xanh hoặc trắng sữa. Mống mắt màu vàng kim có bốn vạch đen tạo hình chữ thập đặc trưng. Đĩa bám ngón chân và khoang miệng bên trong có sắc xanh lam ngọc.",
+    "behaviorVi": "Sống hoàn toàn trên tán cây cao và sử dụng các hốc cây đọng nước mưa làm nơi trú ẩn ẩm mát cũng như nơi sinh sản.",
+    "reproductionVi": "Con cái đẻ trứng trong hốc cây có nước mưa; sau đó còn quay lại đẻ trứng không thụ tinh làm thức ăn nuôi đàn nòng nọc.",
+    "threatsVi": [
+      "Chặt phá các cây gỗ cổ thụ có hốc tự nhiên trong rừng Amazon"
+    ],
+    "funFactsVi": [
+      "Cá thể non có màu sắc tương phản đen-trắng cực kỳ sắc nét, sau đó chuyển dần sang tông xám xanh và nâu khi trưởng thành.",
+      "Máu và lớp niêm mạc miệng của loài này có màu xanh ngọc lam do sắc tố biliverdin."
+    ],
+    "similarSpecies": [
+      "Theloderma corticale"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 90 lít. Giá thể: Mùn dừa ẩm phủ lá bàng khô, bố trí ống bần và bát nước treo.",
+      "lightingVi": "Đèn LED chiếu sáng cho cây nhiệt đới 12 giờ/ngày",
+      "feedingVi": "Dế, gián Dubia vừa miệng rắc canxi và vitamin tuần 2–3 lần",
+      "socialVi": "Rất hiền lành, nuôi ghép nhóm 2–4 cá thể cùng cỡ rất tốt",
+      "commonProblemsVi": [
+        "Nhiễm khuẩn đường ruột nếu nước uống bẩn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; nguồn con giống CB rất phổ biến."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Sữa Amazon (Trachycephalus resinifictrix) CB",
+        "priceVnd": 850000,
+        "descriptionVi": "Ếch sữa Amazon CB hoa văn tương phản rõ, ăn dế và gián Dubia cực khỏe."
+      },
+      {
+        "nameVi": "Cặp Ếch Cây Sữa Amazon bán trưởng thành",
+        "priceVnd": 2200000,
+        "descriptionVi": "Cặp ếch sữa Amazon tuyển chọn, kích thước đều, thích hợp hồ paludarium."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Amazon milk frog (23700336979).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amazon_milk_frog_(23700336979).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Amazon_milk_frog_%2823700336979%29.jpg",
+        "width": 5640,
+        "height": 3760,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Raita Futo from Tokyo, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Обитатели петербургского Океанариума 20.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_20.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/%D0%9E%D0%B1%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0_20.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Anastasiya Lvova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Amazon milk frog (23772476390).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amazon_milk_frog_(23772476390).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Amazon_milk_frog_%2823772476390%29.jpg",
+        "width": 5838,
+        "height": 3892,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Raita Futo from Tokyo, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Amazon Milk Frog Trachycephalus resinifictrix 3488.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amazon_Milk_Frog_Trachycephalus_resinifictrix_3488.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Amazon_Milk_Frog_Trachycephalus_resinifictrix_3488.jpg",
+        "width": 4084,
+        "height": 2604,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Casa delle Farfalle - Trachycephalus resinifictrix.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_delle_Farfalle_-_Trachycephalus_resinifictrix.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Casa_delle_Farfalle_-_Trachycephalus_resinifictrix.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5217956",
+      "https://www.iucnredlist.org/species/79680060/61405034",
+      "https://en.wikipedia.org/wiki/Mission_golden-eyed_tree_frog",
+      "https://vi.wikipedia.org/wiki/Trachycephalus_resinifictrix"
+    ]
+  },
+  {
+    "scientificName": "Theloderma corticale",
+    "commonNameVi": "Ếch Cây Sần Bắc Bộ",
+    "commonNameEn": "Tonkin Bug-eyed Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Rhacophoridae",
+      "genus": "Theloderma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch cây (Rhacophoridae)",
+      "genus": "Chi Ếch cây sần (Theloderma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/219709082/219667057",
+    "gbifKey": 5217217,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 95,
+      "waterTempMin": 18,
+      "waterTempMax": 23,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Khe đá vôi ngập nước và hang đá nhỏ trong rừng thường xanh ẩm"
+    },
+    "descriptionVi": "Loài ếch cây nổi tiếng của vùng núi đá vôi miền Bắc Việt Nam với toàn thân phủ gai sần màu xanh rêu đốm nâu đỏ, ngụy trang hoàn hảo như một tảng đá phủ rêu.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) nhờ phân bố ở nhiều khu bảo tồn núi đá vôi và đã được nhân giống rộng rãi trong điều kiện nuôi nhốt.",
+    "pullQuoteVi": "Bậc thầy ngụy trang của rừng đá vôi Việt Nam: khi nằm im trong khe đá ngập nước, chúng trông hệt như một cụm rêu rừng ẩm ướt.",
+    "dietVi": "Ăn dế, gián rừng, cào cào, mối và côn trùng sống quanh hốc đá",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Vùng núi đá vôi miền Bắc Việt Nam (Tam Đảo, Cao Bằng, Lạng Sơn, Ninh Bình), bắc Lào và nam Trung Quốc",
+    "otherNamesVi": [
+      "Ếch rêu Việt Nam",
+      "Ếch cây sần Tam Đảo"
+    ],
+    "synonyms": [
+      "Rhacophorus corticalis",
+      "Rhacophorus fruhstorferi",
+      "Rhacophorus leprosus kwangsiensis",
+      "Theloderma corticalis"
+    ],
+    "wikidataId": "Q2445924",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_c%C3%A2y_s%E1%BA%A7n_B%E1%BA%AFc_B%E1%BB%99",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Theloderma_corticale",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 9,
+      "weightGMin": 25,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn (7,5–9 cm) so với con đực (6–7 cm); con đực có chai sinh dục ở gốc ngón cái."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "CN"
+      ],
+      "nativeRangeVi": "Các khối núi đá vôi và rừng thường xanh miền Bắc Việt Nam và vùng lân cận",
+      "elevationM": {
+        "min": 450,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Khe đá vôi ngập nước và hang đá nhỏ trong rừng thường xanh ẩm",
+      "Các hốc cây cổ thụ đọng nước mưa ở vùng núi mát"
+    ],
+    "identificationVi": "Da lưng phủ dày các nốt sần và gai thịt lớn xếp thành từng cụm. Màu nền xanh rêu tươi xen các mảng đốm nâu hạt dẻ hoặc tím đen không đối xứng. Mống mắt chia mảng xanh rêu và nâu khớp liền với hoa văn da quanh mắt.",
+    "behaviorVi": "Sống bán thủy sinh, dành phần lớn thời gian ngâm nửa thân dưới làn nước mát trong hốc đá hoặc hốc cây tối; khi gặp nguy hiểm sẽ cuộn tròn giả làm viên đá rêu.",
+    "reproductionVi": "Đẻ từng cụm 8–20 trứng bám trên vách đá hoặc thành hốc cây ngay sát mép nước từ tháng 4 đến tháng 8.",
+    "threatsVi": [
+      "Khai thác đá vôi và thu hẹp rừng nguyên sinh trên núi đá",
+      "Săn bắt ngoài tự nhiên tại các điểm không được bảo vệ"
+    ],
+    "funFactsVi": [
+      "Tiếng kêu của con đực phát ra từ trong hốc đá vang vọng khiến kẻ săn mồi rất khó xác định đúng vị trí cách đó vài mét.",
+      "Là một trong những loài lưỡng cư bản địa Việt Nam nổi tiếng nhất trong các vườn thú và bộ sưu tập sinh học toàn cầu."
+    ],
+    "similarSpecies": [
+      "Theloderma bicolor"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Hồ bán cạn (paludarium) có 50% diện tích là tầng nước sạch sâu 8–12 cm kèm đá và lũa phủ rêu.",
+      "lightingVi": "Ánh sáng dịu nhẹ, bố trí nhiều hốc tối bằng vỏ bần và đá cuội",
+      "feedingVi": "Dế, gián Dubia vừa miệng thả trên các mỏm đá hoặc vỏ bần nổi",
+      "socialVi": "Sống hòa thuận theo nhóm 2–4 cá thể trong hồ bán cạn nhiều vách đá",
+      "commonProblemsVi": [
+        "Sốc nhiệt nếu nhiệt độ nước vượt quá 26°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc Nghị định 84/2021/NĐ-CP hay CITES; giao dịch con giống nhân nuôi (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Rêu Việt Nam (Theloderma corticale) con giống CB",
+        "priceVnd": 1200000,
+        "descriptionVi": "Ếch cây sần Bắc Bộ sinh sản nuôi nhốt, gai rêu lên đều, ăn dế khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Theloderma corticale - Karlsruhe Zoo 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theloderma_corticale_-_Karlsruhe_Zoo_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Theloderma_corticale_-_Karlsruhe_Zoo_02.jpg",
+        "width": 5652,
+        "height": 3730,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Theloderma corticale Beauval.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theloderma_corticale_Beauval.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Theloderma_corticale_Beauval.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Pharma",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Grenouille mousse (Theloderma corticale) Ménagerie du Jardin des plantes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grenouille_mousse_(Theloderma_corticale)_M%C3%A9nagerie_du_Jardin_des_plantes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Grenouille_mousse_%28Theloderma_corticale%29_M%C3%A9nagerie_du_Jardin_des_plantes.jpg",
+        "width": 4000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FreCha",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:ThelodermaCorticaleTrio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ThelodermaCorticaleTrio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/ThelodermaCorticaleTrio.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "The Lord of the Allosaurs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Vietnamese mossy frog (Theloderma corticale), Entomica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_mossy_frog_(Theloderma_corticale),_Entomica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vietnamese_mossy_frog_%28Theloderma_corticale%29%2C_Entomica.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fungus Guy",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5217217",
+      "https://www.iucnredlist.org/species/219709082/219667057",
+      "https://en.wikipedia.org/wiki/Theloderma_corticale",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_c%C3%A2y_s%E1%BA%A7n_B%E1%BA%AFc_B%E1%BB%99"
+    ]
+  },
+  {
+    "scientificName": "Rhacophorus reinwardtii",
+    "commonNameVi": "Ếch Cây Bay Xanh",
+    "commonNameEn": "Reinwardt's Tree Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Rhacophoridae",
+      "genus": "Rhacophorus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch cây (Rhacophoridae)",
+      "genus": "Chi Ếch cây bay (Rhacophorus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/48109368/3075656",
+    "gbifKey": 5217267,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nhiệt đới nguyên sinh và thứ sinh"
+    },
+    "descriptionVi": "Loài ếch cây bay điển hình của Đông Nam Á với lưng xanh lá mạ và màng da rộng màu đen viền xanh ngọc giữa các ngón tay, ngón chân giúp lượn xa giữa các tán cây.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố ở các khu rừng ẩm từ bán đảo Mã Lai tới đảo Java và Sumatra.",
+    "pullQuoteVi": "Khi xòe căng bốn bàn chân có màng rộng, ếch cây bay biến thành một chiếc dù lượn sinh học vượt qua khoảng trống hàng chục mét.",
+    "dietVi": "Ăn cào cào, dế, bướm đêm, ruồi và các côn trùng sống trên tán cây",
+    "lifespanVi": "6–9 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": "Thái Lan, Malaysia, Indonesia (Sumatra, Java, Kalimantan) và Brunei",
+    "otherNamesVi": [
+      "Ếch bay Java",
+      "Ếch bay Reinwardt"
+    ],
+    "synonyms": [
+      "Hyla reinwardtii",
+      "Hypsiboas reinwardtii",
+      "Polypedates reinwardtii",
+      "Racophorus reinwardtii"
+    ],
+    "wikidataId": "Q1508935",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_c%C3%A2y_bay",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rhacophorus_reinwardtii",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 5,
+      "lengthCmMax": 8,
+      "weightGMin": 12,
+      "weightGMax": 28,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 6,5–8 cm, lớn hơn rõ rệt so với con đực (4,5–5,5 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "TH",
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Bán đảo Mã Lai và các đảo lớn quần đảo Sunda",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới nguyên sinh và thứ sinh",
+      "Rừng ẩm ven suối và hồ nước tĩnh trong rừng"
+    ],
+    "identificationVi": "Lưng màu xanh lục sáng, bụng vàng cam hoặc trắng kem. Màng bơi giữa các ngón tay và ngón chân phát triển cực rộng, có mảng màu đen tuyền điểm các vạch xanh ngọc lam. Dọc rìa ngoài cẳng tay, cẳng chân và phía trên hậu môn có diềm da mảnh giúp tăng diện tích lượn.",
+    "behaviorVi": "Sống hầu như suốt năm trên vòm lá cao, chỉ tụ tập xuống các cành cây thấp treo trên mặt nước đầm lầy vào mùa mưa để giao phối.",
+    "reproductionVi": "Đực và cái dùng chân sau đánh bông dịch tiết tạo tổ bọt trắng gắn trên lá cây phía trên mặt nước.",
+    "threatsVi": [
+      "Chuyển đổi rừng mưa đất thấp thành đồn điền cọ dầu"
+    ],
+    "funFactsVi": [
+      "Chúng có thể điều chỉnh góc nghiêng của bàn chân và các diềm da ở chi để bẻ lái ngay giữa không trung khi đang lượn.",
+      "Tổ bọt trứng cứng lại ở lớp ngoài để chống nắng nhưng giữ ẩm bên trong cho tới khi mưa rửa trôi nòng nọc xuống nước."
+    ],
+    "similarSpecies": [
+      "Rhacophorus nigropalmatus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 110 lít. Giá thể: Nền ẩm thoát nước tốt, bố trí nhiều cây lá rộng như ráy, trầu bà ở tầng cao.",
+      "lightingVi": "Đèn LED trồng cây chiếu sáng cho tán lá tự nhiên trong hồ",
+      "feedingVi": "Dế, ruồi và côn trùng biết leo bổ sung khoáng chất",
+      "socialVi": "Nuôi nhóm nhỏ trong hồ đứng cao từ 60 cm trở lên",
+      "commonProblemsVi": [
+        "Trầy mõm nếu chuồng quá chật và thiếu cây che chắn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Bay Xanh (Rhacophorus reinwardtii) CB",
+        "priceVnd": 1600000,
+        "descriptionVi": "Ếch cây bay xanh màng chân đen viền xanh ngọc ấn tượng, ăn dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Katak Terbang Jawa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Katak_Terbang_Jawa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Katak_Terbang_Jawa.jpg",
+        "width": 6000,
+        "height": 4600,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Farras Firdaus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rhacophorus reinwardtii from West Java.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_reinwardtii_from_West_Java.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rhacophorus_reinwardtii_from_West_Java.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rabbil Pratama Aji",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus reinwardtii - Justin Philbois - 465836081.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_reinwardtii_-_Justin_Philbois_-_465836081.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Rhacophorus_reinwardtii_-_Justin_Philbois_-_465836081.jpeg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Justin Philbois",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5217267",
+      "https://www.iucnredlist.org/species/48109368/3075656",
+      "https://en.wikipedia.org/wiki/Rhacophorus_reinwardtii",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_c%C3%A2y_bay"
+    ]
+  },
+  {
+    "scientificName": "Rhacophorus nigropalmatus",
+    "commonNameVi": "Ếch Cây Bay Wallace",
+    "commonNameEn": "Abah River Flying Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Rhacophoridae",
+      "genus": "Rhacophorus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch cây (Rhacophoridae)",
+      "genus": "Chi Ếch cây bay (Rhacophorus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/59008/64129329",
+    "gbifKey": 5217285,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán cao của rừng mưa nhiệt đới cây họ Dầu (Dipterocarpaceae)"
+    },
+    "descriptionVi": "Loài ếch bay nổi tiếng nhất thế giới do nhà tự nhiên học Alfred Russel Wallace ghi nhận tại Borneo, sở hữu thân xanh lục ngọc và màng chân rộng màu đen vàng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố tại các khu rừng nhiệt đới đất thấp của bán đảo Mã Lai, Sumatra và Borneo.",
+    "pullQuoteVi": "Biểu tượng của rừng mưa Borneo với đôi bàn chân xòe rộng như cánh dơi đen điểm sắc vàng rực rỡ.",
+    "dietVi": "Ăn côn trùng lớn trên tán rừng: dế, muỗm, bọ ngựa nhỏ và bướm đêm",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Chao Phraya, Thái Lan",
+      "lat": 14.35,
+      "lng": 100.56
+    },
+    "regionVi": "Nam Thái Lan, bán đảo Malaysia, đảo Sumatra và đảo Borneo (Malaysia, Indonesia, Brunei)",
+    "otherNamesVi": [
+      "Ếch bay màng chân đen"
+    ],
+    "synonyms": [
+      "Polypedates nigropalmatus",
+      "Rhacophorus nigropalmatus nigropalmatus"
+    ],
+    "wikidataId": "Q1190196",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rhacophorus_nigropalmatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Wallace%27s_flying_frog",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 10.5,
+      "weightGMin": 25,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 9–10,5 cm, lớn hơn con đực (8–9 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "TH",
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Bán đảo Mã Lai, Sumatra và Borneo",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán cao của rừng mưa nhiệt đới cây họ Dầu (Dipterocarpaceae)",
+      "Vùng đầm lầy rừng và vũng nước lợn rừng đằm mình"
+    ],
+    "identificationVi": "Thân lớn màu xanh lá cây tươi với sườn màu vàng tươi, đôi mắt to màu vàng kem nằm ngang. Màng da nối hết chiều dài các ngón tay và ngón chân, gốc màng màu đen tuyền và rìa màng màu vàng sáng. Đầu ngón có giác bám dẹt rất lớn giúp hãm đà khi tiếp đất trên thân cây.",
+    "behaviorVi": "Khi nhảy khỏi ngọn cây cao, chúng duỗi thẳng bốn chi và xòe rộng màng ngón để lượn chéo góc tới hơn 15 mét sang cây kế bên.",
+    "reproductionVi": "Tạo tổ bọt lớn treo trên cành lá thấp phía trên các vũng bùn đọng nước mưa trong rừng.",
+    "threatsVi": [
+      "Khai thác gỗ rừng nguyên sinh họ Dầu ở Borneo và Sumatra"
+    ],
+    "funFactsVi": [
+      "Alfred Russel Wallace đã vẽ phác họa loài ếch này năm 1855 tại Sarawak làm minh chứng sống động cho sự thích nghi tiến hóa ở động vật.",
+      "Các giác bám quá khổ ở đầu ngón chân vừa giúp bám dính vừa đóng vai trò như đệm giảm chấn khi tiếp thân cây."
+    ],
+    "similarSpecies": [
+      "Rhacophorus reinwardtii"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 150 lít. Giá thể: Đất rừng sinh học ẩm, nhiều cành lớn và cây lá bản to ở độ cao 60–90 cm.",
+      "lightingVi": "Đèn LED chiếu sáng dịu cho cây tán rộng",
+      "feedingVi": "Dế lớn, châu chấu non, gián Dubia rắc khoáng",
+      "socialVi": "Nuôi đơn hoặc cặp trong chuồng đứng kích thước lớn",
+      "commonProblemsVi": [
+        "Stress do chuồng thấp hoặc thiếu tán cây ẩn nấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Bay Wallace (Rhacophorus nigropalmatus) CB",
+        "priceVnd": 3200000,
+        "descriptionVi": "Ếch bay Wallace dòng CB hiếm gặp, màng chân đen vàng sắc nét."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rhacophorus nigropalmatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Rhacophorus_nigropalmatus.jpg",
+        "width": 6519,
+        "height": 4351,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rushenb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Flying frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flying_frog.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vijayakumarblathur",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (22928752144).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wallace%27s_Flying_Frog_(Rhacophorus_nigropalmatus)_(22928752144).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Wallace%27s_Flying_Frog_%28Rhacophorus_nigropalmatus%29_%2822928752144%29.jpg",
+        "width": 4837,
+        "height": 2988,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Wallace's Flying Frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wallace%27s_Flying_Frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wallace%27s_Flying_Frog.jpg",
+        "width": 5980,
+        "height": 3363,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "zleng",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus nigropalmatus 227261158.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus_227261158.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rhacophorus_nigropalmatus_227261158.jpg",
+        "width": 2048,
+        "height": 1756,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Tim",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5217285",
+      "https://www.iucnredlist.org/species/59008/64129329",
+      "https://en.wikipedia.org/wiki/Wallace%27s_flying_frog",
+      "https://vi.wikipedia.org/wiki/Rhacophorus_nigropalmatus"
+    ]
+  },
+  {
+    "scientificName": "Zhangixalus schlegelii",
+    "commonNameVi": "Ếch Cây Xanh Schlegel",
+    "commonNameEn": "Japanese Gliding Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Rhacophoridae",
+      "genus": "Zhangixalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch cây (Rhacophoridae)",
+      "genus": "Chi Ếch cây xanh lớn (Zhangixalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/59021/177226326",
+    "gbifKey": 10674422,
+    "environment": {
+      "tempMin": 17,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng ẩm ven thung lũng và bờ ruộng bậc thang"
+    },
+    "descriptionVi": "Loài ếch cây xanh đặc hữu của Nhật Bản với làn da mịn màng màu xanh táo tươi, không có sọc đen qua mắt và đôi mắt có viền mống mắt vàng kim sáng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố rộng khắp các đảo Honshu, Shikoku và Kyushu của Nhật Bản.",
+    "pullQuoteVi": "Khác với nhái bén thường, ếch cây Schlegel có khuôn mặt xanh thuần khiết không một vệt sọc sẫm và giọng hót ngân vang như tiếng chim.",
+    "dietVi": "Ăn nhện, ruồi, cào cào nhỏ, sâu non và bướm đêm",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Đặc hữu Nhật Bản (các đảo Honshu, Shikoku, Kyushu và một số đảo nhỏ lân cận)",
+    "otherNamesVi": [
+      "Ếch cây xanh Nhật Bản",
+      "Rhacophorus schlegelii"
+    ],
+    "synonyms": [
+      "Polypedates schlegelii",
+      "Rhacophorus microglossus",
+      "Rhacophorus schlegelii",
+      "Rhacophorus schlegelii microglossus"
+    ],
+    "wikidataId": "Q135091826",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Zhangixalus_schlegelii",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.2,
+      "lengthCmMax": 5.5,
+      "weightGMin": 4,
+      "weightGMax": 12,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 4,5–5,5 cm, lớn hơn con đực (3,2–4,2 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "JP"
+      ],
+      "nativeRangeVi": "Các đảo chính Honshu, Shikoku và Kyushu (Nhật Bản)",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng ẩm ven thung lũng và bờ ruộng bậc thang",
+      "Cây bụi quanh ao đầm và đồng lúa nước"
+    ],
+    "identificationVi": "Toàn bộ mặt lưng màu xanh lá cây tươi đồng nhất, đôi khi điểm vài chấm vàng trắng nhỏ li ti. Không có dải sọc đen chạy từ mũi qua mắt như nhái bén Nhật Bản. Mống mắt màu vàng óng hoặc vàng đồng sáng rực.",
+    "behaviorVi": "Sống trên cây bụi và chỉ xuống mặt đất ẩm ven bờ ruộng vào đầu mùa xuân để đào hố làm tổ đẻ trứng.",
+    "reproductionVi": "Con cái và con đực đào một hốc nhỏ trong đất bùn mềm trên bờ ruộng rồi đẻ tổ bọt trắng đường kính 5–7 cm trong lòng đất.",
+    "threatsVi": [
+      "Lát bê tông bờ ruộng khiến ếch không đào được hố đẻ tổ bọt"
+    ],
+    "funFactsVi": [
+      "Là một trong số ít loài ếch cây đẻ tổ bọt nằm ngầm trong đất bùn bờ ruộng thay vì treo trên cành cây.",
+      "Tiếng kêu mùa xuân của con đực nghe ríu rít liên hồi nên rất được yêu thích tại các vùng nông thôn Nhật Bản."
+    ],
+    "similarSpecies": [
+      "Zhangixalus arboreus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Đất mùn ẩm dày phủ rêu tươi và khay nước nông.",
+      "lightingVi": "Đèn LED tự nhiên dịu mát 10–12 giờ/ngày",
+      "feedingVi": "Dế nhỏ, ruồi giấm lớn, sâu bướm non rắc canxi",
+      "socialVi": "Hiền lành, nuôi nhóm 2–4 cá thể trong hồ cây mát mẻ",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ chuồng trên 26°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Xanh Schlegel (Zhangixalus schlegelii) CB",
+        "priceVnd": 1150000,
+        "descriptionVi": "Ếch cây xanh mắt vàng đặc hữu Nhật Bản, màu xanh táo rất đẹp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Zhangixalus schlegelii in Hamada, Shimane.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zhangixalus_schlegelii_in_Hamada,_Shimane.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Zhangixalus_schlegelii_in_Hamada%2C_Shimane.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ノボホショコロトソ",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rhacophorus schlegelii from iNaturalist 213527568.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_schlegelii_from_iNaturalist_213527568.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Rhacophorus_schlegelii_from_iNaturalist_213527568.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "MUNENORI YAMAKAWA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus schlegelii.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_schlegelii.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Rhacophorus_schlegelii.jpeg",
+        "width": 3000,
+        "height": 2158,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Joi Ito",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus schlegelii IMG 0555.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_schlegelii_IMG_0555.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Rhacophorus_schlegelii_IMG_0555.jpg",
+        "width": 2400,
+        "height": 1800,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Yasunori Koide",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus schlegelii s1a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_schlegelii_s1a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Rhacophorus_schlegelii_s1a.jpg",
+        "width": 1600,
+        "height": 1067,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/10674422",
+      "https://www.iucnredlist.org/species/59021/177226326",
+      "https://en.wikipedia.org/wiki/Zhangixalus_schlegelii"
+    ]
+  },
+  {
+    "scientificName": "Zhangixalus arboreus",
+    "commonNameVi": "Ếch Cây Rừng Nhật Bản",
+    "commonNameEn": "Forest Green Tree Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Rhacophoridae",
+      "genus": "Zhangixalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch cây (Rhacophoridae)",
+      "genus": "Chi Ếch cây xanh lớn (Zhangixalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/58973/177226592",
+    "gbifKey": 10771812,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng ôn đới và rừng hỗn giao vùng núi"
+    },
+    "descriptionVi": "Loài ếch cây lớn đặc hữu của Nhật Bản với lưng xanh lá điểm đốm nâu rêu và đôi mắt màu cam đỏ nổi bật, nổi tiếng với tập tính đẻ tổ bọt trắng lớn trên cành cây.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố trên đảo Honshu, đảo Sado và du nhập lên đảo Hokkaido.",
+    "pullQuoteVi": "Những khối tổ bọt trắng muốt như kẹo bông treo lơ lửng trên cành cây ven hồ rừng là dấu ấn sinh sản độc đáo của loài ếch này.",
+    "dietVi": "Ăn côn trùng rừng, dế, cào cào, bọ cánh cứng nhỏ và nhện",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đảo Honshu, Nhật Bản",
+      "lat": 35.68,
+      "lng": 139.69
+    },
+    "regionVi": "Đặc hữu Nhật Bản (đảo Honshu và các đảo lân cận)",
+    "otherNamesVi": [
+      "Ếch cây xanh Mori",
+      "Rhacophorus arboreus"
+    ],
+    "synonyms": [
+      "Polypedates schlegelii arborea",
+      "Polypedates schlegelii intermedia",
+      "Rhacophorus arboreus",
+      "Rhacophorus schlegelii arborea"
+    ],
+    "wikidataId": "Q106446886",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Zhangixalus_arboreus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Zhangixalus_arboreus",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 4.5,
+      "lengthCmMax": 8,
+      "weightGMin": 10,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 6–8 cm, lớn hơn nhiều so với con đực (4,5–6 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "JP"
+      ],
+      "nativeRangeVi": "Đảo Honshu và đảo Sado (Nhật Bản)",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng ôn đới và rừng hỗn giao vùng núi",
+      "Đầm lầy rừng, hồ trên núi và ruộng lúa bậc thang sát bìa rừng"
+    ],
+    "identificationVi": "Thân màu xanh lục tươi, nhiều quần thể có các mảng đốm nâu sẫm viền sáng trên lưng. Mống mắt màu đỏ cam hoặc nâu đỏ đặc trưng. Đĩa bám ở đầu các ngón tay và ngón chân phát triển lớn.",
+    "behaviorVi": "Sống đơn độc trên tán rừng ngoài mùa sinh sản; đầu mùa hè tập trung hàng chục cá thể trên các cành cây vươn ra mặt hồ rừng.",
+    "reproductionVi": "Một con cái thường được nhiều con đực vây quanh cùng đánh bông dịch tiết thành tổ bọt trắng lớn cỡ nắm tay treo trên cành cây.",
+    "threatsVi": [
+      "Phát quang cây cối ven bờ hồ khiến ếch mất cành treo tổ bọt"
+    ],
+    "funFactsVi": [
+      "Tổ bọt trứng của ếch cây rừng Nhật Bản tại một số đầm nước cổ ở Honshu được công nhận là Di tích Tự nhiên cấp địa phương.",
+      "Nòng nọc sau khi phát triển trong lòng tổ bọt sẽ làm tan lớp đáy tổ và rơi thẳng xuống mặt hồ bên dưới."
+    ],
+    "similarSpecies": [
+      "Zhangixalus schlegelii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 90 lít. Giá thể: Đất rừng phủ rêu ẩm, nhiều cành gỗ vươn trên khay nước rộng.",
+      "lightingVi": "Đèn LED mát chiếu sáng cho cây trong hồ",
+      "feedingVi": "Dế vừa, gián Dubia nhỏ, sâu sáp rắc khoáng",
+      "socialVi": "Nuôi nhóm nhỏ trong hồ paludarium mát",
+      "commonProblemsVi": [
+        "Suy yếu nếu nhiệt độ mùa hè vượt quá 26°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cây Rừng Nhật Bản (Zhangixalus arboreus) CB",
+        "priceVnd": 1400000,
+        "descriptionVi": "Ếch cây mắt đỏ cam bản địa Nhật Bản, hoa văn đốm rêu tự nhiên."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Eggs of Rhacophorus arboreus and Nephrophyllidium crista-galli subsp. japonicum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eggs_of_Rhacophorus_arboreus_and_Nephrophyllidium_crista-galli_subsp._japonicum.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Eggs_of_Rhacophorus_arboreus_and_Nephrophyllidium_crista-galli_subsp._japonicum.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rhacophorus arboreus (egg) on Padus grayana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_arboreus_(egg)_on_Padus_grayana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Rhacophorus_arboreus_%28egg%29_on_Padus_grayana.jpg",
+        "width": 4000,
+        "height": 5706,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus arboreus 01s.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_arboreus_01s.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Rhacophorus_arboreus_01s.JPG",
+        "width": 3200,
+        "height": 2400,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus arboreus 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_arboreus_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rhacophorus_arboreus_01.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Σ64",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhacophorus arboreus (egg) and Drosera rotundifolia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhacophorus_arboreus_(egg)_and_Drosera_rotundifolia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Rhacophorus_arboreus_%28egg%29_and_Drosera_rotundifolia.jpg",
+        "width": 4250,
+        "height": 2800,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/10771812",
+      "https://www.iucnredlist.org/species/58973/177226592",
+      "https://en.wikipedia.org/wiki/Zhangixalus_arboreus",
+      "https://vi.wikipedia.org/wiki/Zhangixalus_arboreus"
+    ]
+  },
+  {
+    "scientificName": "Ceratophrys cranwelli",
+    "commonNameVi": "Ếch Sừng Pacman Cranwell",
+    "commonNameEn": "Cranwell's Horned Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Ceratophryidae",
+      "genus": "Ceratophrys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch sừng Nam Mỹ (Ceratophryidae)",
+      "genus": "Chi Ếch sừng Pacman (Ceratophrys)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/56338/101427626",
+    "gbifKey": 2424459,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ khô và rừng cây bụi gai vùng Gran Chaco"
+    },
+    "descriptionVi": "Loài ếch sừng phổ biến nhất trong thú chơi lưỡng cư cảnh với thân hình tròn trịa, cái miệng rộng chiếm gần nửa cơ thể và mí mắt nhô cao như hai chiếc sừng nhỏ.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) ngoài tự nhiên vùng Gran Chaco và được nhân giống hàng loạt với nhiều dòng màu trong nuôi nhốt.",
+    "pullQuoteVi": "Chiếc miệng rộng ngoác cùng thân hình tròn vo khiến chúng được đặt biệt danh là ếch Pacman theo nhân vật trò chơi điện tử kinh điển.",
+    "dietVi": "Săn mồi phục kích: ăn côn trùng lớn, giun đất, cá nhỏ, lưỡng cư khác và động vật gặm nhấm nhỏ",
+    "lifespanVi": "7–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Paraná, Argentina",
+      "lat": -27.45,
+      "lng": -58.98
+    },
+    "regionVi": "Vùng đồng bằng khô hạn Gran Chaco thuộc Argentina, Bolivia, Paraguay và tây nam Brazil",
+    "otherNamesVi": [
+      "Ếch Pacman Chaco",
+      "Ếch sừng Cranwell"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2703445",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cranwell%27s_horned_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 13,
+      "weightGMin": 100,
+      "weightGMax": 250,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 11–13 cm và nặng gấp rưỡi con đực (8–10 cm); đực trưởng thành có họng sẫm và chai ngón cái."
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "BO",
+        "PY",
+        "BR"
+      ],
+      "nativeRangeVi": "Khu vực Gran Chaco ở Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 700
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cỏ khô và rừng cây bụi gai vùng Gran Chaco",
+      "Các vũng nước mưa theo mùa trên nền đất pha cát mềm"
+    ],
+    "identificationVi": "Cơ thể tròn bè, đầu rất to với miệng rộng và hai nếp da nhô nhọn phía trên mí mắt. Màu tự nhiên xanh nâu điểm các mảng đốm đối xứng màu nâu sẫm viền sáng trên lưng. Trong nuôi nhốt có nhiều biến thể màu sắc như vàng Albino, xanh Bạc hà (Mint), cam dâu (Strawberry).",
+    "behaviorVi": "Săn mồi kiểu ngồi phục kích bằng cách vùi 2/3 cơ thể dưới lớp đất ẩm, chỉ để lộ đôi mắt trên mặt đất chờ con mồi đi ngang qua.",
+    "reproductionVi": "Sinh sản bùng nổ vào đầu mùa mưa; con cái đẻ hàng nghìn trứng trong các vũng nước mưa tạm thời.",
+    "threatsVi": [
+      "Mở rộng diện tích trồng đậu tương và chăn nuôi gia súc tại vùng Chaco"
+    ],
+    "funFactsVi": [
+      "Vào mùa khô hạn ở vùng Gran Chaco, chúng tạo một lớp kén bằng nhiều lớp da lột bao kín cơ thể để ngủ hè dưới lòng đất suốt nhiều tháng.",
+      "Hàm của ếch sừng có các mấu xương sắc nhọn như răng kèm chất dịch dính rất chắc trên lưỡi để giữ chặt con mồi lớn."
+    ],
+    "similarSpecies": [
+      "Ceratophrys ornata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Mùn dừa tơi xốp giữ ẩm dày 5–8 cm hoặc mút chuyên dụng kèm đĩa nước nông.",
+      "lightingVi": "Ánh sáng phòng hoặc đèn LED dịu nhẹ 10–12 giờ/ngày",
+      "feedingVi": "Dế, gián Dubia, giun đất, cá nhỏ đã khử thiaminase rắc canxi/D3",
+      "socialVi": "Bắt buộc nuôi đơn độc mỗi cá thể một hồ vì sẽ cắn nuốt lẫn nhau",
+      "commonProblemsVi": [
+        "Tắc ruột do nuốt nền sỏi",
+        "Thiếu canxi (hội chứng hàm mềm)"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; là loài ếch cảnh phổ biến nhất trên thị trường."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Sừng Pacman Vàng Chanh (Ceratophrys cranwelli Albino) CB",
+        "priceVnd": 450000,
+        "descriptionVi": "Ếch Pacman Albino vàng tươi đốm cam, háu ăn, cực kỳ dễ nuôi cho người mới."
+      },
+      {
+        "nameVi": "Ếch Sừng Pacman Xanh Bạc Hà (Peppermint Morph) CB",
+        "priceVnd": 680000,
+        "descriptionVi": "Dòng màu xanh ngọc bạc hà tươi tắn, đã ăn tốt dế và gián Dubia."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bouboune.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bouboune.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bouboune.jpg",
+        "width": 5318,
+        "height": 2991,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nicolashenn",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ceratophrys cranwell.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_cranwell.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ceratophrys_cranwell.jpg",
+        "width": 1000,
+        "height": 1000,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Daiju Azuma",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ceratophrys cranwelli 126037780.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_cranwelli_126037780.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ceratophrys_cranwelli_126037780.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Pablo H Capovilla",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:黃金角蛙 Ceratophrys cranwelli albino - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%BB%83%E9%87%91%E8%A7%92%E8%9B%99_Ceratophrys_cranwelli_albino_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E9%BB%83%E9%87%91%E8%A7%92%E8%9B%99_Ceratophrys_cranwelli_albino_-_panoramio.jpg",
+        "width": 1997,
+        "height": 1497,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cranwell's horned frog (Ceratophrys cranwelli), Entomica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cranwell%27s_horned_frog_(Ceratophrys_cranwelli),_Entomica.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Cranwell%27s_horned_frog_%28Ceratophrys_cranwelli%29%2C_Entomica.jpg",
+        "width": 1024,
+        "height": 768,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fungus Guy",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2424459",
+      "https://www.iucnredlist.org/species/56338/101427626",
+      "https://en.wikipedia.org/wiki/Cranwell%27s_horned_frog"
+    ]
+  },
+  {
+    "scientificName": "Ceratophrys ornata",
+    "commonNameVi": "Ếch Sừng Argentina",
+    "commonNameEn": "Argentinean Horned Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Ceratophryidae",
+      "genus": "Ceratophrys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch sừng Nam Mỹ (Ceratophryidae)",
+      "genus": "Chi Ếch sừng Pacman (Ceratophrys)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/56340/298219171",
+    "gbifKey": 2424454,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ ngập nước theo mùa vùng Pampas"
+    },
+    "descriptionVi": "Loài ếch sừng rực rỡ của đồng cỏ Pampas với nền da xanh lá cây tươi điểm các mảng đốm nâu đen viền vàng và những vệt đỏ son nổi bật.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) do mất sinh cảnh đồng cỏ ngập nước tự nhiên tại Argentina, Uruguay và nam Brazil.",
+    "pullQuoteVi": "Sự pha trộn giữa sắc xanh lục bảo, vàng nghệ và đỏ thẫm biến ếch sừng Argentina thành một viên ngọc sống trên đồng cỏ Pampas.",
+    "dietVi": "Ăn côn trùng lớn, ốc sên, ếch nhái khác, thằn lằn nhỏ và chuột đồng",
+    "lifespanVi": "6–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Paraná, Argentina",
+      "lat": -27.45,
+      "lng": -58.98
+    },
+    "regionVi": "Đồng cỏ Pampas thuộc Argentina, Uruguay và bang Rio Grande do Sul (Brazil)",
+    "otherNamesVi": [
+      "Ếch Pacman hoa văn",
+      "Ếch miệng rộng Argentina"
+    ],
+    "synonyms": [
+      "Ceratophrys ensenadensis",
+      "Trigonophrys rugiceps",
+      "Uperodon ornatum"
+    ],
+    "wikidataId": "Q954868",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_s%E1%BB%ABng_Argentina",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Argentine_horned_frog",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 15,
+      "weightGMin": 150,
+      "weightGMax": 350,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 12–15 cm, lớn hơn đáng kể so với con đực (9–11 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "UY",
+        "BR"
+      ],
+      "nativeRangeVi": "Đồng cỏ ẩm Pampas ở đông bắc Argentina, Uruguay và cực nam Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ ngập nước theo mùa vùng Pampas",
+      "Bờ đầm nước ngọt và mương cỏ tự nhiên"
+    ],
+    "identificationVi": "Thân hình cầu dẹt rất lớn, đầu to rộng với mí mắt trên nhô nhẹ. Lưng màu xanh lục sáng điểm các đốm tròn lớn màu nâu đen hoặc đỏ gạch có viền vàng rõ. Thường có hai đốm sáng nhỏ đối xứng phía sau hốc mắt.",
+    "behaviorVi": "Nằm vùi mình dưới bùn mềm hoặc cỏ ẩm chỉ hở mắt và mũi; tính khí rất dữ tợn, sẵn sàng lao tới đớp cả những kẻ săn mồi lớn hơn mình.",
+    "reproductionVi": "Đẻ khoảng 1.500–2.000 trứng bám vào gốc cỏ thủy sinh trong các đầm nước mưa mùa xuân.",
+    "threatsVi": [
+      "Canh tác nông nghiệp thâm canh và thoát nước các vùng đầm lầy đồng cỏ Pampas",
+      "Ô nhiễm hóa chất nông nghiệp trong các thủy vực sinh sản"
+    ],
+    "funFactsVi": [
+      "Ngay cả nòng nọc của loài này cũng là kẻ săn mồi ăn thịt và có khả năng phát ra âm thanh rít nhỏ dưới nước khi chạm trán nhau.",
+      "Tại Argentina, người dân bản địa gọi chúng là 'Escuerzo' và nổi tiếng vì sự lì lợm không chịu nhả mồi khi đã cắn."
+    ],
+    "similarSpecies": [
+      "Ceratophrys cranwelli"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Mùn dừa ẩm tơi xốp dày 7–10 cm để ếch vùi mình.",
+      "lightingVi": "Đèn LED chiếu sáng ngày đêm 10–12 giờ",
+      "feedingVi": "Giun đất, gián Dubia, dế lớn, cá filet rắc canxi và vitamin",
+      "socialVi": "Nuôi đơn độc tuyệt đối",
+      "commonProblemsVi": [
+        "Nhiễm độc amoniac nếu mùn dừa không được thay định kỳ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; lưu hành cá thể nhân giống nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Sừng Argentina (Ceratophrys ornata) CB",
+        "priceVnd": 950000,
+        "descriptionVi": "Ếch sừng Ornata chuẩn dòng đốm đỏ trên nền xanh lá, ăn khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Argentine horned frog (Ceratophrys ornata) (23439792324).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Argentine_horned_frog_(Ceratophrys_ornata)_(23439792324).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Argentine_horned_frog_%28Ceratophrys_ornata%29_%2823439792324%29.jpg",
+        "width": 5682,
+        "height": 3788,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Raita Futo from Tokyo, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Argentine - horned - frog - red.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Argentine_-_horned_-_frog_-_red.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Argentine_-_horned_-_frog_-_red.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "ゆうき315",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ceratophrys ornata, Sunshine Aquarium 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_ornata,_Sunshine_Aquarium_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ceratophrys_ornata%2C_Sunshine_Aquarium_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Motokoka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Horned Frog (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Horned_Frog_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Horned_Frog_%281%29.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "PEAK99",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pacman Frog, Argentine Wide-mouth Frog, Ceratophrys ornata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacman_Frog,_Argentine_Wide-mouth_Frog,_Ceratophrys_ornata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Pacman_Frog%2C_Argentine_Wide-mouth_Frog%2C_Ceratophrys_ornata.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Mike Baird",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2424454",
+      "https://www.iucnredlist.org/species/56340/298219171",
+      "https://en.wikipedia.org/wiki/Argentine_horned_frog",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_s%E1%BB%ABng_Argentina"
+    ]
+  },
+  {
+    "scientificName": "Ceratophrys cornuta",
+    "commonNameVi": "Ếch Sừng Surinam",
+    "commonNameEn": "Surinam Horned Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Ceratophryidae",
+      "genus": "Ceratophrys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch sừng Nam Mỹ (Ceratophryidae)",
+      "genus": "Chi Ếch sừng Pacman (Ceratophrys)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/56337/85857103",
+    "gbifKey": 2424456,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá mục dày trên sàn rừng mưa nhiệt đới nguyên sinh"
+    },
+    "descriptionVi": "Loài ếch sừng rừng mưa Amazon sở hữu cặp gai thịt trên mí mắt nhô cao nhọn hoắt và hình dáng ngụy trang hệt như một chiếc lá khô góc cạnh trên sàn rừng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) với phạm vi phân bố rộng khắp rừng mưa lưu vực Amazon và vùng Guiana.",
+    "pullQuoteVi": "Cặp sừng nhọn hoắt vươn cao trên đỉnh mắt cùng đường gờ lưng sắc nét giúp chúng hòa lẫn hoàn toàn vào thảm lá mục Amazon.",
+    "dietVi": "Ăn ếch nhái khác, thằn lằn, côn trùng lớn, cua rừng và động vật nhỏ trên sàn rừng",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực sông Amazon và vùng Guiana (Brazil, Peru, Ecuador, Colombia, Venezuela, Suriname, Guyana)",
+    "otherNamesVi": [
+      "Ếch sừng Amazon"
+    ],
+    "synonyms": [
+      "Buffo cornuta",
+      "Bufo cornutus",
+      "Ceratophris daudini",
+      "Ceratophris spixii"
+    ],
+    "wikidataId": "Q507708",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_s%E1%BB%ABng_Surinam",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Surinam_horned_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 15,
+      "weightGMin": 120,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 11–15 cm, lớn hơn nhiều so với con đực (7,5–10 cm); lưng có thể màu nâu lá khô, xanh lá hoặc pha cả hai."
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "PE",
+        "EC",
+        "CO",
+        "BO",
+        "VE",
+        "GY",
+        "SR"
+      ],
+      "nativeRangeVi": "Rừng mưa nhiệt đới lưu vực Amazon và Guiana",
+      "elevationM": {
+        "min": 0,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá mục dày trên sàn rừng mưa nhiệt đới nguyên sinh",
+      "Vùng trũng ngập nước tạm thời vào mùa mưa trong rừng"
+    ],
+    "identificationVi": "Gai da trên mí mắt rất dài và nhọn, cao hơn hẳn các loài cùng chi Ceratophrys. Đầu cực lớn và góc cạnh, cổ họng có màu đen sẫm với một vệt sọc trắng mảnh ở chính giữa. Hoa văn lưng đối xứng dạng chiếc lá khô với màu nâu gỉ sắt, kem hoặc xanh rêu.",
+    "behaviorVi": "Nằm bất động hàng ngày trời dưới lớp lá khô chỉ để lộ đôi mắt và cặp sừng; dùng các ngón chân sau có màu trắng ngọ nguậy để nhử mồi lại gần miệng.",
+    "reproductionVi": "Sinh sản vào đầu mùa mưa tại các vũng nước trong rừng; nòng nọc có bộ hàm sừng rất khỏe chuyên ăn nòng nọc loài khác.",
+    "threatsVi": [
+      "Mất sinh cảnh rừng nguyên sinh cục bộ ở rìa lưu vực Amazon"
+    ],
+    "funFactsVi": [
+      "Đầu của một cá thể trưởng thành chiếm tới hơn 1/2 chiều rộng tổng thể của cơ thể, cho phép nó nuốt gọn con mồi to gần bằng chính mình.",
+      "Chúng sử dụng hành vi 'nhử mồi bằng ngón chân' (pedal luring): giơ bàn chân sau lên lắc nhẹ các ngón chân trông giống con sâu bò."
+    ],
+    "similarSpecies": [
+      "Megophrys nasuta"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Mùn dừa trộn đất rừng phủ dày lá bàng/lá sồi khô đã khử trùng.",
+      "lightingVi": "Ánh sáng rất dịu giống dưới tán rừng rậm",
+      "feedingVi": "Gián Dubia lớn, cá nhỏ khử thiaminase, dế lớn rắc canxi",
+      "socialVi": "Bắt buộc nuôi đơn độc",
+      "commonProblemsVi": [
+        "Bỏ ăn do stress ánh sáng mạnh hoặc thiếu lá khô che phủ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Sừng Surinam (Ceratophrys cornuta) CB",
+        "priceVnd": 2800000,
+        "descriptionVi": "Ếch sừng Surinam cặp sừng mắt dài sắc nét, đã thuần ăn từ nhíp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ceratophrys (pacman frog) cornuta ojo detalles.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_(pacman_frog)_cornuta_ojo_detalles.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ceratophrys_%28pacman_frog%29_cornuta_ojo_detalles.jpg",
+        "width": 5491,
+        "height": 3303,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MauMirror",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ceratophrys cornuta - frog - 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_cornuta_-_frog_-_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ceratophrys_cornuta_-_frog_-_4.jpg",
+        "width": 2367,
+        "height": 2404,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maarten Sepp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2009 frog in Shanghai.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2009_frog_in_Shanghai.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/2009_frog_in_Shanghai.JPG",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "J. Patrick Fischer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ceratophrys cornuta Taricaya.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_cornuta_Taricaya.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ceratophrys_cornuta_Taricaya.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MauMirror",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ceratophrys cornuta vert.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceratophrys_cornuta_vert.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ceratophrys_cornuta_vert.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Arnaud Aury",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2424456",
+      "https://www.iucnredlist.org/species/56337/85857103",
+      "https://en.wikipedia.org/wiki/Surinam_horned_frog",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_s%E1%BB%ABng_Surinam"
+    ]
+  },
+  {
+    "scientificName": "Lepidobatrachus laevis",
+    "commonNameVi": "Ếch Miệng Rộng Budgett",
+    "commonNameEn": "Budgett's Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Ceratophryidae",
+      "genus": "Lepidobatrachus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch sừng Nam Mỹ (Ceratophryidae)",
+      "genus": "Chi Ếch miệng rộng Budgett (Lepidobatrachus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/57111/101428487",
+    "gbifKey": 2424550,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": 6.5,
+      "phMax": 7.5,
+      "habitatVi": "Ao đầm và vũng bùn nước mưa theo mùa vùng Gran Chaco"
+    },
+    "descriptionVi": "Loài ếch nước vùng Gran Chaco có ngoại hình kỳ thú với cơ thể dẹt tròn như chiếc bánh, đôi mắt nằm hẳn lên đỉnh đầu và cái miệng rộng chiếm gần hết bề ngang thân.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố tại vùng Chaco của Paraguay, Argentina và Bolivia và đã được nhân giống phổ biến trong nuôi nhốt.",
+    "pullQuoteVi": "Với thân hình dẹt tròn và đôi mắt lồi trên đỉnh đầu, ếch Budgett trông như một sinh vật bước ra từ truyện tranh hoạt hình.",
+    "dietVi": "Ăn cá nhỏ, giun đất, côn trùng nước, ốc và lưỡng cư khác",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Lưu vực sông Paraguay",
+      "lat": -25.26,
+      "lng": -57.58
+    },
+    "regionVi": "Khu vực đồng bằng Gran Chaco thuộc Paraguay, bắc Argentina và đông nam Bolivia",
+    "otherNamesVi": [
+      "Ếch hà mã",
+      "Ếch Freddy Krueger"
+    ],
+    "synonyms": [
+      "Ceratophrys laevis"
+    ],
+    "wikidataId": "Q2419353",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lepidobatrachus_laevis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lepidobatrachus_laevis",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 13,
+      "weightGMin": 80,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 10–13 cm, lớn hơn con đực (7,5–9 cm); con đực trưởng thành có cổ họng màu xám đen."
+    },
+    "distribution": {
+      "countries": [
+        "PY",
+        "AR",
+        "BO"
+      ],
+      "nativeRangeVi": "Vùng Gran Chaco ở Nam Mỹ",
+      "elevationM": {
+        "min": 50,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": [
+      "Ao đầm và vũng bùn nước mưa theo mùa vùng Gran Chaco",
+      "Đầm nước nông có nền bùn sét mềm"
+    ],
+    "identificationVi": "Cơ thể dẹt bè, bốn chân rất ngắn với bàn chân sau có màng bơi rộng và mấu đào đất màu đen. Đầu to dẹt, hai mắt và lỗ mũi nằm cao trên đỉnh đầu để rình mồi sát mặt nước. Da lưng màu xám ô-liu hoặc xanh xám điểm các vệt cam nhạt và đường bên rõ.",
+    "behaviorVi": "Sống hầu như hoàn toàn dưới làn nước nông; khi bị đe dọa trên cạn sẽ phồng căng người, đứng cao trên bốn chân, há to miệng và phát ra tiếng hét chói tai.",
+    "reproductionVi": "Đẻ hơn 1.000 trứng trong các vũng nước mùa mưa; nòng nọc phát triển cực nhanh và biến thái thành ếch con chỉ sau 3–4 tuần.",
+    "threatsVi": [
+      "Biến đổi chế độ thủy văn các đầm nước mùa tại vùng Chaco"
+    ],
+    "funFactsVi": [
+      "Nòng nọc của ếch Budgett không ăn tảo mà có chiếc miệng rộng nuốt sống các con mồi nguyên con ngay từ khi mới nở.",
+      "Chúng cũng tạo lớp kén bằng da khô để ngủ hè dưới bùn suốt mùa khô khắc nghiệt ở Chaco."
+    ],
+    "similarSpecies": [
+      "Ceratophrys cranwelli"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Hồ nước nông sâu 8–12 cm (ngập vừa tới mũi khi ếch chống chân) không trải sỏi nhỏ để tránh nuốt nhầm.",
+      "lightingVi": "Đèn LED dịu 10 giờ/ngày",
+      "feedingVi": "Giun đất, dế, gián Dubia, tôm tép bóc vỏ và cá nhỏ rắc canxi",
+      "socialVi": "Bắt buộc nuôi đơn độc mỗi cá thể một bể",
+      "commonProblemsVi": [
+        "Phù nước (Bloat) nếu nước bẩn",
+        "Chấn thương mõm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; lưu hành rộng rãi nguồn CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Miệng Rộng Budgett (Lepidobatrachus laevis) CB",
+        "priceVnd": 750000,
+        "descriptionVi": "Ếch Budgett CB ngộ nghĩnh, ăn giun và dế từ nhíp rất nhạy."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Young Budgett's frog-IMG20250716082647.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Young_Budgett%27s_frog-IMG20250716082647.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Young_Budgett%27s_frog-IMG20250716082647.jpg",
+        "width": 4105,
+        "height": 3268,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Young Budgett's frog-IMG20250716082802.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Young_Budgett%27s_frog-IMG20250716082802.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Young_Budgett%27s_frog-IMG20250716082802.jpg",
+        "width": 3468,
+        "height": 4624,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lepidobatrachus laevis-20260816200803.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lepidobatrachus_laevis-20260816200803.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lepidobatrachus_laevis-20260816200803.jpg",
+        "width": 3803,
+        "height": 2608,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Serpentarium Blankenberge Lepidobatrachus laevis 30042015 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Serpentarium_Blankenberge_Lepidobatrachus_laevis_30042015_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Serpentarium_Blankenberge_Lepidobatrachus_laevis_30042015_1.jpg",
+        "width": 3322,
+        "height": 2396,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Vassil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Young Budgett's frog-20250716082636.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Young_Budgett%27s_frog-20250716082636.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Young_Budgett%27s_frog-20250716082636.jpg",
+        "width": 2869,
+        "height": 2489,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "メルビル",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2424550",
+      "https://www.iucnredlist.org/species/57111/101428487",
+      "https://en.wikipedia.org/wiki/Lepidobatrachus_laevis",
+      "https://vi.wikipedia.org/wiki/Lepidobatrachus_laevis"
+    ]
+  },
+  {
+    "scientificName": "Pyxicephalus adspersus",
+    "commonNameVi": "Ếch Yêu Tinh Châu Phi",
+    "commonNameEn": "African Bullfrog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Pyxicephalidae",
+      "genus": "Pyxicephalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch yêu tinh (Pyxicephalidae)",
+      "genus": "Chi Ếch yêu tinh châu Phi (Pyxicephalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/58535/3070700",
+    "gbifKey": 2429965,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên savan khô hạn và vùng cây bụi gai"
+    },
+    "descriptionVi": "Một trong những loài ếch lớn nhất thế giới với cơ thể đồ sộ nặng tới hơn 1 kg, lưng xanh ô-liu có các gờ da dọc và cặp mấu xương hàm dưới sắc khỏe như răng nanh.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) trên toàn vùng hạ Sahara nhưng một số quần thể địa phương giảm nhẹ do săn bắt làm thực phẩm.",
+    "pullQuoteVi": "Khác hẳn đa số loài lưỡng cư bỏ mặc trứng, ếch yêu tinh đực canh gác đàn nòng nọc và tự dùng chân đào rãnh dẫn nước cứu con khỏi vũng cạn.",
+    "dietVi": "Ăn côn trùng lớn, cua, cá, lưỡng cư khác, bò sát nhỏ và động vật gặm nhấm",
+    "lifespanVi": "15–25 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Tây Cape, Nam Phi",
+      "lat": -33.92,
+      "lng": 18.42
+    },
+    "regionVi": "Thảo nguyên khô và bán hoang mạc vùng Đông và Nam châu Phi (từ Kenya, Tanzania tới Nam Phi và Namibia)",
+    "otherNamesVi": [
+      "Ếch bò châu Phi khổng lồ",
+      "Ếch Pixie"
+    ],
+    "synonyms": [
+      "Bombinator adspersus",
+      "Pyxicephalus adspersus adspersus",
+      "Rana adspersa adspersa",
+      "Rana adspersus"
+    ],
+    "wikidataId": "Q387319",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_y%C3%AAu_tinh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/African_bullfrog",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 24,
+      "weightGMin": 600,
+      "weightGMax": 1400,
+      "heightCmMax": null,
+      "noteVi": "Một trong số ít loài ếch mà con đực (18–24 cm) to gần gấp đôi con cái (11–14 cm) và có nách cùng họng màu vàng cam đậm."
+    },
+    "distribution": {
+      "countries": [
+        "ZA",
+        "NA",
+        "BW",
+        "ZW",
+        "ZM",
+        "MZ",
+        "MW",
+        "TZ",
+        "KE",
+        "AO"
+      ],
+      "nativeRangeVi": "Miền Đông và miền Nam châu Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên savan khô hạn và vùng cây bụi gai",
+      "Các đầm lầy và hồ nước mưa tạm thời (pans)"
+    ],
+    "identificationVi": "Thân hình cực kỳ to bè, da lưng màu xanh ô-liu sẫm có nhiều nếp gờ da đứt đoạn chạy dọc từ sau mắt xuống lưng. Bụng màu trắng vàng, vùng nách và cổ họng con đực màu vàng cam tươi. Hàm dưới có hai mấu xương nhọn lớn (odontoids) nhô lên như hai chiếc răng nanh.",
+    "behaviorVi": "Dành tới 9–10 tháng mùa khô ngủ hè sâu dưới lòng đất trong kén da khô; mùa mưa trỗi dậy cạnh tranh lãnh thổ quyết liệt.",
+    "reproductionVi": "Con cái đẻ 3.000–4.000 trứng ở vùng nước nông; con đực ở lại bảo vệ đàn nòng nọc trước chim nước và đào kênh dẫn nòng nọc sang vũng nước sâu hơn khi nắng hạn.",
+    "threatsVi": [
+      "Mất các đầm nước mưa tự nhiên và săn bắt cá thể trưởng thành"
+    ],
+    "funFactsVi": [
+      "Trong điều kiện nuôi nhốt tốt, loài ếch khổng lồ này có thể sống thọ trên 25 năm, thuộc nhóm lưỡng cư sống lâu nhất.",
+      "Khi bảo vệ đàn nòng nọc, con đực dũng cảm lao tới táp bất kỳ sinh vật nào bước vào vũng nước, kể cả sư tử hay con người."
+    ],
+    "similarSpecies": [
+      "Pyxicephalus edulis"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 120 lít. Giá thể: Chia 50% mùn dừa dày 10 cm và 50% khay nước rộng sâu 8–10 cm.",
+      "lightingVi": "Đèn chiếu sáng kết hợp sưởi nhẹ một góc chuồng",
+      "feedingVi": "Gián Dubia lớn, dế, giun đất lớn, cá chạch/cá nhỏ rắc canxi",
+      "socialVi": "Nuôi đơn độc tuyệt đối",
+      "commonProblemsVi": [
+        "Béo phì và gan nhiễm mỡ nếu cho ăn chuột quá thường xuyên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; lưu hành con giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Yêu Tinh Khổng Lồ (Pyxicephalus adspersus) CB",
+        "priceVnd": 1100000,
+        "descriptionVi": "Ếch Pixie khổng lồ dòng Giant CB, phàm ăn và lớn rất nhanh."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rana toro africana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rana_toro_africana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Rana_toro_africana.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ehécatl Cabrera",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20251212 Pyxicephalus adspersus (68956).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20251212_Pyxicephalus_adspersus_(68956).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/20251212_Pyxicephalus_adspersus_%2868956%29.jpg",
+        "width": 2252,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Sergey A. Demidov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African Bullfrog, America's Teaching Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Bullfrog,_America%27s_Teaching_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/African_Bullfrog%2C_America%27s_Teaching_Zoo.jpg",
+        "width": 4160,
+        "height": 3118,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Holly Cheng",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pyxicephalus adspergus 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyxicephalus_adspergus_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pyxicephalus_adspergus_2.JPG",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Jean Marcotte",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pyxicephalus adspersus, Poznań Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyxicephalus_adspersus,_Pozna%C5%84_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pyxicephalus_adspersus%2C_Pozna%C5%84_Zoo.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mateusz Giełczyński",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429965",
+      "https://www.iucnredlist.org/species/58535/3070700",
+      "https://en.wikipedia.org/wiki/African_bullfrog",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_y%C3%AAu_tinh"
+    ]
+  },
+  {
+    "scientificName": "Pyxicephalus edulis",
+    "commonNameVi": "Ếch Yêu Tinh Nhỏ",
+    "commonNameEn": "Lesser Bull-frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Pyxicephalidae",
+      "genus": "Pyxicephalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch yêu tinh (Pyxicephalidae)",
+      "genus": "Chi Ếch yêu tinh châu Phi (Pyxicephalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/76317591/87648183",
+    "gbifKey": 2429964,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": 23,
+      "waterTempMax": 27,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan ngập nước theo mùa"
+    },
+    "descriptionVi": "Họ hàng kích thước vừa của ếch yêu tinh khổng lồ, phân bố rộng ở thảo nguyên châu Phi với đường sọc sáng dọc sống lưng và vệt trắng rõ trên màng nhĩ.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), có phạm vi phân bố rộng khắp khu vực Tây, Đông và Nam châu Phi.",
+    "pullQuoteVi": "Phiên bản gọn gàng hơn của ếch yêu tinh châu Phi, thích hợp cho những hồ bán cạn savan cỡ vừa.",
+    "dietVi": "Ăn cào cào, dế, mối cánh, bọ cánh cứng, giun đất và ếch nhỏ",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Châu thổ sông Niger, Nigeria",
+      "lat": 5.52,
+      "lng": 5.75
+    },
+    "regionVi": "Vùng thảo nguyên châu Phi từ Nigeria, Cameroon sang Kenya, Tanzania tới Mozambique và bắc Nam Phi",
+    "otherNamesVi": [
+      "Ếch bò châu Phi nhỏ",
+      "Ếch Pixie lùn"
+    ],
+    "synonyms": [
+      "Maltzania bufonia",
+      "Phrynopsis boulengerii",
+      "Phrynopsis usambarae",
+      "Pyxicephalus adspersus edulis"
+    ],
+    "wikidataId": "Q2696978",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pyxicephalus_edulis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Edible_bullfrog",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 8,
+      "lengthCmMax": 13,
+      "weightGMin": 80,
+      "weightGMax": 250,
+      "heightCmMax": null,
+      "noteVi": "Con đực đạt 10–13 cm, lớn hơn con cái (8–10 cm) và có cổ họng vàng tươi mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "NG",
+        "CM",
+        "KE",
+        "TZ",
+        "ZM",
+        "ZW",
+        "MZ",
+        "BW",
+        "ZA"
+      ],
+      "nativeRangeVi": "Các vùng savan hạ Sahara từ Tây sang Đông và Nam Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cỏ savan ngập nước theo mùa",
+      "Đầm lầy cạn và ruộng trũng mùa mưa"
+    ],
+    "identificationVi": "Kích thước trung bình (8–13 cm), nhỏ gọn hơn P. adspersus. Lưng xanh lục hoặc xanh nâu có các gờ da dọc, thường có đường sọc vàng nhạt chạy dọc chính giữa sống lưng. Có đốm sáng màu trắng hoặc kem nằm ngay trên màng nhĩ và vệt sọc ngang hàm trên.",
+    "behaviorVi": "Đào hang bằng gờ cứng ở chân sau để ngủ hè dưới đất khô và trỗi dậy hàng loạt ngay sau cơn mưa lớn đầu mùa.",
+    "reproductionVi": "Con đực tập trung thành từng đàn kêu gọi bạn tình ở các vũng nước mưa nông và canh giữ đàn nòng nọc.",
+    "threatsVi": [
+      "Thu bắt ngoài tự nhiên cục bộ vào mùa mưa"
+    ],
+    "funFactsVi": [
+      "Nhờ kích thước chỉ bằng một nửa loài ếch yêu tinh khổng lồ, chúng thường được người chơi lựa chọn cho các bể bán cạn diện tích vừa.",
+      "Nòng nọc bơi tụ thành từng đàn cầu đen đặc hàng nghìn con để giảm nguy cơ bị chim và côn trùng nước săn bắt."
+    ],
+    "similarSpecies": [
+      "Pyxicephalus adspersus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Mùn dừa ẩm sâu 8 cm kết hợp khay nước rộng.",
+      "lightingVi": "Đèn chiếu sáng ngày đêm 12 giờ",
+      "feedingVi": "Dế, gián Dubia, giun đất rắc canxi và vitamin",
+      "socialVi": "Nuôi đơn độc",
+      "commonProblemsVi": [
+        "Tắc ruột nếu nuốt sỏi nền"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Yêu Tinh Nhỏ (Pyxicephalus edulis) CB",
+        "priceVnd": 780000,
+        "descriptionVi": "Ếch Pixie lùn lưng xanh sọc vàng sáng, rất khỏe và háu ăn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pyxicephalus edulis autour du complexe Pendjari.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyxicephalus_edulis_autour_du_complexe_Pendjari.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pyxicephalus_edulis_autour_du_complexe_Pendjari.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Farid AMADOU BAHLEMAN",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pyxicephalus edulis 241933685.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyxicephalus_edulis_241933685.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pyxicephalus_edulis_241933685.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "rcoliveira84",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African Bullfrog (Pyxicephalus edulis) juvenile (12618902215).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Bullfrog_(Pyxicephalus_edulis)_juvenile_(12618902215).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/African_Bullfrog_%28Pyxicephalus_edulis%29_juvenile_%2812618902215%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African Bullfrogs (Pyxicephalus edulis) (6045360718).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Bullfrogs_(Pyxicephalus_edulis)_(6045360718).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/African_Bullfrogs_%28Pyxicephalus_edulis%29_%286045360718%29.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429964",
+      "https://www.iucnredlist.org/species/76317591/87648183",
+      "https://en.wikipedia.org/wiki/Edible_bullfrog",
+      "https://vi.wikipedia.org/wiki/Pyxicephalus_edulis"
+    ]
+  },
+  {
+    "scientificName": "Ambystoma mavortium",
+    "commonNameVi": "Kỳ Giông Hổ Miền Tây",
+    "commonNameEn": "Western Tiger Salamander",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Ambystomatidae",
+      "genus": "Ambystoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông chuột chũi (Ambystomatidae)",
+      "genus": "Chi Kỳ giông đốm (Ambystoma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/199970/196342549",
+    "gbifKey": 2431978,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ thảo nguyên, rừng thông thưa và bán hoang mạc gần ao hồ"
+    },
+    "descriptionVi": "Loài kỳ giông cạn cỡ lớn của miền Tây Bắc Mỹ với thân hình vạm vỡ, da đen bóng điểm các dải vằn hoặc mảng đốm lớn màu vàng tươi và xanh ô-liu.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố rộng từ tây nam Canada qua các bang miền Tây Hoa Kỳ tới bắc Mexico.",
+    "pullQuoteVi": "Những dải vằn vàng đen mạnh mẽ trên thân giúp kỳ giông hổ miền Tây mang vẻ đẹp hoang dã của những cánh đồng cỏ Bắc Mỹ.",
+    "dietVi": "Ăn giun đất, sên trần, dế, bọ cánh cứng và ấu trùng côn trùng",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Canada",
+      "lat": 45.5,
+      "lng": -73.56
+    },
+    "regionVi": "Miền Tây và Trung Bắc Mỹ (tây nam Canada, miền Tây Hoa Kỳ tới bắc Mexico)",
+    "otherNamesVi": [
+      "Kỳ giông hổ sọc"
+    ],
+    "synonyms": [
+      "Amblystoma mavortium",
+      "Amblystoma prosperpine",
+      "Amblystoma trisruptum",
+      "Ambystoma mavortium diaboli"
+    ],
+    "wikidataId": "Q2615538",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Barred_tiger_salamander",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 28,
+      "weightGMin": 50,
+      "weightGMax": 130,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đuôi dài và dẹt bên hơn, vùng huyệt phồng lớn vào mùa sinh sản."
+    },
+    "distribution": {
+      "countries": [
+        "CA",
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ các tỉnh miền tây Canada qua vùng Đại Bình Nguyên và miền Tây Hoa Kỳ tới bắc Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 3300
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ thảo nguyên, rừng thông thưa và bán hoang mạc gần ao hồ",
+      "Ao hồ không có cá ăn thịt dùng làm nơi sinh sản mùa xuân"
+    ],
+    "identificationVi": "Thân mập khỏe với các rãnh sườn rõ dọc hai bên hông, đầu tròn rộng và mắt nhỏ. Nền da đen hoặc nâu đen với các vạch ngang hoặc mảng lớn màu vàng kem tới xanh ô-liu. Một số quần thể vùng núi cao duy trì trạng thái ấu trùng có mang ngoài (neoteny) suốt đời dưới hồ.",
+    "behaviorVi": "Sống đào hang sâu dưới lòng đất hoặc tận dụng hang của chuột đồng để tránh nắng nóng và khô hạn, chỉ lên mặt đất kiếm ăn vào đêm mưa.",
+    "reproductionVi": "Di cư ra các ao hồ nước lạnh vào đầu mùa xuân; con cái đẻ từng cụm trứng bám vào cành cây chìm và cỏ nước.",
+    "threatsVi": [
+      "Thả cá ngoại lai vào các hồ sinh sản và mất đất ngập nước"
+    ],
+    "funFactsVi": [
+      "Tương tự kỳ giông Mexico (Axolotl), một số quần thể kỳ giông hổ miền Tây ở các hồ núi cao lạnh giá không biến thái lên cạn mà sinh sản ngay ở dạng có mang ngoài.",
+      "Là loài lưỡng cư biểu tượng chính thức của bang Kansas và bang Colorado (Hoa Kỳ)."
+    ],
+    "similarSpecies": [
+      "Ambystoma tigrinum"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Đất rừng sinh học trộn mùn dừa ẩm dày 10–15 cm để kỳ giông đào hang, kèm đĩa nước nông.",
+      "lightingVi": "Ánh sáng dịu nhẹ, tránh đèn tỏa nhiệt nóng",
+      "feedingVi": "Giun đất, gián Dubia, dế rắc canxi",
+      "socialVi": "Có thể nuôi đơn hoặc cặp cùng kích cỡ trong chuồng rộng nhiều hang trú",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ chuồng vượt 24°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Kỳ Giông Hổ Miền Tây (Ambystoma mavortium) CB",
+        "priceVnd": 1850000,
+        "descriptionVi": "Kỳ giông hổ vằn vàng đen khỏe mạnh, đã lên cạn hoàn chỉnh, ăn giun đất và dế từ nhíp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ambystoma mavortium 105594174.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_mavortium_105594174.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ambystoma_mavortium_105594174.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Daniel Levitis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ambystoma mavortium 105953585.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_mavortium_105953585.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ambystoma_mavortium_105953585.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Nick Loveland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ambystoma mavortium 105594176.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_mavortium_105594176.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ambystoma_mavortium_105594176.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Daniel Levitis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ambystoma mavortium 105594180.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_mavortium_105594180.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ambystoma_mavortium_105594180.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Daniel Levitis",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431978",
+      "https://www.iucnredlist.org/species/199970/196342549",
+      "https://en.wikipedia.org/wiki/Barred_tiger_salamander"
+    ]
+  },
+  {
+    "scientificName": "Ambystoma tigrinum",
+    "commonNameVi": "Kỳ Giông Hổ Miền Đông",
+    "commonNameEn": "Eastern Tiger Salamander",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Ambystomatidae",
+      "genus": "Ambystoma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có đuôi (Caudata)",
+      "family": "Họ Kỳ giông chuột chũi (Ambystomatidae)",
+      "genus": "Chi Kỳ giông đốm (Ambystoma)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/83293207/196342827",
+    "gbifKey": 2431993,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 22,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng và rừng thông có nền đất tơi xốp dễ đào hang"
+    },
+    "descriptionVi": "Loài kỳ giông cạn lớn nhất miền Đông Bắc Mỹ với thân hình chắc khỏe, da bóng màu nâu đen điểm nhiều đốm vàng ô-liu tròn bất đối xứng khắp lưng và đuôi.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) trên toàn vùng phân bố rộng ở miền Đông và Trung Tây Hoa Kỳ.",
+    "pullQuoteVi": "Kỳ giông cạn lớn nhất Bắc Mỹ có thể sống ẩn mình dưới lòng đất hàng tháng trời và có tuổi thọ lên tới hai thập kỷ.",
+    "dietVi": "Ăn giun đất, côn trùng, ốc sên, nhện và các loài lưỡng cư nhỏ",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Miền Đông và vùng Trung Tây Hoa Kỳ tới đông nam Canada",
+    "otherNamesVi": [
+      "Kỳ giông hổ phương Đông"
+    ],
+    "synonyms": [
+      "Ambistoma tigrinum",
+      "Amblystoma bicolor",
+      "Amblystoma copeianum",
+      "Amblystoma obscurum"
+    ],
+    "wikidataId": "Q113224",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/K%E1%BB%B3_gi%C3%B4ng_h%E1%BB%95",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tiger_salamander",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 17,
+      "lengthCmMax": 30,
+      "weightGMin": 60,
+      "weightGMax": 140,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đuôi dài hơn thân và dẹt bên rõ vào mùa sinh sản; con cái bụng tròn đầy hơn."
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Miền Đông và Trung Tây Hoa Kỳ từ đồng bằng ven Đại Tây Dương tới vùng Ngũ Hồ",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng lá rộng và rừng thông có nền đất tơi xốp dễ đào hang",
+      "Ao rừng theo mùa (vernal pools) không có cá lớn"
+    ],
+    "identificationVi": "Đầu to bè với mõm tròn, mắt nhỏ màu vàng sẫm và 12–13 rãnh sườn rõ nét. Lưng màu đen xám hoặc nâu sẫm điểm các đốm tròn hoặc bầu dục màu vàng nâu tới vàng ô-liu. Bụng màu vàng ô-liu pha các mảng đen loang lổ.",
+    "behaviorVi": "Tự đào hang sâu tới 50–60 cm dưới đất mềm; rất dạn dĩ trong điều kiện nuôi nhốt và nhanh chóng nhận ra người cho ăn.",
+    "reproductionVi": "Mùa đông cuối hoặc đầu xuân di cư trong đêm mưa tới các ao rừng để giao phối qua túi tinh (spermatophore) và đẻ trứng.",
+    "threatsVi": [
+      "Mất các ao rừng theo mùa và đường giao thông cắt ngang tuyến di cư mùa xuân"
+    ],
+    "funFactsVi": [
+      "Ấu trùng kỳ giông hổ mới nở có mang ngoài giống hệt loài họ hàng Axolotl trước khi tiêu giảm mang và bước lên cạn.",
+      "Chúng có khả năng tái tạo các ngón chân và phần chóp đuôi bị tổn thương."
+    ],
+    "similarSpecies": [
+      "Ambystoma mavortium"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Hỗn hợp đất sinh học và mùn dừa ẩm dày 12 cm phủ rêu và vỏ cây bần.",
+      "lightingVi": "Ánh sáng dịu, giữ chuồng mát mẻ",
+      "feedingVi": "Giun đất, dế, gián Dubia rắc canxi",
+      "socialVi": "Nuôi đơn hoặc cặp tương đồng kích thước",
+      "commonProblemsVi": [
+        "Nhiễm nấm da nếu nhiệt độ cao và nền bẩn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Kỳ Giông Hổ Miền Đông (Ambystoma tigrinum) CB",
+        "priceVnd": 1900000,
+        "descriptionVi": "Kỳ giông hổ đốm vàng khỏe mạnh, rất dạn người và dễ cho ăn bằng nhíp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ambystoma tigrinum 103483850.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_tigrinum_103483850.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ambystoma_tigrinum_103483850.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kyle Rossner",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ambystoma tigrinum 100666280.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_tigrinum_100666280.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ambystoma_tigrinum_100666280.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "winterfamily",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ambystoma tigrinum 100136053.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambystoma_tigrinum_100136053.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ambystoma_tigrinum_100136053.jpg",
+        "width": 2048,
+        "height": 1424,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Eug 302",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A tiger salamander swims just below the surface of the pool seen from the Inscription Trail. Neoteny is a condition where adults (b6aa331a-4c2e-457a-aeac-97f7987072de).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_tiger_salamander_swims_just_below_the_surface_of_the_pool_seen_from_the_Inscription_Trail._Neoteny_is_a_condition_where_adults_(b6aa331a-4c2e-457a-aeac-97f7987072de).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/A_tiger_salamander_swims_just_below_the_surface_of_the_pool_seen_from_the_Inscription_Trail._Neoteny_is_a_condition_where_adults_%28b6aa331a-4c2e-457a-aeac-97f7987072de%29.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS Photo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tiger Salamander (Ambystoma tigrinum).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiger_Salamander_(Ambystoma_tigrinum).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Tiger_Salamander_%28Ambystoma_tigrinum%29.jpg",
+        "width": 4450,
+        "height": 2708,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS Mountain Prairie",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2431993",
+      "https://www.iucnredlist.org/species/83293207/196342827",
+      "https://en.wikipedia.org/wiki/Tiger_salamander",
+      "https://vi.wikipedia.org/wiki/K%E1%BB%B3_gi%C3%B4ng_h%E1%BB%95"
+    ]
+  }
+]

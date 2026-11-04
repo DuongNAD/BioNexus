@@ -12,11 +12,11 @@ export interface TaxonomicRankStep {
 
 export const TAXONOMIC_RANKS: TaxonomicRankStep[] = [
   { level: 0, rankEn: 'Kingdom', rankVi: 'Giới', name: 'Animalia · Plantae', desc: 'Giới Động vật và Giới Thực vật, hai gốc của cây phân loại BioNexus' },
-  { level: 1, rankEn: 'Phylum', rankVi: 'Ngành', name: 'Chordata · Tracheophyta', desc: 'Ngành Dây sống và Ngành Thực vật có mạch' },
-  { level: 2, rankEn: 'Class', rankVi: 'Lớp', name: 'Reptilia · Amphibia · Magnoliopsida', desc: 'Lớp Bò sát, Lớp Lưỡng cư và Lớp Hai lá mầm' },
-  { level: 3, rankEn: 'Order', rankVi: 'Bộ', name: 'Squamata · Testudines · Caudata · Caryophyllales', desc: 'Bộ Có vảy, Bộ Rùa, Bộ Có đuôi và Bộ Cẩm chướng' },
-  { level: 4, rankEn: 'Family', rankVi: 'Họ', name: 'Pythonidae · Agamidae · Nepenthaceae…', desc: '7 họ: Trăn, Nhông, Eublepharidae, Rùa núi, Ambystomatidae, Nắp ấm, Gọng vó' },
-  { level: 5, rankEn: 'Genus', rankVi: 'Chi', name: 'Python · Pogona · Ambystoma · Nepenthes…', desc: '7 chi chứa 9 loài sinh vật cảnh của BioNexus' },
+  { level: 1, rankEn: 'Phylum', rankVi: 'Ngành', name: 'Chordata · Arthropoda · Mollusca · Tracheophyta', desc: 'Ngành Dây sống, Chân khớp, Thân mềm và Thực vật có mạch' },
+  { level: 2, rankEn: 'Class', rankVi: 'Lớp', name: 'Reptilia · Aves · Actinopterygii · Magnoliopsida…', desc: 'Từ bò sát, chim, cá vây tia tới thực vật hai lá mầm' },
+  { level: 3, rankEn: 'Order', rankVi: 'Bộ', name: 'Squamata · Testudines · Anura · Caryophyllales…', desc: 'Gần 50 bộ, mỗi bộ gom các họ có chung tổ tiên' },
+  { level: 4, rankEn: 'Family', rankVi: 'Họ', name: 'Pythonidae · Agamidae · Nepenthaceae · Orchidaceae…', desc: 'Hơn 100 họ, từ Trăn, Nhông tới Nắp ấm và Lan' },
+  { level: 5, rankEn: 'Genus', rankVi: 'Chi', name: 'Python · Pogona · Ambystoma · Nepenthes…', desc: 'Hơn 300 chi chứa hơn 600 loài trong bách khoa BioNexus' },
 ];
 
 /** Chuỗi xoắn có nhiều bậc thang hơn số cấp: chia đều các bậc thang cho 6 cấp từ trên xuống */

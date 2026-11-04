@@ -1,19 +1,19 @@
 import React, { useState, useRef, useMemo, useEffect } from 'react';
 import { Link } from 'react-router';
 import { ChevronLeft, ChevronRight, ExternalLink, ShoppingBag, Thermometer } from 'lucide-react';
-import type { TaxonomyNodeDto, SpeciesDto } from '@/types/api';
+import type { TaxonomyNodeDto } from '@/types/api';
 import { SceneShell } from '@/components/3d/SceneShell';
 import { Canvas } from '@react-three/fiber';
 import { HelixScene, HELIX_LEVELS } from '@/components/3d/HelixScene';
 import { useQuality } from '@/components/3d/QualityProvider';
 import { IucnBadge } from '@/components/ui/IucnBadge';
-import { extractNames, SPECIES_EXTRAS } from '@/api/adapters';
+import { extractNames, SPECIES_EXTRAS, PRODUCT_PLACEHOLDER_IMAGE, type SpeciesViewModel } from '@/api/adapters';
 import { parseEnvironmentSpecs } from '@/lib/parseEnvironmentSpecs';
 import { cn } from '@/lib/cn';
 
 export interface TaxonomyHelixViewProps {
   activeNode: TaxonomyNodeDto;
-  branchSpecies: SpeciesDto[];
+  branchSpecies: SpeciesViewModel[];
   productCounts?: Record<number, number>;
   className?: string;
 }
@@ -121,9 +121,9 @@ export const TaxonomyHelixView: React.FC<TaxonomyHelixViewProps> = ({
           </div>
 
           <div className="mt-3 flex items-center gap-3">
-            {currentExtra && (
+            {currentSpecies.cardPhoto !== PRODUCT_PLACEHOLDER_IMAGE && (
               <img
-                src={`photos/${currentExtra.slug}/hero-960.webp`}
+                src={currentExtra ? `photos/${currentExtra.slug}/hero-960.webp` : currentSpecies.cardPhoto}
                 alt={currentNames.displayName}
                 className="size-14 shrink-0 rounded-xl border border-white/15 object-cover"
               />
@@ -131,8 +131,8 @@ export const TaxonomyHelixView: React.FC<TaxonomyHelixViewProps> = ({
             <div className="min-w-0 flex-1">
               <h4 className="truncate text-base font-semibold text-white">{currentNames.displayName}</h4>
               <p className="truncate font-serif text-sm text-accent-2 italic">{currentSpecies.scientificName}</p>
-              {currentExtra?.origin?.place && (
-                <p className="mt-0.5 truncate text-xs text-white/70">{currentExtra.origin.place}</p>
+              {(currentExtra?.origin?.place || (currentSpecies.isCatalog && currentSpecies.origin.place)) && (
+                <p className="mt-0.5 truncate text-xs text-white/70">{currentExtra?.origin?.place ?? currentSpecies.origin.place}</p>
               )}
             </div>
           </div>

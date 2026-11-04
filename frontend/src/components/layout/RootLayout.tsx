@@ -41,9 +41,13 @@ const NAV_ITEMS = [
   { label: 'Trang chủ', path: '/' },
   { label: 'Cây phân loại', path: '/taxonomy' },
   { label: 'Bách khoa loài', path: '/species' },
-  { label: 'Sàn sinh vật cảnh', path: '/products' },
+  // Chữ "Mua sắm" để người dùng nhận ra ngay đây là sàn; tiêu đề trang vẫn là Sàn sinh vật cảnh
+  { label: 'Mua sắm', path: '/products' },
   { label: 'Hành trình 9 loài', path: '/tham-hiem' },
 ];
+
+// Chỉ tài khoản người mua mới có đơn hàng nên mục Giao dịch chỉ hiện khi đăng nhập USER
+const TRANSACTIONS_ITEM = { label: 'Giao dịch', path: '/orders' };
 
 // Trang con (/species/5, /taxonomy/3) vẫn sáng mục cha
 function isNavActive(pathname: string, path: string): boolean {
@@ -56,6 +60,8 @@ export function RootLayout(): React.JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const authState = useAuthState();
   const isAdmin = authState.accountType === 'ADMIN';
+  const navItems =
+    authState.accountType === 'USER' ? [...NAV_ITEMS.slice(0, 4), TRANSACTIONS_ITEM, ...NAV_ITEMS.slice(4)] : NAV_ITEMS;
 
   // Admin không có giỏ hàng (tài liệu 03 mục 1): useCart tự tắt với tài khoản không phải USER
   const { data: cart } = useCart();
@@ -130,7 +136,7 @@ export function RootLayout(): React.JSX.Element {
               vào bundle đầu và làm vượt ngân sách 180 KB của check:budget */}
           <nav aria-label="Điều hướng chính" className="hidden lg:block">
             <ul className="flex items-center gap-0.5 rounded-full border border-line bg-black/35 p-1 text-sm font-medium backdrop-blur-xl">
-              {NAV_ITEMS.map((item) => {
+              {navItems.map((item) => {
                 const isActive = isNavActive(location.pathname, item.path);
                 return (
                   <li key={item.path}>
@@ -215,7 +221,7 @@ export function RootLayout(): React.JSX.Element {
             className="border-t border-line bg-bg-raised/95 px-4 pb-4 pt-2 backdrop-blur-2xl lg:hidden"
           >
             <ul className="flex flex-col gap-1 text-sm font-medium">
-              {NAV_ITEMS.map((item) => {
+              {navItems.map((item) => {
                 const isActive = isNavActive(location.pathname, item.path);
                 return (
                   <li key={item.path}>

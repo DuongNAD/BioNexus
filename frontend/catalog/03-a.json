@@ -1,0 +1,3770 @@
+[
+  {
+    "scientificName": "Centrochelys sulcata",
+    "commonNameVi": "Rùa Châu Phi Sulcata",
+    "commonNameEn": "African Spurred Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Centrochelys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Centrochelys"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/163423/1006958",
+    "gbifKey": 2441533,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 33,
+      "baskMin": 35,
+      "baskMax": 40,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ khô, savan cây bụi gai và rìa nam sa mạc Sahara (vùng Sahel)"
+    },
+    "descriptionVi": "Loài rùa cạn sống trên đất liền lớn nhất lục địa châu Phi và lớn thứ ba thế giới, nổi bật với bộ mai vàng nâu vạm vỡ và những chiếc vảy gai lớn như cựa trên hai đùi sau.",
+    "conservationNoteVi": "Quần thể hoang dã tại vùng Sahel bị suy giảm mạnh do mất sinh cảnh, chăn thả gia súc quá mức và săn bắt nên được IUCN xếp mức Nguy cấp (EN).",
+    "pullQuoteVi": "Khởi đầu chỉ nhỏ bằng quả bóng bàn khi mới nở, rùa Sulcata có thể phát triển thành những gã khổng lồ nặng hơn 70 kg và sống thọ qua nhiều thế hệ con người.",
+    "dietVi": "Động vật ăn thực vật: cỏ khô, cỏ tươi giàu chất xơ, lá xương rồng Opuntia, hoa dâm bụt và rau xanh giàu canxi.",
+    "lifespanVi": "70–100 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Sahel, Mali",
+      "lat": 15,
+      "lng": -2
+    },
+    "regionVi": "Bắc và Trung Phi (vùng Sahel)",
+    "otherNamesVi": [
+      "Rùa cựa châu Phi",
+      "Rùa sa mạc Sulcata"
+    ],
+    "synonyms": [
+      "Geochelone sulcata",
+      "Testudo calcarata",
+      "Testudo radiata",
+      "Testudo radiata senegalensis"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Geochelone_sulcata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/African_spurred_tortoise",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 55,
+      "lengthCmMax": 83,
+      "weightGMin": 35000,
+      "weightGMax": 90000,
+      "heightCmMax": null,
+      "noteVi": "Chiều dài mai thẳng (SCL) của cá thể trưởng thành"
+    },
+    "distribution": {
+      "countries": [
+        "SN",
+        "MR",
+        "ML",
+        "NE",
+        "NG",
+        "TD",
+        "SD",
+        "SS",
+        "ER",
+        "ET"
+      ],
+      "nativeRangeVi": "Dải Sahel nam sa mạc Sahara từ Senegal, Mauritania qua Mali, Niger, Chad đến Sudan và Ethiopia",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên bán sa mạc Sahel",
+      "Savan cây keo gai",
+      "Đồng cỏ khô nhiệt đới"
+    ],
+    "identificationVi": "Mai rộng hơi dẹt ở đỉnh màu vàng cát hoặc nâu hổ phách với các vòng tăng trưởng rõ trên từng tấm щит; chân trước phủ vảy lớn cứng cáp, đùi sau có 2–3 gai sừng nhọn lớn.",
+    "behaviorVi": "Đào hang cực giỏi, trong tự nhiên có thể đào những đường hầm sâu tới 3–5 mét dưới lòng đất để tìm độ ẩm mát và tránh cái nóng trên 45°C của sa mạc.",
+    "reproductionVi": "Đẻ trứng trong hố cát sâu, mỗi lứa 15–30 trứng tròn trắng, thời gian ấp kéo dài 90–120 ngày ở 30–31°C.",
+    "threatsVi": [
+      "Sa mạc hóa và chăn thả gia súc quá mức tại vùng Sahel",
+      "Săn bắt cá thể tự nhiên ngoài hoang dã"
+    ],
+    "funFactsVi": [
+      "Tên gọi Sulcata bắt nguồn từ tiếng Latin 'sulcus' nghĩa là rãnh sâu, mô tả những đường rãnh sâu phân tách các tấm vảy trên mai rùa.",
+      "Rùa con cần độ ẩm ổ ẩn 70–80% trong 2 năm đầu đời để mai phát triển tròn phẳng, không bị gồ tháp (pyramiding)."
+    ],
+    "similarSpecies": [
+      "Stigmochelys pardalis",
+      "Gopherus agassizii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Rùa nhỏ nuôi bàn rùa 120×60 cm có hộp ẩm; rùa trưởng thành bắt buộc cần sân vườn ngoài trời rộng tối thiểu 15–25 m² có hàng rào kiên cố.",
+      "lightingVi": "Đèn UVB 10.0–12.0% cường độ cao hoặc phơi nắng tự nhiên hàng ngày, điểm sưởi 36–38°C.",
+      "feedingVi": "Khẩu phần chuẩn gồm 75–80% cỏ khô/cỏ tươi (Timothy, Bermuda), 15% lá xương rồng/lá dâu/hoa dâm bụt, bổ sung canxi và tuyệt đối tránh trái cây ngọt.",
+      "socialVi": "Rùa đực trưởng thành rất hung hăng húc nhau tranh lãnh thổ, nên nuôi đơn hoặc 1 đực ghép nhiều cái trong sân rộng.",
+      "commonProblemsVi": [
+        "Gồ mai (pyramiding) do nuôi quá khô lúc nhỏ và thừa đạm",
+        "Sỏi bàng quang nếu thiếu nước ngâm mình"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES nhưng là loài rùa cạn được nhân giống thương mại quy mô lớn nhất thế giới và tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Châu Phi Sulcata Baby CB (5–6 cm)",
+        "priceVnd": 1450000,
+        "descriptionVi": "Cá thể CB rốn khép kín, mai tròn mịn, ăn khỏe cỏ tươi và viên nén Mazuri."
+      },
+      {
+        "nameVi": "Rùa Châu Phi Sulcata Juvenile (12–15 cm)",
+        "priceVnd": 3200000,
+        "descriptionVi": "Cá thể đã qua giai đoạn ươm non, sức đề kháng cao và phát triển mai đều."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A tortoise.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_tortoise.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/A_tortoise.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Teemah 24",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A tortoise relaxing in its habitat on Almat farm.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_tortoise_relaxing_in_its_habitat_on_Almat_farm.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/A_tortoise_relaxing_in_its_habitat_on_Almat_farm.jpg",
+        "width": 3744,
+        "height": 5616,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Oluwole Ekundayo Sofunde",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2019. Крокодиловый каньон в Ейске 167.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2019._%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_167.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/2019._%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD_%D0%B2_%D0%95%D0%B9%D1%81%D0%BA%D0%B5_167.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African Spurred Tortoise (Centrochelys sulcata) male (9175264599).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Spurred_Tortoise_(Centrochelys_sulcata)_male_(9175264599).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/African_Spurred_Tortoise_%28Centrochelys_sulcata%29_male_%289175264599%29.jpg",
+        "width": 4000,
+        "height": 2712,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African spurred Tortoise (geochelone sulcata).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_spurred_Tortoise_(geochelone_sulcata).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/African_spurred_Tortoise_%28geochelone_sulcata%29.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Gregory Moine",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441533",
+      "https://www.iucnredlist.org/species/163423/1006958",
+      "https://en.wikipedia.org/wiki/African_spurred_tortoise",
+      "https://vi.wikipedia.org/wiki/Geochelone_sulcata"
+    ]
+  },
+  {
+    "scientificName": "Stigmochelys pardalis",
+    "commonNameVi": "Rùa Da Báo Châu Phi",
+    "commonNameEn": "Leopard Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Stigmochelys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Stigmochelys"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/163449/217761530",
+    "gbifKey": 2441757,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 32,
+      "baskMin": 34,
+      "baskMax": 38,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên savan và đồng cỏ cây bụi từ Đông Phi xuống Nam Phi"
+    },
+    "descriptionVi": "Loài rùa cạn lớn thứ tư thế giới với chiếc mai vòm cao trang trí những đốm và vòng đen trên nền vàng kem tựa như bộ lông báo hoa mai.",
+    "conservationNoteVi": "Phân bố rất rộng khắp các vùng savan Đông và Nam Phi nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Không giống hầu hết các loài rùa cạn châu Phi khác, rùa da báo hoàn toàn không đào hang trú ẩn mà dựa vào lớp mai hoa văn đốm để hòa lẫn vào bóng cỏ savan.",
+    "dietVi": "Động vật ăn thực vật: cỏ thảo nguyên, cây mọng nước, lá xương rồng và cỏ dại giàu chất xơ.",
+    "lifespanVi": "50–80 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Serengeti, Tanzania",
+      "lat": -2.33,
+      "lng": 34.83
+    },
+    "regionVi": "Đông và Nam Phi",
+    "otherNamesVi": [
+      "Rùa báo"
+    ],
+    "synonyms": [
+      "Centrochelys pardalis",
+      "Geochelone pardalis",
+      "Geochelone pardalis pardalis",
+      "Megachersine pardalis"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%B9a_b%C3%A1o",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Leopard_tortoise",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 55,
+      "weightGMin": 12000,
+      "weightGMax": 30000,
+      "heightCmMax": null,
+      "noteVi": "Nhánh khổng lồ Nam Phi (Pardalis) có thể đạt 65 cm"
+    },
+    "distribution": {
+      "countries": [
+        "ET",
+        "SO",
+        "KE",
+        "UG",
+        "TZ",
+        "RW",
+        "ZM",
+        "MW",
+        "MZ",
+        "ZW",
+        "BW",
+        "NA",
+        "ZA",
+        "SZ"
+      ],
+      "nativeRangeVi": "Từ Ethiopia, Somalia dọc Đông Phi qua Kenya, Tanzania xuống tới Nam Phi và Namibia",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên savan",
+      "Đồng cỏ bán khô hạn",
+      "Đồi cây bụi gai"
+    ],
+    "identificationVi": "Mai vòm cao tròn, nền vàng ngà hoặc vàng rơm phủ kín các chấm, vệt và vòng đen như da báo; không có vảy gáy (nuchal scute) phía trên cổ.",
+    "behaviorVi": "Hiền lành, điềm tĩnh và không có tập tính đào phá nền đất hay đục tường như rùa Sulcata.",
+    "reproductionVi": "Đẻ 8–20 trứng tròn cứng vào hố đất tự đào, thời gian ấp kéo dài từ 110 đến 150 ngày.",
+    "threatsVi": [
+      "Cháy cỏ savan và hàng rào điện nông trại ở Nam Phi"
+    ],
+    "funFactsVi": [
+      "Nhờ chiếc mai vòm cao chứa buồng phổi lớn, rùa da báo là một trong số ít loài rùa cạn có thể nổi và bơi qua các dòng suối ngập mùa mưa."
+    ],
+    "similarSpecies": [
+      "Centrochelys sulcata",
+      "Geochelone elegans"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng mở 120×60 cm cho rùa nhỏ và sân cỏ 8–12 m² cho rùa trưởng thành; không lo rùa đào hầm sâu dưới móng tường.",
+      "lightingVi": "Đèn UVB 10.0%, điểm sưởi 35–37°C, giữ nhiệt độ đêm không thấp hơn 22°C.",
+      "feedingVi": "Ăn cỏ tươi, cỏ khô, lá dâu tằm, xương rồng tai thỏ đã gọt gai và rau bồ công anh rắc canxi.",
+      "socialVi": "Sống hòa thuận hơn rùa Sulcata, có thể nuôi theo nhóm nhỏ.",
+      "commonProblemsVi": [
+        "Viêm đường hô hấp nếu gặp thời tiết vừa lạnh dưới 20°C vừa ẩm ướt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, được nhân giống thương mại rộng rãi và hợp pháp trong giới chơi rùa cạn."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Da Báo Leopard Tortoise Babcocki CB (6–7 cm)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể CB hoa văn đốm báo đối xứng, ăn tốt rau cỏ và thức ăn viên."
+      },
+      {
+        "nameVi": "Rùa Da Báo High White / Blonde (Juvenile 10 cm)",
+        "priceVnd": 5200000,
+        "descriptionVi": "Dòng nhiều mảng trắng kem sáng màu, mai tròn cao đẹp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:DSC09769 - Leopard Tortoise (37223996175).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC09769_-_Leopard_Tortoise_(37223996175).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/DSC09769_-_Leopard_Tortoise_%2837223996175%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dennis G. Jarvis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Leopard Tortoise 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopard_Tortoise_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Leopard_Tortoise_02.jpg",
+        "width": 2112,
+        "height": 2816,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Корзун Андрей (Kor!An)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Chobe Riverfront, Botswana (2634707078).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2634707078).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chobe_Riverfront%2C_Botswana_%282634707078%29.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Joachim Huber from Switzerland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African Leopard Tortoise, America's Teaching Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Leopard_Tortoise,_America%27s_Teaching_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/African_Leopard_Tortoise%2C_America%27s_Teaching_Zoo.jpg",
+        "width": 4158,
+        "height": 3120,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Holly Cheng",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Jielbeaumadier tortue leopard madrid 2014.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_tortue_leopard_madrid_2014.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jielbeaumadier_tortue_leopard_madrid_2014.jpeg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Jiel Beaumadier ( http://jiel.b.free.fr )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441757",
+      "https://www.iucnredlist.org/species/163449/217761530",
+      "https://en.wikipedia.org/wiki/Leopard_tortoise",
+      "https://vi.wikipedia.org/wiki/R%C3%B9a_b%C3%A1o"
+    ]
+  },
+  {
+    "scientificName": "Chelonoidis denticulatus",
+    "commonNameVi": "Rùa Chân Vàng Nam Mỹ",
+    "commonNameEn": "Yellow-footed Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Chelonoidis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Chelonoidis"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/9008/12949796",
+    "gbifKey": 5220281,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng mưa nhiệt đới rậm rạp thuộc lưu vực sông Amazon và Orinoco"
+    },
+    "descriptionVi": "Loài rùa cạn lớn nhất lục địa Nam Mỹ, sinh sống dưới tán rừng mưa Amazon âm u với những chiếc vảy màu vàng cam tươi tắn trên đầu và tứ chi.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN do nạn săn bắt làm thực phẩm địa phương và suy giảm diện tích rừng Amazon.",
+    "pullQuoteVi": "Sống dưới tầng đáy rừng mưa Amazon quanh năm râm mát, rùa chân vàng phát triển kích thước khổng lồ nhờ thực đơn phong phú từ nấm rừng đến trái cây rụng.",
+    "dietVi": "Động vật ăn tạp thiên thực vật: lá cây rừng, trái cây rụng, nấm, hoa và một lượng nhỏ xác động vật, giun ốc.",
+    "lifespanVi": "50–60 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Manaus, Amazonas, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": "Lưu vực Amazon Nam Mỹ",
+    "otherNamesVi": [
+      "Rùa Jabuti chân vàng"
+    ],
+    "synonyms": [
+      "Geochelone denticulata",
+      "Testudo cagado",
+      "Testudo denticulata",
+      "Testudo foveolata"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chelonoidis_denticulata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-footed_tortoise",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 40,
+      "lengthCmMax": 60,
+      "weightGMin": 8000,
+      "weightGMax": 20000,
+      "heightCmMax": null,
+      "noteVi": "Lớn thứ ba trên đất liền châu Mỹ chỉ sau rùa Galápagos"
+    },
+    "distribution": {
+      "countries": [
+        "CO",
+        "VE",
+        "TT",
+        "GY",
+        "SR",
+        "GF",
+        "EC",
+        "PE",
+        "BO",
+        "BR"
+      ],
+      "nativeRangeVi": "Toàn bộ lưu vực rừng mưa Amazon và Orinoco từ Venezuela, Guiana xuống Bolivia và Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới thường xanh",
+      "Rừng đất thấp không ngập lũ (terra firme)",
+      "Hành lang rừng ẩm"
+    ],
+    "identificationVi": "Mai thuôn dài màu nâu sẫm với tâm từng tấm vảy màu vàng cam, rìa mai phía sau hơi khía răng cưa (denticulatus); vảy đầu và chân đính màu vàng nghệ hoặc vàng chanh.",
+    "behaviorVi": "Ưa bóng râm mát mẻ và độ ẩm cao dưới tán cây, rất hiếm khi phơi dưới nắng gắt trực tiếp giữa trưa.",
+    "reproductionVi": "Đẻ 4–12 trứng vỏ giòn trên sàn rừng phủ lá mục, có thể đẻ nhiều lứa trong năm.",
+    "threatsVi": [
+      "Khai thác gỗ và phá rừng Amazon",
+      "Săn bắt truyền thống tại các cộng đồng bản địa"
+    ],
+    "funFactsVi": [
+      "Nhờ đôi hàm khỏe và hệ tiêu hóa thích nghi rừng mưa, loài rùa này đóng vai trò phát tán hạt giống quan trọng cho hàng chục loài cây gỗ lớn ở Amazon."
+    ],
+    "similarSpecies": [
+      "Chelonoidis carbonarius",
+      "Manouria emys"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng giữ ẩm 150×80 cm cho cá thể nhỡ và khu vườn râm mát có phun sương cho cá thể trưởng thành.",
+      "lightingVi": "Ánh sáng dịu với đèn UVB 5.0% rừng mưa, nhiệt độ nền 25–29°C, độ ẩm luôn duy trì 70–85%.",
+      "feedingVi": "Ăn 60% rau lá xanh đậm và hoa, 25% củ quả chín (đu đủ, xoài, bí đỏ), 10% nấm và 5% đạm động vật/viên nén rùa rừng.",
+      "socialVi": "Tính xã hội tốt, có thể nuôi theo cặp hoặc nhóm trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Khô bong vảy và chảy nước mắt nếu độ ẩm môi trường dưới 60%"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, các cá thể nhân giống trại nuôi (CB) được phép giao dịch hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Chân Vàng Nam Mỹ Yellow-footed Tortoise CB (8–10 cm)",
+        "priceVnd": 4500000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, vảy chân vàng tươi, ăn tốt rau củ và trái cây."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chelonoidis denticulata At Loro Parque, Tenerife 2019.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_denticulata_At_Loro_Parque,_Tenerife_2019.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chelonoidis_denticulata_At_Loro_Parque%2C_Tenerife_2019.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Motelo silvestre.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Motelo_silvestre.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Motelo_silvestre.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mauricio Espejo Chura",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Chelonoidis denticulata Jabutis na Reserva de Desenvolvimento Sustentável do Uatumã - André Luís Matos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_denticulata_Jabutis_na_Reserva_de_Desenvolvimento_Sustent%C3%A1vel_do_Uatum%C3%A3_-_Andr%C3%A9_Lu%C3%ADs_Matos.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chelonoidis_denticulata_Jabutis_na_Reserva_de_Desenvolvimento_Sustent%C3%A1vel_do_Uatum%C3%A3_-_Andr%C3%A9_Lu%C3%ADs_Matos.jpg",
+        "width": 1080,
+        "height": 1080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "André Luís Matos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelonoidis denticulata head.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_denticulata_head.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Chelonoidis_denticulata_head.JPG",
+        "width": 6016,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lechatjaune",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelonoidis denticulatus in Ouwehands Dierenpark.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_denticulatus_in_Ouwehands_Dierenpark.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chelonoidis_denticulatus_in_Ouwehands_Dierenpark.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5220281",
+      "https://www.iucnredlist.org/species/9008/12949796",
+      "https://en.wikipedia.org/wiki/Yellow-footed_tortoise",
+      "https://vi.wikipedia.org/wiki/Chelonoidis_denticulata"
+    ]
+  },
+  {
+    "scientificName": "Chelonoidis chilensis",
+    "commonNameVi": "Rùa Đất Chaco",
+    "commonNameEn": "Chaco Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Chelonoidis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Chelonoidis"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/9007/12949680",
+    "gbifKey": 5220283,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng bằng cây bụi gai khô hạn Gran Chaco và thảo nguyên Monte ở Nam Mỹ"
+    },
+    "descriptionVi": "Loài rùa cạn kích thước nhỏ gọn của vùng bình nguyên khô hạn Gran Chaco thuộc Argentina, Paraguay và Bolivia với bộ mai vàng nâu viền sẫm.",
+    "conservationNoteVi": "Được IUCN xếp mức Sắp nguy cấp (VU) do mất sinh cảnh rừng bụi Chaco để trồng đậu tương và nạn bắt làm thú cưng nội địa.",
+    "pullQuoteVi": "Mặc dù mang tên khoa học chilensis (Chile), loài rùa cạn này thực chất không hề phân bố tự nhiên tại Chile mà là cư dân đặc trưng của bình nguyên Argentina.",
+    "dietVi": "Động vật ăn thực vật: cỏ khô, lá cây bụi sa mạc, quả xương rồng và thảo mộc.",
+    "lifespanVi": "40–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Gran Chaco, Córdoba, Argentina",
+      "lat": -31.42,
+      "lng": -64.18
+    },
+    "regionVi": "Nam Mỹ (Argentina, Paraguay, Bolivia)",
+    "otherNamesVi": [
+      "Rùa cạn Argentina"
+    ],
+    "synonyms": [
+      "Geochelone chilensis",
+      "Geochelone donosobarrosi",
+      "Geochelone petersi",
+      "Testudo argentina"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chelonoidis_chilensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chaco_tortoise",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 25,
+      "weightGMin": 1200,
+      "weightGMax": 2800,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ nhất trong các loài rùa cạn lục địa Nam Mỹ"
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "PY",
+        "BO"
+      ],
+      "nativeRangeVi": "Từ nam Bolivia, tây Paraguay dọc vùng Gran Chaco và thảo nguyên Monte xuống miền trung Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi gai khô Gran Chaco",
+      "Thảo nguyên bán sa mạc Monte",
+      "Đồng cỏ cát"
+    ],
+    "identificationVi": "Mai vòm thấp màu vàng rơm hoặc nâu nhạt có viền đen quanh các tấm vảy; chân trước có nhiều vảy gai lớn giúp đào hang.",
+    "behaviorVi": "Đào hang nông dưới gốc cây bụi để ngủ đêm và có kỳ ngủ đông rõ rệt trong những tháng mùa đông lạnh khô ở Nam bán cầu.",
+    "reproductionVi": "Đẻ số lượng ít từ 2–6 trứng hình bầu dục mỗi lứa, thời gian ấp rất dài tới 120–160 ngày.",
+    "threatsVi": [
+      "Phá rừng bụi Gran Chaco để chăn nuôi bò và trồng nông sản",
+      "Thu bắt trái phép trong tự nhiên tại Argentina"
+    ],
+    "funFactsVi": [
+      "Nhà bác học John Edward Gray đặt tên loài là chilensis vào năm 1870 chỉ vì mẫu vật được gửi đi từ cảng Santiago (Chile), dù nó được thu thập bên kia dãy Andes thuộc Argentina."
+    ],
+    "similarSpecies": [
+      "Testudo horsfieldii",
+      "Gopherus berlandieri"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Argentina cấm xuất khẩu thương mại và nguồn nhân giống nuôi nhốt ngoài tự nhiên rất hiếm, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chelonoidis chilensis en un fondo blanco.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_chilensis_en_un_fondo_blanco.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chelonoidis_chilensis_en_un_fondo_blanco.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MatiasPopoff1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chelonoidis chilensis 177735257.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_chilensis_177735257.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Chelonoidis_chilensis_177735257.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "veonatura",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ejemplar de la tortuga Chelonoidis chilensis 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ejemplar_de_la_tortuga_Chelonoidis_chilensis_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ejemplar_de_la_tortuga_Chelonoidis_chilensis_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fernando Archuby",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Argentine Tortoise (Chelonoidis chilensis).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Argentine_Tortoise_(Chelonoidis_chilensis).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Argentine_Tortoise_%28Chelonoidis_chilensis%29.JPG",
+        "width": 3968,
+        "height": 2976,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "CHUCAO",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tortuga chilensis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tortuga_chilensis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tortuga_chilensis.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "HTGYED",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5220283",
+      "https://www.iucnredlist.org/species/9007/12949680",
+      "https://en.wikipedia.org/wiki/Chaco_tortoise",
+      "https://vi.wikipedia.org/wiki/Chelonoidis_chilensis"
+    ]
+  },
+  {
+    "scientificName": "Chelonoidis niger",
+    "commonNameVi": "Rùa Khổng Lồ Đảo Floreana",
+    "commonNameEn": "Floreana Giant Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Chelonoidis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Chelonoidis"
+    },
+    "iucn": "EX",
+    "iucnUrl": "https://www.iucnredlist.org/species/9023/3149101",
+    "gbifKey": 9527499,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": 30,
+      "baskMax": 34,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi núi lửa khô hạn và vùng cao nguyên ẩm đảo Floreana, quần đảo Galápagos"
+    },
+    "descriptionVi": "Loài rùa khổng lồ mang chiếc mai hình yên ngựa vểnh cao của đảo Floreana (Galápagos), đã tuyệt chủng vào giữa thế kỷ 19 chỉ vài thập kỷ sau chuyến viếng thăm của Charles Darwin.",
+    "conservationNoteVi": "Đã Tuyệt chủng (EX) khoảng năm 1850 do các đoàn tàu săn cá voi bắt hàng nghìn cá thể làm lương thực dự trữ trên biển.",
+    "pullQuoteVi": "Chính lời nhận xét của thống đốc quần đảo Galápagos rằng chỉ nhìn hình dáng mai cũng biết con rùa đến từ đảo Floreana đã khơi dậy ý tưởng về thuyết tiến hóa trong tâm trí Charles Darwin.",
+    "dietVi": "Động vật ăn thực vật: xương rồng Opuntia thân gỗ, cỏ khô, địa y và lá cây bụi đảo núi lửa.",
+    "lifespanVi": "Trên 100 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Floreana, Quần đảo Galápagos, Ecuador",
+      "lat": -1.28,
+      "lng": -90.43
+    },
+    "regionVi": "Quần đảo Galápagos (Ecuador)",
+    "otherNamesVi": [
+      "Rùa khổng lồ Galápagos Floreana"
+    ],
+    "synonyms": [
+      "Chelonoidis nigra",
+      "Chelonoidis nigra nigra",
+      "Geochelone elephantopus",
+      "Geochelone elephantopus galapagoensis"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%B9a_Gal%C3%A1pagos",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Unknown",
+    "size": {
+      "lengthCmMin": 80,
+      "lengthCmMax": 120,
+      "weightGMin": 80000,
+      "weightGMax": 180000,
+      "heightCmMax": null,
+      "noteVi": "Kiểu mai yên ngựa (saddleback) vểnh cao trước cổ"
+    },
+    "distribution": {
+      "countries": [
+        "EC"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Floreana (Charles Island), quần đảo Galápagos, Ecuador",
+      "elevationM": {
+        "min": 0,
+        "max": 640
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn núi lửa khô với rừng xương rồng",
+      "Cao nguyên ẩm đảo đại dương"
+    ],
+    "identificationVi": "Mai màu đen xám có phần rìa trước cổ uốn cong vểnh cao như chiếc yên ngựa để rùa vươn chiếc cổ dài lên ăn lá xương rồng trên cao.",
+    "behaviorVi": "Di chuyển theo mùa giữa vùng bờ biển khô hạn và vùng sương mù trên đỉnh núi lửa để kiếm nước và thức ăn.",
+    "reproductionVi": "Đẻ 6–16 trứng cầu tròn trong đất cát núi lửa.",
+    "threatsVi": [
+      "Khai thác quá mức bởi tàu săn cá voi thế kỷ 19",
+      "Dê, lợn và chuột ngoại lai phá hủy thảm thực vật và trứng trên đảo"
+    ],
+    "funFactsVi": [
+      "Năm 2012, các nhà di truyền học phát hiện những cá thể rùa lai trên núi lửa Wolf (đảo Isabela) vẫn mang tới 40–80% hệ gen của loài rùa Floreana đã tuyệt chủng do thủy thủ xưa thả nhầm sang đảo khác.",
+      "Một chương trình chọn lọc ngược từ các cá thể mang gen Floreana đang được Vườn quốc gia Galápagos thực hiện để hồi sinh hệ sinh thái đảo."
+    ],
+    "similarSpecies": [
+      "Chelonoidis hoodensis",
+      "Aldabrachelys gigantea"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài đã Tuyệt chủng (EX) và toàn bộ phức hợp rùa khổng lồ Galápagos thuộc Phụ lục I CITES, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Galapagos tortoise 2025-09-03 (54872135092).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Galapagos_tortoise_2025-09-03_(54872135092).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Galapagos_tortoise_2025-09-03_%2854872135092%29.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Enoch Leung from Canada",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Galapagos Tortoise Mating.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Galapagos_Tortoise_Mating.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Galapagos_Tortoise_Mating.jpg",
+        "width": 3240,
+        "height": 4320,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "davidberkowitz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:CAS-Galapagos Tortoise.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CAS-Galapagos_Tortoise.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CAS-Galapagos_Tortoise.JPG",
+        "width": 2048,
+        "height": 1360,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Coro",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelonoidis nigra (3837355845).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelonoidis_nigra_(3837355845).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Chelonoidis_nigra_%283837355845%29.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "RAF-YYC from Calgary, Canada",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Galapagos giant tortoise Geochelone elephantopus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+        "width": 3504,
+        "height": 2336,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Mfield , Matthew Field, http://www.photography.mattfield.com",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9527499",
+      "https://www.iucnredlist.org/species/9023/3149101",
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise",
+      "https://vi.wikipedia.org/wiki/R%C3%B9a_Gal%C3%A1pagos"
+    ]
+  },
+  {
+    "scientificName": "Testudo graeca",
+    "commonNameVi": "Rùa Đất Hy Lạp",
+    "commonNameEn": "Greek Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Testudo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Testudo"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/21646/9305693",
+    "gbifKey": 2441461,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 29,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi cây bụi Địa Trung Hải, thảo nguyên đá và rừng thông thưa quanh Địa Trung Hải"
+    },
+    "descriptionVi": "Loài rùa cạn cổ điển của lưu vực Địa Trung Hải và Tây Á, dễ nhận biết nhờ đôi cựa sừng nhỏ ở hai bên đùi sau và tấm vảy trên đuôi không tách đôi.",
+    "conservationNoteVi": "Được IUCN xếp mức Sắp nguy cấp (VU) do mất sinh cảnh ven biển Địa Trung Hải và nạn thu bắt tự nhiên ở Bắc Phi trong thế kỷ 20.",
+    "pullQuoteVi": "Tên gọi rùa Hy Lạp không xuất phát từ nơi phân bố chính mà do nhà tự nhiên học Carl Linnaeus thấy hoa văn trên mai chúng giống những tấm gạch khảm Hy Lạp cổ đại.",
+    "dietVi": "Động vật ăn thực vật: cỏ dại Địa Trung Hải, lá bồ công anh, mã đề, cỏ ba lá và hoa dâm bụt.",
+    "lifespanVi": "50–90 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Antalya, Thổ Nhĩ Kỳ",
+      "lat": 36.89,
+      "lng": 30.71
+    },
+    "regionVi": "Địa Trung Hải, Bắc Phi và Tây Á",
+    "otherNamesVi": [
+      "Rùa cựa đùi Địa Trung Hải"
+    ],
+    "synonyms": [
+      "Furculachelys nabeulensis",
+      "Testudo anamurensis",
+      "Testudo antakyensis",
+      "Testudo armeniaca"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Testudo_graeca",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Greek_tortoise",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 28,
+      "weightGMin": 1000,
+      "weightGMax": 3500,
+      "heightCmMax": null,
+      "noteVi": "Kích thước vừa vặn, phù hợp bàn rùa gia đình"
+    },
+    "distribution": {
+      "countries": [
+        "MA",
+        "DZ",
+        "TN",
+        "LY",
+        "ES",
+        "GR",
+        "BG",
+        "RO",
+        "TR",
+        "GE",
+        "AM",
+        "AZ",
+        "IR",
+        "SY",
+        "JO",
+        "IL"
+      ],
+      "nativeRangeVi": "Bắc Phi (Morocco đến Libya), Đông Nam Âu (Hy Lạp, Bulgaria), Thổ Nhĩ Kỳ, vùng Kavkaz và Trung Đông",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồi cây bụi maquis Địa Trung Hải",
+      "Thảo nguyên đá vôi",
+      "Bìa rừng ô-liu và thông"
+    ],
+    "identificationVi": "Khác với Testudo hermanni: loài này có một cựa sừng hình nón rõ rệt trên mỗi đùi sau, tấm vảy trên đuôi (supracaudal) thường liền thành 1 mảnh duy nhất và chóp đuôi không có gai sừng.",
+    "behaviorVi": "Hoạt động mạnh vào buổi sáng và chiều mát, ưa sưởi nắng và đào hố nông dưới gốc cây bụi.",
+    "reproductionVi": "Đẻ 3–8 trứng hình bầu dục mỗi lứa vào mùa xuân, nở sau 65–85 ngày.",
+    "threatsVi": [
+      "Đô thị hóa bờ biển Địa Trung Hải",
+      "Cháy rừng mùa hè"
+    ],
+    "funFactsVi": [
+      "Một cá thể rùa đất Hy Lạp tên là Timothy của Hải quân Hoàng gia Anh từng sống tới khoảng 160 năm tuổi tại lâu đài Powderham."
+    ],
+    "similarSpecies": [
+      "Testudo hermanni",
+      "Testudo marginata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bàn rùa mở thoáng khí tối thiểu 120×60 cm lót hỗn hợp đất sạch và xơ dừa khô ráo.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi tạo điểm nóng 33–35°C.",
+      "feedingVi": "Ăn các loại rau lá nhiều xơ, cỏ dại, hoa ăn được rắc bột canxi; hạn chế tối đa trái cây.",
+      "socialVi": "Nuôi đơn hoặc ghép cái; tránh nhốt chung hai con đực trưởng thành.",
+      "commonProblemsVi": [
+        "Nhiễm nấm mai hoặc viêm phổi nếu nền nuôi quá ẩm ướt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, các phân loài phổ biến (T. g. ibera, T. g. terrestris) được nhân giống thương mại rộng rãi."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Đất Hy Lạp Greek Tortoise Ibera CB (6–7 cm)",
+        "priceVnd": 3100000,
+        "descriptionVi": "Cá thể nhân giống châu Âu khỏe mạnh, ăn rau xanh rất tốt."
+      },
+      {
+        "nameVi": "Rùa Đất Hy Lạp Vàng Golden Greek Tortoise CB (7–8 cm)",
+        "priceVnd": 4200000,
+        "descriptionVi": "Phân loài Trung Đông mang sắc mai vàng sáng cực bắt mắt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Moorse landschildpad - Spur-thighed Tortoise - Testudo graeca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moorse_landschildpad_-_Spur-thighed_Tortoise_-_Testudo_graeca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Moorse_landschildpad_-_Spur-thighed_Tortoise_-_Testudo_graeca.jpg",
+        "width": 4997,
+        "height": 3331,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Bouke ten Cate",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Maurische Landschildkröte Aufnahme 2014 Türkei Copyright MEH Bergmann.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maurische_Landschildkr%C3%B6te_Aufnahme_2014_T%C3%BCrkei_Copyright_MEH_Bergmann.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Maurische_Landschildkr%C3%B6te_Aufnahme_2014_T%C3%BCrkei_Copyright_MEH_Bergmann.jpg",
+        "width": 3491,
+        "height": 4248,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MEH Bergmann",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Georgische Schildkröte (von oben).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Georgische_Schildkr%C3%B6te_(von_oben).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Georgische_Schildkr%C3%B6te_%28von_oben%29.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Traubenberger",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A common tortoise in Cappadocia, Turkey, May, 2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_common_tortoise_in_Cappadocia,_Turkey,_May,_2015.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/A_common_tortoise_in_Cappadocia%2C_Turkey%2C_May%2C_2015.jpg",
+        "width": 4276,
+        "height": 2851,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexey Komarov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A pair of Testudo graeca mating.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_pair_of_Testudo_graeca_mating.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/A_pair_of_Testudo_graeca_mating.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maurice Flesier",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441461",
+      "https://www.iucnredlist.org/species/21646/9305693",
+      "https://en.wikipedia.org/wiki/Greek_tortoise",
+      "https://vi.wikipedia.org/wiki/Testudo_graeca"
+    ]
+  },
+  {
+    "scientificName": "Testudo marginata",
+    "commonNameVi": "Rùa Đất Vành Mai",
+    "commonNameEn": "Marginated Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Testudo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Testudo"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/21653/2777760",
+    "gbifKey": 2441502,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 29,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn núi đá vôi và rừng cây bụi khô tại Hy Lạp và đảo Sardinia"
+    },
+    "descriptionVi": "Loài rùa cạn lớn nhất châu Âu với phần rìa mai phía sau xòe rộng ra ngoài giống như vành mũ sắt của chiến binh cổ đại.",
+    "conservationNoteVi": "Quần thể tự nhiên ổn định tại các sườn núi đá Hy Lạp và Sardinia nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Ở những cá thể đực già, các tấm vảy rìa sau đuôi mở rộng và cong vểnh ra như một chiếc váy giáp che kín toàn bộ hai chân sau.",
+    "dietVi": "Động vật ăn thực vật: cỏ núi đá, hoa bồ công anh, lá mã đề, cẩm quỳ và thảo mộc Địa Trung Hải.",
+    "lifespanVi": "60–100 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Peloponnese, Hy Lạp",
+      "lat": 37.4,
+      "lng": 22.3
+    },
+    "regionVi": "Nam Âu (Hy Lạp, Albania, Ý)",
+    "otherNamesVi": [
+      "Rùa váy Hy Lạp"
+    ],
+    "synonyms": [
+      "Testudo campanulata",
+      "Testudo graja",
+      "Testudo marginata cretensis",
+      "Testudo marginata sarda"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Testudo_marginata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Marginated_tortoise",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 2500,
+      "weightGMax": 5000,
+      "heightCmMax": null,
+      "noteVi": "Loài rùa cạn bản địa lớn nhất châu Âu"
+    },
+    "distribution": {
+      "countries": [
+        "GR",
+        "AL",
+        "IT"
+      ],
+      "nativeRangeVi": "Hy Lạp, nam Albania và quần thể du nhập lâu đời từ thời cổ đại trên đảo Sardinia (Ý)",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn đồi đá vôi khô",
+      "Rừng cây bụi gai phrygana",
+      "Vườn ô-liu cổ"
+    ],
+    "identificationVi": "Mai thuôn dài màu đen bóng điểm tâm vàng ở mỗi tấm vảy, rìa mai phía sau xòe rộng như chiếc quạt; mặt yếm dưới bụng có các hình tam giác đen hướng về phía đuôi.",
+    "behaviorVi": "Leo trèo sườn đá rất khỏe; lớp mai màu đen sẫm giúp chúng hấp thụ nhiệt mặt trời cực nhanh vào những buổi sáng lạnh trên núi.",
+    "reproductionVi": "Đẻ 5–12 trứng mỗi lứa vào cuối xuân, có thể đẻ 2–3 lứa/năm, nở sau 65–80 ngày.",
+    "threatsVi": [
+      "Cháy rừng mùa hè tại Hy Lạp"
+    ],
+    "funFactsVi": [
+      "Hoa văn các cặp hình tam giác đen trên yếm bụng là dấu hiệu nhận diện độc quyền giúp phân biệt rùa vành mai với mọi loài Testudo khác ngay từ khi mới nở."
+    ],
+    "similarSpecies": [
+      "Testudo graeca",
+      "Testudo hermanni"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bàn rùa rộng 150×80 cm hoặc khu quây sân vườn khô ráo có đá phẳng để phơi nắng.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi 34–35°C.",
+      "feedingVi": "Ăn thực vật nhiều chất xơ, lá dâu, cải xoăn, cỏ dại bổ sung canxi định kỳ.",
+      "socialVi": "Nuôi đơn hoặc theo nhóm nhiều cái trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Phát triển quá nhanh làm biến dạng vành mai nếu cho ăn thức ăn giàu đạm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, nhân giống thương mại hợp pháp và rất phổ biến trong thú chơi rùa cạn."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Đất Vành Mai Marginated Tortoise CB (6–8 cm)",
+        "priceVnd": 3600000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, bắt đầu lộ rõ vành mai xòe sau."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Klokschildpad - Marginated Tortoise - Testudo marginata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Klokschildpad_-_Marginated_Tortoise_-_Testudo_marginata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Klokschildpad_-_Marginated_Tortoise_-_Testudo_marginata.jpg",
+        "width": 5032,
+        "height": 3355,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Bouke ten Cate",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Marginated Tortoise (Testuggine Marginata) (Testudo marginata) - Rome, Italy 2024-03-02 (06).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marginated_Tortoise_(Testuggine_Marginata)_(Testudo_marginata)_-_Rome,_Italy_2024-03-02_(06).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Marginated_Tortoise_%28Testuggine_Marginata%29_%28Testudo_marginata%29_-_Rome%2C_Italy_2024-03-02_%2806%29.jpg",
+        "width": 4000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Marginated Tortoise (Testudo marginata) male (9186197910).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marginated_Tortoise_(Testudo_marginata)_male_(9186197910).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Marginated_Tortoise_%28Testudo_marginata%29_male_%289186197910%29.jpg",
+        "width": 4000,
+        "height": 2729,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Marginated Tortoise - Flickr - GregTheBusker (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marginated_Tortoise_-_Flickr_-_GregTheBusker_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Marginated_Tortoise_-_Flickr_-_GregTheBusker_%282%29.jpg",
+        "width": 5017,
+        "height": 3354,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Greg Schechter from San Francisco, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Animals in Ein Gedi01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Animals_in_Ein_Gedi01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Animals_in_Ein_Gedi01.jpg",
+        "width": 2832,
+        "height": 2128,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "matanya",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441502",
+      "https://www.iucnredlist.org/species/21653/2777760",
+      "https://en.wikipedia.org/wiki/Marginated_tortoise",
+      "https://vi.wikipedia.org/wiki/Testudo_marginata"
+    ]
+  },
+  {
+    "scientificName": "Testudo horsfieldii",
+    "commonNameVi": "Rùa Đất Nga Bốn Móng",
+    "commonNameEn": "Russian Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Testudo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Testudo"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/21651/9306759",
+    "gbifKey": 2441514,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 28,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 30,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên khô, bán sa mạc đất sét và sườn đồi đá vùng Trung Á"
+    },
+    "descriptionVi": "Loài rùa cạn nhỏ nhắn dẻo dai của vùng thảo nguyên Trung Á, dễ nhận biết nhờ chiếc mai tròn hơi dẹt màu vàng cát và chỉ có đúng bốn móng trên mỗi bàn chân trước.",
+    "conservationNoteVi": "Được IUCN xếp mức Sắp nguy cấp (VU) do khai thác tự nhiên quy mô lớn tại Trung Á trong nhiều thập kỷ trước đây và canh tác thảo nguyên.",
+    "pullQuoteVi": "Sống giữa những sa mạc lục địa khắc nghiệt của Trung Á, loài rùa nhỏ này có thể ngủ vùi dưới lòng đất tới 8 tháng mỗi năm để tránh cả nắng lửa mùa hè lẫn băng giá mùa đông.",
+    "dietVi": "Động vật ăn thực vật: cỏ thảo nguyên, lá bồ công anh, hoa cúc dại, rau diếp đắng và lá xương rồng.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thung lũng Fergana, Uzbekistan",
+      "lat": 40.38,
+      "lng": 71.78
+    },
+    "regionVi": "Trung Á",
+    "otherNamesVi": [
+      "Rùa thảo nguyên Trung Á",
+      "Rùa Horsfield"
+    ],
+    "synonyms": [
+      "Agrionemys bogdanovi",
+      "Agrionemys horsfieldi kazachstanica",
+      "Agrionemys horsfieldi rustamovi",
+      "Agrionemys horsfieldii"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Testudo_horsfieldii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Central_Asian_tortoise",
+    "iucnAssessedYear": 1996,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 22,
+      "weightGMin": 800,
+      "weightGMax": 2000,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ gọn, rất phù hợp nuôi trong nhà"
+    },
+    "distribution": {
+      "countries": [
+        "RU",
+        "KZ",
+        "UZ",
+        "TM",
+        "KG",
+        "TJ",
+        "IR",
+        "AF",
+        "PK",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ vùng biển Caspi (Nga, Kazakhstan) qua Uzbekistan, Turkmenistan đến Iran, Afghanistan, Pakistan và Tân Cương (Trung Quốc)",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Thảo nguyên bán sa mạc",
+      "Đồi đất hoàng thổ và đất sét",
+      "Bìa ốc đảo sa mạc"
+    ],
+    "identificationVi": "Mai tròn rộng hơi dẹt màu vàng rơm hoặc nâu cát với mảng đen ở tâm vảy; bàn chân trước cực khỏe chỉ có 4 móng vuốt lớn (các loài Testudo khác có 5 móng).",
+    "behaviorVi": "Năng động, thích leo trèo và đào hang rất sâu nhờ bốn chiếc móng trước to khỏe như cái xẻng.",
+    "reproductionVi": "Đẻ 2–6 trứng mỗi lứa vào mùa xuân, nở sau khoảng 60–75 ngày.",
+    "threatsVi": [
+      "Mở rộng nông nghiệp tưới tiêu tại Trung Á",
+      "Khai thác tự nhiên phục vụ buôn bán quốc tế"
+    ],
+    "funFactsVi": [
+      "Tháng 9 năm 1968, hai cá thể rùa đất Nga trên tàu vũ trụ Zond 5 của Liên Xô đã trở thành những sinh vật sống đầu tiên bay vòng quanh Mặt Trăng và trở về Trái Đất an toàn."
+    ],
+    "similarSpecies": [
+      "Testudo graeca",
+      "Testudo hermanni"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bàn rùa 120×60 cm có thành cao và lớp nền đất pha cát dày 10–15 cm để rùa thỏa mãn bản năng đào bới.",
+      "lightingVi": "Đèn UVB 10.0%, điểm sưởi 33–35°C, độ ẩm giữ thấp 35–50%.",
+      "feedingVi": "Ăn các loại rau lá giàu chất xơ, cỏ dại, hoa dâm bụt; tuyệt đối không cho ăn hoa quả ngọt.",
+      "socialVi": "Nuôi đơn độc là tốt nhất.",
+      "commonProblemsVi": [
+        "Thối yếm hoặc viêm mũi nếu nuôi trên nền ẩm ướt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES, là một trong những loài rùa cạn cảnh phổ biến và dễ chăm sóc nhất cho người mới bắt đầu."
+    },
+    "products": [
+      {
+        "nameVi": "Rùa Đất Nga Russian Tortoise CB (6–8 cm)",
+        "priceVnd": 2200000,
+        "descriptionVi": "Cá thể khỏe mạnh, năng động, ăn rau xanh rất tốt."
+      },
+      {
+        "nameVi": "Rùa Đất Nga Sub-adult (10–12 cm)",
+        "priceVnd": 2900000,
+        "descriptionVi": "Cá thể cứng cáp đã ổn định nhiệt độ phòng mát."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A land turtle among grass.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_land_turtle_among_grass.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_land_turtle_among_grass.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Humoyun Mehridinov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Symbol of patience1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Symbol_of_patience1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Symbol_of_patience1.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "IslomOknazarov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Russian Tortoise.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Russian_Tortoise.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Russian_Tortoise.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jallen98499",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Testudo horsfieldii 001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Testudo_horsfieldii_001.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Testudo_horsfieldii_001.JPG",
+        "width": 4672,
+        "height": 3104,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Antanana",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Markaziy Osiyo toshbaqalari. Buxoro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Markaziy_Osiyo_toshbaqalari._Buxoro.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Markaziy_Osiyo_toshbaqalari._Buxoro.jpg",
+        "width": 3936,
+        "height": 2624,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jamshid Nurkulov",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441514",
+      "https://www.iucnredlist.org/species/21651/9306759",
+      "https://en.wikipedia.org/wiki/Central_Asian_tortoise",
+      "https://vi.wikipedia.org/wiki/Testudo_horsfieldii"
+    ]
+  },
+  {
+    "scientificName": "Testudo kleinmanni",
+    "commonNameVi": "Rùa Đất Ai Cập",
+    "commonNameEn": "Egyptian Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Testudo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Testudo"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/21652/217969981",
+    "gbifKey": 2441511,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 32,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 30,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đụn cát ven biển và bán sa mạc đá vôi dọc bờ Nam Địa Trung Hải"
+    },
+    "descriptionVi": "Loài rùa cạn nhỏ nhất Bắc bán cầu với chiếc mai vòm cao màu vàng ngà phản xạ nắng sa mạc và đôi vệt tam giác đen trên yếm bụng.",
+    "conservationNoteVi": "Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN; gần như đã tuyệt chủng ngoài tự nhiên tại Ai Cập và chỉ còn những quần thể nhỏ bị đe dọa ở Libya.",
+    "pullQuoteVi": "Con trưởng thành nằm gọn trong lòng bàn tay với trọng lượng chỉ hơn một quả táo, giúp rùa Ai Cập làm mát và làm ấm cơ thể cực nhanh giữa sa mạc.",
+    "dietVi": "Động vật ăn thực vật: cỏ sa mạc khô, cây mọng nước nhỏ và địa y ven biển.",
+    "lifespanVi": "40–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Cyrenaica, Libya",
+      "lat": 32.12,
+      "lng": 20.07
+    },
+    "regionVi": "Bắc Phi (Libya, Ai Cập, Israel)",
+    "otherNamesVi": [
+      "Rùa lùn Ai Cập",
+      "Rùa Kleinmann"
+    ],
+    "synonyms": [
+      "Carteremys leithii",
+      "Hydraspis leithi",
+      "Testudo leithii",
+      "Testudo werneri"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Testudo_kleinmanni",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Kleinmann%27s_tortoise",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 14,
+      "weightGMin": 150,
+      "weightGMax": 380,
+      "heightCmMax": null,
+      "noteVi": "Loài nhỏ nhất trong chi Testudo"
+    },
+    "distribution": {
+      "countries": [
+        "LY",
+        "EG",
+        "IL"
+      ],
+      "nativeRangeVi": "Dải ven biển Địa Trung Hải từ Libya qua bắc Ai Cập tới sa mạc Negev (Israel)",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Đụn cát ven biển",
+      "Bán sa mạc cây bụi thấp",
+      "Thung lũng cạn wadi"
+    ],
+    "identificationVi": "Kích thước tí hon, mai vòm cao màu vàng ngà hoặc vàng rơm có viền nâu mỏng nhằm phản xạ bức xạ mặt trời; yếm bụng có 2 cặp vệt tam giác đen.",
+    "behaviorVi": "Ngủ hè (aestivation) dưới hang chuột sa mạc suốt những tháng nóng nhất và hoạt động mạnh vào mùa mưa mát từ tháng 11 đến tháng 3.",
+    "reproductionVi": "Chỉ đẻ 1–3 trứng nhỏ mỗi lứa vào mùa xuân, nở sau 70–90 ngày.",
+    "threatsVi": [
+      "Buôn bán thú cưng bất hợp pháp trong quá khứ",
+      "Phát triển đô thị ven biển và chăn thả lạc đà, dê"
+    ],
+    "funFactsVi": [
+      "Nhờ lớp mai màu vàng sáng phản xạ tới phần lớn nhiệt lượng mặt trời, rùa đất Ai Cập có thể kiếm ăn dưới nắng sa mạc lâu hơn các loài rùa mai sẫm màu."
+    ],
+    "similarSpecies": [
+      "Testudo graeca",
+      "Homopus areolatus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I CITES và mức Cực kỳ nguy cấp (CR), nghiêm cấm buôn bán thương mại tự do, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Testudo kleinmanni By Hatem Moushir in Alxandria 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Testudo_kleinmanni_By_Hatem_Moushir_in_Alxandria_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Testudo_kleinmanni_By_Hatem_Moushir_in_Alxandria_1.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hatem Moushir",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Egyptian tortoises.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_tortoises.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Egyptian_tortoises.jpg",
+        "width": 2976,
+        "height": 3968,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ashashyou",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Carapace T.werneri destra, T.kleinmanni sinistra.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carapace_T.werneri_destra,_T.kleinmanni_sinistra.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carapace_T.werneri_destra%2C_T.kleinmanni_sinistra.JPG",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Stefano Alcini",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Želva egyptská 4945.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C5%BDelva_egyptsk%C3%A1_4945.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%C5%BDelva_egyptsk%C3%A1_4945.jpg",
+        "width": 3600,
+        "height": 2400,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Matěj Baťha",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Miller28.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Miller28.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Miller28.jpg",
+        "width": 2816,
+        "height": 2120,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Richard Mayer",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441511",
+      "https://www.iucnredlist.org/species/21652/217969981",
+      "https://en.wikipedia.org/wiki/Kleinmann%27s_tortoise",
+      "https://vi.wikipedia.org/wiki/Testudo_kleinmanni"
+    ]
+  },
+  {
+    "scientificName": "Astrochelys radiata",
+    "commonNameVi": "Rùa Sao Madagascar",
+    "commonNameEn": "Radiated Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Astrochelys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Astrochelys"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/9014/12950491",
+    "gbifKey": 2441666,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 32,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây bụi gai khô hạn và đồi cát miền Nam và Tây Nam đảo Madagascar"
+    },
+    "descriptionVi": "Được ca ngợi là một trong những loài rùa cạn đẹp nhất hành tinh với chiếc mai vòm cao đen nhánh tỏa ra những tia vàng rực rỡ như ánh mặt trời.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN do nạn săn trộm lấy thịt và buôn lậu thú cảnh quốc tế cùng mất rừng gai Madagascar.",
+    "pullQuoteVi": "Mỗi tấm vảy trên lưng rùa sao Madagascar đều là một bức họa hình học với những tia vàng sắc nét phóng tỏa từ tâm ra mọi hướng.",
+    "dietVi": "Động vật ăn thực vật: cỏ tươi, lá cây bụi rừng gai và xương rồng Opuntia.",
+    "lifespanVi": "80–150 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Toliara, Nam Madagascar",
+      "lat": -23.35,
+      "lng": 43.67
+    },
+    "regionVi": "Nam Madagascar",
+    "otherNamesVi": [
+      "Rùa bức xạ Madagascar"
+    ],
+    "synonyms": [
+      "Asterochelys radiata",
+      "Geochelone radiata",
+      "Testudo coui",
+      "Testudo desertorum"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrochelys_radiata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Radiated_tortoise",
+    "iucnAssessedYear": 2008,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 42,
+      "weightGMin": 8000,
+      "weightGMax": 16000,
+      "heightCmMax": null,
+      "noteVi": "Mai vòm cao tròn và rất dày"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng rừng gai khô cực nam và tây nam đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi gai Didiereaceae",
+      "Cao nguyên đá vôi Mahafaly",
+      "Đụn cát ven biển"
+    ],
+    "identificationVi": "Mai vòm cao trơn láng, nền đen sẫm với các đường tia màu vàng tươi tỏa ra từ tâm màu vàng cam của từng tấm vảy lưng; đầu, chân và đuôi đều màu vàng.",
+    "behaviorVi": "Khi trời bắt đầu đổ mưa, chúng thường đứng cao trên bốn chân và lắc hông qua lại trong một điệu nhảy mưa độc đáo.",
+    "reproductionVi": "Đẻ 3–12 trứng tròn vào hố đất sâu, thời gian ấp kéo dài từ 140 đến 200 ngày.",
+    "threatsVi": [
+      "Nạn săn trộm quy mô lớn để lấy thịt và buôn lậu quốc tế",
+      "Đốt rừng gai làm than củi"
+    ],
+    "funFactsVi": [
+      "Cụ rùa Tu'i Malila thuộc loài Astrochelys radiata từng được thuyền trưởng James Cook tặng hoàng gia Tonga đã sống thọ tới ít nhất 188 năm tuổi, giữ kỷ lục rùa được xác thực lâu năm nhất lịch sử."
+    ],
+    "similarSpecies": [
+      "Geochelone elegans",
+      "Geochelone platynota"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I CITES và mức Cực kỳ nguy cấp (CR), cấm hoàn toàn buôn bán thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrochelys radiata (6337089961).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrochelys_radiata_(6337089961).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Astrochelys_radiata_%286337089961%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Ruben Undheim from Trondheim, Norway",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Radiated Tortoise (Astrochelys radiata) (9580758975).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Radiated_Tortoise_(Astrochelys_radiata)_(9580758975).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Radiated_Tortoise_%28Astrochelys_radiata%29_%289580758975%29.jpg",
+        "width": 2086,
+        "height": 3215,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Astrochelis radiata young (7 d).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrochelis_radiata_young_(7_d).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Astrochelis_radiata_young_%287_d%29.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Philstone / uploaded by Titou",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20181007 Artis Zoo - Astrochelys radiata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20181007_Artis_Zoo_-_Astrochelys_radiata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/20181007_Artis_Zoo_-_Astrochelys_radiata.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrochelys radiata (10379061003).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrochelys_radiata_(10379061003).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Astrochelys_radiata_%2810379061003%29.jpg",
+        "width": 3224,
+        "height": 2038,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441666",
+      "https://www.iucnredlist.org/species/9014/12950491",
+      "https://en.wikipedia.org/wiki/Radiated_tortoise",
+      "https://vi.wikipedia.org/wiki/Astrochelys_radiata"
+    ]
+  },
+  {
+    "scientificName": "Astrochelys yniphora",
+    "commonNameVi": "Rùa Lưỡi Cày Madagascar",
+    "commonNameEn": "Ploughshare Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Astrochelys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Astrochelys"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/9016/12950950",
+    "gbifKey": 2441673,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 33,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng tre khô xen trảng cỏ và cây bụi ven vịnh Baly, Tây Bắc Madagascar"
+    },
+    "descriptionVi": "Loài rùa cạn quý hiếm bậc nhất thế giới với tấm vảy yếm trước ngực kéo dài cong vểnh ra phía trước dưới cổ giống hệt một chiếc lưỡi cày.",
+    "conservationNoteVi": "Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN với chưa đầy vài trăm cá thể trưởng thành còn sót lại ngoài tự nhiên tại Vườn quốc gia Baly Bay.",
+    "pullQuoteVi": "Chiếc sừng yếm hình lưỡi cày dưới cổ của rùa đực là vũ khí chuyên dụng để hất lật ngửa đối thủ trong những trận đấu giành bạn tình mùa mưa.",
+    "dietVi": "Động vật ăn thực vật: cỏ thảo nguyên, lá cây bụi, lá tre khô và quả rụng.",
+    "lifespanVi": "60–100 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Vịnh Baly, Tây Bắc Madagascar",
+      "lat": -16.05,
+      "lng": 45.27
+    },
+    "regionVi": "Tây Bắc Madagascar",
+    "otherNamesVi": [
+      "Rùa Angonoka"
+    ],
+    "synonyms": [
+      "Angonoka yniphora",
+      "Geochelone yniphora",
+      "Testudo hyniphora",
+      "Testudo yniphora"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrochelys_yniphora",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Angonoka_tortoise",
+    "iucnAssessedYear": 2008,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 48,
+      "weightGMin": 9000,
+      "weightGMax": 19000,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn và có lưỡi cày yếm dài hơn con cái"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Chỉ còn phân bố tự nhiên trong phạm vi khoảng 60 km² quanh vịnh Baly, Tây Bắc Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng tre khô nhiệt đới",
+      "Trảng cỏ savan xen cây bụi",
+      "Rừng ven biển"
+    ],
+    "identificationVi": "Mai vòm rất cao màu vàng nâu hổ phách với các vòng sinh trưởng đồng tâm nổi rõ; tấm vảy yếm ngực (gular) hợp nhất và vươn dài cong lên giữa hai chân trước như lưỡi cày.",
+    "behaviorVi": "Ẩn dưới các bụi cây rậm vào mùa khô và chỉ hoạt động tích cực cũng như giao phối khi mùa mưa nhiệt đới bắt đầu.",
+    "reproductionVi": "Đẻ 3–6 trứng mỗi lứa vào mùa mưa, thời gian ấp tự nhiên kéo dài tới 170–240 ngày.",
+    "threatsVi": [
+      "Nạn săn trộm cho thị trường chợ đen quốc tế",
+      "Lợn rừng châu Phi ngoại lai đào ăn trứng và rùa con",
+      "Cháy đồng cỏ"
+    ],
+    "funFactsVi": [
+      "Để ngăn chặn bọn săn trộm đánh cắp từ khu bảo tồn, các nhà khoa học từng phải khắc mã số bảo tồn lớn lên bề mặt mai của các cá thể nhằm làm mất giá trị thẩm mỹ trên chợ đen."
+    ],
+    "similarSpecies": [
+      "Astrochelys radiata",
+      "Stigmochelys pardalis"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I CITES và là một trong những loài rùa cạn nguy cấp nhất hành tinh (CR), nghiêm cấm mọi giao dịch thương mại."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Close-up back view of a Madagascar tortoise in the Palmarium Manambato reserve, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Close-up_back_view_of_a_Madagascar_tortoise_in_the_Palmarium_Manambato_reserve,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Close-up_back_view_of_a_Madagascar_tortoise_in_the_Palmarium_Manambato_reserve%2C_Madagascar.jpg",
+        "width": 4512,
+        "height": 3008,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrinivo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ploughshare Tortoise (Astrochelys yniphora) (20359393031).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ploughshare_Tortoise_(Astrochelys_yniphora)_(20359393031).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ploughshare_Tortoise_%28Astrochelys_yniphora%29_%2820359393031%29.jpg",
+        "width": 824,
+        "height": 808,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Internet Archive Book Images",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Wild Astrochelys yniphora in its native habitats 2-transformed.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wild_Astrochelys_yniphora_in_its_native_habitats_2-transformed.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Wild_Astrochelys_yniphora_in_its_native_habitats_2-transformed.png",
+        "width": 2804,
+        "height": 2104,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Andrea Currylow, Angelo Ramy Mandimbihasina, Paul Gibbons, Daniel E Crocker",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrochelys yniphora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrochelys_yniphora.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Astrochelys_yniphora.jpg",
+        "width": 2320,
+        "height": 1740,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hans Hillewaert",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Paradisio tortue.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paradisio_tortue.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Paradisio_tortue.JPG",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Daniel71953",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441673",
+      "https://www.iucnredlist.org/species/9016/12950950",
+      "https://en.wikipedia.org/wiki/Angonoka_tortoise",
+      "https://vi.wikipedia.org/wiki/Astrochelys_yniphora"
+    ]
+  },
+  {
+    "scientificName": "Pyxis arachnoides",
+    "commonNameVi": "Rùa Nhện Madagascar",
+    "commonNameEn": "Spider Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Pyxis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Pyxis"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/19035/177075588",
+    "gbifKey": 5220309,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 33,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đụn cát ven biển và rừng cây bụi gai khô hạn Tây Nam Madagascar"
+    },
+    "descriptionVi": "Loài rùa cạn tí hon đặc hữu của vùng bờ biển Tây Nam Madagascar, mang hoa văn tia vàng nối vào nhau như mạng nhện và khớp bản lề ở yếm trước.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN do sinh cảnh rừng gai ven biển bị chia cắt và nạn thu bắt buôn lậu.",
+    "pullQuoteVi": "Mỗi mùa sinh sản, rùa nhện cái chỉ đẻ duy nhất một quả trứng lớn chiếm tới gần một phần ba khoang cơ thể của chính nó.",
+    "dietVi": "Động vật ăn thực vật: chồi cỏ non, lá cây mọng nước, địa y và rễ cây sau mưa.",
+    "lifespanVi": "40–70 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Morombe, Tây Nam Madagascar",
+      "lat": -21.75,
+      "lng": 43.36
+    },
+    "regionVi": "Tây Nam Madagascar",
+    "otherNamesVi": [
+      "Rùa mạng nhện"
+    ],
+    "synonyms": [
+      "Bellemys arachnoides",
+      "Pyxis arachnoides matzi",
+      "Pyxis arachnoides oblonga",
+      "Pyxis aranoides"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pyxis_arachnoides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Spider_tortoise",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 11,
+      "lengthCmMax": 15,
+      "weightGMin": 200,
+      "weightGMax": 450,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài rùa cạn nhỏ nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Dải ven biển hẹp rộng 10–50 km dọc bờ Tây Nam đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 150
+      }
+    },
+    "habitatTypesVi": [
+      "Đụn cát ven biển",
+      "Rừng cây bụi gai khô",
+      "Thảm cây mọng nước trên cát"
+    ],
+    "identificationVi": "Mai vòm tròn nhỏ nhắn có nền đen nâu với 5–8 vạch vàng tỏa từ tâm mỗi tấm vảy nối liền nhau như tơ nhện; thùy trước của yếm bụng có khớp bản lề đóng mở được.",
+    "behaviorVi": "Vùi mình dưới cát khô ngủ hè suốt 6–7 tháng mùa khô và chỉ trồi lên kiếm ăn khi những cơn mưa mùa hè xuất hiện.",
+    "reproductionVi": "Chỉ đẻ đúng 1 quả trứng lớn mỗi lứa, thời gian ấp kéo dài 220–250 ngày qua giai đoạn nghỉ phôi.",
+    "threatsVi": [
+      "Khai thác rừng gai ven biển làm đất nông nghiệp và than củi",
+      "Buôn bán động vật hoang dã trái phép"
+    ],
+    "funFactsVi": [
+      "Đây là một trong hai loài duy nhất của chi Pyxis có khớp bản lề ở thùy trước yếm bụng, cho phép rùa khép kín phần đầu và hai chân trước khi rút vào mai."
+    ],
+    "similarSpecies": [
+      "Pyxis planicauda",
+      "Astrochelys radiata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I CITES và mức Cực kỳ nguy cấp (CR), cấm hoàn toàn buôn bán thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Spider tortoise (Pyxis arachnoides archnoides) Tsimanampetsotsa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spider_tortoise_(Pyxis_arachnoides_archnoides)_Tsimanampetsotsa.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Spider_tortoise_%28Pyxis_arachnoides_archnoides%29_Tsimanampetsotsa.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Milwaukee County Zoo August 2022 113 (spider tortoise).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Milwaukee_County_Zoo_August_2022_113_(spider_tortoise).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Milwaukee_County_Zoo_August_2022_113_%28spider_tortoise%29.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Michael Barera",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Gfp-spider-tortoises.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gfp-spider-tortoises.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Gfp-spider-tortoises.jpg",
+        "width": 3456,
+        "height": 2304,
+        "license": "Public Domain",
+        "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+        "author": "Yinan Chen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tortue Pixis.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tortue_Pixis.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Tortue_Pixis.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Marius CONJEAUD",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kumonosu - kame.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kumonosu_-_kame.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kumonosu_-_kame.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "ゆうき315",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5220309",
+      "https://www.iucnredlist.org/species/19035/177075588",
+      "https://en.wikipedia.org/wiki/Spider_tortoise",
+      "https://vi.wikipedia.org/wiki/Pyxis_arachnoides"
+    ]
+  },
+  {
+    "scientificName": "Geochelone elegans",
+    "commonNameVi": "Rùa Sao Ấn Độ",
+    "commonNameEn": "Indian Star Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Geochelone"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Geochelone"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/39430/123815345",
+    "gbifKey": 2441535,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 33,
+      "baskMin": 34,
+      "baskMax": 37,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ khô, rừng cây bụi gai và vùng nông nghiệp bán khô hạn ở Ấn Độ, Pakistan và Sri Lanka"
+    },
+    "descriptionVi": "Loài rùa cạn nổi tiếng của tiểu lục địa Ấn Độ với những tấm vảy lưng nhô hình tháp tự nhiên mang họa tiết ngôi sao vàng kem đối xứng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và đã được nâng lên Phụ lục I CITES từ năm 2019 để ngăn chặn nạn buôn lậu xuyên quốc gia.",
+    "pullQuoteVi": "Những đường tia vàng kem hội tụ trên đỉnh từng tấm vảy tạo nên họa tiết ngôi sao giúp đánh lừa thị giác kẻ săn mồi giữa các bụi cỏ khô.",
+    "dietVi": "Động vật ăn thực vật: cỏ khô, cỏ tươi, lá xương rồng, lá dâm bụt và rau lá giàu canxi.",
+    "lifespanVi": "40–80 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Gujarat, Ấn Độ",
+      "lat": 22.26,
+      "lng": 71.19
+    },
+    "regionVi": "Nam Á (Ấn Độ, Pakistan, Sri Lanka)",
+    "otherNamesVi": [
+      "Rùa sao Nam Á"
+    ],
+    "synonyms": [
+      "Peltastes stellatus maura",
+      "Peltastes stellatus seba",
+      "Testudo actinodes",
+      "Testudo actinoides"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Geochelone_elegans",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indian_star_tortoise",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 30,
+      "weightGMin": 1200,
+      "weightGMax": 4500,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn và tròn hơn con đực rõ rệt"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "PK",
+        "LK"
+      ],
+      "nativeRangeVi": "Đông Nam Pakistan, tây bắc và đông nam Ấn Độ cùng đảo Sri Lanka",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi gai khô",
+      "Đồng cỏ bán khô hạn",
+      "Bờ ruộng và trảng cỏ mùa mưa"
+    ],
+    "identificationVi": "Các tấm vảy trên mai tự nhiên hơi nhô cao ở tâm, từ đó tỏa ra 6–12 tia màu vàng ngà trên nền đen tạo thành hình ngôi sao trên cả mai lưng lẫn yếm bụng.",
+    "behaviorVi": "Nhút nhát, không đào hang mà thường rúc dưới các bụi cỏ dày vào giữa trưa nắng gắt.",
+    "reproductionVi": "Đẻ 3–8 trứng mỗi lứa sau mùa mưa gió mùa, trứng nở sau 90–140 ngày.",
+    "threatsVi": [
+      "Nạn thu bắt bất hợp pháp hàng chục nghìn cá thể mỗi năm từ tự nhiên",
+      "Mất sinh cảnh đồng cỏ cây bụi"
+    ],
+    "funFactsVi": [
+      "Nhờ hình dáng mai vòm nhô cao tự nhiên, nếu một con rùa sao Ấn Độ bị lật ngửa trên mặt đất phẳng, nó có thể dễ dàng lắc đầu để tự lật úp trở lại."
+    ],
+    "similarSpecies": [
+      "Geochelone platynota",
+      "Astrochelys radiata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Đã được chuyển lên Phụ lục I CITES từ Hội nghị CoP18 (2019), nghiêm cấm giao dịch thương mại trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Indian star tortoise (2016) 7365.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indian_star_tortoise_(2016)_7365.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Indian_star_tortoise_%282016%29_7365.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Davidvraju",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Indian star tartoise at Boorugadda temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indian_star_tartoise_at_Boorugadda_temple.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Indian_star_tartoise_at_Boorugadda_temple.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Bathula Ganesh Goud",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Indian star tortoise (Geochelone elegans) in Gujarat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indian_star_tortoise_(Geochelone_elegans)_in_Gujarat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Indian_star_tortoise_%28Geochelone_elegans%29_in_Gujarat.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Malaika the jackal researcher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Fun at Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fun_at_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fun_at_Zoo.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Pooja ambilkar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Geochelone elegans at the Columbus Zoo-2011 07 11 IMG 0631.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geochelone_elegans_at_the_Columbus_Zoo-2011_07_11_IMG_0631.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Geochelone_elegans_at_the_Columbus_Zoo-2011_07_11_IMG_0631.JPG",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "User:Postdlf",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441535",
+      "https://www.iucnredlist.org/species/39430/123815345",
+      "https://en.wikipedia.org/wiki/Indian_star_tortoise",
+      "https://vi.wikipedia.org/wiki/Geochelone_elegans"
+    ]
+  },
+  {
+    "scientificName": "Indotestudo elongata",
+    "commonNameVi": "Rùa Núi Vàng",
+    "commonNameEn": "Elongated Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Indotestudo"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Indotestudo"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/10824/152051190",
+    "gbifKey": 8539576,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 31,
+      "baskMax": 34,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khộp lá rộng rụng lá, rừng tre nứa và rừng thường xanh đồi núi Đông Nam Á"
+    },
+    "descriptionVi": "Loài rùa cạn bản địa quen thuộc nhất của rừng Việt Nam với chiếc mai thuôn dài màu vàng ngà điểm đốm đen và cái đầu chuyển sang màu hồng đào vào mùa sinh sản.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc nhóm IIB Nghị định 84/2021/NĐ-CP tại Việt Nam do suy giảm quần thể nghiêm trọng vì săn bắt.",
+    "pullQuoteVi": "Mỗi khi mùa mưa giao phối gõ cửa rừng già, vùng da quanh mắt và mũi của rùa núi vàng chuyển sang sắc hồng phấn tươi tắn vô cùng đặc biệt.",
+    "dietVi": "Động vật ăn tạp thiên thực vật: lá cây rừng, măng non, nấm rừng, quả rụng và giun đất, ốc sên.",
+    "lifespanVi": "40–60 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Vườn quốc gia Yok Đôn, Đắk Lắk, Việt Nam",
+      "lat": 12.87,
+      "lng": 107.7
+    },
+    "regionVi": "Nam Á và Đông Nam Á",
+    "otherNamesVi": [
+      "Rùa đất vàng",
+      "Rùa đầu vàng"
+    ],
+    "synonyms": [
+      "Geochelone elongata",
+      "Testudo elongata",
+      "Testudo parallelus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%B9a_n%C3%BAi_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Elongated_tortoise",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 22,
+      "lengthCmMax": 33,
+      "weightGMin": 1500,
+      "weightGMax": 3800,
+      "heightCmMax": null,
+      "noteVi": "Mai thuôn dài và hơi phẳng ở đỉnh"
+    },
+    "distribution": {
+      "countries": [
+        "NP",
+        "IN",
+        "BT",
+        "BD",
+        "MM",
+        "CN",
+        "LA",
+        "VN",
+        "KH",
+        "TH",
+        "MY"
+      ],
+      "nativeRangeVi": "Từ Nepal, Đông Bắc Ấn Độ qua Myanmar, Nam Trung Quốc xuống Lào, Việt Nam, Campuchia, Thái Lan và bắc bán đảo Malaysia",
+      "elevationM": {
+        "min": 50,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khộp (Dipterocarp)",
+      "Rừng thường xanh nhiệt đới",
+      "Rừng tre nứa ven suối"
+    ],
+    "identificationVi": "Mai thuôn dài màu vàng sáp ong hoặc vàng caramel với các mảng đốm đen bất đối xứng ở giữa các tấm vảy; đầu màu vàng kem hoặc trắng ngà, có vảy gáy nhỏ dài.",
+    "behaviorVi": "Đôi mắt to thích nghi kiếm ăn dưới bóng râm rừng rậm vào sáng sớm, chiều muộn hoặc ngay trong cơn mưa rừng.",
+    "reproductionVi": "Đẻ 2–5 trứng thuôn dài mỗi lứa vào mùa mưa, thời gian ấp kéo dài 100–130 ngày.",
+    "threatsVi": [
+      "Săn bắt trái phép làm thực phẩm và thuốc đông y",
+      "Cháy rừng và mất sinh cảnh rừng khộp"
+    ],
+    "funFactsVi": [
+      "Hiện tượng da quanh mũi và mắt rùa đực lẫn rùa cái chuyển thành màu hồng tươi vào mùa sinh sản được gọi là 'màu áo cưới' độc nhất trong họ rùa cạn châu Á."
+    ],
+    "similarSpecies": [
+      "Indotestudo forstenii",
+      "Indotestudo travancorica"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Loài bản địa Cực kỳ nguy cấp (CR) và thuộc Nhóm IIB Nghị định 06/2019/NĐ-CP và 84/2021/NĐ-CP tại Việt Nam, không mở bán thương mại trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2024-03-29-Indotestudo elongata-167A3511.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-03-29-Indotestudo_elongata-167A3511.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/2024-03-29-Indotestudo_elongata-167A3511.jpg",
+        "width": 6264,
+        "height": 4176,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superbass",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2024-03-29-Indotestudo elongata-167A3539.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-03-29-Indotestudo_elongata-167A3539.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2024-03-29-Indotestudo_elongata-167A3539.jpg",
+        "width": 2987,
+        "height": 4480,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superbass",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2024-03-29-Indotestudo elongata-167A3519.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-03-29-Indotestudo_elongata-167A3519.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/2024-03-29-Indotestudo_elongata-167A3519.jpg",
+        "width": 6720,
+        "height": 4480,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superbass",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Elongated Tortoise (Indotestudo elongata) (7788485928).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elongated_Tortoise_(Indotestudo_elongata)_(7788485928).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Elongated_Tortoise_%28Indotestudo_elongata%29_%287788485928%29.jpg",
+        "width": 3527,
+        "height": 2504,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Salzburg Haus der Natur - Gelbkopfschildkröte 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Salzburg_Haus_der_Natur_-_Gelbkopfschildkr%C3%B6te_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Salzburg_Haus_der_Natur_-_Gelbkopfschildkr%C3%B6te_1.jpg",
+        "width": 3344,
+        "height": 2308,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wolfgang Sauber",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8539576",
+      "https://www.iucnredlist.org/species/10824/152051190",
+      "https://en.wikipedia.org/wiki/Elongated_tortoise",
+      "https://vi.wikipedia.org/wiki/R%C3%B9a_n%C3%BAi_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Manouria emys",
+    "commonNameVi": "Rùa Núi Nâu",
+    "commonNameEn": "Asian Forest Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Manouria"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Manouria"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/12774/152052098",
+    "gbifKey": 2441830,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa thường xanh ẩm ướt và khe suối rừng núi Đông Nam Á"
+    },
+    "descriptionVi": "Loài rùa cạn lớn nhất châu Á và mang nhiều nét tiến hóa cổ xưa nhất trong họ Testudinidae, là loài rùa cạn duy nhất biết vun lá xây tổ gò và canh giữ trứng.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc nhóm IIB Nghị định 84/2021/NĐ-CP do nạn săn bắt lấy thịt khắp Đông Nam Á.",
+    "pullQuoteVi": "Như một loài khủng long thu nhỏ còn sót lại, rùa núi nâu mẹ dùng hai chân trước gom lá mục đắp thành gò tổ cao rồi nằm canh giữ, húc đuổi mọi kẻ săn mồi bén mảng tới gần.",
+    "dietVi": "Động vật ăn thực vật rừng ẩm: măng tre, củ môn ráy rừng, nấm, lá cây mọng nước và trái cây rụng.",
+    "lifespanVi": "60–80 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Sumatra, Indonesia",
+      "lat": -0.59,
+      "lng": 101.34
+    },
+    "regionVi": "Nam Á và Đông Nam Á",
+    "otherNamesVi": [
+      "Rùa chân voi châu Á",
+      "Rùa sáu chân"
+    ],
+    "synonyms": [
+      "Geochelone emys",
+      "Manouria fusca",
+      "Teleopus luxatus",
+      "Testudo emydoides"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%C3%B9a_n%C3%BAi_n%C3%A2u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Asian_forest_tortoise",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 60,
+      "weightGMin": 15000,
+      "weightGMax": 35000,
+      "heightCmMax": null,
+      "noteVi": "Loài rùa cạn lớn nhất châu Á"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "BD",
+        "MM",
+        "TH",
+        "VN",
+        "MY",
+        "ID",
+        "BN"
+      ],
+      "nativeRangeVi": "Đông Bắc Ấn Độ, Myanmar, Thái Lan, Malaysia xuống Sumatra và Borneo (ghi nhận cực hiếm ở biên giới phía Nam Việt Nam)",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới nguyên sinh",
+      "Thung lũng suối rừng ẩm",
+      "Rừng tre nứa núi thấp"
+    ],
+    "identificationVi": "Mai rộng hơi dẹt màu nâu đen hoặc nâu ô-liu sẫm; trên mỗi đùi sau có cụm gai sừng rất lớn nhô ra khiến người bản địa gọi là 'rùa sáu chân'.",
+    "behaviorVi": "Rất ưa đằm mình trong bùn mát và suối cạn; có hành vi chăm sóc tổ trứng phức tạp nhất trong tất cả các loài rùa.",
+    "reproductionVi": "Đắp gò lá mục cao 30–50 cm và đẻ 25–50 trứng bên trong, rùa mẹ canh giữ tổ suốt 1–3 tuần đầu; trứng nở sau 65–75 ngày.",
+    "threatsVi": [
+      "Săn bắt ráo riết ngoài tự nhiên",
+      "Phá rừng mưa đất thấp tại Đông Nam Á"
+    ],
+    "funFactsVi": [
+      "Manouria emys là loài rùa duy nhất trên thế giới đẻ trứng vào gò lá nổi trên mặt đất thay vì đào lỗ chôn xuống đất và trực tiếp bảo vệ ổ trứng."
+    ],
+    "similarSpecies": [
+      "Manouria impressa",
+      "Centrochelys sulcata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Loài rùa cạn châu Á Cực kỳ nguy cấp (CR) và được bảo vệ theo Nghị định 84/2021/NĐ-CP, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2024-03-29-Manouria emys-167A3610.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-03-29-Manouria_emys-167A3610.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2024-03-29-Manouria_emys-167A3610.jpg",
+        "width": 6313,
+        "height": 4209,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superbass",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Manouria emys -Toronto Zoo, Ontario, Canada-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manouria_emys_-Toronto_Zoo,_Ontario,_Canada-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Manouria_emys_-Toronto_Zoo%2C_Ontario%2C_Canada-8a.jpg",
+        "width": 2848,
+        "height": 4288,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Kevin Ho",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Asian Forest Tortoise at Chester Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_Forest_Tortoise_at_Chester_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Asian_Forest_Tortoise_at_Chester_Zoo.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2021-07-21 Tierpark Berlin 214.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2021-07-21_Tierpark_Berlin_214.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/2021-07-21_Tierpark_Berlin_214.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Geoprofi Lars",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2024-03-29-Manouria emys-3624167A3624.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-03-29-Manouria_emys-3624167A3624.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2024-03-29-Manouria_emys-3624167A3624.jpg",
+        "width": 6128,
+        "height": 4085,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Superbass",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441830",
+      "https://www.iucnredlist.org/species/12774/152052098",
+      "https://en.wikipedia.org/wiki/Asian_forest_tortoise",
+      "https://vi.wikipedia.org/wiki/R%C3%B9a_n%C3%BAi_n%C3%A2u"
+    ]
+  },
+  {
+    "scientificName": "Malacochersus tornieri",
+    "commonNameVi": "Rùa Bánh Kẹp Châu Phi",
+    "commonNameEn": "Pancake Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Malacochersus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Malacochersus"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/12696/508210",
+    "gbifKey": 2441842,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 32,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi đá granit nứt nẻ (kopjes) giữa thảo nguyên khô Đông Phi"
+    },
+    "descriptionVi": "Loài rùa cạn kỳ lạ nhất thế giới với chiếc mai mỏng dẹt và mềm dẻo như chiếc bánh kếp, cho phép chúng chạy nhanh và luồn sâu vào những khe đá hẹp.",
+    "conservationNoteVi": "Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và đã được nâng lên Phụ lục I CITES năm 2019 do nạn cậy phá khe đá granit để bắt rùa tự nhiên.",
+    "pullQuoteVi": "Thay vì mang bộ giáp cứng nặng nề, rùa bánh kẹp tiến hóa chiếc mai dẹt mềm có nhiều khoảng trống xương để chạy thoăn thoắt và chui tọt vào khe đá khi gặp đại bàng.",
+    "dietVi": "Động vật ăn thực vật: cỏ khô, lá cây bụi mọc trên vách đá và cây mọng nước.",
+    "lifespanVi": "30–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Dodoma, Tanzania",
+      "lat": -6.16,
+      "lng": 35.75
+    },
+    "regionVi": "Đông Phi (Kenya, Tanzania, Zambia)",
+    "otherNamesVi": [
+      "Rùa mai mềm khe đá"
+    ],
+    "synonyms": [
+      "Testudo loveridgii",
+      "Testudo tornieri"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Malacochersus_tornieri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pancake_tortoise",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 18,
+      "weightGMin": 300,
+      "weightGMax": 550,
+      "heightCmMax": null,
+      "noteVi": "Chiều cao mai chỉ dày khoảng 2,5–3,5 cm"
+    },
+    "distribution": {
+      "countries": [
+        "KE",
+        "TZ",
+        "ZM"
+      ],
+      "nativeRangeVi": "Các cụm đồi đá granit (kopjes) tại miền nam Kenya, miền bắc và trung Tanzania cùng cực bắc Zambia",
+      "elevationM": {
+        "min": 400,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồi đá granit kopjes",
+      "Vách đá nứt nẻ trên savan khô"
+    ],
+    "identificationVi": "Mai cực kỳ dẹt, phẳng và ấn nhẹ có độ đàn hồi do xương mai tiêu giảm nhiều lỗ hổng; mặt lưng màu nâu vàng với các tia sáng mảnh tỏa trên từng tấm vảy.",
+    "behaviorVi": "Khi bị kẻ săn mồi kéo ra khỏi khe đá, chúng hít sâu và chống bốn chân đẩy lưng ép chặt vào trần đá khiến không gì lôi ra nổi.",
+    "reproductionVi": "Đẻ từng quả trứng thuôn dài duy nhất mỗi lần (nhưng có thể đẻ cách nhau 6 tuần), nở sau 110–140 ngày.",
+    "threatsVi": [
+      "Nạn dùng kích thủy lực và xà beng phá khe đá bắt rùa buôn lậu",
+      "Khai thác đá xây dựng"
+    ],
+    "funFactsVi": [
+      "Nhờ bộ mai siêu nhẹ, rùa bánh kẹp là vận động viên leo trèo và chạy nước rút nhanh nhất trong toàn bộ họ rùa cạn Testudinidae."
+    ],
+    "similarSpecies": [
+      "Homopus boulengeri",
+      "Chersobius signatus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I CITES (từ năm 2019) và mức Cực kỳ nguy cấp (CR), nghiêm cấm buôn bán thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Frankfurt Zoo - Pancake Tortoise.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Zoo_-_Pancake_Tortoise.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frankfurt_Zoo_-_Pancake_Tortoise.jpg",
+        "width": 4773,
+        "height": 3182,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Spleetschildpad (16123940970).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spleetschildpad_(16123940970).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Spleetschildpad_%2816123940970%29.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Tim Strater from Rotterdam, Nederland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pancake tortoise in Yaroslavl Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pancake_tortoise_in_Yaroslavl_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pancake_tortoise_in_Yaroslavl_Zoo.jpg",
+        "width": 4203,
+        "height": 3569,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Stolbovsky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PancakeTortoise MalacochersusTornieri57.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PancakeTortoise_MalacochersusTornieri57.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/PancakeTortoise_MalacochersusTornieri57.jpg",
+        "width": 4272,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pancake Tortoise 078.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pancake_Tortoise_078.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pancake_Tortoise_078.jpg",
+        "width": 3015,
+        "height": 1895,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441842",
+      "https://www.iucnredlist.org/species/12696/508210",
+      "https://en.wikipedia.org/wiki/Pancake_tortoise",
+      "https://vi.wikipedia.org/wiki/Malacochersus_tornieri"
+    ]
+  },
+  {
+    "scientificName": "Kinixys homeana",
+    "commonNameVi": "Rùa Bản Lề Lưng Gù Home",
+    "commonNameEn": "Home's Hinge-back Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Kinixys"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Kinixys"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/11003/18341580",
+    "gbifKey": 2441703,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 30,
+      "baskMax": 32,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng mưa nhiệt đới ẩm ướt và đầm lầy ven biển Tây và Trung Phi"
+    },
+    "descriptionVi": "Loài rùa cạn rừng mưa Tây Phi sở hữu khớp bản lề độc đáo nằm ngay trên phần sau của mai lưng, giúp gập kín đuôi và hai chân sau như một chiếc hộp.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và có hạn ngạch xuất khẩu tự nhiên bằng 0 theo CITES do suy giảm quần thể nghiêm trọng.",
+    "pullQuoteVi": "Trong khi rùa hộp có bản lề ở yếm bụng, các loài chi Kinixys lại sở hữu khớp bản lề nằm ngay trên mai lưng với phần mông gập vuông góc 90 độ kỳ lạ.",
+    "dietVi": "Động vật ăn tạp rừng mưa: nấm rừng, trái cây rụng, lá cây mục, giun đất, cuốn chiếu và ốc sên.",
+    "lifespanVi": "40–50 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Cameroon",
+      "lat": 4.05,
+      "lng": 9.7
+    },
+    "regionVi": "Tây và Trung Phi",
+    "otherNamesVi": [
+      "Rùa khớp lưng Home"
+    ],
+    "synonyms": [],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Kinixys_homeana",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Home%27s_hinge-back_tortoise",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 22,
+      "weightGMin": 700,
+      "weightGMax": 1600,
+      "heightCmMax": null,
+      "noteVi": "Phần mai phía sau gập khúc gần như thẳng đứng"
+    },
+    "distribution": {
+      "countries": [
+        "LR",
+        "CI",
+        "GH",
+        "TG",
+        "BJ",
+        "NG",
+        "CM",
+        "GQ",
+        "GA",
+        "CD"
+      ],
+      "nativeRangeVi": "Dải rừng mưa ven vịnh Guinea từ Liberia, Bờ Biển Ngà, Ghana, Nigeria đến Cameroon, Gabon và Cộng hòa Dân chủ Congo",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Sàn rừng mưa nhiệt đới thường xanh",
+      "Rừng đầm lầy nước ngọt",
+      "Bờ suối rừng râm mát"
+    ],
+    "identificationVi": "Mai màu nâu gỗ mục, có một khớp bản lề ngang giữa tấm vảy sườn thứ 2 và 3; ngay tại tấm vảy sống lưng thứ 5 mai gập góc dựng đứng xuống phía đuôi tạo dáng lưng gù.",
+    "behaviorVi": "Cực kỳ nhút nhát, ghét ánh nắng chói chang và dành cả ngày rúc sâu dưới lớp lá rừng mục ẩm ướt.",
+    "reproductionVi": "Đẻ 2–4 trứng nhỏ trên nền lá mục rừng mưa.",
+    "threatsVi": [
+      "Săn bắt làm thịt rừng (bushmeat) và phá rừng trồng ca cao, cọ dầu tại Tây Phi"
+    ],
+    "funFactsVi": [
+      "Chi Kinixys là nhóm rùa duy nhất còn sống trên Trái Đất có khớp bản lề hoạt động nằm trên mai lưng (carapace) thay vì nằm dưới yếm bụng (plastron)."
+    ],
+    "similarSpecies": [
+      "Kinixys erosa",
+      "Kinixys belliana"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Cực kỳ nguy cấp (CR), CITES áp dụng hạn ngạch xuất khẩu bằng 0 đối với mẫu vật tự nhiên và gần như không có nguồn nhân giống thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Home's hinge-back tortoise (Kinixys homeana).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Home%27s_hinge-back_tortoise_(Kinixys_homeana).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Home%27s_hinge-back_tortoise_%28Kinixys_homeana%29.jpg",
+        "width": 4656,
+        "height": 3104,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Home's hinge-back tortoise (Kinixys homeana) Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Home%27s_hinge-back_tortoise_(Kinixys_homeana)_Ghana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Home%27s_hinge-back_tortoise_%28Kinixys_homeana%29_Ghana.jpg",
+        "width": 4306,
+        "height": 2871,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:A forest hinge-back tortoise (Kinixys erosa).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_forest_hinge-back_tortoise_(Kinixys_erosa).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/A_forest_hinge-back_tortoise_%28Kinixys_erosa%29.jpg",
+        "width": 2156,
+        "height": 1586,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "DarkNight0917",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kinixys homeana 13136924.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinixys_homeana_13136924.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kinixys_homeana_13136924.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "B. Phalan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:HomesHingeBackTSL1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HomesHingeBackTSL1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/HomesHingeBackTSL1.jpg",
+        "width": 1100,
+        "height": 734,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tsl09",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441703",
+      "https://www.iucnredlist.org/species/11003/18341580",
+      "https://en.wikipedia.org/wiki/Home%27s_hinge-back_tortoise",
+      "https://vi.wikipedia.org/wiki/Kinixys_homeana"
+    ]
+  },
+  {
+    "scientificName": "Chersina angulata",
+    "commonNameVi": "Rùa Mũi Tàu Nam Phi",
+    "commonNameEn": "Angulate Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Chersina"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Chersina"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170519/115655918",
+    "gbifKey": 5220285,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 29,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cồn cát ven biển và thảm thực vật cây bụi fynbos ở Nam Phi và Namibia"
+    },
+    "descriptionVi": "Loài rùa cạn đặc trưng của vùng mũi Hảo Vọng với tấm vảy yếm đơn nhô dài dưới cổ như mũi tàu chiến để các con đực tỉ thí mùa giao phối.",
+    "conservationNoteVi": "Phổ biến trong các khu bảo tồn vùng Cape (Nam Phi) nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Giữa những vùng cát ven biển khô cằn không một vũng nước, rùa mũi tàu có thể uống từng giọt sương biển đọng trên chính mũi và tấm mai trước của mình.",
+    "dietVi": "Động vật ăn thực vật: cỏ khô, cây mọng nước bản địa, hoa dại và địa y.",
+    "lifespanVi": "35–50 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Cape, Nam Phi",
+      "lat": -33.92,
+      "lng": 18.42
+    },
+    "regionVi": "Nam Phi và Nam Namibia",
+    "otherNamesVi": [
+      "Rùa Bowsprit"
+    ],
+    "synonyms": [
+      "Chersina angulata pallida",
+      "Chersine angulata",
+      "Goniochersus angulata",
+      "Neotestudo angulata"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chersina_angulata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Angulate_tortoise",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 26,
+      "weightGMin": 800,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn và thuôn dài hơn con cái"
+    },
+    "distribution": {
+      "countries": [
+        "ZA",
+        "NA"
+      ],
+      "nativeRangeVi": "Dọc bờ biển phía nam và phía tây Nam Phi kéo dài tới cực nam Namibia",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm cây bụi fynbos",
+      "Bán sa mạc Karoo mọng nước",
+      "Cồn cát ven biển"
+    ],
+    "identificationVi": "Mai thuôn dài màu vàng rơm viền đen với các hình tam giác đen dọc hai bên sườn; yếm bụng màu đỏ cam ở rìa và chỉ có 1 tấm vảy cổ (gular) đơn duy nhất nhô dài dưới cằm.",
+    "behaviorVi": "Con đực rất hiếu chiến vào mùa xuân, thường dùng phần yếm nhô như mũi tàu để húc lật ngửa đối thủ.",
+    "reproductionVi": "Đẻ từng quả trứng một nhưng đẻ nhiều lần trong năm (tới 5–6 lần), trứng nở sau 90–140 ngày.",
+    "threatsVi": [
+      "Cháy rừng fynbos và quạ khoang săn bắt rùa non"
+    ],
+    "funFactsVi": [
+      "Trên đảo Dassen ngoài khơi Nam Phi, mật độ rùa mũi tàu cao đến mức có hàng chục nghìn cá thể cùng sinh sống trên một hòn đảo nhỏ chỉ rộng hơn 2 km²."
+    ],
+    "similarSpecies": [
+      "Astrochelys yniphora",
+      "Homopus areolatus"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nam Phi cấm xuất khẩu thương mại động vật bản địa hoang dã và không có nguồn nhân giống tại Việt Nam, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Angulate Tortoise (Chersina angulata) (31060046065).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angulate_Tortoise_(Chersina_angulata)_(31060046065).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Angulate_Tortoise_%28Chersina_angulata%29_%2831060046065%29.jpg",
+        "width": 5472,
+        "height": 3094,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chersina angulata tortoise - Cape Town.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chersina_angulata_tortoise_-_Cape_Town.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chersina_angulata_tortoise_-_Cape_Town.jpg",
+        "width": 869,
+        "height": 1244,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Abu Shawka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Chersina angulata (10).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chersina_angulata_(10).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Chersina_angulata_%2810%29.JPG",
+        "width": 2000,
+        "height": 1500,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nanosanchez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Angulated Tortoise (Chersina angulata) (44576093050).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angulated_Tortoise_(Chersina_angulata)_(44576093050).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Angulated_Tortoise_%28Chersina_angulata%29_%2844576093050%29.jpg",
+        "width": 4753,
+        "height": 2929,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Angulated Tortoises (Chersina angulata) (45669870204).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angulated_Tortoises_(Chersina_angulata)_(45669870204).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Angulated_Tortoises_%28Chersina_angulata%29_%2845669870204%29.jpg",
+        "width": 4866,
+        "height": 2493,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5220285",
+      "https://www.iucnredlist.org/species/170519/115655918",
+      "https://en.wikipedia.org/wiki/Angulate_tortoise",
+      "https://vi.wikipedia.org/wiki/Chersina_angulata"
+    ]
+  },
+  {
+    "scientificName": "Homopus areolatus",
+    "commonNameVi": "Rùa Lùn Mỏ Vẹt",
+    "commonNameEn": "Common Padloper",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Homopus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Homopus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170520/115656133",
+    "gbifKey": 5220261,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 28,
+      "baskMin": 30,
+      "baskMax": 33,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm cây bụi fynbos và đồng cỏ ven biển vùng Cape, Nam Phi"
+    },
+    "descriptionVi": "Loài rùa cạn lùn đặc hữu của Nam Phi có chiếc mỏ hàm trên cong nhọn như mỏ vẹt và tâm các tấm vảy lưng lõm sâu viền nâu đỏ.",
+    "conservationNoteVi": "Phân bố rộng dọc vùng Cape của Nam Phi nên được Sách Đỏ IUCN xếp mức Ít quan tâm (LC).",
+    "pullQuoteVi": "Với chiều dài mai chỉ khoảng 10 cm khi trưởng thành, rùa lùn mỏ vẹt có thể dễ dàng luồn lách dưới những bụi thạch nam thấp nhất của vùng mũi Hảo Vọng.",
+    "dietVi": "Động vật ăn thực vật: hoa, chồi lá cây bụi fynbos, cỏ mềm và cây mọng nước nhỏ.",
+    "lifespanVi": "25–35 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Cape, Nam Phi",
+      "lat": -33.75,
+      "lng": 25.5
+    },
+    "regionVi": "Nam Phi",
+    "otherNamesVi": [
+      "Rùa Padloper thường"
+    ],
+    "synonyms": [
+      "Chersine areolata",
+      "Chersine tetradactyla",
+      "Testudo africana",
+      "Testudo areolata"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Homopus_areolatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Homopus_areolatus",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 9,
+      "lengthCmMax": 12,
+      "weightGMin": 120,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Con đực chỉ dài khoảng 9–10 cm, con cái tới 12 cm"
+    },
+    "distribution": {
+      "countries": [
+        "ZA"
+      ],
+      "nativeRangeVi": "Đặc hữu các tỉnh Tây Cape và Đông Cape của Nam Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm thực vật fynbos",
+      "Rừng cây bụi ven biển",
+      "Thung lũng đá ẩm"
+    ],
+    "identificationVi": "Mai nhỏ hơi dẹt với tâm các tấm vảy (areolae) lõm xuống màu nâu đỏ bao quanh bởi các vòng màu xanh ô-liu hoặc vàng; mỏ trên khoằm nhọn như mỏ vẹt và chân trước có 4 móng.",
+    "behaviorVi": "Mùa giao phối, da mũi của con đực chuyển sang màu cam đỏ tươi để thu hút con cái.",
+    "reproductionVi": "Đẻ 2–4 trứng nhỏ thuôn dài mỗi lứa, nở sau khoảng 100–130 ngày.",
+    "threatsVi": [
+      "Mở rộng nông nghiệp và đô thị tại vùng Cape",
+      "Chó mèo nhà và quạ tấn công"
+    ],
+    "funFactsVi": [
+      "Tên gọi địa phương 'Padloper' trong tiếng Afrikaans có nghĩa là 'người đi bộ trên lối mòn', vì người dân thường bắt gặp chúng bò ngang qua các lối mòn nhỏ sau cơn mưa."
+    ],
+    "similarSpecies": [
+      "Testudo kleinmanni",
+      "Chersina angulata"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài đặc hữu được bảo vệ nghiêm ngặt theo luật bảo tồn Nam Phi và không giao dịch thương mại quốc tế, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:1 Padloper -Homopus areolatus - Touws river - Copy.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1_Padloper_-Homopus_areolatus_-_Touws_river_-_Copy.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1_Padloper_-Homopus_areolatus_-_Touws_river_-_Copy.jpg",
+        "width": 3140,
+        "height": 2502,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "S Molteno",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Homopus areolatus - Nicola van Berkel - 15566627.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Homopus_areolatus_-_Nicola_van_Berkel_-_15566627.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Homopus_areolatus_-_Nicola_van_Berkel_-_15566627.jpeg",
+        "width": 1842,
+        "height": 1760,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nicola van Berkel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Common Padloper - Homopus areolatus - Cape Town 8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Padloper_-_Homopus_areolatus_-_Cape_Town_8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Common_Padloper_-_Homopus_areolatus_-_Cape_Town_8.jpg",
+        "width": 768,
+        "height": 833,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Abu Shawka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:HomopusAreolatus - Padloper - Ceres South Africa.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HomopusAreolatus_-_Padloper_-_Ceres_South_Africa.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/HomopusAreolatus_-_Padloper_-_Ceres_South_Africa.JPG",
+        "width": 2816,
+        "height": 2120,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Abu Shawka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Beaked cape tortoise.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaked_cape_tortoise.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beaked_cape_tortoise.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "frank wouters",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5220261",
+      "https://www.iucnredlist.org/species/170520/115656133",
+      "https://en.wikipedia.org/wiki/Homopus_areolatus",
+      "https://vi.wikipedia.org/wiki/Homopus_areolatus"
+    ]
+  },
+  {
+    "scientificName": "Gopherus agassizii",
+    "commonNameVi": "Rùa Sa Mạc Mojave",
+    "commonNameEn": "Mojave Desert Tortoise",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Gopherus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Rùa",
+      "family": "Họ Testudinidae",
+      "genus": "Chi Gopherus"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/97246272/3150871",
+    "gbifKey": 2441814,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 34,
+      "baskMin": 35,
+      "baskMax": 39,
+      "humidMin": 25,
+      "humidMax": 45,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thung lũng cát sỏi, rừng cây bụi creosote và cây Joshua thuộc sa mạc Mojave và Colorado"
+    },
+    "descriptionVi": "Kỹ sư sinh thái của sa mạc Mojave miền Tây Nam Hoa Kỳ, dành tới 95% cuộc đời trong những hang ngầm mát mẻ nơi hàng chục loài động vật sa mạc khác cùng trú nhờ.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và được bảo vệ cấp Liên bang Hoa Kỳ do suy giảm quần thể nhanh vì bệnh hô hấp, quạ săn rùa non và mất sinh cảnh.",
+    "pullQuoteVi": "Bàng quang của rùa sa mạc Mojave hoạt động như một bình nước dự trữ di động có thể tích trữ lượng nước bằng hơn 40% trọng lượng cơ thể suốt mùa hạn.",
+    "dietVi": "Động vật ăn thực vật: hoa dại mùa xuân, cỏ sa mạc, xương rồng lê gai và cây bụi sa mạc.",
+    "lifespanVi": "50–80 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Sa mạc Mojave, California, Hoa Kỳ",
+      "lat": 35.01,
+      "lng": -115.47
+    },
+    "regionVi": "Tây Nam Hoa Kỳ",
+    "otherNamesVi": [
+      "Rùa đất Agassiz"
+    ],
+    "synonyms": [
+      "Scaptochelys agassizii",
+      "Xerobates lepidocephalus"
+    ],
+    "wikidataId": null,
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gopherus_agassizii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Desert_tortoise",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 23,
+      "lengthCmMax": 36,
+      "weightGMin": 2500,
+      "weightGMax": 6000,
+      "heightCmMax": null,
+      "noteVi": "Chân trước dẹt rộng như xẻng đào đất"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Sa mạc Mojave và tây sa mạc Sonoran phía bắc và tây sông Colorado (California, Nevada, Utah, tây bắc Arizona)",
+      "elevationM": {
+        "min": 150,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Sa mạc cây bụi creosote",
+      "Rừng cây Joshua",
+      "Sườn đồi cát sỏi bajada"
+    ],
+    "identificationVi": "Mai vòm cao màu nâu sừng hoặc xám nâu với các đường rãnh đồng tâm rõ; hai chân trước dẹt to phủ vảy cứng như mái chèo chuyên dụng để đào hang.",
+    "behaviorVi": "Đào các hang dài tới 3–10 mét dưới lòng đất; khi trời có dấu hiệu sắp mưa, chúng bò ra đào những hố hứng nước mưa trên mặt đất rồi đứng chờ uống.",
+    "reproductionVi": "Đẻ 4–8 trứng tròn vỏ cứng ở cửa hang vào cuối xuân, nở sau 90–120 ngày.",
+    "threatsVi": [
+      "Bệnh nhiễm trùng đường hô hấp trên do vi khuẩn Mycoplasma",
+      "Quạ đen bùng nổ số lượng săn bắt rùa con mai còn mềm"
+    ],
+    "funFactsVi": [
+      "Người ta tuyệt đối không được tự ý nhấc bổng một con rùa sa mạc Mojave ngoài tự nhiên vì khi hoảng sợ chúng sẽ xả toàn bộ nước dự trữ trong bàng quang và có thể chết khát sau đó."
+    ],
+    "similarSpecies": [
+      "Gopherus polyphemus",
+      "Gopherus berlandieri"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Cực kỳ nguy cấp (CR) được bảo vệ nghiêm ngặt theo Đạo luật Các loài Nguy cấp Hoa Kỳ (ESA), cấm mua bán thương mại, chỉ trưng bày bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Desert Tortoise (8981478591).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Desert_Tortoise_(8981478591).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Desert_Tortoise_%288981478591%29.jpg",
+        "width": 5069,
+        "height": 3410,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Lake Mead NRA Public Affairs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A desert tortoise walks along a bed of gravel. (73a82f69-412e-4ae0-bc73-ad9fc92445bc).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_desert_tortoise_walks_along_a_bed_of_gravel._(73a82f69-412e-4ae0-bc73-ad9fc92445bc).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/A_desert_tortoise_walks_along_a_bed_of_gravel._%2873a82f69-412e-4ae0-bc73-ad9fc92445bc%29.JPG",
+        "width": 1280,
+        "height": 1024,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Desert tortoise (G. agassizii) - Flickr - smashtonlee05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Desert_tortoise_(G._agassizii)_-_Flickr_-_smashtonlee05.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Desert_tortoise_%28G._agassizii%29_-_Flickr_-_smashtonlee05.jpg",
+        "width": 5248,
+        "height": 3834,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "smashtonlee05",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Desert tortoise at Living Desert (49351610033).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Desert_tortoise_at_Living_Desert_(49351610033).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Desert_tortoise_at_Living_Desert_%2849351610033%29.jpg",
+        "width": 4500,
+        "height": 2660,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS Pacific Southwest Region",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2441814",
+      "https://www.iucnredlist.org/species/97246272/3150871",
+      "https://en.wikipedia.org/wiki/Desert_tortoise",
+      "https://vi.wikipedia.org/wiki/Gopherus_agassizii"
+    ]
+  }
+]

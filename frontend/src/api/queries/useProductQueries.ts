@@ -32,6 +32,29 @@ export function useProducts(params?: {
   });
 }
 
+/**
+ * Toàn bộ sản phẩm APPROVED (khoảng vài trăm): hợp đồng giới hạn size ≤ 48 nên tải trang 1 để biết tổng rồi tải song song các trang còn lại.
+ * Dùng cho bộ lọc và đếm sản phẩm theo loài phía giao diện (giá, nhóm, IUCN chưa có trên API).
+ */
+export function useAllApprovedProducts() {
+  return useQuery<ProductViewModel[]>({
+    queryKey: queryKeys.products.allApproved(),
+    queryFn: async () => {
+      const PAGE = 48;
+      const first = normalizePage((await api<Page<ProductDto>>(`products?page=1&size=${PAGE}`)).data);
+      // Backend cũ trả mảng thường: normalizePage gộp hết vào trang 1, không cần tải thêm
+      const pages = first.items.length < first.total ? Math.ceil(first.total / PAGE) : 1;
+      const rest = await Promise.all(
+        Array.from({ length: pages - 1 }, (_, i) =>
+          api<Page<ProductDto>>(`products?page=${i + 2}&size=${PAGE}`).then((r) => normalizePage(r.data).items)
+        )
+      );
+      return [...first.items, ...rest.flat()].map((p) => toProductView(p));
+    },
+    staleTime: 60 * 1000,
+  });
+}
+
 /** Dùng chung cho useProductDetail và useQueries (giỏ hàng tra tên shop theo từng món) để cùng một bộ đệm */
 export function productDetailQueryOptions(id: number | string) {
   return {

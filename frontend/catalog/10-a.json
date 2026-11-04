@@ -1,0 +1,3690 @@
+[
+  {
+    "scientificName": "Melopsittacus undulatus",
+    "commonNameVi": "Vẹt yến phụng",
+    "commonNameEn": "Budgerigar",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Melopsittacus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Yến phụng (Melopsittacus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685223/132056957",
+    "gbifKey": 2479798,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên cây bụi khô, rừng bạch đàn thưa và đồng cỏ nội địa độ cao 0–600 m"
+    },
+    "descriptionVi": "Loài vẹt cảnh nhỏ nhắn phổ biến nhất thế giới với tính cách vui tươi, dễ thuần hóa và khả năng bắt chước giọng nói đáng kinh ngạc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và không thuộc danh mục hạn chế của CITES.",
+    "pullQuoteVi": "Một chú vẹt Yến Phụng tên Puck từng lập kỷ lục Guinness thế giới với vốn từ vựng lên tới 1.728 từ — vượt qua cả các loài vẹt lớn.",
+    "dietVi": "Ăn hạt kê, hạt cỏ, hạt yến mạch kết hợp rau xanh và trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus undulatus"
+    ],
+    "wikidataId": "Q121221",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_y%E1%BA%BFn_ph%E1%BB%A5ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Budgerigar",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 17,
+      "lengthCmMax": 20,
+      "weightGMin": 30,
+      "weightGMax": 40,
+      "heightCmMax": null,
+      "noteVi": "Đầu vàng có các vệt vằn gợn sóng đen trên gáy - cánh và phần lưng bụng màu xanh lục tươi (dạng hoang dã)"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Phân bố khắp vùng nội địa khô hạn và thảo nguyên nước Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt cảnh nhỏ nhắn phổ biến nhất thế giới với tính cách vui tươi, dễ thuần hóa và khả năng bắt chước giọng nói đáng kinh ngạc. Đặc điểm nhận dạng: Đầu vàng có các vệt vằn gợn sóng đen trên gáy - cánh và phần lưng bụng màu xanh lục tươi (dạng hoang dã).",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Một chú vẹt Yến Phụng tên Puck từng lập kỷ lục Guinness thế giới với vốn từ vựng lên tới 1.728 từ — vượt qua cả các loài vẹt lớn.",
+      "Đặc điểm hình thái nổi bật: Đầu vàng có các vệt vằn gợn sóng đen trên gáy - cánh và phần lưng bụng màu xanh lục tươi (dạng hoang dã)."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt kê, hạt cỏ, hạt yến mạch kết hợp rau xanh và trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Yến Phụng (Melopsittacus undulatus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 150000,
+        "descriptionVi": "Chim non Vẹt Yến Phụng sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Budgerigar. - Flickr - Laurie R B.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Budgerigar._-_Flickr_-_Laurie_R_B.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Budgerigar._-_Flickr_-_Laurie_R_B.jpg",
+        "width": 5032,
+        "height": 3360,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Laurie Boyle from Perth Western Australia, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Budgerigar 3 (20126648588).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Budgerigar_3_(20126648588).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Budgerigar_3_%2820126648588%29.jpg",
+        "width": 2052,
+        "height": 2044,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Jim Bendon from Karratha, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Budgerigar Burke River floodplain Boulia Queensland P1030972.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Budgerigar_Burke_River_floodplain_Boulia_Queensland_P1030972.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Budgerigar_Burke_River_floodplain_Boulia_Queensland_P1030972.jpg",
+        "width": 2244,
+        "height": 2244,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "John Robert McPherson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:More Wild Budgies (Kings Canyon (Watarrka National Park)).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:More_Wild_Budgies_(Kings_Canyon_(Watarrka_National_Park)).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/More_Wild_Budgies_%28Kings_Canyon_%28Watarrka_National_Park%29%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Warren Poole",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Melopsittacus undulatus Alice Springs Desert Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_Alice_Springs_Desert_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Melopsittacus_undulatus_Alice_Springs_Desert_Park.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Richard.Fisher",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479798",
+      "https://www.iucnredlist.org/species/22685223/132056957",
+      "https://en.wikipedia.org/wiki/Budgerigar",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_y%E1%BA%BFn_ph%E1%BB%A5ng"
+    ]
+  },
+  {
+    "scientificName": "Nymphicus hollandicus",
+    "commonNameVi": "Vẹt mào cockatiel",
+    "commonNameEn": "Cockatiel",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Nymphicus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt mào Cockatiel (Nymphicus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22684828/132056250",
+    "gbifKey": 2479977,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên cây bụi, savan gần nguồn nước ngọt nội địa độ cao 0–500 m"
+    },
+    "descriptionVi": "Thành viên nhỏ nhất của họ Vẹt mào Úc, nổi tiếng với chiếc mào biểu cảm và tài huýt sáo những giai điệu âm nhạc trong trẻo.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và được nhân giống làm cảnh hợp pháp khắp thế giới.",
+    "pullQuoteVi": "Chiếc mào trên đỉnh đầu Cockatiel là 'nhiệt kế cảm xúc' chính xác: dựng đứng khi tò mò phấn khích, hơi nghiêng khi thư giãn và ép sát đầu khi cảnh giác.",
+    "dietVi": "Ăn hỗn hợp hạt kê, hạt hướng dương nhỏ, ngũ cốc nảy mầm và rau củ tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Leptolophus hollandicus",
+      "Psittacus hollandicus"
+    ],
+    "wikidataId": "Q514809",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nymphicus_hollandicus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cockatiel",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 33,
+      "weightGMin": 80,
+      "weightGMax": 110,
+      "heightCmMax": null,
+      "noteVi": "Chùm mào lông vàng dựng đứng trên đỉnh đầu và hai đốm má tròn màu cam tươi trên nền mặt vàng"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Vùng nội địa bán khô hạn và thảo nguyên khắp lục địa Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Thành viên nhỏ nhất của họ Vẹt mào Úc, nổi tiếng với chiếc mào biểu cảm và tài huýt sáo những giai điệu âm nhạc trong trẻo. Đặc điểm nhận dạng: Chùm mào lông vàng dựng đứng trên đỉnh đầu và hai đốm má tròn màu cam tươi trên nền mặt vàng.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chiếc mào trên đỉnh đầu Cockatiel là 'nhiệt kế cảm xúc' chính xác: dựng đứng khi tò mò phấn khích, hơi nghiêng khi thư giãn và ép sát đầu khi cảnh giác.",
+      "Đặc điểm hình thái nổi bật: Chùm mào lông vàng dựng đứng trên đỉnh đầu và hai đốm má tròn màu cam tươi trên nền mặt vàng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hỗn hợp hạt kê, hạt hướng dương nhỏ, ngũ cốc nảy mầm và rau củ tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Mã Lai (Vẹt Mào Cockatiel) (Nymphicus hollandicus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 550000,
+        "descriptionVi": "Chim non Vẹt Mã Lai (Vẹt Mào Cockatiel) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cockatiels (photographed by Caroline Jones in 2016).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cockatiels_(photographed_by_Caroline_Jones_in_2016).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cockatiels_%28photographed_by_Caroline_Jones_in_2016%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Caroline Jones",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cockateil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cockateil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cockateil.jpg",
+        "width": 1974,
+        "height": 2430,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Jim Bendon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Cockatiel 6781.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cockatiel_6781.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cockatiel_6781.jpg",
+        "width": 3807,
+        "height": 2538,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JJ Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cockatiel - White Cliffs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cockatiel_-_White_Cliffs.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cockatiel_-_White_Cliffs.jpg",
+        "width": 4472,
+        "height": 3578,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nymphicus hollandicus Karratha 9.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nymphicus_hollandicus_Karratha_9.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Nymphicus_hollandicus_Karratha_9.jpg",
+        "width": 4029,
+        "height": 1973,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Jim Bendon from Karratha, Australia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479977",
+      "https://www.iucnredlist.org/species/22684828/132056250",
+      "https://en.wikipedia.org/wiki/Cockatiel",
+      "https://vi.wikipedia.org/wiki/Nymphicus_hollandicus"
+    ]
+  },
+  {
+    "scientificName": "Agapornis roseicollis",
+    "commonNameVi": "Vẹt uyên ương má hồng",
+    "commonNameEn": "Rosy-faced Lovebird",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Agapornis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Uyên ương / Lovebird (Agapornis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685342/131916302",
+    "gbifKey": 9770031,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thung lũng đá khô hạn, savan cây bụi gần sông suối độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Đại diện nổi tiếng nhất của chi Vẹt Uyên Ương (Lovebird), luôn quấn quýt thành từng đôi không rời và ríu rít chải lông cho nhau.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và là loài Lovebird duy nhất được miễn giấy phép CITES trong thương mại.",
+    "pullQuoteVi": "Khi làm tổ, chim mái dùng mỏ cắt lá cọ hoặc vỏ cây thành từng dải đều tăm tắp rồi cài vào đám lông phao câu trên lưng để bay về tổ.",
+    "dietVi": "Ăn hạt cỏ, hạt kê, quả mọng, nụ hoa và viên cám dinh dưỡng tổng hợp",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng hoang mạc Namib và thảo nguyên khô tây nam châu Phi (Namibia, bắc Nam Phi)",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus roseicollis"
+    ],
+    "wikidataId": "Q632213",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agapornis_roseicollis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rosy-faced_lovebird",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 17,
+      "weightGMin": 48,
+      "weightGMax": 58,
+      "heightCmMax": null,
+      "noteVi": "Thân xanh lục tươi, khuôn mặt và cổ họng màu hồng đào rực rỡ và phao câu xanh lam"
+    },
+    "distribution": {
+      "countries": [
+        "NA",
+        "ZA"
+      ],
+      "nativeRangeVi": "Vùng hoang mạc Namib và thảo nguyên khô tây nam châu Phi (Namibia, bắc Nam Phi)",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Đại diện nổi tiếng nhất của chi Vẹt Uyên Ương (Lovebird), luôn quấn quýt thành từng đôi không rời và ríu rít chải lông cho nhau. Đặc điểm nhận dạng: Thân xanh lục tươi, khuôn mặt và cổ họng màu hồng đào rực rỡ và phao câu xanh lam.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi làm tổ, chim mái dùng mỏ cắt lá cọ hoặc vỏ cây thành từng dải đều tăm tắp rồi cài vào đám lông phao câu trên lưng để bay về tổ.",
+      "Đặc điểm hình thái nổi bật: Thân xanh lục tươi, khuôn mặt và cổ họng màu hồng đào rực rỡ và phao câu xanh lam."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cỏ, hạt kê, quả mọng, nụ hoa và viên cám dinh dưỡng tổng hợp. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Uyên Ương Mặt Hồng (Lovebird Mặt Đào) (Agapornis roseicollis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 380000,
+        "descriptionVi": "Chim non Vẹt Uyên Ương Mặt Hồng (Lovebird Mặt Đào) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rosy-faced lovebird (Agapornis roseicollis roseicollis) flock.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29_flock.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Попугай (28912879404).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9_(28912879404).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/%D0%9F%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9_%2828912879404%29.jpg",
+        "width": 2582,
+        "height": 3563,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "ponafotkas from Kiev, Ukraine",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:162 Rosy-faced lovebird in flight in Damaraland Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+        "width": 4660,
+        "height": 3107,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:164 Rosy-faced lovebird couple taking off in Damaraland Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:164_Rosy-faced_lovebird_couple_taking_off_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/164_Rosy-faced_lovebird_couple_taking_off_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+        "width": 4627,
+        "height": 3085,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agapornis roseicollis - Rosenköpfchen - Wildfarbig - Deutscher Kanarien- und Vogelzüchterbund (DKB) - Vogelbund - Johann Alexi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_roseicollis_-_Rosenk%C3%B6pfchen_-_Wildfarbig_-_Deutscher_Kanarien-_und_Vogelz%C3%BCchterbund_(DKB)_-_Vogelbund_-_Johann_Alexi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Agapornis_roseicollis_-_Rosenk%C3%B6pfchen_-_Wildfarbig_-_Deutscher_Kanarien-_und_Vogelz%C3%BCchterbund_%28DKB%29_-_Vogelbund_-_Johann_Alexi.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Johann Alexi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9770031",
+      "https://www.iucnredlist.org/species/22685342/131916302",
+      "https://en.wikipedia.org/wiki/Rosy-faced_lovebird",
+      "https://vi.wikipedia.org/wiki/Agapornis_roseicollis"
+    ]
+  },
+  {
+    "scientificName": "Agapornis fischeri",
+    "commonNameVi": "Vẹt uyên ương Fischer",
+    "commonNameEn": "Fischer's Lovebird",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Agapornis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Uyên ương / Lovebird (Agapornis)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685346/178953186",
+    "gbifKey": 2479544,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan có cây keo (Acacia) và cây bao báp ở độ cao 1.100–2.000 m"
+    },
+    "descriptionVi": "Loài vẹt uyên ương sở hữu bảng màu nhiệt đới rực rỡ như ánh hoàng hôn thảo nguyên Serengeti kèm đôi mắt viền trắng to tròn.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) ngoài tự nhiên trên Sách Đỏ IUCN, nhưng được nhân giống sinh sản rất phổ biến (CITES II).",
+    "pullQuoteVi": "Được đặt theo tên nhà thám hiểm người Đức Gustav Fischer — người đầu tiên ghi nhận loài vẹt này tại vùng hồ Victoria vào cuối thế kỷ 19.",
+    "dietVi": "Ăn hạt cỏ savan, hạt kê, quả sung nhỏ và rau xanh",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hồ Tanganyika, Tanzania",
+      "lat": -6.25,
+      "lng": 29.75
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q603875",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agapornis_fischeri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fischer%27s_lovebird",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 15,
+      "weightGMin": 42,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Vòng da trắng nổi bật quanh mắt, trán và má đỏ cam chuyển dần sang vàng ở cổ cùng mỏ đỏ san hô"
+    },
+    "distribution": {
+      "countries": [
+        "TZ"
+      ],
+      "nativeRangeVi": "Khu vực phía nam và đông hồ Victoria thuộc miền bắc Tanzania (Đông Phi)",
+      "elevationM": {
+        "min": 1100,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt uyên ương sở hữu bảng màu nhiệt đới rực rỡ như ánh hoàng hôn thảo nguyên Serengeti kèm đôi mắt viền trắng to tròn. Đặc điểm nhận dạng: Vòng da trắng nổi bật quanh mắt, trán và má đỏ cam chuyển dần sang vàng ở cổ cùng mỏ đỏ san hô.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Được đặt theo tên nhà thám hiểm người Đức Gustav Fischer — người đầu tiên ghi nhận loài vẹt này tại vùng hồ Victoria vào cuối thế kỷ 19.",
+      "Đặc điểm hình thái nổi bật: Vòng da trắng nổi bật quanh mắt, trán và má đỏ cam chuyển dần sang vàng ở cổ cùng mỏ đỏ san hô."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–30°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cỏ savan, hạt kê, quả sung nhỏ và rau xanh. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Uyên Ương Fischer (Lovebird Mặt Đỏ) (Agapornis fischeri) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 420000,
+        "descriptionVi": "Chim non Vẹt Uyên Ương Fischer (Lovebird Mặt Đỏ) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2024-06-10 Eyasi birds 0548.JPG 0549.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-06-10_Eyasi_birds_0548.JPG_0549.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2024-06-10_Eyasi_birds_0548.JPG_0549.jpg",
+        "width": 3120,
+        "height": 2340,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bärbel Miemietz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lovebirds in Tanzania 3496 cropped Nevit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lovebirds_in_Tanzania_3496_cropped_Nevit.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lovebirds_in_Tanzania_3496_cropped_Nevit.jpg",
+        "width": 946,
+        "height": 1261,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nevit Dilmen ( )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:2024-06-10 Eyasi birds 0548.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-06-10_Eyasi_birds_0548.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/2024-06-10_Eyasi_birds_0548.jpg",
+        "width": 1395,
+        "height": 1046,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bärbel Miemietz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lovebirds in Tanzania 3493 Nevit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lovebirds_in_Tanzania_3493_Nevit.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lovebirds_in_Tanzania_3493_Nevit.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nevit Dilmen ( )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:046 Fischer's lovebird in the Serengeti National Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 3367,
+        "height": 2245,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479544",
+      "https://www.iucnredlist.org/species/22685346/178953186",
+      "https://en.wikipedia.org/wiki/Fischer%27s_lovebird",
+      "https://vi.wikipedia.org/wiki/Agapornis_fischeri"
+    ]
+  },
+  {
+    "scientificName": "Agapornis personatus",
+    "commonNameVi": "Vẹt uyên ương mặt nạ",
+    "commonNameEn": "Yellow-collared Lovebird",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Agapornis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Uyên ương / Lovebird (Agapornis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685352/131916793",
+    "gbifKey": 2479553,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan có cây bao báp làm hốc tổ ở độ cao 1.100–1.800 m"
+    },
+    "descriptionVi": "Nổi bật trong nhóm vẹt mắt trắng nhờ chiếc 'mặt nạ' đen tuyền tương phản sắc nét với vòng cổ màu vàng chanh tươi sáng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Ngoài tự nhiên, chúng thích làm tổ tập đoàn trong các hốc cây bao báp khổng lồ và xây một mái vòm bằng cành gai bên trong hốc cây.",
+    "dietVi": "Ăn hạt thực vật, quả mọng, chồi non và hỗn hợp hạt dinh dưỡng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hồ Tanganyika, Tanzania",
+      "lat": -6.25,
+      "lng": 29.75
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q753748",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agapornis_personatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-collared_lovebird",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 14,
+      "lengthCmMax": 15,
+      "weightGMin": 43,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Khuôn mặt đen sẫm như đeo mặt nạ, vòng mắt trắng to, cổ áo vàng tươi và mỏ đỏ thắm"
+    },
+    "distribution": {
+      "countries": [
+        "TZ"
+      ],
+      "nativeRangeVi": "Cao nguyên đông bắc và miền trung Tanzania",
+      "elevationM": {
+        "min": 1100,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Nổi bật trong nhóm vẹt mắt trắng nhờ chiếc 'mặt nạ' đen tuyền tương phản sắc nét với vòng cổ màu vàng chanh tươi sáng. Đặc điểm nhận dạng: Khuôn mặt đen sẫm như đeo mặt nạ, vòng mắt trắng to, cổ áo vàng tươi và mỏ đỏ thắm.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ngoài tự nhiên, chúng thích làm tổ tập đoàn trong các hốc cây bao báp khổng lồ và xây một mái vòm bằng cành gai bên trong hốc cây.",
+      "Đặc điểm hình thái nổi bật: Khuôn mặt đen sẫm như đeo mặt nạ, vòng mắt trắng to, cổ áo vàng tươi và mỏ đỏ thắm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–30°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt thực vật, quả mọng, chồi non và hỗn hợp hạt dinh dưỡng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Uyên Ương Mặt Đen (Lovebird Cổ Vàng) (Agapornis personatus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 420000,
+        "descriptionVi": "Chim non Vẹt Uyên Ương Mặt Đen (Lovebird Cổ Vàng) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2024-06-05 Tarangire birds 0210.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-06-05_Tarangire_birds_0210.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2024-06-05_Tarangire_birds_0210.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bärbel Miemietz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Agapornis personatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_personatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Agapornis_personatus.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jmunu",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2024-06-06 Tarangire birds 0876.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2024-06-06_Tarangire_birds_0876.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/2024-06-06_Tarangire_birds_0876.jpg",
+        "width": 5382,
+        "height": 3588,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bärbel Miemietz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agapornis personatus, TZ.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_personatus,_TZ.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Agapornis_personatus%2C_TZ.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Raf24~commonswiki",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agraponis personata Comiendo de maíz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agraponis_personata_Comiendo_de_ma%C3%ADz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Agraponis_personata_Comiendo_de_ma%C3%ADz.jpg",
+        "width": 4032,
+        "height": 1816,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Manuelito2021consupadre",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479553",
+      "https://www.iucnredlist.org/species/22685352/131916793",
+      "https://en.wikipedia.org/wiki/Yellow-collared_lovebird",
+      "https://vi.wikipedia.org/wiki/Agapornis_personatus"
+    ]
+  },
+  {
+    "scientificName": "Agapornis lilianae",
+    "commonNameVi": "Vẹt uyên ương Lilian",
+    "commonNameEn": "Nyasa Lovebird",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Agapornis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Uyên ương / Lovebird (Agapornis)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685356/131916985",
+    "gbifKey": 2479559,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây Mopane ven sông và savan ngập lũ độ cao 300–1.000 m"
+    },
+    "descriptionVi": "Loài vẹt uyên ương nhỏ nhắn và hiền hòa của lưu vực sông Luangwa, phân biệt với A. fischeri nhờ phao câu màu xanh lục thay vì xanh tím.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Tên khoa học của loài được đặt để vinh danh nữ nhà điểu học người Anh Lilian Suzette Gibbs.",
+    "dietVi": "Ăn hạt cỏ dại, hạt kê, hoa cây Mopane và trái cây mềm",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam hồ Tanganyika, Zambia",
+      "lat": -8.76,
+      "lng": 31.11
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1144584",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agapornis_lilianae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lilian%27s_lovebird",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 14,
+      "weightGMin": 35,
+      "weightGMax": 42,
+      "heightCmMax": null,
+      "noteVi": "Loài nhỏ nhắn nhất nhóm mắt trắng với mặt cam hồng cá hồi dịu dàng và phao câu màu xanh lá đồng màu lưng"
+    },
+    "distribution": {
+      "countries": [
+        "ZM",
+        "MW",
+        "ZW",
+        "MZ"
+      ],
+      "nativeRangeVi": "Thung lũng sông Zambezi và sông Luangwa miền đông nam châu Phi",
+      "elevationM": {
+        "min": 300,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt uyên ương nhỏ nhắn và hiền hòa của lưu vực sông Luangwa, phân biệt với A. fischeri nhờ phao câu màu xanh lục thay vì xanh tím. Đặc điểm nhận dạng: Loài nhỏ nhắn nhất nhóm mắt trắng với mặt cam hồng cá hồi dịu dàng và phao câu màu xanh lá đồng màu lưng.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên khoa học của loài được đặt để vinh danh nữ nhà điểu học người Anh Lilian Suzette Gibbs.",
+      "Đặc điểm hình thái nổi bật: Loài nhỏ nhắn nhất nhóm mắt trắng với mặt cam hồng cá hồi dịu dàng và phao câu màu xanh lá đồng màu lưng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cỏ dại, hạt kê, hoa cây Mopane và trái cây mềm. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Uyên Ương Lilian (Lovebird Nyasa) (Agapornis lilianae) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 650000,
+        "descriptionVi": "Chim non Vẹt Uyên Ương Lilian (Lovebird Nyasa) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lilian's lovebird, South Luangwa National Park (51866802875).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lilian%27s_lovebird,_South_Luangwa_National_Park_(51866802875).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Lilian%27s_lovebird%2C_South_Luangwa_National_Park_%2851866802875%29.jpg",
+        "width": 3661,
+        "height": 2441,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "I've Got It On Film!",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Agapornis lilianae 447874947.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_lilianae_447874947.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Agapornis_lilianae_447874947.jpg",
+        "width": 1009,
+        "height": 1514,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "William Stephens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lilian's Lovebird (Agapornis lilianae) (23164733604).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23164733604).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Lilian%27s_Lovebird_%28Agapornis_lilianae%29_%2823164733604%29.jpg",
+        "width": 2881,
+        "height": 2305,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Lip Kee from Singapore, Republic of Singapore",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agapornis lilianae 247858333.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_lilianae_247858333.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Agapornis_lilianae_247858333.jpg",
+        "width": 2048,
+        "height": 1422,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Stuart Fraser",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agapornis lilianae (Zambia).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_lilianae_(Zambia).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Agapornis_lilianae_%28Zambia%29.jpg",
+        "width": 1591,
+        "height": 1193,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hans Hillewaert",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479559",
+      "https://www.iucnredlist.org/species/22685356/131916985",
+      "https://en.wikipedia.org/wiki/Lilian%27s_lovebird",
+      "https://vi.wikipedia.org/wiki/Agapornis_lilianae"
+    ]
+  },
+  {
+    "scientificName": "Agapornis nigrigenis",
+    "commonNameVi": "Vẹt uyên ương má đen",
+    "commonNameEn": "Black-cheeked Lovebird",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Agapornis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Uyên ương / Lovebird (Agapornis)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685360/261154556",
+    "gbifKey": 2479545,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây Mopane gần nguồn nước cố định ở độ cao 600–1.000 m"
+    },
+    "descriptionVi": "Sự kết hợp hài hòa giữa nét mặt của Lovebird Mặt đen và Lovebird Lilian với mảng yếm màu cam đào ấm áp dưới cổ họng.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Cần uống nước ít nhất hai lần mỗi ngày nên ngoài tự nhiên các đàn Vẹt Má Đen không bao giờ bay xa quá vài kilômét khỏi các dòng sông ở Zambia.",
+    "dietVi": "Ăn hạt cỏ, hạt kê, chồi non và trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam hồ Tanganyika, Zambia",
+      "lat": -8.76,
+      "lng": 31.11
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Agapornis nigrigensis"
+    ],
+    "wikidataId": "Q728092",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agapornis_nigrigenis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Black-cheeked_lovebird",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 14,
+      "weightGMin": 38,
+      "weightGMax": 45,
+      "heightCmMax": null,
+      "noteVi": "Trán nâu đỏ, má và họng đen sẫm, yếm ngực cam đào và vòng mắt trắng rõ nét"
+    },
+    "distribution": {
+      "countries": [
+        "ZM"
+      ],
+      "nativeRangeVi": "Đặc hữu lưu vực sông Zambezi và vùng hạ lưu sông Kafue ở tây nam Zambia",
+      "elevationM": {
+        "min": 600,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Sự kết hợp hài hòa giữa nét mặt của Lovebird Mặt đen và Lovebird Lilian với mảng yếm màu cam đào ấm áp dưới cổ họng. Đặc điểm nhận dạng: Trán nâu đỏ, má và họng đen sẫm, yếm ngực cam đào và vòng mắt trắng rõ nét.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Cần uống nước ít nhất hai lần mỗi ngày nên ngoài tự nhiên các đàn Vẹt Má Đen không bao giờ bay xa quá vài kilômét khỏi các dòng sông ở Zambia.",
+      "Đặc điểm hình thái nổi bật: Trán nâu đỏ, má và họng đen sẫm, yếm ngực cam đào và vòng mắt trắng rõ nét."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cỏ, hạt kê, chồi non và trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Uyên Ương Má Đen (Agapornis nigrigenis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 680000,
+        "descriptionVi": "Chim non Vẹt Uyên Ương Má Đen sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Black cheeked lovebird.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_cheeked_lovebird.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Black_cheeked_lovebird.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Roel Balingit",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Black-checked Lovebird RWD.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black-checked_Lovebird_RWD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Black-checked_Lovebird_RWD.jpg",
+        "width": 4409,
+        "height": 3307,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "DickDaniels ( http://theworldbirds.org/ )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Psittaculidae Agapornis nigrigenis 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Psittaculidae_Agapornis_nigrigenis_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Psittaculidae_Agapornis_nigrigenis_1.jpg",
+        "width": 3207,
+        "height": 2405,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agapornis nigrigenis at Skansen spring 2008-1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agapornis_nigrigenis_at_Skansen_spring_2008-1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Agapornis_nigrigenis_at_Skansen_spring_2008-1.JPG",
+        "width": 2592,
+        "height": 1952,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Leo Johannes",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479545",
+      "https://www.iucnredlist.org/species/22685360/261154556",
+      "https://en.wikipedia.org/wiki/Black-cheeked_lovebird",
+      "https://vi.wikipedia.org/wiki/Agapornis_nigrigenis"
+    ]
+  },
+  {
+    "scientificName": "Pyrrhura molinae",
+    "commonNameVi": "Vẹt conure má xanh",
+    "commonNameEn": "Green-cheeked Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Pyrrhura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Conure má xanh (Pyrrhura)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685820/130103512",
+    "gbifKey": 2479804,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới ẩm, rừng hành lang ven sông và rừng mây chân núi Andes độ cao 100–2.400 m"
+    },
+    "descriptionVi": "Một trong những loài vẹt cảnh cỡ trung được yêu thích nhất thế giới nhờ tính cách tinh nghịch như chú hề nhỏ nhưng giọng kêu lại rất êm tai.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Vẹt Conure Má Xanh có thói quen rất đáng yêu là thích nằm ngửa bụng lên trời trong lòng bàn tay người nuôi hoặc dưới đáy lồng để đùa nghịch với đồ chơi.",
+    "dietVi": "Ăn trái cây chín (táo, đu đủ, ổi), rau xanh, hạt dinh dưỡng và viên cám tổng hợp",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1043401",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pyrrhura_molinae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Green-cheeked_parakeet",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 24,
+      "lengthCmMax": 26,
+      "weightGMin": 60,
+      "weightGMax": 80,
+      "heightCmMax": null,
+      "noteVi": "Hai bên má ánh xanh lục ngọc, lông ngực xếp vảy xám trắng, bụng đỏ nâu và đuôi dài màu đỏ rượu vang"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "BO",
+        "AR",
+        "PY"
+      ],
+      "nativeRangeVi": "Vùng rừng miền trung - tây Brazil qua Bolivia tới bắc Argentina",
+      "elevationM": {
+        "min": 100,
+        "max": 2400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài vẹt cảnh cỡ trung được yêu thích nhất thế giới nhờ tính cách tinh nghịch như chú hề nhỏ nhưng giọng kêu lại rất êm tai. Đặc điểm nhận dạng: Hai bên má ánh xanh lục ngọc, lông ngực xếp vảy xám trắng, bụng đỏ nâu và đuôi dài màu đỏ rượu vang.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vẹt Conure Má Xanh có thói quen rất đáng yêu là thích nằm ngửa bụng lên trời trong lòng bàn tay người nuôi hoặc dưới đáy lồng để đùa nghịch với đồ chơi.",
+      "Đặc điểm hình thái nổi bật: Hai bên má ánh xanh lục ngọc, lông ngực xếp vảy xám trắng, bụng đỏ nâu và đuôi dài màu đỏ rượu vang."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–30°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn trái cây chín (táo, đu đủ, ổi), rau xanh, hạt dinh dưỡng và viên cám tổng hợp. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Conure Má Xanh (Pyrrhura molinae) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1400000,
+        "descriptionVi": "Chim non Vẹt Conure Má Xanh sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "gallery",
+        "file": "File:Green-cheeked Parakeet (Pyrrhura molinae australis), Santa Bárbara, Jujuy, Argentina 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green-cheeked_Parakeet_(Pyrrhura_molinae_australis),_Santa_B%C3%A1rbara,_Jujuy,_Argentina_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Green-cheeked_Parakeet_%28Pyrrhura_molinae_australis%29%2C_Santa_B%C3%A1rbara%2C_Jujuy%2C_Argentina_1.jpg",
+        "width": 1699,
+        "height": 2048,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "hhulsberg",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Yellow Sided Conure.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Sided_Conure.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Yellow_Sided_Conure.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Muhammad Nabil",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Pyrrhura molinae -front -captive-4a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_molinae_-front_-captive-4a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Pyrrhura_molinae_-front_-captive-4a.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Arthur Chapman",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Conure (33678).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Conure_(33678).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Conure_%2833678%29.jpg",
+        "width": 2228,
+        "height": 2970,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AJ12119",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479804",
+      "https://www.iucnredlist.org/species/22685820/130103512",
+      "https://en.wikipedia.org/wiki/Green-cheeked_parakeet",
+      "https://vi.wikipedia.org/wiki/Pyrrhura_molinae"
+    ]
+  },
+  {
+    "scientificName": "Pyrrhura perlata",
+    "commonNameVi": "Vẹt conure bụng đỏ",
+    "commonNameEn": "Crimson-bellied Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Pyrrhura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Conure má xanh (Pyrrhura)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685812/209393280",
+    "gbifKey": 2479851,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng mưa nhiệt đới đất thấp nguyên sinh độ cao 50–600 m"
+    },
+    "descriptionVi": "Được đánh giá là một trong những loài đẹp nhất chi Pyrrhura nhờ mảng bụng đỏ tươi như nhung và đôi cánh ánh xanh coban.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Chim non khi mới ra ràng có phần bụng màu xanh xám giản dị và chỉ 'lột xác' sang chiếc áo giáp bụng đỏ rực rỡ sau lần thay lông đầu tiên ở tháng thứ 8.",
+    "dietVi": "Ăn quả rừng, hạt cây, hoa và hỗn hợp cám - trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Pyrrhura rhodogaster",
+      "Pyrrhura rhodogaster rhodogaster"
+    ],
+    "wikidataId": "Q1030321",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pyrrhura_perlata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Crimson-bellied_parakeet",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 24,
+      "lengthCmMax": 25,
+      "weightGMin": 75,
+      "weightGMax": 95,
+      "heightCmMax": null,
+      "noteVi": "Khi trưởng thành toàn bộ phần ngực và bụng rực lên màu đỏ thắm tươi tắn tương phản với vai cánh xanh lam"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "BO"
+      ],
+      "nativeRangeVi": "Rừng mưa nam lưu vực sông Amazon thuộc Brazil và đông bắc Bolivia",
+      "elevationM": {
+        "min": 50,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được đánh giá là một trong những loài đẹp nhất chi Pyrrhura nhờ mảng bụng đỏ tươi như nhung và đôi cánh ánh xanh coban. Đặc điểm nhận dạng: Khi trưởng thành toàn bộ phần ngực và bụng rực lên màu đỏ thắm tươi tắn tương phản với vai cánh xanh lam.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chim non khi mới ra ràng có phần bụng màu xanh xám giản dị và chỉ 'lột xác' sang chiếc áo giáp bụng đỏ rực rỡ sau lần thay lông đầu tiên ở tháng thứ 8.",
+      "Đặc điểm hình thái nổi bật: Khi trưởng thành toàn bộ phần ngực và bụng rực lên màu đỏ thắm tươi tắn tương phản với vai cánh xanh lam."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả rừng, hạt cây, hoa và hỗn hợp cám - trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Conure Bụng Đỏ (Pyrrhura perlata) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 2800000,
+        "descriptionVi": "Chim non Vẹt Conure Bụng Đỏ sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pyrrhura perlata - Karlsruhe Zoo 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_perlata_-_Karlsruhe_Zoo_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Pyrrhura_perlata_-_Karlsruhe_Zoo_03.jpg",
+        "width": 4295,
+        "height": 2923,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pyrrhura perlata perlata qtl1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_perlata_perlata_qtl1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Pyrrhura_perlata_perlata_qtl1.jpg",
+        "width": 2101,
+        "height": 2546,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Quartl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pyrrhura perlata - Karlsruhe Zoo 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_perlata_-_Karlsruhe_Zoo_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pyrrhura_perlata_-_Karlsruhe_Zoo_02.jpg",
+        "width": 2981,
+        "height": 4258,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zeöö",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pyrrhura perlata - Karlsruhe Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_perlata_-_Karlsruhe_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pyrrhura_perlata_-_Karlsruhe_Zoo_01.jpg",
+        "width": 3175,
+        "height": 4844,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "H. Zell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:TiribaBarrigaVermelha.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TiribaBarrigaVermelha.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/TiribaBarrigaVermelha.jpg",
+        "width": 1390,
+        "height": 954,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Beatriz Bukowitz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479851",
+      "https://www.iucnredlist.org/species/22685812/209393280",
+      "https://en.wikipedia.org/wiki/Crimson-bellied_parakeet",
+      "https://vi.wikipedia.org/wiki/Pyrrhura_perlata"
+    ]
+  },
+  {
+    "scientificName": "Pyrrhura frontalis",
+    "commonNameVi": "Vẹt conure bụng nâu",
+    "commonNameEn": "Maroon-bellied Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Pyrrhura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Conure má xanh (Pyrrhura)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685793/281036496",
+    "gbifKey": 2479840,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng Đại Tây Dương (Mata Atlântica), rừng thông Araucaria và bìa rừng độ cao 0–1.400 m"
+    },
+    "descriptionVi": "Loài vẹt Conure thân thiện và điềm đạm của vùng rừng Đại Tây Dương Nam Mỹ, rất quấn chủ và dễ huấn luyện các trò tương tác.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Vào mùa thu đông tại miền nam Brazil, chúng tụ tập thành đàn lớn chuyên tìm ăn hạt của loài Thông Bách tán (Araucaria angustifolia).",
+    "dietVi": "Ăn hạt thông, quả mọng, hoa, ngô non và viên cám dinh dưỡng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q790673",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pyrrhura_frontalis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Maroon-bellied_parakeet",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 28,
+      "weightGMin": 70,
+      "weightGMax": 90,
+      "heightCmMax": null,
+      "noteVi": "Thân xanh lục bóng, tai có vệt xám vàng, ngực vảy sóng và mảng bụng màu nâu đỏ hạt dẻ"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "AR",
+        "PY",
+        "UY"
+      ],
+      "nativeRangeVi": "Đông nam Brazil qua Paraguay, Uruguay đến đông bắc Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt Conure thân thiện và điềm đạm của vùng rừng Đại Tây Dương Nam Mỹ, rất quấn chủ và dễ huấn luyện các trò tương tác. Đặc điểm nhận dạng: Thân xanh lục bóng, tai có vệt xám vàng, ngực vảy sóng và mảng bụng màu nâu đỏ hạt dẻ.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vào mùa thu đông tại miền nam Brazil, chúng tụ tập thành đàn lớn chuyên tìm ăn hạt của loài Thông Bách tán (Araucaria angustifolia).",
+      "Đặc điểm hình thái nổi bật: Thân xanh lục bóng, tai có vệt xám vàng, ngực vảy sóng và mảng bụng màu nâu đỏ hạt dẻ."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 16–30°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt thông, quả mọng, hoa, ngô non và viên cám dinh dưỡng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Conure Bụng Nâu (Pyrrhura frontalis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1600000,
+        "descriptionVi": "Chim non Vẹt Conure Bụng Nâu sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Maroon-bellied Parakeet (52002114250).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maroon-bellied_Parakeet_(52002114250).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Maroon-bellied_Parakeet_%2852002114250%29.jpg",
+        "width": 6890,
+        "height": 4593,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Carlos Eduardo Joos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Maroon-bellied Parakeet - sb616.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maroon-bellied_Parakeet_-_sb616.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Maroon-bellied_Parakeet_-_sb616.JPG",
+        "width": 2336,
+        "height": 3504,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "User:Sb616",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Casal de periquitos se alimentando.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casal_de_periquitos_se_alimentando.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Casal_de_periquitos_se_alimentando.JPG",
+        "width": 4007,
+        "height": 3880,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Davis Santana",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Envergonhada.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Envergonhada.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Envergonhada.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Everflowingriver",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Papagaios?.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Papagaios%3F.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Papagaios%3F.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Carmen Sílvia de Paula Cabral",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479840",
+      "https://www.iucnredlist.org/species/22685793/281036496",
+      "https://en.wikipedia.org/wiki/Maroon-bellied_parakeet",
+      "https://vi.wikipedia.org/wiki/Pyrrhura_frontalis"
+    ]
+  },
+  {
+    "scientificName": "Aratinga solstitialis",
+    "commonNameVi": "Vẹt mặt trời",
+    "commonNameEn": "Sun Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Aratinga"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Conure mặt trời (Aratinga)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/62233372/209605460",
+    "gbifKey": 2479158,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan nhiệt đới xen các rặng cọ Mauritia và rừng thưa độ cao 100–1.200 m"
+    },
+    "descriptionVi": "Ngọn lửa rực rỡ của vùng savan Nam Mỹ với bộ lông vàng cam chói lọi như ánh mặt trời nhiệt đới và trí thông minh lanh lợi.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) ngoài tự nhiên trên Sách Đỏ IUCN, nhưng được nhân giống sinh sản rất phổ biến trong các trại chim cảnh quốc tế (CITES II).",
+    "pullQuoteVi": "Chim non Sun Conure chào đời với bộ lông pha nhiều màu xanh lục ô-liu để ngụy trang trong tổ và chuyển dần sang sắc vàng cam rực lửa sau 12–18 tháng tuổi.",
+    "dietVi": "Ăn quả cọ, trái cây ngọt, hạt hướng dương, các loại đậu và cám vẹt",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus solstitialis"
+    ],
+    "wikidataId": "Q225039",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Aratinga_solstitialis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sun_conure",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 32,
+      "weightGMin": 100,
+      "weightGMax": 130,
+      "heightCmMax": null,
+      "noteVi": "Toàn thân rực sáng ba tông màu vàng hoàng yến, cam lửa và đỏ tươi cùng chóp cánh xanh lam"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "GY",
+        "VE"
+      ],
+      "nativeRangeVi": "Vùng đông bắc Nam Mỹ (bang Roraima của Brazil, nam Guyana và đông nam Venezuela)",
+      "elevationM": {
+        "min": 100,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Ngọn lửa rực rỡ của vùng savan Nam Mỹ với bộ lông vàng cam chói lọi như ánh mặt trời nhiệt đới và trí thông minh lanh lợi. Đặc điểm nhận dạng: Toàn thân rực sáng ba tông màu vàng hoàng yến, cam lửa và đỏ tươi cùng chóp cánh xanh lam.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chim non Sun Conure chào đời với bộ lông pha nhiều màu xanh lục ô-liu để ngụy trang trong tổ và chuyển dần sang sắc vàng cam rực lửa sau 12–18 tháng tuổi.",
+      "Đặc điểm hình thái nổi bật: Toàn thân rực sáng ba tông màu vàng hoàng yến, cam lửa và đỏ tươi cùng chóp cánh xanh lam."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả cọ, trái cây ngọt, hạt hướng dương, các loại đậu và cám vẹt. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Mặt Trời (Vẹt Sun Conure) (Aratinga solstitialis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 2600000,
+        "descriptionVi": "Chim non Vẹt Mặt Trời (Vẹt Sun Conure) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20180530Saarbrücken Zoo 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180530Saarbr%C3%BCcken_Zoo_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/20180530Saarbr%C3%BCcken_Zoo_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Flocci Nivis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A Sun Conure in a bird park in Thailand 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Sun_Conure_in_a_bird_park_in_Thailand_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/A_Sun_Conure_in_a_bird_park_in_Thailand_2.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ไอคิว",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Sun conure (Aratinga solstitialis).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sun_conure_(Aratinga_solstitialis).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sun_conure_%28Aratinga_solstitialis%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "RIDH-1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Three Sun Conure in a bird park in Thailand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Three_Sun_Conure_in_a_bird_park_in_Thailand.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Three_Sun_Conure_in_a_bird_park_in_Thailand.jpg",
+        "width": 4160,
+        "height": 3120,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ไอคิว",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aratinga solstitialis (frontal).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_solstitialis_(frontal).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Aratinga_solstitialis_%28frontal%29.jpg",
+        "width": 2848,
+        "height": 4089,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Hans Hillewaert",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479158",
+      "https://www.iucnredlist.org/species/62233372/209605460",
+      "https://en.wikipedia.org/wiki/Sun_conure",
+      "https://vi.wikipedia.org/wiki/Aratinga_solstitialis"
+    ]
+  },
+  {
+    "scientificName": "Aratinga jandaya",
+    "commonNameVi": "Vẹt Jandaya",
+    "commonNameEn": "Jandaya Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Aratinga"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Conure mặt trời (Aratinga)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685707/281025579",
+    "gbifKey": 2479106,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô Caatinga, rừng cọ ven biển và bìa rừng nhiệt đới độ cao 0–700 m"
+    },
+    "descriptionVi": "Họ hàng gần gũi nhất của Vẹt Mặt Trời với sự tương phản bắt mắt giữa phần đầu - bụng vàng cam rực lửa và đôi cánh xanh lục ngọc bích.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Tên khoa học 'jandaya' bắt nguồn từ tiếng Tupi của người bản địa Brazil cổ đại dùng để gọi loài vẹt đầu vàng rực rỡ này.",
+    "dietVi": "Ăn quả cọ dừa, xoài, ổi, hạt thực vật và cám dinh dưỡng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1271679",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Aratinga_jandaya",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Jandaya_parakeet",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 32,
+      "weightGMin": 110,
+      "weightGMax": 140,
+      "heightCmMax": null,
+      "noteVi": "Đầu và cổ màu vàng tươi chuyển sang ngực bụng đỏ cam rực rỡ, giữ nguyên hai cánh và lưng màu xanh lục"
+    },
+    "distribution": {
+      "countries": [
+        "BR"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng đông bắc Brazil (từ Maranhão đến Alagoas)",
+      "elevationM": {
+        "min": 0,
+        "max": 700
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Họ hàng gần gũi nhất của Vẹt Mặt Trời với sự tương phản bắt mắt giữa phần đầu - bụng vàng cam rực lửa và đôi cánh xanh lục ngọc bích. Đặc điểm nhận dạng: Đầu và cổ màu vàng tươi chuyển sang ngực bụng đỏ cam rực rỡ, giữ nguyên hai cánh và lưng màu xanh lục.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'jandaya' bắt nguồn từ tiếng Tupi của người bản địa Brazil cổ đại dùng để gọi loài vẹt đầu vàng rực rỡ này.",
+      "Đặc điểm hình thái nổi bật: Đầu và cổ màu vàng tươi chuyển sang ngực bụng đỏ cam rực rỡ, giữ nguyên hai cánh và lưng màu xanh lục."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả cọ dừa, xoài, ổi, hạt thực vật và cám dinh dưỡng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Conure Đầu Vàng (Vẹt Jenday Conure) (Aratinga jandaya) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 2200000,
+        "descriptionVi": "Chim non Vẹt Conure Đầu Vàng (Vẹt Jenday Conure) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aratinga jandaya -Reading, Berkshire, England-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_jandaya_-Reading,_Berkshire,_England-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Aratinga_jandaya_-Reading%2C_Berkshire%2C_England-8a.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "David Long from London, United Kingdom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aratinga jandaya -Reading, Berkshire, England -back-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_jandaya_-Reading,_Berkshire,_England_-back-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Aratinga_jandaya_-Reading%2C_Berkshire%2C_England_-back-8a.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "David Long",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Jenday Conure (Aratinga jandaya).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jenday_Conure_(Aratinga_jandaya).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jenday_Conure_%28Aratinga_jandaya%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "RIDH-1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aratinga jandaya (Tierpark Berlin) - 1019-901-(118).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_jandaya_(Tierpark_Berlin)_-_1019-901-(118).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aratinga_jandaya_%28Tierpark_Berlin%29_-_1019-901-%28118%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Lotse",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aratinga jandaya, Reserva Extrativista de Recanto das Araras de Terra Ronca, Brasil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_jandaya,_Reserva_Extrativista_de_Recanto_das_Araras_de_Terra_Ronca,_Brasil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Aratinga_jandaya%2C_Reserva_Extrativista_de_Recanto_das_Araras_de_Terra_Ronca%2C_Brasil.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gabrielly Sousa de Moaes",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479106",
+      "https://www.iucnredlist.org/species/22685707/281025579",
+      "https://en.wikipedia.org/wiki/Jandaya_parakeet",
+      "https://vi.wikipedia.org/wiki/Aratinga_jandaya"
+    ]
+  },
+  {
+    "scientificName": "Myiopsitta monachus",
+    "commonNameVi": "Vẹt thầy tu",
+    "commonNameEn": "Monk Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Myiopsitta"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Thầy tu (Myiopsitta)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/45427277/132189848",
+    "gbifKey": 2479407,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ thưa có cây gỗ, rừng bạch đàn và công viên đô thị độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Kiến trúc sư độc nhất vô nhị trong họ Vẹt và là một trong những loài vẹt cỡ trung nói giỏi, rõ chữ nhất khi nuôi làm cảnh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khác với mọi loài vẹt khác đều đẻ trứng trong hốc cây, Vẹt Thầy Tu là loài vẹt duy nhất dùng cành gai đan thành những 'tổ chung cư' khổng lồ nặng hàng trăm kilôgam cho hàng chục cặp cùng ở.",
+    "dietVi": "Ăn hạt cây, quả mọng, chồi lá, côn trùng và viên cám tổng hợp",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Paraná, Argentina",
+      "lat": -27.45,
+      "lng": -58.98
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Myopsitta monachus",
+      "Psittacus monachus"
+    ],
+    "wikidataId": "Q724987",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_th%E1%BA%A7y_tu_%C4%91u%C3%B4i_d%C3%A0i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Monk_parakeet",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 28,
+      "lengthCmMax": 30,
+      "weightGMin": 90,
+      "weightGMax": 140,
+      "heightCmMax": null,
+      "noteVi": "Lưng xanh lục tươi, trán cùng má và ngực màu xám bạc có vân vảy nhẹ như áo choàng thầy tu"
+    },
+    "distribution": {
+      "countries": [
+        "AR",
+        "BR",
+        "PY",
+        "UY",
+        "BO"
+      ],
+      "nativeRangeVi": "Vùng đồng bằng Pampas và thảo nguyên ôn đới - cận nhiệt đới Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Kiến trúc sư độc nhất vô nhị trong họ Vẹt và là một trong những loài vẹt cỡ trung nói giỏi, rõ chữ nhất khi nuôi làm cảnh. Đặc điểm nhận dạng: Lưng xanh lục tươi, trán cùng má và ngực màu xám bạc có vân vảy nhẹ như áo choàng thầy tu.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với mọi loài vẹt khác đều đẻ trứng trong hốc cây, Vẹt Thầy Tu là loài vẹt duy nhất dùng cành gai đan thành những 'tổ chung cư' khổng lồ nặng hàng trăm kilôgam cho hàng chục cặp cùng ở.",
+      "Đặc điểm hình thái nổi bật: Lưng xanh lục tươi, trán cùng má và ngực màu xám bạc có vân vảy nhẹ như áo choàng thầy tu."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 10–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cây, quả mọng, chồi lá, côn trùng và viên cám tổng hợp. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Thầy Tu (Vẹt Monk / Quaker) (Myiopsitta monachus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1800000,
+        "descriptionVi": "Chim non Vẹt Thầy Tu (Vẹt Monk / Quaker) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:0 Myiopsitta monachus in Old San Juan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:0_Myiopsitta_monachus_in_Old_San_Juan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/0_Myiopsitta_monachus_in_Old_San_Juan.jpg",
+        "width": 6240,
+        "height": 4160,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Ligocsicnarf89",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cotorros argentinos sobre una Yuca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cotorros_argentinos_sobre_una_Yuca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cotorros_argentinos_sobre_una_Yuca.jpg",
+        "width": 4590,
+        "height": 8160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ivanmad404",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Monk Parakeet (4303100054).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Monk_Parakeet_(4303100054).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Monk_Parakeet_%284303100054%29.jpg",
+        "width": 1162,
+        "height": 1745,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "dfaulder",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:0 Myiopsitta monachus-3 in Cabo Rojo NWR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:0_Myiopsitta_monachus-3_in_Cabo_Rojo_NWR.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/0_Myiopsitta_monachus-3_in_Cabo_Rojo_NWR.jpg",
+        "width": 4355,
+        "height": 2987,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ligocsicnarf89",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:At Montevideo 2023 115.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_Montevideo_2023_115.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/At_Montevideo_2023_115.jpg",
+        "width": 5259,
+        "height": 2842,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479407",
+      "https://www.iucnredlist.org/species/45427277/132189848",
+      "https://en.wikipedia.org/wiki/Monk_parakeet",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_th%E1%BA%A7y_tu_%C4%91u%C3%B4i_d%C3%A0i"
+    ]
+  },
+  {
+    "scientificName": "Forpus coelestis",
+    "commonNameVi": "Vẹt lùn Thái Bình Dương",
+    "commonNameEn": "Pacific Parrotlet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Forpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt lùn Parrotlet (Forpus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685949/263967953",
+    "gbifKey": 2479087,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô nhiệt đới, trảng cây bụi xương rồng và thung lũng ven biển độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Vẹt Amazon bỏ túi' (Pocket Parrot) vì chỉ to bằng ngón tay cái nhưng lại sở hữu cá tính mạnh mẽ và trí thông minh của loài vẹt lớn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Chỉ cần nhìn vệt màu xanh biếc chạy phía sau mắt như nét kẻ eyeliner và mảng xanh coban dưới cánh là có thể phân biệt ngay chim trống với chim mái.",
+    "dietVi": "Ăn hạt cỏ, quả xương rồng, quả me rừng, rau xanh và hạt kê",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thượng nguồn Amazon, Ecuador",
+      "lat": -1.49,
+      "lng": -77.99
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Agapornis coelestis"
+    ],
+    "wikidataId": "Q882870",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Forpus_coelestis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pacific_parrotlet",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 12,
+      "lengthCmMax": 13,
+      "weightGMin": 26,
+      "weightGMax": 34,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài vẹt nhỏ nhất thế giới với thân xanh lục sáng và vệt kẻ mắt cùng phao câu màu xanh coban ở con trống"
+    },
+    "distribution": {
+      "countries": [
+        "EC",
+        "PE"
+      ],
+      "nativeRangeVi": "Dải đồng bằng ven biển Thái Bình Dương thuộc miền tây Ecuador và tây bắc Peru",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được mệnh danh là 'Vẹt Amazon bỏ túi' (Pocket Parrot) vì chỉ to bằng ngón tay cái nhưng lại sở hữu cá tính mạnh mẽ và trí thông minh của loài vẹt lớn. Đặc điểm nhận dạng: Một trong những loài vẹt nhỏ nhất thế giới với thân xanh lục sáng và vệt kẻ mắt cùng phao câu màu xanh coban ở con trống.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chỉ cần nhìn vệt màu xanh biếc chạy phía sau mắt như nét kẻ eyeliner và mảng xanh coban dưới cánh là có thể phân biệt ngay chim trống với chim mái.",
+      "Đặc điểm hình thái nổi bật: Một trong những loài vẹt nhỏ nhất thế giới với thân xanh lục sáng và vệt kẻ mắt cùng phao câu màu xanh coban ở con trống."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cỏ, quả xương rồng, quả me rừng, rau xanh và hạt kê. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Lùn Thái Bình Dương (Pacific Parrotlet) (Forpus coelestis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 750000,
+        "descriptionVi": "Chim non Vẹt Lùn Thái Bình Dương (Pacific Parrotlet) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Tuim Forpus coelestes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tuim_Forpus_coelestes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Tuim_Forpus_coelestes.jpg",
+        "width": 4000,
+        "height": 2672,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "EvaldoResende",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Forpus coelestis 558086627.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_558086627.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Forpus_coelestis_558086627.jpg",
+        "width": 2048,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dan Vickers",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Forpus coelestis -two in Ecuador-8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_-two_in_Ecuador-8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Forpus_coelestis_-two_in_Ecuador-8.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "markaharper1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Forpus coelestis \"Periquito esmeralda\" - comiendo en cultivos de maíz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_%22Periquito_esmeralda%22_-_comiendo_en_cultivos_de_ma%C3%ADz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Forpus_coelestis_%22Periquito_esmeralda%22_-_comiendo_en_cultivos_de_ma%C3%ADz.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MariCOAP",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Wild Parrot (26900630105).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wild_Parrot_(26900630105).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Wild_Parrot_%2826900630105%29.jpg",
+        "width": 2395,
+        "height": 1595,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "David Brossard",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479087",
+      "https://www.iucnredlist.org/species/22685949/263967953",
+      "https://en.wikipedia.org/wiki/Pacific_parrotlet",
+      "https://vi.wikipedia.org/wiki/Forpus_coelestis"
+    ]
+  },
+  {
+    "scientificName": "Bolborhynchus lineola",
+    "commonNameVi": "Vẹt sọc vằn",
+    "commonNameEn": "Barred Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Bolborhynchus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt vằn Lineolated (Bolborhynchus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685913/140714291",
+    "gbifKey": 5229121,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mây núi cao và rừng tre trúc Chusquea ở độ cao 1.000–3.000 m"
+    },
+    "descriptionVi": "Loài vẹt núi cao nổi tiếng hiền lành, ít tiếng ồn và có dáng đi lạch bạch cúi thấp đầu rất ngộ nghĩnh.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Trái ngược với đa số vẹt sợ nước phun trực tiếp, Vẹt Vằn cực kỳ mê tắm mưa: chỉ cần phun sương là chúng sẽ treo ngược người xòe rộng cả hai cánh để đón từng giọt nước.",
+    "dietVi": "Ăn hạt tre trúc, trái cây ngọt, rau xanh và hạt nảy mầm",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q911080",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Bolborhynchus_lineola",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Barred_parakeet",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 17,
+      "weightGMin": 45,
+      "weightGMax": 55,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông xanh ngọc điểm những đường vằn đen mảnh chạy ngang khắp lưng, cánh và hai bên sườn"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "PE"
+      ],
+      "nativeRangeVi": "Các dãy núi từ nam Mexico qua Trung Mỹ tới dãy Andes Nam Mỹ",
+      "elevationM": {
+        "min": 1000,
+        "max": 3000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt núi cao nổi tiếng hiền lành, ít tiếng ồn và có dáng đi lạch bạch cúi thấp đầu rất ngộ nghĩnh. Đặc điểm nhận dạng: Bộ lông xanh ngọc điểm những đường vằn đen mảnh chạy ngang khắp lưng, cánh và hai bên sườn.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Trái ngược với đa số vẹt sợ nước phun trực tiếp, Vẹt Vằn cực kỳ mê tắm mưa: chỉ cần phun sương là chúng sẽ treo ngược người xòe rộng cả hai cánh để đón từng giọt nước.",
+      "Đặc điểm hình thái nổi bật: Bộ lông xanh ngọc điểm những đường vằn đen mảnh chạy ngang khắp lưng, cánh và hai bên sườn."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 15–28°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt tre trúc, trái cây ngọt, rau xanh và hạt nảy mầm. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Vằn (Linnie / Lineolated Parakeet) (Bolborhynchus lineola) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1100000,
+        "descriptionVi": "Chim non Vẹt Vằn (Linnie / Lineolated Parakeet) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lineolatedparakeet-sonny¡.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lineolatedparakeet-sonny%C2%A1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Lineolatedparakeet-sonny%C2%A1.jpg",
+        "width": 2560,
+        "height": 1920,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "billyp707",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bolborhynchus lineola -pet-5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bolborhynchus_lineola_-pet-5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bolborhynchus_lineola_-pet-5.jpg",
+        "width": 2136,
+        "height": 2848,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Lisa Lenscap",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Barred Parakeet, Oxapampa, Pasco, Peru 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Barred_Parakeet%2C_Oxapampa%2C_Pasco%2C_Peru_2.jpg",
+        "width": 1370,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "thibaudaronson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mazout 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mazout_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mazout_3.jpg",
+        "width": 1290,
+        "height": 916,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Weena",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bolborhynchus lineola -captive-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bolborhynchus_lineola_-captive-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bolborhynchus_lineola_-captive-8a.jpg",
+        "width": 1024,
+        "height": 663,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Timo Helgert",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5229121",
+      "https://www.iucnredlist.org/species/22685913/140714291",
+      "https://en.wikipedia.org/wiki/Barred_parakeet",
+      "https://vi.wikipedia.org/wiki/Bolborhynchus_lineola"
+    ]
+  },
+  {
+    "scientificName": "Brotogeris chiriri",
+    "commonNameVi": "Vẹt cánh vàng",
+    "commonNameEn": "Yellow-chevroned Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Brotogeris"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt cánh vàng (Brotogeris)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685963/130103839",
+    "gbifKey": 2479583,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa Cerrado, đầm lầy Pantanal và rừng cọ độ cao 0–1.200 m"
+    },
+    "descriptionVi": "Loài vẹt nhỏ năng động vùng đồng thảo Brazil, khi sải cánh bay sẽ để lộ dải lông vàng tươi sáng rực giữa bầu trời.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Ngoài tự nhiên chúng dùng chiếc mỏ khỏe khoắn đục khoét các ụ tổ mối trên cây cao để làm buồng ấp trứng an toàn và giữ nhiệt ổn định.",
+    "dietVi": "Ăn quả sung vả, mật hoa, hạt cây gỗ và trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1071745",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brotogeris_chiriri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-chevroned_parakeet",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 23,
+      "weightGMin": 60,
+      "weightGMax": 75,
+      "heightCmMax": null,
+      "noteVi": "Thân xanh lá tươi sáng với một dải lông màu vàng hoàng yến rực rỡ chạy dọc mép cánh"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "BO",
+        "PY",
+        "AR"
+      ],
+      "nativeRangeVi": "Lưu vực nam sông Amazon qua vùng Cerrado, Pantanal tới bắc Argentina",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt nhỏ năng động vùng đồng thảo Brazil, khi sải cánh bay sẽ để lộ dải lông vàng tươi sáng rực giữa bầu trời. Đặc điểm nhận dạng: Thân xanh lá tươi sáng với một dải lông màu vàng hoàng yến rực rỡ chạy dọc mép cánh.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ngoài tự nhiên chúng dùng chiếc mỏ khỏe khoắn đục khoét các ụ tổ mối trên cây cao để làm buồng ấp trứng an toàn và giữ nhiệt ổn định.",
+      "Đặc điểm hình thái nổi bật: Thân xanh lá tươi sáng với một dải lông màu vàng hoàng yến rực rỡ chạy dọc mép cánh."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả sung vả, mật hoa, hạt cây gỗ và trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Cánh Vàng (Canary-winged Parakeet) (Brotogeris chiriri) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1350000,
+        "descriptionVi": "Chim non Vẹt Cánh Vàng (Canary-winged Parakeet) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:094 Yellow-chevroned parakeet in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:094_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/094_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 5558,
+        "height": 3705,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:132 Yellow-chevroned parakeet couple in Encontro das Águas State Park Photo by Giles Laurent (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:132_Yellow-chevroned_parakeet_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/132_Yellow-chevroned_parakeet_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_%28cropped%29.jpg",
+        "width": 2340,
+        "height": 3522,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:039 Yellow-chevroned parakeet in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:039_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/039_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 4947,
+        "height": 3298,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:109 Yellow-chevroned parakeet in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:109_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/109_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 7738,
+        "height": 5159,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:133 Yellow-chevroned parakeet in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:133_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/133_Yellow-chevroned_parakeet_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 5353,
+        "height": 3569,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479583",
+      "https://www.iucnredlist.org/species/22685963/130103839",
+      "https://en.wikipedia.org/wiki/Yellow-chevroned_parakeet",
+      "https://vi.wikipedia.org/wiki/Brotogeris_chiriri"
+    ]
+  },
+  {
+    "scientificName": "Pionites melanocephalus",
+    "commonNameVi": "Vẹt caique đầu đen",
+    "commonNameEn": "Black-headed Parrot",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Pionites"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Caique (Pionites)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22686079/154840201",
+    "gbifKey": 2479437,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán cao của rừng mưa nhiệt đới đất thấp nguyên sinh độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Chú hề nhảy lò cò' của thế giới loài vẹt nhờ bộ lông phối 5 màu sắc nét như tranh vẽ và thói quen bật nhảy trên hai chân.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khi vui mừng, Vẹt Caique không đi bộ bình thường mà chụm hai chân bật nhảy lò cò liên tục như chiếc lò xo và dùng khăn hoặc lá cây tự lau chùi bộ lông bụng trắng.",
+    "dietVi": "Ăn quả rừng, hạt cây cọ, hoa và hỗn hợp cám - trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus melanocephalus"
+    ],
+    "wikidataId": "Q922245",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pionites_melanocephalus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Black-headed_parrot",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 23,
+      "lengthCmMax": 24,
+      "weightGMin": 130,
+      "weightGMax": 170,
+      "heightCmMax": null,
+      "noteVi": "Đỉnh đầu đen nhánh, má và cổ màu cam vàng, bụng trắng tinh như mặc áo sơ mi và hai đùi vàng"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "CO",
+        "VE",
+        "GY",
+        "SR",
+        "PE"
+      ],
+      "nativeRangeVi": "Bắc lưu vực sông Amazon và vùng khiên Guiana Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được mệnh danh là 'Chú hề nhảy lò cò' của thế giới loài vẹt nhờ bộ lông phối 5 màu sắc nét như tranh vẽ và thói quen bật nhảy trên hai chân. Đặc điểm nhận dạng: Đỉnh đầu đen nhánh, má và cổ màu cam vàng, bụng trắng tinh như mặc áo sơ mi và hai đùi vàng.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi vui mừng, Vẹt Caique không đi bộ bình thường mà chụm hai chân bật nhảy lò cò liên tục như chiếc lò xo và dùng khăn hoặc lá cây tự lau chùi bộ lông bụng trắng.",
+      "Đặc điểm hình thái nổi bật: Đỉnh đầu đen nhánh, má và cổ màu cam vàng, bụng trắng tinh như mặc áo sơ mi và hai đùi vàng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả rừng, hạt cây cọ, hoa và hỗn hợp cám - trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Caique Đầu Đen (Pionites melanocephalus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 6500000,
+        "descriptionVi": "Chim non Vẹt Caique Đầu Đen sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Black-headed parrot (Pionites melanocephalus) (7).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black-headed_parrot_(Pionites_melanocephalus)_(7).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Black-headed_parrot_%28Pionites_melanocephalus%29_%287%29.jpg",
+        "width": 4592,
+        "height": 2576,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "domdomegg",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pionites melanocephalus -Wingham Wildlife Park-6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_melanocephalus_-Wingham_Wildlife_Park-6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pionites_melanocephalus_-Wingham_Wildlife_Park-6.jpg",
+        "width": 2051,
+        "height": 3400,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Law Keven on flickr",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Vogelpark Olching 21.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vogelpark_Olching_21.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Vogelpark_Olching_21.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Edelmauswaldgeist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Black-headed Caique (Pionites melanocephalus) -cage bars.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black-headed_Caique_(Pionites_melanocephalus)_-cage_bars.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Black-headed_Caique_%28Pionites_melanocephalus%29_-cage_bars.jpg",
+        "width": 3525,
+        "height": 2350,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Peter Békési",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pionites melanocephalus -Jurong Bird Park-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_melanocephalus_-Jurong_Bird_Park-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pionites_melanocephalus_-Jurong_Bird_Park-8a.jpg",
+        "width": 2470,
+        "height": 3382,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Tan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479437",
+      "https://www.iucnredlist.org/species/22686079/154840201",
+      "https://en.wikipedia.org/wiki/Black-headed_parrot",
+      "https://vi.wikipedia.org/wiki/Pionites_melanocephalus"
+    ]
+  },
+  {
+    "scientificName": "Pionites leucogaster",
+    "commonNameVi": "Vẹt caique bụng trắng",
+    "commonNameEn": "Green-thighed Parrot",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Pionites"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Caique (Pionites)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/62181308/209668837",
+    "gbifKey": 2479441,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới ngập nước theo mùa (Várzea) và rừng đất thấp độ cao 0–500 m"
+    },
+    "descriptionVi": "Người anh em phương Nam của Caique Đầu Đen với chiếc mũ màu cam vàng tươi sáng và tính cách hiếu động không ngừng nghỉ.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Dòng sông Amazon khổng lồ chính là ranh giới địa lý tự nhiên chia tách hai loài: bờ Bắc là lãnh thổ của Caique Đầu Đen, còn bờ Nam là vương quốc của Caique Đầu Vàng.",
+    "dietVi": "Ăn trái cây rừng Amazon, hạt có dầu, hoa và viên cám dinh dưỡng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q775636",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pionites_leucogaster",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/White-bellied_parrot",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 23,
+      "lengthCmMax": 24,
+      "weightGMin": 135,
+      "weightGMax": 165,
+      "heightCmMax": null,
+      "noteVi": "Đầu và gáy màu cam mơ rực rỡ, yếm bụng trắng muốt, lưng cánh xanh lục và mỏ màu sừng sáng"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "BO",
+        "PE"
+      ],
+      "nativeRangeVi": "Nam lưu vực sông Amazon (phía nam dòng sông Amazon) thuộc Brazil, đông Peru và bắc Bolivia",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Người anh em phương Nam của Caique Đầu Đen với chiếc mũ màu cam vàng tươi sáng và tính cách hiếu động không ngừng nghỉ. Đặc điểm nhận dạng: Đầu và gáy màu cam mơ rực rỡ, yếm bụng trắng muốt, lưng cánh xanh lục và mỏ màu sừng sáng.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Dòng sông Amazon khổng lồ chính là ranh giới địa lý tự nhiên chia tách hai loài: bờ Bắc là lãnh thổ của Caique Đầu Đen, còn bờ Nam là vương quốc của Caique Đầu Vàng.",
+      "Đặc điểm hình thái nổi bật: Đầu và gáy màu cam mơ rực rỡ, yếm bụng trắng muốt, lưng cánh xanh lục và mỏ màu sừng sáng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn trái cây rừng Amazon, hạt có dầu, hoa và viên cám dinh dưỡng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Caique Đầu Vàng (Caique Bụng Trắng) (Pionites leucogaster) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 7500000,
+        "descriptionVi": "Chim non Vẹt Caique Đầu Vàng (Caique Bụng Trắng) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pionites leucogaster 217545254.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_leucogaster_217545254.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Pionites_leucogaster_217545254.jpg",
+        "width": 2048,
+        "height": 1284,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kyle Van Houtan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:White-bellied caiques (29481455954).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:White-bellied_caiques_(29481455954).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/White-bellied_caiques_%2829481455954%29.jpg",
+        "width": 3068,
+        "height": 4602,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Nicolas Rénac",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pionites leucogaster xanthomerius 188386822.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_leucogaster_xanthomerius_188386822.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pionites_leucogaster_xanthomerius_188386822.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Vincent A. Vos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pionites leucogaster, Riberalta, Vaca Díez, Bolivia 318946854.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_leucogaster,_Riberalta,_Vaca_D%C3%ADez,_Bolivia_318946854.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pionites_leucogaster%2C_Riberalta%2C_Vaca_D%C3%ADez%2C_Bolivia_318946854.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "vincentvosriberalta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pionites leucogaster - White-bellied Parrot; Rio Branco, Acre, Brazil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pionites_leucogaster_-_White-bellied_Parrot;_Rio_Branco,_Acre,_Brazil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pionites_leucogaster_-_White-bellied_Parrot%3B_Rio_Branco%2C_Acre%2C_Brazil.jpg",
+        "width": 1233,
+        "height": 1881,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hector Bottai",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479441",
+      "https://www.iucnredlist.org/species/62181308/209668837",
+      "https://en.wikipedia.org/wiki/White-bellied_parrot",
+      "https://vi.wikipedia.org/wiki/Pionites_leucogaster"
+    ]
+  },
+  {
+    "scientificName": "Poicephalus senegalus",
+    "commonNameVi": "Vẹt Senegal",
+    "commonNameEn": "Senegal Parrot",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Poicephalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt châu Phi Poicephalus (Poicephalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685295/155304773",
+    "gbifKey": 2479964,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan có cây gỗ lớn và rừng thưa Tây Phi độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Loài vẹt châu Phi cỡ trung nổi tiếng với tính cách điềm tĩnh, ít la hét ồn ào và sự gắn kết sâu sắc với người chăm sóc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Mảng lông màu xanh lục chạy xuống ngực tạo thành hình chữ V sắc sảo trên nền bụng vàng cam trông hệt như chú vẹt đang khoác một chiếc áo ghi-lê lịch lãm.",
+    "dietVi": "Ăn quả sung, hạt cây bao báp, ngô, hạt có dầu và trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Senegal",
+      "lat": 16.03,
+      "lng": -16.5
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus senegalus",
+      "Psittacus spec"
+    ],
+    "wikidataId": "Q835926",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Poicephalus_senegalus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Senegal_parrot",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 22,
+      "lengthCmMax": 25,
+      "weightGMin": 120,
+      "weightGMax": 160,
+      "heightCmMax": null,
+      "noteVi": "Đầu màu xám tro, đôi mắt vàng rực và mảng bụng màu vàng cam hình chữ V trên nền áo ghi-lê xanh lục"
+    },
+    "distribution": {
+      "countries": [
+        "SN",
+        "ML",
+        "GN",
+        "CI",
+        "GH",
+        "NG"
+      ],
+      "nativeRangeVi": "Vùng savan Tây Phi từ Senegal trải dài tới Nigeria và Cameroon",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt châu Phi cỡ trung nổi tiếng với tính cách điềm tĩnh, ít la hét ồn ào và sự gắn kết sâu sắc với người chăm sóc. Đặc điểm nhận dạng: Đầu màu xám tro, đôi mắt vàng rực và mảng bụng màu vàng cam hình chữ V trên nền áo ghi-lê xanh lục.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Mảng lông màu xanh lục chạy xuống ngực tạo thành hình chữ V sắc sảo trên nền bụng vàng cam trông hệt như chú vẹt đang khoác một chiếc áo ghi-lê lịch lãm.",
+      "Đặc điểm hình thái nổi bật: Đầu màu xám tro, đôi mắt vàng rực và mảng bụng màu vàng cam hình chữ V trên nền áo ghi-lê xanh lục."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–34°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả sung, hạt cây bao báp, ngô, hạt có dầu và trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Senegal (Poicephalus senegalus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 4200000,
+        "descriptionVi": "Chim non Vẹt Senegal sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hotel Ecolodge Ponta Anchaca 06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Ecolodge_Ponta_Anchaca_06.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hotel_Ecolodge_Ponta_Anchaca_06.jpg",
+        "width": 4608,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Joehawkins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Senegal Parrot - Gambia (32497285172).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senegal_Parrot_-_Gambia_(32497285172).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Senegal_Parrot_-_Gambia_%2832497285172%29.jpg",
+        "width": 780,
+        "height": 1332,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Francesco Veronesi from Italy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Senegal parrot nest.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senegal_parrot_nest.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Senegal_parrot_nest.jpg",
+        "width": 1245,
+        "height": 1245,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dotun55",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poicephalus senegalus at Ecolodge Ponta Anchaca, Guinea-Bissau1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poicephalus_senegalus_at_Ecolodge_Ponta_Anchaca,_Guinea-Bissau1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Poicephalus_senegalus_at_Ecolodge_Ponta_Anchaca%2C_Guinea-Bissau1.jpg",
+        "width": 2400,
+        "height": 1800,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Joehawkins , this edit MPF",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Senegal Parrots ...Gambia (32396834543).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senegal_Parrots_...Gambia_(32396834543).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Senegal_Parrots_...Gambia_%2832396834543%29.jpg",
+        "width": 2335,
+        "height": 1283,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "peterichman from York, Yorkshire",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479964",
+      "https://www.iucnredlist.org/species/22685295/155304773",
+      "https://en.wikipedia.org/wiki/Senegal_parrot",
+      "https://vi.wikipedia.org/wiki/Poicephalus_senegalus"
+    ]
+  },
+  {
+    "scientificName": "Poicephalus meyeri",
+    "commonNameVi": "Vẹt Meyer",
+    "commonNameEn": "Brown Parrot",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Poicephalus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt châu Phi Poicephalus (Poicephalus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685304/263728611",
+    "gbifKey": 2479968,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa Miombo, savan cây keo và rừng ven sông độ cao 0–2.000 m"
+    },
+    "descriptionVi": "Một trong những loài vẹt châu Phi hiền lành và êm ả nhất, điểm xuyết những mảng lông vàng nghệ trên đỉnh đầu và đôi vai.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Phân bố qua tới 6 kiểu rừng savan khác nhau ở châu Phi nên Vẹt Meyer có sự biến thiên thú vị về độ rộng của vệt lông vàng trên vương miện đỉnh đầu.",
+    "dietVi": "Ăn hạt cây keo, quả mọng rừng Miombo, hạt hướng dương và rau quả",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Phi, Kenya",
+      "lat": -1.29,
+      "lng": 36.82
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q1048800",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Poicephalus_meyeri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Meyer%27s_parrot",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 21,
+      "lengthCmMax": 22,
+      "weightGMin": 100,
+      "weightGMax": 135,
+      "heightCmMax": null,
+      "noteVi": "Thân trên màu nâu xám trầm điểm dải băng vàng tươi trên đỉnh đầu, khúc khuỷu cánh và bụng xanh ngọc lam"
+    },
+    "distribution": {
+      "countries": [
+        "KE",
+        "TZ",
+        "ZM",
+        "ZW",
+        "BW",
+        "ZA"
+      ],
+      "nativeRangeVi": "Trung, Đông và Nam Phi từ Ethiopia xuống bắc Nam Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài vẹt châu Phi hiền lành và êm ả nhất, điểm xuyết những mảng lông vàng nghệ trên đỉnh đầu và đôi vai. Đặc điểm nhận dạng: Thân trên màu nâu xám trầm điểm dải băng vàng tươi trên đỉnh đầu, khúc khuỷu cánh và bụng xanh ngọc lam.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Phân bố qua tới 6 kiểu rừng savan khác nhau ở châu Phi nên Vẹt Meyer có sự biến thiên thú vị về độ rộng của vệt lông vàng trên vương miện đỉnh đầu.",
+      "Đặc điểm hình thái nổi bật: Thân trên màu nâu xám trầm điểm dải băng vàng tươi trên đỉnh đầu, khúc khuỷu cánh và bụng xanh ngọc lam."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cây keo, quả mọng rừng Miombo, hạt hướng dương và rau quả. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Meyer Châu Phi (Poicephalus meyeri) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 4500000,
+        "descriptionVi": "Chim non Vẹt Meyer Châu Phi sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Poicephalus meyeri -near Kwara Camp, North-West District, Botswana-8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poicephalus_meyeri_-near_Kwara_Camp,_North-West_District,_Botswana-8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Poicephalus_meyeri_-near_Kwara_Camp%2C_North-West_District%2C_Botswana-8.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Benjamin Hollis from Seattle, WA, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Poicephalus meyeri -Zimbabwe -two-8-3c.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poicephalus_meyeri_-Zimbabwe_-two-8-3c.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Poicephalus_meyeri_-Zimbabwe_-two-8-3c.jpg",
+        "width": 1203,
+        "height": 1203,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Poicephalus_meyeri_-Zimbabwe_-two-8.jpg : Oce Eeco derivative work: Snowmanradio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Goldbugpapagei.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Goldbugpapagei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Goldbugpapagei.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Haplochromis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Poicephalus meyeri -Zimbabwe -two-8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poicephalus_meyeri_-Zimbabwe_-two-8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Poicephalus_meyeri_-Zimbabwe_-two-8.jpg",
+        "width": 2048,
+        "height": 1372,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Oce Eeco",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479968",
+      "https://www.iucnredlist.org/species/22685304/263728611",
+      "https://en.wikipedia.org/wiki/Meyer%27s_parrot",
+      "https://vi.wikipedia.org/wiki/Poicephalus_meyeri"
+    ]
+  }
+]

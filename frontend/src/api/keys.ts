@@ -20,6 +20,13 @@ export const queryKeys = {
     species: (id: number | string) => [...queryKeys.taxonomy.all(), 'species', Number(id)] as const,
   },
 
+  // Hồ sơ mở rộng tĩnh của loài catalog (public/catalog)
+  catalog: {
+    all: () => [...queryKeys.all, 'catalog'] as const,
+    shard: (shard: number) => [...queryKeys.catalog.all(), 'shard', shard] as const,
+    credits: () => [...queryKeys.catalog.all(), 'credits'] as const,
+  },
+
   // 3. Species
   species: {
     all: () => [...queryKeys.all, 'species'] as const,
@@ -34,6 +41,7 @@ export const queryKeys = {
     all: () => [...queryKeys.all, 'products'] as const,
     list: (params?: { speciesId?: number; q?: string; page?: number; size?: number }) =>
       [...queryKeys.products.all(), 'list', params] as const,
+    allApproved: () => [...queryKeys.products.all(), 'all-approved'] as const,
     detail: (id: number | string) => [...queryKeys.products.all(), 'detail', Number(id)] as const,
     reviews: (id: number | string) => [...queryKeys.products.all(), 'reviews', Number(id)] as const,
   },

@@ -1,0 +1,3748 @@
+[
+  {
+    "scientificName": "Dendrobates tinctorius",
+    "commonNameVi": "Ếch Phi Tiêu Độc Nhuộm Màu",
+    "commonNameEn": "Dyeing Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Dendrobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch phi tiêu độc (Dendrobates)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55204/61395760",
+    "gbifKey": 9724339,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá ẩm và gốc cây gỗ mục trên sàn rừng mưa nguyên sinh"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc lớn nhất chi Dendrobates ở vùng khiên Guiana, nổi tiếng với hàng chục biến thể màu sắc tự nhiên từ xanh lam Azureus tới vàng đen Cobalt.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), thuộc Phụ lục II CITES và được nhân giống rộng rãi trong các hồ sinh thái nhiệt đới.",
+    "pullQuoteVi": "Cá thể sinh sản trong điều kiện nuôi nhốt hoàn toàn không có độc tố da vì độc tố ngoài tự nhiên được tổng hợp từ kiến và mối rừng.",
+    "dietVi": "Ăn kiến nhỏ, mối, bọ nhảy (Springtails) và ruồi giấm không cánh",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Essequibo, Guyana",
+      "lat": 5.28,
+      "lng": -58.62
+    },
+    "regionVi": "Vùng khiên Guiana: Guyana, Suriname, Guyane thuộc Pháp và bắc Brazil",
+    "otherNamesVi": [
+      "Ếch độc xanh lam Azureus",
+      "Ếch phi tiêu độc Tinctorius"
+    ],
+    "synonyms": [
+      "Calamita tinctorius",
+      "Dendrobates azureus",
+      "Dendrobates machadoi",
+      "Dendrobates tinctorius azureus"
+    ],
+    "wikidataId": "Q1478869",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dendrobates_tinctorius",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.5,
+      "lengthCmMax": 6,
+      "weightGMin": 4,
+      "weightGMax": 10,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn và có phần bụng tròn đầy; con đực có đĩa bám ngón chân trước to hình trái tim."
+    },
+    "distribution": {
+      "countries": [
+        "GY",
+        "SR",
+        "BR"
+      ],
+      "nativeRangeVi": "Các khu rừng mưa nhiệt đới vùng khiên Guiana",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá ẩm và gốc cây gỗ mục trên sàn rừng mưa nguyên sinh",
+      "Sườn đồi đá ẩm có rêu phủ giữa rừng già"
+    ],
+    "identificationVi": "Là loài lớn nhất trong chi Dendrobates (đạt tới 5–6 cm). Màu sắc rất đa dạng theo từng khu vực địa lý: lưng vàng sọc đen kèm chân xanh lam, hoặc toàn thân xanh lam điểm chấm đen (dòng Azureus). Đầu ngón chân trước của con đực nở rộng rõ rệt.",
+    "behaviorVi": "Hoạt động năng nổ suốt ban ngày trên nền rừng ẩm; con cái thường tranh giành lãnh thổ và bạn tình rất quyết liệt.",
+    "reproductionVi": "Con cái đẻ 4–10 trứng trên lá nhẵn; con đực canh trứng cho tới khi nở rồi cõng từng con nòng nọc trên lưng đem thả vào các hốc nước trên cây.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh rừng cục bộ ở các quần thể biến thể màu hẹp"
+    ],
+    "funFactsVi": [
+      "Tên gọi 'tinctorius' bắt nguồn từ truyền thuyết bản địa dùng dịch da loài ếch này để nhuộm lông vẹt xanh thành màu vàng đỏ.",
+      "Trong môi trường nuôi nhốt ăn ruồi giấm và bọ nhảy, da của chúng hoàn toàn không tích lũy alkaloid độc."
+    ],
+    "similarSpecies": [
+      "Dendrobates auratus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Hệ nền Bioactive: sỏi đất nung, lưới ngăn, giá thể rừng phủ lá sồi/lá bàng khô và rêu sống.",
+      "lightingVi": "Đèn LED quang phổ thực vật cho hồ bán cạn trồng rêu và dứa cảnh",
+      "feedingVi": "Ruồi giấm Drosophila melanogaster/hydei, bọ nhảy Springtails rắc bột canxi và vitamin A/D3",
+      "socialVi": "Nuôi theo cặp 1 đực 1 cái; tránh ghép hai con cái trưởng thành trong hồ nhỏ",
+      "commonProblemsVi": [
+        "Sốc nhiệt nếu nhiệt độ vượt 28°C",
+        "Thiếu vitamin A (hội chứng lưỡi ngắn)"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Phi Tiêu Độc Xanh Lam (Dendrobates tinctorius 'Azureus') CB",
+        "priceVnd": 3200000,
+        "descriptionVi": "Dòng Azureus xanh lam chấm đen nổi tiếng, hoàn toàn không độc trong nuôi nhốt."
+      },
+      {
+        "nameVi": "Ếch Phi Tiêu Độc (Dendrobates tinctorius 'Cobalt') CB",
+        "priceVnd": 2900000,
+        "descriptionVi": "Dòng Cobalt lưng vàng chân xanh coban đậm, cực kỳ dạn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Blue poison arrow frog (Dendrobates tinctorius \"azureus\").jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_poison_arrow_frog_(Dendrobates_tinctorius_%22azureus%22).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Blue_poison_arrow_frog_%28Dendrobates_tinctorius_%22azureus%22%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "PeCeT_full",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dendrobates tinctorius azures and Dendrobates leucomelas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_tinctorius_azures_and_Dendrobates_leucomelas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dendrobates_tinctorius_azures_and_Dendrobates_leucomelas.jpg",
+        "width": 3072,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krigore",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobates à tapirer Vincennes (20).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_%C3%A0_tapirer_Vincennes_(20).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dendrobates_%C3%A0_tapirer_Vincennes_%2820%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dyeing dart frog (Dendrobates tinctorius) (23772473920).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dyeing_dart_frog_(Dendrobates_tinctorius)_(23772473920).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Dyeing_dart_frog_%28Dendrobates_tinctorius%29_%2823772473920%29.jpg",
+        "width": 5862,
+        "height": 3908,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Raita Futo from Tokyo, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobates tinctorius.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_tinctorius.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Dendrobates_tinctorius.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joachim Frische",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9724339",
+      "https://www.iucnredlist.org/species/55204/61395760",
+      "https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog",
+      "https://vi.wikipedia.org/wiki/Dendrobates_tinctorius"
+    ]
+  },
+  {
+    "scientificName": "Dendrobates auratus",
+    "commonNameVi": "Ếch Phi Tiêu Độc Xanh Đen",
+    "commonNameEn": "Green And Black Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Dendrobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch phi tiêu độc (Dendrobates)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55174/3024941",
+    "gbifKey": 5218022,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá ẩm sàn rừng mưa nhiệt đới đất thấp"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc phổ biến ở Trung Mỹ với sắc xanh bạc hà, xanh ngọc hoặc màu đồng ánh kim nổi bật trên nền da đen nhánh.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), thuộc Phụ lục II CITES và được nhân nuôi bền vững toàn cầu.",
+    "pullQuoteVi": "Sắc xanh ngọc ánh kim tương phản trên nền đen nhung giúp chúng vừa rực rỡ dưới nắng rừng vừa dễ dàng ẩn mình trong bóng lá.",
+    "dietVi": "Ăn kiến nhỏ, ve đất, bọ nhảy và ruồi giấm",
+    "lifespanVi": "8–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Nam Nicaragua",
+      "lat": 11.02,
+      "lng": -84.4
+    },
+    "regionVi": "Từ nam Nicaragua qua Costa Rica, Panama tới tây bắc Colombia (du nhập vào quần đảo Hawaii)",
+    "otherNamesVi": [
+      "Ếch độc xanh bạc hà",
+      "Ếch phi tiêu vàng xanh"
+    ],
+    "synonyms": [
+      "Dendrobates amoenus",
+      "Dendrobates latimaculatus",
+      "Dendrobates tinctorius auratus",
+      "Dendrobates trivittatus aurata"
+    ],
+    "wikidataId": "Q775199",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dendrobates_auratus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Green_and_black_poison_dart_frog",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2.8,
+      "lengthCmMax": 4.2,
+      "weightGMin": 2.5,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn và mập hơn; con đực thon nhỏ hơn."
+    },
+    "distribution": {
+      "countries": [
+        "NI",
+        "CR",
+        "PA",
+        "CO"
+      ],
+      "nativeRangeVi": "Trung Mỹ và vùng Chocó tây bắc Colombia",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá ẩm sàn rừng mưa nhiệt đới đất thấp",
+      "Đồn điền ca cao rợp bóng và rừng ven suối"
+    ],
+    "identificationVi": "Nền thân màu đen tuyền hoặc nâu sô-cô-la đậm. Các dải hoa văn loang màu xanh lá bạc hà, xanh ngọc lam hoặc vàng đồng ánh kim. Da mịn bóng, tứ chi thon khỏe thích nghi vừa chạy trên mặt đất vừa leo gốc cây.",
+    "behaviorVi": "Nhút nhát hơn D. tinctorius một chút nhưng hòa thuận khi sống theo nhóm nhỏ; con đực chăm sóc trứng và cõng nòng nọc lên hốc nước cây dứa Nam Mỹ.",
+    "reproductionVi": "Đẻ ổ 4–8 trứng dưới lá khô; con đực thường xuyên quay lại làm ẩm trứng và cõng nòng nọc sau 10–14 ngày.",
+    "threatsVi": [
+      "Phá rừng nhiệt đới ở một số vùng đất thấp Trung Mỹ"
+    ],
+    "funFactsVi": [
+      "Năm 1932, 206 cá thể loài này được thả tại đảo Oahu (Hawaii) để diệt muỗi và côn trùng, hình thành quần thể hoang dã tồn tại đến nay.",
+      "Con đực có thể ghi nhớ chính xác vị trí hàng chục hốc nước nhỏ trên các cây dứa cảnh khác nhau trong lãnh thổ của mình."
+    ],
+    "similarSpecies": [
+      "Dendrobates leucomelas"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Nền Bioactive phủ dày lá khô, vỏ quả rừng và cây dứa cảnh (Bromeliad).",
+      "lightingVi": "Đèn LED cho hồ thực vật ẩm 10–12 giờ/ngày",
+      "feedingVi": "Ruồi giấm Melanogaster, bọ nhảy Springtails rắc khoáng",
+      "socialVi": "Sống tốt theo nhóm 3–5 cá thể cùng dòng trong một hồ",
+      "commonProblemsVi": [
+        "Suy dinh dưỡng nếu thiếu bột canxi/vitamin"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; lưu hành cá thể CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Phi Tiêu Độc Xanh Đen (Dendrobates auratus 'Costa Rica') CB",
+        "priceVnd": 1950000,
+        "descriptionVi": "Ếch phi tiêu xanh ngọc đen CB khỏe mạnh, nuôi nhóm hòa thuận."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Dendrobates auratus brown.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_auratus_brown.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dendrobates_auratus_brown.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dendrobates auratus (Costa Rica).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_auratus_(Costa_Rica).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Dendrobates_auratus_%28Costa_Rica%29.jpg",
+        "width": 1583,
+        "height": 2110,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hans Hillewaert",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobates Auratus in Bydgoszcz Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_Auratus_in_Bydgoszcz_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dendrobates_Auratus_in_Bydgoszcz_Zoo.jpg",
+        "width": 5312,
+        "height": 2988,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "globalquiz.org",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flickr - ggallice - Green and black poison dart frog (3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Green_and_black_poison_dart_frog_(3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flickr_-_ggallice_-_Green_and_black_poison_dart_frog_%283%29.jpg",
+        "width": 4238,
+        "height": 2825,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Green and black poison dart frog (Dendrobates auratus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_and_black_poison_dart_frog_(Dendrobates_auratus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Green_and_black_poison_dart_frog_%28Dendrobates_auratus%29.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bloopityboop",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218022",
+      "https://www.iucnredlist.org/species/55174/3024941",
+      "https://en.wikipedia.org/wiki/Green_and_black_poison_dart_frog",
+      "https://vi.wikipedia.org/wiki/Dendrobates_auratus"
+    ]
+  },
+  {
+    "scientificName": "Dendrobates leucomelas",
+    "commonNameVi": "Ếch Phi Tiêu Độc Sọc Vàng",
+    "commonNameEn": "Yellow-banded Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Dendrobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch phi tiêu độc (Dendrobates)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55191/61395501",
+    "gbifKey": 5218028,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới có mùa khô rõ rệt"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc nổi bật của miền bắc Nam Mỹ với những khoang màu vàng tươi hoặc vàng cam xen kẽ khoang đen bóng như ong vò vẽ.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), thuộc Phụ lục II CITES và rất phổ biến trong các hồ sinh thái vivarium.",
+    "pullQuoteVi": "Giọng hót rung ngân cao vút như tiếng chim hoàng yến khiến chúng trở thành một trong những loài ếch phi tiêu có tiếng kêu hay nhất.",
+    "dietVi": "Ăn kiến, mối, bọ nhảy, ruồi giấm và côn trùng nhỏ",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco, Venezuela",
+      "lat": 6.18,
+      "lng": -67.45
+    },
+    "regionVi": "Nam Venezuela, Guyana, cực bắc Brazil và đông Colombia",
+    "otherNamesVi": [
+      "Ếch độc ong nghệ",
+      "Ếch phi tiêu sọc vàng đen"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q615690",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dendrobates_leucomelas",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-banded_poison_dart_frog",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.1,
+      "lengthCmMax": 4,
+      "weightGMin": 3,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Con cái đầy đặn hơn; chỉ có con đực phát ra tiếng hót ngân dài để gọi bạn tình."
+    },
+    "distribution": {
+      "countries": [
+        "VE",
+        "GY",
+        "BR",
+        "CO"
+      ],
+      "nativeRangeVi": "Lưu vực sông Orinoco và tây vùng khiên Guiana",
+      "elevationM": {
+        "min": 50,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới có mùa khô rõ rệt",
+      "Khe đá ẩm dưới tán rừng và hốc gốc cây"
+    ],
+    "identificationVi": "Thân chia thành ba dải khoang rộng màu vàng tươi hoặc vàng cam xen kẽ với ba khoang màu đen nhánh. Nhiều dòng địa lý có thêm các chấm đen nhỏ rải rác trên nền khoang vàng. Da bóng mượt, bàn chân đen có giác bám tròn nhỏ.",
+    "behaviorVi": "Khác với nhiều loài ếch phi tiêu khác, D. leucomelas chịu được mùa khô nhẹ ngoài tự nhiên bằng cách tụ tập trú ẩn dưới các tảng đá ẩm.",
+    "reproductionVi": "Đẻ 5–10 trứng trong hốc lá ẩm; con đực bảo vệ trứng và cõng nòng nọc tới các vũng nước mưa nhỏ.",
+    "threatsVi": [
+      "Khai thác khoáng sản quy mô nhỏ tại lưu vực Orinoco"
+    ],
+    "funFactsVi": [
+      "Là loài ếch phi tiêu độc duy nhất được ghi nhận có tập tính ngủ hè tập thể dưới các hốc đá sâu khi rừng bước vào mùa khô.",
+      "Tiếng kêu của con đực vang và trong trẻo tới mức người mới nghe thường tưởng nhầm là tiếng chim hót trong phòng."
+    ],
+    "similarSpecies": [
+      "Dendrobates truncatus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Nền Bioactive phủ lá khô, gỗ lũa và các hốc gáo dừa.",
+      "lightingVi": "Đèn LED trồng cây chiếu sáng 12 giờ/ngày",
+      "feedingVi": "Ruồi giấm không cánh, bọ nhảy, sâu gạo mới nở rắc khoáng",
+      "socialVi": "Sống hòa thuận theo nhóm 3–4 cá thể",
+      "commonProblemsVi": [
+        "Nhiễm nấm nếu chuồng úng nước không thoát khí"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; lưu hành cá thể CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Phi Tiêu Độc Sọc Vàng (Dendrobates leucomelas) CB",
+        "priceVnd": 2100000,
+        "descriptionVi": "Ếch độc ong nghệ vàng đen rực rỡ, dạn người, kêu rất hay khi trưởng thành."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Dendrobates leucomelas big.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_leucomelas_big.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dendrobates_leucomelas_big.jpg",
+        "width": 3920,
+        "height": 2552,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Murat Çeven",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dendrobates leucometas 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_leucometas_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dendrobates_leucometas_1.jpg",
+        "width": 2252,
+        "height": 1952,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tony Hisgett from Birmingham, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Threeleucsmrgwiki1999.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Threeleucsmrgwiki1999.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Threeleucsmrgwiki1999.jpg",
+        "width": 1015,
+        "height": 623,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:M R G WIKI999",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobates leucomelas \"Banded\".JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_leucomelas_%22Banded%22.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Dendrobates_leucomelas_%22Banded%22.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "The Lord of the Allosaurs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leucomelas-femelle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leucomelas-femelle.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Leucomelas-femelle.jpg",
+        "width": 2552,
+        "height": 1914,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul B.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218028",
+      "https://www.iucnredlist.org/species/55191/61395501",
+      "https://en.wikipedia.org/wiki/Yellow-banded_poison_dart_frog",
+      "https://vi.wikipedia.org/wiki/Dendrobates_leucomelas"
+    ]
+  },
+  {
+    "scientificName": "Dendrobates truncatus",
+    "commonNameVi": "Ếch Phi Tiêu Độc Vạch Vàng",
+    "commonNameEn": "Yellow-striped Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Dendrobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch phi tiêu độc (Dendrobates)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55205/85886974",
+    "gbifKey": 5218029,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới ẩm và rừng khô theo mùa ven suối"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc đặc hữu của Colombia với thân màu đen bóng nổi bật hai dải sọc vàng tươi chạy dọc từ chóp mũi tới bẹn.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), có phạm vi phân bố rộng tại các thung lũng sông Magdalena và vùng ven biển Caribe của Colombia.",
+    "pullQuoteVi": "Hai đường kẻ vàng kim sắc sảo trên tấm lưng đen tuyền tạo nên vẻ thanh lịch đặc trưng của loài ếch đặc hữu Colombia.",
+    "dietVi": "Ăn kiến, mối, bọ nhảy và ruồi nhỏ trên sàn rừng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Đặc hữu Colombia (thung lũng sông Magdalena, sông Cauca và vùng đất thấp Caribe)",
+    "otherNamesVi": [
+      "Ếch độc sọc vàng Colombia"
+    ],
+    "synonyms": [
+      "Hylaplesia trunctata",
+      "Phyllobates truncatus"
+    ],
+    "wikidataId": "Q3020973",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dendrobates_truncatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-striped_poison_frog",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2.5,
+      "lengthCmMax": 3.2,
+      "weightGMin": 2,
+      "weightGMax": 3.5,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đôi chút so với con đực."
+    },
+    "distribution": {
+      "countries": [
+        "CO"
+      ],
+      "nativeRangeVi": "Miền bắc và miền trung Colombia",
+      "elevationM": {
+        "min": 100,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng nhiệt đới ẩm và rừng khô theo mùa ven suối",
+      "Thảm lá mục dưới tán rừng thứ sinh"
+    ],
+    "identificationVi": "Thân màu đen bóng với hai sọc vàng tươi hoặc vàng xanh chạy dọc hai bên mép lưng. Hai bên sườn và mặt trên tứ chi có các vạch hoặc đốm vàng sáng. Mặt bụng đen có vân cẩm thạch màu xanh lam nhạt hoặc trắng xám.",
+    "behaviorVi": "Nhanh nhẹn, kiếm ăn tích cực trên lớp lá khô sàn rừng suốt buổi sáng và chiều mát.",
+    "reproductionVi": "Con cái đẻ 4–8 trứng trên lá mục; con đực canh giữ và cõng nòng nọc tới các vũng nước đọng trong hốc cây.",
+    "threatsVi": [
+      "Phân mảnh sinh cảnh rừng ở thung lũng sông Magdalena"
+    ],
+    "funFactsVi": [
+      "Là loài đặc hữu hoàn toàn của Colombia nhưng có khả năng thích nghi với cả những khu rừng có mùa khô kéo dài.",
+      "Hoa văn vân xanh lam dưới bụng của mỗi cá thể là duy nhất như dấu vân tay."
+    ],
+    "similarSpecies": [
+      "Ameerega trivittata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Nền Bioactive phủ lá khô và vỏ quả rừng.",
+      "lightingVi": "Đèn LED chiếu sáng cho cây 12 giờ/ngày",
+      "feedingVi": "Ruồi giấm Melanogaster và bọ nhảy rắc canxi",
+      "socialVi": "Nuôi cặp hoặc nhóm 3–4 cá thể",
+      "commonProblemsVi": [
+        "Thiếu khoáng nếu không rắc bột bổ sung cho ruồi giấm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; chỉ giao dịch nguồn CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Phi Tiêu Độc Vạch Vàng (Dendrobates truncatus) CB",
+        "priceVnd": 1850000,
+        "descriptionVi": "Ếch phi tiêu vạch vàng Colombia CB khỏe mạnh, ăn ruồi giấm và bọ nhảy tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Rana venenosa de rallas amarillas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rana_venenosa_de_rallas_amarillas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rana_venenosa_de_rallas_amarillas.jpg",
+        "width": 5472,
+        "height": 3078,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Biodiego88",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dendrobates truncatus 27-05-2026.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_truncatus_27-05-2026.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Dendrobates_truncatus_27-05-2026.jpg",
+        "width": 3072,
+        "height": 4096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "PioVet",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rana Dendrobates truncatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rana_Dendrobates_truncatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Rana_Dendrobates_truncatus.jpg",
+        "width": 3072,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "CHAJIP FERNANDEZ PIUK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobates truncatus 2026-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobates_truncatus_2026-2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Dendrobates_truncatus_2026-2.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "XimmoY",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218029",
+      "https://www.iucnredlist.org/species/55205/85886974",
+      "https://en.wikipedia.org/wiki/Yellow-striped_poison_frog",
+      "https://vi.wikipedia.org/wiki/Dendrobates_truncatus"
+    ]
+  },
+  {
+    "scientificName": "Oophaga pumilio",
+    "commonNameVi": "Ếch Phi Tiêu Độc Dâu Tây",
+    "commonNameEn": "Strawberry Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Oophaga"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc ăn trứng (Oophaga)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55196/3025630",
+    "gbifKey": 2429135,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới ẩm có nhiều cây họ Dứa (Bromeliaceae)"
+    },
+    "descriptionVi": "Loài ếch độc nhỏ nhắn vùng Caribe Trung Mỹ, nổi tiếng với hình thái chuẩn thân đỏ dâu tây đi kèm bốn chân xanh lam đậm ('Blue Jeans') và tập tính nuôi con bằng trứng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), thuộc Phụ lục II CITES; quần thể đảo Bocas del Toro có hơn 15 biến thể màu tự nhiên.",
+    "pullQuoteVi": "Ếch mẹ tận tụy leo lên từng bẹ lá dứa mỗi ngày để đẻ trứng nuôi từng đứa con nòng nọc của mình cho tới khi biến thái.",
+    "dietVi": "Ăn kiến nhỏ, ve bét rừng (Oribatid mites), bọ nhảy và ruồi nhỏ",
+    "lifespanVi": "7–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Nam Nicaragua",
+      "lat": 11.02,
+      "lng": -84.4
+    },
+    "regionVi": "Sườn Đại Tây Dương của Nicaragua, Costa Rica và tây bắc Panama",
+    "otherNamesVi": [
+      "Ếch độc quần bò xanh",
+      "Ếch độc dâu tây Blue Jeans"
+    ],
+    "synonyms": [
+      "Dendrobates galindoi",
+      "Dendrobates ignitus",
+      "Dendrobates pumilio",
+      "Dendrobates typographicus"
+    ],
+    "wikidataId": "Q786955",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Oophaga_pumilio",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Strawberry_poison_dart_frog",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 1.7,
+      "lengthCmMax": 2.4,
+      "weightGMin": 1,
+      "weightGMax": 2,
+      "heightCmMax": null,
+      "noteVi": "Kích thước hai giới tương đương; con đực có cổ họng sẫm màu hơn và thường đứng cao hót bảo vệ lãnh thổ."
+    },
+    "distribution": {
+      "countries": [
+        "NI",
+        "CR",
+        "PA"
+      ],
+      "nativeRangeVi": "Vùng đất thấp ẩm ven biển Caribe từ Nicaragua tới Panama",
+      "elevationM": {
+        "min": 0,
+        "max": 950
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới ẩm có nhiều cây họ Dứa (Bromeliaceae)",
+      "Vườn ca cao và chuối bỏ hoang rợp bóng"
+    ],
+    "identificationVi": "Kích thước rất nhỏ (chỉ khoảng 2 cm), da lưng có hạt mịn. Dạng phổ biến nhất (Blue Jeans) có đầu và thân màu đỏ tươi như trái dâu tây, bốn chân màu xanh lam đậm hoặc đen. Tại quần đảo Bocas del Toro (Panama) có các biến thể màu xanh lá, cam, vàng hoặc xanh dương chấm đen.",
+    "behaviorVi": "Tính lãnh thổ cực cao; hai con đực xâm phạm lãnh thổ sẽ đứng bằng hai chân sau và vật nhau quyết liệt trên lá cây.",
+    "reproductionVi": "Ếch bố canh trứng, sau khi nở ếch mẹ cõng từng con nòng nọc lên từng nách lá cây dứa riêng biệt và quay lại đẻ trứng không thụ tinh làm thức ăn duy nhất cho con.",
+    "threatsVi": [
+      "Bắt trộm trái phép các biến thể màu hiếm ngoài đảo ở Panama",
+      "Mất rừng ven biển để phát triển du lịch"
+    ],
+    "funFactsVi": [
+      "Tên chi 'Oophaga' trong tiếng Hy Lạp có nghĩa là 'ăn trứng', phản ánh việc nòng nọc bắt buộc phải ăn trứng của mẹ mới phát triển được.",
+      "Dù chỉ dài 2 cm, tiếng kêu 'bíp-bíp-bíp' của con đực vang khắp các khu rừng mưa Costa Rica mỗi buổi sáng."
+    ],
+    "similarSpecies": [
+      "Oophaga histrionica"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Nền Bioactive phủ lá khô và bắt buộc trồng nhiều cây dứa cảnh (Bromeliad) giữ nước ở nách lá.",
+      "lightingVi": "Đèn LED trồng cây cho các khóm dứa cảnh Neoregelia phát triển tốt",
+      "feedingVi": "Bọ nhảy Springtails và ruồi giấm Melanogaster nhỏ rắc khoáng mỗi lần cho ăn",
+      "socialVi": "Chỉ nuôi theo cặp 1 đực 1 cái vì có tính lãnh thổ rất cao",
+      "commonProblemsVi": [
+        "Stress do tranh chấp lãnh thổ nếu nuôi quá đông"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; chỉ lưu hành cá thể từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Phi Tiêu Độc Dâu Tây (Oophaga pumilio 'Blue Jeans') CB",
+        "priceVnd": 3600000,
+        "descriptionVi": "Ếch độc dâu tây chân xanh Blue Jeans sinh sản nuôi nhốt, màu đỏ tươi rực rỡ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Oophaga pumilio.1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oophaga_pumilio.1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Oophaga_pumilio.1.jpg",
+        "width": 5138,
+        "height": 3196,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lucas Vogel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bluejean.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bluejean.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Bluejean.jpg",
+        "width": 3494,
+        "height": 3869,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jackcsmall",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Oophaga pumilio almirante.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oophaga_pumilio_almirante.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Oophaga_pumilio_almirante.JPG",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Dendrotoine85",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flickr - ggallice - Strawberry poison frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Strawberry_poison_frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Flickr_-_ggallice_-_Strawberry_poison_frog.jpg",
+        "width": 3624,
+        "height": 2416,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobate fraise Oophaga pumilio (16005614860).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobate_fraise_Oophaga_pumilio_(16005614860).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Dendrobate_fraise_Oophaga_pumilio_%2816005614860%29.jpg",
+        "width": 3264,
+        "height": 1840,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "elisabeth tonglet",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429135",
+      "https://www.iucnredlist.org/species/55196/3025630",
+      "https://en.wikipedia.org/wiki/Strawberry_poison_dart_frog",
+      "https://vi.wikipedia.org/wiki/Oophaga_pumilio"
+    ]
+  },
+  {
+    "scientificName": "Oophaga histrionica",
+    "commonNameVi": "Ếch Phi Tiêu Độc Hề",
+    "commonNameEn": "Harlequin Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Oophaga"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc ăn trứng (Oophaga)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/144231367/144443857",
+    "gbifKey": 2429137,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới siêu ẩm vùng Chocó"
+    },
+    "descriptionVi": "Loài ếch độc quý hiếm của rừng mưa Chocó (Colombia) với những mảng hoa văn cam đỏ, vàng hoặc trắng tương phản rực rỡ trên nền da đen tuyền.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES do sinh cảnh rừng Chocó bị chia cắt và nạn săn bắt trái phép.",
+    "pullQuoteVi": "Mỗi thung lũng rừng mưa Chocó lại mang đến một bộ trang phục màu sắc khác nhau cho loài ếch hề cực kỳ nguy cấp này.",
+    "dietVi": "Ăn kiến, mối nhỏ, ve bét rừng và bọ nhảy trên sàn rừng mưa",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Đặc hữu vùng rừng mưa Chocó phía tây Colombia",
+    "otherNamesVi": [
+      "Ếch độc Harlequin"
+    ],
+    "synonyms": [
+      "Dendrobates histrionicus",
+      "Dendrobates histrionicus concluens",
+      "Dendrobates histrionicus confluens",
+      "Dendrobates tinctorius cocteani"
+    ],
+    "wikidataId": "Q138853",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Harlequin_poison_frog",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 3,
+      "lengthCmMax": 4,
+      "weightGMin": 3,
+      "weightGMax": 5,
+      "heightCmMax": null,
+      "noteVi": "Con đực thường chọn các nhánh cây thấp cách mặt đất 20–50 cm để đứng hót khẳng định lãnh thổ."
+    },
+    "distribution": {
+      "countries": [
+        "CO"
+      ],
+      "nativeRangeVi": "Sườn phía tây dãy Andes thuộc vùng sinh thái Chocó, Colombia",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới siêu ẩm vùng Chocó",
+      "Tầng cây bụi thấp và thảm lá ẩm có nhiều cây dứa cảnh"
+    ],
+    "identificationVi": "Thân thon dài với tứ chi cao, đầu tròn và mắt đen lớn. Nền da màu đen nhung điểm các mảng lớn hoặc vòng đai màu cam đỏ, vàng tươi hoặc đỏ gạch ở lưng và chi. Mõm thường có chóp màu cam hoặc vàng nổi bật.",
+    "behaviorVi": "Hoạt động ban ngày dưới tán rừng mưa có lượng mưa cao nhất hành tinh; ếch mẹ chăm sóc từng con nòng nọc trong bẹ lá cây dứa.",
+    "reproductionVi": "Con cái đẻ trứng trên lá thấp; con đực canh trứng và con cái cõng nòng nọc lên bẹ lá cây dứa rồi đẻ trứng nuôi con suốt hơn một tháng.",
+    "threatsVi": [
+      "Khai thác vàng sa khoáng và phá rừng tại vùng Chocó",
+      "Buôn bán động vật hoang dã bất hợp pháp"
+    ],
+    "funFactsVi": [
+      "Khu vực Chocó nơi loài này sinh sống có lượng mưa lên tới 8.000–10.000 mm mỗi năm, giữ độ ẩm rừng gần như luôn ở mức bão hòa.",
+      "Con non mất tới hơn một năm sau khi biến thái mới đạt kích thước và màu sắc hoàn chỉnh của cá thể trưởng thành."
+    ],
+    "similarSpecies": [
+      "Oophaga pumilio"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài ở mức Cực kỳ nguy cấp (CR) cần được bảo tồn nghiêm ngặt ngoài tự nhiên, chỉ hiển thị tra cứu bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Oophaga histrionica 118830449.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oophaga_histrionica_118830449.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Oophaga_histrionica_118830449.jpg",
+        "width": 944,
+        "height": 1108,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "desertnaturalist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Oophaga histrionica 118830743.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oophaga_histrionica_118830743.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Oophaga_histrionica_118830743.jpg",
+        "width": 857,
+        "height": 763,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "desertnaturalist",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429137",
+      "https://www.iucnredlist.org/species/144231367/144443857",
+      "https://en.wikipedia.org/wiki/Harlequin_poison_frog"
+    ]
+  },
+  {
+    "scientificName": "Phyllobates terribilis",
+    "commonNameVi": "Ếch Độc Phi Tiêu Vàng",
+    "commonNameEn": "Golden Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Phyllobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc lá (Phyllobates)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/55264/85887889",
+    "gbifKey": 5218020,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới ẩm nguyên sinh trên sườn đồi thoát nước tốt"
+    },
+    "descriptionVi": "Loài lưỡng cư nổi tiếng nhất thế giới về độc tính ngoài tự nhiên ở bờ biển Thái Bình Dương của Colombia, khoác lên mình màu vàng kim, cam hoặc xanh bạc hà rực sáng.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES do diện tích phân bố tự nhiên rất hẹp ở vùng Cauca và Valle del Cauca.",
+    "pullQuoteVi": "Ngoài tự nhiên chúng mang độc tố batrachotoxin mạnh bậc nhất giới động vật, nhưng cá thể nhân giống trong nuôi nhốt lại hoàn toàn vô hại.",
+    "dietVi": "Ăn kiến rừng (chi Brachymyrmex, Paratrechina), bọ cánh cứng nhỏ, mối và ruồi",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Vùng bờ biển Thái Bình Dương tây nam Colombia (lưu vực sông Saija)",
+    "otherNamesVi": [
+      "Ếch phi tiêu vàng",
+      "Ếch độc vàng Colombia"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q963997",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BA%BEch_%C4%91%E1%BB%99c_phi_ti%C3%AAu_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Golden_poison_frog",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 4.5,
+      "lengthCmMax": 5.5,
+      "weightGMin": 6,
+      "weightGMax": 12,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn nhẹ (5–5,5 cm) so với con đực (4,5–5 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "CO"
+      ],
+      "nativeRangeVi": "Các khu rừng mưa đồi thấp tỉnh Cauca và Valle del Cauca (Colombia)",
+      "elevationM": {
+        "min": 50,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới ẩm nguyên sinh trên sườn đồi thoát nước tốt",
+      "Thảm lá mục bên bờ suối nhỏ trong rừng già"
+    ],
+    "identificationVi": "Là một trong những loài ếch phi tiêu độc lớn nhất (dài tới 5,5 cm). Toàn thân phủ màu vàng tươi, vàng cam hoặc xanh bạc hà đồng nhất, đôi mắt to đen nhánh. Ở cá thể trưởng thành, các mảnh xương hàm trên liền khối và không có răng nhỏ ở hàm dưới.",
+    "behaviorVi": "Rất dạn dĩ, di chuyển thong thả giữa ban ngày trên nền rừng mà không cần ẩn nấp; có tính xã hội cao hơn nhiều loài ếch độc khác.",
+    "reproductionVi": "Đẻ 10–20 trứng trên lá mục; con đực có thể cõng cùng lúc 5–12 con nòng nọc trên lưng đem thả vào các vũng nước mưa nhỏ.",
+    "threatsVi": [
+      "Phá rừng nguyên sinh lấy gỗ và khai khoáng tại vùng bờ biển Thái Bình Dương Colombia"
+    ],
+    "funFactsVi": [
+      "Người bản địa Emberá và Noanamá tại Colombia truyền thống chỉ hơ nhẹ đầu mũi tên ống thổi lên lưng ếch sống mà không cần giết hại chúng.",
+      "Tuyến bảo tồn Ranarium ProAves ở Colombia đã được thành lập riêng để bảo vệ sinh cảnh tự nhiên cuối cùng của loài ếch này."
+    ],
+    "similarSpecies": [
+      "Phyllobates bicolor"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) có phạm vi phân bố hẹp tại Colombia; BioNexus chỉ trưng bày thông tin học thuật."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Phyllobates terribilis - Rana Dardo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_terribilis_-_Rana_Dardo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Phyllobates_terribilis_-_Rana_Dardo.jpg",
+        "width": 5472,
+        "height": 3078,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Biodiego88",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:GoldenPoisonDartFrog PhyllobatesTerribilis2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GoldenPoisonDartFrog_PhyllobatesTerribilis2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/GoldenPoisonDartFrog_PhyllobatesTerribilis2.jpg",
+        "width": 1960,
+        "height": 2288,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ltshears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllobates terribilis mating - Parque Explora - Medellín.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_terribilis_mating_-_Parque_Explora_-_Medell%C3%ADn.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Phyllobates_terribilis_mating_-_Parque_Explora_-_Medell%C3%ADn.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Tisquesusa",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rana dardo dorada Vivario Explora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rana_dardo_dorada_Vivario_Explora.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rana_dardo_dorada_Vivario_Explora.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Parque Explora Medellín",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllobates terribilis Bioactive Enclosure.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_terribilis_Bioactive_Enclosure.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Phyllobates_terribilis_Bioactive_Enclosure.jpg",
+        "width": 3725,
+        "height": 2793,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Connor Long",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218020",
+      "https://www.iucnredlist.org/species/55264/85887889",
+      "https://en.wikipedia.org/wiki/Golden_poison_frog",
+      "https://vi.wikipedia.org/wiki/%E1%BA%BEch_%C4%91%E1%BB%99c_phi_ti%C3%AAu_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Phyllobates bicolor",
+    "commonNameVi": "Ếch Độc Phi Tiêu Chân Đen",
+    "commonNameEn": "Black-legged Poison Dart Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Phyllobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc lá (Phyllobates)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/55262/85887396",
+    "gbifKey": 5218019,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng mưa nhiệt đới ẩm vùng đồi núi thấp"
+    },
+    "descriptionVi": "Loài ếch độc lớn thứ hai trong chi Phyllobates tại miền tây Colombia, nổi bật với thân màu vàng cam rực rỡ và bốn chân màu đen điểm chấm xanh lục.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES do suy giảm diện tích rừng mưa vùng Chocó.",
+    "pullQuoteVi": "Sự đối lập giữa tấm lưng vàng rực như nắng nhiệt đới và đôi chân đen sẫm là lời cảnh báo rõ ràng tới mọi kẻ săn mồi trong rừng mưa.",
+    "dietVi": "Ăn kiến, mối, bọ nhảy, nhện nhỏ và ấu trùng côn trùng",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Orinoco - Amazon, Colombia",
+      "lat": 3.86,
+      "lng": -67.92
+    },
+    "regionVi": "Đặc hữu miền tây Colombia (lưu vực sông San Juan và sông Atrato thuộc vùng Chocó)",
+    "otherNamesVi": [
+      "Ếch phi tiêu độc hai màu"
+    ],
+    "synonyms": [
+      "Dendrobates tinctorius chocoensis",
+      "Phyllobates chocoensis",
+      "Phyllobates melanorhinus",
+      "Phyllobates nicefori"
+    ],
+    "wikidataId": "Q141616",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phyllobates_bicolor",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 3.8,
+      "lengthCmMax": 4.5,
+      "weightGMin": 4,
+      "weightGMax": 8,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 4,2–4,5 cm, lớn hơn nhẹ so với con đực (3,8–4 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "CO"
+      ],
+      "nativeRangeVi": "Các tỉnh Chocó, Risaralda và Valle del Cauca ở miền tây Colombia",
+      "elevationM": {
+        "min": 20,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Sàn rừng mưa nhiệt đới ẩm vùng đồi núi thấp",
+      "Các khe suối rợp bóng cây trong rừng già"
+    ],
+    "identificationVi": "Đầu và toàn bộ mặt lưng màu vàng tươi hoặc vàng cam rực rỡ. Phần đùi, cẳng chân và mặt bụng có màu đen hoặc nâu đen phủ các chấm nhỏ màu xanh lục nhạt. Đĩa bám ngón chân nhỏ, mắt đen to nổi bật trên nền đầu vàng.",
+    "behaviorVi": "Kiếm ăn tích cực trên thảm lá và các khúc gỗ mục suốt ban ngày; con đực phát ra tiếng kêu ríu rít kéo dài từ trên các tảng đá thấp.",
+    "reproductionVi": "Con cái đẻ 12–20 trứng trên lá mục; con đực canh giữ ổ trứng khoảng 2 tuần rồi cõng cả đàn nòng nọc ra vũng nước rừng.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước và mất rừng do khai thác vàng trái phép ở lưu vực sông San Juan"
+    ],
+    "funFactsVi": [
+      "Cùng với P. terribilis và P. aurotaenia, đây là một trong ba loài ếch duy nhất từng được người bản địa Chocó sử dụng làm tên độc săn bắn.",
+      "Cá thể sinh trưởng trong môi trường nhân nuôi ăn ruồi giấm hoàn toàn mất đi khả năng tổng hợp batrachotoxin."
+    ],
+    "similarSpecies": [
+      "Phyllobates terribilis"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) thuộc Phụ lục II CITES, không mở bán thương mại trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Black Leg Poison Dart Frog (Phyllobates bicolor) (7124609619).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Leg_Poison_Dart_Frog_(Phyllobates_bicolor)_(7124609619).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Black_Leg_Poison_Dart_Frog_%28Phyllobates_bicolor%29_%287124609619%29.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Phyllobates bicolor 2zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_bicolor_2zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Phyllobates_bicolor_2zz.jpg",
+        "width": 1000,
+        "height": 884,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllobates bicolor frog on soil (alt version).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_bicolor_frog_on_soil_(alt_version).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Phyllobates_bicolor_frog_on_soil_%28alt_version%29.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Luis Miguel Bugallo Sánchez ( Lmbuga ) Modification by / Image modifiée par Christophe cagé 07:04, 23 April 2006 (UTC) C",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllobates bicolor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_bicolor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Phyllobates_bicolor.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Esquilo",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218019",
+      "https://www.iucnredlist.org/species/55262/85887396",
+      "https://en.wikipedia.org/wiki/Phyllobates_bicolor"
+    ]
+  },
+  {
+    "scientificName": "Phyllobates vittatus",
+    "commonNameVi": "Ếch Độc Sọc Cam Golfo Dulce",
+    "commonNameEn": "Golfodulcean Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Phyllobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc lá (Phyllobates)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/55265/157629569",
+    "gbifKey": 5218018,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá ẩm ven các khe suối đá trong rừng mưa nhiệt đới đất thấp"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc vùng vịnh Golfo Dulce (Costa Rica) với nền thân đen nhánh, hai sọc cam vàng sáng rực chạy dọc lưng và tứ chi điểm đốm xanh ngọc.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) và thuộc Phụ lục II CITES; hiện đã được nhân giống rất thành công trong các bộ sưu tập sinh thái.",
+    "pullQuoteVi": "Hai dải sọc cam rực như tia lửa chạy từ chóp mũi tới gốc đùi trên nền thân đen điểm ngọc xanh.",
+    "dietVi": "Ăn ruồi giấm, bọ nhảy, kiến nhỏ và ấu trùng côn trùng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Rừng mưa Sarapiquí, Costa Rica",
+      "lat": 10.45,
+      "lng": -84.01
+    },
+    "regionVi": "Nam Costa Rica (khu vực bán đảo Osa và vịnh Golfo Dulce) giáp biên giới Panama",
+    "otherNamesVi": [
+      "Ếch phi tiêu sọc cam Costa Rica"
+    ],
+    "synonyms": [
+      "Dendrobates tinctorius vittatus"
+    ],
+    "wikidataId": "Q1519617",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Phyllobates_vittatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Golfodulcean_poison_frog",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 2.5,
+      "lengthCmMax": 3.1,
+      "weightGMin": 2,
+      "weightGMax": 3.5,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 2,8–3,1 cm, lớn hơn con đực (2,5–2,7 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "CR"
+      ],
+      "nativeRangeVi": "Vùng đất thấp quanh vịnh Golfo Dulce và bán đảo Osa ở tây nam Costa Rica",
+      "elevationM": {
+        "min": 20,
+        "max": 550
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá ẩm ven các khe suối đá trong rừng mưa nhiệt đới đất thấp",
+      "Hốc rễ cây bạnh vè gần dòng nước chảy"
+    ],
+    "identificationVi": "Thân màu đen tuyền với hai dải sọc rộng màu cam đỏ hoặc vàng cam chạy dọc hai bên lưng từ chóp mũi tới bẹn. Bốn chân và hai bên sườn có nền đen phủ dày các chấm màu xanh lục lam hoặc trắng xanh. Có một vạch trắng sáng chạy dọc môi trên.",
+    "behaviorVi": "Ưa sống gần các khe suối nhỏ dưới tán rừng rậm; nhanh nhẹn nhưng khá dạn người trong hồ trồng nhiều cây.",
+    "reproductionVi": "Con cái đẻ 8–18 trứng trên lá cây sát mặt đất; con đực chăm ẩm cho trứng và cõng nòng nọc ra các vũng nước tĩnh ven suối.",
+    "threatsVi": [
+      "Chia cắt sinh cảnh rừng ngoài ranh giới Vườn quốc gia Corcovado"
+    ],
+    "funFactsVi": [
+      "Là loài phân bố xa nhất về phía bắc của chi Phyllobates và có hàm lượng độc tố tự nhiên thấp hơn rất nhiều so với các loài họ hàng ở Colombia.",
+      "Nhờ vẻ ngoài bắt mắt và dễ sinh sản, loài này được nhân giống phổ biến để giảm áp lực lên quần thể tự nhiên ở Costa Rica."
+    ],
+    "similarSpecies": [
+      "Epipedobates tricolor"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 50 lít. Giá thể: Nền Bioactive thoát nước tốt, phủ lá sồi khô và hốc gáo dừa.",
+      "lightingVi": "Đèn LED chiếu sáng cho rêu và dương xỉ nhiệt đới",
+      "feedingVi": "Ruồi giấm Melanogaster, bọ nhảy Springtails rắc canxi/vitamin",
+      "socialVi": "Có thể nuôi theo cặp hoặc nhóm nhỏ 3–4 cá thể",
+      "commonProblemsVi": [
+        "Mất nước nếu độ ẩm tụt dưới 70%"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Sọc Cam (Phyllobates vittatus) CB",
+        "priceVnd": 2200000,
+        "descriptionVi": "Ếch phi tiêu sọc cam chân đốm xanh ngọc CB, ăn ruồi giấm tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Phyllobates vittatus - Tiergarten Schönbrunn.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_vittatus_-_Tiergarten_Sch%C3%B6nbrunn.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Phyllobates_vittatus_-_Tiergarten_Sch%C3%B6nbrunn.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "spacebirdy (also known as geimfyglið (:> )=| made with Sternenlaus -spirit)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Phyllobates vittatus 448308844.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_vittatus_448308844.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Phyllobates_vittatus_448308844.jpg",
+        "width": 2048,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Tom Savage",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Phyllobates vittatus (181109175).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phyllobates_vittatus_(181109175).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Phyllobates_vittatus_%28181109175%29.jpg",
+        "width": 1600,
+        "height": 1202,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Daniel Aufgang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Golfo Dulce Poison Dart Frog (Phyllobates vittatus) (36808977116).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golfo_Dulce_Poison_Dart_Frog_(Phyllobates_vittatus)_(36808977116).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Golfo_Dulce_Poison_Dart_Frog_%28Phyllobates_vittatus%29_%2836808977116%29.jpg",
+        "width": 3032,
+        "height": 2080,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dählhölzli - Gestreifter Blattsteiger 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%A4hlh%C3%B6lzli_-_Gestreifter_Blattsteiger_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/D%C3%A4hlh%C3%B6lzli_-_Gestreifter_Blattsteiger_1.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "No machine-readable author provided. RicciSpeziari~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5218018",
+      "https://www.iucnredlist.org/species/55265/157629569",
+      "https://en.wikipedia.org/wiki/Golfodulcean_poison_frog",
+      "https://vi.wikipedia.org/wiki/Phyllobates_vittatus"
+    ]
+  },
+  {
+    "scientificName": "Ranitomeya imitator",
+    "commonNameVi": "Ếch Phi Tiêu Độc Bắt Chước",
+    "commonNameEn": "Mimic Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Ranitomeya"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc ngón cái (Ranitomeya)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/56378936/177121453",
+    "gbifKey": 2429079,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 95,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới nguyên sinh và thứ sinh có nhiều cây họ Chuối mỏ két (Heliconia), Ráy và Dứa cảnh"
+    },
+    "descriptionVi": "Loài ếch độc ngón cái tí hon của rừng mưa Peru, nổi tiếng trong sinh học tiến hóa vì khả năng bắt chước hoa văn của ba loài ếch độc khác nhau và sống chung thủy một vợ một chồng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), thuộc Phụ lục II CITES và được nhân giống rộng rãi trong điều kiện nuôi nhốt.",
+    "pullQuoteVi": "Loài lưỡng cư đầu tiên trên thế giới được khoa học chứng minh là sống chung thủy một vợ một chồng và cùng nhau nuôi con.",
+    "dietVi": "Ăn bọ nhảy (Springtails), ve đất nhỏ và ruồi giấm cỡ nhỏ",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Đặc hữu vùng sườn đông dãy Andes thuộc bắc-trung Peru (San Martín và Loreto)",
+    "otherNamesVi": [
+      "Ếch độc tí hon Mimic"
+    ],
+    "synonyms": [
+      "Dendrobates imitator",
+      "Dendrobates imitator intermedius",
+      "Dendrobates imitator yurimaguensis",
+      "Ranitomeya intermedia"
+    ],
+    "wikidataId": "Q146330",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ranitomeya_imitator",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mimic_poison_frog",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 1.6,
+      "lengthCmMax": 2.2,
+      "weightGMin": 0.8,
+      "weightGMax": 1.5,
+      "heightCmMax": null,
+      "noteVi": "Hai giới có kích thước gần bằng nhau (chưa đầy 2 cm); con đực phát tiếng kêu rít nhỏ để gọi con cái."
+    },
+    "distribution": {
+      "countries": [
+        "PE"
+      ],
+      "nativeRangeVi": "Các tỉnh San Martín và Loreto thuộc miền bắc Peru",
+      "elevationM": {
+        "min": 200,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới nguyên sinh và thứ sinh có nhiều cây họ Chuối mỏ két (Heliconia), Ráy và Dứa cảnh",
+      "Tầng cây bụi ẩm cao 0,5–3 m so với mặt đất"
+    ],
+    "identificationVi": "Kích thước cực nhỏ (1,6–2,2 cm) với đôi chân có vân lưới màu xanh lam hoặc xanh lục. Có hai đốm đen nhỏ cân xứng nằm ngay trên chóp mõm. Màu lưng biến đổi mạnh theo vùng (sọc vàng, đốm xanh hoặc cam đỏ) để bắt chước các loài ếch độc cùng sinh cảnh.",
+    "behaviorVi": "Leo trèo khéo léo trên lá cây và bẹ cây dứa cảnh; cặp đôi đực cái gắn bó lâu dài trong cùng một lãnh thổ nhỏ.",
+    "reproductionVi": "Ếch bố cõng từng con nòng nọc thả vào bẹ nước cây; khi nòng nọc đói sẽ quẫy đuôi báo hiệu để ếch bố gọi ếch mẹ tới đẻ trứng mồi cho con ăn.",
+    "threatsVi": [
+      "Phát quang rừng trồng cà phê và ca cao ở vùng San Martín (Peru)"
+    ],
+    "funFactsVi": [
+      "Là ví dụ kinh điển nhất ở động vật có xương sống về hiện tượng bắt chước Müller (Müllerian mimicry).",
+      "Phân tích ADN cho thấy hơn 90% các cặp R. imitator ngoài tự nhiên duy trì sự chung thủy tuyệt đối trong suốt mùa sinh sản."
+    ],
+    "similarSpecies": [
+      "Oophaga pumilio"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 40 lít. Giá thể: Hồ đứng trồng nhiều cây Bromeliad nhỏ (Neoregelia) và rêu ẩm.",
+      "lightingVi": "Đèn LED quang phổ cây thủy sinh/bán cạn 12 giờ/ngày",
+      "feedingVi": "Bọ nhảy Springtails và ruồi giấm Melanogaster nhỏ rắc khoáng",
+      "socialVi": "Nuôi theo cặp 1 đực 1 cái trong hồ kín hoàn toàn khe hở",
+      "commonProblemsVi": [
+        "Suy dinh dưỡng nếu thức ăn quá to so với miệng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; lưu hành cá thể CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Tí Hon (Ranitomeya imitator 'Varadero') CB",
+        "priceVnd": 2800000,
+        "descriptionVi": "Ếch độc ngón cái dòng Varadero Peru màu cam đỏ lưới xanh cực đẹp."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ranitomeya imitator - Diergaarde Blijdorp - Rotterdam - mating.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ranitomeya_imitator_-_Diergaarde_Blijdorp_-_Rotterdam_-_mating.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ranitomeya_imitator_-_Diergaarde_Blijdorp_-_Rotterdam_-_mating.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AgainErick",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:R. imitator Chazuta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:R._imitator_Chazuta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/R._imitator_Chazuta.jpg",
+        "width": 1754,
+        "height": 1240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gabsch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:R. imitator \"Varadero\".jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:R._imitator_%22Varadero%22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/R._imitator_%22Varadero%22.jpg",
+        "width": 2364,
+        "height": 1330,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Msoudee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:R. imitator Alto Cainarachi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:R._imitator_Alto_Cainarachi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/R._imitator_Alto_Cainarachi.jpg",
+        "width": 1754,
+        "height": 1240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Gabsch",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429079",
+      "https://www.iucnredlist.org/species/56378936/177121453",
+      "https://en.wikipedia.org/wiki/Mimic_poison_frog",
+      "https://vi.wikipedia.org/wiki/Ranitomeya_imitator"
+    ]
+  },
+  {
+    "scientificName": "Epipedobates tricolor",
+    "commonNameVi": "Ếch Độc Ba Màu",
+    "commonNameEn": "Phantasmal Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Epipedobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc sọc (Epipedobates)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/55239/98647137",
+    "gbifKey": 2429055,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối ẩm và đồng cỏ ướt sườn núi Andes"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc vùng sườn núi Andes thuộc Ecuador với cơ thể màu đỏ thẫm hoặc nâu đỏ cắt ngang bởi ba dải sọc trắng kem hay vàng xanh chạy dọc thân.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên Ecuador do phạm vi phân bố hẹp ở tỉnh Bolívar, thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Giọng hót lảnh lót kéo dài và vẻ đẹp ba sắc màu hài hòa khiến chúng rất được yêu mến trong các khu vườn sinh thái trong nhà.",
+    "dietVi": "Ăn kiến nhỏ, ruồi giấm, bọ nhảy và ấu trùng côn trùng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thượng nguồn Amazon, Ecuador",
+      "lat": -1.49,
+      "lng": -77.99
+    },
+    "regionVi": "Đặc hữu sườn tây dãy Andes miền trung Ecuador (lưu vực sông Chimbo)",
+    "otherNamesVi": [
+      "Ếch độc bóng ma ba màu"
+    ],
+    "synonyms": [
+      "Ameerega tricolor",
+      "Colostethus paradoxus",
+      "Dendrobates tricolor",
+      "Epipedobates bicolor"
+    ],
+    "wikidataId": "Q648741",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Epipedobates_tricolor",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phantasmal_poison_frog",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 2,
+      "lengthCmMax": 2.7,
+      "weightGMin": 1.5,
+      "weightGMax": 2.8,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đôi chút (2,4–2,7 cm); con đực nhỏ hơn và kêu rất to vào buổi sáng."
+    },
+    "distribution": {
+      "countries": [
+        "EC"
+      ],
+      "nativeRangeVi": "Tỉnh Bolívar và các vùng lân cận trên sườn tây dãy Andes, Ecuador",
+      "elevationM": {
+        "min": 1000,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối ẩm và đồng cỏ ướt sườn núi Andes",
+      "Thảm thực vật thấp quanh khe nước mát"
+    ],
+    "identificationVi": "Thân màu đỏ rượu vang hoặc nâu đỏ sẫm. Ba dải sọc dọc màu trắng kem, vàng nhạt hoặc xanh ngọc chạy dọc sống lưng và hai bên mép lưng. Vùng nách, bẹn và mặt sau đùi thường có đốm màu đỏ tươi hoặc cam sáng.",
+    "behaviorVi": "Không ngại ngần xuất hiện ở những khoảng trống sáng gần khe nước và hoạt động sôi nổi suốt cả ngày.",
+    "reproductionVi": "Đẻ ổ trứng lớn 15–30 trứng trên lá mục; con đực canh trứng và cõng toàn bộ đàn nòng nọc cùng lúc trên lưng ra vũng nước nông.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước suối do nông nghiệp vùng sườn núi Andes"
+    ],
+    "funFactsVi": [
+      "Hợp chất epibatidine được phân lập lần đầu tiên từ chi ếch này đã mở đường cho nhiều nghiên cứu y học về thuốc giảm đau không gây nghiện.",
+      "Một con đực nhỏ chỉ dài 2 cm có thể cõng tới hơn 20 con nòng nọc xếp kín trên lưng trong suốt hành trình tìm nước."
+    ],
+    "similarSpecies": [
+      "Epipedobates anthonyi"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Nền Bioactive phủ lá khô và đĩa nước nông sạch.",
+      "lightingVi": "Đèn LED chiếu sáng tự nhiên 12 giờ/ngày",
+      "feedingVi": "Ruồi giấm Melanogaster, bọ nhảy, sâu gạo non mới nở rắc canxi",
+      "socialVi": "Sống hòa thuận theo nhóm 3–6 cá thể trong một hồ",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nhiệt độ chuồng vượt 27°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; chỉ giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Ba Màu (Epipedobates tricolor) CB",
+        "priceVnd": 1650000,
+        "descriptionVi": "Ếch độc ba màu CB khỏe mạnh, hót véo von và rất dễ nuôi theo đàn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Epipedobates tricolor (6486173737).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_tricolor_(6486173737).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Epipedobates_tricolor_%286486173737%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Ruben Undheim from Trondheim, Norway",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20210623 Hortus botanicus Leiden - Driekleurige Pijlgifkikker (Epipedobates tricolor).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20210623_Hortus_botanicus_Leiden_-_Driekleurige_Pijlgifkikker_(Epipedobates_tricolor).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/20210623_Hortus_botanicus_Leiden_-_Driekleurige_Pijlgifkikker_%28Epipedobates_tricolor%29.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Epipedobates tricolor Rio Morph.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_tricolor_Rio_Morph.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Epipedobates_tricolor_Rio_Morph.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "OpabiniaEnjoyer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Casa delle Farfalle - Epipedobates tricolor 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_delle_Farfalle_-_Epipedobates_tricolor_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Casa_delle_Farfalle_-_Epipedobates_tricolor_01.jpg",
+        "width": 3472,
+        "height": 2604,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Epipedobates tricolor close.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_tricolor_close.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Epipedobates_tricolor_close.jpg",
+        "width": 3471,
+        "height": 2311,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429055",
+      "https://www.iucnredlist.org/species/55239/98647137",
+      "https://en.wikipedia.org/wiki/Phantasmal_poison_frog",
+      "https://vi.wikipedia.org/wiki/Epipedobates_tricolor"
+    ]
+  },
+  {
+    "scientificName": "Epipedobates anthonyi",
+    "commonNameVi": "Ếch Độc Sọc Hồng Anthony",
+    "commonNameEn": "Anthony's Poison-Arrow Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Epipedobates"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc sọc (Epipedobates)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/55213/89201539",
+    "gbifKey": 2429056,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối có cây bụi rậm rạp và kênh nước quanh đồn điền chuối"
+    },
+    "descriptionVi": "Loài ếch phi tiêu độc nhỏ nhắn của nam Ecuador và bắc Peru với nền lưng đỏ nâu và ba dải sọc trắng hồng hoặc xanh ngọc chạy dọc từ đầu tới gốc đuôi.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) ngoài tự nhiên nhưng là một trong những loài ếch phi tiêu độc dễ sinh sản nhất trong nuôi nhốt (CITES II).",
+    "pullQuoteVi": "Dạn người, năng động suốt ban ngày và có tiếng hót trong trẻo như chim — loài ếch hoàn hảo cho những khu vườn kính nhiệt đới.",
+    "dietVi": "Ăn ruồi giấm, bọ nhảy, kiến nhỏ và rệp cây",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thượng nguồn Amazon, Ecuador",
+      "lat": -1.49,
+      "lng": -77.99
+    },
+    "regionVi": "Tây nam Ecuador và tây bắc Peru",
+    "otherNamesVi": [
+      "Ếch độc Santa Isabel"
+    ],
+    "synonyms": [
+      "Ameerega anthonyi",
+      "Colostethus anthonyi",
+      "Dendrobates anthonyi",
+      "Phyllobates anthonyi"
+    ],
+    "wikidataId": "Q1936438",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Epipedobates_anthonyi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Anthony%27s_poison_arrow_frog",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 1.9,
+      "lengthCmMax": 2.6,
+      "weightGMin": 1.5,
+      "weightGMax": 2.5,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn và tròn trịa hơn; con đực có túi kêu dưới họng phát âm thanh lớn."
+    },
+    "distribution": {
+      "countries": [
+        "EC",
+        "PE"
+      ],
+      "nativeRangeVi": "Các tỉnh El Oro, Azuay, Loja (Ecuador) và Tumbes, Piura (Peru)",
+      "elevationM": {
+        "min": 150,
+        "max": 1700
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối có cây bụi rậm rạp và kênh nước quanh đồn điền chuối",
+      "Rừng ẩm ven suối trong vùng khí hậu bán khô hạn"
+    ],
+    "identificationVi": "Thân màu đỏ gạch hoặc nâu hạt dẻ đậm. Ba đường sọc rộng màu trắng hồng, kem hoặc xanh bạc hà chạy dọc lưng. Sườn và mặt trên đùi điểm các vệt trắng xanh và đốm cam ở bẹn.",
+    "behaviorVi": "Cực kỳ dạn dĩ, thường ngồi phơi mình trên các phiến đá hoặc lá cây thấp ven nước và không nhảy trốn khi có người đứng quan sát.",
+    "reproductionVi": "Đẻ từng cụm 15–40 trứng trên lá cây; con đực canh trứng khoảng 12 ngày rồi cõng cả bầy nòng nọc xuống vũng nước nông.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước suối do hóa chất nông nghiệp tại các vùng trồng chuối"
+    ],
+    "funFactsVi": [
+      "Dòng địa lý 'Santa Isabel' nổi tiếng với sắc đỏ rượu vang đậm và các vệt sọc trắng ánh hồng rất bắt mắt.",
+      "Nòng nọc của loài này không ăn thịt lẫn nhau nên có thể nuôi chung cả đàn trong cùng một khay nước có nhiều lá bàng khô."
+    ],
+    "similarSpecies": [
+      "Epipedobates tricolor"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Nền Bioactive kèm khay nước nông hoặc dòng suối nhỏ.",
+      "lightingVi": "Đèn LED chiếu sáng cho cây 10–12 giờ/ngày",
+      "feedingVi": "Ruồi giấm Melanogaster/Hydei, bọ nhảy rắc khoáng",
+      "socialVi": "Rất hòa thuận, nuôi nhóm 4–6 cá thể rất sinh động",
+      "commonProblemsVi": [
+        "Hiếm khi mắc bệnh nếu giữ nền sạch và đủ khoáng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Sọc Hồng (Epipedobates anthonyi 'Santa Isabel') CB",
+        "priceVnd": 1500000,
+        "descriptionVi": "Dòng Santa Isabel đỏ sọc trắng hồng, dạn người, dễ nuôi theo đàn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Tiny frog at Amsterdam Zoo - Artis (25675509833).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiny_frog_at_Amsterdam_Zoo_-_Artis_(25675509833).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tiny_frog_at_Amsterdam_Zoo_-_Artis_%2825675509833%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tobias Niepel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Epipedobates anthonyi in Acquario di Genova, 2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_anthonyi_in_Acquario_di_Genova,_2025.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Epipedobates_anthonyi_in_Acquario_di_Genova%2C_2025.jpg",
+        "width": 2563,
+        "height": 3418,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Animalculum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Epipedobates anthonyi in Oslo Reptilpark.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_anthonyi_in_Oslo_Reptilpark.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Epipedobates_anthonyi_in_Oslo_Reptilpark.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AORP",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Epipedobates anthonyi in Tropicarium-Oceanarium Budapest.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epipedobates_anthonyi_in_Tropicarium-Oceanarium_Budapest.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Epipedobates_anthonyi_in_Tropicarium-Oceanarium_Budapest.JPG",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Хомелка",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ke - Epipedobates anthonyi - 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ke_-_Epipedobates_anthonyi_-_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ke_-_Epipedobates_anthonyi_-_3.jpg",
+        "width": 3786,
+        "height": 2130,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429056",
+      "https://www.iucnredlist.org/species/55213/89201539",
+      "https://en.wikipedia.org/wiki/Anthony%27s_poison_arrow_frog",
+      "https://vi.wikipedia.org/wiki/Epipedobates_anthonyi"
+    ]
+  },
+  {
+    "scientificName": "Ameerega trivittata",
+    "commonNameVi": "Ếch Độc Ba Sọc Xanh",
+    "commonNameEn": "Three-striped Arrow-poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Ameerega"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc đất (Ameerega)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55240/3025830",
+    "gbifKey": 2429038,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sàn rừng mưa nhiệt đới đất thấp gần các khe suối và khoảng rừng trống"
+    },
+    "descriptionVi": "Loài ếch độc đất cỡ lớn của lưu vực Amazon với làn da lưng hơi nhám màu đen nhung nổi bật hai hoặc ba đường sọc vàng lục chạy từ chóp mũi tới bẹn.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố rộng khắp rừng mưa Amazon và vùng khiên Guiana, thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Vóc dáng khỏe khoắn cùng những đường sọc xanh neon phát sáng dưới bóng rừng rậm rạp của đại ngàn Amazon.",
+    "dietVi": "Ăn kiến, mối, dế nhỏ, ruồi giấm lớn và bọ nhảy",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Ucayali - Loreto, Peru",
+      "lat": -3.75,
+      "lng": -73.25
+    },
+    "regionVi": "Lưu vực Amazon và vùng Guiana: Peru, Colombia, Brazil, Bolivia, Venezuela, Guyana, Suriname",
+    "otherNamesVi": [
+      "Ếch phi tiêu ba sọc",
+      "Epipedobates trivittatus"
+    ],
+    "synonyms": [
+      "Ameerega trivittata nassaui",
+      "Dendrobates nigerrimus",
+      "Dendrobates obscurus",
+      "Dendrobates tetravittatus"
+    ],
+    "wikidataId": "Q2842567",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Epipedobates_trivittatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ameerega_trivittata",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 3.8,
+      "lengthCmMax": 5.2,
+      "weightGMin": 5,
+      "weightGMax": 9,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đáng kể (4,5–5,2 cm) so với con đực (3,8–4,2 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "PE",
+        "CO",
+        "BR",
+        "BO",
+        "VE",
+        "GY",
+        "SR"
+      ],
+      "nativeRangeVi": "Tây và bắc lưu vực sông Amazon sang vùng Guiana",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Sàn rừng mưa nhiệt đới đất thấp gần các khe suối và khoảng rừng trống",
+      "Thảm lá khô dày quanh các khúc gỗ đổ"
+    ],
+    "identificationVi": "Da lưng có kết cấu hạt nhám nhẹ thay vì trơn bóng như chi Dendrobates. Thân màu đen tuyền có hai sọc rộng màu vàng chanh, xanh lá neon hoặc cam chạy dọc hai bên lưng (nhiều quần thể có thêm sọc thứ ba ở giữa). Tứ chi dài khỏe màu xanh lục tươi hoặc vàng đốm đen.",
+    "behaviorVi": "Sống chủ yếu trên mặt đất, nhảy rất khỏe và xa thay vì leo cao lên tán cây.",
+    "reproductionVi": "Con cái đẻ ổ lớn 20–40 trứng trên lá khô; con đực canh trứng và cõng hàng chục con nòng nọc cùng lúc trên lưng ra vũng nước rừng.",
+    "threatsVi": [
+      "Khai thác gỗ và mất rừng cục bộ tại vùng rìa Amazon"
+    ],
+    "funFactsVi": [
+      "Do kích thước lớn, ếch trưởng thành có thể ăn được cả dế non 0,5 cm ngoài ruồi giấm và bọ nhảy.",
+      "Màu sắc của các quần thể ở Peru có thể biến thiên từ sọc vàng xanh lá sang lưng cam đỏ rực rỡ."
+    ],
+    "similarSpecies": [
+      "Dendrobates truncatus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 80 lít. Giá thể: Hồ có diện tích đáy rộng trải dày lá khô và khúc gỗ mục.",
+      "lightingVi": "Đèn LED chiếu sáng cho cây tầng thấp",
+      "feedingVi": "Ruồi giấm Hydei, dế pinhead nhỏ và bọ nhảy rắc canxi",
+      "socialVi": "Nuôi theo cặp hoặc nhóm trong hồ có diện tích mặt đáy rộng từ 60x45 cm",
+      "commonProblemsVi": [
+        "Chấn thương mũi nếu hồ quá chật khi ếch bật nhảy"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Ba Sọc Xanh (Ameerega trivittata) CB",
+        "priceVnd": 2300000,
+        "descriptionVi": "Ếch độc đất cỡ lớn sọc xanh vàng neon sáng, ăn được cả ruồi Hydei và dế nhỏ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ke - Ameerega trivittata - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ke_-_Ameerega_trivittata_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ke_-_Ameerega_trivittata_-_1.jpg",
+        "width": 3838,
+        "height": 2159,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Emőke Dénes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ameerega trivittata 205253567 (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata_205253567_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ameerega_trivittata_205253567_%28cropped%29.jpg",
+        "width": 1258,
+        "height": 1115,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Whaldener Endo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ameerega trivittata en San Martín, Perú.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata_en_San_Mart%C3%ADn,_Per%C3%BA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ameerega_trivittata_en_San_Mart%C3%ADn%2C_Per%C3%BA.jpg",
+        "width": 1228,
+        "height": 819,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Marina García Burgos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ameerega trivittata (Madre de Dios, Peru).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata_(Madre_de_Dios,_Peru).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Ameerega_trivittata_%28Madre_de_Dios%2C_Peru%29.jpg",
+        "width": 900,
+        "height": 600,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ameerega trivittata with tadpoles.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata_with_tadpoles.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ameerega_trivittata_with_tadpoles.jpg",
+        "width": 900,
+        "height": 600,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429038",
+      "https://www.iucnredlist.org/species/55240/3025830",
+      "https://en.wikipedia.org/wiki/Ameerega_trivittata",
+      "https://vi.wikipedia.org/wiki/Epipedobates_trivittatus"
+    ]
+  },
+  {
+    "scientificName": "Ameerega bilinguis",
+    "commonNameVi": "Ếch Độc Hồng Ngọc Ecuador",
+    "commonNameEn": "Ecuador Poison Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Ameerega"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch phi tiêu độc (Dendrobatidae)",
+      "genus": "Chi Ếch độc đất (Ameerega)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/55215/61396034",
+    "gbifKey": 2429017,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 80,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá mục rừng mưa nhiệt đới nguyên sinh gần bờ suối"
+    },
+    "descriptionVi": "Loài ếch độc đất vùng thượng nguồn Amazon với tấm lưng màu đỏ hồng ngọc hạt nhám, hai sọc vàng kem hai bên lưng và những mảng màu vàng tươi ở nách và bẹn.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), phân bố ở vùng rừng mưa chân núi Andes thuộc Ecuador, Colombia và bắc Peru (CITES II).",
+    "pullQuoteVi": "Tấm lưng đỏ hồng ngọc điểm xuyết những mảng vàng tươi nơi gốc chi tạo nên sự phối màu tinh tế trên thảm lá rừng mưa.",
+    "dietVi": "Ăn kiến nhỏ, mối, bọ nhảy và ruồi giấm",
+    "lifespanVi": "7–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Thượng nguồn Amazon, Ecuador",
+      "lat": -1.49,
+      "lng": -77.99
+    },
+    "regionVi": "Đông Ecuador, nam Colombia và cực bắc Peru (lưu vực sông Napo và sông Aguarico)",
+    "otherNamesVi": [
+      "Ếch độc hai giọng kêu",
+      "Epipedobates bilinguis"
+    ],
+    "synonyms": [
+      "Epipedobates bilinguis"
+    ],
+    "wikidataId": "Q1892560",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Epipedobates_bilinguis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ameerega_bilinguis",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 2.1,
+      "lengthCmMax": 2.6,
+      "weightGMin": 1.5,
+      "weightGMax": 2.5,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn đôi chút (2,4–2,6 cm) so với con đực (2,1–2,3 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "EC",
+        "CO",
+        "PE"
+      ],
+      "nativeRangeVi": "Vùng thượng nguồn Amazon phía đông dãy Andes thuộc Ecuador và Colombia",
+      "elevationM": {
+        "min": 150,
+        "max": 700
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá mục rừng mưa nhiệt đới nguyên sinh gần bờ suối",
+      "Các hốc rễ cây ẩm trên sàn rừng đất thấp"
+    ],
+    "identificationVi": "Mặt lưng có da hạt mịn màu đỏ gạch hoặc đỏ hồng ngọc. Hai đường sọc vàng kem mảnh chạy dọc rìa lưng từ sau mắt tới bẹn. Mặt bụng có vân đá cẩm thạch màu xanh lam sáng và đen; vùng nách và bẹn có đốm vàng cam tươi.",
+    "behaviorVi": "Sống kín đáo trên lớp lá khô sàn rừng; con đực có khả năng phát ra hai kiểu âm thanh khác nhau khi gọi bạn tình và khi bảo vệ lãnh thổ.",
+    "reproductionVi": "Đẻ 10–20 trứng dưới lá khô; con đực canh trứng và cõng nòng nọc tới các vũng nước mưa đọng trên sàn rừng.",
+    "threatsVi": [
+      "Khai thác dầu khí và mở đường giao thông ở vùng rừng Amazon thuộc Ecuador"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'bilinguis' (hai ngôn ngữ) xuất phát từ việc con đực sở hữu hai điệu hót tách biệt hẳn nhau về nhịp điệu.",
+      "Dù sống ở tầng đất thấp, chúng rất giỏi leo lên các tảng đá phủ rêu ven suối để phát tiếng kêu."
+    ],
+    "similarSpecies": [
+      "Epipedobates anthonyi"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Nền Bioactive phủ dày lá bàng/lá sồi khô và nhiều khúc lũa ẩn nấp.",
+      "lightingVi": "Đèn LED chiếu sáng cho cây ẩm ưa bóng",
+      "feedingVi": "Ruồi giấm Melanogaster, bọ nhảy rắc canxi",
+      "socialVi": "Nuôi nhóm nhỏ 3–5 cá thể hòa thuận",
+      "commonProblemsVi": [
+        "Stress nếu thiếu chỗ trú ẩn dưới lớp lá khô"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Độc Hồng Ngọc (Ameerega bilinguis) CB",
+        "priceVnd": 1900000,
+        "descriptionVi": "Ếch độc lưng đỏ hồng ngọc đốm bẹn vàng CB, thích hợp hồ nền lá rừng mưa."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ameerega bilinguis 168482337.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_bilinguis_168482337.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ameerega_bilinguis_168482337.jpg",
+        "width": 2048,
+        "height": 1367,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kristof Zyskowski",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ruby poison frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ruby_poison_frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ruby_poison_frog.jpg",
+        "width": 4800,
+        "height": 6000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ameerega bilinguis (Dendrobatidae) male transporting tadpoles (45424374065).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_bilinguis_(Dendrobatidae)_male_transporting_tadpoles_(45424374065).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ameerega_bilinguis_%28Dendrobatidae%29_male_transporting_tadpoles_%2845424374065%29.jpg",
+        "width": 1471,
+        "height": 2207,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dr. Alexey Yakovlev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flickr - ggallice - Poison frog.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Poison_frog.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Flickr_-_ggallice_-_Poison_frog.jpg",
+        "width": 1800,
+        "height": 1200,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Geoff Gallice from Gainesville, FL, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ameerega bilinguis - Flickr - Dick Culbert (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_bilinguis_-_Flickr_-_Dick_Culbert_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ameerega_bilinguis_-_Flickr_-_Dick_Culbert_%281%29.jpg",
+        "width": 800,
+        "height": 707,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Dick Culbert from Gibsons, B.C., Canada",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2429017",
+      "https://www.iucnredlist.org/species/55215/61396034",
+      "https://en.wikipedia.org/wiki/Ameerega_bilinguis",
+      "https://vi.wikipedia.org/wiki/Epipedobates_bilinguis"
+    ]
+  },
+  {
+    "scientificName": "Mantella aurantiaca",
+    "commonNameVi": "Ếch Vàng Madagascar",
+    "commonNameEn": "Golden Mantella",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Mantellidae",
+      "genus": "Mantella"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Ếch Madagascar (Mantellidae)",
+      "genus": "Chi Ếch vàng Madagascar (Mantella)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/12776/508612",
+    "gbifKey": 2423174,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa núi cao ẩm mát có nhiều cây dứa dại (Pandanus)"
+    },
+    "descriptionVi": "Loài ếch nhỏ bé đặc hữu của rừng ẩm miền đông Madagascar với toàn thân màu cam đỏ hoặc vàng cam trong suốt như thạch và đôi mắt đen láy.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES do chỉ phân bố trong một diện tích rừng đầm lầy nhỏ quanh Moramanga.",
+    "pullQuoteVi": "Ví dụ hoàn hảo về tiến hóa hội tụ: dù ở tận đảo Madagascar, chúng phát triển màu sắc cảnh báo và cơ chế tích độc từ kiến giống hệt ếch phi tiêu Nam Mỹ.",
+    "dietVi": "Ăn kiến nhỏ, mối, ve bét rừng và bọ nhảy",
+    "lifespanVi": "6–9 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": "Đặc hữu miền trung-đông Madagascar (vùng rừng Pandanus quanh Moramanga và Torotorofotsy)",
+    "otherNamesVi": [
+      "Ếch độc vàng Madagascar"
+    ],
+    "synonyms": [
+      "Mantella aurantiaca aurantiaca",
+      "Mantella aurantiaca rubra"
+    ],
+    "wikidataId": "Q775326",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Golden_mantella",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 1.9,
+      "lengthCmMax": 2.6,
+      "weightGMin": 1.2,
+      "weightGMax": 2.5,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn nhẹ (2,3–2,6 cm) và có dáng thân góc cạnh hơn; con đực nhỏ hơn (1,9–2,2 cm)."
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Các khu rừng đầm lầy núi cao quanh Moramanga ở miền đông Madagascar",
+      "elevationM": {
+        "min": 900,
+        "max": 1050
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa núi cao ẩm mát có nhiều cây dứa dại (Pandanus)",
+      "Đầm lầy rêu Sphagnum ngập nước theo mùa"
+    ],
+    "identificationVi": "Toàn bộ cơ thể màu vàng cam, cam tươi hoặc đỏ cam rực rỡ gần như bán trong suốt dưới ánh sáng. Đôi mắt tròn màu đen tuyền không có mống mắt sáng màu. Mặt trong đùi có vết đỏ son nhỏ (flash marks).",
+    "behaviorVi": "Hoạt động ban ngày theo nhóm nhỏ trên các thảm rêu ẩm dưới bóng rừng; vào mùa đông khô mát ở cao nguyên Madagascar chúng giảm hoạt động dưới các khúc gỗ mục.",
+    "reproductionVi": "Con cái đẻ 20–60 trứng trắng trong lớp rêu ẩm hoặc lá khô trên cạn; khi mưa xuống, nòng nọc mới nở sẽ trôi theo nước mưa xuống vũng đầm lầy.",
+    "threatsVi": [
+      "Cháy rừng và canh tác nương rẫy thu hẹp diện tích rừng Pandanus đặc hữu"
+    ],
+    "funFactsVi": [
+      "Dù thuộc họ Mantellidae không có họ hàng gần với họ Dendrobatidae ở Nam Mỹ, loài này đã tiến hóa độc lập màu da cảnh báo và khả năng hấp thu alkaloid từ con mồi.",
+      "Nhiều vườn thú quốc tế đang phối hợp cùng trung tâm Mitsinjo tại Madagascar nhân giống bảo tồn loài ếch biểu tượng này."
+    ],
+    "similarSpecies": [
+      "Phyllobates terribilis"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài Nguy cấp (EN) có vùng phân bố hẹp tại Madagascar; chỉ hiển thị thông tin bảo tồn và bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Mantella with egg clutch (15284625854).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mantella_with_egg_clutch_(15284625854).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Mantella_with_egg_clutch_%2815284625854%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Golden Mantella CAS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Mantella_CAS.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Golden_Mantella_CAS.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "User:Steven Walling",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Golden Mantella Frog 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Mantella_Frog_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Golden_Mantella_Frog_1.JPG",
+        "width": 3247,
+        "height": 2026,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "John Mather",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Golden Mantella (Mantella aurantiaca), Torotorofotsy marshes, Madagascar (13717085433).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Mantella_(Mantella_aurantiaca),_Torotorofotsy_marshes,_Madagascar_(13717085433).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Golden_Mantella_%28Mantella_aurantiaca%29%2C_Torotorofotsy_marshes%2C_Madagascar_%2813717085433%29.jpg",
+        "width": 4012,
+        "height": 2875,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mantella aurantiaca on green tape at Oakland Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mantella_aurantiaca_on_green_tape_at_Oakland_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Mantella_aurantiaca_on_green_tape_at_Oakland_Zoo.jpg",
+        "width": 4031,
+        "height": 2690,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Derrick Coetzee ( User:Dcoetzee )",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2423174",
+      "https://www.iucnredlist.org/species/12776/508612",
+      "https://en.wikipedia.org/wiki/Golden_mantella"
+    ]
+  },
+  {
+    "scientificName": "Dyscophus antongilii",
+    "commonNameVi": "Ếch Cà Chua Madagascar",
+    "commonNameEn": "Tomato Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Microhylidae",
+      "genus": "Dyscophus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bầu (Microhylidae)",
+      "genus": "Chi Ếch cà chua (Dyscophus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/6937/84159360",
+    "gbifKey": 5216573,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp và rừng thứ sinh ven biển"
+    },
+    "descriptionVi": "Loài ếch bầu lớn vùng đông bắc Madagascar có thân hình tròn căng mọng và màu đỏ cam rực rỡ hệt như một quả cà chua chín trên nền rừng ẩm.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), từng nằm ở Phụ lục I nhưng đã được chuyển sang Phụ lục II CITES nhờ quần thể ổn định hơn và nhân giống thành công.",
+    "pullQuoteVi": "Khi gặp nguy hiểm, ếch cà chua phồng tròn cơ thể như quả bóng đỏ và tiết ra chất dịch trắng dính chặt hàm kẻ săn mồi.",
+    "dietVi": "Ăn dế, gián rừng, giun đất, cào cào và ấu trùng bọ cánh cứng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": "Đặc hữu vùng bờ biển đông bắc Madagascar (quanh vịnh Antongil và Maroantsetra)",
+    "otherNamesVi": [
+      "Ếch cà chua Antongil"
+    ],
+    "synonyms": [
+      "Discophus antongili",
+      "Dyscophus antongilii pallidus",
+      "Dyscophus insularis antongilii",
+      "Dyscophus insularis pallidus"
+    ],
+    "wikidataId": "Q226081",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dyscophus_antongilii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dyscophus_antongilii",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 10.5,
+      "weightGMin": 60,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 8,5–10,5 cm với màu đỏ cam đậm; con đực nhỏ hơn nhiều (6–7,5 cm) và có màu vàng cam nhạt hơn."
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Khu vực vịnh Antongil và dải đồng bằng ven biển đông bắc Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới đất thấp và rừng thứ sinh ven biển",
+      "Đầm lầy, mương nước và vườn cây ẩm có đất tơi xốp"
+    ],
+    "identificationVi": "Thân hình tròn trịa, mõm ngắn tù, hai nếp da chạy dọc hai bên lưng. Mặt lưng màu đỏ cà chua tươi hoặc cam đỏ, mặt bụng màu trắng vàng. Dọc hai bên sườn có dải sọc sẫm và thường có các chấm đen nhỏ ở cổ họng.",
+    "behaviorVi": "Săn mồi phục kích bằng cách vùi mình dưới lớp đất mùn và lá khô, chỉ lộ đôi mắt chờ côn trùng đi ngang qua vào ban đêm.",
+    "reproductionVi": "Sinh sản sau những cơn mưa lớn mùa hè; con cái đẻ 1.000–1.500 trứng nhỏ nổi trên mặt nước tĩnh.",
+    "threatsVi": [
+      "Ô nhiễm các thủy vực sinh sản quanh khu dân cư tại Madagascar"
+    ],
+    "funFactsVi": [
+      "Chất nhầy trắng tiết ra từ da của ếch cà chua có độ kết dính cao như keo hồ, khiến rắn phải nhả ngay lập tức nếu cố nuốt chúng.",
+      "Ếch con mới biến thái chỉ có màu vàng nâu nhạt và chuyển dần sang màu đỏ cà chua rực rỡ khi đạt kích thước 4–5 cm."
+    ],
+    "similarSpecies": [
+      "Dyscophus guineti"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Mùn dừa trộn đất sinh học ẩm dày 7–10 cm phủ rêu và lá khô kèm đĩa nước nông.",
+      "lightingVi": "Đèn LED dịu 10–12 giờ/ngày",
+      "feedingVi": "Dế, giun đất, gián Dubia vừa miệng rắc canxi",
+      "socialVi": "Nuôi đơn hoặc cặp tương đồng kích thước trong chuồng rộng",
+      "commonProblemsVi": [
+        "Béo phì nếu cho ăn sâu béo quá nhiều"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục II CITES; giao dịch nguồn sinh sản nuôi nhốt (CB)."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cà Chua Madagascar (Dyscophus antongilii) CB",
+        "priceVnd": 1150000,
+        "descriptionVi": "Ếch cà chua CB lên màu cam đỏ tươi, tròn trịa và rất dễ nuôi."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:The Madagascar tomato frog or crapaud rouge de Madagascar (Dyscophus antongilii) (15284643444).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Madagascar_tomato_frog_or_crapaud_rouge_de_Madagascar_(Dyscophus_antongilii)_(15284643444).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/The_Madagascar_tomato_frog_or_crapaud_rouge_de_Madagascar_%28Dyscophus_antongilii%29_%2815284643444%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Madagascar Tomato Frogs (Dyscophus antongilii) mating (captive specimens) (9671397985).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Madagascar_Tomato_Frogs_(Dyscophus_antongilii)_mating_(captive_specimens)_(9671397985).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Madagascar_Tomato_Frogs_%28Dyscophus_antongilii%29_mating_%28captive_specimens%29_%289671397985%29.jpg",
+        "width": 2113,
+        "height": 3156,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Tomaatkikker, Peyrieras reptile reserve 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomaatkikker,_Peyrieras_reptile_reserve_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tomaatkikker%2C_Peyrieras_reptile_reserve_01.JPG",
+        "width": 2672,
+        "height": 1783,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tomato Frog (Dyscophus antongilli), Maroansetra, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomato_Frog_(Dyscophus_antongilli),_Maroansetra,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tomato_Frog_%28Dyscophus_antongilli%29%2C_Maroansetra%2C_Madagascar.jpg",
+        "width": 3599,
+        "height": 2730,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tomato frog 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomato_frog_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tomato_frog_1.JPG",
+        "width": 2404,
+        "height": 1502,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "John Mather",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5216573",
+      "https://www.iucnredlist.org/species/6937/84159360",
+      "https://en.wikipedia.org/wiki/Dyscophus_antongilii",
+      "https://vi.wikipedia.org/wiki/Dyscophus_antongilii"
+    ]
+  },
+  {
+    "scientificName": "Dyscophus guineti",
+    "commonNameVi": "Ếch Cà Chua Sambava",
+    "commonNameEn": "Sambava Tomato Frog",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Microhylidae",
+      "genus": "Dyscophus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bầu (Microhylidae)",
+      "genus": "Chi Ếch cà chua (Dyscophus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/57805/84178457",
+    "gbifKey": 5216571,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp và rừng đầm lầy"
+    },
+    "descriptionVi": "Loài ếch cà chua phân bố ở các khu rừng ẩm miền đông Madagascar, nổi bật với sắc đỏ cam tươi, nếp gấp lưng rõ và đôi mắt có viền vàng đồng sáng.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC), có vùng phân bố rộng hơn loài họ hàng D. antongilii dọc theo miền đông Madagascar.",
+    "pullQuoteVi": "Sắc cam đỏ ấm áp cùng hoa văn hình thoi tinh tế trên lưng tạo nên nét duyên dáng riêng của ếch cà chua Sambava.",
+    "dietVi": "Ăn dế, giun đất, gián rừng, mối và côn trùng trên sàn rừng",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": "Đặc hữu miền đông Madagascar (từ vùng Sambava kéo dài xuống phía nam)",
+    "otherNamesVi": [
+      "Ếch cà chua giả"
+    ],
+    "synonyms": [
+      "Discophus guineti",
+      "Kalula guineti",
+      "Plectropus guineti"
+    ],
+    "wikidataId": "Q2670213",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dyscophus_guineti",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dyscophus_guineti",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 9.5,
+      "weightGMin": 50,
+      "weightGMax": 150,
+      "heightCmMax": null,
+      "noteVi": "Con cái đạt 8–9,5 cm với màu đỏ cam rực rỡ; con đực nhỏ hơn (6–7 cm) và có màu vàng cam."
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Các cánh rừng mưa đất thấp và đầm lầy miền đông Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới đất thấp và rừng đầm lầy",
+      "Thảm lá ẩm quanh các ao nước mưa tạm thời"
+    ],
+    "identificationVi": "Thân bầu tròn màu cam đỏ (con cái) hoặc vàng cam (con đực), thường có vệt hoa văn hình thoi sẫm mờ trên lưng. Mặt bụng và cổ họng màu trắng thuần không có các chấm đen nhỏ như D. antongilii. Mống mắt màu vàng kim hoặc vàng đồng sáng.",
+    "behaviorVi": "Thích vùi mình dưới lớp đất mùn tơi xốp hoặc ẩn dưới khúc gỗ mục ban ngày, chỉ thò đầu ra rình mồi khi trời tối.",
+    "reproductionVi": "Đẻ hàng nghìn trứng nhỏ trong các vũng nước mưa nông; nòng nọc ăn lọc các hạt hữu cơ lơ lửng trong nước.",
+    "threatsVi": [
+      "Mất rừng mưa đất thấp dọc bờ biển phía đông Madagascar"
+    ],
+    "funFactsVi": [
+      "Dù từng bị gọi là 'ếch cà chua giả' trong thương mại trước đây, trên thực tế các cá thể cái D. guineti cũng có sắc đỏ cam rực rỡ không kém D. antongilii.",
+      "Chúng có mấu đào đất hình xẻng ở bàn chân sau giúp lùi mình vùi xuống đất ẩm chỉ trong vài giây."
+    ],
+    "similarSpecies": [
+      "Dyscophus antongilii"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Mùn dừa ẩm tơi xốp dày 8 cm kèm bát nước nông để ngâm mình.",
+      "lightingVi": "Đèn LED dịu chu kỳ ngày đêm 12 giờ",
+      "feedingVi": "Giun đất, dế, gián Dubia rắc canxi",
+      "socialVi": "Nuôi đơn hoặc cặp cùng kích cỡ",
+      "commonProblemsVi": [
+        "Tắc ruột nếu nuốt sỏi nhỏ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; lưu hành rộng rãi nguồn CB."
+    },
+    "products": [
+      {
+        "nameVi": "Ếch Cà Chua Sambava (Dyscophus guineti) CB",
+        "priceVnd": 890000,
+        "descriptionVi": "Ếch cà chua Sambava CB khỏe khoắn, ăn dế và giun đất rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Museum Senkenberg Görlitz-54.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_Senkenberg_G%C3%B6rlitz-54.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Museum_Senkenberg_G%C3%B6rlitz-54.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "GodeNehler",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dyscophus Guineti-Warsaw Zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dyscophus_Guineti-Warsaw_Zoo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dyscophus_Guineti-Warsaw_Zoo.jpg",
+        "width": 1200,
+        "height": 1600,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Raf24",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Tomato frog, CA Academy of Sciences.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomato_frog,_CA_Academy_of_Sciences.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Tomato_frog%2C_CA_Academy_of_Sciences.jpg",
+        "width": 3264,
+        "height": 1952,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Steven Walling",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:False tomato frog (Dyscophus guineti).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:False_tomato_frog_(Dyscophus_guineti).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/False_tomato_frog_%28Dyscophus_guineti%29.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bloopityboop",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tomato Frog dyscophus guineti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomato_Frog_dyscophus_guineti.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Tomato_Frog_dyscophus_guineti.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Paul Harrison",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5216571",
+      "https://www.iucnredlist.org/species/57805/84178457",
+      "https://en.wikipedia.org/wiki/Dyscophus_guineti",
+      "https://vi.wikipedia.org/wiki/Dyscophus_guineti"
+    ]
+  },
+  {
+    "scientificName": "Kaloula pulchra",
+    "commonNameVi": "Ễnh Ương",
+    "commonNameEn": "Malaysian Narrowmouth Toad",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Microhylidae",
+      "genus": "Kaloula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Nhái bầu (Microhylidae)",
+      "genus": "Chi Ễnh ương (Kaloula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/88333729/63887207",
+    "gbifKey": 2421636,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 29,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vườn cây, đồng ruộng, bờ mương và khu dân cư có đất tơi xốp"
+    },
+    "descriptionVi": "Loài nhái bầu quen thuộc khắp Việt Nam và Đông Nam Á với thân hình tròn mập, lưng nâu sô-cô-la viền hai dải màu vàng đồng rộng và tiếng kêu 'ễnh-ương' vang rền đêm mưa.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) với quần thể rất dồi dào và khả năng thích nghi cao quanh khu dân cư.",
+    "pullQuoteVi": "Tiếng kêu trầm vang như tiếng bò rống sau những cơn mưa đầu hạ đã đi vào ký ức đồng quê Việt Nam.",
+    "dietVi": "Chuyên ăn kiến và mối, ngoài ra ăn thêm bọ cánh cứng nhỏ và côn trùng đất",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Đêm",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Nam Á, miền Nam Trung Quốc, Việt Nam và toàn khu vực Đông Nam Á",
+    "otherNamesVi": [
+      "Ễnh ương vằn",
+      "Ếch bầu hoa",
+      "Chẫu chuộc bụng tròn"
+    ],
+    "synonyms": [
+      "Callula macrodactyla",
+      "Callula pulchra",
+      "Calohyla pulchra",
+      "Caloula pulchra"
+    ],
+    "wikidataId": "Q931167",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%E1%BB%84nh_%C6%B0%C6%A1ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Banded_bullfrog",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 5.5,
+      "lengthCmMax": 8,
+      "weightGMin": 30,
+      "weightGMax": 65,
+      "heightCmMax": null,
+      "noteVi": "Con cái lớn hơn (7–8 cm); con đực có cổ họng màu đen sẫm và túi kêu đơn cực lớn dưới cằm."
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "SG",
+        "ID",
+        "CN",
+        "IN"
+      ],
+      "nativeRangeVi": "Đông Nam Á, Nam Trung Quốc và Đông Bắc Ấn Độ",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Vườn cây, đồng ruộng, bờ mương và khu dân cư có đất tơi xốp",
+      "Rừng thứ sinh, gốc cây mục và hốc đá ẩm"
+    ],
+    "identificationVi": "Thân tròn bầu với cái đầu nhỏ và mõm ngắn nhọn thích nghi với việc ăn kiến mối. Lưng màu nâu sẫm được bao quanh bởi hai dải sọc rộng màu vàng kem hoặc cam đồng chạy từ mí mắt xuống bẹn. Ngón tay có đầu hơi nở rộng giúp vừa đào đất giỏi vừa trèo được lên tường nhám và hốc cây.",
+    "behaviorVi": "Khi bị đe dọa sẽ hít đầy không khí làm cơ thể căng tròn như quả bóng và tiết dịch nhầy trắng rất dính từ tuyến da lưng.",
+    "reproductionVi": "Nổi bồng bềnh trên mặt các vũng nước mưa đêm đầu hạ, con đực phồng cổ kêu vang và con cái đẻ từng mảng trứng nổi trên mặt nước.",
+    "threatsVi": [
+      "Hầu như không bị đe dọa nhờ khả năng thích nghi mạnh với môi trường nhân sinh"
+    ],
+    "funFactsVi": [
+      "Dù có vóc dáng mập mạp chuyên đào đất, ễnh ương lại có thể leo thẳng lên thân cây cao vài mét để trú trong các hốc cây mục.",
+      "Một cá thể ễnh ương có thể ăn hàng trăm con mối cánh chỉ trong một đêm mưa rào."
+    ],
+    "similarSpecies": [
+      "Dyscophus guineti"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 45 lít. Giá thể: Mùn dừa ẩm trộn đất sạch dày 8–10 cm kèm đĩa nước rộng.",
+      "lightingVi": "Ánh sáng phòng dịu nhẹ",
+      "feedingVi": "Dế nhỏ, gián Dubia non, sâu canxi (ưu tiên con mồi nhỏ vì miệng ễnh ương hẹp)",
+      "socialVi": "Rất hiền lành, nuôi ghép nhóm 2–4 con hòa thuận",
+      "commonProblemsVi": [
+        "Tắc ruột nếu cho ăn con mồi quá to cứng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài phổ biến không thuộc danh mục cấm hay CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Ễnh Ương Vằn Đồng (Kaloula pulchra) CB",
+        "priceVnd": 220000,
+        "descriptionVi": "Ễnh ương vằn vàng đồng bản địa khỏe mạnh, mập tròn, rất dễ chăm sóc."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Kaloula pulchra at Niaosong Wetland Park, Kaohsiung 2022-05-23.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaloula_pulchra_at_Niaosong_Wetland_Park,_Kaohsiung_2022-05-23.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kaloula_pulchra_at_Niaosong_Wetland_Park%2C_Kaohsiung_2022-05-23.jpg",
+        "width": 6016,
+        "height": 4016,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "LiCheng Shih",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Asian painted frog (Kaloula pulchra) from Mindanao, Philippines 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asian_painted_frog_(Kaloula_pulchra)_from_Mindanao,_Philippines_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Asian_painted_frog_%28Kaloula_pulchra%29_from_Mindanao%2C_Philippines_3.jpg",
+        "width": 1624,
+        "height": 1472,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Obsidian Soul",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Banded bullfrog 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Banded_bullfrog_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Banded_bullfrog_1.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "arsacampKOSENKMUTT2",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Kaloula pulchra, Banded bullfrog - Nong Phai, Phetchabun (20253335546) (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaloula_pulchra,_Banded_bullfrog_-_Nong_Phai,_Phetchabun_(20253335546)_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kaloula_pulchra%2C_Banded_bullfrog_-_Nong_Phai%2C_Phetchabun_%2820253335546%29_%28cropped%29.jpg",
+        "width": 4080,
+        "height": 2723,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Juvenile Kaloula in a drop of water on a Sacred lotus leaf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_Kaloula_in_a_drop_of_water_on_a_Sacred_lotus_leaf.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juvenile_Kaloula_in_a_drop_of_water_on_a_Sacred_lotus_leaf.jpg",
+        "width": 3853,
+        "height": 2569,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Basile Morin",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2421636",
+      "https://www.iucnredlist.org/species/88333729/63887207",
+      "https://en.wikipedia.org/wiki/Banded_bullfrog",
+      "https://vi.wikipedia.org/wiki/%E1%BB%84nh_%C6%B0%C6%A1ng"
+    ]
+  },
+  {
+    "scientificName": "Bombina orientalis",
+    "commonNameVi": "Cóc Tía Phương Đông",
+    "commonNameEn": "Oriental Fire-bellied Toad",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Bombinatoridae",
+      "genus": "Bombina"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Cóc tía (Bombinatoridae)",
+      "genus": "Chi Cóc tía (Bombina)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/54449/63850146",
+    "gbifKey": 2423441,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 18,
+      "waterTempMax": 23,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Suối đá rừng núi, đầm lầy cỏ và ao nước sạch có nhiều rêu"
+    },
+    "descriptionVi": "Loài cóc bán thủy sinh nổi tiếng của vùng Đông Bắc Á với lưng màu xanh ngọc lục bảo đốm đen sần sùi và mặt bụng màu đỏ cam rực lửa như cảnh báo.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) và là một trong những loài lưỡng cư bán cạn được nhân giống phổ biến nhất thế giới.",
+    "pullQuoteVi": "Khi gặp kẻ thù, chúng uốn cong lưng ngửa cả bốn bàn chân lên trời để phơi bày phần bụng đỏ rực cảnh báo độc tố.",
+    "dietVi": "Ăn giun đất nhỏ, dế, sâu bướm non, côn trùng nước và ốc nhỏ",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Hán, Hàn Quốc",
+      "lat": 37.56,
+      "lng": 126.97
+    },
+    "regionVi": "Bán đảo Triều Tiên, đông bắc Trung Quốc và vùng Viễn Đông Nga",
+    "otherNamesVi": [
+      "Cóc bụng lửa phương Đông"
+    ],
+    "synonyms": [
+      "Bombina orientalis praticola",
+      "Bombina orientalis silvatica",
+      "Bombinator orientalis"
+    ],
+    "wikidataId": "Q1061702",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%B3c_t%C3%ADa_ph%C6%B0%C6%A1ng_%C4%90%C3%B4ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oriental_fire-bellied_toad",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 4,
+      "lengthCmMax": 5.5,
+      "weightGMin": 6,
+      "weightGMax": 14,
+      "heightCmMax": null,
+      "noteVi": "Con đực có da lưng sần gai nhọn hơn, cẳng tay to khỏe và có chai sinh dục đen ở ngón tay mùa xuân."
+    },
+    "distribution": {
+      "countries": [
+        "KR",
+        "CN",
+        "RU"
+      ],
+      "nativeRangeVi": "Bán đảo Triều Tiên, vùng Mãn Châu - Sơn Đông (Trung Quốc) và Primorye (Nga)",
+      "elevationM": {
+        "min": 0,
+        "max": 1100
+      }
+    },
+    "habitatTypesVi": [
+      "Suối đá rừng núi, đầm lầy cỏ và ao nước sạch có nhiều rêu",
+      "Ruộng lúa bậc thang vùng đồi núi"
+    ],
+    "identificationVi": "Mặt lưng màu xanh lá cây tươi (hoặc xanh rêu nâu) phủ đầy các nốt mụn sần điểm vệt đen. Mặt bụng và mặt dưới tứ chi màu đỏ tươi hoặc cam đỏ có các mảng đốm đen tương phản mạnh. Đồng tử mắt có hình tam giác hoặc hình trái tim đặc trưng của chi Bombina.",
+    "behaviorVi": "Rất dạn người và năng động vào ban ngày, thích nổi lậpờ trên mặt nước hoặc ngồi trên các tảng đá phủ rêu sát mép nước.",
+    "reproductionVi": "Mùa xuân đẻ từng cụm 30–100 trứng bám vào thân cây thủy sinh trong nước mát.",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước suối và thu hẹp đất ngập nước tự nhiên"
+    ],
+    "funFactsVi": [
+      "Phản xạ ngửa bụng khoe màu đỏ cam khi bị đe dọa của chi Bombina được các nhà tập tính học gọi bằng thuật ngữ riêng là 'Unkenreflex'.",
+      "Để giữ màu bụng đỏ tươi rực rỡ trong điều kiện nuôi nhốt, khẩu phần ăn của chúng cần có các sắc tố carotenoid tự nhiên như astaxanthin hoặc canthaxanthin."
+    ],
+    "similarSpecies": [
+      "Bombina bombina"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Hồ bán cạn (50% nước sâu 8–10 cm, 50% bờ đá cuội và lũa phủ rêu Java).",
+      "lightingVi": "Đèn LED chiếu sáng cho rêu và cây thủy sinh 10–12 giờ/ngày",
+      "feedingVi": "Dế nhỏ, giun đất cắt nhỏ, gián Dubia non rắc bột khoáng và carotenoid",
+      "socialVi": "Sống bầy đàn rất vui nhộn, nên nuôi nhóm 3–6 cá thể",
+      "commonProblemsVi": [
+        "Bụng nhạt màu sang vàng nếu thiếu carotenoid trong thức ăn"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; rất phổ biến từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Cóc Tía Bụng Lửa Phương Đông (Bombina orientalis) CB",
+        "priceVnd": 380000,
+        "descriptionVi": "Cóc tía lưng xanh lá bụng đỏ cam tươi, năng động cả ngày, cực kỳ dễ nuôi trong hồ bán cạn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bombina Orientalis \"Circuit\".jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bombina_Orientalis_%22Circuit%22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bombina_Orientalis_%22Circuit%22.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aster Laurel Montor",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Fire-bellied Toad (Bombina orientalis) (2864604938).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fire-bellied_Toad_(Bombina_orientalis)_(2864604938).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Fire-bellied_Toad_%28Bombina_orientalis%29_%282864604938%29.jpg",
+        "width": 853,
+        "height": 1280,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Cliff from Arlington, Virginia, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bombina orientalis Gamova.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bombina_orientalis_Gamova.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Bombina_orientalis_Gamova.jpg",
+        "width": 3786,
+        "height": 2840,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alexander A. Fomichev",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bombina orientalis in hand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bombina_orientalis_in_hand.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bombina_orientalis_in_hand.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Daniel Ballmer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chin. Rotbauchunke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chin._Rotbauchunke.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chin._Rotbauchunke.jpg",
+        "width": 7000,
+        "height": 4667,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Worlddream12098",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2423441",
+      "https://www.iucnredlist.org/species/54449/63850146",
+      "https://en.wikipedia.org/wiki/Oriental_fire-bellied_toad",
+      "https://vi.wikipedia.org/wiki/C%C3%B3c_t%C3%ADa_ph%C6%B0%C6%A1ng_%C4%90%C3%B4ng"
+    ]
+  },
+  {
+    "scientificName": "Bombina bombina",
+    "commonNameVi": "Cóc Tía Châu Âu",
+    "commonNameEn": "Fire-bellied Toad",
+    "group": "Lưỡng cư",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Bombinatoridae",
+      "genus": "Bombina"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Không đuôi (Anura)",
+      "family": "Họ Cóc tía (Bombinatoridae)",
+      "genus": "Chi Cóc tía (Bombina)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/2865/89699662",
+    "gbifKey": 2423443,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 23,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 16,
+      "waterTempMax": 22,
+      "phMin": 6.5,
+      "phMax": 7.8,
+      "habitatVi": "Ao hồ nước tĩnh vùng đồng bằng ngập nắng có nhiều bèo và cỏ nước"
+    },
+    "descriptionVi": "Loài cóc bụng lửa đặc trưng của các vùng đồng bằng Trung và Đông Âu, có lưng xám sẫm hòa vào bùn nước và phần bụng màu cam đỏ điểm các chấm trắng li ti.",
+    "conservationNoteVi": "Đánh giá mức Ít lo ngại (LC) trên toàn cầu và được bảo vệ sinh cảnh đất ngập nước theo Chỉ thị Sinh cảnh của Liên minh châu Âu.",
+    "pullQuoteVi": "Tiếng kêu 'uông... uông...' trầm buồn ngân vang trên mặt đầm lầy phẳng lặng báo hiệu mùa xuân về khắp miền Đông Âu.",
+    "dietVi": "Ăn côn trùng nước, ấu trùng muỗi, giun, nhện và dế nhỏ",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Trung Âu, Đức",
+      "lat": 50.11,
+      "lng": 8.68
+    },
+    "regionVi": "Trung, Đông và Đông Nam châu Âu kéo dài tới dãy Ural và tây bắc Thổ Nhĩ Kỳ",
+    "otherNamesVi": [
+      "Cóc bụng lửa đất thấp"
+    ],
+    "synonyms": [
+      "Bombina bombina arifiyensi",
+      "Bombina bombina danubialis",
+      "Bombina bombina viridis",
+      "Bombina ignea"
+    ],
+    "wikidataId": "Q372267",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%B3c_t%C3%ADa_ch%C3%A2u_%C3%82u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/European_fire-bellied_toad",
+    "iucnAssessedYear": 2023,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 4,
+      "lengthCmMax": 5.5,
+      "weightGMin": 6,
+      "weightGMax": 13,
+      "heightCmMax": null,
+      "noteVi": "Con đực có cặp túi kêu trong làm cổ họng phồng tròn khi kêu và có chai sinh dục ở cẳng tay."
+    },
+    "distribution": {
+      "countries": [
+        "DE",
+        "PL",
+        "AT",
+        "HU",
+        "RO",
+        "UA",
+        "RU"
+      ],
+      "nativeRangeVi": "Các vùng đồng bằng thấp Trung và Đông Âu",
+      "elevationM": {
+        "min": 0,
+        "max": 700
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ nước tĩnh vùng đồng bằng ngập nắng có nhiều bèo và cỏ nước",
+      "Đầm lầy ngập lũ ven các con sông lớn"
+    ],
+    "identificationVi": "Mặt lưng màu xám bùn, nâu đen hoặc đôi khi điểm vệt xanh rêu mờ với các nốt mụn tròn tù. Mặt bụng màu cam đỏ tươi trên nền đen xanh, có nhiều chấm trắng nhỏ phân bố dọc hai bên sườn và bụng. Đầu các ngón tay và ngón chân có màu đen hoặc xám sẫm (khác với đầu ngón màu vàng của B. variegata).",
+    "behaviorVi": "Gắn bó chặt chẽ với môi trường nước suốt mùa xuân và mùa hè; mùa thu lên cạn tìm các hốc đất, gốc cây mục để ngủ đông.",
+    "reproductionVi": "Sinh sản từ tháng 4 đến tháng 7 tại các ao đầm nước ấm nông; trứng được đẻ thành từng cụm nhỏ quấn quanh thân cây cỏ nước.",
+    "threatsVi": [
+      "San lấp ao đầm nông nghiệp truyền thống và ô nhiễm phân bón hóa học"
+    ],
+    "funFactsVi": [
+      "Con đực khi kêu tạo ra những vòng sóng đồng tâm lan tỏa đều đặn quanh cơ thể trên mặt nước tĩnh lặng.",
+      "Ở những dải phân bố giáp ranh chân núi tại Trung Âu, loài này có thể lai tự nhiên với cóc tía bụng vàng (B. variegata)."
+    ],
+    "similarSpecies": [
+      "Bombina variegata"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể/chuồng kính tối thiểu 60 lít. Giá thể: Hồ bán cạn có 60–70% diện tích mặt nước sâu 10–15 cm với nhiều cây nổi và đảo gỗ bần.",
+      "lightingVi": "Đèn LED chiếu sáng cho bèo nổi và rêu thủy sinh",
+      "feedingVi": "Dế nhỏ, giun đất, trùn huyết sạch và côn trùng nhỏ rắc khoáng",
+      "socialVi": "Nuôi theo nhóm 3–5 cá thể rất hòa thuận",
+      "commonProblemsVi": [
+        "Stress nhiệt nếu nước ấm trên 25°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc CITES; giao dịch nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Cóc Tía Châu Âu (Bombina bombina) CB",
+        "priceVnd": 550000,
+        "descriptionVi": "Cóc bụng lửa châu Âu CB khỏe mạnh, thích hợp hồ bán cạn nhiều cây thủy sinh."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:На межі.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96.jpg",
+        "width": 5109,
+        "height": 3649,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Рысь Роман",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:BombinaBombinaCallingMale2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BombinaBombinaCallingMale2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/BombinaBombinaCallingMale2.jpg",
+        "width": 2000,
+        "height": 3065,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Christian Fischer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Benny Trapp Bombina bombina Rotbauchunke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Benny_Trapp_Bombina_bombina_Rotbauchunke.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Benny_Trapp_Bombina_bombina_Rotbauchunke.jpg",
+        "width": 4256,
+        "height": 2832,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Benny Trapp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bombina bombina in Austria.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bombina_bombina_in_Austria.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Bombina_bombina_in_Austria.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Henderl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bombina bombina near Mykhailo-Laryne village.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bombina_bombina_near_Mykhailo-Laryne_village.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bombina_bombina_near_Mykhailo-Laryne_village.jpg",
+        "width": 4512,
+        "height": 3000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Sergey Nikonov",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2423443",
+      "https://www.iucnredlist.org/species/2865/89699662",
+      "https://en.wikipedia.org/wiki/European_fire-bellied_toad",
+      "https://vi.wikipedia.org/wiki/C%C3%B3c_t%C3%ADa_ch%C3%A2u_%C3%82u"
+    ]
+  }
+]

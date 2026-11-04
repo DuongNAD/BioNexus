@@ -1,4 +1,5 @@
 import type { ConservationStatus } from '@/types/api';
+import type { SpeciesGroup } from '@/api/adapters';
 
 export interface GeoCoordinate {
   lat: number;
@@ -24,7 +25,7 @@ export interface SpeciesBioMarker {
   commonName: string;
   displayName: string;
   conservationStatus: ConservationStatus;
-  group: 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt' | 'Khác';
+  group: SpeciesGroup;
   origin: GeoCoordinate;
   hubId: string;
   heroPhoto: string;

@@ -1,0 +1,3773 @@
+[
+  {
+    "scientificName": "Sarracenia alata",
+    "commonNameVi": "Bình Tử Thảo Nhạt",
+    "commonNameEn": "Yellow Trumpets",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sarraceniaceae",
+      "genus": "Sarracenia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thạch nam (Ericales)",
+      "family": "Họ Bình tử thảo (Sarraceniaceae)",
+      "genus": "Chi Bình tử thảo Bắc Mỹ (Sarracenia)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/39713/10258751",
+    "gbifKey": 5421377,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ thông ẩm và đầm lầy thấm nước trên sườn đồi cát"
+    },
+    "descriptionVi": "Loài bình tử thảo duy nhất mở rộng phân bố vượt sang phía tây sông Mississippi tới tận bang Texas, với những chiếc ống bẫy thanh mảnh màu vàng lục nhạt đến đỏ sẫm.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Mỗi chiếc ấm phát ra mùi hương ngọt dịu giống hoa quả chín trộn mật ong để dẫn dụ côn trùng từ khoảng cách hàng chục mét.",
+    "dietVi": "Bẫy côn trùng bay và kiến bằng mật thơm và thành ống phủ phấn sáp trơn",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Miền nam Hoa Kỳ từ nam Alabama, Mississippi qua Louisiana tới đông Texas",
+    "otherNamesVi": [
+      "Pale Pitcher Plant"
+    ],
+    "synonyms": [
+      "Sarracenia alata viridescens",
+      "Sarracenia alata atrorubra",
+      "Sarracenia alata cuprea",
+      "Sarracenia alata nigropurpurea"
+    ],
+    "wikidataId": "Q881972",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sarracenia_alata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sarracenia_alata",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 75,
+      "noteVi": "Ống lá thẳng đứng màu xanh vàng nhạt hoặc hồng gân đỏ ở phía tây sông Mississippi"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Miền nam Hoa Kỳ từ nam Alabama, Mississippi qua Louisiana tới đông Texas",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cỏ thông ẩm và đầm lầy thấm nước trên sườn đồi cát",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 40–75 cm. Ống lá thẳng đứng màu xanh vàng nhạt hoặc hồng gân đỏ ở phía tây sông Mississippi.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay và kiến bằng mật thơm và thành ống phủ phấn sáp trơn.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Mỗi chiếc ấm phát ra mùi hương ngọt dịu giống hoa quả chín trộn mật ong để dẫn dụ côn trùng từ khoảng cách hàng chục mét."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 10–32°C và độ ẩm 60–80%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Bình Tử Thảo Nhạt (Sarracenia alata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 210000,
+        "descriptionVi": "Cây Bình Tử Thảo Nhạt nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:S.Alata, Jasper County TX.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:S.Alata,_Jasper_County_TX.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/S.Alata%2C_Jasper_County_TX.jpg",
+        "width": 4933,
+        "height": 2912,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "David A. Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pitcher Plant (4488550154).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_Plant_(4488550154).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pitcher_Plant_%284488550154%29.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Chris M Morris",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Long-leaf pine savannah wet-lands with pitcher plants (Sarracenia alata) in foreground, Tyler County, Texas, USA (May 2020).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Long-leaf_pine_savannah_wet-lands_with_pitcher_plants_(Sarracenia_alata)_in_foreground,_Tyler_County,_Texas,_USA_(May_2020).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Long-leaf_pine_savannah_wet-lands_with_pitcher_plants_%28Sarracenia_alata%29_in_foreground%2C_Tyler_County%2C_Texas%2C_USA_%28May_2020%29.jpg",
+        "width": 2100,
+        "height": 1138,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "William L. Farr",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leipzig, botanischer Garten, Sarracenia alata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leipzig,_botanischer_Garten,_Sarracenia_alata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Leipzig%2C_botanischer_Garten%2C_Sarracenia_alata.jpg",
+        "width": 4284,
+        "height": 4155,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dguendel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pitcher Plants Texas Freshwater Fisheries Center 2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pitcher_Plants_Texas_Freshwater_Fisheries_Center_2025.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pitcher_Plants_Texas_Freshwater_Fisheries_Center_2025.jpg",
+        "width": 4521,
+        "height": 3014,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Larry D. Moore",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5421377",
+      "https://www.iucnredlist.org/species/39713/10258751",
+      "https://en.wikipedia.org/wiki/Sarracenia_alata",
+      "https://vi.wikipedia.org/wiki/Sarracenia_alata"
+    ]
+  },
+  {
+    "scientificName": "Sarracenia oreophila",
+    "commonNameVi": "Bình Tử Thảo Xanh Núi",
+    "commonNameEn": "Green Pitcherplant",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sarraceniaceae",
+      "genus": "Sarracenia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thạch nam (Ericales)",
+      "family": "Họ Bình tử thảo (Sarraceniaceae)",
+      "genus": "Chi Bình tử thảo Bắc Mỹ (Sarracenia)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/39718/10260069",
+    "gbifKey": 5421400,
+    "environment": {
+      "tempMin": 8,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối cát sa thạch và đầm lầy thấm nước trên núi"
+    },
+    "descriptionVi": "Loài bình tử thảo nguy cấp nhất Bắc Mỹ với những chiếc ấm mùa xuân xanh mướt điểm gân tím ở cổ và tập tính thu mình thành lá dẹt hình lưỡi liềm khi hè khô nóng tới.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES, được bảo vệ nghiêm ngặt cấp quốc tế.",
+    "pullQuoteVi": "Để sống sót qua mùa hè khô hạn trên sườn núi đá, cây ngừng tạo ấm từ giữa hè và chuyển sang đâm những chiếc lá phẳng cong như lưỡi liềm chỉ làm nhiệm vụ quang hợp.",
+    "dietVi": "Bẫy côn trùng mùa xuân bằng ấm lớn trước khi nghỉ hè",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Vùng cao nguyên Cumberland và miền núi đông bắc Alabama, bắc Georgia và tây nam Bắc Carolina (Hoa Kỳ)",
+    "otherNamesVi": [
+      "Green Pitcher Plant"
+    ],
+    "synonyms": [
+      "Sarracenia flava oreophila",
+      "Sarracenia oreophila ornata"
+    ],
+    "wikidataId": "Q1552011",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sarracenia_oreophila",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sarracenia_oreophila",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 65,
+      "noteVi": "Ấm mọc rộ vào mùa xuân, vào mùa hè tạo ra các phiến lá dẹt cong như lưỡi liềm (phyllodia)"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Vùng cao nguyên Cumberland và miền núi đông bắc Alabama, bắc Georgia và tây nam Bắc Carolina (Hoa Kỳ)",
+      "elevationM": {
+        "min": 200,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối cát sa thạch và đầm lầy thấm nước trên núi",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 35–65 cm. Ấm mọc rộ vào mùa xuân, vào mùa hè tạo ra các phiến lá dẹt cong như lưỡi liềm (phyllodia).",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng mùa xuân bằng ấm lớn trước khi nghỉ hè.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Để sống sót qua mùa hè khô hạn trên sườn núi đá, cây ngừng tạo ấm từ giữa hè và chuyển sang đâm những chiếc lá phẳng cong như lưỡi liềm chỉ làm nhiệm vụ quang hợp."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES hoặc Cực kỳ nguy cấp (CR) được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Sarracenia oreophila (35969810193).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sarracenia_oreophila_(35969810193).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sarracenia_oreophila_%2835969810193%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USFWS/Southeast",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20210620 Hortus botanicus Leiden - Sarracenia oreophila v2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20210620_Hortus_botanicus_Leiden_-_Sarracenia_oreophila_v2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/20210620_Hortus_botanicus_Leiden_-_Sarracenia_oreophila_v2.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Green pitcher plant (Sarracenia oreophila) habitat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_pitcher_plant_(Sarracenia_oreophila)_habitat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Green_pitcher_plant_%28Sarracenia_oreophila%29_habitat.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Pattavina, Pete - U.S. Fish & Wildlife Service",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Green Pitcher Plant.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Pitcher_Plant.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Green_Pitcher_Plant.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wesos19",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Leipzig, botanischer Garten, Pinguicula vulgaris und Sarracenia oreophila (?).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leipzig,_botanischer_Garten,_Pinguicula_vulgaris_und_Sarracenia_oreophila_(%3F).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Leipzig%2C_botanischer_Garten%2C_Pinguicula_vulgaris_und_Sarracenia_oreophila_%28%3F%29.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Dguendel",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5421400",
+      "https://www.iucnredlist.org/species/39718/10260069",
+      "https://en.wikipedia.org/wiki/Sarracenia_oreophila",
+      "https://vi.wikipedia.org/wiki/Sarracenia_oreophila"
+    ]
+  },
+  {
+    "scientificName": "Darlingtonia californica",
+    "commonNameVi": "Cây Nắp Ấm Rắn Hổ Mang (Loa Kèn Hổ Mang)",
+    "commonNameEn": "California Pitcher Plant",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Sarraceniaceae",
+      "genus": "Darlingtonia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Thạch nam (Ericales)",
+      "family": "Họ Bình tử thảo (Sarraceniaceae)",
+      "genus": "Chi Loa kèn rắn hổ mang (Darlingtonia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/39714/10259059",
+    "gbifKey": 5939805,
+    "environment": {
+      "tempMin": 8,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy và bờ suối có mạch nước ngầm lạnh mát chảy liên tục qua bộ rễ"
+    },
+    "descriptionVi": "Loài duy nhất trong chi Darlingtonia với hình dáng giống hệt một con rắn hổ mang đang ngóc đầu phùng mang và thè chiếc lưỡi chẻ đôi màu đỏ lục đầy mật ngọt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khác với mọi loài cây nắp ấm khác, Loa Kèn Hổ Mang không hề hứng nước mưa mà tự bơm nước từ dưới rễ lên hoặc tháo bớt nước trong ấm ra để điều chỉnh mực dịch bẫy mồi!",
+    "dietVi": "Dụ côn trùng chui vào lỗ dưới 'hàm rắn' rồi làm chúng lạc lối trước hàng trăm ô cửa sổ sáng trong suốt trên đỉnh đầu rắn",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Vùng núi và đầm lầy ven biển từ bắc California tới miền trung bang Oregon, Hoa Kỳ",
+    "otherNamesVi": [
+      "Cobra Lily",
+      "California Pitcher Plant"
+    ],
+    "synonyms": [
+      "Chrysamphora californica",
+      "Darlingtonia californica californica",
+      "Darlingtonia californica viridiflora",
+      "Darlingtonia rediviva"
+    ],
+    "wikidataId": "Q1138945",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Darlingtonia_californica",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Darlingtonia_californica",
+    "iucnAssessedYear": 2000,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 80,
+      "noteVi": "Đầu ống bẫy phình tròn như đầu rắn hổ mang bành kèm chiếc lá phụ chẻ đôi thè ra như lưỡi rắn"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Vùng núi và đầm lầy ven biển từ bắc California tới miền trung bang Oregon, Hoa Kỳ",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy và bờ suối có mạch nước ngầm lạnh mát chảy liên tục qua bộ rễ",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 30–80 cm. Đầu ống bẫy phình tròn như đầu rắn hổ mang bành kèm chiếc lá phụ chẻ đôi thè ra như lưỡi rắn.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Dụ côn trùng chui vào lỗ dưới 'hàm rắn' rồi làm chúng lạc lối trước hàng trăm ô cửa sổ sáng trong suốt trên đỉnh đầu rắn.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Khác với mọi loài cây nắp ấm khác, Loa Kèn Hổ Mang không hề hứng nước mưa mà tự bơm nước từ dưới rễ lên hoặc tháo bớt nước trong ấm ra để điều chỉnh mực dịch bẫy mồi!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 8–24°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Nắp Ấm Rắn Hổ Mang (Loa Kèn Hổ Mang) (Darlingtonia californica) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 650000,
+        "descriptionVi": "Cây Cây Nắp Ấm Rắn Hổ Mang (Loa Kèn Hổ Mang) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A Congeries of Snakes (27026701774).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Congeries_of_Snakes_(27026701774).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/A_Congeries_of_Snakes_%2827026701774%29.jpg",
+        "width": 5136,
+        "height": 2986,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:0101a - PITCHER-PLANT, DALINGTONIA (Darlingtonia californica) (6-21-11) near florence, lane co, or - (3) (5898133348).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:0101a_-_PITCHER-PLANT,_DALINGTONIA_(Darlingtonia_californica)_(6-21-11)_near_florence,_lane_co,_or_-_(3)_(5898133348).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/0101a_-_PITCHER-PLANT%2C_DALINGTONIA_%28Darlingtonia_californica%29_%286-21-11%29_near_florence%2C_lane_co%2C_or_-_%283%29_%285898133348%29.jpg",
+        "width": 3168,
+        "height": 4752,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "ALAN SCHMIERER",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bloedel Reserve 09.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloedel_Reserve_09.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Bloedel_Reserve_09.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blooming Cobras (25883497114).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blooming_Cobras_(25883497114).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Blooming_Cobras_%2825883497114%29.jpg",
+        "width": 3416,
+        "height": 4763,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Darlingtonia Californica (14007752361).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Darlingtonia_Californica_(14007752361).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Darlingtonia_Californica_%2814007752361%29.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5939805",
+      "https://www.iucnredlist.org/species/39714/10259059",
+      "https://en.wikipedia.org/wiki/Darlingtonia_californica",
+      "https://vi.wikipedia.org/wiki/Darlingtonia_californica"
+    ]
+  },
+  {
+    "scientificName": "Cephalotus follicularis",
+    "commonNameVi": "Cây Ấm Đất Úc",
+    "commonNameEn": "Australian Pitcher Plant",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Oxalidales",
+      "family": "Cephalotaceae",
+      "genus": "Cephalotus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Chua me đất (Oxalidales)",
+      "family": "Họ Ấm đất Úc (Cephalotaceae)",
+      "genus": "Chi Ấm đất Úc (Cephalotus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/39635/19631881",
+    "gbifKey": 5576485,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy than bùn pha cát ẩm ven biển và bờ suối rỉ nước"
+    },
+    "descriptionVi": "Loài duy nhất trong toàn bộ họ Ấm đất Úc (Cephalotaceae) — một kiệt tác tiến hóa hội tụ hoàn toàn độc lập với họ Nắp ấm — tạo ra những chiếc ấm nhỏ xinh như chiếc hài có răng cưa đỏ thẫm.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES, được nhân giống rộng rãi bằng nuôi cấy mô và giâm lá.",
+    "pullQuoteVi": "Dù trông giống hệt một chiếc nắp ấm thu nhỏ, phân tích ADN cho thấy Cây Ấm Đất Úc thực chất có họ hàng gần với cây Chua me đất (Oxalis) hơn là cây Nắp ấm châu Á!",
+    "dietVi": "Chuyên bẫy kiến bò trên mặt đất bằng ba đường gờ có lông dẫn thẳng lên vành môi đầy răng",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Đặc hữu dải ven biển cực tây nam bang Tây Úc (quanh vùng Albany đến Augusta)",
+    "otherNamesVi": [
+      "Albany Pitcher Plant",
+      "Australian Pitcher Plant"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2181577",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_%C3%9Ac",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cephalotus",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Cây mọc thành bụi thấp sát đất với những chiếc ấm nhỏ có nắp kẻ sọc trắng và ba gờ cánh có lông"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đặc hữu dải ven biển cực tây nam bang Tây Úc (quanh vùng Albany đến Augusta)",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy than bùn pha cát ẩm ven biển và bờ suối rỉ nước",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 5–15 cm. Cây mọc thành bụi thấp sát đất với những chiếc ấm nhỏ có nắp kẻ sọc trắng và ba gờ cánh có lông.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Chuyên bẫy kiến bò trên mặt đất bằng ba đường gờ có lông dẫn thẳng lên vành môi đầy răng.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Dù trông giống hệt một chiếc nắp ấm thu nhỏ, phân tích ADN cho thấy Cây Ấm Đất Úc thực chất có họ hàng gần với cây Chua me đất (Oxalis) hơn là cây Nắp ấm châu Á!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–26°C và độ ẩm 60–80%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Ấm Đất Úc (Cephalotus follicularis) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 380000,
+        "descriptionVi": "Cây Cây Ấm Đất Úc nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Trapped in a Dream (26364254812).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trapped_in_a_Dream_(26364254812).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Trapped_in_a_Dream_%2826364254812%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cephalotus follicularis in Sakuya Konohana Kan, Osaka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotus_follicularis_in_Sakuya_Konohana_Kan,_Osaka.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cephalotus_follicularis_in_Sakuya_Konohana_Kan%2C_Osaka.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "M108t",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotus follicularis 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotus_follicularis_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cephalotus_follicularis_01.jpg",
+        "width": 4080,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dmachac",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotus follicularis Kew Gardens.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotus_follicularis_Kew_Gardens.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cephalotus_follicularis_Kew_Gardens.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Eddie Johnston",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cephalotus Under Glass (14031013673).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cephalotus_Under_Glass_(14031013673).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cephalotus_Under_Glass_%2814031013673%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5576485",
+      "https://www.iucnredlist.org/species/39635/19631881",
+      "https://en.wikipedia.org/wiki/Cephalotus",
+      "https://vi.wikipedia.org/wiki/N%E1%BA%AFp_%E1%BA%A5m_%C3%9Ac"
+    ]
+  },
+  {
+    "scientificName": "Drosera rotundifolia",
+    "commonNameVi": "Cây Gọng Vó Lá Tròn",
+    "commonNameEn": "Common Sundew",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/168798/1232630",
+    "gbifKey": 3191030,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy rêu than bùn Sphagnum ngập nắng và đất ngập nước nghèo dinh dưỡng"
+    },
+    "descriptionVi": "Loài cây gọng vó nổi tiếng nhất trong lịch sử sinh học — từng được chính Charles Darwin nghiên cứu suốt nhiều năm — với những chiếc lá tròn phủ sương keo đỏ rực dưới nắng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phạm vi phân bố rộng khắp Bắc Bán Cầu.",
+    "pullQuoteVi": "Năm 1875, Charles Darwin đã viết trong thư rằng vào thời điểm đó ông còn quan tâm đến cây Gọng Vó Lá Tròn hơn cả nguồn gốc của mọi loài trên thế giới!",
+    "dietVi": "Bẫy muỗi, ruồi nhỏ và côn trùng bằng các giọt dịch nhầy lấp lánh như sương mai rồi cuộn gập lông tuyến để tiêu hóa",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Phân bố khắp vùng ôn đới và cận Bắc Cực của Bắc Bán Cầu (châu Âu, Bắc Á, Nhật Bản và Bắc Mỹ)",
+    "otherNamesVi": [
+      "Round-leaved Sundew",
+      "Common Sundew"
+    ],
+    "synonyms": [
+      "Drosera belezeana",
+      "Drosera corsica",
+      "Drosera rotundifolia breviscapa",
+      "Drosera rotundifolia comosa"
+    ],
+    "wikidataId": "Q21187",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Drosera_rotundifolia",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_rotundifolia",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 10,
+      "noteVi": "Lá xòe sát đất có phiến tròn trịa đường kính 1–1,5 cm phủ đầy lông tuyến đỏ lấp lánh giọt keo"
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "SE",
+        "RU",
+        "JP",
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Phân bố khắp vùng ôn đới và cận Bắc Cực của Bắc Bán Cầu (châu Âu, Bắc Á, Nhật Bản và Bắc Mỹ)",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy rêu than bùn Sphagnum ngập nắng và đất ngập nước nghèo dinh dưỡng",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 3–10 cm. Lá xòe sát đất có phiến tròn trịa đường kính 1–1,5 cm phủ đầy lông tuyến đỏ lấp lánh giọt keo.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy muỗi, ruồi nhỏ và côn trùng bằng các giọt dịch nhầy lấp lánh như sương mai rồi cuộn gập lông tuyến để tiêu hóa.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Năm 1875, Charles Darwin đã viết trong thư rằng vào thời điểm đó ông còn quan tâm đến cây Gọng Vó Lá Tròn hơn cả nguồn gốc của mọi loài trên thế giới!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 10–26°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Tròn (Drosera rotundifolia) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 140000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Tròn nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera rotundifolia (Imo Wetland).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_rotundifolia_(Imo_Wetland).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosera_rotundifolia_%28Imo_Wetland%29.jpg",
+        "width": 5400,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:20250705 tourbière Logné Drosera rotundifolia1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20250705_tourbi%C3%A8re_Logn%C3%A9_Drosera_rotundifolia1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/20250705_tourbi%C3%A8re_Logn%C3%A9_Drosera_rotundifolia1.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Théo Vansteenkeste",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Drosera rotundifolia 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_rotundifolia_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Drosera_rotundifolia_2.JPG",
+        "width": 3072,
+        "height": 2304,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Monika Budzakova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera rotundifolia (Mount Gozaisho).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_rotundifolia_(Mount_Gozaisho).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Drosera_rotundifolia_%28Mount_Gozaisho%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alpsdake",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera rotundifolia - Round-Leaved Sundew 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_rotundifolia_-_Round-Leaved_Sundew_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Drosera_rotundifolia_-_Round-Leaved_Sundew_02.jpg",
+        "width": 5152,
+        "height": 7728,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Jasper Shide",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191030",
+      "https://www.iucnredlist.org/species/168798/1232630",
+      "https://en.wikipedia.org/wiki/Drosera_rotundifolia",
+      "https://vi.wikipedia.org/wiki/Drosera_rotundifolia"
+    ]
+  },
+  {
+    "scientificName": "Drosera filiformis",
+    "commonNameVi": "Cây Gọng Vó Lá Chỉ",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/64311210/67694064",
+    "gbifKey": 3191183,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy cát ẩm ven biển và trảng cỏ than bùn ngập nắng"
+    },
+    "descriptionVi": "Loài gọng vó thanh mảnh với những chiếc lá vươn cao thẳng tắp như những sợi tơ hồng đính hàng nghìn viên pha lê sương lấp lánh dưới ánh mặt trời.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại Bắc Mỹ.",
+    "pullQuoteVi": "Khi mùa đông lạnh giá kéo đến, toàn bộ lá sợi chỉ thu lại thành một khối chồi ngủ đông (hibernaculum) phủ đầy lông trắng mịn để chờ nắng ấm mùa xuân.",
+    "dietVi": "Hoạt động như những tấm giấy bẫy ruồi thẳng đứng bắt giữ muỗi, ruồi và bướm nhỏ bay ngang qua",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": "Vùng duyên hải Đại Tây Dương từ Nova Scotia (Canada), New Jersey xuống tới Florida (Hoa Kỳ)",
+    "otherNamesVi": [
+      "Thread-leaved Sundew"
+    ],
+    "synonyms": [
+      "Drosera filiformis typica",
+      "Drosera leionema",
+      "Drosera tenuifolia",
+      "Filicirna filiformis"
+    ],
+    "wikidataId": "Q366314",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_filiformis",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 35,
+      "noteVi": "Lá mọc thẳng đứng dài mảnh như sợi chỉ phủ đầy lông keo đỏ hồng; đầu lá non cuộn tròn như vòi voi"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Vùng duyên hải Đại Tây Dương từ Nova Scotia (Canada), New Jersey xuống tới Florida (Hoa Kỳ)",
+      "elevationM": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cát ẩm ven biển và trảng cỏ than bùn ngập nắng",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 15–35 cm. Lá mọc thẳng đứng dài mảnh như sợi chỉ phủ đầy lông keo đỏ hồng; đầu lá non cuộn tròn như vòi voi.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Hoạt động như những tấm giấy bẫy ruồi thẳng đứng bắt giữ muỗi, ruồi và bướm nhỏ bay ngang qua.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Khi mùa đông lạnh giá kéo đến, toàn bộ lá sợi chỉ thu lại thành một khối chồi ngủ đông (hibernaculum) phủ đầy lông trắng mịn để chờ nắng ấm mùa xuân."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–28°C và độ ẩm 60–80%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Chỉ (Drosera filiformis) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 150000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Chỉ nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera filiformis closeup 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_filiformis_closeup_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Drosera_filiformis_closeup_4.jpg",
+        "width": 6048,
+        "height": 3400,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tippitiwichet",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera filiformis 'Tracyii' kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_filiformis_%27Tracyii%27_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Drosera_filiformis_%27Tracyii%27_kz01.jpg",
+        "width": 2868,
+        "height": 4302,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:An Early Spring... (12558499725).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:An_Early_Spring..._(12558499725).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/An_Early_Spring..._%2812558499725%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera filiformis var. tracyii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_filiformis_var._tracyii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Drosera_filiformis_var._tracyii.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Abe1029",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:U.S. Botanic Garden Production Facility 11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:U.S._Botanic_Garden_Production_Facility_11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/U.S._Botanic_Garden_Production_Facility_11.jpg",
+        "width": 3072,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sdkb",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191183",
+      "https://www.iucnredlist.org/species/64311210/67694064",
+      "https://en.wikipedia.org/wiki/Drosera_filiformis"
+    ]
+  },
+  {
+    "scientificName": "Drosera binata",
+    "commonNameVi": "Cây Gọng Vó Lá Chẻ Đôi (Gọng Vó Sừng Hươu)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/66437287/143975087",
+    "gbifKey": 3191053,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối cát ẩm, vách đá rỉ nước và đầm lầy ven biển"
+    },
+    "descriptionVi": "Loài gọng vó cỡ lớn cực kỳ ấn tượng của châu Đại Dương với những chiếc lá chẻ đôi liên tiếp thành hình chiếc nĩa hoặc cặp sừng hươu giăng lưới bắt côn trùng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại Úc và New Zealand.",
+    "pullQuoteVi": "Một bụi Gọng Vó Sừng Hươu trưởng thành đan những nhánh lá chữ Y vào nhau tạo thành một bức màn keo sương ba chiều khiến côn trùng bay qua không thể thoát.",
+    "dietVi": "Bẫy ruồi, muỗi, ong nhỏ và bướm đêm bằng mạng lưới lá chẻ nhánh phủ keo",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Miền đông và miền nam nước Úc (kể cả đảo Tasmania) và khắp New Zealand",
+    "otherNamesVi": [
+      "Fork-leaved Sundew"
+    ],
+    "synonyms": [
+      "Dismophyla binata",
+      "Drosera billardierei",
+      "Drosera binata multifida",
+      "Drosera binata pedata"
+    ],
+    "wikidataId": "Q138163",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_binata",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 45,
+      "noteVi": "Phiến lá phân nhánh chữ Y thành 2, 4 hoặc tới 16 nhánh nhọn như cặp sừng hươu phủ đầy lông keo"
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "NZ"
+      ],
+      "nativeRangeVi": "Miền đông và miền nam nước Úc (kể cả đảo Tasmania) và khắp New Zealand",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối cát ẩm, vách đá rỉ nước và đầm lầy ven biển",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 20–45 cm. Phiến lá phân nhánh chữ Y thành 2, 4 hoặc tới 16 nhánh nhọn như cặp sừng hươu phủ đầy lông keo.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy ruồi, muỗi, ong nhỏ và bướm đêm bằng mạng lưới lá chẻ nhánh phủ keo.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Một bụi Gọng Vó Sừng Hươu trưởng thành đan những nhánh lá chữ Y vào nhau tạo thành một bức màn keo sương ba chiều khiến côn trùng bay qua không thể thoát."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 15–28°C và độ ẩm 60–80%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Chẻ Đôi (Gọng Vó Sừng Hươu) (Drosera binata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 130000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Chẻ Đôi (Gọng Vó Sừng Hươu) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20210623 Hortus Botanicus Leiden - JIHI - Drosera binata v1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20210623_Hortus_Botanicus_Leiden_-_JIHI_-_Drosera_binata_v1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/20210623_Hortus_Botanicus_Leiden_-_JIHI_-_Drosera_binata_v1.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera binata (5), exhibition in Botanical garden Brno.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_binata_(5),_exhibition_in_Botanical_garden_Brno.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Drosera_binata_%285%29%2C_exhibition_in_Botanical_garden_Brno.JPG",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Michal Klajban",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dichomata Tangle (14014840965).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dichomata_Tangle_(14014840965).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dichomata_Tangle_%2814014840965%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera binata (3), exhibition in Botanical garden Brno.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_binata_(3),_exhibition_in_Botanical_garden_Brno.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Drosera_binata_%283%29%2C_exhibition_in_Botanical_garden_Brno.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Michal Klajban",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera binata - Botanischer Garten Freiburg - DSC06347.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_binata_-_Botanischer_Garten_Freiburg_-_DSC06347.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Drosera_binata_-_Botanischer_Garten_Freiburg_-_DSC06347.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Daderot",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191053",
+      "https://www.iucnredlist.org/species/66437287/143975087",
+      "https://en.wikipedia.org/wiki/Drosera_binata"
+    ]
+  },
+  {
+    "scientificName": "Drosera indica",
+    "commonNameVi": "Cây Gọng Vó Ấn Độ (Cỏ Trói Gà Lá Kim)",
+    "commonNameEn": "Indian Sundew",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/168864/19632217",
+    "gbifKey": 3190722,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cát ẩm ngập nước theo mùa, bờ ruộng và đầm lầy đất thấp"
+    },
+    "descriptionVi": "Loài gọng vó thân thảo một năm bản địa Việt Nam và nhiệt đới châu Á, có lá dài mảnh phủ lông keo lấp lánh và những bông hoa hồng phấn nở rộ dưới nắng mai.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phân bố rộng khắp châu Á, châu Phi và Úc.",
+    "pullQuoteVi": "Hạt của Gọng Vó Ấn Độ có thể nằm ngủ yên trong lớp cát khô suốt cả mùa nắng hạn rồi nảy mầm đồng loạt ngay sau những cơn mưa rào đầu mùa.",
+    "dietVi": "Bẫy côn trùng nhỏ bay là là trên mặt cát ẩm bằng các lá kim phủ dịch dính",
+    "lifespanVi": "Cây hàng năm (6–12 tháng)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Vùng nhiệt đới Cựu Thế Giới từ châu Phi, Ấn Độ, Việt Nam, Đông Nam Á tới Úc",
+    "otherNamesVi": [
+      "Indian Sundew"
+    ],
+    "synonyms": [
+      "Drosera angustifolia",
+      "Drosera angustifolia purpuriflora",
+      "Drosera finlaysoniana",
+      "Drosera hexaginia"
+    ],
+    "wikidataId": "Q80223",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_indica",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 40,
+      "noteVi": "Thân bò hoặc vươn cao với các lá hẹp dài màu xanh cốm hoặc đỏ cam và hoa 5 cánh hồng tím"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "IN",
+        "TH",
+        "MY",
+        "ID",
+        "CN",
+        "JP",
+        "AU"
+      ],
+      "nativeRangeVi": "Vùng nhiệt đới Cựu Thế Giới từ châu Phi, Ấn Độ, Việt Nam, Đông Nam Á tới Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cát ẩm ngập nước theo mùa, bờ ruộng và đầm lầy đất thấp",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 10–40 cm. Thân bò hoặc vươn cao với các lá hẹp dài màu xanh cốm hoặc đỏ cam và hoa 5 cánh hồng tím.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng nhỏ bay là là trên mặt cát ẩm bằng các lá kim phủ dịch dính.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Hạt của Gọng Vó Ấn Độ có thể nằm ngủ yên trong lớp cát khô suốt cả mùa nắng hạn rồi nảy mầm đồng loạt ngay sau những cơn mưa rào đầu mùa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 22–34°C và độ ẩm 60–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Ấn Độ (Cỏ Trói Gà Lá Kim) (Drosera indica) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 110000,
+        "descriptionVi": "Cây Cây Gọng Vó Ấn Độ (Cỏ Trói Gà Lá Kim) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera indica -66 (1).JPG - Photo by V C Balakrishnan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_indica_-66_(1).JPG_-_Photo_by_V_C_Balakrishnan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Drosera_indica_-66_%281%29.JPG_-_Photo_by_V_C_Balakrishnan.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "V C Balakrishnan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Centranthera indica (98350).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Centranthera_indica_(98350).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Centranthera_indica_%2898350%29.jpg",
+        "width": 2296,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nativeplants garden",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera finlaysoniana PB190575.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_finlaysoniana_PB190575.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Drosera_finlaysoniana_PB190575.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Margaret Donald",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera finlaysoniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_finlaysoniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Drosera_finlaysoniana.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Parthaprotimborah.123",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera from Neeliyarkottam DSCN2847.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_from_Neeliyarkottam_DSCN2847.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Drosera_from_Neeliyarkottam_DSCN2847.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Manoj Karingamadathil",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3190722",
+      "https://www.iucnredlist.org/species/168864/19632217",
+      "https://en.wikipedia.org/wiki/Drosera_indica"
+    ]
+  },
+  {
+    "scientificName": "Drosera adelae",
+    "commonNameVi": "Cây Gọng Vó Lá Mác (Chị Em Rừng Mưa)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/97468224/97718417",
+    "gbifKey": 3191182,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 28,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ suối đá râm mát ẩm ướt dưới tán rừng mưa nhiệt đới"
+    },
+    "descriptionVi": "Một trong ba loài 'Gọng vó chị em vùng Queensland' nổi tiếng, sở hữu những phiến lá rộng hình lưỡi mác phủ sương keo và thích nghi hoàn hảo với ánh sáng dịu trong nhà.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại bang Queensland, Úc.",
+    "pullQuoteVi": "Từ những sợi rễ bò ngang ra khỏi đáy chậu, Gọng Vó Lá Mác tự đâm lên hàng chục cây con mới, nhanh chóng tạo thành cả một thảm rừng sương keo dày đặc.",
+    "dietVi": "Bẫy ruồi giấm, muỗi nấm (fungus gnats) và kiến nhỏ bằng phiến lá hình mác rộng",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Đặc hữu vùng vịnh Rockingham thuộc rừng mưa nhiệt đới đông bắc bang Queensland, Úc",
+    "otherNamesVi": [
+      "Lance-leaved Sundew"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q145561",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_adelae",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Lá hình mũi giáo dài tới 20 cm và cụm hoa hình ngôi sao năm cánh màu đỏ nhung hoặc kem"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng vịnh Rockingham thuộc rừng mưa nhiệt đới đông bắc bang Queensland, Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối đá râm mát ẩm ướt dưới tán rừng mưa nhiệt đới",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 15–25 cm. Lá hình mũi giáo dài tới 20 cm và cụm hoa hình ngôi sao năm cánh màu đỏ nhung hoặc kem.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy ruồi giấm, muỗi nấm (fungus gnats) và kiến nhỏ bằng phiến lá hình mác rộng.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Từ những sợi rễ bò ngang ra khỏi đáy chậu, Gọng Vó Lá Mác tự đâm lên hàng chục cây con mới, nhanh chóng tạo thành cả một thảm rừng sương keo dày đặc."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 18–28°C và độ ẩm 70–90%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Mác (Chị Em Rừng Mưa) (Drosera adelae) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 140000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Mác (Chị Em Rừng Mưa) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Adelae (23846790994).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adelae_(23846790994).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Adelae_%2823846790994%29.jpg",
+        "width": 4736,
+        "height": 3936,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera adelae kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_adelae_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Drosera_adelae_kz01.jpg",
+        "width": 2885,
+        "height": 4039,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adelae (24107224879).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adelae_(24107224879).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Adelae_%2824107224879%29.jpg",
+        "width": 4336,
+        "height": 3608,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera adelae, lance-leaved sundew with red blossoms.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_adelae,_lance-leaved_sundew_with_red_blossoms.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Drosera_adelae%2C_lance-leaved_sundew_with_red_blossoms.jpg",
+        "width": 2249,
+        "height": 3719,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wuerzele",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera adelae1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_adelae1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Drosera_adelae1.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191182",
+      "https://www.iucnredlist.org/species/97468224/97718417",
+      "https://en.wikipedia.org/wiki/Drosera_adelae"
+    ]
+  },
+  {
+    "scientificName": "Drosera prolifera",
+    "commonNameVi": "Cây Gọng Vó Lá Thận Đẻ Con",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/97468182/97718382",
+    "gbifKey": 3191051,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 27,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 75,
+      "humidMax": 92,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vách đá rêu ẩm và bờ suối râm mát dưới tán rừng mưa nguyên sinh"
+    },
+    "descriptionVi": "Thành viên thứ hai của bộ ba chị em Queensland với những chiếc lá hình trái tim tròn xinh xắn và tập tính sinh sản vô tính độc đáo ngay trên chóp ngồng hoa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN trong phạm vi Vườn quốc gia Daintree, Úc.",
+    "pullQuoteVi": "Sau khi nở hoa, ngồng hoa của D. prolifera vươn dài chạm xuống mặt rêu ẩm rồi mọc ra một cây con hoàn chỉnh ở đầu ngồng — nguồn gốc của tên gọi 'prolifera'.",
+    "dietVi": "Bẫy côn trùng nhỏ dưới tán rừng ẩm bằng các phiến lá tròn đính keo",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Đặc hữu sườn núi Thornton Peak và khu vực Daintree, đông bắc bang Queensland, Úc",
+    "otherNamesVi": [
+      "Hen and Chickens Sundew"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q143225",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_prolifera",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Lá hình quả thận tròn trên cuống mảnh và ngồng hoa bò dài tự mọc cây con ở đầu ngồng"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đặc hữu sườn núi Thornton Peak và khu vực Daintree, đông bắc bang Queensland, Úc",
+      "elevationM": {
+        "min": 100,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Vách đá rêu ẩm và bờ suối râm mát dưới tán rừng mưa nguyên sinh",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 8–15 cm. Lá hình quả thận tròn trên cuống mảnh và ngồng hoa bò dài tự mọc cây con ở đầu ngồng.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng nhỏ dưới tán rừng ẩm bằng các phiến lá tròn đính keo.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Sau khi nở hoa, ngồng hoa của D. prolifera vươn dài chạm xuống mặt rêu ẩm rồi mọc ra một cây con hoàn chỉnh ở đầu ngồng — nguồn gốc của tên gọi 'prolifera'."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 18–27°C và độ ẩm 75–92%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Thận Đẻ Con (Drosera prolifera) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Thận Đẻ Con nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Drosera prolifera Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_prolifera_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Drosera_prolifera_Darwiniana.jpg",
+        "width": 890,
+        "height": 1096,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Rosťa Kracík",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Drosera prolifera flower Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_prolifera_flower_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Drosera_prolifera_flower_Darwiniana.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Michal Rubeš",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera prolifera 2 Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_prolifera_2_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Drosera_prolifera_2_Darwiniana.jpg",
+        "width": 2773,
+        "height": 2428,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Rosťa Kracík",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera prolifera leaf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_prolifera_leaf.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Drosera_prolifera_leaf.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Petr Dlouhý",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191051",
+      "https://www.iucnredlist.org/species/97468182/97718382",
+      "https://en.wikipedia.org/wiki/Drosera_prolifera"
+    ]
+  },
+  {
+    "scientificName": "Drosera madagascariensis",
+    "commonNameVi": "Cây Gọng Vó Thân Đứng Madagascar",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/107387381/107387406",
+    "gbifKey": 3191240,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy than bùn ngập nắng và bờ suối cát ẩm vùng nhiệt đới"
+    },
+    "descriptionVi": "Loài gọng vó nhiệt đới có dáng vươn cao độc đáo như một cây cột đỏ rực, sử dụng chính phần cuống của những chiếc lá già bên dưới làm trụ chống để vươn lên cao.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN khắp Madagascar và châu Phi.",
+    "pullQuoteVi": "Thay vì mọc sát đất như đa số các loài gọng vó, D. madagascariensis vươn thân thẳng đứng cao tới 25 cm để vượt lên trên lớp rêu đầm lầy và đón côn trùng bay.",
+    "dietVi": "Bẫy côn trùng bay và kiến bò dọc thân cây bằng những chiếc lá hình thìa đỏ tươi",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": "Đảo Madagascar và các vùng đầm lầy khắp châu Phi cận Sahara",
+    "otherNamesVi": [
+      "Madagascar Sundew"
+    ],
+    "synonyms": [
+      "Drosera congolana",
+      "Drosera curvipes",
+      "Drosera longiscapa",
+      "Drosera madagascariensis major"
+    ],
+    "wikidataId": "Q151014",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Drosera_madagascariensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_madagascariensis",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Thân vươn cao như cây cọ thu nhỏ với các lá hình thìa xếp dọc thân; lá già khô tạo thành chân đế nâng đỡ"
+    },
+    "distribution": {
+      "countries": [
+        "MG",
+        "ZA",
+        "TZ",
+        "ZM",
+        "NG"
+      ],
+      "nativeRangeVi": "Đảo Madagascar và các vùng đầm lầy khắp châu Phi cận Sahara",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy than bùn ngập nắng và bờ suối cát ẩm vùng nhiệt đới",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 10–25 cm. Thân vươn cao như cây cọ thu nhỏ với các lá hình thìa xếp dọc thân; lá già khô tạo thành chân đế nâng đỡ.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng bay và kiến bò dọc thân cây bằng những chiếc lá hình thìa đỏ tươi.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Thay vì mọc sát đất như đa số các loài gọng vó, D. madagascariensis vươn thân thẳng đứng cao tới 25 cm để vượt lên trên lớp rêu đầm lầy và đón côn trùng bay."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 20–32°C và độ ẩm 60–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Thân Đứng Madagascar (Drosera madagascariensis) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 130000,
+        "descriptionVi": "Cây Cây Gọng Vó Thân Đứng Madagascar nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera madagascariensis in Jardin des Plantes de Toulouse 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_madagascariensis_in_Jardin_des_Plantes_de_Toulouse_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Drosera_madagascariensis_in_Jardin_des_Plantes_de_Toulouse_02.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Golik",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:DroseraLongiscapaHabitus1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DroseraLongiscapaHabitus1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/DroseraLongiscapaHabitus1.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Denis Barthel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera madagascariensis ne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_madagascariensis_ne.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Drosera_madagascariensis_ne.jpg",
+        "width": 1839,
+        "height": 1125,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "No machine-readable author provided. NoahElhardt assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera madagascariensis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_madagascariensis.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Drosera_madagascariensis.jpg",
+        "width": 960,
+        "height": 1280,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:DroseraMadagascariensisFlora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DroseraMadagascariensisFlora.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/DroseraMadagascariensisFlora.jpg",
+        "width": 1205,
+        "height": 1205,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Wikimedia Commons contributor",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191240",
+      "https://www.iucnredlist.org/species/107387381/107387406",
+      "https://en.wikipedia.org/wiki/Drosera_madagascariensis",
+      "https://vi.wikipedia.org/wiki/Drosera_madagascariensis"
+    ]
+  },
+  {
+    "scientificName": "Drosera scorpioides",
+    "commonNameVi": "Cây Gọng Vó Lùn Bọ Cạp",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/66444295/143982724",
+    "gbifKey": 3190919,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cát thạch nam và đất pha sét sỏi ẩm vào mùa đông"
+    },
+    "descriptionVi": "Loài lớn nhất và ấn tượng nhất trong nhóm Gọng vó lùn Tây Úc, có những chiếc lá cong vòng phủ lông tuyến dài trông như chiếc càng và đuôi bọ cạp.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại bang Tây Úc.",
+    "pullQuoteVi": "Mỗi độ thu đông, tâm ngọn của cây tạo ra hàng chục 'hạt mầm sống' (gemmae) xếp như tổ trứng xanh: khi giọt mưa rơi trúng, hạt mầm bật văng ra xa vài mét và mọc thành cây mới ngay!",
+    "dietVi": "Bẫy côn trùng siêu nhỏ như bọ nhảy (springtails), muỗi nấm và kiến con",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Đặc hữu vùng ven biển phía nam bang Tây Úc",
+    "otherNamesVi": [
+      "Giant Pygmy Sundew"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q151004",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_scorpioides",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 8,
+      "noteVi": "Lớn nhất trong nhóm Gọng vó lùn (Pygmy Drosera); mùa thu tạo hạt mầm vô tính (gemmae) ở tâm đỉnh"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng ven biển phía nam bang Tây Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 300
+      }
+    },
+    "habitatTypesVi": [
+      "Trảng cát thạch nam và đất pha sét sỏi ẩm vào mùa đông",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 3–8 cm. Lớn nhất trong nhóm Gọng vó lùn (Pygmy Drosera); mùa thu tạo hạt mầm vô tính (gemmae) ở tâm đỉnh.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy côn trùng siêu nhỏ như bọ nhảy (springtails), muỗi nấm và kiến con.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Mỗi độ thu đông, tâm ngọn của cây tạo ra hàng chục 'hạt mầm sống' (gemmae) xếp như tổ trứng xanh: khi giọt mưa rơi trúng, hạt mầm bật văng ra xa vài mét và mọc thành cây mới ngay!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–26°C và độ ẩm 55–75%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lùn Bọ Cạp (Drosera scorpioides) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 160000,
+        "descriptionVi": "Cây Cây Gọng Vó Lùn Bọ Cạp nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pygmy Forest (27026735384).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pygmy_Forest_(27026735384).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pygmy_Forest_%2827026735384%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera scorpioides gemmae Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_scorpioides_gemmae_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Drosera_scorpioides_gemmae_Darwiniana.jpg",
+        "width": 2059,
+        "height": 2424,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Rosťa Kracík",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera scorpioides Jardín botánico de Valencia.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_scorpioides_Jard%C3%ADn_bot%C3%A1nico_de_Valencia.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Drosera_scorpioides_Jard%C3%ADn_bot%C3%A1nico_de_Valencia.JPG",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Falconaumanni",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera Tentacles (12283185204).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_Tentacles_(12283185204).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Drosera_Tentacles_%2812283185204%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Preparing to Burst (25883422344).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Preparing_to_Burst_(25883422344).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Preparing_to_Burst_%2825883422344%29.jpg",
+        "width": 4714,
+        "height": 3982,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3190919",
+      "https://www.iucnredlist.org/species/66444295/143982724",
+      "https://en.wikipedia.org/wiki/Drosera_scorpioides"
+    ]
+  },
+  {
+    "scientificName": "Drosera gigantea",
+    "commonNameVi": "Cây Gọng Vó Khổng Lồ (Gọng Vó Măng Tây)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/66440739/143976726",
+    "gbifKey": 3191018,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy cát ngập nước vào mùa đông và khô kiệt vào mùa hè"
+    },
+    "descriptionVi": "Loài gọng vó dạng cây bụi thẳng đứng lớn nhất thế giới, mọc lên từ củ ngầm dưới lòng đất với chồi non trông giống hệt ngọn măng tây trước khi bung tán lá bắt mồi.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại Tây Úc.",
+    "pullQuoteVi": "Sống ở vùng có mùa hè khô cháy, cây rút toàn bộ nhựa sống về một củ tròn nằm sâu tới 30–50 cm dưới lòng đất khô để ngủ hè suốt 5 tháng.",
+    "dietVi": "Bẫy hàng trăm côn trùng bay bằng tán cành phân nhánh phủ đầy lá hình khiên đính keo",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Đặc hữu vùng tây nam bang Tây Úc (quanh Perth tới Albany)",
+    "otherNamesVi": [
+      "Giant Sundew"
+    ],
+    "synonyms": [
+      "Drosera arbuscula",
+      "Drosera gigantea gigantea",
+      "Sondera gigantea"
+    ],
+    "wikidataId": "Q148398",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_gigantea",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 100,
+      "noteVi": "Mọc từ củ ngầm dưới đất sâu thành thân phân nhánh nhiều tầng như cây thông nhỏ cao tới 1 mét"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng tây nam bang Tây Úc (quanh Perth tới Albany)",
+      "elevationM": {
+        "min": 0,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy cát ngập nước vào mùa đông và khô kiệt vào mùa hè",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 50–100 cm. Mọc từ củ ngầm dưới đất sâu thành thân phân nhánh nhiều tầng như cây thông nhỏ cao tới 1 mét.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy hàng trăm côn trùng bay bằng tán cành phân nhánh phủ đầy lá hình khiên đính keo.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Sống ở vùng có mùa hè khô cháy, cây rút toàn bộ nhựa sống về một củ tròn nằm sâu tới 30–50 cm dưới lòng đất khô để ngủ hè suốt 5 tháng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 10–24°C và độ ẩm 55–75%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Khổng Lồ (Gọng Vó Măng Tây) (Drosera gigantea) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 450000,
+        "descriptionVi": "Cây Cây Gọng Vó Khổng Lồ (Gọng Vó Măng Tây) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera gigantea from behind.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_gigantea_from_behind.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Drosera_gigantea_from_behind.jpg",
+        "width": 4800,
+        "height": 3200,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jean and Fred",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera Drummond reserve.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_Drummond_reserve.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Drosera_Drummond_reserve.jpg",
+        "width": 1825,
+        "height": 2249,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/au/deed.en",
+        "author": "User:JarrahTree",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera gigantea - 47085281464.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_gigantea_-_47085281464.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Drosera_gigantea_-_47085281464.jpg",
+        "width": 4227,
+        "height": 2818,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jean and Fred",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera gigantea subsp. gigantea - Flickr - Kevin Thiele.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_gigantea_subsp._gigantea_-_Flickr_-_Kevin_Thiele.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Drosera_gigantea_subsp._gigantea_-_Flickr_-_Kevin_Thiele.jpg",
+        "width": 2238,
+        "height": 1746,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kevin Thiele from Perth, Australia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3191018",
+      "https://www.iucnredlist.org/species/66440739/143976726",
+      "https://en.wikipedia.org/wiki/Drosera_gigantea"
+    ]
+  },
+  {
+    "scientificName": "Drosera peltata",
+    "commonNameVi": "Cây Gọng Vó Lá Khiên (Cỏ Trói Gà Củ)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Gọng vó (Drosera)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/168809/6539809",
+    "gbifKey": 3190855,
+    "environment": {
+      "tempMin": 14,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồi thông ẩm, trảng cỏ núi cao và đất cát ẩm theo mùa"
+    },
+    "descriptionVi": "Loài gọng vó có củ duy nhất phân bố tự nhiên tại vùng cao nguyên Đà Lạt (Việt Nam), nổi bật với thân mảnh vươn cao đính những chiếc lá hình trăng khuyết lấp lánh sương.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với vùng phân bố rộng nhất nhóm Gọng vó có củ.",
+    "pullQuoteVi": "Dưới lớp đất thông ẩm của vùng Đà Lạt, Gọng Vó Lá Khiên giấu một củ tròn nhỏ màu đỏ hồng như viên hồng ngọc để tích trữ năng lượng qua mùa khô.",
+    "dietVi": "Bẫy muỗi, ruồi nhỏ và kiến trên các trảng cỏ thông ẩm",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Phân bố rộng từ Ấn Độ, Himalaya, Việt Nam (Lâm Đồng), Đông Á qua Đông Nam Á tới Úc và New Zealand",
+    "otherNamesVi": [
+      "Shield Sundew",
+      "Pale Sundew"
+    ],
+    "synonyms": [
+      "Drosera bicolor",
+      "Drosera gracilis",
+      "Drosera lobbiana",
+      "Drosera lunata"
+    ],
+    "wikidataId": "Q312196",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Drosera_peltata",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 35,
+      "noteVi": "Có củ ngầm nhỏ màu đỏ hồng dưới đất; thân vươn cao mang những chiếc lá hình bán nguyệt như tấm khiên"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "CN",
+        "JP",
+        "IN",
+        "TH",
+        "ID",
+        "AU",
+        "NZ"
+      ],
+      "nativeRangeVi": "Phân bố rộng từ Ấn Độ, Himalaya, Việt Nam (Lâm Đồng), Đông Á qua Đông Nam Á tới Úc và New Zealand",
+      "elevationM": {
+        "min": 300,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Đồi thông ẩm, trảng cỏ núi cao và đất cát ẩm theo mùa",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 10–35 cm. Có củ ngầm nhỏ màu đỏ hồng dưới đất; thân vươn cao mang những chiếc lá hình bán nguyệt như tấm khiên.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy muỗi, ruồi nhỏ và kiến trên các trảng cỏ thông ẩm.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Dưới lớp đất thông ẩm của vùng Đà Lạt, Gọng Vó Lá Khiên giấu một củ tròn nhỏ màu đỏ hồng như viên hồng ngọc để tích trữ năng lượng qua mùa khô."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 14–26°C và độ ẩm 60–80%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Gọng Vó Lá Khiên (Cỏ Trói Gà Củ) (Drosera peltata) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 170000,
+        "descriptionVi": "Cây Cây Gọng Vó Lá Khiên (Cỏ Trói Gà Củ) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Drosera peltata leaf1 (15403475891).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_peltata_leaf1_(15403475891).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Drosera_peltata_leaf1_%2815403475891%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Harry Rose from South West Rocks, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Drosera peltata flower bud detail.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_peltata_flower_bud_detail.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Drosera_peltata_flower_bud_detail.jpg",
+        "width": 2164,
+        "height": 3294,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "MFdeS",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera peltata 2 Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_peltata_2_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Drosera_peltata_2_Darwiniana.jpg",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Rosťa Kracík",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera peltata Darwiniana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_peltata_Darwiniana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Drosera_peltata_Darwiniana.jpg",
+        "width": 1398,
+        "height": 3232,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cz/deed.en",
+        "author": "Rosťa Kracík",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Drosera peltata kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drosera_peltata_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Drosera_peltata_kz01.jpg",
+        "width": 2285,
+        "height": 3046,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3190855",
+      "https://www.iucnredlist.org/species/168809/6539809",
+      "https://en.wikipedia.org/wiki/Drosera_peltata"
+    ]
+  },
+  {
+    "scientificName": "Aldrovanda vesiculosa",
+    "commonNameVi": "Cây Bẫy Kẹp Nước (Bèo Bắt Mồi)",
+    "commonNameEn": "Bladderwort",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Aldrovanda"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Gọng vó (Droseraceae)",
+      "genus": "Chi Bẫy kẹp nước (Aldrovanda)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/162346/275442310",
+    "gbifKey": 3190715,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": 20,
+      "waterTempMax": 30,
+      "phMin": 5.5,
+      "phMax": 6.8,
+      "habitatVi": "Đầm nước ngọt nông ấm áp, giàu axit humic từ lá cói mục và nghèo nitơ"
+    },
+    "descriptionVi": "Họ hàng thủy sinh duy nhất của cây Bẫy Kẹp Dionaea muscipula, trôi nổi lơ lửng dưới mặt nước như những vòng bánh xe xanh trong suốt với hàng trăm chiếc bẫy vỏ sò siêu nhạy.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN do suy giảm các đầm lầy nước ngọt tự nhiên trên toàn cầu.",
+    "pullQuoteVi": "Chiếc bẫy ngập dưới nước của Aldrovanda có thể đóng sập lại chỉ trong 10 đến 20 phần nghìn giây — một trong những chuyển động nhanh nhất trong toàn giới Thực vật!",
+    "dietVi": "Đóng bẫy kẹp bắt bo bo (Daphnia), ấu trùng muỗi và giáp xác nhỏ bơi chạm vào lông cảm ứng",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": "Phân bố rải rác ở các đầm nước ngọt khắp châu Âu, châu Á, châu Phi và châu Úc",
+    "otherNamesVi": [
+      "Waterwheel Plant"
+    ],
+    "synonyms": [
+      "Aldrovanda generalis",
+      "Aldrovanda verticillata",
+      "Aldrovanda vesiculosa australis",
+      "Aldrovanda vesiculosa duriaei"
+    ],
+    "wikidataId": "Q572652",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rong_%C4%83n_th%E1%BB%8Bt",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Aldrovanda_vesiculosa",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Thực vật thủy sinh trôi nổi không có rễ; lá mọc vòng như bánh xe nước với bẫy vỏ sò đóng sập dưới nước"
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "JP",
+        "PL",
+        "HU",
+        "RU",
+        "IN"
+      ],
+      "nativeRangeVi": "Phân bố rải rác ở các đầm nước ngọt khắp châu Âu, châu Á, châu Phi và châu Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm nước ngọt nông ấm áp, giàu axit humic từ lá cói mục và nghèo nitơ",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 10–25 cm. Thực vật thủy sinh trôi nổi không có rễ; lá mọc vòng như bánh xe nước với bẫy vỏ sò đóng sập dưới nước.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Đóng bẫy kẹp bắt bo bo (Daphnia), ấu trùng muỗi và giáp xác nhỏ bơi chạm vào lông cảm ứng.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Chiếc bẫy ngập dưới nước của Aldrovanda có thể đóng sập lại chỉ trong 10 đến 20 phần nghìn giây — một trong những chuyển động nhanh nhất trong toàn giới Thực vật!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể nước nông giàu axit humic từ lá cói/lá bàng khô, đặt nơi thoáng sáng.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Bẫy Kẹp Nước (Bèo Bắt Mồi) (Aldrovanda vesiculosa) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 220000,
+        "descriptionVi": "Cây Cây Bẫy Kẹp Nước (Bèo Bắt Mồi) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aldrovanda vesiculosa sl1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldrovanda_vesiculosa_sl1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Aldrovanda_vesiculosa_sl1.jpg",
+        "width": 4128,
+        "height": 3096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Stefan.lefnaer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aldrovanda vesiculosa sl11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldrovanda_vesiculosa_sl11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Aldrovanda_vesiculosa_sl11.jpg",
+        "width": 3096,
+        "height": 4128,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Stefan.lefnaer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aldrovanda vesiculosa kz04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldrovanda_vesiculosa_kz04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aldrovanda_vesiculosa_kz04.jpg",
+        "width": 3702,
+        "height": 2645,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aldrovanda vesiculosa sl10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldrovanda_vesiculosa_sl10.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aldrovanda_vesiculosa_sl10.jpg",
+        "width": 4128,
+        "height": 3096,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Stefan.lefnaer",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3190715",
+      "https://www.iucnredlist.org/species/162346/275442310",
+      "https://en.wikipedia.org/wiki/Aldrovanda_vesiculosa",
+      "https://vi.wikipedia.org/wiki/Rong_%C4%83n_th%E1%BB%8Bt"
+    ]
+  },
+  {
+    "scientificName": "Pinguicula vulgaris",
+    "commonNameVi": "Cây Bắt Ruồi Hoa Tím Thường",
+    "commonNameEn": "Common Butterwort",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lentibulariaceae",
+      "genus": "Pinguicula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hoa môi (Lamiales)",
+      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "genus": "Chi Cây bắt ruồi (Pinguicula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/175287/19631946",
+    "gbifKey": 5415065,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy than bùn, bờ suối núi đá vôi rỉ nước và đồng cỏ ẩm vùng núi"
+    },
+    "descriptionVi": "Loài chuẩn của chi Cây bắt ruồi (Pinguicula) với những chiếc lá xếp hình sao biển phủ lớp dịch nhầy bóng mượt như bơ tươi và bông hoa tím biếc duyên dáng như hoa violet.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN khắp vùng ôn đới Bắc Bán Cầu.",
+    "pullQuoteVi": "Người Bắc Âu xưa dùng những chiếc lá phủ men vi sinh của cây Bắt Ruồi quệt vào sữa bò ấm để ủ thành món sữa đặc truyền thống gọi là Filmjölk — nguồn gốc của tên gọi 'Butterwort' (cỏ bơ)!",
+    "dietVi": "Bẫy muỗi nấm, ruồi nhỏ và rệp cánh bằng mặt lá dính như keo rồi tiết enzyme tiêu hóa ngay trên mặt lá",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Phân bố khắp vùng ôn đới lạnh và cận Bắc Cực của châu Âu, Bắc Á và Bắc Mỹ",
+    "otherNamesVi": [
+      "Common Butterwort"
+    ],
+    "synonyms": [
+      "Pinguicula alpina",
+      "Pinguicula arctica",
+      "Pinguicula bicolor",
+      "Pinguicula bicolor gorcensis"
+    ],
+    "wikidataId": "Q161658",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pinguicula_vulgaris",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Hoa thị lá mọng nước màu xanh vàng tiết dịch nhờn óng ánh như phết bơ và hoa màu tím lam có cựa"
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "SE",
+        "PL",
+        "RU",
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Phân bố khắp vùng ôn đới lạnh và cận Bắc Cực của châu Âu, Bắc Á và Bắc Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy than bùn, bờ suối núi đá vôi rỉ nước và đồng cỏ ẩm vùng núi",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 5–15 cm. Hoa thị lá mọng nước màu xanh vàng tiết dịch nhờn óng ánh như phết bơ và hoa màu tím lam có cựa.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy muỗi nấm, ruồi nhỏ và rệp cánh bằng mặt lá dính như keo rồi tiết enzyme tiêu hóa ngay trên mặt lá.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Người Bắc Âu xưa dùng những chiếc lá phủ men vi sinh của cây Bắt Ruồi quệt vào sữa bò ấm để ủ thành món sữa đặc truyền thống gọi là Filmjölk — nguồn gốc của tên gọi 'Butterwort' (cỏ bơ)!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 10–24°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Bắt Ruồi Hoa Tím Thường (Pinguicula vulgaris) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Cây Bắt Ruồi Hoa Tím Thường nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Common Butterwort - Pinguicula vulgaris (14087448898).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Butterwort_-_Pinguicula_vulgaris_(14087448898).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Common_Butterwort_-_Pinguicula_vulgaris_%2814087448898%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Björn S...",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:File-Pinguicula vulgaris-NPS Jacob W. Frank (f9177544-1dd8-b71c-072f-92f22a5e7c59).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:File-Pinguicula_vulgaris-NPS_Jacob_W._Frank_(f9177544-1dd8-b71c-072f-92f22a5e7c59).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/File-Pinguicula_vulgaris-NPS_Jacob_W._Frank_%28f9177544-1dd8-b71c-072f-92f22a5e7c59%29.jpg",
+        "width": 3464,
+        "height": 5196,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Jacob W. Frank",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Pinguicula vulgaris (7833219296).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinguicula_vulgaris_(7833219296).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pinguicula_vulgaris_%287833219296%29.jpg",
+        "width": 3464,
+        "height": 5196,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "NPS / Jacob W. Frank: Denali National Park and Preserve",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Common Butterwort (Pinguicula vulgaris) - Hå, Norway 2021-08-09 (01).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Butterwort_(Pinguicula_vulgaris)_-_H%C3%A5,_Norway_2021-08-09_(01).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Common_Butterwort_%28Pinguicula_vulgaris%29_-_H%C3%A5%2C_Norway_2021-08-09_%2801%29.jpg",
+        "width": 4743,
+        "height": 2668,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ryan Hodnett",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Céide Fields 11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A9ide_Fields_11.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/C%C3%A9ide_Fields_11.jpg",
+        "width": 4080,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gunther Tschuch",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5415065",
+      "https://www.iucnredlist.org/species/175287/19631946",
+      "https://en.wikipedia.org/wiki/Pinguicula_vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Pinguicula lusitanica",
+    "commonNameVi": "Cây Bắt Ruồi Bồ Đào Nha",
+    "commonNameEn": "Pale Butterwort",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lentibulariaceae",
+      "genus": "Pinguicula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hoa môi (Lamiales)",
+      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "genus": "Chi Cây bắt ruồi (Pinguicula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/164050/19631926",
+    "gbifKey": 5667916,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đầm lầy than bùn ẩm ven biển Đại Tây Dương có khí hậu ôn hòa"
+    },
+    "descriptionVi": "Loài bắt ruồi thu nhỏ của vùng duyên hải Tây Âu với các phiến lá cuộn mép điểm những đường gân đỏ tinh tế và những bông hoa nhỏ màu tím hồng họng vàng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN tại Tây Âu.",
+    "pullQuoteVi": "Không giống các loài bắt ruồi ôn đới khác phải tạo củ ngủ đông khi trời lạnh, P. lusitanica giữ nguyên hoa thị lá bắt mồi suốt cả năm nhờ khí hậu ấm áp ven Đại Tây Dương.",
+    "dietVi": "Bẫy muỗi nấm và côn trùng nhỏ bằng dịch nhầy trên mặt lá cuộn mép",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Dải duyên hải Đại Tây Dương của Tây Âu từ Bồ Đào Nha, Tây Ban Nha, Pháp tới Anh và Ireland",
+      "lat": 0,
+      "lng": 0
+    },
+    "regionVi": "Dải duyên hải Đại Tây Dương của Tây Âu từ Bồ Đào Nha, Tây Ban Nha, Pháp tới Anh và Ireland",
+    "otherNamesVi": [
+      "Pale Butterwort"
+    ],
+    "synonyms": [
+      "Isoloba lusitanica",
+      "Pinguicula alpina",
+      "Pinguicula cornubiensis",
+      "Pinguicula minima"
+    ],
+    "wikidataId": "Q144613",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pinguicula_lusitanica",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 8,
+      "noteVi": "Hoa thị nhỏ đường kính 2–3 cm có lá màu xám hồng viền gân đỏ và mép lá cuộn vào trong"
+    },
+    "distribution": {
+      "countries": [
+        "PT",
+        "ES",
+        "FR",
+        "GB"
+      ],
+      "nativeRangeVi": "Dải duyên hải Đại Tây Dương của Tây Âu từ Bồ Đào Nha, Tây Ban Nha, Pháp tới Anh và Ireland",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Đầm lầy than bùn ẩm ven biển Đại Tây Dương có khí hậu ôn hòa",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 3–8 cm. Hoa thị nhỏ đường kính 2–3 cm có lá màu xám hồng viền gân đỏ và mép lá cuộn vào trong.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy muỗi nấm và côn trùng nhỏ bằng dịch nhầy trên mặt lá cuộn mép.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Không giống các loài bắt ruồi ôn đới khác phải tạo củ ngủ đông khi trời lạnh, P. lusitanica giữ nguyên hoa thị lá bắt mồi suốt cả năm nhờ khí hậu ấm áp ven Đại Tây Dương."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chậu thoáng khí trồng bằng rêu Sphagnum (dớn trắng) trộn đá perlite; duy trì nhiệt độ 12–25°C và độ ẩm 65–85%.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Bắt Ruồi Bồ Đào Nha (Pinguicula lusitanica) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 160000,
+        "descriptionVi": "Cây Cây Bắt Ruồi Bồ Đào Nha nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pinguicula alpina 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinguicula_alpina_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pinguicula_alpina_02.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Syrio",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Alpen-Fettkraut (Pinguicula alpina) im Nationalpark Kleine Fatra 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpen-Fettkraut_(Pinguicula_alpina)_im_Nationalpark_Kleine_Fatra_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Alpen-Fettkraut_%28Pinguicula_alpina%29_im_Nationalpark_Kleine_Fatra_1.jpg",
+        "width": 2604,
+        "height": 4624,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Lodewicus de Honsvels",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Pinguicula alpina - Slovenia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinguicula_alpina_-_Slovenia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pinguicula_alpina_-_Slovenia.jpg",
+        "width": 1600,
+        "height": 1200,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Filip Dominec",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pinguicula lusitanica - Seedlings.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinguicula_lusitanica_-_Seedlings.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Pinguicula_lusitanica_-_Seedlings.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "incidencematrix",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alpen-Fettkraut Mitteralm.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alpen-Fettkraut_Mitteralm.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Alpen-Fettkraut_Mitteralm.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Schreckgespenst",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5667916",
+      "https://www.iucnredlist.org/species/164050/19631926",
+      "https://en.wikipedia.org/wiki/Pinguicula_lusitanica"
+    ]
+  },
+  {
+    "scientificName": "Utricularia gibba",
+    "commonNameVi": "Rong Ly Bướu",
+    "commonNameEn": "Humped Bladderwort",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lentibulariaceae",
+      "genus": "Utricularia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hoa môi (Lamiales)",
+      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "genus": "Chi Rong ly (Utricularia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/164362/65920094",
+    "gbifKey": 3172407,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 95,
+      "waterTempMin": 18,
+      "waterTempMax": 30,
+      "phMin": 5.5,
+      "phMax": 6.8,
+      "habitatVi": "Ao hồ nước tĩnh, đầm lầy nông và ruộng ngập nước"
+    },
+    "descriptionVi": "Loài thực vật ăn thịt có phạm vi phân bố rộng khắp thế giới và sở hữu bộ gen nhân nhỏ gọn bậc nhất trong tất cả các loài thực vật có hoa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN với phân bố khắp các châu lục.",
+    "pullQuoteVi": "Giải trình tự ADN cho thấy Rong Ly Bướu đã loại bỏ tới 97% 'ADN rác' không mã hóa, trở thành loài cây có bộ gen tinh gọn đáng kinh ngạc chỉ khoảng 82 triệu cặp bazơ.",
+    "dietVi": "Hút chửng sinh vật phù du, trùng cỏ và ấu trùng muỗi nước bằng túi bẫy áp suất âm chỉ trong 1 phần nghìn giây",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Phân bố toàn cầu khắp các vùng nhiệt đới, cận nhiệt đới và ôn đới ấm ở cả 6 châu lục",
+    "otherNamesVi": [
+      "Humped Bladderwort"
+    ],
+    "synonyms": [
+      "Megopiza fornicata",
+      "Megopiza integra",
+      "Megopiza longirostris",
+      "Megozipa fornicata"
+    ],
+    "wikidataId": "Q244015",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Utricularia_gibba",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 20,
+      "noteVi": "Thân sợi mảnh trôi nổi mang hàng trăm túi bẫy chân không nhỏ và ngồng hoa vàng tươi có bướu"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "IN",
+        "JP",
+        "AU",
+        "US",
+        "BR",
+        "ES"
+      ],
+      "nativeRangeVi": "Phân bố toàn cầu khắp các vùng nhiệt đới, cận nhiệt đới và ôn đới ấm ở cả 6 châu lục",
+      "elevationM": {
+        "min": 0,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": [
+      "Ao hồ nước tĩnh, đầm lầy nông và ruộng ngập nước",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 5–20 cm. Thân sợi mảnh trôi nổi mang hàng trăm túi bẫy chân không nhỏ và ngồng hoa vàng tươi có bướu.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Hút chửng sinh vật phù du, trùng cỏ và ấu trùng muỗi nước bằng túi bẫy áp suất âm chỉ trong 1 phần nghìn giây.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Giải trình tự ADN cho thấy Rong Ly Bướu đã loại bỏ tới 97% 'ADN rác' không mã hóa, trở thành loài cây có bộ gen tinh gọn đáng kinh ngạc chỉ khoảng 82 triệu cặp bazơ."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể nước nông giàu axit humic từ lá cói/lá bàng khô, đặt nơi thoáng sáng.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Rong Ly Bướu (Utricularia gibba) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 80000,
+        "descriptionVi": "Cây Rong Ly Bướu nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Utricularia gibba kz02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_gibba_kz02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Utricularia_gibba_kz02.jpg",
+        "width": 4461,
+        "height": 3345,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Utricularia gibba and scenedesmus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_gibba_and_scenedesmus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Utricularia_gibba_and_scenedesmus.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Victoria",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Utricularia gibba habit and habitat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_gibba_habit_and_habitat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Utricularia_gibba_habit_and_habitat.jpg",
+        "width": 1535,
+        "height": 2047,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Alex Abair",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Utricularia exoleta1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_exoleta1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Utricularia_exoleta1.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "KENPEI",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Utricularia gibba stolons and insect trap.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_gibba_stolons_and_insect_trap.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Utricularia_gibba_stolons_and_insect_trap.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hammunculs",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3172407",
+      "https://www.iucnredlist.org/species/164362/65920094",
+      "https://en.wikipedia.org/wiki/Utricularia_gibba"
+    ]
+  },
+  {
+    "scientificName": "Utricularia aurea",
+    "commonNameVi": "Rong Ly Hoa Vàng (Rong Trứng Chuối)",
+    "commonNameEn": null,
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lentibulariaceae",
+      "genus": "Utricularia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hoa môi (Lamiales)",
+      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "genus": "Chi Rong ly (Utricularia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/168719/6529326",
+    "gbifKey": 8001590,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 95,
+      "waterTempMin": 20,
+      "waterTempMax": 32,
+      "phMin": 5.5,
+      "phMax": 6.8,
+      "habitatVi": "Ao đầm nước ngọt tĩnh, kênh mương trong và ruộng lúa vùng trũng"
+    },
+    "descriptionVi": "Loài rong ăn thịt bản địa quen thuộc của các đầm sen, ao súng Việt Nam với những tán lá xẻ mịn như lông chim chìm dưới nước và ngồng hoa vàng rực vươn cao trên mặt nước.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN khắp châu Á và châu Úc.",
+    "pullQuoteVi": "Mỗi nhánh lá của Rong Ly Hoa Vàng mang hàng trăm chiếc túi bẫy chân không siêu nhỏ hoạt động hoàn toàn tự động để hút lăng quăng và bo bo vào tiêu hóa.",
+    "dietVi": "Bẫy lăng quăng, bo bo và động vật nguyên sinh dưới nước bằng hàng nghìn túi hút chân không",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": "Khắp vùng nhiệt đới và cận nhiệt đới châu Á (rất phổ biến tại Việt Nam) kéo dài tới Úc",
+    "otherNamesVi": [
+      "Golden Bladderwort"
+    ],
+    "synonyms": [
+      "Utricularia aurea immaculata",
+      "Utricularia aurea inmaculata",
+      "Utricularia aurea gracilis",
+      "Utricularia blumei"
+    ],
+    "wikidataId": "Q1002819",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nh%C4%A9_c%C3%A1n_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Utricularia_aurea",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 100,
+      "noteVi": "Thân thủy sinh dài chia nhánh lá mảnh như lông vũ đính đầy túi bẫy tròn và chùm hoa vàng nhô lên mặt nước"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "KH",
+        "MY",
+        "ID",
+        "IN",
+        "CN",
+        "JP",
+        "AU"
+      ],
+      "nativeRangeVi": "Khắp vùng nhiệt đới và cận nhiệt đới châu Á (rất phổ biến tại Việt Nam) kéo dài tới Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Ao đầm nước ngọt tĩnh, kênh mương trong và ruộng lúa vùng trũng",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 30–100 cm. Thân thủy sinh dài chia nhánh lá mảnh như lông vũ đính đầy túi bẫy tròn và chùm hoa vàng nhô lên mặt nước.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Bẫy lăng quăng, bo bo và động vật nguyên sinh dưới nước bằng hàng nghìn túi hút chân không.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Mỗi nhánh lá của Rong Ly Hoa Vàng mang hàng trăm chiếc túi bẫy chân không siêu nhỏ hoạt động hoàn toàn tự động để hút lăng quăng và bo bo vào tiêu hóa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể nước nông giàu axit humic từ lá cói/lá bàng khô, đặt nơi thoáng sáng.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Rong Ly Hoa Vàng (Rong Trứng Chuối) (Utricularia aurea) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 75000,
+        "descriptionVi": "Cây Rong Ly Hoa Vàng (Rong Trứng Chuối) nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Utricularia aurea 8313.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_aurea_8313.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Utricularia_aurea_8313.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vengolis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Utricularia aureaRHu1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_aureaRHu1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Utricularia_aureaRHu1.JPG",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Meneerke bloem",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Utricularia aurea Lour. (6257278441).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_aurea_Lour._(6257278441).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Utricularia_aurea_Lour._%286257278441%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dinesh Valke from Thane, India",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Utricularia aurea roots (1).JPG - Photo by V C Balakrishnan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_aurea_roots_(1).JPG_-_Photo_by_V_C_Balakrishnan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Utricularia_aurea_roots_%281%29.JPG_-_Photo_by_V_C_Balakrishnan.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "V C balakrishnan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8001590",
+      "https://www.iucnredlist.org/species/168719/6529326",
+      "https://en.wikipedia.org/wiki/Utricularia_aurea",
+      "https://vi.wikipedia.org/wiki/Nh%C4%A9_c%C3%A1n_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Utricularia vulgaris",
+    "commonNameVi": "Rong Ly Lớn Châu Âu",
+    "commonNameEn": "Greater Bladderwort",
+    "group": "Cây ăn thịt",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Lentibulariaceae",
+      "genus": "Utricularia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Hoa môi (Lamiales)",
+      "family": "Họ Rong ly / Bắt ruồi (Lentibulariaceae)",
+      "genus": "Chi Rong ly (Utricularia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/164181/42397024",
+    "gbifKey": 3172427,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 26,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 95,
+      "waterTempMin": 12,
+      "waterTempMax": 26,
+      "phMin": 5.5,
+      "phMax": 6.8,
+      "habitatVi": "Hồ nước ngọt tĩnh, đầm lầy than bùn và kênh nước sạch"
+    },
+    "descriptionVi": "Một trong những loài rong ly thủy sinh lớn nhất thế giới với những chiếc túi bẫy chân không to tới 5 mm có thể nhìn thấy rõ bằng mắt thường khi nhấc cành rong lên.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN trên khắp lục địa Á - Âu.",
+    "pullQuoteVi": "Khi một con bọ nước chạm nhẹ vào sợi lông cò ở cửa túi bẫy, nắp túi bật mở và lực hút chân không kéo con mồi vào trong với gia tốc lên tới 600 lần trọng trường (600 G)!",
+    "dietVi": "Hút giáp xác nhỏ (Cyclops, Daphnia), lăng quăng và ấu trùng côn trùng nước bằng túi bẫy chân không cỡ lớn",
+    "lifespanVi": "Cây lâu năm (10–30 năm)",
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Miền trung nước Pháp",
+      "lat": 46.6,
+      "lng": 1.88
+    },
+    "regionVi": "Khắp châu Âu và vùng ôn đới châu Á",
+    "otherNamesVi": [
+      "Greater Bladderwort",
+      "Common Bladderwort"
+    ],
+    "synonyms": [
+      "Lentibularia major",
+      "Lentibularia vulgaris",
+      "Utricularia biseriata",
+      "Utricularia major"
+    ],
+    "wikidataId": "Q157384",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Utricularia_vulgaris",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 150,
+      "noteVi": "Thân thủy sinh lớn mang những chiếc túi bẫy dài tới 4–5 mm và ngồng hoa vàng lớn có sọc cam ở môi"
+    },
+    "distribution": {
+      "countries": [
+        "FR",
+        "DE",
+        "GB",
+        "PL",
+        "SE",
+        "RU",
+        "CN"
+      ],
+      "nativeRangeVi": "Khắp châu Âu và vùng ôn đới châu Á",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Hồ nước ngọt tĩnh, đầm lầy than bùn và kênh nước sạch",
+      "Đất ngập nước hoặc giá thể rêu nghèo khoáng đạm"
+    ],
+    "identificationVi": "Chiều cao/chiều dài thân đạt 40–150 cm. Thân thủy sinh lớn mang những chiếc túi bẫy dài tới 4–5 mm và ngồng hoa vàng lớn có sọc cam ở môi.",
+    "behaviorVi": "Thích nghi sống trên nền giá thể nghèo dinh dưỡng nhờ lá biến đổi thành cơ quan bẫy mồi chuyên biệt. Hút giáp xác nhỏ (Cyclops, Daphnia), lăng quăng và ấu trùng côn trùng nước bằng túi bẫy chân không cỡ lớn.",
+    "reproductionVi": "Sinh sản hữu tính bằng hạt nhỏ phát tán nhờ gió/nước và nhân giống vô tính bằng tách chồi, giâm cành hoặc nuôi cấy mô.",
+    "threatsVi": [
+      "Thu hẹp sinh cảnh đầm lầy/rừng mây tự nhiên và khai thác tự nhiên trái phép"
+    ],
+    "funFactsVi": [
+      "Khi một con bọ nước chạm nhẹ vào sợi lông cò ở cửa túi bẫy, nắp túi bật mở và lực hút chân không kéo con mồi vào trong với gia tốc lên tới 600 lần trọng trường (600 G)!"
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể nước nông giàu axit humic từ lá cói/lá bàng khô, đặt nơi thoáng sáng.",
+      "lightingVi": "Ánh sáng mặt trời tán xạ 50–70% hoặc đèn trồng cây quang phổ đầy đủ 10–12 giờ/ngày",
+      "feedingVi": "Chỉ tưới nước tinh khiết RO, nước mưa hoặc nước cất (TDS < 50 ppm); tuyệt đối không bón phân hóa học vào rễ.",
+      "socialVi": "Trồng độc lập từng chậu hoặc phối tiểu cảnh Terrarium cây ăn thịt cùng thông số nhiệt - ẩm.",
+      "commonProblemsVi": [
+        "Cháy rễ và khô ấm nếu tưới nước máy giàu khoáng/vôi hoặc bón phân nồng độ cao",
+        "Không ra ấm mới nếu thiếu ánh sáng hoặc độ ẩm không khí quá thấp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ nuôi cấy mô (TC) và vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Rong Ly Lớn Châu Âu (Utricularia vulgaris) Nuôi Cấy Mô Khỏe Mạnh",
+        "priceVnd": 110000,
+        "descriptionVi": "Cây Rong Ly Lớn Châu Âu nhân giống mô đã thuần khí hậu, bộ rễ khỏe và đang phát triển bẫy mồi đẹp trong chậu dớn Sphagnum."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Close up of Utricularia vulgaris flowers in the Teufelsbruch swamp 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Close_up_of_Utricularia_vulgaris_flowers_in_the_Teufelsbruch_swamp_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Close_up_of_Utricularia_vulgaris_flowers_in_the_Teufelsbruch_swamp_01.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Leonhard Lenz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Laat zomeraspect van de associatie van groot blaasjeskruid (Utricularietum vulgaris).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laat_zomeraspect_van_de_associatie_van_groot_blaasjeskruid_(Utricularietum_vulgaris).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Laat_zomeraspect_van_de_associatie_van_groot_blaasjeskruid_%28Utricularietum_vulgaris%29.jpg",
+        "width": 4487,
+        "height": 2870,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Cultureel Gelderland",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PNBT grzybienie i pływacze 03.07.10 p.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PNBT_grzybienie_i_p%C5%82ywacze_03.07.10_p.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/PNBT_grzybienie_i_p%C5%82ywacze_03.07.10_p.jpg",
+        "width": 3056,
+        "height": 1284,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Przykuta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20170816Utricularia vulgaris.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20170816Utricularia_vulgaris.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/20170816Utricularia_vulgaris.jpg",
+        "width": 3000,
+        "height": 2250,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "AnRo0002",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3172427",
+      "https://www.iucnredlist.org/species/164181/42397024",
+      "https://en.wikipedia.org/wiki/Utricularia_vulgaris"
+    ]
+  }
+]

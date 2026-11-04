@@ -50,7 +50,7 @@ export function BranchSummary({ title, species, productCounts, allSpeciesHref }:
           {mosaic.map((sp) => (
             <img
               key={sp.id}
-              src={sp.heroPhoto}
+              src={sp.cardPhoto}
               alt=""
               loading="lazy"
               className="aspect-square w-full rounded-xl object-cover"

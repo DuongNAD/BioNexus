@@ -264,19 +264,57 @@ function FlightArc({
   );
 }
 
-// 6. Lớp Marker 9 Loài IUCN & Thẻ Tooltip Drei Html
+/** Thẻ thông tin loài đang chọn (một thẻ duy nhất, xem BioEarth) */
+function SpeciesTooltipCard({ species, hubName }: { species: SpeciesBioMarker; hubName: string }) {
+  return (
+    <div className="w-64 rounded-2xl border border-white/20 bg-[#03130E]/95 p-3.5 text-white shadow-2xl backdrop-blur-xl pointer-events-auto">
+      <div className="flex items-center justify-between pb-1.5 border-b border-white/10">
+        <IucnBadge code={species.conservationStatus} size="sm" />
+        <span className="font-mono text-[10px] text-[#00D29E] uppercase font-semibold">
+          {species.group}
+        </span>
+      </div>
+      <div className="mt-2 flex gap-2.5 items-center">
+        <img
+          src={species.heroPhoto}
+          alt={species.displayName}
+          className="size-12 rounded-lg object-cover border border-white/15"
+        />
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-semibold truncate text-white">{species.displayName}</p>
+          <p className="text-xs italic text-white/70 truncate">{species.scientificName}</p>
+          <p className="text-[11px] text-white/70 flex items-center gap-1 mt-0.5">
+            <MapPin className="size-3 text-[#00D29E] shrink-0" />
+            <span className="truncate">{species.origin.place}</span>
+          </p>
+        </div>
+      </div>
+      <div className="mt-2.5 rounded-lg bg-black/40 px-2.5 py-1.5 text-[11px] text-white/70 border border-white/5">
+        {hubName ? (
+          <>
+            <span className="text-white/70">Nhân giống: </span>
+            <span className="font-medium text-[#00D29E]">{hubName}</span>
+          </>
+        ) : (
+          <span className="text-white/70">Chưa có trại nhân giống trên sàn</span>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// 6. Lớp Marker loài
 function SpeciesMarker({
   species,
   isSelected,
-  showTooltip = true,
+  compact = false,
   onSelect,
-  hubName,
 }: {
   species: SpeciesBioMarker;
   isSelected: boolean;
-  showTooltip?: boolean;
+  /** Hàng trăm loài: điểm không được chọn thu nhỏ, bỏ cột sáng để địa cầu không rối */
+  compact?: boolean;
   onSelect: () => void;
-  hubName: string;
 }) {
   const markerPos = useMemo(
     () => latLngToVector3(species.origin.lat, species.origin.lng, GLOBE_RADIUS * 1.018),
@@ -294,48 +332,18 @@ function SpeciesMarker({
           onSelect();
         }}
       >
-        <sphereGeometry args={[isSelected ? 0.055 : 0.038, 16, 16]} />
-        <meshBasicMaterial color={color} toneMapped={false} />
+        <sphereGeometry args={[isSelected ? 0.055 : compact ? 0.024 : 0.038, compact ? 8 : 16, compact ? 8 : 16]} />
+        <meshBasicMaterial color={color} transparent={compact && !isSelected} opacity={compact && !isSelected ? 0.7 : 1} toneMapped={false} />
       </mesh>
 
       {/* Cột sáng mảnh vươn cao */}
-      <mesh position={[0, 0.08, 0]}>
-        <cylinderGeometry args={[0.006, 0.006, 0.16, 8]} />
-        <meshBasicMaterial color={color} transparent opacity={0.65} toneMapped={false} />
-      </mesh>
-
-      {/* Thẻ Tooltip Drei Html neo trên đỉnh marker khi được chọn */}
-      {isSelected && showTooltip && (
-        <Html position={[0, 0.22, 0]} center occlude distanceFactor={4}>
-          <div className="w-64 rounded-2xl border border-white/20 bg-[#03130E]/95 p-3.5 text-white shadow-2xl backdrop-blur-xl pointer-events-auto">
-            <div className="flex items-center justify-between pb-1.5 border-b border-white/10">
-              <IucnBadge code={species.conservationStatus} size="sm" />
-              <span className="font-mono text-[10px] text-[#00D29E] uppercase font-semibold">
-                {species.group}
-              </span>
-            </div>
-            <div className="mt-2 flex gap-2.5 items-center">
-              <img
-                src={species.heroPhoto}
-                alt={species.displayName}
-                className="size-12 rounded-lg object-cover border border-white/15"
-              />
-              <div className="min-w-0 flex-1">
-                <p className="text-sm font-semibold truncate text-white">{species.displayName}</p>
-                <p className="text-xs italic text-white/70 truncate">{species.scientificName}</p>
-                <p className="text-[11px] text-white/70 flex items-center gap-1 mt-0.5">
-                  <MapPin className="size-3 text-[#00D29E] shrink-0" />
-                  <span className="truncate">{species.origin.place}</span>
-                </p>
-              </div>
-            </div>
-            <div className="mt-2.5 rounded-lg bg-black/40 px-2.5 py-1.5 text-[11px] text-white/70 border border-white/5">
-              <span className="text-white/70">Nhân giống: </span>
-              <span className="font-medium text-[#00D29E]">{hubName}</span>
-            </div>
-          </div>
-        </Html>
+      {(!compact || isSelected) && (
+        <mesh position={[0, 0.08, 0]}>
+          <cylinderGeometry args={[0.006, 0.006, 0.16, 8]} />
+          <meshBasicMaterial color={color} transparent opacity={0.65} toneMapped={false} />
+        </mesh>
       )}
+
     </group>
   );
 }
@@ -380,6 +388,20 @@ export function BioEarth({
     () => (variant === 'mini' && selectedMarker ? [selectedMarker] : speciesList),
     [variant, selectedMarker, speciesList]
   );
+
+  // Đã chọn một loài thì chỉ vẽ cung của loài đó; chưa chọn thì chỉ vẽ hết khi danh sách ngắn (9 loài trang chủ)
+  const arcSpecies = useMemo(
+    () => (selectedMarker ? [selectedMarker] : visibleSpecies.length <= 12 ? visibleSpecies : []),
+    [selectedMarker, visibleSpecies]
+  );
+  const isDense = visibleSpecies.length > 40;
+  const selectedHub = selectedMarker ? hubMap.get(selectedMarker.hubId) : undefined;
+  // Thẻ đặt cao hơn điểm 0,22 như khi còn nằm trong group của marker
+  const tooltipPos = useMemo<[number, number, number]>(() => {
+    if (!selectedMarker) return [0, 0, 0];
+    const [x, y, z] = latLngToVector3(selectedMarker.origin.lat, selectedMarker.origin.lng, GLOBE_RADIUS * 1.018);
+    return [x, y + 0.22, z];
+  }, [selectedMarker]);
 
   // Vòng lặp xoay tự do và Slerp hướng tới camera thực tế
   useFrame((state, delta) => {
@@ -431,25 +453,35 @@ export function BioEarth({
       {/* Lớp 4: Vành Bụi Quỹ Đạo Ngoài (tier high) */}
       {tier === 'high' && <OuterHaloLayer />}
 
-      {/* Lớp 5 & Lớp 7: Marker & Thẻ Thông Tin 9 Loài */}
-      {visibleSpecies.map((sp) => {
-        const hub = hubMap.get(sp.hubId);
-        return (
-          <SpeciesMarker
-            key={sp.scientificName}
-            species={sp}
-            isSelected={selectedScientificName === sp.scientificName}
-            showTooltip={variant !== 'mini'}
-            onSelect={() => onSelectSpecies?.(sp.scientificName)}
-            hubName={hub ? `${hub.shopName} (${hub.city})` : 'Trung tâm Việt Nam'}
-          />
-        );
-      })}
+      {/* Lớp 5: Marker loài */}
+      {visibleSpecies.map((sp) => (
+        <SpeciesMarker
+          key={sp.scientificName}
+          species={sp}
+          isSelected={selectedScientificName === sp.scientificName}
+          compact={isDense}
+          onSelect={() => onSelectSpecies?.(sp.scientificName)}
+        />
+      ))}
+
+      {/* Lớp 7: một thẻ thông tin duy nhất luôn gắn, chỉ dời tới loài đang chọn.
+          Gắn/gỡ Html theo từng marker làm React 19 báo "synchronously unmount a root" mỗi lần đổi loài */}
+      {variant !== 'mini' && (
+        <Html position={tooltipPos} center occlude distanceFactor={4}>
+          {selectedMarker && (
+            <SpeciesTooltipCard
+              species={selectedMarker}
+              hubName={selectedHub ? `${selectedHub.shopName} (${selectedHub.city})` : ''}
+            />
+          )}
+        </Html>
+      )}
 
       {/* Lớp 6: Cung Đường Bay 3D Về Việt Nam */}
-      {visibleSpecies.map((sp) => {
-        const fallbackHub = VIETNAM_BREEDING_HUBS[0]!;
-        const hub = hubMap.get(sp.hubId) ?? (breedingHubs[0] ?? fallbackHub);
+      {arcSpecies.map((sp) => {
+        // Loài chưa có shop nào bán thì không có điểm đến
+        const hub = hubMap.get(sp.hubId);
+        if (!hub) return null;
         const color = IUCN_MARKER_COLORS[sp.conservationStatus] || '#00D29E';
 
         return (

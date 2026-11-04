@@ -1,0 +1,3504 @@
+[
+  {
+    "scientificName": "Cypripedium acaule",
+    "commonNameVi": "Lan hài hồng Bắc Mỹ",
+    "commonNameEn": "Mocassin Flower",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Cypripedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài ôn đới (Cypripedium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/43315493/43327599",
+    "gbifKey": 2820380,
+    "environment": {
+      "tempMin": 5,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Rừng thông và rừng sồi có tầng đất mùn lá thông chua (pH 4.0–5.0)"
+    },
+    "descriptionVi": "Loài lan hài rừng thông Bắc Mỹ đặc trưng bởi chiếc túi môi hồng gân đỏ xẻ dọc ở chính giữa thay vì có lỗ tròn phía trên như các loài khác.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Ong nghệ chui qua khe dọc phía trước túi môi để tìm mật (dù hoa không hề có mật) và buộc phải lách qua nhị hoa ở cuống mới thoát ra được.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Calceolus hirsutum",
+      "Calceolus hirsutus",
+      "Calceolus humile",
+      "Cypripedium acaule acaule"
+    ],
+    "wikidataId": "Q744706",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cypripedium_acaule",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cypripedium_acaule",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 40,
+      "noteVi": "Hai lá mọc sát mặt đất và túi môi màu hồng tím có đường khe dọc phía trước"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Khắp miền đông Bắc Mỹ từ Canada xuống dãy Appalachian",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lan hài rừng thông Bắc Mỹ đặc trưng bởi chiếc túi môi hồng gân đỏ xẻ dọc ở chính giữa thay vì có lỗ tròn phía trên như các loài khác. Đặc điểm nhận dạng nổi bật: Hai lá mọc sát mặt đất và túi môi màu hồng tím có đường khe dọc phía trước.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Ong nghệ chui qua khe dọc phía trước túi môi để tìm mật (dù hoa không hề có mật) và buộc phải lách qua nhị hoa ở cuống mới thoát ra được.",
+      "Đặc điểm hình thái đặc trưng: Hai lá mọc sát mặt đất và túi môi màu hồng tím có đường khe dọc phía trước."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Cypripedium acaule - Henvey Inlet1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_acaule_-_Henvey_Inlet1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cypripedium_acaule_-_Henvey_Inlet1.jpg",
+        "width": 2624,
+        "height": 4000,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+        "author": "СССР",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Cypripedium acaule - Reuven Martin - 10532375.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_acaule_-_Reuven_Martin_-_10532375.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cypripedium_acaule_-_Reuven_Martin_-_10532375.jpeg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Reuven Martin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium acaule - Sasata edit1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_acaule_-_Sasata_edit1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Cypripedium_acaule_-_Sasata_edit1.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Sasata (edited by Noodle snacks",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pink Lady’s Slipper Orchid.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pink_Lady%E2%80%99s_Slipper_Orchid.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pink_Lady%E2%80%99s_Slipper_Orchid.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "N0n-Sum-Qua1is-Eram",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2820380",
+      "https://www.iucnredlist.org/species/43315493/43327599",
+      "https://en.wikipedia.org/wiki/Cypripedium_acaule",
+      "https://vi.wikipedia.org/wiki/Cypripedium_acaule"
+    ]
+  },
+  {
+    "scientificName": "Cypripedium parviflorum",
+    "commonNameVi": "Lan hài vàng Bắc Mỹ",
+    "commonNameEn": "American Yellow Lady's-slipper",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Cypripedium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan hài ôn đới (Cypripedium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/43316816/43327704",
+    "gbifKey": 2820475,
+    "environment": {
+      "tempMin": 5,
+      "tempMax": 24,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Đầm lầy ẩm, trảng cỏ ven rừng và sườn đồi đất mùn giàu mùn lá"
+    },
+    "descriptionVi": "Họ hàng Bắc Mỹ của Lan Hài Vàng Châu Âu với đôi cánh hoa bên xoắn tít như lọn tóc và tỏa hương thơm vani - táo nhẹ nhàng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Bộ rễ cộng sinh chặt chẽ với nấm rễ mycorrhiza trong đất rừng đến mức hạt lan không có nội nhũ và hoàn toàn nhờ nấm nuôi dưỡng khi nảy mầm.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Calceolus parviflorus",
+      "Criosanthes parviflora",
+      "Cypripedium bulbosum parviflorum",
+      "Cypripedium calceolus parviflorum"
+    ],
+    "wikidataId": "Q2631281",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cypripedium_parviflorum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cypripedium_parviflorum",
+    "iucnAssessedYear": 2014,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 50,
+      "noteVi": "Túi môi vàng óng và hai cánh hoa bên xoắn lò xo màu nâu đỏ"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp Canada và Hoa Kỳ từ Alaska tới Georgia",
+      "elevationM": {
+        "min": 0,
+        "max": 2800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Họ hàng Bắc Mỹ của Lan Hài Vàng Châu Âu với đôi cánh hoa bên xoắn tít như lọn tóc và tỏa hương thơm vani - táo nhẹ nhàng. Đặc điểm nhận dạng nổi bật: Túi môi vàng óng và hai cánh hoa bên xoắn lò xo màu nâu đỏ.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Bộ rễ cộng sinh chặt chẽ với nấm rễ mycorrhiza trong đất rừng đến mức hạt lan không có nội nhũ và hoàn toàn nhờ nấm nuôi dưỡng khi nảy mầm.",
+      "Đặc điểm hình thái đặc trưng: Túi môi vàng óng và hai cánh hoa bên xoắn lò xo màu nâu đỏ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cypripedium parviflorum var. parviflorum - Garden in the Woods - Massachusetts.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_parviflorum_var._parviflorum_-_Garden_in_the_Woods_-_Massachusetts.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cypripedium_parviflorum_var._parviflorum_-_Garden_in_the_Woods_-_Massachusetts.jpg",
+        "width": 4032,
+        "height": 2268,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Daderot",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cypripedium parviflorum in Shenandoah National Park SHEN2542.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_parviflorum_in_Shenandoah_National_Park_SHEN2542.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cypripedium_parviflorum_in_Shenandoah_National_Park_SHEN2542.jpg",
+        "width": 2048,
+        "height": 3072,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "National Park Service Digital Image Archives",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bunch of yellow lady slippers.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bunch_of_yellow_lady_slippers.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bunch_of_yellow_lady_slippers.jpg",
+        "width": 2576,
+        "height": 1932,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Jlaessle",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium parviflorum 15-p.bot-cyprip.calce-001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_parviflorum_15-p.bot-cyprip.calce-001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cypripedium_parviflorum_15-p.bot-cyprip.calce-001.jpg",
+        "width": 3456,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ayotte, Gilles, 1948",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cypripedium parviflorum (13082420843).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cypripedium_parviflorum_(13082420843).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cypripedium_parviflorum_%2813082420843%29.jpg",
+        "width": 3000,
+        "height": 3000,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Shenandoah National Park from Virginia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2820475",
+      "https://www.iucnredlist.org/species/43316816/43327704",
+      "https://en.wikipedia.org/wiki/Cypripedium_parviflorum",
+      "https://vi.wikipedia.org/wiki/Cypripedium_parviflorum"
+    ]
+  },
+  {
+    "scientificName": "Vanilla planifolia",
+    "commonNameVi": "Lan vani",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Vanilla"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan Vani (Vanilla)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/103090930/172970359",
+    "gbifKey": 2803398,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp ẩm ướt nơi dây leo bám dọc thân cây gỗ"
+    },
+    "descriptionVi": "Loài phong lan dây leo duy nhất được trồng làm cây hương liệu thương mại toàn cầu, cung cấp hương Vani tự nhiên quý giá từ quả nang lên men.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) đối với quần thể hoang dã gốc tại Mexico và Trung Mỹ, nhưng cực kỳ phổ biến trong canh tác và làm cảnh (CITES II).",
+    "pullQuoteVi": "Mỗi bông hoa Lan Vani chỉ nở duy nhất một buổi sáng; ngoài vùng bản địa Mexico không có loài ong Melipona, người trồng phải thụ phấn từng bông bằng tay với một chiếc gai tre.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Epidendrum rubrum",
+      "Myrobroma fragrans",
+      "Notylia planifolia",
+      "Notylia sativa"
+    ],
+    "wikidataId": "Q7224923",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Vanilla_planifolia",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Vanilla_planifolia",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 1000,
+      "noteVi": "Dây leo mọng nước có rễ bám mỗi đốt và quả nang dài 15–25 cm tỏa hương vani"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "GT",
+        "BZ",
+        "CR"
+      ],
+      "nativeRangeVi": "Bản địa rừng nhiệt đới Mexico và Trung Mỹ; gây trồng khắp vùng nhiệt đới",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài phong lan dây leo duy nhất được trồng làm cây hương liệu thương mại toàn cầu, cung cấp hương Vani tự nhiên quý giá từ quả nang lên men. Đặc điểm nhận dạng nổi bật: Dây leo mọng nước có rễ bám mỗi đốt và quả nang dài 15–25 cm tỏa hương vani.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Mỗi bông hoa Lan Vani chỉ nở duy nhất một buổi sáng; ngoài vùng bản địa Mexico không có loài ong Melipona, người trồng phải thụ phấn từng bông bằng tay với một chiếc gai tre.",
+      "Đặc điểm hình thái đặc trưng: Dây leo mọng nước có rễ bám mỗi đốt và quả nang dài 15–25 cm tỏa hương vani."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu thoáng khí hoặc ghép gỗ/vỏ thông trộn đá bọt, duy trì nhiệt độ 20–32°C và độ ẩm 70–90%.",
+      "lightingVi": "Ánh sáng tán xạ 50–60% dưới lưới che hoặc đèn trồng cây chuyên dụng",
+      "feedingVi": "Tưới giữ ẩm vừa phải khi giá thể se mặt; phun sương phân bón lá loãng (NPK 20-20-20) định kỳ 2 tuần/lần trong mùa sinh trưởng.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Lan Vani (Lan Hương Thảo) (Vanilla planifolia) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 190000,
+        "descriptionVi": "Cây Lan Vani (Lan Hương Thảo) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Orchidaceae, Vanilla planifolia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orchidaceae,_Vanilla_planifolia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Orchidaceae%2C_Vanilla_planifolia.jpg",
+        "width": 6960,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Maren Botanik",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:JGU Mainz - Botanischer Garten, Vanilleschote.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JGU_Mainz_-_Botanischer_Garten,_Vanilleschote.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/JGU_Mainz_-_Botanischer_Garten%2C_Vanilleschote.jpg",
+        "width": 4312,
+        "height": 5760,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "ManuelB701",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:CIC Farm Hingurakgoda (Sri Lanka) en2015 (16).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CIC_Farm_Hingurakgoda_(Sri_Lanka)_en2015_(16).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/CIC_Farm_Hingurakgoda_%28Sri_Lanka%29_en2015_%2816%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Pierre André Leclercq",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Flat-leaved Vanilla (6789058148).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flat-leaved_Vanilla_(6789058148).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flat-leaved_Vanilla_%286789058148%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dinesh Valke from Thane, India",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Medicinal Plants - US Botanic Gardens 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Medicinal_Plants_-_US_Botanic_Gardens_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Medicinal_Plants_-_US_Botanic_Gardens_04.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bohemian Baltimore",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2803398",
+      "https://www.iucnredlist.org/species/103090930/172970359",
+      "https://en.wikipedia.org/wiki/Vanilla_planifolia",
+      "https://vi.wikipedia.org/wiki/Vanilla_planifolia"
+    ]
+  },
+  {
+    "scientificName": "Cattleya jongheana",
+    "commonNameVi": "Lan Cattleya Jonghe",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Cattleya"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan Hoàng hậu (Cattleya)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/214338954/214339510",
+    "gbifKey": 2811885,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 25,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Khe đá thạch anh và thân cây Vellozia trên núi cao 1.300–1.600 m"
+    },
+    "descriptionVi": "Viên ngọc quý của chi Lan Hoàng hậu (Cattleya) Brazil với kích thước hoa khổng lồ so với giả hành nhỏ nhắn và chiếc môi gợn sóng vàng kim rực rỡ.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Hoa nở vào cuối mùa khô trên các đỉnh núi đá thạch anh lộng gió của Minas Gerais, nổi bật từ xa để thu hút chim ruồi và ong lớn.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Bletia jongheana",
+      "Hadrolaelia jongheana",
+      "Laelia jongheana",
+      "Sophronitis jongheana"
+    ],
+    "wikidataId": "Q1054646",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cattleya_jongheana",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cattleya_jongheana",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 18,
+      "noteVi": "Cây nhỏ nhưng mang bông hoa hồng tím lớn rộng tới 12–15 cm với họng môi vàng nghệ xếp diềm"
+    },
+    "distribution": {
+      "countries": [
+        "BR"
+      ],
+      "nativeRangeVi": "Đặc hữu dãy núi Serra do Espinhaço thuộc bang Minas Gerais, Brazil",
+      "elevationM": {
+        "min": 1300,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Viên ngọc quý của chi Lan Hoàng hậu (Cattleya) Brazil với kích thước hoa khổng lồ so với giả hành nhỏ nhắn và chiếc môi gợn sóng vàng kim rực rỡ. Đặc điểm nhận dạng nổi bật: Cây nhỏ nhưng mang bông hoa hồng tím lớn rộng tới 12–15 cm với họng môi vàng nghệ xếp diềm.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Hoa nở vào cuối mùa khô trên các đỉnh núi đá thạch anh lộng gió của Minas Gerais, nổi bật từ xa để thu hút chim ruồi và ong lớn.",
+      "Đặc điểm hình thái đặc trưng: Cây nhỏ nhưng mang bông hoa hồng tím lớn rộng tới 12–15 cm với họng môi vàng nghệ xếp diềm."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cattleya jongheana (Rchb.f.) Van den Berg, Neodiversity 3 8 (2008) (26476434407).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_jongheana_(Rchb.f.)_Van_den_Berg,_Neodiversity_3_8_(2008)_(26476434407).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Cattleya_jongheana_%28Rchb.f.%29_Van_den_Berg%2C_Neodiversity_3_8_%282008%29_%2826476434407%29.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cattleya jongheana (lip) NT.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_jongheana_(lip)_NT.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cattleya_jongheana_%28lip%29_NT.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cattleya jongheana (flower) NT.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_jongheana_(flower)_NT.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Cattleya_jongheana_%28flower%29_NT.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cattleya jongheana (plant) NT.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_jongheana_(plant)_NT.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Cattleya_jongheana_%28plant%29_NT.jpg",
+        "width": 3352,
+        "height": 4462,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Naoki Takebayashi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cattleya jongheana ’Cotia' BM JOGA (Rchb.f.) Van den Berg, Neodiversity 3 8 (2008) (49761098227).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_jongheana_%E2%80%99Cotia%27_BM_JOGA_(Rchb.f.)_Van_den_Berg,_Neodiversity_3_8_(2008)_(49761098227).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cattleya_jongheana_%E2%80%99Cotia%27_BM_JOGA_%28Rchb.f.%29_Van_den_Berg%2C_Neodiversity_3_8_%282008%29_%2849761098227%29.jpg",
+        "width": 8256,
+        "height": 5504,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi from Sapporo, Hokkaido, Japan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2811885",
+      "https://www.iucnredlist.org/species/214338954/214339510",
+      "https://en.wikipedia.org/wiki/Cattleya_jongheana",
+      "https://vi.wikipedia.org/wiki/Cattleya_jongheana"
+    ]
+  },
+  {
+    "scientificName": "Dendrobium aphyllum",
+    "commonNameVi": "Lan hạc vỹ",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Dendrobium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Phong lan (Orchidaceae)",
+      "genus": "Chi Lan Hoàng thảo (Dendrobium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/15053780/44433456",
+    "gbifKey": 5316701,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 5.5,
+      "phMax": 7,
+      "habitatVi": "Bì sinh trên thân cây gỗ lớn trong rừng nửa rụng lá và rừng thường xanh độ cao 200–1.500 m"
+    },
+    "descriptionVi": "Một trong những loài lan rừng thân thòng được yêu thích nhất tại Việt Nam, khi vào xuân sẽ rụng hết lá để bung nở những suối hoa màu hồng phấn dịu dàng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES, được nhân giống ghép bảng dớn/gỗ rất phổ biến.",
+    "pullQuoteVi": "Tên khoa học 'aphyllum' nghĩa là 'không lá' vì cây trút sạch lá vào mùa khô lạnh trước khi đồng loạt bung hoa kín dọc thân dài cả mét.",
+    "dietVi": "Tự dưỡng quang hợp và cộng sinh với nấm rễ (Mycorrhiza) để hấp thụ khoáng hòa tan trong giá thể.",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Callista aphylla",
+      "Cymbidium aphyllum",
+      "Dendrobium aphyllum cucullatum",
+      "Dendrobium aphyllum katakianum"
+    ],
+    "wikidataId": "Q3337713",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/H%E1%BA%A1c_v%C4%A9",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Dendrobium_aphyllum",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 120,
+      "noteVi": "Thân giả hành buông rủ dài mang hàng chục bông hoa tím hồng nhạt và môi vàng kem hình phễu"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "LA",
+        "KH",
+        "MM",
+        "IN",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ chân dãy Himalaya qua Đông Dương và Tây Nguyên Việt Nam tới Malaysia",
+      "elevationM": {
+        "min": 200,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài lan rừng thân thòng được yêu thích nhất tại Việt Nam, khi vào xuân sẽ rụng hết lá để bung nở những suối hoa màu hồng phấn dịu dàng. Đặc điểm nhận dạng nổi bật: Thân giả hành buông rủ dài mang hàng chục bông hoa tím hồng nhạt và môi vàng kem hình phễu.",
+    "behaviorVi": "Thực vật phong lan có cấu trúc cánh môi biến đổi tinh xảo để dẫn dụ côn trùng đặc hữu đến thụ phấn chéo.",
+    "reproductionVi": "Sinh sản bằng hạt bụi siêu nhỏ phát tán theo gió (nhờ nấm cộng sinh ngoài tự nhiên hoặc gieo cấy mô vô trùng) và tách chiết thân/giả hành.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'aphyllum' nghĩa là 'không lá' vì cây trút sạch lá vào mùa khô lạnh trước khi đồng loạt bung hoa kín dọc thân dài cả mét.",
+      "Đặc điểm hình thái đặc trưng: Thân giả hành buông rủ dài mang hàng chục bông hoa tím hồng nhạt và môi vàng kem hình phễu."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu thoáng khí hoặc ghép gỗ/vỏ thông trộn đá bọt, duy trì nhiệt độ 15–32°C và độ ẩm 60–85%.",
+      "lightingVi": "Ánh sáng tán xạ 50–60% dưới lưới che hoặc đèn trồng cây chuyên dụng",
+      "feedingVi": "Tưới giữ ẩm vừa phải khi giá thể se mặt; phun sương phân bón lá loãng (NPK 20-20-20) định kỳ 2 tuần/lần trong mùa sinh trưởng.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Lan Hạc Vỹ (Hoàng Thảo Hạc Vỹ) (Dendrobium aphyllum) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Lan Hạc Vỹ (Hoàng Thảo Hạc Vỹ) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Dendrobium aphyllum Sikkim type (Roxb.) C.E.C.Fisch. in J.S.Gamble, Fl. Madras 1416 (1928) (51119903057).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_Sikkim_type_(Roxb.)_C.E.C.Fisch._in_J.S.Gamble,_Fl._Madras_1416_(1928)_(51119903057).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dendrobium_aphyllum_Sikkim_type_%28Roxb.%29_C.E.C.Fisch._in_J.S.Gamble%2C_Fl._Madras_1416_%281928%29_%2851119903057%29.jpg",
+        "width": 7266,
+        "height": 4844,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "sunoochi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Dendrobium Aphyllum (8181327775).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobium_Aphyllum_(8181327775).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Dendrobium_Aphyllum_%288181327775%29.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "maytheforcebewithyouOB1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobium aphyllum (Roxb.) C.E.C.Fisch - Brazil - 2024.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_(Roxb.)_C.E.C.Fisch_-_Brazil_-_2024.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dendrobium_aphyllum_%28Roxb.%29_C.E.C.Fisch_-_Brazil_-_2024.jpg",
+        "width": 4160,
+        "height": 6240,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "RedrumCarol",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dendrobium aphyllum photo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_photo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Dendrobium_aphyllum_photo.jpg",
+        "width": 2855,
+        "height": 4093,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JyotiPN",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:兜唇石斛蘭 Dendrobium aphyllum - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%85%9C%E5%94%87%E7%9F%B3%E6%96%9B%E8%98%AD_Dendrobium_aphyllum_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%85%9C%E5%94%87%E7%9F%B3%E6%96%9B%E8%98%AD_Dendrobium_aphyllum_-_panoramio.jpg",
+        "width": 4734,
+        "height": 3154,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5316701",
+      "https://www.iucnredlist.org/species/15053780/44433456",
+      "https://en.wikipedia.org/wiki/Dendrobium_aphyllum",
+      "https://vi.wikipedia.org/wiki/H%E1%BA%A1c_v%C4%A9"
+    ]
+  },
+  {
+    "scientificName": "Astrophytum asterias",
+    "commonNameVi": "Xương rồng sao biển",
+    "commonNameEn": "Sand Dollar Cactus",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Astrophytum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Sao / Đô đốc (Astrophytum)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/40961/121438670",
+    "gbifKey": 5384219,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồng bằng sỏi đá vôi khô hạn dưới tán cây bụi gai thấp độ cao 50–400 m"
+    },
+    "descriptionVi": "Loài xương rồng không gai hoàn hảo về mặt hình học với 8 múi đối xứng và các hàng núm lông trắng xếp như vỏ cầu gai (nhím biển).",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Mùa khô hạn ngoài sa mạc, toàn bộ thân cây co rút lún phẳng xuống dưới lớp đất sỏi để tránh nắng cháy và chỉ phồng lên nở hoa vàng tâm đỏ sau cơn mưa rào.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Astrophytum asterias magnipunctatum",
+      "Astrophytum asterias multipunctatum",
+      "Astrophytum asterias nudicarpa",
+      "Astrophytum asterias nudum"
+    ],
+    "wikidataId": "Q132514",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrophytum_asterias",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astrophytum_asterias",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Thân tròn dẹp không gai chia thành 8 múi đều đặn điểm các chấm lông trắng mịn"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "US"
+      ],
+      "nativeRangeVi": "Thung lũng Rio Grande thuộc bang Texas (Hoa Kỳ) và Tamaulipas, Nuevo León (Mexico)",
+      "elevationM": {
+        "min": 50,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài xương rồng không gai hoàn hảo về mặt hình học với 8 múi đối xứng và các hàng núm lông trắng xếp như vỏ cầu gai (nhím biển). Đặc điểm nhận dạng nổi bật: Thân tròn dẹp không gai chia thành 8 múi đều đặn điểm các chấm lông trắng mịn.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Mùa khô hạn ngoài sa mạc, toàn bộ thân cây co rút lún phẳng xuống dưới lớp đất sỏi để tránh nắng cháy và chỉ phồng lên nở hoa vàng tâm đỏ sau cơn mưa rào.",
+      "Đặc điểm hình thái đặc trưng: Thân tròn dẹp không gai chia thành 8 múi đều đặn điểm các chấm lông trắng mịn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrophytum asterias (27801456366).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_asterias_(27801456366).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Astrophytum_asterias_%2827801456366%29.jpg",
+        "width": 4539,
+        "height": 3393,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Resenter1 from Roma, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Atrophytum Asterias, var. Superkabuto.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atrophytum_Asterias,_var._Superkabuto.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Atrophytum_Asterias%2C_var._Superkabuto.jpg",
+        "width": 2334,
+        "height": 2567,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Leafarze",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum asterias cv. superkabuto 12.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_asterias_cv._superkabuto_12.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Astrophytum_asterias_cv._superkabuto_12.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Euphorbia obesa and Astrophytum asterias convergence example.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_obesa_and_Astrophytum_asterias_convergence_example.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Euphorbia_obesa_and_Astrophytum_asterias_convergence_example.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JonTheSucculentDude",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum asterias, Jardín Botánico de Múnich, Alemania, 2013-01-27, DD 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_asterias,_Jard%C3%ADn_Bot%C3%A1nico_de_M%C3%BAnich,_Alemania,_2013-01-27,_DD_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Astrophytum_asterias%2C_Jard%C3%ADn_Bot%C3%A1nico_de_M%C3%BAnich%2C_Alemania%2C_2013-01-27%2C_DD_01.JPG",
+        "width": 3444,
+        "height": 2739,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5384219",
+      "https://www.iucnredlist.org/species/40961/121438670",
+      "https://en.wikipedia.org/wiki/Astrophytum_asterias",
+      "https://vi.wikipedia.org/wiki/Astrophytum_asterias"
+    ]
+  },
+  {
+    "scientificName": "Astrophytum myriostigma",
+    "commonNameVi": "Xương rồng mũ giám mục",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Astrophytum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Sao / Đô đốc (Astrophytum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/151868/121446328",
+    "gbifKey": 7282451,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Sườn đồi đá vôi khô cằn ở độ cao 750–2.200 m"
+    },
+    "descriptionVi": "Biểu tượng kinh điển của dòng xương rồng nghệ thuật với hình khối ngôi sao 5 cánh không một chiếc gai nhọn và lớp vảy trắng bạc phản xạ ánh nắng sa mạc.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES, rất phổ biến từ nguồn gieo hạt vườn ươm.",
+    "pullQuoteVi": "Hàng vạn chấm trắng nhỏ li ti ('myriostigma' nghĩa là vạn đốm) thực chất là các chùm lông tơ siêu nhỏ vừa che nắng gắt vừa hút sương đêm.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Astrophytum myriostigma glabrum",
+      "Astrophytum myriostigma quadricostatum",
+      "Astrophytum myriostigma tamaulipense",
+      "Astrophytum myriostigma potosinum"
+    ],
+    "wikidataId": "Q637364",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrophytum_myriostigma",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astrophytum_myriostigma",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 40,
+      "noteVi": "Thân hình ngôi sao 4–5 cạnh không gai phủ kín những vảy lông trắng mịn như đá hoa cương"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Cao nguyên miền trung và đông bắc Mexico (San Luis Potosí, Coahuila, Nuevo León)",
+      "elevationM": {
+        "min": 750,
+        "max": 2200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Biểu tượng kinh điển của dòng xương rồng nghệ thuật với hình khối ngôi sao 5 cánh không một chiếc gai nhọn và lớp vảy trắng bạc phản xạ ánh nắng sa mạc. Đặc điểm nhận dạng nổi bật: Thân hình ngôi sao 4–5 cạnh không gai phủ kín những vảy lông trắng mịn như đá hoa cương.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Hàng vạn chấm trắng nhỏ li ti ('myriostigma' nghĩa là vạn đốm) thực chất là các chùm lông tơ siêu nhỏ vừa che nắng gắt vừa hút sương đêm.",
+      "Đặc điểm hình thái đặc trưng: Thân hình ngôi sao 4–5 cạnh không gai phủ kín những vảy lông trắng mịn như đá hoa cương."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 15–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Mũ Giám Mục (Astrophytum myriostigma) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 150000,
+        "descriptionVi": "Cây Xương Rồng Mũ Giám Mục nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrophytum myriostigma (18433552802).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_myriostigma_(18433552802).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Astrophytum_myriostigma_%2818433552802%29.jpg",
+        "width": 4704,
+        "height": 3280,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "sergio niebla from Cd. Victoria, Tamaulipas, México",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Astriphytum myriostigma 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astriphytum_myriostigma_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Astriphytum_myriostigma_2.JPG",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ast.myrio nud.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ast.myrio_nud.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ast.myrio_nud.jpg",
+        "width": 3915,
+        "height": 1450,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum (middle in the overview) 5945.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_(middle_in_the_overview)_5945.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Astrophytum_%28middle_in_the_overview%29_5945.JPG",
+        "width": 2592,
+        "height": 3888,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Hedwig Storch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2010. Выставка цветов в Донецке на день города 41.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_41.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_41.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7282451",
+      "https://www.iucnredlist.org/species/151868/121446328",
+      "https://en.wikipedia.org/wiki/Astrophytum_myriostigma",
+      "https://vi.wikipedia.org/wiki/Astrophytum_myriostigma"
+    ]
+  },
+  {
+    "scientificName": "Astrophytum capricorne",
+    "commonNameVi": "Xương rồng sừng dê",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Astrophytum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Sao / Đô đốc (Astrophytum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152404/121473566",
+    "gbifKey": 7282583,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồi đá vôi sỏi thạch cao khô nóng độ cao 700–1.500 m"
+    },
+    "descriptionVi": "Nổi bật với bộ gai dẹp dài uốn lượn xoắn ốc bao quanh đỉnh thân và bông hoa lớn màu vàng chanh có đáy họng đỏ tươi rực rỡ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Những chiếc gai mềm dẻo như giấy khô xoắn quanh đỉnh cây giúp ngụy trang thân xương rồng lẫn vào các bụi cỏ khô trên sườn núi đá vôi.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Astrophytum capricorne majus",
+      "Astrophytum capricorne minus",
+      "Astrophytum capricorne sanjuanense",
+      "Astrophytum capricorne senile"
+    ],
+    "wikidataId": "Q135541",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrophytum_capricorne",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astrophytum_capricorne",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 30,
+      "noteVi": "Thân hình cầu có 7–8 múi sắc cạnh mang những chiếc gai dẹp cong xoắn như sừng dê"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Sa mạc Chihuahuan thuộc bang Coahuila và Nuevo León, bắc Mexico",
+      "elevationM": {
+        "min": 700,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Nổi bật với bộ gai dẹp dài uốn lượn xoắn ốc bao quanh đỉnh thân và bông hoa lớn màu vàng chanh có đáy họng đỏ tươi rực rỡ. Đặc điểm nhận dạng nổi bật: Thân hình cầu có 7–8 múi sắc cạnh mang những chiếc gai dẹp cong xoắn như sừng dê.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Những chiếc gai mềm dẻo như giấy khô xoắn quanh đỉnh cây giúp ngụy trang thân xương rồng lẫn vào các bụi cỏ khô trên sườn núi đá vôi.",
+      "Đặc điểm hình thái đặc trưng: Thân hình cầu có 7–8 múi sắc cạnh mang những chiếc gai dẹp cong xoắn như sừng dê."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 15–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Sừng Dê (Astrophytum capricorne) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 160000,
+        "descriptionVi": "Cây Xương Rồng Sừng Dê nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrophytum crassispinum 3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_crassispinum_3.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Astrophytum_crassispinum_3.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Astrophytum capricorne v. senile 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_capricorne_v._senile_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Astrophytum_capricorne_v._senile_2.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum capricorne senile aureum 3 (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_capricorne_senile_aureum_3_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Astrophytum_capricorne_senile_aureum_3_%282%29.jpg",
+        "width": 2833,
+        "height": 3863,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum capricorne (5668591671).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_capricorne_(5668591671).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Astrophytum_capricorne_%285668591671%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum capricorne 1zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_capricorne_1zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Astrophytum_capricorne_1zz.jpg",
+        "width": 1000,
+        "height": 665,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7282583",
+      "https://www.iucnredlist.org/species/152404/121473566",
+      "https://en.wikipedia.org/wiki/Astrophytum_capricorne",
+      "https://vi.wikipedia.org/wiki/Astrophytum_capricorne"
+    ]
+  },
+  {
+    "scientificName": "Astrophytum ornatum",
+    "commonNameVi": "Xương rồng mũ thầy tu",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Astrophytum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Sao / Đô đốc (Astrophytum)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/151912/121449348",
+    "gbifKey": 7282413,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Vách đá vôi dựng đứng trong các hẻm núi bán hoang mạc độ cao 800–2.000 m"
+    },
+    "descriptionVi": "Vị khổng lồ của chi Xương rồng Sao với thân hình trụ xoắn nhẹ được trang điểm bởi những dải chấm trắng tạo thành họa tiết hình học tuyệt đẹp.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) ngoài tự nhiên nhưng được nhân giống hạt rộng rãi làm cây cảnh (CITES II).",
+    "pullQuoteVi": "Không giống các họ hàng nhỏ bé chỉ cao vài chục phân, A. ornatum cổ thụ ngoài tự nhiên có thể cao quá 1 mét và nặng hàng chục kilôgam.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Astrophytum glabrescens",
+      "Astrophytum ornatum glabrescens",
+      "Astrophytum ornatum mirbelii",
+      "Astrophytum ornatum niveum"
+    ],
+    "wikidataId": "Q133127",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrophytum_ornatum",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astrophytum_ornatum",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 100,
+      "noteVi": "Loài lớn nhất chi Astrophytum với các dải vảy trắng xếp thành hoa văn chữ V và gai vàng thẳng cứng"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng hẻm núi các bang Querétaro, Hidalgo và Guanajuato miền trung Mexico",
+      "elevationM": {
+        "min": 800,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Vị khổng lồ của chi Xương rồng Sao với thân hình trụ xoắn nhẹ được trang điểm bởi những dải chấm trắng tạo thành họa tiết hình học tuyệt đẹp. Đặc điểm nhận dạng nổi bật: Loài lớn nhất chi Astrophytum với các dải vảy trắng xếp thành hoa văn chữ V và gai vàng thẳng cứng.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Không giống các họ hàng nhỏ bé chỉ cao vài chục phân, A. ornatum cổ thụ ngoài tự nhiên có thể cao quá 1 mét và nặng hàng chục kilôgam.",
+      "Đặc điểm hình thái đặc trưng: Loài lớn nhất chi Astrophytum với các dải vảy trắng xếp thành hoa văn chữ V và gai vàng thẳng cứng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 15–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Sao Điểm Trang (Astrophytum ornatum) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Xương Rồng Sao Điểm Trang nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrophytum ornatum (5740213873).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_ornatum_(5740213873).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Astrophytum_ornatum_%285740213873%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:(MHNT) Astrophytum ornatum - Jardin Botanique Henri GAUSSEN.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:(MHNT)_Astrophytum_ornatum_-_Jardin_Botanique_Henri_GAUSSEN.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/%28MHNT%29_Astrophytum_ornatum_-_Jardin_Botanique_Henri_GAUSSEN.jpg",
+        "width": 5062,
+        "height": 7796,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Didier Descouens",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum ornatum (Jardin des Plantes de Paris).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_ornatum_(Jardin_des_Plantes_de_Paris).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Astrophytum_ornatum_%28Jardin_des_Plantes_de_Paris%29.jpg",
+        "width": 3312,
+        "height": 4416,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Tangopaso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum ornatum - Kew Gardens.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_ornatum_-_Kew_Gardens.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Astrophytum_ornatum_-_Kew_Gardens.JPG",
+        "width": 3424,
+        "height": 2883,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Dinkum",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum in Roscoff garden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_in_Roscoff_garden.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Astrophytum_in_Roscoff_garden.jpg",
+        "width": 3160,
+        "height": 2581,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Dinkum",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7282413",
+      "https://www.iucnredlist.org/species/151912/121449348",
+      "https://en.wikipedia.org/wiki/Astrophytum_ornatum",
+      "https://vi.wikipedia.org/wiki/Astrophytum_ornatum"
+    ]
+  },
+  {
+    "scientificName": "Astrophytum caput-medusae",
+    "commonNameVi": "Xương rồng đầu Medusa",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Astrophytum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Sao / Đô đốc (Astrophytum)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/152743/673052",
+    "gbifKey": 5623659,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Trảng cây bụi gai Tamaulipan khô hạn ở độ cao 100–200 m"
+    },
+    "descriptionVi": "Loài xương rồng có hình thái kỳ dị nhất thế giới khi không mang thân hình cầu hay hình trụ mà mọc thành chùm xúc tu dài vươn ra từ củ ngầm.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) ngoài tự nhiên trên Sách Đỏ IUCN (CITES II).",
+    "pullQuoteVi": "Chỉ mới được phát hiện vào năm 2001 vì khi chưa nở hoa, các tua thân mảnh khảnh của nó trông giống hệt một bụi cỏ khô dưới gốc cây bụi.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Digitostigma caput-medusae"
+    ],
+    "wikidataId": "Q146158",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Astrophytum_caput-medusae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Astrophytum_caput-medusae",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 20,
+      "noteVi": "Thân biến đổi thành các tua dài hình tam giác vươn ra từ củ rễ như mái tóc rắn của Medusa"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Đặc hữu bang Nuevo León miền đông bắc Mexico",
+      "elevationM": {
+        "min": 100,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài xương rồng có hình thái kỳ dị nhất thế giới khi không mang thân hình cầu hay hình trụ mà mọc thành chùm xúc tu dài vươn ra từ củ ngầm. Đặc điểm nhận dạng nổi bật: Thân biến đổi thành các tua dài hình tam giác vươn ra từ củ rễ như mái tóc rắn của Medusa.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Chỉ mới được phát hiện vào năm 2001 vì khi chưa nở hoa, các tua thân mảnh khảnh của nó trông giống hệt một bụi cỏ khô dưới gốc cây bụi.",
+      "Đặc điểm hình thái đặc trưng: Thân biến đổi thành các tua dài hình tam giác vươn ra từ củ rễ như mái tóc rắn của Medusa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Đầu Rắn Medusa (Astrophytum caput-medusae) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 350000,
+        "descriptionVi": "Cây Xương Rồng Đầu Rắn Medusa nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Astrophytum caput-medusae-IMG 3844.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_caput-medusae-IMG_3844.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Astrophytum_caput-medusae-IMG_3844.JPG",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Astrophytum caput-medusae-IMG 3597.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_caput-medusae-IMG_3597.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Astrophytum_caput-medusae-IMG_3597.JPG",
+        "width": 3648,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum caput-medusae-IMG 0583.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_caput-medusae-IMG_0583.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Astrophytum_caput-medusae-IMG_0583.JPG",
+        "width": 3452,
+        "height": 3452,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum caput-medusae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_caput-medusae.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Astrophytum_caput-medusae.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Florentin Guitton",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Astrophytum caput-medusae (Velazco & Nevarez) D. Hunt comb.nov.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Astrophytum_caput-medusae_(Velazco_%26_Nevarez)_D._Hunt_comb.nov.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Astrophytum_caput-medusae_%28Velazco_%26_Nevarez%29_D._Hunt_comb.nov.jpg",
+        "width": 1542,
+        "height": 1024,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Kaktus855",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5623659",
+      "https://www.iucnredlist.org/species/152743/673052",
+      "https://en.wikipedia.org/wiki/Astrophytum_caput-medusae",
+      "https://vi.wikipedia.org/wiki/Astrophytum_caput-medusae"
+    ]
+  },
+  {
+    "scientificName": "Lophophora williamsii",
+    "commonNameVi": "Xương rồng peyote",
+    "commonNameEn": "Peyote",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Lophophora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Peyote (Lophophora)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/151962/121515326",
+    "gbifKey": 5384220,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Bán hoang mạc đá vôi dưới bóng cây bụi gai ở độ cao 100–1.900 m"
+    },
+    "descriptionVi": "Loài xương rồng củ cái không gai màu xanh lam phấn sinh trưởng cực chậm trên sa mạc đá vôi Bắc Mỹ.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES; bị kiểm soát pháp lý tại nhiều quốc gia do chứa hoạt chất mescaline.",
+    "pullQuoteVi": "Củ rễ cái (taproot) của cây ăn sâu xuống lòng đất đá vôi chiếm tới hơn một nửa tổng sinh khối để tích trữ nước qua nhiều năm hạn hán.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anhalonium lewinii",
+      "Anhalonium williamsii",
+      "Ariocarpus williamsii",
+      "Echinocactus lewinii"
+    ],
+    "wikidataId": "Q271937",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lophophora_williamsii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Peyote",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 12,
+      "noteVi": "Thân tròn dẹp màu xanh xám phấn không gai với các búi lông tơ mềm trên đỉnh múi"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "US"
+      ],
+      "nativeRangeVi": "Sa mạc Chihuahuan từ nam Texas (Hoa Kỳ) trải dài qua miền bắc và trung Mexico",
+      "elevationM": {
+        "min": 100,
+        "max": 1900
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài xương rồng củ cái không gai màu xanh lam phấn sinh trưởng cực chậm trên sa mạc đá vôi Bắc Mỹ. Đặc điểm nhận dạng nổi bật: Thân tròn dẹp màu xanh xám phấn không gai với các búi lông tơ mềm trên đỉnh múi.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Củ rễ cái (taproot) của cây ăn sâu xuống lòng đất đá vôi chiếm tới hơn một nửa tổng sinh khối để tích trữ nước qua nhiều năm hạn hán.",
+      "Đặc điểm hình thái đặc trưng: Thân tròn dẹp màu xanh xám phấn không gai với các búi lông tơ mềm trên đỉnh múi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lophophora williamsii ve skleníku Přírodovědecké fakulty v Praze.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_ve_sklen%C3%ADku_P%C5%99%C3%ADrodov%C4%9Bdeck%C3%A9_fakulty_v_Praze.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Lophophora_williamsii_ve_sklen%C3%ADku_P%C5%99%C3%ADrodov%C4%9Bdeck%C3%A9_fakulty_v_Praze.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Richtr Jan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lophophora williamsii bloom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_bloom.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Lophophora_williamsii_bloom.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "M.Aurelius",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophophora williamsii, native to SW Texas and Mexico 2017-07-25-14.28 (38614568754).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii,_native_to_SW_Texas_and_Mexico_2017-07-25-14.28_(38614568754).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Lophophora_williamsii%2C_native_to_SW_Texas_and_Mexico_2017-07-25-14.28_%2838614568754%29.jpg",
+        "width": 5568,
+        "height": 3840,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophophora williamsii (5672954443).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_(5672954443).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Lophophora_williamsii_%285672954443%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PeyoteRC.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PeyoteRC.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PeyoteRC.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Jflo23",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5384220",
+      "https://www.iucnredlist.org/species/151962/121515326",
+      "https://en.wikipedia.org/wiki/Peyote",
+      "https://vi.wikipedia.org/wiki/Lophophora_williamsii"
+    ]
+  },
+  {
+    "scientificName": "Lophophora diffusa",
+    "commonNameVi": "Xương rồng peyote Querétaro",
+    "commonNameEn": "Peyote",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Lophophora"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Peyote (Lophophora)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/40967/121501921",
+    "gbifKey": 7282936,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Thung lũng đất sét đá vôi khô hạn ở độ cao 1.300–1.800 m"
+    },
+    "descriptionVi": "Họ hàng đặc hữu vùng Querétaro của chi Lophophora với màu da xanh vàng tươi sáng và các núm thân xếp xoắn mềm mại không chia rãnh sâu.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES; chỉ lưu trữ hồ sơ bách khoa.",
+    "pullQuoteVi": "Phạm vi phân bố ngoài tự nhiên của loài này chỉ gói gọn trong một vài thung lũng khô cằn thuộc bồn địa sông Estórax ở bang Querétaro.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Lophophora alberto-vojtechii",
+      "Lophophora diffusa diffusa",
+      "Lophophora diffusa kubesae",
+      "Lophophora diffusa viridescens"
+    ],
+    "wikidataId": "Q146961",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lophophora_diffusa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lophophora_diffusa",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Thân tròn mềm màu xanh lục ánh vàng không có rãnh múi rõ và không gai"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Đặc hữu lưu vực bán hoang mạc bang Querétaro miền trung Mexico",
+      "elevationM": {
+        "min": 1300,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Họ hàng đặc hữu vùng Querétaro của chi Lophophora với màu da xanh vàng tươi sáng và các núm thân xếp xoắn mềm mại không chia rãnh sâu. Đặc điểm nhận dạng nổi bật: Thân tròn mềm màu xanh lục ánh vàng không có rãnh múi rõ và không gai.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Phạm vi phân bố ngoài tự nhiên của loài này chỉ gói gọn trong một vài thung lũng khô cằn thuộc bồn địa sông Estórax ở bang Querétaro.",
+      "Đặc điểm hình thái đặc trưng: Thân tròn mềm màu xanh lục ánh vàng không có rãnh múi rõ và không gai."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lophophora diffusa (5780245625).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_diffusa_(5780245625).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Lophophora_diffusa_%285780245625%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Lophophora alberto-vojtechii 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_alberto-vojtechii_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lophophora_alberto-vojtechii_2.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Oscar Israel Rodríguez Ortiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophophora diffusa (5780257361).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_diffusa_(5780257361).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lophophora_diffusa_%285780257361%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Lophophora diffusa (5780249731).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lophophora_diffusa_(5780249731).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Lophophora_diffusa_%285780249731%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7282936",
+      "https://www.iucnredlist.org/species/40967/121501921",
+      "https://en.wikipedia.org/wiki/Lophophora_diffusa",
+      "https://vi.wikipedia.org/wiki/Lophophora_diffusa"
+    ]
+  },
+  {
+    "scientificName": "Ariocarpus retusus",
+    "commonNameVi": "Xương rồng đá sống",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ariocarpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Đá sống (Ariocarpus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152733/121364672",
+    "gbifKey": 3084099,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồi đá vôi sỏi trắng khô cằn ở độ cao 1.200–2.400 m"
+    },
+    "descriptionVi": "Bậc thầy ngụy trang của sa mạc Mexico với các múi thân hóa sừng xám trắng trông hệt như những mảnh đá vôi góc cạnh nằm sát mặt đất.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN nhưng thuộc Phụ lục I CITES bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Suốt cả năm cây nằm im lìm như một hòn đá chết, nhưng vào mùa thu từ tâm bông lông trắng sẽ bung nở chùm hoa lụa hồng tím rực rỡ.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anhalonium areolosum",
+      "Anhalonium elongatum",
+      "Anhalonium furfuraceum",
+      "Anhalonium prismaticum"
+    ],
+    "wikidataId": "Q136735",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ariocarpus_retusus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ariocarpus_retusus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Các củ thân (tubercles) hình tam giác cứng nhọn xếp xoắn như hoa thị đá vôi, không có gai"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Sa mạc Chihuahuan thuộc các bang Coahuila, Nuevo León, San Luis Potosí và Tamaulipas (Mexico)",
+      "elevationM": {
+        "min": 1200,
+        "max": 2400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Bậc thầy ngụy trang của sa mạc Mexico với các múi thân hóa sừng xám trắng trông hệt như những mảnh đá vôi góc cạnh nằm sát mặt đất. Đặc điểm nhận dạng nổi bật: Các củ thân (tubercles) hình tam giác cứng nhọn xếp xoắn như hoa thị đá vôi, không có gai.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Suốt cả năm cây nằm im lìm như một hòn đá chết, nhưng vào mùa thu từ tâm bông lông trắng sẽ bung nở chùm hoa lụa hồng tím rực rỡ.",
+      "Đặc điểm hình thái đặc trưng: Các củ thân (tubercles) hình tam giác cứng nhọn xếp xoắn như hoa thị đá vôi, không có gai."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ariocarpus retusus 2019-04-28 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_retusus_2019-04-28_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ariocarpus_retusus_2019-04-28_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Agnieszka Kwiecień, Nova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Winterbourne (5986937733).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Winterbourne_(5986937733).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Winterbourne_%285986937733%29.jpg",
+        "width": 1932,
+        "height": 2576,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "stephen boisvert from Chicago, United States",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Ariocarpa retusus 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpa_retusus_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ariocarpa_retusus_1.jpg",
+        "width": 1200,
+        "height": 1123,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Stan Shebs",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ariocarpus retusus OB Wroclaw 2017-09-26 4451.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_retusus_OB_Wroclaw_2017-09-26_4451.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ariocarpus_retusus_OB_Wroclaw_2017-09-26_4451.jpg",
+        "width": 4480,
+        "height": 3360,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Salicyna",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ariocarpus furfuraceus 2016-04-22 8326.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_furfuraceus_2016-04-22_8326.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ariocarpus_furfuraceus_2016-04-22_8326.jpg",
+        "width": 3738,
+        "height": 2933,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Salicyna",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3084099",
+      "https://www.iucnredlist.org/species/152733/121364672",
+      "https://en.wikipedia.org/wiki/Ariocarpus_retusus",
+      "https://vi.wikipedia.org/wiki/Ariocarpus_retusus"
+    ]
+  },
+  {
+    "scientificName": "Ariocarpus fissuratus",
+    "commonNameVi": "Xương rồng đá nứt",
+    "commonNameEn": "Chautle-living Rock",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ariocarpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Đá sống (Ariocarpus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152093/121435805",
+    "gbifKey": 3084097,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Sườn đồi đá vôi phẳng nắng gắt ở độ cao 600–1.600 m"
+    },
+    "descriptionVi": "Đỉnh cao của tiến hóa ngụy trang (mimicry) trong giới thực vật khi bề mặt biểu bì có các rãnh nứt nẻ y hệt đá trầm tích bị nắng gió sa mạc bào mòn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN nhưng thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Cây phát triển chậm đến mức mất 10 năm mới đạt đường kính bằng đồng xu 3 cm, nhưng có thể sống trên 100 năm giữa sa mạc.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anhalonium engelmannii",
+      "Anhalonium fissuratum",
+      "Ariocarpus fissuratus fissuratus",
+      "Ariocarpus fissuratus lloydii"
+    ],
+    "wikidataId": "Q138341",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ariocarpus_fissuratus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ariocarpus_fissuratus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Các múi thân dẹp sát đất có bề mặt sần sùi đầy vết nứt nẻ như tảng đá phong hóa"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Vùng Big Bend thuộc bang Texas (Hoa Kỳ) và bắc Mexico (Chihuahua, Coahuila, Durango)",
+      "elevationM": {
+        "min": 600,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Đỉnh cao của tiến hóa ngụy trang (mimicry) trong giới thực vật khi bề mặt biểu bì có các rãnh nứt nẻ y hệt đá trầm tích bị nắng gió sa mạc bào mòn. Đặc điểm nhận dạng nổi bật: Các múi thân dẹp sát đất có bề mặt sần sùi đầy vết nứt nẻ như tảng đá phong hóa.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cây phát triển chậm đến mức mất 10 năm mới đạt đường kính bằng đồng xu 3 cm, nhưng có thể sống trên 100 năm giữa sa mạc.",
+      "Đặc điểm hình thái đặc trưng: Các múi thân dẹp sát đất có bề mặt sần sùi đầy vết nứt nẻ như tảng đá phong hóa."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ariocarpus fissuratus var. hintonii (28935425084).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_fissuratus_var._hintonii_(28935425084).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ariocarpus_fissuratus_var._hintonii_%2828935425084%29.jpg",
+        "width": 4101,
+        "height": 3185,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Resenter1 from Roma, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ariocarpus fissuratus-IMG 4228.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_fissuratus-IMG_4228.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ariocarpus_fissuratus-IMG_4228.jpg",
+        "width": 4399,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:ARIOCARPUS FISSURATUS VAR. FISSURATUS Museo de Desierto, Saltillo Coahuila México - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ARIOCARPUS_FISSURATUS_VAR._FISSURATUS_Museo_de_Desierto,_Saltillo_Coahuila_M%C3%A9xico_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/ARIOCARPUS_FISSURATUS_VAR._FISSURATUS_Museo_de_Desierto%2C_Saltillo_Coahuila_M%C3%A9xico_-_panoramio.jpg",
+        "width": 3072,
+        "height": 2048,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "urbanomafia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Airiocarpus (6207546464).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Airiocarpus_(6207546464).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Airiocarpus_%286207546464%29.jpg",
+        "width": 2576,
+        "height": 1932,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "stephen boisvert from Chicago, United States",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3084097",
+      "https://www.iucnredlist.org/species/152093/121435805",
+      "https://en.wikipedia.org/wiki/Ariocarpus_fissuratus",
+      "https://vi.wikipedia.org/wiki/Ariocarpus_fissuratus"
+    ]
+  },
+  {
+    "scientificName": "Ariocarpus kotschoubeyanus",
+    "commonNameVi": "Xương rồng đá sống lùn",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ariocarpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Đá sống (Ariocarpus)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/41217/121435216",
+    "gbifKey": 7283031,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Bãi bùn đất sét đá vôi phẳng ngập nước ngắn ngày vào mùa mưa ở độ cao 1.000–1.900 m"
+    },
+    "descriptionVi": "Loài nhỏ nhắn nhất chi Xương rồng Đá sống, thường bị lớp bùn khô sa mạc phủ kín và chỉ lộ diện khi bông hoa tím hồng to bằng cả thân cây bung nở.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Trong mùa khô, củ rễ co rút kéo toàn bộ mặt trên của cây tụt hẳn xuống dưới mặt đất sét để tránh bị động vật ăn cỏ phát hiện.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anhalonium fissipedum",
+      "Anhalonium kostschoubeyanum",
+      "Anhalonium kotchubeyi",
+      "Anhalonium kotschoubeyanum"
+    ],
+    "wikidataId": "Q138384",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ariocarpus_kotschoubeyanus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ariocarpus_kotschoubeyanus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 7,
+      "noteVi": "Hoa thị siêu nhỏ nằm phẳng lì mặt đất với rãnh lông dọc giữa mỗi múi tam giác"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Miền đông bắc và trung Mexico (Querétaro đến Coahuila)",
+      "elevationM": {
+        "min": 1000,
+        "max": 1900
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài nhỏ nhắn nhất chi Xương rồng Đá sống, thường bị lớp bùn khô sa mạc phủ kín và chỉ lộ diện khi bông hoa tím hồng to bằng cả thân cây bung nở. Đặc điểm nhận dạng nổi bật: Hoa thị siêu nhỏ nằm phẳng lì mặt đất với rãnh lông dọc giữa mỗi múi tam giác.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Trong mùa khô, củ rễ co rút kéo toàn bộ mặt trên của cây tụt hẳn xuống dưới mặt đất sét để tránh bị động vật ăn cỏ phát hiện.",
+      "Đặc điểm hình thái đặc trưng: Hoa thị siêu nhỏ nằm phẳng lì mặt đất với rãnh lông dọc giữa mỗi múi tam giác."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ariocarpus kotschoubeyanus var. macdowellii (22781195335).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_kotschoubeyanus_var._macdowellii_(22781195335).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ariocarpus_kotschoubeyanus_var._macdowellii_%2822781195335%29.jpg",
+        "width": 4332,
+        "height": 3164,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Resenter1 from Roma, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ariocarpus Kotschoubeyanus albiflorus tula ia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_Kotschoubeyanus_albiflorus_tula_ia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ariocarpus_Kotschoubeyanus_albiflorus_tula_ia.jpg",
+        "width": 4224,
+        "height": 5632,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ivan Lorgar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Ariocarpus kotschoubeyanus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_kotschoubeyanus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ariocarpus_kotschoubeyanus.jpg",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Kauderwelsch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ariocarpus kotschoubeyanus flor2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_kotschoubeyanus_flor2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ariocarpus_kotschoubeyanus_flor2.jpg",
+        "width": 2592,
+        "height": 3872,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Kauderwelsch",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7283031",
+      "https://www.iucnredlist.org/species/41217/121435216",
+      "https://en.wikipedia.org/wiki/Ariocarpus_kotschoubeyanus",
+      "https://vi.wikipedia.org/wiki/Ariocarpus_kotschoubeyanus"
+    ]
+  },
+  {
+    "scientificName": "Ariocarpus trigonus",
+    "commonNameVi": "Xương rồng đá sống ba cạnh",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ariocarpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Đá sống (Ariocarpus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152792/121488588",
+    "gbifKey": 7282951,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Sườn đồi đá vôi và đá phiến khô cằn ở độ cao 500–1.400 m"
+    },
+    "descriptionVi": "Khác biệt với hầu hết các loài Ariocarpus hoa tím hồng, loài này sở hữu những chiếc lá củ cong nhọn vươn cao và vòng hoa màu vàng ngà thanh nhã.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN nhưng thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Tâm đỉnh cây phủ một lớp lông cừu trắng dày để bảo vệ nụ hoa non khỏi bức xạ cực tím gay gắt của vùng núi Sierra Madre Oriental.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anhalonium trigonum",
+      "Ariocarpus retusus trigonus",
+      "Ariocarpus trigonus minor"
+    ],
+    "wikidataId": "Q13218610",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ariocarpus_trigonus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Các múi thân hình tam giác dài cong vút lên trên và chùm hoa màu vàng kem nhạt"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Đông bắc Mexico (Nuevo León và Tamaulipas)",
+      "elevationM": {
+        "min": 500,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Khác biệt với hầu hết các loài Ariocarpus hoa tím hồng, loài này sở hữu những chiếc lá củ cong nhọn vươn cao và vòng hoa màu vàng ngà thanh nhã. Đặc điểm nhận dạng nổi bật: Các múi thân hình tam giác dài cong vút lên trên và chùm hoa màu vàng kem nhạt.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Tâm đỉnh cây phủ một lớp lông cừu trắng dày để bảo vệ nụ hoa non khỏi bức xạ cực tím gay gắt của vùng núi Sierra Madre Oriental.",
+      "Đặc điểm hình thái đặc trưng: Các múi thân hình tam giác dài cong vút lên trên và chùm hoa màu vàng kem nhạt."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ariocarpus retusus subsp. trigonus (5686688310).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_retusus_subsp._trigonus_(5686688310).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ariocarpus_retusus_subsp._trigonus_%285686688310%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Aroiocarpus trigonus (5686685466).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aroiocarpus_trigonus_(5686685466).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Aroiocarpus_trigonus_%285686685466%29.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ariocarpus trigonus (5685798639).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_trigonus_(5685798639).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ariocarpus_trigonus_%285685798639%29.jpg",
+        "width": 2105,
+        "height": 1574,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:SDC11398 - Ariocarpus trigonus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SDC11398_-_Ariocarpus_trigonus.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/SDC11398_-_Ariocarpus_trigonus.JPG",
+        "width": 1639,
+        "height": 1257,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Tubifex",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7282951",
+      "https://www.iucnredlist.org/species/152792/121488588",
+      "https://en.wikipedia.org/wiki/Ariocarpus_trigonus"
+    ]
+  },
+  {
+    "scientificName": "Ariocarpus agavoides",
+    "commonNameVi": "Xương rồng đá lá thùa",
+    "commonNameEn": "Tamaulipas Living Rock Cactus",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ariocarpus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Đá sống (Ariocarpus)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/40956/2946887",
+    "gbifKey": 7283173,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồi sỏi đá vôi khô hạn ở độ cao 1.100–1.300 m"
+    },
+    "descriptionVi": "Mang hình dáng lai giữa một cây Thùa (Agave) thu nhỏ và một cây xương rồng củ với bông hoa tím hồng rực rỡ vươn lên từ búi lông trắng.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Mỗi chiếc 'lá' thực chất là một núm thân xương rồng kéo dài có núm gai tiêu biến nằm gần chóp.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ariocarpus agavioides pulcher",
+      "Ariocarpus agavioides sanluisensis",
+      "Ariocarpus agavoides pulcher",
+      "Ariocarpus kotschoubeyanus agavoides"
+    ],
+    "wikidataId": "Q137206",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ariocarpus_agavoides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ariocarpus_agavoides",
+    "iucnAssessedYear": 2013,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 8,
+      "noteVi": "Các nhánh thân dài mảnh mọc từ củ cái có núm lông tròn ở chóp và hoa tím magenta lớn"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Bang Tamaulipas và San Luis Potosí, đông bắc Mexico",
+      "elevationM": {
+        "min": 1100,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Mang hình dáng lai giữa một cây Thùa (Agave) thu nhỏ và một cây xương rồng củ với bông hoa tím hồng rực rỡ vươn lên từ búi lông trắng. Đặc điểm nhận dạng nổi bật: Các nhánh thân dài mảnh mọc từ củ cái có núm lông tròn ở chóp và hoa tím magenta lớn.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Mỗi chiếc 'lá' thực chất là một núm thân xương rồng kéo dài có núm gai tiêu biến nằm gần chóp.",
+      "Đặc điểm hình thái đặc trưng: Các nhánh thân dài mảnh mọc từ củ cái có núm lông tròn ở chóp và hoa tím magenta lớn."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ariocarpus agavoides-IMG 4303.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_agavoides-IMG_4303.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ariocarpus_agavoides-IMG_4303.jpg",
+        "width": 4669,
+        "height": 3634,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ariocarpus agavoides.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_agavoides.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ariocarpus_agavoides.jpg",
+        "width": 768,
+        "height": 1024,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "No machine-readable author provided. Kaktalia~commonswiki assumed (based on copyright claims).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ariocarpus agavoides SB 370 (22005321309).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariocarpus_agavoides_SB_370_(22005321309).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ariocarpus_agavoides_SB_370_%2822005321309%29.jpg",
+        "width": 4176,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Resenter1 from Roma, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:DSC 1783-Ariocarpus agavoides-800px.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC_1783-Ariocarpus_agavoides-800px.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/DSC_1783-Ariocarpus_agavoides-800px.jpg",
+        "width": 800,
+        "height": 800,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:DSC 1787-Ariocarpus agavoides-800px.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSC_1787-Ariocarpus_agavoides-800px.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/DSC_1787-Ariocarpus_agavoides-800px.jpg",
+        "width": 800,
+        "height": 600,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "C T Johansson",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7283173",
+      "https://www.iucnredlist.org/species/40956/2946887",
+      "https://en.wikipedia.org/wiki/Ariocarpus_agavoides",
+      "https://vi.wikipedia.org/wiki/Ariocarpus_agavoides"
+    ]
+  },
+  {
+    "scientificName": "Echinocactus platyacanthus",
+    "commonNameVi": "Xương rồng thùng khổng lồ",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Echinocactus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Cầu gai (Echinocactus)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/152537/121477917",
+    "gbifKey": 7279711,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Bán hoang mạc đá vôi ở độ cao 1.100–2.400 m"
+    },
+    "descriptionVi": "Một trong những loài xương rồng hình cầu lớn nhất thế giới, khi trưởng thành trông như một chiếc thùng rượu khổng lồ đầy gai giữa hoang mạc.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) ngoài tự nhiên trên Sách Đỏ IUCN, nhưng cây con gieo hạt được trồng cảnh rất phổ biến (CITES II).",
+    "pullQuoteVi": "Cây non có da màu xanh bóng với các vạch ngang màu tím đỏ, nhưng khi già đi hàng trăm năm tuổi sẽ hợp nhất thành khối thùng khổng lồ nặng gần nửa tấn.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Echinocactus arachnoideus",
+      "Echinocactus aulacogonus",
+      "Echinocactus aulacogonus diacopaulax",
+      "Echinocactus edulis"
+    ],
+    "wikidataId": "Q239734",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Echinocactus_platyacanthus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Echinocactus_platyacanthus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 200,
+      "noteVi": "Thân hình cầu đến hình thùng khổng lồ có 20–50 múi sâu, đỉnh phủ lông vàng và gai dẹp cứng"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Sa mạc Chihuahuan đến thung lũng Tehuacán-Cuicatlán miền trung Mexico",
+      "elevationM": {
+        "min": 1100,
+        "max": 2400
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài xương rồng hình cầu lớn nhất thế giới, khi trưởng thành trông như một chiếc thùng rượu khổng lồ đầy gai giữa hoang mạc. Đặc điểm nhận dạng nổi bật: Thân hình cầu đến hình thùng khổng lồ có 20–50 múi sâu, đỉnh phủ lông vàng và gai dẹp cứng.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Cây non có da màu xanh bóng với các vạch ngang màu tím đỏ, nhưng khi già đi hàng trăm năm tuổi sẽ hợp nhất thành khối thùng khổng lồ nặng gần nửa tấn.",
+      "Đặc điểm hình thái đặc trưng: Thân hình cầu đến hình thùng khổng lồ có 20–50 múi sâu, đỉnh phủ lông vàng và gai dẹp cứng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 12–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Thùng Vàng Khổng Lồ (Echinocactus platyacanthus) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 180000,
+        "descriptionVi": "Cây Xương Rồng Thùng Vàng Khổng Lồ nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Flora de Tierra Blanca (Guanajuato, México).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flora_de_Tierra_Blanca_(Guanajuato,_M%C3%A9xico).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flora_de_Tierra_Blanca_%28Guanajuato%2C_M%C3%A9xico%29.jpg",
+        "width": 7422,
+        "height": 5565,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Biznaga con frutos con huamishes o guamiches 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biznaga_con_frutos_con_huamishes_o_guamiches_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Biznaga_con_frutos_con_huamishes_o_guamiches_01.jpg",
+        "width": 2340,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Francisco Ibarra Sánchez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Biznaga burra (E. platyacanthus) en Tierra Blanca, Gto.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biznaga_burra_(E._platyacanthus)_en_Tierra_Blanca,_Gto.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Biznaga_burra_%28E._platyacanthus%29_en_Tierra_Blanca%2C_Gto.jpg",
+        "width": 6903,
+        "height": 6901,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cactus de Tierra Blanca (Guanajuato).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cactus_de_Tierra_Blanca_(Guanajuato).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cactus_de_Tierra_Blanca_%28Guanajuato%29.jpg",
+        "width": 5840,
+        "height": 7786,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Echinocactus platyacanthus in Tierra Blanca (Guanajuato), Mexico.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Echinocactus_platyacanthus_in_Tierra_Blanca_(Guanajuato),_Mexico.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Echinocactus_platyacanthus_in_Tierra_Blanca_%28Guanajuato%29%2C_Mexico.jpg",
+        "width": 7369,
+        "height": 6936,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7279711",
+      "https://www.iucnredlist.org/species/152537/121477917",
+      "https://en.wikipedia.org/wiki/Echinocactus_platyacanthus",
+      "https://vi.wikipedia.org/wiki/Echinocactus_platyacanthus"
+    ]
+  },
+  {
+    "scientificName": "Echinocactus horizonthalonius",
+    "commonNameVi": "Xương rồng khăn xếp",
+    "commonNameEn": "Turk's-head Cactus",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Echinocactus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Cầu gai (Echinocactus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152053/121456482",
+    "gbifKey": 3084090,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Sườn đồi sỏi đá vôi khô nắng ở độ cao 400–1.800 m"
+    },
+    "descriptionVi": "Loài xương rồng cầu sa mạc nổi bật với lớp biểu bì phủ phấn xanh lam bạc và những chiếc gai lớn dẹp cong ôm ngang thân như móng vuốt đại bàng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Sau những trận mưa mùa hè, từ đỉnh cây sẽ bung nở bông hoa lụa màu hồng cánh sen rực rỡ tương phản với lớp gai xám lạnh lùng.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Nam Hoa Kỳ",
+      "lat": 30.33,
+      "lng": -81.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Echinocactus horizonthalonius horizonthalonius",
+      "Echinocactus horizonthalonius moelleri"
+    ],
+    "wikidataId": "Q141016",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Echinocactus_horizonthalonius",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Echinocactus_horizonthalonius",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 25,
+      "noteVi": "Thân cầu xanh xám có 8 múi tròn rộng và các gai dẹp lớn ôm sát theo chiều ngang"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "MX"
+      ],
+      "nativeRangeVi": "Từ nam New Mexico, Texas, Arizona (Hoa Kỳ) xuống miền bắc và trung Mexico",
+      "elevationM": {
+        "min": 400,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài xương rồng cầu sa mạc nổi bật với lớp biểu bì phủ phấn xanh lam bạc và những chiếc gai lớn dẹp cong ôm ngang thân như móng vuốt đại bàng. Đặc điểm nhận dạng nổi bật: Thân cầu xanh xám có 8 múi tròn rộng và các gai dẹp lớn ôm sát theo chiều ngang.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Sau những trận mưa mùa hè, từ đỉnh cây sẽ bung nở bông hoa lụa màu hồng cánh sen rực rỡ tương phản với lớp gai xám lạnh lùng.",
+      "Đặc điểm hình thái đặc trưng: Thân cầu xanh xám có 8 múi tròn rộng và các gai dẹp lớn ôm sát theo chiều ngang."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 12–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Đầu Quỷ Gai Xoắn (Echinocactus horizonthalonius) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 220000,
+        "descriptionVi": "Cây Xương Rồng Đầu Quỷ Gai Xoắn nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Devilshead cactus & Prairie Fleabane (33808848671).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Devilshead_cactus_%26_Prairie_Fleabane_(33808848671).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Devilshead_cactus_%26_Prairie_Fleabane_%2833808848671%29.jpg",
+        "width": 3648,
+        "height": 2828,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "smallcurio from Austin, TX",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Echinocactus horizontalonius.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Echinocactus_horizontalonius.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Echinocactus_horizontalonius.jpg",
+        "width": 658,
+        "height": 738,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "CactiLegacy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Echinocactus horizonthalonius (28898773686).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Echinocactus_horizonthalonius_(28898773686).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Echinocactus_horizonthalonius_%2828898773686%29.jpg",
+        "width": 3817,
+        "height": 3221,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Resenter1 from Roma, Italia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eagle claw cactus flower bloom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eagle_claw_cactus_flower_bloom.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Eagle_claw_cactus_flower_bloom.jpg",
+        "width": 2653,
+        "height": 1759,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Dr. Thomas G. Barnes, U.S. Fish and Wildlife Service",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3084090",
+      "https://www.iucnredlist.org/species/152053/121456482",
+      "https://en.wikipedia.org/wiki/Echinocactus_horizonthalonius",
+      "https://vi.wikipedia.org/wiki/Echinocactus_horizonthalonius"
+    ]
+  },
+  {
+    "scientificName": "Ferocactus latispinus",
+    "commonNameVi": "Xương rồng lưỡi quỷ",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Ferocactus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng Thùng gai móc (Ferocactus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/151750/121506930",
+    "gbifKey": 7284444,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồng cỏ khô và sườn đồi đá núi lửa ở độ cao 1.500–2.500 m"
+    },
+    "descriptionVi": "Được yêu thích nhất trong chi Xương rồng Thùng gai móc nhờ chiếc gai trung tâm dẹp to bản màu đỏ ruby cong xuống như chiếc lưỡi quỷ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khác với đa số xương rồng nở hoa vào mùa xuân - hè, Xương Rồng Lưỡi Quỷ lại bung nở vòng hoa tím rượu vang vào cuối thu và đầu đông.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cactus multiangularis",
+      "Echinocactus cornigerus latispinus",
+      "Echinocactus recurvus tricuspidatus",
+      "Echinofossulocactus cornigerus angustispinus"
+    ],
+    "wikidataId": "Q147501",
+    "wikipediaVi": null,
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ferocactus_latispinus",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 40,
+      "noteVi": "Thân hình cầu hơi dẹp có gai trung tâm bản rộng dẹp màu đỏ tươi uốn cong ở đầu"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Cao nguyên miền trung Mexico từ Durango xuống Oaxaca",
+      "elevationM": {
+        "min": 1500,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được yêu thích nhất trong chi Xương rồng Thùng gai móc nhờ chiếc gai trung tâm dẹp to bản màu đỏ ruby cong xuống như chiếc lưỡi quỷ. Đặc điểm nhận dạng nổi bật: Thân hình cầu hơi dẹp có gai trung tâm bản rộng dẹp màu đỏ tươi uốn cong ở đầu.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Khác với đa số xương rồng nở hoa vào mùa xuân - hè, Xương Rồng Lưỡi Quỷ lại bung nở vòng hoa tím rượu vang vào cuối thu và đầu đông.",
+      "Đặc điểm hình thái đặc trưng: Thân hình cầu hơi dẹp có gai trung tâm bản rộng dẹp màu đỏ tươi uốn cong ở đầu."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 10–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng Lưỡi Quỷ (Ferocactus latispinus) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 160000,
+        "descriptionVi": "Cây Xương Rồng Lưỡi Quỷ nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ferocactus latispinus (5660732123).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferocactus_latispinus_(5660732123).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ferocactus_latispinus_%285660732123%29.jpg",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ferocactus latispinus - areoles and spines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferocactus_latispinus_-_areoles_and_spines.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ferocactus_latispinus_-_areoles_and_spines.jpg",
+        "width": 6908,
+        "height": 8400,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Biznaga ganchuda (Ferocactus latispinus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biznaga_ganchuda_(Ferocactus_latispinus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Biznaga_ganchuda_%28Ferocactus_latispinus%29.jpg",
+        "width": 6582,
+        "height": 6582,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ferocactus latispinus (Cactaceae).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferocactus_latispinus_(Cactaceae).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ferocactus_latispinus_%28Cactaceae%29.jpg",
+        "width": 6254,
+        "height": 6254,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Biznaga ganchuda.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biznaga_ganchuda.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Biznaga_ganchuda.JPG",
+        "width": 1600,
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Luistlatoani",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7284444",
+      "https://www.iucnredlist.org/species/151750/121506930",
+      "https://en.wikipedia.org/wiki/Ferocactus_latispinus"
+    ]
+  }
+]

@@ -87,7 +87,13 @@ export default function ProductDetailPage(): React.JSX.Element {
         list.push({ src: g, alt: `${species.displayName} ảnh ${idx + 1}`, label: 'Ảnh loài' });
       });
     }
-    return list;
+    // Loài catalog: ảnh cá thể chính là ảnh portrait của loài, bỏ ảnh trùng và ảnh giữ chỗ lặp lại
+    const seen = new Set<string>();
+    return list.filter((p) => {
+      if (seen.has(p.src) || (p.src === PRODUCT_PLACEHOLDER_IMAGE && seen.size > 0)) return false;
+      seen.add(p.src);
+      return true;
+    });
   }, [product, species]);
 
   const activePhoto = galleryPhotos[selectedPhotoIndex] || galleryPhotos[0] || {

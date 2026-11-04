@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { db, normalizeSearchString } from '../db';
+import { CATALOG_USERS, CATALOG_SHOPS, CATALOG_TAXONOMY, CATALOG_SPECIES, CATALOG_PRODUCTS } from '../data';
 
 describe('MockDatabase In-Memory Engine', () => {
   beforeEach(() => {
@@ -8,12 +9,35 @@ describe('MockDatabase In-Memory Engine', () => {
 
   it('khởi tạo đầy đủ số lượng bản ghi gốc từ seed data', () => {
     const raw = db.getRawState();
-    expect(raw.users).toHaveLength(7);
+    // Seed gốc chép tay + khối CATALOG sinh tự động
+    expect(raw.users).toHaveLength(7 + CATALOG_USERS.length);
     expect(raw.admins).toHaveLength(5);
-    expect(raw.shops).toHaveLength(5);
-    expect(raw.species).toHaveLength(9);
-    expect(raw.products).toHaveLength(10);
+    expect(raw.shops).toHaveLength(5 + CATALOG_SHOPS.length);
+    expect(raw.species).toHaveLength(9 + CATALOG_SPECIES.length);
+    expect(raw.products).toHaveLength(10 + CATALOG_PRODUCTS.length);
     expect(raw.orders).toHaveLength(3);
+  });
+
+  it('khối CATALOG nhất quán: id không trùng, khoá ngoại trỏ tới bản ghi có thật', () => {
+    const raw = db.getRawState();
+    for (const rows of [raw.users, raw.shops, raw.taxonomy, raw.species, raw.products]) {
+      expect(new Set(rows.map((r) => r.id)).size).toBe(rows.length);
+    }
+    const nodeIds = new Map(raw.taxonomy.map((n) => [n.id, n]));
+    for (const s of raw.species) {
+      const genus = nodeIds.get(s.nodeId);
+      expect(genus?.rank, s.scientificName).toBe('GENUS');
+      expect(s.scientificName.startsWith(`${genus?.scientificName} `)).toBe(true);
+    }
+    for (const n of raw.taxonomy) if (n.parentId !== null) expect(nodeIds.has(n.parentId), n.scientificName).toBe(true);
+    const speciesIds = new Set(raw.species.map((s) => s.id));
+    const shopIds = new Set(raw.shops.map((s) => s.id));
+    for (const p of raw.products) {
+      expect(speciesIds.has(p.speciesId), p.productName).toBe(true);
+      expect(shopIds.has(p.sellerProfileId), p.productName).toBe(true);
+    }
+    expect(new Set(raw.products.map((p) => p.productName)).size).toBe(raw.products.length);
+    expect(raw.taxonomy).toHaveLength(25 + CATALOG_TAXONOMY.length);
   });
 
   it('lấy 2 giới gốc của cây phân loại (Animalia, Plantae)', () => {
@@ -22,9 +46,8 @@ describe('MockDatabase In-Memory Engine', () => {
     expect(roots.map((r) => r.scientificName).sort()).toEqual(['Animalia', 'Plantae']);
   });
 
-  it('khớp seed_data.sql: 25 nút phân loại và tổng đơn bằng tổng các dòng', () => {
+  it('khớp seed_data.sql: đủ nút phân loại gốc và tổng đơn bằng tổng các dòng', () => {
     const raw = db.getRawState();
-    expect(raw.taxonomy).toHaveLength(25);
     expect(raw.taxonomy.some((n) => n.scientificName === 'Caudata')).toBe(true);
     for (const order of raw.orders) {
       const sum = order.items.reduce((acc, item) => acc + item.quantity * item.unitPrice, 0);
@@ -46,7 +69,8 @@ describe('MockDatabase In-Memory Engine', () => {
 
   it('lấy danh sách sản phẩm công khai chỉ trả về các sản phẩm APPROVED', () => {
     const res = db.getProducts();
-    expect(res.total).toBe(7);
+    // Seed gốc có 7 sản phẩm APPROVED, cộng phần APPROVED của khối CATALOG
+    expect(res.total).toBe(7 + CATALOG_PRODUCTS.filter((p) => p.status === 'APPROVED').length);
     expect(res.items.every((p) => p.status === 'APPROVED')).toBe(true);
   });
 

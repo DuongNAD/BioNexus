@@ -5,7 +5,10 @@ import { useSpeciesDetail, useSpeciesList } from '@/api/queries/useSpeciesQuerie
 import { useTaxonomyDetail } from '@/api/queries/useTaxonomyQueries';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { ApiError } from '@/api/errors';
-import { SpeciesHeroCover } from './components/SpeciesHeroCover';
+import { useCatalogSpecies } from '@/api/catalog';
+import { SpeciesHeroCover, catalogCredit } from './components/SpeciesHeroCover';
+import { CatalogProfile, formatCatalogSize, formatElevation } from './components/CatalogProfile';
+import { PhotoCredit } from '@/components/media/PhotoCredit';
 import { SpeciesTaxonomyBeam } from './components/SpeciesTaxonomyBeam';
 import { SpeciesNotFound } from './components/SpeciesNotFound';
 import { IucnScale } from './components/IucnScale';
@@ -37,7 +40,17 @@ export const SpeciesDetailPage: React.FC = () => {
   const taxonomyQuery = useTaxonomyDetail(species?.nodeId || 0, { enabled: Boolean(species?.nodeId) });
 
   // Cá thể đang bán của loài này (contract: products?speciesId=)
-  const productsQuery = useProducts({ speciesId: !isInvalid ? speciesId : undefined });
+  const productsQuery = useProducts({ speciesId: !isInvalid ? speciesId : undefined, size: 48 });
+
+  // Hồ sơ mở rộng của loài catalog (9 loài gốc dùng species-extras nên không cần)
+  const catalogQuery = useCatalogSpecies(species?.scientificName, { enabled: Boolean(species?.isCatalog) });
+  const profile = catalogQuery.data ?? null;
+  // Cả bách khoa (đã có trong bộ đệm nếu vừa qua trang danh sách) để biến loài dễ nhầm thành link
+  const allSpeciesQuery = useSpeciesList(undefined);
+  const speciesIdByName = useMemo(
+    () => new Map((allSpeciesQuery.data || []).map((s) => [s.scientificName, { id: s.id, displayName: s.displayName }])),
+    [allSpeciesQuery.data]
+  );
 
   // Loài họ hàng: cùng chi trước, không có thì cùng họ (nút cha của chi lấy từ API)
   const genusNode = taxonomyQuery.data?.node;
@@ -53,7 +66,7 @@ export const SpeciesDetailPage: React.FC = () => {
   const siblingSpecies = useMemo(() => {
     if (!species) return [];
     const sameGenus = (species.nodeId ? sameGenusQuery.data || [] : []).filter((s) => s.id !== species.id);
-    if (sameGenus.length > 0) return sameGenus;
+    if (sameGenus.length > 0) return sameGenus.slice(0, 8);
     if (!familyNodeId) return [];
     return (sameFamilyQuery.data || []).filter((s) => s.id !== species.id).slice(0, 4);
   }, [species, sameGenusQuery.data, sameFamilyQuery.data, familyNodeId]);
@@ -100,26 +113,38 @@ export const SpeciesDetailPage: React.FC = () => {
   }
 
   const specs = species.parsedSpecs;
+  const pullQuote = species.pullQuote ?? profile?.pullQuoteVi ?? undefined;
   const facts = [
+    { label: 'Tên gọi khác', value: profile?.otherNamesVi.join(', ') },
     { label: 'Môi trường sống', value: specs.habitat },
-    { label: 'Nơi bản địa', value: species.origin.place },
-    { label: 'Chế độ ăn', value: species.diet },
-    { label: 'Tuổi thọ', value: species.lifespan },
-    { label: 'Tập tính', value: species.activityTime },
+    { label: 'Nơi bản địa', value: profile?.distribution?.nativeRangeVi ?? species.origin.place },
+    { label: 'Độ cao', value: formatElevation(profile?.distribution ?? null) },
+    { label: 'Kiểu sinh cảnh', value: profile?.habitatTypesVi.join(', ') },
+    { label: 'Kích thước', value: formatCatalogSize(profile?.size ?? null) },
+    { label: 'Chế độ ăn', value: species.diet ?? profile?.dietVi },
+    { label: 'Tuổi thọ', value: species.lifespan ?? profile?.lifespanVi },
+    { label: 'Thời gian hoạt động', value: species.activityTime ?? profile?.activityTimeVi },
   ].filter((f): f is { label: string; value: string } => Boolean(f.value));
+  const portrait = profile?.photos.portrait;
+  const externalLinks = [
+    { label: 'Hồ sơ loài trên GBIF', href: species.gbifUrl },
+    { label: 'Sách Đỏ IUCN', href: profile?.iucnUrl },
+    { label: 'Wikipedia tiếng Việt', href: profile?.wikipediaVi },
+    { label: 'Wikipedia tiếng Anh', href: profile?.wikipediaEn },
+  ].filter((l): l is { label: string; href: string } => Boolean(l.href));
 
   return (
     <>
-      <SpeciesHeroCover species={species} breadcrumbs={breadcrumbs} />
+      <SpeciesHeroCover species={species} breadcrumbs={breadcrumbs} catalogHero={profile?.photos.hero} />
 
       <PageContainer className="pb-20">
         {/* 1. Đặc điểm sinh học và điều kiện sống */}
         <div className="grid gap-10 pt-12 pb-4 md:pt-16 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-14">
           <div className="min-w-0">
             <Eyebrow className="mb-4">Đặc điểm sinh học</Eyebrow>
-            {species.pullQuote && (
+            {pullQuote && (
               <blockquote className="font-serif text-2xl leading-snug text-fg italic md:text-[34px] md:leading-[1.2]">
-                {species.pullQuote}
+                {pullQuote}
               </blockquote>
             )}
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-fg-2 md:text-lg">{species.description}</p>
@@ -150,17 +175,23 @@ export const SpeciesDetailPage: React.FC = () => {
                   notApplicable={specs.humidityNotApplicable}
                 />
               </div>
-              {species.gbifUrl && (
-                <a
-                  href={species.gbifUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between gap-3 border-t border-line pt-5 text-sm text-fg-2 transition-colors hover:text-fg"
-                >
-                  <span>Hồ sơ loài trên GBIF</span>
-                  <ExternalLink className="size-4 shrink-0" aria-hidden="true" />
-                  <span className="sr-only">(mở trong thẻ mới)</span>
-                </a>
+              {externalLinks.length > 0 && (
+                <ul className="divide-y divide-line border-t border-line">
+                  {externalLinks.map((l) => (
+                    <li key={l.label}>
+                      <a
+                        href={l.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between gap-3 py-3.5 text-sm text-fg-2 transition-colors hover:text-fg"
+                      >
+                        <span>{l.label}</span>
+                        <ExternalLink className="size-4 shrink-0" aria-hidden="true" />
+                        <span className="sr-only">(mở trong thẻ mới)</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               )}
             </Panel>
           </aside>
@@ -183,6 +214,17 @@ export const SpeciesDetailPage: React.FC = () => {
                 </span>
               </p>
             </div>
+            {!species.habitatPhotoId && portrait && (
+              <figure className="group relative h-[340px] overflow-hidden rounded-[20px] border border-line md:h-[400px]" style={{ backgroundColor: portrait.color }}>
+                <img
+                  src={portrait.src}
+                  alt={`Chân dung ${species.displayName} (${species.scientificName})`}
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+                <PhotoCredit credit={catalogCredit(portrait)} variant="hover-chip" className="top-2.5 bottom-auto" />
+              </figure>
+            )}
             {species.habitatPhotoId && (
               <figure className="relative h-[340px] overflow-hidden rounded-[20px] border border-line md:h-[400px]">
                 <Photo
@@ -201,8 +243,10 @@ export const SpeciesDetailPage: React.FC = () => {
 
         {/* 3. Mức bảo tồn */}
         <Section title="Mức bảo tồn IUCN">
-          <IucnScale currentStatus={species.conservationStatus} explanation={species.conservationNote} />
+          <IucnScale currentStatus={species.conservationStatus} explanation={species.conservationNote ?? profile?.conservationNoteVi ?? undefined} />
         </Section>
+
+        {profile && <CatalogProfile profile={profile} displayName={species.displayName} speciesIdByName={speciesIdByName} />}
 
         {/* 4. Thư viện ảnh */}
         {species.galleryPhotoIds && species.galleryPhotoIds.length > 0 && (

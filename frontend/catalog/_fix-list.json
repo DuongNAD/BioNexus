@@ -1,0 +1,2834 @@
+[
+ {
+  "file": "01-a.json",
+  "scientificName": "Correlophus ciliatus",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q1394001 = Rhacodactylus ciliatus); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "01-a.json",
+  "scientificName": "Phelsuma standingi",
+  "tasks": [
+   "ảnh portrait con vật quá nhỏ, khó thấy; thay"
+  ]
+ },
+ {
+  "file": "01-a.json",
+  "scientificName": "Gekko kuhli",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q2700890 = Ptychozoon kuhli); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "01-a.json",
+  "scientificName": "Nephrurus amyae",
+  "tasks": [
+   "có ký hiệu ♂/♀/⚡: thay bằng chữ \"đực\", \"cái\" hoặc bỏ"
+  ]
+ },
+ {
+  "file": "01-b.json",
+  "scientificName": "Furcifer lateralis",
+  "tasks": [
+   "ảnh portrait \"File:Carpet Chameleon (Furcifer lateralis) (10292845744).jpg\" đang nằm ngang (3239×2123); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "01-b.json",
+  "scientificName": "Trioceros melleri",
+  "tasks": [
+   "ảnh portrait \"File:Trioceros melleri 15147437.jpg\" đang nằm ngang (1799×1173); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "01-c.json",
+  "scientificName": "Tiliqua gigas",
+  "tasks": [
+   "ảnh portrait \"File:Tiliqua gigas Giant blue-tounged skink LoroParque IMG 6867.JPG\" đang nằm ngang (3803×2063); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "01-c.json",
+  "scientificName": "Chalcides ocellatus",
+  "tasks": [
+   "ảnh portrait \"File:Chalcides linosae.JPG\" đang nằm ngang (1434×1317); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "01-c.json",
+  "scientificName": "Egernia cunninghami",
+  "tasks": [
+   "ảnh portrait \"Monitor lizard NSW\" nghi không phải Egernia cunninghami (thằn lằn mảnh, đuôi dài); kiểm lại, sai thì thay"
+  ]
+ },
+ {
+  "file": "01-c.json",
+  "scientificName": "Uromastyx geyri",
+  "tasks": [
+   "ảnh \"File:2017-05-07 AT Wien 22 Donaustadt, Palmenhaus Hirschstetten, Uromastyx geyri (51196923450).jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "01-c.json",
+  "scientificName": "Uromastyx ocellata",
+  "tasks": [
+   "ảnh portrait \"File:Agamidae Uromastyx ocellata 1.2.jpg\" đang nằm ngang (1589×1192); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "01-d.json",
+  "scientificName": "Acanthosaura capra",
+  "tasks": [
+   "ảnh portrait \"File:Acanthosaura capra, Zoo Prague.jpg\" đang nằm ngang (1782×1516); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Pantherophis alleghaniensis",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q2998811 = Pantherophis spiloides); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Pantherophis vulpinus",
+  "tasks": [
+   "ảnh portrait \"File:Eastern Foxsnake (Pantherophis vulpinus) - 2.jpg\" đang nằm ngang (5344×3360); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Lampropeltis getula",
+  "tasks": [
+   "ảnh portrait \"File:Apalachicola Kingsnake.jpg\" đang nằm ngang (3780×1356); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Lampropeltis pyromelana",
+  "tasks": [
+   "ảnh portrait \"File:Lampropeltis pyromelana 39961908.jpg\" đang nằm ngang (1000×851); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh \"File:Berg-Königsnatter Lampropeltis pyromelana woodini Zoo Augsburg-01.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Lampropeltis nigra",
+  "tasks": [
+   "ảnh portrait \"File:Black kingsnake eating.jpg\" đang nằm ngang (2995×2719); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Lampropeltis elapsoides",
+  "tasks": [
+   "ảnh \"File:Burgers' Zoo (20190622164440).jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh portrait \"File:Burgers' Zoo (20190622164440).jpg\" đang nằm ngang (4032×3024); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh \"File:Burgers' Zoo (20190622164435).jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Burgers' Zoo (20190622164435).jpg\" đang dùng chung với Lampropeltis polyzona; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này",
+   "ảnh \"File:Lampropeltis triangulum 293880080.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Heterodon nasicus",
+  "tasks": [
+   "ảnh portrait \"File:Heterodon nasicus Zoo Amneville 28092014 2.jpg\" đang nằm ngang (1666×1486); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-a.json",
+  "scientificName": "Heterodon simus",
+  "tasks": [
+   "ảnh portrait \"File:H. Simus.jpg\" đang nằm ngang (960×819); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Thamnophis marcianus",
+  "tasks": [
+   "ảnh portrait rắn màu xanh lam, không giống hoa văn ô cờ của loài; kiểm lại, sai thì thay"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Thamnophis saurita",
+  "tasks": [
+   "ảnh \"File:Östliche-Bändernatter-022.jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Eastern ribbonsnake huntley meadows 7.20.24 DSC 3162-topaz-denoiseraw.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Ribbon snake bombay hook nwr 11.8.22 DSC 9285.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "wikidataId Q306906 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe climacophora",
+  "tasks": [
+   "wikidataId Q2562020 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe quadrivirgata",
+  "tasks": [
+   "wikidataId Q2705745 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe dione",
+  "tasks": [
+   "ảnh portrait \"File:Білокузминівка. Зелений змій..jpg\" đang nằm ngang (2816×2112); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q533192 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe carinata",
+  "tasks": [
+   "wikidataId Q716276 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe schrenckii",
+  "tasks": [
+   "ảnh portrait \"File:Colubridae - Elaphe schrenckii.JPG\" đang nằm ngang (1450×1089); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q955444 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe quatuorlineata",
+  "tasks": [
+   "wikidataId Q854499 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Elaphe sauromates",
+  "tasks": [
+   "wikidataId Q5088411 không tồn tại hoặc đã gộp; tra lại",
+   "ảnh portrait có chữ đè ở góc trên; thay"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Zamenis situla",
+  "tasks": [
+   "wikidataId Q849025 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Zamenis longissimus",
+  "tasks": [
+   "wikidataId Q256791 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Zamenis scalaris",
+  "tasks": [
+   "wikidataId Q1860532 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-b.json",
+  "scientificName": "Coelognathus radiatus",
+  "tasks": [
+   "wikidataId Q1005850 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Gonyosoma oxycephalum",
+  "tasks": [
+   "wikidataId Q47945 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Gonyosoma boulengeri",
+  "tasks": [
+   "wikidataId Q44208311 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Ahaetulla prasina",
+  "tasks": [
+   "wikidataId Q1551982 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Ahaetulla nasuta",
+  "tasks": [
+   "wikidataId Q619087 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Oxybelis aeneus",
+  "tasks": [
+   "wikidataId Q2701091 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Oxybelis fulgidus",
+  "tasks": [
+   "ảnh portrait \"File:Costa Rica 93.DSCN4412-new (31129635125).jpg\" đang nằm ngang (1200×897); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q619964 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Opheodrys aestivus",
+  "tasks": [
+   "wikidataId Q426062 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Opheodrys vernalis",
+  "tasks": [
+   "wikidataId Q945692 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Drymarchon couperi",
+  "tasks": [
+   "wikidataId Q2710665 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Drymarchon corais",
+  "tasks": [
+   "ảnh portrait \"File:Drymarchon corais 283565713.jpg\" đang nằm ngang (2048×1301); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q3014273 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Hydrodynastes gigas",
+  "tasks": [
+   "wikidataId Q431664 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "02-c.json",
+  "scientificName": "Spilotes pullatus",
+  "tasks": [
+   "wikidataId Q672263 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Centrochelys sulcata",
+  "tasks": [
+   "wikidataId Q301016 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Stigmochelys pardalis",
+  "tasks": [
+   "wikidataId Q640955 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Chelonoidis denticulatus",
+  "tasks": [
+   "wikidataId Q18867 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Chelonoidis chilensis",
+  "tasks": [
+   "wikidataId Q1074424 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Chelonoidis niger",
+  "tasks": [
+   "wikidataId Q20014035 không tồn tại hoặc đã gộp; tra lại",
+   "file ghi EX, Wikidata ghi VU (có thể do gộp cả phức hợp rùa Galápagos); kiểm lại trên iucnredlist.org"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Testudo graeca",
+  "tasks": [
+   "wikidataId Q504549 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Testudo marginata",
+  "tasks": [
+   "wikidataId Q645356 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Testudo horsfieldii",
+  "tasks": [
+   "wikidataId Q754182 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Testudo kleinmanni",
+  "tasks": [
+   "wikidataId Q253781 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Astrochelys radiata",
+  "tasks": [
+   "wikidataId Q630954 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Astrochelys yniphora",
+  "tasks": [
+   "ảnh portrait \"File:Ploughshare Tortoise (Astrochelys yniphora) (20359393031).jpg\" đang nằm ngang (824×808); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q769942 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Pyxis arachnoides",
+  "tasks": [
+   "wikidataId Q2376451 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Geochelone elegans",
+  "tasks": [
+   "wikidataId Q846461 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Indotestudo elongata",
+  "tasks": [
+   "wikidataId Q846001 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Manouria emys",
+  "tasks": [
+   "wikidataId Q900757 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Malacochersus tornieri",
+  "tasks": [
+   "wikidataId Q832357 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Kinixys homeana",
+  "tasks": [
+   "ảnh portrait \"File:Home's hinge-back tortoise (Kinixys homeana) Ghana.jpg\" đang nằm ngang (4306×2871); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q301423 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Chersina angulata",
+  "tasks": [
+   "wikidataId Q386571 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Homopus areolatus",
+  "tasks": [
+   "ảnh portrait \"File:Homopus areolatus - Nicola van Berkel - 15566627.jpeg\" đang nằm ngang (1842×1760); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q642538 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-a.json",
+  "scientificName": "Gopherus agassizii",
+  "tasks": [
+   "ảnh portrait \"File:Desert tortoise at Living Desert (49351610033).jpg\" đang nằm ngang (4500×2660); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId Q914356 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Gopherus polyphemus",
+  "tasks": [
+   "wikidataId Q914338 không tồn tại hoặc đã gộp; tra lại",
+   "file ghi CR, Wikidata ghi VU; kiểm lại trên iucnredlist.org và sửa theo IUCN"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Gopherus berlandieri",
+  "tasks": [
+   "wikidataId Q570290 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Trachemys scripta",
+  "tasks": [
+   "wikidataId Q142985 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Chrysemys picta",
+  "tasks": [
+   "wikidataId Q199203 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Pseudemys concinna",
+  "tasks": [
+   "wikidataId Q1193060 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Pseudemys nelsoni",
+  "tasks": [
+   "ảnh \"File:2017-05-13 AT Wien 22 Donaustadt, Blumengärten Hirschstetten, Pseudemys rubriventris nelsoni (51006549830).jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:2017-08-13 AT Wien 22 Donaustadt, Blumengärten Hirschstetten, Pseudemys nelsoni (48838597476).jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "wikidataId Q175696 không tồn tại hoặc đã gộp; tra lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Pseudemys rubriventris",
+  "tasks": [
+   "ảnh portrait \"File:2017-03-30 AT Wien 22 Donaustadt, Blumengärten Hirschstetten, Pseudemys rubriventris nelsoni (51686958653).jpg\" đang nằm ngang (4722×3142); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Malaclemys terrapin",
+  "tasks": [
+   "ảnh portrait \"File:A diamondback terrapin crossing NC-12 on Ocracoke Island (50123481302).jpg\" đang nằm ngang (3070×2678); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Clemmys guttata",
+  "tasks": [
+   "ảnh portrait \"File:Clemmys guttata 1zz.jpg\" đang nằm ngang (1000×667); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Emys orbicularis",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q187036 = Emys orbicularitosa); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Cuora galbinifrons",
+  "tasks": [
+   "ảnh \"File:Paignton Zoo, Indochinese box turtle 'Cuora galbinifrons', extinct in the wild - geograph.org.uk - 6874481.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Indo-Chinese.box.turtle.arp.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "03-b.json",
+  "scientificName": "Cuora mouhotii",
+  "tasks": [
+   "ảnh portrait \"File:Cuora mouhotii 88505761.jpg\" đang nằm ngang (2048×1742); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-a.json",
+  "scientificName": "Pithecopus hypochondrialis",
+  "tasks": [
+   "ảnh portrait \"File:Pithecopus hypochondrialis 63468.jpg\" đang nằm ngang (1280×960); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-a.json",
+  "scientificName": "Dryophytes japonicus",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q733704 = Hyla japonica); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "04-a.json",
+  "scientificName": "Osteopilus septentrionalis",
+  "tasks": [
+   "ảnh portrait \"File:Osteopilus septentrionalis 6.jpg\" đang nằm ngang (1510×1481); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-a.json",
+  "scientificName": "Rhacophorus reinwardtii",
+  "tasks": [
+   "ảnh \"File:Rhacophorus reinwardtii.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "04-a.json",
+  "scientificName": "Ceratophrys ornata",
+  "tasks": [
+   "ảnh portrait \"File:Argentine - horned - frog - red.jpg\" đang nằm ngang (2816×2112); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Dendrobates leucomelas",
+  "tasks": [
+   "ảnh portrait \"File:Dendrobates leucometas 1.jpg\" đang nằm ngang (2252×1952); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Oophaga histrionica",
+  "tasks": [
+   "ảnh \"File:Oophaga sylvatica 167738808.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Dendrobates histrionicus by OpenCage.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Phyllobates bicolor",
+  "tasks": [
+   "ảnh portrait \"File:Phyllobates bicolor 2zz.jpg\" đang nằm ngang (1000×884); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh \"File:Phyllobate bicolore.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Ranitomeya imitator",
+  "tasks": [
+   "ảnh portrait \"File:R. imitator Chazuta.jpg\" đang nằm ngang (1754×1240); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Ameerega trivittata",
+  "tasks": [
+   "ảnh portrait \"File:Ameerega trivittata 205253567 (cropped).jpg\" đang nằm ngang (1258×1115); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-b.json",
+  "scientificName": "Kaloula pulchra",
+  "tasks": [
+   "ảnh portrait \"File:Asian painted frog (Kaloula pulchra) from Mindanao, Philippines 3.jpg\" đang nằm ngang (1624×1472); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Hymenochirus boettgeri",
+  "tasks": [
+   "ảnh portrait \"File:Karlik01.jpg\" đang nằm ngang (1350×1344); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Rhinella marina",
+  "tasks": [
+   "ảnh portrait \"File:Aga kröte Bufo marinus.jpg\" đang nằm ngang (1024×768); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Bufo bufo",
+  "tasks": [
+   "ảnh portrait \"File:A Bufo Bufo.jpg\" đang nằm ngang (1816×1102); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Breviceps adspersus",
+  "tasks": [
+   "ảnh portrait \"File:Breviceps adspersus 112745870.jpg\" đang nằm ngang (1533×1405); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Leptodactylus pentadactylus",
+  "tasks": [
+   "ảnh portrait \"File:Bull frog (Leptodactylus pentadactylus).jpg\" đang nằm ngang (2126×1417); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-c.json",
+  "scientificName": "Lithobates catesbeianus",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q159404 = Rana catesbeiana); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Cynops pyrrhogaster",
+  "tasks": [
+   "ảnh portrait \"File:Cynops pyrrhogaster (under s3).jpg\" đang nằm ngang (2720×2400); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Triturus marmoratus",
+  "tasks": [
+   "ảnh portrait \"File:Bestiole 2012-10-05 11.42.39.jpg\" đang nằm ngang (2560×1920); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Triturus carnifex",
+  "tasks": [
+   "có ký hiệu ♂/♀/⚡: thay bằng chữ \"đực\", \"cái\" hoặc bỏ"
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Lissotriton vulgaris",
+  "tasks": [
+   "ảnh \"File:Bad Wünnenberg - 2018-04-18 - NSG Wälder bei Büren (11).jpg\" đang dùng chung với Ichthyosaura alpestris; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Lissotriton helveticus",
+  "tasks": [
+   "ảnh portrait \"File:Bad Driburg - 2017-05-06 - Sachsenweg (12).jpg\" đang nằm ngang (4000×2667); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "04-d.json",
+  "scientificName": "Pleurodeles waltl",
+  "tasks": [
+   "ảnh portrait \"File:Iberian ribbed newt (Pleurodeles waltl) at the California Academy of Sciences 02.jpg\" đang nằm ngang (4032×1960); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Trichogaster chuna",
+  "tasks": [
+   "ảnh portrait \"File:Honey gourami red variant.jpg\" đang nằm ngang (1952×1944); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Macropodus opercularis",
+  "tasks": [
+   "ảnh portrait \"File:DV Paradise fish male 03.jpg\" đang nằm ngang (2503×1800); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh hero nền cam, cá nhỏ và mờ; thay"
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Macropodus ocellatus",
+  "tasks": [
+   "ảnh portrait \"File:20240902 Macropodus ocellatus Aufsicht.jpg\" đang nằm ngang (1331×1241); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Paracheirodon simulans",
+  "tasks": [
+   "ảnh portrait \"File:Blaue Neons im Aquarium.jpg\" đang nằm ngang (1600×1385); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Hemigrammus bleheri",
+  "tasks": [
+   "ảnh portrait \"File:20080113 Aquatopia - Rivierenhof (050).jpg\" đang nằm ngang (1600×1145); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId trỏ tới tên cũ (Q883465 = Petitella bleheri); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Hyphessobrycon herbertaxelrodi",
+  "tasks": [
+   "ảnh portrait \"File:02.Hyphessobrycon herbertaxelrodi.JPG\" đang nằm ngang (1119×704); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Hyphessobrycon erythrostigma",
+  "tasks": [
+   "ảnh portrait \"File:Hyphessobrycon erythrostigma - 20090109.jpeg\" đang nằm ngang (1149×862); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-a.json",
+  "scientificName": "Hyphessobrycon amandae",
+  "tasks": [
+   "ảnh portrait \"File:Funkensalmler Feuertetra oder Feuersalmler Hyphessobrycon amandae.JPG\" đang nằm ngang (2282×2167); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh \"File:Aquarium Tropical Palais Porte Dorée - Paris XII (FR75) - 2021-06-26 - 24.jpg\" đang dùng chung với Paracheirodon simulans; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Inpaichthys kerri",
+  "tasks": [
+   "ảnh \"File:Amazon fish, Inpaichthys kerri (15756184036).jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Hane av kerritetra Inpaichthys kerri.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Trigonostigma espei",
+  "tasks": [
+   "ảnh portrait \"File:Pc081034.jpeg\" đang nằm ngang (2476×2172); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Puntigrus tetrazona",
+  "tasks": [
+   "ảnh portrait \"File:Puntius tetrazona (Tiger Barb) (02) 05May2010.JPG\" đang nằm ngang (2123×1873); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId trỏ tới tên cũ (Q729207 = Puntius tetrazona); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Pethia conchonius",
+  "tasks": [
+   "ảnh \"File:1 Rosy barb (Pethia conchonius) near 3 bronze corydoras (Corydoras aeneus) in a fish tank.jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Sahyadria denisonii",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q247277 = Puntius denisonii); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "05-b.json",
+  "scientificName": "Botia striata",
+  "tasks": [
+   "ảnh \"File:環纹鼠 Botia striata - panoramio.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Poecilia wingei",
+  "tasks": [
+   "ảnh portrait \"File:Endlers Guppy Poecilia wingei.JPG\" đang nằm ngang (2282×2167); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Epiplatys annulatus",
+  "tasks": [
+   "ảnh \"File:Clown killi.png\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Mikrogeophagus ramirezi",
+  "tasks": [
+   "ảnh portrait \"File:Mikrogeophagus ramirezi female.jpg\" đang nằm ngang (3456×2940); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Apistogramma cacatuoides",
+  "tasks": [
+   "ảnh portrait \"File:Apistogramma Cacatuoides Male and Female.jpg\" đang nằm ngang (2145×2022); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Apistogramma agassizii",
+  "tasks": [
+   "ảnh portrait \"File:Apistogramma agassizii (Wroclaw zoo)-2.JPG\" đang nằm ngang (2592×1944); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Andinoacara pulcher",
+  "tasks": [
+   "ảnh portrait \"File:The Electric Blue Acara (Andinoacara pulcher, electric blue morph).jpg\" đang nằm ngang (1740×1725); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-c.json",
+  "scientificName": "Corydoras aeneus",
+  "tasks": [
+   "ảnh \"File:1 Rosy barb (Pethia conchonius) near 3 bronze corydoras (Corydoras aeneus) in a fish tank.jpg\" đang dùng chung với Pethia conchonius; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này",
+   "ảnh \"File:Comunidad acuario.JPG\" đang dùng chung với Paracheirodon innesi; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Glossolepis incisus",
+  "tasks": [
+   "ảnh portrait \"File:GlossolepisIncisus.JPG\" đang nằm ngang (1372×1229); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Carinotetraodon travancoricus",
+  "tasks": [
+   "ảnh portrait \"File:Carinotetraodon travancoricus 1.JPG\" đang nằm ngang (1065×710); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Polypterus senegalus",
+  "tasks": [
+   "có ký hiệu ♂/♀/⚡: thay bằng chữ \"đực\", \"cái\" hoặc bỏ",
+   "ảnh portrait \"File:Polypterus senegalus senegalus headstand.jpg\" đang nằm ngang (870×860); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Erpetoichthys calabaricus",
+  "tasks": [
+   "ảnh portrait \"File:Erpetoichthys calabaricus 02.jpg\" đang nằm ngang (1847×1774); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Scleropages formosus",
+  "tasks": [
+   "ảnh portrait \"File:Aquarium fish 2.jpg\" đang nằm ngang (1600×1200); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Osteoglossum bicirrhosum",
+  "tasks": [
+   "ảnh portrait \"File:Baltimore Aquarium - Silver arowana - 1.jpg\" đang nằm ngang (2098×1962); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "05-d.json",
+  "scientificName": "Pangasianodon hypophthalmus",
+  "tasks": [
+   "ảnh portrait chụp nước đục, không thấy rõ cá; thay"
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Brachypelma hamorii",
+  "tasks": [
+   "ảnh \"File:Brachypelma smithi 2009 G09.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:ParcPhoenixVivarium.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:B-smithi.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Brachypelma emilia",
+  "tasks": [
+   "ảnh portrait \"File:Brachypelma Emilia, Kusonóżka Emilii.jpg\" đang nằm ngang (3686×3194); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Brachypelma auratum",
+  "tasks": [
+   "ảnh portrait \"File:Brachypelma auratum kiel.png\" đang nằm ngang (974×882); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh \"File:Brachypelma smithi 2009 G01.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Brachypelma smithi 2009 G01.jpg\" đang dùng chung với Brachypelma smithi; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Brachypelma klaasi",
+  "tasks": [
+   "ảnh portrait \"File:Brachypelma klaasi 2009 G11.jpg\" đang nằm ngang (2700×2590); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Cambarellus puer",
+  "tasks": [
+   "ảnh portrait \"File:Cambarellus puer 13203074.jpg\" đang nằm ngang (2048×2002); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-a.json",
+  "scientificName": "Austropotamobius torrentium",
+  "tasks": [
+   "Wikidata ghi IUCN là DD (thiếu dữ liệu); database không nhận DD. Kiểm lại trên iucnredlist.org: nếu đúng DD thì xoá loài này khỏi file và thêm một loài khác cùng nhóm đạt chuẩn"
+  ]
+ },
+ {
+  "file": "06-b.json",
+  "scientificName": "Macrobrachium rosenbergii",
+  "tasks": [
+   "ảnh portrait \"File:Machrobrachium rosenbergii.jpg\" đang nằm ngang (3072×2048); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-b.json",
+  "scientificName": "Theodoxus fluviatilis",
+  "tasks": [
+   "ảnh portrait \"File:Theodoxus fluviatilis Mollusque eau douce Charente 2.JPG\" đang nằm ngang (1424×1286); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-b.json",
+  "scientificName": "Viviparus viviparus",
+  "tasks": [
+   "ảnh portrait \"File:20180917Viviparus viviparus2.jpg\" đang nằm ngang (2000×1500); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-b.json",
+  "scientificName": "Helix pomatia",
+  "tasks": [
+   "ảnh portrait \"File:2011-07-02 Weinbergschnecke Helix pomatia Kühlungsborn.jpg\" đang nằm ngang (2816×2112); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "06-b.json",
+  "scientificName": "Unio pictorum",
+  "tasks": [
+   "ảnh portrait \"File:Korýtka maliarske, Ružiná 2019.jpg\" đang nằm ngang (2560×1920); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "07-a.json",
+  "scientificName": "Nepenthes fusca",
+  "tasks": [
+   "ảnh \"File:Nepenthes burbidgeae x Nepenthes fusca.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-a.json",
+  "scientificName": "Nepenthes burbidgeae",
+  "tasks": [
+   "ảnh \"File:Nepenthes burbidgeae x Nepenthes fusca.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Nepenthes burbidgeae x Nepenthes fusca.jpg\" đang dùng chung với Nepenthes fusca; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "07-a.json",
+  "scientificName": "Nepenthes hamata",
+  "tasks": [
+   "ảnh \"File:NepSulawesi1.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-b.json",
+  "scientificName": "Nepenthes distillatoria",
+  "tasks": [
+   "ảnh \"File:Common swamp pitcher plant.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Common swamp pitcher plant.jpg\" đang dùng chung với Nepenthes mirabilis; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này",
+   "ảnh \"File:Pitcher Plant in Sri Lanka.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-b.json",
+  "scientificName": "Nepenthes spectabilis",
+  "tasks": [
+   "ảnh \"File:Nepenthes 'Helen'.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-b.json",
+  "scientificName": "Nepenthes vieillardii",
+  "tasks": [
+   "ảnh \"File:Nepenthes carunculata lower pitchers.jpg\" đang dùng chung với Nepenthes bongso; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này",
+   "ảnh \"File:Nepenthes carunculata upper pitcher.jpg\" đang dùng chung với Nepenthes bongso; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này",
+   "ảnh \"File:Nepenthes bongso.jpg\" đang dùng chung với Nepenthes bongso; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "07-c.json",
+  "scientificName": "Cephalotus follicularis",
+  "tasks": [
+   "wikidataId trỏ tới tên cũ (Q2181577 = Cephalotus); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "07-c.json",
+  "scientificName": "Drosera prolifera",
+  "tasks": [
+   "ảnh \"File:Drosera prolifera-1-JNTBGRI-palode-kerala-India.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-c.json",
+  "scientificName": "Drosera gigantea",
+  "tasks": [
+   "ảnh \"File:(Drosera gigantea close-up in Cannington, Australia) - DPLA - f353410e4f1540d7a4a76a614c2655a2.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "07-c.json",
+  "scientificName": "Utricularia aurea",
+  "tasks": [
+   "ảnh portrait màu bị bệt (posterize); thay"
+  ]
+ },
+ {
+  "file": "07-c.json",
+  "scientificName": "Utricularia vulgaris",
+  "tasks": [
+   "ảnh portrait mờ, đục; thay"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum delenatii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum rothschildianum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum sanderianum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum callosum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum sukhakulii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum niveum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum bellatulum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:PaphiopedilumBellatulum-TorontoOrchidShow-April11-09.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Paphiopedilum bellatulum.jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum concolor",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum armeniacum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Paphiopedilum Pinocchio Hsinying x Paphiopedilum armeniacum 0zz.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum micranthum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum malipoense",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum insigne",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum villosum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum spicerianum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum lowii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Paphiopedilum philippinense",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Phragmipedium besseae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Phragmipedium caudatum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Cypripedium calceolus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-a.json",
+  "scientificName": "Cypripedium reginae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Cypripedium acaule",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh hero chỉ có một chiếc lá; thay bằng ảnh có hoa"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Cypripedium parviflorum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Vanilla planifolia",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Cattleya jongheana",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Dendrobium aphyllum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Astrophytum asterias",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Astrophytum myriostigma",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Astrophytum capricorne",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Astrophytum ornatum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Astrophytum caput-medusae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Lophophora williamsii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Lophophora diffusa",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ariocarpus retusus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ariocarpus fissuratus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ariocarpus kotschoubeyanus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Ariocarpus seedlings (6072547143).jpg\" đang dùng chung với Ariocarpus fissuratus; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ariocarpus trigonus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Ariocarpus seedlings (6072547143).jpg\" đang dùng chung với Ariocarpus fissuratus; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ariocarpus agavoides",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Echinocactus platyacanthus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Echinocactus horizonthalonius",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-b.json",
+  "scientificName": "Ferocactus latispinus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Ferocactus wislizeni",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Ferocactus cylindraceus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Carnegiea gigantea",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Cephalocereus senilis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria plumosa",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria hahniana",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria elongata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria bombycina",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria herrerae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Mammillaria albiflora in habitat.jpg\" (habitat) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Mammillaria albiflora .jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Mammillaria luethyi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Gymnocalycium mihanovichii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Gymnocalycium baldianum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Gymnocalycium saglionis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Balchik Botanical Garden 2017 113.jpg\" đang dùng chung với Gymnocalycium baldianum; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Copiapoa cinerea",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Melocactus matanzanus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Obregonia denegrii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "wikidataId trỏ tới tên cũ (Q8181488 = Obregonia); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Pelecyphora aselliformis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Leuchtenbergia principis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "wikidataId trỏ tới tên cũ (Q8179748 = Leuchtenbergia); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Opuntia microdasys",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-c.json",
+  "scientificName": "Schlumbergera truncata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Epiphyllum oxypetalum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Rhipsalis baccifera",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Aloe arborescens",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Euphorbia milii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Euphorbia decaryi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Euphorbia decaryi 8861.jpg\" đang nằm ngang (3008×2000); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Pachypodium lamerei",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Pachypodium geayi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Pachypodium brevicaule",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Adansonia grandidieri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Adansonia za",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Beaucarnea recurvata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Agave victoriae-reginae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "08-d.json",
+  "scientificName": "Agave americana",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Pygathrix nemaeus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Pygathrix nigripes",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Trachypithecus delacouri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Trachypithecus poliocephalus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Trachypithecus francoisi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Trachypithecus germaini",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Nomascus leucogenys",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Nomascus gabriellae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Nycticebus pygmaeus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Nycticebus pygmaeus 003.jpg\" đang nằm ngang (1599×1100); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId trỏ tới tên cũ (Q111446938 = Xanthonycticebus pygmaeus); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Nycticebus bengalensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Macaca arctoides",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Macaca leonina",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Macaca assamensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Tragulus kanchil",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Rusa unicolor",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Bos javanicus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Banteng at Alas Purwo.jpg\" đang nằm ngang (1024×681); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Capricornis milneedwardsii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Serow Capricornis sumatraensis.JPG\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Serow in korat zoo.jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Sumatran Serow (Capricornis sumatraensis), December 2006.JPG\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "wikidataId trỏ tới tên cũ (Q431337 = Capricornis sumatraensis); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Elephas maximus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "có ký hiệu ♂/♀/⚡: thay bằng chữ \"đực\", \"cái\" hoặc bỏ"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Manis javanica",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-a.json",
+  "scientificName": "Manis pentadactyla",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Manis pentadactyla pentadactyla 462300623.jpg\" đang nằm ngang (2048×1367); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Arctictis binturong",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Catopuma temminckii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "wikidataId trỏ tới tên cũ (Q192233 = Pardofelis temminckii); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Pardofelis marmorata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Pardofelis marmorata 437781601.jpg\" đang nằm ngang (2048×1152); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Prionailurus viverrinus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Prionailurus bengalensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Prionailurus bengalensis 544774621.jpg\" đang nằm ngang (2048×1536); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Neofelis nebulosa",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Borneo clouded leopard.jpg\" (habitat) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Helarctos malayanus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Ursus thibetanus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Cuon alpinus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Cuon alpinus 166929821.jpg\" đang nằm ngang (2034×1786); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Lutrogale perspicillata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Smooth-coated Otter (13970797279).jpg\" đang nằm ngang (2048×1536); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Ratufa bicolor",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Petaurista philippensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Lophura edwardsi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Lophura nycthemera",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Captive silver pheasant cock bird in Daegot.jpg\" đang nằm ngang (4608×3456); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Lophura diardi",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Polyplectron bicalcaratum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Polyplectron bicalcaratum -Birmingham Nature Centre, England-8a.jpg\" đang nằm ngang (3192×2796); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Pavo muticus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Buceros bicornis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Aceros nipalensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-b.json",
+  "scientificName": "Anthracoceros albirostris",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Grus antigone",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Chim Hạc ở Vườn Quốc Gia Tràm Chim.jpg\" đang nằm ngang (2960×1844); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "wikidataId trỏ tới tên cũ (Q28114126 = Antigone antigone); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Leptoptilos javanicus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Mycteria leucocephala",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Platalea minor",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Houbaropsis bengalensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Pitta nympha",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Cissa hypoleuca",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Cissa hypoleucor concolor qtl1.jpg\" đang nằm ngang (2546×2343); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Ophiophagus hannah",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Naja atra",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Bungarus fasciatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Bungarus multicinctus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Protobothrops cornutus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Glyptostrobus pensilis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Fokienia hodginsii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "wikidataId trỏ tới tên cũ (Q13060340 = Fokienia); không có mục mới thì giữ nguyên, chỉ kiểm lại"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Calocedrus macrolepis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Calocedrus macrolepis var formosana3.jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Calocedrus macrolepis var formosana1.jpg\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Taiwania cryptomerioides",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Pinus krempfii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Taxus wallichiana",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Taxus chinensis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "09-c.json",
+  "scientificName": "Cephalotaxus mannii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Melopsittacus undulatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Budgerigar 3 (20126648588).jpg\" đang nằm ngang (2052×2044); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Nymphicus hollandicus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Agapornis roseicollis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Agapornis fischeri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Agapornis personatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Agapornis lilianae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Agapornis nigrigenis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Agapornis nigrigenis & Lamprotornis superbus (54906517264).jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Pyrrhura molinae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:130 Rotschwanzsittich (Walsrode 1982) (15765357325).jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Pyrrhura perlata",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Pyrrhura frontalis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Aratinga solstitialis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Aratinga jandaya",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Myiopsitta monachus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Forpus coelestis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Bolborhynchus lineola",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Brotogeris chiriri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Pionites melanocephalus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Pionites leucogaster",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Poicephalus senegalus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-a.json",
+  "scientificName": "Poicephalus meyeri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Psittacus erithacus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Psittacula krameri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Psittacula eupatria",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Psittacula alexandri",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Psittacula cyanocephala",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Eclectus roratus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "có ký hiệu ♂/♀/⚡: thay bằng chữ \"đực\", \"cái\" hoặc bỏ",
+   "ảnh \"File:Eclectus roratus - Maroparque 04.jpg\" (hero) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài",
+   "ảnh \"File:Eclectus Parrot.JPG\" (gallery) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Ara ararauna",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Ara chloropterus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Ara macao",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Ara severus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Diopsittaca nobilis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Anodorhynchus hyacinthinus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Cacatua galerita",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "10-b.json",
+  "scientificName": "Cacatua sulphurea",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Cacatua sulphurea 107996448.jpg\" đang nằm ngang (2048×1681); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion ocellaris",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Amphiprion ocellaris 482369925.jpg\" đang nằm ngang (1322×1151); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion percula",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion clarkii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion frenatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion perideraion",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion sandaracinos",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion polymnus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion sebae",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion melanopus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion ephippium",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Amphiprion ephippium 340634461.jpg\" đang nằm ngang (1605×1482); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion akallopisos",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Amphiprion bicinctus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Premnas biaculeatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Chromis viridis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Acquario civico (Civic Aquarium) - Milan - 002.JPG\" đang dùng chung với Amphiprion clarkii; ảnh có nhiều loài thì bỏ, thay ảnh chỉ có loài này"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Chrysiptera parasema",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Blue Fish (8030224092).jpg\" đang nằm ngang (1800×1756); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Chrysiptera hemicyanea",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Chrysiptera hemicyanea Azure Damsel right.jpg\" đang nằm ngang (938×819); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Dascyllus aruanus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Dascyllus trimaculatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Paracanthurus hepatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-a.json",
+  "scientificName": "Zebrasoma flavescens",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Zebrasoma xanthurum",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Zebrasoma scopas",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Zebrasoma desjardinii",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus leucosternon",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Acanthurus leucosternon - 5317.jpg\" đang nằm ngang (2926×2656); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus lineatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus achilles",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Acanthurus achilles (cropped).jpg\" đang nằm ngang (1100×1045); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus triostegus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus olivaceus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus pyroferus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Acanthurus sohal",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:Acanthurus sohal - Arabischer Doktorfisch- Аравийская рыба-хирург DSCF8107WI.jpg\" đang nằm ngang (3278×2865); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Naso lituratus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Naso elegans",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Zanclus cornutus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Centropyge bispinosa",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh \"File:Corl0393 (27832135160).jpg\" (portrait) không thuộc thể loại Commons của loài này; thay ảnh khác đúng loài"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Centropyge bicolor",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Pomacanthus imperator",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:20090426 Parc Paradisio (0305).jpg\" đang nằm ngang (1600×1200); tìm ảnh dọc, không có thì đổi role thành \"gallery\"",
+   "ảnh hero là cảnh bể cá chung, không thấy rõ cá thiên thần hoàng đế; thay ảnh hero"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Pomacanthus semicirculatus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật",
+   "ảnh portrait \"File:KoranAngel1.jpg\" đang nằm ngang (1804×1681); tìm ảnh dọc, không có thì đổi role thành \"gallery\""
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Pomacanthus xanthometopon",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Pomacanthus annularis",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-b.json",
+  "scientificName": "Pygoplites diacanthus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-c.json",
+  "scientificName": "Chelmon rostratus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-c.json",
+  "scientificName": "Forcipiger flavissimus",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-c.json",
+  "scientificName": "Chaetodon auriga",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ },
+ {
+  "file": "11-c.json",
+  "scientificName": "Chaetodon lunula",
+  "tasks": [
+   "commonNameVi đang rỗng: điền tên tiếng Việt (tên phổ biến hoặc dịch nghĩa tên tiếng Anh cho tự nhiên, ví dụ \"Cá thiên thần hoàng đế\")",
+   "pullQuoteVi đang rỗng: viết 1 câu gây tò mò, đúng sự thật"
+  ]
+ }
+]

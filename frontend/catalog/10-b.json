@@ -1,0 +1,2537 @@
+[
+  {
+    "scientificName": "Psittacus erithacus",
+    "commonNameVi": "Vẹt xám châu Phi",
+    "commonNameEn": "Grey Parrot",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Xám châu Phi (Psittacus)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/22724813/154428817",
+    "gbifKey": 2480181,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp nguyên sinh và rừng ngập nước lưu vực sông Congo độ cao 0–1.800 m"
+    },
+    "descriptionVi": "Trí tuệ kiệt xuất bậc nhất thế giới loài chim, có khả năng nhận thức khái niệm màu sắc, hình khối, con số và giao tiếp ngôn ngữ tương đương trẻ nhỏ 4–5 tuổi.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và được nâng lên Phụ lục I CITES từ năm 2016 để bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Chú vẹt xám nổi tiếng Alex trong nghiên cứu 30 năm của Tiến sĩ Irene Pepperberg tại Đại học Harvard không chỉ thuộc hơn 100 từ mà còn hiểu khái niệm số 0 và đặt câu hỏi về màu sắc của chính mình.",
+    "dietVi": "Ăn quả cọ dầu châu Phi, hạt rừng, quả mọng, chồi non và đất sét khoáng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Nam Ghana",
+      "lat": 5.56,
+      "lng": -0.2
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q220328",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_x%C3%A1m_ch%C3%A2u_Phi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Grey_parrot",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 33,
+      "lengthCmMax": 35,
+      "weightGMin": 400,
+      "weightGMax": 500,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông màu xám bạc перелив xếp vảy tinh tế tương phản với chiếc đuôi ngắn màu đỏ tươi rực rỡ"
+    },
+    "distribution": {
+      "countries": [
+        "GH",
+        "NG",
+        "CM",
+        "CD",
+        "UG",
+        "KE"
+      ],
+      "nativeRangeVi": "Đới rừng mưa xích đạo Trung và Tây Phi từ Bờ Biển Ngà tới tây Kenya",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Trí tuệ kiệt xuất bậc nhất thế giới loài chim, có khả năng nhận thức khái niệm màu sắc, hình khối, con số và giao tiếp ngôn ngữ tương đương trẻ nhỏ 4–5 tuổi. Đặc điểm nhận dạng: Bộ lông màu xám bạc перелив xếp vảy tinh tế tương phản với chiếc đuôi ngắn màu đỏ tươi rực rỡ.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chú vẹt xám nổi tiếng Alex trong nghiên cứu 30 năm của Tiến sĩ Irene Pepperberg tại Đại học Harvard không chỉ thuộc hơn 100 từ mà còn hiểu khái niệm số 0 và đặt câu hỏi về màu sắc của chính mình.",
+      "Đặc điểm hình thái nổi bật: Bộ lông màu xám bạc перелив xếp vảy tinh tế tương phản với chiếc đuôi ngắn màu đỏ tươi rực rỡ."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES được bảo vệ nghiêm ngặt trên toàn cầu; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Congo Grey 04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Congo_Grey_04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Congo_Grey_04.jpg",
+        "width": 5712,
+        "height": 4284,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bloopityboop",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Psittacus erithacus 110514888.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Psittacus_erithacus_110514888.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Psittacus_erithacus_110514888.jpg",
+        "width": 1553,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Morten Ross",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:African grey parrot (psttacus erithacus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_grey_parrot_(psttacus_erithacus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/African_grey_parrot_%28psttacus_erithacus%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "RIDH-1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Congo grey in parrot cafe - South Korea (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Congo_grey_in_parrot_cafe_-_South_Korea_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Congo_grey_in_parrot_cafe_-_South_Korea_%281%29.jpg",
+        "width": 4080,
+        "height": 3060,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Drcbrothephotographer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Perroquet à Yampopo Beach - Douala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
+        "width": 3664,
+        "height": 2062,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Florettesokeng",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2480181",
+      "https://www.iucnredlist.org/species/22724813/154428817",
+      "https://en.wikipedia.org/wiki/Grey_parrot",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_x%C3%A1m_ch%C3%A2u_Phi"
+    ]
+  },
+  {
+    "scientificName": "Psittacula krameri",
+    "commonNameVi": "Vẹt đuôi dài cổ khoang",
+    "commonNameEn": "Rose-ringed parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt cổ hồng (Psittacula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685441/264075173",
+    "gbifKey": 2479226,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thưa, công viên cây xanh, vườn cây ăn quả và vùng đồng bằng độ cao 0–1.600 m"
+    },
+    "descriptionVi": "Loài vẹt cổ điển được nuôi làm cảnh từ thời cổ đại Ấn Độ và Hy Lạp - La Mã, nổi tiếng với giọng nói trong trẻo và các biến thể màu lam, vàng, trắng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và không thuộc danh mục hạn chế của CITES.",
+    "pullQuoteVi": "Chỉ chim trống trưởng thành trên 18–24 tháng tuổi mới xuất hiện chiếc vòng cổ kép màu đen viền hồng cánh sen quý phái quanh cổ.",
+    "dietVi": "Ăn trái cây chín, ngũ cốc, hạt hướng dương, nụ hoa và rau củ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Alexandrinus krameri",
+      "Paleornis torquatus",
+      "Psittacus krameri"
+    ],
+    "wikidataId": "Q208060",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_c%E1%BB%95_h%E1%BB%93ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rose-ringed_parakeet",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 38,
+      "lengthCmMax": 42,
+      "weightGMin": 115,
+      "weightGMax": 140,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông xanh lục mượt mà với chiếc đuôi dài thon và vòng dây chuyền đen - hồng tuyệt đẹp quanh cổ chim trống"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "LK",
+        "PK",
+        "MM",
+        "SN",
+        "UG"
+      ],
+      "nativeRangeVi": "Bản địa Nam Á và vành đai Sahel châu Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt cổ điển được nuôi làm cảnh từ thời cổ đại Ấn Độ và Hy Lạp - La Mã, nổi tiếng với giọng nói trong trẻo và các biến thể màu lam, vàng, trắng. Đặc điểm nhận dạng: Bộ lông xanh lục mượt mà với chiếc đuôi dài thon và vòng dây chuyền đen - hồng tuyệt đẹp quanh cổ chim trống.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chỉ chim trống trưởng thành trên 18–24 tháng tuổi mới xuất hiện chiếc vòng cổ kép màu đen viền hồng cánh sen quý phái quanh cổ.",
+      "Đặc điểm hình thái nổi bật: Bộ lông xanh lục mượt mà với chiếc đuôi dài thon và vòng dây chuyền đen - hồng tuyệt đẹp quanh cổ chim trống."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 15–35°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn trái cây chín, ngũ cốc, hạt hướng dương, nụ hoa và rau củ. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Cổ Hồng (Vẹt Ringneck Ấn Độ) (Psittacula krameri) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1800000,
+        "descriptionVi": "Chim non Vẹt Cổ Hồng (Vẹt Ringneck Ấn Độ) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:8502066E.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:8502066E.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/8502066E.jpg",
+        "width": 8255,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ice73in",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2015 in delhi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2015_in_delhi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/2015_in_delhi.jpg",
+        "width": 3864,
+        "height": 5152,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JBpie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Beautiful parrots.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beautiful_parrots.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Beautiful_parrots.jpg",
+        "width": 4830,
+        "height": 3618,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ulas koksal1",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2 Parrots.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2_Parrots.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/2_Parrots.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Georgekthomasmani",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Amorous parakeets.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amorous_parakeets.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Amorous_parakeets.jpg",
+        "width": 5000,
+        "height": 4000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Nagarjun",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479226",
+      "https://www.iucnredlist.org/species/22685441/264075173",
+      "https://en.wikipedia.org/wiki/Rose-ringed_parakeet",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_c%E1%BB%95_h%E1%BB%93ng"
+    ]
+  },
+  {
+    "scientificName": "Psittacula eupatria",
+    "commonNameVi": "Vẹt lớn",
+    "commonNameEn": "Alexandrine parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt cổ hồng (Psittacula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685434/241494588",
+    "gbifKey": 5229055,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khộp rụng lá, rừng khô ven biển và rừng ngập mặn độ cao 0–900 m"
+    },
+    "descriptionVi": "Loài vẹt bản địa có kích thước lớn nhất tại Việt Nam, dễ dàng phân biệt với Vẹt Cổ Hồng nhờ mảng phù hiệu màu đỏ tía nổi bật trên hai bờ vai.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu theo IUCN, thuộc Phụ lục II CITES và Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Tên tiếng Anh 'Alexandrine Parakeet' gắn liền với Hoàng đế Alexander Đại đế — người đã đưa loài vẹt quý này từ vùng Punjab (Ấn Độ) về giới quý tộc Địa Trung Hải vào thế kỷ IV TCN.",
+    "dietVi": "Ăn quả rừng, hạt cây họ Dầu, ngô, ổi và chồi non",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Palaeornis eupatria",
+      "Psittacus eupatria"
+    ],
+    "wikidataId": "Q753746",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_m%C3%A1_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Alexandrine_parakeet",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 62,
+      "weightGMin": 200,
+      "weightGMax": 300,
+      "heightCmMax": null,
+      "noteVi": "Loài lớn nhất chi Psittacula với chiếc mỏ đỏ lớn, vòng cổ đen - hồng và mảng lông màu đỏ rượu vang trên vai cánh"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "KH",
+        "LA",
+        "TH",
+        "MM",
+        "IN",
+        "LK"
+      ],
+      "nativeRangeVi": "Nam Á và Đông Nam Á lục địa (tại Việt Nam phân bố ở rừng khộp Tây Nguyên và Nam Bộ)",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt bản địa có kích thước lớn nhất tại Việt Nam, dễ dàng phân biệt với Vẹt Cổ Hồng nhờ mảng phù hiệu màu đỏ tía nổi bật trên hai bờ vai. Đặc điểm nhận dạng: Loài lớn nhất chi Psittacula với chiếc mỏ đỏ lớn, vòng cổ đen - hồng và mảng lông màu đỏ rượu vang trên vai cánh.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Tên tiếng Anh 'Alexandrine Parakeet' gắn liền với Hoàng đế Alexander Đại đế — người đã đưa loài vẹt quý này từ vùng Punjab (Ấn Độ) về giới quý tộc Địa Trung Hải vào thế kỷ IV TCN.",
+      "Đặc điểm hình thái nổi bật: Loài lớn nhất chi Psittacula với chiếc mỏ đỏ lớn, vòng cổ đen - hồng và mảng lông màu đỏ rượu vang trên vai cánh."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–35°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả rừng, hạt cây họ Dầu, ngô, ổi và chồi non. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Má Vàng (Vẹt Alexandrine) (Psittacula eupatria) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 3200000,
+        "descriptionVi": "Chim non Vẹt Má Vàng (Vẹt Alexandrine) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A flight to impress.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_flight_to_impress.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_flight_to_impress.jpg",
+        "width": 6000,
+        "height": 3375,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "DrRohithgurugubelli",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Alexandrine Parakeet Psittacula eupatria, Nepal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexandrine_Parakeet_Psittacula_eupatria,_Nepal.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Alexandrine_Parakeet_Psittacula_eupatria%2C_Nepal.jpg",
+        "width": 2615,
+        "height": 3922,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nrik kiran",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Alexandrine Parakeet at Saltlake Kolkata, West Bengal, INDIA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexandrine_Parakeet_at_Saltlake_Kolkata,_West_Bengal,_INDIA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Alexandrine_Parakeet_at_Saltlake_Kolkata%2C_West_Bengal%2C_INDIA.jpg",
+        "width": 1600,
+        "height": 950,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "sumanta pramanick",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A team of alexandrine parakeet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_team_of_alexandrine_parakeet.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/A_team_of_alexandrine_parakeet.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "mainak pal",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Alexandrine parakeet (Psittacula eupatria) 2024.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alexandrine_parakeet_(Psittacula_eupatria)_2024.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Alexandrine_parakeet_%28Psittacula_eupatria%29_2024.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Nirmal Dulal",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5229055",
+      "https://www.iucnredlist.org/species/22685434/241494588",
+      "https://en.wikipedia.org/wiki/Alexandrine_parakeet",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_m%C3%A1_v%C3%A0ng"
+    ]
+  },
+  {
+    "scientificName": "Psittacula alexandri",
+    "commonNameVi": "Vẹt ngực đỏ",
+    "commonNameEn": "Red-breasted Parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt cổ hồng (Psittacula)"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685505/261477056",
+    "gbifKey": 5229045,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh đất thấp, rừng khộp, rừng tràm và vùng trung du độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Loài vẹt quen thuộc nhất trong văn hóa dân gian Việt Nam ('Con két ăn trái ổi tàu') với bộ ngực hồng đỏ và cặp ria mép đen ngộ nghĩnh.",
+    "conservationNoteVi": "Đánh giá mức Sắp bị đe dọa (NT) trên Sách Đỏ IUCN, thuộc Phụ lục II CITES và Nhóm IIB quản lý bảo vệ tại Việt Nam.",
+    "pullQuoteVi": "Có thể phân biệt giới tính của Vẹt Ngực Đỏ trưởng thành ngay từ xa: chim trống có chiếc mỏ trên màu đỏ san hô rực rỡ, trong khi chim mái có toàn bộ chiếc mỏ màu đen bóng.",
+    "dietVi": "Ăn quả rừng chín (sung, đa, ổi), hạt ngũ cốc, mật hoa gạo và chồi lá",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus alexandri"
+    ],
+    "wikidataId": "Q682379",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_ng%E1%BB%B1c_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red-breasted_parakeet",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 33,
+      "lengthCmMax": 38,
+      "weightGMin": 130,
+      "weightGMax": 170,
+      "heightCmMax": null,
+      "noteVi": "Đầu màu xám tím lavender có bộ ria đen đậm hai bên cằm và phần ngực màu hồng đỏ cá hồi"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "IN",
+        "ID"
+      ],
+      "nativeRangeVi": "Từ chân dãy Himalaya qua khắp Việt Nam và Đông Nam Á tới đảo Java",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt quen thuộc nhất trong văn hóa dân gian Việt Nam ('Con két ăn trái ổi tàu') với bộ ngực hồng đỏ và cặp ria mép đen ngộ nghĩnh. Đặc điểm nhận dạng: Đầu màu xám tím lavender có bộ ria đen đậm hai bên cằm và phần ngực màu hồng đỏ cá hồi.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Có thể phân biệt giới tính của Vẹt Ngực Đỏ trưởng thành ngay từ xa: chim trống có chiếc mỏ trên màu đỏ san hô rực rỡ, trong khi chim mái có toàn bộ chiếc mỏ màu đen bóng.",
+      "Đặc điểm hình thái nổi bật: Đầu màu xám tím lavender có bộ ria đen đậm hai bên cằm và phần ngực màu hồng đỏ cá hồi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–35°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả rừng chín (sung, đa, ổi), hạt ngũ cốc, mật hoa gạo và chồi lá. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Ngực Đỏ (Psittacula alexandri) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 1200000,
+        "descriptionVi": "Chim non Vẹt Ngực Đỏ sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Betet biasa (Psittacula alexandri).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Betet_biasa_(Psittacula_alexandri).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Betet_biasa_%28Psittacula_alexandri%29.jpg",
+        "width": 7200,
+        "height": 4800,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "A.Baihaqi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Red Breasted Parakeet Psittacula alexandri fasciata (Statius Muller, 1776) (8357935708).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_Breasted_Parakeet_Psittacula_alexandri_fasciata_(Statius_Muller,_1776)_(8357935708).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Red_Breasted_Parakeet_Psittacula_alexandri_fasciata_%28Statius_Muller%2C_1776%29_%288357935708%29.jpg",
+        "width": 1166,
+        "height": 1599,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Len Worthington",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Red-breasted Parakeet feeding on fruit 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red-breasted_Parakeet_feeding_on_fruit_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Red-breasted_Parakeet_feeding_on_fruit_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gannu03",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Betet biasa 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Betet_biasa_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Betet_biasa_2.jpg",
+        "width": 4237,
+        "height": 2825,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AryoMaheswaraaa",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Red Breasted Parakeet Facts 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_Breasted_Parakeet_Facts_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Red_Breasted_Parakeet_Facts_01.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Shiv's fotografia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5229045",
+      "https://www.iucnredlist.org/species/22685505/261477056",
+      "https://en.wikipedia.org/wiki/Red-breasted_parakeet",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_ng%E1%BB%B1c_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Psittacula cyanocephala",
+    "commonNameVi": "Vẹt đầu mận",
+    "commonNameEn": "Plum-headed parakeet",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacula"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt cổ hồng (Psittacula)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685481/264060594",
+    "gbifKey": 5229044,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng thưa, bìa rừng và thung lũng canh tác độ cao 0–1.300 m"
+    },
+    "descriptionVi": "Một trong những loài vẹt có sắc đầu quyến rũ nhất thế giới: đầu chim trống chuyển màu kỳ ảo từ đỏ hồng sang tím mận dưới các góc ánh sáng khác nhau.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khác với các loài vẹt cắn mổ mạnh, Vẹt Đầu Hồng rất hiền hòa và bay lượn với những cú ngoặt lượn sóng nhanh nhẹn kèm tiếng hót ngân nga.",
+    "dietVi": "Ăn hạt ngũ cốc, quả sung, mật hoa rừng và trái cây chín",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Tây Ghats, Ấn Độ",
+      "lat": 10.15,
+      "lng": 76.65
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Himalayapsitta cyanocephala",
+      "Psittacula cyanicephala",
+      "Psittacus cyanocephalus"
+    ],
+    "wikidataId": "Q913813",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Psittacula_cyanocephala",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plum-headed_parakeet",
+    "iucnAssessedYear": 2024,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 33,
+      "lengthCmMax": 37,
+      "weightGMin": 65,
+      "weightGMax": 85,
+      "heightCmMax": null,
+      "noteVi": "Chim trống có toàn bộ chiếc đầu màu đỏ tím quả mận chín phủ lớp phấn xanh lam mịn như nhung"
+    },
+    "distribution": {
+      "countries": [
+        "IN",
+        "LK",
+        "NP",
+        "PK"
+      ],
+      "nativeRangeVi": "Tiểu lục địa Ấn Độ từ chân Himalaya xuống Sri Lanka",
+      "elevationM": {
+        "min": 0,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài vẹt có sắc đầu quyến rũ nhất thế giới: đầu chim trống chuyển màu kỳ ảo từ đỏ hồng sang tím mận dưới các góc ánh sáng khác nhau. Đặc điểm nhận dạng: Chim trống có toàn bộ chiếc đầu màu đỏ tím quả mận chín phủ lớp phấn xanh lam mịn như nhung.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khác với các loài vẹt cắn mổ mạnh, Vẹt Đầu Hồng rất hiền hòa và bay lượn với những cú ngoặt lượn sóng nhanh nhẹn kèm tiếng hót ngân nga.",
+      "Đặc điểm hình thái nổi bật: Chim trống có toàn bộ chiếc đầu màu đỏ tím quả mận chín phủ lớp phấn xanh lam mịn như nhung."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 18–34°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt ngũ cốc, quả sung, mật hoa rừng và trái cây chín. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Đầu Hồng (Vẹt Đầu Mận) (Psittacula cyanocephala) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 2500000,
+        "descriptionVi": "Chim non Vẹt Đầu Hồng (Vẹt Đầu Mận) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:104 Male Plum-headed parakeet eating in Jim Corbett National Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:104_Male_Plum-headed_parakeet_eating_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/104_Male_Plum-headed_parakeet_eating_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 6266,
+        "height": 4177,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blossom-headed parakeet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blossom-headed_parakeet.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Blossom-headed_parakeet.jpg",
+        "width": 2915,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Arun.arunb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:102 Female Plum-headed parakeet in Jim Corbett National Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:102_Female_Plum-headed_parakeet_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/102_Female_Plum-headed_parakeet_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 4189,
+        "height": 2793,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Plum headed parakeet (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plum_headed_parakeet_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Plum_headed_parakeet_%281%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Davidvraju",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Plum Headed Parakeet - Mugilu Homestay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plum_Headed_Parakeet_-_Mugilu_Homestay.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Plum_Headed_Parakeet_-_Mugilu_Homestay.jpg",
+        "width": 4181,
+        "height": 3040,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Forestowlet",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5229044",
+      "https://www.iucnredlist.org/species/22685481/264060594",
+      "https://en.wikipedia.org/wiki/Plum-headed_parakeet",
+      "https://vi.wikipedia.org/wiki/Psittacula_cyanocephala"
+    ]
+  },
+  {
+    "scientificName": "Eclectus roratus",
+    "commonNameVi": "Vẹt Eclectus",
+    "commonNameEn": "Moluccan Eclectus",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Eclectus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Eclectus (Eclectus)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/155072212/155636053",
+    "gbifKey": 2480075,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng mưa nhiệt đới đất thấp có nhiều cây cổ thụ rỗng thân độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Hiện tượng kỳ thú của ngành điểu học thế giới khi chim trống và chim mái mang hai màu lông đối lập hoàn toàn như hai loài khác biệt.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Sự khác biệt màu sắc lớn đến mức suốt nhiều thế kỷ, các nhà tự nhiên học châu Âu đã xếp Eclectus trống (xanh lá) và Eclectus mái (đỏ tím) vào hai loài hoàn toàn khác nhau cho đến đầu thế kỷ 20!",
+    "dietVi": "Chế độ ăn chuyên biệt giàu chất xơ từ trái cây tươi (lựu, đu đủ, xoài, ổi), rau củ và hạt ngâm (nhờ đường tiêu hóa dài đặc trưng)",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus roratus"
+    ],
+    "wikidataId": "Q828544",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Eclectus_roratus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Moluccan_eclectus",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 42,
+      "weightGMin": 380,
+      "weightGMax": 520,
+      "heightCmMax": null,
+      "noteVi": "Dị hình giới tính cực đoan: con trống màu xanh ngọc lục bảo mỏ cam, con mái màu đỏ tươi và tím lam mỏ đen"
+    },
+    "distribution": {
+      "countries": [
+        "ID",
+        "PG",
+        "AU"
+      ],
+      "nativeRangeVi": "Quần đảo Maluku (Indonesia), New Guinea, bắc bán đảo Cape York (Úc) và quần đảo Solomon",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Hiện tượng kỳ thú của ngành điểu học thế giới khi chim trống và chim mái mang hai màu lông đối lập hoàn toàn như hai loài khác biệt. Đặc điểm nhận dạng: Dị hình giới tính cực đoan: con trống màu xanh ngọc lục bảo mỏ cam, con mái màu đỏ tươi và tím lam mỏ đen.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Sự khác biệt màu sắc lớn đến mức suốt nhiều thế kỷ, các nhà tự nhiên học châu Âu đã xếp Eclectus trống (xanh lá) và Eclectus mái (đỏ tím) vào hai loài hoàn toàn khác nhau cho đến đầu thế kỷ 20!",
+      "Đặc điểm hình thái nổi bật: Dị hình giới tính cực đoan: con trống màu xanh ngọc lục bảo mỏ cam, con mái màu đỏ tươi và tím lam mỏ đen."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Chế độ ăn chuyên biệt giàu chất xơ từ trái cây tươi (lựu, đu đủ, xoài, ổi), rau củ và hạt ngâm (nhờ đường tiêu hóa dài đặc trưng). Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Eclectus (Vẹt Nam Dương Lưỡng Sắc) (Eclectus roratus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 12000000,
+        "descriptionVi": "Chim non Vẹt Eclectus (Vẹt Nam Dương Lưỡng Sắc) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "portrait",
+        "file": "File:Eclectus roratus at Victoria Butterfly Gardens.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eclectus_roratus_at_Victoria_Butterfly_Gardens.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Eclectus_roratus_at_Victoria_Butterfly_Gardens.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Hannah Clover",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "hero",
+        "file": "File:Eclectus roratus -National Zoo, Washington, USA -female-8a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eclectus_roratus_-National_Zoo,_Washington,_USA_-female-8a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eclectus_roratus_-National_Zoo%2C_Washington%2C_USA_-female-8a.jpg",
+        "width": 4140,
+        "height": 2742,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "angela n. from Washington, DC",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2480075",
+      "https://www.iucnredlist.org/species/155072212/155636053",
+      "https://en.wikipedia.org/wiki/Moluccan_eclectus",
+      "https://vi.wikipedia.org/wiki/Eclectus_roratus"
+    ]
+  },
+  {
+    "scientificName": "Ara ararauna",
+    "commonNameVi": "Vẹt Macaw xanh vàng",
+    "commonNameEn": "Blue-and-yellow Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Ara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Đuôi dài Macaw (Ara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685539/131917270",
+    "gbifKey": 5959231,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới ngập nước (Várzea), đầm lầy cọ Mauritia và rừng hành lang độ cao 0–500 m"
+    },
+    "descriptionVi": "Biểu tượng kinh điển của dòng vẹt đuôi dài Macaw Nam Mỹ với sải cánh rộng hơn 1 mét, trí thông minh cao và tính cách phóng khoáng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Vùng da mặt trắng có các hàng lông đen mảnh quanh mắt của Vẹt Macaw Xanh Vàng có thể 'đỏ mặt' ửng hồng lên khi chú chim đang phấn khích hoặc xúc động.",
+    "dietVi": "Ăn hạt cọ vỏ cứng (macadamia, óc chó, hạnh nhân), trái cây rừng và viên cám vẹt lớn",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus ararauna"
+    ],
+    "wikidataId": "Q205477",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ara_ararauna",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 80,
+      "lengthCmMax": 90,
+      "weightGMin": 900,
+      "weightGMax": 1300,
+      "heightCmMax": null,
+      "noteVi": "Lưng và cánh màu xanh ngọc lam rực rỡ tương phản với toàn bộ ngực bụng vàng kim và trán xanh lá"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "CO",
+        "VE",
+        "PE",
+        "BO",
+        "GY",
+        "PA"
+      ],
+      "nativeRangeVi": "Lưu vực sông Amazon và vùng nhiệt đới Nam Mỹ từ đông Panama tới Brazil",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Biểu tượng kinh điển của dòng vẹt đuôi dài Macaw Nam Mỹ với sải cánh rộng hơn 1 mét, trí thông minh cao và tính cách phóng khoáng. Đặc điểm nhận dạng: Lưng và cánh màu xanh ngọc lam rực rỡ tương phản với toàn bộ ngực bụng vàng kim và trán xanh lá.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Vùng da mặt trắng có các hàng lông đen mảnh quanh mắt của Vẹt Macaw Xanh Vàng có thể 'đỏ mặt' ửng hồng lên khi chú chim đang phấn khích hoặc xúc động.",
+      "Đặc điểm hình thái nổi bật: Lưng và cánh màu xanh ngọc lam rực rỡ tương phản với toàn bộ ngực bụng vàng kim và trán xanh lá."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–34°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cọ vỏ cứng (macadamia, óc chó, hạnh nhân), trái cây rừng và viên cám vẹt lớn. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Macaw Xanh Vàng (Blue-and-Gold Macaw) (Ara ararauna) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 28000000,
+        "descriptionVi": "Chim non Vẹt Macaw Xanh Vàng (Blue-and-Gold Macaw) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ara ararauna (14549981543).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_(14549981543).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ara_ararauna_%2814549981543%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Graham Wise from Brisbane, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ara ararauna – Blue-and-yellow macaw.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_%E2%80%93_Blue-and-yellow_macaw.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ara_ararauna_%E2%80%93_Blue-and-yellow_macaw.jpg",
+        "width": 3072,
+        "height": 4080,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krigore",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ara ararauna -Parque del Este, Caracas, Venezuela -eating-8.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_-Parque_del_Este,_Caracas,_Venezuela_-eating-8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ara_ararauna_-Parque_del_Este%2C_Caracas%2C_Venezuela_-eating-8.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Fernando Flores",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ara ararauna at New Taipei Metropolitan Park 2025-06-22 (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_at_New_Taipei_Metropolitan_Park_2025-06-22_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ara_ararauna_at_New_Taipei_Metropolitan_Park_2025-06-22_%282%29.jpg",
+        "width": 4160,
+        "height": 3120,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Foxy1219",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ara zwyczajna.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_zwyczajna.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ara_zwyczajna.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ZiemowitJ",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5959231",
+      "https://www.iucnredlist.org/species/22685539/131917270",
+      "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw",
+      "https://vi.wikipedia.org/wiki/Ara_ararauna"
+    ]
+  },
+  {
+    "scientificName": "Ara chloropterus",
+    "commonNameVi": "Vẹt Macaw đỏ xanh",
+    "commonNameEn": "Red-and-green Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Ara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Đuôi dài Macaw (Ara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685566/163776409",
+    "gbifKey": 5959225,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng mưa nhiệt đới đất thấp và sườn núi thấp độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Loài lớn nhất trong chi Ara và được giới chơi vẹt mệnh danh là 'Người khổng lồ dịu dàng' (Gentle Giant) nhờ tính cách điềm đạm, tình cảm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Lực cắn của chiếc mỏ sừng khổng lồ ở Macaw Cánh Xanh đạt tới hơn 30–35 kg/cm², dễ dàng bấm vỡ đôi hạt cọ Brazil cứng như đá chỉ trong tích tắc.",
+    "dietVi": "Ăn các loại hạt vỏ cứng, quả rừng Amazon, trái cây tươi và đất sét khoáng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ara chloroptera chloroptera"
+    ],
+    "wikidataId": "Q739089",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ara_chloropterus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red-and-green_macaw",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 90,
+      "lengthCmMax": 95,
+      "weightGMin": 1100,
+      "weightGMax": 1500,
+      "heightCmMax": null,
+      "noteVi": "Thân đỏ thẫm uy nghi với dải lông xanh lá cây chạy giữa cánh nối sang lông cánh xanh lam và vệt lông đỏ xếp thành hàng trên má trắng"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "CO",
+        "VE",
+        "PE",
+        "BO",
+        "PY"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp rừng mưa Amazon và miền trung Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lớn nhất trong chi Ara và được giới chơi vẹt mệnh danh là 'Người khổng lồ dịu dàng' (Gentle Giant) nhờ tính cách điềm đạm, tình cảm. Đặc điểm nhận dạng: Thân đỏ thẫm uy nghi với dải lông xanh lá cây chạy giữa cánh nối sang lông cánh xanh lam và vệt lông đỏ xếp thành hàng trên má trắng.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Lực cắn của chiếc mỏ sừng khổng lồ ở Macaw Cánh Xanh đạt tới hơn 30–35 kg/cm², dễ dàng bấm vỡ đôi hạt cọ Brazil cứng như đá chỉ trong tích tắc.",
+      "Đặc điểm hình thái nổi bật: Thân đỏ thẫm uy nghi với dải lông xanh lá cây chạy giữa cánh nối sang lông cánh xanh lam và vệt lông đỏ xếp thành hàng trên má trắng."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–34°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn các loại hạt vỏ cứng, quả rừng Amazon, trái cây tươi và đất sét khoáng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Macaw Cánh Xanh (Green-winged Macaw) (Ara chloropterus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 35000000,
+        "descriptionVi": "Chim non Vẹt Macaw Cánh Xanh (Green-winged Macaw) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Arara-vermelha - PARNA da Serra da Capivara - LeonardoRamos(003).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arara-vermelha_-_PARNA_da_Serra_da_Capivara_-_LeonardoRamos(003).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arara-vermelha_-_PARNA_da_Serra_da_Capivara_-_LeonardoRamos%28003%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "LeonardoRamos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Arara-Vermelha, Ara chloropterus comendo açaí.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arara-Vermelha,_Ara_chloropterus_comendo_a%C3%A7a%C3%AD.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arara-Vermelha%2C_Ara_chloropterus_comendo_a%C3%A7a%C3%AD.jpg",
+        "width": 2248,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fred Almeida2016",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Amazon Rainforest (54714518).jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amazon_Rainforest_(54714518).jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Amazon_Rainforest_%2854714518%29.jpeg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Bara Tumova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:190 Red-and-green macaw flying in Chapada dos Guimarães National Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:190_Red-and-green_macaw_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/190_Red-and-green_macaw_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 4491,
+        "height": 2994,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A graça da Arara.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_gra%C3%A7a_da_Arara.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/A_gra%C3%A7a_da_Arara.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gabriel de Oliveira Pimentel",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5959225",
+      "https://www.iucnredlist.org/species/22685566/163776409",
+      "https://en.wikipedia.org/wiki/Red-and-green_macaw",
+      "https://vi.wikipedia.org/wiki/Ara_chloropterus"
+    ]
+  },
+  {
+    "scientificName": "Ara macao",
+    "commonNameVi": "Vẹt Macaw đỏ",
+    "commonNameEn": "Scarlet Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Ara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Đuôi dài Macaw (Ara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685563/163778999",
+    "gbifKey": 5959227,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tán rừng mưa nhiệt đới ẩm đất thấp và rừng ven sông lớn độ cao 0–1.000 m"
+    },
+    "descriptionVi": "Quốc điểu của Honduras và là một trong những loài chim rực rỡ nhất hành tinh với ba dải màu đỏ - vàng - lam chói lọi khi bay qua vòm rừng Amazon.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên toàn cầu nhưng thuộc Phụ lục I CITES bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Hàng sáng tại vùng Tambopata (Peru), hàng trăm cá thể Scarlet Macaw tụ hội về các vách đất sét ven sông (clay licks) để ăn đất sét giàu khoáng giúp trung hòa độc tố alkaloid từ hạt cây rừng chưa chín.",
+    "dietVi": "Ăn hạt cây rừng nhiệt đới, quả cọ, trái cây chín, mật hoa và đất sét khoáng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus macao"
+    ],
+    "wikidataId": "Q243761",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_%C4%91%E1%BB%8F_%C4%91u%C3%B4i_d%C3%A0i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Scarlet_macaw",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 81,
+      "lengthCmMax": 96,
+      "weightGMin": 900,
+      "weightGMax": 1200,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông đỏ tươi rực lửa phối dải cánh màu vàng nghệ tươi sáng và xanh coban, vùng da mặt trắng không có hàng lông"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "CR",
+        "HN",
+        "PA",
+        "CO",
+        "PE",
+        "BR"
+      ],
+      "nativeRangeVi": "Từ nam Mexico qua Trung Mỹ tới lưu vực sông Amazon Nam Mỹ",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Quốc điểu của Honduras và là một trong những loài chim rực rỡ nhất hành tinh với ba dải màu đỏ - vàng - lam chói lọi khi bay qua vòm rừng Amazon. Đặc điểm nhận dạng: Bộ lông đỏ tươi rực lửa phối dải cánh màu vàng nghệ tươi sáng và xanh coban, vùng da mặt trắng không có hàng lông.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Hàng sáng tại vùng Tambopata (Peru), hàng trăm cá thể Scarlet Macaw tụ hội về các vách đất sét ven sông (clay licks) để ăn đất sét giàu khoáng giúp trung hòa độc tố alkaloid từ hạt cây rừng chưa chín.",
+      "Đặc điểm hình thái nổi bật: Bộ lông đỏ tươi rực lửa phối dải cánh màu vàng nghệ tươi sáng và xanh coban, vùng da mặt trắng không có hàng lông."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES được bảo vệ nghiêm ngặt trên toàn cầu; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Araracanga-PARNA do Juruena-Rafael Mitsuo(001).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Araracanga-PARNA_do_Juruena-Rafael_Mitsuo(001).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Araracanga-PARNA_do_Juruena-Rafael_Mitsuo%28001%29.jpg",
+        "width": 6897,
+        "height": 4600,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rafael Mitsuo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Arara da Amazonia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arara_da_Amazonia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Arara_da_Amazonia.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Helena Andrade",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Macaw in full color.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Macaw_in_full_color.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Macaw_in_full_color.jpg",
+        "width": 2922,
+        "height": 4097,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Jonathan Wilkins",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Araracanga-RPPN Cristalino I-Rafael Mitsuo(001).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Araracanga-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Araracanga-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+        "width": 5776,
+        "height": 3851,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rafael Mitsuo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Guacamaya bandera - Ara macao.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guacamaya_bandera_-_Ara_macao.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Guacamaya_bandera_-_Ara_macao.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Biodiego88",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5959227",
+      "https://www.iucnredlist.org/species/22685563/163778999",
+      "https://en.wikipedia.org/wiki/Scarlet_macaw",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_%C4%91%E1%BB%8F_%C4%91u%C3%B4i_d%C3%A0i"
+    ]
+  },
+  {
+    "scientificName": "Ara severus",
+    "commonNameVi": "Vẹt Macaw trán nâu",
+    "commonNameEn": "Chestnut-fronted Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Ara"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Đuôi dài Macaw (Ara)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685577/130103061",
+    "gbifKey": 5959228,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 55,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng đầm lầy cọ, rừng hành lang ven sông và bìa rừng mưa độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Lựa chọn hàng đầu trong nhóm 'Mini Macaw' nhờ mang đầy đủ vẻ đẹp vùng da mặt trắng và trí thông minh của đại Macaw trong một kích thước vừa vặn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Khi đậu yên trên cành cây, bộ lông xanh giúp chúng hòa lẫn hoàn toàn vào tán lá, nhưng ngay khi tung cánh bay thì toàn bộ mặt dưới cánh và đuôi bừng sáng sắc đỏ rực.",
+    "dietVi": "Ăn quả sung vả, hạt cọ, ngô, trái cây tươi và hạt dinh dưỡng",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bocas del Toro, Panama",
+      "lat": 9.34,
+      "lng": -82.24
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus severus"
+    ],
+    "wikidataId": "Q852709",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ara_severus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chestnut-fronted_macaw",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 50,
+      "weightGMin": 300,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông xanh lục ngọc bích với mảng trán nâu hạt dẻ, da mặt trắng và mặt dưới cánh - đuôi màu đỏ sẫm"
+    },
+    "distribution": {
+      "countries": [
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BO",
+        "BR"
+      ],
+      "nativeRangeVi": "Từ đông Panama trải rộng khắp lưu vực sông Amazon và sông Orinoco",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Lựa chọn hàng đầu trong nhóm 'Mini Macaw' nhờ mang đầy đủ vẻ đẹp vùng da mặt trắng và trí thông minh của đại Macaw trong một kích thước vừa vặn. Đặc điểm nhận dạng: Bộ lông xanh lục ngọc bích với mảng trán nâu hạt dẻ, da mặt trắng và mặt dưới cánh - đuôi màu đỏ sẫm.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Khi đậu yên trên cành cây, bộ lông xanh giúp chúng hòa lẫn hoàn toàn vào tán lá, nhưng ngay khi tung cánh bay thì toàn bộ mặt dưới cánh và đuôi bừng sáng sắc đỏ rực.",
+      "Đặc điểm hình thái nổi bật: Bộ lông xanh lục ngọc bích với mảng trán nâu hạt dẻ, da mặt trắng và mặt dưới cánh - đuôi màu đỏ sẫm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn quả sung vả, hạt cọ, ngô, trái cây tươi và hạt dinh dưỡng. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Macaw Trán Nâu (Severe Macaw) (Ara severus) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 9500000,
+        "descriptionVi": "Chim non Vẹt Macaw Trán Nâu (Severe Macaw) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chestnut-fronted Macaw - Maracaná (Ara severa severa) (15698734302).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chestnut-fronted_Macaw_-_Maracan%C3%A1_(Ara_severa_severa)_(15698734302).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Chestnut-fronted_Macaw_-_Maracan%C3%A1_%28Ara_severa_severa%29_%2815698734302%29.jpg",
+        "width": 4647,
+        "height": 3098,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Fernando Flores from Caracas, Venezuela",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Guacamaya Maracaná.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guacamaya_Maracan%C3%A1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Guacamaya_Maracan%C3%A1.JPG",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ymmer Vanegas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ara severus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ara_severus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ara_severus.jpg",
+        "width": 4288,
+        "height": 2864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Carlos E. Perez S.L",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Guacamaya Maracaná (Ara severus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guacamaya_Maracan%C3%A1_(Ara_severus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Guacamaya_Maracan%C3%A1_%28Ara_severus%29.jpg",
+        "width": 4121,
+        "height": 3091,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Carlos E. Perez S.L",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pareja de guacamayas frenticastañas (Ara severus) en Villavicencio, Meta, Colombia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pareja_de_guacamayas_frenticasta%C3%B1as_(Ara_severus)_en_Villavicencio,_Meta,_Colombia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pareja_de_guacamayas_frenticasta%C3%B1as_%28Ara_severus%29_en_Villavicencio%2C_Meta%2C_Colombia.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juli 2000 her",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5959228",
+      "https://www.iucnredlist.org/species/22685577/130103061",
+      "https://en.wikipedia.org/wiki/Chestnut-fronted_macaw",
+      "https://vi.wikipedia.org/wiki/Ara_severus"
+    ]
+  },
+  {
+    "scientificName": "Diopsittaca nobilis",
+    "commonNameVi": "Vẹt Macaw vai đỏ",
+    "commonNameEn": "Northern Red-shouldered Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Diopsittaca"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Macaw mini (Diopsittaca)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/61958763/281019645",
+    "gbifKey": 2479365,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan Cerrado, đầm lầy cọ Mauritia và rừng thưa độ cao 0–1.200 m"
+    },
+    "descriptionVi": "Em út nhỏ bé nhất của đại gia đình vẹt Macaw: chỉ dài 30 cm nhưng có gương mặt trắng tinh anh và giọng nói lanh lảnh cực kỳ rõ chữ.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Dù có kích thước chỉ nhỉnh hơn một chú vẹt Conure, Hahn's Macaw vẫn sở hữu cặp cầu vai màu đỏ thắm oai vệ và tuổi thọ lên tới 25–30 năm.",
+    "dietVi": "Ăn hạt cọ nhỏ, trái cây ngọt, rau củ tươi và viên cám tổng hợp",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Ara nobilis",
+      "Psittacus nobilis"
+    ],
+    "wikidataId": "Q905913",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Diopsittaca_nobilis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red-shouldered_macaw",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 34,
+      "weightGMin": 130,
+      "weightGMax": 170,
+      "heightCmMax": null,
+      "noteVi": "Loài vẹt Macaw nhỏ nhất thế giới với thân xanh lục, trán xanh lam, mặt trắng và cầu vai màu đỏ tươi"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "VE",
+        "GY",
+        "SR",
+        "BO",
+        "PE"
+      ],
+      "nativeRangeVi": "Vùng nhiệt đới Nam Mỹ từ Venezuela, Guyana qua toàn bộ Brazil tới đông Bolivia",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Em út nhỏ bé nhất của đại gia đình vẹt Macaw: chỉ dài 30 cm nhưng có gương mặt trắng tinh anh và giọng nói lanh lảnh cực kỳ rõ chữ. Đặc điểm nhận dạng: Loài vẹt Macaw nhỏ nhất thế giới với thân xanh lục, trán xanh lam, mặt trắng và cầu vai màu đỏ tươi.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Dù có kích thước chỉ nhỉnh hơn một chú vẹt Conure, Hahn's Macaw vẫn sở hữu cặp cầu vai màu đỏ thắm oai vệ và tuổi thọ lên tới 25–30 năm.",
+      "Đặc điểm hình thái nổi bật: Loài vẹt Macaw nhỏ nhất thế giới với thân xanh lục, trán xanh lam, mặt trắng và cầu vai màu đỏ tươi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 20–32°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cọ nhỏ, trái cây ngọt, rau củ tươi và viên cám tổng hợp. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Macaw Vai Đỏ (Hahn's Macaw) (Diopsittaca nobilis) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 6800000,
+        "descriptionVi": "Chim non Vẹt Macaw Vai Đỏ (Hahn's Macaw) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bom dia inesperado.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bom_dia_inesperado.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bom_dia_inesperado.jpg",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Gabriel de Oliveira Pimentel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Parrot-Canaima-Venezuela04.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parrot-Canaima-Venezuela04.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Parrot-Canaima-Venezuela04.JPG",
+        "width": 2142,
+        "height": 2856,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Maracanã-pequena, Instituto Butantan, Avistar 2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3-pequena,_Instituto_Butantan,_Avistar_2018.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Maracan%C3%A3-pequena%2C_Instituto_Butantan%2C_Avistar_2018.jpg",
+        "width": 4898,
+        "height": 3266,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "GiFontenelle",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Maracanã-pequena.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3-pequena.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Maracan%C3%A3-pequena.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "User:Rodz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Red-shouldered Macaw (Diopsittaca nobilis) (Record shot) (28696491836).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red-shouldered_Macaw_(Diopsittaca_nobilis)_(Record_shot)_(28696491836).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Red-shouldered_Macaw_%28Diopsittaca_nobilis%29_%28Record_shot%29_%2828696491836%29.jpg",
+        "width": 4200,
+        "height": 2998,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479365",
+      "https://www.iucnredlist.org/species/61958763/281019645",
+      "https://en.wikipedia.org/wiki/Red-shouldered_macaw",
+      "https://vi.wikipedia.org/wiki/Diopsittaca_nobilis"
+    ]
+  },
+  {
+    "scientificName": "Anodorhynchus hyacinthinus",
+    "commonNameVi": "Vẹt Macaw lam tím",
+    "commonNameEn": "Hyacinth Macaw",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Anodorhynchus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt Macaw Lam (Anodorhynchus)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/22685516/202613596",
+    "gbifKey": 2479359,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cỏ savan có rặng cọ Acrocomia/Attalea và vùng ngập nước Pantanal độ cao 100–600 m"
+    },
+    "descriptionVi": "Vị vua tuyệt đối của thế giới loài vẹt với chiều dài đạt tròn 1 mét và bộ lông xanh lam coban quý phái điểm hai nét vàng kim quanh mắt và khóe miệng như đang mỉm cười.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES bảo vệ tối cao.",
+    "pullQuoteVi": "Chiếc mỏ khổng lồ của Vẹt Macaw Lam là một cỗ máy cơ học siêu hạng, chuyên đập vỡ nhân của chỉ hai loài hạt cọ siêu cứng là cọ Acuri và cọ Bocaiuva mà cả búa sắt đập cũng khó vỡ.",
+    "dietVi": "Chuyên ăn nhân hạt cọ giàu chất béo (Acuri, Bocaiuva) trên thảo nguyên Pantanal",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Psittacus hyacinthinus"
+    ],
+    "wikidataId": "Q463154",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_%C4%91u%C3%B4i_d%C3%A0i_lam_t%C3%ADa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hyacinth_macaw",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 95,
+      "lengthCmMax": 100,
+      "weightGMin": 1200,
+      "weightGMax": 1700,
+      "heightCmMax": null,
+      "noteVi": "Loài vẹt biết bay dài nhất thế giới (tới 1 mét) với toàn thân màu xanh coban tím biếc và viền mắt - khóe mỏ màu vàng tươi"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "BO",
+        "PY"
+      ],
+      "nativeRangeVi": "Vùng đầm lầy Pantanal và thảo nguyên Cerrado thuộc miền trung - nam Brazil, đông Bolivia và đông bắc Paraguay",
+      "elevationM": {
+        "min": 100,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Vị vua tuyệt đối của thế giới loài vẹt với chiều dài đạt tròn 1 mét và bộ lông xanh lam coban quý phái điểm hai nét vàng kim quanh mắt và khóe miệng như đang mỉm cười. Đặc điểm nhận dạng: Loài vẹt biết bay dài nhất thế giới (tới 1 mét) với toàn thân màu xanh coban tím biếc và viền mắt - khóe mỏ màu vàng tươi.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Chiếc mỏ khổng lồ của Vẹt Macaw Lam là một cỗ máy cơ học siêu hạng, chuyên đập vỡ nhân của chỉ hai loài hạt cọ siêu cứng là cọ Acuri và cọ Bocaiuva mà cả búa sắt đập cũng khó vỡ.",
+      "Đặc điểm hình thái nổi bật: Loài vẹt biết bay dài nhất thế giới (tới 1 mét) với toàn thân màu xanh coban tím biếc và viền mắt - khóe mỏ màu vàng tươi."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES được bảo vệ nghiêm ngặt trên toàn cầu; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:017 Hyacinth macaw flying in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:017_Hyacinth_macaw_flying_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/017_Hyacinth_macaw_flying_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 7860,
+        "height": 5760,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:108 Hyacinth macaw eating in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:108_Hyacinth_macaw_eating_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/108_Hyacinth_macaw_eating_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 4870,
+        "height": 6087,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:101 Hyacinth macaw couple in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:101_Hyacinth_macaw_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/101_Hyacinth_macaw_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 7880,
+        "height": 5253,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:102 Hyacinth macaw couple in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:102_Hyacinth_macaw_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/102_Hyacinth_macaw_couple_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 6983,
+        "height": 4655,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:106 Hyacinth macaw in flight in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:106_Hyacinth_macaw_in_flight_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/106_Hyacinth_macaw_in_flight_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 8640,
+        "height": 5760,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Giles Laurent",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479359",
+      "https://www.iucnredlist.org/species/22685516/202613596",
+      "https://en.wikipedia.org/wiki/Hyacinth_macaw",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_%C4%91u%C3%B4i_d%C3%A0i_lam_t%C3%ADa"
+    ]
+  },
+  {
+    "scientificName": "Cacatua galerita",
+    "commonNameVi": "Vẹt mào vàng lớn",
+    "commonNameEn": "Sulphur-crested Cockatoo",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Cacatua"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt mào trắng (Cacatua)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22684781/131914971",
+    "gbifKey": 2479888,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 45,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng bạch đàn, rừng mưa nhiệt đới và công viên cây xanh độ cao 0–1.500 m"
+    },
+    "descriptionVi": "Biểu tượng sống động của nước Úc với chiếc mào vàng rực xòe rộng như chiếc vương miện mỗi khi chú chim nhảy múa.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Các nhà khoa học đã chứng minh Vẹt Mào Vàng Lớn có khả năng cảm thụ nhịp điệu âm nhạc thực thụ (entrainment), biết lắc lư đầu và dậm chân khớp chính xác với nhịp trống của các bản nhạc!",
+    "dietVi": "Ăn hạt cây gỗ, củ rễ, quả thông, chồi non và trái cây tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bắc Queensland, Úc",
+      "lat": -16.92,
+      "lng": 145.77
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cacatura galerita",
+      "Psittacus galeritus"
+    ],
+    "wikidataId": "Q207107",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cacatua_galerita",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sulphur-crested_cockatoo",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 55,
+      "weightGMin": 750,
+      "weightGMax": 950,
+      "heightCmMax": null,
+      "noteVi": "Bộ lông trắng muốt như tuyết với chiếc mào dài màu vàng lưu huỳnh uốn cong vút lên trên đỉnh đầu"
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "PG",
+        "ID"
+      ],
+      "nativeRangeVi": "Miền bắc, miền đông và đông nam nước Úc cùng đảo New Guinea",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Biểu tượng sống động của nước Úc với chiếc mào vàng rực xòe rộng như chiếc vương miện mỗi khi chú chim nhảy múa. Đặc điểm nhận dạng: Bộ lông trắng muốt như tuyết với chiếc mào dài màu vàng lưu huỳnh uốn cong vút lên trên đỉnh đầu.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Các nhà khoa học đã chứng minh Vẹt Mào Vàng Lớn có khả năng cảm thụ nhịp điệu âm nhạc thực thụ (entrainment), biết lắc lư đầu và dậm chân khớp chính xác với nhịp trống của các bản nhạc!",
+      "Đặc điểm hình thái nổi bật: Bộ lông trắng muốt như tuyết với chiếc mào dài màu vàng lưu huỳnh uốn cong vút lên trên đỉnh đầu."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bay (aviary) hoặc lồng inox/sắt sơn tĩnh điện an toàn không chì-kẽm, bố trí nhiều cầu đậu bằng cành gỗ tự nhiên và đồ chơi gặm nhấm; nhiệt độ 15–34°C.",
+      "lightingVi": "Đón nắng sáng tự nhiên 30–60 phút mỗi ngày hoặc đèn UV-B chuyên dụng cho chim cảnh 8–10 giờ/ngày để tổng hợp Vitamin D3.",
+      "feedingVi": "Ăn hạt cây gỗ, củ rễ, quả thông, chồi non và trái cây tươi. Thay nước sạch hàng ngày và tuyệt đối tránh cho ăn quả bơ (avocado), sô-cô-la, hành tỏi hoặc hạt táo.",
+      "socialVi": "Cần tương tác giao tiếp hàng ngày với người nuôi hoặc nuôi theo cặp để tránh căng thẳng tâm lý.",
+      "commonProblemsVi": [
+        "Tự nhổ lông ngực nếu bị nhốt trong lồng chật hẹp thiếu đồ chơi tương tác và thiếu sự quan tâm",
+        "Nhiễm mỡ gan và thiếu canxi nếu chỉ cho ăn hạt hướng dương nhiều dầu mà thiếu rau quả tươi cùng viên cám tổng hợp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn chim cảnh sinh sản nhân tạo (captive-bred) có vòng chân định danh từ trại nhân giống hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Vẹt Mào Vàng Lớn (Sulphur-crested Cockatoo) (Cacatua galerita) Đút Bột Thuần Chủ Đeo Vòng Chân",
+        "priceVnd": 26000000,
+        "descriptionVi": "Chim non Vẹt Mào Vàng Lớn (Sulphur-crested Cockatoo) sinh sản tại trại, đã ăn cứng khỏe mạnh, bộ lông bóng mượt và rất quấn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Australia 2017-7 (44318717581).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Australia_2017-7_(44318717581).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Australia_2017-7_%2844318717581%29.jpg",
+        "width": 5616,
+        "height": 3744,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Weldon Kennedy from London, UK",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:(1)Sulphur-crested cockatoos 048.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:(1)Sulphur-crested_cockatoos_048.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%281%29Sulphur-crested_cockatoos_048.jpg",
+        "width": 2279,
+        "height": 2474,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sardaka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:'Ebony ^ Ivory ...' with a touch of yellow^ ()-) For my friends, Ruth^Pete. - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%27Ebony_%5E_Ivory_...%27_with_a_touch_of_yellow%5E_()-)_For_my_friends,_Ruth%5EPete._-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/%27Ebony_%5E_Ivory_...%27_with_a_touch_of_yellow%5E_%28%29-%29_For_my_friends%2C_Ruth%5EPete._-_panoramio.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "David Edwards",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:(1)Boronia Park-4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:(1)Boronia_Park-4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%281%29Boronia_Park-4.jpg",
+        "width": 4192,
+        "height": 3181,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Sardaka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:'One Small Step For Cockatoo...' - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%27One_Small_Step_For_Cockatoo...%27_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/%27One_Small_Step_For_Cockatoo...%27_-_panoramio.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "David Edwards",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479888",
+      "https://www.iucnredlist.org/species/22684781/131914971",
+      "https://en.wikipedia.org/wiki/Sulphur-crested_cockatoo",
+      "https://vi.wikipedia.org/wiki/Cacatua_galerita"
+    ]
+  },
+  {
+    "scientificName": "Cacatua sulphurea",
+    "commonNameVi": "Vẹt mào vàng nhỏ",
+    "commonNameEn": "Yellow-crested Cockatoo",
+    "group": "Chim",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Cacatua"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Vẹt (Psittaciformes)",
+      "family": "Họ Vẹt (Psittacidae)",
+      "genus": "Chi Vẹt mào trắng (Cacatua)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/200296187/178119524",
+    "gbifKey": 2479893,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 50,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô nhiệt đới, rừng bán thường xanh trên đảo độ cao 0–1.200 m"
+    },
+    "descriptionVi": "Loài vẹt mào quý hiếm của quần đảo Indonesia, dễ phân biệt với họ hàng nước Úc nhờ kích thước nhỏ gọn và đốm má màu vàng tươi dịu dàng.",
+    "conservationNoteVi": "Xếp mức Cực kỳ nguy cấp (CR) ngoài tự nhiên trên Sách Đỏ IUCN và thuộc Phụ lục I CITES bảo vệ nghiêm ngặt.",
+    "pullQuoteVi": "Đảo Komodo (Indonesia) — quê hương của Rồng Komodo — cũng chính là một trong những thành trì tự nhiên quan trọng nhất còn sót lại của Vẹt Mào Vàng Nhỏ.",
+    "dietVi": "Ăn hạt rừng khô, quả cọ, hoa và chồi cây trên đảo",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Kalimantan, Indonesia",
+      "lat": -0.5,
+      "lng": 114.55
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cacatura sulphurea",
+      "Psittacus sulphureus"
+    ],
+    "wikidataId": "Q372906",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_m%C3%A0o_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow-crested_cockatoo",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 32,
+      "lengthCmMax": 35,
+      "weightGMin": 300,
+      "weightGMax": 400,
+      "heightCmMax": null,
+      "noteVi": "Kích thước nhỏ hơn C. galerita, có mào vàng cam uốn cong và một mảng lông tròn màu vàng chanh rõ nét ngay trên má"
+    },
+    "distribution": {
+      "countries": [
+        "ID"
+      ],
+      "nativeRangeVi": "Đặc hữu quần đảo Sunda Nhỏ (Komodo, Sumba, Sumbawa, Flores), Sulawesi và Đông Timor",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài vẹt mào quý hiếm của quần đảo Indonesia, dễ phân biệt với họ hàng nước Úc nhờ kích thước nhỏ gọn và đốm má màu vàng tươi dịu dàng. Đặc điểm nhận dạng: Kích thước nhỏ hơn C. galerita, có mào vàng cam uốn cong và một mảng lông tròn màu vàng chanh rõ nét ngay trên má.",
+    "behaviorVi": "Loài vẹt sống theo cặp hoặc bầy đàn xã hội cao, thông minh, thích leo trèo bằng mỏ - chân đối ngón (zygodactyl) và tương tác âm thanh phong phú.",
+    "reproductionVi": "Kết đôi bền vững, đẻ 2–6 trứng màu trắng trong hốc cây tự nhiên hoặc thùng gỗ làm tổ; chim non nở ra được cả bố và mẹ mớm thức ăn.",
+    "threatsVi": [
+      "Mất cây cổ thụ có hốc làm tổ do khai thác gỗ và thu hẹp rừng tự nhiên",
+      "Bẫy bắt trái phép các quần thể hoang dã ngoài tự nhiên"
+    ],
+    "funFactsVi": [
+      "Đảo Komodo (Indonesia) — quê hương của Rồng Komodo — cũng chính là một trong những thành trì tự nhiên quan trọng nhất còn sót lại của Vẹt Mào Vàng Nhỏ.",
+      "Đặc điểm hình thái nổi bật: Kích thước nhỏ hơn C. galerita, có mào vàng cam uốn cong và một mảng lông tròn màu vàng chanh rõ nét ngay trên má."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES được bảo vệ nghiêm ngặt trên toàn cầu; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cacatua sulphurea 330278728.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacatua_sulphurea_330278728.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Cacatua_sulphurea_330278728.jpg",
+        "width": 2048,
+        "height": 1366,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kalvin Chan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cacatua sulphurea 107996448.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacatua_sulphurea_107996448.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Cacatua_sulphurea_107996448.jpg",
+        "width": 2048,
+        "height": 1681,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Christoph Moning",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cacatua sulphurea di Eco Green Park Malang.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacatua_sulphurea_di_Eco_Green_Park_Malang.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cacatua_sulphurea_di_Eco_Green_Park_Malang.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Wahyu Alfin",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cacatua sulphurea - Kalvin Chan - 617051129.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacatua_sulphurea_-_Kalvin_Chan_-_617051129.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Cacatua_sulphurea_-_Kalvin_Chan_-_617051129.jpeg",
+        "width": 2048,
+        "height": 1367,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Kalvin Chan",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2479893",
+      "https://www.iucnredlist.org/species/200296187/178119524",
+      "https://en.wikipedia.org/wiki/Yellow-crested_cockatoo",
+      "https://vi.wikipedia.org/wiki/V%E1%BA%B9t_m%C3%A0o_v%C3%A0ng"
+    ]
+  }
+]

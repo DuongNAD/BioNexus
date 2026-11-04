@@ -1,0 +1,2319 @@
+[
+  {
+    "scientificName": "Uromastyx acanthinura",
+    "commonNameVi": "Nhông đuôi gai Bắc Phi",
+    "commonNameEn": "North African mastigure",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/198535/2531202",
+    "gbifKey": 2466109,
+    "environment": {
+      "tempMin": 27,
+      "tempMax": 34,
+      "baskMin": 45,
+      "baskMax": 50,
+      "humidMin": 20,
+      "humidMax": 35,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn núi đá và bán hoang mạc vùng Maghreb phía bắc sa mạc Sahara"
+    },
+    "descriptionVi": "Loài nhông đuôi gai cỡ trung bình đến lớn có thân hình bè rộng, chiếc đuôi gai to nặng và màu da cực kỳ đa dạng theo vùng địa lý từ vàng chanh, cam gạch, xanh lá tới vân lưới đen.",
+    "conservationNoteVi": "Xếp hạng Sắp bị đe dọa (NT) do bị săn bắt mạnh ngoài tự nhiên tại Bắc Phi để làm quà lưu niệm và thú cảnh.",
+    "pullQuoteVi": "Dưới ánh nắng gay gắt của dãy Atlas, lớp da sần của chúng bừng sáng các gam màu vàng, cam và xanh ngọc như đá quý sa mạc.",
+    "dietVi": "Ăn thực vật chủ yếu: lá cây bụi, hoa, cỏ non và hạt đậu khô",
+    "lifespanVi": "15–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Ouarzazate, chân dãy Atlas, Morocco",
+      "lat": 30.92,
+      "lng": -6.9
+    },
+    "regionVi": "Bắc Phi (Morocco, Algeria, Tunisia, Libya)",
+    "otherNamesVi": [
+      "Nhông đuôi gai Bell",
+      "Nhông đuôi chùy Morocco"
+    ],
+    "synonyms": [
+      "Uromastix acanthinurus nigerrimus"
+    ],
+    "wikidataId": "Q1997560",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_acanthinura",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_acanthinura",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 45,
+      "weightGMin": 300,
+      "weightGMax": 600,
+      "heightCmMax": null,
+      "noteVi": "Thân to dày và nặng cân hơn Uromastyx geyri"
+    },
+    "distribution": {
+      "countries": [
+        "MA",
+        "DZ",
+        "TN",
+        "LY"
+      ],
+      "nativeRangeVi": "Morocco, bắc Algeria, Tunisia và tây bắc Libya",
+      "elevationM": {
+        "min": 100,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn đồi đá sỏi",
+      "Thảo nguyên khô hạn chân núi Atlas"
+    ],
+    "identificationVi": "Đầu ngắn mõm tù màu đen hoặc xám sẫm, lưng màu vàng tươi, cam hoặc xanh lục có vân lưới đen, đuôi dày gồm 18–20 vòng gai.",
+    "behaviorVi": "Đào hang dưới các tảng đá lớn để tránh cái lạnh ban đêm trên vùng núi Bắc Phi và ra phơi nắng khi mặt đất đã ấm lên.",
+    "reproductionVi": "Đẻ 12–24 trứng mỗi lứa trong hang cát sâu, thời gian ấp nở 70–90 ngày.",
+    "threatsVi": [
+      "Bị săn bắt làm đồ thủ công mỹ nghệ tại các chợ địa phương ở Bắc Phi"
+    ],
+    "funFactsVi": [
+      "Nhông đuôi gai Bắc Phi có thể chịu được biên độ nhiệt ngày đêm chênh lệch tới hơn 25°C ở khu vực chân núi Atlas."
+    ],
+    "similarSpecies": [
+      "Uromastyx nigriventris",
+      "Uromastyx geyri"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 120×60×50 cm khô ráo với tảng đá sưởi nắng và hang đá vững chắc.",
+      "lightingVi": "Đèn UVB 12.0–14.0% và đèn halogen tạo điểm sưởi 46–50°C.",
+      "feedingVi": "Rau cải xanh, bồ công anh, hoa dâm bụt, cỏ khô và hạt đậu lăng.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Nhiễm ký sinh trùng nếu mua phải mẫu không rõ nguồn gốc CB"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai Bắc Phi Uromastyx acanthinura (CB 5 tháng)",
+        "priceVnd": 5400000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn rau lá xanh và hạt khô rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Agamidae Uromastyx acanthinura 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_Uromastyx_acanthinura_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Agamidae_Uromastyx_acanthinura_1.jpg",
+        "width": 5333,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Orange uromastyx acanthinura.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orange_uromastyx_acanthinura.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Orange_uromastyx_acanthinura.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mooonswimmer",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Uromastyx acanthinura.JPEG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_acanthinura.JPEG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Uromastyx_acanthinura.JPEG",
+        "width": 2272,
+        "height": 1704,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "MAJ Kathleen A. Hoard, U.S. Marine Corps",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Nordafrikanischer Dornschwanz (Wrocław Zoo).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nordafrikanischer_Dornschwanz_(Wroc%C5%82aw_Zoo).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nordafrikanischer_Dornschwanz_%28Wroc%C5%82aw_Zoo%29.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fiver, der Hellseher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uromastyx acanthinura in Warsaw Zoo (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_acanthinura_in_Warsaw_Zoo_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Uromastyx_acanthinura_in_Warsaw_Zoo_%281%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Botev",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466109",
+      "https://www.iucnredlist.org/species/198535/2531202",
+      "https://en.wikipedia.org/wiki/Uromastyx_acanthinura",
+      "https://vi.wikipedia.org/wiki/Uromastyx_acanthinura"
+    ]
+  },
+  {
+    "scientificName": "Uromastyx dispar",
+    "commonNameVi": "Nhông đuôi gai Mali",
+    "commonNameEn": "Sudan mastigure",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198537/2531561",
+    "gbifKey": 2466101,
+    "environment": {
+      "tempMin": 28,
+      "tempMax": 35,
+      "baskMin": 46,
+      "baskMax": 50,
+      "humidMin": 15,
+      "humidMax": 30,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vùng bán hoang mạc Sahel và các sườn đồi đá phía nam sa mạc Sahara"
+    },
+    "descriptionVi": "Loài nhông đuôi gai nổi bật với sự tương phản màu sắc mạnh mẽ ở con đực trưởng thành: đầu, cổ, bốn chân và chiếc đuôi gai có màu đen bóng như than, trong khi toàn bộ lưng rực sáng màu vàng kim hoặc đỏ gạch.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do vùng phân bố trải rộng ngang qua toàn bộ vành đai phía nam sa mạc Sahara từ Mauritania tới Sudan.",
+    "pullQuoteVi": "Sự đối lập giữa chiếc lưng vàng rực như nắng sa mạc và bốn chân cùng chiếc đuôi gai đen tuyền tạo nên vẻ ngoài uy nghiêm.",
+    "dietVi": "Ăn thực vật hoàn toàn khi trưởng thành: cỏ khô, lá cây keo, hoa và hạt",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Kayes, miền tây Mali",
+      "lat": 14.44,
+      "lng": -11.44
+    },
+    "regionVi": "Vành đai Sahel và Nam Sahara (Mali, Mauritania, Chad, Sudan)",
+    "otherNamesVi": [
+      "Nhông đuôi gai Nam Sahara"
+    ],
+    "synonyms": [
+      "Uromastyx acanthinurus flavifasciata",
+      "Uromastyx flavifasciata",
+      "Uromastyx maliensis"
+    ],
+    "wikidataId": "Q3016709",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_dispar",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_dispar",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 35,
+      "lengthCmMax": 45,
+      "weightGMin": 280,
+      "weightGMax": 500,
+      "heightCmMax": null,
+      "noteVi": "Gồm 3 phân loài nổi tiếng: Mali (flavifasciata), Mauritania và Sudan (dispar)"
+    },
+    "distribution": {
+      "countries": [
+        "ML",
+        "MR",
+        "DZ",
+        "TD",
+        "SD"
+      ],
+      "nativeRangeVi": "Mauritania, Mali, nam Algeria, bắc Chad và Sudan",
+      "elevationM": {
+        "min": 100,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Savan đá khô hạn Sahel",
+      "Sườn đồi cát sỏi sa mạc"
+    ],
+    "identificationVi": "Con đực trưởng thành có đầu, chân và đuôi đen sẫm, lưng màu vàng tươi (dòng Mali) hoặc có các vạch ngang vàng trên nền đen (dòng flavifasciata).",
+    "behaviorVi": "Cực kỳ ưa nắng gắt và nhiệt độ cao; tính cách rất hiền lành, tò mò và dễ thuần hóa trong điều kiện nuôi nhốt.",
+    "reproductionVi": "Đẻ 12–20 trứng mỗi lứa trong hang cát sâu, nở sau 70–85 ngày.",
+    "threatsVi": [
+      "Hạn hán kéo dài và chăn thả gia súc ở vùng Sahel"
+    ],
+    "funFactsVi": [
+      "Phân loài Mali (Uromastyx dispar maliensis) từng là một trong những dòng nhông đuôi gai đầu tiên giúp phổ biến chi Uromastyx trong giới nuôi bò sát cảnh thế giới."
+    ],
+    "similarSpecies": [
+      "Uromastyx geyri",
+      "Uromastyx acanthinura"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 120×60×45 cm khô thoáng với điểm đá sưởi nóng và hang trú.",
+      "lightingVi": "Đèn UVB 12.0–14.0% và đèn halogen chiếu điểm 48–50°C.",
+      "feedingVi": "Rau xanh giàu xơ, hoa bồ công anh và hạt đậu lăng, hạt kê khô.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Thiếu nhiệt sưởi làm giảm sắc tố vàng trên lưng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ các trại nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai Mali Uromastyx dispar maliensis (CB 5 tháng)",
+        "priceVnd": 5200000,
+        "descriptionVi": "Cá thể CB dòng Mali lưng vàng chân đen, cực kỳ dạn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Uromastyx dispar maliensis Mali spiny-tailed lizard LoroParque IMG 6862.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_dispar_maliensis_Mali_spiny-tailed_lizard_LoroParque_IMG_6862.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Uromastyx_dispar_maliensis_Mali_spiny-tailed_lizard_LoroParque_IMG_6862.JPG",
+        "width": 4012,
+        "height": 2584,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bjoertvedt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Uromastyx flavifasciata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_flavifasciata.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Uromastyx_flavifasciata.jpg",
+        "width": 1299,
+        "height": 1727,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Bjoertvedt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Indianapolis Zoo - June 2016 - Jean 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Indianapolis_Zoo_-_June_2016_-_Jean_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Indianapolis_Zoo_-_June_2016_-_Jean_02.jpg",
+        "width": 3274,
+        "height": 2592,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Jean",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Wally, Male Mali uromastyx (Uromastyx maliensis).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wally,_Male_Mali_uromastyx_(Uromastyx_maliensis).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Wally%2C_Male_Mali_uromastyx_%28Uromastyx_maliensis%29.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Squamata55",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uromastyx maliensis at the Philadelphia Zoo 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_maliensis_at_the_Philadelphia_Zoo_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uromastyx_maliensis_at_the_Philadelphia_Zoo_02.jpg",
+        "width": 2832,
+        "height": 1876,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Postdlf",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466101",
+      "https://www.iucnredlist.org/species/198537/2531561",
+      "https://en.wikipedia.org/wiki/Uromastyx_dispar",
+      "https://vi.wikipedia.org/wiki/Uromastyx_dispar"
+    ]
+  },
+  {
+    "scientificName": "Acanthosaura capra",
+    "commonNameVi": "Ô rô vảy",
+    "commonNameEn": "Green pricklenape",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Acanthosaura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Acanthosaura"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/104634462/104634579",
+    "gbifKey": 5960762,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 27,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh vùng đồi núi ẩm mát tại miền Trung và Nam Việt Nam, Lào, Campuchia"
+    },
+    "descriptionVi": "Loài nhông rừng bản địa của Việt Nam có diện mạo oai vệ với một cặp gai nhọn dài nhô lên ngay phía trên mí mắt sau và một hàng gai lược cao vút dựng đứng trên gáy.",
+    "conservationNoteVi": "Xếp hạng Sắp bị đe dọa (NT) do mất sinh cảnh rừng nguyên sinh vùng đồi núi và bị thu bắt làm cảnh, làm thực phẩm.",
+    "pullQuoteVi": "Cặp gai nhọn vươn cao trên mí mắt cùng chiếc bờm gai gáy dựng đứng khiến chúng trông như một chú rồng hộ vệ của rừng già Trường Sơn.",
+    "dietVi": "Ăn côn trùng rừng, giun đất, sâu bướm, nhện và mối",
+    "lifespanVi": "7–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Bạch Mã, Thừa Thiên Huế, Việt Nam",
+      "lat": 16.2,
+      "lng": 107.85
+    },
+    "regionVi": "Việt Nam, Lào và Campuchia",
+    "otherNamesVi": [
+      "Rồng gai xanh Đông Dương",
+      "Nhông sừng núi"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2822603",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthosaura_capra",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthosaura_capra",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 35,
+      "weightGMin": 50,
+      "weightGMax": 90,
+      "heightCmMax": null,
+      "noteVi": "Có yếm cổ phồng nhưng không có gai bên gáy"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH"
+      ],
+      "nativeRangeVi": "Dãy Trường Sơn và cao nguyên miền Trung, Nam Việt Nam sang nam Lào và đông Campuchia",
+      "elevationM": {
+        "min": 200,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa thường xanh vùng đồi núi",
+      "Thân cây cổ thụ gần khe suối mát"
+    ],
+    "identificationVi": "Mỗi bên mí mắt trên có 1 gai dài nhọn, gáy có hàng gai dẹp cao tách biệt với hàng gai lưng, không có gai lẻ ở hai bên cổ sau tai.",
+    "behaviorVi": "Bám thẳng đứng trên các thân cây rừng mát ẩm vào ban ngày để rình mồi; khi gặp nguy hiểm sẽ lách nhanh sang mặt khuất của thân cây.",
+    "reproductionVi": "Con cái tụt xuống nền rừng đào hố đất ẩm đẻ 9–15 trứng mỗi lứa, nở sau khoảng 60–80 ngày.",
+    "threatsVi": [
+      "Phá rừng thường xanh vùng núi",
+      "Thu bắt tự nhiên"
+    ],
+    "funFactsVi": [
+      "Ô rô vảy có thể biến đổi màu da nhanh chóng từ xanh rêu sáng sang nâu đen sẫm tùy theo độ ẩm và tâm trạng."
+    ],
+    "similarSpecies": [
+      "Acanthosaura lepidogaster",
+      "Acanthosaura nataliae"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng cao 60×45×90 cm trồng nhiều cây xanh, thân gỗ đứng và thác nước hoặc phun mưa tự động.",
+      "lightingVi": "Đèn UVB 5.0% dịu nhẹ, giữ nhiệt độ mát 22–27°C, tránh nắng nóng trên 30°C.",
+      "feedingVi": "Dế, gián rừng, sâu bướm và giun đất sạch phủ canxi.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp trong chuồng cao rộng.",
+      "commonProblemsVi": [
+        "Bỏ uống nước nếu chỉ để bát nước tĩnh (chỉ uống giọt nước động trên lá)"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc danh mục cấm CITES hay Nghị định 84/2021; ưu tiên cá thể sinh sản trong nuôi nhốt."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng gai xanh Acanthosaura capra (CB 5 tháng tuổi)",
+        "priceVnd": 1100000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, hàng gai mắt và gai gáy nguyên vẹn hoàn hảo."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Acanthosaura capra, Zoo Prague 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_capra,_Zoo_Prague_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Acanthosaura_capra%2C_Zoo_Prague_4.jpg",
+        "width": 4148,
+        "height": 3040,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Pavel Hrdlička (Czech Wikipedia user Packa )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Acanthosaura capra, Zoo Prague.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_capra,_Zoo_Prague.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Acanthosaura_capra%2C_Zoo_Prague.jpg",
+        "width": 1782,
+        "height": 1516,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Pavel Hrdlička (Czech Wikipedia user Packa )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthosaura1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Acanthosaura1.JPG",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nabokov ( ). Required citation is: \"Photo by Tom Oates, 2010\"..",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthosaura capra RoyBateman Dec2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_capra_RoyBateman_Dec2010.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Acanthosaura_capra_RoyBateman_Dec2010.jpg",
+        "width": 1500,
+        "height": 913,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Roy Bateman",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5960762",
+      "https://www.iucnredlist.org/species/104634462/104634579",
+      "https://en.wikipedia.org/wiki/Acanthosaura_capra",
+      "https://vi.wikipedia.org/wiki/Acanthosaura_capra"
+    ]
+  },
+  {
+    "scientificName": "Acanthosaura lepidogaster",
+    "commonNameVi": "Ô rô bụng vảy",
+    "commonNameEn": "Brown pricklenape",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Acanthosaura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Acanthosaura"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170366/111992615",
+    "gbifKey": 5960744,
+    "environment": {
+      "tempMin": 21,
+      "tempMax": 27,
+      "baskMin": 27,
+      "baskMax": 29,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng thường xanh ẩm vùng trung du và núi thấp tại miền Bắc, Trung Việt Nam và nam Trung Quốc"
+    },
+    "descriptionVi": "Loài rồng gai cỡ nhỏ hơn Ô rô vảy, dễ nhận biết nhờ ngoài cặp gai trên mắt và hàng gai gáy còn có thêm một cặp gai nhọn mọc chĩa ra ở hai bên gáy phía trên màng nhĩ.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp miền Bắc và Trung Việt Nam, Lào, Thái Lan, Myanmar và nam Trung Quốc.",
+    "pullQuoteVi": "Bốn chiếc gai nhọn phân bố đối xứng trên mắt và sau tai tạo thành chiếc vương miện gai phòng vệ tự nhiên trước các loài rắn cây.",
+    "dietVi": "Ăn côn trùng rừng, sâu bướm, dế, nhện và giun đất",
+    "lifespanVi": "6–9 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Tam Đảo, tỉnh Vĩnh Phúc, Việt Nam",
+      "lat": 21.45,
+      "lng": 105.64
+    },
+    "regionVi": "Việt Nam, Bắc Đông Dương và Nam Trung Quốc",
+    "otherNamesVi": [
+      "Rồng gai nâu",
+      "Nhông gai cổ"
+    ],
+    "synonyms": [
+      "Acanthosaura braueri",
+      "Acanthosaura fruhstorferi",
+      "Acanthosaura hainanensis",
+      "Acanthosaura lamnidentata"
+    ],
+    "wikidataId": "Q2822607",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Acanthosaura_lepidogaster",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthosaura_lepidogaster",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 28,
+      "weightGMin": 30,
+      "weightGMax": 60,
+      "heightCmMax": null,
+      "noteVi": "Có thêm cặp gai nhọn ở hai bên gáy sau tai"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "TH",
+        "MM",
+        "CN",
+        "KH"
+      ],
+      "nativeRangeVi": "Việt Nam, Lào, bắc Thái Lan, Myanmar và miền nam Trung Quốc (Vân Nam, Quảng Tây, Hải Nam)",
+      "elevationM": {
+        "min": 100,
+        "max": 1400
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa vùng đồi núi",
+      "Cây bụi ẩm ven suối rừng"
+    ],
+    "identificationVi": "Ngoài gai trên mắt và mào gai gáy còn có 1 gai nhọn lớn ở mỗi bên gáy phía sau tai; màu sắc biến thiên từ nâu rêu đến xanh ngọc.",
+    "behaviorVi": "Sống trên các thân cây nhỏ và bụi cây gần suối mát; ban đêm ngủ bám trên các cành cây mảnh rủ trên mặt suối.",
+    "reproductionVi": "Đẻ 8–14 trứng trong hố đất ẩm dưới gốc cây rừng, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Thu hẹp diện tích rừng tự nhiên cục bộ"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu phân loại học hiện đại cho thấy Acanthosaura lepidogaster là một phức hợp loài đa dạng với nhiều quần thể có màu sắc mắt và yếm cổ khác nhau dọc dãy Trường Sơn."
+    ],
+    "similarSpecies": [
+      "Acanthosaura capra",
+      "Acanthosaura coronata"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng 45×45×75 cm trồng cây thật và lắp hệ thống phun sương mịn.",
+      "lightingVi": "Đèn UVB 5.0% và nhiệt độ phòng mát 21–27°C.",
+      "feedingVi": "Dế, gián nhỏ, sâu sáp và giun đất phủ khoáng canxi.",
+      "socialVi": "Nuôi đơn hoặc theo cặp 1 đực 1 cái.",
+      "commonProblemsVi": [
+        "Mất nước nếu thiếu hệ thống phun sương hoặc nhỏ giọt nước"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Không thuộc phụ lục CITES hay danh mục cấm."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng gai Ô rô bụng vảy Acanthosaura lepidogaster (CB 5 tháng)",
+        "priceVnd": 950000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, gai mắt và gai gáy sắc nét, ăn dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Acanthosaura lepidogaster by Rushen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_lepidogaster_by_Rushen.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Acanthosaura_lepidogaster_by_Rushen.jpg",
+        "width": 5294,
+        "height": 3533,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Agamidae Acanthosaura lepidogaster 1.1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_Acanthosaura_lepidogaster_1.1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Agamidae_Acanthosaura_lepidogaster_1.1.jpg",
+        "width": 2171,
+        "height": 2894,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthosaura lepidogaster, Brown pricklenape (adult) - Phu Hin Rong Khla National Park (35853986942).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_lepidogaster,_Brown_pricklenape_(adult)_-_Phu_Hin_Rong_Khla_National_Park_(35853986942).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Acanthosaura_lepidogaster%2C_Brown_pricklenape_%28adult%29_-_Phu_Hin_Rong_Khla_National_Park_%2835853986942%29.jpg",
+        "width": 7360,
+        "height": 4912,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Acanthosaura lepidogaster by Rushen (cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthosaura_lepidogaster_by_Rushen_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Acanthosaura_lepidogaster_by_Rushen_%28cropped%29.jpg",
+        "width": 4626,
+        "height": 2957,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rushen",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5960744",
+      "https://www.iucnredlist.org/species/170366/111992615",
+      "https://en.wikipedia.org/wiki/Acanthosaura_lepidogaster",
+      "https://vi.wikipedia.org/wiki/Acanthosaura_lepidogaster"
+    ]
+  },
+  {
+    "scientificName": "Calotes versicolor",
+    "commonNameVi": "Nhông xanh",
+    "commonNameEn": "Changeable lizard",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Calotes"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Calotes"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/164681/1067033",
+    "gbifKey": 9125207,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 32,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Trảng cây bụi, bìa rừng, công viên và vườn cây khắp Nam Á và Đông Nam Á"
+    },
+    "descriptionVi": "Loài nhông quen thuộc khắp làng quê và công viên Việt Nam với hàng gai lược chạy dọc từ gáy xuống lưng; vào mùa sinh sản, toàn bộ phần đầu và vai của con đực chuyển sang màu đỏ cam rực cháy.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố cực kỳ rộng khắp Nam Á, Đông Nam Á và miền nam Trung Quốc với khả năng thích nghi cao.",
+    "pullQuoteVi": "Mỗi độ hè về, những con đực lại biến toàn bộ đầu và ngực sang màu đỏ máu rực lửa rồi gật đầu liên hồi trên cành cây để thách đấu.",
+    "dietVi": "Ăn côn trùng: dế, châu chấu, kiến, bướm, chuồn chuồn và nhện",
+    "lifespanVi": "5–8 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bán đảo Sơn Trà, Đà Nẵng, Việt Nam",
+      "lat": 16.12,
+      "lng": 108.26
+    },
+    "regionVi": "Nam Á, Đông Nam Á và Nam Trung Quốc",
+    "otherNamesVi": [
+      "Nhông hàng rào",
+      "Thằn lằn đổi màu châu Á"
+    ],
+    "synonyms": [
+      "Agama indica",
+      "Agama tiedemanni",
+      "Agama versicolor",
+      "Agama vultuosa"
+    ],
+    "wikidataId": "Q41489",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Nh%C3%B4ng_h%C3%A0ng_r%C3%A0o",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Oriental_garden_lizard",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 42,
+      "weightGMin": 45,
+      "weightGMax": 90,
+      "heightCmMax": null,
+      "noteVi": "Chiếc đuôi tròn dài chiếm hơn 2/3 tổng chiều dài"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "MM",
+        "MY",
+        "IN",
+        "LK",
+        "PK",
+        "CN"
+      ],
+      "nativeRangeVi": "Từ Iran, Pakistan, Ấn Độ qua toàn bộ Đông Nam Á tới nam Trung Quốc",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": [
+      "Bìa rừng và trảng cây bụi",
+      "Vườn cây và hàng rào khu dân cư"
+    ],
+    "identificationVi": "Vảy thân có gờ hướng lên trên và ra sau, hai cụm gai nhỏ phía trên màng nhĩ, con đực mùa giao phối có đầu đỏ cam và họng chấm đen.",
+    "behaviorVi": "Hoạt động ban ngày dưới nắng ấm, con đực thường chọn một cành cây thoáng để phơi nắng và thực hiện điệu nhảy 'chống đẩy' khẳng định lãnh thổ.",
+    "reproductionVi": "Con cái đào hố đất mềm sâu 5–10 cm đẻ 10–20 trứng hình thoi rồi lấp đất kỹ; trứng nở sau 45–60 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa do thích nghi mạnh với môi trường nhân sinh"
+    ],
+    "funFactsVi": [
+      "Nhờ khả năng đổi màu đầu sang đỏ tươi chỉ trong vài phút khi hưng phấn, người phương Tây thường gọi loài này là 'Bloodsucker lizard' dù chúng chỉ ăn côn trùng."
+    ],
+    "similarSpecies": [
+      "Calotes mystaceus",
+      "Calotes emma"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng đứng thông thoáng 60×45×75 cm có nhiều cành cây khô dưới đèn nắng.",
+      "lightingVi": "Đèn UVB 10.0% và đèn chiếu điểm sưởi 36–38°C.",
+      "feedingVi": "Dế, châu chấu, gián nhỏ phủ canxi và phun sương trên lá cây.",
+      "socialVi": "Chỉ nuôi 1 con đực mỗi chuồng (có thể ghép với 1–2 con cái).",
+      "commonProblemsVi": [
+        "Bỏ ăn nếu chuồng thiếu ánh sáng mạnh và tia UVA/UVB"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Loài phổ biến, không thuộc danh mục cấm CITES hay Nghị định bảo vệ."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông hàng rào Calotes versicolor (CB 4 tháng tuổi)",
+        "priceVnd": 450000,
+        "descriptionVi": "Cá thể nhân giống khỏe mạnh, ăn dế và châu chấu rất sung."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Abhijanam DSC 0880.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Abhijanam_DSC_0880.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Abhijanam_DSC_0880.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "V.MOHANAKRISHNAN",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:\"Arya\" Calotes versicolor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Arya%22_Calotes_versicolor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/%22Arya%22_Calotes_versicolor.jpg",
+        "width": 1944,
+        "height": 2592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aris riyanto",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:\"arya\" Calotes versicolor is relaxed-Pilangsari-2019.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22arya%22_Calotes_versicolor_is_relaxed-Pilangsari-2019.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%22arya%22_Calotes_versicolor_is_relaxed-Pilangsari-2019.jpg",
+        "width": 4160,
+        "height": 2340,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aris riyanto",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:4G4A2475.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4G4A2475.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/4G4A2475.jpg",
+        "width": 4813,
+        "height": 2065,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Khoitran1957",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agamid lizard Calotes versicolor. Hot wall - Flickr - gailhampshire.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamid_lizard_Calotes_versicolor._Hot_wall_-_Flickr_-_gailhampshire.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Agamid_lizard_Calotes_versicolor._Hot_wall_-_Flickr_-_gailhampshire.jpg",
+        "width": 4608,
+        "height": 3208,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9125207",
+      "https://www.iucnredlist.org/species/164681/1067033",
+      "https://en.wikipedia.org/wiki/Oriental_garden_lizard",
+      "https://vi.wikipedia.org/wiki/Nh%C3%B4ng_h%C3%A0ng_r%C3%A0o"
+    ]
+  },
+  {
+    "scientificName": "Intellagama lesueurii",
+    "commonNameVi": "Rồng nước miền Đông nước Úc",
+    "commonNameEn": "Eastern water dragon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Intellagama"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Intellagama"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/22566194/22566245",
+    "gbifKey": 8161292,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 60,
+      "humidMax": 80,
+      "waterTempMin": 22,
+      "waterTempMax": 26,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Bờ sông, suối đá và công viên ven biển dọc miền đông Australia"
+    },
+    "descriptionVi": "Loài rồng nước cỡ lớn bản địa miền đông nước Úc, nổi bật với vệt đen rộng kéo dài từ sau mắt qua tai, thân xám vằn đen và toàn bộ phần ngực bụng của con đực rực lên màu đỏ son tươi thắm.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng dọc bờ biển phía đông nước Úc và thích nghi rất tốt ngay trong các công viên đô thị tại Brisbane và Sydney.",
+    "pullQuoteVi": "Những con đực trưởng thành khoe bộ ngực đỏ rực như lửa bên bờ suối đá, vừa giỏi leo cây vừa có thể ngủ dưới đáy nước hàng giờ liền.",
+    "dietVi": "Ăn tạp: côn trùng, cua cá nhỏ, giun, quả mọng và hoa lá ven suối",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Sunshine Coast, bang Queensland, Australia",
+      "lat": -26.65,
+      "lng": 153.06
+    },
+    "regionVi": "Miền đông Australia",
+    "otherNamesVi": [
+      "Rồng nước Úc bụng đỏ"
+    ],
+    "synonyms": [
+      "Amphibolurus branchialis",
+      "Amphibolurus heterurus",
+      "Amphibolurus maculiferus",
+      "Iguana paramatensis"
+    ],
+    "wikidataId": "Q24557484",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Intellagama_lesueurii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Australian_water_dragon",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 90,
+      "weightGMin": 500,
+      "weightGMax": 1000,
+      "heightCmMax": null,
+      "noteVi": "Con đực lớn hơn nhiều so với con cái và có ngực bụng đỏ tươi"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Dọc miền đông Australia từ bắc Queensland qua New South Wales tới đông Victoria",
+      "elevationM": {
+        "min": 0,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ suối đá và sông hồ",
+      "Rừng ven biển và công viên đô thị"
+    ],
+    "identificationVi": "Dải đen đậm chạy từ sau mắt xuống cổ, hàng gai lược dọc gáy và lưng, ngực và bụng con đực màu đỏ gạch đến đỏ tươi.",
+    "behaviorVi": "Thường phơi nắng trên các tảng đá và cành cây ven bờ nước; có khả năng làm chậm nhịp tim để lặn dưới nước tới 60–90 phút khi tránh nguy hiểm.",
+    "reproductionVi": "Đẻ 8–18 trứng trong hố cát nắng ấm trên bờ sông; giới tính con non phụ thuộc vào nhiệt độ ấp trứng (TSD).",
+    "threatsVi": [
+      "Ô nhiễm nguồn nước đô thị và chó mèo tấn công con non"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu tiến hóa tại thành phố Brisbane cho thấy quần thể Rồng nước sống trong công viên đô thị đã tiến hóa kích thước hộp sọ và chiều dài chân khác biệt so với quần thể rừng tự nhiên chỉ sau vài chục thế hệ."
+    ],
+    "similarSpecies": [
+      "Physignathus cocincinus",
+      "Pogona barbata"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bán thủy sinh rất lớn (150×75×120 cm) kết hợp bể nước rộng và các tảng đá, khúc gỗ phơi nắng.",
+      "lightingVi": "Đèn UVB 10.0% T5 HO và đèn sưởi chiếu điểm 36–38°C.",
+      "feedingVi": "Gián Dubia, châu chấu, cá nhỏ, tôm tép kết hợp trái cây và rau lá xanh.",
+      "socialVi": "Nuôi đơn hoặc 1 đực kèm 2 cái trong chuồng ngoài trời hoặc phòng lớn.",
+      "commonProblemsVi": [
+        "Trầy mõm nếu chuồng quá chật"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp trong các trại bò sát quốc tế."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng nước Úc Intellagama lesueurii (CB 5 tháng tuổi)",
+        "priceVnd": 7500000,
+        "descriptionVi": "Cá thể CB khỏe khoắn, sọc đen mắt rõ nét, ăn côn trùng và rau quả tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Water dragon in Montville, Queensland, 2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Water_dragon_in_Montville,_Queensland,_2023.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Water_dragon_in_Montville%2C_Queensland%2C_2023.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chris Olszewski",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Australia Water Dragon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Australia_Water_Dragon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Australia_Water_Dragon.jpg",
+        "width": 2065,
+        "height": 2753,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Pizza1725tech",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Australian Eastern water dragon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Australian_Eastern_water_dragon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Australian_Eastern_water_dragon.jpg",
+        "width": 3000,
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "JaredMcKenzie",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:1A B-DRAGON.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1A_B-DRAGON.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/1A_B-DRAGON.JPG",
+        "width": 2324,
+        "height": 1577,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Adam.J.W.C.",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Physignathus lesuerii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Physignathus_lesuerii.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Physignathus_lesuerii.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "FearTec",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/8161292",
+      "https://www.iucnredlist.org/species/22566194/22566245",
+      "https://en.wikipedia.org/wiki/Australian_water_dragon",
+      "https://vi.wikipedia.org/wiki/Intellagama_lesueurii"
+    ]
+  },
+  {
+    "scientificName": "Agama agama",
+    "commonNameVi": "Nhông đầu đỏ châu Phi",
+    "commonNameEn": "Common agama",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Agama"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Agama"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172799/1374221",
+    "gbifKey": 5226308,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 33,
+      "baskMin": 38,
+      "baskMax": 42,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Savan đá, mỏm đá kopje và tường nhà khắp vùng châu Phi hạ Sahara"
+    },
+    "descriptionVi": "Loài nhông đá nổi tiếng bậc nhất lục địa đen nhờ màu sắc rực rỡ của con đực đầu đàn dưới ánh nắng trưa: toàn bộ cái đầu khoác màu cam đỏ rực lửa trong khi thân mình và chân ánh lên màu xanh coban tím thẫm.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố cực kỳ rộng khắp vùng Tây, Trung và Đông Phi.",
+    "pullQuoteVi": "Dưới nắng gắt châu Phi, con đực thống trị hóa thành hai mảng màu đối lập dữ dội giữa chiếc đầu đỏ cam và tấm thân xanh coban.",
+    "dietVi": "Ăn côn trùng chủ yếu: kiến, mối, châu chấu, bọ cánh cứng và nhện",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Abuja, miền trung Nigeria",
+      "lat": 9.07,
+      "lng": 7.4
+    },
+    "regionVi": "Châu Phi hạ Sahara (Tây, Trung và Đông Phi)",
+    "otherNamesVi": [
+      "Nhông cầu vồng châu Phi",
+      "Nhông đá đầu cam"
+    ],
+    "synonyms": [
+      "Agama colonorum",
+      "Agama colonorum congica",
+      "Agama occipitalis",
+      "Agama smithii"
+    ],
+    "wikidataId": "Q770750",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agama_agama",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Agama_agama",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 38,
+      "weightGMin": 60,
+      "weightGMax": 130,
+      "heightCmMax": null,
+      "noteVi": "Chỉ con đực thống trị đang được sưởi nắng ấm mới hiện đầy đủ màu đỏ và xanh"
+    },
+    "distribution": {
+      "countries": [
+        "NG",
+        "GH",
+        "SN",
+        "CM",
+        "CD",
+        "KE",
+        "TZ",
+        "UG"
+      ],
+      "nativeRangeVi": "Khắp khu vực Tây Phi, Trung Phi và một phần Đông Phi",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Mỏm đá lộ thiên trên thảo nguyên",
+      "Tường đá và mái nhà khu dân cư"
+    ],
+    "identificationVi": "Con đực trưởng thành có đầu vàng cam đến đỏ tươi, thân xanh lam đậm, giữa đuôi có đoạn màu cam; con cái màu nâu ô-liu điểm vệt vàng xanh bên đầu.",
+    "behaviorVi": "Sống theo bầy gồm một con đực đầu đàn (cock) cai quản 5–10 con cái và các con đực cấp thấp; con đực liên tục gật đầu nhanh trên đỉnh đá cao nhất.",
+    "reproductionVi": "Con cái đào ổ trong đất cát ẩm sau cơn mưa và đẻ 5–10 trứng mỗi lứa, nở sau 55–70 ngày.",
+    "threatsVi": [
+      "Ít bị đe dọa do thích nghi mạnh với môi trường đô thị ở châu Phi"
+    ],
+    "funFactsVi": [
+      "Nếu hai con đực đầu đàn lao vào đánh nhau giành lãnh thổ, màu đầu của chúng có thể đột ngột chuyển từ đỏ cam sang nâu xám tối sầm chỉ trong vài giây."
+    ],
+    "similarSpecies": [
+      "Agama lionotus",
+      "Agama picticauda"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng ngang rộng 120×60×60 cm bố trí các tảng đá cao dưới đèn sưởi.",
+      "lightingVi": "Đèn UVB 12.0% cường độ cao và đèn sưởi chiếu điểm đạt 40–42°C.",
+      "feedingVi": "Dế, châu chấu, gián Dubia phủ canxi và vitamin.",
+      "socialVi": "Nuôi đơn hoặc 1 đực kèm 2 cái trong chuồng lớn.",
+      "commonProblemsVi": [
+        "Mất màu sặc sỡ nếu thiếu tia UVA/UVB và điểm sưởi nhiệt độ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp và không thuộc phụ lục hạn chế của CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đầu đỏ châu Phi Agama agama (CB 5 tháng tuổi)",
+        "priceVnd": 1800000,
+        "descriptionVi": "Cá thể khỏe mạnh, lanh lợi, ăn dế và châu chấu cực nhạy."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:20240521 - Agama agama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20240521_-_Agama_agama.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/20240521_-_Agama_agama.jpg",
+        "width": 5184,
+        "height": 3888,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fabricio Cardenas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:African Stories 13.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:African_Stories_13.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/African_Stories_13.jpg",
+        "width": 3072,
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NubianQueen75",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Agama agama female on a log in the garden of the Ashnil Aruba Lodge in the Tsavo East National Park, Kenya (edited).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agama_agama_female_on_a_log_in_the_garden_of_the_Ashnil_Aruba_Lodge_in_the_Tsavo_East_National_Park,_Kenya_(edited).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Agama_agama_female_on_a_log_in_the_garden_of_the_Ashnil_Aruba_Lodge_in_the_Tsavo_East_National_Park%2C_Kenya_%28edited%29.jpg",
+        "width": 1319,
+        "height": 1470,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "CT Cooper",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agama agama face MHNT.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agama_agama_face_MHNT.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Agama_agama_face_MHNT.jpg",
+        "width": 4030,
+        "height": 2688,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Roger Culos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agama agama female in Reunion Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agama_agama_female_in_Reunion_Island.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Agama_agama_female_in_Reunion_Island.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Parchaco",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5226308",
+      "https://www.iucnredlist.org/species/172799/1374221",
+      "https://en.wikipedia.org/wiki/Agama_agama",
+      "https://vi.wikipedia.org/wiki/Agama_agama"
+    ]
+  },
+  {
+    "scientificName": "Iguana iguana",
+    "commonNameVi": "Rồng Nam Mỹ",
+    "commonNameEn": "Green iguana",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Iguana"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Cự đà (Iguanidae)",
+      "genus": "Chi Iguana"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/174481/218317281",
+    "gbifKey": 2459658,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 32,
+      "baskMin": 36,
+      "baskMax": 40,
+      "humidMin": 65,
+      "humidMax": 80,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nhiệt đới ven sông suối khắp Trung và Nam Mỹ"
+    },
+    "descriptionVi": "Loài cự đà sống trên cây nổi tiếng nhất thế giới với chiếc yếm cổ tròn lớn xòe rộng dưới cằm, hàng gai lược mềm chạy dọc từ gáy tới đuôi và một vảy tròn lớn đặc trưng nằm ngay bên dưới màng nhĩ.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố cực kỳ rộng khắp Trung và Nam Mỹ và được nhân giống thương mại hàng triệu cá thể mỗi năm.",
+    "pullQuoteVi": "Từ một chú cự đà non xanh biếc nằm gọn trong lòng bàn tay, chúng có thể vươn mình thành 'khổng lồ ăn chay' dài tới gần 2 mét trên tán cây.",
+    "dietVi": "Ăn thực vật hoàn toàn: lá cây xanh đậm, rau cải, hoa dâm bụt, bí đỏ và một ít trái cây",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Lưu vực sông Magdalena, Colombia",
+      "lat": 7.12,
+      "lng": -73.85
+    },
+    "regionVi": "Trung Mỹ, Caribe và Nam Mỹ",
+    "otherNamesVi": [
+      "Cự đà xanh Nam Mỹ"
+    ],
+    "synonyms": [
+      "Iguana coerulea",
+      "Iguana emarginata",
+      "Iguana lophryoides",
+      "Iguana melanoderma"
+    ],
+    "wikidataId": "Q215376",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%B1_%C4%91%C3%A0_xanh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Green_iguana",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 180,
+      "weightGMin": 4000,
+      "weightGMax": 8000,
+      "heightCmMax": null,
+      "noteVi": "Có rất nhiều dòng đột biến màu: Red, Blue Axanthic, Albino, Snow"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "CR",
+        "PA",
+        "CO",
+        "VE",
+        "EC",
+        "PE",
+        "BR",
+        "PY"
+      ],
+      "nativeRangeVi": "Từ miền trung Mexico qua khắp Trung Mỹ đến miền trung Brazil và Paraguay",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới ven sông",
+      "Rừng ngập mặn và rừng cọ"
+    ],
+    "identificationVi": "Một chiếc vảy tròn to (subtympanic shield) nằm ngay dưới tai ở hai bên má, yếm cổ lớn có gai lược phía trước, đuôi rất dài có khoang đen.",
+    "behaviorVi": "Dành phần lớn thời gian tắm nắng trên các cành cây cao rủ bóng trên mặt sông; bơi lặn rất giỏi và dùng chiếc đuôi dài làm vũ khí quất tự vệ.",
+    "reproductionVi": "Con cái đào đường hầm trên bãi cát ven sông đẻ 25–60 trứng mỗi lứa, thời gian ấp 70–90 ngày.",
+    "threatsVi": [
+      "Săn bắt lấy thịt và trứng tại một số vùng Trung Mỹ"
+    ],
+    "funFactsVi": [
+      "Vì ăn thực vật hoàn toàn, Rồng Nam Mỹ có ruột già chia ngăn chứa hệ vi khuẩn cộng sinh giúp lên men và phân giải cellulose tương tự dạ cỏ của động vật ăn cỏ."
+    ],
+    "similarSpecies": [
+      "Ctenosaura similis",
+      "Brachylophus fasciatus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Cá thể nhỏ nuôi chuồng đứng 90×60×120 cm; khi trưởng thành cần chuồng phòng lớn 180×120×180 cm có cành gỗ to.",
+      "lightingVi": "Bắt buộc đèn UVB 10.0% và đèn sưởi tạo điểm nắng 37–40°C.",
+      "feedingVi": "100% thực vật: rau cải ngọt, cải xoăn, rau muống, lá dâu, bí đỏ bào sợi bổ sung canxi (tuyệt đối không cho ăn côn trùng/thịt).",
+      "socialVi": "Nuôi đơn độc và vuốt ve thuần hóa thường xuyên từ nhỏ.",
+      "commonProblemsVi": [
+        "Bệnh xương chuyển hóa (MBD) do thiếu UVB",
+        "Suy thận nếu cho ăn đạm động vật"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, nhân giống trang trại hợp pháp số lượng lớn và là loài bò sát cảnh phổ biến nhất tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng Nam Mỹ xanh Green Iguana (Baby CB 3 tháng)",
+        "priceVnd": 450000,
+        "descriptionVi": "Cá thể non màu xanh lá tươi sáng, đuôi nguyên vẹn, ăn rau cải rất khỏe."
+      },
+      {
+        "nameVi": "Rồng Nam Mỹ đỏ Red Iguana (CB 4 tháng tuổi)",
+        "priceVnd": 750000,
+        "descriptionVi": "Dòng lưng đỏ cam rực rỡ, dạn tay, thích hợp nuôi thuần từ nhỏ."
+      },
+      {
+        "nameVi": "Rồng Nam Mỹ xanh lam Blue Axanthic Iguana (CB 4 tháng)",
+        "priceVnd": 1850000,
+        "descriptionVi": "Dòng đột biến thiếu sắc tố vàng tạo màu xanh ngọc lam toàn thân."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:A refeiçao do iguana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_refei%C3%A7ao_do_iguana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/A_refei%C3%A7ao_do_iguana.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Isabelle Allet-Coche",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Green Iguana (19014078803).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Iguana_(19014078803).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Green_Iguana_%2819014078803%29.jpg",
+        "width": 3456,
+        "height": 4608,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "William Warby from London, England",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20180825 Vlinders aan de Vliet 33 - Iguana iguana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_33_-_Iguana_iguana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/20180825_Vlinders_aan_de_Vliet_33_-_Iguana_iguana.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adult Male Iguana.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adult_Male_Iguana.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Adult_Male_Iguana.JPG",
+        "width": 4320,
+        "height": 2432,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Hugo L. D. de S. Cavalcante",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Baby Sauro. (32933278114).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baby_Sauro._(32933278114).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baby_Sauro._%2832933278114%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Marinelson Almeida - Traveling through Brazil from Niteroi, Brasil",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2459658",
+      "https://www.iucnredlist.org/species/174481/218317281",
+      "https://en.wikipedia.org/wiki/Green_iguana",
+      "https://vi.wikipedia.org/wiki/C%E1%BB%B1_%C4%91%C3%A0_xanh"
+    ]
+  },
+  {
+    "scientificName": "Cyclura cornuta",
+    "commonNameVi": "Cự đà tê giác",
+    "commonNameEn": "Rhinoceros iguana",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Cyclura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Cự đà (Iguanidae)",
+      "genus": "Chi Cyclura"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/6042/3099941",
+    "gbifKey": 5960674,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 33,
+      "baskMin": 38,
+      "baskMax": 43,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vùng đá vôi ven biển khô hạn và rừng cây gai trên đảo Hispaniola (Cộng hòa Dominica và Haiti)"
+    },
+    "descriptionVi": "Loài cự đà đá khổng lồ mang vẻ đẹp thời tiền sử với lớp da dày màu xám đá than, hai bướu cơ sọ phình to trên đỉnh đầu và từ 3 đến 5 chiếc sừng vảy xương nhô cao trên sống mũi như sừng tê giác.",
+    "conservationNoteVi": "Xếp hạng Nguy cấp (EN) do mất sinh cảnh rừng khô ven biển, khai thác mỏ đá vôi và thú dữ ngoại lai (chó hoang, mèo, cầy mangut) ăn trứng và con non.",
+    "pullQuoteVi": "Những chiếc sừng xương nhô lên trên sống mũi cùng thân hình đồ sộ màu xám đá biến chúng thành những 'chú khủng long sống' của vùng biển Caribe.",
+    "dietVi": "Ăn thực vật chủ yếu: lá cây bụi, hoa, quả xương rồng và trái cây rụng",
+    "lifespanVi": "30–45 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Hồ Enriquillo, tây nam Cộng hòa Dominica",
+      "lat": 18.5,
+      "lng": -71.6
+    },
+    "regionVi": "Đảo Hispaniola (Cộng hòa Dominica và Haiti)",
+    "otherNamesVi": [
+      "Cự đà sừng đảo Hispaniola"
+    ],
+    "synonyms": [
+      "Aloponotus cornutus",
+      "Iguana cornuta",
+      "Lacerta cornuta",
+      "Metopoceros cornutus"
+    ],
+    "wikidataId": "Q907252",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cyclura_cornuta",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rhinoceros_iguana",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 100,
+      "lengthCmMax": 135,
+      "weightGMin": 4500,
+      "weightGMax": 9000,
+      "heightCmMax": null,
+      "noteVi": "Thân hình đẫy đà và nặng cân, có thể sống trên 40 năm"
+    },
+    "distribution": {
+      "countries": [
+        "DO",
+        "HT"
+      ],
+      "nativeRangeVi": "Đặc hữu đảo Hispaniola (Cộng hòa Dominica và Haiti) cùng các đảo nhỏ phụ cận",
+      "elevationM": {
+        "min": -40,
+        "max": 400
+      }
+    },
+    "habitatTypesVi": [
+      "Bờ đá vôi san hô hóa thạch ven biển",
+      "Rừng khô cây gai và xương rồng"
+    ],
+    "identificationVi": "Trên mõm có hàng 3–5 u vảy sừng lớn hình nón, đỉnh đầu con đực có hai khối đệm mỡ-cơ phình cao như chiếc mũ sắt.",
+    "behaviorVi": "Sống trên mặt đất và các vách đá vôi, rất thông minh và có trí nhớ tốt, đóng vai trò phát tán hạt giống quan trọng cho hệ thực vật đảo.",
+    "reproductionVi": "Con cái đào tổ sâu trong cát san hô đẻ 10–25 trứng lớn mỗi năm và canh giữ tổ trứng suốt nhiều ngày sau khi đẻ.",
+    "threatsVi": [
+      "Đốt rừng làm than củi tại Haiti",
+      "Chó hoang và cầy mangut ngoại lai phá hủy ổ trứng"
+    ],
+    "funFactsVi": [
+      "Hạt của nhiều loài cây bản địa trên đảo Hispaniola có tỷ lệ nảy mầm cao hơn hẳn sau khi đi qua hệ tiêu hóa của Cự đà tê giác."
+    ],
+    "similarSpecies": [
+      "Cyclura lewisi",
+      "Cyclura nubila"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Toàn bộ chi Cự đà đá Cyclura thuộc Phụ lục I Công ước CITES và xếp hạng Nguy cấp (EN), không giao dịch thương mại trên sàn."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Iguana cornuda (Cyclura cornuta), Tierpark Hellabrunn, Múnich, Alemania, 2012-06-17, DD 03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iguana_cornuda_(Cyclura_cornuta),_Tierpark_Hellabrunn,_M%C3%BAnich,_Alemania,_2012-06-17,_DD_03.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Iguana_cornuda_%28Cyclura_cornuta%29%2C_Tierpark_Hellabrunn%2C_M%C3%BAnich%2C_Alemania%2C_2012-06-17%2C_DD_03.JPG",
+        "width": 5616,
+        "height": 3744,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Cyclura cornuta.003 - Zoo Aquarium de Madrid.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyclura_cornuta.003_-_Zoo_Aquarium_de_Madrid.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Cyclura_cornuta.003_-_Zoo_Aquarium_de_Madrid.JPG",
+        "width": 2448,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Fernando Losada Rodríguez",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Lizard Face (Unsplash).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lizard_Face_(Unsplash).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Lizard_Face_%28Unsplash%29.jpg",
+        "width": 4888,
+        "height": 3258,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Alina Sofia alinasofia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cyclura cornuta wiki (3).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyclura_cornuta_wiki_(3).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cyclura_cornuta_wiki_%283%29.JPG",
+        "width": 4032,
+        "height": 2272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cedricguppy",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Jielbeaumadier iguane rhinoceros mjp paris 2014.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_iguane_rhinoceros_mjp_paris_2014.jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Jielbeaumadier_iguane_rhinoceros_mjp_paris_2014.jpeg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jiel Beaumadier ( http://jiel.b.free.fr )]]",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5960674",
+      "https://www.iucnredlist.org/species/6042/3099941",
+      "https://en.wikipedia.org/wiki/Rhinoceros_iguana",
+      "https://vi.wikipedia.org/wiki/Cyclura_cornuta"
+    ]
+  },
+  {
+    "scientificName": "Cyclura lewisi",
+    "commonNameVi": "Cự đà lam Grand Cayman",
+    "commonNameEn": "Grand Cayman blue iguana",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Cyclura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Cự đà (Iguanidae)",
+      "genus": "Chi Cyclura"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/44275/2994409",
+    "gbifKey": 7982719,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 33,
+      "baskMin": 38,
+      "baskMax": 42,
+      "humidMin": 55,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây bụi khô hạn và bờ đá vôi karst trên đảo Grand Cayman (Caribe)"
+    },
+    "descriptionVi": "Một trong những loài bò sát quý hiếm và có tuổi thọ cao nhất hành tinh, nổi bật với làn da màu xanh coban đến xanh ngọc lam rực sáng dưới ánh mặt trời nhiệt đới và đôi tròng mắt màu đỏ rượu vang.",
+    "conservationNoteVi": "Xếp hạng Nguy cấp (EN); từng tụt xuống dưới 25 cá thể ngoài tự nhiên vào năm 2002 trước khi được giải cứu thành công nhờ chương trình nhân giống tái thả bảo tồn.",
+    "pullQuoteVi": "Từng đứng bên bờ tuyệt chủng với chưa đầy 25 cá thể hoang dã vào năm 2002, loài cự đà xanh lam với đôi mắt đỏ rực này đã hồi sinh kỳ diệu.",
+    "dietVi": "Ăn thực vật chủ yếu: lá cây, hoa và quả rụng của hơn 45 loài thực vật bản địa đảo Cayman",
+    "lifespanVi": "40–65 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Khu bảo tồn Queen Elizabeth II Botanic Park, đảo Grand Cayman",
+      "lat": 19.32,
+      "lng": -81.17
+    },
+    "regionVi": "Đảo Grand Cayman (Quần đảo Cayman, Caribe)",
+    "otherNamesVi": [
+      "Cự đà đá xanh lam Cayman"
+    ],
+    "synonyms": [
+      "Cyclura macleayi lewisi",
+      "Cyclura nubila lewisi"
+    ],
+    "wikidataId": "Q730112",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%B1_%C4%91%C3%A0_lam",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Blue_iguana",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Increasing",
+    "size": {
+      "lengthCmMin": 120,
+      "lengthCmMax": 150,
+      "weightGMin": 6000,
+      "weightGMax": 11000,
+      "heightCmMax": null,
+      "noteVi": "Loài cự đà nặng nhất Tây Bán cầu"
+    },
+    "distribution": {
+      "countries": [
+        "KY"
+      ],
+      "nativeRangeVi": "Đặc hữu duy nhất trên đảo Grand Cayman ở vùng biển Caribe",
+      "elevationM": {
+        "min": 0,
+        "max": 25
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây bụi khô trên nền đá vôi",
+      "Trảng cỏ ven rừng bảo tồn"
+    ],
+    "identificationVi": "Cơ thể đồ sộ màu xanh lam ngọc (đặc biệt đậm ở con đực vào mùa giao phối), bàn chân màu đen tương phản, tròng mắt màu đỏ tươi.",
+    "behaviorVi": "Sống đơn độc trên mặt đất, dùng màu xanh lam sáng để truyền tín hiệu lãnh thổ từ khoảng cách xa giữa nền đá xám và cây xanh.",
+    "reproductionVi": "Đẻ 8–20 trứng mỗi năm trong các túi đất giữa khe đá vôi vào tháng 6–7, nở sau 65–90 ngày.",
+    "threatsVi": [
+      "Chó và mèo ngoại lai trên đảo",
+      "Phát triển du lịch và đường giao thông thu hẹp sinh cảnh tự nhiên"
+    ],
+    "funFactsVi": [
+      "Một cá thể Cự đà lam nổi tiếng tên là 'Godzilla' từng sống trong điều kiện chăm sóc bảo tồn tới 69 năm tuổi — kỷ lục tuổi thọ được xác nhận của họ Cự đà."
+    ],
+    "similarSpecies": [
+      "Cyclura nubila",
+      "Cyclura cornuta"
+    ],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Thuộc Phụ lục I Công ước CITES và là loài bảo tồn đặc biệt của quần đảo Cayman, nghiêm cấm buôn bán thương mại."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Blue Iguana A.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Iguana_A.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Blue_Iguana_A.jpg",
+        "width": 5011,
+        "height": 3648,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Wiki Commons user https://commons.wikimedia.org/wiki/User_talk:Reveriesun",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blue Iguana resting on bench QEII Botanic Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Iguana_resting_on_bench_QEII_Botanic_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Blue_Iguana_resting_on_bench_QEII_Botanic_Park.jpg",
+        "width": 934,
+        "height": 1371,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Lhb1239",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Blue Iguana at QEII Botanic Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Iguana_at_QEII_Botanic_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blue_Iguana_at_QEII_Botanic_Park.jpg",
+        "width": 2109,
+        "height": 1453,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Lhb1239",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue iguana (Cyclura lewisi) male.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_iguana_(Cyclura_lewisi)_male.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Blue_iguana_%28Cyclura_lewisi%29_male.JPG",
+        "width": 5472,
+        "height": 2412,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue Iguana (Cyclura lewisi).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Iguana_(Cyclura_lewisi).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Blue_Iguana_%28Cyclura_lewisi%29.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bloopityboop",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7982719",
+      "https://www.iucnredlist.org/species/44275/2994409",
+      "https://en.wikipedia.org/wiki/Blue_iguana",
+      "https://vi.wikipedia.org/wiki/C%E1%BB%B1_%C4%91%C3%A0_lam"
+    ]
+  },
+  {
+    "scientificName": "Ctenosaura similis",
+    "commonNameVi": "Cự đà đuôi gai đen",
+    "commonNameEn": "Black spiny-tailed iguana",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Ctenosaura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Cự đà (Iguanidae)",
+      "genus": "Chi Ctenosaura"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/174480/73611567",
+    "gbifKey": 2459603,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 33,
+      "baskMin": 38,
+      "baskMax": 43,
+      "humidMin": 45,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô nhiệt đới, bờ biển đá và tàn tích đá cổ khắp Trung Mỹ và nam Mexico"
+    },
+    "descriptionVi": "Loài cự đà đuôi gai cỡ lớn giữ kỷ lục tốc độ chạy trên cạn của toàn bộ thế giới thằn lằn, sở hữu thân màu xám bạc điểm các dải khoang đen đậm, mào gai lưng cao và chiếc đuôi dài đầy vòng gai sắc.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng và quần thể dồi dào từ miền nam Mexico qua khắp Trung Mỹ tới Panama.",
+    "pullQuoteVi": "Kỷ lục gia tốc độ của thế giới thằn lằn với khả năng bứt tốc trên mặt đất đạt tới 34,6 km/giờ khi lao về khe đá trú ẩn.",
+    "dietVi": "Ăn tạp chuyển dần sang thực vật: con non ăn côn trùng; con trưởng thành ăn lá, hoa, quả chín và đôi khi ăn động vật nhỏ",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Santa Rosa, tỉnh Guanacaste, Costa Rica",
+      "lat": 10.84,
+      "lng": -85.61
+    },
+    "regionVi": "Nam Mexico và Trung Mỹ",
+    "otherNamesVi": [
+      "Cự đà chạy nhanh Trung Mỹ"
+    ],
+    "synonyms": [
+      "Ctenosaura completa",
+      "Iguana similis"
+    ],
+    "wikidataId": "Q1132759",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ctenosaura_similis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ctenosaura_similis",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 80,
+      "lengthCmMax": 120,
+      "weightGMin": 1500,
+      "weightGMax": 3500,
+      "heightCmMax": null,
+      "noteVi": "Giữ kỷ lục Guinness là loài thằn lằn chạy nhanh nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "GT",
+        "BZ",
+        "HN",
+        "SV",
+        "NI",
+        "CR",
+        "PA",
+        "CO"
+      ],
+      "nativeRangeVi": "Từ eo đất Tehuantepec (nam Mexico) qua toàn bộ Trung Mỹ tới tây bắc Colombia",
+      "elevationM": {
+        "min": 0,
+        "max": 1300
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô nhiệt đới",
+      "Vách đá ven biển và di tích khảo cổ Maya"
+    ],
+    "identificationVi": "Thân xám kem hoặc nâu vàng có 4–6 dải vằn ngang màu đen rõ rệt trên lưng, đuôi có các vòng vảy gai nhọn cứng.",
+    "behaviorVi": "Thích phơi nắng trên các bức tường đá và cành cây lớn; cực kỳ cảnh giác và sẵn sàng dùng hàm khỏe cùng chiếc đuôi gai để tự vệ.",
+    "reproductionVi": "Đẻ 20–50 trứng mỗi lứa trong hang đất sâu vào mùa khô, trứng nở đúng vào đầu mùa mưa khi có nhiều lá non và côn trùng.",
+    "threatsVi": [
+      "Săn bắt lấy thịt tại một số vùng nông thôn Trung Mỹ"
+    ],
+    "funFactsVi": [
+      "Tốc độ chạy 34,6 km/giờ (21,5 dặm/giờ) của Ctenosaura similis được nhà sinh học cổ điển đo đạc và ghi nhận vào Sách Kỷ lục Guinness Thế giới."
+    ],
+    "similarSpecies": [
+      "Ctenosaura pectinata",
+      "Iguana iguana"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lớn tối thiểu 180×90×120 cm có nhiều khúc gỗ lũa và hốc đá kiên cố.",
+      "lightingVi": "Đèn UVB 10.0–12.0% và đèn sưởi chiếu điểm nóng 40–42°C.",
+      "feedingVi": "80% rau lá xanh, hoa, bí đỏ kết hợp 20% côn trùng cho cá thể đang lớn.",
+      "socialVi": "Nuôi đơn độc hoàn toàn và cần thuần hóa kiên nhẫn từ nhỏ.",
+      "commonProblemsVi": [
+        "Tính khí hung dữ và quất đuôi nếu không được tiếp xúc thường xuyên"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp và không thuộc danh mục cấm CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Cự đà đuôi gai đen Ctenosaura similis (CB 4 tháng tuổi)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể non màu xanh pha vằn đen, nhanh nhẹn, ăn rau và dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Black iguana (Ctenosaura similis) Cayo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_iguana_(Ctenosaura_similis)_Cayo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Black_iguana_%28Ctenosaura_similis%29_Cayo.jpg",
+        "width": 5874,
+        "height": 3495,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Charles J. Sharp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A female basking on a beach in Manuel Antonio National Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_female_basking_on_a_beach_in_Manuel_Antonio_National_Park.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/A_female_basking_on_a_beach_in_Manuel_Antonio_National_Park.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "TurtleFrog",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Black Ctenosaur Ctenosaura similis (28514004647).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Ctenosaur_Ctenosaura_similis_(28514004647).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Black_Ctenosaur_Ctenosaura_similis_%2828514004647%29.jpg",
+        "width": 3666,
+        "height": 2467,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A black iguana on a stone wall in Ekʼ Balam.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_black_iguana_on_a_stone_wall_in_Ek%CA%BC_Balam.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/A_black_iguana_on_a_stone_wall_in_Ek%CA%BC_Balam.jpg",
+        "width": 4032,
+        "height": 2268,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Sojiniiii",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Belize Iguana Ctenosaura similis Laslovarga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Belize_Iguana_Ctenosaura_similis_Laslovarga.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Belize_Iguana_Ctenosaura_similis_Laslovarga.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Laslovarga",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2459603",
+      "https://www.iucnredlist.org/species/174480/73611567",
+      "https://en.wikipedia.org/wiki/Ctenosaura_similis",
+      "https://vi.wikipedia.org/wiki/Ctenosaura_similis"
+    ]
+  },
+  {
+    "scientificName": "Ctenosaura pectinata",
+    "commonNameVi": "Cự đà đuôi gai Mexico",
+    "commonNameEn": "Mexican spiny-tailed iguana",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Ctenosaura"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Cự đà (Iguanidae)",
+      "genus": "Chi Ctenosaura"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/174478/1414553",
+    "gbifKey": 2459612,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 33,
+      "baskMin": 38,
+      "baskMax": 43,
+      "humidMin": 40,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng khô rụng lá nhiệt đới và sườn núi đá dọc bờ biển Thái Bình Dương của Mexico"
+    },
+    "descriptionVi": "Loài cự đà đuôi gai rất được ưa chuộng trong giới bò sát cảnh nhờ tính cách điềm tĩnh hơn họ hàng C. similis và có các dòng màu tương phản ấn tượng như trắng đen (Panda) và vàng nghệ (Banana).",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) trên toàn dải phân bố rộng dọc miền tây Mexico từ Sinaloa tới Chiapas.",
+    "pullQuoteVi": "Con non mới nở mang màu xanh lục bảo tươi sáng để ẩn mình trong cỏ non trước khi lột xác thành bộ giáp đen vàng tương phản lúc trưởng thành.",
+    "dietVi": "Ăn thực vật chủ yếu khi trưởng thành: lá cây, hoa, quả mọng; con non ăn thêm côn trùng",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bang Guerrero, bờ tây nam Mexico",
+      "lat": 17.55,
+      "lng": -99.5
+    },
+    "regionVi": "Miền Tây và Tây Nam Mexico",
+    "otherNamesVi": [
+      "Cự đà gấu trúc (dòng vàng đen)",
+      "Cự đà đá miền Tây Mexico"
+    ],
+    "synonyms": [
+      "Ctenosaura brachylopha",
+      "Ctenosaura brevirostris",
+      "Ctenosaura parkeri",
+      "Ctenosaura teres brachylopha"
+    ],
+    "wikidataId": "Q276865",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ctenosaura_pectinata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ctenosaura_pectinata",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 75,
+      "lengthCmMax": 110,
+      "weightGMin": 1200,
+      "weightGMax": 3000,
+      "heightCmMax": null,
+      "noteVi": "Hàng gai lưng chạy liền mạch không bị ngắt quãng ở vùng hông"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Dọc sườn Thái Bình Dương của Mexico từ Sinaloa xuống Oaxaca và Chiapas",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng khô nhiệt đới",
+      "Vách đá và hốc cây lớn"
+    ],
+    "identificationVi": "Mào gai lưng chạy liên tục tới tận gốc đuôi (khác với một số loài Ctenosaura khác bị đứt quãng ở thắt lưng); thân đen xám điểm mảng vàng hoặc trắng.",
+    "behaviorVi": "Thích leo trèo trên cả vách đá lẫn thân cây lớn, dễ thuần tính và thân thiện với người nuôi hơn Ctenosaura similis.",
+    "reproductionVi": "Đẻ 20–45 trứng mỗi lứa trong hang đất cát ấm, nở sau 70–85 ngày.",
+    "threatsVi": [
+      "Săn bắt truyền thống tại địa phương ở Mexico"
+    ],
+    "funFactsVi": [
+      "Dòng đột biến tự nhiên 'Banana Pectinata' và 'Panda Pectinata' nhân giống từ loài này là những dòng cự đà đuôi gai hiền lành và đắt giá nhất hiện nay."
+    ],
+    "similarSpecies": [
+      "Ctenosaura similis",
+      "Ctenosaura acanthura"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng lớn 150×75×90 cm có bệ đá sưởi nắng và khúc gỗ bần lớn.",
+      "lightingVi": "Đèn UVB 10.0–12.0% và đèn halogen tạo điểm sưởi 40–42°C.",
+      "feedingVi": "Rau cải xanh, bồ công anh, hoa dâm bụt, bí đỏ bào sợi bổ sung canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Thiếu tia UVB dẫn đến giảm mật độ xương"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp, rất phổ biến với dòng Banana và Panda."
+    },
+    "products": [
+      {
+        "nameVi": "Cự đà đuôi gai Mexico Ctenosaura pectinata (CB 4 tháng)",
+        "priceVnd": 4200000,
+        "descriptionVi": "Cá thể CB đang chuyển từ màu xanh cốm sang khoang vàng đen."
+      },
+      {
+        "nameVi": "Cự đà đuôi gai Panda Pectinata (CB 6 tháng tuổi)",
+        "priceVnd": 8500000,
+        "descriptionVi": "Dòng chọn lọc hai màu đen trắng tương phản như gấu trúc, rất dạn tay."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Iguana imperturbable, Bahía de Tangolunda, Huatulco, Oaxaca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iguana_imperturbable,_Bah%C3%ADa_de_Tangolunda,_Huatulco,_Oaxaca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Iguana_imperturbable%2C_Bah%C3%ADa_de_Tangolunda%2C_Huatulco%2C_Oaxaca.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Suwanosejima",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Ctenosaura pectinata (Westmexikanischer Schwarzleguan) im Exotarium Oberhof (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ctenosaura_pectinata_(Westmexikanischer_Schwarzleguan)_im_Exotarium_Oberhof_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Ctenosaura_pectinata_%28Westmexikanischer_Schwarzleguan%29_im_Exotarium_Oberhof_%281%29.jpg",
+        "width": 4128,
+        "height": 4279,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Stephan van Helden",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Mexican Spiny-tailed Iguana, Blue Reef Aquarium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mexican_Spiny-tailed_Iguana,_Blue_Reef_Aquarium.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mexican_Spiny-tailed_Iguana%2C_Blue_Reef_Aquarium.jpg",
+        "width": 4003,
+        "height": 3002,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Tim Sheerman-Chase",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Echse01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Echse01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Echse01.jpg",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "böhringer friedrich",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Mexican Spiny-tailed Iguana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mexican_Spiny-tailed_Iguana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Mexican_Spiny-tailed_Iguana.jpg",
+        "width": 3322,
+        "height": 2262,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "John J. Mosesso, NBII",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2459612",
+      "https://www.iucnredlist.org/species/174478/1414553",
+      "https://en.wikipedia.org/wiki/Ctenosaura_pectinata",
+      "https://vi.wikipedia.org/wiki/Ctenosaura_pectinata"
+    ]
+  }
+]

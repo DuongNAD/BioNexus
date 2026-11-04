@@ -2,16 +2,23 @@ import type { SpeciesDto, ProductDto, SellerDto } from '@/types/api';
 import { parseEnvironmentSpecs, formatVnd, type ParsedEnvironmentSpecs } from '@/lib/parseEnvironmentSpecs';
 import { SPECIES_EXTRAS, type SpeciesExtra } from '@/content/species-extras';
 import { PHOTOS } from '@/content/photos';
+import { catalogPhotoPath, getCatalogEntry, type CatalogGroup } from './catalog';
 
 export { SPECIES_EXTRAS, type SpeciesExtra };
+
+export type SpeciesGroup = SpeciesExtra['group'] | CatalogGroup | 'Khác';
 
 export interface SpeciesViewModel extends SpeciesDto {
   displayName: string;
   englishName: string;
   slug: string;
-  group: 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt' | 'Khác';
+  group: SpeciesGroup;
   origin: { lat: number; lng: number; place: string };
   heroPhoto: string;
+  /** Ảnh cho thẻ trong lưới: loài catalog dùng ảnh portrait nhẹ hơn ảnh hero */
+  cardPhoto: string;
+  /** true khi loài thuộc catalog mở rộng (hồ sơ chi tiết nằm ở public/catalog) */
+  isCatalog: boolean;
   galleryPhotos: string[];
   parsedSpecs: ParsedEnvironmentSpecs;
   // Các trường tạp chí khoa học mở rộng
@@ -103,8 +110,11 @@ export function resolveProductImage(imageUrl: string | null | undefined, species
       return imageUrl.startsWith('/') && !imageUrl.startsWith('//') ? imageUrl.slice(1) : imageUrl;
     }
   }
-  const slug = speciesScientificName ? SPECIES_EXTRAS[speciesScientificName]?.slug : undefined;
-  return (slug && SLUG_TO_PROD_IMAGE[slug]) || PRODUCT_PLACEHOLDER_IMAGE;
+  if (!speciesScientificName) return PRODUCT_PLACEHOLDER_IMAGE;
+  const slug = SPECIES_EXTRAS[speciesScientificName]?.slug;
+  if (slug) return SLUG_TO_PROD_IMAGE[slug] || PRODUCT_PLACEHOLDER_IMAGE;
+  // Loài catalog: dùng ảnh portrait của loài. Loài không có ảnh thì lib/imageFallback đổi sang ảnh giữ chỗ khi tải lỗi
+  return catalogPhotoPath(speciesScientificName, 'portrait');
 }
 
 function photoIdToLocalWebp(photoId: string, slug: string): string {
@@ -132,19 +142,28 @@ export function toSpeciesView(dto: SpeciesDto): SpeciesViewModel {
   const slug = extras?.slug || slugFromScientificName(dto.scientificName);
   const fallbackImage =
     dto.imageURL && !dto.imageURL.startsWith('https://bionexus.vn/') ? dto.imageURL : PRODUCT_PLACEHOLDER_IMAGE;
+  // Chỉ mục catalog đã được các query loài tải xong trước khi gọi adapter (xem loadCatalogIndex)
+  const entry = extras ? undefined : getCatalogEntry(dto.scientificName);
+  const catalogHero = entry?.h ? catalogPhotoPath(dto.scientificName, 'hero') : undefined;
+  const catalogPortrait = entry?.p ? catalogPhotoPath(dto.scientificName, 'portrait') : undefined;
+  const heroPhoto = extras ? `photos/${extras.slug}/hero-960.webp` : (catalogHero ?? catalogPortrait ?? fallbackImage);
 
   return {
     ...dto,
     displayName: displayName || dto.scientificName,
     englishName,
     slug,
-    group: extras?.group || 'Khác',
-    origin: extras?.origin || { lat: 10.78, lng: 106.7, place: 'Việt Nam' },
-    // Loài mới (chưa có ảnh trong public/photos) thì dùng ảnh DB nếu là URL thật, không thì ảnh giữ chỗ
-    heroPhoto: extras ? `photos/${extras.slug}/hero-960.webp` : fallbackImage,
+    group: extras?.group || entry?.g || 'Khác',
+    origin:
+      extras?.origin ||
+      (entry?.o ? { lat: entry.o[0], lng: entry.o[1], place: entry.r ?? '' } : { lat: 10.78, lng: 106.7, place: 'Việt Nam' }),
+    // Loài ngoài catalog (chưa có ảnh trong public/photos) thì dùng ảnh DB nếu là URL thật, không thì ảnh giữ chỗ
+    heroPhoto,
+    cardPhoto: catalogPortrait ?? heroPhoto,
+    isCatalog: !!entry,
     galleryPhotos: extras?.galleryPhotoIds
       ? extras.galleryPhotoIds.map((id) => photoIdToLocalWebp(id, extras.slug))
-      : [fallbackImage],
+      : [catalogHero, catalogPortrait].filter((p): p is string => !!p).concat(catalogHero || catalogPortrait ? [] : [fallbackImage]),
     parsedSpecs: parseEnvironmentSpecs(dto.environmentSpecs),
     heroPhotoId: extras?.heroPhotoId,
     portraitPhotoId: extras?.portraitPhotoId,

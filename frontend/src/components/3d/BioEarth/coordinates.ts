@@ -34,6 +34,21 @@ export const VIETNAM_BREEDING_HUBS: BreedingHub[] = [
   },
 ];
 
+/** Trại của 8 shop thêm từ khối CATALOG trong seed; toạ độ theo địa chỉ chủ shop (users mới trong seed) */
+export const CATALOG_SHOP_HUBS: BreedingHub[] = [
+  { id: 'HUB-SERPENT', name: 'Trại rắn Serpent Lab', city: 'Thủ Đức, TP.HCM', lat: 10.85, lng: 106.77, shopName: 'Serpent Lab', shopStatus: 'ACTIVE', specialty: 'Rắn cảnh' },
+  { id: 'HUB-RUAXANH', name: 'Trại rùa Rùa Xanh Garden', city: 'Biên Hòa, Đồng Nai', lat: 10.95, lng: 106.82, shopName: 'Rùa Xanh Garden', shopStatus: 'ACTIVE', specialty: 'Rùa cạn và rùa nước' },
+  { id: 'HUB-FROG', name: 'Trại lưỡng cư Frog Haven', city: 'Ninh Kiều, Cần Thơ', lat: 10.03, lng: 105.78, shopName: 'Frog Haven', shopStatus: 'ACTIVE', specialty: 'Ếch, cóc, kỳ giông' },
+  { id: 'HUB-AQUA', name: 'Trại cá Aqua Việt', city: 'Hoàng Mai, Hà Nội', lat: 20.98, lng: 105.85, shopName: 'Aqua Việt', shopStatus: 'ACTIVE', specialty: 'Cá cảnh nước ngọt' },
+  { id: 'HUB-INVERT', name: 'Invert Studio', city: 'Hải Châu, Đà Nẵng', lat: 16.06, lng: 108.22, shopName: 'Invert Studio', shopStatus: 'ACTIVE', specialty: 'Động vật không xương sống' },
+  { id: 'HUB-DALAT', name: 'Vườn lan Đà Lạt Orchid & Cactus', city: 'Đà Lạt, Lâm Đồng', lat: 11.94, lng: 108.44, shopName: 'Đà Lạt Orchid & Cactus', shopStatus: 'ACTIVE', specialty: 'Lan, xương rồng, mọng nước' },
+  { id: 'HUB-BIRD', name: 'Vườn Chim Hà Nội', city: 'Long Biên, Hà Nội', lat: 21.04, lng: 105.89, shopName: 'Vườn Chim Hà Nội', shopStatus: 'ACTIVE', specialty: 'Chim cảnh' },
+  { id: 'HUB-REEF', name: 'Reef House Nha Trang', city: 'Nha Trang, Khánh Hòa', lat: 12.24, lng: 109.19, shopName: 'Reef House Nha Trang', shopStatus: 'ACTIVE', specialty: 'Cá cảnh biển' },
+];
+
+export const ALL_BREEDING_HUBS: BreedingHub[] = [...VIETNAM_BREEDING_HUBS, ...CATALOG_SHOP_HUBS];
+const HUB_ID_BY_SHOP = new Map(ALL_BREEDING_HUBS.map((h) => [h.shopName, h.id]));
+
 export const IUCN_MARKER_COLORS: Record<string, string> = {
   CR: '#EF4444', // Đỏ - Cực kỳ nguy cấp
   EN: '#F97316', // Cam - Nguy cấp
@@ -165,8 +180,11 @@ export const DEFAULT_SPECIES_BIOMARKERS: SpeciesBioMarker[] = [
 
 const DEFAULT_HUB_ID = VIETNAM_BREEDING_HUBS[0]!.id;
 
-/** Dựng marker từ loài do API trả về; toạ độ và trung tâm nhân giống lấy từ species-extras theo scientificName */
-export function toBioMarker(species: SpeciesViewModel, hasActiveProduct: boolean): SpeciesBioMarker {
+/**
+ * Dựng marker từ loài do API trả về; toạ độ và trung tâm nhân giống lấy từ species-extras theo scientificName.
+ * Loài catalog: trung tâm là trại của shop đang bán loài đó (shopName lấy từ sản phẩm APPROVED); chưa ai bán thì hubId rỗng, không vẽ cung.
+ */
+export function toBioMarker(species: SpeciesViewModel, hasActiveProduct: boolean, shopName?: string): SpeciesBioMarker {
   const extra = SPECIES_EXTRAS[species.scientificName];
   const fallback = DEFAULT_SPECIES_BIOMARKERS.find((m) => m.scientificName === species.scientificName);
   return {
@@ -177,8 +195,13 @@ export function toBioMarker(species: SpeciesViewModel, hasActiveProduct: boolean
     conservationStatus: species.conservationStatus,
     group: species.group,
     origin: extra?.origin ?? fallback?.origin ?? species.origin,
-    hubId: extra?.hubId ?? fallback?.hubId ?? DEFAULT_HUB_ID,
-    heroPhoto: species.heroPhoto,
+    hubId:
+      extra?.hubId ??
+      fallback?.hubId ??
+      (shopName ? HUB_ID_BY_SHOP.get(shopName) : undefined) ??
+      (species.isCatalog || shopName ? '' : DEFAULT_HUB_ID),
+    // Ảnh nhỏ trong popup: ảnh portrait của loài catalog nhẹ hơn ảnh hero
+    heroPhoto: species.cardPhoto,
     hasActiveProduct,
   };
 }

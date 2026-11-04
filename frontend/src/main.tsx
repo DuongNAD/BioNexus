@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './styles/globals.css';
 import { USE_MOCKS } from './lib/env';
+import { installCatalogImageFallback } from './lib/imageFallback';
+import { PRODUCT_PLACEHOLDER_IMAGE } from './api/adapters';
+
+installCatalogImageFallback(PRODUCT_PLACEHOLDER_IMAGE);
 
 async function enableMocking(): Promise<void> {
   if (!USE_MOCKS) {

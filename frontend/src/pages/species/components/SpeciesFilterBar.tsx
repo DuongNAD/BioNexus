@@ -4,8 +4,9 @@ import type { ConservationStatus } from '@/types/api';
 import { IUCN_SPECS } from '@/components/ui/IucnBadge';
 import { SegmentedControl } from '@/components/ui/SegmentedControl';
 import { cn } from '@/lib/cn';
+import type { SpeciesGroup } from '@/api/adapters';
 
-export type BiologicalGroup = 'all' | 'Bò sát' | 'Lưỡng cư' | 'Cây ăn thịt';
+export type BiologicalGroup = 'all' | Exclude<SpeciesGroup, 'Khác'>;
 export type SortOption = 'name_asc' | 'iucn_desc' | 'products_desc';
 
 export interface SpeciesFilterBarProps {
@@ -29,7 +30,12 @@ const GROUPS: Array<{ id: BiologicalGroup; label: string }> = [
   { id: 'all', label: 'Tất cả' },
   { id: 'Bò sát', label: 'Bò sát' },
   { id: 'Lưỡng cư', label: 'Lưỡng cư' },
+  { id: 'Cá cảnh', label: 'Cá cảnh' },
+  { id: 'Động vật không xương sống', label: 'Không xương sống' },
+  { id: 'Chim', label: 'Chim' },
+  { id: 'Thú', label: 'Thú' },
   { id: 'Cây ăn thịt', label: 'Cây ăn thịt' },
+  { id: 'Cây cảnh', label: 'Cây cảnh' },
 ];
 
 // Nguy cấp nhất đứng đầu, giống thứ tự đọc của Sách Đỏ

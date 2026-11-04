@@ -1,0 +1,3889 @@
+[
+  {
+    "scientificName": "Brookesia superciliaris",
+    "commonNameVi": "Tắc kè hoa lá khô sừng mắt",
+    "commonNameEn": "Brown leaf chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Brookesia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Brookesia"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/172741/6909334",
+    "gbifKey": 2449345,
+    "environment": {
+      "tempMin": 19,
+      "tempMax": 24,
+      "baskMin": 25,
+      "baskMax": 26,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảm lá khô trên nền rừng mưa nhiệt đới miền đông Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè hoa đất kích thước nhỏ với hình dáng hệt như một chiếc lá khô cuộn lại: sống lưng dẹp có gân nổi, hai bên hông có hàng gai xương và phía trên mỗi mắt có một phiến sừng tam giác nhô cao.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố dọc dải rừng mưa miền đông Madagascar và đảo Nosy Boraha.",
+    "pullQuoteVi": "Khi bị chạm vào, chúng lập tức thu bốn chân lại và nằm bất động giả chết hệt như một mẩu lá khô rơi trên nền đất rừng.",
+    "dietVi": "Ăn côn trùng nhỏ trên thảm mục: bọ nhảy, dế kim, nhện nhỏ và ruồi giấm",
+    "lifespanVi": "4–6 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Masoala, đông bắc Madagascar",
+      "lat": -15.7,
+      "lng": 50.15
+    },
+    "regionVi": "Đông Madagascar",
+    "otherNamesVi": [
+      "Tắc kè hoa lùn lá mục Madagascar"
+    ],
+    "synonyms": [
+      "Chamaeleo superciliaris",
+      "Chameleo brookesiana"
+    ],
+    "wikidataId": "Q1938852",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Brookesia_superciliaris",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Brown_leaf_chameleon",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 6,
+      "lengthCmMax": 9.5,
+      "weightGMin": 3,
+      "weightGMax": 7,
+      "heightCmMax": null,
+      "noteVi": "Lớn nhất trong nhóm tắc kè hoa lá khô chi Brookesia"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Rừng mưa miền đông Madagascar và đảo Nosy Boraha",
+      "elevationM": {
+        "min": 0,
+        "max": 1250
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm lá khô rừng mưa",
+      "Bụi cây thấp sát mặt đất"
+    ],
+    "identificationVi": "Màu nâu lá khô đến vàng đất, hai mấu sừng dẹp nhô cao phía trên mắt, đuôi ngắn cứng dùng làm chân chống thứ năm.",
+    "behaviorVi": "Ban ngày đi bộ trên lớp lá rụng dưới sàn rừng, ban đêm leo lên các ngọn cỏ hoặc nhánh cây thấp cách đất 10–30 cm để ngủ tránh kiến.",
+    "reproductionVi": "Đẻ 2 trứng nhỏ dưới lớp lá mục hoặc rêu ẩm, nở sau 60–75 ngày ở nhiệt độ mát.",
+    "threatsVi": [
+      "Chặt phá rừng mưa nhiệt đới ở đông Madagascar"
+    ],
+    "funFactsVi": [
+      "Ngoài tư thế giả chết như lá rụng, loài này còn có cơ chế phòng vệ 'rung lắc cơ thể' (body vibration) truyền chấn động nhẹ vào tay kẻ săn mồi để gây giật mình."
+    ],
+    "similarSpecies": [
+      "Brookesia therezieni",
+      "Rhampholeon brevicaudatus"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Hồ kính sinh thái (bioactive) 45×30×40 cm trải dày lá khô, rêu sống và nhánh cây nhỏ trong phòng lạnh.",
+      "lightingVi": "Đèn UVB 2.0–5.0% dịu nhẹ, nhiệt độ ban ngày duy trì 20–24°C.",
+      "feedingVi": "Dế kim, ruồi giấm và bọ nhảy springtail bổ sung canxi.",
+      "socialVi": "Có thể nuôi theo cặp hoặc nhóm nhỏ trong hồ rộng nhiều lá khô.",
+      "commonProblemsVi": [
+        "Sốc nhiệt nếu nhiệt độ chuồng vượt quá 26°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp các cá thể nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa lá khô Brookesia superciliaris (CB 5 tháng)",
+        "priceVnd": 5400000,
+        "descriptionVi": "Cá thể CB chuyên cho hồ terrarium nền lá mục phòng máy lạnh."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Brookesia superciliaris (15720094078).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brookesia_superciliaris_(15720094078).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Brookesia_superciliaris_%2815720094078%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Wenkbrauwkameleon 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wenkbrauwkameleon_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Wenkbrauwkameleon_03.jpg",
+        "width": 686,
+        "height": 1024,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dennis Tang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brookesia Ranomafana 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brookesia_Ranomafana_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Brookesia_Ranomafana_2.jpg",
+        "width": 2100,
+        "height": 1700,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ch/deed.en",
+        "author": "Leyo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Brookesia Ranomafana 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brookesia_Ranomafana_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Brookesia_Ranomafana_1.jpg",
+        "width": 2400,
+        "height": 1800,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ch/deed.en",
+        "author": "Leyo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Stump-tailed chameleon. Brookesia supercilaris - Flickr - gailhampshire.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stump-tailed_chameleon._Brookesia_supercilaris_-_Flickr_-_gailhampshire.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Stump-tailed_chameleon._Brookesia_supercilaris_-_Flickr_-_gailhampshire.jpg",
+        "width": 1458,
+        "height": 852,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "gailhampshire from Cradley, Malvern, U.K",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2449345",
+      "https://www.iucnredlist.org/species/172741/6909334",
+      "https://en.wikipedia.org/wiki/Brown_leaf_chameleon",
+      "https://vi.wikipedia.org/wiki/Brookesia_superciliaris"
+    ]
+  },
+  {
+    "scientificName": "Calumma parsonii",
+    "commonNameVi": "Tắc kè hoa Parson",
+    "commonNameEn": "Parson's chameleon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Calumma"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Tắc kè hoa (Chamaeleonidae)",
+      "genus": "Chi Calumma"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/172896/6937628",
+    "gbifKey": 2448847,
+    "environment": {
+      "tempMin": 20,
+      "tempMax": 26,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 70,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán rừng mưa nguyên sinh ẩm mát miền đông và bắc Madagascar"
+    },
+    "descriptionVi": "Loài tắc kè hoa nặng nhất thế giới với thân hình vạm vỡ màu xanh lục ngọc lam, mí mắt màu cam rực rỡ hoặc vàng tươi và hai mấu sừng dẹp hướng lên ở đầu mõm của con đực.",
+    "conservationNoteVi": "Xếp hạng Sắp bị đe dọa (NT) do sinh cảnh rừng mưa nguyên sinh cổ thụ ở đông Madagascar bị phân mảnh và chu kỳ sinh sản ngoài tự nhiên rất chậm.",
+    "pullQuoteVi": "Vị vua nặng cân nhất của họ tắc kè hoa với cân nặng tới 700 gram và thời gian ấp trứng kỷ lục kéo dài gần hai năm.",
+    "dietVi": "Ăn côn trùng lớn, châu chấu, bọ cánh cứng, chuồn chuồn và đôi khi cả chim nhỏ",
+    "lifespanVi": "12–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Ranomafana, miền đông Madagascar",
+      "lat": -21.25,
+      "lng": 47.45
+    },
+    "regionVi": "Đông và Bắc Madagascar",
+    "otherNamesVi": [
+      "Tắc kè hoa khổng lồ mũ vuông"
+    ],
+    "synonyms": [
+      "Cameleonis rarissima",
+      "Chamaeleo madecasseus",
+      "Chamaeleo madecassus",
+      "Chamaeleo parsonii"
+    ],
+    "wikidataId": "Q664973",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Calumma_parsonii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Parson%27s_chameleon",
+    "iucnAssessedYear": 2011,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 50,
+      "lengthCmMax": 68,
+      "weightGMin": 400,
+      "weightGMax": 700,
+      "heightCmMax": null,
+      "noteVi": "Loài tắc kè hoa có khối lượng cơ thể nặng nhất thế giới"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Các khu rừng mưa ẩm miền đông và bắc Madagascar cùng đảo Nosy Boraha",
+      "elevationM": {
+        "min": 400,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới nguyên sinh",
+      "Tầng tán cây cổ thụ gần suối"
+    ],
+    "identificationVi": "Cơ thể rất dày và nặng, không có hàng gai lưng và gai cằm, con đực có hai gờ xương mũi nhô ra trước mõm.",
+    "behaviorVi": "Cực kỳ điềm tĩnh, di chuyển chậm rãi trên các cành cây cao và có tuổi thọ dài gấp đôi đa số các loài tắc kè hoa khác.",
+    "reproductionVi": "Đẻ 20–40 trứng mỗi lứa; trứng cần trải qua giai đoạn ngủ đông mát trước khi nở sau tổng cộng 400–600 ngày ấp.",
+    "threatsVi": [
+      "Mất rừng nguyên sinh cổ thụ",
+      "Thời gian trưởng thành và ấp trứng quá dài khiến quần thể hồi phục chậm"
+    ],
+    "funFactsVi": [
+      "Trứng của Calumma parsonii có thời gian ấp lâu nhất trong thế giới bò sát cảnh, thường mất từ 14 đến 20 tháng mới nở."
+    ],
+    "similarSpecies": [
+      "Furcifer oustaleti",
+      "Calumma globifer"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lưới cực lớn tối thiểu 120×90×180 cm đặt trong phòng mát kèm hệ thống phun mưa tự động.",
+      "lightingVi": "Đèn UVB 5.0% T5 HO và điểm sưởi ấm nhẹ 29°C.",
+      "feedingVi": "Gián lớn, châu chấu, sâu tằm và cung cấp nước nhỏ giọt liên tục.",
+      "socialVi": "Nuôi đơn độc hoàn toàn.",
+      "commonProblemsVi": [
+        "Bệnh gút và suy thận nếu thiếu nước uống từ hệ thống phun mưa"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp với các cá thể nhân giống CB có giấy tờ CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Tắc kè hoa Parson Calumma parsonii Yellow Lip (CB 8 tháng)",
+        "priceVnd": 32000000,
+        "descriptionVi": "Cá thể CB quý hiếm từ trại châu Âu, khỏe mạnh, ăn châu chấu và gián tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Calumma parsonii (15287241733).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calumma_parsonii_(15287241733).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Calumma_parsonii_%2815287241733%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Brian Gratwicke from DC, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Calumma parsonii (Peyrieras Reserve) 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calumma_parsonii_(Peyrieras_Reserve)_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Calumma_parsonii_%28Peyrieras_Reserve%29_02.jpg",
+        "width": 2693,
+        "height": 4034,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Calumma parsonii cristifer, Andasibe, Madagascar (4325243743).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calumma_parsonii_cristifer,_Andasibe,_Madagascar_(4325243743).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Calumma_parsonii_cristifer%2C_Andasibe%2C_Madagascar_%284325243743%29.jpg",
+        "width": 1701,
+        "height": 1276,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Calumma Parsonii cristifer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calumma_Parsonii_cristifer.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Calumma_Parsonii_cristifer.jpg",
+        "width": 4160,
+        "height": 3120,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tsukimi212",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Calumma parsonii dans son écrin de verdure, VOIMMA Andasibe, juillet 2026.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calumma_parsonii_dans_son_%C3%A9crin_de_verdure,_VOIMMA_Andasibe,_juillet_2026.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Calumma_parsonii_dans_son_%C3%A9crin_de_verdure%2C_VOIMMA_Andasibe%2C_juillet_2026.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Miarantsoa",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2448847",
+      "https://www.iucnredlist.org/species/172896/6937628",
+      "https://en.wikipedia.org/wiki/Parson%27s_chameleon",
+      "https://vi.wikipedia.org/wiki/Calumma_parsonii"
+    ]
+  },
+  {
+    "scientificName": "Tiliqua scincoides",
+    "commonNameVi": "Thằn lằn lưỡi xanh miền Đông",
+    "commonNameEn": "Common bluetongue",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Tiliqua"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Tiliqua"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/109481538/109481555",
+    "gbifKey": 2462503,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 35,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ, rừng bạch đàn thưa và vườn cây vùng đông và bắc nước Úc"
+    },
+    "descriptionVi": "Loài thằn lằn bóng cỡ lớn nổi tiếng với chiếc lưỡi dẹp rộng màu xanh coban tươi sáng dùng để hù dọa kẻ săn mồi, thân hình trụ dài phủ vảy bóng mượt có các dải vằn ngang.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp miền đông và miền bắc nước Úc, thích nghi tốt cả trong các khu vườn ngoại ô.",
+    "pullQuoteVi": "Khi bị dồn vào chân tường, chúng phồng dẹp cơ thể, rít lớn và thè chiếc lưỡi màu xanh coban chói lọi để giả làm loài có độc.",
+    "dietVi": "Ăn tạp: ốc sên, côn trùng, giun đất, rau xanh, hoa và trái cây chín",
+    "lifespanVi": "15–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Brisbane, bang Queensland, Australia",
+      "lat": -27.47,
+      "lng": 153.02
+    },
+    "regionVi": "Miền đông và miền bắc Australia",
+    "otherNamesVi": [
+      "Thằn lằn bóng lưỡi xanh Úc"
+    ],
+    "synonyms": [
+      "Cyclodus boddaertii",
+      "Lacerta scincoides",
+      "Scincus crotaphomelas",
+      "Scincus tuberculatus"
+    ],
+    "wikidataId": "Q781954",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tiliqua_scincoides",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tiliqua_scincoides",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 60,
+      "weightGMin": 400,
+      "weightGMax": 750,
+      "heightCmMax": null,
+      "noteVi": "Phân loài miền Bắc (T. s. intermedia) lớn nhất trong loài"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Miền bắc, miền đông và đông nam Australia",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng thưa và đồng cỏ",
+      "Trảng cây bụi ven biển",
+      "Vườn cây ngoại ô"
+    ],
+    "identificationVi": "Thân dài mập láng bóng, bốn chân ngắn nhỏ, lưỡi màu xanh lam sáng trên nền khoang miệng hồng tươi.",
+    "behaviorVi": "Di chuyển chậm rãi trên mặt đất vào ban ngày, tính tình cực kỳ hiền lành và thông minh khi được nuôi thuần.",
+    "reproductionVi": "Đẻ con (thai sinh có nhau thai): con cái mang thai khoảng 100 ngày và đẻ trực tiếp 8–20 con non hoàn chỉnh.",
+    "threatsVi": [
+      "Nuốt phải cóc mía ngoại lai có độc (Rhinella marina) tại miền bắc nước Úc",
+      "Chó mèo nhà tấn công"
+    ],
+    "funFactsVi": [
+      "Chiếc lưỡi màu xanh lam của Tiliqua scincoides có khả năng phản xạ mạnh tia cực tím (UV), khiến các loài chim săn mồi vốn nhìn thấy tia UV bị chói mắt và giật mình."
+    ],
+    "similarSpecies": [
+      "Tiliqua gigas",
+      "Tiliqua nigrolutea"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang tối thiểu 120×60×45 cm trải vỏ thông hoặc mùn gỗ bách khô ráo.",
+      "lightingVi": "Đèn UVB 10.0% và bóng sưởi tạo điểm phơi nắng 36–38°C.",
+      "feedingVi": "50% rau củ quả băm nhỏ kết hợp 50% đạm (ốc sên sạch, gián Dubia, thịt nạc nấu chín) bổ sung canxi.",
+      "socialVi": "Bắt buộc nuôi đơn độc từng cá thể vì chúng cắn nhau rất mạnh nếu nhốt chung.",
+      "commonProblemsVi": [
+        "Béo phì do vận động ít và ăn quá nhiều đạm béo"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Dòng Northern Blue-tongue được nhân giống CB hoàn toàn và là một trong những loài thằn lằn cảnh hiền nhất."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn lưỡi xanh Northern Tiliqua scincoides intermedia (CB 4 tháng)",
+        "priceVnd": 7500000,
+        "descriptionVi": "Cá thể CB phân loài miền Bắc Úc, hai bên sườn lên vệt cam vàng ấm, rất quấn chủ."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:藍舌蜥 Tiliqua scincoides - panoramio (1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%97%8D%E8%88%8C%E8%9C%A5_Tiliqua_scincoides_-_panoramio_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/%E8%97%8D%E8%88%8C%E8%9C%A5_Tiliqua_scincoides_-_panoramio_%281%29.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blue tongue lizard - Australia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_tongue_lizard_-_Australia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Blue_tongue_lizard_-_Australia.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Joditran",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue tongue lizard in Sydney backyard.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_tongue_lizard_in_Sydney_backyard.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Blue_tongue_lizard_in_Sydney_backyard.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Joditran",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tiliqua scincoides (37750356226).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_scincoides_(37750356226).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tiliqua_scincoides_%2837750356226%29.jpg",
+        "width": 4057,
+        "height": 2705,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tiliqua scincoides in Tropicarium-Oceanarium Budapest.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_scincoides_in_Tropicarium-Oceanarium_Budapest.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Tiliqua_scincoides_in_Tropicarium-Oceanarium_Budapest.JPG",
+        "width": 3872,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Хомелка",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2462503",
+      "https://www.iucnredlist.org/species/109481538/109481555",
+      "https://en.wikipedia.org/wiki/Tiliqua_scincoides",
+      "https://vi.wikipedia.org/wiki/Tiliqua_scincoides"
+    ]
+  },
+  {
+    "scientificName": "Tiliqua gigas",
+    "commonNameVi": "Thằn lằn lưỡi xanh Indonesia",
+    "commonNameEn": "Indonesian blue-tongued skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Tiliqua"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Tiliqua"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/196646/2470298",
+    "gbifKey": 2462515,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 31,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 65,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Nền rừng mưa nhiệt đới ẩm tại New Guinea và các đảo phía đông Indonesia"
+    },
+    "descriptionVi": "Loài thằn lằn lưỡi xanh vùng nhiệt đới ẩm có chiếc đuôi dài hơn các họ hàng nước Úc, bốn chân màu đen bóng đặc trưng và các dải khoang đen sẫm chạy ngang lưng.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng trên đảo New Guinea và các quần đảo Maluku, Halmahera của Indonesia.",
+    "pullQuoteVi": "Đại diện vùng rừng mưa nhiệt đới của chi Tiliqua với bốn chiếc chân đen tuyền như đi tất và chiếc lưỡi xanh coban ấn tượng.",
+    "dietVi": "Ăn tạp: ốc sên, côn trùng, giun, nấm rừng và trái cây rụng",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Halmahera, Bắc Maluku, Indonesia",
+      "lat": 0.65,
+      "lng": 127.85
+    },
+    "regionVi": "Đông Indonesia và Papua New Guinea",
+    "otherNamesVi": [
+      "Thằn lằn lưỡi xanh New Guinea",
+      "Lưỡi xanh Halmahera"
+    ],
+    "synonyms": [
+      "Cyclodus petersii",
+      "Scincus gigas",
+      "Tiliqua gigas keyensis"
+    ],
+    "wikidataId": "Q892528",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tiliqua_gigas",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Indonesian_blue-tongued_skink",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 60,
+      "weightGMin": 350,
+      "weightGMax": 650,
+      "heightCmMax": null,
+      "noteVi": "Đuôi dài hơn so với Tiliqua scincoides"
+    },
+    "distribution": {
+      "countries": [
+        "ID",
+        "PG"
+      ],
+      "nativeRangeVi": "Quần đảo Maluku (Halmahera, Ambon, Seram), đảo New Guinea và quần đảo Bismarck",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới đất thấp",
+      "Đồn điền và bìa rừng ẩm"
+    ],
+    "identificationVi": "Bốn chân màu đen sẫm hoặc đen chấm trắng, vảy gáy có nhiều hàng hơn T. scincoides, lưng có các vạch ngang đen rõ.",
+    "behaviorVi": "Ưa độ ẩm cao, thích chui rúc dưới lớp lá mục ẩm và vỏ cây trên nền rừng mưa vào ban ngày.",
+    "reproductionVi": "Đẻ con trực tiếp (5–12 con non mỗi lứa) sau thời gian mang thai khoảng 3–4 tháng.",
+    "threatsVi": [
+      "Khai thác xuất khẩu làm thú cưng"
+    ],
+    "funFactsVi": [
+      "Khác với họ hàng ở vùng khô hạn nước Úc, Tiliqua gigas tiến hóa trong rừng mưa xích đạo nên cần độ ẩm không khí từ 70% trở lên để lột xác trơn tru."
+    ],
+    "similarSpecies": [
+      "Tiliqua scincoides",
+      "Tiliqua chimaerea"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 120×60×45 cm trải nền mùn dừa trộn rêu rừng giữ ẩm 70–80%.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi tạo điểm nắng 36°C.",
+      "feedingVi": "Khẩu phần hỗn hợp rau xanh, bí đỏ, quả mọng và ốc sên, gián Dubia phủ canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Khô hoại tử đầu ngón chân nếu nuôi trong chuồng quá khô dưới 50% độ ẩm"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp và rất phổ biến trên thị trường bò sát cảnh Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn lưỡi xanh Halmahera Tiliqua gigas (5 tháng tuổi)",
+        "priceVnd": 3600000,
+        "descriptionVi": "Cá thể khoang đen trắng tương phản cao, đã thuần ăn tốt từ khay."
+      },
+      {
+        "nameVi": "Thằn lằn lưỡi xanh Merauke Tiliqua gigas evanescens (6 tháng)",
+        "priceVnd": 4200000,
+        "descriptionVi": "Phân loài Merauke tông màu nâu bạc thanh lịch, hiền lành."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:At Loro Parque, Tenerife 2019 184.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_Loro_Parque,_Tenerife_2019_184.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/At_Loro_Parque%2C_Tenerife_2019_184.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Tiliqua gigas Giant blue-tounged skink LoroParque IMG 6867.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_gigas_Giant_blue-tounged_skink_LoroParque_IMG_6867.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Tiliqua_gigas_Giant_blue-tounged_skink_LoroParque_IMG_6867.JPG",
+        "width": 3803,
+        "height": 2063,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bjoertvedt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tiliqua gigas Giant blue-tounged skink LoroParque IMG 6870.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_gigas_Giant_blue-tounged_skink_LoroParque_IMG_6870.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tiliqua_gigas_Giant_blue-tounged_skink_LoroParque_IMG_6870.JPG",
+        "width": 4095,
+        "height": 2174,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bjoertvedt",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue Tongued Skink 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Tongued_Skink_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Blue_Tongued_Skink_001.jpg",
+        "width": 1710,
+        "height": 1185,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Ltshears - Trisha M Shears",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tiliqua gigas Гродно 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_gigas_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE_2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tiliqua_gigas_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE_2.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Шатилло Г.В.",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2462515",
+      "https://www.iucnredlist.org/species/196646/2470298",
+      "https://en.wikipedia.org/wiki/Indonesian_blue-tongued_skink",
+      "https://vi.wikipedia.org/wiki/Tiliqua_gigas"
+    ]
+  },
+  {
+    "scientificName": "Tiliqua rugosa",
+    "commonNameVi": "Thằn lằn quả thông",
+    "commonNameEn": "Shingleback lizard",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Tiliqua"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Tiliqua"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/109481513/109481530",
+    "gbifKey": 2462522,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 31,
+      "baskMin": 36,
+      "baskMax": 40,
+      "humidMin": 25,
+      "humidMax": 40,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Thảo nguyên khô hạn, vùng cây bụi và bán hoang mạc miền nam và tây nước Úc"
+    },
+    "descriptionVi": "Loài thằn lằn lưỡi xanh đặc biệt với lớp vảy lưng to dày xếp chồng gồ ghề như trái thông khô và chiếc đuôi ngắn tù tròn có hình dáng giống hệt chiếc đầu thứ hai để đánh lừa kẻ săn mồi.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp miền nam và miền tây nước Úc.",
+    "pullQuoteVi": "Nổi tiếng trong giới bò sát vì lòng chung thủy tuyệt đối: một cặp đôi kết duyên sẽ tìm lại đúng người bạn đời của mình suốt hơn 20 năm.",
+    "dietVi": "Ăn tạp thiên thực vật: hoa dại, lá non, quả mọng, ốc sên và côn trùng chậm chạp",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Perth, bang Tây Úc, Australia",
+      "lat": -31.95,
+      "lng": 115.86
+    },
+    "regionVi": "Miền nam và miền tây Australia",
+    "otherNamesVi": [
+      "Thằn lằn hai đầu Úc",
+      "Thằn lằn đuôi ngắn Bobtail"
+    ],
+    "synonyms": [
+      "Brachydactylus typicus",
+      "Scincus pachyurus",
+      "Scincus peronii",
+      "Trachydosaurus asper"
+    ],
+    "wikidataId": "Q572677",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tiliqua_rugosa",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Tiliqua_rugosa",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 450,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Đuôi ngắn mập tích trữ mỡ và nước"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Tây Úc, Nam Úc, Victoria, New South Wales và nam Queensland",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ bán khô hạn",
+      "Rừng cây bụi mallee",
+      "Đụn cát ven biển"
+    ],
+    "identificationVi": "Vảy lưng cực lớn và nhám như quả thông, đầu hình tam giác rộng, đuôi ngắn tròn như đầu thứ hai.",
+    "behaviorVi": "Di chuyển chậm chạp, sống một vợ một chồng lâu năm: mỗi mùa xuân, cặp đôi lại tìm gặp và đi cùng nhau suốt nhiều tuần.",
+    "reproductionVi": "Đẻ con (1–3 con non khổng lồ mỗi lứa); tổng khối lượng con non lúc mới đẻ có thể bằng 1/3 trọng lượng cơ thể mẹ.",
+    "threatsVi": [
+      "Tai nạn giao thông trên đường cao tốc",
+      "Phân loài đảo Rottnest và cồn cát ven biển bị thu hẹp sinh cảnh"
+    ],
+    "funFactsVi": [
+      "Các nghiên cứu theo dõi lâu năm của giáo sư Michael Bull tại Úc ghi nhận các cặp đôi Tiliqua rugosa gắn bó chung thủy với nhau liên tục tới 27 năm."
+    ],
+    "similarSpecies": [
+      "Tiliqua scincoides",
+      "Egernia stokesii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng ngang rộng 120×60×45 cm cực kỳ khô ráo và thoáng khí mạnh.",
+      "lightingVi": "Đèn UVB 10.0–12.0% cường độ cao và điểm sưởi nóng 38–40°C.",
+      "feedingVi": "70% rau lá xanh, hoa bồ công anh, bí đỏ kết hợp 30% ốc sên và côn trùng.",
+      "socialVi": "Nuôi đơn hoặc nuôi theo cặp đực cái đã gắn bó lâu năm.",
+      "commonProblemsVi": [
+        "Nhiễm trùng hô hấp cấp tính nếu độ ẩm không khí vượt quá 45–50%"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Cực kỳ quý hiếm ngoài nước Úc; chỉ giao dịch các cá thể sinh sản nhân tạo (CB) từ các bộ sưu tập hợp pháp tại châu Âu và Mỹ."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn quả thông Tiliqua rugosa asper (CB 8 tháng tuổi)",
+        "priceVnd": 45000000,
+        "descriptionVi": "Cá thể CB siêu hiếm nhập từ trại châu Âu, ăn rau củ và ốc sên rất khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Bobtail (Tiliqua rugosa) at The Spectacles, September 2019 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bobtail_(Tiliqua_rugosa)_at_The_Spectacles,_September_2019_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bobtail_%28Tiliqua_rugosa%29_at_The_Spectacles%2C_September_2019_01.jpg",
+        "width": 5152,
+        "height": 3864,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Calistemon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:ShingleBack.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ShingleBack.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/ShingleBack.jpg",
+        "width": 1200,
+        "height": 1800,
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "author": "Alain Steffes",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Bobtail (Tiliqua rugosa) on the rail access road at Lakelands, August 2023 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bobtail_(Tiliqua_rugosa)_on_the_rail_access_road_at_Lakelands,_August_2023_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bobtail_%28Tiliqua_rugosa%29_on_the_rail_access_road_at_Lakelands%2C_August_2023_01.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Calistemon",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue tongue lizard, mid meal, Dryandra Woodland, Western Australia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_tongue_lizard,_mid_meal,_Dryandra_Woodland,_Western_Australia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Blue_tongue_lizard%2C_mid_meal%2C_Dryandra_Woodland%2C_Western_Australia.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Brad Hiller",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue Tongue Goanna.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Tongue_Goanna.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Blue_Tongue_Goanna.jpg",
+        "width": 1920,
+        "height": 1359,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Toni Segers",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2462522",
+      "https://www.iucnredlist.org/species/109481513/109481530",
+      "https://en.wikipedia.org/wiki/Tiliqua_rugosa",
+      "https://vi.wikipedia.org/wiki/Tiliqua_rugosa"
+    ]
+  },
+  {
+    "scientificName": "Corucia zebrata",
+    "commonNameVi": "Thằn lằn bóng đuôi khỉ",
+    "commonNameEn": "Solomon Islands skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Corucia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Corucia"
+    },
+    "iucn": "NT",
+    "iucnUrl": "https://www.iucnredlist.org/species/196593/2463961",
+    "gbifKey": 2462499,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 29,
+      "baskMin": 31,
+      "baskMax": 33,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Tầng tán cao của rừng mưa nhiệt đới trên quần đảo Solomon"
+    },
+    "descriptionVi": "Loài thằn lằn bóng còn sống lớn nhất thế giới, chuyên sống trên cây với chiếc đuôi dài cực khỏe có thể quấn bám cành cây như đuôi khỉ và bàn chân có móng vuốt cong sắc.",
+    "conservationNoteVi": "Xếp hạng Sắp bị đe dọa (NT) do nạn khai thác gỗ rừng nguyên sinh trên quần đảo Solomon và bị người dân địa phương săn bắt.",
+    "pullQuoteVi": "Loài thằn lằn bóng lớn nhất thế giới sống thành từng đàn gia đình gắn bó trên ngọn cây và chỉ ăn lá thực vật như những chú bò sát nhai lại.",
+    "dietVi": "Ăn thực vật hoàn toàn: lá cây trầu bà rừng (Epipremnum), lá non, hoa và quả",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Đảo Guadalcanal, quần đảo Solomon",
+      "lat": -9.6,
+      "lng": 160.15
+    },
+    "regionVi": "Quần đảo Solomon và đảo Bougainville",
+    "otherNamesVi": [
+      "Thằn lằn bóng đuôi cuốn khổng lồ"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q591268",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Corucia_zebrata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Solomon_Islands_skink",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 80,
+      "weightGMin": 500,
+      "weightGMax": 900,
+      "heightCmMax": null,
+      "noteVi": "Chiếc đuôi cuốn chiếm hơn một nửa tổng chiều dài cơ thể"
+    },
+    "distribution": {
+      "countries": [
+        "SB",
+        "PG"
+      ],
+      "nativeRangeVi": "Quần đảo Solomon và đảo Bougainville (Papua New Guinea)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Tầng tán rừng mưa nhiệt đới nguyên sinh"
+    ],
+    "identificationVi": "Đầu hình tam giác màu xanh rêu hoặc vàng chanh, thân xanh lục vằn nâu xám, đuôi dài cuộn tròn quấn cành và không thể tự rụng.",
+    "behaviorVi": "Sống thành bầy gia đình (circulus) có tính xã hội cực cao trên ngọn cây; cả bố, mẹ và các thành viên trong đàn cùng bảo vệ con non.",
+    "reproductionVi": "Mang thai 6–8 tháng và chỉ đẻ 1 (hiếm khi 2) con non có kích thước rất lớn (dài tới 30 cm lúc mới sinh).",
+    "threatsVi": [
+      "Khai thác gỗ thương mại tàn phá rừng nguyên sinh tại quần đảo Solomon",
+      "Săn bắt lấy thịt tại địa phương"
+    ],
+    "funFactsVi": [
+      "Con non mới sinh ăn phân của bố mẹ để tiếp nhận hệ vi sinh vật đường ruột cần thiết giúp tiêu hóa chất xơ trong lá cây trầu bà có chứa tinh thể canxi oxalat."
+    ],
+    "similarSpecies": [
+      "Tiliqua gigas",
+      "Eugongylus rufescens"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng lớn tối thiểu 90×60×120 cm lắp nhiều cành gỗ to đan chéo và tán lá cây trầu bà.",
+      "lightingVi": "Đèn UVB 5.0% và đèn sưởi nhẹ đạt 31–32°C.",
+      "feedingVi": "Rau lá xanh đậm (cải xoăn, bồ công anh, lá trầu bà Epipremnum aureum, đậu cô ve) bổ sung canxi.",
+      "socialVi": "Sống tốt nhất theo cặp hoặc nhóm gia đình đã quen nhau từ nhỏ.",
+      "commonProblemsVi": [
+        "Stress bỏ ăn nếu bị tách đàn đột ngột hoặc thiếu nơi ẩn nấp trên cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ các trại nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn bóng đuôi khỉ Corucia zebrata (CB 8 tháng tuổi)",
+        "priceVnd": 16500000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, ăn rau lá xanh và lá trầu bà rất khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Corucia zebrata alfredschmidti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corucia_zebrata_alfredschmidti.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Corucia_zebrata_alfredschmidti.jpg",
+        "width": 4394,
+        "height": 2268,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Victor Cavelier",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Corucia zebrata at the Columbus Zoo-2011 07 11 IMG 0675.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corucia_zebrata_at_the_Columbus_Zoo-2011_07_11_IMG_0675.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Corucia_zebrata_at_the_Columbus_Zoo-2011_07_11_IMG_0675.JPG",
+        "width": 2848,
+        "height": 4272,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Postdlf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Close-up (4225110459).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Close-up_(4225110459).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Close-up_%284225110459%29.jpg",
+        "width": 3518,
+        "height": 1891,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Becker1999 from Grove City, OH",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Solomon Islands skink (Corucia zebrata).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Solomon_Islands_skink_(Corucia_zebrata).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Solomon_Islands_skink_%28Corucia_zebrata%29.jpg",
+        "width": 4032,
+        "height": 2268,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "JSutton93",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Who´s ringin? (15376305088).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Who%C2%B4s_ringin%3F_(15376305088).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Who%C2%B4s_ringin%3F_%2815376305088%29.jpg",
+        "width": 3885,
+        "height": 2744,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rolf Dietrich Brecher from Germany",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2462499",
+      "https://www.iucnredlist.org/species/196593/2463961",
+      "https://en.wikipedia.org/wiki/Solomon_Islands_skink",
+      "https://vi.wikipedia.org/wiki/Corucia_zebrata"
+    ]
+  },
+  {
+    "scientificName": "Tribolonotus gracilis",
+    "commonNameVi": "Thằn lằn cá sấu mắt đỏ",
+    "commonNameEn": "Red-eyed crocodile skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Tribolonotus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Tribolonotus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/42485132/217798035",
+    "gbifKey": 2461081,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 28,
+      "baskMin": 28,
+      "baskMax": 30,
+      "humidMin": 75,
+      "humidMax": 90,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Nền rừng mưa nhiệt đới ẩm ướt gần khe suối tại đảo New Guinea"
+    },
+    "descriptionVi": "Loài thằn lằn bóng có ngoại hình kỳ ảo như một chú rồng hoặc cá sấu thu nhỏ với bốn hàng vảy gai cứng chạy dọc lưng màu nâu đen và đôi vòng da màu cam đỏ rực rỡ bao quanh mắt.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng và còn phổ biến dưới các đống vỏ dừa ẩm và thảm mục tại Papua New Guinea.",
+    "pullQuoteVi": "Bốn hàng gai xương sắc nét trên lưng cùng đôi mắt viền cam đỏ rực khiến chúng trông như một chú rồng bước ra từ truyền thuyết.",
+    "dietVi": "Ăn côn trùng nhỏ, giun đất, mối, sâu nhỏ và động vật chân khớp dưới lá mục",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Chạng vạng",
+    "origin": {
+      "place": "Tỉnh Madang, Papua New Guinea",
+      "lat": -5.22,
+      "lng": 145.8
+    },
+    "regionVi": "Đảo New Guinea (Indonesia và Papua New Guinea)",
+    "otherNamesVi": [
+      "Rồng cá sấu mắt cam New Guinea"
+    ],
+    "synonyms": [],
+    "wikidataId": "Q2000955",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tribolonotus_gracilis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Red-eyed_crocodile_skink",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 17,
+      "lengthCmMax": 22,
+      "weightGMin": 30,
+      "weightGMax": 50,
+      "heightCmMax": null,
+      "noteVi": "Con đực có đệm lỗ chân lông trắng ở mặt dưới bàn chân sau"
+    },
+    "distribution": {
+      "countries": [
+        "PG",
+        "ID"
+      ],
+      "nativeRangeVi": "Khắp đảo New Guinea và đảo Manus lân cận",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Thảm mục rừng mưa ven suối",
+      "Đồn điền dừa ẩm ướt"
+    ],
+    "identificationVi": "Đầu hình mũ giáp góc cạnh, vòng quanh mắt màu cam đỏ tươi, lưng có 4 hàng gai xương nổi cao như da cá sấu.",
+    "behaviorVi": "Nhút nhát, thích ẩn dưới khúc gỗ mục gần vũng nước nông; có tập tính phát ra tiếng kêu chát chúa và giả chết khi bị bắt giữ.",
+    "reproductionVi": "Con cái chỉ có một buồng trứng hoạt động, mỗi lứa đẻ đúng 1 trứng và nằm cuộn mình bảo vệ trứng lẫn con non.",
+    "threatsVi": [
+      "Thu bắt tự nhiên phục vụ thị trường thú cảnh quốc tế"
+    ],
+    "funFactsVi": [
+      "Đây là một trong số rất ít loài thằn lằn bóng có khả năng phát ra âm thanh kêu lớn để cảnh báo khi tổ trứng hoặc bản thân bị đe dọa.",
+      "Con non mới nở chưa có viền mắt màu cam đỏ mà có đầu màu nâu sáng; vòng cam chỉ xuất hiện khi đạt khoảng 6 tháng tuổi."
+    ],
+    "similarSpecies": [
+      "Tribolonotus novaeguineae",
+      "Shinisaurus crocodilurus"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Hồ bán cạn (paludarium) 60×45×45 cm có nền mùn dừa rêu ẩm sâu, nhiều vỏ bần trốn và một khay nước nông lớn.",
+      "lightingVi": "Ánh sáng dịu, UVB 5.0% mức thấp, nhiệt độ mát 23–28°C.",
+      "feedingVi": "Dế nhỏ, gián nhỏ, sâu sáp và giun đất sạch phủ canxi thả vào chiều tối.",
+      "socialVi": "Nuôi đơn hoặc ghép 1 đực 1 cái trong hồ nhiều hốc trú; hạn chế bắt ra cầm tay vì dễ gây stress.",
+      "commonProblemsVi": [
+        "Mất nước và khó lột xác ở các gai lưng nếu độ ẩm dưới 70%"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Rất được ưa chuộng trong giới chơi hồ bán cạn và nhân giống CB ổn định."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn cá sấu mắt đỏ Tribolonotus gracilis (CB 6 tháng)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể CB đã lên viền mắt cam đỏ rõ nét, ăn dế và sâu tốt."
+      },
+      {
+        "nameVi": "Cặp Thằn lằn cá sấu mắt đỏ trưởng thành ghép đôi",
+        "priceVnd": 5800000,
+        "descriptionVi": "Cặp đực cái đã ghép hòa thuận, thích hợp nuôi sinh sản trong hồ bán cạn."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cute crocodile skink in natural habitat 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cute_crocodile_skink_in_natural_habitat_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cute_crocodile_skink_in_natural_habitat_01.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rizki Supendi",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Red-Eyed Crocodile Skink.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red-Eyed_Crocodile_Skink.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Red-Eyed_Crocodile_Skink.jpg",
+        "width": 1500,
+        "height": 1503,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Piranhapirate",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Crocodile red-eyed skink Toledo Zoo 8.18 DSC 0842 - 50618451396.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Crocodile_red-eyed_skink_Toledo_Zoo_8.18_DSC_0842_-_50618451396.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Crocodile_red-eyed_skink_Toledo_Zoo_8.18_DSC_0842_-_50618451396.jpg",
+        "width": 4496,
+        "height": 3000,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Laura Wolf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Tribolonotus gracilis (Wroclaw zoo).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tribolonotus_gracilis_(Wroclaw_zoo).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Tribolonotus_gracilis_%28Wroclaw_zoo%29.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cute crocodile skink in natural habitat 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cute_crocodile_skink_in_natural_habitat_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Cute_crocodile_skink_in_natural_habitat_02.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rizki Supendi",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2461081",
+      "https://www.iucnredlist.org/species/42485132/217798035",
+      "https://en.wikipedia.org/wiki/Red-eyed_crocodile_skink",
+      "https://vi.wikipedia.org/wiki/Tribolonotus_gracilis"
+    ]
+  },
+  {
+    "scientificName": "Plestiodon fasciatus",
+    "commonNameVi": "Thằn lằn bóng năm sọc đuôi lam",
+    "commonNameEn": "Common five-lined skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Plestiodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Plestiodon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/64227/12756007",
+    "gbifKey": 5789613,
+    "environment": {
+      "tempMin": 22,
+      "tempMax": 28,
+      "baskMin": 31,
+      "baskMax": 34,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng lá rộng ẩm ướt nhiều gốc cây mục tại miền đông Bắc Mỹ"
+    },
+    "descriptionVi": "Loài thằn lằn bóng cỡ nhỏ nổi bật ở giai đoạn còn non với thân màu đen bóng điểm năm đường sọc vàng kem chạy dọc từ đầu xuống lưng và chiếc đuôi màu xanh coban sáng chói.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do là một trong những loài thằn lằn phổ biến và có vùng phân bố rộng nhất miền đông Hoa Kỳ và đông nam Canada.",
+    "pullQuoteVi": "Chiếc đuôi màu xanh coban rực sáng có nhiệm vụ thu hút cú mổ của kẻ săn mồi tránh xa phần đầu và nội tạng.",
+    "dietVi": "Ăn côn trùng, nhện, dế, giun đất và ốc sên nhỏ",
+    "lifespanVi": "6–10 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Dãy núi Blue Ridge, bang Virginia, Hoa Kỳ",
+      "lat": 37.9,
+      "lng": -78.95
+    },
+    "regionVi": "Miền đông Hoa Kỳ và Đông Nam Canada",
+    "otherNamesVi": [
+      "Thằn lằn bóng đuôi xanh Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Eumeces fasciatus",
+      "Lacerta fasciata"
+    ],
+    "wikidataId": "Q167366",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Plestiodon_fasciatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plestiodon_fasciatus",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 13,
+      "lengthCmMax": 21,
+      "weightGMin": 15,
+      "weightGMax": 30,
+      "heightCmMax": null,
+      "noteVi": "Con đực trưởng thành mờ dần sọc lưng và có má màu đỏ cam vào mùa xuân"
+    },
+    "distribution": {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "nativeRangeVi": "Khắp miền đông Hoa Kỳ tới nam Ontario (Canada)",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng gỗ cứng ẩm ướt",
+      "Bìa rừng nhiều thân gỗ mục và phiến đá"
+    ],
+    "identificationVi": "Cá thể non và cái có 5 sọc sáng dọc lưng và đuôi xanh lam tươi; con đực già chuyển sang màu nâu đồng và hàm phình rộng màu cam.",
+    "behaviorVi": "Nhanh nhẹn hoạt động ban ngày quanh các gốc cây mục; khi bị chim hoặc rắn vồ, chiếc đuôi xanh tự đứt và quằn quại mạnh để đánh lạc hướng.",
+    "reproductionVi": "Con cái đẻ 6–15 trứng dưới khúc gỗ mục và ở lại canh giữ, đảo trứng và giữ ẩm cho tới khi con non nở sau 4–6 tuần.",
+    "threatsVi": [
+      "Ít bị đe dọa trên toàn vùng phân bố rộng"
+    ],
+    "funFactsVi": [
+      "Con cái có bản năng làm mẹ rất cao: nó sẽ ăn luôn những quả trứng bị hỏng hoặc nhiễm nấm trong ổ để bảo vệ các trứng khỏe còn lại."
+    ],
+    "similarSpecies": [
+      "Plestiodon laticeps",
+      "Plestiodon inexpectatus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 60×40×40 cm trải mùn rừng ẩm kết hợp vỏ cây mục và đá phẳng để phơi nắng.",
+      "lightingVi": "Đèn UVB 5.0% và đèn sưởi chiếu điểm 32–34°C.",
+      "feedingVi": "Dế, gián nhỏ, sâu bột và giun đất phủ canxi.",
+      "socialVi": "Nuôi đơn hoặc nhóm 1 đực 2 cái (không nhốt chung 2 con đực vào mùa xuân).",
+      "commonProblemsVi": [
+        "Đứt đuôi nếu bị túm giữ vào phần đuôi"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp và phổ biến trong giới nuôi thằn lằn cảnh cỡ nhỏ."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn bóng năm sọc đuôi lam Plestiodon fasciatus (4 tháng)",
+        "priceVnd": 950000,
+        "descriptionVi": "Cá thể đang ở giai đoạn sọc vàng đen và đuôi xanh lam sáng rực."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Common Five-lined Skink - Plestiodon fasciatus, Jackson Miles Abbott Wetlands, Fort Belvoir, Virginia, July 23, 2023 (53215483108).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Common_Five-lined_Skink_-_Plestiodon_fasciatus,_Jackson_Miles_Abbott_Wetlands,_Fort_Belvoir,_Virginia,_July_23,_2023_(53215483108).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Common_Five-lined_Skink_-_Plestiodon_fasciatus%2C_Jackson_Miles_Abbott_Wetlands%2C_Fort_Belvoir%2C_Virginia%2C_July_23%2C_2023_%2853215483108%29.jpg",
+        "width": 6720,
+        "height": 4480,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blue tailed skink at chapel hill 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_tailed_skink_at_chapel_hill_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Blue_tailed_skink_at_chapel_hill_1.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Roshnip988",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Five-lined Skink? - Eumeces fasciatus?, Rhodes Pond, Godwin, North Carolina.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Five-lined_Skink%3F_-_Eumeces_fasciatus%3F,_Rhodes_Pond,_Godwin,_North_Carolina.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Five-lined_Skink%3F_-_Eumeces_fasciatus%3F%2C_Rhodes_Pond%2C_Godwin%2C_North_Carolina.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Blue-tailed Skink (look closely) - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue-tailed_Skink_(look_closely)_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Blue-tailed_Skink_%28look_closely%29_-_panoramio.jpg",
+        "width": 4320,
+        "height": 3240,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "YvesSch",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Five-lined Skink (Plestiodon fasciatus) (27916190707).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Five-lined_Skink_(Plestiodon_fasciatus)_(27916190707).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Five-lined_Skink_%28Plestiodon_fasciatus%29_%2827916190707%29.jpg",
+        "width": 4727,
+        "height": 3440,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Will Brown",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5789613",
+      "https://www.iucnredlist.org/species/64227/12756007",
+      "https://en.wikipedia.org/wiki/Plestiodon_fasciatus",
+      "https://vi.wikipedia.org/wiki/Plestiodon_fasciatus"
+    ]
+  },
+  {
+    "scientificName": "Plestiodon laticeps",
+    "commonNameVi": "Thằn lằn bóng đầu rộng",
+    "commonNameEn": "Broad-headed skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Plestiodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Plestiodon"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/64231/12756745",
+    "gbifKey": 5789628,
+    "environment": {
+      "tempMin": 23,
+      "tempMax": 29,
+      "baskMin": 32,
+      "baskMax": 35,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng cây sồi và cây gỗ cứng vùng đông nam và trung tâm Hoa Kỳ"
+    },
+    "descriptionVi": "Loài lớn nhất trong nhóm thằn lằn bóng năm sọc Bắc Mỹ: con đực trưởng thành sở hữu thân màu nâu ô-liu bóng láng và một cái đầu phình rộng màu đỏ cam rực lửa vào mùa sinh sản.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp các bang miền đông và đông nam Hoa Kỳ.",
+    "pullQuoteVi": "Vào mùa giao phối, hai bên cơ hàm của con đực phình to và chuyển sang sắc đỏ cam rực rỡ như một chiếc mặt nạ lửa.",
+    "dietVi": "Ăn côn trùng lớn, bọ cánh cứng, châu chấu, nhện và đôi khi cả thằn lằn nhỏ",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Savannah, bang Georgia, Hoa Kỳ",
+      "lat": 32.08,
+      "lng": -81.09
+    },
+    "regionVi": "Đông Nam và Trung Đông Hoa Kỳ",
+    "otherNamesVi": [
+      "Thằn lằn bóng đầu cam Bắc Mỹ"
+    ],
+    "synonyms": [
+      "Eumeces laticeps",
+      "Eumeces polygrammus",
+      "Scincus americanus",
+      "Scincus bicolor"
+    ],
+    "wikidataId": "Q2697347",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Plestiodon_laticeps",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plestiodon_laticeps",
+    "iucnAssessedYear": 2007,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 32,
+      "weightGMin": 40,
+      "weightGMax": 85,
+      "heightCmMax": null,
+      "noteVi": "Lớn hơn nhiều so với Plestiodon fasciatus"
+    },
+    "distribution": {
+      "countries": [
+        "US"
+      ],
+      "nativeRangeVi": "Miền đông nam và trung tâm Hoa Kỳ từ bờ Đại Tây Dương tới Texas và Kansas",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng cây sồi già",
+      "Hốc cây cao và bìa rừng"
+    ],
+    "identificationVi": "Có 5 vảy môi trên ở trước vảy dưới mắt (thay vì 4 như P. fasciatus); con đực trưởng thành đầu rất to màu đỏ cam.",
+    "behaviorVi": "Thích leo trèo lên các thân cây lớn có nhiều hốc gỗ hơn các loài cùng chi, con đực dùng khứu giác lưỡi để lần theo dấu pheromone của con cái.",
+    "reproductionVi": "Con cái đẻ 8–18 trứng trong hốc cây mục ẩm và ở lại canh giữ ổ trứng cho tới khi nở.",
+    "threatsVi": [
+      "Đốn hạ các cây sồi cổ thụ có hốc rỗng trong rừng"
+    ],
+    "funFactsVi": [
+      "Thằn lằn bóng đầu rộng có khả năng phân biệt mùi của các loài rắn săn mồi nguy hiểm để chủ động lẩn tránh ngay cả khi chưa nhìn thấy rắn."
+    ],
+    "similarSpecies": [
+      "Plestiodon fasciatus",
+      "Plestiodon inexpectatus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang kèm chiều cao leo trèo 90×45×45 cm có nhiều khúc gỗ bần lớn.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi chiếu điểm 34–35°C.",
+      "feedingVi": "Gián Dubia, dế lớn, châu chấu và ốc sên phủ canxi.",
+      "socialVi": "Nuôi đơn độc từng cá thể trưởng thành.",
+      "commonProblemsVi": [
+        "Cắn khá đau nếu bắt giữ con đực trưởng thành không đúng cách"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp, không thuộc danh mục hạn chế của CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn bóng đầu rộng Plestiodon laticeps (Sub-adult 6 tháng)",
+        "priceVnd": 1650000,
+        "descriptionVi": "Cá thể khỏe mạnh, ăn côn trùng rất sung."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Broad-Headed Skink (Plestiodon laticeps) - Flickr - 2ndPeter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad-Headed_Skink_(Plestiodon_laticeps)_-_Flickr_-_2ndPeter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Broad-Headed_Skink_%28Plestiodon_laticeps%29_-_Flickr_-_2ndPeter.jpg",
+        "width": 5672,
+        "height": 4016,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Broad-headed Skink - Eumeces laticeps, Mason Neck State Park, Lorton, Virginia - 7219337662.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad-headed_Skink_-_Eumeces_laticeps,_Mason_Neck_State_Park,_Lorton,_Virginia_-_7219337662.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Broad-headed_Skink_-_Eumeces_laticeps%2C_Mason_Neck_State_Park%2C_Lorton%2C_Virginia_-_7219337662.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Broad-Headed Skink.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad-Headed_Skink.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Broad-Headed_Skink.jpg",
+        "width": 2816,
+        "height": 1880,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mae3222",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Broad-Headed Skink (Eumeces laticeps) (17998361446).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad-Headed_Skink_(Eumeces_laticeps)_(17998361446).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Broad-Headed_Skink_%28Eumeces_laticeps%29_%2817998361446%29.jpg",
+        "width": 4242,
+        "height": 2772,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Peter Paplanus from St. Louis, Missouri",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Broad-headed Skink - Plestiodon laticeps, Sugarloaf Mountain, Dickerson, Maryland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad-headed_Skink_-_Plestiodon_laticeps,_Sugarloaf_Mountain,_Dickerson,_Maryland.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Broad-headed_Skink_-_Plestiodon_laticeps%2C_Sugarloaf_Mountain%2C_Dickerson%2C_Maryland.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Judy Gallagher",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5789628",
+      "https://www.iucnredlist.org/species/64231/12756745",
+      "https://en.wikipedia.org/wiki/Plestiodon_laticeps",
+      "https://vi.wikipedia.org/wiki/Plestiodon_laticeps"
+    ]
+  },
+  {
+    "scientificName": "Chalcides ocellatus",
+    "commonNameVi": "Thằn lằn bóng đốm mắt Địa Trung Hải",
+    "commonNameEn": "Ocellated skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Chalcides"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Chalcides"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/157283/748508",
+    "gbifKey": 5225137,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 31,
+      "baskMin": 34,
+      "baskMax": 38,
+      "humidMin": 30,
+      "humidMax": 45,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vùng đất cát khô hạn, vườn cây ô-liu và bờ đá quanh Địa Trung Hải và Bắc Phi"
+    },
+    "descriptionVi": "Loài thằn lằn bóng thân trụ tròn láng bóng như đánh vecni, phủ hàng trăm đốm nhỏ màu đen có tâm trắng bạc trên nền da màu đồng vàng giúp chúng trườn xuyên qua lớp cát mịn như cá bơi.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rất rộng khắp Bắc Phi, Nam Âu (Sicily, Sardinia, Hy Lạp) và Tây Á.",
+    "pullQuoteVi": "Cơ thể thuôn tròn láng bóng cùng bốn chiếc chân ngắn giúp chúng 'bơi' chìm dưới lớp cát mịn chỉ trong chớp mắt.",
+    "dietVi": "Ăn côn trùng, nhện, ấu trùng bọ cánh cứng và một chút quả ngọt mềm",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Sicily, miền nam nước Ý",
+      "lat": 37.5,
+      "lng": 14
+    },
+    "regionVi": "Lưu vực Địa Trung Hải, Bắc Phi và Tây Á",
+    "otherNamesVi": [
+      "Thằn lằn bóng thùng rượu",
+      "Thằn lằn cát đốm mắt"
+    ],
+    "synonyms": [
+      "Chalcides ocellatus linosanus",
+      "Chalcides ocellatus tassiliensis",
+      "Chalcides ocellatus linosae",
+      "Lacerta lateralis"
+    ],
+    "wikidataId": "Q1470322",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chalcides_ocellatus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chalcides_ocellatus",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 20,
+      "lengthCmMax": 30,
+      "weightGMin": 35,
+      "weightGMax": 70,
+      "heightCmMax": null,
+      "noteVi": "Thân hình trụ tròn thuôn liền từ đầu tới đuôi"
+    },
+    "distribution": {
+      "countries": [
+        "IT",
+        "GR",
+        "MT",
+        "MA",
+        "DZ",
+        "TN",
+        "EG",
+        "IL",
+        "JO",
+        "TR"
+      ],
+      "nativeRangeVi": "Bắc Phi, đảo Sardinia, Sicily, Malta, Hy Lạp và Tây Á tới Pakistan",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Đụn cát và sỏi đá ven biển",
+      "Vườn cây ô-liu và tường đá khô"
+    ],
+    "identificationVi": "Đầu nhỏ nối liền với cổ không có eo thắt, vảy cực kỳ trơn bóng màu đồng điểm các hàng đốm đen nhân trắng (ocelli).",
+    "behaviorVi": "Thích chôn mình dưới lớp cát ấm dưới các phiến đá phẳng và chỉ thò đầu ra ngoài quan sát con mồi.",
+    "reproductionVi": "Đẻ con (thai sinh): sau khoảng 10–12 tuần mang thai, con cái sinh từ 3–10 con non hoạt bát.",
+    "threatsVi": [
+      "Ít bị đe dọa trên toàn vùng phân bố rộng"
+    ],
+    "funFactsVi": [
+      "Chalcides ocellatus có cấu trúc nhau thai phát triển rất phức tạp gần tương đương với nhau thai của động vật có vú để nuôi dưỡng phôi trong bụng mẹ."
+    ],
+    "similarSpecies": [
+      "Eumeces schneideri",
+      "Scincus scincus"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 75×45×40 cm trải lớp cát pha đất khô dày 8 cm kèm đá phẳng sưởi nắng.",
+      "lightingVi": "Đèn UVB 10.0% và đèn halogen tạo điểm sưởi 36–38°C.",
+      "feedingVi": "Dế, gián Dubia, sâu bột phủ canxi 3 lần/tuần.",
+      "socialVi": "Tính tình ôn hòa, có thể nuôi đơn hoặc nhóm 1 đực 2 cái trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Nhiễm khuẩn da nếu lớp nền chuồng bị ướt sũng"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Dễ nuôi và sinh sản trực tiếp trong nuôi nhốt, không thuộc CITES."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn bóng đốm mắt Chalcides ocellatus (CB 5 tháng)",
+        "priceVnd": 1500000,
+        "descriptionVi": "Cá thể CB vảy bóng mượt, đốm mắt đen trắng sắc nét, ăn côn trùng rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Ocellated Skink - Xaħmet l-art.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ocellated_Skink_-_Xa%C4%A7met_l-art.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ocellated_Skink_-_Xa%C4%A7met_l-art.jpg",
+        "width": 5184,
+        "height": 2916,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Kikku33",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chalcides linosae.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chalcides_linosae.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Chalcides_linosae.JPG",
+        "width": 1434,
+        "height": 1317,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Fabio Lo Valvo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:BennyTrapp Chalcides ocellatus ocellatus Peloponnes Griechenland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BennyTrapp_Chalcides_ocellatus_ocellatus_Peloponnes_Griechenland.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/BennyTrapp_Chalcides_ocellatus_ocellatus_Peloponnes_Griechenland.jpg",
+        "width": 4256,
+        "height": 2832,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Benny Trapp",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chalcides ocellatus 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chalcides_ocellatus_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chalcides_ocellatus_001.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "HTO",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chalcides ocellatus MNHN.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chalcides_ocellatus_MNHN.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Chalcides_ocellatus_MNHN.jpg",
+        "width": 4352,
+        "height": 2012,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Jebulon",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5225137",
+      "https://www.iucnredlist.org/species/157283/748508",
+      "https://en.wikipedia.org/wiki/Chalcides_ocellatus",
+      "https://vi.wikipedia.org/wiki/Chalcides_ocellatus"
+    ]
+  },
+  {
+    "scientificName": "Egernia cunninghami",
+    "commonNameVi": "Thằn lằn bóng đuôi gai Cunningham",
+    "commonNameEn": "Cunningham's spiny-tailed skink",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Scincidae",
+      "genus": "Egernia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Thằn lằn bóng (Scincidae)",
+      "genus": "Chi Egernia"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/109470194/109470197",
+    "gbifKey": 2463131,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 30,
+      "baskMin": 35,
+      "baskMax": 38,
+      "humidMin": 30,
+      "humidMax": 50,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Các mỏm núi đá hoa cương (granite) và rừng đá vùng đông nam nước Úc"
+    },
+    "descriptionVi": "Loài thằn lằn bóng cỡ lớn sống theo bầy trên các vách đá hoa cương, sở hữu lớp vảy lưng có sống nhọn chạy dọc xuống chiếc đuôi phủ đầy gai cứng dùng để khóa chặt cơ thể trong khe đá.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) nhờ phân bố ổn định dọc dãy Great Dividing Range ở đông nam Australia.",
+    "pullQuoteVi": "Khi trốn vào khe đá hẹp, chúng phồng cơ thể và tì các hàng gai nhọn trên lưng và đuôi vào vách đá khiến không kẻ săn mồi nào kéo ra nổi.",
+    "dietVi": "Ăn tạp: lá non, cỏ ba lá, quả mọng, hoa dại và côn trùng",
+    "lifespanVi": "20–25 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Dãy núi Blue Mountains, bang New South Wales, Australia",
+      "lat": -33.7,
+      "lng": 150.3
+    },
+    "regionVi": "Đông Nam Australia",
+    "otherNamesVi": [
+      "Thằn lằn bóng đá đuôi gai Úc"
+    ],
+    "synonyms": [
+      "Egernia krefftii",
+      "Egernia lohmanni",
+      "Tiliqua cunninghami"
+    ],
+    "wikidataId": "Q393092",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Egernia_cunninghami",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cunningham%27s_spiny-tailed_skink",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 40,
+      "weightGMin": 250,
+      "weightGMax": 420,
+      "heightCmMax": null,
+      "noteVi": "Vảy lưng và đuôi có gờ gai nhọn sắc"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Đông nam Queensland, New South Wales, Victoria và một phần Nam Úc",
+      "elevationM": {
+        "min": 100,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": [
+      "Mỏm đá granite lộ thiên",
+      "Rừng bạch đàn nhiều tảng đá lớn"
+    ],
+    "identificationVi": "Thân mập chắc màu nâu đen đến nâu ô-liu điểm vệt kem, mỗi chiếc vảy lưng và đuôi đều có một sống gai nhọn nhô ra sau.",
+    "behaviorVi": "Sống thành các đàn gia đình ổn định tới hàng chục cá thể trong cùng một cụm khe đá, thậm chí có khu vực đi vệ sinh chung cố định bên ngoài khe trú.",
+    "reproductionVi": "Đẻ con trực tiếp (3–8 con non mỗi lứa) vào cuối mùa hè; con non sống chung trong khe đá của bố mẹ suốt nhiều năm.",
+    "threatsVi": [
+      "Lấy đá tự nhiên làm cảnh quan sân vườn làm mất khe đá trú ẩn cục bộ"
+    ],
+    "funFactsVi": [
+      "Egernia cunninghami có khả năng nhận diện chính xác từng thành viên họ hàng trong gia đình bằng mùi hương để tránh giao phối cận huyết."
+    ],
+    "similarSpecies": [
+      "Egernia stokesii",
+      "Tiliqua scincoides"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang lớn 120×60×60 cm bố trí các phiến đá phẳng gắn cố định tạo khe hẹp an toàn.",
+      "lightingVi": "Đèn UVB 10.0% và đèn sưởi chiếu lên mặt đá đạt 36–38°C.",
+      "feedingVi": "60% rau xanh, hoa, quả mọng và 40% côn trùng phủ khoáng canxi.",
+      "socialVi": "Có thể nuôi đơn hoặc theo cặp/nhóm gia đình đã lớn lên cùng nhau.",
+      "commonProblemsVi": [
+        "Đá xếp không cố định có thể đổ đè lên thằn lằn khi chúng rúc vào khe"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hoàn toàn từ các dòng sưu tầm châu Âu và Bắc Mỹ."
+    },
+    "products": [
+      {
+        "nameVi": "Thằn lằn bóng đuôi gai Egernia cunninghami (CB 6 tháng)",
+        "priceVnd": 11500000,
+        "descriptionVi": "Cá thể nhân giống nuôi nhốt, vảy gai khỏe đẹp, ăn rau củ và dế tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Cunningham Skink family (Egernia cunninghami) (8656349891).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cunningham_Skink_family_(Egernia_cunninghami)_(8656349891).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cunningham_Skink_family_%28Egernia_cunninghami%29_%288656349891%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Matt from Melbourne, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Egernia cunninghami (37786023152).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Egernia_cunninghami_(37786023152).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Egernia_cunninghami_%2837786023152%29.jpg",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Donald Hobern from Copenhagen, Denmark",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Juvenile Cunningham Skink (Egernia cunninghami) (8657450870).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_Cunningham_Skink_(Egernia_cunninghami)_(8657450870).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Juvenile_Cunningham_Skink_%28Egernia_cunninghami%29_%288657450870%29.jpg",
+        "width": 5184,
+        "height": 2876,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Matt from Melbourne, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cunningham's Skink (Egernia cunninghami) (10096155786).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cunningham%27s_Skink_(Egernia_cunninghami)_(10096155786).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cunningham%27s_Skink_%28Egernia_cunninghami%29_%2810096155786%29.jpg",
+        "width": 3264,
+        "height": 2131,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Bernard DUPONT from FRANCE",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2463131",
+      "https://www.iucnredlist.org/species/109470194/109470197",
+      "https://en.wikipedia.org/wiki/Cunningham%27s_spiny-tailed_skink",
+      "https://vi.wikipedia.org/wiki/Egernia_cunninghami"
+    ]
+  },
+  {
+    "scientificName": "Pogona henrylawsoni",
+    "commonNameVi": "Rồng Úc lùn Rankin",
+    "commonNameEn": "Rankin's dragon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Pogona"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Pogona"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/83493462/83493472",
+    "gbifKey": 2465649,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 32,
+      "baskMin": 38,
+      "baskMax": 42,
+      "humidMin": 30,
+      "humidMax": 40,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Đồng cỏ đất đen nứt nẻ và thảo nguyên khô miền nội địa bang Queensland, nước Úc"
+    },
+    "descriptionVi": "Phiên bản thu nhỏ hoàn hảo của loài Rồng Úc quen thuộc: chỉ dài tối đa khoảng 30 cm khi trưởng thành, mõm tròn bầu bĩnh hơn, hầu như không có túi râu gai đen dưới cằm và có hoa văn hình nơ dọc sống lưng.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) nhờ phân bố ổn định trên vùng đồng cỏ đất đen rộng lớn ở trung tâm bang Queensland.",
+    "pullQuoteVi": "Mang trọn vẹn tính cách quấn người của Rồng Úc nhưng trong một cơ thể nhỏ gọn chỉ bằng một nửa, phù hợp với không gian nuôi khiêm tốn.",
+    "dietVi": "Ăn tạp: côn trùng nhỏ (dế, gián Dubia, sâu canxi) và rau lá xanh non",
+    "lifespanVi": "8–12 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng Longreach, trung tâm bang Queensland, Australia",
+      "lat": -23.44,
+      "lng": 144.25
+    },
+    "regionVi": "Bang Queensland, Australia",
+    "otherNamesVi": [
+      "Rồng râu lùn đất đen",
+      "Rồng Lawson"
+    ],
+    "synonyms": [
+      "Pogona brevis"
+    ],
+    "wikidataId": "Q244056",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pogona_henrylawsoni",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rankin%27s_dragon",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 25,
+      "lengthCmMax": 30,
+      "weightGMin": 80,
+      "weightGMax": 150,
+      "heightCmMax": null,
+      "noteVi": "Nhỏ nhất trong chi Pogona"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Vùng đồng cỏ nội địa trung và tây bang Queensland, Australia",
+      "elevationM": {
+        "min": 150,
+        "max": 450
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng cỏ đất sét đen (black-soil plains)",
+      "Trảng cây gỗ thưa"
+    ],
+    "identificationVi": "Đầu ngắn tròn, hàng gai bên sườn và dưới cằm rất nhỏ, dọc lưng có hai hàng đốm sáng viền sẫm hình chiếc nơ đối xứng.",
+    "behaviorVi": "Hoạt động ban ngày, rất hiếu động, thường đứng bằng hai chân sau để quan sát và giao tiếp bằng động tác vẫy tay xoay tròn.",
+    "reproductionVi": "Đẻ 6–15 trứng mỗi lứa trong cát ẩm, nở sau 50–65 ngày ở 29°C.",
+    "threatsVi": [
+      "Mèo hoang và chăn thả gia súc quá mức làm mất các khe đất ẩn nấp"
+    ],
+    "funFactsVi": [
+      "Khác với loài Rồng Úc lớn (Pogona vitticeps), Rồng Úc lùn không bao giờ hóa đen cổ họng khi tức giận mà chỉ gật đầu nhanh."
+    ],
+    "similarSpecies": [
+      "Pogona vitticeps",
+      "Pogona minor"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 90×45×45 cm với khúc gỗ lũa tắm nắng và đá phẳng.",
+      "lightingVi": "Bắt buộc đèn ống T5 UVB 10.0–12.0% và đèn sưởi tạo điểm nóng 38–42°C.",
+      "feedingVi": "Côn trùng nhiều hơn rau: 70% dế/gián nhỏ phủ canxi và 30% rau cải xanh thái nhỏ.",
+      "socialVi": "Nuôi đơn hoặc ghép 1 đực 2 cái cùng kích thước trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Thiếu canxi và UVB dẫn đến mềm xương hàm và chân"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp, rất được ưa chuộng bởi người mới bắt đầu có diện tích phòng nhỏ."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng Úc lùn Pogona henrylawsoni (CB 3 tháng tuổi)",
+        "priceVnd": 2800000,
+        "descriptionVi": "Cá thể CB thuần chủng hoa văn nơ lưng chuẩn, ăn dế và rau rất khỏe."
+      },
+      {
+        "nameVi": "Rồng Úc lùn Pogona henrylawsoni trưởng thành (8 tháng)",
+        "priceVnd": 3900000,
+        "descriptionVi": "Cá thể đã đạt kích thước tối đa ~28 cm, cực kỳ hiền và dạn tay."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Che, a pygmy bearded dragon (Pogona henrylawsoni).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Che,_a_pygmy_bearded_dragon_(Pogona_henrylawsoni).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Che%2C_a_pygmy_bearded_dragon_%28Pogona_henrylawsoni%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Billthekrill",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pogona henrylawsoni 175778664.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pogona_henrylawsoni_175778664.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pogona_henrylawsoni_175778664.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Nathan Ruser",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agamidae Pogona henrylawsoni 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_Pogona_henrylawsoni_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Agamidae_Pogona_henrylawsoni_1.jpg",
+        "width": 1656,
+        "height": 2208,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:TerraZoo Rheinberg Zwergbartagame.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TerraZoo_Rheinberg_Zwergbartagame.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/TerraZoo_Rheinberg_Zwergbartagame.jpg",
+        "width": 3224,
+        "height": 2150,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krd",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Henrylawsoni juvenil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Henrylawsoni_juvenil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Henrylawsoni_juvenil.jpg",
+        "width": 2512,
+        "height": 1746,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "author": "Carlo Stöhr at Dutch Wikipedia",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2465649",
+      "https://www.iucnredlist.org/species/83493462/83493472",
+      "https://en.wikipedia.org/wiki/Rankin%27s_dragon",
+      "https://vi.wikipedia.org/wiki/Pogona_henrylawsoni"
+    ]
+  },
+  {
+    "scientificName": "Pogona barbata",
+    "commonNameVi": "Rồng Úc miền Đông",
+    "commonNameEn": "Eastern bearded dragon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Pogona"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Pogona"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170419/83493237",
+    "gbifKey": 2465633,
+    "environment": {
+      "tempMin": 24,
+      "tempMax": 31,
+      "baskMin": 36,
+      "baskMax": 40,
+      "humidMin": 35,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng bạch đàn, vùng ven biển và đồng cỏ cây gỗ khắp miền đông nước Úc"
+    },
+    "descriptionVi": "Họ hàng kích thước lớn của Rồng Úc nội địa với thân hình thon dài hơn, màu da xám tro đến đen sẫm, bộ râu gai dưới cổ họng cực kỳ phát triển và niêm mạc trong khoang miệng màu vàng nghệ chói lọi.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp các bang miền đông và đông nam nước Úc.",
+    "pullQuoteVi": "Khi phồng chiếc râu gai đen nhánh và há rộng cái miệng màu vàng tươi rực sáng, chúng tạo nên màn uy hiếp thị giác đầy ấn tượng.",
+    "dietVi": "Ăn tạp: côn trùng lớn, giun, hoa bồ công anh, lá non và quả mọng",
+    "lifespanVi": "10–14 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vùng ngoại ô Sydney, bang New South Wales, Australia",
+      "lat": -33.86,
+      "lng": 151.2
+    },
+    "regionVi": "Miền đông và đông nam Australia",
+    "otherNamesVi": [
+      "Rồng râu xám miền Đông"
+    ],
+    "synonyms": [
+      "Agama barbata",
+      "Amphibolurus barbatus",
+      "Grammatophora barbata",
+      "Stellio discosomus"
+    ],
+    "wikidataId": "Q306893",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BB%93ng_%C3%9Ac",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Eastern_bearded_dragon",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 45,
+      "lengthCmMax": 60,
+      "weightGMin": 300,
+      "weightGMax": 550,
+      "heightCmMax": null,
+      "noteVi": "Niêm mạc miệng màu vàng tươi thay vì màu hồng như P. vitticeps"
+    },
+    "distribution": {
+      "countries": [
+        "AU"
+      ],
+      "nativeRangeVi": "Miền đông Australia từ bán đảo Cape York (Queensland) xuống Victoria và đông Nam Úc",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng bạch đàn",
+      "Đồng cỏ cây gỗ và cọc rào nông trại"
+    ],
+    "identificationVi": "Đầu hẹp và góc cạnh hơn P. vitticeps, hàng gai dọc sườn xếp thành một hàng đơn, bên trong miệng có màu vàng chanh đến vàng cam.",
+    "behaviorVi": "Ưa leo trèo lên các thân cây và cọc gỗ để tắm nắng và quan sát lãnh thổ, tính cách cảnh giác và hoang dã hơn P. vitticeps.",
+    "reproductionVi": "Con cái đẻ 15–30 trứng mỗi lứa trong hố đất cát ẩm, nở sau 60–75 ngày.",
+    "threatsVi": [
+      "Chó mèo và tai nạn giao thông vùng ven đô"
+    ],
+    "funFactsVi": [
+      "Màu vàng chói lọi bên trong khoang miệng của Pogona barbata đóng vai trò như tín hiệu cảnh báo đột ngột (deimatic display) khi chúng bất ngờ há miệng trước kẻ săn mồi."
+    ],
+    "similarSpecies": [
+      "Pogona vitticeps",
+      "Chlamydosaurus kingii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng lớn 120×60×60 cm bố trí các khúc gỗ lũa to dựng nghiêng để leo cao tắm nắng.",
+      "lightingVi": "Đèn UVB 10.0–12.0% T5 và đèn sưởi tạo điểm nắng 38–40°C.",
+      "feedingVi": "Gián Dubia, châu chấu, dế kết hợp rau xanh và hoa ăn được.",
+      "socialVi": "Nuôi đơn độc hoàn toàn.",
+      "commonProblemsVi": [
+        "Stress và phồng râu dọa nếu chuồng đặt sát mặt đất thiếu tầm nhìn cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nhân giống CB hợp pháp trong các bộ sưu tập bò sát chuyên sâu."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng Úc miền Đông Pogona barbata (CB 5 tháng tuổi)",
+        "priceVnd": 6500000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, miệng vàng nghệ chuẩn đặc trưng của loài."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:AndrewMercerIMG 3053 Eastern Bearded Dragon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AndrewMercerIMG_3053_Eastern_Bearded_Dragon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/AndrewMercerIMG_3053_Eastern_Bearded_Dragon.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Andrew Mercer (www.baldwhiteguy.co.nz)",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Bearded dragon (Pogona barbata) - Wildlife at the Library (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bearded_dragon_(Pogona_barbata)_-_Wildlife_at_the_Library_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bearded_dragon_%28Pogona_barbata%29_-_Wildlife_at_the_Library_%282%29.jpg",
+        "width": 2664,
+        "height": 4000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Blue Mountains Library",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Eastern bearded dragon 4886.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_bearded_dragon_4886.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eastern_bearded_dragon_4886.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "JJ Harrison",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Bearded Dragon (Pogona barbata) (9391096056).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Bearded_Dragon_(Pogona_barbata)_(9391096056).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Eastern_Bearded_Dragon_%28Pogona_barbata%29_%289391096056%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Matt from Melbourne, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Eastern Bearded Dragon - AndrewMercer IMG08865.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Bearded_Dragon_-_AndrewMercer_IMG08865.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Eastern_Bearded_Dragon_-_AndrewMercer_IMG08865.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrew Mercer (www.baldwhiteguy.co.nz)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2465633",
+      "https://www.iucnredlist.org/species/170419/83493237",
+      "https://en.wikipedia.org/wiki/Eastern_bearded_dragon",
+      "https://vi.wikipedia.org/wiki/R%E1%BB%93ng_%C3%9Ac"
+    ]
+  },
+  {
+    "scientificName": "Chlamydosaurus kingii",
+    "commonNameVi": "Rồng cổ bành Úc",
+    "commonNameEn": "Frilled lizard",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Chlamydosaurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Chlamydosaurus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/170384/21644690",
+    "gbifKey": 2466087,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 32,
+      "baskMin": 38,
+      "baskMax": 42,
+      "humidMin": 50,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng nhiệt đới khô và savan cây gỗ tại miền bắc nước Úc và nam New Guinea"
+    },
+    "descriptionVi": "Loài thằn lằn mang tính biểu tượng của châu Đại Dương với nếp da cổ khổng lồ được nâng đỡ bởi các thanh sụn xương móng: khi xòe rộng trông như chiếc ô tròn đường kính tới 30 cm quanh đầu.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng khắp vùng nhiệt đới phía bắc nước Úc và miền nam đảo New Guinea.",
+    "pullQuoteVi": "Khi gặp nguy hiểm, chúng bật mở chiếc diềm cổ rộng gấp bốn lần cơ thể rồi đứng thẳng trên hai chân sau chạy vụt đi như một vận động viên.",
+    "dietVi": "Ăn thịt chủ yếu: côn trùng lớn, ve sầu, châu chấu, mối, nhện và thằn lằn nhỏ",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Kakadu, Lãnh thổ Bắc Úc, Australia",
+      "lat": -12.67,
+      "lng": 132.83
+    },
+    "regionVi": "Bắc Australia và Nam New Guinea",
+    "otherNamesVi": [
+      "Nhông cổ dù",
+      "Thằn lằn cổ bành"
+    ],
+    "synonyms": [
+      "Chlamydosaurus kingii mickpughi",
+      "Chlamydosaurus kingii pughae"
+    ],
+    "wikidataId": "Q501566",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chlamydosaurus_kingii",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Frilled_lizard",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 90,
+      "weightGMin": 400,
+      "weightGMax": 850,
+      "heightCmMax": null,
+      "noteVi": "Quần thể Úc lớn hơn và có diềm cổ đỏ cam hơn quần thể New Guinea"
+    },
+    "distribution": {
+      "countries": [
+        "AU",
+        "PG",
+        "ID"
+      ],
+      "nativeRangeVi": "Miền bắc Australia (Tây Úc, Lãnh thổ Bắc Úc, Queensland) và miền nam New Guinea",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": [
+      "Savan cây bạch đàn nhiệt đới",
+      "Rừng khô gió mùa"
+    ],
+    "identificationVi": "Bình thường diềm da gấp gọn như áo choàng quanh cổ và vai; khi căng hàm, các sụn xương móng kéo căng diềm da tròn quanh đầu.",
+    "behaviorVi": "Dành 90% thời gian bám thẳng đứng trên thân cây gỗ để rình mồi bên dưới; khi cần chạy trốn trên mặt đất sẽ chạy bằng hai chân sau.",
+    "reproductionVi": "Con cái đẻ 8–20 trứng trong hố cát nắng ấm vào đầu mùa mưa, nở sau 70–85 ngày.",
+    "threatsVi": [
+      "Cóc mía độc ngoại lai tại bắc Úc",
+      "Cháy rừng savan cường độ cao cuối mùa khô"
+    ],
+    "funFactsVi": [
+      "Hình ảnh Rồng cổ bành xòe diềm từng được khắc trang trọng trên mặt đồng xu 2 xu của Australia và biểu tượng Thế vận hội Paralympic Sydney."
+    ],
+    "similarSpecies": [
+      "Pogona barbata",
+      "Intellagama lesueurii"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng đứng rất lớn tối thiểu 90×60×150 cm bố trí nhiều thân cây gỗ to thẳng đứng.",
+      "lightingVi": "Đèn UVB 10.0–12.0% công suất mạnh và đèn sưởi tạo điểm nắng 40°C trên ngọn cành.",
+      "feedingVi": "Gián Dubia lớn, châu chấu, dế và sâu tằm phủ canxi và vitamin.",
+      "socialVi": "Nuôi đơn độc hoặc ghép cặp trong chuồng kích thước lớn.",
+      "commonProblemsVi": [
+        "Đâm mõm vào kính (glass surfing) nếu chuồng quá chật hoặc vách kính không dán che bớt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Dòng New Guinea (Irian Jaya) được nhân giống CB hợp pháp và phổ biến trong giới chơi bò sát cảnh."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng cổ bành Chlamydosaurus kingii (Baby CB 4 tháng)",
+        "priceVnd": 4500000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn dế và gián Dubia cực nhạy, diềm cổ tròn đều."
+      },
+      {
+        "nameVi": "Rồng cổ bành Chlamydosaurus kingii (Sub-adult 8 tháng)",
+        "priceVnd": 7200000,
+        "descriptionVi": "Cá thể lớn đã lên màu cam đỏ trên diềm cổ, dạn người."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Frill-necked Lizard (Chlamydosaurus kingii) (8691487073).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Frill-necked_Lizard_(Chlamydosaurus_kingii)_(8691487073).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Frill-necked_Lizard_%28Chlamydosaurus_kingii%29_%288691487073%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Matt from Melbourne, Australia",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chlamydosaurus kingii 103835180.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chlamydosaurus_kingii_103835180.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chlamydosaurus_kingii_103835180.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Edward Bell",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chlamydosaurus kingii - 5581.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chlamydosaurus_kingii_-_5581.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Chlamydosaurus_kingii_-_5581.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Amada44",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agama límcová.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agama_l%C3%ADmcov%C3%A1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Agama_l%C3%ADmcov%C3%A1.jpg",
+        "width": 3264,
+        "height": 2448,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Marek Hlavinka",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A frilled lizard (Chlamydosaurus kingii).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_frilled_lizard_(Chlamydosaurus_kingii).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/A_frilled_lizard_%28Chlamydosaurus_kingii%29.jpg",
+        "width": 2383,
+        "height": 3178,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Richard N Horne",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466087",
+      "https://www.iucnredlist.org/species/170384/21644690",
+      "https://en.wikipedia.org/wiki/Frilled_lizard",
+      "https://vi.wikipedia.org/wiki/Chlamydosaurus_kingii"
+    ]
+  },
+  {
+    "scientificName": "Physignathus cocincinus",
+    "commonNameVi": "Rồng đất",
+    "commonNameEn": "Chinese water dragon",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Physignathus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Physignathus"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/104677699/104677832",
+    "gbifKey": 2465402,
+    "environment": {
+      "tempMin": 25,
+      "tempMax": 31,
+      "baskMin": 33,
+      "baskMax": 36,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 24,
+      "waterTempMax": 27,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Cành cây rủ bóng trên các dòng suối và sông trong rừng mưa nhiệt đới Việt Nam và Đông Nam Á"
+    },
+    "descriptionVi": "Loài thằn lằn bán thủy sinh cỡ lớn bản địa của Việt Nam với toàn thân màu xanh ngọc lục bảo tươi sáng, hàng gai lược chạy từ gáy dọc sống lưng tới chiếc đuôi dài dẹp bên dùng để bơi lội.",
+    "conservationNoteVi": "Xếp hạng Sắp nguy cấp (VU) do bị săn bắt quá mức ngoài tự nhiên để làm thực phẩm và mất rừng ven suối tại Đông Dương và nam Trung Quốc.",
+    "pullQuoteVi": "Khi phát hiện nguy hiểm từ trên cành cây cao, chúng lập tức gieo mình xuống dòng suối sâu và có thể lặn dưới đáy nước suốt hơn 30 phút.",
+    "dietVi": "Ăn tạp thiên thịt: côn trùng lớn, cá nhỏ, tôm suối, giun và một phần quả rừng chín",
+    "lifespanVi": "10–15 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Vườn quốc gia Cát Tiên, tỉnh Đồng Nai, Việt Nam",
+      "lat": 11.42,
+      "lng": 107.43
+    },
+    "regionVi": "Việt Nam, Lào, Campuchia, Thái Lan và Nam Trung Quốc",
+    "otherNamesVi": [
+      "Kỳ tôm",
+      "Rồng nước Đông Dương"
+    ],
+    "synonyms": [
+      "Dilophyrus mentager",
+      "Physignathus cocincinus caudicinctus"
+    ],
+    "wikidataId": "Q740576",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/R%E1%BB%93ng_%C4%91%E1%BA%A5t",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chinese_water_dragon",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 65,
+      "lengthCmMax": 95,
+      "weightGMin": 400,
+      "weightGMax": 800,
+      "heightCmMax": null,
+      "noteVi": "Chiếc đuôi dẹp bên chiếm tới gần 70% tổng chiều dài cơ thể"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "LA",
+        "KH",
+        "TH",
+        "CN"
+      ],
+      "nativeRangeVi": "Khắp Việt Nam, Lào, Campuchia, đông Thái Lan và vùng Quảng Đông, Quảng Tây, Vân Nam (Trung Quốc)",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa nhiệt đới ven sông suối",
+      "Rừng thường xanh ẩm đất thấp"
+    ],
+    "identificationVi": "Toàn thân xanh lá ngọc điểm các dải xiên sáng màu, cằm con đực có sắc cam hồng hoặc vàng trắng, mào gai gáy và lưng cao đều.",
+    "behaviorVi": "Bơi lội và leo trèo cực giỏi; thường ngủ và phơi nắng trên các cành cây vươn ngay trên mặt nước để sẵn sàng nhảy xuống suối khi có động.",
+    "reproductionVi": "Con cái đào ổ trên bãi cát ven suối đẻ 8–16 trứng mỗi lứa, thời gian ấp nở 60–75 ngày.",
+    "threatsVi": [
+      "Săn bắt làm đặc sản nhà hàng",
+      "Xây dựng đập thủy điện và phá rừng đầu nguồn làm mất sinh cảnh ven suối"
+    ],
+    "funFactsVi": [
+      "Trên đỉnh đầu giữa hai mắt của Rồng đất có một 'con mắt thứ ba' (mắt đỉnh - parietal eye) có giác mạc và võng mạc thô sơ giúp cảm nhận sự thay đổi ánh sáng và bóng của chim săn mồi bay phía trên."
+    ],
+    "similarSpecies": [
+      "Intellagama lesueurii",
+      "Iguana iguana"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng bán thủy sinh rất lớn (120×60×120 cm) có hồ nước có lọc ở đáy và cành cây to phía trên.",
+      "lightingVi": "Đèn UVB 5.0–10.0% và đèn sưởi chiếu điểm 35°C trên cành cao.",
+      "feedingVi": "Gián Dubia, dế, châu chấu, cá nhỏ sạch và tôm tép bổ sung canxi.",
+      "socialVi": "Nuôi đơn hoặc 1 đực kèm 2 cái trong chuồng lớn; dán mờ phần dưới vách kính để tránh rồng lao đầu vào kính.",
+      "commonProblemsVi": [
+        "Trầy sưng đầu mõm (snout rubbing) do lao vào vách kính trong suốt"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": "IIB",
+      "reasonVi": "Thuộc nhóm IIB (Nghị định 84/2021) và CITES Phụ lục II (từ 2023); chỉ giao dịch cá thể từ các trang trại gây nuôi thương mại được cấp phép kiểm lâm hợp pháp tại Việt Nam."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng đất xanh Physignathus cocincinus (Trại nhân giống CB 5 tháng)",
+        "priceVnd": 850000,
+        "descriptionVi": "Cá thể sinh sản tại trại đăng ký hợp pháp, mõm nguyên vẹn không trầy, màu xanh ngọc sáng."
+      },
+      {
+        "nameVi": "Rồng đất đột biến Turquoise Blue (CB 6 tháng tuổi)",
+        "priceVnd": 3800000,
+        "descriptionVi": "Biến thể thiếu sắc tố vàng tạo màu xanh lam ngọc bích toàn thân, nhân giống CB."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Chinese Water Dragon (Physignathus cocincinus) - Khao Yai National Park - 3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Water_Dragon_(Physignathus_cocincinus)_-_Khao_Yai_National_Park_-_3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chinese_Water_Dragon_%28Physignathus_cocincinus%29_-_Khao_Yai_National_Park_-_3.jpg",
+        "width": 5592,
+        "height": 3732,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Rushenb",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:0615190214a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:0615190214a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/0615190214a.jpg",
+        "width": 3492,
+        "height": 4656,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "SuperSaiyaMan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:0051 20090621 Chinese water dragon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:0051_20090621_Chinese_water_dragon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/0051_20090621_Chinese_water_dragon.jpg",
+        "width": 2677,
+        "height": 1780,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Jakub Hałun",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Dragon d'eau vert (Physignathus cocincinus).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dragon_d%27eau_vert_(Physignathus_cocincinus).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dragon_d%27eau_vert_%28Physignathus_cocincinus%29.jpg",
+        "width": 1816,
+        "height": 4032,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Welcome to Thailand",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ella, vattenagam.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ella,_vattenagam.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ella%2C_vattenagam.jpg",
+        "width": 5456,
+        "height": 3064,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Elise Ralston",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2465402",
+      "https://www.iucnredlist.org/species/104677699/104677832",
+      "https://en.wikipedia.org/wiki/Chinese_water_dragon",
+      "https://vi.wikipedia.org/wiki/R%E1%BB%93ng_%C4%91%E1%BA%A5t"
+    ]
+  },
+  {
+    "scientificName": "Hydrosaurus amboinensis",
+    "commonNameVi": "Rồng buồm Indonesia",
+    "commonNameEn": "Amboina sailfin lizard",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Hydrosaurus"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Hydrosaurus"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/195296/2376976",
+    "gbifKey": 5226078,
+    "environment": {
+      "tempMin": 26,
+      "tempMax": 32,
+      "baskMin": 36,
+      "baskMax": 40,
+      "humidMin": 70,
+      "humidMax": 85,
+      "waterTempMin": 25,
+      "waterTempMax": 28,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Rừng ngập nước ven sông và rừng mưa ven biển tại miền đông Indonesia và New Guinea"
+    },
+    "descriptionVi": "Loài lớn nhất trong họ Nhông (Agamidae) với vẻ ngoài thời tiền sử đầy choáng ngợp: gốc đuôi vươn cao một chiếc vây buồm lớn được chống đỡ bởi các gai xương cột sống dài và các ngón chân sau có diềm vảy phẳng để chạy trên mặt nước.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng trên đảo Sulawesi, quần đảo Maluku và New Guinea.",
+    "pullQuoteVi": "Chiếc vây buồm đồ sộ dựng cao nơi gốc đuôi cùng đôi bàn chân có vảy bè giúp loài nhông dài hơn 1 mét này chạy lướt trên mặt nước.",
+    "dietVi": "Ăn tạp: lá non, hoa, quả rừng, côn trùng lớn, cua nhỏ và cá",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đảo Ambon, quần đảo Maluku, Indonesia",
+      "lat": -3.65,
+      "lng": 128.19
+    },
+    "regionVi": "Đông Indonesia và đảo New Guinea",
+    "otherNamesVi": [
+      "Kỳ đà vây buồm Ambon"
+    ],
+    "synonyms": [
+      "Lacerta amboinensis",
+      "Lacerta javanica",
+      "Lacerta lophura",
+      "Lophura shawii"
+    ],
+    "wikidataId": "Q458233",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Hydrosaurus_amboinensis",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Hydrosaurus_amboinensis",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 85,
+      "lengthCmMax": 110,
+      "weightGMin": 1200,
+      "weightGMax": 2500,
+      "heightCmMax": null,
+      "noteVi": "Loài thằn lằn lớn nhất thuộc họ Nhông (Agamidae)"
+    },
+    "distribution": {
+      "countries": [
+        "ID",
+        "PG"
+      ],
+      "nativeRangeVi": "Sulawesi, quần đảo Maluku (Ambon, Seram) và đảo New Guinea",
+      "elevationM": {
+        "min": 0,
+        "max": 500
+      }
+    },
+    "habitatTypesVi": [
+      "Rừng mưa ven sông lớn",
+      "Rừng ngập mặn và cửa sông"
+    ],
+    "identificationVi": "Mào mũi cao, mào gai chạy dọc gáy và lưng, nửa đầu chiếc đuôi có vây buồm cao như vây cá buồm, ngón chân sau có diềm vảy dẹp.",
+    "behaviorVi": "Con non có thể chạy bằng hai chân sau trên mặt nước một quãng ngắn trước khi lặn xuống; con trưởng thành dùng vây buồm để hấp thụ nhiệt và bơi lội.",
+    "reproductionVi": "Đẻ 5–12 trứng trong các hốc cát ẩm trên bờ sông, nở sau khoảng 65–85 ngày.",
+    "threatsVi": [
+      "Săn bắt tự nhiên và mất rừng ven sông"
+    ],
+    "funFactsVi": [
+      "Nhờ hình dáng chiếc vây buồm ở gốc đuôi giống loài bò sát tiền sử Spinosaurus và Dimetrodon, loài này là tâm điểm trưng bày của nhiều vườn thú lớn trên thế giới."
+    ],
+    "similarSpecies": [
+      "Hydrosaurus pustulatus",
+      "Hydrosaurus weberi"
+    ],
+    "care": {
+      "difficulty": "Khó",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng phòng lớn tối thiểu 180×90×180 cm có bể bơi sâu có lọc và các thân cây lớn phía trên.",
+      "lightingVi": "Đèn UVB 10.0% công suất cao và cụm đèn sưởi chiếu điểm 38–40°C.",
+      "feedingVi": "50% rau xanh, củ quả và 50% côn trùng lớn, tôm cá sạch phủ canxi.",
+      "socialVi": "Nuôi đơn độc trong chuồng lớn che kín 3 mặt để tạo cảm giác an toàn.",
+      "commonProblemsVi": [
+        "Trầy mõm do hoảng loạn lao vào vách chuồng nếu không gian quá hẹp"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Hợp pháp, dành cho người chơi có kinh nghiệm và chuồng trại lớn."
+    },
+    "products": [
+      {
+        "nameVi": "Rồng buồm Indonesia Hydrosaurus amboinensis (CB 5 tháng tuổi)",
+        "priceVnd": 6800000,
+        "descriptionVi": "Cá thể CB đã lên vây đuôi rõ, mõm lành lặn, ăn côn trùng và rau quả tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Hydrosaurus amboinensis in Burgers' Zoo (Mangrove) (1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrosaurus_amboinensis_in_Burgers%27_Zoo_(Mangrove)_(1).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Hydrosaurus_amboinensis_in_Burgers%27_Zoo_%28Mangrove%29_%281%29.JPG",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Hydrosaurus amboinensis in Burgers' Zoo (Mangrove) (2).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrosaurus_amboinensis_in_Burgers%27_Zoo_(Mangrove)_(2).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Hydrosaurus_amboinensis_in_Burgers%27_Zoo_%28Mangrove%29_%282%29.JPG",
+        "width": 2112,
+        "height": 2816,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hydrosaurus amboinensis (Wroclaw zoo).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrosaurus_amboinensis_(Wroclaw_zoo).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hydrosaurus_amboinensis_%28Wroclaw_zoo%29.JPG",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Guérin Nicolas ( messages )",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hydrosaurus amboinensis 338428083.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrosaurus_amboinensis_338428083.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hydrosaurus_amboinensis_338428083.jpg",
+        "width": 892,
+        "height": 602,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Jean-Paul Boerekamps",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hydrosaurus amboinensis 247009572.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrosaurus_amboinensis_247009572.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Hydrosaurus_amboinensis_247009572.jpg",
+        "width": 1751,
+        "height": 867,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "desertnaturalist",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5226078",
+      "https://www.iucnredlist.org/species/195296/2376976",
+      "https://en.wikipedia.org/wiki/Hydrosaurus_amboinensis",
+      "https://vi.wikipedia.org/wiki/Hydrosaurus_amboinensis"
+    ]
+  },
+  {
+    "scientificName": "Uromastyx aegyptia",
+    "commonNameVi": "Nhông đuôi gai Ai Cập",
+    "commonNameEn": "Egyptian mastigure",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/164729/115304711",
+    "gbifKey": 9013567,
+    "environment": {
+      "tempMin": 28,
+      "tempMax": 35,
+      "baskMin": 45,
+      "baskMax": 50,
+      "humidMin": 15,
+      "humidMax": 30,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Hoang mạc đá sỏi khô nóng khắc nghiệt tại Ai Cập và bán đảo Ả Rập"
+    },
+    "descriptionVi": "Loài lớn nhất trong chi nhông đuôi gai với chiều dài đạt tới 75 cm, thân mình to bè dẹp và chiếc đuôi cơ bắp phủ đầy các vòng gai nhọn cứng như một cây chùy chiến thời trung cổ.",
+    "conservationNoteVi": "Xếp hạng Sắp nguy cấp (VU) do bị săn bắt ngoài tự nhiên và mở rộng đô thị, khai thác đá trên các vùng hoang mạc Ai Cập và Trung Đông.",
+    "pullQuoteVi": "Sống giữa cái nóng 50°C của hoang mạc Ả Rập, chúng có thể sống khỏe mạnh suốt đời mà không cần uống một giọt nước lỏng nào.",
+    "dietVi": "Ăn thực vật hoàn toàn khi trưởng thành: lá cây khô, hoa sa mạc, hạt đậu khô và mầm cỏ",
+    "lifespanVi": "20–30 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Bán đảo Sinai, Ai Cập",
+      "lat": 29.5,
+      "lng": 33.8
+    },
+    "regionVi": "Ai Cập và bán đảo Ả Rập",
+    "otherNamesVi": [
+      "Thằn lằn đuôi chùy Ai Cập"
+    ],
+    "synonyms": [
+      "Lacerta aegyptia",
+      "Lacerta harbai",
+      "Lacerta herbai",
+      "Stellio spinipes"
+    ],
+    "wikidataId": "Q254042",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_aegyptia",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_aegyptia",
+    "iucnAssessedYear": 2012,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": 60,
+      "lengthCmMax": 76,
+      "weightGMin": 1000,
+      "weightGMax": 2200,
+      "heightCmMax": null,
+      "noteVi": "Loài lớn nhất và sống lâu nhất trong chi Uromastyx"
+    },
+    "distribution": {
+      "countries": [
+        "EG",
+        "IL",
+        "JO",
+        "SA",
+        "OM",
+        "AE",
+        "IQ",
+        "IR"
+      ],
+      "nativeRangeVi": "Đông sông Nile (Ai Cập), bán đảo Sinai, Israel, Jordan và khắp bán đảo Ả Rập tới nam Iran",
+      "elevationM": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "habitatTypesVi": [
+      "Đồng bằng sỏi đá sa mạc (hamada)",
+      "Thung lũng cạn khô cằn (wadi)"
+    ],
+    "identificationVi": "Kích thước khổng lồ, da màu xám cát đến vàng nhạt không có hoa văn đốm màu sặc sỡ, đuôi cực to với 20–23 vòng gai nhọn.",
+    "behaviorVi": "Đào hang sâu tới hơn 2 mét dưới nền đất đá cứng; khi có kẻ thù thò đầu vào hang, chúng nằm quay chiếc đuôi gai ra ngoài cửa hang và quật mạnh liên hồi.",
+    "reproductionVi": "Đẻ 15–35 trứng trong nhánh hang sâu dưới lòng đất, nở sau 70–90 ngày.",
+    "threatsVi": [
+      "Bị săn bắt truyền thống tại bán đảo Ả Rập",
+      "Phá hủy sinh cảnh sa mạc ven đô"
+    ],
+    "funFactsVi": [
+      "Nhông đuôi gai không uống nước trực tiếp mà lấy toàn bộ lượng nước cần thiết từ độ ẩm trong lá cây và thải lượng muối dư thừa qua tuyến mũi dưới dạng tinh thể trắng."
+    ],
+    "similarSpecies": [
+      "Uromastyx acanthinura",
+      "Uromastyx dispar"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng ngang rất lớn 150×75×60 cm khô tuyệt đối, không đặt bát nước trong chuồng.",
+      "lightingVi": "Đèn UVB 12.0–14.0% sa mạc và cụm đèn halogen tạo điểm sưởi cực nóng 48–50°C.",
+      "feedingVi": "100% thực vật: rau diếp đắng, bồ công anh, cải xoăn, hoa dâm bụt và các loại hạt đậu lăng khô rắc trên nền.",
+      "socialVi": "Nuôi đơn độc từng cá thể.",
+      "commonProblemsVi": [
+        "Thối vảy đuôi nếu độ ẩm chuồng cao",
+        "Suy gan thận nếu cho ăn côn trùng (đạm động vật)"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai Ai Cập Uromastyx aegyptia (CB 6 tháng tuổi)",
+        "priceVnd": 7800000,
+        "descriptionVi": "Cá thể CB khỏe mạnh, ăn rau xanh và hạt đậu lăng rất tốt."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Leptiens Uromastyx.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leptiens_Uromastyx.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Leptiens_Uromastyx.JPG",
+        "width": 6016,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zoovolunteer1961",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Shanghai Zoo - Uromastyx aegyptia - 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shanghai_Zoo_-_Uromastyx_aegyptia_-_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Shanghai_Zoo_-_Uromastyx_aegyptia_-_1.jpg",
+        "width": 1368,
+        "height": 1824,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "This illustration was made by Peter Potrowl . Please credit this with : Peter Potrowl in the immediate vicinity of the i",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Agamidae- Uromastyx aegyptia aegyptia (Egyptian Spiny-tailed Lizard) 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae-_Uromastyx_aegyptia_aegyptia_(Egyptian_Spiny-tailed_Lizard)_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Agamidae-_Uromastyx_aegyptia_aegyptia_%28Egyptian_Spiny-tailed_Lizard%29_1.jpg",
+        "width": 2200,
+        "height": 1467,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Kristof Zyskowski & Yulia Bereshpolova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Monitor lizard swallows Uromastyx in Kuwait.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Monitor_lizard_swallows_Uromastyx_in_Kuwait.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Monitor_lizard_swallows_Uromastyx_in_Kuwait.jpg",
+        "width": 5096,
+        "height": 2784,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mfalhajji",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:PikiWiki Israel 34849 Uromastyx aegyptius in Mitzpe Ramon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_34849_Uromastyx_aegyptius_in_Mitzpe_Ramon.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/PikiWiki_Israel_34849_Uromastyx_aegyptius_in_Mitzpe_Ramon.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "author": "Dr. Avishai Teicher",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/9013567",
+      "https://www.iucnredlist.org/species/164729/115304711",
+      "https://en.wikipedia.org/wiki/Uromastyx_aegyptia",
+      "https://vi.wikipedia.org/wiki/Uromastyx_aegyptia"
+    ]
+  },
+  {
+    "scientificName": "Uromastyx geyri",
+    "commonNameVi": "Nhông đuôi gai Sahara",
+    "commonNameEn": "Geyr's spiny-tailed lizard",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198536/237187956",
+    "gbifKey": 2466112,
+    "environment": {
+      "tempMin": 28,
+      "tempMax": 35,
+      "baskMin": 46,
+      "baskMax": 50,
+      "humidMin": 15,
+      "humidMax": 30,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Vùng núi đá khô nóng giữa trung tâm sa mạc Sahara (Mali, Niger, Algeria)"
+    },
+    "descriptionVi": "Một trong những loài nhông đuôi gai đẹp và phổ biến nhất trong nuôi nhốt với kích thước vừa phải và màu da rực sáng như lửa: vàng chanh neon hoặc cam đỏ gạch phủ các đốm hoa văn lưng.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) theo đánh giá mới nhất nhờ sinh cảnh núi đá biệt lập rộng lớn ở vùng Aïr và Hoggar giữa sa mạc Sahara.",
+    "pullQuoteVi": "Sắc vàng neon và cam lửa rực cháy dưới ánh nắng sa mạc biến loài nhông ăn chay này thành viên ngọc của vùng núi đá Sahara.",
+    "dietVi": "Ăn thực vật hoàn toàn: rau lá xanh giàu xơ, hoa dại và hạt ngũ cốc khô",
+    "lifespanVi": "15–20 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Khối núi Aïr, miền bắc Niger",
+      "lat": 18.28,
+      "lng": 8
+    },
+    "regionVi": "Trung tâm sa mạc Sahara (Niger, Mali, Algeria)",
+    "otherNamesVi": [
+      "Nhông đuôi gai đỏ cam Geyr"
+    ],
+    "synonyms": [
+      "Uromastix geyri",
+      "Uromastyx temporalis"
+    ],
+    "wikidataId": "Q1938510",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_geyri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_geyri",
+    "iucnAssessedYear": 2025,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 36,
+      "weightGMin": 200,
+      "weightGMax": 320,
+      "heightCmMax": null,
+      "noteVi": "Thân mảnh và nhẹ hơn Uromastyx acanthinura"
+    },
+    "distribution": {
+      "countries": [
+        "NE",
+        "ML",
+        "DZ"
+      ],
+      "nativeRangeVi": "Các khối núi đá Aïr (Niger), Adrar des Ifoghas (Mali) và Hoggar (nam Algeria)",
+      "elevationM": {
+        "min": 400,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn núi đá sa mạc",
+      "Khe đá bazan và granite khô nóng"
+    ],
+    "identificationVi": "Con đực trưởng thành có màu vàng tươi hoặc đỏ cam rực rỡ trên toàn bộ lưng, hông và chân; đuôi gai thon hơn các loài cùng chi.",
+    "behaviorVi": "Rất hiền lành và dạn người khi được nuôi ấm đúng nhiệt độ; dành nhiều giờ phơi mình trên tảng đá nóng dưới đèn sưởi.",
+    "reproductionVi": "Đẻ 10–18 trứng mỗi lứa trong hang cát ấm dưới tảng đá, nở sau 70–85 ngày.",
+    "threatsVi": [
+      "Thu bắt thương mại trong quá khứ tại khu vực Tây Phi"
+    ],
+    "funFactsVi": [
+      "Màu vàng và đỏ trên da của Uromastyx geyri chỉ phát sáng rực rỡ nhất khi nhiệt độ cơ thể đạt trên 38°C dưới ánh đèn sưởi và tia UVB."
+    ],
+    "similarSpecies": [
+      "Uromastyx dispar",
+      "Uromastyx acanthinura"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 120×60×45 cm bố trí phiến đá phẳng dưới bóng sưởi và hang đá thấp.",
+      "lightingVi": "Đèn UVB 12.0–14.0% và đèn halogen tạo điểm sưởi 48–50°C.",
+      "feedingVi": "Rau cải xanh, rau diếp xoăn, hoa dâm bụt, cỏ linh lăng và hạt kê/đậu lăng khô.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp 1 đực 1 cái trong chuồng rộng.",
+      "commonProblemsVi": [
+        "Bỏ ăn và ngủ li bì nếu điểm sưởi không đủ nóng trên 45°C"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, nhân giống CB rất phổ biến với hai dòng màu Yellow và Red."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai Sahara Yellow Uromastyx geyri (CB 5 tháng)",
+        "priceVnd": 4800000,
+        "descriptionVi": "Dòng vàng chanh neon nhân giống CB, ăn rau và hạt khô cực kỳ khỏe."
+      },
+      {
+        "nameVi": "Nhông đuôi gai Sahara Red Uromastyx geyri (CB 6 tháng)",
+        "priceVnd": 5500000,
+        "descriptionVi": "Dòng cam đỏ gạch rực rỡ, sức khỏe ổn định."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2017-03-30 AT Wien 22 Donaustadt, Palmenhaus Hirschstetten, Uromastyx geyri (51669444137).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2017-03-30_AT_Wien_22_Donaustadt,_Palmenhaus_Hirschstetten,_Uromastyx_geyri_(51669444137).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2017-03-30_AT_Wien_22_Donaustadt%2C_Palmenhaus_Hirschstetten%2C_Uromastyx_geyri_%2851669444137%29.jpg",
+        "width": 5491,
+        "height": 3671,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Paul Korecky",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Blumengärten Hirschstetten 2016-02-21 Dornschwanzagame (Uromastyx geyri) a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blumeng%C3%A4rten_Hirschstetten_2016-02-21_Dornschwanzagame_(Uromastyx_geyri)_a.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Blumeng%C3%A4rten_Hirschstetten_2016-02-21_Dornschwanzagame_%28Uromastyx_geyri%29_a.jpg",
+        "width": 4600,
+        "height": 2875,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Manfred Werner - Tsui",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Geyrs Dornschwanzagame Uromastyx geyri Zoo Augsburg-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geyrs_Dornschwanzagame_Uromastyx_geyri_Zoo_Augsburg-01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Geyrs_Dornschwanzagame_Uromastyx_geyri_Zoo_Augsburg-01.jpg",
+        "width": 5115,
+        "height": 2680,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Rufus46",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Orange Dragon (15680004885).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orange_Dragon_(15680004885).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Orange_Dragon_%2815680004885%29.jpg",
+        "width": 4495,
+        "height": 3170,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Rolf Dietrich Brecher from Germany",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466112",
+      "https://www.iucnredlist.org/species/198536/237187956",
+      "https://en.wikipedia.org/wiki/Uromastyx_geyri",
+      "https://vi.wikipedia.org/wiki/Uromastyx_geyri"
+    ]
+  },
+  {
+    "scientificName": "Uromastyx ocellata",
+    "commonNameVi": "Nhông đuôi gai đốm mắt",
+    "commonNameEn": "Ocellated mastigure",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/176223/21708775",
+    "gbifKey": 2466180,
+    "environment": {
+      "tempMin": 27,
+      "tempMax": 34,
+      "baskMin": 45,
+      "baskMax": 49,
+      "humidMin": 20,
+      "humidMax": 35,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Sườn đồi đá khô cằn dọc bờ tây Biển Đỏ từ Ai Cập tới vùng Sừng châu Phi"
+    },
+    "descriptionVi": "Loài nhông đuôi gai cỡ nhỏ có sắc màu đẹp bậc nhất: con đực trưởng thành có đầu và vai màu xanh ngọc lam sáng, lưng màu gạch nung điểm hàng loạt vòng đốm tròn màu trắng vàng như mắt công.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) do phân bố rộng dọc dãy núi ven Biển Đỏ từ đông nam Ai Cập qua Sudan tới Eritrea, Djibouti và bắc Somalia.",
+    "pullQuoteVi": "Sự kết hợp giữa sắc xanh ngọc lam và những hàng đốm tròn trắng viền đen trên lưng đỏ gạch tạo nên bức tranh khảm sống động.",
+    "dietVi": "Ăn thực vật: lá cây keo non, hoa dại, cỏ khô và các loại hạt nhỏ",
+    "lifespanVi": "12–18 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Dãy núi Biển Đỏ, vùng Port Sudan, Sudan",
+      "lat": 19.61,
+      "lng": 37.21
+    },
+    "regionVi": "Đông Bắc Phi ven Biển Đỏ",
+    "otherNamesVi": [
+      "Nhông đuôi gai xanh đốm mắt Biển Đỏ"
+    ],
+    "synonyms": [
+      "Aporoscelis princeps"
+    ],
+    "wikidataId": "Q600994",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_ocellata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_ocellata",
+    "iucnAssessedYear": 2021,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 24,
+      "lengthCmMax": 28,
+      "weightGMin": 120,
+      "weightGMax": 200,
+      "heightCmMax": null,
+      "noteVi": "Một trong những loài nhỏ gọn và dễ bố trí chuồng nhất chi Uromastyx"
+    },
+    "distribution": {
+      "countries": [
+        "EG",
+        "SD",
+        "ER",
+        "DJ",
+        "SO",
+        "ET"
+      ],
+      "nativeRangeVi": "Đông nam Ai Cập, đông bắc Sudan, Eritrea, Djibouti, đông bắc Ethiopia và tây bắc Somalia",
+      "elevationM": {
+        "min": 0,
+        "max": 1200
+      }
+    },
+    "habitatTypesVi": [
+      "Sườn núi đá bazan khô hạn",
+      "Khe đá thung lũng cạn"
+    ],
+    "identificationVi": "Kích thước nhỏ gọn (~26 cm), vảy đuôi nhỏ xếp khít thành 25–29 vòng gai ngắn, lưng có các hàng đốm tròn sáng viền đen.",
+    "behaviorVi": "Leo trèo trên đá rất khéo léo, dùng các khe nứt hẹp giữa các tảng đá lớn làm nơi trú ẩn thay vì đào hang đất sâu.",
+    "reproductionVi": "Con cái đẻ 8–14 trứng mỗi lứa và là một trong những loài Uromastyx dễ sinh sản nhất trong nuôi nhốt.",
+    "threatsVi": [
+      "Thu bắt thương mại cục bộ"
+    ],
+    "funFactsVi": [
+      "Không chỉ con đực mới có màu sắc đẹp, con cái của Uromastyx ocellata cũng mang sắc hồng cam pastel và hàng đốm trắng rất thanh nhã."
+    ],
+    "similarSpecies": [
+      "Uromastyx ornata",
+      "Uromastyx benti"
+    ],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Chuồng ngang 90×60×45 cm xếp nhiều phiến đá phẳng tạo khe nứt hẹp dưới đèn sưởi.",
+      "lightingVi": "Đèn UVB 12.0% và đèn sưởi tạo điểm đá nóng 46–48°C.",
+      "feedingVi": "Rau xanh thái nhỏ, hoa bồ công anh và hỗn hợp hạt kê, đậu lăng khô.",
+      "socialVi": "Tính tình ôn hòa nhất trong chi Uromastyx, có thể nuôi theo cặp 1 đực 1 cái quanh năm.",
+      "commonProblemsVi": [
+        "Thiếu nhiệt độ sưởi làm giảm tiêu hóa chất xơ"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, sinh sản nhân tạo (CB) rất thành công."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai đốm mắt Uromastyx ocellata (CB 5 tháng)",
+        "priceVnd": 5800000,
+        "descriptionVi": "Cá thể CB nhỏ gọn, đã hiện rõ các hàng đốm trắng trên lưng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Uromastyx ocellata at the Denver Zoo-2012 03 12 0719.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_ocellata_at_the_Denver_Zoo-2012_03_12_0719.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Uromastyx_ocellata_at_the_Denver_Zoo-2012_03_12_0719.jpg",
+        "width": 4020,
+        "height": 2682,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Postdlf",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Agamidae Uromastyx ocellata 1.2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_Uromastyx_ocellata_1.2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Agamidae_Uromastyx_ocellata_1.2.jpg",
+        "width": 1589,
+        "height": 1192,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "NasserHalaweh",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:034 Geschmuckter Dornschwanz.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:034_Geschmuckter_Dornschwanz.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/034_Geschmuckter_Dornschwanz.JPG",
+        "width": 3888,
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Björn Kreis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uromastyx Ocellata male 2011.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_Ocellata_male_2011.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Uromastyx_Ocellata_male_2011.JPG",
+        "width": 3204,
+        "height": 2136,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "RaSaX",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Uromastyx occellatus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_occellatus.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Uromastyx_occellatus.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Tequila 02:26, 8 July 2007 (UTC)",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466180",
+      "https://www.iucnredlist.org/species/176223/21708775",
+      "https://en.wikipedia.org/wiki/Uromastyx_ocellata",
+      "https://vi.wikipedia.org/wiki/Uromastyx_ocellata"
+    ]
+  },
+  {
+    "scientificName": "Uromastyx ornata",
+    "commonNameVi": "Nhông đuôi gai hoa văn Sinai",
+    "commonNameEn": "Ornate mastigure",
+    "group": "Bò sát",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Có vảy (Squamata)",
+      "family": "Họ Nhông (Agamidae)",
+      "genus": "Chi Uromastyx"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/198538/217776607",
+    "gbifKey": 2466148,
+    "environment": {
+      "tempMin": 27,
+      "tempMax": 34,
+      "baskMin": 46,
+      "baskMax": 50,
+      "humidMin": 15,
+      "humidMax": 30,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": null,
+      "phMax": null,
+      "habitatVi": "Núi đá granite khô nóng tại bán đảo Sinai, tây bắc Ả Rập Xê Út và Yemen"
+    },
+    "descriptionVi": "Loài nhông đuôi gai được săn đón bậc nhất giới bò sát cảnh nhờ màu sắc lộng lẫy như tranh vẽ ở con đực: thân xanh lục bảo hoặc xanh coban rực sáng kết hợp các dải đốm vàng tươi và đỏ gạch.",
+    "conservationNoteVi": "Xếp hạng Ít quan tâm (LC) nhờ quần thể ổn định tại các dãy núi đá hiểm trở dọc bán đảo Sinai và bờ đông Biển Đỏ.",
+    "pullQuoteVi": "Được mệnh danh là 'viên ngọc quý của bán đảo Sinai' nhờ sự hòa quyện khó tin giữa sắc xanh lục bảo, tím lam và vàng chanh trên cùng một cơ thể.",
+    "dietVi": "Ăn thực vật: lá cây bụi sa mạc, hoa, chồi non và hạt khô",
+    "lifespanVi": "15–22 năm",
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Nam bán đảo Sinai, Ai Cập",
+      "lat": 28.54,
+      "lng": 33.97
+    },
+    "regionVi": "Bán đảo Sinai và Tây Bán đảo Ả Rập",
+    "otherNamesVi": [
+      "Nhông đuôi gai cầu vồng"
+    ],
+    "synonyms": [
+      "Uromastyx ocellatus ornatus",
+      "Uromastyx philbyi"
+    ],
+    "wikidataId": "Q2711487",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uromastyx_ornata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uromastyx_ornata",
+    "iucnAssessedYear": 2022,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 30,
+      "lengthCmMax": 38,
+      "weightGMin": 180,
+      "weightGMax": 320,
+      "heightCmMax": null,
+      "noteVi": "Đuôi bè rộng có các gai nhọn dài"
+    },
+    "distribution": {
+      "countries": [
+        "EG",
+        "IL",
+        "SA",
+        "YE"
+      ],
+      "nativeRangeVi": "Bán đảo Sinai (Ai Cập), cực nam Israel (Eilat), tây Ả Rập Xê Út và tây bắc Yemen",
+      "elevationM": {
+        "min": 0,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": [
+      "Vách núi đá granite",
+      "Thung lũng đá sỏi sa mạc"
+    ],
+    "identificationVi": "Gốc đùi có các vảy gai hình nón lớn, đuôi có 20–23 vòng gai dẹp rộng; con đực có màu xanh lá hoặc xanh lam điểm vạch vàng tươi.",
+    "behaviorVi": "Thích leo lên đỉnh các tảng đá cao nhất để phơi nắng và phô trương màu sắc bảo vệ lãnh thổ vào buổi trưa.",
+    "reproductionVi": "Con cái đẻ 8–16 trứng mỗi lứa trong hốc cát dưới tảng đá sau khi trải qua giai đoạn ngủ đông nhẹ.",
+    "threatsVi": [
+      "Thu bắt trái phép ngoài tự nhiên do giá trị thẩm mỹ cao"
+    ],
+    "funFactsVi": [
+      "Loài này có hai phân loài chính là U. o. ornata (phía bắc, nhiều sắc xanh lá và tím) và U. o. philbyi (phía nam, nhiều sắc xanh lam đậm)."
+    ],
+    "similarSpecies": [
+      "Uromastyx ocellata",
+      "Uromastyx thomasi"
+    ],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Chuồng ngang 120×60×50 cm xếp nhiều tảng đá phẳng lớn tạo khe trú và bệ phơi nắng.",
+      "lightingVi": "Đèn UVB 14.0% T5 HO và đèn sưởi halogen tạo điểm nóng 48–50°C.",
+      "feedingVi": "Rau lá xanh giàu canxi (bồ công anh, cải xoăn, rau diếp đắng), hoa tươi và hạt đậu lăng.",
+      "socialVi": "Nuôi đơn hoặc ghép cặp 1 đực 1 cái trong chuồng lớn.",
+      "commonProblemsVi": [
+        "Mất màu sắc rực rỡ nếu thiếu tia UVA/UVB cường độ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Thuộc CITES Phụ lục II, giao dịch hợp pháp từ nguồn nhân giống CB cao cấp."
+    },
+    "products": [
+      {
+        "nameVi": "Nhông đuôi gai Sinai Uromastyx ornata (CB 6 tháng tuổi)",
+        "priceVnd": 9200000,
+        "descriptionVi": "Cá thể CB bắt đầu trổ màu xanh ngọc và đốm vàng lưng, ăn rau rất khỏe."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Uromastyx ocellata qtl1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uromastyx_ocellata_qtl1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Uromastyx_ocellata_qtl1.jpg",
+        "width": 4124,
+        "height": 2792,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Quartl",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:חרדון צב הדור באיזור הרי אילת.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%97%D7%A8%D7%93%D7%95%D7%9F_%D7%A6%D7%91_%D7%94%D7%93%D7%95%D7%A8_%D7%91%D7%90%D7%99%D7%96%D7%95%D7%A8_%D7%94%D7%A8%D7%99_%D7%90%D7%99%D7%9C%D7%AA.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D7%97%D7%A8%D7%93%D7%95%D7%9F_%D7%A6%D7%91_%D7%94%D7%93%D7%95%D7%A8_%D7%91%D7%90%D7%99%D7%96%D7%95%D7%A8_%D7%94%D7%A8%D7%99_%D7%90%D7%99%D7%9C%D7%AA.jpg",
+        "width": 1672,
+        "height": 2972,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Alon Barash",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agamidae - Uromastyx ornata (mating).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_-_Uromastyx_ornata_(mating).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Agamidae_-_Uromastyx_ornata_%28mating%29.JPG",
+        "width": 3556,
+        "height": 2460,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hectonichus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agamidae - Uromastyx ornata.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agamidae_-_Uromastyx_ornata.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Agamidae_-_Uromastyx_ornata.JPG",
+        "width": 970,
+        "height": 729,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hectonichus",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Hardon tzav hador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hardon_tzav_hador.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hardon_tzav_hador.jpg",
+        "width": 2592,
+        "height": 1944,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "ALPR",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2466148",
+      "https://www.iucnredlist.org/species/198538/217776607",
+      "https://en.wikipedia.org/wiki/Uromastyx_ornata",
+      "https://vi.wikipedia.org/wiki/Uromastyx_ornata"
+    ]
+  }
+]

@@ -1,0 +1,2360 @@
+[
+  {
+    "scientificName": "Epiphyllum oxypetalum",
+    "commonNameVi": "Hoa quỳnh",
+    "commonNameEn": "Dutchman's Pipe Cactus",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Epiphyllum"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Quỳnh (Epiphyllum)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/152393/121472900",
+    "gbifKey": 5384031,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 32,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Phụ sinh trên cây gỗ lớn trong rừng nhiệt đới ẩm độ cao 0–1.800 m"
+    },
+    "descriptionVi": "'Nữ hoàng bóng đêm' trong văn hóa thưởng hoa phương Đông với đóa hoa trắng muốt khổng lồ chỉ hé nở và tỏa hương thơm ngát suốt vài giờ đồng hồ trong đêm thanh vắng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Mỗi bông hoa Dạ Quỳnh chỉ nở duy nhất một đêm từ khoảng 9 giờ tối đến 3 giờ sáng để thu hút các loài bướm đêm Nhân sư (Sphingidae) đến thụ phấn rồi khép cánh trước bình minh.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cactus oxypetalus",
+      "Cereus latifrons",
+      "Cereus oxypetalus",
+      "Epiphyllum acuminatum"
+    ],
+    "wikidataId": "Q311230",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/D%E1%BA%A1_Qu%E1%BB%B3nh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Epiphyllum_oxypetalum",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 300,
+      "noteVi": "Cành dẹp như lá xanh bóng và bông hoa trắng tinh khôi rộng tới 20–25 cm tỏa hương nồng nàn ban đêm"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "GT",
+        "CR"
+      ],
+      "nativeRangeVi": "Bản địa rừng nhiệt đới Mexico đến Trung Mỹ; trồng rộng rãi khắp Việt Nam và châu Á",
+      "elevationM": {
+        "min": 0,
+        "max": 1800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "'Nữ hoàng bóng đêm' trong văn hóa thưởng hoa phương Đông với đóa hoa trắng muốt khổng lồ chỉ hé nở và tỏa hương thơm ngát suốt vài giờ đồng hồ trong đêm thanh vắng. Đặc điểm nhận dạng nổi bật: Cành dẹp như lá xanh bóng và bông hoa trắng tinh khôi rộng tới 20–25 cm tỏa hương nồng nàn ban đêm.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Mỗi bông hoa Dạ Quỳnh chỉ nở duy nhất một đêm từ khoảng 9 giờ tối đến 3 giờ sáng để thu hút các loài bướm đêm Nhân sư (Sphingidae) đến thụ phấn rồi khép cánh trước bình minh.",
+      "Đặc điểm hình thái đặc trưng: Cành dẹp như lá xanh bóng và bông hoa trắng tinh khôi rộng tới 20–25 cm tỏa hương nồng nàn ban đêm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–32°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Hoa Quỳnh (Quỳnh Hương / Dạ Quỳnh) (Epiphyllum oxypetalum) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 140000,
+        "descriptionVi": "Cây Hoa Quỳnh (Quỳnh Hương / Dạ Quỳnh) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Blooming Epiphyllum oxypetalum.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blooming_Epiphyllum_oxypetalum.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Blooming_Epiphyllum_oxypetalum.JPG",
+        "width": 4608,
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AlleinStein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Beauty under the Moon- Kadupul Flower (Epiphyllum oxypetalum).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beauty_under_the_Moon-_Kadupul_Flower_(Epiphyllum_oxypetalum).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Beauty_under_the_Moon-_Kadupul_Flower_%28Epiphyllum_oxypetalum%29.jpg",
+        "width": 3264,
+        "height": 4928,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vishmitha Hewamarambage",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Belle de Nuit (4160980199).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Belle_de_Nuit_(4160980199).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Belle_de_Nuit_%284160980199%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Dinesh Valke from Thane, India",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bhrama kamalam.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bhrama_kamalam.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bhrama_kamalam.jpg",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tejashwini19",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anandashayanam poov1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anandashayanam_poov1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Anandashayanam_poov1.JPG",
+        "width": 1536,
+        "height": 1152,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Ks.mini",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5384031",
+      "https://www.iucnredlist.org/species/152393/121472900",
+      "https://en.wikipedia.org/wiki/Epiphyllum_oxypetalum",
+      "https://vi.wikipedia.org/wiki/D%E1%BA%A1_Qu%E1%BB%B3nh"
+    ]
+  },
+  {
+    "scientificName": "Rhipsalis baccifera",
+    "commonNameVi": "Xương rồng tầm gửi",
+    "commonNameEn": "Mistletoe Cactus",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Rhipsalis"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm chướng (Caryophyllales)",
+      "family": "Họ Xương rồng (Cactaceae)",
+      "genus": "Chi Xương rồng San hô rủ (Rhipsalis)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/62378/121561919",
+    "gbifKey": 3084036,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 60,
+      "humidMax": 85,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Phụ sinh buông rủ từ cành cây cổ thụ trong rừng mưa nhiệt đới độ cao 0–1.600 m"
+    },
+    "descriptionVi": "Loài xương rồng tự nhiên duy nhất có phạm vi phân bố vượt qua Đại Tây Dương sang tới châu Phi và châu Á, tạo nên những bức rèm xanh mướt buông rủ từ tán rừng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Các nhà thực vật học cho rằng các loài chim di cư ăn quả mọng dính như tầm gửi của loài này đã mang hạt xương rồng từ Nam Mỹ vượt biển sang châu Phi từ hàng triệu năm trước.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Lưu vực sông Rio Negro - Amazon, Brazil",
+      "lat": -3.12,
+      "lng": -60.02
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Cassytha baccifera",
+      "Cereus baccifer",
+      "Cereus bacciferus",
+      "Hariota cassutha"
+    ],
+    "wikidataId": "Q136525",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rhipsalis_baccifera",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rhipsalis_baccifera",
+    "iucnAssessedYear": 2017,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 200,
+      "noteVi": "Thân hình trụ mảnh phân nhánh rủ xuống như rèm dây xanh và kết quả mọng trắng trong suốt"
+    },
+    "distribution": {
+      "countries": [
+        "BR",
+        "MX",
+        "MG",
+        "LK"
+      ],
+      "nativeRangeVi": "Trung - Nam Mỹ, châu Phi nhiệt đới, Madagascar và Sri Lanka",
+      "elevationM": {
+        "min": 0,
+        "max": 1600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài xương rồng tự nhiên duy nhất có phạm vi phân bố vượt qua Đại Tây Dương sang tới châu Phi và châu Á, tạo nên những bức rèm xanh mướt buông rủ từ tán rừng. Đặc điểm nhận dạng nổi bật: Thân hình trụ mảnh phân nhánh rủ xuống như rèm dây xanh và kết quả mọng trắng trong suốt.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Các nhà thực vật học cho rằng các loài chim di cư ăn quả mọng dính như tầm gửi của loài này đã mang hạt xương rồng từ Nam Mỹ vượt biển sang châu Phi từ hàng triệu năm trước.",
+      "Đặc điểm hình thái đặc trưng: Thân hình trụ mảnh phân nhánh rủ xuống như rèm dây xanh và kết quả mọng trắng trong suốt."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–30°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Xương Rồng San Hô Rủ (Xương Rồng Mì Ý) (Rhipsalis baccifera) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 110000,
+        "descriptionVi": "Cây Xương Rồng San Hô Rủ (Xương Rồng Mì Ý) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:SA-9733.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SA-9733.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/SA-9733.jpg",
+        "width": 4512,
+        "height": 3008,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrinivo",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Rhipsalis baccifera (Cactaceae).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhipsalis_baccifera_(Cactaceae).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rhipsalis_baccifera_%28Cactaceae%29.jpg",
+        "width": 5521,
+        "height": 7362,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Juan Carlos Fonseca Mata",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2015-01-19-15.44.08 ZS PMax Rhipsalis-1 (16136041180).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2015-01-19-15.44.08_ZS_PMax_Rhipsalis-1_(16136041180).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/2015-01-19-15.44.08_ZS_PMax_Rhipsalis-1_%2816136041180%29.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "John Rusk from Berkeley, CA, United States of America",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhipsalis baccifera 2017-09-28 5309.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhipsalis_baccifera_2017-09-28_5309.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rhipsalis_baccifera_2017-09-28_5309.jpg",
+        "width": 3864,
+        "height": 5152,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Salicyna",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Rhipsalis baccifera kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rhipsalis_baccifera_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Rhipsalis_baccifera_kz01.jpg",
+        "width": 3567,
+        "height": 5349,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3084036",
+      "https://www.iucnredlist.org/species/62378/121561919",
+      "https://en.wikipedia.org/wiki/Rhipsalis_baccifera",
+      "https://vi.wikipedia.org/wiki/Rhipsalis_baccifera"
+    ]
+  },
+  {
+    "scientificName": "Aloe arborescens",
+    "commonNameVi": "Lô hội thân cây",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Asphodelaceae",
+      "genus": "Aloe"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Thích diệp thụ / Lô hội (Asphodelaceae)",
+      "genus": "Chi Lô hội / Nha đam (Aloe)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/110688013/110688030",
+    "gbifKey": 2777537,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 35,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Sườn núi đá và vách đá ven biển tới cao nguyên độ cao 0–2.000 m"
+    },
+    "descriptionVi": "Loài lô hội bụi lớn nổi tiếng với sức sống mãnh liệt và những chùm hoa màu cam đỏ rực rỡ vươn cao như ngọn đuốc sưởi ấm mùa đông.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Gel trong lá của Lô Hội Thân Gỗ chứa nhiều hợp chất sinh học dịu da và từng được sử dụng tại Nhật Bản để điều trị bỏng phóng xạ sau Thế chiến II.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Tây Cape, Nam Phi",
+      "lat": -33.92,
+      "lng": 18.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Aloe arborescens pachythyrsa",
+      "Aloe fructicosa",
+      "Aloe perfoliata arborescens",
+      "Aloe perfoliata natalensis"
+    ],
+    "wikidataId": "Q162137",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Aloe_arborescens",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Aloe_arborescens",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 300,
+      "noteVi": "Thân gỗ phân nhánh mang các đài lá mọng nước viền răng cưa và chùm hoa đỏ cam hình ngọn đuốc"
+    },
+    "distribution": {
+      "countries": [
+        "ZA",
+        "MZ",
+        "ZW",
+        "MW"
+      ],
+      "nativeRangeVi": "Miền nam và đông nam châu Phi từ mũi Hảo Vọng lên tới Malawi",
+      "elevationM": {
+        "min": 0,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài lô hội bụi lớn nổi tiếng với sức sống mãnh liệt và những chùm hoa màu cam đỏ rực rỡ vươn cao như ngọn đuốc sưởi ấm mùa đông. Đặc điểm nhận dạng nổi bật: Thân gỗ phân nhánh mang các đài lá mọng nước viền răng cưa và chùm hoa đỏ cam hình ngọn đuốc.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Gel trong lá của Lô Hội Thân Gỗ chứa nhiều hợp chất sinh học dịu da và từng được sử dụng tại Nhật Bản để điều trị bỏng phóng xạ sau Thế chiến II.",
+      "Đặc điểm hình thái đặc trưng: Thân gỗ phân nhánh mang các đài lá mọng nước viền răng cưa và chùm hoa đỏ cam hình ngọn đuốc."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 10–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Lô Hội Thân Gỗ (Nha Đam Nhung) (Aloe arborescens) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 130000,
+        "descriptionVi": "Cây Lô Hội Thân Gỗ (Nha Đam Nhung) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aloe arborescens - Candelabra aloe 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aloe_arborescens_-_Candelabra_aloe_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Aloe_arborescens_-_Candelabra_aloe_01.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Zeynel Cebeci",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2021-06-20. Донецкий ботанический сад DSC 2516.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2021-06-20._%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D0%B1%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4_DSC_2516.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/2021-06-20._%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D0%B1%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4_DSC_2516.jpg",
+        "width": 3264,
+        "height": 4928,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Andrey Butko",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Aloe arborescens - Ponduine 1 (10240702064).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aloe_arborescens_-_Ponduine_1_(10240702064).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Aloe_arborescens_-_Ponduine_1_%2810240702064%29.jpg",
+        "width": 2365,
+        "height": 1774,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Ton Rulkens from Mozambique",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:2016-02-07 Prazeres (45).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2016-02-07_Prazeres_(45).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2016-02-07_Prazeres_%2845%29.jpg",
+        "width": 4160,
+        "height": 3120,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hqfngawz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Aloe arborecens Mill..jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aloe_arborecens_Mill..jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Aloe_arborecens_Mill..jpg",
+        "width": 2322,
+        "height": 4128,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Olaf",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2777537",
+      "https://www.iucnredlist.org/species/110688013/110688030",
+      "https://en.wikipedia.org/wiki/Aloe_arborescens",
+      "https://vi.wikipedia.org/wiki/Aloe_arborescens"
+    ]
+  },
+  {
+    "scientificName": "Euphorbia milii",
+    "commonNameVi": "Xương rồng bát tiên",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Euphorbia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sơ ri (Malpighiales)",
+      "family": "Họ Thầu dầu (Euphorbiaceae)",
+      "genus": "Chi Xương rồng Bát tiên / Đại kích (Euphorbia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/44389/153299391",
+    "gbifKey": 3067157,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 75,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng cây bụi khô trên sườn núi đá granit độ cao 200–1.500 m"
+    },
+    "descriptionVi": "Loài cây cảnh phong thủy quen thuộc trong mọi khu vườn Việt Nam, nở hoa rực rỡ suốt bốn mùa trên nền thân gai khỏe khoắn.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Hai 'cánh hoa' rực rỡ thực chất là hai lá bắc biến đổi (cyathophylls) nâng đỡ cụm hoa thật nhỏ xíu và tuyến mật nằm ở chính giữa.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Euphorbia bojeri",
+      "Euphorbia bojeri mucronulata",
+      "Euphorbia breonii",
+      "Euphorbia milii lutea"
+    ],
+    "wikidataId": "Q148829",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/X%C6%B0%C6%A1ng_r%E1%BA%AFn_(th%E1%BB%B1c_v%E1%BA%ADt)",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Euphorbia_milii",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 150,
+      "noteVi": "Thân gỗ có gai dày và các cụm lá bắc (cyathia) màu đỏ, hồng, vàng nở quanh năm"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng cao nguyên trung tâm và miền nam đảo Madagascar",
+      "elevationM": {
+        "min": 200,
+        "max": 1500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây cảnh phong thủy quen thuộc trong mọi khu vườn Việt Nam, nở hoa rực rỡ suốt bốn mùa trên nền thân gai khỏe khoắn. Đặc điểm nhận dạng nổi bật: Thân gỗ có gai dày và các cụm lá bắc (cyathia) màu đỏ, hồng, vàng nở quanh năm.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Hai 'cánh hoa' rực rỡ thực chất là hai lá bắc biến đổi (cyathophylls) nâng đỡ cụm hoa thật nhỏ xíu và tuyến mật nằm ở chính giữa.",
+      "Đặc điểm hình thái đặc trưng: Thân gỗ có gai dày và các cụm lá bắc (cyathia) màu đỏ, hồng, vàng nở quanh năm."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Hoa Bát Tiên (Xương Rồng Bát Tiên) (Euphorbia milii) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 85000,
+        "descriptionVi": "Cây Hoa Bát Tiên (Xương Rồng Bát Tiên) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:-51 100 The Christ Plant (50152321191).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:-51_100_The_Christ_Plant_(50152321191).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/-51_100_The_Christ_Plant_%2850152321191%29.jpg",
+        "width": 5472,
+        "height": 3648,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Carol VanHook",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:A yellow Euphorbia Milii, Also known as Crown of thorns (98983).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_yellow_Euphorbia_Milii,_Also_known_as_Crown_of_thorns_(98983).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/A_yellow_Euphorbia_Milii%2C_Also_known_as_Crown_of_thorns_%2898983%29.jpg",
+        "width": 2256,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hasnat Abdullah",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:CORONA DE CRISTO.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CORONA_DE_CRISTO.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/CORONA_DE_CRISTO.jpg",
+        "width": 2141,
+        "height": 1432,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Chuy rove",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:A bunch of crown of thorns flower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:A_bunch_of_crown_of_thorns_flower.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/A_bunch_of_crown_of_thorns_flower.jpg",
+        "width": 4134,
+        "height": 2283,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "দিব্য দত্ত",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Ann-009 (24022335933).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ann-009_(24022335933).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ann-009_%2824022335933%29.jpg",
+        "width": 4752,
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "muffinn from Worcester, UK",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3067157",
+      "https://www.iucnredlist.org/species/44389/153299391",
+      "https://en.wikipedia.org/wiki/Euphorbia_milii",
+      "https://vi.wikipedia.org/wiki/X%C6%B0%C6%A1ng_r%E1%BA%AFn_(th%E1%BB%B1c_v%E1%BA%ADt)"
+    ]
+  },
+  {
+    "scientificName": "Euphorbia decaryi",
+    "commonNameVi": "Đại kích Decary",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malpighiales",
+      "family": "Euphorbiaceae",
+      "genus": "Euphorbia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Sơ ri (Malpighiales)",
+      "family": "Họ Thầu dầu (Euphorbiaceae)",
+      "genus": "Chi Xương rồng Bát tiên / Đại kích (Euphorbia)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/44326/10892118",
+    "gbifKey": 3068904,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 34,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 35,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng gai khô hạn trên nền đất cát và đá vôi ven biển độ cao 0–200 m"
+    },
+    "descriptionVi": "Loài cây mọng nước nghệ thuật quý hiếm của Madagascar với những chiếc lá dày cứng có mép gợn sóng nhịp nhàng như đường viền kim loại đồng cổ.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Khi tiếp xúc với nắng mạnh, toàn bộ bộ lá lượn sóng chuyển sang tông màu tím đồng và nâu sô-cô-la hòa lẫn hoàn toàn vào thảm lá khô.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Euphorbia decaryi capsaintmariensis"
+    ],
+    "wikidataId": "Q2664651",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Euphorbia_decaryi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Euphorbia_decaryi",
+    "iucnAssessedYear": 2004,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 20,
+      "noteVi": "Thân bò khúc khuỷu mang chùm lá mọng nước viền lượn sóng zíc-zắc màu đồng tím"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng cực nam đảo Madagascar (gần Tôlanaro)",
+      "elevationM": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây mọng nước nghệ thuật quý hiếm của Madagascar với những chiếc lá dày cứng có mép gợn sóng nhịp nhàng như đường viền kim loại đồng cổ. Đặc điểm nhận dạng nổi bật: Thân bò khúc khuỷu mang chùm lá mọng nước viền lượn sóng zíc-zắc màu đồng tím.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Khi tiếp xúc với nắng mạnh, toàn bộ bộ lá lượn sóng chuyển sang tông màu tím đồng và nâu sô-cô-la hòa lẫn hoàn toàn vào thảm lá khô.",
+      "Đặc điểm hình thái đặc trưng: Thân bò khúc khuỷu mang chùm lá mọng nước viền lượn sóng zíc-zắc màu đồng tím."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Euphorbia decaryi kz2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_decaryi_kz2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Euphorbia_decaryi_kz2.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Euphorbia decaryi 8861.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_decaryi_8861.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Euphorbia_decaryi_8861.jpg",
+        "width": 3008,
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vengolis",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Euphorbia decaryi c-1763 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_decaryi_c-1763_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Euphorbia_decaryi_c-1763_01.jpg",
+        "width": 4288,
+        "height": 2848,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joe Mabel",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Euphorbia decaryi 1zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_decaryi_1zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Euphorbia_decaryi_1zz.jpg",
+        "width": 1000,
+        "height": 665,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Euphorbia decaryi 0zz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euphorbia_decaryi_0zz.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Euphorbia_decaryi_0zz.jpg",
+        "width": 1000,
+        "height": 665,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photo by David J. Stang",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/3068904",
+      "https://www.iucnredlist.org/species/44326/10892118",
+      "https://en.wikipedia.org/wiki/Euphorbia_decaryi",
+      "https://vi.wikipedia.org/wiki/Euphorbia_decaryi"
+    ]
+  },
+  {
+    "scientificName": "Pachypodium lamerei",
+    "commonNameVi": "Cọ Madagascar",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Pachypodium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Long đởm (Gentianales)",
+      "family": "Họ Trúc đào (Apocynaceae)",
+      "genus": "Chi Cây Bình rượu / Cọ Madagascar (Pachypodium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/69222038/69226017",
+    "gbifKey": 5535474,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 35,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng khô hạn trên nền đá vôi và đá granit độ cao 50–800 m"
+    },
+    "descriptionVi": "Dù mang tên 'Cọ Madagascar', loài cây này hoàn toàn không phải họ Cau dừa mà là một cây mọng nước thuộc họ Trúc đào (Apocynaceae) với hoa trắng thơm như hoa đại.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Thân cây phình to như chiếc bình bạc tích trữ nước suốt mùa khô và đội một tán lá xanh mướt trên đỉnh y hệt một cây cọ nhiệt đới.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Pachypodium champenoisianum",
+      "Pachypodium lamerei lamerei",
+      "Pachypodium rutenbergianum lamerei"
+    ],
+    "wikidataId": "Q1278160",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pachypodium_lamerei",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pachypodium_lamerei",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 600,
+      "noteVi": "Thân phình mọng nước phủ gai bộ ba sắc nhọn và chùm lá xanh bóng kèm hoa trắng trên đỉnh"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Miền nam và tây nam đảo Madagascar",
+      "elevationM": {
+        "min": 50,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Dù mang tên 'Cọ Madagascar', loài cây này hoàn toàn không phải họ Cau dừa mà là một cây mọng nước thuộc họ Trúc đào (Apocynaceae) với hoa trắng thơm như hoa đại. Đặc điểm nhận dạng nổi bật: Thân phình mọng nước phủ gai bộ ba sắc nhọn và chùm lá xanh bóng kèm hoa trắng trên đỉnh.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Thân cây phình to như chiếc bình bạc tích trữ nước suốt mùa khô và đội một tán lá xanh mướt trên đỉnh y hệt một cây cọ nhiệt đới.",
+      "Đặc điểm hình thái đặc trưng: Thân phình mọng nước phủ gai bộ ba sắc nhọn và chùm lá xanh bóng kèm hoa trắng trên đỉnh."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cọ Madagascar (Cây Bình Rượu Gai) (Pachypodium lamerei) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 190000,
+        "descriptionVi": "Cây Cọ Madagascar (Cây Bình Rượu Gai) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:At Jardin de Cactus 2022 126.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_Jardin_de_Cactus_2022_126.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/At_Jardin_de_Cactus_2022_126.jpg",
+        "width": 6381,
+        "height": 4640,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Angers - Terra Botanica en automne 138.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angers_-_Terra_Botanica_en_automne_138.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Angers_-_Terra_Botanica_en_automne_138.jpg",
+        "width": 3648,
+        "height": 5472,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Fab5669",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Pachypodium lamerei 01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_lamerei_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pachypodium_lamerei_01.jpg",
+        "width": 1920,
+        "height": 2560,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "AxelStrauß",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Botanical garden in Ufa (March 2025) -0 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Botanical_garden_in_Ufa_(March_2025)_-0_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Botanical_garden_in_Ufa_%28March_2025%29_-0_2.jpg",
+        "width": 6048,
+        "height": 8064,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Vyacheslav Bukharov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Cactaceae in Suan Luang Rama 9 Photographed by Trisorn Triboon (38).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cactaceae_in_Suan_Luang_Rama_9_Photographed_by_Trisorn_Triboon_(38).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Cactaceae_in_Suan_Luang_Rama_9_Photographed_by_Trisorn_Triboon_%2838%29.jpg",
+        "width": 5504,
+        "height": 8256,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Tris T7",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5535474",
+      "https://www.iucnredlist.org/species/69222038/69226017",
+      "https://en.wikipedia.org/wiki/Pachypodium_lamerei",
+      "https://vi.wikipedia.org/wiki/Pachypodium_lamerei"
+    ]
+  },
+  {
+    "scientificName": "Pachypodium geayi",
+    "commonNameVi": "Cọ Madagascar lá bạc",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Pachypodium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Long đởm (Gentianales)",
+      "family": "Họ Trúc đào (Apocynaceae)",
+      "genus": "Chi Cây Bình rượu / Cọ Madagascar (Pachypodium)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/70102635/70145768",
+    "gbifKey": 5535488,
+    "environment": {
+      "tempMin": 16,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 60,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Bán hoang mạc đá vôi và cát đỏ độ cao 0–600 m"
+    },
+    "descriptionVi": "Họ hàng cao lớn hơn của P. lamerei, phân biệt dễ dàng nhờ phiến lá hẹp dài như dải lụa mang ánh xám bạc và lớp lông nhung mịn màng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Ở cây non, các cụm gai ba chiếc trên đỉnh đầu mang màu đỏ hồng trước khi hóa gỗ thành màu xám bạc cứng rắn.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q144916",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pachypodium_geayi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pachypodium_geayi",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 800,
+      "noteVi": "Thân trụ bạc phủ gai dày và chùm lá dài hẹp có gân giữa màu hồng nhạt phủ lông mịn"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Vùng rừng gai khô hạn tây nam đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 600
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Họ hàng cao lớn hơn của P. lamerei, phân biệt dễ dàng nhờ phiến lá hẹp dài như dải lụa mang ánh xám bạc và lớp lông nhung mịn màng. Đặc điểm nhận dạng nổi bật: Thân trụ bạc phủ gai dày và chùm lá dài hẹp có gân giữa màu hồng nhạt phủ lông mịn.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Ở cây non, các cụm gai ba chiếc trên đỉnh đầu mang màu đỏ hồng trước khi hóa gỗ thành màu xám bạc cứng rắn.",
+      "Đặc điểm hình thái đặc trưng: Thân trụ bạc phủ gai dày và chùm lá dài hẹp có gân giữa màu hồng nhạt phủ lông mịn."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 16–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cọ Madagascar Lá Bạc (Pachypodium geayi) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 220000,
+        "descriptionVi": "Cây Cọ Madagascar Lá Bạc nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pachypodium geayi Pachypodium Geaya 2023-10-01 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_geayi_Pachypodium_Geaya_2023-10-01_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Pachypodium_geayi_Pachypodium_Geaya_2023-10-01_03.jpg",
+        "width": 4608,
+        "height": 3072,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Agnieszka Kwiecień, Nova",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pachypodium geayi kz01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_geayi_kz01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pachypodium_geayi_kz01.jpg",
+        "width": 3896,
+        "height": 5455,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Krzysztof Ziarnek, Kenraiz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:Spiny forest IX.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Spiny_forest_IX.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Spiny_forest_IX.jpg",
+        "width": 2416,
+        "height": 4288,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Smiley.toerist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pachypodium geayi in Tsimanampetsotsa, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_geayi_in_Tsimanampetsotsa,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pachypodium_geayi_in_Tsimanampetsotsa%2C_Madagascar.jpg",
+        "width": 4224,
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pachypodium geayi - Koko Crater Botanical Garden - IMG 2271.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_geayi_-_Koko_Crater_Botanical_Garden_-_IMG_2271.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pachypodium_geayi_-_Koko_Crater_Botanical_Garden_-_IMG_2271.JPG",
+        "width": 3264,
+        "height": 2448,
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "author": "Daderot",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5535488",
+      "https://www.iucnredlist.org/species/70102635/70145768",
+      "https://en.wikipedia.org/wiki/Pachypodium_geayi",
+      "https://vi.wikipedia.org/wiki/Pachypodium_geayi"
+    ]
+  },
+  {
+    "scientificName": "Pachypodium brevicaule",
+    "commonNameVi": "Pachypodium thân ngắn",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Pachypodium"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Long đởm (Gentianales)",
+      "family": "Họ Trúc đào (Apocynaceae)",
+      "genus": "Chi Cây Bình rượu / Cọ Madagascar (Pachypodium)"
+    },
+    "iucn": "VU",
+    "iucnUrl": "https://www.iucnredlist.org/species/69222187/69228608",
+    "gbifKey": 7155422,
+    "environment": {
+      "tempMin": 12,
+      "tempMax": 30,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 30,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Bề mặt đá thạch anh (quartzite) lộ thiên ở độ cao 1.250–2.000 m"
+    },
+    "descriptionVi": "Một trong những loài cây củ (caudiciform) độc đáo nhất thế giới khi toàn bộ thân gỗ rút ngắn thành một khối củ dẹp xám bạc nằm bẹp trên mặt đá như củ gừng hóa thạch.",
+    "conservationNoteVi": "Đánh giá mức Sắp nguy cấp (VU) trên Sách Đỏ IUCN và thuộc Phụ lục I CITES.",
+    "pullQuoteVi": "Giữa mùa khô lạnh trên cao nguyên Madagascar, khi củ cây rụng sạch lá trông như viên đá vô tri thì những bông hoa màu vàng chanh bất ngờ bung nở sát mặt đá.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q180417",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Pachypodium_brevicaule",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Pachypodium_brevicaule",
+    "iucnAssessedYear": 2015,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 15,
+      "noteVi": "Củ thân phình dẹp sát mặt đất sần sùi như tảng đá bạc và nở hoa vàng tươi không cuống"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Cao nguyên đá thạch anh trung tâm đảo Madagascar (vùng Antananarivo và Fianarantsoa)",
+      "elevationM": {
+        "min": 1250,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài cây củ (caudiciform) độc đáo nhất thế giới khi toàn bộ thân gỗ rút ngắn thành một khối củ dẹp xám bạc nằm bẹp trên mặt đá như củ gừng hóa thạch. Đặc điểm nhận dạng nổi bật: Củ thân phình dẹp sát mặt đất sần sùi như tảng đá bạc và nở hoa vàng tươi không cuống.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Giữa mùa khô lạnh trên cao nguyên Madagascar, khi củ cây rụng sạch lá trông như viên đá vô tri thì những bông hoa màu vàng chanh bất ngờ bung nở sát mặt đá.",
+      "Đặc điểm hình thái đặc trưng: Củ thân phình dẹp sát mặt đất sần sùi như tảng đá bạc và nở hoa vàng tươi không cuống."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "I",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Pachypodium 6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Pachypodium_6.jpg",
+        "width": 5520,
+        "height": 4140,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Mendel264",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pachypodium Antanfotsy1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_Antanfotsy1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pachypodium_Antanfotsy1.JPG",
+        "width": 2304,
+        "height": 2832,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Diorit",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pachypodium Antanifotsy2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_Antanifotsy2.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Pachypodium_Antanifotsy2.JPG",
+        "width": 2658,
+        "height": 2261,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Diorit",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Pachypodium brevicaule 0.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pachypodium_brevicaule_0.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pachypodium_brevicaule_0.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rosario",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:惠比須笑 Pachypodium brevicaule - panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%83%A0%E6%AF%94%E9%A0%88%E7%AC%91_Pachypodium_brevicaule_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/%E6%83%A0%E6%AF%94%E9%A0%88%E7%AC%91_Pachypodium_brevicaule_-_panoramio.jpg",
+        "width": 1920,
+        "height": 1456,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "author": "lienyuan lee",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/7155422",
+      "https://www.iucnredlist.org/species/69222187/69228608",
+      "https://en.wikipedia.org/wiki/Pachypodium_brevicaule",
+      "https://vi.wikipedia.org/wiki/Pachypodium_brevicaule"
+    ]
+  },
+  {
+    "scientificName": "Adansonia grandidieri",
+    "commonNameVi": "Bao báp Grandidier",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Adansonia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm quỳ (Malvales)",
+      "family": "Họ Cẩm quỳ (Malvaceae)",
+      "genus": "Chi Cây Bao báp (Adansonia)"
+    },
+    "iucn": "EN",
+    "iucnUrl": "https://www.iucnredlist.org/species/30388/64007143",
+    "gbifKey": 5663154,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng rụng lá khô hạn và đồng bằng ven sông mùa lũ độ cao 0–100 m"
+    },
+    "descriptionVi": "Biểu tượng thiên nhiên vĩ đại nhất của đảo quốc Madagascar, tạo nên 'Đại lộ Bao báp' (Allée des Baobabs) nổi tiếng toàn cầu.",
+    "conservationNoteVi": "Đánh giá mức Nguy cấp (EN) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Thân cây khổng lồ đường kính tới 3 mét có cấu trúc gỗ xốp ngậm nước như bọt biển, giúp một cây cổ thụ tích trữ hàng chục ngàn lít nước qua mùa khô.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q311325",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Adansonia_grandidieri",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Adansonia_grandidieri",
+    "iucnAssessedYear": 2016,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 3000,
+      "noteVi": "Thân hình trụ khổng lồ nhẵn màu nâu đỏ vươn thẳng với tán cành ngang trên đỉnh"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Đặc hữu vùng Morondava miền tây đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Biểu tượng thiên nhiên vĩ đại nhất của đảo quốc Madagascar, tạo nên 'Đại lộ Bao báp' (Allée des Baobabs) nổi tiếng toàn cầu. Đặc điểm nhận dạng nổi bật: Thân hình trụ khổng lồ nhẵn màu nâu đỏ vươn thẳng với tán cành ngang trên đỉnh.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Thân cây khổng lồ đường kính tới 3 mét có cấu trúc gỗ xốp ngậm nước như bọt biển, giúp một cây cổ thụ tích trữ hàng chục ngàn lít nước qua mùa khô.",
+      "Đặc điểm hình thái đặc trưng: Thân hình trụ khổng lồ nhẵn màu nâu đỏ vươn thẳng với tán cành ngang trên đỉnh."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Adansonia grandidieri 2039894.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri_2039894.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Adansonia_grandidieri_2039894.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Rafael Medina",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Allee des Baobabs 01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Allee_des_Baobabs_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Allee_des_Baobabs_01.JPG",
+        "width": 2848,
+        "height": 4272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Adansonia grandidieri MHNT.BOT.2025.17.3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri_MHNT.BOT.2025.17.3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Adansonia_grandidieri_MHNT.BOT.2025.17.3.jpg",
+        "width": 4563,
+        "height": 3042,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Roger Culos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Allée des Baobabs near Morondava, Madagascar (4315987006).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_Baobabs_near_Morondava,_Madagascar_(4315987006).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/All%C3%A9e_des_Baobabs_near_Morondava%2C_Madagascar_%284315987006%29.jpg",
+        "width": 4224,
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Frank Vassen from Brussels, Belgium",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Allée des baobabs Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_baobabs_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/All%C3%A9e_des_baobabs_Madagascar.jpg",
+        "width": 3186,
+        "height": 1878,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Aeroceanaute",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5663154",
+      "https://www.iucnredlist.org/species/30388/64007143",
+      "https://en.wikipedia.org/wiki/Adansonia_grandidieri",
+      "https://vi.wikipedia.org/wiki/Adansonia_grandidieri"
+    ]
+  },
+  {
+    "scientificName": "Adansonia za",
+    "commonNameVi": "Bao báp Za",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Adansonia"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cẩm quỳ (Malvales)",
+      "family": "Họ Cẩm quỳ (Malvaceae)",
+      "genus": "Chi Cây Bao báp (Adansonia)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/37680/64367122",
+    "gbifKey": 5663122,
+    "environment": {
+      "tempMin": 18,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 40,
+      "humidMax": 70,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng khô rụng lá, savan và rừng gai ở độ cao 0–800 m"
+    },
+    "descriptionVi": "Loài bao báp có phạm vi phân bố rộng nhất tại Madagascar, được người bản địa Sakalava tôn kính như cây thiêng của rừng khô.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Hoa của Bao báp Za bung nở vào chiều tối với mùi hương mật ngọt thu hút các loài vượn cáo đêm và dơi ăn quả đến thụ phấn.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Đông Madagascar",
+      "lat": -18.93,
+      "lng": 48.42
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Adansonia alba"
+    ],
+    "wikidataId": "Q131825",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Adansonia_za",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Adansonia_za",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 3000,
+      "noteVi": "Thân trụ cao thon màu xám nâu và hoa lớn có cánh màu vàng cam cuộn ngược"
+    },
+    "distribution": {
+      "countries": [
+        "MG"
+      ],
+      "nativeRangeVi": "Phân bố rộng khắp miền tây, nam và bắc đảo Madagascar",
+      "elevationM": {
+        "min": 0,
+        "max": 800
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài bao báp có phạm vi phân bố rộng nhất tại Madagascar, được người bản địa Sakalava tôn kính như cây thiêng của rừng khô. Đặc điểm nhận dạng nổi bật: Thân trụ cao thon màu xám nâu và hoa lớn có cánh màu vàng cam cuộn ngược.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Hoa của Bao báp Za bung nở vào chiều tối với mùi hương mật ngọt thu hút các loài vượn cáo đêm và dơi ăn quả đến thụ phấn.",
+      "Đặc điểm hình thái đặc trưng: Thân trụ cao thon màu xám nâu và hoa lớn có cánh màu vàng cam cuộn ngược."
+    ],
+    "similarSpecies": [],
+    "care": null,
+    "trade": {
+      "tradeable": false,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Loài thuộc Phụ lục I CITES, Nhóm IA bảo vệ tại Việt Nam hoặc cây cổ thụ hoang dã được bảo tồn nghiêm ngặt; chỉ lưu trữ hồ sơ bách khoa."
+    },
+    "products": [],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Adansonia za MHNT.BOT.2025.17.1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adansonia_za_MHNT.BOT.2025.17.1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Adansonia_za_MHNT.BOT.2025.17.1.jpg",
+        "width": 4563,
+        "height": 3042,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Roger Culos",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Allee des Baobabs 18.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Allee_des_Baobabs_18.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Allee_des_Baobabs_18.JPG",
+        "width": 2848,
+        "height": 4272,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Heinonlein",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Baobabs amoureux, Morondava, Madagascar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baobabs_amoureux,_Morondava,_Madagascar.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Baobabs_amoureux%2C_Morondava%2C_Madagascar.jpg",
+        "width": 4000,
+        "height": 6000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cactus0625",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Verdrehte baobabs 2019-10-06 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Verdrehte_baobabs_2019-10-06_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Verdrehte_baobabs_2019-10-06_2.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Z thomas",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Anzapalivoro1.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anzapalivoro1.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Anzapalivoro1.png",
+        "width": 2250,
+        "height": 1696,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Adrian Patrut, Roxana T. Patrut, Pascal Danthu, Jean-Michel Leong Pock-Tsy, Laszlo Rakosy, Daniel A. Lowy, Karl F. von R",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5663122",
+      "https://www.iucnredlist.org/species/37680/64367122",
+      "https://en.wikipedia.org/wiki/Adansonia_za",
+      "https://vi.wikipedia.org/wiki/Adansonia_za"
+    ]
+  },
+  {
+    "scientificName": "Beaucarnea recurvata",
+    "commonNameVi": "Cây chân voi",
+    "commonNameEn": "Stripy Ponytail",
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Beaucarnea"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Măng tây (Asparagaceae)",
+      "genus": "Chi Cây Chân voi / Náng trụ (Beaucarnea)"
+    },
+    "iucn": "CR",
+    "iucnUrl": "https://www.iucnredlist.org/species/136808293/137376209",
+    "gbifKey": 2768035,
+    "environment": {
+      "tempMin": 15,
+      "tempMax": 35,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 35,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Rừng khô nhiệt đới trên sườn núi đá vôi độ cao 200–900 m"
+    },
+    "descriptionVi": "Loài cây nội thất và sân vườn cao cấp rất được ưa chuộng nhờ phần gốc củ phình to bề thế mang ý nghĩa tích tụ tài lộc và tán lá mềm mại buông rủ.",
+    "conservationNoteVi": "Đánh giá mức Cực kỳ nguy cấp (CR) đối với các cây cổ thụ ngoài tự nhiên tại Mexico, nhưng được nhân giống gieo hạt thương mại hợp pháp trên toàn thế giới (CITES II).",
+    "pullQuoteVi": "Phần gốc phình to nứt nẻ như da chân voi chính là kho dự trữ nước giúp cây có thể sống sót hàng tháng trời nếu người trồng quên tưới nước.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Beaucarnea inermis",
+      "Beaucarnea tuberculata",
+      "Dasylirion inerme",
+      "Dasylirion inermis"
+    ],
+    "wikidataId": "Q510340",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Beaucarnea_recurvata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Beaucarnea_recurvata",
+    "iucnAssessedYear": 2020,
+    "populationTrend": "Decreasing",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 400,
+      "noteVi": "Gốc thân phình to tròn sần sùi như bàn chân voi và chùm lá dài mảnh uốn cong như đuôi ngựa"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Đặc hữu các bang Veracruz, Tamaulipas và San Luis Potosí miền đông Mexico",
+      "elevationM": {
+        "min": 200,
+        "max": 900
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cây nội thất và sân vườn cao cấp rất được ưa chuộng nhờ phần gốc củ phình to bề thế mang ý nghĩa tích tụ tài lộc và tán lá mềm mại buông rủ. Đặc điểm nhận dạng nổi bật: Gốc thân phình to tròn sần sùi như bàn chân voi và chùm lá dài mảnh uốn cong như đuôi ngựa.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Phần gốc phình to nứt nẻ như da chân voi chính là kho dự trữ nước giúp cây có thể sống sót hàng tháng trời nếu người trồng quên tưới nước.",
+      "Đặc điểm hình thái đặc trưng: Gốc thân phình to tròn sần sùi như bàn chân voi và chùm lá dài mảnh uốn cong như đuôi ngựa."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 15–35°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Cây Chân Voi (Cây Náng Trụ / Bình Rượu) (Beaucarnea recurvata) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 240000,
+        "descriptionVi": "Cây Cây Chân Voi (Cây Náng Trụ / Bình Rượu) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Beaucarnea recurvata, Sierra del Abra Tanchipa, San Luis Potosí, Mexico 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata,_Sierra_del_Abra_Tanchipa,_San_Luis_Potos%C3%AD,_Mexico_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Beaucarnea_recurvata%2C_Sierra_del_Abra_Tanchipa%2C_San_Luis_Potos%C3%AD%2C_Mexico_2.jpg",
+        "width": 2048,
+        "height": 1365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "juancruzado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Beaucarnea recurvata, Carretera Aldama-Barra El Tordo, Tamaulipas, Mexico 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata,_Carretera_Aldama-Barra_El_Tordo,_Tamaulipas,_Mexico_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Beaucarnea_recurvata%2C_Carretera_Aldama-Barra_El_Tordo%2C_Tamaulipas%2C_Mexico_1.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "claudiocantu17",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Beaucarnea recurvata, Ciudad Valles, San Luis Potosí, Mexico 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata,_Ciudad_Valles,_San_Luis_Potos%C3%AD,_Mexico_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Beaucarnea_recurvata%2C_Ciudad_Valles%2C_San_Luis_Potos%C3%AD%2C_Mexico_1.jpg",
+        "width": 1365,
+        "height": 2048,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "juancruzado",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Beaucarnea recurvata, Llera, Tamaulipas, Mexico 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata,_Llera,_Tamaulipas,_Mexico_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Beaucarnea_recurvata%2C_Llera%2C_Tamaulipas%2C_Mexico_1.jpg",
+        "width": 1155,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "tereso30",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Beaucarnea recurvata, Ocampo, Tamaulipas, Mexico 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beaucarnea_recurvata,_Ocampo,_Tamaulipas,_Mexico_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Beaucarnea_recurvata%2C_Ocampo%2C_Tamaulipas%2C_Mexico_1.jpg",
+        "width": 683,
+        "height": 1024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "juancruzado",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2768035",
+      "https://www.iucnredlist.org/species/136808293/137376209",
+      "https://en.wikipedia.org/wiki/Beaucarnea_recurvata",
+      "https://vi.wikipedia.org/wiki/Beaucarnea_recurvata"
+    ]
+  },
+  {
+    "scientificName": "Agave victoriae-reginae",
+    "commonNameVi": "Thùa nữ hoàng Victoria",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Agave"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Măng tây (Asparagaceae)",
+      "genus": "Chi Thùa (Agave)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/115698952/116354643",
+    "gbifKey": 2766696,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 36,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 55,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Vách đá vôi dốc đứng ở độ cao 800–2.000 m"
+    },
+    "descriptionVi": "Được mệnh danh là 'Nữ hoàng của chi Thùa' với khối hoa thị tròn trịa hoàn hảo được vẽ những đường nét sơn trắng sắc sảo trên nền lá xanh lục đậm.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN và thuộc Phụ lục II CITES.",
+    "pullQuoteVi": "Những đường kẻ trắng hình học trên mặt lá thực chất là dấu in hằn lại khi các lá non ép chặt vào nhau trong tâm búp trước khi bung mở.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [],
+    "wikidataId": "Q135235",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Agave_victoriae-reginae",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Agave_victoriae-reginae",
+    "iucnAssessedYear": 2018,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 50,
+      "noteVi": "Đài lá xếp cầu chặt chẽ gồm các lá cứng xanh đậm có đường viền hình học màu trắng tinh khôi"
+    },
+    "distribution": {
+      "countries": [
+        "MX"
+      ],
+      "nativeRangeVi": "Sa mạc Chihuahuan thuộc các bang Coahuila, Durango và Nuevo León, bắc Mexico",
+      "elevationM": {
+        "min": 800,
+        "max": 2000
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được mệnh danh là 'Nữ hoàng của chi Thùa' với khối hoa thị tròn trịa hoàn hảo được vẽ những đường nét sơn trắng sắc sảo trên nền lá xanh lục đậm. Đặc điểm nhận dạng nổi bật: Đài lá xếp cầu chặt chẽ gồm các lá cứng xanh đậm có đường viền hình học màu trắng tinh khôi.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Những đường kẻ trắng hình học trên mặt lá thực chất là dấu in hằn lại khi các lá non ép chặt vào nhau trong tâm búp trước khi bung mở.",
+      "Đặc điểm hình thái đặc trưng: Đài lá xếp cầu chặt chẽ gồm các lá cứng xanh đậm có đường viền hình học màu trắng tinh khôi."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 10–36°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": "II",
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Thùa Nữ Hoàng Victoria (Agave victoriae-reginae) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 280000,
+        "descriptionVi": "Cây Thùa Nữ Hoàng Victoria nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Agave victor.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agave_victor.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Agave_victor.JPG",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "author": "Markoz",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Agave victoriae-reginae (5663357655).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agave_victoriae-reginae_(5663357655).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Agave_victoriae-reginae_%285663357655%29.jpg",
+        "width": 2736,
+        "height": 3648,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Amante Darmanin from Malta",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "habitat",
+        "file": "File:2015.10.06 16.37.15 DSC01071 - Flickr - andrey zharkikh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2015.10.06_16.37.15_DSC01071_-_Flickr_-_andrey_zharkikh.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2015.10.06_16.37.15_DSC01071_-_Flickr_-_andrey_zharkikh.jpg",
+        "width": 4896,
+        "height": 3672,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Andrey Zharkikh from Salt Lake City, USA",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agave Victoria.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agave_Victoria.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Agave_Victoria.jpg",
+        "width": 5448,
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Pamkelso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Agave victoriae reginae 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agave_victoriae_reginae_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Agave_victoriae_reginae_1.JPG",
+        "width": 4000,
+        "height": 3000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Petar43",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2766696",
+      "https://www.iucnredlist.org/species/115698952/116354643",
+      "https://en.wikipedia.org/wiki/Agave_victoriae-reginae",
+      "https://vi.wikipedia.org/wiki/Agave_victoriae-reginae"
+    ]
+  },
+  {
+    "scientificName": "Agave americana",
+    "commonNameVi": "Thùa Mỹ",
+    "commonNameEn": null,
+    "group": "Cây cảnh",
+    "taxonomy": {
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Agave"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Măng tây (Asparagales)",
+      "family": "Họ Măng tây (Asparagaceae)",
+      "genus": "Chi Thùa (Agave)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/13507070/13507074",
+    "gbifKey": 2767031,
+    "environment": {
+      "tempMin": 10,
+      "tempMax": 38,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": 25,
+      "humidMax": 65,
+      "waterTempMin": null,
+      "waterTempMax": null,
+      "phMin": 6,
+      "phMax": 7.8,
+      "habitatVi": "Đồng bằng bán hoang mạc và sườn đồi đá ở độ cao 100–2.500 m"
+    },
+    "descriptionVi": "Loài Thùa cảnh quan hùng vĩ với những phiến lá dày màu xanh phấn bạc hoặc viền vàng uốn cong uyển chuyển.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Được gọi là 'Cây Thế Kỷ' vì cây tích lũy năng lượng suốt 10 đến 30 năm chỉ để phóng lên một cột hoa khổng lồ cao như cột điện rồi kết hạt và khép lại vòng đời.",
+    "dietVi": "Tự dưỡng quang hợp theo chu trình CAM (mở khí khổng ban đêm để tiết kiệm nước tối đa ở vùng khô hạn).",
+    "lifespanVi": null,
+    "activityTimeVi": null,
+    "origin": {
+      "place": "Veracruz, Mexico",
+      "lat": 19.17,
+      "lng": -96.13
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Agave americana marginata",
+      "Agave americana mediopicta",
+      "Agave americana striata",
+      "Agave americana virginica"
+    ],
+    "wikidataId": "Q161115",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Th%C3%B9a",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Agave_americana",
+    "iucnAssessedYear": 2019,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": null,
+      "lengthCmMax": null,
+      "weightGMin": null,
+      "weightGMax": null,
+      "heightCmMax": 200,
+      "noteVi": "Đài lá khổng lồ màu xanh lam phấn viền gai móc hoặc sọc vàng và trục hoa cao tới 8 mét"
+    },
+    "distribution": {
+      "countries": [
+        "MX",
+        "US"
+      ],
+      "nativeRangeVi": "Bản địa Mexico và bang Texas (Hoa Kỳ); trồng làm cảnh khắp vùng nhiệt đới và Địa Trung Hải",
+      "elevationM": {
+        "min": 100,
+        "max": 2500
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài Thùa cảnh quan hùng vĩ với những phiến lá dày màu xanh phấn bạc hoặc viền vàng uốn cong uyển chuyển. Đặc điểm nhận dạng nổi bật: Đài lá khổng lồ màu xanh lam phấn viền gai móc hoặc sọc vàng và trục hoa cao tới 8 mét.",
+    "behaviorVi": "Thực vật mọng nước tích trữ nước trong mô thân/lá dày và mở khí khổng trao đổi khí vào ban đêm (quang hợp CAM).",
+    "reproductionVi": "Sinh sản hữu tính bằng hoa thụ phấn nhờ côn trùng/chim ruồi tạo quả nang chứa hạt và nhân giống vô tính bằng tách nhánh con.",
+    "threatsVi": [
+      "Khai thác tự nhiên trái phép để sưu tầm cây rừng",
+      "Thu hẹp sinh cảnh do phá rừng, khai thác đá vôi và biến đổi khí hậu"
+    ],
+    "funFactsVi": [
+      "Được gọi là 'Cây Thế Kỷ' vì cây tích lũy năng lượng suốt 10 đến 30 năm chỉ để phóng lên một cột hoa khổng lồ cao như cột điện rồi kết hạt và khép lại vòng đời.",
+      "Đặc điểm hình thái đặc trưng: Đài lá khổng lồ màu xanh lam phấn viền gai móc hoặc sọc vàng và trục hoa cao tới 8 mét."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Trồng trong chậu đất nung hoặc chậu thoát nước tốt với giá thể khoáng (đá pumice, akadama, xỉ than >70%), nhiệt độ 10–38°C.",
+      "lightingVi": "Nắng sáng trực tiếp 4–6 giờ/ngày hoặc nơi thoáng sáng có mái che mưa dầm",
+      "feedingVi": "Chỉ tưới đẫm khi giá thể đã khô hoàn toàn (7–10 ngày/lần) và giảm tưới tối đa vào mùa đông lạnh.",
+      "socialVi": "Trồng chậu đơn trưng bày bàn làm việc, ban công hoặc phối tiểu cảnh vườn đá khô (Xeriscape) cùng nhóm sinh thái.",
+      "commonProblemsVi": [
+        "Thối rễ và thối nhũn gốc nếu giá thể bí nước hoặc tưới quá dày vào mùa mưa lạnh",
+        "Kém ra hoa và vống thân (etiolation) nếu đặt ở nơi thiếu ánh sáng tự nhiên kéo dài"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cây nhân giống từ gieo hạt / nuôi cấy mô tại vườn ươm hợp pháp."
+    },
+    "products": [
+      {
+        "nameVi": "Chậu Thùa Mỹ (Cây Dứa Mỹ / Cây Thế Kỷ) (Agave americana) Tuyển Chọn Thuần Khí Hậu",
+        "priceVnd": 160000,
+        "descriptionVi": "Cây Thùa Mỹ (Cây Dứa Mỹ / Cây Thế Kỷ) nhân giống vườn ươm khỏe mạnh, bộ rễ ổn định và dáng chuẩn đẹp sẵn sàng trưng bày."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:2025-10-02 Praia das Pedras Muitas 12.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2025-10-02_Praia_das_Pedras_Muitas_12.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2025-10-02_Praia_das_Pedras_Muitas_12.jpg",
+        "width": 5612,
+        "height": 3741,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Alexkom000",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:2013-365-353 Stark (11460161434).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013-365-353_Stark_(11460161434).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/2013-365-353_Stark_%2811460161434%29.jpg",
+        "width": 3456,
+        "height": 5184,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "cogdogblog",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:1Agaveamericana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1Agaveamericana.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1Agaveamericana.jpg",
+        "width": 4080,
+        "height": 3060,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "ブルースパイダー",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:20 Atzavares al camí dels Horts (la Joncosa del Montmell), al fons Cal Cintet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20_Atzavares_al_cam%C3%AD_dels_Horts_(la_Joncosa_del_Montmell),_al_fons_Cal_Cintet.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/20_Atzavares_al_cam%C3%AD_dels_Horts_%28la_Joncosa_del_Montmell%29%2C_al_fons_Cal_Cintet.jpg",
+        "width": 4160,
+        "height": 3120,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Enric",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:21 Atzavares al camí dels Horts (la Joncosa del Montmell).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:21_Atzavares_al_cam%C3%AD_dels_Horts_(la_Joncosa_del_Montmell).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/21_Atzavares_al_cam%C3%AD_dels_Horts_%28la_Joncosa_del_Montmell%29.jpg",
+        "width": 3120,
+        "height": 4160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Enric",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2767031",
+      "https://www.iucnredlist.org/species/13507070/13507074",
+      "https://en.wikipedia.org/wiki/Agave_americana",
+      "https://vi.wikipedia.org/wiki/Th%C3%B9a"
+    ]
+  }
+]

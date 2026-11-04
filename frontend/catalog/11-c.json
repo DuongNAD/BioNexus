@@ -1,0 +1,775 @@
+[
+  {
+    "scientificName": "Chelmon rostratus",
+    "commonNameVi": "Cá bướm mỏ nhọn",
+    "commonNameEn": "Banded Longsnout Butterflyfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Chaetodontidae",
+      "genus": "Chelmon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá bướm (Chaetodontidae)",
+      "genus": "Chi Cá bướm mỏ đồng (Chelmon)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165659/6083324",
+    "gbifKey": 5209920,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô ven bờ, cửa sông và đầm phá độ sâu 1–25 m"
+    },
+    "descriptionVi": "Loài cá bướm nổi tiếng của vùng biển Việt Nam với chiếc mỏ dài thanh mảnh chuyên gắp giun ống và đặc biệt được nuôi trong bể san hô để diệt hải quỳ rác Aiptasia.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Đốm đen tròn lớn viền trắng ở phần sau vây lưng trông giống hệt một con mắt lớn, khiến kẻ săn mồi tưởng đầu cá nằm ở phía đuôi và đớp trượt khi cá phóng vọt về phía trước.",
+    "dietVi": "Săn giun nhiều tơ, hải quỳ nhỏ (Aiptasia), giáp xác nhỏ, tôm Mysis và nghêu tươi",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chaelmo rostratus",
+      "Chaetodon enceladus",
+      "Chaetodon rostratus",
+      "Chelmo rostratus"
+    ],
+    "wikidataId": "Q73897",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_b%C6%B0%E1%BB%9Bm_m%E1%BB%8F_nh%E1%BB%8Dn",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Copperband_butterflyfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 15,
+      "lengthCmMax": 20,
+      "weightGMin": 100,
+      "weightGMax": 180,
+      "heightCmMax": null,
+      "noteVi": "Thân dẹp trắng bạc có 4 dải sọc dọc màu vàng đồng, chiếc mõm nhọn dài và một đốm mắt giả đen viền trắng ở vây lưng sau"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "MY",
+        "ID",
+        "PH",
+        "AU",
+        "JP"
+      ],
+      "nativeRangeVi": "Tây Thái Bình Dương và Đông Ấn Độ Dương (rất phổ biến tại vùng biển miền Trung - Nam Việt Nam)",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Loài cá bướm nổi tiếng của vùng biển Việt Nam với chiếc mỏ dài thanh mảnh chuyên gắp giun ống và đặc biệt được nuôi trong bể san hô để diệt hải quỳ rác Aiptasia. Đặc điểm nhận dạng: Thân dẹp trắng bạc có 4 dải sọc dọc màu vàng đồng, chiếc mõm nhọn dài và một đốm mắt giả đen viền trắng ở vây lưng sau.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô ven bờ, cửa sông và đầm phá độ sâu 1–25 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Đốm đen tròn lớn viền trắng ở phần sau vây lưng trông giống hệt một con mắt lớn, khiến kẻ săn mồi tưởng đầu cá nằm ở phía đuôi và đớp trượt khi cá phóng vọt về phía trước.",
+      "Đặc điểm hình thái nổi bật: Thân dẹp trắng bạc có 4 dải sọc dọc màu vàng đồng, chiếc mõm nhọn dài và một đốm mắt giả đen viền trắng ở vây lưng sau."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Săn giun nhiều tơ, hải quỳ nhỏ (Aiptasia), giáp xác nhỏ, tôm Mysis và nghêu tươi. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Bướm Mỏ Đồng (Cá Đào Hóa / Copperband Butterflyfish) (Chelmon rostratus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 220000,
+        "descriptionVi": "Cá cảnh biển Cá Bướm Mỏ Đồng (Cá Đào Hóa / Copperband Butterflyfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Aquarium de la Porte Dorée - Poisson 108.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_108.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Aquarium_de_la_Porte_Dor%C3%A9e_-_Poisson_108.jpg",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Tylwyth Eldar",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chelmon rostratus 228318996.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmon_rostratus_228318996.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chelmon_rostratus_228318996.jpg",
+        "width": 1974,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "desertnaturalist",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelmon bandes cuivrées Nancy 1005870 holothurie.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmon_bandes_cuivr%C3%A9es_Nancy_1005870_holothurie.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Chelmon_bandes_cuivr%C3%A9es_Nancy_1005870_holothurie.jpg",
+        "width": 3014,
+        "height": 2024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "G.Garitan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelmon bandes cuivrées nancy 1005875.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmon_bandes_cuivr%C3%A9es_nancy_1005875.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Chelmon_bandes_cuivr%C3%A9es_nancy_1005875.jpg",
+        "width": 3052,
+        "height": 2035,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "G.Garitan",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chelmon rostratus 01 by Line1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmon_rostratus_01_by_Line1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Chelmon_rostratus_01_by_Line1.jpg",
+        "width": 2816,
+        "height": 2112,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Liné1",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/5209920",
+      "https://www.iucnredlist.org/species/165659/6083324",
+      "https://en.wikipedia.org/wiki/Copperband_butterflyfish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_b%C6%B0%E1%BB%9Bm_m%E1%BB%8F_nh%E1%BB%8Dn"
+    ]
+  },
+  {
+    "scientificName": "Forcipiger flavissimus",
+    "commonNameVi": "Cá bướm mỏ dài vàng",
+    "commonNameEn": "Big long-nosed Butterflyfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Chaetodontidae",
+      "genus": "Forcipiger"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá bướm (Chaetodontidae)",
+      "genus": "Chi Cá bướm mỏ nhọn (Forcipiger)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165716/6099950",
+    "gbifKey": 2385706,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Vách rạn san hô ngoài khơi và đầm phá độ sâu 2–60 m"
+    },
+    "descriptionVi": "Sở hữu chiếc mỏ dài mảnh như chiếc nhíp y tế ('Forcipiger' nghĩa là mang kẹp nhíp) và sắc vàng tươi sáng giúp bừng sáng mọi bể cá cảnh biển.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Cấu trúc hàm kéo dài đặc biệt cho phép loài cá này gắp chính xác từng chiếc chân ống của cầu gai hoặc xúc tu giun lông vũ ẩn sâu trong kẽ đá.",
+    "dietVi": "Ăn giun nhiều tơ, giáp xác nhỏ, tôm Mysis, Artemia và thịt hải sản băm nhỏ",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Foreipiger flavissimus"
+    ],
+    "wikidataId": "Q1499346",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Forcipiger_flavissimus",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Yellow_longnose_butterflyfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 22,
+      "weightGMin": 100,
+      "weightGMax": 170,
+      "heightCmMax": null,
+      "noteVi": "Thân vàng hoàng yến rực rỡ, đầu chia đôi nửa trên đen - nửa dưới trắng bạc với chiếc mỏ dài như kẹp nhíp"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "EG",
+        "US"
+      ],
+      "nativeRangeVi": "Loài cá bướm có phân bố rộng nhất thế giới từ Biển Đỏ qua Ấn Độ Dương - Thái Bình Dương tới tận bờ biển Mexico",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Sở hữu chiếc mỏ dài mảnh như chiếc nhíp y tế ('Forcipiger' nghĩa là mang kẹp nhíp) và sắc vàng tươi sáng giúp bừng sáng mọi bể cá cảnh biển. Đặc điểm nhận dạng: Thân vàng hoàng yến rực rỡ, đầu chia đôi nửa trên đen - nửa dưới trắng bạc với chiếc mỏ dài như kẹp nhíp.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại vách rạn san hô ngoài khơi và đầm phá độ sâu 2–60 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Cấu trúc hàm kéo dài đặc biệt cho phép loài cá này gắp chính xác từng chiếc chân ống của cầu gai hoặc xúc tu giun lông vũ ẩn sâu trong kẽ đá.",
+      "Đặc điểm hình thái nổi bật: Thân vàng hoàng yến rực rỡ, đầu chia đôi nửa trên đen - nửa dưới trắng bạc với chiếc mỏ dài như kẹp nhíp."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Trung bình",
+      "beginnerFriendly": false,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn giun nhiều tơ, giáp xác nhỏ, tôm Mysis, Artemia và thịt hải sản băm nhỏ. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Bướm Mỏ Nhọn Vàng (Yellow Longnose Butterflyfish) (Forcipiger flavissimus) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 480000,
+        "descriptionVi": "Cá cảnh biển Cá Bướm Mỏ Nhọn Vàng (Yellow Longnose Butterflyfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Longnose-butterflyfish-Aquarium-of-the-Pacific.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Longnose-butterflyfish-Aquarium-of-the-Pacific.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Longnose-butterflyfish-Aquarium-of-the-Pacific.png",
+        "width": 6000,
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Coughdrop12",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Pez mariposa hocicona (Forcipiger flavissimus), Ambalihabe, Madagascar, 2025-09-16, DD 48.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pez_mariposa_hocicona_(Forcipiger_flavissimus),_Ambalihabe,_Madagascar,_2025-09-16,_DD_48.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pez_mariposa_hocicona_%28Forcipiger_flavissimus%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_48.jpg",
+        "width": 3861,
+        "height": 5792,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Diego Delso",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Longnose butterflyfish (Forcipiger flavissimus) - 49151042771.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Longnose_butterflyfish_(Forcipiger_flavissimus)_-_49151042771.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Longnose_butterflyfish_%28Forcipiger_flavissimus%29_-_49151042771.jpg",
+        "width": 4389,
+        "height": 3292,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "krokodiver",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Papillon long nez (2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Papillon_long_nez_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Papillon_long_nez_%282%29.jpg",
+        "width": 3840,
+        "height": 2160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Cangadoba",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Forcipiger flavissimus in Ouwehands Dierenpark 03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Forcipiger_flavissimus_in_Ouwehands_Dierenpark_03.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Forcipiger_flavissimus_in_Ouwehands_Dierenpark_03.jpg",
+        "width": 3059,
+        "height": 1431,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "FakirNL",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2385706",
+      "https://www.iucnredlist.org/species/165716/6099950",
+      "https://en.wikipedia.org/wiki/Yellow_longnose_butterflyfish",
+      "https://vi.wikipedia.org/wiki/Forcipiger_flavissimus"
+    ]
+  },
+  {
+    "scientificName": "Chaetodon auriga",
+    "commonNameVi": "Cá bướm cánh chỉ",
+    "commonNameEn": "Cross-stripe Butterfly",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Chaetodontidae",
+      "genus": "Chaetodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá bướm (Chaetodontidae)",
+      "genus": "Chi Cá bướm (Chaetodon)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165631/6073721",
+    "gbifKey": 2385390,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Rạn san hô nông, bãi đá và đầm phá độ sâu 1–35 m"
+    },
+    "descriptionVi": "Một trong những loài cá bướm khỏe mạnh, dẻo dai và đẹp mắt nhất với họa tiết các đường kẻ chéo chữ V vuông góc (chevron) và sợi chỉ vây lưng duyên dáng.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Tên khoa học 'auriga' trong tiếng La-tinh có nghĩa là 'Người đánh xe ngựa', ám chỉ sợi tia vây lưng vươn dài ra sau giống chiếc roi điều khiển chiến xa.",
+    "dietVi": "Ăn giun nhiều tơ, hải quỳ nhỏ, tảo sợi, tôm Mysis và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Anisochaetodon auriga",
+      "Chaetodon auriga setifier",
+      "Chaetodon lunaris",
+      "Chaetodon satifer"
+    ],
+    "wikidataId": "Q580920",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A1_n%C3%A0ng_%C4%91%C3%A0o_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Threadfin_butterflyfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 18,
+      "lengthCmMax": 23,
+      "weightGMin": 140,
+      "weightGMax": 240,
+      "heightCmMax": null,
+      "noteVi": "Hai hệ sọc đen mảnh đan vuông góc nhau trên nền thân trắng - vàng cam và một sợi tia vây lưng kéo dài bên cạnh đốm mắt giả đen"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "EG"
+      ],
+      "nativeRangeVi": "Khắp vùng Ấn Độ Dương - Thái Bình Dương từ Biển Đỏ qua biển Việt Nam tới Hawaii",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Một trong những loài cá bướm khỏe mạnh, dẻo dai và đẹp mắt nhất với họa tiết các đường kẻ chéo chữ V vuông góc (chevron) và sợi chỉ vây lưng duyên dáng. Đặc điểm nhận dạng: Hai hệ sọc đen mảnh đan vuông góc nhau trên nền thân trắng - vàng cam và một sợi tia vây lưng kéo dài bên cạnh đốm mắt giả đen.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại rạn san hô nông, bãi đá và đầm phá độ sâu 1–35 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Tên khoa học 'auriga' trong tiếng La-tinh có nghĩa là 'Người đánh xe ngựa', ám chỉ sợi tia vây lưng vươn dài ra sau giống chiếc roi điều khiển chiến xa.",
+      "Đặc điểm hình thái nổi bật: Hai hệ sọc đen mảnh đan vuông góc nhau trên nền thân trắng - vàng cam và một sợi tia vây lưng kéo dài bên cạnh đốm mắt giả đen."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn giun nhiều tơ, hải quỳ nhỏ, tảo sợi, tôm Mysis và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Bướm Cánh Chỉ (Threadfin Butterflyfish) (Chaetodon auriga) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 250000,
+        "descriptionVi": "Cá cảnh biển Cá Bướm Cánh Chỉ (Threadfin Butterflyfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:Lisboa Oceanário (10000836714).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lisboa_Ocean%C3%A1rio_(10000836714).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Lisboa_Ocean%C3%A1rio_%2810000836714%29.jpg",
+        "width": 5184,
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Bobo Boom",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chaetodon auriga - M.Czerwone.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_auriga_-_M.Czerwone.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Chaetodon_auriga_-_M.Czerwone.jpg",
+        "width": 2592,
+        "height": 3872,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dariusz Białoń",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Bep chaetodon auriga pemba.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bep_chaetodon_auriga_pemba.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bep_chaetodon_auriga_pemba.jpg",
+        "width": 1024,
+        "height": 768,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Bernard E. Picton BernardP",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Artis 20180519 153358.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Artis_20180519_153358.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Artis_20180519_153358.jpg",
+        "width": 4032,
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rudolphous",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chaetodon auriga at El Gouna Aquarium by Hatem Moushir 1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_auriga_at_El_Gouna_Aquarium_by_Hatem_Moushir_1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chaetodon_auriga_at_El_Gouna_Aquarium_by_Hatem_Moushir_1.JPG",
+        "width": 4928,
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Hatem Moushir",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2385390",
+      "https://www.iucnredlist.org/species/165631/6073721",
+      "https://en.wikipedia.org/wiki/Threadfin_butterflyfish",
+      "https://vi.wikipedia.org/wiki/C%C3%A1_n%C3%A0ng_%C4%91%C3%A0o_%C4%91%E1%BB%8F"
+    ]
+  },
+  {
+    "scientificName": "Chaetodon lunula",
+    "commonNameVi": "Cá bướm mặt trăng",
+    "commonNameEn": "Halfmoon Butterflyfish",
+    "group": "Cá cảnh",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Chaetodontidae",
+      "genus": "Chaetodon"
+    },
+    "taxonomyVi": {
+      "order": "Bộ Cá vược (Perciformes)",
+      "family": "Họ Cá bướm (Chaetodontidae)",
+      "genus": "Chi Cá bướm (Chaetodon)"
+    },
+    "iucn": "LC",
+    "iucnUrl": "https://www.iucnredlist.org/species/165651/6080984",
+    "gbifKey": 2385531,
+    "environment": {
+      "tempMin": null,
+      "tempMax": null,
+      "baskMin": null,
+      "baskMax": null,
+      "humidMin": null,
+      "humidMax": null,
+      "waterTempMin": 24,
+      "waterTempMax": 28,
+      "phMin": 8,
+      "phMax": 8.4,
+      "habitatVi": "Đầm phá san hô và vách đá rạn độ sâu 1–30 m"
+    },
+    "descriptionVi": "Được gọi là 'Cá bướm Gấu trúc Mỹ' (Raccoon Butterflyfish) nhờ chiếc mặt nạ đen viền trắng ngộ nghĩnh và khả năng dọn sạch hải quỳ rác Aiptasia.",
+    "conservationNoteVi": "Xếp mức Ít lo ngại (LC) trên Sách Đỏ IUCN.",
+    "pullQuoteVi": "Khác với đa số các loài cá bướm chỉ kiếm ăn ban ngày, C. lunula thường hoạt động mạnh vào lúc chạng vạng và ban đêm để săn các loài động vật không xương sống bò ra khỏi đá.",
+    "dietVi": "Ăn hải quỳ nhỏ, giun nhiều tơ, tảo biển, tôm Mysis và thức ăn viên",
+    "lifespanVi": null,
+    "activityTimeVi": "Ngày",
+    "origin": {
+      "place": "Đồng bằng sông Cửu Long, Việt Nam",
+      "lat": 10.03,
+      "lng": 105.78
+    },
+    "regionVi": null,
+    "otherNamesVi": null,
+    "synonyms": [
+      "Chaetodon biocellatus",
+      "Chaetodon iunula",
+      "Chaetodon luluna",
+      "Chaetodon lunulatus"
+    ],
+    "wikidataId": "Q1759410",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Chaetodon_lunula",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Raccoon_butterflyfish",
+    "iucnAssessedYear": 2010,
+    "populationTrend": "Stable",
+    "size": {
+      "lengthCmMin": 16,
+      "lengthCmMax": 20,
+      "weightGMin": 130,
+      "weightGMax": 220,
+      "heightCmMax": null,
+      "noteVi": "Mặt nạ đen qua mắt đi kèm một dải hình trăng khuyết màu trắng sáng ngay phía sau trên nền thân vàng cam sọc chéo"
+    },
+    "distribution": {
+      "countries": [
+        "VN",
+        "TH",
+        "ID",
+        "PH",
+        "AU",
+        "JP",
+        "US"
+      ],
+      "nativeRangeVi": "Ấn Độ Dương và Thái Bình Dương từ Đông Phi qua biển Việt Nam tới Hawaii",
+      "elevationM": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "habitatTypesVi": null,
+    "identificationVi": "Được gọi là 'Cá bướm Gấu trúc Mỹ' (Raccoon Butterflyfish) nhờ chiếc mặt nạ đen viền trắng ngộ nghĩnh và khả năng dọn sạch hải quỳ rác Aiptasia. Đặc điểm nhận dạng: Mặt nạ đen qua mắt đi kèm một dải hình trăng khuyết màu trắng sáng ngay phía sau trên nền thân vàng cam sọc chéo.",
+    "behaviorVi": "Sinh vật rạn san hô biển nhiệt đới hoạt động ban ngày tại đầm phá san hô và vách đá rạn độ sâu 1–30 m.",
+    "reproductionVi": "Phóng trứng và tinh trùng tự do vào cột nước biển theo chu kỳ trăng; ấu trùng trôi nổi trước khi định cư xuống rạn san hô.",
+    "threatsVi": [
+      "Hiện tượng tẩy trắng san hô do nhiệt độ nước biển tăng và axit hóa đại dương",
+      "Suy thoái hệ sinh thái rạn san hô ven bờ"
+    ],
+    "funFactsVi": [
+      "Khác với đa số các loài cá bướm chỉ kiếm ăn ban ngày, C. lunula thường hoạt động mạnh vào lúc chạng vạng và ban đêm để săn các loài động vật không xương sống bò ra khỏi đá.",
+      "Đặc điểm hình thái nổi bật: Mặt nạ đen qua mắt đi kèm một dải hình trăng khuyết màu trắng sáng ngay phía sau trên nền thân vàng cam sọc chéo."
+    ],
+    "similarSpecies": [],
+    "care": {
+      "difficulty": "Dễ",
+      "beginnerFriendly": true,
+      "enclosureVi": "Bể cá nước mặn / bể rạn san hô (Reef tank) có đá sống, hệ thống lọc Skimmer và tạo sóng tốt; duy trì độ mặn 1.023–1.026, nhiệt độ nước 24–28°C và pH 8.0–8.4.",
+      "lightingVi": "Đèn LED quang phổ biển (Actinic Blue & White) theo chu kỳ 8–10 giờ/ngày.",
+      "feedingVi": "Ăn hải quỳ nhỏ, giun nhiều tơ, tảo biển, tôm Mysis và thức ăn viên. Cho ăn 1–2 lần/ngày lượng vừa đủ để giữ chất lượng nước ổn định (NO3 và PO4 thấp).",
+      "socialVi": "Nuôi chung với các loài cá rạn san hô tương thích kích thước và bố trí nhiều hang đá sống để làm nơi trú ẩn.",
+      "commonProblemsVi": [
+        "Bệnh nấm trắng biển (Cryptocaryon irritans) nếu nhiệt độ hoặc độ mặn biến động đột ngột",
+        "Căng thẳng nếu bể thiếu hang đá trú ẩn hoặc thả chung với cá thể cùng chi có tính lãnh thổ cao"
+      ]
+    },
+    "trade": {
+      "tradeable": true,
+      "cites": null,
+      "vnProtected": null,
+      "reasonVi": "Nguồn cá cảnh biển nhân giống trại (captive-bred) hoặc khai thác bền vững có kiểm soát."
+    },
+    "products": [
+      {
+        "nameVi": "Cá Bướm Mặt Trăng (Raccoon Butterflyfish) (Chaetodon lunula) Đã Thuần Cám Khỏe Mạnh",
+        "priceVnd": 260000,
+        "descriptionVi": "Cá cảnh biển Cá Bướm Mặt Trăng (Raccoon Butterflyfish) đã qua kiểm dịch, ăn tốt cám viên và thức ăn đông lạnh, lên màu tươi sáng."
+      }
+    ],
+    "photos": [
+      {
+        "role": "hero",
+        "file": "File:C. lunula maldives.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:C._lunula_maldives.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/C._lunula_maldives.JPG",
+        "width": 3648,
+        "height": 2736,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "MDC SeaMarc Maldives",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "portrait",
+        "file": "File:Chaetodon lunula 352991312.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_lunula_352991312.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Chaetodon_lunula_352991312.jpg",
+        "width": 1536,
+        "height": 2048,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "cello caruso-turiello",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chaetodon lunula 345443297.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_lunula_345443297.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Chaetodon_lunula_345443297.jpg",
+        "width": 1925,
+        "height": 1264,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "laiet17",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Book-hawaii-vtorov-161.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Book-hawaii-vtorov-161.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Book-hawaii-vtorov-161.jpg",
+        "width": 1200,
+        "height": 600,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Ivtorov",
+        "verified": true,
+        "visualChecked": true
+      },
+      {
+        "role": "gallery",
+        "file": "File:Chaetodon lunula 345113405.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_lunula_345113405.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Chaetodon_lunula_345113405.jpg",
+        "width": 2048,
+        "height": 1536,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Debra Baker",
+        "verified": true,
+        "visualChecked": true
+      }
+    ],
+    "sources": [
+      "https://www.gbif.org/species/2385531",
+      "https://www.iucnredlist.org/species/165651/6080984",
+      "https://en.wikipedia.org/wiki/Raccoon_butterflyfish",
+      "https://vi.wikipedia.org/wiki/Chaetodon_lunula"
+    ]
+  }
+]
