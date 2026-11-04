@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
-import { Menu, ShoppingBag, User as UserIcon, X, Shield } from 'lucide-react';
+import { Menu, ShoppingBag, User as UserIcon, X, Shield, Sun, Moon } from 'lucide-react';
 import { Logo } from '@/components/ui/Logo';
 import { QuickSearch, QuickSearchTrigger } from '@/components/navigation/QuickSearch';
 import { FlyToCartContainer } from '@/components/domain/FlyToCart';
 import { useCart } from '@/api/queries/useCartQueries';
 import { useAuthState } from '@/api/queries/useAuthQueries';
 import { cn } from '@/lib/cn';
+import { useTheme } from '@/lib/theme';
 import { PageContainer } from './Page';
 
 const FOOTER_COLUMNS: { title: string; links: { label: string; to: string; devOnly?: boolean }[] }[] = [
@@ -60,6 +61,7 @@ export function RootLayout(): React.JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const authState = useAuthState();
   const isAdmin = authState.accountType === 'ADMIN';
+  const { theme, toggleTheme } = useTheme();
   const navItems =
     authState.accountType === 'USER' ? [...NAV_ITEMS.slice(0, 4), TRANSACTIONS_ITEM, ...NAV_ITEMS.slice(4)] : NAV_ITEMS;
 
@@ -115,7 +117,9 @@ export function RootLayout(): React.JSX.Element {
       <FlyToCartContainer />
 
       {/* Navbar */}
+      {/* Đầu trang chủ nằm trong suốt trên hero 3D luôn tối nên header cũng giữ màu tối ở đó */}
       <header
+        data-theme={isHeaderClear ? 'dark' : undefined}
         className={cn(
           'top-0 z-50 border-b transition-[background-color,border-color] duration-300',
           isHome ? 'fixed inset-x-0' : 'sticky',
@@ -135,7 +139,7 @@ export function RootLayout(): React.JSX.Element {
           {/* Nav viên thuốc. Nền mục đang chọn làm bằng CSS: motion.span layoutId kéo thêm khoảng 38 KB gzip
               vào bundle đầu và làm vượt ngân sách 180 KB của check:budget */}
           <nav aria-label="Điều hướng chính" className="hidden lg:block">
-            <ul className="flex items-center gap-0.5 rounded-full border border-line bg-black/35 p-1 text-sm font-medium backdrop-blur-xl">
+            <ul className="flex items-center gap-0.5 rounded-full border border-line bg-glass p-1 text-sm font-medium backdrop-blur-xl">
               {navItems.map((item) => {
                 const isActive = isNavActive(location.pathname, item.path);
                 return (
@@ -146,8 +150,8 @@ export function RootLayout(): React.JSX.Element {
                       className={cn(
                         'block rounded-full border px-3.5 py-1.5 whitespace-nowrap transition-colors duration-150',
                         isActive
-                          ? 'border-white/15 bg-white/10 text-fg'
-                          : 'border-transparent text-fg-2 hover:bg-white/5 hover:text-fg'
+                          ? 'border-line-strong bg-fg/10 text-fg'
+                          : 'border-transparent text-fg-2 hover:bg-fg/5 hover:text-fg'
                       )}
                     >
                       {item.label}
@@ -160,6 +164,16 @@ export function RootLayout(): React.JSX.Element {
 
           <div className="flex items-center gap-2">
             <QuickSearchTrigger onClick={() => setIsSearchOpen(true)} />
+
+            <button
+              type="button"
+              onClick={toggleTheme}
+              aria-label={theme === 'light' ? 'Chuyển sang giao diện tối' : 'Chuyển sang giao diện sáng'}
+              title={theme === 'light' ? 'Giao diện tối' : 'Giao diện sáng'}
+              className="flex size-9 shrink-0 items-center justify-center rounded-full border border-line bg-surface-2/60 text-fg-2 transition-colors hover:border-accent hover:text-accent"
+            >
+              {theme === 'light' ? <Moon className="size-4" aria-hidden="true" /> : <Sun className="size-4" aria-hidden="true" />}
+            </button>
 
             {!isAdmin && (
               <Link

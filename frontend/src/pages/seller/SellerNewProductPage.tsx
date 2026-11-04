@@ -232,7 +232,7 @@ export default function SellerNewProductPage(): React.JSX.Element {
             image={formValues.imageUrl || PRODUCT_PLACEHOLDER_IMAGE}
             badge={
               selectedSpecies?.conservationStatus ? (
-                <IucnBadge code={selectedSpecies.conservationStatus} size="sm" className="bg-black/60 backdrop-blur-md" />
+                <IucnBadge code={selectedSpecies.conservationStatus} size="sm" onMedia />
               ) : undefined
             }
             title={formValues.productName || 'Tên cá thể thương mại'}

@@ -251,6 +251,8 @@ function JourneyContent(): React.JSX.Element {
 
   return (
     <div
+      // Hành trình là trải nghiệm ảnh và 3D toàn màn hình nên luôn tối, kể cả khi người dùng chọn giao diện sáng
+      data-theme="dark"
       data-reduced-motion={reduced ? 'true' : 'false'}
       className="expedition bg-[#040a07] text-[#edf5f0] selection:bg-[#6ee7b7] selection:text-[#03140d]"
     >

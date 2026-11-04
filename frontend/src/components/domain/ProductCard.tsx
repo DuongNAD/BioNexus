@@ -77,7 +77,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart, 
             code={product.conservationStatus}
             size="md"
             showLabel={false}
-            className="absolute top-3 left-3 bg-black/65"
+            onMedia
+            className="absolute top-3 left-3"
           />
         )}
       </div>

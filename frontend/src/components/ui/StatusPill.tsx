@@ -52,11 +52,11 @@ const STATUS_MAP: Record<
   },
   SOLD_OUT: {
     label: 'Hết hàng',
-    styles: 'bg-white/[0.08] text-fg-2',
+    styles: 'bg-fg/[0.08] text-fg-2',
   },
   INACTIVE: {
     label: 'Chưa kích hoạt',
-    styles: 'bg-white/[0.08] text-fg-2',
+    styles: 'bg-fg/[0.08] text-fg-2',
   },
 };
 

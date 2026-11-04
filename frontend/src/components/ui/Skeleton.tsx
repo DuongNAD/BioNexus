@@ -26,7 +26,7 @@ export const Skeleton = React.forwardRef<HTMLDivElement, SkeletonProps>(
         aria-busy="true"
         aria-live="polite"
         className={cn(
-          'animate-pulse bg-white/[0.06]',
+          'animate-pulse bg-fg/[0.06]',
           variantStyles[variant],
           className
         )}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi" class="dark">
+<html lang="vi" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,15 @@
       name="description"
       content="BioNexus — Bách khoa toàn thư sinh học 6 cấp phân loại và sàn giao dịch sinh vật cảnh nhân giống có kiểm duyệt pháp lý tại Việt Nam."
     />
+    <!-- Đặt chế độ sáng/tối trước khi vẽ trang để không nháy màu (khoá giống lib/theme.ts) -->
+    <script>
+      try {
+        if (localStorage.getItem('bionexus.theme') === 'light') {
+          document.documentElement.dataset.theme = 'light';
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f6f8f5');
+        }
+      } catch (e) {}
+    </script>
     <title>BioNexus — Sinh quyển Số & Sàn sinh vật cảnh</title>
     <!-- Favicon SVG cùng hình với components/ui/Logo.tsx: chuỗi xoắn kép, nét dày hơn để rõ ở 16 px -->
     <link

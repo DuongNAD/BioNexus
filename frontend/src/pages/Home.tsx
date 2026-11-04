@@ -156,7 +156,7 @@ export default function Home(): React.JSX.Element {
   }, []);
 
   return (
-    <div className="relative overflow-x-clip bg-[#020605] text-fg selection:bg-accent selection:text-accent-fg">
+    <div className="relative overflow-x-clip bg-bg text-fg selection:bg-accent selection:text-accent-fg">
       {/* 1. Thanh Chấm Chỉ Báo Chương (Chapter Indicator Dots) */}
       <nav
         aria-label="Chỉ báo chương"
@@ -189,7 +189,7 @@ export default function Home(): React.JSX.Element {
                 'w-2 rounded-full transition-all duration-400',
                 activeChapter === idx
                   ? 'h-8 bg-accent shadow-[0_0_12px_rgba(0,210,158,0.7)]'
-                  : 'h-2 bg-white/20 hover:bg-white/40'
+                  : 'h-2 bg-fg/20 hover:bg-fg/40'
               )}
             />
           </button>
@@ -197,7 +197,8 @@ export default function Home(): React.JSX.Element {
       </nav>
 
       {/* 2. CHƯƠNG 0: KHỞI NGUYÊN BIONEXUS (Hero Genesis) */}
-      <section id="chapter-0" className="relative flex min-h-[100svh] overflow-hidden">
+      {/* Hero, khung chuỗi xoắn, địa cầu và dải Hành trình là vùng luôn tối (cảnh 3D phát sáng trên nền đen) */}
+      <section id="chapter-0" data-theme="dark" className="relative flex min-h-[100svh] overflow-hidden bg-bg">
         {/* Nền 3D Hạt Biến Hình ParticleMorph */}
         <div className="absolute inset-0 z-0">
           <SceneShell
@@ -328,7 +329,7 @@ export default function Home(): React.JSX.Element {
           </div>
 
           {/* Cột hiển thị Chuỗi Xoắn 3D bên phải. Chuỗi nằm gọn trong thẻ: căn giữa và lùi camera để thấy cả hai sợi */}
-          <div className="relative h-[480px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[580px] lg:col-span-7">
+          <div data-theme="dark" className="relative h-[480px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[580px] lg:col-span-7">
             <SceneShell
               id="home-helix"
               posterSrc="posters/home-helix.webp"
@@ -411,7 +412,7 @@ export default function Home(): React.JSX.Element {
 
           <div className="min-w-0">
             {/* Vùng hiển thị Quả Địa Cầu BioEarth 7 Lớp. Camera lùi xa để cung bay cao nhất vẫn nằm trong khung */}
-            <div className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[560px]">
+            <div data-theme="dark" className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[560px]">
               <SceneShell
                 id="home-earth"
                 posterSrc="posters/home-earth.webp"
@@ -537,6 +538,7 @@ export default function Home(): React.JSX.Element {
           {/* Dải mời tham gia Hành trình 9 loài ngay trước phần kết */}
           <div
             id="home-journey-invite"
+            data-theme="dark"
             className="relative mt-16 overflow-hidden rounded-[20px] border border-line bg-bg-raised"
           >
             <img

@@ -200,7 +200,7 @@ export const SpeciesDetailPage: React.FC = () => {
         {/* 2. Nơi bản địa */}
         <Section title="Nơi bản địa" description={`Ngoài tự nhiên, ${species.displayName.toLowerCase()} sống ở ${species.origin.place}.`}>
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="relative h-[340px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[400px]">
+            <div data-theme="dark" className="relative h-[340px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[400px]">
               <React.Suspense fallback={<Skeleton className="size-full rounded-none" />}>
                 <SpeciesOriginGlobe species={species} />
               </React.Suspense>

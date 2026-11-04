@@ -61,7 +61,7 @@ export function AuthLayout(): React.JSX.Element {
   return (
     <div className="grid min-h-screen bg-bg text-fg lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
       {/* Cột ảnh (desktop) */}
-      <div className="relative hidden overflow-hidden bg-bg-deep lg:block">
+      <div data-theme="dark" className="relative hidden overflow-hidden bg-bg-deep lg:block">
         <img
           key={photo.id}
           src={imgSrc}
@@ -99,7 +99,7 @@ export function AuthLayout(): React.JSX.Element {
             </p>
             <div className="mt-10 flex items-end justify-between gap-6 border-t border-white/15 pt-5">
               {credit}
-              <IucnBadge code={slideConfig.iucn} size="sm" className="shrink-0 bg-black/50 backdrop-blur-md" />
+              <IucnBadge code={slideConfig.iucn} size="sm" onMedia className="shrink-0" />
             </div>
           </div>
         </div>
@@ -108,9 +108,10 @@ export function AuthLayout(): React.JSX.Element {
       {/* Cột form */}
       <div className="flex min-w-0 flex-col">
         {/* Dải ảnh trên mobile */}
-        <div className="relative h-[30vh] min-h-48 overflow-hidden lg:hidden">
+        {/* Luôn tối: chữ ghi nguồn và logo nằm trên ảnh, ở giao diện sáng lớp phủ màu nền sẽ làm mất tương phản */}
+        <div data-theme="dark" className="relative h-[30vh] min-h-48 overflow-hidden lg:hidden">
           <img src={imgSrc} alt={photo.alt || photo.title} className="absolute inset-0 size-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-bg via-black/30 to-black/40" aria-hidden="true" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/40" aria-hidden="true" />
           <div className="absolute inset-x-4 top-4">
             <BrandLink />
           </div>

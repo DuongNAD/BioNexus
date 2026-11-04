@@ -64,6 +64,7 @@ export const TaxonomyHelixView: React.FC<TaxonomyHelixViewProps> = ({
 
   return (
     <div
+      data-theme="dark"
       role="group"
       aria-roledescription="trình duyệt chuỗi xoắn"
       aria-label={`Chuỗi xoắn loài thuộc ${activeNode.scientificName}. Dùng phím mũi tên trái phải để đổi loài.`}

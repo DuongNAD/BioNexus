@@ -91,7 +91,7 @@ export const SpeciesMapView: React.FC<SpeciesMapViewProps> = ({
         </ul>
       </div>
 
-      <div className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep lg:h-[640px]">
+      <div data-theme="dark" className="relative h-[420px] overflow-hidden rounded-[20px] border border-line bg-bg-deep lg:h-[640px]">
         <SceneShell
           id="species-catalog-earth"
           posterSrc="posters/home-earth.webp"

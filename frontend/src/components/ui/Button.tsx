@@ -35,7 +35,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       primary:
         'bg-accent text-accent-ink font-semibold hover:bg-white active:bg-accent/90 shadow-[var(--glow-accent-btn)]',
       secondary:
-        'bg-surface-hover text-fg border border-line hover:bg-white/10 hover:border-line-strong active:bg-white/15',
+        'bg-surface-hover text-fg border border-line hover:bg-fg/10 hover:border-line-strong active:bg-fg/15',
       outline:
         'bg-transparent text-fg-2 border border-line hover:bg-surface hover:text-fg hover:border-line-strong',
       ghost: 'bg-transparent text-fg-2 hover:text-fg hover:bg-surface',

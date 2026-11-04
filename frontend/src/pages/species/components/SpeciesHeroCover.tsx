@@ -43,7 +43,8 @@ export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, bre
   ];
 
   return (
-    <section className="group relative isolate flex min-h-[72vh] items-end overflow-hidden md:min-h-[80vh]">
+    // Bìa ảnh luôn tối: lớp phủ dùng màu nền nên ở giao diện sáng chữ trắng sẽ mất tương phản
+    <section data-theme="dark" className="group relative isolate flex min-h-[72vh] items-end overflow-hidden md:min-h-[80vh]">
       <img
         src={species.heroPhoto}
         alt={species.displayName}
@@ -66,7 +67,7 @@ export const SpeciesHeroCover: React.FC<SpeciesHeroCoverProps> = ({ species, bre
         <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="font-serif text-2xl text-accent-2 italic md:text-[34px]">{species.scientificName}</p>
           {species.englishName && <span className="text-base text-white/70">{species.englishName}</span>}
-          <IucnBadge code={species.conservationStatus} size="md" className="bg-black/60 backdrop-blur-md" />
+          <IucnBadge code={species.conservationStatus} size="md" onMedia />
         </div>
       </PageContainer>
 

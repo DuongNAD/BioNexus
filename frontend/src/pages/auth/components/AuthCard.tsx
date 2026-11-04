@@ -84,7 +84,7 @@ export function DemoLogins({
             type="button"
             disabled={disabled}
             onClick={() => onPick(acc)}
-            className="rounded-[10px] bg-white/[0.04] px-3 py-2.5 text-left transition-colors hover:bg-white/[0.08] disabled:opacity-50"
+            className="rounded-[10px] bg-fg/[0.04] px-3 py-2.5 text-left transition-colors hover:bg-fg/[0.08] disabled:opacity-50"
           >
             <span className="block font-mono text-sm text-fg">{acc.username}</span>
             <span className="block text-sm text-fg-3">{acc.note}</span>

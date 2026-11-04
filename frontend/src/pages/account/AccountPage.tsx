@@ -74,7 +74,7 @@ function ShopStatus({ shop }: { shop: SellerDto | null }): React.JSX.Element {
               <span
                 className={cn(
                   'mt-1 size-2.5 shrink-0 rounded-full',
-                  i === 0 ? 'bg-accent' : i === 1 ? 'bg-warm' : 'bg-white/20'
+                  i === 0 ? 'bg-accent' : i === 1 ? 'bg-warm' : 'bg-fg/20'
                 )}
                 aria-hidden="true"
               />
@@ -259,7 +259,7 @@ export default function AccountPage(): React.JSX.Element {
           >
             {STATION_LIST.map((stId) => {
               const stamped = met.includes(LEG[stId]?.slug || '');
-              return <span key={stId} className={cn('h-1.5 rounded-full', stamped ? 'bg-accent' : 'bg-white/15')} />;
+              return <span key={stId} className={cn('h-1.5 rounded-full', stamped ? 'bg-accent' : 'bg-fg/15')} />;
             })}
           </div>
 

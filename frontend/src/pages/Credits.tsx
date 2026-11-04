@@ -86,7 +86,7 @@ export default function Credits(): React.JSX.Element {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Tìm theo loài, tác giả, giấy phép..."
-              className="h-11 w-full rounded-full border border-line bg-white/[0.04] pr-4 pl-10 text-[15px] text-fg placeholder:text-fg-3 hover:border-line-strong focus:border-accent focus:ring-2 focus:ring-accent/40 focus:outline-none"
+              className="h-11 w-full rounded-full border border-line bg-fg/[0.04] pr-4 pl-10 text-[15px] text-fg placeholder:text-fg-3 hover:border-line-strong focus:border-accent focus:ring-2 focus:ring-accent/40 focus:outline-none"
             />
           </label>
         }

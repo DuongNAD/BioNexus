@@ -23,6 +23,8 @@ export interface IucnBadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   code: ConservationStatus | string;
   size?: 'sm' | 'md' | 'lg';
   showLabel?: boolean;
+  /** Đặt trên ảnh: nền đen mờ, chữ trắng ở cả chế độ sáng lẫn tối */
+  onMedia?: boolean;
 }
 
 export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
@@ -32,6 +34,7 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
       code,
       size = 'md',
       showLabel = true,
+      onMedia = false,
       ...props
     },
     ref
@@ -63,7 +66,8 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
         ref={ref}
         title={`${spec.desc} (${spec.label})`}
         className={cn(
-          'inline-flex items-center rounded-full border border-line bg-black/40 backdrop-blur-md font-medium text-fg select-none',
+          'inline-flex items-center rounded-full border font-medium select-none',
+          onMedia ? 'border-white/15 bg-black/60 text-white backdrop-blur-md' : 'border-line bg-surface-2 text-fg',
           sizeStyles[size],
           className
         )}
@@ -80,7 +84,7 @@ export const IucnBadge = React.forwardRef<HTMLSpanElement, IucnBadgeProps>(
         />
         <span className="font-bold tracking-wider">{uppercaseCode || '--'}</span>
         {showLabel && (
-          <span className="text-fg-2 border-l border-line/60 pl-1.5">
+          <span className={cn('border-l pl-1.5', onMedia ? 'border-white/20 text-white/80' : 'border-line/60 text-fg-2')}>
             {spec.label}
           </span>
         )}

@@ -1,5 +1,7 @@
-/* src/styles/tokens.css — Biến CSS hệ thống thiết kế "Bio-Luxury tối" mẫu R */
-:root {
+/* src/styles/tokens.css — Biến CSS hệ thống thiết kế "Bio-Luxury tối" mẫu R, kèm bảng sáng.
+   Chế độ đặt bằng data-theme trên <html> (lib/theme.ts). Vùng ảnh và 3D gắn data-theme="dark" để luôn tối. */
+:root,
+[data-theme='dark'] {
   /* ==========================================================================
      1. NỀN & BỀ MẶT (Backgrounds & Surfaces)
      ========================================================================== */
@@ -73,4 +75,55 @@
   --glow-accent-btn: 0 0 24px -4px rgb(110 231 183 / 0.45);
   --glow-card: 0 40px 120px -30px rgb(110 231 183 / 0.35);
   --glow-danger: 0 0 24px -4px rgb(248 113 113 / 0.45);
+}
+
+/* Bảng sáng: giấy ngà hơi xanh, chữ xanh rêu đậm. Màu nhấn đậm hơn bản tối để chữ trên nền trắng đạt AA
+   (accent #047857 trên #f6f8f5 khoảng 5,2:1; chữ trắng trên nút accent khoảng 5,5:1). IUCN và bo góc giữ nguyên. */
+[data-theme='light'] {
+  --bg: #f6f8f5;
+  --bg-deep: #ecf1ed;
+  --bg-raised: #ffffff;
+
+  --surface: rgb(11 31 24 / 0.03);
+  --surface-2: rgb(11 31 24 / 0.05);
+  --surface-hover: rgb(11 31 24 / 0.06);
+  --surface-active: rgb(11 31 24 / 0.09);
+  --glass: rgb(255 255 255 / 0.78);
+
+  --line: rgb(11 31 24 / 0.12);
+  --line-strong: rgb(11 31 24 / 0.24);
+  --border: rgb(11 31 24 / 0.10);
+
+  --fg: #0b1f18;
+  --text-primary: #0b1f18;
+  --fg-2: rgb(11 31 24 / 0.76);
+  --text-secondary: #475569;
+  --fg-3: rgb(11 31 24 / 0.62);
+  --text-muted: #57606b;
+  --fg-mute: rgb(11 31 24 / 0.38);
+
+  --accent: #047857;
+  --accent-2: #0f766e;
+  --accent-ink: #ffffff;
+
+  --aurora: #6d28d9;
+  --ocean: #0369a1;
+  --warm: #b45309;
+  --danger: #dc2626;
+  --success: #15803d;
+
+  --glow-accent: 0 0 120px 0 rgb(4 120 87 / 0.10);
+  --glow-accent-btn: 0 8px 20px -10px rgb(4 120 87 / 0.55);
+  --glow-card: 0 30px 80px -40px rgb(11 31 24 / 0.28);
+  --glow-danger: 0 8px 20px -10px rgb(220 38 38 / 0.5);
+}
+
+/* Vùng gắn data-theme lấy lại màu chữ của chính nó (thuộc tính color kế thừa giá trị đã tính, không kế thừa biến) */
+[data-theme='dark'] {
+  color: var(--fg);
+  color-scheme: dark;
+}
+[data-theme='light'] {
+  color: var(--fg);
+  color-scheme: light;
 }

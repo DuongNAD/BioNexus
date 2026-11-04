@@ -49,7 +49,7 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
           aria-invalid={Boolean(error)}
           aria-describedby={describedBy}
           className={cn(
-            'w-full rounded-[10px] border border-line bg-white/[0.04] px-4 py-3 text-[15px] leading-relaxed text-fg placeholder:text-fg-3 transition-colors duration-150',
+            'w-full rounded-[10px] border border-line bg-fg/[0.04] px-4 py-3 text-[15px] leading-relaxed text-fg placeholder:text-fg-3 transition-colors duration-150',
             // Viền accent + quầng mờ: thấy rõ khi focus mà không chói như vòng offset
               'hover:border-line-strong focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40',
             'disabled:cursor-not-allowed disabled:opacity-50',

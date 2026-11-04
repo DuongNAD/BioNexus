@@ -207,7 +207,7 @@ export const TaxonomyPage: React.FC = () => {
                             image={sp.cardPhoto}
                             imageAlt={sp.displayName}
                             focus={sp.focus}
-                            badge={<IucnBadge code={sp.conservationStatus} size="sm" className="bg-black/60 backdrop-blur-md" />}
+                            badge={<IucnBadge code={sp.conservationStatus} size="sm" onMedia />}
                             title={sp.displayName}
                             subtitle={<i className="font-serif text-[15px]">{sp.scientificName}</i>}
                             footer={<span>{onSale > 0 ? `${onSale} cá thể đang bán` : 'Chưa có cá thể đang bán'}</span>}
