@@ -322,10 +322,10 @@ export function River(): React.JSX.Element {
   const panels = [
     {
       img: 'boat',
-      alt: 'Thuyền dài trên sông Tembeling, Taman Negara',
+      alt: 'Ngã ba sông Tembeling và sông Jelai ở Kuala Tembeling, rừng mưa hai bên bờ dưới trời xanh',
       k: 'Ngày 02 · Quá cảnh',
       t: 'Theo dòng Tembeling',
-      d: 'Thuyền dài đưa đoàn ngược dòng vào Taman Negara, vườn quốc gia rừng mưa ở bán đảo Mã Lai.',
+      d: 'Từ bến Kuala Tembeling, nơi sông Tembeling gặp sông Jelai, thuyền dài đưa đoàn ngược dòng vào Taman Negara, vườn quốc gia rừng mưa ở bán đảo Mã Lai.',
     },
     {
       img: 'walkway',
@@ -352,6 +352,8 @@ export function River(): React.JSX.Element {
                 style={{ transform: 'translateX(calc(var(--pan) * 13vw))' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#040a07] via-[#040a07]/25 to-[#040a07]/30" />
+              {/* Ảnh trời sáng (sông Tembeling) cần thêm lớp tối phía chữ để đoạn mô tả đạt tương phản AA */}
+              <div className="absolute inset-0 bg-gradient-to-r from-[#040a07]/70 via-[#040a07]/25 to-transparent" />
               <div className="absolute inset-x-0 bottom-[22vh] px-4 md:bottom-[24vh] md:px-[7vw]">
                 <p className="kicker">{x.k}</p>
                 <h2 className="mt-3 font-serif text-[clamp(52px,7.5vw,120px)] leading-[0.9] font-medium">

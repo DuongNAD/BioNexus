@@ -2737,14 +2737,14 @@ export const TRIP_PHOTOS: Record<string, PhotoMetadata> = {
   },
   "boat": {
     "id": "trip/boat",
-    "title": "Thuyền gỗ trên sông Tembeling ven rừng mưa Taman Negara, Malaysia",
+    "title": "Ngã ba sông Tembeling và sông Jelai ở Kuala Tembeling, Pahang, Malaysia",
     "region": "Borneo, Sumatra và Malaysia",
     "role": "biome",
     "width": 1920,
-    "height": 1280,
-    "aspectRatio": 1.5,
+    "height": 1080,
+    "aspectRatio": 1.7778,
     "focus": "50% 50%",
-    "alt": "Chiếc thuyền gỗ nhỏ chở người dân địa phương trên dòng sông Tembeling bao quanh bởi rừng mưa nhiệt đới Taman Negara, Malaysia.",
+    "alt": "Sông Tembeling gặp sông Jelai ở Kuala Tembeling, bến thuyền vào Vườn quốc gia Taman Negara; rừng mưa phủ hai bên bờ dưới trời xanh.",
     "sources": {
       "avif": [
         {
@@ -2780,12 +2780,12 @@ export const TRIP_PHOTOS: Record<string, PhotoMetadata> = {
       ],
       "jpg": "trip/boat.webp"
     },
-    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAwAA8BgJZwAAujXw4F1TMAA99/5n7IkqenvlvCfZ6QuwO3f++TPlDmKFQCeptGg14fv80pUeHBzi467d7CAAAA=",
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAkABABoJZgCdADVjGYAAP60JWVU6J7X7bBabLXbUPwKWn3qu6p2JANHpHfpWw99pjdHMAN14x2HcjXw3y8fiQAAAA==",
     "credit": {
-      "author": "Vyacheslav Argenberg",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishing_on_Tembeling_River,_Taman_Negara,_Malaysia.jpg"
+      "author": "Slleong",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuala_Tembeling_3.jpg"
     }
   },
   "walkway": {
