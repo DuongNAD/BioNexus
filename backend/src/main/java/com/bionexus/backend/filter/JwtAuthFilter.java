@@ -58,6 +58,10 @@ public class JwtAuthFilter implements Filter {
 
 
         if (AccountType.ADMIN.name().equals(accountType)) {
+            if (path == null || !path.startsWith("/api/admin")){
+                JsonUtil.writeBody(httpResponse, 403, ApiResponse.error(MessageKey.AUTH_FORBIDDEN));
+                return;
+            }
             Admins admin = adminsDao.getAdminById(id);
             if (admin == null || admin.getStatus() != AdminStatus.ACTIVE) {
                 JsonUtil.writeBody(httpResponse, 403, ApiResponse.error(MessageKey.AUTH_ACCOUNT_BANNED));
