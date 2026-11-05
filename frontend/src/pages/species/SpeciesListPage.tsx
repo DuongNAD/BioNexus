@@ -124,7 +124,7 @@ export const SpeciesListPage: React.FC = () => {
   const branchNode = nodeFilter ? nodeQuery.data?.node : undefined;
 
   return (
-    <PageContainer className="pb-20">
+    <PageContainer width="catalog" className="pb-20">
       <PageHeader
         eyebrow="Bách khoa loài"
         title="Mỗi loài, một hồ sơ"

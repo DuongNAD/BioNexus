@@ -14,6 +14,8 @@ const CONTAINER_WIDTH = {
   narrow: 'max-w-3xl',
   default: 'max-w-6xl',
   wide: 'max-w-7xl',
+  // Trang lưới danh mục: màn từ 1536px trở lên mà giữ 1280px thì hai bên trống tới 300px
+  catalog: 'max-w-7xl 2xl:max-w-[1600px]',
 } as const;
 
 export interface PageContainerProps extends React.HTMLAttributes<HTMLDivElement> {

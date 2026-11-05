@@ -7,8 +7,6 @@ import { SceneShell } from '@/components/3d/SceneShell';
 import { ParticleMorph, type ParticlePlacement } from '@/components/3d/ParticleMorph';
 import { Starfield } from '@/components/3d/Starfield';
 import { CameraRig } from '@/components/3d/CameraRig';
-import { HelixScene, HELIX_LEVELS } from '@/components/3d/HelixScene';
-import { TAXONOMIC_RANKS, rankIndexForRung } from '@/components/3d/taxonomyRanks';
 import { BioEarth } from '@/components/3d/BioEarth/BioEarth';
 import {
   DEFAULT_SPECIES_BIOMARKERS,
@@ -20,9 +18,9 @@ import { useQuality } from '@/components/3d/QualityProvider';
 import { IucnBadge } from '@/components/ui/IucnBadge';
 import { ProductCard } from '@/components/domain/ProductCard';
 import { Skeleton } from '@/components/ui/Skeleton';
-import { StatRow } from '@/components/ui/StatRow';
 import { ButtonLink } from '@/components/domain/ButtonLink';
-import { Eyebrow, Panel } from '@/components/layout/Page';
+import { Eyebrow } from '@/components/layout/Page';
+import { HelixChapter } from '@/pages/home/HelixChapter';
 import { useProducts } from '@/api/queries/useProductQueries';
 import { useSpeciesList } from '@/api/queries/useSpeciesQueries';
 import { SPECIES_EXTRAS } from '@/api/adapters';
@@ -71,8 +69,6 @@ export default function Home(): React.JSX.Element {
   const { config } = useQuality();
   const [activeChapter, setActiveChapter] = useState<number>(0);
   const [selectedScientificName, setSelectedScientificName] = useState<string>(DEFAULT_SELECTED_SPECIES);
-  const [activeTaxonIdx, setActiveTaxonIdx] = useState<number>(0);
-  const activeRank = TAXONOMIC_RANKS[rankIndexForRung(activeTaxonIdx, HELIX_LEVELS)];
 
   // Tham chiếu tiến độ cuộn cho 3D scenes
   const genesisProgressRef = useRef<number>(0);
@@ -281,81 +277,8 @@ export default function Home(): React.JSX.Element {
         </motion.div>
       </section>
 
-      {/* 3. CHƯƠNG 1: BÁCH KHOA SỰ SỐNG (Taxonomy Helix Sticky Story) */}
-      {/* Cuộn dính (mẫu 3, tài liệu 02): màn rộng giữ nội dung đứng yên suốt 100vh cuộn để camera đi dọc 14 bậc.
-          Bản cũ cao 160vh mà không dính nên cuộn xuống để lại một khoảng đen lớn */}
-      <section id="chapter-1" className="relative border-t border-line px-4 py-24 sm:px-6 lg:h-[200vh] lg:px-10 lg:py-0">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:sticky lg:top-0 lg:h-screen lg:grid-cols-12 lg:pt-16">
-          {/* Cột thông tin bên trái */}
-          <div className="lg:col-span-5 z-20">
-            <Eyebrow>Chương 01 · Phả hệ sự sống</Eyebrow>
-
-            {/* Cụm nhấn xuống dòng riêng: để tự ngắt thì chữ "Chi" rơi lẻ một mình xuống dòng dưới */}
-            <h2 className="mt-4 text-[30px] leading-[1.05] font-semibold tracking-[-0.04em] text-fg md:text-[44px]">
-              Sáu cấp, từ Giới{' '}
-              <em className="block font-serif text-[1.08em] font-medium tracking-[-0.01em] text-accent">tới từng Chi</em>
-            </h2>
-
-            <p className="mt-5 text-base leading-relaxed text-fg-2 md:text-lg">
-              Giới, Ngành, Lớp, Bộ, Họ, Chi: mỗi loài trong bách khoa nằm ở cuối một nhánh như vậy. Sản phẩm đăng bán phải gắn đúng một loài trong cây.
-            </p>
-
-            {/* Cấp đang sáng trên chuỗi xoắn, đọc được bằng trình đọc màn hình */}
-            <Panel className="mt-8" aria-live="polite">
-              <div className="flex items-baseline justify-between gap-3">
-                <Eyebrow tone="muted">{activeRank?.rankVi}</Eyebrow>
-                <span className="font-mono text-sm text-fg-3">
-                  {(activeRank?.level ?? 0) + 1} / {TAXONOMIC_RANKS.length}
-                </span>
-              </div>
-              <h3 className="mt-3 text-xl font-semibold tracking-[-0.02em] text-fg">{activeRank?.name}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-fg-2">{activeRank?.desc}</p>
-            </Panel>
-
-            <StatRow
-              className="mt-6"
-              items={[
-                { label: 'Cấp phân loại', value: TAXONOMIC_RANKS.length },
-                { label: 'Loài trong bách khoa', value: speciesData?.length ?? '—' },
-              ]}
-            />
-
-            <div className="mt-8">
-              <ButtonLink to="/taxonomy" variant="secondary" pill>
-                <span>Xem cây phân loại</span>
-                <ArrowRight className="size-4" aria-hidden="true" />
-              </ButtonLink>
-            </div>
-          </div>
-
-          {/* Cột hiển thị Chuỗi Xoắn 3D bên phải. Chuỗi nằm gọn trong thẻ: căn giữa và lùi camera để thấy cả hai sợi */}
-          <div data-theme="dark" className="relative h-[480px] overflow-hidden rounded-[20px] border border-line bg-bg-deep md:h-[580px] lg:col-span-7">
-            <SceneShell
-              id="home-helix"
-              posterSrc="posters/home-helix.webp"
-              posterAlt="Chuỗi xoắn ADN và các nấc thang phân loại học sinh giới"
-              className="h-full w-full"
-              srDescription="Chuỗi xoắn kép ADN phát quang ngọc bích mô phỏng 6 cấp phân loại: Giới, Ngành, Lớp, Bộ, Họ, Chi."
-            >
-              {(_tier, handleFirstFrame) => (
-                <Canvas
-                  dpr={config.dpr}
-                  gl={{ antialias: config.antialias }}
-                  camera={{ position: [0, 0.4, 14], fov: 42 }}
-                  onCreated={() => handleFirstFrame?.()}
-                >
-                  <ambientLight intensity={0.5} />
-                  <pointLight position={[5, 5, 5]} intensity={1.5} color="#5eead4" />
-                  <HelixScene
-                    progress={helixProgressRef}
-                    onActiveTaxon={(idx) => setActiveTaxonIdx(idx)}
-                  />
-                </Canvas>
-              )}
-            </SceneShell>
-          </div>
-        </div>
-      </section>
+      {/* 3. CHƯƠNG 1: chuỗi xoắn ảnh loài (tài liệu 03 khối 5, mẫu P). Màn hẹp hoặc máy yếu: băng thẻ vuốt */}
+      <HelixChapter progressRef={helixProgressRef} speciesList={speciesData} />
 
       {/* 4. CHƯƠNG 2: HÀNH TINH BIONEXUS (BioEarth Full Interactive) */}
       <section id="chapter-2" className="relative min-h-screen border-t border-line py-24 px-4 sm:px-6 lg:px-10">

@@ -431,7 +431,7 @@ export default function ProductsPage(): React.JSX.Element {
   };
 
   return (
-    <PageContainer>
+    <PageContainer width="catalog">
       <PageHeader
         eyebrow="Sàn sinh vật cảnh"
         title="Cá thể nhân giống đang bán"
@@ -517,8 +517,8 @@ export default function ProductsPage(): React.JSX.Element {
           )}
 
           {isLoading ? (
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 md:gap-6" role="status" aria-label="Đang tải sản phẩm">
-              {Array.from({ length: 6 }).map((_, i) => (
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 md:gap-6" role="status" aria-label="Đang tải sản phẩm">
+              {Array.from({ length: PAGE_SIZE }).map((_, i) => (
                 <Skeleton key={i} className="aspect-[4/5] w-full rounded-[20px]" />
               ))}
             </div>
@@ -554,7 +554,8 @@ export default function ProductsPage(): React.JSX.Element {
               </div>
             </EmptyState>
           ) : (
-            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 md:gap-6">
+            // 12 cá thể mỗi trang: 4 cột ở màn rộng vẫn đủ 3 hàng chẵn
+            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 md:gap-6">
               {paginatedProducts.map((product) => (
                 <li key={product.id}>
                   <ProductCard product={product} onAddToCart={handleQuickAdd} />
