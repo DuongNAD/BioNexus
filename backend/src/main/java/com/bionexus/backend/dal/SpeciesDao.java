@@ -77,6 +77,86 @@ public class SpeciesDao {
         return speciesList;
     }
 
+    /**
+     * Danh sách loài cho bách khoa. Mọi tham số đều tùy chọn:
+     * nodeId: lấy loài của nút đó và mọi nút con cháu (đệ quy theo parentNodeID), vd nodeId của một Bộ thì ra mọi loài thuộc Bộ;
+     * q: tìm không phân biệt hoa thường và dấu trong tên khoa học, tên thường gọi và mô tả;
+     * iucn: lọc đúng một mức bảo tồn.
+     * Nút không tồn tại thì danh sách rỗng (giống bản mock của giao diện).
+     */
+    public List<Species> searchSpecies(Integer nodeId, String q, ConservationStatus iucn) throws SQLException {
+        StringBuilder sql = new StringBuilder();
+        if (nodeId != null) {
+            // Cây tối đa 6 cấp nên đệ quy rất nông
+            sql.append("WITH sub AS (SELECT nodeID FROM TaxonomyNodes WHERE nodeID = ? ")
+               .append("UNION ALL SELECT t.nodeID FROM TaxonomyNodes t JOIN sub s ON t.parentNodeID = s.nodeID) ");
+        }
+        sql.append("SELECT sp.* FROM Species sp WHERE 1 = 1");
+        if (nodeId != null) {
+            sql.append(" AND sp.nodeID IN (SELECT nodeID FROM sub)");
+        }
+        if (iucn != null) {
+            sql.append(" AND sp.conservationStatus = ?");
+        }
+        if (q != null) {
+            sql.append(" AND (sp.scientificName").append(SqlSearch.COLLATION).append(" LIKE ? ESCAPE '\\'")
+               .append(" OR sp.commonName").append(SqlSearch.COLLATION).append(" LIKE ? ESCAPE '\\'")
+               .append(" OR sp.description").append(SqlSearch.COLLATION).append(" LIKE ? ESCAPE '\\')");
+        }
+        sql.append(" ORDER BY sp.speciesID");
+
+        List<Species> speciesList = new ArrayList<>();
+        try (
+                Connection conn = DBContext.getConnection();
+                PreparedStatement pts = conn.prepareStatement(sql.toString())
+        ) {
+            int i = 1;
+            if (nodeId != null) {
+                pts.setInt(i++, nodeId);
+            }
+            if (iucn != null) {
+                pts.setString(i++, iucn.name());
+            }
+            if (q != null) {
+                String like = SqlSearch.likeContains(q);
+                pts.setString(i++, like);
+                pts.setString(i++, like);
+                pts.setString(i, like);
+            }
+            try (ResultSet rs = pts.executeQuery()) {
+                while (rs.next()) {
+                    speciesList.add(mapRow(rs));
+                }
+            }
+        }
+        return speciesList;
+    }
+
+    /** Các loài theo danh sách id: một truy vấn cho cả trang sản phẩm. Id không có thì không nằm trong kết quả. */
+    public java.util.Map<Integer, Species> getSpeciesByIds(java.util.Collection<Integer> ids) throws SQLException {
+        java.util.Map<Integer, Species> result = new java.util.HashMap<>();
+        List<Integer> unique = new ArrayList<>(new java.util.LinkedHashSet<>(ids));
+        for (int from = 0; from < unique.size(); from += SqlSearch.IN_CHUNK) {
+            List<Integer> part = unique.subList(from, Math.min(from + SqlSearch.IN_CHUNK, unique.size()));
+            String sql = "SELECT * FROM Species WHERE speciesID IN (" + SqlSearch.placeholders(part.size()) + ")";
+            try (
+                    Connection conn = DBContext.getConnection();
+                    PreparedStatement pts = conn.prepareStatement(sql)
+            ) {
+                for (int i = 0; i < part.size(); i++) {
+                    pts.setInt(i + 1, part.get(i));
+                }
+                try (ResultSet rs = pts.executeQuery()) {
+                    while (rs.next()) {
+                        Species s = mapRow(rs);
+                        result.put(s.getSpeciesID(), s);
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
     public boolean insertSpecies(Species species) throws SQLException {
         String sql = "INSERT INTO Species (nodeID, managedByAdminID, scientificName, commonName, conservationStatus, environmentSpecs, description, imageUrl, referenceURL) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
         try (

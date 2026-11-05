@@ -63,6 +63,31 @@ public class UsersDao {
         return null;
     }
 
+    /** Người dùng theo danh sách id: một truy vấn cho cả trang duyệt shop. Id không có thì không nằm trong kết quả. */
+    public java.util.Map<Integer, Users> getUsersByIds(java.util.Collection<Integer> ids) throws SQLException {
+        java.util.Map<Integer, Users> result = new java.util.HashMap<>();
+        List<Integer> unique = new ArrayList<>(new java.util.LinkedHashSet<>(ids));
+        for (int from = 0; from < unique.size(); from += SqlSearch.IN_CHUNK) {
+            List<Integer> part = unique.subList(from, Math.min(from + SqlSearch.IN_CHUNK, unique.size()));
+            String sql = "SELECT * FROM Users WHERE userID IN (" + SqlSearch.placeholders(part.size()) + ")";
+            try (
+                    Connection conn = DBContext.getConnection();
+                    PreparedStatement pts = conn.prepareStatement(sql)
+            ) {
+                for (int i = 0; i < part.size(); i++) {
+                    pts.setInt(i + 1, part.get(i));
+                }
+                try (ResultSet rs = pts.executeQuery()) {
+                    while (rs.next()) {
+                        Users u = mapRow(rs);
+                        result.put(u.getUserId(), u);
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
     public Users getUserByUsername(String username) {
         String sql = "SELECT * FROM Users WHERE username = ?";
         try (

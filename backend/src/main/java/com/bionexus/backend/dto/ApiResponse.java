@@ -22,6 +22,11 @@ public class ApiResponse<T> {
         return new ApiResponse<>(true, MessageKey.SUCCESS.name(), MessageKey.SUCCESS.getMessage("vi"), data);
     }
 
+    /** Thành công kèm thông điệp riêng (vd ORDER_CREATE_SUCCESS: "Đặt hàng thành công"); code là tên key. */
+    public static <T> ApiResponse<T> ok(MessageKey key, T data) {
+        return new ApiResponse<>(true, key.name(), key.getMessage("vi"), data);
+    }
+
     public static <T> ApiResponse<T> error(MessageKey key) {
         return new ApiResponse<>(false, key.name(), key.getMessage("vi"), null);
     }

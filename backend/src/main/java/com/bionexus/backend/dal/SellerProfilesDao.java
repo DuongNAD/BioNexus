@@ -77,6 +77,30 @@ public class SellerProfilesDao {
         return null;
     }
 
+    /** Tên shop theo danh sách id: một truy vấn cho cả trang thay vì hỏi từng shop. Id không có thì không nằm trong kết quả. */
+    public java.util.Map<Integer, String> getShopNamesByIds(java.util.Collection<Integer> ids) throws SQLException {
+        java.util.Map<Integer, String> names = new java.util.HashMap<>();
+        List<Integer> unique = new java.util.ArrayList<>(new java.util.LinkedHashSet<>(ids));
+        for (int from = 0; from < unique.size(); from += SqlSearch.IN_CHUNK) {
+            List<Integer> part = unique.subList(from, Math.min(from + SqlSearch.IN_CHUNK, unique.size()));
+            String sql = "SELECT sellerProfileID, shopName FROM SellerProfiles WHERE sellerProfileID IN (" + SqlSearch.placeholders(part.size()) + ")";
+            try (
+                    java.sql.Connection conn = DBContext.getConnection();
+                    java.sql.PreparedStatement pts = conn.prepareStatement(sql)
+            ) {
+                for (int i = 0; i < part.size(); i++) {
+                    pts.setInt(i + 1, part.get(i));
+                }
+                try (ResultSet rs = pts.executeQuery()) {
+                    while (rs.next()) {
+                        names.put(rs.getInt(1), rs.getString(2));
+                    }
+                }
+            }
+        }
+        return names;
+    }
+
     public boolean insertSellerProfile(SellerProfiles sellerProfile) {
         String sql = "INSERT INTO SellerProfiles (userID, shopName, businessLicenseUrl, bio, status, createdAt) VALUES (?, ?, ?, ?, ?, ?)";
         try (

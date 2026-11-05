@@ -1,11 +1,9 @@
 package com.bionexus.backend.servlet;
 
-
 import com.bionexus.backend.dto.ApiResponse;
-import com.bionexus.backend.dto.SpeciesDto;
 import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.service.TaxonomyService;
-import com.bionexus.backend.util.ApiException;
+import com.bionexus.backend.util.ApiErrors;
 import com.bionexus.backend.util.JsonUtil;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -23,28 +21,28 @@ public class SpeciesServlet extends HttpServlet {
         String pathInfo = request.getPathInfo();
         try {
             if (pathInfo == null || pathInfo.equals("/")) {
-                JsonUtil.writeBody(response, 400, ApiResponse.error(MessageKey.NOT_FOUND));
+                // Danh sách loài cho bách khoa: ?nodeId=&q=&iucn= (đều tùy chọn)
+                String nodeIdParam = request.getParameter("nodeId");
+                Integer nodeId = null;
+                if (nodeIdParam != null && !nodeIdParam.isBlank()) {
+                    nodeId = Integer.parseInt(nodeIdParam.trim()); // không phải số thì NumberFormatException → 400 INVALID_ID
+                }
+                JsonUtil.writeBody(response, 200, ApiResponse.ok(
+                        taxonomyService.searchSpecies(nodeId, request.getParameter("q"), request.getParameter("iucn"))));
                 return;
             }
 
             String[] parts = pathInfo.substring(1).split("/");
-            int speciesId = Integer.parseInt(parts[0]);
+            int speciesId = Integer.parseInt(parts[0]); // không phải số thì NumberFormatException → 400 INVALID_ID
 
             if (parts.length == 1) {
-                int id = Integer.parseInt(parts[0]);
-                SpeciesDto speciesDetail = taxonomyService.getSpeciesDetail(id);
-                JsonUtil.writeBody(response, 200, ApiResponse.ok(speciesDetail));
+                JsonUtil.writeBody(response, 200, ApiResponse.ok(taxonomyService.getSpeciesDetail(speciesId)));
                 return;
             }
 
             JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
-        } catch (NumberFormatException e) {
-            JsonUtil.writeBody(response, 400, ApiResponse.error(MessageKey.INVALID_ID));
-        } catch (ApiException e) {
-            JsonUtil.writeBody(response, 404, ApiResponse.error(e.getMessageKey()));
         } catch (Exception e) {
-            e.printStackTrace();
-            JsonUtil.writeBody(response, 500, ApiResponse.error(MessageKey.INTERNAL_ERROR));
+            ApiErrors.write(response, e);
         }
     }
 }

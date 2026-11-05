@@ -1,0 +1,225 @@
+### BioNexus: gọi thử API bằng IntelliJ HTTP Client (bấm nút chạy cạnh từng request).
+### Đổi @base theo context path của Tomcat:
+###   - IntelliJ "war exploded" mặc định:  http://localhost:8081/backend_war_exploded
+###   - Đặt Application context = "/":      http://localhost:8081
+###   - Thả BioNexus.war vào Tomcat:        http://localhost:8080/BioNexus
+### Mật khẩu test: user 123456, admin admin123 (dữ liệu seed, chỉ dùng khi dev).
+@base = http://localhost:8081
+
+###################### CÔNG KHAI ######################
+
+### Kiểm tra server sống
+GET {{base}}/api/ping
+
+### Cây phân loại: các nút gốc (2 giới)
+GET {{base}}/api/taxonomy
+
+### Chi tiết 1 nút + đường dẫn từ gốc
+GET {{base}}/api/taxonomy/1
+
+### Các nút con
+GET {{base}}/api/taxonomy/1/children
+
+### Loài gắn vào nút (cấp chi)
+GET {{base}}/api/taxonomy/1/species
+
+### Chi tiết loài
+GET {{base}}/api/species/1
+
+### Sản phẩm công khai, mặc định trang 1, 12 sản phẩm
+GET {{base}}/api/products
+
+### Phân trang (size từ 1 đến 48) + tìm không phân biệt hoa thường và dấu ("rua" khớp "Rùa")
+GET {{base}}/api/products?page=2&size=24&q=rua
+
+### Lọc theo loài
+GET {{base}}/api/products?speciesId=1
+
+### Chi tiết sản phẩm
+GET {{base}}/api/products/1
+
+###################### ĐĂNG NHẬP ######################
+
+### Đăng ký tài khoản USER (đổi username và email nếu đã tồn tại)
+POST {{base}}/api/auth/register
+Content-Type: application/json
+
+{"username": "khachmoi", "password": "123456", "email": "khachmoi@example.com", "fullName": "Khách Mới", "phone": "0900000001", "address": "TP.HCM"}
+
+### levanc: user thường, không có shop
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{"username": "levanc", "password": "123456"}
+
+> {% client.global.set("user", response.body.data.token); %}
+
+### nguyenvana: shop ACTIVE (BioGreen Exotic)
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{"username": "nguyenvana", "password": "123456"}
+
+> {% client.global.set("seller", response.body.data.token); %}
+
+### tranthib: shop PENDING (đăng sản phẩm phải ra 403)
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{"username": "tranthib", "password": "123456"}
+
+> {% client.global.set("pending", response.body.data.token); %}
+
+### vuthif: user BANNED, đúng mật khẩu nhưng 403
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{"username": "vuthif", "password": "123456"}
+
+### Sai mật khẩu: 401 với câu chung
+POST {{base}}/api/auth/login
+Content-Type: application/json
+
+{"username": "levanc", "password": "sai"}
+
+### Admin MODERATOR: duyệt shop và sản phẩm
+POST {{base}}/api/auth/admin/login
+Content-Type: application/json
+
+{"username": "moderator1", "password": "admin123"}
+
+> {% client.global.set("mod", response.body.data.token); %}
+
+### Admin BIOLOGIST: duyệt sản phẩm phải ra 403
+POST {{base}}/api/auth/admin/login
+Content-Type: application/json
+
+{"username": "biologist1", "password": "admin123"}
+
+> {% client.global.set("bio", response.body.data.token); %}
+
+###################### USER ######################
+
+### Thông tin của tôi (kèm shop nếu có)
+GET {{base}}/api/me
+Authorization: Bearer {{user}}
+
+### Không kèm token: 401
+GET {{base}}/api/me
+
+### Xin mở shop (levanc chưa có shop: 201 PENDING)
+POST {{base}}/api/seller/apply
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"shopName": "Shop Của Văn C", "businessLicenseUrl": "", "bio": "Bán cá cảnh"}
+
+### Sản phẩm của shop tôi (mọi trạng thái)
+GET {{base}}/api/seller/products
+Authorization: Bearer {{seller}}
+
+### Đăng sản phẩm: 201, status PENDING (đổi speciesId theo dữ liệu)
+POST {{base}}/api/seller/products
+Authorization: Bearer {{seller}}
+Content-Type: application/json
+
+{"speciesId": 1, "productName": "Sản phẩm thử", "price": 150000, "stockQuantity": 3, "description": "Mô tả", "imageUrl": "photos/thu.webp"}
+
+### Shop PENDING đăng sản phẩm: 403 SELLER_NOT_ACTIVE
+POST {{base}}/api/seller/products
+Authorization: Bearer {{pending}}
+Content-Type: application/json
+
+{"speciesId": 1, "productName": "x", "price": 1000, "stockQuantity": 1, "description": "x", "imageUrl": "a.webp"}
+
+###################### GIỎ HÀNG ######################
+### Giỏ không lưu giá và không giữ hàng: giá và tồn kho luôn lấy từ sản phẩm lúc xem.
+
+### Xem giỏ (levanc có sẵn 2 món trong giỏ seed). Chưa có giỏ thì trả giỏ rỗng
+GET {{base}}/api/cart
+Authorization: Bearer {{user}}
+
+### Thêm món (đổi productId); món đã có thì cộng dồn. Vượt kho: 409 CART_QUANTITY_EXCEEDS_STOCK
+POST {{base}}/api/cart/items
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"productId": 1, "quantity": 1}
+
+### Đặt số lượng mới (không cộng dồn), từ 1 đến tồn kho
+PUT {{base}}/api/cart/items/1
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"quantity": 3}
+
+### Bỏ 1 món khỏi giỏ (món không có trong giỏ: 404 CART_ITEM_NOT_FOUND)
+DELETE {{base}}/api/cart/items/1
+Authorization: Bearer {{user}}
+
+### Xóa hết giỏ
+DELETE {{base}}/api/cart
+Authorization: Bearer {{user}}
+
+###################### ĐẶT HÀNG ######################
+
+### Mua 1 sản phẩm (đổi productId): 201. Giá lấy từ DB, không nhận từ client
+POST {{base}}/api/orders
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"items": [{"productId": 1, "quantity": 2}], "shippingAddress": "12 Đường Thử, Quận 1, TP.HCM"}
+
+### Bỏ "items" thì mua cả giỏ hàng (levanc có sẵn 2 món trong giỏ seed). Giỏ rỗng: 400 CART_EMPTY
+POST {{base}}/api/orders
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"shippingAddress": "12 Đường Thử, Quận 1, TP.HCM"}
+
+### Mua quá tồn kho: 409 PRODUCT_OUT_OF_STOCK, kho không đổi
+POST {{base}}/api/orders
+Authorization: Bearer {{user}}
+Content-Type: application/json
+
+{"items": [{"productId": 1, "quantity": 99999}], "shippingAddress": "x"}
+
+### Đơn của tôi (mới nhất trước)
+GET {{base}}/api/orders/mine
+Authorization: Bearer {{user}}
+
+### Chi tiết 1 đơn của tôi (đơn người khác: 404)
+GET {{base}}/api/orders/1
+Authorization: Bearer {{user}}
+
+###################### KIỂM DUYỆT (ADMIN) ######################
+
+### Shop chờ duyệt. Bỏ ?status= thì trả mọi trạng thái
+GET {{base}}/api/admin/sellers?status=PENDING
+Authorization: Bearer {{mod}}
+
+### Duyệt shop: PENDING sang ACTIVE hoặc REJECTED; ACTIVE sang BANNED. Sai luật: 409
+PUT {{base}}/api/admin/sellers/2/status
+Authorization: Bearer {{mod}}
+Content-Type: application/json
+
+{"status": "ACTIVE"}
+
+### Sản phẩm chờ duyệt
+GET {{base}}/api/admin/products?status=PENDING
+Authorization: Bearer {{mod}}
+
+### Duyệt sản phẩm: PENDING sang APPROVED hoặc REJECTED. Duyệt lần hai: 409
+PUT {{base}}/api/admin/products/1/status
+Authorization: Bearer {{mod}}
+Content-Type: application/json
+
+{"status": "APPROVED"}
+
+### BIOLOGIST gọi API duyệt: 403 AUTH_FORBIDDEN
+GET {{base}}/api/admin/products
+Authorization: Bearer {{bio}}
+
+### Token USER gọi API admin: 403
+GET {{base}}/api/admin/products
+Authorization: Bearer {{user}}

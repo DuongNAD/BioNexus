@@ -252,19 +252,19 @@ BEGIN TRY
     -- ảnh trên Wikimedia Commons đã kiểm giấy phép. 655 loài, 580 sản phẩm, 9 shop mới.
     -- Có thêm mức EX. Vật nuôi thuần hoá (chó nhà, mèo nhà...) IUCN không đánh giá nên lưu LC làm giá trị giữ chỗ.
     -- Sản phẩm có ảnh riêng thì imageUrl là đường dẫn tương đối photos/p/... trong bản build giao diện.
-    -- Users mới dùng mật khẩu thô giống khối 1 (backend chưa băm).
+    -- Users mới dùng cùng hash BCrypt với 7 user gốc (mật khẩu test 123456).
 
     INSERT INTO Users (username, password_hash, email, fullName, phone, address, status)
     VALUES
-    ('serpentlab', '123456', 'serpentlab@example.com', N'Ngô Minh Khoa', '0971000201', N'Thủ Đức, TP.HCM', 'ACTIVE'),
-    ('ruaxanh', '123456', 'ruaxanh@example.com', N'Bùi Thanh Hà', '0971000302', N'Biên Hòa, Đồng Nai', 'ACTIVE'),
-    ('froghaven', '123456', 'froghaven@example.com', N'Đỗ Quang Huy', '0971000403', N'Ninh Kiều, Cần Thơ', 'ACTIVE'),
-    ('aquaviet', '123456', 'aquaviet@example.com', N'Trịnh Bảo Ngọc', '0971000504', N'Hoàng Mai, Hà Nội', 'ACTIVE'),
-    ('invertstudio', '123456', 'invertstudio@example.com', N'Lý Gia Bảo', '0971000605', N'Hải Châu, Đà Nẵng', 'ACTIVE'),
-    ('dalatorchid', '123456', 'dalatorchid@example.com', N'Hồ Thị Lan', '0971000806', N'Phường 9, Đà Lạt', 'ACTIVE'),
-    ('vuonchim', '123456', 'vuonchim@example.com', N'Phan Đức Thịnh', '0971001007', N'Long Biên, Hà Nội', 'ACTIVE'),
-    ('reefhouse', '123456', 'reefhouse@example.com', N'Võ Hải Đăng', '0971001108', N'Nha Trang, Khánh Hòa', 'ACTIVE'),
-    ('petgarden', '123456', 'petgarden@example.com', N'Đặng Thu Trang', '0971001309', N'Gò Vấp, TP.HCM', 'ACTIVE');
+    ('serpentlab', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'serpentlab@example.com', N'Ngô Minh Khoa', '0971000201', N'Thủ Đức, TP.HCM', 'ACTIVE'),
+    ('ruaxanh', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'ruaxanh@example.com', N'Bùi Thanh Hà', '0971000302', N'Biên Hòa, Đồng Nai', 'ACTIVE'),
+    ('froghaven', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'froghaven@example.com', N'Đỗ Quang Huy', '0971000403', N'Ninh Kiều, Cần Thơ', 'ACTIVE'),
+    ('aquaviet', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'aquaviet@example.com', N'Trịnh Bảo Ngọc', '0971000504', N'Hoàng Mai, Hà Nội', 'ACTIVE'),
+    ('invertstudio', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'invertstudio@example.com', N'Lý Gia Bảo', '0971000605', N'Hải Châu, Đà Nẵng', 'ACTIVE'),
+    ('dalatorchid', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'dalatorchid@example.com', N'Hồ Thị Lan', '0971000806', N'Phường 9, Đà Lạt', 'ACTIVE'),
+    ('vuonchim', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'vuonchim@example.com', N'Phan Đức Thịnh', '0971001007', N'Long Biên, Hà Nội', 'ACTIVE'),
+    ('reefhouse', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'reefhouse@example.com', N'Võ Hải Đăng', '0971001108', N'Nha Trang, Khánh Hòa', 'ACTIVE'),
+    ('petgarden', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'petgarden@example.com', N'Đặng Thu Trang', '0971001309', N'Gò Vấp, TP.HCM', 'ACTIVE');
 
     INSERT INTO SellerProfiles (userID, shopName, businessLicenseUrl, bio, status, approvedByAdminID)
     SELECT u.userID, v.shopName, v.businessLicenseUrl, v.bio, 'ACTIVE', a.adminID

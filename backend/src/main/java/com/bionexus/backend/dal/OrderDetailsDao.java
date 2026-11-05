@@ -72,6 +72,18 @@ public class OrderDetailsDao {
         return false;
     }
 
+    /** Thêm một dòng đơn bằng Connection của transaction đặt hàng. Lỗi DB được ném lên để service rollback. */
+    public void insertOrderDetail(java.sql.Connection conn, OrderDetails orderDetail) throws SQLException {
+        String sql = "INSERT INTO OrderDetails (orderID, productID, quantity, unitPrice) VALUES (?, ?, ?, ?)";
+        try (var pts = conn.prepareStatement(sql)) {
+            pts.setLong(1, orderDetail.getOrderID());
+            pts.setInt(2, orderDetail.getProductID());
+            pts.setInt(3, orderDetail.getQuantity());
+            pts.setBigDecimal(4, orderDetail.getUnitPrice());
+            pts.executeUpdate();
+        }
+    }
+
     public boolean updateOrderDetail(OrderDetails orderDetail) {
         String sql = "UPDATE OrderDetails SET productID = ?, quantity = ?, unitPrice = ? WHERE orderID = ? AND productID = ?";
         try (

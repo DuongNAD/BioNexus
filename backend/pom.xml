@@ -59,11 +59,21 @@
     </dependencies>
 
     <build>
+        <!-- Tên file ra là BioNexus.war nên context path khi thả vào Tomcat là /BioNexus -->
+        <finalName>BioNexus</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.5.1</version>
+                <configuration>
+                    <!-- Nhúng giao diện React đã build (npm run build trong frontend/) vào gốc WAR -->
+                    <webResources>
+                        <resource>
+                            <directory>../frontend/dist</directory>
+                        </resource>
+                    </webResources>
+                </configuration>
             </plugin>
         </plugins>
     </build>

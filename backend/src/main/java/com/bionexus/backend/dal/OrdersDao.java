@@ -44,7 +44,7 @@ public class OrdersDao {
     }
 
     public List<Orders> getOrderByUserId(int userId) {
-        String sql = "SELECT * FROM Orders WHERE userID = ?";
+        String sql = "SELECT * FROM Orders WHERE userID = ? ORDER BY orderDate DESC, orderID DESC";
         try (
                 Connection conn = DBContext.getConnection();
                 PreparedStatement pts = conn.prepareStatement(sql)
@@ -123,6 +123,28 @@ public class OrdersDao {
     }
 
 
+
+    /**
+     * Thêm đơn bằng Connection của transaction (OrderService quản lý commit/rollback) và trả về orderID mới.
+     * Ngày giờ để DB tự điền (default sysdatetime()). Trùng orderCode thì ném SQLException mã 2627.
+     */
+    public long insertOrderReturnId(Connection conn, Orders order) throws SQLException {
+        String sql = "INSERT INTO Orders (orderCode, userID, totalAmount, status, shippingAddress) VALUES (?, ?, ?, ?, ?)";
+        try (PreparedStatement pts = conn.prepareStatement(sql, java.sql.Statement.RETURN_GENERATED_KEYS)) {
+            pts.setString(1, order.getOrderCode());
+            pts.setInt(2, order.getUserId());
+            pts.setBigDecimal(3, order.getOrderAmount());
+            pts.setString(4, order.getStatus().name());
+            pts.setString(5, order.getShippingAddress());
+            pts.executeUpdate();
+            try (ResultSet keys = pts.getGeneratedKeys()) {
+                if (keys.next()) {
+                    return keys.getLong(1);
+                }
+            }
+            throw new SQLException("Không lấy được orderID vừa tạo");
+        }
+    }
 
     public boolean updateOrder(Orders order) {
         String sql = "UPDATE Orders SET orderCode = ?, userID = ?, updatedAt = ?, totalAmount = ?, status = ?, shippingAddress = ? WHERE orderID = ?";

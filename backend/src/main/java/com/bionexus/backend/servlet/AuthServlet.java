@@ -6,6 +6,7 @@ import com.bionexus.backend.dto.LoginRequest;
 import com.bionexus.backend.dto.RegisterRequest;
 import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.service.AuthService;
+import com.bionexus.backend.util.ApiErrors;
 import com.bionexus.backend.util.ApiException;
 import com.bionexus.backend.util.JsonUtil;
 import jakarta.servlet.annotation.WebServlet;
@@ -27,16 +28,18 @@ public class AuthServlet extends HttpServlet {
             return;
         }
 
-        try{
-            if("/login".equals(pathInfo)) {
+        try {
+            if ("/login".equals(pathInfo)) {
                 LoginRequest loginRequest = JsonUtil.readBody(request, LoginRequest.class);
+                if (loginRequest == null) throw new ApiException(MessageKey.BAD_REQUEST);
                 AuthResponse authResponse = authService.loginUser(loginRequest);
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(authResponse));
                 return;
             }
 
-            if("/loginAdmin".equals(pathInfo) || "/admin/login".equals(pathInfo)) {
+            if ("/loginAdmin".equals(pathInfo) || "/admin/login".equals(pathInfo)) {
                 LoginRequest loginRequest = JsonUtil.readBody(request, LoginRequest.class);
+                if (loginRequest == null) throw new ApiException(MessageKey.BAD_REQUEST);
                 AuthResponse authResponse = authService.loginAdmin(loginRequest);
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(authResponse));
                 return;
@@ -49,17 +52,9 @@ public class AuthServlet extends HttpServlet {
                 return;
             }
             JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
-        } catch (ApiException e){
-            int status = switch (e.getMessageKey()){
-                case AUTH_INVALID_CREDENTIALS -> 401;
-                case AUTH_ACCOUNT_BANNED , AUTH_ACCOUNT_INACTIVE -> 403;
-                case USER_USERNAME_EXISTS , USER_EMAIL_EXISTS -> 409;
-                default -> 400;
-            };
-            JsonUtil.writeBody(response,status,ApiResponse.error((e.getMessageKey())));
         } catch (Exception e) {
-            e.printStackTrace();
-            JsonUtil.writeBody(response, 500, ApiResponse.error(MessageKey.INTERNAL_ERROR));
+            // Mã HTTP theo bảng chung trong ApiErrors (401 sai tài khoản, 403 bị khóa, 409 trùng...)
+            ApiErrors.write(response, e);
         }
     }
 }

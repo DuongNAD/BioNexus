@@ -5,6 +5,7 @@ import com.bionexus.backend.dal.TaxonomyNodesDao;
 import com.bionexus.backend.dto.SpeciesDto;
 import com.bionexus.backend.dto.TaxonomyDetailDto;
 import com.bionexus.backend.dto.TaxonomyNodeDto;
+import com.bionexus.backend.enums.ConservationStatus;
 import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.model.Species;
 import com.bionexus.backend.model.TaxonomyNodes;
@@ -57,6 +58,27 @@ public class TaxonomyService {
         }
 
         return speciesList;
+    }
+
+    /**
+     * GET /api/species?nodeId=&q=&iucn=: mọi loài, hoặc loài dưới một nhánh, có thể lọc theo từ khóa và mức IUCN.
+     * iucn không phải một mức hợp lệ (LC, NT, VU, EN, CR, EW, EX) thì SPECIES_INVALID_CONSERVATION_STATUS.
+     */
+    public List<SpeciesDto> searchSpecies(Integer nodeId, String q, String iucn) throws Exception {
+        ConservationStatus status = null;
+        if (iucn != null && !iucn.isBlank()) {
+            try {
+                status = ConservationStatus.valueOf(iucn.trim().toUpperCase());
+            } catch (IllegalArgumentException e) {
+                throw new ApiException(MessageKey.SPECIES_INVALID_CONSERVATION_STATUS);
+            }
+        }
+        String keyword = (q == null || q.isBlank()) ? null : q.trim();
+        List<SpeciesDto> result = new ArrayList<>();
+        for (Species species : speciesDao.searchSpecies(nodeId, keyword, status)) {
+            result.add(SpeciesDto.fromEntity(species));
+        }
+        return result;
     }
 
     public TaxonomyDetailDto getTaxonomyDetail(int nodeId) throws Exception{

@@ -1,9 +1,8 @@
 package com.bionexus.backend.servlet;
 
 import com.bionexus.backend.dto.ApiResponse;
-import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.service.UserService;
-import com.bionexus.backend.util.ApiException;
+import com.bionexus.backend.util.ApiErrors;
 import com.bionexus.backend.util.JsonUtil;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -19,15 +18,10 @@ public class MeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
-            int userId = (int) request.getAttribute("authId");
-            JsonUtil.writeBody(response,200, ApiResponse.ok(userService.getMe(userId)));
-        }
-        catch (ApiException e) {
-            JsonUtil.writeBody(response,404, ApiResponse.error(e.getMessageKey()));
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-            JsonUtil.writeBody(response,500, ApiResponse.error(MessageKey.INTERNAL_ERROR));
+            int userId = (int) request.getAttribute("authId"); // JwtAuthFilter đã nạp
+            JsonUtil.writeBody(response, 200, ApiResponse.ok(userService.getMe(userId)));
+        } catch (Exception e) {
+            ApiErrors.write(response, e);
         }
     }
 }

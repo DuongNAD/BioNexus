@@ -26,8 +26,13 @@ public class JwtUtil {
     }
 
     public static String generateToken(int id, String username,String accountType ,String role){
+        return generateToken(id, username, accountType, role, EXPIRATION_TIME);
+    }
+
+    /** Có tham số hạn (mili giây) để test tạo được token đã hết hạn; code chạy thật dùng bản 4 tham số ở trên. */
+    static String generateToken(int id, String username, String accountType, String role, long ttlMillis){
         Date now = new Date();
-        Date expiryDate = new Date(now.getTime() + EXPIRATION_TIME);
+        Date expiryDate = new Date(now.getTime() + ttlMillis);
 
         return JWT.create().withSubject(String.valueOf(id))
                 .withClaim("username", username)

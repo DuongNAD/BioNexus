@@ -39,6 +39,11 @@ const SEED_NODES = [
 ];
 const SEED_SHOP_IDS = { 'BioGreen Exotic': 1, 'Carnivora Garden': 3 };
 
+// Hash BCrypt của mật khẩu test "123456", cùng giá trị 7 user gốc trong seed_data.sql.
+// Backend so mật khẩu bằng BCrypt nên cột password_hash không được chứa mật khẩu thô.
+// MSW vẫn so chuỗi thô (mocks/db.ts) nên mockUsers bên dưới giữ '123456'.
+const PASSWORD_HASH_123456 = '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa';
+
 // Tên Việt cho các cấp cao: catalog chỉ có taxonomyVi cho bộ, họ, chi
 const HIGH_RANK_VI = {
   Arthropoda: 'Ngành Chân khớp', Mollusca: 'Ngành Thân mềm',
@@ -207,11 +212,11 @@ block.push('    -- sửa catalog rồi chạy lại script. Tên khoa học, gbi
 block.push(`    -- ảnh trên Wikimedia Commons đã kiểm giấy phép. ${speciesRows.length} loài, ${productRows.length} sản phẩm, ${NEW_SHOPS.length} shop mới.`);
 block.push('    -- Có thêm mức EX. Vật nuôi thuần hoá (chó nhà, mèo nhà...) IUCN không đánh giá nên lưu LC làm giá trị giữ chỗ.');
 block.push('    -- Sản phẩm có ảnh riêng thì imageUrl là đường dẫn tương đối photos/p/... trong bản build giao diện.');
-block.push('    -- Users mới dùng mật khẩu thô giống khối 1 (backend chưa băm).');
+block.push('    -- Users mới dùng cùng hash BCrypt với 7 user gốc (mật khẩu test 123456).');
 block.push('');
 block.push('    INSERT INTO Users (username, password_hash, email, fullName, phone, address, status)');
 block.push('    VALUES');
-block.push(NEW_SHOPS.map((s) => `    (${q(s.user.username)}, '123456', ${q(`${s.user.username}@example.com`)}, ${nq(s.user.fullName)}, ${q(s.user.phone)}, ${nq(s.user.address)}, 'ACTIVE')`).join(',\n') + ';');
+block.push(NEW_SHOPS.map((s) => `    (${q(s.user.username)}, ${q(PASSWORD_HASH_123456)}, ${q(`${s.user.username}@example.com`)}, ${nq(s.user.fullName)}, ${q(s.user.phone)}, ${nq(s.user.address)}, 'ACTIVE')`).join(',\n') + ';');
 block.push('');
 block.push('    INSERT INTO SellerProfiles (userID, shopName, businessLicenseUrl, bio, status, approvedByAdminID)');
 block.push('    SELECT u.userID, v.shopName, v.businessLicenseUrl, v.bio, \'ACTIVE\', a.adminID');

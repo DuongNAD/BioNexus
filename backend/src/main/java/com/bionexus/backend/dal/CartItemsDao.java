@@ -150,6 +150,14 @@ public class CartItemsDao {
         }
     }
 
+    /** Như clearCart nhưng dùng Connection của transaction (đặt hàng từ giỏ: xóa giỏ cùng lúc commit đơn). */
+    public int clearCart(Connection conn, int cartID) throws SQLException {
+        try (PreparedStatement pts = conn.prepareStatement("DELETE FROM CartItems WHERE cartID = ?")) {
+            pts.setInt(1, cartID);
+            return pts.executeUpdate();
+        }
+    }
+
     /** Xóa hết món trong giỏ (giỏ vẫn còn). Trả về số món đã xóa. */
     public int clearCart(int cartID) throws SQLException {
         String sql = "DELETE FROM CartItems WHERE cartID = ?";
