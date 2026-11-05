@@ -17,8 +17,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static jdk.internal.org.jline.utils.Colors.s;
-
 public class SellerService {
     private final SellerProfilesDao sellerProfilesDao = new SellerProfilesDao();
     private final ProductDao productDao = new ProductDao();

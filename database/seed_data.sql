@@ -42,22 +42,22 @@ BEGIN TRY
     -- 1. Users: đủ 3 trạng thái ACTIVE / INACTIVE / BANNED
     INSERT INTO Users (username, password_hash, email, fullName, phone, address, status)
     VALUES
-    ('nguyenvana', '123456', 'vana@gmail.com', N'Nguyễn Văn A', '0901234567', N'Quận 1, TP.HCM',        'ACTIVE'),
-    ('tranthib',   '123456', 'thib@gmail.com', N'Trần Thị B',   '0912345678', N'Cầu Giấy, Hà Nội',     'ACTIVE'),
-    ('levanc',     '123456', 'vanc@gmail.com', N'Lê Văn C',     '0987654321', N'Hải Châu, Đà Nẵng',    'ACTIVE'),
-    ('phamthid',   '123456', 'thid@gmail.com', N'Phạm Thị D',   '0934567890', N'Thanh Khê, Đà Nẵng',   'ACTIVE'),
-    ('hoangvane',  '123456', 'vane@gmail.com', N'Hoàng Văn E',  '0945678901', N'Ninh Kiều, Cần Thơ',   'ACTIVE'),
-    ('vuthif',     '123456', 'thif@gmail.com', N'Vũ Thị F',     '0956789012', N'Biên Hòa, Đồng Nai',   'BANNED'),
-    ('dangvang',   '123456', 'vang@gmail.com', N'Đặng Văn G',   '0967890123', N'Nha Trang, Khánh Hòa', 'INACTIVE');
+    ('nguyenvana', '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'vana@gmail.com', N'Nguyễn Văn A', '0901234567', N'Quận 1, TP.HCM',        'ACTIVE'),
+    ('tranthib',   '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'thib@gmail.com', N'Trần Thị B',   '0912345678', N'Cầu Giấy, Hà Nội',     'ACTIVE'),
+    ('levanc',     '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'vanc@gmail.com', N'Lê Văn C',     '0987654321', N'Hải Châu, Đà Nẵng',    'ACTIVE'),
+    ('phamthid',   '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'thid@gmail.com', N'Phạm Thị D',   '0934567890', N'Thanh Khê, Đà Nẵng',   'ACTIVE'),
+    ('hoangvane',  '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'vane@gmail.com', N'Hoàng Văn E',  '0945678901', N'Ninh Kiều, Cần Thơ',   'ACTIVE'),
+    ('vuthif',     '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'thif@gmail.com', N'Vũ Thị F',     '0956789012', N'Biên Hòa, Đồng Nai',   'BANNED'),
+    ('dangvang',   '$2a$10$fWpti.xT.1EI7mOMqE0Ojegf1wtrfPxV9m6jI6uitdQ7gj1cQGyqa', 'vang@gmail.com', N'Đặng Văn G',   '0967890123', N'Nha Trang, Khánh Hòa', 'INACTIVE');
 
     -- 2. Admins: đủ 3 vai trò và 3 trạng thái
     INSERT INTO Admins (fullName, account, password_hash, adminRole, status)
     VALUES
-    (N'Admin Tổng',         'superadmin', 'admin123', 'SUPER_ADMIN', 'ACTIVE'),
-    (N'TS. Sinh Học Nam',   'biologist1', 'admin123', 'BIOLOGIST',   'ACTIVE'),
-    (N'Kiểm Duyệt Viên',    'moderator1', 'admin123', 'MODERATOR',   'ACTIVE'),
-    (N'Kiểm Duyệt Viên 2',  'moderator2', 'admin123', 'MODERATOR',   'INACTIVE'),
-    (N'ThS. Sinh Học Minh', 'biologist2', 'admin123', 'BIOLOGIST',   'BANNED');
+    (N'Admin Tổng',         'superadmin', '$2a$10$u9tX.EbRnVx/TckY80z0U.aYfxZG77e8bOEKNwUr4dB8FexTMdLmy', 'SUPER_ADMIN', 'ACTIVE'),
+    (N'TS. Sinh Học Nam',   'biologist1', '$2a$10$u9tX.EbRnVx/TckY80z0U.aYfxZG77e8bOEKNwUr4dB8FexTMdLmy', 'BIOLOGIST',   'ACTIVE'),
+    (N'Kiểm Duyệt Viên',    'moderator1', '$2a$10$u9tX.EbRnVx/TckY80z0U.aYfxZG77e8bOEKNwUr4dB8FexTMdLmy', 'MODERATOR',   'ACTIVE'),
+    (N'Kiểm Duyệt Viên 2',  'moderator2', '$2a$10$u9tX.EbRnVx/TckY80z0U.aYfxZG77e8bOEKNwUr4dB8FexTMdLmy', 'MODERATOR',   'INACTIVE'),
+    (N'ThS. Sinh Học Minh', 'biologist2', '$2a$10$u9tX.EbRnVx/TckY80z0U.aYfxZG77e8bOEKNwUr4dB8FexTMdLmy', 'BIOLOGIST',   'BANNED');
 
     -- 3. SellerProfiles: đủ 4 trạng thái. Shop ACTIVE/BANNED có admin duyệt, PENDING/REJECTED thì chưa
     INSERT INTO SellerProfiles (userID, shopName, businessLicenseUrl, bio, status, approvedByAdminID)

@@ -5,7 +5,6 @@ import com.bionexus.backend.dal.SellerProfilesDao;
 import com.bionexus.backend.dal.UsersDao;
 import com.bionexus.backend.dto.AuthResponse;
 import com.bionexus.backend.dto.LoginRequest;
-import com.bionexus.backend.dto.MeDto;
 import com.bionexus.backend.dto.RegisterRequest;
 import com.bionexus.backend.enums.AccountType;
 import com.bionexus.backend.enums.AdminStatus;
@@ -85,13 +84,5 @@ public class AuthService {
         Users savedUser = userDao.getUserByUsername(request.username());
         String token = generateToken(savedUser.getUserId(), savedUser.getUsername(), AccountType.USER.name(), AccountType.USER.name());
         return new AuthResponse(token, savedUser.getUserId(), savedUser.getUsername(), savedUser.getFullName(), AccountType.USER.name(), "USER");
-    }
-    public MeDto getMe(int userId) {
-        Users user = userDao.getUserById(userId);
-        if (user == null) {
-            throw new ApiException(MessageKey.USER_NOT_FOUND);
-        }
-        SellerProfiles shop = sellerProfilesDao.getSellerProfileByUserId(userId);
-        return MeDto.fromEntity(user, shop);
     }
 }
