@@ -9,6 +9,8 @@ export type ConservationStatus = 'LC' | 'NT' | 'VU' | 'EN' | 'CR' | 'EW' | 'EX';
 export type ProductStatus = 'PENDING' | 'APPROVED' | 'REJECTED' | 'SOLD_OUT';
 export type SellerStatus = 'PENDING' | 'ACTIVE' | 'REJECTED' | 'BANNED';
 export type OrderStatus = 'PENDING' | 'COMPLETED' | 'CANCELLED';
+// export type PaymentMethod = 'COD' | 'BANK_TRANSFER'; // [TN-10]
+// export type PaymentStatus = 'UNPAID' | 'PAID'; // [TN-11]
 export type UserStatus = 'ACTIVE' | 'INACTIVE' | 'BANNED';
 export type AccountType = 'USER' | 'ADMIN';
 export type AdminRole = 'SUPER_ADMIN' | 'BIOLOGIST' | 'MODERATOR';
@@ -91,6 +93,14 @@ export type MessageKey =
   | 'ORDER_DUPLICATE_ITEMS'
   | 'ORDER_OWN_PRODUCT'
   | 'ORDER_CANCEL_SUCCESS'
+  // | 'ORDER_CANNOT_COMPLETE' // [TN-00]
+  // | 'ORDER_COMPLETE_SUCCESS' // [TN-02]
+  // | 'ORDER_QUANTITY_LIMIT' // [TN-08]
+  // | 'COUPON_INVALID' // [TN-06]
+  // | 'COUPON_MIN_ORDER_NOT_MET' // [TN-06]
+  // | 'PAYMENT_INVALID_METHOD' // [TN-10]
+  // | 'PAYMENT_CONFIRMED' // [TN-11]
+  // | 'PAYMENT_CANNOT_CONFIRM' // [TN-11]
   // CART
   | 'CART_ITEM_ADDED'
   | 'CART_ITEM_UPDATED'
@@ -99,6 +109,14 @@ export type MessageKey =
   | 'CART_ITEM_NOT_FOUND'
   | 'CART_EMPTY'
   | 'CART_INVALID_QUANTITY'
+  // | 'CART_UNAVAILABLE_REMOVED' // [TN-14]
+  // | 'WISHLIST_ADDED' // [TN-15]
+  // | 'WISHLIST_REMOVED' // [TN-15]
+  // | 'REVIEW_CREATED' // [TN-16]
+  // | 'REVIEW_INVALID_RATING' // [TN-16]
+  // | 'REVIEW_INVALID_COMMENT' // [TN-16]
+  // | 'REVIEW_NOT_PURCHASED' // [TN-16]
+  // | 'REVIEW_ALREADY_EXISTS' // [TN-16]
   | 'CART_QUANTITY_EXCEEDS_STOCK';
 
 // ==================== 2. Common Wrappers ====================
@@ -240,7 +258,51 @@ export interface OrderDto {
   shippingAddress: string;
   createdAt: string;
   items: OrderItemDto[];
+  // paymentMethod?: PaymentMethod; // [TN-10]
+  // paymentStatus?: PaymentStatus; // [TN-11]
 }
+
+// [TN-03] BẮT ĐẦU · Đơn hàng cho trang quản trị (AdminOrderDto.java)
+// export interface AdminOrderDto extends OrderDto {
+  // buyerUsername: string | null;
+  // buyerFullName: string | null;
+// }
+// [TN-03] KẾT THÚC
+
+// [TN-04] BẮT ĐẦU · Thống kê doanh thu (SalesStatsDto.java)
+// export interface SalesStatsDto {
+  // completedRevenue: number;
+  // pendingAmount: number;
+  // totalOrders: number;
+  // pendingOrders: number;
+  // completedOrders: number;
+  // cancelledOrders: number;
+  // topProducts: { productId: number; productName: string; quantitySold: number; revenue: number }[];
+  // revenueByMonth: { month: string; revenue: number; orderCount: number }[];
+// }
+// [TN-04] KẾT THÚC
+
+// [TN-05] BẮT ĐẦU · Đơn hàng nhìn từ phía người bán (SellerOrderDto.java)
+// export interface SellerOrderDto {
+  // id: number;
+  // orderCode: string;
+  // status: OrderStatus;
+  // createdAt: string;
+  // buyerFullName: string | null;
+  // shippingAddress: string;
+  // items: OrderItemDto[];
+  // shopTotal: number;
+// }
+// [TN-05] KẾT THÚC
+
+// [TN-06] BẮT ĐẦU · Kết quả kiểm tra mã giảm giá (CouponDto.java)
+// export interface CouponDto {
+  // code: string;
+  // description: string;
+  // discountAmount: number;
+  // minOrderAmount: number;
+// }
+// [TN-06] KẾT THÚC
 
 // 3.8 Review
 export interface ReviewDto {
@@ -302,6 +364,9 @@ export interface UpdateCartItemRequest {
 export interface PlaceOrderRequest {
   items?: { productId: number; quantity: number }[];
   shippingAddress: string;
+  // couponCode?: string; // [TN-06]
+  // paymentMethod?: PaymentMethod; // [TN-10]
+  // cartProductIds?: number[]; // [TN-13]
 }
 
 export interface UpdateStatusRequest {

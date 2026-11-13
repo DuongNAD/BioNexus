@@ -84,6 +84,14 @@ public enum MessageKey {
     ORDER_DUPLICATE_ITEMS("Mỗi sản phẩm chỉ được xuất hiện một lần trong đơn hàng", "Each product can appear only once in an order"),
     ORDER_OWN_PRODUCT("Bạn không thể mua sản phẩm của chính cửa hàng mình", "You cannot buy products from your own shop"),
     ORDER_CANCEL_SUCCESS("Hủy đơn hàng thành công", "Order cancelled successfully"), // làm nếu còn thời gian (hủy đơn)
+    // ORDER_CANNOT_COMPLETE("Chỉ hoàn tất được đơn hàng đang chờ xử lý", "Only pending orders can be completed"), // [TN-00]
+    // ORDER_COMPLETE_SUCCESS("Đã xác nhận nhận hàng, đơn hàng hoàn tất", "Order marked as received"), // [TN-02]
+    // ORDER_QUANTITY_LIMIT("Mỗi sản phẩm chỉ được mua tối đa 10 cá thể", "Each product is limited to 10 per order"), // [TN-08]
+    // COUPON_INVALID("Mã giảm giá không tồn tại", "Coupon code does not exist"), // [TN-06]
+    // PAYMENT_INVALID_METHOD("Phương thức thanh toán không hợp lệ", "Invalid payment method"), // [TN-10]
+    // PAYMENT_CONFIRMED("Đã xác nhận thu tiền cho đơn hàng", "Payment confirmed"), // [TN-11]
+    // PAYMENT_CANNOT_CONFIRM("Đơn đã được thanh toán hoặc đã bị hủy", "Order is already paid or cancelled"), // [TN-11]
+    // COUPON_MIN_ORDER_NOT_MET("Đơn hàng chưa đạt giá trị tối thiểu của mã giảm giá", "Order total is below the coupon minimum"), // [TN-06]
 
     // ==================== 8. CART (Giỏ hàng) ====================
     CART_ITEM_ADDED("Đã thêm vào giỏ hàng", "Added to cart"),
@@ -93,6 +101,14 @@ public enum MessageKey {
     CART_ITEM_NOT_FOUND("Sản phẩm không có trong giỏ hàng", "Item is not in the cart"),
     CART_EMPTY("Giỏ hàng đang trống", "Your cart is empty"),
     CART_INVALID_QUANTITY("Số lượng trong giỏ phải lớn hơn 0", "Cart quantity must be greater than 0"),
+    // CART_UNAVAILABLE_REMOVED("Đã xóa các món ngừng bán khỏi giỏ hàng", "Unavailable items removed from cart"), // [TN-14]
+    // WISHLIST_ADDED("Đã lưu vào danh sách yêu thích", "Saved to wishlist"), // [TN-15]
+    // WISHLIST_REMOVED("Đã bỏ khỏi danh sách yêu thích", "Removed from wishlist"), // [TN-15]
+    // REVIEW_CREATED("Cảm ơn bạn đã đánh giá sản phẩm", "Review submitted"), // [TN-16]
+    // REVIEW_INVALID_RATING("Số sao đánh giá phải từ 1 đến 5", "Rating must be between 1 and 5"), // [TN-16]
+    // REVIEW_INVALID_COMMENT("Vui lòng nhập nhận xét, tối đa 1000 ký tự", "Comment is required, up to 1000 characters"), // [TN-16]
+    // REVIEW_NOT_PURCHASED("Bạn chỉ đánh giá được sản phẩm đã mua và đã nhận hàng", "Only buyers with a completed order can review"), // [TN-16]
+    // REVIEW_ALREADY_EXISTS("Bạn đã đánh giá sản phẩm này rồi", "You have already reviewed this product"), // [TN-16]
     CART_QUANTITY_EXCEEDS_STOCK("Số lượng vượt quá tồn kho hiện có", "Quantity exceeds available stock");
 
     private final String vi;

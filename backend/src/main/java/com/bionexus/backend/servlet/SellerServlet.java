@@ -5,6 +5,7 @@ import com.bionexus.backend.dto.CreateProductRequest;
 import com.bionexus.backend.dto.SellerApplyRequest;
 import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.service.SellerService;
+// import com.bionexus.backend.service.OrderService; // [TN-05]
 import com.bionexus.backend.util.ApiErrors;
 import com.bionexus.backend.util.ApiException;
 import com.bionexus.backend.util.JsonUtil;
@@ -18,6 +19,7 @@ import java.io.IOException;
 @WebServlet("/api/seller/*")
 public class SellerServlet extends HttpServlet {
     private final SellerService sellerService = new SellerService();
+    // private final OrderService orderService = new OrderService(); // [TN-05]
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -49,6 +51,11 @@ public class SellerServlet extends HttpServlet {
             if ("/products".equals(request.getPathInfo())) {
                 int userId = (int) request.getAttribute("authId");
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(sellerService.getMyProducts(userId)));
+            // [TN-05] BẮT ĐẦU · GET /api/seller/orders: các đơn có hàng của shop tôi
+            // } else if ("/orders".equals(request.getPathInfo())) {
+                // int userId = (int) request.getAttribute("authId");
+                // JsonUtil.writeBody(response, 200, ApiResponse.ok(orderService.getShopOrders(userId)));
+            // [TN-05] KẾT THÚC
             } else {
                 JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
             }

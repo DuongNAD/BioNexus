@@ -7,6 +7,11 @@ import { IucnBadge } from '@/components/ui/IucnBadge';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/Dialog';
 import { NumberStepper } from '@/components/ui/NumberStepper';
+import { maxQuantityPerProduct } from '@/lib/purchaseRules';
+// import { MAX_QUANTITY_PER_PRODUCT } from '@/lib/purchaseRules'; // [TN-08]
+// import { WishlistButton } from './components/WishlistButton'; // [TN-15]
+// import { ProductReviews } from './components/ProductReviews'; // [TN-16]
+// import { addToGuestCart, countGuestCartItems } from '@/lib/guestCart'; // [TN-17]
 import { PageContainer, Breadcrumbs, Section, type BreadcrumbItem } from '@/components/layout/Page';
 import { LensMagnifier } from '@/components/domain/LensMagnifier';
 import { Lightbox } from '@/components/domain/Lightbox';
@@ -84,7 +89,8 @@ export default function ProductDetailPage(): React.JSX.Element {
   const inCartItem = cart?.items.find((i) => i.productId === productId);
   const inCartQty = inCartItem?.quantity || 0;
   const availableStock = product ? product.stockQuantity : 0;
-  const remainingPurchasable = Math.max(0, availableStock - inCartQty);
+  // Số còn được chọn thêm: theo tồn kho, hoặc theo giới hạn mỗi sản phẩm nếu bật [TN-08]
+  const remainingPurchasable = Math.max(0, maxQuantityPerProduct(availableStock) - inCartQty);
 
   // Danh sách ảnh: Ảnh sản phẩm + Ảnh đối soát bách khoa
   const galleryPhotos = useMemo(() => {
@@ -129,10 +135,20 @@ export default function ProductDetailPage(): React.JSX.Element {
   // Kiểm tra quyền mua & sở hữu
   const isOwner = Boolean(me?.shop?.id && product && me.shop.id === product.sellerProfileId);
   const isOutOfStock = Boolean(product && (product.isOutOfStock || availableStock <= 0));
-  const isReachedCartLimit = Boolean(product && inCartQty >= availableStock);
+  const isReachedCartLimit = Boolean(product && inCartQty >= maxQuantityPerProduct(availableStock));
 
   // Thêm vào giỏ hàng
   const handleAddToCart = (e: React.MouseEvent<HTMLButtonElement>) => {
+    // [TN-17] BẮT ĐẦU · Khách chưa đăng nhập: lưu vào giỏ tạm trên máy, đăng nhập xong tự gộp vào giỏ thật
+    // if (!token) {
+      // addToGuestCart(productId, quantity, maxQuantityPerProduct(availableStock));
+      // triggerFlyToCart(e, product?.displayImage);
+      // toast.success(`Đã thêm vào giỏ tạm (${countGuestCartItems()} cá thể). Đăng nhập để xem giỏ và đặt hàng.`, {
+        // action: { label: 'Đăng nhập', onClick: () => navigate(`/login?next=${encodeURIComponent('/cart')}`) },
+      // });
+      // return;
+    // }
+    // [TN-17] KẾT THÚC
     if (!token) {
       setIsLoginDialogOpen(true);
       return;
@@ -407,6 +423,11 @@ export default function ProductDetailPage(): React.JSX.Element {
                   aria-label="Số lượng cá thể"
                 />
               </div>
+              {/* [TN-08] BẮT ĐẦU · Cho người mua biết giới hạn mỗi sản phẩm */}
+              {/*
+              <p className="text-sm text-fg-3">Mỗi sản phẩm mua tối đa {MAX_QUANTITY_PER_PRODUCT} cá thể.</p>
+              */}
+              {/* [TN-08] KẾT THÚC */}
 
               {isReachedCartLimit ? (
                 <p className="text-sm text-warm">Bạn đã thêm toàn bộ số lượng còn trong kho vào giỏ hàng.</p>
@@ -430,6 +451,14 @@ export default function ProductDetailPage(): React.JSX.Element {
               )}
             </div>
           )}
+
+          {/* [TN-15] BẮT ĐẦU · Nút lưu để mua sau (lưu được cả khi đang hết hàng) */}
+          {/*
+          <div className="mt-3">
+            <WishlistButton productId={productId} />
+          </div>
+          */}
+          {/* [TN-15] KẾT THÚC */}
 
           {/* Cửa hàng và cam kết: một khối liền, ngăn bằng đường kẻ mảnh */}
           <div className="mt-10 divide-y divide-line border-t border-line">
@@ -525,6 +554,12 @@ export default function ProductDetailPage(): React.JSX.Element {
           ))}
         </ol>
       </Section>
+
+      {/* [TN-16] BẮT ĐẦU · Đánh giá từ người mua */}
+      {/*
+      <ProductReviews productId={productId} />
+      */}
+      {/* [TN-16] KẾT THÚC */}
 
       {relatedProducts.length > 0 && (
         <Section

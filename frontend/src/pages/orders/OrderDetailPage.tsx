@@ -19,6 +19,11 @@ import { formatVnd } from '@/lib/parseEnvironmentSpecs';
 import { cn } from '@/lib/cn';
 import { formatOrderDate } from './OrdersPage';
 import { toast } from 'sonner';
+// import { CancelOrderButton } from './components/CancelOrderButton'; // [TN-01]
+// import { ConfirmReceivedButton } from './components/ConfirmReceivedButton'; // [TN-02]
+// import { shippingFeeFor } from '@/lib/purchaseRules'; // [TN-07]
+// import { VietQRCard } from '@/components/domain/VietQRCard'; // [TN-10]
+// import { PrintInvoiceButton } from './components/PrintInvoiceButton'; // [TN-12]
 
 export default function OrderDetailPage(): React.JSX.Element {
   const { id } = useParams<{ id: string }>();
@@ -116,6 +121,20 @@ export default function OrderDetailPage(): React.JSX.Element {
     );
   }
 
+  // Phí vận chuyển của đơn: mặc định miễn phí như trước
+  let shippingFee = 0;
+  // [TN-07] BẮT ĐẦU · DB không lưu riêng phí vận chuyển nên tính lại theo quy tắc từ tiền hàng
+  // const itemsTotalForShipping = (order.items || []).reduce((sum, item) => sum + item.lineTotal, 0);
+  // // Tổng tiền bằng đúng tiền hàng: đơn đặt lúc chưa có phí vận chuyển, coi như miễn phí
+  // if (order.totalAmount !== itemsTotalForShipping) {
+    // shippingFee = shippingFeeFor(itemsTotalForShipping);
+  // }
+  // [TN-07] KẾT THÚC
+  // [TN-06] BẮT ĐẦU · Tiền được giảm = tiền hàng + phí vận chuyển - tổng tiền (DB không lưu riêng)
+  // const itemsTotalForDiscount = (order.items || []).reduce((sum, item) => sum + item.lineTotal, 0);
+  // const discountOnOrder = Math.max(0, itemsTotalForDiscount + shippingFee - order.totalAmount);
+  // [TN-06] KẾT THÚC
+
   const isCancelled = order.status === 'CANCELLED';
   const isCompleted = order.status === 'COMPLETED';
   const code = order.orderCode || `#${order.id}`;
@@ -144,21 +163,48 @@ export default function OrderDetailPage(): React.JSX.Element {
         meta={
           <>
             <StatusPill status={order.status} size="md" />
+            {/* [TN-11] BẮT ĐẦU · Trạng thái thanh toán của đơn */}
+            {/*
+            <StatusPill
+              status={order.paymentStatus === 'PAID' ? 'COMPLETED' : 'PENDING'}
+              label={order.paymentStatus === 'PAID' ? 'Đã thanh toán' : 'Chưa thanh toán'}
+              size="md"
+            />
+            */}
+            {/* [TN-11] KẾT THÚC */}
             <span>Đặt lúc {formatOrderDate(order.createdAt)}</span>
           </>
         }
         actions={
-          <Button
-            pill
-            variant="secondary"
-            onClick={handleReorder}
-            disabled={isReordering}
-            aria-busy={isReordering}
-            className="gap-2"
-          >
-            <RotateCcw className={cn('size-4', isReordering && 'animate-spin')} aria-hidden="true" />
-            <span>{isReordering ? 'Đang thêm vào giỏ...' : 'Mua lại'}</span>
-          </Button>
+          // Giới hạn bề rộng để khi có nhiều nút thì nút xuống hàng, mã đơn không bị ép gãy dòng
+          <div className="flex max-w-[24rem] flex-wrap gap-3 md:justify-end">
+            {/* [TN-02] BẮT ĐẦU · Nút "Đã nhận hàng" (chỉ hiện khi đơn đang chờ xử lý) */}
+            {/*
+            <ConfirmReceivedButton order={order} />
+            */}
+            {/* [TN-02] KẾT THÚC */}
+            {/* [TN-01] BẮT ĐẦU · Nút "Hủy đơn" (chỉ hiện khi đơn đang chờ xử lý) */}
+            {/*
+            <CancelOrderButton order={order} />
+            */}
+            {/* [TN-01] KẾT THÚC */}
+            {/* [TN-12] BẮT ĐẦU · Nút "In hóa đơn" */}
+            {/*
+            <PrintInvoiceButton order={order} />
+            */}
+            {/* [TN-12] KẾT THÚC */}
+            <Button
+              pill
+              variant="secondary"
+              onClick={handleReorder}
+              disabled={isReordering}
+              aria-busy={isReordering}
+              className="gap-2"
+            >
+              <RotateCcw className={cn('size-4', isReordering && 'animate-spin')} aria-hidden="true" />
+              <span>{isReordering ? 'Đang thêm vào giỏ...' : 'Mua lại'}</span>
+            </Button>
+          </div>
         }
       />
 
@@ -253,12 +299,32 @@ export default function OrderDetailPage(): React.JSX.Element {
             <div>
               <p className="text-sm text-fg-3">Giao đến</p>
               <p className="mt-1 text-fg-2">{order.shippingAddress}</p>
+              {/* [TN-10] BẮT ĐẦU · Phương thức thanh toán của đơn */}
+              {/*
+              <p className="mt-4 text-sm text-fg-3">Thanh toán</p>
+              <p className="mt-1 text-fg-2">
+                {order.paymentMethod === 'BANK_TRANSFER' ? 'Chuyển khoản VietQR' : 'Trả tiền khi nhận hàng (COD)'}
+              </p>
+              */}
+              {/* [TN-10] KẾT THÚC */}
             </div>
             <dl className="space-y-2 text-sm sm:text-right">
               <div className="flex justify-between gap-4 text-fg-2 sm:justify-end">
                 <dt>Vận chuyển</dt>
-                <dd className="text-success">Miễn phí</dd>
+                <dd className={shippingFee > 0 ? 'font-mono text-fg' : 'text-success'}>
+                  {shippingFee > 0 ? formatVnd(shippingFee) : 'Miễn phí'}
+                </dd>
               </div>
+              {/* [TN-06] BẮT ĐẦU · Dòng tiền được giảm nhờ mã giảm giá */}
+              {/*
+              {discountOnOrder > 0 && (
+                <div className="flex justify-between gap-4 text-fg-2 sm:justify-end">
+                  <dt>Giảm giá</dt>
+                  <dd className="font-mono text-success">-{formatVnd(discountOnOrder)}</dd>
+                </div>
+              )}
+              */}
+              {/* [TN-06] KẾT THÚC */}
               <div className="flex items-baseline justify-between gap-4 sm:justify-end">
                 <dt className="font-semibold text-fg">Tổng thanh toán</dt>
                 <dd>
@@ -268,6 +334,18 @@ export default function OrderDetailPage(): React.JSX.Element {
             </dl>
           </div>
         </Panel>
+        {/* [TN-10] BẮT ĐẦU · Mã VietQR để chuyển khoản, nội dung là mã đơn (ẩn khi đã thanh toán hoặc đơn kết thúc) */}
+        {/*
+        {order.paymentMethod === 'BANK_TRANSFER' &&
+          order.status === 'PENDING' &&
+          (order as { paymentStatus?: string }).paymentStatus !== 'PAID' && (
+            <div className="mt-6 max-w-md">
+              <p className="mb-3 text-sm text-fg-2">Quét mã để chuyển khoản. Ghi đúng nội dung là mã đơn để cửa hàng đối soát.</p>
+              <VietQRCard amount={order.totalAmount} memo={order.orderCode} />
+            </div>
+          )}
+        */}
+        {/* [TN-10] KẾT THÚC */}
       </Section>
     </PageContainer>
   );

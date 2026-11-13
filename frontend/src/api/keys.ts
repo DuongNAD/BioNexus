@@ -53,6 +53,12 @@ export const queryKeys = {
     current: () => [...queryKeys.cart.all(), 'current'] as const,
   },
 
+  // [TN-15] BẮT ĐẦU · Danh sách yêu thích
+  // wishlist: {
+    // all: () => [...queryKeys.all, 'wishlist'] as const,
+  // },
+  // [TN-15] KẾT THÚC
+
   // 6. Orders
   orders: {
     all: () => [...queryKeys.all, 'orders'] as const,
@@ -65,6 +71,7 @@ export const queryKeys = {
     all: () => [...queryKeys.all, 'seller'] as const,
     profile: () => [...queryKeys.seller.all(), 'profile'] as const,
     products: () => [...queryKeys.seller.all(), 'products'] as const,
+    // orders: () => [...queryKeys.seller.all(), 'orders'] as const, // [TN-05]
   },
 
   // 8. Admin Moderation
@@ -74,5 +81,8 @@ export const queryKeys = {
     pendingSellers: () => [...queryKeys.admin.all(), 'sellers', 'pending'] as const,
     products: (status?: string) => [...queryKeys.admin.all(), 'products', status ?? 'ALL'] as const,
     pendingProducts: () => [...queryKeys.admin.all(), 'products', 'pending'] as const,
+    // orders: (status?: string) => [...queryKeys.admin.all(), 'orders', status ?? 'ALL'] as const, // [TN-03]
+    // stats: () => [...queryKeys.admin.all(), 'stats'] as const, // [TN-04]
+    // payments: (status?: string) => [...queryKeys.admin.all(), 'payments', status ?? 'ALL'] as const, // [TN-11]
   },
 };

@@ -23,6 +23,34 @@ public class OrderServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             String path = request.getPathInfo(); // null khi gọi đúng /api/orders
+            // [TN-01] BẮT ĐẦU · POST /api/orders/{id}/cancel: người mua hủy đơn đang chờ xử lý
+            // if (path != null && path.endsWith("/cancel")) {
+                // int buyerId = (int) request.getAttribute("authId");
+                // String[] parts = path.substring(1).split("/"); // "/15/cancel" → {"15", "cancel"}
+                // if (parts.length != 2) {
+                    // JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
+                    // return;
+                // }
+                // long orderId = Long.parseLong(parts[0]); // không phải số thì NumberFormatException → 400
+                // JsonUtil.writeBody(response, 200,
+                        // ApiResponse.ok(MessageKey.ORDER_CANCEL_SUCCESS, orderService.cancelMyOrder(buyerId, orderId)));
+                // return;
+            // }
+            // [TN-01] KẾT THÚC
+            // [TN-02] BẮT ĐẦU · POST /api/orders/{id}/complete: người mua xác nhận đã nhận hàng
+            // if (path != null && path.endsWith("/complete")) {
+                // int buyerId = (int) request.getAttribute("authId");
+                // String[] parts = path.substring(1).split("/"); // "/15/complete" → {"15", "complete"}
+                // if (parts.length != 2) {
+                    // JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
+                    // return;
+                // }
+                // long orderId = Long.parseLong(parts[0]);
+                // JsonUtil.writeBody(response, 200,
+                        // ApiResponse.ok(MessageKey.ORDER_COMPLETE_SUCCESS, orderService.confirmReceived(buyerId, orderId)));
+                // return;
+            // }
+            // [TN-02] KẾT THÚC
             if (path != null && !path.equals("/")) {
                 JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
                 return;

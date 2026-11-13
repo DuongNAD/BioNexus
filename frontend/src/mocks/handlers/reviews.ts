@@ -46,4 +46,16 @@ export const reviewHandlers = [
       );
     }
   }),
+
+  // [TN-16] BẮT ĐẦU · Đánh giá của một sản phẩm theo đường dẫn backend (GET api/products/:id/reviews), mới nhất trước
+  // http.get('*/api/products/:id/reviews', async ({ params }) => {
+    // await applySimulatedLatency();
+    // const productId = Number(params.id);
+    // if (!Number.isInteger(productId) || productId <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const reviews = [...db.getReviewsByProductId(productId)].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+    // return HttpResponse.json({ success: true, code: 'SUCCESS', message: 'Thành công', data: reviews });
+  // }),
+  // [TN-16] KẾT THÚC
 ];

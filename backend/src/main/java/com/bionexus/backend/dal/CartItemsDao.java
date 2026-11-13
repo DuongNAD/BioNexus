@@ -150,6 +150,16 @@ public class CartItemsDao {
         }
     }
 
+    // [TN-13] BẮT ĐẦU · Xóa một món bằng Connection của transaction đặt hàng (đặt một phần giỏ)
+    // public void removeItem(Connection conn, int cartID, int productID) throws SQLException {
+        // try (PreparedStatement pts = conn.prepareStatement("DELETE FROM CartItems WHERE cartID = ? AND productID = ?")) {
+            // pts.setInt(1, cartID);
+            // pts.setInt(2, productID);
+            // pts.executeUpdate();
+        // }
+    // }
+    // [TN-13] KẾT THÚC
+
     /** Như clearCart nhưng dùng Connection của transaction (đặt hàng từ giỏ: xóa giỏ cùng lúc commit đơn). */
     public int clearCart(Connection conn, int cartID) throws SQLException {
         try (PreparedStatement pts = conn.prepareStatement("DELETE FROM CartItems WHERE cartID = ?")) {

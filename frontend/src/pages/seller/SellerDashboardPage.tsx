@@ -14,6 +14,7 @@ import { useSellerProducts } from '@/api/queries/useSellerQueries';
 import { cn } from '@/lib/cn';
 import type { ProductStatus } from '@/types/api';
 import { ShopStatusNotice } from './components/ShopStatusNotice';
+// import { ShopOrdersSection } from './components/ShopOrdersSection'; // [TN-05]
 
 type TabInventory = 'ALL' | ProductStatus;
 
@@ -239,6 +240,12 @@ export default function SellerDashboardPage(): React.JSX.Element {
           </>
         )}
       </Section>
+
+      {/* [TN-05] BẮT ĐẦU · Đơn hàng có cá thể của shop */}
+      {/*
+      <ShopOrdersSection />
+      */}
+      {/* [TN-05] KẾT THÚC */}
     </PageContainer>
   );
 }

@@ -96,4 +96,47 @@ export const cartHandlers = [
     const res = db.clearCart(session.sub);
     return HttpResponse.json(res.body, { status: res.status });
   }),
+
+  // [TN-14] BẮT ĐẦU · Xóa nhanh các món ngừng bán (DELETE api/cart/unavailable)
+  // http.delete('*/api/cart/unavailable', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const res = db.removeUnavailableFromCart(guard.session.sub);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-14] KẾT THÚC
+
+  // [TN-15] BẮT ĐẦU · Danh sách yêu thích (GET api/wishlist, POST và DELETE api/wishlist/:productId)
+  // http.get('*/api/wishlist', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // return HttpResponse.json({ success: true, code: 'SUCCESS', message: 'Thành công', data: db.getWishlist(guard.session.sub) });
+  // }),
+
+  // http.post('*/api/wishlist/:productId', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const productId = Number(params.productId);
+    // if (!Number.isInteger(productId) || productId <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.addToWishlist(guard.session.sub, productId);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+
+  // http.delete('*/api/wishlist/:productId', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const productId = Number(params.productId);
+    // if (!Number.isInteger(productId) || productId <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.removeFromWishlist(guard.session.sub, productId);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-15] KẾT THÚC
 ];

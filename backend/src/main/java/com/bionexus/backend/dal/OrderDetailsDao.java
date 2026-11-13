@@ -84,6 +84,37 @@ public class OrderDetailsDao {
         }
     }
 
+    // [TN-00] BẮT ĐẦU · Đọc các dòng của đơn bằng Connection của transaction
+    // // Khác bản không có Connection ở trên: lỗi DB được ném lên (không nuốt lỗi rồi trả danh sách rỗng),
+    // // để lúc hủy đơn không có chuyện đơn đã hủy mà kho chưa được hoàn.
+    // public List<OrderDetails> getOrderDetailsByOrderId(java.sql.Connection conn, long orderId) throws SQLException {
+        // String sql = "SELECT * FROM OrderDetails WHERE orderID = ?";
+        // List<OrderDetails> orderDetailsList = new java.util.ArrayList<>();
+        // try (var pts = conn.prepareStatement(sql)) {
+            // pts.setLong(1, orderId);
+            // try (ResultSet rs = pts.executeQuery()) {
+                // while (rs.next()) {
+                    // orderDetailsList.add(mapRow(rs));
+                // }
+            // }
+        // }
+        // return orderDetailsList;
+    // }
+    // [TN-00] KẾT THÚC
+
+    // [TN-06] BẮT ĐẦU · Tổng tiền hàng của một đơn (cộng số lượng nhân đơn giá của từng dòng)
+    // public java.math.BigDecimal sumLineTotals(java.sql.Connection conn, long orderId) throws SQLException {
+        // String sql = "SELECT COALESCE(SUM(quantity * unitPrice), 0) FROM OrderDetails WHERE orderID = ?";
+        // try (var pts = conn.prepareStatement(sql)) {
+            // pts.setLong(1, orderId);
+            // try (ResultSet rs = pts.executeQuery()) {
+                // rs.next();
+                // return rs.getBigDecimal(1);
+            // }
+        // }
+    // }
+    // [TN-06] KẾT THÚC
+
     public boolean updateOrderDetail(OrderDetails orderDetail) {
         String sql = "UPDATE OrderDetails SET productID = ?, quantity = ?, unitPrice = ? WHERE orderID = ? AND productID = ?";
         try (

@@ -3,6 +3,8 @@ import { db } from '../db';
 import { requireAdmin } from '../guards';
 import { applySimulatedLatency } from '../faults';
 import type { UpdateStatusRequest, CreateSpeciesRequest, SellerStatus, ProductStatus } from '@/types/api';
+// import type { OrderStatus } from '@/types/api'; // [TN-03]
+// import type { PaymentStatus } from '@/types/api'; // [TN-11]
 
 export const adminHandlers = [
   // 1. Hàng đợi duyệt người bán (MODERATOR / SUPER_ADMIN)
@@ -111,4 +113,68 @@ export const adminHandlers = [
       );
     }
   }),
+
+  // [TN-03] BẮT ĐẦU · Danh sách đơn và đổi trạng thái đơn (MODERATOR / SUPER_ADMIN)
+  // http.get('*/api/admin/orders', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    // if ('response' in guard) return guard.response;
+    // const status = new URL(request.url).searchParams.get('status') || undefined;
+    // if (status && !['PENDING', 'COMPLETED', 'CANCELLED'].includes(status)) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_STATUS', message: 'Trạng thái không hợp lệ', data: null }, { status: 400 });
+    // }
+    // return HttpResponse.json({ success: true, code: 'SUCCESS', message: 'Thành công', data: db.getAdminOrders(status) });
+  // }),
+
+  // http.put('*/api/admin/orders/:id/status', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    // if ('response' in guard) return guard.response;
+    // const id = Number(params.id);
+    // if (!Number.isInteger(id) || id <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // try {
+      // const body = (await request.json()) as { status: OrderStatus };
+      // const res = db.updateOrderStatusByAdmin(id, body.status);
+      // return HttpResponse.json(res.body, { status: res.status });
+    // } catch {
+      // return HttpResponse.json({ success: false, code: 'BAD_REQUEST', message: 'Dữ liệu không hợp lệ', data: null }, { status: 400 });
+    // }
+  // }),
+  // [TN-03] KẾT THÚC
+
+  // [TN-04] BẮT ĐẦU · Thống kê doanh thu (MODERATOR / SUPER_ADMIN)
+  // http.get('*/api/admin/stats', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    // if ('response' in guard) return guard.response;
+    // return HttpResponse.json({ success: true, code: 'SUCCESS', message: 'Thành công', data: db.getSalesStats() });
+  // }),
+  // [TN-04] KẾT THÚC
+
+  // [TN-11] BẮT ĐẦU · Đối soát thanh toán (MODERATOR / SUPER_ADMIN)
+  // http.get('*/api/admin/payments', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    // if ('response' in guard) return guard.response;
+    // const status = new URL(request.url).searchParams.get('status') || undefined;
+    // if (status && status !== 'UNPAID' && status !== 'PAID') {
+      // return HttpResponse.json({ success: false, code: 'INVALID_STATUS', message: 'Trạng thái không hợp lệ', data: null }, { status: 400 });
+    // }
+    // return HttpResponse.json({ success: true, code: 'SUCCESS', message: 'Thành công', data: db.getOrdersByPaymentStatus(status as PaymentStatus | undefined) });
+  // }),
+
+  // http.put('*/api/admin/orders/:id/payment', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireAdmin(request, ['MODERATOR', 'SUPER_ADMIN']);
+    // if ('response' in guard) return guard.response;
+    // const id = Number(params.id);
+    // if (!Number.isInteger(id) || id <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.confirmPayment(id);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-11] KẾT THÚC
 ];

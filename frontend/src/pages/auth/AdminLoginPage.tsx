@@ -6,17 +6,13 @@ import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useAdminLogin } from '@/api/mutations/useAuthMutations';
 import { ApiError } from '@/api/errors';
-import { USE_MOCKS } from '@/lib/env';
 import { toast } from 'sonner';
-import { AuthCard, AuthError, DemoLogins, PasswordField, type DemoAccount } from './components/AuthCard';
+import { AuthCard, AuthError, PasswordField } from './components/AuthCard';
 
 interface AdminLoginFormValues {
   account: string;
   password: string;
 }
-
-// Nút đăng nhập nhanh chứa mật khẩu seed: chỉ hiện khi chạy dev với MSW, không bao giờ vào bản build
-const SHOW_DEMO_LOGINS = import.meta.env.DEV && USE_MOCKS;
 
 export default function AdminLoginPage(): React.JSX.Element {
   const [searchParams] = useSearchParams();
@@ -27,7 +23,6 @@ export default function AdminLoginPage(): React.JSX.Element {
   const {
     register,
     handleSubmit,
-    setValue,
     formState: { errors },
   } = useForm<AdminLoginFormValues>({
     defaultValues: {
@@ -66,13 +61,6 @@ export default function AdminLoginPage(): React.JSX.Element {
         setErrorMessage(err instanceof Error && err.message ? err.message : 'Đăng nhập quản trị không thành công.');
       }
     }
-  };
-
-  const handleQuickFill = (acc: DemoAccount) => {
-    if (adminLoginMutation.isPending) return;
-    setValue('account', acc.username);
-    setValue('password', acc.password);
-    void handleSubmit(onSubmit)();
   };
 
   return (
@@ -118,19 +106,6 @@ export default function AdminLoginPage(): React.JSX.Element {
           <span>{adminLoginMutation.isPending ? 'Đang xác thực...' : 'Đăng nhập quản trị'}</span>
         </Button>
       </form>
-
-      {/* Đăng nhập nhanh bằng tài khoản seed: chỉ có ở chế độ dev + MSW */}
-      {SHOW_DEMO_LOGINS && (
-        <DemoLogins
-          disabled={adminLoginMutation.isPending}
-          onPick={handleQuickFill}
-          accounts={[
-            { username: 'superadmin', password: 'admin123', note: 'Quản trị tổng' },
-            { username: 'moderator1', password: 'admin123', note: 'Kiểm duyệt viên' },
-            { username: 'biologist1', password: 'admin123', note: 'Nhà sinh học' },
-          ]}
-        />
-      )}
     </AuthCard>
   );
 }

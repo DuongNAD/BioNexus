@@ -4,6 +4,7 @@ import { APP_ROUTES, type RouteMeta } from './routes';
 import { RootLayout } from '@/components/layout/RootLayout';
 import { RequireAuth, RequireRole } from '@/components/auth/RouteGuards';
 import RouteErrorPage from '@/pages/RouteErrorPage';
+// import { GuestCartMerger } from '@/components/domain/GuestCartMerger'; // [TN-17]
 const AuthLayout = React.lazy(() => import('@/components/layout/AuthLayout').then((m) => ({ default: m.AuthLayout })));
 const AccountLayout = React.lazy(() => import('@/components/layout/AccountLayout').then((m) => ({ default: m.AccountLayout })));
 const AdminLayout = React.lazy(() => import('@/components/layout/AdminLayout').then((m) => ({ default: m.AdminLayout })));
@@ -25,6 +26,7 @@ const LoginPage = React.lazy(() => import('@/pages/auth/LoginPage'));
 const RegisterPage = React.lazy(() => import('@/pages/auth/RegisterPage'));
 const AdminLoginPage = React.lazy(() => import('@/pages/auth/AdminLoginPage'));
 const AccountPage = React.lazy(() => import('@/pages/account/AccountPage'));
+// const WishlistPage = React.lazy(() => import('@/pages/wishlist/WishlistPage')); // [TN-15]
 const SellerApplyPage = React.lazy(() => import('@/pages/seller/SellerApplyPage'));
 const SellerDashboardPage = React.lazy(() => import('@/pages/seller/SellerDashboardPage'));
 const SellerNewProductPage = React.lazy(() => import('@/pages/seller/SellerNewProductPage'));
@@ -34,6 +36,8 @@ const AdminDashboardPage = React.lazy(() => import('@/pages/admin/AdminDashboard
 const AdminSellersPage = React.lazy(() => import('@/pages/admin/AdminSellersPage'));
 const AdminProductsPage = React.lazy(() => import('@/pages/admin/AdminProductsPage'));
 const AdminSpeciesPage = React.lazy(() => import('@/pages/admin/AdminSpeciesPage'));
+// const AdminOrdersPage = React.lazy(() => import('@/pages/admin/AdminOrdersPage')); // [TN-03]
+// const AdminPaymentsPage = React.lazy(() => import('@/pages/admin/AdminPaymentsPage')); // [TN-11]
 const JourneyPage = React.lazy(() => import('@/pages/journey/JourneyPage'));
 const NotFoundPage = React.lazy(() => import('@/pages/NotFoundPage'));
 
@@ -180,6 +184,15 @@ function getRouteElement(route: RouteMeta): React.JSX.Element {
         </React.Suspense>
       );
 
+    // [TN-15] BẮT ĐẦU · Trang danh sách yêu thích
+    // case '/wishlist':
+      // return (
+        // <React.Suspense fallback={<PageSuspenseFallback message="Đang tải danh sách yêu thích..." />}>
+          // <WishlistPage />
+        // </React.Suspense>
+      // );
+    // [TN-15] KẾT THÚC
+
     case '/seller/apply':
       return (
         <React.Suspense fallback={<PageSuspenseFallback message="Đang tải đơn đăng ký shop..." />}>
@@ -235,6 +248,24 @@ function getRouteElement(route: RouteMeta): React.JSX.Element {
           <AdminProductsPage />
         </React.Suspense>
       );
+
+    // [TN-03] BẮT ĐẦU · Trang quản trị đơn hàng
+    // case '/admin/orders':
+      // return (
+        // <React.Suspense fallback={<PageSuspenseFallback message="Đang nạp danh sách đơn hàng..." />}>
+          // <AdminOrdersPage />
+        // </React.Suspense>
+      // );
+    // [TN-03] KẾT THÚC
+
+    // [TN-11] BẮT ĐẦU · Trang đối soát thanh toán
+    // case '/admin/payments':
+      // return (
+        // <React.Suspense fallback={<PageSuspenseFallback message="Đang nạp danh sách thanh toán..." />}>
+          // <AdminPaymentsPage />
+        // </React.Suspense>
+      // );
+    // [TN-11] KẾT THÚC
 
     case '/admin/species':
       return (
@@ -298,6 +329,11 @@ function AppShell(): React.JSX.Element {
     <>
       <ScrollRestoration getKey={(location) => location.pathname} />
       <Outlet />
+      {/* [TN-17] BẮT ĐẦU · Đăng nhập xong thì gộp giỏ tạm của khách vào giỏ thật */}
+      {/*
+      <GuestCartMerger />
+      */}
+      {/* [TN-17] KẾT THÚC */}
     </>
   );
 }

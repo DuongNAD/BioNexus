@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
 import { User, Package, FileText, Store, Sparkles, LogOut, type LucideIcon } from 'lucide-react';
+// import { Heart } from 'lucide-react'; // [TN-15]
 import { useLogout } from '@/api/mutations/useAuthMutations';
 import { useAuthState, useMe } from '@/api/queries/useAuthQueries';
 import { cn } from '@/lib/cn';
@@ -27,6 +28,7 @@ export function AccountLayout(): React.JSX.Element {
   const userNav: AccountNavItem[] = [
     { label: 'Hồ sơ', path: '/account', icon: User },
     { label: 'Đơn hàng', path: '/orders', icon: Package },
+    // { label: 'Yêu thích', path: '/wishlist', icon: Heart }, // [TN-15]
     ...(shop
       ? [{ label: 'Shop của tôi', path: '/seller', icon: Store }]
       : [{ label: 'Mở shop', path: '/seller/apply', icon: FileText }]),

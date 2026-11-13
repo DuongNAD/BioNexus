@@ -7,6 +7,8 @@ import type {
   UserStatus,
   AdminRole,
 } from '@/types/api';
+// import type { PaymentMethod } from '@/types/api'; // [TN-10]
+// import type { PaymentStatus } from '@/types/api'; // [TN-11]
 
 export interface MockUser {
   id: number;
@@ -103,6 +105,8 @@ export interface MockOrder {
     unitPrice: number;
     lineTotal: number;
   }[];
+  // paymentMethod?: PaymentMethod; // [TN-10]
+  // paymentStatus?: PaymentStatus; // [TN-11]
 }
 
 export interface MockReview {
@@ -132,4 +136,5 @@ export interface MockDatabaseState {
   nextSpeciesId: number;
   nextUserId: number;
   nextReviewId: number;
+  // wishlists?: Record<number, number[]>; // [TN-15]
 }

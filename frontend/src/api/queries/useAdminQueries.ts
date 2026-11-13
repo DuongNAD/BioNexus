@@ -3,6 +3,9 @@ import { api } from '../client';
 import { queryKeys } from '../keys';
 import { toProductView, type ProductViewModel } from '../adapters';
 import type { SellerDto, ProductDto, SellerStatus, ProductStatus, TaxonomyNodeDto } from '@/types/api';
+// import type { AdminOrderDto, OrderStatus } from '@/types/api'; // [TN-03]
+// import type { SalesStatsDto } from '@/types/api'; // [TN-04]
+// import type { OrderDto, PaymentStatus } from '@/types/api'; // [TN-11]
 
 // Bỏ trống status để lấy mọi trạng thái: "ALL" không phải giá trị enum hợp lệ ở backend
 export function useAdminSellers(status?: SellerStatus, options?: { enabled?: boolean }) {
@@ -39,6 +42,51 @@ export function useAdminProducts(status?: ProductStatus, options?: { enabled?: b
 export function usePendingProducts(options?: { enabled?: boolean }) {
   return useAdminProducts('PENDING', options);
 }
+
+// [TN-03] BẮT ĐẦU · Danh sách đơn cho quản trị (GET api/admin/orders?status=)
+// // Bỏ trống status để lấy mọi đơn
+// export function useAdminOrders(status?: OrderStatus, options?: { enabled?: boolean }) {
+  // return useQuery<AdminOrderDto[]>({
+    // queryKey: queryKeys.admin.orders(status),
+    // queryFn: async () => {
+      // const endpoint = status ? `admin/orders?status=${status}` : 'admin/orders';
+      // const res = await api<AdminOrderDto[]>(endpoint);
+      // return res.data || [];
+    // },
+    // staleTime: 0,
+    // enabled: options?.enabled,
+  // });
+// }
+// [TN-03] KẾT THÚC
+
+// [TN-04] BẮT ĐẦU · Thống kê doanh thu (GET api/admin/stats)
+// export function useAdminSalesStats(options?: { enabled?: boolean }) {
+  // return useQuery<SalesStatsDto | null>({
+    // queryKey: queryKeys.admin.stats(),
+    // queryFn: async () => {
+      // const res = await api<SalesStatsDto>('admin/stats');
+      // return res.data;
+    // },
+    // staleTime: 0,
+    // enabled: options?.enabled,
+  // });
+// }
+// [TN-04] KẾT THÚC
+
+// [TN-11] BẮT ĐẦU · Đơn theo trạng thái thanh toán (GET api/admin/payments?status=)
+// export function useAdminPayments(status?: PaymentStatus, options?: { enabled?: boolean }) {
+  // return useQuery<OrderDto[]>({
+    // queryKey: queryKeys.admin.payments(status),
+    // queryFn: async () => {
+      // const endpoint = status ? `admin/payments?status=${status}` : 'admin/payments';
+      // const res = await api<OrderDto[]>(endpoint);
+      // return res.data || [];
+    // },
+    // staleTime: 0,
+    // enabled: options?.enabled,
+  // });
+// }
+// [TN-11] KẾT THÚC
 
 export interface GenusOption extends TaxonomyNodeDto {
   /** Đường phân loại từ giới tới họ, dùng làm gợi ý trong form thêm loài */

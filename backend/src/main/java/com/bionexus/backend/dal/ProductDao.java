@@ -262,6 +262,22 @@ public class ProductDao {
         }
     }
 
+    // [TN-00] BẮT ĐẦU · Hoàn kho khi hủy đơn (dùng Connection của transaction hủy đơn)
+    // // Cộng lại đúng số lượng đã trừ lúc đặt. Sản phẩm đang SOLD_OUT thì mở bán lại (APPROVED).
+    // // Sản phẩm đang chờ duyệt hoặc đã bị từ chối thì chỉ cộng kho, giữ nguyên trạng thái.
+    // public void restoreStock(Connection conn, int productID, int quantity) throws SQLException {
+        // String sql = "UPDATE Products SET stockQuantity = stockQuantity + ?, "
+                // + "status = CASE WHEN status = 'SOLD_OUT' THEN 'APPROVED' ELSE status END, "
+                // + "updatedAt = SYSDATETIME() "
+                // + "WHERE productID = ?";
+        // try (PreparedStatement ps = conn.prepareStatement(sql)) {
+            // ps.setInt(1, quantity);
+            // ps.setInt(2, productID);
+            // ps.executeUpdate();
+        // }
+    // }
+    // [TN-00] KẾT THÚC
+
     public int insertProductReturnId(Products p) throws SQLException{
         String sql = "INSERT INTO Products (sellerProfileID, speciesID, productName, price, stockQuantity, description, imageUrl) VALUES (?,?,?,?,?,?,?)";
         try(Connection conn = DBContext.getConnection();

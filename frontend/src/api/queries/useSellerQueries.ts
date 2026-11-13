@@ -3,6 +3,7 @@ import { api } from '../client';
 import { queryKeys } from '../keys';
 import { toProductView, type ProductViewModel } from '../adapters';
 import type { SellerDto, ProductDto } from '@/types/api';
+// import type { SellerOrderDto } from '@/types/api'; // [TN-05]
 
 export function useSellerProfile(options?: { enabled?: boolean }) {
   return useQuery<SellerDto | null>({
@@ -28,3 +29,17 @@ export function useSellerProducts(options?: { enabled?: boolean }) {
     enabled: options?.enabled,
   });
 }
+
+// [TN-05] BẮT ĐẦU · Các đơn có hàng của shop tôi (GET api/seller/orders)
+// export function useSellerOrders(options?: { enabled?: boolean }) {
+  // return useQuery<SellerOrderDto[]>({
+    // queryKey: queryKeys.seller.orders(),
+    // queryFn: async () => {
+      // const res = await api<SellerOrderDto[]>('seller/orders');
+      // return res.data || [];
+    // },
+    // staleTime: 0,
+    // enabled: options?.enabled,
+  // });
+// }
+// [TN-05] KẾT THÚC

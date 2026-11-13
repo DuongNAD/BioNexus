@@ -11,6 +11,8 @@ import { QueryErrorState } from '@/components/domain/QueryErrorState';
 import { useOrders } from '@/api/queries/useOrderQueries';
 import { resolveProductImage } from '@/api/adapters';
 import type { OrderStatus, OrderDto } from '@/types/api';
+// import { Search } from 'lucide-react'; // [TN-09]
+// import { normalizeSearchString } from '@/components/navigation/QuickSearch'; // [TN-09]
 
 type TabStatus = 'ALL' | OrderStatus;
 
@@ -32,6 +34,9 @@ export function formatOrderDate(dateStr?: string): string {
 
 export default function OrdersPage(): React.JSX.Element {
   const [activeTab, setActiveTab] = useState<TabStatus>('ALL');
+  // [TN-09] BẮT ĐẦU · Từ khóa tìm đơn
+  // const [searchText, setSearchText] = useState('');
+  // [TN-09] KẾT THÚC
 
   // Route đã bọc RequireAuth nên ở đây luôn có token USER
   const { data: orders = [], isLoading, isError, error, refetch, isRefetching } = useOrders();
@@ -40,6 +45,18 @@ export default function OrdersPage(): React.JSX.Element {
     () => (activeTab === 'ALL' ? orders : orders.filter((o) => o.status === activeTab)),
     [orders, activeTab]
   );
+
+  // Danh sách đang hiển thị: mặc định là danh sách đã lọc theo trạng thái
+  let visibleOrders = filteredOrders;
+  // [TN-09] BẮT ĐẦU · Lọc thêm theo mã đơn hoặc tên sản phẩm (không phân biệt hoa thường và dấu)
+  // const keyword = normalizeSearchString(searchText);
+  // if (keyword) {
+    // visibleOrders = filteredOrders.filter((order) => {
+      // const productNames = (order.items || []).map((item) => item.productName).join(' ');
+      // return normalizeSearchString(`${order.orderCode} ${productNames}`).includes(keyword);
+    // });
+  // }
+  // [TN-09] KẾT THÚC
 
   const countOf = (tab: TabStatus) => (tab === 'ALL' ? orders.length : orders.filter((o) => o.status === tab).length);
 
@@ -62,6 +79,22 @@ export default function OrdersPage(): React.JSX.Element {
         />
       </div>
 
+      {/* [TN-09] BẮT ĐẦU · Ô tìm đơn theo mã hoặc tên sản phẩm */}
+      {/*
+      <div className="relative mb-6 w-full sm:w-80">
+        <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-fg-3" aria-hidden="true" />
+        <input
+          type="search"
+          aria-label="Tìm đơn hàng"
+          placeholder="Mã đơn hoặc tên sản phẩm"
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+          className="h-11 w-full rounded-full border border-line bg-surface pr-4 pl-10 text-sm text-fg placeholder:text-fg-3 focus:border-accent focus:outline-none"
+        />
+      </div>
+      */}
+      {/* [TN-09] KẾT THÚC */}
+
       {isLoading ? (
         <div className="space-y-3" role="status" aria-label="Đang tải đơn hàng">
           {Array.from({ length: 3 }).map((_, i) => (
@@ -75,7 +108,7 @@ export default function OrdersPage(): React.JSX.Element {
           onRetry={() => refetch()}
           isRetrying={isRefetching}
         />
-      ) : filteredOrders.length === 0 ? (
+      ) : visibleOrders.length === 0 ? (
         <EmptyState
           icon={<Package aria-hidden="true" />}
           title="Chưa có đơn hàng nào ở mục này"
@@ -85,7 +118,7 @@ export default function OrdersPage(): React.JSX.Element {
       ) : (
         <Panel padded={false} className="overflow-hidden">
           <ul className="divide-y divide-line">
-            {filteredOrders.map((order) => (
+            {visibleOrders.map((order) => (
               <OrderRow key={order.id} order={order} />
             ))}
           </ul>

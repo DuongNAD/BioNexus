@@ -25,6 +25,10 @@ import java.util.List;
  * Mọi hàm trả về giỏ sau thay đổi để giao diện cập nhật một lần.
  */
 public class CartService {
+    // [TN-08] BẮT ĐẦU · Số cá thể tối đa của một sản phẩm trong giỏ và trong một đơn (OrderService dùng chung)
+    // public static final int MAX_QUANTITY_PER_PRODUCT = 10;
+    // [TN-08] KẾT THÚC
+
     private final CartsDao cartsDao = new CartsDao();
     private final CartItemsDao cartItemsDao = new CartItemsDao();
     private final ProductDao productDao = new ProductDao();
@@ -67,6 +71,11 @@ public class CartService {
         if (newQuantity > product.getStockQuantity()) {
             throw new ApiException(MessageKey.CART_QUANTITY_EXCEEDS_STOCK);
         }
+        // [TN-08] BẮT ĐẦU · Cộng dồn vào giỏ cũng không được vượt giới hạn mỗi sản phẩm
+        // if (newQuantity > MAX_QUANTITY_PER_PRODUCT) {
+            // throw new ApiException(MessageKey.ORDER_QUANTITY_LIMIT);
+        // }
+        // [TN-08] KẾT THÚC
         cartItemsDao.addItem(cart.getCartID(), productId, quantity);
         cartsDao.touchCart(cart.getCartID());
         return getCart(userId);
@@ -86,6 +95,11 @@ public class CartService {
         if (quantity > product.getStockQuantity()) {
             throw new ApiException(MessageKey.CART_QUANTITY_EXCEEDS_STOCK);
         }
+        // [TN-08] BẮT ĐẦU · Sửa số lượng trong giỏ cũng không được vượt giới hạn mỗi sản phẩm
+        // if (quantity > MAX_QUANTITY_PER_PRODUCT) {
+            // throw new ApiException(MessageKey.ORDER_QUANTITY_LIMIT);
+        // }
+        // [TN-08] KẾT THÚC
         cartItemsDao.setItemQuantity(cart.getCartID(), productId, quantity);
         cartsDao.touchCart(cart.getCartID());
         return getCart(userId);
@@ -109,6 +123,25 @@ public class CartService {
         }
         return CartDto.empty();
     }
+
+    // [TN-14] BẮT ĐẦU · Xóa mọi món không còn mua được (ngừng bán, hết hàng, sản phẩm đã bị xóa)
+    // // Dùng chung một điều kiện "available" với toDto bên dưới để giao diện và backend hiểu giống nhau.
+    // public CartDto removeUnavailable(int userId) throws SQLException {
+        // Carts cart = cartsDao.getCartByUserId(userId);
+        // if (cart == null) {
+            // return CartDto.empty();
+        // }
+        // for (CartItems row : cartItemsDao.getItemsByCartId(cart.getCartID())) {
+            // Products p = productDao.getProductById(row.getProductID());
+            // boolean available = p != null && p.getProductStatus() == ProductStatus.APPROVED && p.getStockQuantity() > 0;
+            // if (!available) {
+                // cartItemsDao.removeItem(cart.getCartID(), row.getProductID());
+            // }
+        // }
+        // cartsDao.touchCart(cart.getCartID());
+        // return getCart(userId);
+    // }
+    // [TN-14] KẾT THÚC
 
     /** Số lượng phải là số nguyên dương: thiếu, 0 hoặc âm đều là CART_INVALID_QUANTITY. */
     private static void requireValidQuantity(Integer quantity) {

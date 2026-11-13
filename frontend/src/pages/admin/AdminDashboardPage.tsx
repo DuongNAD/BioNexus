@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/Button';
 import { IUCN_SPECS, IucnBadge, type ConservationStatus } from '@/components/ui/IucnBadge';
 import { StatRow, type StatItem } from '@/components/ui/StatRow';
 import { Skeleton } from '@/components/ui/Skeleton';
+// import { SalesStatsSection } from './components/SalesStatsSection'; // [TN-04]
 
 // Thứ tự từ nguy cấp nhất xuống ít quan tâm
 const IUCN_TIERS: ConservationStatus[] = ['CR', 'EN', 'VU', 'NT', 'LC'];
@@ -118,6 +119,12 @@ export default function AdminDashboardPage(): React.JSX.Element {
       <Panel>
         <StatRow items={stats} />
       </Panel>
+
+      {/* [TN-04] BẮT ĐẦU · Thống kê doanh thu, đơn hàng và sản phẩm bán chạy */}
+      {/*
+      {canModerate && <SalesStatsSection />}
+      */}
+      {/* [TN-04] KẾT THÚC */}
 
       {canModerate && (
         <Section title="Hàng đợi kiểm duyệt" description="Ba hồ sơ đầu tiên của mỗi hàng đợi. Mở hàng đợi để duyệt hoặc từ chối.">

@@ -8,6 +8,10 @@ import { Ticker } from '@/components/ui/Ticker';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { NumberStepper } from '@/components/ui/NumberStepper';
+import { maxQuantityPerProduct, shippingFeeFor } from '@/lib/purchaseRules';
+// import { useRemoveUnavailableItems } from '@/api/mutations/useCartMutations'; // [TN-14]
+// import { useAddToWishlist } from '@/api/mutations/useWishlistMutations'; // [TN-15]
+// import { Heart } from 'lucide-react'; // [TN-15]
 import {
   Dialog,
   DialogContent,
@@ -50,6 +54,15 @@ export default function CartPage(): React.JSX.Element {
   const removeItemMutation = useRemoveCartItem();
   const clearCartMutation = useClearCart();
   const addToCartMutation = useAddToCart();
+  // [TN-13] BẮT ĐẦU · Các món người mua bỏ chọn (mặc định chọn hết, món mới thêm cũng được chọn sẵn)
+  // const [unselectedIds, setUnselectedIds] = useState<Set<number>>(new Set());
+  // [TN-13] KẾT THÚC
+  // [TN-14] BẮT ĐẦU
+  // const removeUnavailableMutation = useRemoveUnavailableItems();
+  // [TN-14] KẾT THÚC
+  // [TN-15] BẮT ĐẦU
+  // const addToWishlistMutation = useAddToWishlist();
+  // [TN-15] KẾT THÚC
 
   const cartItems = useMemo(() => cart?.items || [], [cart]);
 
@@ -86,17 +99,73 @@ export default function CartPage(): React.JSX.Element {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cartItems, detailsKey]);
 
+  // Các món sẽ được đặt: mặc định là cả giỏ ([TN-13] cho bỏ chọn từng món)
+  let itemsToOrder = cartItems;
+  // [TN-13] BẮT ĐẦU · Chỉ đặt các món còn bán và đang được chọn
+  // itemsToOrder = cartItems.filter((i) => i.available && !unselectedIds.has(i.productId));
+  // [TN-13] KẾT THÚC
+
   // Kiểm tra tính hợp lệ của giỏ hàng
-  const hasUnavailableItems = cartItems.some((i) => !i.available);
-  const hasOverStockItems = cartItems.some((i) => i.quantity > i.maxQuantity);
-  const isCartValidForCheckout = cartItems.length > 0 && !hasUnavailableItems && !hasOverStockItems;
+  const hasUnavailableItems = itemsToOrder.some((i) => !i.available);
+  const hasOverStockItems = itemsToOrder.some((i) => i.quantity > i.maxQuantity);
+  const isCartValidForCheckout = itemsToOrder.length > 0 && !hasUnavailableItems && !hasOverStockItems;
+  let checkoutHint = 'Xóa các món ngừng bán và giảm các món vượt tồn kho để có thể đặt hàng.';
+  let checkoutPath = '/checkout';
 
   // Tính lại tổng tiền thực tế chỉ từ các món hợp lệ
-  const validSubtotal = useMemo(() => {
-    return cartItems
-      .filter((i) => i.available)
-      .reduce((sum, item) => sum + item.quantity * item.price, 0);
-  }, [cartItems]);
+  const validSubtotal = itemsToOrder
+    .filter((i) => i.available)
+    .reduce((sum, item) => sum + item.quantity * item.price, 0);
+  // Phí vận chuyển theo quy tắc chung: mặc định 0đ ([TN-07] mới tính phí)
+  const cartShippingFee = shippingFeeFor(validSubtotal);
+
+  // [TN-13] BẮT ĐẦU · Chọn / bỏ chọn từng món và cả giỏ; chỉ gửi sang trang thanh toán các món đã chọn
+  // const availableItems = cartItems.filter((i) => i.available);
+  // const isAllSelected = availableItems.length > 0 && availableItems.every((i) => !unselectedIds.has(i.productId));
+  // const toggleSelected = (productId: number) => {
+    // const next = new Set(unselectedIds);
+    // if (next.has(productId)) {
+      // next.delete(productId);
+    // } else {
+      // next.add(productId);
+    // }
+    // setUnselectedIds(next);
+  // };
+  // const toggleSelectAll = () => {
+    // if (isAllSelected) {
+      // setUnselectedIds(new Set(availableItems.map((i) => i.productId)));
+    // } else {
+      // setUnselectedIds(new Set());
+    // }
+  // };
+  // if (itemsToOrder.length === 0) {
+    // checkoutHint = 'Hãy chọn ít nhất một món còn bán để đặt hàng.';
+  // }
+  // if (itemsToOrder.length < cartItems.length) {
+    // const chosenIds = itemsToOrder.map((i) => i.productId).join(',');
+    // checkoutPath = `/checkout?chon=${chosenIds}`;
+  // }
+  // [TN-13] KẾT THÚC
+
+  // [TN-14] BẮT ĐẦU · Xóa nhanh mọi món ngừng bán hoặc hết hàng
+  // const handleRemoveUnavailable = () => {
+    // removeUnavailableMutation.mutate(undefined, {
+      // onSuccess: () => toast.success('Đã xóa các món ngừng bán khỏi giỏ hàng'),
+    // });
+  // };
+  // [TN-14] KẾT THÚC
+
+  // [TN-15] BẮT ĐẦU · Lưu để mua sau: thêm vào danh sách yêu thích rồi bỏ khỏi giỏ
+  // const handleSaveForLater = async (item: CartItemDto) => {
+    // try {
+      // await addToWishlistMutation.mutateAsync(item.productId);
+      // removeItemMutation.mutate(item.productId);
+      // toast.success(`Đã chuyển "${item.productName}" sang danh sách yêu thích`);
+    // } catch (err) {
+      // toast.error(err instanceof Error && err.message ? err.message : 'Không lưu được vào danh sách yêu thích');
+    // }
+  // };
+  // [TN-15] KẾT THÚC
 
   // Xóa 1 món và hỗ trợ Hoàn tác (Undo Toast)
   const handleRemoveItem = (item: CartItemDto) => {
@@ -200,6 +269,22 @@ export default function CartPage(): React.JSX.Element {
       ) : (
         <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-10">
           <div className="space-y-6">
+            {/* [TN-13] BẮT ĐẦU · Ô chọn tất cả */}
+            {/*
+            <label className="flex cursor-pointer items-center gap-3 px-1 text-sm text-fg-2">
+              <input
+                type="checkbox"
+                className="size-4 accent-[var(--accent)]"
+                checked={isAllSelected}
+                onChange={toggleSelectAll}
+              />
+              <span>
+                Chọn tất cả · đã chọn <span className="font-mono text-fg">{itemsToOrder.length}</span>/
+                <span className="font-mono">{availableItems.length}</span> món còn bán
+              </span>
+            </label>
+            */}
+            {/* [TN-13] KẾT THÚC */}
             {cartGroups.map((group) => (
               <Panel key={group.shopKey} padded={false} className="overflow-hidden">
                 <div className="flex items-center justify-between gap-3 border-b border-line px-5 py-4">
@@ -223,6 +308,18 @@ export default function CartPage(): React.JSX.Element {
                         key={item.productId}
                         className={cn('relative flex gap-4 px-5 py-4', isOverStock && 'bg-warm/[0.06]')}
                       >
+                        {/* [TN-13] BẮT ĐẦU · Ô chọn món để đặt hàng (món ngừng bán không chọn được) */}
+                        {/*
+                        <input
+                          type="checkbox"
+                          className="mt-8 size-4 shrink-0 accent-[var(--accent)] sm:mt-10"
+                          checked={item.available && !unselectedIds.has(item.productId)}
+                          disabled={!item.available}
+                          onChange={() => toggleSelected(item.productId)}
+                          aria-label={`Chọn ${item.productName} để đặt hàng`}
+                        />
+                        */}
+                        {/* [TN-13] KẾT THÚC */}
                         <img
                           src={resolveProductImage(
                             item.imageUrl,
@@ -277,7 +374,7 @@ export default function CartPage(): React.JSX.Element {
                               <NumberStepper
                                 value={item.quantity}
                                 min={1}
-                                max={Math.max(1, item.maxQuantity)}
+                                max={Math.max(1, maxQuantityPerProduct(item.maxQuantity))}
                                 onChange={(val) => handleQuantityChange(item.productId, val)}
                                 disabled={isUpdatingThisLine}
                                 size="sm"
@@ -293,6 +390,20 @@ export default function CartPage(): React.JSX.Element {
                               size="md"
                               className="justify-end text-fg sm:min-w-[96px]"
                             />
+                            {/* [TN-15] BẮT ĐẦU · Chuyển món sang danh sách yêu thích */}
+                            {/*
+                            <button
+                              type="button"
+                              onClick={() => handleSaveForLater(item)}
+                              disabled={addToWishlistMutation.isPending}
+                              className="rounded-full p-2 text-fg-3 transition-colors hover:bg-surface-2 hover:text-accent disabled:opacity-50"
+                              aria-label={`Lưu ${item.productName} để mua sau`}
+                              title="Lưu để mua sau"
+                            >
+                              <Heart className="size-4" aria-hidden="true" />
+                            </button>
+                            */}
+                            {/* [TN-15] KẾT THÚC */}
                             <button
                               type="button"
                               onClick={() => handleRemoveItem(item)}
@@ -323,12 +434,14 @@ export default function CartPage(): React.JSX.Element {
                 </div>
                 <div className="flex items-center justify-between text-fg-2">
                   <dt>Vận chuyển</dt>
-                  <dd className="text-success">Miễn phí</dd>
+                  <dd className={cartShippingFee > 0 ? 'font-mono text-fg' : 'text-success'}>
+                    {cartShippingFee > 0 ? formatVnd(cartShippingFee) : 'Miễn phí'}
+                  </dd>
                 </div>
                 <div className="flex items-baseline justify-between border-t border-line pt-4">
                   <dt className="font-semibold text-fg">Tổng thanh toán</dt>
                   <dd>
-                    <Ticker value={validSubtotal} formatAsCurrency className="text-2xl font-semibold text-fg" />
+                    <Ticker value={validSubtotal + cartShippingFee} formatAsCurrency className="text-2xl font-semibold text-fg" />
                   </dd>
                 </div>
               </dl>
@@ -339,16 +452,32 @@ export default function CartPage(): React.JSX.Element {
               {!isCartValidForCheckout && (
                 <p role="status" className="mt-5 flex items-start gap-2 text-sm text-warm">
                   <AlertTriangle className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
-                  <span>Xóa các món ngừng bán và giảm các món vượt tồn kho để có thể đặt hàng.</span>
+                  <span>{checkoutHint}</span>
                 </p>
               )}
+              {/* [TN-14] BẮT ĐẦU · Nút xóa nhanh các món ngừng bán */}
+              {/*
+              {cartItems.some((i) => !i.available) && (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  pill
+                  onClick={handleRemoveUnavailable}
+                  isLoading={removeUnavailableMutation.isPending}
+                  className="mt-3 w-full"
+                >
+                  Xóa {cartItems.filter((i) => !i.available).length} món ngừng bán khỏi giỏ
+                </Button>
+              )}
+              */}
+              {/* [TN-14] KẾT THÚC */}
 
               <Button
                 size="lg"
                 pill
                 variant="primary"
                 disabled={!isCartValidForCheckout}
-                onClick={() => navigate('/checkout')}
+                onClick={() => navigate(checkoutPath)}
                 className="mt-6 w-full gap-2"
               >
                 <span>Tiến hành đặt hàng</span>

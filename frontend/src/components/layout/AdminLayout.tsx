@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet, Link, useLocation } from 'react-router';
 import { BarChart3, Store, Search, Leaf, LogOut, Menu, X, ArrowLeft, type LucideIcon } from 'lucide-react';
+// import { ReceiptText } from 'lucide-react'; // [TN-03]
+// import { Wallet } from 'lucide-react'; // [TN-11]
 import { Logo } from '@/components/ui/Logo';
 import { useAuthState } from '@/api/queries/useAuthQueries';
 import { useLogout } from '@/api/mutations/useAuthMutations';
@@ -21,6 +23,8 @@ const ADMIN_NAV: AdminNavItem[] = [
   // Duyệt shop và sản phẩm: chỉ MODERATOR và SUPER_ADMIN (tài liệu 04)
   { label: 'Duyệt shop', path: '/admin/sellers', icon: Store, allowedRoles: ['SUPER_ADMIN', 'MODERATOR'] },
   { label: 'Duyệt sản phẩm', path: '/admin/products', icon: Search, allowedRoles: ['SUPER_ADMIN', 'MODERATOR'] },
+  // { label: 'Đơn hàng', path: '/admin/orders', icon: ReceiptText, allowedRoles: ['SUPER_ADMIN', 'MODERATOR'] }, // [TN-03]
+  // { label: 'Thanh toán', path: '/admin/payments', icon: Wallet, allowedRoles: ['SUPER_ADMIN', 'MODERATOR'] }, // [TN-11]
   // Quản lý loài: chỉ BIOLOGIST và SUPER_ADMIN
   { label: 'Quản lý loài', path: '/admin/species', icon: Leaf, allowedRoles: ['SUPER_ADMIN', 'BIOLOGIST'] },
 ];

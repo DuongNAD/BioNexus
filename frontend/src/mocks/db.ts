@@ -33,12 +33,37 @@ import type {
   ProductStatus,
 } from '@/types/api';
 import { createMockToken } from './auth';
+// import { MAX_QUANTITY_PER_PRODUCT } from '@/lib/purchaseRules'; // [TN-08]
+// import { shippingFeeFor } from '@/lib/purchaseRules'; // [TN-07]
+// import type { AdminOrderDto, OrderStatus } from '@/types/api'; // [TN-03]
+// import type { SalesStatsDto } from '@/types/api'; // [TN-04]
+// import type { SellerOrderDto } from '@/types/api'; // [TN-05]
+// import type { CouponDto } from '@/types/api'; // [TN-06]
+// import type { PaymentStatus } from '@/types/api'; // [TN-11]
 
 const STORAGE_KEY = 'bionexus.mock.v1';
 // Tăng khi đổi dữ liệu trong mocks/data để trình duyệt đã lưu bản cũ tự nạp lại seed
 export const SEED_VERSION = 5;
 
 const ORDER_CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+
+// [TN-06] BẮT ĐẦU · Mã giảm giá giả lập, khớp enum Coupon.java ở backend
+// const MOCK_COUPONS = [
+  // { code: 'BIONEXUS10', description: 'Giảm 10% tiền hàng, tối đa 200.000đ', percent: 10, fixedAmount: 0, maxDiscount: 200000, minOrderAmount: 0 },
+  // { code: 'GIAM50K', description: 'Giảm 50.000đ cho đơn từ 500.000đ', percent: 0, fixedAmount: 50000, maxDiscount: 0, minOrderAmount: 500000 },
+// ];
+
+// function couponDiscount(coupon: (typeof MOCK_COUPONS)[number], itemsTotal: number): number {
+  // let discount = coupon.fixedAmount;
+  // if (coupon.percent > 0) {
+    // discount = Math.floor((itemsTotal * coupon.percent) / 100);
+    // if (coupon.maxDiscount > 0 && discount > coupon.maxDiscount) {
+      // discount = coupon.maxDiscount;
+    // }
+  // }
+  // return Math.min(discount, itemsTotal);
+// }
+// [TN-06] KẾT THÚC
 
 /**
  * Loại bỏ dấu tiếng Việt phục vụ tìm kiếm mờ không phân biệt hoa thường và dấu
@@ -309,6 +334,29 @@ class MockDatabase {
     userId: number,
     data: CreateReviewRequest
   ): { status: number; body: { success: boolean; code: string; message: string; data: ReviewDto | null } } {
+    // [TN-16] BẮT ĐẦU · Luật giống ReviewService.java: đúng dữ liệu, đã mua và đã nhận hàng, mỗi người một lần
+    // if (!Number.isInteger(data.rating) || data.rating < 1 || data.rating > 5) {
+      // return { status: 400, body: { success: false, code: 'REVIEW_INVALID_RATING', message: 'Số sao đánh giá phải từ 1 đến 5', data: null } };
+    // }
+    // if (!data.comment || data.comment.trim().length === 0 || data.comment.trim().length > 1000) {
+      // return { status: 400, body: { success: false, code: 'REVIEW_INVALID_COMMENT', message: 'Vui lòng nhập nhận xét, tối đa 1000 ký tự', data: null } };
+    // }
+    // if (!this.state.products.some((p) => p.id === data.productId)) {
+      // return { status: 404, body: { success: false, code: 'PRODUCT_NOT_FOUND', message: 'Không tìm thấy sản phẩm', data: null } };
+    // }
+    // const hasCompletedPurchase = this.state.orders.some(
+      // (o) => o.userId === userId && o.status === 'COMPLETED' && o.items.some((item) => item.productId === data.productId)
+    // );
+    // if (!hasCompletedPurchase) {
+      // return {
+        // status: 403,
+        // body: { success: false, code: 'REVIEW_NOT_PURCHASED', message: 'Bạn chỉ đánh giá được sản phẩm đã mua và đã nhận hàng', data: null },
+      // };
+    // }
+    // if (this.state.reviews.some((r) => r.userId === userId && r.productId === data.productId)) {
+      // return { status: 409, body: { success: false, code: 'REVIEW_ALREADY_EXISTS', message: 'Bạn đã đánh giá sản phẩm này rồi', data: null } };
+    // }
+    // [TN-16] KẾT THÚC
     const product = this.state.products.find((p) => p.id === data.productId);
     if (!product) {
       return {
@@ -447,6 +495,14 @@ class MockDatabase {
         body: { success: false, code: 'CART_QUANTITY_EXCEEDS_STOCK', message: 'Số lượng vượt quá tồn kho hiện có', data: null },
       };
     }
+    // [TN-08] BẮT ĐẦU · Cộng dồn vào giỏ cũng không được vượt giới hạn mỗi sản phẩm
+    // if (newQty > MAX_QUANTITY_PER_PRODUCT) {
+      // return {
+        // status: 400,
+        // body: { success: false, code: 'ORDER_QUANTITY_LIMIT', message: 'Mỗi sản phẩm chỉ được mua tối đa 10 cá thể', data: null },
+      // };
+    // }
+    // [TN-08] KẾT THÚC
 
     if (existing) {
       existing.quantity = newQty;
@@ -504,6 +560,14 @@ class MockDatabase {
         body: { success: false, code: 'CART_QUANTITY_EXCEEDS_STOCK', message: 'Số lượng vượt quá tồn kho', data: null },
       };
     }
+    // [TN-08] BẮT ĐẦU · Sửa số lượng trong giỏ cũng không được vượt giới hạn mỗi sản phẩm
+    // if (quantity > MAX_QUANTITY_PER_PRODUCT) {
+      // return {
+        // status: 400,
+        // body: { success: false, code: 'ORDER_QUANTITY_LIMIT', message: 'Mỗi sản phẩm chỉ được mua tối đa 10 cá thể', data: null },
+      // };
+    // }
+    // [TN-08] KẾT THÚC
 
     existing.quantity = quantity;
     this.saveState();
@@ -552,6 +616,62 @@ class MockDatabase {
     };
   }
 
+  // [TN-14] BẮT ĐẦU · Xóa nhanh các món ngừng bán hoặc hết hàng khỏi giỏ
+  // public removeUnavailableFromCart(userId: number): { status: number; body: { success: boolean; code: string; message: string; data: CartDto } } {
+    // const userCart = this.state.carts[userId] || [];
+    // this.state.carts[userId] = userCart.filter((line) => {
+      // const product = this.state.products.find((p) => p.id === line.productId);
+      // return product !== undefined && product.status === 'APPROVED' && product.stockQuantity > 0;
+    // });
+    // this.saveState();
+    // return {
+      // status: 200,
+      // body: { success: true, code: 'CART_UNAVAILABLE_REMOVED', message: 'Đã xóa các món ngừng bán khỏi giỏ hàng', data: this.getCart(userId) },
+    // };
+  // }
+  // [TN-14] KẾT THÚC
+
+  // [TN-15] BẮT ĐẦU · Danh sách yêu thích (mới lưu nhất lên đầu, giống WishlistDao)
+  // public getWishlist(userId: number): ProductDto[] {
+    // const ids = this.state.wishlists?.[userId] ?? [];
+    // const result: ProductDto[] = [];
+    // for (const id of ids) {
+      // const product = this.state.products.find((p) => p.id === id);
+      // if (product) result.push(this.enrichProduct(product));
+    // }
+    // return result;
+  // }
+
+  // public addToWishlist(
+    // userId: number,
+    // productId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: ProductDto[] | null } } {
+    // if (!this.state.products.some((p) => p.id === productId)) {
+      // return { status: 404, body: { success: false, code: 'PRODUCT_NOT_FOUND', message: 'Không tìm thấy sản phẩm', data: null } };
+    // }
+    // if (!this.state.wishlists) this.state.wishlists = {};
+    // const ids = this.state.wishlists[userId] ?? [];
+    // if (!ids.includes(productId)) {
+      // this.state.wishlists[userId] = [productId, ...ids];
+      // this.saveState();
+    // }
+    // return { status: 200, body: { success: true, code: 'WISHLIST_ADDED', message: 'Đã lưu vào danh sách yêu thích', data: this.getWishlist(userId) } };
+  // }
+
+  // public removeFromWishlist(
+    // userId: number,
+    // productId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: ProductDto[] | null } } {
+    // const ids = this.state.wishlists?.[userId] ?? [];
+    // if (!ids.includes(productId)) {
+      // return { status: 404, body: { success: false, code: 'NOT_FOUND', message: 'Không tìm thấy dữ liệu yêu cầu', data: null } };
+    // }
+    // this.state.wishlists![userId] = ids.filter((id) => id !== productId);
+    // this.saveState();
+    // return { status: 200, body: { success: true, code: 'WISHLIST_REMOVED', message: 'Đã bỏ khỏi danh sách yêu thích', data: this.getWishlist(userId) } };
+  // }
+  // [TN-15] KẾT THÚC
+
   // ==========================================
   // 6. Đơn hàng & Thanh toán (Orders Transaction)
   // ==========================================
@@ -567,6 +687,15 @@ class MockDatabase {
         body: { success: false, code: 'ORDER_INVALID_SHIPPING_ADDRESS', message: 'Vui lòng nhập địa chỉ giao hàng', data: null },
       };
     }
+    // [TN-10] BẮT ĐẦU · Phương thức thanh toán: bỏ trống thì mặc định COD
+    // const paymentMethodForOrder = body.paymentMethod ?? 'COD';
+    // if (paymentMethodForOrder !== 'COD' && paymentMethodForOrder !== 'BANK_TRANSFER') {
+      // return {
+        // status: 400,
+        // body: { success: false, code: 'PAYMENT_INVALID_METHOD', message: 'Phương thức thanh toán không hợp lệ', data: null },
+      // };
+    // }
+    // [TN-10] KẾT THÚC
 
     // Xác định danh sách món cần đặt
     let buyList: { productId: number; quantity: number }[] = [];
@@ -591,6 +720,27 @@ class MockDatabase {
       const userCart = this.state.carts[userId] || [];
       buyList = userCart.map((i) => ({ productId: i.productId, quantity: i.quantity }));
     }
+    // [TN-13] BẮT ĐẦU · Chỉ đặt các món được chọn trong giỏ, món còn lại giữ trong giỏ
+    // let remainingCartLines: typeof buyList | null = null;
+    // if (!isDirectBuy && body.cartProductIds) {
+      // if (body.cartProductIds.length === 0) {
+        // return {
+          // status: 400,
+          // body: { success: false, code: 'ORDER_EMPTY_ITEMS', message: 'Đơn hàng phải có ít nhất một sản phẩm', data: null },
+        // };
+      // }
+      // const chosenIds = new Set(body.cartProductIds);
+      // const chosenLines = buyList.filter((line) => chosenIds.has(line.productId));
+      // if (chosenLines.length !== chosenIds.size) {
+        // return {
+          // status: 404,
+          // body: { success: false, code: 'CART_ITEM_NOT_FOUND', message: 'Sản phẩm không có trong giỏ hàng', data: null },
+        // };
+      // }
+      // remainingCartLines = buyList.filter((line) => !chosenIds.has(line.productId));
+      // buyList = chosenLines;
+    // }
+    // [TN-13] KẾT THÚC
 
     if (buyList.length === 0) {
       return {
@@ -615,7 +765,29 @@ class MockDatabase {
         };
       }
       seenProdIds.add(item.productId);
+      // [TN-08] BẮT ĐẦU · Mỗi sản phẩm tối đa 10 cá thể trong một đơn
+      // if (item.quantity > MAX_QUANTITY_PER_PRODUCT) {
+        // return {
+          // status: 400,
+          // body: { success: false, code: 'ORDER_QUANTITY_LIMIT', message: 'Mỗi sản phẩm chỉ được mua tối đa 10 cá thể', data: null },
+        // };
+      // }
+      // [TN-08] KẾT THÚC
     }
+
+    // [TN-06] BẮT ĐẦU · Kiểm tra mã giảm giá trước khi trừ kho (sai mã thì không đụng gì tới dữ liệu)
+    // let couponForOrder: (typeof MOCK_COUPONS)[number] | null = null;
+    // const requestedCode = body.couponCode ? body.couponCode.trim().toUpperCase() : '';
+    // if (requestedCode) {
+      // couponForOrder = MOCK_COUPONS.find((c) => c.code === requestedCode) ?? null;
+      // if (!couponForOrder) {
+        // return {
+          // status: 400,
+          // body: { success: false, code: 'COUPON_INVALID', message: 'Mã giảm giá không tồn tại', data: null },
+        // };
+      // }
+    // }
+    // [TN-06] KẾT THÚC
 
     // 1. Validation Phase (Không thay đổi dữ liệu)
     const userShop = this.state.shops.find((s) => s.userId === userId);
@@ -647,6 +819,22 @@ class MockDatabase {
       }
     }
 
+    // [TN-06] BẮT ĐẦU · Tiền hàng phải đạt mức tối thiểu của mã (tính trước khi trừ kho)
+    // if (couponForOrder) {
+      // let itemsTotalForCoupon = 0;
+      // for (const item of buyList) {
+        // const product = this.state.products.find((p) => p.id === item.productId)!;
+        // itemsTotalForCoupon += product.price * item.quantity;
+      // }
+      // if (itemsTotalForCoupon < couponForOrder.minOrderAmount) {
+        // return {
+          // status: 400,
+          // body: { success: false, code: 'COUPON_MIN_ORDER_NOT_MET', message: 'Đơn hàng chưa đạt giá trị tối thiểu của mã giảm giá', data: null },
+        // };
+      // }
+    // }
+    // [TN-06] KẾT THÚC
+
     // 2. Execution Phase (Atomic Transaction)
     let totalAmount = 0;
     const orderItems: OrderDto['items'] = [];
@@ -673,10 +861,25 @@ class MockDatabase {
       });
     }
 
+    // [TN-07] BẮT ĐẦU · Cộng phí vận chuyển (tính theo tiền hàng, giống OrderService)
+    // totalAmount += shippingFeeFor(totalAmount);
+    // [TN-07] KẾT THÚC
+    // [TN-06] BẮT ĐẦU · Trừ tiền giảm giá (tính trên tiền hàng, không tính trên phí vận chuyển)
+    // if (couponForOrder) {
+      // const itemsTotal = orderItems.reduce((sum, line) => sum + line.lineTotal, 0);
+      // totalAmount -= couponDiscount(couponForOrder, itemsTotal);
+    // }
+    // [TN-06] KẾT THÚC
+
     // Nếu mua từ giỏ hàng -> Xóa giỏ hàng
     if (!isDirectBuy) {
       this.state.carts[userId] = [];
     }
+    // [TN-13] BẮT ĐẦU · Đặt một phần giỏ: trả lại các món chưa chọn vào giỏ
+    // if (remainingCartLines) {
+      // this.state.carts[userId] = remainingCartLines;
+    // }
+    // [TN-13] KẾT THÚC
 
     const newId = this.state.nextOrderId++;
     const orderCode = this.generateOrderCode();
@@ -691,6 +894,13 @@ class MockDatabase {
       createdAt: new Date().toISOString(),
       items: orderItems,
     };
+
+    // [TN-10] BẮT ĐẦU · Lưu phương thức thanh toán vào đơn
+    // newOrder.paymentMethod = paymentMethodForOrder;
+    // [TN-10] KẾT THÚC
+    // [TN-11] BẮT ĐẦU · Đơn mới luôn chưa thanh toán
+    // newOrder.paymentStatus = 'UNPAID';
+    // [TN-11] KẾT THÚC
 
     this.state.orders.unshift(newOrder);
     this.saveState();
@@ -721,6 +931,239 @@ class MockDatabase {
   public getOrderById(userId: number, orderId: number): OrderDto | null {
     return this.state.orders.find((o) => o.id === orderId && o.userId === userId) || null;
   }
+
+  // [TN-00] BẮT ĐẦU · Hủy đơn (hoàn kho) và hoàn tất đơn, dùng chung cho TN-01, TN-02, TN-03
+  // // Trả về câu báo lỗi nếu không đổi được, null nếu đổi thành công (giống OrderService.java).
+  // // Để public vì TypeScript báo lỗi hàm private không dùng tới khi chỉ bật TN-00.
+  // public cancelAndRestoreStock(order: MockOrder): { status: number; code: string; message: string } | null {
+    // if (order.status !== 'PENDING') {
+      // return { status: 409, code: 'ORDER_CANNOT_CANCEL', message: 'Không thể hủy đơn hàng ở trạng thái hiện tại' };
+    // }
+    // order.status = 'CANCELLED';
+    // for (const item of order.items) {
+      // const product = this.state.products.find((p) => p.id === item.productId);
+      // if (product) {
+        // product.stockQuantity += item.quantity;
+        // if (product.status === 'SOLD_OUT') {
+          // product.status = 'APPROVED';
+        // }
+      // }
+    // }
+    // this.saveState();
+    // return null;
+  // }
+
+  // public markCompleted(order: MockOrder): { status: number; code: string; message: string } | null {
+    // if (order.status !== 'PENDING') {
+      // return { status: 409, code: 'ORDER_CANNOT_COMPLETE', message: 'Chỉ hoàn tất được đơn hàng đang chờ xử lý' };
+    // }
+    // order.status = 'COMPLETED';
+    // this.saveState();
+    // return null;
+  // }
+  // [TN-00] KẾT THÚC
+
+  // [TN-01] BẮT ĐẦU · Người mua hủy đơn của mình
+  // public cancelMyOrder(
+    // userId: number,
+    // orderId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: OrderDto | null } } {
+    // const order = this.state.orders.find((o) => o.id === orderId && o.userId === userId);
+    // if (!order) {
+      // return { status: 404, body: { success: false, code: 'ORDER_NOT_FOUND', message: 'Không tìm thấy đơn hàng', data: null } };
+    // }
+    // const error = this.cancelAndRestoreStock(order);
+    // if (error) {
+      // return { status: error.status, body: { success: false, code: error.code, message: error.message, data: null } };
+    // }
+    // return { status: 200, body: { success: true, code: 'ORDER_CANCEL_SUCCESS', message: 'Hủy đơn hàng thành công', data: order } };
+  // }
+  // [TN-01] KẾT THÚC
+
+  // [TN-02] BẮT ĐẦU · Người mua xác nhận đã nhận hàng
+  // public confirmReceived(
+    // userId: number,
+    // orderId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: OrderDto | null } } {
+    // const order = this.state.orders.find((o) => o.id === orderId && o.userId === userId);
+    // if (!order) {
+      // return { status: 404, body: { success: false, code: 'ORDER_NOT_FOUND', message: 'Không tìm thấy đơn hàng', data: null } };
+    // }
+    // const error = this.markCompleted(order);
+    // if (error) {
+      // return { status: error.status, body: { success: false, code: error.code, message: error.message, data: null } };
+    // }
+    // return {
+      // status: 200,
+      // body: { success: true, code: 'ORDER_COMPLETE_SUCCESS', message: 'Đã xác nhận nhận hàng, đơn hàng hoàn tất', data: order },
+    // };
+  // }
+  // [TN-02] KẾT THÚC
+
+  // [TN-03] BẮT ĐẦU · Quản trị viên xem mọi đơn và đổi trạng thái
+  // private toAdminOrder(order: MockOrder): AdminOrderDto {
+    // const buyer = this.state.users.find((u) => u.id === order.userId);
+    // return { ...order, buyerUsername: buyer ? buyer.username : null, buyerFullName: buyer ? buyer.fullName : null };
+  // }
+
+  // public getAdminOrders(status?: string): AdminOrderDto[] {
+    // // Mảng orders đã xếp đơn mới nhất lên đầu (placeOrder dùng unshift)
+    // const list = status ? this.state.orders.filter((o) => o.status === status) : this.state.orders;
+    // return list.map((o) => this.toAdminOrder(o));
+  // }
+
+  // public updateOrderStatusByAdmin(
+    // orderId: number,
+    // status: OrderStatus
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: AdminOrderDto | null } } {
+    // const order = this.state.orders.find((o) => o.id === orderId);
+    // if (!order) {
+      // return { status: 404, body: { success: false, code: 'ORDER_NOT_FOUND', message: 'Không tìm thấy đơn hàng', data: null } };
+    // }
+    // let error: { status: number; code: string; message: string } | null = null;
+    // if (status === 'CANCELLED') {
+      // error = this.cancelAndRestoreStock(order);
+    // } else if (status === 'COMPLETED') {
+      // error = this.markCompleted(order);
+    // } else {
+      // error = { status: 400, code: 'INVALID_STATUS', message: 'Trạng thái không hợp lệ' };
+    // }
+    // if (error) {
+      // return { status: error.status, body: { success: false, code: error.code, message: error.message, data: null } };
+    // }
+    // return { status: 200, body: { success: true, code: 'UPDATED_SUCCESS', message: 'Cập nhật thành công', data: this.toAdminOrder(order) } };
+  // }
+  // [TN-03] KẾT THÚC
+
+  // [TN-04] BẮT ĐẦU · Thống kê doanh thu (cùng cách tính với StatsService.java)
+  // public getSalesStats(): SalesStatsDto {
+    // const orders = this.state.orders;
+    // let completedRevenue = 0;
+    // let pendingAmount = 0;
+    // for (const o of orders) {
+      // if (o.status === 'COMPLETED') completedRevenue += o.totalAmount;
+      // if (o.status === 'PENDING') pendingAmount += o.totalAmount;
+    // }
+
+    // // Sản phẩm bán chạy: cộng số lượng trên các đơn chưa hủy
+    // const sold = new Map<number, { productId: number; productName: string; quantitySold: number; revenue: number }>();
+    // for (const o of orders) {
+      // if (o.status === 'CANCELLED') continue;
+      // for (const item of o.items) {
+        // const row = sold.get(item.productId) ?? { productId: item.productId, productName: item.productName, quantitySold: 0, revenue: 0 };
+        // row.quantitySold += item.quantity;
+        // row.revenue += item.lineTotal;
+        // sold.set(item.productId, row);
+      // }
+    // }
+    // const topProducts = [...sold.values()]
+      // .sort((a, b) => b.quantitySold - a.quantitySold || b.revenue - a.revenue)
+      // .slice(0, 5);
+
+    // // 6 tháng gần nhất, tháng không có đơn hoàn tất thì doanh thu 0
+    // const revenueByMonth: SalesStatsDto['revenueByMonth'] = [];
+    // const now = new Date();
+    // for (let back = 5; back >= 0; back--) {
+      // const d = new Date(now.getFullYear(), now.getMonth() - back, 1);
+      // const month = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+      // const inMonth = orders.filter((o) => o.status === 'COMPLETED' && o.createdAt.slice(0, 7) === month);
+      // revenueByMonth.push({ month, revenue: inMonth.reduce((sum, o) => sum + o.totalAmount, 0), orderCount: inMonth.length });
+    // }
+
+    // return {
+      // completedRevenue,
+      // pendingAmount,
+      // totalOrders: orders.length,
+      // pendingOrders: orders.filter((o) => o.status === 'PENDING').length,
+      // completedOrders: orders.filter((o) => o.status === 'COMPLETED').length,
+      // cancelledOrders: orders.filter((o) => o.status === 'CANCELLED').length,
+      // topProducts,
+      // revenueByMonth,
+    // };
+  // }
+  // [TN-04] KẾT THÚC
+
+  // [TN-05] BẮT ĐẦU · Người bán xem các đơn có hàng của shop mình
+  // public getShopOrders(
+    // userId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: SellerOrderDto[] | null } } {
+    // const shop = this.state.shops.find((s) => s.userId === userId);
+    // if (!shop) {
+      // return { status: 403, body: { success: false, code: 'SELLER_NOT_ACTIVE', message: 'Cửa hàng chưa được duyệt hoặc đang bị khóa', data: null } };
+    // }
+    // const result: SellerOrderDto[] = [];
+    // for (const order of this.state.orders) {
+      // // Chỉ giữ các món thuộc shop này: một đơn có thể gồm hàng của nhiều shop
+      // const shopItems = order.items.filter((item) => {
+        // const product = this.state.products.find((p) => p.id === item.productId);
+        // return product !== undefined && product.sellerProfileId === shop.id;
+      // });
+      // if (shopItems.length === 0) continue;
+      // const buyer = this.state.users.find((u) => u.id === order.userId);
+      // result.push({
+        // id: order.id,
+        // orderCode: order.orderCode,
+        // status: order.status,
+        // createdAt: order.createdAt,
+        // buyerFullName: buyer ? buyer.fullName : null,
+        // shippingAddress: order.shippingAddress,
+        // items: shopItems,
+        // shopTotal: shopItems.reduce((sum, item) => sum + item.lineTotal, 0),
+      // });
+    // }
+    // return { status: 200, body: { success: true, code: 'SUCCESS', message: 'Thành công', data: result } };
+  // }
+  // [TN-05] KẾT THÚC
+
+  // [TN-11] BẮT ĐẦU · Đối soát thanh toán (giống OrderService.getOrdersByPaymentStatus và confirmPayment)
+  // public getOrdersByPaymentStatus(status?: PaymentStatus): OrderDto[] {
+    // if (!status) return this.state.orders;
+    // return this.state.orders.filter((o) => (o.paymentStatus ?? 'UNPAID') === status);
+  // }
+
+  // public confirmPayment(
+    // orderId: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: OrderDto | null } } {
+    // const order = this.state.orders.find((o) => o.id === orderId);
+    // if (!order) {
+      // return { status: 404, body: { success: false, code: 'ORDER_NOT_FOUND', message: 'Không tìm thấy đơn hàng', data: null } };
+    // }
+    // if (order.paymentStatus === 'PAID' || order.status === 'CANCELLED') {
+      // return {
+        // status: 409,
+        // body: { success: false, code: 'PAYMENT_CANNOT_CONFIRM', message: 'Đơn đã được thanh toán hoặc đã bị hủy', data: null },
+      // };
+    // }
+    // order.paymentStatus = 'PAID';
+    // this.saveState();
+    // return { status: 200, body: { success: true, code: 'PAYMENT_CONFIRMED', message: 'Đã xác nhận thu tiền cho đơn hàng', data: order } };
+  // }
+  // [TN-11] KẾT THÚC
+
+  // [TN-06] BẮT ĐẦU · Xem trước mã giảm giá cho trang thanh toán
+  // public checkCoupon(
+    // code: string,
+    // subtotal: number
+  // ): { status: number; body: { success: boolean; code: string; message: string; data: CouponDto | null } } {
+    // const coupon = MOCK_COUPONS.find((c) => c.code === code.trim().toUpperCase());
+    // if (!coupon) {
+      // return { status: 400, body: { success: false, code: 'COUPON_INVALID', message: 'Mã giảm giá không tồn tại', data: null } };
+    // }
+    // if (subtotal < coupon.minOrderAmount) {
+      // return {
+        // status: 400,
+        // body: { success: false, code: 'COUPON_MIN_ORDER_NOT_MET', message: 'Đơn hàng chưa đạt giá trị tối thiểu của mã giảm giá', data: null },
+      // };
+    // }
+    // const data: CouponDto = {
+      // code: coupon.code,
+      // description: coupon.description,
+      // discountAmount: couponDiscount(coupon, subtotal),
+      // minOrderAmount: coupon.minOrderAmount,
+    // };
+    // return { status: 200, body: { success: true, code: 'SUCCESS', message: 'Thành công', data } };
+  // }
+  // [TN-06] KẾT THÚC
 
   // ==========================================
   // 7. Người bán / Shop (Seller)

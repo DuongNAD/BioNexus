@@ -70,4 +70,44 @@ export const orderHandlers = [
       );
     }
   }),
+
+  // [TN-01] BẮT ĐẦU · Người mua hủy đơn (POST api/orders/:id/cancel)
+  // http.post('*/api/orders/:id/cancel', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const id = Number(params.id);
+    // if (!Number.isInteger(id) || id <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.cancelMyOrder(guard.session.sub, id);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-01] KẾT THÚC
+
+  // [TN-02] BẮT ĐẦU · Người mua xác nhận đã nhận hàng (POST api/orders/:id/complete)
+  // http.post('*/api/orders/:id/complete', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const id = Number(params.id);
+    // if (!Number.isInteger(id) || id <= 0) {
+      // return HttpResponse.json({ success: false, code: 'INVALID_ID', message: 'Mã định danh không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.confirmReceived(guard.session.sub, id);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-02] KẾT THÚC
+
+  // [TN-06] BẮT ĐẦU · Xem trước mã giảm giá (GET api/coupons/:code?subtotal=), không cần đăng nhập
+  // http.get('*/api/coupons/:code', async ({ request, params }) => {
+    // await applySimulatedLatency();
+    // const subtotal = Number(new URL(request.url).searchParams.get('subtotal') ?? 0);
+    // if (!Number.isFinite(subtotal) || subtotal < 0) {
+      // return HttpResponse.json({ success: false, code: 'BAD_REQUEST', message: 'Dữ liệu gửi lên không hợp lệ', data: null }, { status: 400 });
+    // }
+    // const res = db.checkCoupon(String(params.code), subtotal);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-06] KẾT THÚC
 ];

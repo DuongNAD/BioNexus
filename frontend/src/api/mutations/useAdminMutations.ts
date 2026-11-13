@@ -10,6 +10,8 @@ import type {
   SellerStatus,
   ProductStatus,
 } from '@/types/api';
+// import type { AdminOrderDto, OrderStatus } from '@/types/api'; // [TN-03]
+// import type { OrderDto } from '@/types/api'; // [TN-11]
 
 // Hợp đồng chỉ có { status }; reason là trường đề xuất, chỉ gửi khi có nội dung
 function buildStatusPayload(status: SellerStatus | ProductStatus, reason?: string): UpdateStatusRequest {
@@ -89,3 +91,42 @@ export function useCreateSpecies() {
     },
   });
 }
+
+// [TN-03] BẮT ĐẦU · Quản trị viên hoàn tất hoặc hủy đơn (PUT api/admin/orders/{id}/status)
+// export function useUpdateOrderStatus() {
+  // const queryClient = useQueryClient();
+
+  // return useMutation({
+    // mutationFn: async ({ orderId, status }: { orderId: number; status: OrderStatus }) => {
+      // const res = await api<AdminOrderDto>(`admin/orders/${orderId}/status`, {
+        // method: 'PUT',
+        // body: JSON.stringify({ status }),
+      // });
+      // return res.data!;
+    // },
+    // // Hủy đơn thì kho được hoàn lại: làm mới cả sản phẩm và thống kê (nằm trong admin.all)
+    // onSettled: () => {
+      // queryClient.invalidateQueries({ queryKey: queryKeys.admin.all() });
+      // queryClient.invalidateQueries({ queryKey: queryKeys.orders.all() });
+      // queryClient.invalidateQueries({ queryKey: queryKeys.products.all() });
+    // },
+  // });
+// }
+// [TN-03] KẾT THÚC
+
+// [TN-11] BẮT ĐẦU · Quản trị viên xác nhận đã thu tiền (PUT api/admin/orders/{id}/payment)
+// export function useConfirmPayment() {
+  // const queryClient = useQueryClient();
+
+  // return useMutation({
+    // mutationFn: async (orderId: number) => {
+      // const res = await api<OrderDto>(`admin/orders/${orderId}/payment`, { method: 'PUT' });
+      // return res.data!;
+    // },
+    // onSettled: () => {
+      // queryClient.invalidateQueries({ queryKey: queryKeys.admin.all() });
+      // queryClient.invalidateQueries({ queryKey: queryKeys.orders.all() });
+    // },
+  // });
+// }
+// [TN-11] KẾT THÚC

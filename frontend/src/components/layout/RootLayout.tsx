@@ -32,8 +32,6 @@ const FOOTER_COLUMNS: { title: string; links: { label: string; to: string; devOn
     links: [
       { label: 'Mở shop', to: '/seller/apply' },
       { label: 'Nguồn ảnh', to: '/credits' },
-      { label: 'Đăng nhập quản trị', to: '/admin/login' },
-      { label: 'Thư viện giao diện', to: '/dev/ui', devOnly: true },
     ],
   },
 ];

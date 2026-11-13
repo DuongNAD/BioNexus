@@ -704,7 +704,7 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
       });
     });
 
-    describe('4.2 LoginPage Error Enforcements & Quick Seed', () => {
+    describe('4.2 LoginPage Error Enforcements', () => {
       const renderLogin = () => {
         const queryClient = new QueryClient({
           defaultOptions: { queries: { retry: false, gcTime: 0 } },
@@ -731,8 +731,9 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
         renderLogin();
 
-        const vuthifBtn = screen.getByText('vuthif');
-        fireEvent.click(vuthifBtn);
+        fireEvent.change(screen.getByPlaceholderText('Nhập tên đăng nhập...'), { target: { value: 'vuthif' } });
+        fireEvent.change(screen.getByPlaceholderText('Nhập mật khẩu...'), { target: { value: '123456' } });
+        fireEvent.click(screen.getByRole('button', { name: 'Đăng nhập' }));
 
         await waitFor(() => {
           expect(
@@ -751,8 +752,9 @@ describe('CHALLENGER 1: Transactional Adversarial Stress Testing — Milestone 5
 
         renderLogin();
 
-        const dangvangBtn = screen.getByText('dangvang');
-        fireEvent.click(dangvangBtn);
+        fireEvent.change(screen.getByPlaceholderText('Nhập tên đăng nhập...'), { target: { value: 'dangvang' } });
+        fireEvent.change(screen.getByPlaceholderText('Nhập mật khẩu...'), { target: { value: '123456' } });
+        fireEvent.click(screen.getByRole('button', { name: 'Đăng nhập' }));
 
         await waitFor(() => {
           expect(

@@ -1,6 +1,8 @@
 package com.bionexus.backend.model;
 
 import com.bionexus.backend.enums.OrderStatus;
+// import com.bionexus.backend.enums.PaymentMethod; // [TN-10]
+// import com.bionexus.backend.enums.PaymentStatus; // [TN-11]
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -99,4 +101,28 @@ public class Orders {
     public void setShippingAddress(String shippingAddress) {
         this.shippingAddress = shippingAddress;
     }
+
+    // [TN-10] BẮT ĐẦU · Phương thức thanh toán của đơn
+    // private PaymentMethod paymentMethod = PaymentMethod.COD;
+
+    // public PaymentMethod getPaymentMethod() {
+        // return paymentMethod;
+    // }
+
+    // public void setPaymentMethod(PaymentMethod paymentMethod) {
+        // this.paymentMethod = paymentMethod;
+    // }
+    // [TN-10] KẾT THÚC
+
+    // [TN-11] BẮT ĐẦU · Trạng thái thanh toán của đơn
+    // private PaymentStatus paymentStatus = PaymentStatus.UNPAID;
+
+    // public PaymentStatus getPaymentStatus() {
+        // return paymentStatus;
+    // }
+
+    // public void setPaymentStatus(PaymentStatus paymentStatus) {
+        // this.paymentStatus = paymentStatus;
+    // }
+    // [TN-11] KẾT THÚC
 }

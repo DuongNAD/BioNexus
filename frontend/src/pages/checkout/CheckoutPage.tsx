@@ -30,6 +30,10 @@ import { ApiError } from '@/api/errors';
 import { formatVnd } from '@/lib/parseEnvironmentSpecs';
 import { cn } from '@/lib/cn';
 import type { PlaceOrderRequest } from '@/types/api';
+import { shippingFeeFor } from '@/lib/purchaseRules';
+// import { FREE_SHIPPING_FROM } from '@/lib/purchaseRules'; // [TN-07]
+// import { CouponField } from './components/CouponField'; // [TN-06]
+// import type { CouponDto } from '@/types/api'; // [TN-06]
 import { toast } from 'sonner';
 
 // Tài liệu 03 mục 9: chỉ gửi shippingAddress (≥ 10 ký tự, khớp ORDER_INVALID_SHIPPING_ADDRESS)
@@ -83,6 +87,9 @@ export default function CheckoutPage(): React.JSX.Element {
   const [conflictError, setConflictError] = useState<string | null>(null);
   // Nội dung chuyển khoản phải cố định trong suốt phiên thanh toán, không đổi theo mỗi lần render
   const [transferMemo] = useState(() => `BIONEXUS ${Date.now().toString().slice(-6)}`);
+  // [TN-06] BẮT ĐẦU · Mã giảm giá đã áp dụng (null là chưa dùng mã)
+  // const [appliedCoupon, setAppliedCoupon] = useState<CouponDto | null>(null);
+  // [TN-06] KẾT THÚC
 
   const {
     register,
@@ -109,6 +116,17 @@ export default function CheckoutPage(): React.JSX.Element {
   }, [me, getValues, setValue]);
 
   const directProduct = directQuery.data;
+  // Các món trong giỏ sẽ đặt: mặc định cả giỏ ([TN-13] chỉ lấy các món được chọn ở trang giỏ)
+  let cartLinesToOrder = cartQuery.data?.items ?? [];
+  // [TN-13] BẮT ĐẦU · Đọc ?chon=1,2,3 do trang giỏ hàng gửi sang
+  // const chosenParam = searchParams.get('chon');
+  // let chosenIds: number[] | null = null;
+  // if (chosenParam) {
+    // const ids = chosenParam.split(',').map(Number).filter((id) => Number.isInteger(id) && id > 0);
+    // chosenIds = ids;
+    // cartLinesToOrder = cartLinesToOrder.filter((line) => ids.includes(line.productId));
+  // }
+  // [TN-13] KẾT THÚC
   const isLoading = isDirectBuy ? directQuery.isLoading : cartQuery.isLoading;
   const loadError = isDirectBuy ? directQuery.error : cartQuery.error;
   const refetch = isDirectBuy ? directQuery.refetch : cartQuery.refetch;
@@ -126,7 +144,7 @@ export default function CheckoutPage(): React.JSX.Element {
           },
         ]
       : []
-    : (cartQuery.data?.items ?? []).map((i) => ({
+    : cartLinesToOrder.map((i) => ({
         productId: i.productId,
         productName: i.productName,
         imageUrl: resolveProductImage(i.imageUrl),
@@ -145,13 +163,21 @@ export default function CheckoutPage(): React.JSX.Element {
       }
       return null;
     }
-    const items = cartQuery.data?.items ?? [];
+    const items = cartLinesToOrder;
     if (items.some((i) => !i.available)) return 'Giỏ hàng có món đã ngừng bán hoặc hết hàng.';
     if (items.some((i) => i.quantity > i.maxQuantity)) return 'Giỏ hàng có món vượt quá số lượng còn trong kho.';
     return null;
   })();
 
   const subtotal = checkoutItems.reduce((acc, i) => acc + i.lineTotal, 0);
+  // Phí vận chuyển theo quy tắc chung: mặc định 0đ ([TN-07] mới bắt đầu tính phí)
+  const shippingFee = shippingFeeFor(subtotal);
+  let totalToPay = subtotal + shippingFee;
+  // [TN-06] BẮT ĐẦU · Trừ tiền giảm giá của mã đã áp dụng
+  // if (appliedCoupon) {
+    // totalToPay = totalToPay - appliedCoupon.discountAmount;
+  // }
+  // [TN-06] KẾT THÚC
 
   const onStep1Submit = () => {
     setCurrentStep(2);
@@ -163,6 +189,23 @@ export default function CheckoutPage(): React.JSX.Element {
     const payload: PlaceOrderRequest = isDirectBuy
       ? { items: [{ productId: directProductId!, quantity: directQuantity }], shippingAddress: address }
       : { shippingAddress: address };
+    // [TN-06] BẮT ĐẦU · Gửi kèm mã giảm giá; backend tự tính lại số tiền được giảm
+    // if (appliedCoupon) {
+      // payload.couponCode = appliedCoupon.code;
+    // }
+    // [TN-06] KẾT THÚC
+    // [TN-13] BẮT ĐẦU · Chỉ đặt các món đã chọn trong giỏ; backend chỉ xóa các món này khỏi giỏ
+    // if (!isDirectBuy && chosenIds) {
+      // payload.cartProductIds = chosenIds;
+    // }
+    // [TN-13] KẾT THÚC
+    // [TN-10] BẮT ĐẦU · Gửi kèm phương thức thanh toán người mua đã chọn ở bước 2
+    // if (paymentMethod === 'VIETQR') {
+      // payload.paymentMethod = 'BANK_TRANSFER';
+    // } else {
+      // payload.paymentMethod = 'COD';
+    // }
+    // [TN-10] KẾT THÚC
 
     try {
       const order = await placeOrderMutation.mutateAsync(payload);
@@ -383,7 +426,7 @@ export default function CheckoutPage(): React.JSX.Element {
                     </div>
                     {paymentMethod === 'VIETQR' && (
                       <div className="mt-4">
-                        <VietQRCard amount={subtotal} memo={transferMemo} />
+                        <VietQRCard amount={totalToPay} memo={transferMemo} />
                       </div>
                     )}
                   </fieldset>
@@ -436,18 +479,47 @@ export default function CheckoutPage(): React.JSX.Element {
                   </li>
                 ))}
               </ul>
+              {/* [TN-06] BẮT ĐẦU · Ô nhập mã giảm giá */}
+              {/*
+              <div className="mt-2 border-t border-line pt-4">
+                <CouponField subtotal={subtotal} applied={appliedCoupon} onChange={setAppliedCoupon} />
+              </div>
+              */}
+              {/* [TN-06] KẾT THÚC */}
               <dl className="mt-2 space-y-3 border-t border-line pt-4 text-sm">
                 <div className="flex justify-between text-fg-2">
                   <dt>Vận chuyển</dt>
-                  <dd className="text-success">Miễn phí</dd>
+                  <dd className={shippingFee > 0 ? 'font-mono text-fg' : 'text-success'}>
+                    {shippingFee > 0 ? formatVnd(shippingFee) : 'Miễn phí'}
+                  </dd>
                 </div>
+                {/* [TN-06] BẮT ĐẦU · Dòng tiền được giảm */}
+                {/*
+                {appliedCoupon && (
+                  <div className="flex justify-between text-fg-2">
+                    <dt>Giảm giá ({appliedCoupon.code})</dt>
+                    <dd className="font-mono text-success">-{formatVnd(appliedCoupon.discountAmount)}</dd>
+                  </div>
+                )}
+                */}
+                {/* [TN-06] KẾT THÚC */}
                 <div className="flex items-baseline justify-between">
                   <dt className="font-semibold text-fg">Tổng thanh toán</dt>
                   <dd>
-                    <Price amount={subtotal} size="lg" className="text-2xl text-fg" />
+                    <Price amount={totalToPay} size="lg" className="text-2xl text-fg" />
                   </dd>
                 </div>
               </dl>
+              {/* [TN-07] BẮT ĐẦU · Gợi ý mua thêm để được miễn phí vận chuyển */}
+              {/*
+              {shippingFee > 0 && (
+                <p className="mt-3 text-sm text-fg-3">
+                  Mua thêm <span className="font-mono text-fg-2">{formatVnd(FREE_SHIPPING_FROM - subtotal)}</span> để được
+                  miễn phí vận chuyển.
+                </p>
+              )}
+              */}
+              {/* [TN-07] KẾT THÚC */}
               <p className="mt-4 flex items-start gap-2 text-sm text-fg-3">
                 <ShieldCheck className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
                 <span>Nếu có món vừa hết hàng, đơn sẽ không được tạo và giỏ hàng giữ nguyên.</span>

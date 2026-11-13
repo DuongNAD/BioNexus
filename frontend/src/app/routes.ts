@@ -31,12 +31,15 @@ export const APP_ROUTES: RouteMeta[] = [
   { path: '/orders', name: 'Đơn hàng', title: 'Lịch sử Đơn hàng', layout: 'account', has3D: false, description: 'Theo dõi tiến độ xử lý và vận chuyển đơn hàng.', access: 'user' },
   { path: '/orders/:id', name: 'Chi tiết đơn hàng', title: 'Chi tiết Đơn hàng', layout: 'account', has3D: false, description: 'Mã đơn, địa chỉ giao hàng và danh sách sinh vật.', access: 'user' },
   { path: '/account', name: 'Tài khoản', title: 'Hồ sơ Cá nhân', layout: 'account', has3D: false, description: 'Quản lý thông tin cá nhân và thiết lập tài khoản.', access: 'user' },
+  // { path: '/wishlist', name: 'Yêu thích', title: 'Danh sách Yêu thích', layout: 'account', has3D: false, description: 'Các cá thể đã lưu để mua sau.', access: 'user' }, // [TN-15]
   { path: '/seller/apply', name: 'Đăng ký mở shop', title: 'Đăng ký Người bán', layout: 'account', has3D: false, description: 'Nộp hồ sơ cấp phép trang trại sinh vật cảnh.', access: 'user' },
   { path: '/seller', name: 'Bảng điều khiển Shop', title: 'Quản lý Bán hàng', layout: 'seller', has3D: false, description: 'Thống kê sản phẩm và đơn hàng của shop.', access: 'user' },
   { path: '/seller/products/new', name: 'Đăng bán mới', title: 'Đăng ký Cá thể Mới', layout: 'seller', has3D: false, description: 'Tạo hồ sơ đăng bán liên kết mã định danh loài.', access: 'user' },
   { path: '/admin', name: 'Quản trị hệ thống', title: 'Tổng quan Quản trị', layout: 'admin', has3D: false, description: 'Chỉ số thống kê KPI sinh quyển và vận hành sàn.', access: 'admin' },
   { path: '/admin/sellers', name: 'Kiểm duyệt shop', title: 'Kiểm duyệt Người bán', layout: 'admin', has3D: false, description: 'Phê duyệt hoặc từ chối hồ sơ đăng ký mở shop.', access: 'admin', roles: ['MODERATOR'] },
   { path: '/admin/products', name: 'Kiểm duyệt sản phẩm', title: 'Kiểm duyệt Sinh vật cảnh', layout: 'admin', has3D: false, description: 'Đối soát cá thể đăng bán với danh mục bảo tồn.', access: 'admin', roles: ['MODERATOR'] },
+  // { path: '/admin/orders', name: 'Quản lý đơn hàng', title: 'Quản lý Đơn hàng', layout: 'admin', has3D: false, description: 'Theo dõi, hoàn tất hoặc hủy đơn hàng trên sàn.', access: 'admin', roles: ['MODERATOR'] }, // [TN-03]
+  // { path: '/admin/payments', name: 'Đối soát thanh toán', title: 'Đối soát Thanh toán', layout: 'admin', has3D: false, description: 'Xác nhận đã thu tiền cho đơn COD và chuyển khoản.', access: 'admin', roles: ['MODERATOR'] }, // [TN-11]
   { path: '/admin/species', name: 'Quản lý loài', title: 'Quản trị Bách khoa Loài', layout: 'admin', has3D: false, description: 'Cập nhật danh mục khoa học và thông số sinh học.', access: 'admin', roles: ['BIOLOGIST'] },
   { path: '/credits', name: 'Bản quyền ảnh', title: 'Ghi công & Bản quyền Ảnh', layout: 'root', has3D: false, description: 'Minh bạch nguồn gốc, tác giả và giấy phép Wikimedia Commons.' },
   { path: '/dev/ui', name: 'Thư viện giao diện', title: 'Thư viện Giao diện Dev', layout: 'root', has3D: false, description: 'Trưng bày toàn bộ 37 thành phần UI ở chế độ phát triển.', devOnly: true },

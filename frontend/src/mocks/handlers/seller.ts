@@ -95,4 +95,14 @@ export const sellerHandlers = [
       );
     }
   }),
+
+  // [TN-05] BẮT ĐẦU · Các đơn có hàng của shop tôi (GET api/seller/orders)
+  // http.get('*/api/seller/orders', async ({ request }) => {
+    // await applySimulatedLatency();
+    // const guard = requireUser(request);
+    // if ('response' in guard) return guard.response;
+    // const res = db.getShopOrders(guard.session.sub);
+    // return HttpResponse.json(res.body, { status: res.status });
+  // }),
+  // [TN-05] KẾT THÚC
 ];

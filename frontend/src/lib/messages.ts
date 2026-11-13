@@ -87,6 +87,14 @@ export const MESSAGE_MAP: Record<MessageKey, string> = {
   ORDER_DUPLICATE_ITEMS: 'Mỗi sản phẩm chỉ được xuất hiện một lần trong đơn hàng',
   ORDER_OWN_PRODUCT: 'Bạn không thể mua sản phẩm của chính cửa hàng mình',
   ORDER_CANCEL_SUCCESS: 'Hủy đơn hàng thành công',
+  // ORDER_CANNOT_COMPLETE: 'Chỉ hoàn tất được đơn hàng đang chờ xử lý', // [TN-00]
+  // ORDER_COMPLETE_SUCCESS: 'Đã xác nhận nhận hàng, đơn hàng hoàn tất', // [TN-02]
+  // ORDER_QUANTITY_LIMIT: 'Mỗi sản phẩm chỉ được mua tối đa 10 cá thể', // [TN-08]
+  // COUPON_INVALID: 'Mã giảm giá không tồn tại', // [TN-06]
+  // COUPON_MIN_ORDER_NOT_MET: 'Đơn hàng chưa đạt giá trị tối thiểu của mã giảm giá', // [TN-06]
+  // PAYMENT_INVALID_METHOD: 'Phương thức thanh toán không hợp lệ', // [TN-10]
+  // PAYMENT_CONFIRMED: 'Đã xác nhận thu tiền cho đơn hàng', // [TN-11]
+  // PAYMENT_CANNOT_CONFIRM: 'Đơn đã được thanh toán hoặc đã bị hủy', // [TN-11]
 
   // 8. CART
   CART_ITEM_ADDED: 'Đã thêm vào giỏ hàng',
@@ -97,6 +105,14 @@ export const MESSAGE_MAP: Record<MessageKey, string> = {
   CART_EMPTY: 'Giỏ hàng đang trống',
   CART_INVALID_QUANTITY: 'Số lượng trong giỏ phải lớn hơn 0',
   CART_QUANTITY_EXCEEDS_STOCK: 'Số lượng vượt quá tồn kho hiện có',
+  // REVIEW_CREATED: 'Cảm ơn bạn đã đánh giá sản phẩm', // [TN-16]
+  // REVIEW_INVALID_RATING: 'Số sao đánh giá phải từ 1 đến 5', // [TN-16]
+  // REVIEW_INVALID_COMMENT: 'Vui lòng nhập nhận xét, tối đa 1000 ký tự', // [TN-16]
+  // REVIEW_NOT_PURCHASED: 'Bạn chỉ đánh giá được sản phẩm đã mua và đã nhận hàng', // [TN-16]
+  // REVIEW_ALREADY_EXISTS: 'Bạn đã đánh giá sản phẩm này rồi', // [TN-16]
+  // CART_UNAVAILABLE_REMOVED: 'Đã xóa các món ngừng bán khỏi giỏ hàng', // [TN-14]
+  // WISHLIST_ADDED: 'Đã lưu vào danh sách yêu thích', // [TN-15]
+  // WISHLIST_REMOVED: 'Đã bỏ khỏi danh sách yêu thích', // [TN-15]
 };
 
 /**

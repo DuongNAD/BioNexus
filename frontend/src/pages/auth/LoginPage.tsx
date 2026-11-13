@@ -6,17 +6,13 @@ import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useLogin } from '@/api/mutations/useAuthMutations';
 import { ApiError } from '@/api/errors';
-import { USE_MOCKS } from '@/lib/env';
 import { toast } from 'sonner';
-import { AuthCard, AuthError, DemoLogins, PasswordField, type DemoAccount } from './components/AuthCard';
+import { AuthCard, AuthError, PasswordField } from './components/AuthCard';
 
 interface LoginFormValues {
   username: string;
   password: string;
 }
-
-// Nút đăng nhập nhanh chứa mật khẩu seed: chỉ hiện khi chạy dev với MSW, không bao giờ vào bản build
-const SHOW_DEMO_LOGINS = import.meta.env.DEV && USE_MOCKS;
 
 export default function LoginPage(): React.JSX.Element {
   const [searchParams] = useSearchParams();
@@ -28,7 +24,6 @@ export default function LoginPage(): React.JSX.Element {
   const {
     register,
     handleSubmit,
-    setValue,
     formState: { errors },
   } = useForm<LoginFormValues>({
     defaultValues: {
@@ -71,13 +66,6 @@ export default function LoginPage(): React.JSX.Element {
     }
   };
 
-  const handleQuickFill = (acc: DemoAccount) => {
-    if (loginMutation.isPending) return;
-    setValue('username', acc.username);
-    setValue('password', acc.password);
-    void handleSubmit(onSubmit)();
-  };
-
   return (
     <AuthCard
       eyebrow="Thành viên BioNexus"
@@ -89,11 +77,6 @@ export default function LoginPage(): React.JSX.Element {
             Chưa có tài khoản?{' '}
             <Link to="/register" className="font-medium text-accent hover:underline">
               Đăng ký thành viên mới
-            </Link>
-          </p>
-          <p>
-            <Link to="/admin/login" className="hover:text-fg">
-              Đăng nhập dành cho Ban Quản trị
             </Link>
           </p>
         </>
@@ -129,20 +112,6 @@ export default function LoginPage(): React.JSX.Element {
           <span>{loginMutation.isPending ? 'Đang xác thực...' : 'Đăng nhập'}</span>
         </Button>
       </form>
-
-      {/* Đăng nhập nhanh bằng tài khoản seed: chỉ có ở chế độ dev + MSW */}
-      {SHOW_DEMO_LOGINS && (
-        <DemoLogins
-          disabled={loginMutation.isPending}
-          onPick={handleQuickFill}
-          accounts={[
-            { username: 'levanc', password: '123456', note: 'Người mua' },
-            { username: 'nguyenvana', password: '123456', note: 'Chủ shop' },
-            { username: 'vuthif', password: '123456', note: 'Bị khóa (403)' },
-            { username: 'dangvang', password: '123456', note: 'Tạm khóa (403)' },
-          ]}
-        />
-      )}
     </AuthCard>
   );
 }

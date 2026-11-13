@@ -6,6 +6,11 @@ import com.bionexus.backend.enums.MessageKey;
 import com.bionexus.backend.enums.ProductStatus;
 import com.bionexus.backend.enums.SellerProfileStatus;
 import com.bionexus.backend.service.SellerService;
+// import com.bionexus.backend.enums.OrderStatus; // [TN-03]
+// import com.bionexus.backend.service.OrderService; // [TN-03]
+// import com.bionexus.backend.service.StatsService; // [TN-04]
+// import com.bionexus.backend.enums.PaymentStatus; // [TN-11]
+// import com.bionexus.backend.service.OrderService; // [TN-11]
 import com.bionexus.backend.util.ApiErrors;
 import com.bionexus.backend.util.ApiException;
 import com.bionexus.backend.util.JsonUtil;
@@ -23,6 +28,9 @@ import java.io.IOException;
 @WebServlet("/api/admin/*")
 public class AdminServlet extends HttpServlet {
     private final SellerService sellerService = new SellerService();
+    // private final OrderService orderService = new OrderService(); // [TN-03]
+    // private final StatsService statsService = new StatsService(); // [TN-04]
+    // private final OrderService paymentOrderService = new OrderService(); // [TN-11]
 
     /** Chỉ MODERATOR và SUPER_ADMIN được duyệt; BIOLOGIST gọi vào đây thì 403. */
     private void requireModerator(HttpServletRequest request) {
@@ -62,6 +70,20 @@ public class AdminServlet extends HttpServlet {
             } else if (p.length == 1 && "products".equals(p[0])) {
                 var list = sellerService.getProductsByStatus(parseStatus(status, ProductStatus.class, false));
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(list));
+            // [TN-03] BẮT ĐẦU · GET /api/admin/orders?status=: danh sách đơn cho quản trị
+            // } else if (p.length == 1 && "orders".equals(p[0])) {
+                // var list = orderService.getOrdersForAdmin(parseStatus(status, OrderStatus.class, false));
+                // JsonUtil.writeBody(response, 200, ApiResponse.ok(list));
+            // [TN-03] KẾT THÚC
+            // [TN-04] BẮT ĐẦU · GET /api/admin/stats: thống kê doanh thu
+            // } else if (p.length == 1 && "stats".equals(p[0])) {
+                // JsonUtil.writeBody(response, 200, ApiResponse.ok(statsService.getSalesStats()));
+            // [TN-04] KẾT THÚC
+            // [TN-11] BẮT ĐẦU · GET /api/admin/payments?status=UNPAID: đơn theo trạng thái thanh toán
+            // } else if (p.length == 1 && "payments".equals(p[0])) {
+                // var list = paymentOrderService.getOrdersByPaymentStatus(parseStatus(status, PaymentStatus.class, false));
+                // JsonUtil.writeBody(response, 200, ApiResponse.ok(list));
+            // [TN-11] KẾT THÚC
             } else {
                 JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
             }
@@ -76,6 +98,14 @@ public class AdminServlet extends HttpServlet {
             requireModerator(request);
             int adminId = (int) request.getAttribute("authId");
             String[] p = parts(request);                      // {"sellers", "5", "status"}
+            // [TN-11] BẮT ĐẦU · PUT /api/admin/orders/{id}/payment: xác nhận đã thu tiền (không cần body)
+            // if (p.length == 3 && "orders".equals(p[0]) && "payment".equals(p[2])) {
+                // long orderId = Long.parseLong(p[1]);
+                // JsonUtil.writeBody(response, 200,
+                        // ApiResponse.ok(MessageKey.PAYMENT_CONFIRMED, paymentOrderService.confirmPayment(orderId)));
+                // return;
+            // }
+            // [TN-11] KẾT THÚC
             if (p.length != 3 || !"status".equals(p[2])) {
                 JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
                 return;
@@ -90,6 +120,11 @@ public class AdminServlet extends HttpServlet {
             } else if ("products".equals(p[0])) {
                 var s = parseStatus(body.status(), ProductStatus.class, true);
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(sellerService.moderateProduct(adminId, id, s)));
+            // [TN-03] BẮT ĐẦU · PUT /api/admin/orders/{id}/status: hoàn tất hoặc hủy đơn (hủy thì hoàn kho)
+            // } else if ("orders".equals(p[0])) {
+                // var s = parseStatus(body.status(), OrderStatus.class, true);
+                // JsonUtil.writeBody(response, 200, ApiResponse.ok(MessageKey.UPDATED_SUCCESS, orderService.updateOrderStatusByAdmin(id, s)));
+            // [TN-03] KẾT THÚC
             } else {
                 JsonUtil.writeBody(response, 404, ApiResponse.error(MessageKey.NOT_FOUND));
             }

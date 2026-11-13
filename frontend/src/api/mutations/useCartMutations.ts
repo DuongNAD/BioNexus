@@ -140,3 +140,52 @@ export function useClearCart() {
     },
   });
 }
+
+// [TN-14] BẮT ĐẦU · Xóa nhanh mọi món ngừng bán hoặc hết hàng khỏi giỏ (DELETE api/cart/unavailable)
+// export function useRemoveUnavailableItems() {
+  // const queryClient = useQueryClient();
+
+  // return useMutation({
+    // mutationFn: async () => {
+      // const res = await api<CartDto>('cart/unavailable', { method: 'DELETE' });
+      // return res.data!;
+    // },
+    // onSuccess: (data) => {
+      // queryClient.setQueryData(queryKeys.cart.current(), data);
+    // },
+    // onError: toastCartError,
+    // onSettled: () => {
+      // queryClient.invalidateQueries({ queryKey: queryKeys.cart.current() });
+    // },
+  // });
+// }
+// [TN-14] KẾT THÚC
+
+// [TN-17] BẮT ĐẦU · Gộp giỏ tạm của khách vào giỏ thật sau khi đăng nhập
+// // Gọi lần lượt POST api/cart/items cho từng món; món nào backend từ chối (hết hàng, hàng của shop mình...) thì bỏ qua và đếm lại.
+// export function useMergeGuestCart() {
+  // const queryClient = useQueryClient();
+
+  // return useMutation({
+    // mutationFn: async (lines: { productId: number; quantity: number }[]) => {
+      // let addedCount = 0;
+      // let failedCount = 0;
+      // for (const line of lines) {
+        // try {
+          // await api<CartDto>('cart/items', {
+            // method: 'POST',
+            // body: JSON.stringify({ productId: line.productId, quantity: line.quantity }),
+          // });
+          // addedCount = addedCount + 1;
+        // } catch {
+          // failedCount = failedCount + 1;
+        // }
+      // }
+      // return { addedCount, failedCount };
+    // },
+    // onSettled: () => {
+      // queryClient.invalidateQueries({ queryKey: queryKeys.cart.current() });
+    // },
+  // });
+// }
+// [TN-17] KẾT THÚC

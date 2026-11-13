@@ -105,6 +105,13 @@ public class CartServlet extends HttpServlet {
                 JsonUtil.writeBody(response, 200, ApiResponse.ok(MessageKey.CART_CLEARED, cartService.clear(userId)));
                 return;
             }
+            // [TN-14] BẮT ĐẦU · DELETE /api/cart/unavailable: xóa các món ngừng bán hoặc hết hàng
+            // if ("/unavailable".equals(path)) {
+                // JsonUtil.writeBody(response, 200,
+                        // ApiResponse.ok(MessageKey.CART_UNAVAILABLE_REMOVED, cartService.removeUnavailable(userId)));
+                // return;
+            // }
+            // [TN-14] KẾT THÚC
             Integer productId = productIdFrom(path);
             if (productId == null) {
                 notFound(response);

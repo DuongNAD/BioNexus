@@ -8,11 +8,6 @@ import { QualityProvider } from './components/3d/QualityProvider';
 import { ApiError } from './api/errors';
 import { getAuthState, getIdentityKey, subscribeAuth } from './api/authStore';
 
-// DevPanel kéo theo cả kho mock và mật khẩu seed: chỉ tải ở chế độ dev để bản build không chứa chúng
-const DevPanel = import.meta.env.DEV
-  ? React.lazy(() => import('./components/dev/DevPanel').then((m) => ({ default: m.DevPanel })))
-  : null;
-
 // Các nhánh bộ đệm gắn với người đang đăng nhập
 const PRIVATE_QUERY_ROOTS = new Set(['auth', 'cart', 'orders', 'seller', 'admin']);
 
@@ -69,11 +64,6 @@ export default function App(): React.JSX.Element {
               className: 'bg-glass border border-line text-fg backdrop-blur-xl',
             }}
           />
-          {DevPanel && (
-            <Suspense fallback={null}>
-              <DevPanel />
-            </Suspense>
-          )}
         </QualityProvider>
       </MotionConfig>
     </QueryClientProvider>

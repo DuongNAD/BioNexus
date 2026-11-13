@@ -22,7 +22,10 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Base64;
 
-@WebFilter(urlPatterns = {"/api/me", "/api/seller/*", "/api/admin/*", "/api/orders/*","/api/cart/*"})
+@WebFilter(urlPatterns = {"/api/me", "/api/seller/*", "/api/admin/*", "/api/orders/*","/api/cart/*"
+        // , "/api/wishlist/*" // [TN-15]
+        // , "/api/reviews/*" // [TN-16]
+})
 public class JwtAuthFilter implements Filter {
     private final UsersDao usersDao = new UsersDao();
     private final AdminsDao adminsDao = new AdminsDao();

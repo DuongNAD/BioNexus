@@ -8,6 +8,8 @@ export const SEED_ORDERS: MockOrder[] = [
     orderCode: 'ORD-2026-0001',
     userId: 3, // levanc
     status: 'PENDING',
+    // paymentMethod: 'COD', // [TN-10]
+    // paymentStatus: 'UNPAID', // [TN-11]
     totalAmount: 2050000,
     shippingAddress: '123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng',
     createdAt: '2026-10-25T14:30:00Z',
@@ -21,6 +23,8 @@ export const SEED_ORDERS: MockOrder[] = [
     orderCode: 'ORD-2026-0002',
     userId: 3, // levanc
     status: 'COMPLETED',
+    // paymentMethod: 'COD', // [TN-10]
+    // paymentStatus: 'PAID', // [TN-11]
     totalAmount: 590000,
     shippingAddress: '123 Nguyễn Văn Linh, Hải Châu, Đà Nẵng',
     createdAt: '2026-10-26T09:15:00Z',
@@ -34,6 +38,8 @@ export const SEED_ORDERS: MockOrder[] = [
     orderCode: 'ORD-2026-0003',
     userId: 7, // dangvang
     status: 'CANCELLED',
+    // paymentMethod: 'COD', // [TN-10]
+    // paymentStatus: 'UNPAID', // [TN-11]
     totalAmount: 3500000,
     shippingAddress: '45 Lê Lợi, Nha Trang, Khánh Hòa',
     createdAt: '2026-10-26T16:45:00Z',
